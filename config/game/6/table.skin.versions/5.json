@@ -1,0 +1,73 @@
+{
+	"local":["0", "1", "2"],
+	"list":[
+		{
+			"id":"1001",
+			"name":"girl",
+			"type":"2d",
+			"display":"初恋", 
+			"update":2,
+			"icon":"${http_download}/dizhu/table.skin/girl/icon5.png",
+			"preview":"${http_download}/dizhu/table.skin/girl/preview.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count":30,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【初恋】永久皮肤，售价30钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/girl/girl_v5_u2_1.zip",
+			"md5":"025ec3e2ba2c94ea122564edc8bbdcee"
+		},
+		{
+			"id":"1002",
+			"name":"green",
+			"type":"2d",
+			"display":"绿色", 
+			"update":2,
+			"icon":"${http_download}/dizhu/table.skin/green/icon5.png",
+			"preview":"${http_download}/dizhu/table.skin/green/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":0,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【绿色】限时免费"
+			},
+			"url":"${http_download}/dizhu/table.skin/green/green_v5_u2_1.zip",
+			"md5":"c2c100af7ad7d4968ef9dcc29ec9215d"
+		},
+		{
+			"id":"1003",
+			"name":"grid",
+			"type":"2d",
+			"display":"格子", 
+			"update":2,
+			"icon":"${http_download}/dizhu/table.skin/grid/icon5.png",
+			"preview":"${http_download}/dizhu/table.skin/grid/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":30000,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【格子】永久皮肤，售价30000金币，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/grid/grid_v5_u2_1.zip",
+			"md5":"afd700d8f510fb47e0040ffb1161c404"
+		},
+		{
+			"id":"1004",
+			"name":"newyear",
+			"type":"2d",
+			"display":"春节", 
+			"update":2,
+			"icon":"${http_download}/dizhu/table.skin/newyear/icon5.png",
+			"preview":"${http_download}/dizhu/table.skin/newyear/preview_2.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count":10,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【春节】永久皮肤，售价10钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/newyear/newyear_v5_u2_1.zip",
+			"md5":"9055d4f77efc2a93f0351d8eb35ab783"
+		}
+	]
+}

@@ -1,0 +1,120 @@
+{
+	"configDesc":"麻将房间其他相关配置,例如:比赛的标签配置,自建桌",
+	"room_tabs": ["all","hot","free"],
+	"table_start_led_match_ids": [7355, 7356, 7363, 7364, 7365, 7367],
+	"bigmatch_champion_led_match_ids":[7350, 7351, 7354, 7355, 7356, 7361, 7362, 7363, 7364, 7365, 7366, 7367],
+	"create_table_config": {
+			"guobiao": {
+					"playModeDesc": "国标麻将",
+					"cardCount":[
+						{"id": 1, "value":4, "desc":"4局(限时免费)", "default": 1, "fangka_count": 0},
+						{"id": 2, "value":8, "desc":"8局(限时免费)", "default": 0, "fangka_count": 0}
+						]
+			},
+			"sichuan_conf": {
+					"playModeDesc": "四川麻将",
+					"paramType":{"cardCount": "游戏局数", "maxDegreee":"封顶番数", "playType": "玩法选择", "decideAbsence": "定缺", "change3Tiles": "换三张", "ziMoType":"自摸"},
+					"cardCount":[
+						{"id": 1, "value":4, "desc":"4局(限时免费)", "default": 1, "fangka_count": 0},
+						{"id": 2, "value":8, "desc":"8局(限时免费)", "default": 0, "fangka_count": 0}
+						],
+					"maxDegreee":[
+						{"id":1, "desc":"3番封顶", "default": 1, "value": 3},
+						{"id":2, "desc":"4番封顶", "default": 0, "value": 4},
+						{"id":3, "desc":"5番封顶", "default": 0, "value": 5},
+						{"id":4, "desc":"不封顶", "default": 0, "value": 100}
+						],
+					"playType":[
+						{"id":1, "desc":"血战到底", "default": 1},
+						{"id":2, "desc":"血流成河", "default": 0}
+						],
+					"decideAbsence":[
+						{"id":1, "desc":"定缺", "default": 1},
+						{"id":2, "desc":"不定缺", "default": 0}
+						],
+					"change3Tiles":[
+						{"id":1, "desc":"换三张", "default": 0},
+						{"id":2, "desc":"不换三张", "default": 1}
+						],
+					"ziMoType":[
+						{"id": 1, "desc": "自摸加底", "default": 0},
+						{"id": 2, "desc": "自摸加番", "default": 1}
+						]
+			},
+			"zhuanzhuan":{
+				"playModeDesc": "转转麻将",
+				"paramType":{"cardCount": "游戏局数", "huWay": "玩法选择", "zhaNiao":"扎鸟"},
+				"cardCount":[
+						{"id": 1, "value":4, "desc":"4局(限时免费)", "default": 1, "fangka_count": 0},
+						{"id": 2, "value":8, "desc":"8局(限时免费)", "default": 0, "fangka_count": 0}
+					],
+				"huWay":[
+						{"id":1, "desc":"可点炮", "default": 1},
+						{"id":2, "desc":"自摸胡", "default": 0}
+					],
+				"zhaNiao":[
+					{"id": 0, "value":0, "desc":"扎0鸟", "default": 0},
+					{"id": 1, "value":2, "desc":"扎2鸟", "default": 1},
+					{"id": 2, "value":4, "desc":"扎4鸟", "default": 0},
+					{"id": 3, "value":6, "desc":"扎6鸟", "default": 0}
+				]
+			},
+			"hongzhong":{
+				"playModeDesc": "红中麻将",
+				"paramType":{"cardCount": "游戏局数","huWay": "玩法选择","zhaNiao":"扎鸟"},
+				"cardCount":[
+						{"id": 1, "value":4, "desc":"4局(限时免费)", "default": 1, "fangka_count": 0},
+						{"id": 2, "value":8, "desc":"8局(限时免费)", "default": 0, "fangka_count": 0}
+					],
+				"huWay":[
+						{"id":1, "desc":"可点炮", "default": 1},
+						{"id":2, "desc":"自摸胡", "default": 0}
+					],
+				"zhaNiao":[
+					{"id": 0, "value":0, "desc":"扎0鸟", "default": 0},
+					{"id": 1, "value":2, "desc":"扎2鸟", "default": 1},
+					{"id": 2, "value":4, "desc":"扎4鸟", "default": 0},
+					{"id": 3, "value":6, "desc":"扎6鸟", "default": 0}
+				]
+			},
+			"guiyang_zhuoji":{
+				"playModeDesc": "贵阳捉鸡",
+				"paramType":{"cardCount": "游戏局数"},
+				"cardCount":[
+						{"id": 1, "value":4, "desc":"4局(限时免费)", "default": 1, "fangka_count": 0},
+						{"id": 2, "value":8, "desc":"8局(限时免费)", "default": 0, "fangka_count": 0}
+					]
+			}
+	},
+	"create_table_weixin_invite_info": {
+			"title": "三缺一，麻将找脚啦",
+			"des": "房间号：$##table_no##,$##play_mode##,$##card_count##局",
+			"url": "http://a.app.qq.com/o/simple.jsp?pkgname=com.tuyoo.doudizhu.main",
+			"type": "1"
+	},
+	"create_table_weixin_inivite_desc_key":["huWay","zhaNiao","maxDegreee","playType","decideAbsence","change3Tiles","ziMoType"],
+	"leave_countdown": 2,
+	"create_table_leave_success": "解散牌桌成功",
+	"create_table_leave_failure": "解散牌桌失败，继续游戏",
+	"create_table_clientid":[
+		"Android_3.770_weixin.alipay.0-hall7.youle.scmj",
+		"IOS_3.781_weixin.appStore,weixinPay,alipay.0-hall7.appStore.youlescmj"
+	],
+	"create_table_init_fangka": 12,
+	"create_table_countdown": 60,
+	"create_table_suffix": [7, 8, 9],
+	"playmode_desc_map":{
+                          "sichuan": "四川麻将",
+                          "guobiao": "疯狂麻将",
+                          "sichuan_dq": "血战麻将",
+                          "harbin": "哈尔滨麻将",
+                          "guobiao2ren": "二人麻将",
+                          "sichuan_xlch": "血流麻将",
+                          "sichuan_conf": "四川麻将",
+                          "zhuanzhuan": "转转麻将",
+                          "hongzhong": "红中麻将",
+                          "guiyang_zhuoji": "贵阳捉鸡"
+                         },
+    "invite_big_winner_reward":[{"count":2,"itemId":"item:2046"}],
+    "big_winner_reward_limit_count": 20
+}

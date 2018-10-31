@@ -1,0 +1,1910 @@
+{
+	"__comment": [
+		"配置说明: ",
+		"newbie:是新手任务配置,任务ID最好是以61001开始。tasks_order是对tasks里的任务Id进行排序",
+		"daily:是段位任务配置,segment_task_list里是段位对应任务列表,任务列表里的id才是任务id,以62000开始,为了各段位区分,62+段位+id来定义。daily每个段位的tasks数量必须一致",
+		"ID命令只是基本规则,只要全局不重复,怎么配置都可以!",
+		"rewardMultiRate: 分享等奖励加成比例",
+		"inspector里typeId主要控制什么事情会触发进度更新。 ddz.segment.win - 天梯获胜; ddz.segment.winStreak - 天梯赛连胜; ddz.segment.winlose 天梯胜利或失败 ",
+		"conditions里typeId控制在进度更新需要满足的条件。ddz.cond.segment.up - 升段，里面的segment表示达到什么段位",
+		"multiReward加成奖励信息"
+	],
+	"newbie": {
+		"tasks": {
+			"61001": {
+				"total": 3,
+				"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+				"title": "闯关中获胜3局",
+				"desc": "新玩家福利任务",
+				"extRewardDesc": "1元",
+				"typeId": "ddz.segment.newbie.task",
+				"inspector": {
+					"typeId": "ddz.segment.win",
+					"conditions": []
+				},
+				"rewardContent": {
+					"typeId": "FixedContent",
+					"items": [
+						{
+							"itemId": "user:coupon",
+							"count": 100
+						}
+					]
+				},
+				"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+				"rewardDesc": "恭喜获得1元微信红包"
+			},
+			"61002": {
+				"total": 1,
+				"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+				"title": "闯关达到白银初级",
+				"desc": "新玩家福利任务",
+				"extRewardDesc": "0.9元",
+				"typeId": "ddz.segment.newbie.task",
+				"inspector": {
+					"typeId": "ddz.segment.winlose",
+					"conditions": [
+						{
+							"typeId": "ddz.cond.segment.up",
+							"segment": 4
+						}
+					]
+				},
+				"rewardContent": {
+					"typeId": "FixedContent",
+					"items": [
+						{
+							"itemId": "user:coupon",
+							"count": 90
+						}
+					]
+				},
+				"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+				"rewardDesc": "恭喜获得0.9元微信红包"
+			},
+			"61003": {
+				"total": 1,
+				"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+				"title": "闯关达到白银中级",
+				"desc": "新玩家福利任务",
+				"extRewardDesc": "0.9元",
+				"typeId": "ddz.segment.newbie.task",
+				"inspector": {
+					"typeId": "ddz.segment.winlose",
+					"conditions": [
+						{
+							"typeId": "ddz.cond.segment.up",
+							"segment": 5
+						}
+					]
+				},
+				"rewardContent": {
+					"typeId": "FixedContent",
+					"items": [
+						{
+							"itemId": "user:coupon",
+							"count": 90
+						}
+					]
+				},
+				"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+				"rewardDesc": "恭喜获得0.9元微信红包"
+			}
+		},
+		"tasks_order": [
+			"61001",
+			"61002",
+			"61003"
+		]
+	},
+	"daily": {
+		"segment_task_list": {
+			"5": [
+				{
+					"id": 62501,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.5,
+						"multiRewardDesc": "恭喜获得0.9元微信红包"
+					}
+				},
+				{
+					"id": 62502,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.3元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "可得0.3元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62503,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"6": [
+				{
+					"id": 62601,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.5,
+						"multiRewardDesc": "恭喜获得0.9元微信红包"
+					}
+				},
+				{
+					"id": 62602,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.3元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "可得0.3元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62603,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"7": [
+				{
+					"id": 62701,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.5,
+						"multiRewardDesc": "恭喜获得0.9元微信红包"
+					}
+				},
+				{
+					"id": 62702,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.3元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "可得0.3元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62703,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"8": [
+				{
+					"id": 62801,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.5,
+						"multiRewardDesc": "恭喜获得0.9元微信红包"
+					}
+				},
+				{
+					"id": 62802,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.3元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "可得0.3元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62803,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"9": [
+				{
+					"id": 62901,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.5,
+						"multiRewardDesc": "恭喜获得0.9元微信红包"
+					}
+				},
+				{
+					"id": 62902,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.3元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "可得0.3元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62903,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"10": [
+				{
+					"id": 62101,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.5,
+						"multiRewardDesc": "恭喜获得0.9元微信红包"
+					}
+				},
+				{
+					"id": 62102,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.3元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "可得0.3元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62103,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"11": [
+				{
+					"id": 62111,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.5,
+						"multiRewardDesc": "恭喜获得0.9元微信红包"
+					}
+				},
+				{
+					"id": 62112,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.3元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "可得0.3元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62113,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"12": [
+				{
+					"id": 62121,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.5,
+						"multiRewardDesc": "恭喜获得0.9元微信红包"
+					}
+				},
+				{
+					"id": 62122,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.3元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "可得0.3元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62123,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"13": [
+				{
+					"id": 62131,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.5,
+						"multiRewardDesc": "恭喜获得0.9元微信红包"
+					}
+				},
+				{
+					"id": 62132,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.3元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "可得0.3元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62133,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"14": [
+				{
+					"id": 62141,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.5,
+						"multiRewardDesc": "恭喜获得0.9元微信红包"
+					}
+				},
+				{
+					"id": 62142,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.3元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "可得0.3元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62143,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "初级福利任务",
+					"extRewardDesc": "0.6元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.6元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"15": [
+				{
+					"id": 62151,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "1元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.2,
+						"multiRewardDesc": "恭喜获得1.2元微信红包"
+					}
+				},
+				{
+					"id": 62152,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "0.4元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.4元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62153,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "0.8元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.8元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"16": [
+				{
+					"id": 62161,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "1元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.2,
+						"multiRewardDesc": "恭喜获得1.2元微信红包"
+					}
+				},
+				{
+					"id": 62162,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "0.4元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.4元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62163,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "0.8元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.8元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"17": [
+				{
+					"id": 62171,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "1元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.2,
+						"multiRewardDesc": "恭喜获得1.2元微信红包"
+					}
+				},
+				{
+					"id": 62172,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "0.4元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.4元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62173,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "0.8元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.8元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"18": [
+				{
+					"id": 62181,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "1元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.2,
+						"multiRewardDesc": "恭喜获得1.2元微信红包"
+					}
+				},
+				{
+					"id": 62182,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "0.4元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.4元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62183,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "0.8元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.8元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"19": [
+				{
+					"id": 62191,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "1元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.2,
+						"multiRewardDesc": "恭喜获得1.2元微信红包"
+					}
+				},
+				{
+					"id": 62192,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "0.4元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.4元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62193,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "中级福利任务",
+					"extRewardDesc": "0.8元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.8元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"20": [
+				{
+					"id": 62201,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "1.5元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1.5元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.1,
+						"multiRewardDesc": "恭喜获得1.65元微信红包"
+					}
+				},
+				{
+					"id": 62202,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "0.55元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.55元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62203,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "1.1元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1.1元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"21": [
+				{
+					"id": 62211,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "1.5元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1.5元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.1,
+						"multiRewardDesc": "恭喜获得1.65元微信红包"
+					}
+				},
+				{
+					"id": 62212,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "0.55元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.55元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62213,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "1.1元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1.1元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"22": [
+				{
+					"id": 62221,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "1.5元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1.5元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.1,
+						"multiRewardDesc": "恭喜获得1.65元微信红包"
+					}
+				},
+				{
+					"id": 62222,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "0.55元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.55元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62223,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "1.1元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1.1元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"23": [
+				{
+					"id": 62231,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "1.5元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1.5元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.1,
+						"multiRewardDesc": "恭喜获得1.65元微信红包"
+					}
+				},
+				{
+					"id": 62232,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "0.55元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.55元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62233,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "1.1元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1.1元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"24": [
+				{
+					"id": 62241,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "1.5元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1.5元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.1,
+						"multiRewardDesc": "恭喜获得1.65元微信红包"
+					}
+				},
+				{
+					"id": 62242,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "0.55元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.55元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62243,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "高级福利任务",
+					"extRewardDesc": "1.1元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1.1元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			],
+			"25": [
+				{
+					"id": 62251,
+					"typeId": "ddz.segment.daily.task",
+					"total": 6,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜6局",
+					"desc": "大师级福利任务",
+					"extRewardDesc": "2元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0.1,
+						"multiRewardDesc": "恭喜获得2.2元微信红包"
+					}
+				},
+				{
+					"id": 62252,
+					"typeId": "ddz.segment.daily.task",
+					"total": 8,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中获胜8局",
+					"desc": "大师级福利任务",
+					"extRewardDesc": "0.75元",
+					"inspector": {
+						"typeId": "ddz.segment.win",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得0.75元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				},
+				{
+					"id": 62253,
+					"typeId": "ddz.segment.daily.task",
+					"total": 5,
+					"pic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png",
+					"title": "闯关中连胜5局",
+					"desc": "大师级福利任务",
+					"extRewardDesc": "1.5元",
+					"inspector": {
+						"typeId": "ddz.segment.winStreak",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 0
+							}
+						]
+					},
+					"rewardPic": "https://ddzqn.nalrer.cn/ddz/other/icon_red_packet.png ",
+					"rewardDesc": "恭喜获得1.5元微信红包",
+					"multiReward": {
+						"rewardMultiRate": 0,
+						"multiRewardDesc": "不加成"
+					}
+				}
+			]
+		}
+	}
+}

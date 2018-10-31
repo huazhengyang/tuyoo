@@ -1,0 +1,13 @@
+{
+  "room_items" : {
+    "19001": {"id":19001, "name":"普通厅", "config":0, "condition":"1万金币准入"}
+  },
+
+  "session_items" : {
+    "dog": {"session":"跑狗","roomName":"普通场", "match":0, "dog":2, "rooms": ["19001"]}
+  },
+
+  "templates" : {
+    "default" : ["dog"]
+  }
+}

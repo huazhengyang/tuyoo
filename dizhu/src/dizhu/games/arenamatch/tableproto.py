@@ -1,0 +1,358 @@
+# -*- coding:utf-8 -*-
+'''
+Created on 2017年2月18日
+
+@author: zhaojiangang
+'''
+import time
+
+from dizhu.entity import dizhuconf, dizhuhallinfo, dizhu_util
+from dizhu.entity.dizhuconf import DIZHU_GAMEID
+from dizhu.entity.dizhuversion import SessionDizhuVersion
+from dizhu.games.tablecommonproto import DizhuTableProtoCommonBase
+from dizhu.servers.util.rpc import new_table_remote
+from freetime.core.tasklet import FTTasklet
+from freetime.entity.msg import MsgPack
+import freetime.util.log as ftlog
+from poker.entity.biz.content import TYContentItem
+from poker.entity.game.rooms.big_match_ctrl.const import AnimationType
+from poker.entity.game.rooms.room import TYRoom
+from poker.protocol import router
+from poker.util import strutil
+
+
+class DizhuTableProtoArenaMatch(DizhuTableProtoCommonBase):
+    WINLOSE_SLEEP = 2
+
+    def __init__(self, tableCtrl):
+        super(DizhuTableProtoArenaMatch, self).__init__(tableCtrl)
+
+    def _do_table_manage__m_table_start(self, msg):
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableProtoArenaMatch._do_table_manage__m_table_start',
+                        'msg=', msg)
+        
+        startTime = int(time.time())
+        tableInfo = msg.getKey('params')
+        ret = self.tableCtrl.startMatchTable(tableInfo)
+        
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableProtoArenaMatch._do_table_manage__m_table_start',
+                        'msg=', msg,
+                        'ret=', ret,
+                        'used=', int(time.time()) - startTime)
+    
+    def _do_table_manage__m_table_clear(self, msg):
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableProtoArenaMatch._do_table_manage__m_table_clear',
+                        'msg=', msg)
+        params = msg.getKey('params')
+        matchId = params.get('matchId', -1)
+        ccrc = params.get('ccrc', -1)
+        self.tableCtrl.clearMatchTable(matchId, ccrc)
+    
+    def _buildNote(self, seat):
+        return '%s人晋级，第%s副（共%s副）' % (seat.player.matchUserInfo['stage']['riseCount'],
+                                        seat.player.matchUserInfo['cardCount'],
+                                        seat.player.matchUserInfo['stage']['cardCount'])
+
+    def getMatchRoomName(self, seat):
+        arenaContent = dizhuhallinfo.getArenaMatchProvinceContent(seat.userId, int(seat.player.mixId) if seat.player.mixId else self.bigRoomId, None)
+        roomName = seat.player.matchUserInfo.get('roomName')
+        if arenaContent:
+            roomName = arenaContent.get('showName')
+        return roomName or self.table.room.roomConf.get('name', '')
+    
+    def getMatchTableInfo(self, seat, mo):
+        scores = []
+        rank = []
+        info = []
+        step = {}
+        for tseat in self.table.seats:
+            scores.append(tseat.player.score if tseat.player else 0)
+            if ftlog.is_debug():
+                ftlog.debug('DizhuTableProtoArenaMatch.getMatchTableInfo userId=', tseat.player.userId,
+                            'gameId=', self.gameId,
+                            'roomId=', self.roomId,
+                            'tableId=', self.tableId,
+                            'stage=', seat.player.matchUserInfo['stage'],
+                            'score=', tseat.player.score)
+        
+        rank.extend(seat.player.matchUserInfo['ranks'])
+        playerCount = seat.player.matchUserInfo['stage']['playerCount']
+        riseCount = seat.player.matchUserInfo['stage']['riseCount']
+        info.append(['局数:', '%s/%s' % (seat.player.matchUserInfo['cardCount'], seat.player.matchUserInfo['stage']['cardCount'])])
+        info.append(['晋级人数:', '%s' % (riseCount)])
+        step['name'] = seat.player.matchUserInfo['stage']['name'],
+        step['des'] = '%s人参赛，%s人晋级' % (playerCount, riseCount)
+        step['playerCount'] = playerCount
+        step['note'] = self._buildNote(seat)
+
+        mo.setResult('mInfos', {
+            'scores':scores,
+            'rank':rank,
+            'all':playerCount,
+            'info':info,
+            'basescore':self.table.matchTableInfo['baseScore'],
+            'asslosechip':0
+        })
+        mo.setResult('step', step)
+        mo.setResult('hasEnterRewards', seat.player.matchUserInfo['hasEnterRewards'])
+    
+    def buildSeatInfo(self, forSeat, seat):
+        seatInfo = super(DizhuTableProtoArenaMatch, self).buildSeatInfo(forSeat, seat)
+        seatInfo['mscore'], seatInfo['mrank'] = (seat.player.score, seat.player.rank) if seat.player else (0, 0)
+        return seatInfo
+    
+    def buildTableInfoResp(self, seat, isRobot):
+        mp = super(DizhuTableProtoArenaMatch, self).buildTableInfoResp(seat, isRobot)
+        self.getMatchTableInfo(seat, mp)
+        mp.setResult('notShowRank', 1)
+        mp.setResult('roomName', self.getMatchRoomName(seat))
+        dailyPlayCount = new_table_remote.doGetUserDailyPlayCount(seat.userId, DIZHU_GAMEID)
+        mp.setResult('dailyPlay', dailyPlayCount)
+        return mp
+    
+    def sendWinloseRes(self, result):
+        mp = self.buildTableMsgRes('table_call', 'game_win')
+        mp.setResult('isMatch', 1)
+        mp.setResult('stat', self.buildTableStatusInfo())
+        mp.setResult('slam', 0)
+        mp.setResult('dizhuwin', 1 if result.isDizhuWin() else 0)
+
+        stageRewards = self._sendStageReward(result)
+        if stageRewards:
+            mp.setResult('stageRewards', stageRewards)
+        if not result.gameRound.dizhuSeat:
+            mp.setResult('nowin', 1)
+        mp.setResult('cards', [seat.status.cards for seat in self.table.seats])
+        for sst in result.seatStatements:
+            mrank = 3
+            mtableRanking = 3
+            mp.setResult('seat' + str(sst.seat.seatId),
+                         [
+                            sst.delta,
+                            sst.final,
+                            0, 0, 0, 0,
+                            mrank,
+                            mtableRanking
+                         ])
+        self.sendToAllSeat(mp)
+        
+    def _sendRanks(self):
+        for seat in self.table.seats:
+            if not seat.player:
+                continue
+            mp = MsgPack()
+            mp.setCmd('m_rank')
+            ranktops = []
+            ranktops.append({
+                'userId':seat.userId,
+                'name':seat.player.matchUserInfo['userName'],
+                'score':seat.player.score,
+                'rank':seat.player.rank
+            })
+            mp.setResult('mranks', ranktops)
+            self.sendToSeat(mp, seat)
+        
+    def _playAnimation(self):
+        delay = 0
+        for seat in self.table.seats:
+            animationType = seat.player.matchUserInfo['stage'].get('animationType')
+            if ftlog.is_debug():
+                ftlog.debug('DizhuTableProtoArenaMatch._playAnimation',
+                            'userId=', seat.userId,
+                            'stage=', seat.player.matchUserInfo['stage'])
+
+            if animationType is not None and animationType != AnimationType.UNKNOWN:
+                mp = MsgPack()
+                mp.setCmd('m_play_animation')
+                mp.setResult('gameId', self.gameId)
+                mp.setResult('roomId', self.table.roomId)
+                mp.setResult('tableId', self.tableId)
+                mp.setResult('type', seat.player.matchUserInfo['stage']['animationType'])
+                isStartStep = seat.player.matchUserInfo['stage'].get('index') == 0
+                if isStartStep:
+                    mp.setResult('isStartStep', 1)
+                self.sendToSeat(mp, seat)
+                delay = max(delay, self._getAnimationDelay(animationType, isStartStep, seat.player.clientId))
+            return delay
+    
+    def _getAnimationDelay(self, animationType, isStartStep, clientId):
+        _, clientVer, _ = strutil.parseClientId(clientId)
+        if str(clientVer) < 3.77:
+            return self.MSTART_SLEEP
+    
+        delayConf = dizhuconf.getPublic().get('matchAnimationDelay')
+        if not delayConf:
+            return 3
+        valKey = 'startStep'
+        if not isStartStep:
+            valKey = 'type' + str(animationType)
+        return delayConf.get(valKey, 3)
+    
+    def _onSitdown(self, event):
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableProtoArenaMatch._onSitdown',
+                        'tableId=', event.table.tableId,
+                        'seatId=', event.seat.seatId,
+                        'userId=', event.seat.userId)
+        
+        if event.table.idleSeatCount == 0:
+            delayConf = dizhuconf.getPublic().get('matchAnimationDelay', '')
+            inter = delayConf.get('waitToNextMatch', 3)
+            FTTasklet.getCurrentFTTasklet().sleepNb(inter)
+            
+            for seat in event.table.seats:
+                self.sendQuickStartRes(seat, True, TYRoom.ENTER_ROOM_REASON_OK)
+
+            # 所有人都坐下后发tableInfo
+            self.sendTableInfoResAll()
+            
+            # 向前端发送牌桌动画信息
+            delay = self._playAnimation()
+            if delay > 0:
+                FTTasklet.getCurrentFTTasklet().sleepNb(delay)
+            
+            if event.table.runConf.isSitDownAutoReady:
+                self._sendRanks()
+            
+    def _onSeatReady(self, event):
+        super(DizhuTableProtoArenaMatch, self)._onSeatReady(event)
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableProtoArenaMatch._onSeatReady',
+                        'tableId=', event.table.tableId,
+                        'seat=', (event.seat.userId, event.seat.seatId))
+        self._sendRanks()
+
+    def _onGameRoundOver(self, event):
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableProtoArenaMatch._onGameRoundOver', event)
+        self.sendWinloseRes(event.gameResult)
+        self._sendWinloseToMatch(event.gameResult)
+
+    def _sendStageReward(self, result):
+        # 各个阶段发阶段奖励
+        rewardList = []
+        stageRewards = self.room.roomConf['matchConf'].get('stageRewards', {})
+        for sst in result.seatStatements:
+            userId = sst.seat.userId
+            stageindex = sst.seat.player.matchUserInfo['stage'].get('index', 0) + 1
+            userMixId = sst.seat.player.mixId if sst.seat.player.mixId else self.table.room.bigmatchId
+            stageReward = stageRewards.get(str(userMixId), {}).get(str(stageindex), [])
+
+            currStageReward = []
+            try:
+                sstIsDizhu = 'dizhu' if sst.isDizhu else 'nongmin'
+                for rewardIndex in range(len(stageReward)):
+                    currStageReward.append(
+                        {
+                            "count": stageReward[rewardIndex].get('count', {}).get(sstIsDizhu, 0),
+                            "itemId": stageReward[rewardIndex]['itemId']
+                        }
+                    )
+            except Exception, e:
+                ftlog.warn('arena.stageRewards.info userId=', userId, 'err=', e)
+
+            deltaScore = sst.delta if not sst.seat.isGiveup else -9999999
+            clientVer = SessionDizhuVersion.getVersionNumber(userId)
+
+            if ftlog.is_debug():
+                ftlog.debug('arena.stageRewards.info userId=', userId,
+                            'stageindex=', stageindex,
+                            'userMixId=', userMixId,
+                            'deltaScore=', deltaScore,
+                            'stageRewardTotal=', sst.seat.player.stageRewardTotal,
+                            'currStageReward=', currStageReward,
+                            'clientVer(3.90)=', clientVer)
+
+            if not currStageReward or deltaScore < 0 or clientVer < 3.90:
+                rewardList.append(None)
+                continue
+
+            contentItems = TYContentItem.decodeList(currStageReward)
+            assetList = dizhu_util.sendRewardItems(userId, contentItems, '', 'DIZHU_STAGE_REWARD', 0)
+
+            clientAssetList = []
+            for atp in assetList:
+                clientAsset = {
+                    "name" : atp[0].displayName,
+                    "itemId" : atp[0].kindId,
+                    "count" : atp[1]
+                }
+                clientAssetList.append(clientAsset)
+                sst.seat.player.stageRewardTotal += atp[1]
+
+            ftlog.info('arena.stageRewards userId=', userId,
+                       'seatId=', sst.seat.seatId,
+                       'index=', stageindex,
+                       'stageRewardTotal=', sst.seat.player.stageRewardTotal,
+                       'assetList=', [(atp[0].kindId, atp[1]) for atp in assetList])
+
+            rewardList.append(clientAssetList)
+
+        return rewardList
+
+    def _onGameRoundAbort(self, event):
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableProtoArenaMatch._onGameRoundAbort', event)
+        self.sendWinloseAbortRes(event.gameResult)
+        self._sendWinloseToMatch(event.gameResult)
+        
+    def _sendWinloseToMatch(self, result):
+        # 发送给match manager
+        users = []
+        for sst in result.seatStatements:
+            user = {}
+            user['userId'] = sst.seat.userId
+            user['deltaScore'] = sst.delta if not sst.seat.isGiveup else -9999999
+            user['finalScore'] = sst.final 
+            user['seatId'] = sst.seat.seatId
+            user['isTuoguan'] = sst.seat.status.isTuoguan
+            user['stageRewardTotal'] = sst.seat.player.stageRewardTotal
+            users.append(user)
+        
+        mp = MsgPack()
+        mp.setCmd('room')
+        mp.setParam('action', 'm_winlose')
+        mp.setParam('gameId', self.gameId)
+        mp.setParam('matchId', self.table.room.bigmatchId)
+        mp.setParam('roomId', self.table.room.ctrlRoomId)
+        mp.setParam('tableId', self.tableId)
+        mp.setParam('users', users)
+        mp.setParam('ccrc', self.table.matchTableInfo['ccrc'])
+        
+        if self.WINLOSE_SLEEP > 0:
+            FTTasklet.getCurrentFTTasklet().sleepNb(self.WINLOSE_SLEEP)
+        router.sendRoomServer(mp, self.room.ctrlRoomId)
+
+
+    def sendTableInfoRes(self, seat):
+        logUserIds = [66706022]
+        if seat.player and seat.userId in logUserIds:
+            ftlog.info('DizhuTableProtoArenaMatch.sendTableInfoRes beforeSentMsg',
+                       'tableId=', self.tableId,
+                       'userId=', seat.userId,
+                       'gameClientVer=', seat.player.gameClientVer,
+                       'isGiveup=', seat.isGiveup,
+                       'isQuit=', seat.player.isQuit,
+                       'seats=', [(s.userId, s.seatId) for s in self.table.seats])
+
+        if seat.player and not seat.isGiveup and not seat.player.isQuit:
+            mp = self.buildTableInfoResp(seat, 0)
+            router.sendToUser(mp, seat.userId)
+            if seat.userId in logUserIds:
+                ftlog.info('DizhuTableProtoArenaMatch.sendTableInfoRes sentMsg',
+                           'tableId=', self.tableId,
+                           'userId=', seat.userId,
+                           'gameClientVer=', seat.player.gameClientVer,
+                           'seats=', [(seat.userId, seat.seatId) for seat in self.table.seats],
+                           'mp=', mp.pack())
+
+    def buildQuickStartResp(self, seat, isOK, reason):
+        mp = self.buildTableMsgRes('quick_start')
+        mp.setResult('isOK', isOK)
+        mp.setResult('mixId', seat.player.mixId if seat.player.mixId else None)
+        mp.setResult('seatId', seat.seatId)
+        mp.setResult('reason', reason)
+        return mp

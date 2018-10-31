@@ -1,0 +1,716 @@
+{
+    "newcheckin": {
+        "typeId": "newcheckin", 
+        "sortId": 1, 
+        "dailyTimes": 1, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "notice": {
+        "typeId": "notice", 
+        "sortId": 40, 
+        "dailyTimes": 2, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.56, 
+                    "maxVersion": 9.99
+                },
+				{
+					"typeId": "user.cond.notin.clientIds",
+					"clientIds": [22618, 22619]
+				}
+            ]
+        }
+    }, 
+    "notice2": {
+        "typeId": "notice2", 
+        "sortId": 41, 
+        "dailyTimes": 2, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.56, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "honormonthcard": {
+        "typeId": "honormonthcard", 
+        "sortId": 20, 
+        "dailyTimes": 2, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 2000, 
+                    "stopExp": -1
+                }, 
+                {
+                    "typeId": "user.cond.notIshonorMonthCard"
+                }
+            ]
+        }
+    }, 
+    "monthcard_star": {
+        "typeId": "monthcard", 
+        "sortId": 21, 
+        "dailyTimes": 2, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 2000, 
+                    "stopExp": -1
+                }, 
+                {
+                    "typeId": "user.cond.notIshonorMonthCard"
+                }
+            ]
+        }
+    }, 
+    "monthcard": {
+        "typeId": "monthcard", 
+        "sortId": 22, 
+        "dailyTimes": 2, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 0, 
+                    "stopExp": 2000
+                }, 
+                {
+                    "typeId": "user.cond.notIsMonthCard"
+                }
+            ]
+        }
+    }, 
+    "monthcard_15": {
+        "typeId": "monthcard", 
+        "sortId": 23, 
+        "dailyTimes": 2, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }, 
+                {
+                    "typeId": "user.cond.notIsMonthCard"
+                }
+            ]
+        }
+    }, 
+    "vip": {
+        "typeId": "vip", 
+        "sortId": 10, 
+        "dailyTimes": 1, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.vipLevel", 
+                    "startLevel": 1, 
+                    "stopLevel": -1
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }, 
+                {
+                    "typeId": "user.cond.isMonthCard"
+                }
+            ]
+        }
+    }, 
+    "payorder_1": {
+        "typeId": "payorder", 
+        "sortId": 11, 
+        "dailyTimes": 2, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 30, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 0, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 0, 
+                    "stopExp": 10
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "payorder_1_10": {
+        "typeId": "payorder", 
+        "sortId": 11, 
+        "dailyTimes": 10, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 0, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 0, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 0, 
+                    "stopExp": 1
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "payorder_2": {
+        "typeId": "payorder", 
+        "sortId": 12, 
+        "dailyTimes": 2, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 0, 
+                    "stopDays": 30
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 0, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 0, 
+                    "stopExp": 60
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "payorder_2_10": {
+        "typeId": "payorder", 
+        "sortId": 12, 
+        "dailyTimes": 10, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 0, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 0, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 1, 
+                    "stopExp": 60
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "payorder_3": {
+        "typeId": "payorder", 
+        "sortId": 13, 
+        "dailyTimes": 2, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 60, 
+                    "stopExp": 500
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "payorder_3_10": {
+        "typeId": "payorder", 
+        "sortId": 13, 
+        "dailyTimes": 10, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 60, 
+                    "stopExp": 1000
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "payorder_4": {
+        "typeId": "payorder", 
+        "sortId": 14, 
+        "dailyTimes": 2, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 500, 
+                    "stopExp": 3000
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "payorder_4_10": {
+        "typeId": "payorder", 
+        "sortId": 14, 
+        "dailyTimes": 10, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 1000, 
+                    "stopExp": 10000
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "payorder_5": {
+        "typeId": "payorder", 
+        "sortId": 15, 
+        "dailyTimes": 2, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 3000, 
+                    "stopExp": -1
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "payorder_5_10": {
+        "typeId": "payorder", 
+        "sortId": 15, 
+        "dailyTimes": 10, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.vipExp", 
+                    "startExp": 10000, 
+                    "stopExp": -1
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "notice_dailyShare": {
+        "typeId": "notice", 
+        "sortId": 16, 
+        "dailyTimes": 500, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }, 
+                {
+                    "typeId": "user.cond.HasDailyShareReward"
+                }
+            ]
+        }
+    }, 
+    "notice_quickstart": {
+        "typeId": "notice", 
+        "sortId": 17, 
+        "dailyTimes": 1, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 0, 
+                    "stopDays": 0
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.55, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "activity": {
+        "typeId": "activity", 
+        "sortId": 31, 
+        "dailyTimes": 1, 
+        "dailyStartLoginTimes": 99, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 1, 
+                    "stopDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.login.days", 
+                    "startDays": 1, 
+                    "endDays": -1
+                }, 
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.58, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    }, 
+    "todotask": {
+        "typeId": "todotask", 
+        "sortId": 30, 
+        "dailyTimes": 1, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.58, 
+                    "maxVersion": 9.99
+                }, 
+                {
+                    "typeId": "user.cond.hasRedPacketReward"
+                },
+				{
+					"typeId": "user.cond.notin.clientIds",
+					"clientIds": [22618, 22619]
+				}				
+            ]
+        }
+    },
+	"rp_invite": {
+        "typeId": "todotask", 
+        "sortId": 30, 
+        "dailyTimes": 1, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.58, 
+                    "maxVersion": 9.99
+                }
+            ]
+        }
+    },
+    "identity": {
+        "typeId": "todotask", 
+        "sortId": 4, 
+        "dailyTimes": 3, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.58, 
+                    "maxVersion": 9.99
+                },
+				{
+					"typeId": "user.cond.in.clientIds",
+					"clientIds": [22433,22481,22447,22486, 22618, 22619,22869,23133]
+				},
+				{
+					"typeId": "user.cond.isGuest"
+				},
+				{
+  					"typeId":"user.cond.not",
+  					"condition":{
+    					"typeId":"user.cond.hasMyCardNo"
+  				}
+  			   }
+            ]
+        }
+    }, 
+    "identity_activity": {
+        "typeId": "notice", 
+        "sortId": 4, 
+        "dailyTimes": 1, 
+        "dailyStartLoginTimes": 1, 
+        "condition": {
+            "typeId": "user.cond.and", 
+            "list": [
+                {
+                    "typeId": "user.cond.registerDays", 
+                    "startDays": 0, 
+                    "stopDays": 1
+                },{
+                    "typeId": "user.cond.clientVersion", 
+                    "minVersion": 4.56, 
+                    "maxVersion": 9.99
+                },
+				{
+					"typeId": "user.cond.in.clientIds",
+					"clientIds": [21118,21106,21111,21714,21713,22306,22303,22296,22401,22389,22391,22343,22324,22211,22353,22230]
+				},
+				{
+					"typeId": "user.cond.isGuest"
+				},
+				{
+  					"typeId":"user.cond.not",
+  					"condition":{
+    					"typeId":"user.cond.hasMyCardNo"
+  				}
+  			}
+            ]
+        }
+    }
+}

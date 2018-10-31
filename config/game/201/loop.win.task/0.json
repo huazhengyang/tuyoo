@@ -1,0 +1,71 @@
+{
+    "double": {
+        "ratio": 2,
+        "start.date": "2014-12-17",
+        "end.date": "2014-12-25",
+        "start.time": "20:00",
+        "end.time": "23:00"
+    },
+    "desc": "赢\\${round}局，送\\${prize}",
+    "rooms": {
+        "201100": {
+            "roundCount": 1,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 50,
+                        "itemId": "user:chip"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "50"
+        },
+        "201108": {
+            "roundCount": 1,
+            "continueSeconds": 3600,
+            "desc": "",
+            "reward": {
+                "items": [
+                    {
+                        "count": 50,
+                        "itemId": "user:chip"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "50"
+        },
+        "201200": {
+            "roundCount": 1,
+            "continueSeconds": 3600,
+            "desc": "",
+            "reward": {
+                "items": [
+                    {
+                        "count": 50,
+                        "itemId": "user:chip"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "50"
+        },
+        "201208": {
+            "roundCount": 1,
+            "continueSeconds": 3600,
+            "desc": "",
+            "reward": {
+                "items": [
+                    {
+                        "count": 50,
+                        "itemId": "user:chip"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "50"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "type": [
+        "0-单笔充值",
+        "1-累计充值"
+    ],
+    "missions": [
+        {
+            "id": 1,
+            "start": "2017-11-15",
+            "end": "2017-11-22",
+            "target": "lambda x : x >= 6",
+            "type": 0,
+            "rewards": [
+                {
+                    "target": "lambda x : x >= 30 and x < 88",
+                    "desc": "5红包券",
+                    "num": 500,
+                    "propId": 0,
+                    "type": "coupon"
+                },
+                {
+                    "target": "lambda x : x >= 88 and x < 648",
+                    "desc": "15红包券",
+                    "num": 1500,
+                    "propId": 0,
+                    "type": "coupon"
+                },
+                {
+                    "target": "lambda x : x >= 648",
+                    "desc": "50红包券",
+                    "num": 5000,
+                    "propId": 0,
+                    "type": "coupon"
+                }
+            ]
+        },
+		{
+                        "id": 2,
+            "start": "2017-12-26",
+            "end": "2017-12-31",
+            "target": "lambda x : x >= 98",
+            "type": 1,
+            "rewards": [
+                {
+                    "id": 0,
+                    "target": "lambda x : x >= 10000",
+                    "desc": "2017途游德州狂欢赛门票1张",
+                    "num": 1,
+                    "propId": 3127,
+                    "type": "item"
+                }
+			]
+		}
+
+    ]
+}

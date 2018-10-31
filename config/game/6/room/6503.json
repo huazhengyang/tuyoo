@@ -1,0 +1,204 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "开赛时间：满9人开赛\n报名费：20000金币\n赛制：定局淘汰(共3局,每局1副牌)",
+    "fees" : [
+			{
+				"count" : 20000,
+				"itemId" : "user:chip",
+				"params" : {
+					"failure" : "金币不足2万，买一个超值礼包吧！",
+					"payOrder" : {
+						"contains" : {
+							"count" : 20000,
+							"itemId" : "user:chip"
+						},
+						"shelves" : [
+							"lessbuychip"
+						]
+					}
+				}
+			},
+			{
+				"count" : 10,
+				"itemId" : "user:diamond",
+				"params" : {
+					"failure" : "钻石不足10个，请前往钻石商城购买钻石再来抢夺大奖",
+					"payOrder" : {
+						"priceDiamond" : {
+							"count" : 10,
+							"minCount" : 10,
+							"maxCount" : -1
+						},
+						"buyTypes":["charge"]
+					}
+				}
+			},
+			{
+				"count" : 7,
+				"itemId" : "item:1008",
+				"params" : {
+					"failure" : "您没有7张英雄帖噢"
+				}
+			}
+		],
+    "rank.rewards" : [
+      {
+        "desc" : "5万金币+1红包券",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 50000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 100,
+            "itemId" : "user:coupon"
+          }
+        ],
+        "todotask" : {
+          "action" : "rep_sence_shop",
+          "params" : {
+            "subStore" : "coupon"
+          }
+        }
+      },
+      {
+        "desc" : "4万金币",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 40000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "3万金币",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 30000,
+            "itemId" : "user:chip"
+          }
+        ]
+      }
+    ],
+    "stages" : [
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 100,
+        "chip.grow" : 0.25,
+        "chip.times" : 160,
+        "chip.user" : 1000,
+        "chip.user.3.base" : 0,
+        "name" : "9强赛",
+		"call.type": "inturn",
+        "rise.user.count" : 6,
+        "seat.principles" : 1,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "6强赛",
+		"call.type": "inturn",
+        "rise.user.count" : 3,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 3,
+        "card.count" : 1,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "决赛",
+		"call.type": "inturn",
+        "rise.user.count" : 1,
+        "seat.principles" : 2,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 1,
+      "maxplaytime" : 3600,
+      "type" : 1,
+      "user.size" : 9,
+	  "startTime" : "12:00",
+	  "stopTime" : "23:59"
+    },
+    "table.seat.count" : 3,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。",
+        "积分低于淘汰分数线会被淘汰，称打立出局。",
+        "打立赛制有局数上限，打满局数会等待他人。",
+        "打立阶段，轮空时会记1局游戏。",
+        "定局赛制，指打固定局数后按积分排名。",
+        "每局会按照开局时的底分结算。",
+        "比赛流局时，可能会有积分惩罚。"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+	"maxCoinQS" : -1,
+	"maxLevel" : -1,
+	"minCoin" : 0,
+	"minCoinQS" : 0,
+	"name" : "九人三局赢红包券极速赛",
+	"topindex" : 97,
+	"playDesc" : "",
+	"playMode" : "123",
+	"robotUserCallUpTime" : 2,
+	"robotUserMaxCount" : 0,
+	"robotUserOpTime" : [
+		1,
+		2
+	],
+	"roomFee" : 45,
+	"roomMutil" : 50,
+	"showCard" : 0,
+	"tableConf" : {
+		"autochange" : 1,
+		"basebet" : 1,
+		"basemulti" : 1,
+		"canchat" : 0,
+		"cardNoteDiamond" : 12,
+		"coin2chip" : 1,
+		"grab" : 0,
+		"gslam" : 128,
+		"lucky" : 0,
+		"maxSeatN" : 3,
+		"optime" : 15,
+		"passtime" : 5,
+		"rangpaiMultiType" : 1,
+		"robottimes" : 1,
+		"tbbox" : 0,
+		"unticheat" : 0
+	},
+	"typeName" : "dizhu_group_match",
+	"winDesc" : ""
+}

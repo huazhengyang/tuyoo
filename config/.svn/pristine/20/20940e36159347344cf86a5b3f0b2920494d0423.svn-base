@@ -1,0 +1,21 @@
+{
+    "minCoin": 0,
+    "maxCoin": -1,
+    "minLevel": 0,
+    "minVip": 0,
+    "playDesc": "",
+    "playMode": "guessing",
+    "hasrobot": 1,
+    "robotUserCallUpTime" : 3,
+    "robotUserMaxCount" : 0,
+    "robotUserOpTime" : [1, 2],
+    "tableConf": {
+        "readyTime": 15,
+        "sealTime": 0,
+        "lotteryTime": 7,
+        "settlementTime": 3,
+        "limitChip": 0,
+        "maxSeatN": 300
+    },
+    "typeName": "normal"
+}

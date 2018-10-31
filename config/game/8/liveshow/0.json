@@ -1,0 +1,66 @@
+{
+  "_comments": [
+    "直播桌配置"
+  ],
+  "canCreateClientIds": [
+    "IOS_3.97_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall8.appStore.official"
+  ],
+  "audioClientIds": [  
+  ],
+  "ticketPropId": 1008,
+  "level": [
+    {"name": "黄金", "level": 10, "feeRate": 0.03, "giftRate": 0.5},
+    {"name": "白金", "level": 20, "feeRate": 0.05, "giftRate": 0.6},
+    {"name": "钻石", "level": 30, "feeRate": 0.07, "giftRate": 0.7}
+  ],
+  "gift": {
+    "8010": {
+      "cost": 1000,
+      "imgUrl": "${http_download}/texas/images/gift_img/dz_live_gift_666.png",
+      "lastLong": 5,
+      "name": "666"
+    },
+    "8020": {
+      "cost": 10000,
+      "imgUrl": "${http_download}/texas/images/gift_img/dz_live_gift_cucumber.png",
+      "lastLong": 5,
+      "name": "黄瓜"
+    },
+    "8030": {
+      "cost": 50000,
+      "imgUrl": "${http_download}/texas/images/gift_img/dz_live_gift_pocket.png",
+      "lastLong": 5,
+      "name": "福袋"
+    },
+    "8040": {
+      "cost": 200000,
+      "imgUrl": "${http_download}/texas/images/gift_img/dz_live_gift_kiss.png",
+      "lastLong": 5,
+      "name": "香吻"
+    },
+    "8050": {
+      "cost": 660000,
+      "imgUrl": "${http_download}/texas/images/gift_img/dz_live_gift_love.png",
+      "lastLong": 5,
+      "name": "一往情深"
+    },
+    "8060": {
+      "cost": 1660000,
+      "imgUrl": "${http_download}/texas/images/gift_img/dz_live_gift_ring.png",
+      "lastLong": 5,
+      "name": "钻戒"
+    },
+    "8070": {
+      "cost": 3660000,
+      "imgUrl": "${http_download}/texas/images/gift_img/dz_live_gift_car.png",
+      "lastLong": 5,
+      "name": "超跑"
+    },
+    "8080": {
+      "cost": 8880000,
+      "imgUrl": "${http_download}/texas/images/gift_img/dz_live_gift_rocket.png",
+      "lastLong": 5,
+      "name": "火箭"
+    }
+  }
+}

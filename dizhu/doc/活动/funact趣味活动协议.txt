@@ -1,0 +1,49 @@
+
+update活动信息
+{
+    'desc': 'desc',
+    'backgroundUrl':'',
+    'buttonReset': {
+        'buttonUrl': '',
+        'buttonDisabledUrl': '',
+        'enabled': true,
+        'todotask': {},
+    },
+    'tasks': [
+            {'icon': url, 'name': 'task1', 'desc': 'desc1', 'curProgress': 2, 'totalProgress':3, 'btnState': 'get', 'todotask':{}},
+            {'icon': url, 'name': 'task2', 'desc': 'desc2', 'curProgress': 1, 'totalProgress':5, 'btnState': 'goto', 'todotask':{}},
+            {'icon': url, 'name': 'task3', 'desc': 'desc3', 'curProgress': 2, 'totalProgress':4, 'btnState': 'lock', 'todotask':{}},
+            {'icon': url, 'name': 'task4', 'desc': 'desc4', 'curProgress': 1, 'totalProgress':3, 'btnState': 'done', 'todotask':{}},
+    ]
+}
+btnState为前端按钮的显示4钟状态
+   - get: 领取奖励
+   - goto: 去完成
+   - lock: 未激活
+   - done: 已领取
+
+
+操作：用于点击重置任务按钮，返回update活动信息
+action: 'ddz.act.funact.reset'
+{
+    "params": {
+        'userId': hall.AccountInfo.userID, 
+        'clientId': hall.AccountInfo.clientId, 
+        'action': 'ddz.act.funact.reset', 
+        'activityId': this.activityId,
+        'gameId': 6, 
+    }
+}
+
+
+操作：用于点击领取奖励，返回update活动信息
+action: 'ddz.act.funact.getprize'
+{
+    "params": {
+        'userId': hall.AccountInfo.userID, 
+        'clientId': hall.AccountInfo.clientId, 
+        'action': 'ddz.act.funact.getprize', 
+        'activityId': this.activityId,
+        'gameId': 6, 
+    }
+}

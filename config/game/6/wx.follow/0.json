@@ -1,0 +1,46 @@
+{
+  "cycleSeconds": 60,
+  "rewardList": [
+    {
+      "startCount": 0,
+      "endCount": 0,
+      "rewardDesc": "0.3元红包券+1天记牌器",
+      "rewardPic": "${http_download}/ddz/other/config/follow_first.png",
+      "rewards": [
+        {
+          "itemId": "user:coupon",
+          "count": 30,
+          "pic": ""
+        },
+        {
+          "itemId": "item:2003",
+          "count": 1,
+          "pic": ""
+        }
+      ]
+    },
+    {
+      "startCount": 1,
+      "endCount": -1,
+      "rewardDesc": "2000金币+1钻石+1天记牌器",
+      "rewardPic": "${http_download}/ddz/other/config/follow_other.png",
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 2000,
+          "pic": ""
+        },
+        {
+          "itemId": "item:1311",
+          "count": 1,
+          "pic": ""
+        },
+        {
+          "itemId": "item:2003",
+          "count": 1,
+          "pic": ""
+        }
+      ]
+    }
+  ]
+}

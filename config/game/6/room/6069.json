@@ -1,0 +1,229 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "开赛时间：每日20:40 \n报名费用：免费",
+    "fees" : [],
+    "rank.rewards" : [
+      {
+        "desc" : "10万金币",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 100000,
+            "itemId" : "user:chip"
+          }
+        ],
+        "todotask" : {
+          "action" : "rep_sence_pack",
+          "params" : {}
+        }
+      },
+      {
+        "desc" : "50000金币",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 50000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "10000金币",
+        "ranking" : {
+          "end" : 6,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 10000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "5000金币",
+        "ranking" : {
+          "end" : 15,
+          "start" : 7
+        },
+        "rewards" : [
+          {
+            "count" : 5000,
+            "itemId" : "user:chip"
+          }
+        ]
+      }
+    ],
+    "stages" : [
+      {
+        "animation.type" : 0,
+        "card.count" : 15,
+        "chip.base" : 1000,
+        "chip.grow" : 0.2,
+        "chip.grow.base" : 200,
+        "chip.grow.incr" : 100,
+        "chip.times" : 60,
+        "chip.user" : 18000,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 0,
+        "lose.user.chip" : 0.5,
+        "name" : "海选赛",
+        "rise.user.count" : 24,
+        "rise.user.refer" : 24,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "24强赛",
+        "rise.user.count" : 12,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "12强赛",
+        "rise.user.count" : 6,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 3,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "6强赛",
+        "rise.user.count" : 3,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 2,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "决赛",
+        "rise.user.count" : 1,
+        "seat.principles" : 2,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 0,
+      "maxplaytime" : 7200,
+      "signin.times" : 21600,
+      "times" : {
+        "days" : {
+          "list" : [
+          	"20170118",
+            "20170119",
+			"20170120",
+			"20170121",
+			"20170122",
+			"20170123",
+			"20170124",
+			"20170125",
+			"20170126",
+			"20170127",
+			"20170128",
+			"20170129",
+			"20170130",
+			"20170131",
+			"20170201",
+			"20170202"
+          ]
+        },
+        "times_in_day" : {
+          "list" : [
+            "20:20"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 10000,
+      "user.maxsize" : 10000,
+	  "selectFirstStage" : 0,
+      "user.minsize" : 3,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 3,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。",
+        "积分低于淘汰分数线会被淘汰，称打立出局。",
+        "打立赛制有局数上限，打满局数会等待他人。",
+        "打立阶段，轮空时会记1局游戏。",
+        "定局赛制，指打固定局数后按积分排名。",
+        "每局会按照开局时的底分结算。",
+        "比赛流局时，可能会有积分惩罚。"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "金立手机赛",
+  "playDesc" : "",
+  "playMode" : "happy",
+  "robotUserCallUpTime" : 10,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    1,
+    2
+  ],
+  "roomFee" : 45,
+  "roomMutil" : 50,
+  "showCard" : 0,
+  "tableConf" : {
+    "autochange" : 1,
+    "basebet" : 1,
+    "basemulti" : 1,
+    "canchat" : 0,
+    "cardNoteChip" : 500,
+    "coin2chip" : 1,
+    "grab" : 1,
+    "gslam" : 128,
+    "lucky" : 0,
+    "maxSeatN" : 3,
+    "optime" : 15,
+    "passtime" : 5,
+    "rangpaiMultiType" : 1,
+    "robottimes" : 1,
+    "tbbox" : 0,
+    "unticheat" : 0
+  },
+  "typeName" : "group_match",
+  "winDesc" : ""
+}

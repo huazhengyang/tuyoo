@@ -1,0 +1,2581 @@
+{
+	"prizepools": [{
+		"name":"A", 
+		"prizes":[
+			{
+				"unlockInspector": null,
+				"weight": 550,
+				"prizes":[
+					{"itemId": "user:chip", "count": 950, "weight": 1}
+				]
+			},
+			{
+				"unlockInspector": null,
+				"weight": 1000,
+				"prizes":[
+					{"itemId": "user:score", "count": 15, "weight": 1}
+				]
+			},
+			{
+				"unlockInspector": null,
+				"weight": 1000,
+				"prizes":[
+					{"itemId": "item:100000", "count":3, "weight":1},
+					{"itemId": "item:100001", "count":3, "weight":1},
+					{"itemId": "item:100002", "count":3, "weight":1},
+					{"itemId": "item:100004", "count":3, "weight":1},
+					{"itemId": "item:100005", "count":3, "weight":1}
+				]
+			},
+			{
+				"unlockInspector": {
+					"typeId": "task.unlockInspector.petUnlock"
+				},
+				"weight": 850,
+				"prizes":[
+					{"itemId": "petitem:8", "count": 1, "weight": 1500},
+					{"itemId": "petitem:7", "count": 1, "weight": 1000},
+					{"itemId": "petitem:6", "count": 1, "weight": 2000},
+					{"itemId": "petitem:11", "count": 1, "weight": 1000},
+					{"itemId": "petitem:10", "count": 1, "weight": 1000},
+					{"itemId": "petitem:9", "count": 1, "weight": 500}
+				]
+			},
+			{
+				"unlockInspector": {
+					"typeId": "task.unlockInspector.petUnlock"
+				},
+				"weight": 250,
+				"prizes":[
+					{"itemId": "petitem:16", "count": 1, "weight": 2000},
+					{"itemId": "petitem:14", "count": 1, "weight": 2000}
+				]
+			},
+			{
+				"unlockInspector": {
+					"typeId": "task.unlockInspector.photoUnlock"
+				},
+				"weight": 150,
+				"prizes":[
+					{"itemId": "photoitem:9", "count": 1, "weight": 1},
+					{"itemId": "photoitem:12", "count": 1, "weight": 1},
+					{"itemId": "photoitem:20", "count": 1, "weight": 1},
+					{"itemId": "photoitem:22", "count": 1, "weight": 1},
+					{"itemId": "photoitem:30", "count": 1, "weight": 1},
+					{"itemId": "photoitem:35", "count": 1, "weight": 1},
+					{"itemId": "photoitem:38", "count": 1, "weight": 1},
+					{"itemId": "photoitem:6", "count": 1, "weight": 1},
+					{"itemId": "photoitem:16", "count": 1, "weight": 1},
+					{"itemId": "photoitem:24", "count": 1, "weight": 1},
+					{"itemId": "photoitem:36", "count": 1, "weight": 1},
+					{"itemId": "photoitem:49", "count": 1, "weight": 1}
+				]
+			}
+		]
+	},{
+		"name":"B", 
+		"prizes":[
+			{
+				"unlockInspector": null,
+				"weight": 400,
+				"prizes":[
+					{"itemId": "user:chip", "count": 800, "weight": 1}
+				]
+			},
+			{
+				"unlockInspector": null,
+				"weight": 800,
+				"prizes":[
+					{"itemId": "user:score", "count": 10, "weight": 1}
+				]
+			},
+			{
+				"unlockInspector": null,
+				"weight": 1150,
+				"prizes":[
+					{"itemId": "item:100000", "count":2, "weight":1},
+					{"itemId": "item:100001", "count":2, "weight":1},
+					{"itemId": "item:100002", "count":2, "weight":1},
+					{"itemId": "item:100004", "count":2, "weight":1},
+					{"itemId": "item:100005", "count":2, "weight":1}
+				]
+			},
+			{
+				"unlockInspector": {
+					"typeId": "task.unlockInspector.petUnlock"
+				},
+				"weight": 550,
+				"prizes":[
+					{"itemId": "petitem:8", "count": 1, "weight": 2500},
+					{"itemId": "petitem:7", "count": 1, "weight": 2000},
+					{"itemId": "petitem:6", "count": 1, "weight": 1000},
+					{"itemId": "petitem:11", "count": 1, "weight": 500},
+					{"itemId": "petitem:10", "count": 1, "weight": 500},
+					{"itemId": "petitem:9", "count": 1, "weight": 200}
+				]
+			},
+			{
+				"unlockInspector": {
+					"typeId": "task.unlockInspector.petUnlock"
+				},
+				"weight": 500,
+				"prizes":[
+					{"itemId": "petitem:16", "count": 1, "weight": 3000},
+					{"itemId": "petitem:14", "count": 1, "weight": 1000}
+				]
+			},
+			{
+				"unlockInspector": {
+					"typeId": "task.unlockInspector.photoUnlock"
+				},
+				"weight": 150,
+				"prizes":[
+					{"itemId": "photoitem:17", "count": 1, "weight": 1},
+					{"itemId": "photoitem:23", "count": 1, "weight": 1},
+					{"itemId": "photoitem:28", "count": 1, "weight": 1},
+					{"itemId": "photoitem:51", "count": 1, "weight": 1},
+					{"itemId": "photoitem:3", "count": 1, "weight": 1},
+					{"itemId": "photoitem:8", "count": 1, "weight": 1},
+					{"itemId": "photoitem:9", "count": 1, "weight": 1},
+					{"itemId": "photoitem:10", "count": 1, "weight": 1},
+					{"itemId": "photoitem:12", "count": 1, "weight": 1},
+					{"itemId": "photoitem:15", "count": 1, "weight": 1},
+					{"itemId": "photoitem:20", "count": 1, "weight": 1},
+					{"itemId": "photoitem:22", "count": 1, "weight": 1},
+					{"itemId": "photoitem:26", "count": 1, "weight": 1},
+					{"itemId": "photoitem:27", "count": 1, "weight": 1},
+					{"itemId": "photoitem:30", "count": 1, "weight": 1},
+					{"itemId": "photoitem:34", "count": 1, "weight": 1},
+					{"itemId": "photoitem:35", "count": 1, "weight": 1},
+					{"itemId": "photoitem:38", "count": 1, "weight": 1},
+					{"itemId": "photoitem:42", "count": 1, "weight": 1},
+					{"itemId": "photoitem:46", "count": 1, "weight": 1},
+					{"itemId": "photoitem:50", "count": 1, "weight": 1},
+					{"itemId": "photoitem:54", "count": 1, "weight": 1}
+				]
+			}
+		]
+	},{
+		"name":"C", 
+		"prizes":[
+			{
+				"unlockInspector": null,
+				"weight": 450,
+				"prizes":[
+					{"itemId": "user:chip", "count": 750, "weight": 1}
+				]
+			},
+			{
+				"unlockInspector": null,
+				"weight": 950,
+				"prizes":[
+					{"itemId": "user:score", "count": 5, "weight": 1}
+				]
+			},
+			{
+				"unlockInspector": null,
+				"weight": 1350,
+				"prizes":[
+					{"itemId": "item:100000", "count":2, "weight":1},
+					{"itemId": "item:100001", "count":2, "weight":1},
+					{"itemId": "item:100002", "count":2, "weight":1},
+					{"itemId": "item:100004", "count":2, "weight":1},
+					{"itemId": "item:100005", "count":2, "weight":1}
+				]
+			},
+			{
+				"unlockInspector": {
+					"typeId": "task.unlockInspector.petUnlock"
+				},
+				"weight": 800,
+				"prizes":[
+					{"itemId": "petitem:3", "count": 1, "weight": 2000},
+					{"itemId": "petitem:4", "count": 1, "weight": 2000},
+					{"itemId": "petitem:5", "count": 1, "weight": 1500},
+					{"itemId": "petitem:6", "count": 1, "weight": 1000},
+					{"itemId": "petitem:7", "count": 1, "weight": 1000},
+					{"itemId": "petitem:8", "count": 1, "weight": 600}
+				]
+			},
+			{
+				"unlockInspector": {
+					"typeId": "task.unlockInspector.petUnlock"
+				},
+				"weight": 500,
+				"prizes":[
+					{"itemId": "petitem:15", "count": 1, "weight": 3000},
+					{"itemId": "petitem:16", "count": 1, "weight": 2000}
+				]
+			},
+			{
+				"unlockInspector": {
+					"typeId": "task.unlockInspector.photoUnlock"
+				},
+				"weight": 150,
+				"prizes":[
+					{"itemId": "photoitem:1", "count": 1, "weight": 1},
+					{"itemId": "photoitem:2", "count": 1, "weight": 1},
+					{"itemId": "photoitem:4", "count": 1, "weight": 1},
+					{"itemId": "photoitem:5", "count": 1, "weight": 1},
+					{"itemId": "photoitem:7", "count": 1, "weight": 1},
+					{"itemId": "photoitem:11", "count": 1, "weight": 1},
+					{"itemId": "photoitem:13", "count": 1, "weight": 1},
+					{"itemId": "photoitem:14", "count": 1, "weight": 1},
+					{"itemId": "photoitem:17", "count": 1, "weight": 1},
+					{"itemId": "photoitem:18", "count": 1, "weight": 1},
+					{"itemId": "photoitem:19", "count": 1, "weight": 1},
+					{"itemId": "photoitem:21", "count": 1, "weight": 1},
+					{"itemId": "photoitem:23", "count": 1, "weight": 1},
+					{"itemId": "photoitem:25", "count": 1, "weight": 1},
+					{"itemId": "photoitem:28", "count": 1, "weight": 1},
+					{"itemId": "photoitem:29", "count": 1, "weight": 1},
+					{"itemId": "photoitem:32", "count": 1, "weight": 1},
+					{"itemId": "photoitem:33", "count": 1, "weight": 1},
+					{"itemId": "photoitem:37", "count": 1, "weight": 1},
+					{"itemId": "photoitem:39", "count": 1, "weight": 1},
+					{"itemId": "photoitem:41", "count": 1, "weight": 1},
+					{"itemId": "photoitem:43", "count": 1, "weight": 1},
+					{"itemId": "photoitem:44", "count": 1, "weight": 1},
+					{"itemId": "photoitem:47", "count": 1, "weight": 1},
+					{"itemId": "photoitem:48", "count": 1, "weight": 1},
+					{"itemId": "photoitem:51", "count": 1, "weight": 1},
+					{"itemId": "photoitem:52", "count": 1, "weight": 1},
+
+					{"itemId": "photoitem:3", "count": 1, "weight": 1},
+					{"itemId": "photoitem:8", "count": 1, "weight": 1},
+					{"itemId": "photoitem:10", "count": 1, "weight": 1},
+					{"itemId": "photoitem:15", "count": 1, "weight": 1},
+					{"itemId": "photoitem:26", "count": 1, "weight": 1}
+				]
+			}
+		]
+	},{
+		"name":"D", 
+		"prizes":[
+			{
+				"unlockInspector": null,
+				"weight": 450,
+				"prizes":[
+					{"itemId": "user:chip", "count": 650, "weight": 1}
+				]
+			},
+			{
+				"unlockInspector": null,
+				"weight": 1050,
+				"prizes":[
+					{"itemId": "user:score", "count": 3, "weight": 1}
+				]
+			},
+			{
+				"unlockInspector": null,
+				"weight": 1150,
+				"prizes":[
+					{"itemId": "item:100000", "count":1, "weight":1},
+					{"itemId": "item:100001", "count":1, "weight":1},
+					{"itemId": "item:100002", "count":1, "weight":1},
+					{"itemId": "item:100004", "count":1, "weight":1},
+					{"itemId": "item:100005", "count":1, "weight":1}
+				]
+			},
+			{
+				"unlockInspector": {
+					"typeId": "task.unlockInspector.petUnlock"
+				},
+				"weight": 800,
+				"prizes":[
+					{"itemId": "petitem:0", "count": 1, "weight": 500},
+					{"itemId": "petitem:1", "count": 1, "weight": 1000},
+					{"itemId": "petitem:2", "count": 1, "weight": 1000},
+					{"itemId": "petitem:3", "count": 1, "weight": 800},
+					{"itemId": "petitem:4", "count": 1, "weight": 600},
+					{"itemId": "petitem:5", "count": 1, "weight": 500}
+				]
+			},
+			{
+				"unlockInspector": {
+					"typeId": "task.unlockInspector.petUnlock"
+				},
+				"weight": 500,
+				"prizes":[
+					{"itemId": "petitem:15", "count": 1, "weight": 1}
+				]
+			},
+			{
+				"unlockInspector": {
+					"typeId": "task.unlockInspector.photoUnlock"
+				},
+				"weight": 150,
+				"prizes":[
+					{"itemId": "photoitem:1", "count": 1, "weight": 1},
+					{"itemId": "photoitem:2", "count": 1, "weight": 1},
+					{"itemId": "photoitem:4", "count": 1, "weight": 1},
+					{"itemId": "photoitem:5", "count": 1, "weight": 1},
+					{"itemId": "photoitem:7", "count": 1, "weight": 1},
+					{"itemId": "photoitem:11", "count": 1, "weight": 1},
+					{"itemId": "photoitem:13", "count": 1, "weight": 1},
+					{"itemId": "photoitem:14", "count": 1, "weight": 1},
+					{"itemId": "photoitem:17", "count": 1, "weight": 1},
+					{"itemId": "photoitem:18", "count": 1, "weight": 1},
+					{"itemId": "photoitem:19", "count": 1, "weight": 1},
+					{"itemId": "photoitem:21", "count": 1, "weight": 1},
+					{"itemId": "photoitem:23", "count": 1, "weight": 1},
+					{"itemId": "photoitem:25", "count": 1, "weight": 1},
+					{"itemId": "photoitem:28", "count": 1, "weight": 1},
+					{"itemId": "photoitem:29", "count": 1, "weight": 1},
+					{"itemId": "photoitem:32", "count": 1, "weight": 1},
+					{"itemId": "photoitem:33", "count": 1, "weight": 1},
+					{"itemId": "photoitem:37", "count": 1, "weight": 1},
+					{"itemId": "photoitem:39", "count": 1, "weight": 1},
+					{"itemId": "photoitem:41", "count": 1, "weight": 1},
+					{"itemId": "photoitem:43", "count": 1, "weight": 1},
+					{"itemId": "photoitem:44", "count": 1, "weight": 1},
+					{"itemId": "photoitem:47", "count": 1, "weight": 1},
+					{"itemId": "photoitem:48", "count": 1, "weight": 1},
+					{"itemId": "photoitem:51", "count": 1, "weight": 1},
+					{"itemId": "photoitem:52", "count": 1, "weight": 1}
+				]
+			}
+		]
+	}],
+
+	"taskpools": [
+		{
+			"poolId": "winstreak",
+			"name": "连胜任务",
+			"typeId": "task.selector.weightRandom", 
+			"tasks":[
+				{
+	 				"taskId": 31001,
+	 				"name":"连胜2局",
+	 				"desc":"连胜2局",
+					"weight": 200,
+
+	 				"unlockInspector":null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.winstreak",
+	 					"count": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":75},
+		 					{"prizePool": "C", "weight":15},
+		 					{"prizePool": "B", "weight":7},
+		 					{"prizePool": "A", "weight":3}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 31002,
+	 				"name":"连胜3局",
+	 				"desc":"连胜3局",
+ 					"weight": 150,
+
+	 				"unlockInspector":{
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 31001,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.winstreak",
+	 					"count": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":60},
+		 					{"prizePool": "C", "weight":25},
+		 					{"prizePool": "B", "weight":10},
+		 					{"prizePool": "A", "weight":5}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 31003,
+	 				"name":"连胜4局",
+	 				"desc":"连胜4局",
+ 					"weight": 100,
+
+	 				"unlockInspector":{
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 31002,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.winstreak",
+	 					"count": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":50},
+		 					{"prizePool": "C", "weight":30},
+		 					{"prizePool": "B", "weight":13},
+		 					{"prizePool": "A", "weight":7}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 31004,
+	 				"name":"连胜5局",
+	 				"desc":"连胜5局",
+ 					"weight": 50,
+
+	 				"unlockInspector":{
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 31003,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.winstreak",
+	 					"count": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":40},
+		 					{"prizePool": "C", "weight":35},
+		 					{"prizePool": "B", "weight":16},
+		 					{"prizePool": "A", "weight":9}
+		 				]
+	 				}
+	 			}
+			]
+		},
+
+		{
+			"poolId": "table",
+			"name": "牌局任务",
+			"typeId": "task.selector.weightRandom", 
+			"tasks": [
+				{
+	 				"taskId": 11001,
+	 				"name":"累计3局",
+	 				"desc":"累计3局",
+ 					"weight": 100,
+
+	 				"unlockInspector":null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.tableCounter",
+	 					"count": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":100}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 11002,
+	 				"name":"累计5局",
+	 				"desc":"累计5局",
+ 					"weight": 150,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.masterScoreLimit",
+	 					"bottomLimitLevel": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.tableCounter",
+	 					"count": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":85},
+		 					{"prizePool": "C", "weight":15}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 11003,
+	 				"name":"累计10局",
+	 				"desc":"累计10局",
+ 					"weight": 200,
+
+	 				"unlockInspector":{
+	 					"typeId": "task.unlockInspector.masterScoreLimit",
+	 					"bottomLimitLevel": 3
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.tableCounter",
+	 					"count": 10
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":85},
+		 					{"prizePool": "B", "weight":15}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 11004,
+	 				"name":"累计15局",
+	 				"desc":"累计15局",
+ 					"weight": 150,
+
+	 				"unlockInspector":{
+	 					"typeId": "task.unlockInspector.masterScoreLimit",
+	 					"bottomLimitLevel": 5
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.tableCounter",
+	 					"count": 15
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":50},
+		 					{"prizePool": "B", "weight":50}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 11005,
+	 				"name":"累计20局",
+	 				"desc":"累计20局",
+ 					"weight": 60,
+
+	 				"unlockInspector":{
+	 					"typeId": "task.unlockInspector.masterScoreLimit",
+	 					"bottomLimitLevel": 7
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.tableCounter",
+	 					"count": 20
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "B", "weight":85},
+		 					{"prizePool": "A", "weight":15}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 11006,
+	 				"name":"累计25局",
+	 				"desc":"累计25局",
+ 					"weight": 30,
+
+	 				"unlockInspector":{
+	 					"typeId": "task.unlockInspector.masterScoreLimit",
+	 					"bottomLimitLevel": 10
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.tableCounter",
+	 					"count": 25
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "B", "weight":70},
+		 					{"prizePool": "A", "weight":30}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 11007,
+	 				"name":"累计30局",
+	 				"desc":"累计30局",
+ 					"weight": 20,
+
+	 				"unlockInspector":{
+	 					"typeId": "task.unlockInspector.masterScoreLimit",
+	 					"bottomLimitLevel": 15
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.tableCounter",
+	 					"count": 30
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "B", "weight":50},
+		 					{"prizePool": "A", "weight":50}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 11008,
+	 				"name":"累计50局",
+	 				"desc":"累计50局",
+ 					"weight": 5,
+
+	 				"unlockInspector":{
+	 					"typeId": "task.unlockInspector.masterScoreLimit",
+	 					"bottomLimitLevel": 20
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.tableCounter",
+	 					"count": 50
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "A", "weight":100}
+		 				]
+	 				}
+	 			}
+			]
+		},
+
+		{
+			"poolId": "main",
+			"name": "主线任务",
+			"typeId": "task.selector.sequenceByTaskId", 
+			"tasks": [
+				{
+	 				"taskId": 41101,
+	 				"name":"3星通关1-1",
+	 				"desc":"3星通关1-1",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 1,
+	 					"level": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41102,
+	 				"name":"3星通关1-2",
+	 				"desc":"3星通关1-2",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 1,
+	 					"level": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41103,
+	 				"name":"3星通关1-3",
+	 				"desc":"3星通关1-3",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 1,
+	 					"level": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41104,
+	 				"name":"3星通关1-4",
+	 				"desc":"3星通关1-4",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 1,
+	 					"level": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41105,
+	 				"name":"3星通关1-5",
+	 				"desc":"3星通关1-5",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 1,
+	 					"level": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41106,
+	 				"name":"3星通关1-6",
+	 				"desc":"3星通关1-6",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 1,
+	 					"level": 6
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41201,
+	 				"name":"3星通关2-1",
+	 				"desc":"3星通关2-1",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 2,
+	 					"level": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41202,
+	 				"name":"3星通关2-2",
+	 				"desc":"3星通关2-2",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 2,
+	 					"level": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41203,
+	 				"name":"3星通关2-3",
+	 				"desc":"3星通关2-3",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 2,
+	 					"level": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41204,
+	 				"name":"3星通关2-4",
+	 				"desc":"3星通关2-4",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 2,
+	 					"level": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41205,
+	 				"name":"3星通关2-5",
+	 				"desc":"3星通关2-5",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 2,
+	 					"level": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41206,
+	 				"name":"3星通关2-6",
+	 				"desc":"3星通关2-6",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 2,
+	 					"level": 6
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41301,
+	 				"name":"3星通关3-1",
+	 				"desc":"3星通关3-1",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 3,
+	 					"level": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41302,
+	 				"name":"3星通关3-2",
+	 				"desc":"3星通关3-2",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 3,
+	 					"level": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41303,
+	 				"name":"3星通关3-3",
+	 				"desc":"3星通关3-3",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 3,
+	 					"level": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41304,
+	 				"name":"3星通关3-4",
+	 				"desc":"3星通关3-4",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 3,
+	 					"level": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41305,
+	 				"name":"3星通关3-5",
+	 				"desc":"3星通关3-5",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 3,
+	 					"level": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41306,
+	 				"name":"3星通关3-6",
+	 				"desc":"3星通关3-6",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 3,
+	 					"level": 6
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41401,
+	 				"name":"3星通关4-1",
+	 				"desc":"3星通关4-1",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 4,
+	 					"level": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41402,
+	 				"name":"3星通关4-2",
+	 				"desc":"3星通关4-2",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 4,
+	 					"level": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41403,
+	 				"name":"3星通关4-3",
+	 				"desc":"3星通关4-3",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 4,
+	 					"level": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41404,
+	 				"name":"3星通关4-4",
+	 				"desc":"3星通关4-4",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 4,
+	 					"level": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41405,
+	 				"name":"3星通关4-5",
+	 				"desc":"3星通关4-5",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 4,
+	 					"level": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41406,
+	 				"name":"3星通关4-6",
+	 				"desc":"3星通关4-6",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 4,
+	 					"level": 6
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41501,
+	 				"name":"3星通关5-1",
+	 				"desc":"3星通关5-1",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 5,
+	 					"level": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41502,
+	 				"name":"3星通关5-2",
+	 				"desc":"3星通关5-2",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 5,
+	 					"level": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41503,
+	 				"name":"3星通关5-3",
+	 				"desc":"3星通关5-3",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 5,
+	 					"level": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41504,
+	 				"name":"3星通关5-4",
+	 				"desc":"3星通关5-4",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 5,
+	 					"level": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41505,
+	 				"name":"3星通关5-5",
+	 				"desc":"3星通关5-5",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 5,
+	 					"level": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41506,
+	 				"name":"3星通关5-6",
+	 				"desc":"3星通关5-6",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 5,
+	 					"level": 6
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41601,
+	 				"name":"3星通关6-1",
+	 				"desc":"3星通关6-1",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 6,
+	 					"level": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41602,
+	 				"name":"3星通关6-2",
+	 				"desc":"3星通关6-2",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 6,
+	 					"level": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41603,
+	 				"name":"3星通关6-3",
+	 				"desc":"3星通关6-3",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 6,
+	 					"level": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41604,
+	 				"name":"3星通关6-4",
+	 				"desc":"3星通关6-4",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 6,
+	 					"level": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41605,
+	 				"name":"3星通关6-5",
+	 				"desc":"3星通关6-5",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 6,
+	 					"level": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 41606,
+	 				"name":"3星通关6-6",
+	 				"desc":"3星通关6-6",
+ 					"weight": 1,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 6,
+	 					"level": 6
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			}
+			]
+		},
+
+		{
+			"poolId": "rand",
+			"name": "随机任务",
+			"typeId": "task.selector.weightRandom", 
+			"tasks": [
+				{
+	 				"taskId": 42101,
+	 				"name":"3星通关1-1",
+	 				"desc":"3星通关1-1",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 1,
+	 					"level": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42102,
+	 				"name":"3星通关1-2",
+	 				"desc":"3星通关1-2",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 1,
+	 					"level": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42103,
+	 				"name":"3星通关1-3",
+	 				"desc":"3星通关1-3",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 1,
+	 					"level": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42104,
+	 				"name":"3星通关1-4",
+	 				"desc":"3星通关1-4",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 1,
+	 					"level": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42105,
+	 				"name":"3星通关1-5",
+	 				"desc":"3星通关1-5",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 1,
+	 					"level": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42106,
+	 				"name":"3星通关1-6",
+	 				"desc":"3星通关1-6",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 1,
+	 					"level": 6
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42201,
+	 				"name":"3星通关2-1",
+	 				"desc":"3星通关2-1",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 2,
+	 					"level": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42202,
+	 				"name":"3星通关2-2",
+	 				"desc":"3星通关2-2",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 2,
+	 					"level": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42203,
+	 				"name":"3星通关2-3",
+	 				"desc":"3星通关2-3",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 2,
+	 					"level": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42204,
+	 				"name":"3星通关2-4",
+	 				"desc":"3星通关2-4",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 2,
+	 					"level": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42205,
+	 				"name":"3星通关2-5",
+	 				"desc":"3星通关2-5",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 2,
+	 					"level": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42206,
+	 				"name":"3星通关2-6",
+	 				"desc":"3星通关2-6",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 2,
+	 					"level": 6
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42301,
+	 				"name":"3星通关3-1",
+	 				"desc":"3星通关3-1",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 3,
+	 					"level": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42302,
+	 				"name":"3星通关3-2",
+	 				"desc":"3星通关3-2",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 3,
+	 					"level": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42303,
+	 				"name":"3星通关3-3",
+	 				"desc":"3星通关3-3",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 3,
+	 					"level": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42304,
+	 				"name":"3星通关3-4",
+	 				"desc":"3星通关3-4",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 3,
+	 					"level": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42305,
+	 				"name":"3星通关3-5",
+	 				"desc":"3星通关3-5",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 3,
+	 					"level": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42306,
+	 				"name":"3星通关3-6",
+	 				"desc":"3星通关3-6",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 3,
+	 					"level": 6
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42401,
+	 				"name":"3星通关4-1",
+	 				"desc":"3星通关4-1",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 4,
+	 					"level": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42402,
+	 				"name":"3星通关4-2",
+	 				"desc":"3星通关4-2",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 4,
+	 					"level": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42403,
+	 				"name":"3星通关4-3",
+	 				"desc":"3星通关4-3",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 4,
+	 					"level": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42404,
+	 				"name":"3星通关4-4",
+	 				"desc":"3星通关4-4",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 4,
+	 					"level": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42405,
+	 				"name":"3星通关4-5",
+	 				"desc":"3星通关4-5",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 4,
+	 					"level": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42406,
+	 				"name":"3星通关4-6",
+	 				"desc":"3星通关4-6",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 4,
+	 					"level": 6
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42501,
+	 				"name":"3星通关5-1",
+	 				"desc":"3星通关5-1",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 5,
+	 					"level": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42502,
+	 				"name":"3星通关5-2",
+	 				"desc":"3星通关5-2",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 5,
+	 					"level": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42503,
+	 				"name":"3星通关5-3",
+	 				"desc":"3星通关5-3",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 5,
+	 					"level": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42504,
+	 				"name":"3星通关5-4",
+	 				"desc":"3星通关5-4",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 5,
+	 					"level": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42505,
+	 				"name":"3星通关5-5",
+	 				"desc":"3星通关5-5",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 5,
+	 					"level": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42506,
+	 				"name":"3星通关5-6",
+	 				"desc":"3星通关5-6",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 5,
+	 					"level": 6
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42601,
+	 				"name":"3星通关6-1",
+	 				"desc":"3星通关6-1",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 6,
+	 					"level": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42602,
+	 				"name":"3星通关6-2",
+	 				"desc":"3星通关6-2",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 6,
+	 					"level": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42603,
+	 				"name":"3星通关6-3",
+	 				"desc":"3星通关6-3",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 6,
+	 					"level": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42604,
+	 				"name":"3星通关6-4",
+	 				"desc":"3星通关6-4",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 6,
+	 					"level": 4
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42605,
+	 				"name":"3星通关6-5",
+	 				"desc":"3星通关6-5",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 6,
+	 					"level": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 42606,
+	 				"name":"3星通关6-6",
+	 				"desc":"3星通关6-6",
+ 					"weight": 1,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 41606,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.levelPass",
+	 					"chapter": 6,
+	 					"level": 6
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "C", "weight":70},
+		 					{"prizePool": "B", "weight":20},
+		 					{"prizePool": "A", "weight":10}
+		 				]
+	 				}
+	 			}
+			]
+		},
+
+		{
+			"poolId": "fun",
+			"name": "趣味任务",
+			"typeId": "task.selector.weightRandom", 
+			"tasks": [
+				{
+	 				"taskId": 22001,
+	 				"name":"赢2次春天",
+	 				"desc":"赢2次春天",
+ 					"weight": 50,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.winChuntian",
+	 					"count": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":75},
+		 					{"prizePool": "C", "weight":15},
+		 					{"prizePool": "B", "weight":7},
+		 					{"prizePool": "A", "weight":3}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 22002,
+	 				"name":"做2次地主",
+	 				"desc":"做2次地主",
+ 					"weight": 200,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.playerAsDizhu",
+	 					"count": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":60},
+		 					{"prizePool": "C", "weight":25},
+		 					{"prizePool": "B", "weight":10},
+		 					{"prizePool": "A", "weight":5}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 22003,
+	 				"name":"做5次地主",
+	 				"desc":"做5次地主",
+ 					"weight": 100,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 22002,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.playerAsDizhu",
+	 					"count": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":75},
+		 					{"prizePool": "C", "weight":15},
+		 					{"prizePool": "B", "weight":7},
+		 					{"prizePool": "A", "weight":3}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 23001,
+	 				"name":"抢5次地主",
+	 				"desc":"抢5次地主",
+ 					"weight": 150,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 22003,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.playerRobDizhu",
+	 					"count": 5
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":75},
+		 					{"prizePool": "C", "weight":15},
+		 					{"prizePool": "B", "weight":7},
+		 					{"prizePool": "A", "weight":3}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 24101,
+	 				"name":"使用炸弹15次",
+	 				"desc":"使用炸弹15次",
+ 					"weight": 200,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.playerUseEmo",
+	 					"emoTag": "bomb",
+	 					"count": 15
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":75},
+		 					{"prizePool": "C", "weight":15},
+		 					{"prizePool": "B", "weight":7},
+		 					{"prizePool": "A", "weight":3}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 24201,
+	 				"name":"使用钻石15次",
+	 				"desc":"使用钻石15次",
+ 					"weight": 200,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.playerUseEmo",
+	 					"emoTag": "diamond",
+	 					"count": 15
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":75},
+		 					{"prizePool": "C", "weight":15},
+		 					{"prizePool": "B", "weight":7},
+		 					{"prizePool": "A", "weight":3}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 24301,
+	 				"name":"使用鲜花15次",
+	 				"desc":"使用鲜花15次",
+ 					"weight": 200,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.playerUseEmo",
+	 					"emoTag": "flower",
+	 					"count": 15
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":75},
+		 					{"prizePool": "C", "weight":15},
+		 					{"prizePool": "B", "weight":7},
+		 					{"prizePool": "A", "weight":3}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 24401,
+	 				"name":"使用鸡蛋15次",
+	 				"desc":"使用鸡蛋15次",
+ 					"weight": 200,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.playerUseEmo",
+	 					"emoTag": "egg",
+	 					"count": 15
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":75},
+		 					{"prizePool": "C", "weight":15},
+		 					{"prizePool": "B", "weight":7},
+		 					{"prizePool": "A", "weight":3}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 24501,
+	 				"name":"使用板砖15次",
+	 				"desc":"使用板砖15次",
+ 					"weight": 200,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.playerUseEmo",
+	 					"emoTag": "brick",
+	 					"count": 15
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":75},
+		 					{"prizePool": "C", "weight":15},
+		 					{"prizePool": "B", "weight":7},
+		 					{"prizePool": "A", "weight":3}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 25001,
+	 				"name":"32倍胜利3局",
+	 				"desc":"32倍胜利3局",
+ 					"weight": 100,
+
+	 				"unlockInspector": null,
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.winMulriple",
+	 					"mulriple": 32,
+	 					"count": 3
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":60},
+		 					{"prizePool": "C", "weight":25},
+		 					{"prizePool": "B", "weight":10},
+		 					{"prizePool": "A", "weight":5}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 25002,
+	 				"name":"64倍胜利2局",
+	 				"desc":"64倍胜利2局",
+ 					"weight": 150,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 25001,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.winMulriple",
+	 					"mulriple": 64,
+	 					"count": 2
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":75},
+		 					{"prizePool": "C", "weight":15},
+		 					{"prizePool": "B", "weight":7},
+		 					{"prizePool": "A", "weight":3}
+		 				]
+	 				}
+	 			},
+	 			{
+	 				"taskId": 25003,
+	 				"name":"大满贯胜利1局",
+	 				"desc":"大满贯胜利1局",
+ 					"weight": 200,
+
+	 				"unlockInspector": {
+	 					"typeId": "task.unlockInspector.dependTaskFinish",
+	 					"dependTaskId": 25002,
+	 					"requireFinishedCount": 1
+	 				},
+	 				"taskProcesser": {
+	 					"typeId": "task.taskProcesser.winDaManGuan",
+	 					"count": 1
+	 				},
+	 				"prizeSelector": {
+	 					"typeId": "task.prizeSelector.weightRandom",
+	 					"prizes": [
+		 					{"prizePool": "D", "weight":75},
+		 					{"prizePool": "C", "weight":15},
+		 					{"prizePool": "B", "weight":7},
+		 					{"prizePool": "A", "weight":3}
+		 				]
+	 				}
+	 			}
+			]
+		}
+
+	]
+}

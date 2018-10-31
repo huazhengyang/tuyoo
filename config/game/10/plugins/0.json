@@ -1,0 +1,36 @@
+{
+    "handlers": [
+        {
+            "name": "GameBiEventReporter",
+            "module": "douniu2.plugins.game_bi_event_reporter",
+            "class": "GameBiEventReporter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "notify",
+            "module": "douniu2.plugins.notify",
+            "class": "Notify",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GM",
+            "module": "douniu2.plugins.gm",
+            "class": "GM",
+            "handle": "event_handle"
+        },
+        {
+            "name": "game_config",
+            "module": "douniu2.plugins.game_config",
+            "class": "GameConfig",
+            "handle": "event_handle"
+        },
+        {
+            "name": "quest",
+            "module": "douniu2.plugins.quest.quest",
+            "object": "Quest",
+            "handle": "event_handle"
+        }
+    ],
+    "event_seq": {
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "task": {
+        "101": {
+            "taskId": 101,
+            "gameId": 201,
+            "taskName": "对局",
+            "taskDesc": "对局1局,奖励两枚普通的戒指",
+            "taskCount": 1,
+            "roomList": -1,
+            "urlOrLink": "someThing",
+            "autoAccept": 1,
+            "autoReward": 1,
+            "taskFinishEvent": 1001,
+            "reward": {
+                "items": [
+                    {
+                        "count": 2,
+                        "itemId": "item:10001"
+                    }
+                ],
+                "typeId": "FixedContent"
+            }
+        },
+        "102": {
+            "taskId": 102,
+            "gameId": 201,
+            "taskName": "对局",
+            "taskDesc": "对局2局,奖励两枚神奇的戒指",
+            "taskCount": 2,
+            "roomList": -1,
+            "urlOrLink": "someThing",
+            "autoAccept": 1,
+            "autoReward": 0,
+            "taskFinishEvent": 1001,
+            "reward": {
+                "items": [
+                    {
+                        "count": 2,
+                        "itemId": "item:10002"
+                    }
+                ],
+                "typeId": "FixedContent"
+            }
+        },
+        "103":{
+            "taskId": 103,
+            "gameId": 201,
+            "taskName": "对局",
+            "taskDesc": "对局3局,奖励帅气的纹身装备2件",
+            "taskCount": 3,
+            "roomList": -1,
+            "urlOrLink": "someThing",
+            "autoAccept": 0,
+            "autoReward": 1,
+            "taskFinishEvent": 1001,
+            "reward": {
+                "items": [
+                    {
+                        "count": 2,
+                        "itemId": "item:10003"
+                    }
+                ],
+                "typeId": "FixedContent"
+            }
+        }
+    }
+}

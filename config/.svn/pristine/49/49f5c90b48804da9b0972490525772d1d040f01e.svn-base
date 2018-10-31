@@ -1,0 +1,510 @@
+{
+  "score" : [0, 5, 15, 35, 75, 155, 235, 315, 395, 475, 575, 705, 865, 1055,
+      1275, 1525, 1825, 2175, 2575, 3025, 3525, 4125, 4825, 5625, 6525, 7525,
+      8725, 10125, 11725, 13525, 15525, 18025, 21025, 24525, 28525, 33525,
+      39525, 46525, 54525, 63525, 73525, 85525, 99525, 115525, 133525, 153525,
+      178525, 208525, 243525, 283525],
+  "game_name" : "跑胡子",
+  "title_pic" : "${http_download}/dizhu/skillscore/imgs/ddz_skill_score_title.png",
+  "des" : "跑胡子房间中每次胜利都可获得大师分，高倍数、高级房间、会员获得的更快！",
+  "level_pic" : ["${http_download}/dizhu/skillscore/imgs/xiaomai1.png",
+      "${http_download}/dizhu/skillscore/imgs/xiaomai2.png",
+      "${http_download}/dizhu/skillscore/imgs/xiaomai3.png",
+      "${http_download}/dizhu/skillscore/imgs/xiaomai4.png",
+      "${http_download}/dizhu/skillscore/imgs/xiaomai5.png",
+      "${http_download}/dizhu/skillscore/imgs/buxie6.png",
+      "${http_download}/dizhu/skillscore/imgs/buxie7.png",
+      "${http_download}/dizhu/skillscore/imgs/buxie8.png",
+      "${http_download}/dizhu/skillscore/imgs/buxie9.png",
+      "${http_download}/dizhu/skillscore/imgs/buxie10.png",
+      "${http_download}/dizhu/skillscore/imgs/chutou11.png",
+      "${http_download}/dizhu/skillscore/imgs/chutou12.png",
+      "${http_download}/dizhu/skillscore/imgs/chutou13.png",
+      "${http_download}/dizhu/skillscore/imgs/chutou14.png",
+      "${http_download}/dizhu/skillscore/imgs/chutou15.png",
+      "${http_download}/dizhu/skillscore/imgs/tongqian16.png",
+      "${http_download}/dizhu/skillscore/imgs/tongqian17.png",
+      "${http_download}/dizhu/skillscore/imgs/tongqian18.png",
+      "${http_download}/dizhu/skillscore/imgs/tongqian19.png",
+      "${http_download}/dizhu/skillscore/imgs/tongqian20.png",
+      "${http_download}/dizhu/skillscore/imgs/toujin21.png",
+      "${http_download}/dizhu/skillscore/imgs/toujin22.png",
+      "${http_download}/dizhu/skillscore/imgs/toujin23.png",
+      "${http_download}/dizhu/skillscore/imgs/toujin24.png",
+      "${http_download}/dizhu/skillscore/imgs/toujin25.png",
+      "${http_download}/dizhu/skillscore/imgs/dizhumao26.png",
+      "${http_download}/dizhu/skillscore/imgs/dizhumao27.png",
+      "${http_download}/dizhu/skillscore/imgs/dizhumao28.png",
+      "${http_download}/dizhu/skillscore/imgs/dizhumao29.png",
+      "${http_download}/dizhu/skillscore/imgs/dizhumao30.png",
+      "${http_download}/dizhu/skillscore/imgs/yuanbao31.png",
+      "${http_download}/dizhu/skillscore/imgs/yuanbao32.png",
+      "${http_download}/dizhu/skillscore/imgs/yuanbao33.png",
+      "${http_download}/dizhu/skillscore/imgs/yuanbao34.png",
+      "${http_download}/dizhu/skillscore/imgs/yuanbao35.png",
+      "${http_download}/dizhu/skillscore/imgs/qiche36.png",
+      "${http_download}/dizhu/skillscore/imgs/qiche37.png",
+      "${http_download}/dizhu/skillscore/imgs/qiche38.png",
+      "${http_download}/dizhu/skillscore/imgs/qiche39.png",
+      "${http_download}/dizhu/skillscore/imgs/qiche40.png",
+      "${http_download}/dizhu/skillscore/imgs/fangwu41.png",
+      "${http_download}/dizhu/skillscore/imgs/fangwu42.png",
+      "${http_download}/dizhu/skillscore/imgs/fangwu43.png",
+      "${http_download}/dizhu/skillscore/imgs/fangwu44.png",
+      "${http_download}/dizhu/skillscore/imgs/fangwu45.png",
+      "${http_download}/dizhu/skillscore/imgs/huojian46.png",
+      "${http_download}/dizhu/skillscore/imgs/huojian47.png",
+      "${http_download}/dizhu/skillscore/imgs/huojian48.png",
+      "${http_download}/dizhu/skillscore/imgs/huojian49.png",
+      "${http_download}/dizhu/skillscore/imgs/huojian50.png"],
+  "reward" : {
+    "2" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 200,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "3" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 300,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "4" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 500,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "5" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 600,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "6" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 1000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "7" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 1200,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "8" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 1500,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "9" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 1600,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "10" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 1600,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "11" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 2000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "12" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 2000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "13" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 2000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "14" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 2000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "15" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 2000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "16" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 3000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "17" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 3000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "18" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 3000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "19" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 3000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "20" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 3000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "21" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 4000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "22" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 4000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "23" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 4000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "24" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 4000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "25" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 4000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "26" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 5000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "27" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 5000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "28" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 5000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "29" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 5000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "30" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 5000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    }
+  },
+  "ratio_room" : [{
+        "roomlist" : [21011],
+        "ratio" : 1
+      }, {
+        "roomlist" : [21012],
+        "ratio" : 2
+      }, {
+        "roomlist" : [21013],
+        "ratio" : 4
+      }, {
+        "roomlist" : [21014],
+        "ratio" : 6
+      }]
+}

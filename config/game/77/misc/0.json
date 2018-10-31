@@ -1,0 +1,195 @@
+{
+    "url_conf": {
+        "host": "http://texas.tuyoo.com",
+        "gamerule": "/texas/help_gamerule.html",
+        "question": "/texas/help_question.html",
+        "feedback": "/texas/help_feedback.html",
+        "activity": "/texas/activity.html",
+        "activity_ios": "/texas/activity_ios.html"
+    },
+
+    "room_rule":{
+        "vip": [{ "type": 0, "text": "选择支持的阵营" },
+                { "type": 1, "text": "您可以根据历史牌路信息支持红黑任意一方阵营。" },
+
+                { "type": 0, "text": "支持获胜牌型" },
+                { "type": 1, "text": "您也可以支持特定牌型。本局获胜牌型为区域内任意一种，即可按" },
+                { "type": 1, "text": "对应倍数获得奖励。" },
+
+                { "type": 0, "text": "富豪和幸运星" },
+                { "type": 1, "text": "最近累计下注最多的前七名玩家为富豪。近20局获胜最多的玩家为" },
+                { "type": 1, "text": "幸运星。只有富豪和幸运星显示在牌桌上。" },
+
+                { "type": 0, "text": "奖池" },
+                { "type": 1, "text": "每局获胜的钱有一小部分进入奖池。当获胜牌型为豹子、顺金时会" },
+                { "type": 1, "text": "开奖。1等奖会在牌桌上玩家随机选择一个。其他玩家随机获得彩" },
+                { "type": 1, "text": "池奖励。" }
+               ]
+    },
+    "texas_project_management": {
+        "teamSvnRoot": "http://202.106.9.134:9055/newsvn/poker",
+        "teamSvnConfDir": "/config",
+        "roomSvnConfXlsName": "room.xls",
+        "teamLocalConfDir": "texas-team"
+    },
+    "nsLogin":
+    {
+      "1":{
+                    "desc": "1000金币",
+                    "id": 770003601,
+                    "num": 1000,
+                    "pic": "/texas/images/popwnd/t3order_login_reward_gold_0.png",
+                    "propId": 0,
+                    "type": "chip"
+                },
+      "2":{
+                    "desc": "2000金币",
+                    "id": 770003601,
+                    "num": 2000,
+                    "pic": "/texas/images/popwnd/t3order_login_reward_gold_1.png",
+                    "propId": 0,
+                    "type": "chip"
+                },
+      "3":{
+                    "desc": "3000金币",
+                    "id": 770003601,
+                    "num": 3000,
+                    "pic": "/texas/images/popwnd/t3order_login_reward_gold_2.png",
+                    "propId": 0,
+                    "type": "chip"
+                },
+      "4":{
+                    "desc": "4000金币",
+                    "id": 770003601,
+                    "num": 4000,
+                    "pic": "/texas/images/popwnd/t3order_login_reward_gold_2.png",
+                    "propId": 0,
+                    "type": "chip"
+                },
+      "5":{
+                    "desc": "5000金币",
+                    "id": 770003601,
+                    "num": 5000,
+                    "pic": "/texas/images/popwnd/t3order_login_reward_gold_3.png",
+                    "propId": 0,
+                    "type": "chip"
+                },
+      "6":{
+                    "desc": "6000金币",
+                    "id": 770003601,
+                    "num": 6000,
+                    "pic": "/texas/images/popwnd/t3order_login_reward_gold_4.png",
+                    "propId": 0,
+                    "type": "chip"
+                },
+      "7":{
+                    "desc": "7000金币",
+                    "id": 770003601,
+                    "num": 7000,
+                    "pic": "/texas/images/popwnd/t3order_login_reward_gold_5.png",
+                    "propId": 0,
+                    "type": "chip"
+                }
+    },
+    "lotteryRewards":
+    [
+        {
+            "missionId":770005100,
+            "closed": false,
+            "rewardTime":1523203200,
+            "rewardPool":{
+                    "desc": "红包券*100000",
+                    "num": 100000,
+                    "pic": "/hall/item/imgs/redcoupon.png",
+                    "propId": 0,
+                    "type": "coupon"
+                },
+            "rewardLimitPerUser":1,
+            "fakeUserRange":{"min":1, "max":5}
+        },
+        {
+            "missionId":770005200,
+            "closed": false,
+            "rewardTime":1523289600,
+            "rewardPool":{
+                    "desc": "红包券*100000",
+                    "num": 100000,
+                    "pic": "/hall/item/imgs/redcoupon.png",
+                    "propId": 0,
+                    "type": "coupon"
+                },
+            "rewardLimitPerUser":1,
+            "fakeUserRange":{"min":2, "max":5}
+        },
+        {
+            "missionId":770005300,
+            "closed": false,
+            "rewardTime":1523376000,
+            "rewardPool":{
+                    "desc": "红包券*100000",
+                    "num": 100000,
+                    "pic": "/hall/item/imgs/redcoupon.png",
+                    "propId": 0,
+                    "type": "coupon"
+                },
+            "rewardLimitPerUser":1,
+            "fakeUserRange":{"min":1, "max":7}
+        },
+        {
+            "missionId":770005400,
+            "closed": false,
+            "rewardTime":1523462400,
+            "rewardPool":{
+                    "desc": "红包券*100000",
+                    "num": 100000,
+                    "pic": "/hall/item/imgs/redcoupon.png",
+                    "propId": 0,
+                    "type": "coupon"
+                },
+            "rewardLimitPerUser":1,
+            "fakeUserRange":{"min":2, "max":10}
+        },
+        {
+            "missionId":770005500,
+            "closed": false,
+            "rewardTime":1523548800,
+            "rewardPool":{
+                    "desc": "红包券*100000",
+                    "num": 100000,
+                    "pic": "/hall/item/imgs/redcoupon.png",
+                    "propId": 0,
+                    "type": "coupon"
+                },
+            "rewardLimitPerUser":1,
+            "fakeUserRange":{"min":2, "max":4}
+        },
+        {
+            "missionId":770005600,
+            "closed": false,
+            "rewardTime":1523635200,
+            "rewardPool":{
+                    "desc": "红包券*100000",
+                    "num": 100000,
+                    "pic": "/hall/item/imgs/redcoupon.png",
+                    "propId": 0,
+                    "type": "coupon"
+                },
+            "rewardLimitPerUser":1,
+            "fakeUserRange":{"min":1, "max":3}
+        },
+        {
+            "missionId":770005700,
+            "closed": false,
+            "rewardTime":1523721600,
+            "rewardPool":{
+                    "desc": "红包券*100000",
+                    "num": 100000,
+                    "pic": "/hall/item/imgs/redcoupon.png",
+                    "propId": 0,
+                    "type": "coupon"
+                },
+            "rewardLimitPerUser":1,
+            "fakeUserRange":{"min":0, "max":0}
+        }
+    ]
+}

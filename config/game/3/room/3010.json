@@ -1,0 +1,223 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "开赛时间：12月17日-12月18日 每天16:00 \n报名费用：免费",
+    "fees" : [],
+    "rank.rewards" : [
+      {
+        "desc" : "和教育5000金币/500积分",
+        "message" : "恭喜您，在和教育象棋大奖赛中获得第%d名，奖励和教育5000金币或和教育500积分",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : []
+      },
+      {
+        "desc" : "和教育4000金币/400积分",
+        "message" : "恭喜您，在和教育象棋大奖赛中获得第%d名，奖励和教育4000金币或和教育400积分",
+        "ranking" : {
+          "end" : 4,
+          "start" : 2
+        },
+        "rewards" : []
+      },
+      {
+        "desc" : "和教育3000金币/300积分",
+        "message" : "恭喜您，在和教育象棋大奖赛中获得第%d名，奖励和教育3000金币或和教育300积分",
+        "ranking" : {
+          "end" : 10,
+          "start" : 5
+        },
+        "rewards" : []
+      },
+      {
+        "desc" : "和教育2000金币/200积分",
+        "message" : "恭喜您，在和教育象棋大奖赛中获得第%d名，奖励和教育2000金币或和教育200积分",
+        "ranking" : {
+          "end" : 30,
+          "start" : 11
+        },
+        "rewards" : []
+      },
+      {
+        "desc" : "和教育1000金币/100积分",
+        "message" : "恭喜您，在和教育象棋大奖赛中获得第%d名，奖励和教育1000金币或和教育100积分",
+        "ranking" : {
+          "end" : 512,
+          "start" : 31
+        },
+        "rewards" : []
+      }      
+    ],
+    "recordId" : 3010,
+    "stages" : [
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "排位赛(不淘汰)",
+        "rise.user.count" : 512,
+        "rise.user.refer" : 512,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "晋级赛",
+        "rise.user.count" : 128,
+        "rise.user.refer" : 128,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 2,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "128强赛",
+        "rise.user.count" : 64,
+        "rise.user.refer" : 64,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 3,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "64强赛",
+        "rise.user.count" : 32,
+        "rise.user.refer" : 32,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 4,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "32强赛",
+        "rise.user.count" : 16,
+        "rise.user.refer" : 16,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 4,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "16强赛",
+        "rise.user.count" : 8,
+        "rise.user.refer" : 8,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : -1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "决赛",
+        "rise.user.count" : 8,
+        "rise.user.refer" : 8,
+        "seat.principles" : 1,
+        "type" : 1
+      }
+    ],
+    "start" : {
+      "fee.type" : 0,
+      "maxplaytime" : 5400,
+      "prepare.times" : 10,
+      "signin.times" : 7200,
+      "start.speed" : 8,
+      "table.times" : 730,
+      "times" : {
+        "days" : {
+          "list" : [
+            "20161217",
+            "20161218"
+          ]
+        },
+        "times_in_day" : {
+          "list" : [
+            "16:00"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 512,
+      "user.maxsize" : 512,
+      "user.minsize" : 16,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 2,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "和教育大奖赛",
+  "playDesc" : "",
+  "playMode" : "jifen",
+  "robotUserCallUpTime" : 6,
+  "robotUserMaxCount" : 64,
+  "robotUserOpTime" : [
+    1,
+    2,
+    3
+  ],
+  "roomFee" : 0,
+  "roomMutil" : 50,
+  "sendCoupon" : 0,
+  "showCard" : 0,
+  "tableConf" : {
+    "maxSeatN" : 2
+  },
+  "typeName" : "group_match",
+  "winDesc" : ""
+}

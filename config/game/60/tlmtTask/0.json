@@ -1,0 +1,134 @@
+{
+    "6204": {
+        "fishPool": 3, 
+        "readySeconds": 1.5, 
+        "taskId": 6204, 
+        "timeLong": 120, 
+        "taskLevel": 1, 
+        "reward": 50, 
+        "targets": {
+            "1118": {
+                "fishNum": 1, 
+                "fishId": 1118
+            }, 
+            "1114": {
+                "fishNum": 1, 
+                "fishId": 1114
+            }, 
+            "1204": {
+                "fishNum": 1, 
+                "fishId": 1204
+            }
+        }
+    }, 
+    "6205": {
+        "fishPool": 3, 
+        "readySeconds": 1.5, 
+        "taskId": 6205, 
+        "timeLong": 120, 
+        "taskLevel": 2, 
+        "reward": 100, 
+        "targets": {
+            "1204": {
+                "fishNum": 1, 
+                "fishId": 1204
+            }, 
+            "1206": {
+                "fishNum": 1, 
+                "fishId": 1206
+            }, 
+            "1115": {
+                "fishNum": 1, 
+                "fishId": 1115
+            }
+        }
+    }, 
+    "6206": {
+        "fishPool": 3, 
+        "readySeconds": 1.5, 
+        "taskId": 6206, 
+        "timeLong": 120, 
+        "taskLevel": 3, 
+        "reward": 150, 
+        "targets": {
+            "1119": {
+                "fishNum": 1, 
+                "fishId": 1119
+            }, 
+            "1209": {
+                "fishNum": 1, 
+                "fishId": 1209
+            }, 
+            "1203": {
+                "fishNum": 1, 
+                "fishId": 1203
+            }
+        }
+    }, 
+    "6201": {
+        "fishPool": 3, 
+        "readySeconds": 1.5, 
+        "taskId": 6201, 
+        "timeLong": 120, 
+        "taskLevel": 1, 
+        "reward": 50, 
+        "targets": {
+            "1208": {
+                "fishNum": 1, 
+                "fishId": 1208
+            }, 
+            "1117": {
+                "fishNum": 1, 
+                "fishId": 1117
+            }, 
+            "1109": {
+                "fishNum": 1, 
+                "fishId": 1109
+            }
+        }
+    }, 
+    "6202": {
+        "fishPool": 3, 
+        "readySeconds": 1.5, 
+        "taskId": 6202, 
+        "timeLong": 120, 
+        "taskLevel": 2, 
+        "reward": 100, 
+        "targets": {
+            "1120": {
+                "fishNum": 1, 
+                "fishId": 1120
+            }, 
+            "1110": {
+                "fishNum": 1, 
+                "fishId": 1110
+            }, 
+            "1209": {
+                "fishNum": 1, 
+                "fishId": 1209
+            }
+        }
+    }, 
+    "6203": {
+        "fishPool": 3, 
+        "readySeconds": 1.5, 
+        "taskId": 6203, 
+        "timeLong": 120, 
+        "taskLevel": 3, 
+        "reward": 150, 
+        "targets": {
+            "1119": {
+                "fishNum": 1, 
+                "fishId": 1119
+            }, 
+            "1113": {
+                "fishNum": 1, 
+                "fishId": 1113
+            }, 
+            "1210": {
+                "fishNum": 1, 
+                "fishId": 1210
+            }
+        }
+    }
+}

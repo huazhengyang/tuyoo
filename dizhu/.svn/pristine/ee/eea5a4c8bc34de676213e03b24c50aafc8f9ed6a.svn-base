@@ -1,0 +1,39 @@
+# -*- coding:utf-8 -*-
+'''
+Created on 2018-08-20
+
+@author: wangyonghui
+'''
+from dizhu.activities_wx.activity_wx import ActivityWx, ActivityWxRegister
+import freetime.util.log as ftlog
+from dizhu.entity.segment.dizhu_segment_match import SegmentMatchHelper
+
+
+class ActivityWxSeasonInfo(ActivityWx):
+    TYPE_ID = 'ddz.act.wx.seasonInfo'
+    ACTION_SEASON_INFO = 'season_info'
+
+    def __init__(self):
+        super(ActivityWxSeasonInfo, self).__init__()
+
+    def handleRequest(self, userId, clientId, action, msg):
+        actId = self.actId
+        ret = {}
+        if action == self.ACTION_SEASON_INFO:
+            ret = SegmentMatchHelper.getSegmentMatchRules()
+        if ftlog.is_debug():
+            ftlog.debug('ActivityWxSeasonInfo.handleRequest',
+                        'userId=', userId,
+                        'action=', action,
+                        'clientId=', clientId,
+                        'actId=', actId,
+                        'msg=', msg,
+                        'ret=', ret)
+        return ret
+
+    def hasReward(self, userId):
+        ''' 是否有奖励 '''
+        return False
+
+def _registerClass():
+    ActivityWxRegister.registerClass(ActivityWxSeasonInfo.TYPE_ID, ActivityWxSeasonInfo)

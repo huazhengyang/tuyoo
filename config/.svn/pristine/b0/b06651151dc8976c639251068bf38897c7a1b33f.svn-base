@@ -1,0 +1,1366 @@
+{
+    "_comments": [
+        "红包分享配置", 
+        "-------------------------------------------------------------------------------", 
+        "win_share: 在牌桌盈利统计这块加入红包分享逻辑，配置盈利区间内触发指定红包", 
+        "配置说明: start <= win_chip <= stop : 发放 red_packet_id 红包", 
+        "-------------------------------------------------------------------------------", 
+        "match_share: 可配置 M ~ N 名触发指定红包", 
+        "配置说明: start <= 名次 <= stop: 发放 red_packet_id 红包", 
+        "match_id 用来指定比赛类型，可指定多个", 
+        "-------------------------------------------------------------------------------", 
+        "red_envelope: 红包内容配置", 
+        "content: 奖励内容配置", 
+        "    itemId: 资产ID, 可以是: coupon/chip/diamond/charm/exp/道具ID", 
+        "    value:  以这个数量为一组", 
+        "    count:  组数", 
+        "  所以, 总的数量是: value x count 个", 
+        "config: ", 
+        "    min ~ max: 随机数范围。这个范围内取一个随机数N,表示每个红包内有N组", 
+        "-------------------------------------------------------------------------------", 
+        "expireDays: 有效期, 单位: 天。不配置时默认7天", 
+        "clientId: 页面clientId", 
+        "红包ID说明：", 
+        "1、红包ID为6位", 
+        "2、首位为游戏编号，德州为8", 
+        "3、2和3位为红包类型区分（看右侧说明）", 
+        "4、后三位为红包编号，按照自然序列累计", 
+        "红包类型说明（8__001）：", 
+        "00：测试红包", 
+        "01：纯话费红包", 
+        "02：纯门票红包", 
+        "03：纯金币红包", 
+        "04：话费+门票红包", 
+        "05：金币+门票红包", 
+        "06：话费+金币红包", 
+        "07：话费+金币+门票红包"
+    ], 
+    "common": {
+        "clientId": "IOS_3.80_share.share.0-hall8.tuyoo.share", 
+        "domain": "share.texas.guludao.com", 
+        "downloadPage": "http://3g.tuyoo.com/dzpk/index.html", 
+        "downloadPageShort": "http://t.cn/Rtz7ptB", 
+        "expireDeltaDays": 7, 
+        "loginReward": 0, 
+        "registerReward": 0, 
+        "winReMaxCount": 2
+    }, 
+    "config": {
+        "expiredTime": 604800, 
+        "maxCount": 3, 
+        "minCount": 1
+    }, 
+    "login": [
+        {
+            "name": "每日分享红包", 
+            "red_envelope_type_id": "102001", 
+            "res": {
+                "icon_share": "img/icon.png", 
+                "text_share": "免费抽1000元奖品赛门票、话费卡，快来抢--途游德州扑克", 
+                "text_todo": "获得每日门票礼包\n分享后自己可领取1000金币，让大家一起抢比赛门票和话费卡吧！"
+            }
+        }
+    ], 
+    "manual_share": [
+        {
+            "name": "手工发放", 
+            "red_envelope_type_id": "800006", 
+            "res": {
+                "icon_share": "img/icon.png", 
+                "text_share": "100%中奖，内含多份2元话费卡和免费比赛门票！速抢！-途游德州扑克", 
+                "text_todo": "感谢您对途游德州扑克的支持，特奉上新年红包*1\n分享成功可直接获取2元话费卡。\n分享后请点击返回游戏，确保奖励到账。"
+            }
+        }
+    ], 
+    "no_share": [
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.duoku.0-hall8.91new.day", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.duoku.0-hall8.baidunew.day", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.duoku.0-hall8.bdtiebanew.day", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.duoku.0-hall8.duokunew.day", 
+        "Android_3.91_huawei.huawei.0-hall8.huawei.day", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.iappay.0-hall8.lenovo.day", 
+        "Android_3.91_letv.letv.0-hall8.letv.day", 
+        "Android_3.91_nearme.nearme.0-hall8.oppo.day", 
+        "Android_3.91_mi.mi.0-hall8.mi.day", 
+        "Android_3.91_meizu.meizu.0-hall8.meizu.day", 
+        "Android_3.91_nubia.nubia.0-hall8.nubia.day", 
+        "Android_3.91_tyGuest.ucdanji.0-hall8.uc.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.alipay.0-hall8.360cpa.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.alipay.0-hall8.qq.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.alipay.0-hall8.qqas.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.alipay.0-hall8.qqgc.tu", 
+        "Android_3.91_huawei.huawei,yisdkpay4.0-hall6.huawei.dj", 
+        "Android_3.91_huawei.huawei,yisdkpay4.0-hall6.huawei.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.duoku,yisdkpay4.0-hall6.91new.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.duoku,yisdkpay4.0-hall6.baidunew.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.duoku,yisdkpay4.0-hall6.bdtiebanew.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.duoku,yisdkpay4.0-hall6.duokunew.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.duoku,yisdkpay4.0-hall6.91new.dj", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.duoku,yisdkpay4.0-hall6.baidunew.dj", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.duoku,yisdkpay4.0-hall6.bdtiebanew.dj", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.duoku,yisdkpay4.0-hall6.duokunew.dj", 
+        "Android_3.91_mi.mi.0-hall6.mi.dj", 
+        "Android_3.91_mi.mi.0-hall6.mi.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.iappay,yisdkpay4.0-hall6.lenovo.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.iappay,yisdkpay4.0-hall6.lenovo.dj", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.iappay,yisdkpay4.0-hall6.lenovo.dj", 
+        "Android_3.91_wannew.wannew.0-hall6.wdj.dj", 
+        "Android_3.91_wannew.wannew.0-hall6.wdj.tu", 
+        "Android_3.91_letv.letv.0-hall6.leshiphone.dj", 
+        "Android_3.91_letv.letv.0-hall6.leshiphone.tu", 
+        "Android_3.91_tyGuest.ucdanji.0-hall6.uc.dj", 
+        "Android_3.91_tyGuest.ucdanji.0-hall6.uc.tu", 
+        "Android_3.91_nearme.nearme,yisdkpay4.0-hall6.oppo.tu", 
+        "Android_3.91_nearme.nearme,yisdkpay4.0-hall6.oppo.dj", 
+        "Android_3.91_midanji.midanji.0-hall6.mi.midanji", 
+        "Android_3.91_meizu.meizu,yisdkpay.0-hall6.meizu.dj", 
+        "Android_3.91_meizu.meizu,yisdkpay4.0-hall6.meizu.tu", 
+        "Android_3.91_meizu.meizu,yisdkpay4.0-hall6.meizu.happy", 
+        "Android_3.91_huawei.huawei,yisdkpay4.0-hall6.huawei.happy", 
+        "Android_3.91_360.360,yisdkpay.0-hall6.360.laizi", 
+        "Android_3.91_360.360,yisdkpay.0-hall6.360.fk", 
+        "Android_3.92_tyOneKey,tyGuest,tyAccount.duoku.0-hall8.91new.day", 
+        "Android_3.92_tyOneKey,tyGuest,tyAccount.duoku.0-hall8.baidunew.day", 
+        "Android_3.92_tyOneKey,tyGuest,tyAccount.duoku.0-hall8.bdtiebanew.day", 
+        "Android_3.92_tyOneKey,tyGuest,tyAccount.duoku.0-hall8.duokunew.day", 
+        "Android_3.92_huawei.huawei.0-hall8.huawei.day", 
+        "Android_3.92_tyOneKey,tyGuest,tyAccount.iappay.0-hall8.lenovo.day", 
+        "Android_3.92_letv.letv.0-hall8.letv.day", 
+        "Android_3.92_nearme.nearme.0-hall8.oppo.day", 
+        "Android_3.92_mi.mi.0-hall8.mi.day", 
+        "Android_3.92_meizu.meizu.0-hall8.meizu.day", 
+        "Android_3.92_nubia.nubia.0-hall8.nubia.day", 
+        "Android_3.92_tyGuest.ucdanji.0-hall8.uc.tu", 
+        "Android_3.92_tyOneKey,tyGuest,tyAccount.alipay.0-hall8.360cpa.tu", 
+        "Android_3.92_tyOneKey,tyGuest,tyAccount.alipay.0-hall8.qq.tu", 
+        "Android_3.92_tyOneKey,tyGuest,tyAccount.alipay.0-hall8.qqas.tu", 
+        "Android_3.92_tyOneKey,tyGuest,tyAccount.alipay.0-hall8.qqgc.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.iappay,yisdkpay4.0-hall6.lenovo.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.iappay,yisdkpay4,alipay.0-hall6.lenovo.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.iappay,yisdkpay4.0-hall6.lenovo.dj", 
+        "Android_3.91_meizu.meizu,yisdkpay4.0-hall6.meizu.tu", 
+        "Android_3.91_meizu.meizu,yisdkpay4.0-hall6.meizu.happy", 
+        "Android_3.91_meizu.meizu,yisdkpay.0-hall6.meizu.dj", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.yisdkpay4.0-hall6.jinli.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.yisdkpay4.0-hall6.jinli.dj", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.jinli,yisdkpay4.0-hall6.jinligame.dj", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.iappay,yisdkpay4.0-hall6.sanxing.tu", 
+        "Android_3.91_tyOneKey,tyGuest,tyAccount.iappay,yisdkpay4.0-hall6.sanxing.dj", 
+        "Android_3.92_tyOneKey,tyGuest,tyAccount.vivo.0-hall8.vivo.day", 
+        "Android_3.91_mi.mi.0-hall3.mi.tu", 
+        "Android_3.91_nubia.nubia.0-hall3.nubia.tu", 
+        "Android_3.91_tyGuest.ucdanji.0-hall3.uc.tu", 
+        "Android_3.93_huawei.huawei,yisdkpay.0-hall6.huawei.dj", 
+        "Android_3.92_vivo.vivo.0-hall8.vivo.day"
+    ], 
+    "pay_share": [
+        {
+            "max_share_count": 2, 
+            "name": "pay_1", 
+            "product_id": "TY_TEST_PRODUCT_ID", 
+            "red_envelope_type_id": "801001", 
+            "res": {
+                "icon_share": "img/icon.png", 
+                "text_share": "我刚刚赢了不少话费，分给你们一些，快点抢！", 
+                "text_todo": "You will pay for this!"
+            }
+        }
+    ], 
+    "red_envelope_type": {
+        "102001": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:3058", 
+                                1, 
+                                "恭喜你获得100红包券赛门票*1，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 20, 
+                        "items": [
+                            [
+                                "item:3072", 
+                                1, 
+                                "恭喜你获得1000元奖品赛门票"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 20, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费卡"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "每日红包", 
+            "shareReward": {
+                "user:chip": 1000
+            }
+        }, 
+        "102002": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:3058", 
+                                1, 
+                                "恭喜你获得100红包券赛门票*1，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 20, 
+                        "items": [
+                            [
+                                "item:3072", 
+                                1, 
+                                "恭喜你获得1000元奖品赛门票"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 20, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费卡"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "新手红包", 
+            "shareReward": {
+                "user:chip": 1000
+            }
+        }, 
+        "800001": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 5, 
+                    "desc": "", 
+                    "itemId": "4141", 
+                    "value": 1
+                }
+            ], 
+            "name": "好友话费红包（5个10元）"
+        }, 
+        "800002": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 5, 
+                    "desc": "", 
+                    "itemId": "1084", 
+                    "value": 1
+                }, 
+                {
+                    "count": 5, 
+                    "desc": "", 
+                    "itemId": "3021", 
+                    "value": 1
+                }, 
+                {
+                    "count": 10, 
+                    "desc": "", 
+                    "itemId": "3010", 
+                    "value": 1
+                }
+            ], 
+            "name": "金币赛门票红包"
+        }, 
+        "800003": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 1, 
+                    "desc": "", 
+                    "itemId": "3025", 
+                    "value": 1
+                }, 
+                {
+                    "count": 2, 
+                    "desc": "", 
+                    "itemId": "3008", 
+                    "value": 1
+                }, 
+                {
+                    "count": 10, 
+                    "desc": "", 
+                    "itemId": "3050", 
+                    "value": 1
+                }
+            ], 
+            "name": "话费赛门票红包", 
+            "newUserItemId": "3025"
+        }, 
+        "800004": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 1, 
+                    "desc": "", 
+                    "itemId": "3051", 
+                    "value": 1
+                }, 
+                {
+                    "count": 3, 
+                    "desc": "", 
+                    "itemId": "3048", 
+                    "value": 1
+                }, 
+                {
+                    "count": 10, 
+                    "desc": "", 
+                    "itemId": "3047", 
+                    "value": 1
+                }
+            ], 
+            "name": "一滴血门票红包"
+        }, 
+        "800005": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 5, 
+                    "desc": "这是描述瞎写的", 
+                    "itemId": "chip", 
+                    "value": 1000
+                }, 
+                {
+                    "count": 5, 
+                    "desc": "这是描述瞎写的", 
+                    "itemId": "coupon", 
+                    "value": 1
+                }
+            ], 
+            "name": "金币红包券红包"
+        }, 
+        "800006": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:3058", 
+                                1, 
+                                "恭喜你获得100红包券赛门票*1，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:3058", 
+                                1, 
+                                "恭喜你获得100红包券赛门票*1，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:4179", 
+                                1, 
+                                "恭喜你获得2元话费红包，下载游戏，在背包中使用话费卡即可实时到账。"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "新春分享活动红包", 
+            "shareReward": {
+                "item:4179": 1
+            }
+        }, 
+        "801001": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 2, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 3, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，下载游戏，在背包中使用话费卡即可实时到账。"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "10元红包", 
+            "shareReward": {
+                "item:4180": 1
+            }
+        }, 
+        "801002": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 4, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 6, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，下载游戏，在背包中使用话费卡即可实时到账。"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "20元红包", 
+            "shareReward": {
+                "item:4141": 1
+            }
+        }, 
+        "801004": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 4, 
+                        "items": [
+                            [
+                                "item:4141", 
+                                1, 
+                                "恭喜你获得10元话费红包，下载游戏，在背包中使用话费卡即可实时到账。"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "100元红包", 
+            "shareReward": {
+                "item:4141": 4
+            }
+        }, 
+        "801005": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 5, 
+                        "items": [
+                            [
+                                "item:4179", 
+                                1, 
+                                "恭喜你获得2元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 5, 
+                        "items": [
+                            [
+                                "item:4179", 
+                                1, 
+                                "恭喜你获得2元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 4, 
+                        "items": [
+                            [
+                                "item:4141", 
+                                1, 
+                                "恭喜你获得10元话费红包，下载游戏，在背包中使用话费卡即可实时到账。"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "100元红包", 
+            "shareReward": {
+                "item:4141": 4
+            }
+        }, 
+        "801006": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 1, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 2, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，下载游戏，在背包中使用话费卡即可实时到账。"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "6元红包", 
+            "shareReward": {
+                "item:4178": 3
+            }
+        }, 
+        "801007": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 4, 
+                    "desc": "进入游戏，在背包中使用话费卡即可实时到账", 
+                    "itemId": "4178", 
+                    "value": 1
+                }
+            ], 
+            "name": "1元*4红包"
+        }, 
+        "801008": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 1, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 1, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，下载游戏，在背包中使用话费卡即可实时到账。"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "5元红包", 
+            "shareReward": {
+                "item:4178": 2
+            }
+        }, 
+        "801010": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 5, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 5, 
+                        "items": [
+                            [
+                                "item:4180", 
+                                1, 
+                                "恭喜你获得5元话费红包，下载游戏，在背包中使用话费卡即可实时到账。"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "60元红包", 
+            "shareReward": {
+                "item:4141": 2
+            }
+        }, 
+        "801011": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 5, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 5, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 4, 
+                        "items": [
+                            [
+                                "item:4180", 
+                                1, 
+                                "恭喜你获得5元话费红包，下载游戏，在背包中使用话费卡即可实时到账。"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "50元红包", 
+            "shareReward": {
+                "item:4141": 2
+            }
+        }, 
+        "801012": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 5, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 5, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 5, 
+                        "items": [
+                            [
+                                "item:4179", 
+                                1, 
+                                "恭喜你获得2元话费红包，下载游戏，在背包中使用话费卡即可实时到账。"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "30元红包", 
+            "shareReward": {
+                "item:4141": 1
+            }
+        }, 
+        "801013": {
+            "content": {
+                "type": "give_until_empty", 
+                "userTypes": {
+                    "active": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:4178", 
+                                1, 
+                                "恭喜你获得1元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "all": {}, 
+                    "inactive": {
+                        "count": 10, 
+                        "items": [
+                            [
+                                "item:4179", 
+                                1, 
+                                "恭喜你获得2元话费红包，快进入游戏查收吧。"
+                            ]
+                        ]
+                    }, 
+                    "newuser": {
+                        "count": 7, 
+                        "items": [
+                            [
+                                "item:4141", 
+                                1, 
+                                "恭喜你获得10元话费红包，下载游戏，在背包中使用话费卡即可实时到账。"
+                            ]
+                        ]
+                    }, 
+                    "self": {}
+                }
+            }, 
+            "name": "200元红包", 
+            "shareReward": {
+                "item:4143": 2
+            }
+        }, 
+        "802001": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 30, 
+                    "desc": "每天20点 凭票免费参赛", 
+                    "itemId": "3051", 
+                    "value": 1
+                }
+            ], 
+            "name": "5千万1滴血*30红包"
+        }, 
+        "802002": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 30, 
+                    "desc": "每周1/3/5 20:30 凭票免费参赛", 
+                    "itemId": "3046", 
+                    "value": 1
+                }
+            ], 
+            "name": "5亿1滴血*30红包"
+        }, 
+        "802005": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 1000, 
+                    "desc": "凭票免费打女神专属赛", 
+                    "itemId": "3065", 
+                    "value": 1
+                }
+            ], 
+            "name": "TUPT女神赛门票*1000红包"
+        }, 
+        "802006": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 2, 
+                    "desc": "凭票免费打每天300元话费赛", 
+                    "itemId": "3064", 
+                    "value": 1
+                }
+            ], 
+            "name": "一滴血300元话费赛门票*2红包"
+        }, 
+        "802007": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 3, 
+                    "desc": "凭票免费打每天300元话费赛", 
+                    "itemId": "3064", 
+                    "value": 1
+                }
+            ], 
+            "name": "一滴血300元话费赛门票*3红包"
+        }, 
+        "802008": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 5, 
+                    "desc": "凭票免费打每天300元话费赛", 
+                    "itemId": "3064", 
+                    "value": 1
+                }
+            ], 
+            "name": "一滴血300元话费赛门票*5红包"
+        }, 
+        "804001": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 3, 
+                    "desc": "凭票免费打每天300元话费赛", 
+                    "itemId": "3064", 
+                    "value": 1
+                }, 
+                {
+                    "count": 3, 
+                    "desc": "进入游戏，在背包中使用话费卡即可实时到账", 
+                    "itemId": "4179", 
+                    "value": 1
+                }
+            ], 
+            "name": "一滴血300元话费赛*3+2元红包*3"
+        }, 
+        "807001": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 400, 
+                    "desc": "恭喜获得1000游戏金币，下载游戏开始你的牌神之路吧", 
+                    "itemId": "chip", 
+                    "value": 1000
+                }, 
+                {
+                    "count": 200, 
+                    "desc": "恭喜获得5000游戏金币，下载游戏你就是德州牌神", 
+                    "itemId": "chip", 
+                    "value": 5000
+                }, 
+                {
+                    "count": 250, 
+                    "desc": "下载游戏，凭票参加每天300元话费赛", 
+                    "itemId": "3064", 
+                    "value": 1
+                }, 
+                {
+                    "count": 100, 
+                    "desc": "进入游戏，在背包中使用话费卡即可实时到账", 
+                    "itemId": "4178", 
+                    "value": 1
+                }, 
+                {
+                    "count": 50, 
+                    "desc": "进入游戏，在背包中使用话费卡即可实时到账", 
+                    "itemId": "4179", 
+                    "value": 1
+                }
+            ], 
+            "name": "对外宣传红包1"
+        }, 
+        "807002": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 400, 
+                    "desc": "小小心意，请笑纳，点击领取按钮就可以领取奖励了~", 
+                    "itemId": "chip", 
+                    "value": 500
+                }, 
+                {
+                    "count": 200, 
+                    "desc": "小小心意，请笑纳，点击领取按钮就可以领取奖励了~", 
+                    "itemId": "chip", 
+                    "value": 1000
+                }, 
+                {
+                    "count": 200, 
+                    "desc": "下载游戏，凭票参加每天300元话费赛", 
+                    "itemId": "3064", 
+                    "value": 1
+                }, 
+                {
+                    "count": 50, 
+                    "desc": "凭票免费参加每天千元话费赛", 
+                    "itemId": "3008", 
+                    "value": 1
+                }, 
+                {
+                    "count": 150, 
+                    "desc": "进入游戏，在背包中使用话费卡即可实时到账", 
+                    "itemId": "4178", 
+                    "value": 1
+                }
+            ], 
+            "name": "对外分享红包2"
+        }, 
+        "812001": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 2, 
+                    "desc": "", 
+                    "itemId": "4141", 
+                    "value": 1
+                }
+            ], 
+            "name": "贵宾室分享红包1"
+        }, 
+        "812002": {
+            "config": {
+                "maxCount": 3, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 10, 
+                    "desc": "这是描述瞎写的", 
+                    "itemId": "chip", 
+                    "value": 1000
+                }, 
+                {
+                    "count": 10, 
+                    "desc": "这是描述瞎写的", 
+                    "itemId": "coupon", 
+                    "value": 10
+                }, 
+                {
+                    "count": 10, 
+                    "desc": "这是描述瞎写的", 
+                    "itemId": "diamond", 
+                    "value": 3
+                }, 
+                {
+                    "count": 10, 
+                    "desc": "这是描述瞎写的", 
+                    "itemId": "charm", 
+                    "value": 3
+                }, 
+                {
+                    "count": 10, 
+                    "desc": "这是描述瞎写的", 
+                    "itemId": "exp", 
+                    "value": 3
+                }, 
+                {
+                    "count": 10, 
+                    "desc": "这是描述瞎写的", 
+                    "itemId": "1007", 
+                    "value": 1
+                }, 
+                {
+                    "count": 10, 
+                    "desc": "这是描述瞎写的", 
+                    "itemId": "1008", 
+                    "value": 1
+                }
+            ], 
+            "name": "贵宾室分享红包2"
+        }, 
+        "816000": {
+            "config": {
+                "maxCount": 3, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 10, 
+                    "desc": "", 
+                    "itemId": "1008", 
+                    "value": 1
+                }
+            ], 
+            "name": "比赛红包"
+        }, 
+        "899001": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 5, 
+                    "desc": "下载游戏，凭票参加每天300元话费赛", 
+                    "itemId": "3064", 
+                    "value": 1
+                }, 
+                {
+                    "count": 3, 
+                    "desc": "小小心意，请笑纳，点击领取按钮就可以领取奖励了~", 
+                    "itemId": "chip", 
+                    "value": 300
+                }
+            ], 
+            "name": "新手红包"
+        }, 
+        "899002": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 3, 
+                    "desc": "下载游戏，凭票参加每天300元话费赛", 
+                    "itemId": "3064", 
+                    "value": 1
+                }
+            ], 
+            "name": "每日登录红包"
+        }, 
+        "899003": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 3, 
+                    "desc": "凭票参加10.7日20点iphone7比赛", 
+                    "itemId": "3067", 
+                    "value": 1
+                }
+            ], 
+            "name": "iphone7门票每日分享"
+        }, 
+        "899004": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 3, 
+                    "desc": "下载游戏，凭票参加每天300元话费赛", 
+                    "itemId": "3064", 
+                    "value": 1
+                }, 
+                {
+                    "count": 3, 
+                    "desc": "小小心意，请笑纳，点击领取按钮就可以领取奖励了~", 
+                    "itemId": "chip", 
+                    "value": 300
+                }, 
+                {
+                    "count": 2, 
+                    "desc": "进入游戏，在背包中使用话费卡即可实时到账", 
+                    "itemId": "4178", 
+                    "value": 1
+                }
+            ], 
+            "name": "新手红包1017"
+        }, 
+        "899005": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 4, 
+                    "desc": "下载游戏，凭票参加每天300元话费赛", 
+                    "itemId": "3064", 
+                    "value": 1
+                }, 
+                {
+                    "count": 2, 
+                    "desc": "进入游戏，在背包中使用话费卡即可实时到账", 
+                    "itemId": "4178", 
+                    "value": 1
+                }, 
+                {
+                    "count": 2, 
+                    "desc": "凭票免费参加每天千元话费赛", 
+                    "itemId": "3008", 
+                    "value": 1
+                }
+            ], 
+            "name": "每日登录红包2"
+        }, 
+        "899006": {
+            "config": {
+                "maxCount": 1, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 5, 
+                    "desc": "下载游戏，凭票参加每天300元话费赛", 
+                    "itemId": "3064", 
+                    "value": 1
+                }, 
+                {
+                    "count": 3, 
+                    "desc": "凭票免费参加每天千元话费赛", 
+                    "itemId": "3008", 
+                    "value": 1
+                }
+            ], 
+            "name": "每日登录红包3"
+        }, 
+        "899800": {
+            "config": {
+                "maxCount": 3, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 10, 
+                    "desc": "这是描述瞎写的", 
+                    "itemId": "chip", 
+                    "value": 1000
+                }
+            ], 
+            "name": "登录分享红包"
+        }, 
+        "899900": {
+            "config": {
+                "maxCount": 3, 
+                "minCount": 1
+            }, 
+            "content": [
+                {
+                    "count": 10, 
+                    "desc": "这是描述瞎写的", 
+                    "itemId": "1008", 
+                    "value": 1
+                }
+            ], 
+            "name": "充值分享红包"
+        }
+    }, 
+    "register": [
+        {
+            "name": "新手红包", 
+            "red_envelope_type_id": "102002", 
+            "res": {
+                "icon_share": "img/icon.png", 
+                "text_share": "免费抽1000元奖品赛门票、话费卡，快来抢--途游德州扑克", 
+                "text_todo": "获得新手红包\n分享后自己可领取1000金币，让大家一起抢比赛门票和话费卡吧！"
+            }
+        }
+    ], 
+    "tips": {
+        "count_out": {
+            "code": 8, 
+            "info": "数量超限，请重新申请"
+        }, 
+        "envelope_ok": {
+            "code": 10, 
+            "info": "生成红包成功"
+        }, 
+        "expired": {
+            "code": 16, 
+            "info": "好遗憾，红包过期了，以后下手一定要快哦~"
+        }, 
+        "finished": {
+            "code": 2, 
+            "info": "好遗憾，红包被抢光了，以后下手一定要快哦~"
+        }, 
+        "item_ok": {
+            "code": 9, 
+            "info": "添加红包内容成功"
+        }, 
+        "load_config_err": {
+            "code": 11, 
+            "info": "好遗憾，红包过期了，以后下手一定要快哦~"
+        }, 
+        "load_contents_err": {
+            "code": 12, 
+            "info": "红包奖励池信息有误"
+        }, 
+        "load_packages_err": {
+            "code": 13, 
+            "info": "好遗憾，红包过期了，以后下手一定要快哦~"
+        }, 
+        "load_receiver_err": {
+            "code": 14, 
+            "info": "获取红包领用者信息有误"
+        }, 
+        "not_found": {
+            "code": 1, 
+            "info": "好遗憾，红包过期了，以后下手一定要快哦~"
+        }, 
+        "not_login": {
+            "code": 4, 
+            "info": "您尚未登录，请先使用手机号登录！"
+        }, 
+        "not_support": {
+            "code": 6, 
+            "info": "不支持的红包内容"
+        }, 
+        "opened": {
+            "code": 3, 
+            "info": "您已领取过这个红包"
+        }, 
+        "promote_already_have": {
+            "code": 15, 
+            "info": "您已经生成过推广红包"
+        }, 
+        "success": {
+            "code": 5, 
+            "info": "恭喜你打开红包，获得："
+        }, 
+        "value_out": {
+            "code": 7, 
+            "info": "数值超限，请重新申请"
+        }
+    }
+}

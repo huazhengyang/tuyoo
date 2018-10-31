@@ -1,0 +1,57 @@
+{
+    "typeName" : "common_table_match",
+    "name" : "海底宝藏",
+    "sceneName":"string_haidibaozang",
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "dummyUserCount" : 0,
+    "gameServerCount" : 20,
+    "gameTableCount" : 50,
+    "ismatch" : 0,
+    "maxLevel" : 999,
+    "minCoin" : 0,
+    "minGunLevel":2114,
+    "cmpttTaskLevel": 2,
+    "cmpttTaskInterval": 900,
+    "cmpttTaskIFishNum": 0,
+    "miniGameLevel": 1,
+    "fakeUserEnvelopeRewardRange": [300, 1000],
+    "shelterShadowRoomIds":[],
+    "openShadowRoomIdsDispatch":[
+        {
+            "version": {"start": 0, "end": 3.8},
+            "shadowRoomIds": {"start": 600021002, "end": 600021002}
+        },
+        {
+            "version": {"start": 3.8, "end": 100},
+            "shadowRoomIds": {"start": 600021003, "end": 600021004}
+        }
+    ],
+    "cmtbMatch":{
+        "openCmtbMatch": 1,
+        "led2": 60,
+        "led3": 120,
+        "prepareTimeLong": 240,
+        "sendLed": 1,
+        "roomMultiInLed": [30, 300],
+        "times": {
+            "days": {
+                "interval":"1d",
+                "count": 2
+            },
+            "times_in_day": {
+                "list":["8:56", "9:26", "9:56", "10:26", "10:56",
+                    "11:26", "11:56", "12:26", "12:56", "13:26",
+                    "13:56", "14:26", "14:56", "15:26", "15:56",
+                    "16:26", "16:56", "17:26", "17:56",
+                    "18:26", "18:56", "19:26", "19:56", "20:16",
+                    "20:36", "20:56", "21:26", "21:56"]
+            }
+        }
+    },
+    "tableConf" : {
+        "fishGroupsName":"string_haidibaozang",
+        "fishTideName":"tideLevel1",
+        "maxSeatN": 4
+    }
+}

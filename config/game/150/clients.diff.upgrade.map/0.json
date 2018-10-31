@@ -1,0 +1,14 @@
+{
+  "templates" : {
+    "diff1" : {
+      "force" : "0",
+      "des" : "1、测试差分更新\n\n更新文件大小: 0.2M",
+      "path" : "${http_download}/update/update_package_v3.patch",
+      "md5" : "ZZZZZZZZZZZZZZZZZZZZZZZZZZ",
+      "id" : 1,
+      "size" : "169KB",
+      "autoDownloadCondition" : 7,
+      "updateAt" : "background"
+    }
+  }
+}

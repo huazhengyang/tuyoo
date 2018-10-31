@@ -1,0 +1,24 @@
+{
+  "buyinchip" : 0,
+  "canchat" : 1,
+  "dummyUserCount" : 0,
+  "hasrobot" : 0,
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "minCoin" : 0,
+  "minCoinQS" : 0,
+  "name" : "自建桌房间",
+  "playMode" : "jifen",
+  "robotUserCallUpTime" : 6,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    1,
+    2,
+    3
+  ],
+  "roomFee" : 0,
+  "tableConf" : {
+    "maxSeatN" : 2
+  },
+  "typeName" : "normal"
+}

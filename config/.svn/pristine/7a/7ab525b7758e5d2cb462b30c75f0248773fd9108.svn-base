@@ -1,0 +1,35 @@
+{
+  "buyinchip" : 0,
+  "dashifenLevel" : 0,
+  "dummyUserCount" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 0,
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "minCoin" : 10000,
+  "minCoinQS" : 10000,
+  "name" : "青岛经典场",
+  "openAutoChat" : 1,
+  "openIpLimit" : 0,
+  "playMode" : "qingdao_classic",
+  "robotUserCallUpTime" : 2,
+  "robotUserMaxCount" : -1,
+  "robotUserOpTime" : [
+    2,
+    3
+  ],
+  "roomFee" : 400,
+  "tableConf" : {
+    "autoOutCard" : 0,
+    "baoHuangScore" : 2,
+    "baseChip" : 400,
+    "dengJiTimeout" : 5,
+    "guardShowTimeout" : 5,
+    "maxSeatN" : 5,
+    "playTimeout" : 10,
+    "qiangDuTimeout" : 5,
+    "selectCardTimeout" : 5
+  },
+  "tableType" : "friend",
+  "typeName" : "normal"
+}

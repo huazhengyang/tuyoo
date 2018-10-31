@@ -1,0 +1,427 @@
+{
+  "activities": [
+    {
+      "typeId": "ddz.act.wx.seasonInfo",
+      "actId": "seasonInfo20180801",
+      "intActId": 20180801,
+      "startTime": "2018-08-01 00:00:00",
+      "endTime": "2018-08-29 23:59:59"
+    },
+    {
+      "typeId": "ddz.act.wx.seasonInfo",
+      "actId": "seasonInfo20180901",
+      "intActId": 20180901,
+      "startTime": "2018-08-30 00:00:00",
+      "endTime": "2018-09-30 23:59:59"
+    },
+    {
+      "typeId": "ddz.act.wx.shareCharm",
+      "actId": "shareCharm",
+      "intActId": 20180820,
+      "startTime": "2018-08-01 00:00:00",
+      "endTime": "2018-09-30 23:59:59",
+      "maxRankNum": 500,
+      "rankRewards": [
+        {
+          "startRank": 1,
+          "endRank": 1,
+          "rewardDesc": "",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:coupon",
+              "count": 8000,
+              "pic": ""
+            }
+          ]
+        },
+        {
+          "startRank": 2,
+          "endRank": 2,
+          "rewardDesc": "",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:coupon",
+              "count": 1500,
+              "pic": ""
+            },
+            {
+              "itemId": "user:chip",
+              "count": 200000,
+              "pic": "${http_download}/ddz/other/config/invite_chip_high.png"
+            },
+            {
+              "itemId": "item:1311",
+              "count": 60,
+              "pic": "${http_download}/ddz/other/payment/payment_shop_icon_3.png"
+            },
+            {
+              "itemId": "item:2003",
+              "count": 7,
+              "pic": "${http_download}/ddz/other/config/item_cardnote.png"
+            }
+          ]
+        },
+        {
+          "startRank": 3,
+          "endRank": 3,
+          "rewardDesc": "",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:coupon",
+              "count": 1500,
+              "pic": ""
+            },
+            {
+              "itemId": "user:chip",
+              "count": 170000,
+              "pic": "${http_download}/ddz/other/config/invite_chip_high.png"
+            },
+            {
+              "itemId": "item:1311",
+              "count": 30,
+              "pic": "${http_download}/ddz/other/payment/payment_shop_icon_3.png"
+            },
+            {
+              "itemId": "item:2003",
+              "count": 5,
+              "pic": "${http_download}/ddz/other/config/item_cardnote.png"
+            }
+          ]
+        },
+        {
+          "startRank": 4,
+          "endRank": 10,
+          "rewardDesc": "",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 210000,
+              "pic": "${http_download}/ddz/other/config/invite_chip_high.png"
+            },
+            {
+              "itemId": "item:1311",
+              "count": 30,
+              "pic": "${http_download}/ddz/other/payment/payment_shop_icon_3.png"
+            },
+            {
+              "itemId": "item:2003",
+              "count": 3,
+              "pic": "${http_download}/ddz/other/config/item_cardnote.png"
+            }
+          ]
+        },
+        {
+          "startRank": 11,
+          "endRank": 30,
+          "rewardDesc": "",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 170000,
+              "pic": "${http_download}/ddz/other/config/invite_chip_high.png"
+            },
+            {
+              "itemId": "item:1311",
+              "count": 20,
+              "pic": "${http_download}/ddz/other/payment/payment_shop_icon_1.png"
+            },
+            {
+              "itemId": "item:2003",
+              "count": 3,
+              "pic": "${http_download}/ddz/other/config/item_cardnote.png"
+            }
+          ]
+        },
+        {
+          "startRank": 31,
+          "endRank": 50,
+          "rewardDesc": "",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 120000,
+              "pic": "${http_download}/ddz/other/config/invite_chip_middle.png"
+            },
+            {
+              "itemId": "item:1311",
+              "count": 10,
+              "pic": "${http_download}/dddz/other/payment/payment_shop_icon_1.png"
+            },
+            {
+              "itemId": "item:2003",
+              "count": 1,
+              "pic": "${http_download}/ddz/other/config/item_cardnote.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "typeId": "ddz.act.wx.active",
+      "actId": "active",
+      "intActId": 20180820,
+      "activeEvent": [
+        {
+          "eventId": "signIn",
+          "active": 20,
+          "rewardDesc": "公众号签到奖励",
+          "rewardPic": ""
+        },
+        {
+          "eventId": "recharge",
+          "active": 20,
+          "rewardDesc": "充值奖励",
+          "rewardPic": ""
+        },
+        {
+          "eventId": "66660201",
+          "active": 20,
+          "rewardDesc": "分享奖励",
+          "rewardPic": ""
+        },
+        {
+          "eventId": "66660004",
+          "active": 20,
+          "rewardDesc": "分享奖励",
+          "rewardPic": ""
+        },
+        {
+          "eventId": "playTimes3",
+          "active": 20,
+          "rewardDesc": "玩3局奖励",
+          "rewardPic": ""
+        },
+        {
+          "eventId": "exchangeCoin",
+          "active": 20,
+          "rewardDesc": "金币兑换奖励",
+          "rewardPic": ""
+        },
+        {
+          "eventId": "friendGame",
+          "active": 20,
+          "rewardDesc": "朋友桌奖励",
+          "rewardPic": ""
+        },
+        {
+          "eventId": "firstLogin",
+          "active": 20,
+          "rewardDesc": "每日登陆奖励",
+          "rewardPic": ""
+        }
+      ],
+      "dayActiveRewards": [
+        {
+          "active": 40,
+          "rewardDesc": "奖励",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 600,
+              "pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+              "desc": "x600"
+            }
+          ]
+        },
+        {
+          "active": 60,
+          "rewardDesc": "奖励",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 800,
+              "pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+              "desc": "x600"
+            }
+          ]
+        }
+      ],
+      "weekActiveRewards": [
+        {
+          "active": 400,
+          "rewardDesc": "奖励",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 600,
+              "pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+              "desc": "x600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "typeId": "ddz.act.wx.chargeBox",
+      "actId": "chargeBox",
+      "intActId": 20180904,
+      "startTime": "2018-08-01 00:00:00",
+      "endTime": "2019-09-30 23:59:59",
+      "chargeBoxes": [
+        {
+          "desc": "首充礼包",
+          "type": "firstChargeBox",
+          "conditions": [
+            {
+              "list": [
+                {
+                  "typeId": "user.cond.firstRecharged"
+                }
+              ],
+              "typeId": "user.cond.and"
+            }
+          ],
+          "products": [
+            {
+              "productId": "TY9999D0006028",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 8000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:1311",
+                  "count": 20,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 3,
+                  "pic": ""
+                }
+              ],
+              "pic": "",
+              "timeList": []
+            }
+          ]
+        },
+        {
+          "desc": "超值礼包",
+          "type": "superChargeBox",
+          "conditions": [],
+          "products": [
+            {
+              "productId": "TY9999D0006006",
+              "rewards": [],
+              "pic": "",
+              "timeList": []
+            },
+            {
+              "productId": "TY9999D0012002",
+              "rewards": [],
+              "pic": "",
+              "timeList": []
+            },
+            {
+              "productId": "TY9999D0030008",
+              "rewards": [],
+              "pic": "",
+              "timeList": []
+            },
+            {
+              "productId": "TY9999D0050002",
+              "rewards": [],
+              "pic": "",
+              "timeList": []
+            },
+            {
+              "productId": "TY9999D0068003",
+              "rewards": [],
+              "pic": "",
+              "timeList": []
+            },
+            {
+              "productId": "TY9999D0098002",
+              "rewards": [],
+              "pic": "",
+              "timeList": []
+            }
+          ]
+        },
+        {
+          "desc": "限时礼包",
+          "conditions": [],
+          "type": "timeLimitChargeBox",
+          "products": [
+            {
+              "productId": "TY9999D0012004",
+              "rewards": [],
+              "pic": "",
+              "timeList": [
+                [
+                  "08:30",
+                  "20:30"
+                ]
+              ]
+            },
+            {
+              "productId": "TY9999D0025002",
+              "rewards": [],
+              "pic": "",
+              "timeList": [
+                [
+                  "08:30",
+                  "20:30"
+                ]
+              ]
+            },
+            {
+              "productId": "TY9999D0045001",
+              "rewards": [],
+              "pic": "",
+              "timeList": [
+                [
+                  "08:30",
+                  "20:30"
+                ]
+              ]
+            },
+            {
+              "productId": "TY9999D0068004",
+              "rewards": [],
+              "pic": "",
+              "timeList": [
+                [
+                  "08:30",
+                  "20:30"
+                ]
+              ]
+            },
+            {
+              "productId": "TY9999D0108001",
+              "rewards": [],
+              "pic": "",
+              "timeList": [
+                [
+                  "08:30",
+                  "20:30"
+                ]
+              ]
+            },
+            {
+              "productId": "TY9999D0188001",
+              "rewards": [],
+              "pic": "",
+              "timeList": [
+                [
+                  "08:30",
+                  "20:30"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

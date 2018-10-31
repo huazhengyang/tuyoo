@@ -1,0 +1,36 @@
+{
+    "activities": [
+        {
+            "actId": "26001",
+            "typeId": "els.act.exchange",
+            "desc": "情人节兑换礼包",
+            "limitCount": 1,
+            "limitTimeCycle": {
+                "typeId": ""
+            },
+            "hallGameIds": [
+                26
+            ],
+            "startTime": "2017-03-01 00:00:00",
+            "endTime": "2017-04-01 00:00:00",
+            "mail": "您领取了情人节礼包，获得\\${rewardContent}",
+            "giftpkg": {
+                "is_auto_gen_code": 1,
+                "count": 10000,
+                "rewardContent": {
+                    "typeId": "FixedContent",
+                    "items": [
+                        {
+                            "itemId": "item:6010",
+                            "count": 2
+                        },
+                        {
+                            "itemId": "item:6020",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

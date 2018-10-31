@@ -1,0 +1,238 @@
+{
+  "buyinchip": 10000,
+  "dummyUserCount": 0,
+  "gameRule": "classic",
+  "hasrobot": 1,
+  "iscreate": 0,
+  "create_item": 6013,
+  "wanFa" : 3,
+  "ismatch": 0,
+  "is_only_ai": 1,
+  "ai_room_id": 201101,
+  "level": "junior",
+  "matchConf": null,
+  "maxCoin": 80000,
+  "maxCoinQS": 80000,
+  "maxLevel": -1,
+  "dailyFreeGiveEnable": 1,
+  "minCoin": 2000,
+  "minCoinQS": 2000,
+  "name": "普通场",
+  "playMode": "xuezhan",
+  "playModeName": "血战到底",
+  "tableType": "normal",
+  "tableConf": {
+    "robotLevel": 1,
+    "autoLevel": 10,
+    "base_chip": 500,
+    "big_degree_fee": [],
+    "create_user_score": 0,
+    "good_tile_chance": 0,
+    "good_tile_chance_buy": [20,80,100],
+    "good_tile_chance_first_enter": [0,0],
+    "good_tile_chance_disable": [0,0],
+    "leave_vote_num": {
+      "4": 4
+    },
+    "refuse_leave_vote_num": {
+      "4": 1
+    },
+    "maxSeatN": 4,
+    "play_timeout": 12,
+    "room_coefficient": 1,
+    "service_fee": 250,
+    "service_fee_dahu_rate":0.1,
+    "service_fee_dahu_on":0.5,
+    "service_fee_dahu_fan":16,
+    "trustee_timeout": 1,
+    "ready_max_timeout": 3600,
+    "ready_after_sit": 1,
+    "dissolve_vote_time_out": 60,
+    "tiles_no_pao": 0,
+    "hand_tiles_count": 13,
+    "gang_base": 1,
+    "win_base": 1,
+    "score_base": 0,
+    "fan_list": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "bian_multi": 0,
+    "change_baopai": 0,
+    "min_multi": 0,
+    "bigang": 0,
+    "win_by_zimo": 0,
+    "max_fan": 32,
+    "pengpenghu_fan": 0,
+    "gangshanghua_fan": 0,
+    "roof_real": 300,
+    "kou_model": 1,
+    "resume_item_after_begin": 0,
+    "changeTileCount" : 3,
+    "threeTiles": 1,
+    "callTransfer": 1,
+    "quanyaojiuFan": 1,
+    "haidilaoyueFan": 1,
+    "tiandihuFan": 1,
+    "duanyaojiuFan": 0,
+    "men_clear_double": 0,
+    "jiangduiFan": 0,
+    "chat_chip": 2,
+    "chat_time": 5,
+    "nameDesc": "换三张",
+    "taskDesc": ""
+  },
+  "winTasksDesc": {
+    "desc": "\\${winCount}连胜，获得\\$(prize)",
+    "winTasks": [
+      {
+        "winCount": 1,
+        "rewards": {
+          "items": [
+            {
+              "count": 100,
+              "itemId": "user:chip"
+            }
+          ],
+          "typeId": "FixedContent"
+        },
+        "prize": "X100",
+        "pictureUrl":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/WP_3.png"
+      },
+      {
+        "winCount": 2,
+        "rewards": {
+          "items": [
+            {
+              "count": 200,
+              "itemId": "user:chip"
+            }
+          ],
+          "typeId": "FixedContent"
+        },
+        "prize": "X200",
+        "pictureUrl":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/WP_3.png"
+      },
+      {
+        "winCount": 3,
+        "rewards": {
+          "items": [
+            {
+              "count": 400,
+              "itemId": "user:chip"
+            }
+          ],
+          "typeId": "FixedContent"
+        },
+        "prize": "X400",
+        "pictureUrl":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/WP_3.png"
+      },
+      {
+        "winCount": 4,
+        "rewards": {
+          "items": [
+            {
+              "count": 900,
+              "itemId": "user:chip"
+            }
+          ],
+          "typeId": "FixedContent"
+        },
+        "prize": "X900",
+        "pictureUrl":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/WP_3.png"
+      },
+      {
+        "winCount": 5,
+        "rewards": {
+          "items": [
+            {
+              "count": 1500,
+              "itemId": "user:chip"
+            }
+          ],
+          "typeId": "FixedContent"
+        },
+        "prize": "X1500",
+        "pictureUrl":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/WP_3.png"
+      },
+      {
+        "winCount": 6,
+        "rewards": {
+          "items": [
+            {
+              "count": 3000,
+              "itemId": "user:chip"
+            }
+          ],
+          "typeId": "FixedContent"
+        },
+        "prize": "X3000",
+        "pictureUrl":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/WP_3.png"
+      },
+      {
+        "winCount": 7,
+        "rewards": {
+          "items": [
+            {
+              "count": 6000,
+              "itemId": "user:chip"
+            }
+          ],
+          "typeId": "FixedContent"
+        },
+        "prize": "X6000",
+        "pictureUrl":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/WP_3.png"
+      },
+      {
+        "winCount": 8,
+        "rewards": {
+          "items": [
+            {
+              "count": 8000,
+              "itemId": "user:chip"
+            }
+          ],
+          "typeId": "FixedContent"
+        },
+        "prize": "X8000",
+        "pictureUrl":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/WP_3.png"
+      },
+      {
+        "winCount": 9,
+        "rewards": {
+          "items": [
+            {
+              "count": 10000,
+              "itemId": "user:chip"
+            }
+          ],
+          "typeId": "FixedContent"
+        },
+        "prize": "X10000",
+        "pictureUrl":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/WP_3.png"
+      },
+      {
+        "winCount": 10,
+        "rewards": {
+          "items": [
+            {
+              "count": 15000,
+              "itemId": "user:chip"
+            }
+          ],
+          "typeId": "FixedContent"
+        },
+        "prize": "X15000",
+        "pictureUrl":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/WP_3.png"
+      }
+    ]
+  },
+  "typeName": "normal"
+}

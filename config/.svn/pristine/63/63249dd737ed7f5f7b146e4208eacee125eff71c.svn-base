@@ -1,0 +1,62 @@
+{
+	"templates":{
+		"default_neituiguang_3_37": {
+	        "friendNum": 20,
+	        "shareId":"-1",
+	        "prize": {
+	            "CHIP": 10000,
+	            "COUPON": 200
+	        },
+	        "prize_info": [
+	            {"desc": "每邀请1人领取", "prize": [{"name":"CHIP", "count": 10000}]},
+	            {"desc": "每邀请5人额外领取", "prize": [{"name":"COUPON", "count": 200}]}
+	        ],
+	        "rules": [
+	            {"desc":"将红包兑换码发给好友，好友安装游戏并输入兑换码验证成功（注册7日内有效）后，双方都可领取奖励", "prize":[]},
+	            {"desc": "双方都可获得", "prize": [{"name":"CHIP", "count": 10000}]},
+	            {"desc": "每累计成功邀请5人，您还可领取", "prize": [{"name":"COUPON", "count": 200}]}
+	        ],
+	        "validDay": 7,
+	        "inviteePrize": {
+	            "prize": [{"name":"CHIP", "count":10000}],
+	            "warn": "{REM_DAYS}天后将会过期，快把红包领走"
+	        },
+	        "getPrize": ["恭喜获得%d金币奖励，邀请好友获得更多奖励！","兑换码无效", "请绑定手机"],
+	        "gameDoc": {
+	        	"weixinInviteDoc": "途游斗地主，一斗一下午，送您红包兑换码：{PROMOTE_CODE}，快来陪我玩~~",
+	            "downloadUrl":"http://3g.tuyoo.com/fenxiang/promotionCode.html?json={PROMOTE_CODE}",
+	            "smsInviteDoc":"小伙伴，我有个途游斗地主的红包需要你帮我一起领，红包兑换码是: {PROMOTE_CODE}，兑换后你一半我一半！下载地址：{DOWNLOAD_URL}"                                           
+	        }
+		},
+		"default_neituiguang_new": {
+	        "friendNum": 20,
+	        "shareId": "2",
+	        "prize": {
+	            "CHIP": 10000,
+	            "COUPON": 50
+	        },
+	        "prize_info": [
+	            {"desc": "每成功推荐1人领取", "prize": [{"name":"CHIP", "count": 10000}]},
+	            {"desc": "受邀好友同时可领取", "prize": [{"name":"CHIP", "count": 10000}]},
+	            {"desc": "每成功邀请5人还可领取", "prize": [{"name":"COUPON", "count": 50}]},
+	            {"desc": "每日首次分享即可获得", "prize": [{"name":"CHIP", "count": 1000}]}
+	        ],
+	        "rules": [
+	            {"desc":"将推荐码发给好友，好友安装游戏并输入推荐码验证成功（注册7日内有效）后，双方都可领取奖励", "prize":[]},
+	            {"desc": "双方都可获得", "prize": [{"name":"CHIP", "count": 10000}]},
+	            {"desc": "每累计成功邀请5人，您还可领取", "prize": [{"name":"COUPON", "count": 50}]}
+	        ],
+	        "validDay": 7,
+	        "inviteePrize": {
+	            "prize": [{"name":"CHIP", "count": 10000}],
+	            "warn": "{REM_DAYS}天后将会过期，快把奖励领走！"
+	        },
+	        "getPrize": ["恭喜获得%d金币奖励，邀请好友获得更多奖励！","推荐码无效", "请绑定手机"],
+	        "gameDoc": {
+	            "weixinInviteDoc": "来玩途游斗地主，输入我的推荐码 {PROMOTE_CODE}，一起拿红包，赢话费！",
+	            "downloadUrl":"http://3g.tuyoo.com/fenxiang/promotionCode.html?json={PROMOTE_CODE}",
+	            "smsInviteDoc":"来玩途游斗地主，输入我的推荐码 {PROMOTE_CODE}，一起拿红包，赢话费！下载地址：{DOWNLOAD_URL}"                                           
+	        }
+		}
+	}
+}

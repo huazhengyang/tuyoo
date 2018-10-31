@@ -1,0 +1,29 @@
+{
+    "hasrobot": 0,
+    "isMatch": 0,
+    "name": "招财模式",
+    "sceneName": "string_zcms",
+    "fishPool": 12,
+    "multiple": 1,
+    "showLevel": 1,
+    "minLevel": 15,
+    "maxLevel": 999,
+    "minCoin": -1,
+    "maxCoin": -1,
+    "minGunLevel": 2501,
+    "maxGunLevel": 2510,
+    "usableBullets": [1301, 1193, 1194],
+    "timeLimit": [
+        ["00:00", "23:54"]
+    ],
+    "playTime": 300,
+    "fee": {
+        "kindId": 1306,
+        "count": 1
+    },
+    "typeName": "fish_robbery",
+    "tableConf": {
+        "fishGroupsName": "string_zcms",
+        "maxSeatN": 4
+    }
+}

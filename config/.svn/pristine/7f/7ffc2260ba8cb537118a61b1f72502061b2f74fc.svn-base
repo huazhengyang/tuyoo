@@ -1,0 +1,54 @@
+{
+    "comment": [
+        "商城发货额外奖励配置",
+        "time_begin: 活动开始日期，请在后面脑补 0:00:00",
+        "time_end: 活动结束时间, 请也在后面脑补 0:00:00",
+        "clientIdFilter: 如果配置了clientId, 则按clientId过滤。否则按 os 和 minVer 过滤",
+        "clientIdFilter: os: 可选 ios winpc macpc android h5",
+        "clientIdFilter: minVer: 大于等于",
+        "clientIdFilter: ids: 同时支持字符串格式和数字格式",
+        "timesLimit: 活动期间内可以买多少次"
+    ],
+    "config": [
+        {
+            "clientIdFilter": {
+                "ids": [
+                    "Android_3.778_360.360,yisdkpay.0-hall30.360.tu"
+                ],
+                "minVer": 3.7,
+                "os": "android"
+            },
+            "products": {
+                "TY9999D0030001": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值30元，获得2亿争霸赛门票*1",
+                    "prop": {
+                        "3053": 1
+                    },
+                    "timesLimit": 0
+                },
+                "TY9999D0050001": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值50元，获得2亿争霸赛门票*2",
+                    "prop": {
+                        "3053": 2
+                    },
+                    "timesLimit": 0
+                },
+                "TY9999D0100001": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值100元，获得2亿争霸赛门票*4",
+                    "prop": {
+                        "3053": 4
+                    },
+                    "timesLimit": 0
+                }
+            },
+            "time_begin": "2016 08 2",
+            "time_end": "2016 10 1"
+        }
+    ]
+}

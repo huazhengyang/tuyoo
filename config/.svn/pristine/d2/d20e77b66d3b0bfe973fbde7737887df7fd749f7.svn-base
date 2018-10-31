@@ -1,0 +1,230 @@
+{
+ "templates"                : {
+  "douniu_v3.90_AI_IOStishen": {
+   "interval"                 : 5,
+   "name"                     : "douniu_v3.90_AI_IOStishen",
+   "ads"                      : [
+    10060701
+   ]
+  },
+  "douniu_v3.780_AI_zftishen": {
+   "interval"                 : 5,
+   "name"                     : "douniu_v3.780_AI_zftishen",
+   "ads"                      : [
+    10051101
+   ]
+  },
+  "douniu_IOS_tishen"        : {
+   "interval"                 : 5,
+   "name"                     : "template_name_3_20160324153122",
+   "ads"                      : [
+    1003241
+   ]
+  },
+  "douniu_3_7_Android"       : {
+   "interval"                 : 5,
+   "name"                     : "douniu_3_7_Android",
+   "ads"                      : [
+    1003081
+   ]
+  },
+  "douniu_v3.901_A_ceshi"    : {
+   "interval"                 : 5,
+   "name"                     : "douniu_v3.901_A_ceshi",
+   "ads"                      : [
+    10060701
+   ]
+  },
+  "douniu_v3.712_AI_ZFtishen": {
+   "desc"                     : "政府提审",
+   "interval"                 : 5,
+   "name"                     : "douniu_v3.712_AI_ZFtishen",
+   "ads"                      : [
+    10051101
+   ]
+  }
+ },
+ "ads"                      : [
+  {
+   "startTime"                : "2016-03-24 00:00:00",
+   "id"                       : 1003241,
+   "todotasks"                : [
+    {
+     "actId"                    : "douniu_3_711_tishen",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/hall/ads/imgs/douniu_ads_1.png",
+   "endTime"                  : "2019-03-01 00:00:00"
+  },
+  {
+   "startTime"                : "2016-05-11 00:00:00",
+   "id"                       : 10051101,
+   "todotasks"                : [
+    {
+     "actId"                    : "activity_ddz_jiankangyouxi_0201",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/hall/ads/imgs/ads_shenhegongg.png",
+   "endTime"                  : "2020-05-01 00:00:00"
+  },
+  {
+   "startTime"                : "2016-12-12 00:00:00",
+   "id"                       : 10121201,
+   "todotasks"                : [
+    {
+     "actId"                    : "activity_douniubairen_12.12",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/hall/ads/imgs/ads_douniubairen_12.12.jpg",
+   "endTime"                  : "2017-02-28 00:00:00"
+  },
+  {
+   "startTime"                : "2016-12-12 00:00:00",
+   "id"                       : 10121202,
+   "todotasks"                : [
+    {
+     "actId"                    : "activity_douniuxuezhan_12.12",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/hall/ads/imgs/ads_douniuxuezhan_12.12.jpg",
+   "endTime"                  : "2017-02-28 00:00:00"
+  },
+  {
+   "startTime"                : "2016-12-12 00:00:00",
+   "id"                       : 10121203,
+   "todotasks"                : [
+    {
+     "actId"                    : "activity_douniukanpai_12.12",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/hall/ads/imgs/ads_douniukanpai_12.12.jpg",
+   "endTime"                  : "2017-02-28 00:00:00"
+  },
+  {
+   "startTime"                : "2016-12-12 00:00:00",
+   "id"                       : 10121204,
+   "todotasks"                : [
+    {
+     "actId"                    : "activity_douniushuiguo_12.12",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/hall/ads/imgs/ads_douniushuiguo_112.12.jpg",
+   "endTime"                  : "2017-02-28 00:00:00"
+  },
+  {
+   "startTime"                : "2016-12-13 00:00:00",
+   "id"                       : 10121301,
+   "todotasks"                : [
+    {
+     "actId"                    : "activity_douniuyueka_12.13",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/hall/ads/imgs/ads_douniuyueka_12.13.jpg",
+   "endTime"                  : "2017-05-31 00:00:00"
+  },
+  {
+   "startTime"                : "2017-01-17 00:00:00",
+   "id"                       : 10011701,
+   "todotasks"                : [
+    {
+     "actId"                    : "activity_dn_xinchunjifen_0119",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/hall/ads/imgs/ads_dn_jinianyoufu_0124.jpg",
+   "endTime"                  : "2017-02-07 00:00:00"
+  },
+  {
+   "startTime"                : "2017-01-20 00:00:00",
+   "id"                       : 10012001,
+   "todotasks"                : [
+    {
+     "actId"                    : "activity_dn_jinniudasai_0120",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/hall/ads/imgs/ads_dn_jinniudasai_0120.jpg",
+   "endTime"                  : "2017-03-31 00:00:00"
+  },
+  {
+   "startTime"                : "2017-02-06 00:00:00",
+   "id"                       : 10020601,
+   "todotasks"                : [
+    {
+     "actId"                    : "activity_dn_yunxiaojifen_0209",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/hall/ads/imgs/ads_dn_yuanxiaojifen_0209.jpg",
+   "endTime"                  : "2017-02-15 00:00:00"
+  },
+  {
+   "startTime"                : "2017-02-08 00:00:00",
+   "id"                       : 10020801,
+   "todotasks"                : [
+    {
+     "enter_param"              : {
+      "pluginParams"             : {
+       "gameType"                 : 1
+      },
+      "type"                     : "game"
+     },
+     "gameId"                   : 38,
+     "typeId"                   : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/hall/ads/imgs/ads_dn_hongheidazhan_0209.jpg",
+   "endTime"                  : "2017-05-31 00:00:00"
+  },
+  {
+   "startTime"                : "2017-02-20 00:00:00",
+   "id"                       : 10022001,
+   "todotasks"                : [
+    {
+     "actId"                    : "activity_dn_qqqun_0223",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/hall/ads/imgs/ads_dn_qqqun_0223.jpg",
+   "endTime"                  : "2017-06-30 00:00:00"
+  },
+  {
+   "startTime"                : "2017-06-07 00:00:00",
+   "id"                       : 10060701,
+   "todotasks"                : [
+    {
+     "enter_param"              : {
+      "pluginParams"             : {
+       "gameType"                 : 5
+      },
+      "type"                     : "roomlist"
+     },
+     "gameId"                   : 10,
+     "typeId"                   : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/t3card/images/ads/20170509_douniu_mtt_ads.jpg",
+   "endTime"                  : "2019-06-11 00:00:00"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+    "1500": {
+        "taskId": 1500, 
+        "taskType": 4, 
+        "coinReward": 100, 
+        "pearlReward": 0, 
+        "skillReward": 0, 
+        "chestReward": 0, 
+        "steps": [
+            1500
+        ], 
+        "targets": {
+            "number1": 5
+        }
+    }, 
+    "1600": {
+        "taskId": 1600, 
+        "taskType": 1, 
+        "coinReward": 0, 
+        "pearlReward": 0, 
+        "skillReward": 1, 
+        "chestReward": 0, 
+        "steps": [
+            1600
+        ], 
+        "targets": {
+            "target1": 11001, 
+            "number1": 3
+        }
+    }, 
+    "1700": {
+        "taskId": 1700, 
+        "taskType": 6, 
+        "coinReward": 0, 
+        "pearlReward": 20, 
+        "skillReward": 0, 
+        "chestReward": 0, 
+        "steps": [
+            1300, 
+            1700
+        ], 
+        "targets": {
+            "number1": 1
+        }
+    }, 
+    "1800": {
+        "taskId": 1800, 
+        "taskType": 4, 
+        "coinReward": 0, 
+        "pearlReward": 0, 
+        "skillReward": 0, 
+        "chestReward": 31003, 
+        "steps": [
+            1800
+        ], 
+        "targets": {
+            "number1": 50
+        }
+    }
+}

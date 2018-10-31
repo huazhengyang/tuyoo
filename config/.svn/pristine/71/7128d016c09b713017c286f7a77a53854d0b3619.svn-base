@@ -1,0 +1,18 @@
+{
+  "event_handlers" : {
+    "handlers": [
+        {
+            "name": "br_firework",
+            "module": "freetime.games.bairen.plugins.br_firework",
+            "class": "FireWorkBR",
+            "handle": "event_handle"
+        },
+        {
+            "name": "br_lotterypool",
+            "module": "freetime.games.bairen.plugins.br_lotterypool",
+            "class": "LotteryPoolBR",
+            "handle": "event_handle"
+        }
+      ]
+  }
+}

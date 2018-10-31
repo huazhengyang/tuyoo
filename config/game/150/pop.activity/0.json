@@ -1,0 +1,48 @@
+{
+    "templates": {
+        "template_mid": {
+            "url": "${http_download}/dizhu2/activities/80.html", 
+            "mpic": "${http_download}/6/huodong_3_0_mid_20151023.jpg",
+            "lpic": "${http_download}/6/huodong_3_0_left_20150729.jpg", 
+            "rpic": "${http_download}/6/huodong_3_0_right_new.jpg"
+        }, 	
+        "template3": {
+            "url": "${http_download}/dizhu2/activities/80.html", 
+            "lpic": "${http_download}/6/huodong_3_0_left_20150729.jpg", 
+            "rpic": "${http_download}/6/huodong_3_0_right_new.jpg"
+        }, 
+        "template2": {
+            "directBuy": 1
+        }, 
+        "template1": {
+            "url": "${http_download}/dizhu2/activities/43.html", 
+            "lpic": "${http_download}/6/huodong_3_0_left_20150114.jpg", 
+            "rpic": "${http_download}/6/huodong_3_0_20150204_new.jpg"
+        }, 
+        "template6": {
+            "url": "${http_download}/dizhu2/activities/75.html", 
+            "lpic": "${http_download}/6/huodong_3_0_left_20150527.jpg", 
+            "rpic": "${http_download}/6/huodong_3_0_right_new.jpg"
+        }, 
+        "template5": {
+            "url": "${http_download}/dizhu2/activities/82.html", 
+            "lpic": "${http_download}/6/huodong_3_0_left_20150617.jpg", 
+            "rpic": "${http_download}/6/huodong_3_0_right_new.jpg"
+        }, 
+        "template4": {
+            "url": "${http_download}/dizhu2/activities/80.html", 
+            "lpic": "${http_download}/6/huodong_3_0_left_20150610_others.jpg", 
+            "rpic": "${http_download}/6/huodong_3_0_right_new.jpg"
+        }, 
+        "default": {
+            "url": "${http_download}/dizhu2/activities/83.html", 
+            "lpic": "${http_download}/6/huodong_3_0_left_20150729.jpg", 
+            "rpic": "${http_download}/6/huodong_3_0_right_20150604.jpg"
+        }, 
+        "default_old": {
+            "url": "${http_download}/dizhu2/activities/81.html", 
+            "lpic": "${http_download}/6/huodong_3_0_left_20150610_others.jpg", 
+            "rpic": "${http_download}/6/huodong_3_0_right_20150604.jpg"
+        }
+    }
+}

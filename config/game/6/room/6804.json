@@ -1,0 +1,163 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "开赛时间：每日20:40 \n报名费用：1张盛夏大奖赛门票",
+    "fees" : [
+    ],
+    "rank.rewards" : [
+      {
+        "desc" : "10000奖券",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+        	{
+        		"itemId":"user:coupon2v1",
+        		"count":10000
+        	}
+        ]
+      },
+      {
+        "desc" : "5000奖券",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+        	{
+        		"itemId":"user:coupon2v1",
+        		"count":5000
+        	}
+        ]
+      },
+      {
+        "desc" : "2000奖券",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+        	{
+        		"itemId":"user:coupon2v1",
+        		"count":2000
+        	}
+        ]
+      },
+      {
+        "desc" : "500奖券",
+        "ranking" : {
+          "end" : 10,
+          "start" : 4
+        },
+        "rewards" : [
+        	{
+        		"itemId":"user:coupon2v1",
+        		"count":500
+        	}
+        ]
+      },
+      {
+        "desc" : "100奖券",
+        "ranking" : {
+          "end" : 25,
+          "start" : 11
+        },
+        "rewards" : [
+        	{
+        		"itemId":"user:coupon2v1",
+        		"count":100
+        	}
+        ]
+      }
+    ],
+    "stages" : [
+      {
+        "animation.type" : 2,
+        "card.count" : 8,
+        "chip.base" : 100,
+        "name" : "决赛",
+        "rise.user.count" : 1,
+        "seat.principles" : 2,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 1,
+      "maxplaytime" : 10800,
+      "prepare.times" : 10,
+      "signin.times" : 1800,
+      "start.speed" : 5,
+      "table.times" : 480,
+      "times" : {
+        "days" : {
+          "count" : 100,
+          "first" : "",
+          "interval" : "1d"
+        },
+        "times_in_day" : {
+          "list" : [
+            "21:30"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.maxsize" : 4000,
+      "user.minsize" : 10,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 1,
+    "tips" : {
+      "infos" : [
+        "地主可以针对农民的加倍再加倍！",
+		"认证牌手身份才能获得大师分哦",
+		"竞技二打一是国家体育总局认证的全国性赛事",
+		"绑定银行卡后才能领取比赛奖金哦",
+		"奖金记录只显示最新的20条奖金信息",
+		"24小时内只能进行一次提现操作"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "大师免费赛",
+  "playDesc" : "",
+  "playMode" : "erdayi",
+  "robotUserCallUpTime" : 2,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    1,
+    1
+  ],
+  "roomFee" : 45,
+  "roomMutil" : 50,
+  "showCard" : 0,
+  "tableConf" : {
+    "autochange" : 1,
+    "basebet" : 1,
+    "basemulti" : 1,
+    "canchat" : 0,
+    "cardNoteChip" : 500,
+    "coin2chip" : 1,
+    "grab" : 0,
+    "gslam" : 128,
+    "lucky" : 0,
+    "maxSeatN" : 3,
+    "optime" : 15,
+    "passtime" : 5,
+    "rangpaiMultiType" : 1,
+    "robottimes" : 2,
+    "tbbox" : 0,
+    "unticheat" : 0
+  },
+  "typeName" : "erdayi_match",
+  "winDesc" : ""
+}

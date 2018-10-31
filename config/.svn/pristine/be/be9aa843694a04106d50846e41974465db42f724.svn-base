@@ -1,0 +1,18 @@
+{
+  "room_items" : {
+      "deceive1" : {
+                        "id": 30015
+                }
+  },
+  
+  "session_items" : {
+	"deceives": {
+   		"session": "老千场",
+   		"rooms":["deceive1"]
+    }
+  },
+  
+  "templates" : {
+  	"default" : ["deceives"]
+  }
+}

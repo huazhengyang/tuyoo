@@ -1,0 +1,45 @@
+{
+  "templates":{
+    "Nian_gift":{
+        "id" : 1,
+        "canGetTime" : 1,
+        "ZIPconfig" : {
+          "fileType"    : "zip",
+          "versionUrl"  : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+          "MD5"         : "",
+          "dirName"     : "games/ddzsingle/pet/nian",
+          "url"         : "http://ddz.dl.tuyoo.com/cdn37/ddzsingle/giftbag/nian.zip"
+        },
+        "product" : {
+          "id" : "TY9999R00061DJ",
+          "cargo":180000, 
+          "price":6, 
+          "des":"18万银币，赠送12万银币",
+          "gift" : {"silverCoin":120000, "pet" : "年兽"}
+        },
+        "petInfo" : {
+          "name"  : "年兽",
+          "json"  : "games/ddzsingle/pet/nian/ddz_nianshou.json",
+          "atlas" : "games/ddzsingle/pet/nian/ddz_nianshou.atlas",
+          "png"   : "games/ddzsingle/pet/nian/ddz_nianshou.png",
+          "blackIcon"  : "games/ddzsingle/pet/nian/ddzsingle_black_pet_4.png",
+          "detailShow1Icon" : "games/ddzsingle/pet/nian/ddzsingle_detail_show_4_0.png",
+          "detailShow2Icon" : "games/ddzsingle/pet/nian/ddzsingle_detail_show_4_1.png",
+          "detailShow3Icon" : "games/ddzsingle/pet/nian/ddzsingle_detail_show_4_2.png",
+          "fragmentIcon" : "games/ddzsingle/pet/nian/ddzsingle_pet_hecheng_fragment_4.png",
+          "grade" : "A",
+          "petAnimationTag" : "nianshou",
+          "des" : "又称年，古代神话中的恶兽。相传古时每逢年末的午夜，年就会骚扰村子，为了防止年兽的骚扰，人们就会放爆竹、贴春联...渐渐的这也成为节日习俗，春节由此诞生。",
+          "unlockImageLv" : ["合成解锁", "20", "40"],
+          "upStarFragment" : [20, 20, 20, 20],
+          "composeFragment" : 20,
+          "fromNet" : true,
+          "version" : 1 
+        },
+        "showCondition" : {
+          "checkExist" : ["petInfo"]
+        },
+        "enterTag" : "nian"
+      }
+  }
+}

@@ -1,0 +1,214 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 13,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "gomoku_v3.73_AI_NO_NEW_FirstRecharge"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "gomoku_v3.771_AI_normal"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "gomoku_v3.771_AI_tishen"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 20020201,
+       "conditions"  : [
+        {
+         "stopExp"     : 1,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "gomoku_v3.92_A_pro_slots"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "gomoku_v4.55_AI__mi"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 13,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "template.3_73_gomoku"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 20020201,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "templateName": "firstBuy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "一元首充",
+   "url"         : "${http_download}/hall/promote/imgs/first_charge68_458.png",
+   "defaultRes"  : "一元首充"
+  }
+ ]
+}

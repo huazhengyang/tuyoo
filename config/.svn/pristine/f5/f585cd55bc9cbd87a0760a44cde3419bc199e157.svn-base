@@ -1,0 +1,112 @@
+{
+    "autoQueue": 0.0, 
+    "consumeSwitch": 0, 
+    "couponActCfg": {
+        "add": 0, 
+        "memberAdd": 0, 
+        "timeSegs": [
+            [
+                [
+                    12, 
+                    0
+                ], 
+                [
+                    24, 
+                    0
+                ]
+            ]
+        ]
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            8000, 
+            800, 
+            -800
+        ], 
+        "chicken": [
+            8000, 
+            800, 
+            -800
+        ], 
+        "doubleAce": [
+            8000, 
+            1600, 
+            1600
+        ], 
+        "eggs": [
+            8000, 
+            800, 
+            -800
+        ], 
+        "fishing": [
+            8000, 
+            800, 
+            -800
+        ], 
+        "ring": [
+            8000, 
+            1600, 
+            1600
+        ], 
+        "rose": [
+            8000, 
+            1600, 
+            1600
+        ], 
+        "thumb": [
+            8000, 
+            1600, 
+            1600
+        ]
+    }, 
+    "matchConf": {
+        "match_id": "0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 20000000, 
+    "minCoin": 2000000, 
+    "minCoinQS": 10000000, 
+    "minTableCount": 2, 
+    "name": "天地", 
+    "playMode": "classic", 
+    "queueVipLevel": 6.0, 
+    "rewardDealerChip": 50000, 
+    "roomID": 8125, 
+    "sortId": 11, 
+    "tableConf": {
+        "autoGrad": 0, 
+        "bb": 40000, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 2000000, 
+        "buyinConf": "1/2/3/4/5", 
+        "call": 1, 
+        "callChip": -1, 
+        "chat_require_vip_level": 8, 
+        "commission": 0.0, 
+        "extname": "天地{}(准入:200万)", 
+        "fee": 20000, 
+        "flip_card_game": {
+            "bet": 20000, 
+            "loading_show": 0, 
+            "show": 1
+        }, 
+        "get_insurance_info": 1.0, 
+        "inner_game": 0, 
+        "isSitBigBlind": 0.0, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "min_players": 2, 
+        "nameForPc": "贵宾室-天地", 
+        "optime": 10, 
+        "pay_factor": 1.0, 
+        "prebet": 10000, 
+        "sb": 20000, 
+        "start_card": 2, 
+        "tname": "天地", 
+        "win_exp": 2
+    }, 
+    "typeName": "vip"
+}

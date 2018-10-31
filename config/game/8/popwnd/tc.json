@@ -1,0 +1,970 @@
+{
+ "templates"                            : {
+  "texas_ios_examination"                : {
+   "luckBuy"                              : {
+    "selectProductAction"                  : "zhuanyun",
+    "desc"                                 : "[[{\"text\": \"胜负乃兵家常事，大侠请重新来过。\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"送您一次限量礼包购买机会，\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"助您时来运转，反败为胜！\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}]]",
+    "cbmpDesc"                             : "转运",
+    "subActionText"                        : "购买礼包",
+    "typeId"                               : "todotask.template.luckBuy",
+    "tip"                                  : "\\${product.desc}"
+   },
+   "lessBuyChip"                          : {
+    "iconPic"                              : "${http_download}/hall/popwnd/imgs/coin_icon.png",
+    "desc"                                 : "[[{\"text\": \"您的金币不足进入该房间至少需要\", \"style\": \"labelStyle_pop_order_normal\", \"type\": \"ttf\"}, {\"text\": \"\\${room.minCoin}\", \"font\": \"hall_button_text_special_red\", \"type\": \"bmf\"}], [{\"text\": \"推荐您购买\\${product.displayName}\", \"type\": \"ttf\"}]]",
+    "typeId"                               : "todotask.template.lessBuyChip",
+    "note"                                 : "[[{\"text\": \"需要花费\\${product.price}元。客服电话4008-098-000\", \"font\": \"labelStyle_pop_order_tip\", \"type\": \"ttf\"}]]"
+   },
+   "winBuy"                               : {
+    "selectProductAction"                  : "winlead",
+    "desc"                                 : "[[{\"text\": \"水平真高！\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"送您一次限量礼包购买机会，\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"（全国只有8%的人能获得）\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}]]",
+    "cbmpDesc"                             : "winbuy",
+    "subActionText"                        : "购买礼包",
+    "typeId"                               : "todotask.template.winBuy",
+    "tip"                                  : "\\${product.desc}"
+   }
+  },
+  "texas_v3.75_AI_tanchuangmoban_9.20"   : {
+   "recommendBuy_vip_3280_3000zuan"       : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 3000,
+      "minCount"                             : 3000,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/vip_3000zuan.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "3000钻vip礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "lessBuyChip"                          : {
+    "iconPic"                              : "${http_download}/hall/popwnd/imgs/coin_icon.png",
+    "desc"                                 : "[[{\"text\": \"您的金币不足进入该房间至少需要\", \"style\": \"labelStyle_pop_order_normal\", \"type\": \"ttf\"}, {\"text\": \"\\${room.minCoin}\", \"font\": \"hall_button_text_special_red\", \"type\": \"bmf\"}], [{\"text\": \"推荐您购买\\${product.displayName}\", \"type\": \"ttf\"}]]",
+    "typeId"                               : "todotask.template.lessBuyChip",
+    "note"                                 : "[[{\"text\": \"需要花费\\${product.price}元。客服电话4008-098-000\", \"font\": \"labelStyle_pop_order_tip\", \"type\": \"ttf\"}]]"
+   },
+   "winBuy"                               : {
+    "selectProductAction"                  : "winlead",
+    "desc"                                 : "[[{\"text\": \"水平真高！\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"送您一次限量礼包购买机会，\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"（全国只有8%的人能获得）\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}]]",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.winBuy",
+    "tip"                                  : "\\${product.desc}"
+   },
+   "recommendBuy_chaozhi_30yuan"          : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "recommend"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/30yuan_chaozhi_vip.png",
+    "cbmpDesc"                             : "30元超值礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "memberTryPayOrder"                    : {
+    "payOrder"                             : {
+     "shelves"                              : [
+      "member"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 10,
+      "minCount"                             : 10,
+      "maxCount"                             : 10
+     }
+    },
+    "typeId"                               : "todotask.template.payOrder"
+   },
+   "recommendBuy"                         : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "recommend"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 60,
+      "maxCount"                             : 299
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/pop_recommend_buy5_withcancel.png",
+    "cbmpDesc"                             : "ios6元超值礼包/安卓8元超值礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "recommendBuy_vip_1280_1000zuan"       : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 1000,
+      "minCount"                             : 1000,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/vip_1000zuan.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "1000钻vip礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "luckBuy"                              : {
+    "selectProductAction"                  : "zhuanyun",
+    "desc"                                 : "[[{\"text\": \"胜负乃兵家常事，大侠请重新来过。\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"送您一次限量礼包购买机会，\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"助您时来运转，反败为胜！\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}]]",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.luckBuy",
+    "tip"                                  : "\\${product.desc}"
+   },
+   "memberTryRoom"                        : {
+    "selectProductAction"                  : "memberTry",
+    "desc"                                 : "",
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/member_try2.png",
+    "subActionText"                        : "1元体验",
+    "typeId"                               : "todotask.template.memberTry"
+   },
+   "memberPayOrder"                       : {
+    "payOrder"                             : {
+     "shelves"                              : [
+      "member"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 120,
+      "minCount"                             : 120,
+      "maxCount"                             : -1
+     }
+    },
+    "typeId"                               : "todotask.template.payOrder"
+   },
+   "monthCheckin"                         : {
+    "cbmpDesc"                             : "checkin_popwnd（新版月签支持3.76以上）",
+    "typeId"                               : "todotask.template.monthCheckin"
+   },
+   "recommendBuy_vip_60_80zuan"           : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 60,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/vip_80zuan.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "80钻vip礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "memberBuy"                            : {
+    "tipForSubMember"                      : "[[{\"text\": \"您当前为订阅会员，如需退订请去您的背包中查看详情\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "tipForMember"                         : "[[{\"text\": \"还有\\${remainDays}天会员\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "descForMember"                        : "[[{\"text\": \"尊贵的会员，您已获得以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "desc"                                 : "[[{\"text\": \"现在仅需\", \"style\": \"labelStyle_member_left_font\"}, {\"text\": \"\\${product.price}\", \"font\": \"common_charming_num\", \"type\": \"bmf\"}, {\"text\": \"\\${product.priceUnits}，即可获得\\${product.content.desc}，尊享以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "monthly"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 10000,
+      "minCount"                             : -1,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/member_buy3.png",
+    "subActionText"                        : "获取特权",
+    "typeId"                               : "todotask.template.memberBuy2",
+    "subActionTextForMember"               : "续费"
+   },
+   "firstRechargeTry"                     : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "lessbuychip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/popwnd_pic_newFirstRecharge_20160809.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/popwnd_titlepic_newFirstRecharge_20160809.png",
+    "cbmpDesc"                             : "新版首充",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "double11buy"                          : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "coin"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : 300
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/shuang11tanchuang_1109.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/shuang11biaoti_11092.png",
+    "cbmpDesc"                             : "双11购买",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "recommendBuy_Summer_preference"       : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "newyear"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 20,
+      "minCount"                             : 20,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/popwnd_pic_20160725.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/popwnd_titlepic_20160803.png",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "memberBuy2"                           : {
+    "tipForSubMember"                      : "[[{\"text\": \"您当前为订阅会员，如需退订请去您的背包中查看详情\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "tipForMember"                         : "[[{\"text\": \"还有\\${remainDays}天会员\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "descForMember"                        : "[[{\"text\": \"尊贵的会员，您已获得以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "desc"                                 : "[[{\"text\": \"现在仅需\", \"style\": \"labelStyle_member_left_font\"}, {\"text\": \"\\${product.price}\", \"font\": \"common_charming_num\", \"type\": \"bmf\"}, {\"text\": \"\\${product.priceUnits}，即可获得\\${product.content.desc}，尊享以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "member"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 80,
+      "maxCount"                             : -1
+     }
+    },
+    "closeAction"                          : {
+     "templateName"                         : "memberTryMin"
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/member_dingyue1_new.png",
+    "cbmpDesc"                             : "图改成member_dingyue1_new",
+    "subActionText"                        : "获取特权",
+    "typeId"                               : "todotask.template.memberBuy2",
+    "subActionTextForMember"               : "续费"
+   },
+   "recommendBuy_vip_500_300zuan"         : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 500,
+      "minCount"                             : 300,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/vip_500zuan.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "500钻vip礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "firstRechargeReceive"                 : {
+    "desc"                                 : "",
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/popwnd_pic_newFirstRechargeReceive_20160817.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/popwnd_titlepic_newFirstRecharge_20160809.png",
+    "cbmpDesc"                             : "首充奖励领取",
+    "subActionText"                        : "领取",
+    "typeId"                               : "todotask.template.firstRechargeReceive"
+   },
+   "activity"                             : {
+    "actId"                                : "activity_general_btn_android_raffle_1015",
+    "typeId"                               : "todotask.template.activity"
+   },
+   "memberTry"                            : {
+    "desc"                                 : "",
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/member_try2.png",
+    "subActionText"                        : "1元体验",
+    "typeId"                               : "todotask.template.memberTry",
+    "actions"                              : [
+     {
+      "text"                                 : {
+       "name"                                 : "sub_action_text",
+       "value"                                : "1元体验"
+      },
+      "action"                               : {
+       "name"                                 : "sub_action",
+       "list"                                 : [
+        {
+         "templateName"                         : "memberTryPayOrder"
+        }
+       ]
+      },
+      "required"                             : 1
+     }
+    ]
+   },
+   "memberTryMin"                         : {
+    "desc"                                 : "亲，只需1元即可试用1天会员，包括10000金币及七大特权，当天生效，来试试看？",
+    "allowClose"                           : 1,
+    "typeId"                               : "todotask.template.memberTryMin",
+    "actions"                              : [
+     {
+      "action"                               : {
+       "name"                                 : "sub_action",
+       "list"                                 : [
+        {
+         "templateName"                         : "memberTryPayOrder"
+        }
+       ]
+      },
+      "required"                             : 1
+     }
+    ]
+   }
+  },
+  "texas_3_7_Android"                    : {
+   "recommendBuy_vip_3280_3000zuan"       : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 3000,
+      "minCount"                             : 3000,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/vip_3000zuan_0207.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "3000钻vip礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "recommendBuy_vip_1280_1000zuan"       : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 1000,
+      "minCount"                             : 1000,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_20170222_1000diamond_popwnd.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "1000钻vip礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "luckBuy"                              : {
+    "selectProductAction"                  : "zhuanyun",
+    "desc"                                 : "[[{\"text\": \"胜负乃兵家常事，大侠请重新来过。\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"送您一次限量礼包购买机会，\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"助您时来运转，反败为胜！\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}]]",
+    "cbmpDesc"                             : "转运礼包购买",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.luckBuy",
+    "tip"                                  : "\\${product.desc}"
+   },
+   "bainiandalibao"                       : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "coin"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : 300
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/bainiandalibao_01183.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/bainianbiaoti_0118.png",
+    "cbmpDesc"                             : "拜年大礼包",
+    "subActionText"                        : "购买礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "monthlyBuy"                           : {
+    "tipForMember"                         : "[[{\"text\": \"[德州]还有\\${remainDays}天会员\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "descForMember"                        : "[[{\"text\": \"[德州]尊贵的会员，您已获得以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "desc"                                 : "[[{\"text\": \"[德州]现在仅需\", \"style\": \"labelStyle_member_left_font\"}, {\"text\": \"\\${product.price}\", \"font\": \"common_charming_num\", \"type\": \"bmf\"}, {\"text\": \"\\${product.priceUnits}，即可获得\\${product.content.desc}，尊享以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "monthly"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 80,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_android_newmonthcard_20170418_popwnd.png",
+    "cbmpDesc"                             : "德州安卓版月卡",
+    "subActionText"                        : "获取特权",
+    "typeId"                               : "todotask.template.monthlyBuy",
+    "subActionTextForMember"               : "续费"
+   },
+   "winBuy"                               : {
+    "selectProductAction"                  : "winlead",
+    "desc"                                 : "[[{\"text\": \"水平真高！\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"送您一次限量礼包购买机会，\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"（全国只有8%的人能获得）\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}]]",
+    "cbmpDesc"                             : "高手礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.winBuy",
+    "tip"                                  : "\\${product.desc}"
+   },
+   "recommendBuy_vip_60_80zuan"           : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 60,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_20170222_80diamond_popwnd.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "80钻vip礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "firstRechargeTry"                     : {
+    "imgUrl"                               : "${http_download}/texas/images/popwnd/texas_firstrecharge_0824_popwnd.png",
+    "title"                                : "[[{\"text\": \"\", \"style\": \"labelStyle_first_recharge_normal\", \"type\": \"ttf\"}, {\"text\": \"\", \"style\": \"labelStyle_first_recharge_bold\", \"type\": \"ttf\"}]]",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "lessbuychip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : -1
+     }
+    },
+    "confirmDesc"                          : "对不起，您不满足领取礼包的条件\n现在就购买\\${product.displayName}(\\${product.price}元)即可领取豪华大礼包！",
+    "cbmpDesc"                             : "首充弹窗配置",
+    "subActionText"                        : "领取礼包",
+    "confirm"                              : 1,
+    "typeId"                               : "todotask.template.firstRechargeTry"
+   },
+   "double11buy"                          : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "coin"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : 300
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/shuang11tanchuang_1109.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/shuang11biaoti_11092.png",
+    "cbmpDesc"                             : "双11购买",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "memberBuy2"                           : {
+    "tipForSubMember"                      : "[[{\"text\": \"您当前为订阅会员，如需退订请去您的背包中查看详情\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "tipForMember"                         : "[[{\"text\": \"还有\\${remainDays}天会员\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "descForMember"                        : "[[{\"text\": \"尊贵的会员，您已获得以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "member"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 100,
+      "minCount"                             : 80,
+      "maxCount"                             : -1
+     }
+    },
+    "closeAction"                          : {
+     "templateName"                         : "memberTryMin"
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_android_newmonthcard_0818_popwnd.png",
+    "cbmpDesc"                             : "德州未知",
+    "subActionText"                        : "获取特权",
+    "typeId"                               : "todotask.template.memberBuy2",
+    "subActionTextForMember"               : "续费"
+   },
+   "recommendBuy_vip_500_300zuan"         : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 500,
+      "minCount"                             : 300,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_20170222_500diamond_popwnd.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "500钻vip礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "recommendBuy"                         : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "recommend"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 60,
+      "maxCount"                             : 299
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_recommendbuy_popwnd_20170401_and.png",
+    "cbmpDesc"                             : "IOS及Android超值礼包6元及8元",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   }
+  },
+  "texas_v3.752_Android_function_test"   : { },
+  "texas_3_7_Ios"                        : {
+   "recommendBuy_vip_3280_3000zuan"       : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 3000,
+      "minCount"                             : 3000,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_20170222_3280diamond_popwnd.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "3280钻vip礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "recommendBuy_vip_1280_1000zuan"       : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 1000,
+      "minCount"                             : 1000,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_20170222_1280diamond_popwnd.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "1280钻vip礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "luckBuy"                              : {
+    "selectProductAction"                  : "zhuanyun",
+    "desc"                                 : "[[{\"text\": \"胜负乃兵家常事，大侠请重新来过。\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"送您一次限量礼包购买机会，\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"助您时来运转，反败为胜！\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}]]",
+    "cbmpDesc"                             : "转运礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.luckBuy",
+    "tip"                                  : "\\${product.desc}"
+   },
+   "bainiandalibao"                       : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "coin"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : 300
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/bainiandalibao_01183.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/bainianbiaoti_0118.png",
+    "cbmpDesc"                             : "拜年大礼包",
+    "subActionText"                        : "购买礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "monthlyBuy"                           : {
+    "tipForMember"                         : "[[{\"text\": \"[德州]还有\\${remainDays}天会员\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "descForMember"                        : "[[{\"text\": \"[德州]尊贵的会员，您已获得以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "desc"                                 : "[[{\"text\": \"[德州]现在仅需\", \"style\": \"labelStyle_member_left_font\"}, {\"text\": \"\\${product.price}\", \"font\": \"common_charming_num\", \"type\": \"bmf\"}, {\"text\": \"\\${product.priceUnits}，即可获得\\${product.content.desc}，尊享以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "monthly"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 80,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_ios_newmonthcard_20170418_popwnd.png",
+    "cbmpDesc"                             : "德州IOS版月卡",
+    "subActionText"                        : "获取特权",
+    "typeId"                               : "todotask.template.monthlyBuy",
+    "subActionTextForMember"               : "续费"
+   },
+   "recommendBuy_vip_60_80zuan"           : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 60,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/vip_80zuan.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "60钻vip礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "firstRechargeTry"                     : {
+    "imgUrl"                               : "${http_download}/texas/images/popwnd/texas_firstrecharge_0824_popwnd.png",
+    "title"                                : "[[{\"text\": \"\", \"style\": \"labelStyle_first_recharge_normal\", \"type\": \"ttf\"}, {\"text\": \"\", \"style\": \"labelStyle_first_recharge_bold\", \"type\": \"ttf\"}]]",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "lessbuychip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : -1
+     }
+    },
+    "confirmDesc"                          : "对不起，您不满足领取礼包的条件\n现在就购买\\${product.displayName}(\\${product.price}元)即可领取豪华大礼包！",
+    "cbmpDesc"                             : "IOS首充弹窗配置",
+    "subActionText"                        : "领取礼包",
+    "confirm"                              : 1,
+    "typeId"                               : "todotask.template.firstRechargeTry"
+   },
+   "double11buy"                          : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "coin"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : 300
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/shuang11tanchuang_1109.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/shuang11biaoti_11092.png",
+    "cbmpDesc"                             : "双11购买ios",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "memberBuy2"                           : {
+    "tipForSubMember"                      : "[[{\"text\": \"您当前为订阅会员，如需退订请去您的背包中查看详情\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "tipForMember"                         : "[[{\"text\": \"还有\\${remainDays}天会员\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "descForMember"                        : "[[{\"text\": \"尊贵的会员，您已获得以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "desc"                                 : "[[{\"text\": \"现在仅需\", \"style\": \"labelStyle_member_left_font\"}, {\"text\": \"\\${product.price}\", \"font\": \"charming_num\", \"type\": \"bmf\"}, {\"text\": \"\\${product.priceUnits}，即可获得\\${product.content.desc}，尊享以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "member"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 80,
+      "maxCount"                             : -1
+     }
+    },
+    "closeAction"                          : {
+     "templateName"                         : "memberTryMin"
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/member_dingyue.png",
+    "subActionText"                        : "一键订阅",
+    "typeId"                               : "todotask.template.memberBuy2",
+    "subActionTextForMember"               : "续费"
+   },
+   "recommendBuy_vip_500_300zuan"         : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 500,
+      "minCount"                             : 300,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_20170222_300diamond_popwnd.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "300钻vip礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "recommendBuy_chaozhi_30yuan"          : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "recommend"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/30yuan_chaozhi_vip.png",
+    "cbmpDesc"                             : "30元超值礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "recommendBuy"                         : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "recommend"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 60,
+      "maxCount"                             : 299
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_recommendbuy_popwnd_20170401_ios.png",
+    "cbmpDesc"                             : "ios6元超值礼包/安卓8元超值礼包",
+    "subActionText"                        : "领取礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   }
+  },
+  "texas_v3.93_A_special_recharge_popwnd": {
+   "recommendBuy_vip_3280_3000zuan"       : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 3000,
+      "minCount"                             : 3000,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/vip_3000zuan_0207.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "3000钻vip礼包",
+    "subActionText"                        : "充值",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "recommendBuy_vip_1280_1000zuan"       : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 1000,
+      "minCount"                             : 1000,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_20170222_1000diamond_popwnd.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "1000钻vip礼包",
+    "subActionText"                        : "充值",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "luckBuy"                              : {
+    "selectProductAction"                  : "zhuanyun",
+    "desc"                                 : "[[{\"text\": \"胜负乃兵家常事，大侠请重新来过。\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"送您一次限量礼包购买机会，\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"助您时来运转，反败为胜！\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}]]",
+    "cbmpDesc"                             : "转运礼包购买",
+    "subActionText"                        : "充值",
+    "typeId"                               : "todotask.template.luckBuy",
+    "tip"                                  : "\\${product.desc}"
+   },
+   "bainiandalibao"                       : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "coin"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : 300
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/bainiandalibao_01183.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/bainianbiaoti_0118.png",
+    "cbmpDesc"                             : "大厅拜年活动",
+    "subActionText"                        : "购买礼包",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "monthlyBuy"                           : {
+    "tipForMember"                         : "[[{\"text\": \"[德州]还有\\${remainDays}天会员\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "descForMember"                        : "[[{\"text\": \"[德州]尊贵的会员，您已获得以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "desc"                                 : "[[{\"text\": \"[德州]现在仅需\", \"style\": \"labelStyle_member_left_font\"}, {\"text\": \"\\${product.price}\", \"font\": \"common_charming_num\", \"type\": \"bmf\"}, {\"text\": \"\\${product.priceUnits}，即可获得\\${product.content.desc}，尊享以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "monthly"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 80,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_android_newmonthcard_0818_popwnd.png",
+    "cbmpDesc"                             : "德州安卓版月卡",
+    "subActionText"                        : "获取特权",
+    "typeId"                               : "todotask.template.monthlyBuy",
+    "subActionTextForMember"               : "续费"
+   },
+   "winBuy"                               : {
+    "selectProductAction"                  : "winlead",
+    "desc"                                 : "[[{\"text\": \"水平真高！\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"送您一次限量礼包购买机会，\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}], [{\"text\": \"（全国只有8%的人能获得）\", \"style\": \"labelStyle_lucky_text_normal\", \"type\": \"ttf\"}]]",
+    "cbmpDesc"                             : "高手礼包",
+    "subActionText"                        : "充值",
+    "typeId"                               : "todotask.template.winBuy",
+    "tip"                                  : "\\${product.desc}"
+   },
+   "recommendBuy_vip_60_80zuan"           : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 60,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_20170222_80diamond_popwnd.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "80钻vip礼包",
+    "subActionText"                        : "充值",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "firstRechargeTry"                     : {
+    "imgUrl"                               : "${http_download}/texas/images/popwnd/texas_firstrecharge_0824_popwnd.png",
+    "title"                                : "[[{\"text\": \"\", \"style\": \"labelStyle_first_recharge_normal\", \"type\": \"ttf\"}, {\"text\": \"\", \"style\": \"labelStyle_first_recharge_bold\", \"type\": \"ttf\"}]]",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "lessbuychip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : -1
+     }
+    },
+    "confirmDesc"                          : "对不起，您不满足领取礼包的条件\n现在就购买\\${product.displayName}(\\${product.price}元)即可领取豪华大礼包！",
+    "cbmpDesc"                             : "首充弹窗配置",
+    "subActionText"                        : "充值",
+    "confirm"                              : 1,
+    "typeId"                               : "todotask.template.firstRechargeTry"
+   },
+   "double11buy"                          : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "coin"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 300,
+      "minCount"                             : 300,
+      "maxCount"                             : 300
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/shuang11tanchuang_1109.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/shuang11biaoti_11092.png",
+    "cbmpDesc"                             : "双11购买",
+    "subActionText"                        : "充值",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "memberBuy2"                           : {
+    "tipForSubMember"                      : "[[{\"text\": \"您当前为订阅会员，如需退订请去您的背包中查看详情\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "tipForMember"                         : "[[{\"text\": \"还有\\${remainDays}天会员\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "descForMember"                        : "[[{\"text\": \"尊贵的会员，您已获得以下特权\", \"style\": \"labelStyle_member_left_font\"}]]",
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "member"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 100,
+      "minCount"                             : 80,
+      "maxCount"                             : -1
+     }
+    },
+    "closeAction"                          : {
+     "templateName"                         : "memberTryMin"
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_android_newmonthcard_0818_popwnd.png",
+    "cbmpDesc"                             : "德州未知",
+    "subActionText"                        : "获取特权",
+    "typeId"                               : "todotask.template.memberBuy2",
+    "subActionTextForMember"               : "续费"
+   },
+   "recommendBuy_vip_500_300zuan"         : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "vip"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 500,
+      "minCount"                             : 300,
+      "maxCount"                             : -1
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_20170222_500diamond_popwnd.png",
+    "titlePic"                             : "${http_download}/hall/popwnd/imgs/Top_recommend_wenzi.png",
+    "cbmpDesc"                             : "500钻vip礼包",
+    "subActionText"                        : "充值",
+    "typeId"                               : "todotask.template.recommendBuy"
+   },
+   "recommendBuy"                         : {
+    "desc"                                 : "",
+    "payOrder"                             : {
+     "shelves"                              : [
+      "recommend"
+     ],
+     "priceDiamond"                         : {
+      "count"                                : 80,
+      "minCount"                             : 60,
+      "maxCount"                             : 299
+     }
+    },
+    "pic"                                  : "${http_download}/hall/popwnd/imgs/texas_recommendbuy_popwnd.png",
+    "cbmpDesc"                             : "IOS及Android超值礼包6元及8元",
+    "subActionText"                        : "充值",
+    "typeId"                               : "todotask.template.recommendBuy"
+   }
+  }
+ }
+}

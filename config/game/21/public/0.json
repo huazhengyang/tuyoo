@@ -1,0 +1,477 @@
+{
+  "referrer_switch" : 1,
+  "weixingame_conf" : {
+    "shareIcon" : "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/xcx_fx.png",
+    "shareTitle" : "再也不用买房卡了！"
+  },
+  "secretVerBegin"	: 9.99,
+  "robotDailyLoseMax" : 5000000,
+  "robotDailyTime":[22680, 86400],
+  "roomCheatMulti":3,
+  "optimedis" : "您的上家网络不好，等他一会儿吧",
+  "http_download_html" : "${http_download}/dizhu/",
+  "http_download_pic" : "${http_download}/6/",
+  "http_download_default" : "${http_download}/6/",
+  "buyin" : {
+    "start_version" : 9.999,
+    "tip" : "客官，此房间最多允许带入{BUYIN_CHIP}金币哦!",
+    "tip_auto" : "系统自动为您补充了金币",
+    "tip_auto_all" : "您的金币已经全部带入啦!",
+    "tip_auto_all_next" : "客官，您的金币已经全部带入啦!"
+  },
+  "vip_special_right" : {
+    "dashifen" : [{
+          "level" : 2,
+          "rate" : 0.2,
+          "desc" : "大师分获取增加20%"
+        }]
+  },
+  "roomfee_conf" : {
+    "basic" : 0.6,
+    "winner_chip" : 0.03,
+    "high_multi" : 32,
+    "fee_multi" : 2.0
+  },
+  "change_nickname_level" : 0,
+  "ad_notify_play_count" : 2,
+  "use_momo_ranking" : 0,
+  "use_tuyou_ranking" : 1,
+  "enableLogChatMsg" : 1,
+  "quick_start_errinfo" : {
+    "1" : "您正在玩另一个途游游戏,请稍后再试",
+    "2" : "服务器内部错误,请稍后再试",
+    "3" : "当前房间已满,请选择其他房间进行游戏",
+    "4" : "您的金币不足无法进入此房间，赶紧充值吧！",
+    "5" : "亲~您太富有了，该去更高级的房间战斗啦！",
+    "6" : "亲~您太富有了，没有房间可以玩啦！",
+    "7" : "当前房间已满,请稍后再试",
+    "8" : "亲~比赛时间未到哦",
+    "9" : "亲~您没有资格进入此房间哦",
+    "10" : "服务器内部错误,请退出客户端,重新登录",
+    "11" : "亲~您的VIP等级不够哦",
+    "12" : "亲~您的大师分级别不够哦，去经典场练练级吧！",
+    "13" : "该房间本时段未开放。"
+  },
+  "custom_table_errinfo":{
+      "1": "房卡不足，请到商城购买房卡",
+      "2": "不支持当前局数设定，请更新到最新游戏!",
+      "3": "房间号不正确，请重新输入",
+      "4": "房间已满, 请确认房间号！"
+  },
+  "enable_test_robot" : 0,
+  "max_table_robot_count" : 3,
+  "virtual_online_player_num" : {
+    "bottom_num" : 15,
+    "percent" : 0.3
+  },
+  "nextmatchtime": {
+      "coinRoomShowDayInfo": 0,
+      "today": "",
+      "dayInfoCnt": 1,
+      "dayInfo0": "",
+      "dayInfo1": "明天",
+      "dayInfo2": "后天",
+      "other": "\\${month}月\\${day}日\n"
+  },
+  "weixinurl":"http://www.shediao.com/youle/gamelist.html",
+  "weixintitle":"优乐湖南跑胡子",
+  "weixindesc":"速度加入［优乐跑胡子］",
+  "customRoomCardValue":{
+      "normal":
+      {
+          "6":1, 
+          "12":2, 
+          "20":3
+      },
+      "gao":
+      {
+          "1":1, 
+          "2":2, 
+          "3":3
+      }
+  },
+  "customRoomNoGameID": [0, 1],
+    "customRoomConf": {
+    	"jd":{
+          "playMode":[
+                {   
+                    "name": "jd",
+                    "maxSeatN": [
+                        {
+                            "num": 3,
+                            "winPoint": [
+                                {
+                                    "num": 15,
+                                    "xiTun": [3,1]
+                                }
+                            ]
+                        }
+                    ]
+                }
+          ],
+          "roomCardValue":
+          {
+              "1":1,
+              "4":1,
+              "8":2,
+              "16":4
+          },
+          "ziMoFan": 1
+      	},
+        "changde": {
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }, 
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "name": "jd", 
+                    "roomId": 21101
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2,
+                "4": 1
+            }, 
+            "ziMoFan": 1
+        },
+        "shaozi": {
+            "biHu": [
+                0, 
+                1, 
+                2
+            ], 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "name": "shaozi", 
+                    "roomId": 21101
+                }
+            ], 
+            "redBlackHu": 1, 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2,
+                "4": 1
+            }, 
+            "ziMoAdd": 1, 
+            "ziMoFan": 0
+        },
+        "chenzhou": {
+            "biHu": [
+                0, 
+                1, 
+                2
+            ], 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 9, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21101, 
+                    "name": "chenzhou"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2,
+                "4": 1
+            }, 
+            "redBlackHu": 0, 
+            "maoHu": 1, 
+            "ziMoFan": 1
+        }, 
+        "guilin": {
+            "biHu": [
+                0, 
+                1, 
+                2
+            ], 
+            "fanXing": [
+                1, 
+                2, 
+                3
+            ], 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 
+                                        5
+                                    ]
+                                }, 
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3, 
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "name": "guilin", 
+                    "roomId": 21102
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2,
+                "4": 1
+            }, 
+            "ziMoFan": 1,
+            "ziMoAdd": 1
+        }, 
+        "hechi": {
+            "biHu": [
+                0, 
+                1, 
+                2
+            ], 
+            "fanXing": [
+                1, 
+                2, 
+                3
+            ], 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 
+                                        5
+                                    ]
+                                }, 
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3, 
+                                        5
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "name": "hechi", 
+                    "roomId": 21102
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2,
+                "4": 1
+            }, 
+            "ziMoFan": 1,
+            "ziMoAdd": 1
+        },
+        "yongzhou": {
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3 
+                                    ]
+                                }
+                            ]
+                        } 
+                    ], 
+                    "roomId": 21102, 
+                    "name": "yongzhou"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2,
+                "4": 1
+            }, 
+            "fanXing": 1, 
+            "suiXing": 1
+        },
+        "yueyangwai": {
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 8
+                                }
+                            ]
+                        } 
+                    ], 
+                    "roomId": 21102, 
+                    "name": "yueyangwai"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2,
+                "4": 1
+            }
+        }
+    },
+    "customRoomDefaultConf": {
+		"jd":[
+	      {
+	          "playMode": "jd",
+	          "maxSeatN": 3,
+	          "winPoint": 15,
+	          "xiTun": 3,
+	          "totalPlayNum": 6
+	      }
+	    ],
+        "changde": [
+            {
+                "maxSeatN": 3, 
+                "playMode": "jd", 
+                "totalPlayNum": 8, 
+                "winPoint": 15, 
+                "xiTun": 3
+            }
+        ], 
+        "shaozi": [
+            {
+                "biHu": 1,  
+                "maxSeatN": 3, 
+                "playMode": "shaozi", 
+                "redBlackHu": 0, 
+                "totalPlayNum": 8, 
+                "winPoint": 10, 
+                "xiTun": 3, 
+                "ziMoFan": 0,
+                "ziMoAdd": 1
+            }
+        ],
+        "chenzhou": [
+            {
+                "biHu": 1, 
+                "maxSeatN": 3, 
+                "playMode": "chenzhou", 
+                "totalPlayNum": 8, 
+                "winPoint": 9, 
+                "xiTun": 3, 
+                "biHu": 1, 
+                "redBlackHu": 0, 
+                "maoHu": 0, 
+                "ziMoFan": 1
+            }
+        ],  
+        "guilin": [
+            {
+                "biHu": 1, 
+                "fanXing": [
+                    1, 
+                    3
+                ], 
+                "maxSeatN": 3, 
+                "playMode": "guilin", 
+                "totalPlayNum": 8, 
+                "winPoint": 15, 
+                "xiTun": 5, 
+                "ziMoAdd": 0, 
+                "ziMoFan": 1
+            }
+        ], 
+        "hechi": [
+            {
+                "biHu": 1, 
+                "fanXing": [
+                    1, 
+                    3
+                ], 
+                "maxSeatN": 3, 
+                "playMode": "hechi", 
+                "totalPlayNum": 8, 
+                "winPoint": 15, 
+                "xiTun": 5, 
+                "ziMoAdd": 0, 
+                "ziMoFan": 1
+            }
+        ],
+        "yongzhou": [
+            {
+                "fanXing": 0, 
+                "maxSeatN": 3, 
+                "playMode": "yongzhou", 
+                "suiXing": 0, 
+                "totalPlayNum": 8, 
+                "winPoint": 15, 
+                "xiTun": 3
+            }
+        ],
+        "yueyangwai": [
+            {
+                "maxSeatN": 3,
+                "playMode": "yueyangwai",
+                "totalPlayNum": 8,
+                "winPoint": 8
+            }
+        ]
+   },
+   "customRoomConfVer": 6
+
+}

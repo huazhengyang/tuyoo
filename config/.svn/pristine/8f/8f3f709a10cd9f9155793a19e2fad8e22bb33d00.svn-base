@@ -1,0 +1,31 @@
+
+{    
+    "lotterypool_config_br":{
+        "230011001": {
+            "triggerPools": [
+                {"minChip": 3000000000, "maxChip": -1, "rate": 0.05},
+                {"minChip": 0, "maxChip": 3000000000, "rate": 0.2}
+            ],
+            "triggerMininum":300000000,
+            "basePool": 200000,
+            "bigPrizeRate_28": 5,
+            "bigPrizeRate_double": 2.5,
+            "bigPrizeCountLimit": 2,
+            "smallPrizeRate_28": 8,
+            "smallPrizeRate_double": 4
+        },
+        "230021001": {
+            "triggerPools": [
+                {"minChip": 3000000000, "maxChip": -1, "rate": 0.05},
+                {"minChip": 0, "maxChip": 3000000000, "rate": 0.2}
+            ],
+            "triggerMininum":300000000,
+            "basePool": 200000,
+            "bigPrizeRate_28": 5,
+            "bigPrizeRate_double": 2.5,
+            "bigPrizeCountLimit": 2,
+            "smallPrizeRate_28": 8,
+            "smallPrizeRate_double": 4
+        }
+    }
+}

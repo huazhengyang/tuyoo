@@ -1,0 +1,133 @@
+{
+    "url_conf": {
+        "host": "http://t3card.tuyoo.com",
+        "gamerule": "/t3card/help_gamerule.html",
+        "question": "/t3card/help_question.html",
+        "feedback": "/t3card/help_feedback.html",
+        "activity": "/t3card/activity.html",
+        "activity_ios": "/t3card/activity_ios.html"
+    },
+
+    "room_rule":{
+        "mtt":[ { "type": 0, "text": "什么是大师赛？" },
+                { "type": 1, "text": "大师赛是途游三张牌的一种定时开赛多桌同时进行的比赛" },
+                { "type": 1, "text": "玩法。所有参赛玩家在比赛开始后以同样的筹码量开始比" },
+                { "type": 1, "text": "赛，随着比赛的进行底注会不断提升，当比赛只剩下一人" },
+                { "type": 1, "text": "时产生冠军，比赛结束。" },
+
+                { "type": 0, "text": "大师赛规则" },
+                { "type": 1, "text": "1.固定时间开始比赛，参赛人数小于最低开赛人数时，比" },
+                { "type": 1, "text": "赛取消，退还报名费用。" },
+                { "type": 1, "text": "2.比赛名次按玩家淘汰（或退出）顺序的倒序排列，第一" },
+                { "type": 1, "text": "个筹码输完的玩家即是最后一名，以此类推。" },
+                { "type": 1, "text": "3.每场比赛玩家会获得初始计数筹码，此筹码仅用于本场" },
+                { "type": 1, "text": "比赛，不等同于账户金币。" },
+                { "type": 1, "text": "4.重购筹码（Rebuy）指的是在指定的底注级别中，当玩家" },
+                { "type": 1, "text": "筹码少于初始筹码或变为0时，玩家可以点击重购筹码按钮" },
+                { "type": 1, "text": "使用金币购买筹码，购买筹码有次数限制。" },
+                { "type": 1, "text": "5.加买筹码（Addon）指的是在指定的底注级别中，玩家可" },
+                { "type": 1, "text": "通过点击加买筹码按钮使用金币购买比赛筹码，购买筹码" },
+                { "type": 1, "text": "有次数限制。" },
+                { "type": 1, "text": "6.大师赛优先使用门票报名" },
+
+				{ "type": 0, "text": "欢乐赛规则" },
+				{ "type": 1, "text": "在欢乐赛里，每一局游戏只会发放点数从8~A的扑克牌！" },
+
+
+                { "type": 0, "text": "大师赛标志含义" },
+                { "type": 1, "text": "超、快、普、慢：这四个标志表示大师赛升注的速度；" },
+                { "type": 1, "text": "L：这个标志表示这场比赛支持延迟报名；" },
+                { "type": 1, "text": "R：这个标志表示这场比赛支持重买（rebuy）；" },
+                { "type": 1, "text": "A：这个标志表示这场比赛支持加买（addon）；" },
+                { "type": 1, "text": "配置大师赛标志是为了让您在丰富多彩的比赛中尽快" },
+                { "type": 1, "text": "找到自己喜欢的比赛。" },
+                { "type": 1, "text": "祝您在比赛中吉星高照！" }
+        ],
+        "vip":[{
+                    "text": "平均底池",
+                    "type": 0
+                },
+                {
+                    "text": "近50局牌桌总底池的平均值。",
+                    "type": 1
+                },
+				{
+					"text": "平均底池越高说明牌桌里打的越激烈。",
+                    "type": 1
+                },
+				{
+                    "text": "人均局数",
+                    "type": 0
+                },
+                {
+                    "text": "近50局牌桌人均游戏的局数的平均值。",
+                    "type": 1
+                },
+				{
+					"text": "比率越高说明牌桌玩家越稳定。",
+                    "type": 1
+                },
+				{
+                    "text": "入局率",
+                    "type": 0
+                },
+                {
+                    "text": "近50局牌桌玩家首轮未弃牌的比率。",
+                    "type": 1
+                },
+				{
+					"text": "比率越高说明牌桌内玩家玩得越大。",
+                    "type": 1
+                }
+        ]
+
+    },
+	"mtt_guide":{
+		"chip":[3000,5000,100000],
+		"vip":1
+	},
+    "t3card_project_management": {
+        "teamSvnRoot": "http://202.106.9.134:9055/newsvn/poker",
+        "teamSvnConfDir": "/config",
+        "roomSvnConfXlsName": "room.xls",
+        "teamLocalConfDir": "t3card-team"
+    },
+    "normal_rank":[{
+      "typeId":"1",
+      "groupId":"10"
+    },{
+      "typeId":"1",
+      "groupId":"20"
+    },{
+      "typeId":"1",
+      "groupId":"30"
+    },{
+      "typeId":"1",
+      "groupId":"40"
+    }],
+    "mtt_rank":[
+      {
+        "typeId":"1",
+        "groupId":"10"
+      },
+	  {
+      "typeId":"1",
+      "groupId":"50"
+	  },
+	  {
+      "typeId":"1",
+      "groupId":"70"
+	  },
+	  {
+      "typeId":"1",
+      "groupId":"40"
+	  }
+    ],
+    "month_card":["TY9999D0100019","TY9999D0128002","TY9999D1000013","TY9999D0998001"],
+    "guide_index":{"13":"guide1","14":"guide2"},
+    "rank_tag_name":{"1":"游戏历程", "9":"特殊成就"},
+    "guide_version":1,
+	"auditClientid":[""],
+    "questBlackList":[]
+
+}

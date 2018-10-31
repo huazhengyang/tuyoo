@@ -1,0 +1,84 @@
+{
+    "tasks": [
+        {
+            "id": 101,
+            "vip": [0, 1],
+            "total": 500000,
+            "desc": "累计下注50万金币，奖励3000金币",
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:chip",
+                        "count": 3000
+                    }
+                ]
+            },
+            "rewardMail": "竞猜任务奖励：\\${rewardContent}"
+        },
+        {
+            "id": 102,
+            "vip": [2, 3],
+            "total": 1000000,
+            "desc": "累计下注100万金币，奖励10000金币",
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:chip",
+                        "count": 10000
+                    }
+                ]
+            },
+            "rewardMail": "竞猜任务奖励：\\${rewardContent}"
+        },
+        {
+            "id": 103,
+            "vip": [4, 5],
+            "total": 5000000,
+            "desc": "累计下注500万金币，奖励50000金币",
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:chip",
+                        "count": 50000
+                    }
+                ]
+            },
+            "rewardMail": "竞猜任务奖励：\\${rewardContent}"
+        },
+        {
+            "id": 104,
+            "vip": [6, 7],
+            "total": 20000000,
+            "desc": "累计下注2000万金币，奖励6.00红包券",
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 600
+                    }
+                ]
+            },
+            "rewardMail": "竞猜任务奖励：\\${rewardContent}"
+        },
+        {
+            "id": 105,
+            "vip": [8, 100],
+            "total": 100000000,
+            "desc": "累计下注1亿金币，奖励30.00红包券",
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 3000
+                    }
+                ]
+            },
+            "rewardMail": "竞猜任务奖励：\\${rewardContent}"
+        }
+    ]
+}

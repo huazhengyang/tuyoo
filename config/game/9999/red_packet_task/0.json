@@ -1,0 +1,1838 @@
+{
+	"closed": 0,
+    "acts": [
+        {
+        	"pic":"${http_download}/dizhu/room/imgs/quickstart_jinbizhuo.png",
+        	"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            }
+        },
+        {
+        	"pic":"${http_download}/dizhu/room/imgs/quickstart_hongbaosai.png",
+        	"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "roomlist",
+	                "pluginParams": {
+	                    "gameType": 3,
+	                    "matchIndex": 0
+	                }
+	            }
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "kindId": 99990001,
+            "typeId": "hall.rptask.simple",
+            "name": "微信认证登录",
+            "desc": "微信认证登录",
+            "count": 1,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "hall.bindWeixin",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 50
+                    }
+                ]
+            },
+			"inviterReward": 400,
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}",
+            "todotask":{
+            	"typeId":"todotask.general",
+            	"action":"weixin_auth"
+            }
+        },
+        {
+            "kindId": 99990002,
+            "typeId": "hall.rptask.simple",
+            "name": "胜利2局",
+            "desc": "胜利2局",
+            "count": 2,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.win",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 25
+                    }
+                ]
+            },
+			"inviterReward": 10,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990003,
+            "typeId": "hall.rptask.simple",
+            "name": "获得一次3连胜",
+            "desc": "获得一次3连胜",
+            "count": 3,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 40
+                    }
+                ]
+            },
+			"inviterReward": 15,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990004,
+            "typeId": "hall.rptask.simple",
+            "name": "48倍或以上胜利一场",
+            "desc": "48倍或以上胜利一场",
+            "count": 1,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.win",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.windoubles",
+                        "stop": -1,
+                        "start": 48
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 50
+                    }
+                ]
+            },
+			"inviterReward": 20,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990005,
+            "typeId": "hall.rptask.simple",
+            "name": "经典初级场玩6局",
+            "desc": "经典初级场玩6局",
+            "count": 6,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.play",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.roomId",
+                        "roomIds": [
+                            6012
+                        ]
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 100
+                    }
+                ]
+            },
+			"inviterReward": 30,
+			"todotask": {
+				"gameId": 6,
+				"typeId": "hall.goto.enter.game",
+				"enter_param": {
+					"type": "roomlist",
+					"pluginParams": {
+						"gameType": 1
+					}
+				}
+			},
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990006,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取20000金币",
+            "desc": "赢取20000金币",
+            "count": 20000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 125
+                    }
+                ]
+            },
+			"inviterReward": 40,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990007,
+            "typeId": "hall.rptask.simple",
+            "name": "获得1次4连胜",
+            "desc": "获得1次4连胜",
+            "count": 4,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 100
+                    }
+                ]
+            },
+			"inviterReward": 50,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990008,
+            "typeId": "hall.rptask.simple",
+            "name": "经典中级场玩6局",
+            "desc": "经典中级场玩6局",
+            "count": 6,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.play",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.roomId",
+                        "roomIds": [
+                            6013
+                        ]
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 250
+                    }
+                ]
+            },
+			"inviterReward": 100,
+			"todotask": {
+				"gameId": 6,
+				"typeId": "hall.goto.enter.game",
+				"enter_param": {
+					"type": "roomlist",
+					"pluginParams": {
+						"gameType": 1
+					}
+				}
+			},
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990009,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取60000金币",
+            "desc": "赢取60000金币",
+            "count": 60000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 180
+                    }
+                ]
+            },
+			"inviterReward": 50,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990010,
+            "typeId": "hall.rptask.simple",
+            "name": "获得1次5连胜",
+            "desc": "获得1次5连胜",
+            "count": 5,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 200
+                    }
+                ]
+            },
+			"inviterReward": 80,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990011,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取150000金币",
+            "desc": "赢取150000金币",
+            "count": 150000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 300
+                    }
+                ]
+            },
+			"inviterReward": 105,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+		{
+            "kindId": 99990101,
+            "typeId": "hall.rptask.simple",
+            "name": "胜利3局",
+            "desc": "胜利3局",
+            "count": 3,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.win",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 25
+                    }
+                ]
+            },
+			"inviterReward": 300,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+		{
+            "kindId": 99990103,
+			"typeId": "hall.rptask.simple",
+            "name": "获得一次3连胜",
+            "desc": "获得一次3连胜",
+            "count": 3,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 40
+                    }
+                ]
+            },
+			"inviterReward": 15,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990104,
+            "typeId": "hall.rptask.simple",
+            "name": "48倍或以上胜利一场",
+            "desc": "48倍或以上胜利一场",
+            "count": 1,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.win",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.windoubles",
+                        "stop": -1,
+                        "start": 48
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 50
+                    }
+                ]
+            },
+			"inviterReward": 20,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990105,
+            "typeId": "hall.rptask.simple",
+            "name": "经典初级场玩6局",
+            "desc": "经典初级场玩6局",
+            "count": 6,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.play",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.roomId",
+                        "roomIds": [
+                            6012
+                        ]
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 100
+                    }
+                ]
+            },
+			"inviterReward": 30,
+			"todotask": {
+				"gameId": 6,
+				"typeId": "hall.goto.enter.game",
+				"enter_param": {
+					"type": "roomlist",
+					"pluginParams": {
+						"gameType": 1
+					}
+				}
+			},
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990106,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取20000金币",
+            "desc": "赢取20000金币",
+            "count": 20000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 125
+                    }
+                ]
+            },
+			"inviterReward": 40,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990107,
+            "typeId": "hall.rptask.simple",
+            "name": "获得1次4连胜",
+            "desc": "获得1次4连胜",
+            "count": 4,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 100
+                    }
+                ]
+            },
+			"inviterReward": 50,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990108,
+            "typeId": "hall.rptask.simple",
+            "name": "经典中级场玩6局",
+            "desc": "经典中级场玩6局",
+            "count": 6,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.play",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.roomId",
+                        "roomIds": [
+                            6013
+                        ]
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 250
+                    }
+                ]
+            },
+			"inviterReward": 100,
+			"todotask": {
+				"gameId": 6,
+				"typeId": "hall.goto.enter.game",
+				"enter_param": {
+					"type": "roomlist",
+					"pluginParams": {
+						"gameType": 1
+					}
+				}
+			},
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990109,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取60000金币",
+            "desc": "赢取60000金币",
+            "count": 60000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 180
+                    }
+                ]
+            },
+			"inviterReward": 50,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990110,
+            "typeId": "hall.rptask.simple",
+            "name": "获得1次5连胜",
+            "desc": "获得1次5连胜",
+            "count": 5,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 200
+                    }
+                ]
+            },
+			"inviterReward": 80,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990111,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取150000金币",
+            "desc": "赢取150000金币",
+            "count": 150000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 300
+                    }
+                ]
+            },
+			"inviterReward": 115,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+		{
+            "kindId": 99990201,
+            "typeId": "hall.rptask.simple",
+            "name": "胜利3局",
+            "desc": "胜利3局",
+            "count": 3,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.win",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 25
+                    }
+                ]
+            },
+			"inviterReward": 400,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990203,
+            "typeId": "hall.rptask.simple",
+            "name": "获得一次3连胜",
+            "desc": "获得一次3连胜",
+            "count": 3,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 40
+                    }
+                ]
+            },
+			"inviterReward": 15,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990204,
+            "typeId": "hall.rptask.simple",
+            "name": "48倍或以上胜利一场",
+            "desc": "48倍或以上胜利一场",
+            "count": 1,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.win",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.windoubles",
+                        "stop": -1,
+                        "start": 48
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 50
+                    }
+                ]
+            },
+			"inviterReward": 20,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990205,
+            "typeId": "hall.rptask.simple",
+            "name": "经典初级场玩6局",
+            "desc": "经典初级场玩6局",
+            "count": 6,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.play",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.roomId",
+                        "roomIds": [
+                            6012
+                        ]
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 100
+                    }
+                ]
+            },
+			"inviterReward": 30,
+			"todotask": {
+				"gameId": 6,
+				"typeId": "hall.goto.enter.game",
+				"enter_param": {
+					"type": "roomlist",
+					"pluginParams": {
+						"gameType": 1
+					}
+				}
+			},
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990206,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取20000金币",
+            "desc": "赢取20000金币",
+            "count": 20000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 125
+                    }
+                ]
+            },
+			"inviterReward": 40,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990207,
+            "typeId": "hall.rptask.simple",
+            "name": "获得1次4连胜",
+            "desc": "获得1次4连胜",
+            "count": 4,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 100
+                    }
+                ]
+            },
+			"inviterReward": 50,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990208,
+            "typeId": "hall.rptask.simple",
+            "name": "经典中级场玩6局",
+            "desc": "经典中级场玩6局",
+            "count": 6,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.play",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.roomId",
+                        "roomIds": [
+                            6013
+                        ]
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 250
+                    }
+                ]
+            },
+			"inviterReward": 100,
+			"todotask": {
+				"gameId": 6,
+				"typeId": "hall.goto.enter.game",
+				"enter_param": {
+					"type": "roomlist",
+					"pluginParams": {
+						"gameType": 1
+					}
+				}
+			},
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990209,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取60000金币",
+            "desc": "赢取60000金币",
+            "count": 60000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 180
+                    }
+                ]
+            },
+			"inviterReward": 50,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990210,
+            "typeId": "hall.rptask.simple",
+            "name": "获得1次5连胜",
+            "desc": "获得1次5连胜",
+            "count": 5,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 200
+                    }
+                ]
+            },
+			"inviterReward": 80,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990211,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取150000金币",
+            "desc": "赢取150000金币",
+            "count": 150000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 300
+                    }
+                ]
+            },
+			"inviterReward": 115,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990301,
+            "typeId": "hall.rptask.simple",
+            "name": "获得一次3连胜",
+            "desc": "获得一次3连胜",
+            "count": 3,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 40
+                    }
+                ]
+            },
+			"inviterReward": 300,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+		{
+            "kindId": 99990303,
+            "typeId": "hall.rptask.simple",
+            "name": "胜利5局",
+            "desc": "胜利5局",
+            "count": 5,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.win",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 25
+                    }
+                ]
+            },
+			"inviterReward": 15,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990304,
+            "typeId": "hall.rptask.simple",
+            "name": "48倍或以上胜利一场",
+            "desc": "48倍或以上胜利一场",
+            "count": 1,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.win",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.windoubles",
+                        "stop": -1,
+                        "start": 48
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 50
+                    }
+                ]
+            },
+			"inviterReward": 20,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990305,
+            "typeId": "hall.rptask.simple",
+            "name": "经典初级场玩6局",
+            "desc": "经典初级场玩6局",
+            "count": 6,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.play",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.roomId",
+                        "roomIds": [
+                            6012
+                        ]
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 100
+                    }
+                ]
+            },
+			"inviterReward": 30,
+			"todotask": {
+				"gameId": 6,
+				"typeId": "hall.goto.enter.game",
+				"enter_param": {
+					"type": "roomlist",
+					"pluginParams": {
+						"gameType": 1
+					}
+				}
+			},
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990306,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取20000金币",
+            "desc": "赢取20000金币",
+            "count": 20000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 125
+                    }
+                ]
+            },
+			"inviterReward": 40,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990307,
+            "typeId": "hall.rptask.simple",
+            "name": "获得1次4连胜",
+            "desc": "获得1次4连胜",
+            "count": 4,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 100
+                    }
+                ]
+            },
+			"inviterReward": 50,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990308,
+            "typeId": "hall.rptask.simple",
+            "name": "经典中级场玩6局",
+            "desc": "经典中级场玩6局",
+            "count": 6,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.play",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.roomId",
+                        "roomIds": [
+                            6013
+                        ]
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 250
+                    }
+                ]
+            },
+			"inviterReward": 100,
+			"todotask": {
+				"gameId": 6,
+				"typeId": "hall.goto.enter.game",
+				"enter_param": {
+					"type": "roomlist",
+					"pluginParams": {
+						"gameType": 1
+					}
+				}
+			},
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990309,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取60000金币",
+            "desc": "赢取60000金币",
+            "count": 60000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 180
+                    }
+                ]
+            },
+			"inviterReward": 50,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990310,
+            "typeId": "hall.rptask.simple",
+            "name": "获得1次5连胜",
+            "desc": "获得1次5连胜",
+            "count": 5,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 200
+                    }
+                ]
+            },
+			"inviterReward": 80,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990311,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取150000金币",
+            "desc": "赢取150000金币",
+            "count": 150000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 300
+                    }
+                ]
+            },
+			"inviterReward": 115,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+		{
+            "kindId": 99990401,
+            "typeId": "hall.rptask.simple",
+            "name": "微信认证登录",
+            "desc": "微信认证登录",
+            "count": 1,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "hall.bindWeixin",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 50
+                    }
+                ]
+            },
+			"inviterReward": 500,
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}",
+            "todotask":{
+            	"typeId":"todotask.general",
+            	"action":"weixin_auth"
+            }
+        },
+        {
+            "kindId": 99990402,
+            "typeId": "hall.rptask.simple",
+            "name": "胜利2局",
+            "desc": "胜利2局",
+            "count": 2,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.win",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 25
+                    }
+                ]
+            },
+			"inviterReward": 10,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990403,
+            "typeId": "hall.rptask.simple",
+            "name": "获得一次3连胜",
+            "desc": "获得一次3连胜",
+            "count": 3,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 40
+                    }
+                ]
+            },
+			"inviterReward": 15,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990404,
+            "typeId": "hall.rptask.simple",
+            "name": "48倍或以上胜利一场",
+            "desc": "48倍或以上胜利一场",
+            "count": 1,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.win",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.windoubles",
+                        "stop": -1,
+                        "start": 48
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 50
+                    }
+                ]
+            },
+			"inviterReward": 20,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990405,
+            "typeId": "hall.rptask.simple",
+            "name": "经典初级场玩6局",
+            "desc": "经典初级场玩6局",
+            "count": 6,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.play",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.roomId",
+                        "roomIds": [
+                            6012
+                        ]
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 100
+                    }
+                ]
+            },
+			"inviterReward": 30,
+			"todotask": {
+				"gameId": 6,
+				"typeId": "hall.goto.enter.game",
+				"enter_param": {
+					"type": "roomlist",
+					"pluginParams": {
+						"gameType": 1
+					}
+				}
+			},
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990406,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取20000金币",
+            "desc": "赢取20000金币",
+            "count": 20000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 125
+                    }
+                ]
+            },
+			"inviterReward": 40,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990407,
+            "typeId": "hall.rptask.simple",
+            "name": "获得1次4连胜",
+            "desc": "获得1次4连胜",
+            "count": 4,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 100
+                    }
+                ]
+            },
+			"inviterReward": 50,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990408,
+            "typeId": "hall.rptask.simple",
+            "name": "经典中级场玩6局",
+            "desc": "经典中级场玩6局",
+            "count": 6,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.play",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.roomId",
+                        "roomIds": [
+                            6013
+                        ]
+                    }
+                ]
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 250
+                    }
+                ]
+            },
+			"inviterReward": 100,
+			"todotask": {
+				"gameId": 6,
+				"typeId": "hall.goto.enter.game",
+				"enter_param": {
+					"type": "roomlist",
+					"pluginParams": {
+						"gameType": 1
+					}
+				}
+			},
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990409,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取60000金币",
+            "desc": "赢取60000金币",
+            "count": 60000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 180
+                    }
+                ]
+            },
+			"inviterReward": 50,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990410,
+            "typeId": "hall.rptask.simple",
+            "name": "获得1次5连胜",
+            "desc": "获得1次5连胜",
+            "count": 5,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winStreak",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 200
+                    }
+                ]
+            },
+			"inviterReward": 80,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId": 99990411,
+            "typeId": "hall.rptask.simple",
+            "name": "赢取150000金币",
+            "desc": "赢取150000金币",
+            "count": 150000,
+            "pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+            "inspector": {
+                "typeId": "ddz.winChip",
+                "conditions": []
+            },
+            "rewardContent": {
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 300
+                    }
+                ]
+            },
+			"inviterReward": 105,
+			"todotask":{
+	            "gameId": 6,
+	            "typeId": "hall.goto.enter.game",
+	            "enter_param": {
+	                "type": "quickstart",
+	                "pluginParams": {
+	                    "sessionIndex": 0
+	                }
+	            }
+            },
+            "rewardMail": "恭喜获得邀请任务奖励：\\${rewardContent}"
+        }
+    ]
+}

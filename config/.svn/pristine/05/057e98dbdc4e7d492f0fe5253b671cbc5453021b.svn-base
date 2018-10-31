@@ -1,0 +1,248 @@
+{
+    "fruits": [
+        {
+            "id": 1,
+            "kind": 1,
+            "name": "小苹果",
+            "times": 2,
+            "weight": 10131,
+            "eventid": 4
+        },
+        {
+            "id": 2,
+            "kind": 2,
+            "name": "小橘子",
+            "times": 2,
+            "weight": 10131,
+            "eventid": 4
+        },
+        {
+            "id": 3,
+            "kind": 3,
+            "name": "小柠檬",
+            "times": 2,
+            "weight": 10131,
+            "eventid": 4
+        },
+        {
+            "id": 4,
+            "kind": 4,
+            "name": "小草莓",
+            "times": 2,
+            "weight": 10131,
+            "eventid": 4
+        },
+        {
+            "id": 5,
+            "kind": 5,
+            "name": "小葡萄",
+            "times": 2,
+            "weight": 10131,
+            "eventid": 4
+        },
+        {
+            "id": 6,
+            "kind": 6,
+            "name": "小樱桃",
+            "times": 2,
+            "weight": 163560,
+            "eventid": 4
+        },
+        {
+            "id": 7,
+            "kind": 7,
+            "name": "小西瓜",
+            "times": 2,
+            "weight": 163560,
+            "eventid": 4
+        },
+        {
+            "id": 8,
+            "kind": 8,
+            "name": "小Num7",
+            "times": 2,
+            "weight": 163560,
+            "eventid": 4
+        },
+        {
+            "id": 9,
+            "kind": 1,
+            "name": "大苹果",
+            "times": 5,
+            "weight": 158049,
+            "eventid": 1
+        },
+        {
+            "id": 10,
+            "kind": 2,
+            "name": "大橘子",
+            "times": 8,
+            "weight": 98780,
+            "eventid": 2
+        },
+        {
+            "id": 11,
+            "kind": 3,
+            "name": "大柠檬",
+            "times": 10,
+            "weight": 79024,
+            "eventid": 2
+        },
+        {
+            "id": 12,
+            "kind": 4,
+            "name": "大草莓",
+            "times": 15,
+            "weight": 52683,
+            "eventid": 3
+        },
+        {
+            "id": 13,
+            "kind": 5,
+            "name": "大葡萄",
+            "times": 20,
+            "weight": 39512,
+            "eventid": 3
+        },
+        {
+            "id": 14,
+            "kind": 6,
+            "name": "大樱桃",
+            "times": 30,
+            "weight": 16113,
+            "eventid": 3
+        },
+        {
+            "id": 15,
+            "kind": 7,
+            "name": "大西瓜",
+            "times": 50,
+            "weight": 9668,
+            "eventid": 3
+        },
+        {
+            "id": 16,
+            "kind": 8,
+            "name": "大Num7",
+            "times": 100,
+            "weight": 4834,
+            "eventid": 3
+        }
+    ],
+    "seasons": [
+        {
+            "id": 1,
+            "name": "春",
+            "times": 3.8,
+            "weight": 2500
+        },
+        {
+            "id": 2,
+            "name": "夏",
+            "times": 3.8,
+            "weight": 2500
+        },
+        {
+            "id": 3,
+            "name": "秋",
+            "times": 3.8,
+            "weight": 2500
+        },
+        {
+            "id": 4,
+            "name": "冬",
+            "times": 3.8,
+            "weight": 2500
+        }
+    ],
+    "fruit_num_open": [
+        {
+            "interval": [0, 85],
+            "list": [
+                {"num": 2, "weight": 150000},
+                {"num": 3, "weight": 70000},
+                {"num": 4, "weight": 25000},
+                {"num": 5, "weight": 10000}
+            ]
+        },
+        {
+            "interval": [85, -1],
+            "list": [
+                {"num": 2, "weight": 640000},
+                {"num": 3, "weight": 160000},
+                {"num": 4, "weight": 40000},
+                {"num": 5, "weight": 10000}
+            ]
+        }
+    ],
+    "tongpei": [
+        {
+            "interval": [0, 85],
+            "prob": 500
+        },
+        {
+            "interval": [85, -1],
+            "prob": 100
+        }
+    ],
+    "events": [
+        {
+            "id": 1,
+            "prob": 0,
+            "final": [9, 9, 9, 9],
+            "desc": "大四喜-开出4个大苹果"
+        },
+        {
+            "id": 2,
+            "prob": 0,
+            "final": [2, 3, 10, 11],
+            "desc": "酸酸丰收-开出大小柠檬、大小橘子"
+        },
+        {
+            "id": 3,
+            "prob": 0,
+            "final": [9, 10, 11, 12, 13, 14, 15, 16],
+            "desc": "大满贯-开出大所有水果+7"
+        },
+        {
+            "id": 4,
+            "prob": 500,
+            "final": [1, 2, 3, 4, 5, 6, 7, 8],
+            "desc": "小满贯-开出所有小水果+小7"
+        }
+    ],
+    "open_base_probility": 0.95,
+    "ready": 15,
+    "seal": 2,
+    "lottery": 6,
+    "settlement": 5,
+    "extra": 0.8,
+    "bonus_scale": 10000,
+    "bonus_base": 0,
+    "bonus_add": 0.005,
+    "pool": {
+        "7": 100,
+        "8": 100,
+        "15": 750,
+        "16": 1500
+    },
+    "pool_chip": {
+        "bonus": 0.1,
+        "ladder_1": {"percent": 0.4, "num": 2},
+        "ladder_2": {"percent": 0.4, "num": 4},
+        "ladder_3": {"percent": 0.2, "num": 10}
+    },
+    "reopen": 1,
+    "bet_on_777": 2000000,
+    "return_rate": 0.98,
+    "caijin": [0.4, 0.24, 0.1, 0.08, 0.06, 0.03, 0.03, 0.02, 0.02, 0.02],
+    "caijin_add": 0.005,
+    "caijin_reset": 0.1,
+    "compensation": {
+        "1": {"lost": 3000000, "rate": 0.2},
+        "2": {"lost": 12000000, "rate": 0.2},
+        "3": {"lost": 50000000, "rate": 0.2},
+        "4": {"lost": 250000000, "rate": 0.2},
+        "5": {"lost": 600000000, "rate": 0.2}
+    }
+}

@@ -1,0 +1,49 @@
+{
+  "buyinchip" : 0,
+  "canchat" : 1,
+  "dummyUserCount" : 0,
+  "escapeExp" : -2,
+  "hasrobot" : 0,
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxPassTimes" : 5,
+  "maxTimeoutTimes":3,
+  "minCoin" : 0,
+  "minCoinQS" : 0,
+  "name" : "四暗初级场",
+  "playMode" : "sian",
+  "reqMaxExp" : -1,
+  "reqMinExp" : -500000,
+  "robotUserCallUpTime" : 30,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    2,
+    3,
+    4,
+    5
+  ],
+  "roomFee" : 0,
+  "smiliesPrice" : [
+    300,
+    300,
+    150,
+    150
+  ],
+  "senderCharm": [
+      30,
+      60,
+      15,
+      30
+  ],
+  "receiverCharm": [
+      -30,
+      60,
+      -15,
+      30
+  ],
+  "tableConf" : {
+    "maxSeatN" : 4
+  },
+  "typeName" : "normal",
+  "winExp" : 2
+}

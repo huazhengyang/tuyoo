@@ -1,0 +1,37 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [ ],
+   "name"        : "newfish_v4.55_AI_examination_promote"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 44082801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "newfish_v4.55_AI_first_test"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 44082801,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "捕鱼大厅首充",
+   "url"         : "${http_download}/newfish/newfish_hall_images/promote/newfish_0828_firstrecharge_promote.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

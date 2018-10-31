@@ -1,0 +1,52 @@
+
+
+彩池协议
+
+彩池状态
+
+请求：
+{
+	"cmd": "betpool",
+	"param": {
+		"gameId": xxx,
+		"userId": xxx,
+		"action": "query",		
+	}
+}
+
+响应：
+{
+	"cmd": "betpool",
+	"result": {
+		"gameId": xxx,
+		"userId": xxx,
+		"action": "query",
+		"poolchip": xxx,
+		"seconds": xxx, -1 表示不满足条件
+		"records": {
+			"poolchip": xxx,
+			"winnernum": xxx,
+			"playernum": xxx,
+			"winners":[
+				[userId, nickname, skillscore, winchip],
+				[xxx, xxx, xxx, xxx],
+				...
+			]
+		}
+	}
+}
+
+
+彩池发奖结果推送：
+{
+	"cmd": "betpool",
+	"result": {
+		"gameId": xxx,
+		"userId": xxx,
+		"action": "bang",
+		"winchip": xxxx,
+		"tip": xxxxx
+	}
+}
+
+

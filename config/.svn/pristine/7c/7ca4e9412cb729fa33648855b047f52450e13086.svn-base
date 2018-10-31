@@ -1,0 +1,180 @@
+{
+  "buyinchip": 0,
+  "dummyUserCount": 99,
+  "goodCard": 1,
+  "hasrobot": 1,
+  "ismatch": 1,
+  "matchConf": {
+    "desc": "即时参赛，闯关成功平分奖池 \n报名费用：免费",
+    "matchId": 6789,
+    "name": "百万英雄闯关赛",
+    "fees": [{
+      "desc": "免费",
+      "count": 0,
+      "itemId": "",
+      "failure": ""
+    }],
+    "winnerLotteryRewards": [
+    {
+      "matchId": 678901,
+      "desc": "20000奖励",
+      "maxUnitReward": [{
+        "count": 301,
+        "itemId": "user:coupon"
+      }],
+      "leastWinnerCount": 6645,
+      "lotteryTime": "12:00"
+    }
+    ],
+    "winnerRewards": {
+      "desc": "",
+      "rewards": [
+      ]
+    },
+    "stages": [{
+        "cardCount": 1,
+        "chipBase": 1,
+        "chipUser": 0,
+        "name": "第一轮",
+        "canBack": 0,
+        "index": 1,
+        "backFee": {}
+      },
+      {
+        "cardCount": 1,
+        "chipBase": 1,
+        "chipUser": 0,
+        "name": "第二轮",
+        "canBack": 1,
+        "index": 2,
+        "backFee": {
+          "desc": "1个钻石",
+          "count": 1,
+          "itemId": "item:1311",
+          "failure": "本轮复活需1个钻石，每日分享即可获得"
+        }
+      },
+      {
+        "cardCount": 1,
+        "chipBase": 1,
+        "chipUser": 0,
+        "name": "第三轮",
+        "canBack": 1,
+        "index": 3,
+        "backFee": {
+          "desc": "1个钻石",
+          "count": 1,
+          "itemId": "item:1311",
+          "failure": "本轮复活需1个钻石，每日分享即可获得"
+        }
+      },
+      {
+        "cardCount": 1,
+        "chipBase": 1,
+        "chipUser": 0,
+        "name": "第四轮",
+        "canBack": 1,
+        "index": 4,
+        "backFee": {
+          "desc": "2个钻石",
+          "count": 2,
+          "itemId": "item:1311",
+          "failure": "本轮复活需2个钻石，每日分享即可获得"
+        }
+      },
+      {
+        "cardCount": 1,
+        "chipBase": 1,
+        "chipUser": 0,
+        "name": "第五轮",
+        "canBack": 1,
+        "index": 5,
+        "backFee": {
+          "desc": "2个钻石",
+          "count": 2,
+          "itemId": "item:1311",
+          "failure": "本轮复活需2个钻石，每日分享即可获得"
+        }
+      },
+      {
+        "cardCount": 1,
+        "chipBase": 1,
+        "chipUser": 0,
+        "name": "第六轮",
+        "canBack": 1,
+        "index": 6,
+        "backFee": {
+          "desc": "3个钻石",
+          "count": 3,
+          "itemId": "item:1311",
+          "failure": "本轮复活需3个钻石，每日分享即可获得"
+        }
+      },
+      {
+        "cardCount": 1,
+        "chipBase": 1,
+        "chipUser": 0,
+        "name": "第七轮",
+        "canBack": 1,
+        "index": 7,
+        "backFee": {
+          "desc": "5个钻石",
+          "count": 5,
+          "itemId": "item:1311",
+          "failure": "本轮复活需5个钻石，每日分享即可获得"
+        }
+      }
+    ],
+    "queueConfig": {
+      "waitTime": 10,
+      "busNumber": 6
+    },
+    "tableSeatCount": 3,
+    "tips": {
+      "infos": [
+        "每轮获胜即可晋级。",
+        "每局按照开局时的底分结算。",
+        "比赛流局时，可能会有积分惩罚。"
+      ],
+      "interval": 5
+    }
+  },
+  "maxCoin": -1,
+  "maxCoinQS": -1,
+  "maxLevel": -1,
+  "minCoin": -1,
+  "minCoinQS": -1,
+  "name": "百万英雄闯关赛",
+  "championLed": "共有XX人闯关成功，平分奖池，每人奖金XX元",
+  "playDesc": "",
+  "playMode": "123",
+  "robotUserCallUpTime": 10,
+  "robotUserMaxCount": 0,
+  "robotUserOpTime": [
+    5,
+    12
+  ],
+  "roomFee": 0,
+  "roomMutil": 50,
+  "showCard": 0,
+  "tableConf": {
+    "autochange": 1,
+    "basebet": 1,
+    "basemulti": 1,
+    "canchat": 0,
+    "cardNoteChip": 500,
+    "coin2chip": 1,
+    "firstCallDelayTimes": 1.5,
+    "grab": 0,
+    "gslam": 128,
+    "lucky": 40,
+    "maxSeatN": 3,
+    "optime": 15,
+    "passtime": 5,
+    "rangpaiMultiType": 1,
+    "robottimes": 1,
+    "tbbox": 0,
+    "unticheat": 0
+  },
+  "typeName": "async_upgrade_hero_match"
+}

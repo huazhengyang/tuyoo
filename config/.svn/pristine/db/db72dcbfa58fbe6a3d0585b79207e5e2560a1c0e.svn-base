@@ -1,0 +1,59 @@
+{
+	"lotteryRewardFishNumThreshold": 2,
+	"localRedisBackup": 1,
+
+	"giftsCodesConf" : {
+		"weekly" : {
+			"packageIdList" : [7245],
+			"testExpire" : 0,
+			"codesData" : [
+
+			]
+		},
+		"limitTimes" : {
+			"packageIdList" : [7245],
+			"limitTimes" : 5000,
+			"codesData" : [
+
+			]
+
+		},
+		"test" : {
+			"codesData" : [
+				{
+					"code": "abcd-123-efgh",
+					"packageId": 7245
+				}
+
+			]
+		}
+	},
+
+
+	"inviteFriendRewards" : {
+		"invitee" : {
+			"giftId" : 7248
+		},
+		"inviter" : {
+			"giftId" : 7247
+		},
+		"dailyInvite" : {
+			"giftId" : 7247
+		},
+		"level" : {
+			"30" : {
+				"giftId" : 7249
+			},
+			"300" : {
+				"giftId" : 7250
+			},
+			"1000" : {
+				"giftId" : 7251
+			}
+		}
+	},
+
+	"hallNotice": "<html><body>hello world</body></html>",
+	"hallNoticeUrl": "http://ddz.dl.tuyoo.com/cdn37/buyu/static_file/web/index.html"
+
+}

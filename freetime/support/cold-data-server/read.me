@@ -1,0 +1,18 @@
+                         ==cold-data-server==
+
+* redis内存容量有限,所以只存储7天内登录的热用户数据,用mysql-mmm构建
+  的双机高可用系统(http://mysql-mmm.org/doku.php)存储冷用户数据
+
+* 每天定时运行hot-swap脚本，把redis里的超过7天未登录用户交换到mysql
+  用户登录时如果发现不在redis热库中，实时从mysql中把数据load回redis
+
+* 按userid取mod，分成N个DB存储冷用户，mod规则和redis热数据规则保持同
+  步，构成N套冷热数据交换系统
+
+* 按用户ID索引用户数据，单个用户数据导出时整体打包成一个string存储，
+  mysql只充当持久化存储器的角色
+
+* 为什么不像日志系统一样，采用文件系统存储数据？
+    - io负载性能要求不高
+    - 数据安全准确性第一优先级，绝对不能出错
+    - mysql-ha系统成熟稳定，提供了双机实时热备和快照备份等方案

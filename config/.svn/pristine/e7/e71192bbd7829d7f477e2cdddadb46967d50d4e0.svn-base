@@ -1,0 +1,44 @@
+{
+  "templates" : {
+    "default" : {
+      "desc" : "大奖测试",
+      "datas" : ["#ref://allprize/big1#", "#ref://allprize/big2#", "#ref://prize9999/big9999#"]
+    }
+  },
+  "allprize" : {
+    "big1" : {
+      "title" : "大奖1",
+      "date" : "2016-03-08",
+      "url" : "大奖1url",
+      "button" : {
+        "type" : "url/todotask/hide",
+        "url" : "点击详情按钮进入到特定页面-大奖1",
+        "todotask" : "#ref://todotasks/gotoroom6011#"
+      }
+    },
+    "big2" : {
+      "title" : "大奖2",
+      "date" : "2016-03-09",
+      "url" : "大奖2url",
+      "button" : {
+        "type" : "url/todotask/hide",
+        "url" : "点击详情按钮进入到特定页面-大奖2",
+        "todotask" : "#ref://todotasks/gotoroom6011#"
+      }
+    }
+  },
+  "todotasks" : {
+    "gotoroom6011" : {
+      "action" : "enter_game",
+      "params" : {
+        "enter_param" : {
+          "type" : "quickstart",
+          "pluginParams" : {
+            "roomId" : 6011
+          }
+        },
+        "gameId" : 6
+      }
+    }
+  }
+}

@@ -1,0 +1,727 @@
+{
+    "templates": {
+        "default": {
+            "default_3": {
+				"autoPopRewWndTime":6,
+				"autoCloCheckWndTime":12,
+                "days": [
+                    {
+                        "pic": "${http_download}/hall/checkin/newcheckin_3days_1_1122.png",
+                        "rewards": [
+                             {
+                                "itemId": "user:chip",
+                                "start": 1000,
+                                "stop": 1000,
+                                "pic": "${http_download}/hall/checkin/newcheckin_7days_6.png",
+                                "desc": "金币"
+                            },
+                            {
+                                "itemId": "item:1008",
+                                "start": 2,
+                                "stop": 2,
+                                "pic": "${http_download}/hall/checkin/item_1008.png",
+                                "desc": "英雄帖"
+                            },
+							{
+                                "itemId": "item:2003",
+                                "start": 1,
+                                "stop": 1,
+                                "pic": "${http_download}/hall/checkin/item_2003.png",
+                                "desc": "记牌器"
+                            }
+                        ],
+                        "tips": "3-1连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/newcheckin_3days_2_0823.png",
+                        "rewards": [
+							{
+                                "itemId": "user:chip",
+                                "start": 2000,
+                                "stop": 2000,
+                                "pic": "${http_download}/hall/checkin/newcheckin_7days_6.png",
+                                "desc": "金币"
+                            },
+							{
+                                "itemId": "item:1008",
+                                "start": 4,
+                                "stop": 4,
+                                "pic": "${http_download}/hall/checkin/item_1008.png",
+                                "desc": "英雄帖"
+                            },
+							{
+                                "itemId": "item:4167",
+                                "start": 3,
+                                "stop": 3,
+                                "pic": "${http_download}/hall/checkin/lotteryCard.png",
+                                "desc": "幸运卡"
+                            }
+                        ],
+                        "tips": "3-2连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/newcheckin_3days_3.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:coupon",
+                                "start": 10,
+                                "stop": 40,
+                                "pic": "${http_download}/hall/checkin/coupon_1229.png",
+                                "desc": "红包券"
+                            },
+							{
+                                "itemId": "user:chip",
+                                "start": 1000,
+                                "stop": 5000,
+                                "pic": "${http_download}/hall/checkin/newcheckin_7days_6.png",
+                                "desc": "金币"
+                            },
+                            {
+                                "itemId": "item:1008",
+                                "start": 3,
+                                "stop": 15,
+                                "pic": "${http_download}/hall/checkin/item_1008.png",
+                                "desc": "英雄帖"
+                            }
+                        ],
+                        "tips": "3-3连续签到赢大奖"
+                    }
+                ]
+            },
+            "default_7": {
+				"autoPopRewWndTime":6,
+				"autoCloCheckWndTime":12,
+                "days": [
+                    {
+                        "pic": "${http_download}/hall/checkin/newcheckin_7days_1.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 1000,
+                                "stop": 1000,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/newcheckin_7days_1.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/newcheckin_7days_2.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 1500,
+                                "stop": 1500,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/newcheckin_7days_2.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/newcheckin_7days_3.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 2000,
+                                "stop": 2000,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/newcheckin_7days_3.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/newcheckin_7days_4.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 2000,
+                                "stop": 2000,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/newcheckin_7days_4.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/newcheckin_7days_5.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 2500,
+                                "stop": 2500,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/newcheckin_7days_5.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/newcheckin_7days_6.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 3000,
+                                "stop": 3000,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/newcheckin_7days_6.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/newcheckin_7days_7.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 5000,
+                                "stop": 5000,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/newcheckin_7days_7.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    }
+                ]
+            }
+        },
+        "baohuang": {
+            "baohuang_3": {
+				"autoPopRewWndTime":6,
+				"autoCloCheckWndTime":12,
+                "days": [
+                    {
+                        "pic": "${http_download}/baohuang/icon/newcheckin_3days_2_1.png",
+                        "rewards": [
+							{
+                                "itemId": "user:chip",
+                                "start": 1000,
+                                "stop": 1000,
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_1.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "3-1连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/baohuang/icon/newcheckin_3days_2.png",
+                        "rewards": [
+							{
+                                "itemId": "user:chip",
+                                "start": 2000,
+                                "stop": 2000,
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_4.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "3-2连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/baohuang/icon/newcheckin_3days_1.png",
+                        "rewards": [
+							{
+                                "itemId": "user:chip",
+                                "start": 2000,
+                                "stop": 5000,
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_6.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "3-3连续签到赢大奖"
+                    }
+                ]
+            },
+            "baohuang_7": {
+				"autoPopRewWndTime":6,
+				"autoCloCheckWndTime":12,
+                "days": [
+                    {
+                        "pic": "${http_download}/baohuang/icon/newcheckin_7days_1.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 1000,
+                                "stop": 1000,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_1.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/baohuang/icon/newcheckin_7days_2.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 1500,
+                                "stop": 1500,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_2.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/baohuang/icon/newcheckin_7days_3.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 2000,
+                                "stop": 2000,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_3.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/baohuang/icon/newcheckin_7days_4.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 2200,
+                                "stop": 2200,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_4.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/baohuang/icon/newcheckin_7days_5.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 2500,
+                                "stop": 2500,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_5.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/baohuang/icon/newcheckin_7days_6.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 3000,
+                                "stop": 3000,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_6.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/baohuang/icon/newcheckin_7days_7.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 5000,
+                                "stop": 5000,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_7.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    }
+                ]
+            }
+        },
+        "paohuzi": {
+            "paohuzi_3": {
+				"autoPopRewWndTime":6,
+				"autoCloCheckWndTime":12,
+                "days": [
+                    {
+                        "pic": "${http_download}/paohuzi/images/newcheckin_3days_1.png",
+                        "rewards": [
+							{
+                                "itemId": "user:chip",
+                                "start": 1000,
+                                "stop": 1000,
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_1.png",
+                                "desc": "金币"
+                            },
+							{
+                                "itemId": "item:3132",
+                                "start": 1,
+                                "stop": 1,
+                                "pic": "${http_download}/paohuzi/images/icon_haojieka.png",
+                                "desc": "豪杰卡"
+                            }
+                        ],
+                        "tips": "3-1连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/paohuzi/images/newcheckin_3days_2.png",
+                        "rewards": [
+							{
+                                "itemId": "user:chip",
+                                "start": 2000,
+                                "stop": 2000,
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_4.png",
+                                "desc": "金币"
+                            },
+							{
+                                "itemId": "item:3132",
+                                "start": 1,
+                                "stop": 1,
+                                "pic": "${http_download}/paohuzi/images/icon_haojieka.png",
+                                "desc": "豪杰卡"
+                            }
+                        ],
+                        "tips": "3-2连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/paohuzi/images/newcheckin_3days_3.png",
+                        "rewards": [
+                        	{
+                                "itemId": "user:coupon",
+                                "start": 30,
+                                "stop": 100,
+                                "pic": "${http_download}/hall/checkin/coupon_1229.png",
+                                "desc": "红包券"
+                            },
+							{
+                                "itemId": "user:chip",
+                                "start": 2000,
+                                "stop": 5000,
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_6.png",
+                                "desc": "金币"
+                            },
+							{
+                                "itemId": "item:3132",
+                                "start": 1,
+                                "stop": 1,
+                                "pic": "${http_download}/paohuzi/images/icon_haojieka.png",
+                                "desc": "豪杰卡"
+                            }
+                        ],
+                        "tips": "3-3连续签到赢大奖"
+                    }
+                ]
+            },
+            "paohuzi_7": {
+				"autoPopRewWndTime":6,
+				"autoCloCheckWndTime":12,
+                "days": [
+                    {
+                        "pic": "${http_download}/paohuzi/images/newcheckin_7days_1.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 1000,
+                                "stop": 1000,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_1.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/paohuzi/images/newcheckin_7days_2.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 1500,
+                                "stop": 1500,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_2.png",
+                                "desc": "金币"
+                            },
+                            {
+                                "itemId": "item:3132",
+                                "start": 1,
+                                "stop": 1,
+                                "pic": "${http_download}/paohuzi/images/icon_haojieka.png",
+                                "desc": "豪杰卡"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/paohuzi/images/newcheckin_7days_3.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 2000,
+                                "stop": 2000,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_3.png",
+                                "desc": "金币"
+                            },
+                            {
+                                "itemId": "item:3132",
+                                "start": 1,
+                                "stop": 1,
+                                "pic": "${http_download}/paohuzi/images/icon_haojieka.png",
+                                "desc": "豪杰卡"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/paohuzi/images/newcheckin_7days_4.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 2200,
+                                "stop": 2200,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_4.png",
+                                "desc": "金币"
+                            },
+                            {
+                                "itemId": "item:3132",
+                                "start": 1,
+                                "stop": 1,
+                                "pic": "${http_download}/paohuzi/images/icon_haojieka.png",
+                                "desc": "豪杰卡"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/paohuzi/images/newcheckin_7days_5.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 2500,
+                                "stop": 2500,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_5.png",
+                                "desc": "金币"
+                            },
+                            {
+                                "itemId": "item:3132",
+                                "start": 2,
+                                "stop": 2,
+                                "pic": "${http_download}/paohuzi/images/icon_haojieka.png",
+                                "desc": "豪杰卡"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/paohuzi/images/newcheckin_7days_6.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 3000,
+                                "stop": 3000,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_6.png",
+                                "desc": "金币"
+                            },
+                            {
+                                "itemId": "item:3132",
+                                "start": 2,
+                                "stop": 2,
+                                "pic": "${http_download}/paohuzi/images/icon_haojieka.png",
+                                "desc": "豪杰卡"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/paohuzi/images/newcheckin_7days_7d.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 5000,
+                                "stop": 5000,
+								"vip":[2,2],
+                                "pic": "${http_download}/baohuang/icon/newcheckin_7days_7.png",
+                                "desc": "金币"
+                            },
+                            {
+                                "itemId": "user:coupon",
+                                "start": 10,
+                                "stop": 50,
+                                "pic": "${http_download}/hall/checkin/coupon_1229.png",
+                                "desc": "红包券"
+                            },
+                            {
+                                "itemId": "item:3132",
+                                "start": 2,
+                                "stop": 2,
+                                "pic": "${http_download}/paohuzi/images/icon_haojieka.png",
+                                "desc": "豪杰卡"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    }
+                ]
+            }
+        },
+		"tishen": {
+            "tishen_3": {
+				"autoPopRewWndTime":6,
+				"autoCloCheckWndTime":12,
+                "days": [
+                    {
+                        "pic": "${http_download}/hall/checkin/tishencheckin_3_1.png",
+                        "rewards": [
+							{
+                                "itemId": "user:chip",
+                                "start": 1000,
+                                "stop": 1000,
+                                "pic": "${http_download}/hall/checkin/tishencheckin_1.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "3-1连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/tishencheckin_3_2.png",
+                        "rewards": [
+							{
+                                "itemId": "user:chip",
+                                "start": 1500,
+                                "stop": 1500,
+                                "pic": "${http_download}/hall/checkin/tishencheckin_2.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "3-2连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/tishencheckin_3_3.png",
+                        "rewards": [
+							{
+                                "itemId": "user:chip",
+                                "start": 2000,
+                                "stop": 2000,
+                                "pic": "${http_download}/hall/checkin/tishencheckin_3.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "3-3连续签到赢大奖"
+                    }
+                ]
+            },
+            "tishen_7": {
+				"autoPopRewWndTime":6,
+				"autoCloCheckWndTime":12,
+                "days": [
+                    {
+                        "pic": "${http_download}/hall/checkin/tishencheckin_1.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 1000,
+                                "stop": 1000,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/tishencheckin_1.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/tishencheckin_2.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 1500,
+                                "stop": 1500,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/tishencheckin_2.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/tishencheckin_2.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 2000,
+                                "stop": 2000,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/tishencheckin_2.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/tishencheckin_3.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 2000,
+                                "stop": 2000,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/tishencheckin_3.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/tishencheckin_4.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 2500,
+                                "stop": 2500,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/tishencheckin_4.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/tishencheckin_4.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 3000,
+                                "stop": 3000,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/tishencheckin_4.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    },
+                    {
+                        "pic": "${http_download}/hall/checkin/tishencheckin_5.png",
+                        "rewards": [
+                            {
+                                "itemId": "user:chip",
+                                "start": 5000,
+                                "stop": 5000,
+								"vip":[2,2],
+                                "pic": "${http_download}/hall/checkin/tishencheckin_5.png",
+                                "desc": "金币"
+                            }
+                        ],
+                        "tips": "连续签到赢大奖"
+                    }
+                ]
+            }
+        }
+    }
+}

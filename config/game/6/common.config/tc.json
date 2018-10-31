@@ -1,0 +1,319 @@
+{
+  "templates" : {
+    "default" : {
+      "share1": {
+            "name": "share1",
+            "pic": "1.pic",
+            "tips": "hello world"
+        },
+      "notifys":{
+          "info":[
+            {
+              "index":2,
+              "versions":"好友约战玩法上线",
+              "timer":"2018.4.19",
+              "title":"好友约战玩法上线",
+              "content":"亲爱的玩家：\n\n好消息！好消息！好友约战玩法上线啦！快叫上朋友一起来大战三百回合，分出个胜负吧！",
+              "sign":"富豪斗地主运营团队"
+            },
+            {
+              "index":1,
+              "versions":"通关奖池翻倍啦",
+              "timer":"2018.4.19",
+              "title":"通关奖池翻倍啦",
+              "content":"亲爱的玩家：\n\n富豪斗地主上线以来，玩家热情持续增长。为了给大家提供更好的体验，运营团队决定加大奖池投入。\n自4月15日起，通关奖池从10000元调整至20000元，发奖时间每天中午12点，大家多多邀请朋友一起来玩哟！",
+              "sign":"富豪斗地主运营团队"
+            }
+          ]
+        },
+      "shareConfig": {
+        "clickStatShareTypeMainTips": {
+          "massageList": [{
+            "formatString": "我玩斗地主赢了lastBonusOnly奖励！太容易啦，哈哈",
+            "focusImage": [0]
+          },
+            {
+              "formatString": "我玩斗地主赢了lastBonusOnly奖励！太容易啦，哈哈",
+              "focusImage": [1]
+            },
+            {
+              "formatString": "我昨天又赢了lastBonusOnly奖励！平分bonusTotal，说走就走！",
+              "focusImage": [2]
+            },
+            {
+              "formatString": "大白天的不要随便许愿，万一实现了呢？",
+              "focusImage": [3]
+            }
+          ],
+          "imageList": [{
+            "imageUrl": "res/raw-assets/resources/share/13.jpg?v=1",
+            "imageType": "010011"
+          },
+            {
+              "imageUrl": "res/raw-assets/resources/share/19.jpg?v=1",
+              "imageType": "010012"
+            },
+            {
+              "imageUrl": "res/raw-assets/resources/share/tu1.2.jpg?v=1",
+              "imageType": "010021"
+            },
+            {
+              "imageUrl": "res/raw-assets/resources/share/tu1.5.jpg?v=1",
+              "imageType": "010051"
+            }
+          ],
+          "sharePoint": 67890000
+        },
+        "clickStatShareTypeCongratulation": {
+          "massageList": [{
+            "formatString": "我是第allWinnerCount位通关的，平分bonusTotal！还有sei！",
+            "focusImage": [0]
+          },
+            {
+              "formatString": "轻松闯过7关，我马上就要平分bonusTotal啦！",
+              "focusImage": [1]
+            },
+            {
+              "formatString": "分享下最好玩的斗地主小游戏，我已经通关curWinnerCount遍了！",
+              "focusImage": [2]
+            }
+          ],
+          "imageList": [{
+            "imageUrl": "res/raw-assets/resources/share/14.jpg?v=1",
+            "imageType": "020011"
+          },
+            {
+              "imageUrl": "res/raw-assets/resources/share/222.jpg?v=1",
+              "imageType": "020021"
+            },
+            {
+              "imageUrl": "res/raw-assets/resources/share/223.jpg?v=1",
+              "imageType": "020031"
+            }
+          ],
+          "sharePoint": 67890003,
+          "query": ""
+        },
+        "clickStatShareTypeWithDraw": {
+          "massageList": [{
+            "formatString": "我在富豪斗地主领取了奖金，你也可以！",
+            "focusImage": [0]
+          },
+            {
+              "formatString": "鸡好吃？不如富豪钱好赚！",
+              "focusImage":[1]
+            },
+            {
+              "formatString": "自从玩了富豪斗地主，我的钱包再也没biĕ过！",
+              "focusImage": [2]
+            }
+          ],
+          "imageList": [{
+            "imageUrl": "res/raw-assets/resources/share/231.jpg?v=1",
+            "imageType": "030011",
+            "extraAdd": [{
+              "type": "text",
+              "textInformation": {
+                "textformatString": "withDrawMoney",
+                "fontSize": 76,
+                "textColorRGB": "#feff99",
+                "textAlign": "center",
+                "originPointX": 180,
+                "originPointY": 260
+              }
+            },
+              {
+                "type": "text",
+                "textInformation": {
+                  "textformatString": "元",
+                  "fontSize": 20,
+                  "textColorRGB": "#feff99",
+                  "textAlign": "left",
+                  "originPointX": -2,
+                  "originPointY": 260
+                }
+              },
+              {
+                "type": "text",
+                "textInformation": {
+                  "textformatString": "恭喜你获得",
+                  "fontSize": 20,
+                  "textColorRGB": "#fef864",
+                  "textAlign": "center",
+                  "originPointX": 180,
+                  "originPointY": 190
+                }
+              }
+            ],
+            "sizeWith": 360,
+            "sizeHeight": 288
+          },
+            {
+              "imageUrl": "res/raw-assets/resources/share/tu3.4.jpg?v=1",
+              "imageType": "030041"
+            },
+            {
+              "imageUrl": "res/raw-assets/resources/share/233.jpg?v=1",
+              "imageType": "030031"
+            }
+          ],
+          "sharePoint": 67890004
+        },
+        "clickStatShareCash": {
+          "massageList": [{
+            "formatString": "你得到了一张刮刮卡，立即刮奖>>>",
+            "focusImage": [0]
+          },
+            {
+              "formatString": "比跳一跳好玩100倍！居然还能赢奖金！",
+              "focusImage":[1]
+            },
+            {
+              "formatString": "加班苦，生活累，富豪送点加班费。",
+              "focusImage": [2]
+            }
+          ],
+          "imageList": [{
+            "imageUrl": "res/raw-assets/resources/share/tu7.1.jpg?v=1",
+            "imageType": "070011"
+          },
+            {
+              "imageUrl": "res/raw-assets/resources/share/tu7.2.jpg?v=1",
+              "imageType": "070021"
+            },
+            {
+              "imageUrl": "res/raw-assets/resources/share/tu7.3.jpg?v=1",
+              "imageType": "070031"
+            }
+          ],
+          "sharePoint": "67890001"
+        },
+        "clickStatShareTypeShareButton": {
+          "massageList": [{
+            "formatString": "轻松有趣还能赢奖金的斗地主！点开即玩！",
+            "focusImage": [0]
+          }
+          ],
+          "imageList": [
+            {
+              "imageUrl": "res/raw-assets/resources/share/242.jpg?v=1",
+              "imageType": "040021"
+            }
+          ],
+          "sharePoint": "67890001"
+        },
+        "clickStatShareTypeRankList": {
+          "massageList": [{
+            "formatString": "本群斗地主实力排名！看看你上榜了吗？"
+          }],
+          "imageList": [{
+            "imageUrl": "res/raw-assets/resources/share/262.jpg?v=1",
+            "imageType": "060021"
+          }],
+          "sharePoint": "67890001"
+        },
+        "clickStatShareTypeGetDiamondFail": {
+          "massageList": [{
+            "formatString": "马上分bonusTotal了，点一下帮帮我！",
+            "focusImage": [0]
+          },
+            {
+              "formatString": "惊呆！斗地主居然能得奖金！快来和我平分bonusTotal！",
+              "focusImage": [1]
+            },
+            {
+              "formatString": "两个萌妹子斗地主二缺一，要去一起玩吗？",
+              "focusImage": [2]
+            }
+          ],
+          "imageList": [{
+            "imageUrl": "res/raw-assets/resources/share/17.jpg?v=1",
+            "imageType": "050011"
+          },
+            {
+              "imageUrl": "res/raw-assets/resources/share/252.jpg?v=1",
+              "imageType": "050021"
+            },
+            {
+              "imageUrl": "res/raw-assets/resources/share/tu5.4.jpg?v=1",
+              "imageType": "050041"
+            }
+          ],
+          "sharePoint": "67890001"
+        },
+        "clickStatShareTypeGetDiamondHall": {
+          "massageList": [{
+            "formatString": "马上分bonusTotal了，点一下帮帮我！",
+            "focusImage": [0]
+          },
+            {
+              "formatString": "惊呆！斗地主居然能得奖金！快来和我平分bonusTotal！",
+              "focusImage": [1]
+            },
+            {
+              "formatString": "炸？还是不炸？快帮我做个选择！",
+              "focusImage": [2]
+            }
+          ],
+          "imageList": [{
+            "imageUrl": "res/raw-assets/resources/share/17.jpg?v=1",
+            "imageType": "050012"
+          },
+            {
+              "imageUrl": "res/raw-assets/resources/share/252.jpg?v=1",
+              "imageType": "050022"
+            },
+            {
+              "imageUrl": "res/raw-assets/resources/share/tu5.5.jpg?v=1",
+              "imageType": "050052"
+            }
+          ],
+          "sharePoint": 67890002
+        },
+        "clickStatShareTypeInviteFriend": {
+          "massageList": [{
+            "formatString": "房间已建好,totalRound局,displayName玩法,goodCard场,速来"}
+          ],
+          "imageList": [{
+            "imageUrl": "res/raw-assets/resources/share/yqhy.jpg??v=1",
+            "imageType": "050012"
+          }],
+          "sharePoint": "67890001",
+          "query" : "ftID=inviteFriendID"
+        },
+        "clickStatShareTypeShareResults": {
+          "massageList": [{
+            "formatString": "新一轮战绩排名出来了，快来围观！"
+          }
+          ],
+          "imageList": [{
+            "imageUrl": "res/raw-assets/resources/share/20.jpg?v=1",
+            "imageType": "050012"
+          }],
+          "sharePoint": "67890001",
+          "query" : ""
+        },
+        "clickStatShareTypeRevial": {
+          "massageList": [{
+            "formatString": "轻松有趣还能赢奖金的斗地主！点开即玩！",
+            "focusImage": [0]
+          }
+          ],
+          "imageList": [{
+            "imageUrl": "res/raw-assets/resources/share/17.jpg?v=1",
+            "imageType": "050012"
+          }
+          ]
+        }
+      },
+      "matchingMassage":[
+        "闯关失败不要怕，钻石可以复活噢",
+        "每天登录游戏都可以领取一颗钻石哦",
+        "邀请新玩家，你和ta都可以得到钻石哟",
+        "邀请朋友每天登录，都会送你钻石，多邀多送",
+        "每天中午十二点准时平分奖池，别忘了哦！",
+        "分享到不同群，每天最多获取3颗钻石哦",
+        "每天可以多次闯关，分得多次奖励"]
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+	"lotteryRewardFishNumThreshold": 2,
+	"localRedisBackup": 0,
+	"isFakeUserEnvelopeOpen": 0,
+	"bigPrizeMatchOpen": 1,
+	"realTimeMatchOpen": 1,
+	"realTimeMatchEnterCreatetimeLimit": 86400,
+	"newUserGift": [
+            {
+                "count": 10,
+                "name": "item:1224"
+            },
+            {
+                "count": 200,
+                "name": "user:chip"
+            },
+            {
+                "count": 2,
+                "name": "item:1198"
+            }
+	],
+	"newUser3Gift": {
+		"1" : 7284,
+		"2" : 7285,
+		"3" : {
+			"0" : 7286,
+			"200" : 7287,
+			"400" : 7288,
+			"600" : 7289,
+			"800" : 7290
+		}
+	},
+	"giftsCodesConf" : {
+		"weekly" : {
+			"packageIdList" : [7245],
+			"isOpen" : 0,
+			"testExpire" : 0,
+			"codesData" : [
+
+			]
+		},
+		"limitTimes" : {
+			"packageIdList" : [7245],
+			"limitTimes" : 5000,
+			"isOpen" : 0,
+			"codesData" : [
+
+			]
+
+		},
+		"test" : {
+			"codesData" : [
+
+			]
+		}
+	},
+
+
+	"inviteFriendRewards" : {
+		"inviteeLimits" : 10,
+		"invitee" : {
+			"giftId" : 7248
+		},
+		"inviter" : {
+			"giftId" : 7247
+		},
+		"dailyInvite" : {
+			"giftId" : 7247
+		},
+		"level" : {
+			"30" : {
+				"giftId" : 7249
+			},
+			"300" : {
+				"giftId" : 7250
+			},
+			"1000" : {
+				"giftId" : 7251
+			}
+		}
+	},
+
+	"hallNotice": "<html><body>hello world</body></html>",
+	"hallNoticeUrl": {"3.789" : "http://ddz.dl.tuyoo.com/cdn37/buyu/static_file/web/index.html",
+	                  "3.8"   : "http://ddz.dl.tuyoo.com/cdn37/buyu/static_file/web/3.8/index.html"},
+	"hallNoticeUrlSwitch": {
+		"kuyumore": ["bydzz2cooee35005"]
+	},
+
+	"isPhonefareBossOpen": 1,
+	"isHandleOldDailyQuestKey": 1,
+
+	"oldActivity" :{
+		"GunUp" : {
+			"startTime" : 0,
+			"endTime"   : -1
+		},
+		"FirstRecharge" : {
+			"startTime" : -1,
+			"endTime"   : -1
+		},
+		"charge" : {
+			"startTime" : "2017-06-16 00:00:01",
+			"endTime"   : "2017-06-18 23:59:50"
+		},
+		"randomChargeDouble" : {
+			"startTime" : -1,
+			"endTime"   : -1
+		},
+		"charge_crystal" : {
+			"startTime" : "2017-04-22 00:00:00",
+			"endTime"   : "2017-04-24 23:59:59"
+		}
+	},
+
+	"chargeActOpenChannals" : {
+		"all" : {
+			"startTime" : "2017-06-16 00:00:01",
+			"endTime"   : "2017-06-18 23:59:50"
+		},
+		"huawei" : {
+			"startTime" : "2017-06-06 00:00:01",
+			"endTime"   : "2017-06-09 23:59:50"
+		},
+		"kuyumore":{
+			"startTime" : "2017-06-08 00:00:01",
+			"endTime"   : "2017-06-14 23:59:50"
+		}
+	},
+  
+  "allSdkUrls": ["http://open.touch4.me", "http://open.tuyoo.com"],
+  "sdkIpUrl": "http://125.39.220.87",
+  
+  "forbid_show_memcard_clientId":[
+  	"IOS_3.789_tuyoo,weixin.appStore,weixinPay,alipay.0-hall28.appStore.happy",
+  	"IOS_3.789_tuyoo,weixin.appStore,weixinPay,alipay.0-hall28.appStore.crazy",
+	"IOS_3.789_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.kaixinfish",
+	"Android_3.7891_tyGuest.alipayweb,weixinWap,unionpay.0-hall28.uc.happy",
+	"Android_3.7891_tyGuest.alipayweb,weixinWap,unionpay.0-hall28.uc.help",
+	"IOS_3.789_tuyoo,weixin.appStore,wxwap,alipaywap.0-hall28.appStore.byhunt",
+	"IOS_3.789_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.byzoo",
+	"IOS_3.789_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.newhuanle",
+	"Android_3.7891_tyGuest,tyAccount,tyOneKey.alipayweb,weixinWap,unionpay.0-hall28.kuyu.baibao",
+	"IOS_3.789_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.happy",
+	"IOS_3.7891_tuyoo,weixin.appStore,weixinPay,alipay.0-hall28.appStore.youleby",
+	"Android_3.79_tyGuest,tyAccount,tyOneKey.alipayweb,weixinWap,unionpay.0-hall28.kuyu.baibao",
+	"IOS_3.79_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.duobao",
+	"IOS_3.79_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.byproficientone",
+	"IOS_3.79_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.byzooone",
+	"IOS_3.79_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.legend",
+	"IOS_3.79_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.koudai",
+	"Android_3.791_tyGuest,tyAccount,tyOneKey.alipayweb,weixinWap,unionpay.0-hall28.kuyu.baibao",
+	"Android_3.800_tyGuest,tyAccount,tyOneKey.alipayweb,weixinWap,unionpay.0-hall28.kuyu.baibao",
+	"Android_3.79_tyGuest,nearme.nearme.0-hall28.oppo.bydzz",
+	"Android_3.7891_tyGuest,nearme.nearme.0-hall28.oppo.bydzz",
+	"IOS_3.80_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.byyxt",
+	"IOS_3.80_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.wanpby",
+	"IOS_3.80_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.bydmx",
+	"IOS_3.80_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.xianlai",
+	"IOS_3.80_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.newqmbyhz",
+	"IOS_3.80_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.bygaoshou",
+	"IOS_3.80_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.buyuzdy",
+	"IOS_3.80_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.newbydzz",
+	"IOS_3.80_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.tyby",
+	"IOS_3.82_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.newqmbyhz",
+	"IOS_3.82_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.xianlai",
+	"IOS_3.82_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.xinyue",
+	"IOS_3.82_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.newqmby",
+	"IOS_3.82_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.bybfight",
+	"IOS_3.82_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.bigrichfish",
+	"IOS_3.82_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.buhunter",
+	"IOS_3.82_tuyoo,weixin.appStore,weixinPay,alipaywap.0-hall28.appStore.qmcrazy",
+	"IOS_3.83_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall28.appStore.bydzz"
+  ]
+
+}

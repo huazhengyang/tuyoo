@@ -1,0 +1,18 @@
+{
+  "room_items" : {
+      "hundred1" : {
+                        "id": 38001
+                }
+  },
+  
+  "session_items" : {
+	"hundreds": {
+   		"session": "百人场",
+   		"rooms":["hundred1"]
+    }
+  },
+  
+  "templates" : {
+  	"default" : ["hundreds"]
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "开赛时间：每日12:30 \n报名条件：棋王争霸赛入围赛门票",
+    "fees" : [
+      {
+        "count" : 1,
+        "itemId" : "item:3104",
+        "params" : {
+          "failure" : "您的报名条件不足，本比赛需要棋王争霸赛入围赛门票"
+        }
+      }
+    ],
+    "rank.rewards" : [
+      {
+        "desc" : "棋王争霸赛现场赛门票",
+        "message" : "恭喜您，在棋王争霸赛入围赛中获得第%d名，奖励棋王争霸赛现场赛门票",
+        "ranking" : {
+          "end" : 10,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:2064"
+          }
+        ]
+      },
+      {
+        "desc" : "10.00红包券",
+        "message" : "恭喜您，在棋王争霸赛入围赛中获得第%d名，奖励10.00红包券",
+        "ranking" : {
+          "end" : 16,
+          "start" : 11
+        },
+        "rewards" : [
+          {
+            "count" : 1000,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "5.00红包券",
+        "message" : "恭喜您，在棋王争霸赛入围赛中获得第%d名，奖励5.00红包券",
+        "ranking" : {
+          "end" : 32,
+          "start" : 17
+        },
+        "rewards" : [
+          {
+            "count" : 500,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "3.00红包券",
+        "message" : "恭喜您，在棋王争霸赛入围赛中获得第%d名，奖励3.00红包券",
+        "ranking" : {
+          "end" : 64,
+          "start" : 33
+        },
+        "rewards" : [
+          {
+            "count" : 300,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "2.00红包券",
+        "message" : "恭喜您，在棋王争霸赛入围赛中获得第%d名，奖励2.00红包券",
+        "ranking" : {
+          "end" : 128,
+          "start" : 65
+        },
+        "rewards" : [
+          {
+            "count" : 200,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "1.00红包券",
+        "message" : "恭喜您，在棋王争霸赛入围赛中获得第%d名，奖励1.00红包券",
+        "ranking" : {
+          "end" : 256,
+          "start" : 129
+        },
+        "rewards" : [
+          {
+            "count" : 100,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "0.50红包券",
+        "message" : "恭喜您，在棋王争霸赛入围赛中获得第%d名，奖励0.50红包券",
+        "ranking" : {
+          "end" : 512,
+          "start" : 257
+        },
+        "rewards" : [
+          {
+            "count" : 50,
+            "itemId" : "user:coupon"
+          }
+        ]
+      }
+    ],
+    "recordId" : 3055,
+    "stages" : [
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "排位赛(不淘汰)",
+        "rise.user.count" : 1024,
+        "rise.user.refer" : 1024,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "晋级赛",
+        "rise.user.count" : 256,
+        "rise.user.refer" : 256,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "256强赛",
+        "rise.user.count" : 128,
+        "rise.user.refer" : 128,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 2,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "128强赛",
+        "rise.user.count" : 64,
+        "rise.user.refer" : 64,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 3,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "64强赛",
+        "rise.user.count" : 32,
+        "rise.user.refer" : 32,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 4,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "32强赛",
+        "rise.user.count" : 16,
+        "rise.user.refer" : 16,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 4,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "16强赛",
+        "rise.user.count" : 8,
+        "rise.user.refer" : 8,
+        "seat.principles" : 1,
+        "type" : 1
+      }
+    ],
+    "start" : {
+      "fee.type" : 0,
+      "maxplaytime" : 5400,
+      "prepare.times" : 10,
+      "signin.times" : 7200,
+      "start.speed" : 8,
+      "table.times" : 730,
+      "times" : {
+        "days" : {
+          "list" : [
+            "20170928"
+          ]
+        },
+        "times_in_day" : {
+          "list" : [
+            "20:00"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 1024,
+      "user.maxsize" : 1024,
+      "user.minsize" : 32,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 2,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "棋王争霸赛入围赛",
+  "playDesc" : "",
+  "playMode" : "jifen",
+  "robotUserCallUpTime" : 6,
+  "robotUserMaxCount" : 64,
+  "robotUserOpTime" : [
+    1,
+    2,
+    3
+  ],
+  "roomFee" : 0,
+  "roomMutil" : 50,
+  "sendCoupon" : 0,
+  "showCard" : 0,
+  "tableConf" : {
+    "maxSeatN" : 2
+  },
+  "typeName" : "group_match",
+  "winDesc" : ""
+}

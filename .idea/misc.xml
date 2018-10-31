@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7" project-jdk-type="Python SDK" />
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$/config">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="http://192.168.10.65/newsvn/config/branches" />
+                  <option value="http://192.168.10.65/newsvn/config/clouds" />
+                  <option value="http://192.168.10.65/newsvn/config/game_config" />
+                  <option value="http://192.168.10.65/newsvn/config/international" />
+                  <option value="http://192.168.10.65/newsvn/config/sdk_config" />
+                  <option value="http://192.168.10.65/newsvn/config/tag" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="http://192.168.10.65/newsvn/config/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dizhu">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="http://202.106.9.134:9055/newsvn/internal-game-py/doudizhu/doudizhu-wx/doudizhu-wx-trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dizhu-common">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="http://202.106.9.134:9055/newsvn/internal-game-py/dizhucommon/dizhucommon-wx/dizhucommon-wx-trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/hall37">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="http://202.106.9.134:9055/newsvn/internal-game-py/hall37/hall37-wx/hall37-wx-trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+</project>

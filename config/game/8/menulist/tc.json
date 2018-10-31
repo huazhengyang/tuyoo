@@ -1,0 +1,83 @@
+{
+ "custom_menus"                           : {
+  "tutorial"                               : {
+   "picUrl"                                 : "${http_download}/hall/menulist/texas_xinshou_1.png",
+   "todotasks"                              : [
+    {
+     "enter_param"                            : {
+      "pluginParams"                           : {
+       "action"                                 : "tutorial"
+      },
+      "type"                                   : "quickstart"
+     },
+     "gameId"                                 : 8,
+     "typeId"                                 : "hall.goto.enter.game"
+    }
+   ]
+  }
+ },
+ "templates"                              : {
+  "texas_3_7_tishen"                       : [
+   "shop",
+   "bag",
+   "message",
+   "settings"
+  ],
+  "texas_v4.56_AI_tishen_menulist"         : [
+   "shop",
+   "activity",
+   "bag",
+   "message",
+   "settings"
+  ],
+  "texas_v3.77_I_offline_packages_menulist": [
+   "shop",
+   "account",
+   "bag",
+   "friends",
+   "message",
+   "settings"
+  ],
+  "texas_3_7_ios_haima"                    : [
+   "shop",
+   "activity",
+   "bag",
+   "account",
+   "message"
+  ],
+  "texas_3_7"                              : [
+   "shop",
+   "activity",
+   "bag",
+   "account",
+   "friends",
+   "message",
+   "settings"
+  ],
+  "texas_v3.90_AI_online_menulist"         : [
+   "shop",
+   "activity",
+   "bag",
+   "message",
+   "vip",
+   "settings"
+  ],
+  "texas_v4.01_AI_online_menulist"         : [
+   "shop",
+   "activity",
+   "bag",
+   "message",
+   "vip",
+   "settings"
+  ],
+  "texas_v3.752_Android_function_test"     : [
+   "shop",
+   "activity",
+   "bag",
+   "message",
+   "vip",
+   "friends",
+   "settings"
+  ]
+ }
+}

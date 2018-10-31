@@ -1,0 +1,98 @@
+{
+  "room_items" : {
+    "lts1" : {
+                        "gui_type": "liner",
+                        "name": "游轮赛",
+                        "desc2": "准入：100万",
+                        "least": 0,
+                        "entry": "底注: 2.5万金币",
+                        "reward": "300万金币",
+                        "config": 0,
+                        "id": 8140,
+                        "condition": "100.0万",
+                        "desc": "周三、周五晚\n21:30 - 23:00"
+     		 },
+    "mtt1" : {
+                        "gui_type": "mtt",
+                        "name": "MTT内部赛",
+                        "sortId": 0,
+                        "least": 0,
+                        "forbidSignout": 30,
+                        "startTime": 1440040800,
+                        "allowEnterMatch": 180,
+                        "entry": "底注: 0.0025万金币",
+                        "desc": "11:20",
+                        "config": 0,
+                        "id": 8160,
+                        "condition": "免费",
+                        "nameColor": [
+                            255,
+                            210,
+                            35
+                        ]
+             },
+    "sng1" : {
+                        "gui_type": "sng",
+                        "name": "3人摇奖赛\n（20万场）",
+                        "desc2": "200000",
+                        "reward": "最高4000万",
+                        "id": 8151,
+                        "desc": "满3人开赛"
+
+             },
+    "sng2" : {
+                        "gui_type": "sng",
+                        "name": "3人摇奖赛\n（2万场）",
+                        "desc2": "20000",
+                        "reward": "最高400万",
+                        "id": 8152,
+                        "desc": "满3人开赛"
+             },
+    "zhibo1" : {
+                "id" : 8001
+             },
+    "zhibo2" : {
+                "id" : 8002
+             },
+    "zhibo3" : {
+                "id" : 8003
+             },
+    "zhibo4" : {
+                "id" : 8004
+             },
+    "zhibo5" : {
+                "id" : 8005
+             },
+    "zhibo6" : {
+                "id" : 8006
+             },
+    "zhibo7" : {
+                "id" : 8007
+             },
+    "zhibo8" : {
+                "id" : 8008
+             },
+    "zhibo9" : {
+                "id" : 8009
+             }
+  },
+
+  "session_items" : {
+	"mt1": {
+   		"session": "比赛场",
+   		"m_type": "match",
+   		"match":1,
+   		"new":0,
+        "rooms":["mtt1"],
+        "description" : []
+  	},
+    "zhibo": {
+        "session": "zhibo",
+        "rooms":["zhibo1", "zhibo2", "zhibo3", "zhibo4", "zhibo5", "zhibo6", "zhibo7", "zhibo8", "zhibo9"]
+    }
+  },
+
+  "templates" : {
+  	"default" : ["zhibo"]
+  }
+}

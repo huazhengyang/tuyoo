@@ -1,0 +1,75 @@
+{
+	"scale_display_onlines": {
+		"min_users": 11,
+		"scale_infos": [
+			{"time": [0, 8], "scale": [1.5, 2]},
+			{"time": [8, 21], "scale": [2.5, 3, 3.5, 4]},
+			{"time": [21, 24], "scale": [1.5, 2]}
+		]
+	},
+	"winchip_rank": {
+		"today_topn": 30,
+		"play_mode": {
+			"1": "100010004",
+			"3": "100010005"
+		},
+		"rewards": {
+			"100010004": [
+				{"start": 1, "end": 1, "chip": 1000000},
+				{"start": 2, "end": 2, "chip": 500000},
+				{"start": 3, "end": 3, "chip": 300000}
+			],
+			"100010005": [
+				{"start": 1, "end": 1, "chip": 1000000},
+				{"start": 2, "end": 2, "chip": 500000},
+				{"start": 3, "end": 3, "chip": 300000}
+			]
+		}
+	},
+	"daoju": [
+		{"id": 1, "name": "鸡蛋", "price": 100, "self_meili": 10, "peer_meili": -10},
+		{"id": 2, "name": "炸弹", "price": 200, "self_meili": 20, "peer_meili": -20},
+		{"id": 3, "name": "大拇指", "price": 100, "self_meili": 10, "peer_meili": 10},
+		{"id": 4, "name": "鲜花", "price": 500, "self_meili": 50, "peer_meili": 50},
+		{"id": 5, "name": "钻戒", "price": 1000, "self_meili": 1000, "peer_meili": 1000}
+	],
+	"xuezhanQuick": [
+		{"range": [1000, 50000], "minCoin": 1000},
+		{"range": [50000, 200000], "minCoin": 20000},
+		{"range": [200000, -1], "minCoin": 100000}
+	],
+	"tongbiQuick": [
+		{"range": [50000, 300000], "baseBet": 1000},
+		{"range": [300000, 600000], "baseBet": 5000},
+		{"range": [600000, 1000000], "baseBet": 10000},
+		{"range": [1000000, 2500000], "baseBet": 20000},
+		{"range": [2500000, 5000000], "baseBet": 40000},
+		{"range": [5000000, 10000000], "baseBet": 60000},
+		{"range": [10000000, 50000000], "baseBet": 100000},
+		{"range": [50000000, 100000000], "baseBet": 200000},
+		{"range": [100000000, -1], "baseBet": 300000}
+	],
+    "friendTableConf": {
+        "round": [
+            {"count":6, "card":0, "desc":"6局（免费）"},
+            {"count":15, "card":0, "desc":"15局（免费）"},
+            {"count":25, "card":0, "desc":"25局（免费）"},
+            {"count":35, "card":0, "desc":"35局（免费）"}
+        ], 
+        "baseBet": [1, 2, 3, 5, 10],
+        "cardScale" :[
+            {"times": [1,1,1,1,1,1,1,2,2,2,3,3,3,3,3,3,3,3], "desc": "牛六以下(1倍) 牛七至牛九(2倍) 牛牛及以上(3倍)"},
+            {"times": [1,1,1,1,1,1,1,2,3,4,5,5,5,5,5,5,5,5], "desc": "牛六以下(1倍) 牛七(2倍) 牛八(3倍) 牛九(4倍) 牛牛及以上(5倍)"}
+        ],
+        "playerScale": [
+            {"times": [1,2,3,4,5], "desc": "1、2、3、4、5倍"},
+            {"times": [1,2,3,5,10], "desc": "1、2、3、5、10倍"}
+        ],
+        "defaultIndex": {
+        	"round": 0, 
+        	"baseBet": 0,
+        	"cardScale" :0,
+        	"playerScale": 0
+        }
+    }
+}

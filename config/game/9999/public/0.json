@@ -1,0 +1,20 @@
+{
+  "newuser_startchip" : 1000,
+  "online_rich_limit" : 100000,
+  "beginDays"         : 3,
+  "gameTime"          : 60,
+  "cheatDays"         : 5,
+  "match_360kp":{
+  	"resultDescNoReward":"您在\\${match.name}中取得第\\${rank}名",
+  	"resultDescReward":"您在\\${match.name}中取得第\\${rank}名，奖励\\${reward}",
+  	"signinCallbackUrl":"http://3ga.youxi.com/regist",
+  	"matchResultCallbackUrl":"http://3ga.youxi.com/match_result"
+  },
+  "product_coupon2chip_forbidden":"抱歉，您的红包券来源存在异常，暂时不能兑换，如有疑问，请联系客服：4008098000.",
+  "weixin_redenvlope":{
+  	"url":"http://wxddz.tuyoo.com/api/wx/create_hongbao",
+  	"errorInfo":"红包系统忙，请稍后再试"
+  },
+  "closeLedGameIds":[10, 16, 19, 23, 27, 30, 31, 38, 65, 88, 89],
+  "platformId":8
+}

@@ -1,0 +1,22 @@
+{
+	"notSendGameIds":[17,21],
+    "minChip": 400,
+    "sendChip": 1000,
+    "maxTimes": 0,
+    "privileges": [
+    	{
+	        "typeId": "common.vip",
+	        "desc": "",
+	        "name": "VIP特权",
+	        "levels": [
+	        ]
+	    },
+	    {
+	        "typeId": "common.member",
+	        "desc": "",
+	        "name": "会员特权",
+	        "sendChip": "+0",
+	        "times": "+0"
+	    }
+    ]
+}

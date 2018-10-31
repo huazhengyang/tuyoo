@@ -1,0 +1,98 @@
+{
+    "interEmoticon": {
+        "bomb": [
+            10, 
+            1, 
+            -1
+        ], 
+        "chicken": [
+            10, 
+            1, 
+            -1
+        ], 
+        "doubleAce": [
+            10, 
+            2, 
+            2
+        ], 
+        "eggs": [
+            10, 
+            1, 
+            -1
+        ], 
+        "fishing": [
+            10, 
+            1, 
+            -1
+        ], 
+        "ring": [
+            10, 
+            2, 
+            2
+        ], 
+        "rose": [
+            10, 
+            2, 
+            2
+        ], 
+        "thumb": [
+            10, 
+            2, 
+            2
+        ]
+    }, 
+    "matchConf": {
+        "match_id": "0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 50000, 
+    "minCoin": 10000, 
+    "minCoinQS": 20000, 
+    "minTriggerLen": 2, 
+    "n_recycle": 3, 
+    "name": "quick_intermediate", 
+    "playMode": "classic", 
+    "rewardDealerChip": 100, 
+    "roomID": 8103, 
+    "sortId": 3, 
+    "tableConf": {
+        "autoGrad": 0, 
+        "bb": 50, 
+        "big_pot": 0, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 2500, 
+        "buyinConf": "1/2", 
+        "callChip": -1, 
+        "chat_require_vip_level": 8, 
+        "commission": 0.0, 
+        "extname": "进阶场(准入:10000)", 
+        "fee": 5, 
+        "flip_card_game": {
+            "bet": 0, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "get_insurance_info": 0.0, 
+        "isSitBigBlind": 0.0, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "min_players": 2, 
+        "nameForPc": "10000场", 
+        "optime": 11, 
+        "pay_factor": 1.0, 
+        "prebet": 0, 
+        "sb": 25, 
+        "scheduleFloor": 3, 
+        "start_card": 2, 
+        "timeup": 10, 
+        "tname": "10000场", 
+        "win_exp": 2
+    }, 
+    "triggerLen": 6, 
+    "typeName": "queue", 
+    "validate_fold_limit": 15.0, 
+    "validate_play_limit": 50.0
+}

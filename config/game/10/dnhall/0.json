@@ -1,0 +1,16 @@
+{
+	"ranks": [
+		{"playMode": 1, "enable": 1},
+		{"playMode": 3, "enable": 1}
+	],
+	"playModes": [
+		{"playMode": 5, "enable": 1},
+		{"playMode": 1, "enable": 1},
+		{"playMode": 3, "enable": 1},
+		{"playMode": 4, "enable": 1},
+		{"playMode": 2, "enable": 0}
+	],
+	"relatedGames": [
+		{"type": "game", "typeId": "bairen", "gameId": 16, "vipLevel":1, "enter_param": {"gameType": 1}, "isOffline": 0}
+	]
+}

@@ -1,0 +1,259 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "junqi_v3.771_AI_default"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "junqi_v3.771_AI_tishen"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 29,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "junqi_v3.82_A_wuzhuanpan"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "junqi_v3.83_A_pro_slots"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "junqi_v4.55_AI__Low premium"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 25020201,
+       "conditions"  : [
+        {
+         "stopExp"     : 1,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "junqi_v4.56_AI_4.56"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 13,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 11,
+       "conditions"  : [ ]
+      },
+      {
+       "promotionId" : 7,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "template.3_71_junqi"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 25020201,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "templateName": "firstBuy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "一元首充",
+   "url"         : "${http_download}/hall/promote/imgs/first_charge68_458.png",
+   "defaultRes"  : "一元首充"
+  }
+ ]
+}

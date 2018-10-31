@@ -1,0 +1,2716 @@
+{
+	"buyinchip" : 0,
+	"finalCallSwitch" : 1,
+	"hasRewardIndex" : 5,
+	"killPigLevel" : 155,
+	"dummyUserCount" : 0,
+	"goodCard" : 0,
+	"hasrobot" : 0,
+	"ismatch" : 1,
+	"matchConf" : {
+		"baseScore" : 100,
+		"lifeSafeCount":7,
+		"safeAddScore":200,
+		"desc" : "满90人开赛\n报名费：2万金币或10钻石或7张英雄帖",
+		"feeRewardList":[
+			{
+				"mixId":"6072",
+				"roomName":"20元红包赛",
+				"mixUserRate":0.8,
+				"dummyUserCount":600,
+				"championLed" : "冠军led显示",
+				"rewardShow" : "10元微信红包+10万金币",
+				"minQuickStartChip": 80000,
+				"fees" : [
+					{
+						"count" : 20000,
+						"itemId" : "user:chip",
+						"params" : {
+							"failure" : "您的金币不足，选择其他报名条件或者买个金币礼包吧",
+							"payOrder" : {
+								"contains" : {
+									"count" : 20000,
+									"itemId" : "user:chip"
+								},
+								"shelves" : [
+									"lessbuychip"
+								]
+							}
+						}
+					},
+					{
+						"count" : 10,
+						"itemId" : "user:diamond",
+						"params" : {
+							"failure" : "您的报名条件不足，请前往钻石商城购买钻石再来抢夺大奖",
+							"payOrder" : {
+								"priceDiamond" : {
+									"count" : 10,
+									"minCount" : 10,
+									"maxCount" : -1
+								},
+								"buyTypes":["charge"]
+							}
+						}
+					},
+					{
+						"count" : 7,
+						"itemId" : "item:1008",
+						"params" : {
+							"failure" : "您的报名条件不足，本比赛需要7张英雄帖"
+						}
+					}
+				],
+				"rank.rewards" : [
+					{
+						"desc" : "10元微信红包+10万金币",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_10yuanhongbao_1115.png",
+						"ranking" : {
+							"end" : 1,
+							"start" : 1
+						},
+						"shareInfo": {
+							"rmb": 10,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 1,
+								"itemId" : "item:2048",
+								"desc" : "10元微信红包"
+							},
+							{
+								"count" : 100000,
+								"itemId" : "user:chip",
+								"desc" : "10万金币"
+							},
+							{
+								"count" : 40,
+								"itemId" : "ddz:master.score"
+							}
+						],
+						"todotask" : {
+							"action" : "rep_sence_pack",
+							"params" : {}
+						}
+					},
+					{
+						"desc" : "5元微信红包+8万金币",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_5yuanhongbao_1115.png",
+						"ranking" : {
+							"end" : 2,
+							"start" : 2
+						},
+						"shareInfo": {
+							"rmb": 5,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 1,
+								"itemId" : "item:2061",
+								"desc" : "5元微信红包"
+							},
+							{
+								"count" : 80000,
+								"itemId" : "user:chip",
+								"desc" : "8万金币"
+							},
+							{
+								"count" : 32,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "5元微信红包+6万金币",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_5yuanhongbao_1115.png",
+						"ranking" : {
+							"end" : 3,
+							"start" : 3
+						},
+						"shareInfo": {
+							"rmb": 5,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 1,
+								"itemId" : "item:2061",
+								"desc" : "5元微信红包"
+							},
+							{								
+								"count" : 60000,
+								"itemId" : "user:chip",
+								"desc" : "6万金币"
+							},
+							{
+								"count" : 20,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "8万金币+12大师分",
+						"ranking" : {
+							"end" : 6,
+							"start" : 4
+						},
+						"rewards" : [
+							{
+								"count" : 80000,
+								"itemId" : "user:chip"
+							},
+							{
+								"count" : 12,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "6万金币+8大师分",
+						"ranking" : {
+							"end" : 12,
+							"start" : 6
+						},
+						"rewards" : [
+							{
+								"count" : 60000,
+								"itemId" : "user:chip"
+							},
+							{
+								"count" : 8,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "5万金币+6大师分",
+						"ranking" : {
+							"end" : 18,
+							"start" : 13
+						},
+						"rewards" : [
+							{
+								"count" : 50000,
+								"itemId" : "user:chip"
+							},
+							{
+								"count" : 6,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "4万金币+4大师分",
+						"ranking" : {
+							"end" : 27,
+							"start" : 19
+						},
+						"rewards" : [
+							{
+								"count" : 40000,
+								"itemId" : "user:chip"
+							},
+							{
+								"count" : 4,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "3万金币+2大师分",
+						"ranking" : {
+							"end" : 39,
+							"start" : 28
+						},
+						"rewards" : [
+							{
+								"count" : 30000,
+								"itemId" : "user:chip"
+							},
+							{
+								"count" : 2,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "1.6万金币",
+						"ranking" : {
+							"end" : 51,
+							"start" : 40
+						},
+						"rewards" : [
+							{
+								"count" : 16000,
+								"itemId" : "user:chip"
+							}
+						]
+					}
+				]
+			},
+			{
+				"mixId":"6057",
+				"roomName":"100元红包赛",
+				"mixUserRate":0.12,
+				"dummyUserCount":300,
+				"championLed" : "冠军led显示",
+				"rewardShow" : "50元微信红包+20万金币",
+				"minQuickStartChip": 400000,
+				"fees" : [
+					{
+						"count" : 80000,
+						"itemId" : "user:chip",
+						"params" : {
+							"failure" : "您的金币不足，选择其他报名条件或者买个金币礼包吧",
+							"payOrder" : {
+								"contains" : {
+									"count" : 300000,
+									"itemId" : "user:chip"
+								},
+								"shelves" : [
+									"lessbuychip"
+								]
+							}
+						}
+					},
+					{
+						"count" : 40,
+						"itemId" : "user:diamond",
+						"params" : {
+							"failure" : "您的报名条件不足，请前往钻石商城购买钻石再来抢夺大奖",
+							"payOrder" : {
+								"priceDiamond" : {
+									"count" : 40,
+									"minCount" : 40,
+									"maxCount" : -1
+								},
+								"buyTypes":["charge"]
+							}
+						}
+					},
+					{
+						"count" : 2,
+						"itemId" : "item:1020",
+						"params" : {
+							"failure" : "您的费用不足，本比赛报名费需2枚幸运戒指"
+						}
+					}	  
+				],
+				"rank.rewards" : [
+					{
+						"desc" : "50元微信红包+20万金币+40大师分",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_50yuanhongbao_1115.png",
+						"ranking" : {
+							"end" : 1,
+							"start" : 1
+						},
+						"shareInfo": {
+							"rmb": 50,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 1,
+								"itemId" : "item:2059",
+								"desc" : "50元微信红包"
+							},
+							{
+								"count" : 200000,
+								"itemId" : "user:chip",
+								"desc" : "20万金币"
+							},
+							{
+								"count" : 40,
+								"itemId" : "ddz:master.score"
+							}
+						],
+						"todotask" : {
+							"action" : "rep_sence_shop",
+							"params" : {
+								"subStore" : "coupon"
+							}
+						}
+					},
+					{
+						"desc" : "20元微信红包+15万金币+32大师分",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_20yuanhongbao_1115.png",
+						"ranking" : {
+							"end" : 2,
+							"start" : 2
+						},
+						"shareInfo": {
+							"rmb": 20,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 1,
+								"itemId" : "item:2062",
+								"desc" : "20元微信红包"
+							},
+							{
+								"count" : 150000,
+								"itemId" : "user:chip",
+								"desc" : "15万金币"
+							},
+							{
+								"count" : 32,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "10元微信红包+12万金币+20大师分",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_10yuanhongbao_1115.png",
+						"ranking" : {
+							"end" : 3,
+							"start" : 3
+						},
+						"shareInfo": {
+							"rmb": 10,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 1,
+								"itemId" : "item:2048",
+								"desc" : "10元微信红包"
+							},
+							{
+								"count" : 120000,
+								"itemId" : "user:chip",
+								"desc" : "12万金币"
+							},
+							{
+								"count" : 20,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "5元微信红包+12万金币+12大师分",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_5yuanhongbao_1115.png",
+						"ranking" : {
+							"end" : 7,
+							"start" : 4
+						},
+						"shareInfo": {
+							"rmb": 5,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 1,
+								"itemId" : "item:2061"
+							},
+							{
+								"count" : 120000,
+								"itemId" : "user:chip"
+							},
+							{
+								"count" : 12,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "15万金币+8大师分",
+						"ranking" : {
+							"end" : 12,
+							"start" : 8
+						},
+						"rewards" : [
+							{
+								"count" : 150000,
+								"itemId" : "user:chip"
+							},
+							{
+								"count" : 8,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "12万金币+6大师分",
+						"ranking" : {
+							"end" : 18,
+							"start" : 13
+						},
+						"rewards" : [
+							{
+								"count" : 120000,
+								"itemId" : "user:chip"
+							},
+							{
+								"count" : 6,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "10万金币+4大师分",
+						"ranking" : {
+							"end" : 27,
+							"start" : 19
+						},
+						"rewards" : [
+							{
+								"count" : 100000,
+								"itemId" : "user:chip"
+							},
+							{
+								"count" : 4,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "9万金币+2大师分",
+						"ranking" : {
+							"end" : 39,
+							"start" : 28
+						},
+						"rewards" : [
+							{
+								"count" : 90000,
+								"itemId" : "user:chip"
+							},
+							{
+								"count" : 2,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "6万金币",
+						"ranking" : {
+							"end" : 51,
+							"start" : 40
+						},
+						"rewards" : [
+							{
+								"count" : 60000,
+								"itemId" : "user:chip"
+							}
+						]
+					}
+				]
+			},
+			{
+				"mixId":"6053",
+				"roomName":"500元红包赛",
+				"mixUserRate":0.06,
+				"dummyUserCount":200,
+				"championLed" : "冠军led显示",
+				"rewardShow" : "150元微信红包+120万金币",
+				"minQuickStartChip": 1200000,
+				"fees" : [
+					{
+						"count" : 360000,
+						"itemId" : "user:chip",
+						"params" : {
+							"failure" : "您的金币不足，选择其他报名条件或者买个金币礼包吧",
+							"payOrder" : {
+								"contains" : {
+									"count" : 300000,
+									"itemId" : "user:chip"
+								},
+								"shelves" : [
+									"lessbuychip"
+								]
+							}
+						}
+					},
+					{
+						"count" : 180,
+						"itemId" : "user:diamond",
+						"params" : {
+							"failure" : "您的报名条件不足，请前往钻石商城购买钻石再来抢夺大奖",
+							"payOrder" : {
+								"priceDiamond" : {
+									"count" : 180,
+									"minCount" : 180,
+									"maxCount" : -1
+								},
+								"buyTypes":["charge"]
+							}
+						}
+					},
+					{
+						"count" : 9,
+						"itemId" : "item:1020",
+						"params" : {
+							"failure" : "您的费用不足，本比赛报名费需9枚幸运戒指"
+						}
+					}	
+				],
+				"rank.rewards" : [
+					{
+						"desc" : "150元微信红包+120万金币+80大师分",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_150yuanhongbao_1115.png",
+						"ranking" : {
+							"end" : 1,
+							"start" : 1
+						},
+						"shareInfo": {
+							"rmb": 150,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 3,
+								"itemId" : "item:2059",
+								"img":"${http_download}/dizhu/room/imgs/reward_120_150yuanhongbao_1115.png",
+								"displayName":"150元微信红包",
+								"desc":"150元微信红包"
+							},
+							{
+								"count" : 1200000,
+								"itemId" : "user:chip",
+								"desc" : "120万金币"
+							},
+							{
+								"count" : 80,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "100元微信红包+60万金币+64大师分",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_100yuanhongbao_1115.png",
+						"ranking" : {
+							"end" : 2,
+							"start" : 2
+						},
+						"shareInfo": {
+							"rmb": 100,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 1,
+								"itemId" : "item:2050",
+								"desc" : "100元微信红包"
+							},
+							{
+								"count" : 600000,
+								"itemId" : "user:chip",
+								"desc" : "60万金币"
+							},
+							{
+								"count" : 64,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "50元微信红包+60万金币+40大师分",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_50yuanhongbao_1115.png",
+						"ranking" : {
+							"end" : 3,
+							"start" : 3
+						},
+						"shareInfo": {
+							"rmb": 50,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 1,
+								"itemId" : "item:2059",
+								"desc" : "50元微信红包"
+							},
+							{
+								"count" : 600000,
+								"itemId" : "user:chip",
+								"desc" : "60万金币"
+							},
+							{
+								"count" : 40,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "30元微信红包+50万金币+24大师分",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_30yuanhongbao_1115.png",
+						"ranking" : {
+							"end" : 6,
+							"start" : 4
+						},
+						"shareInfo": {
+							"rmb": 30,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 1,
+								"itemId" : "item:2058"
+							},
+							{
+								"count" : 500000,
+								"itemId" : "user:chip"
+							},
+							{
+								"count" : 24,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "20元微信红包+40万金币+16大师分",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_20yuanhongbao_1115.png",
+						"ranking" : {
+							"end" : 12,
+							"start" : 7
+						},
+						"shareInfo": {
+							"rmb": 20,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 1,
+								"itemId" : "item:2062"
+							},
+							{
+								"count" : 400000,
+								"itemId" : "user:chip"
+							},
+							{
+								"count" : 16,
+								"itemId" : "ddz:master.score"
+							}
+						]
+					},
+					{
+						"desc" : "60万金币",
+						"ranking" : {
+							"end" : 18,
+							"start" : 13
+						},
+						"rewards" : [
+							{
+								"count" : 600000,
+								"itemId" : "user:chip"
+							}
+						]
+					},
+					{
+						"desc" : "48万金币",
+						"ranking" : {
+							"end" : 27,
+							"start" : 19
+						},
+						"rewards" : [
+							{
+								"count" : 480000,
+								"itemId" : "user:chip"
+							}
+						]
+					},
+					{
+						"desc" : "40万金币",
+						"ranking" : {
+							"end" : 39,
+							"start" : 28
+						},
+						"rewards" : [
+							{
+								"count" : 400000,
+								"itemId" : "user:chip"
+							}
+						]
+					},
+					{
+						"desc" : "30万金币",
+						"ranking" : {
+							"end" : 51,
+							"start" : 40
+						},
+						"rewards" : [
+							{
+								"count" : 300000,
+								"itemId" : "user:chip"
+							}
+						]
+					}
+				]
+			},
+			{
+				"mixId":"6077",
+				"roomName":"2000元福利赛",
+				"mixUserRate":0.02,
+				"dummyUserCount":150,
+				"championLed" : "冠军led显示",
+				"rewardShow" : "500元微信红包+200万金币",
+				"minQuickStartChip": 3000000,
+				"fees" : [
+					{
+						"count" : 1200000,
+						"itemId" : "user:chip",
+						"params" : {
+							"failure" : "您的金币不足，选择其他报名条件或者买个金币礼包吧",
+							"payOrder" : {
+								"contains" : {
+									"count" : 1200000,
+									"itemId" : "user:chip"
+								},
+								"shelves" : [
+									"lessbuychip"
+								]
+							}
+						}
+					},
+					{
+						"count" : 600,
+						"itemId" : "user:diamond",
+						"params" : {
+							"failure" : "您的报名条件不足，请前往钻石商城购买钻石再来抢夺大奖",
+							"payOrder" : {
+								"priceDiamond" : {
+									"count" : 600,
+									"minCount" : 600,
+									"maxCount" : -1
+								},
+								"buyTypes":["charge"]
+							}
+						}
+					},
+					{
+						"count" : 30,
+						"itemId" : "item:1020",
+						"params" : {
+							"failure" : "您的费用不足，本比赛报名费需30枚幸运戒指"
+						}
+					}	
+				],
+				"rank.rewards" : [
+					{
+						"desc" : "500元微信红包+200万金币",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_500yuanhongbao_0322.png",
+						"ranking" : {
+							"end" : 1,
+							"start" : 1
+						},
+						"shareInfo": {
+							"rmb": 500,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 1,
+								"itemId" : "item:2132",
+								"desc":"500元微信红包"
+							},
+							{
+								"count" : 2000000,
+								"itemId" : "user:chip",
+								"desc" : "200万金币"
+							}
+						]
+					},
+					{
+						"desc" : "300元微信红包+120万金币",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_300yuanhongbao_1215.png",
+						"ranking" : {
+							"end" : 2,
+							"start" : 2
+						},
+						"shareInfo": {
+							"rmb": 300,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 3,
+								"itemId" : "item:2050",
+								"img":"${http_download}/dizhu/room/imgs/reward_120_300yuanhongbao_1215.png",
+								"displayName":"300元微信红包",
+								"desc":"300元微信红包"
+							},
+							{
+								"count" : 1200000,
+								"itemId" : "user:chip",
+								"desc" : "120万金币"
+							}
+						]
+					},
+					{
+						"desc" : "200元微信红包+120万金币",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_200yuanhongbao_1215.png",
+						"ranking" : {
+							"end" : 3,
+							"start" : 3
+						},
+						"shareInfo": {
+							"rmb": 200,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 2,
+								"itemId" : "item:2050",
+								"img":"${http_download}/dizhu/room/imgs/reward_120_200yuanhongbao_1215.png",
+								"displayName":"200元微信红包",
+								"desc":"200元微信红包"
+							},
+							{
+								"count" : 1200000,
+								"itemId" : "user:chip",
+								"desc" : "120万金币"
+							}
+						]
+					},
+					{
+						"desc" : "120元微信红包+120万金币",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_120yuanhongbao_0322.png",
+						"ranking" : {
+							"end" : 6,
+							"start" : 4
+						},
+						"shareInfo": {
+							"rmb": 120,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 6,
+								"itemId" : "item:2062",
+								"img":"${http_download}/dizhu/room/imgs/reward_120_120yuanhongbao_0322.png",
+								"displayName":"120元微信红包",
+								"desc":"120元微信红包"
+							},
+							{
+								"count" : 1200000,
+								"itemId" : "user:chip"
+							}
+						]
+					},
+					{
+						"desc" : "60元微信红包+120万金币",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_60yuanhongbao_0322.png",
+						"ranking" : {
+							"end" : 12,
+							"start" : 7
+						},
+						"shareInfo": {
+							"rmb": 60,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 3,
+								"itemId" : "item:2062",
+								"img":"${http_download}/dizhu/room/imgs/reward_120_60yuanhongbao_0322.png",
+								"displayName":"60元微信红包",
+								"desc":"60元微信红包"
+							},
+							{
+								"count" : 1200000,
+								"itemId" : "user:chip"
+							}
+						]
+					},
+					{
+						"desc" : "40元微信红包+120万金币",
+						"bigImg":"${http_download}/dizhu/room/imgs/reward_240_40yuanhongbao_0322.png",
+						"ranking" : {
+							"end" : 18,
+							"start" : 13
+						},
+						"shareInfo": {
+							"rmb": 40,
+							"type": "redEnvelope",
+							"name": "微信红包"
+						},
+						"rewards" : [
+							{
+								"count" : 2,
+								"itemId" : "item:2062",
+								"img":"${http_download}/dizhu/room/imgs/reward_120_40yuanhongbao_0322.png",
+								"displayName":"40元微信红包",
+								"desc":"40元微信红包"
+							},
+							{
+								"count" : 1200000,
+								"itemId" : "user:chip"
+							}
+						]
+					},
+					{
+						"desc" : "180万金币",
+						"ranking" : {
+							"end" : 27,
+							"start" : 19
+						},
+						"rewards" : [
+							{
+								"count" : 1800000,
+								"itemId" : "user:chip"
+							}
+						]
+					},
+					{
+						"desc" : "150万金币",
+						"ranking" : {
+							"end" : 39,
+							"start" : 28
+						},
+						"rewards" : [
+							{
+								"count" : 1500000,
+								"itemId" : "user:chip"
+							}
+						]
+					},
+					{
+						"desc" : "100万金币",
+						"ranking" : {
+							"end" : 51,
+							"start" : 40
+						},
+						"rewards" : [
+							{
+								"count" : 1000000,
+								"itemId" : "user:chip"
+							}
+						]
+					}
+				]
+			}
+		],
+		"matchId" : 6072,
+		"topindex" : 97,
+		"maxPlayerCount" : 5300,
+		"maxSigninCount" : 500,
+		"minSigninCount" : 6,
+		"prepareStopSeconds" : 300,
+		"processSigninCountPerTime" : 500,
+		"processSigninIntervalSeconds" : 5,
+		"stages" : [
+		{
+		"animationType" : -1,
+		"cardCount" : 1,
+		"name" : "90强赛",
+		"rankLine" : [
+		[
+			3200,
+			1
+		],
+		[
+			1200,
+			6
+		],
+		[
+			1000,
+			12
+		],
+		[
+			800,
+			18
+		],
+		[
+			600,
+			24
+		],
+		[
+			300,
+			30
+		],
+		[
+			100,
+			36
+		],
+		[
+			0,
+			42
+		],
+		[
+			-100,
+			48
+		],
+		[
+			-200,
+			54
+		],
+		[
+			-300,
+			60
+		],
+		[
+			-400,
+			66
+		],
+		[
+			-600,
+			72
+		],
+		[
+			-800,
+			78
+		],
+		[
+			-1200,
+			84
+		],
+		[
+			-1600,
+			87
+		],
+		[
+			-51200,
+			90
+		]
+		],
+		"riseUserCount" : 84,
+		"scoreInit" : 1000,
+		"scoreIntoRate" : 1,
+		"totalUserCount" : 90
+		},
+		{
+		"animationType" : -1,
+		"cardCount" : 1,
+		"name" : "84强赛",
+		"rankLine" : [
+		[
+			5000,
+			1
+		],
+		[
+			3000,
+			2
+		],
+		[
+			2000,
+			4
+		],
+		[
+			1800,
+			6
+		],
+		[
+			1600,
+			8
+		],
+		[
+			1400,
+			10
+		],
+		[
+			1200,
+			12
+		],
+		[
+			1050,
+			14
+		],
+		[
+			1000,
+			16
+		],
+		[
+			975,
+			18
+		],
+		[
+			900,
+			20
+		],
+		[
+			850,
+			22
+		],
+		[
+			825,
+			24
+		],
+		[
+			750,
+			26
+		],
+		[
+			600,
+			28
+		],
+		[
+			525,
+			30
+		],
+		[
+			375,
+			32
+		],
+		[
+			325,
+			34
+		],
+		[
+			300,
+			36
+		],
+		[
+			225,
+			38
+		],
+		[
+			150,
+			40
+		],
+		[
+			75,
+			42
+		],
+		[
+			0,
+			44
+		],
+		[
+			-50,
+			46
+		],
+		[
+			-100,
+			48
+		],
+		[
+			-150,
+			50
+		],
+		[
+			-200,
+			52
+		],
+		[
+			-250,
+			54
+		],
+		[
+			-300,
+			56
+		],
+		[
+			-350,
+			58
+		],
+		[
+			-400,
+			60
+		],
+		[
+			-450,
+			62
+		],
+		[
+			-500,
+			64
+		],
+		[
+			-550,
+			66
+		],
+		[
+			-600,
+			68
+		],
+		[
+			-650,
+			70
+		],
+		[
+			-700,
+			72
+		],
+		[
+			-750,
+			74
+		],
+		[
+			-800,
+			76
+		],
+		[
+			-850,
+			78
+		],
+		[
+			-1050,
+			80
+		],
+		[
+			-1425,
+			82
+		],
+		[
+			-51500,
+			84
+		]
+		],
+		"riseUserCount" : 78,
+		"scoreInit" : 0,
+		"scoreIntoRate" : 0.75,
+		"totalUserCount" : 84
+		},
+		{
+		"animationType" : -1,
+		"cardCount" : 1,
+		"name" : "78强赛",
+		"rankLine" : [
+		[
+			4400,
+			1
+		],
+		[
+			3000,
+			3
+		],
+		[
+			2000,
+			4
+		],
+		[
+			1800,
+			5
+		],
+		[
+			1600,
+			7
+		],
+		[
+			1500,
+			8
+		],
+		[
+			1420,
+			9
+		],
+		[
+			1340,
+			10
+		],
+		[
+			1260,
+			12
+		],
+		[
+			1180,
+			13
+		],
+		[
+			1100,
+			14
+		],
+		[
+			1020,
+			16
+		],
+		[
+			945,
+			17
+		],
+		[
+			891,
+			18
+		],
+		[
+			836,
+			20
+		],
+		[
+			782,
+			21
+		],
+		[
+			727,
+			22
+		],
+		[
+			673,
+			23
+		],
+		[
+			618,
+			25
+		],
+		[
+			564,
+			26
+		],
+		[
+			509,
+			27
+		],
+		[
+			455,
+			29
+		],
+		[
+			400,
+			30
+		],
+		[
+			364,
+			31
+		],
+		[
+			327,
+			33
+		],
+		[
+			291,
+			34
+		],
+		[
+			255,
+			35
+		],
+		[
+			218,
+			36
+		],
+		[
+			182,
+			38
+		],
+		[
+			145,
+			39
+		],
+		[
+			109,
+			40
+		],
+		[
+			73,
+			42
+		],
+		[
+			36,
+			43
+		],
+		[
+			0,
+			44
+		],
+		[
+			-20,
+			46
+		],
+		[
+			-40,
+			47
+		],
+		[
+			-80,
+			48
+		],
+		[
+			-120,
+			49
+		],
+		[
+			-160,
+			51
+		],
+		[
+			-200,
+			52
+		],
+		[
+			-240,
+			53
+		],
+		[
+			-280,
+			55
+		],
+		[
+			-320,
+			56
+		],
+		[
+			-360,
+			57
+		],
+		[
+			-400,
+			59
+		],
+		[
+			-440,
+			60
+		],
+		[
+			-480,
+			61
+		],
+		[
+			-520,
+			62
+		],
+		[
+			-560,
+			64
+		],
+		[
+			-600,
+			65
+		],
+		[
+			-640,
+			66
+		],
+		[
+			-680,
+			68
+		],
+		[
+			-700,
+			69
+		],
+		[
+			-890,
+			70
+		],
+		[
+			-1000,
+			72
+		],
+		[
+			-1100,
+			73
+		],
+		[
+			-1250,
+			74
+		],
+		[
+			-1500,
+			75
+		],
+		[
+			-1800,
+			77
+		],
+		[
+			-51500,
+			78
+		]
+		],
+		"riseUserCount" : 69,
+		"scoreInit" : 0,
+		"scoreIntoRate" : 0.75,
+		"totalUserCount" : 78
+		},
+		{
+		"animationType" : -1,
+		"cardCount" : 1,
+		"name" : "69强赛",
+		"rankLine" : [
+		[
+			4300,
+			1
+		],
+		[
+			3000,
+			2
+		],
+		[
+			2650,
+			3
+		],
+		[
+			2225,
+			5
+		],
+		[
+			1975,
+			6
+		],
+		[
+			1844,
+			7
+		],
+		[
+			1675,
+			8
+		],
+		[
+			1550,
+			9
+		],
+		[
+			1450,
+			10
+		],
+		[
+			1344,
+			12
+		],
+		[
+			1250,
+			13
+		],
+		[
+			1175,
+			14
+		],
+		[
+			1150,
+			15
+		],
+		[
+			1063,
+			16
+		],
+		[
+			1000,
+			17
+		],
+		[
+			950,
+			18
+		],
+		[
+			925,
+			20
+		],
+		[
+			888,
+			21
+		],
+		[
+			850,
+			22
+		],
+		[
+			800,
+			23
+		],
+		[
+			775,
+			24
+		],
+		[
+			725,
+			25
+		],
+		[
+			700,
+			26
+		],
+		[
+			640,
+			28
+		],
+		[
+			580,
+			29
+		],
+		[
+			500,
+			30
+		],
+		[
+			458,
+			31
+		],
+		[
+			415,
+			32
+		],
+		[
+			373,
+			33
+		],
+		[
+			331,
+			35
+		],
+		[
+			288,
+			36
+		],
+		[
+			246,
+			37
+		],
+		[
+			204,
+			38
+		],
+		[
+			162,
+			39
+		],
+		[
+			119,
+			40
+		],
+		[
+			77,
+			41
+		],
+		[
+			35,
+			43
+		],
+		[
+			-50,
+			44
+		],
+		[
+			-80,
+			45
+		],
+		[
+			-110,
+			46
+		],
+		[
+			-140,
+			47
+		],
+		[
+			-170,
+			48
+		],
+		[
+			-200,
+			49
+		],
+		[
+			-230,
+			51
+		],
+		[
+			-260,
+			52
+		],
+		[
+			-290,
+			53
+		],
+		[
+			-320,
+			54
+		],
+		[
+			-350,
+			55
+		],
+		[
+			-380,
+			56
+		],
+		[
+			-410,
+			58
+		],
+		[
+			-440,
+			59
+		],
+		[
+			-500,
+			60
+		],
+		[
+			-620,
+			61
+		],
+		[
+			-740,
+			62
+		],
+		[
+			-840,
+			63
+		],
+		[
+			-1050,
+			64
+		],
+		[
+			-1250,
+			66
+		],
+		[
+			-1400,
+			67
+		],
+		[
+			-2500,
+			68
+		],
+		[
+			-51500,
+			69
+		]
+		],
+		"riseUserCount" : 60,
+		"scoreInit" : 0,
+		"scoreIntoRate" : 0.75,
+		"totalUserCount" : 69
+		},
+		{
+		"animationType" : -1,
+		"cardCount" : 1,
+		"name" : "60强赛",
+		"rankLine" : [
+		[
+			4200,
+			1
+		],
+		[
+			3275,
+			2
+		],
+		[
+			2650,
+			4
+		],
+		[
+			2225,
+			5
+		],
+		[
+			2000,
+			6
+		],
+		[
+			1844,
+			7
+		],
+		[
+			1675,
+			8
+		],
+		[
+			1550,
+			10
+		],
+		[
+			1450,
+			11
+		],
+		[
+			1344,
+			12
+		],
+		[
+			1250,
+			13
+		],
+		[
+			1175,
+			14
+		],
+		[
+			1150,
+			16
+		],
+		[
+			1063,
+			17
+		],
+		[
+			1000,
+			18
+		],
+		[
+			950,
+			19
+		],
+		[
+			900,
+			20
+		],
+		[
+			850,
+			22
+		],
+		[
+			800,
+			23
+		],
+		[
+			750,
+			24
+		],
+		[
+			700,
+			25
+		],
+		[
+			650,
+			26
+		],
+		[
+			600,
+			28
+		],
+		[
+			550,
+			29
+		],
+		[
+			500,
+			30
+		],
+		[
+			450,
+			31
+		],
+		[
+			400,
+			32
+		],
+		[
+			350,
+			34
+		],
+		[
+			300,
+			35
+		],
+		[
+			250,
+			36
+		],
+		[
+			200,
+			37
+		],
+		[
+			150,
+			38
+		],
+		[
+			100,
+			40
+		],
+		[
+			50,
+			41
+		],
+		[
+			0,
+			42
+		],
+		[
+			-40,
+			43
+		],
+		[
+			-70,
+			44
+		],
+		[
+			-100,
+			46
+		],
+		[
+			-130,
+			47
+		],
+		[
+			-160,
+			48
+		],
+		[
+			-190,
+			49
+		],
+		[
+			-220,
+			50
+		],
+		[
+			-250,
+			51
+		],
+		[
+			-350,
+			52
+		],
+		[
+			-500,
+			53
+		],
+		[
+			-650,
+			54
+		],
+		[
+			-800,
+			55
+		],
+		[
+			-950,
+			56
+		],
+		[
+			-1100,
+			58
+		],
+		[
+			-1500,
+			59
+		],
+		[
+			-51500,
+			60
+		]
+		],
+		"riseUserCount" : 51,
+		"scoreInit" : 0,
+		"scoreIntoRate" : 0.75,
+		"totalUserCount" : 60
+		},
+		{
+		"animationType" : -1,
+		"cardCount" : 1,
+		"name" : "51强赛",
+		"rankLine" : [
+		[
+			4200,
+			1
+		],
+		[
+			3275,
+			2
+		],
+		[
+			2650,
+			4
+		],
+		[
+			2225,
+			5
+		],
+		[
+			1975,
+			6
+		],
+		[
+			1844,
+			7
+		],
+		[
+			1675,
+			8
+		],
+		[
+			1550,
+			10
+		],
+		[
+			1450,
+			11
+		],
+		[
+			1344,
+			12
+		],
+		[
+			1250,
+			13
+		],
+		[
+			1175,
+			14
+		],
+		[
+			1150,
+			16
+		],
+		[
+			1063,
+			17
+		],
+		[
+			1000,
+			18
+		],
+		[
+			931,
+			19
+		],
+		[
+			863,
+			20
+		],
+		[
+			794,
+			22
+		],
+		[
+			725,
+			23
+		],
+		[
+			656,
+			24
+		],
+		[
+			588,
+			25
+		],
+		[
+			519,
+			26
+		],
+		[
+			470,
+			28
+		],
+		[
+			420,
+			29
+		],
+		[
+			370,
+			30
+		],
+		[
+			320,
+			31
+		],
+		[
+			270,
+			32
+		],
+		[
+			220,
+			34
+		],
+		[
+			160,
+			36
+		],
+		[
+			100,
+			37
+		],
+		[
+			40,
+			38
+		],
+		[
+			-40,
+			39
+		],
+		[
+			-95,
+			40
+		],
+		[
+			-160,
+			41
+		],
+		[
+			-230,
+			42
+		],
+		[
+			-360,
+			43
+		],
+		[
+			-430,
+			44
+		],
+		[
+			-550,
+			46
+		],
+		[
+			-630,
+			47
+		],
+		[
+			-750,
+			48
+		],
+		[
+			-1000,
+			49
+		],
+		[
+			-1500,
+			50
+		],
+		[
+			-51500,
+			51
+		]
+		],
+		"riseUserCount" : 39,
+		"scoreInit" : 0,
+		"scoreIntoRate" : 0.75,
+		"totalUserCount" : 51
+		},
+		{
+		"animationType" : -1,
+		"cardCount" : 1,
+		"name" : "39强赛",
+		"rankLine" : [
+		[
+			4200,
+			1
+		],
+		[
+			3000,
+			2
+		],
+		[
+			2385,
+			3
+		],
+		[
+			2000,
+			5
+		],
+		[
+			1800,
+			7
+		],
+		[
+			1600,
+			9
+		],
+		[
+			1400,
+			11
+		],
+		[
+			1200,
+			13
+		],
+		[
+			1000,
+			14
+		],
+		[
+			938,
+			15
+		],
+		[
+			877,
+			16
+		],
+		[
+			815,
+			17
+		],
+		[
+			754,
+			18
+		],
+		[
+			692,
+			19
+		],
+		[
+			631,
+			20
+		],
+		[
+			569,
+			21
+		],
+		[
+			508,
+			22
+		],
+		[
+			460,
+			23
+		],
+		[
+			410,
+			24
+		],
+		[
+			360,
+			25
+		],
+		[
+			310,
+			26
+		],
+		[
+			260,
+			27
+		],
+		[
+			220,
+			28
+		],
+		[
+			170,
+			29
+		],
+		[
+			20,
+			30
+		],
+		[
+			-70,
+			31
+		],
+		[
+			-150,
+			32
+		],
+		[
+			-250,
+			33
+		],
+		[
+			-350,
+			34
+		],
+		[
+			-450,
+			35
+		],
+		[
+			-600,
+			36
+		],
+		[
+			-750,
+			37
+		],
+		[
+			-1000,
+			38
+		],
+		[
+			-51500,
+			39
+		]
+		],
+		"riseUserCount" : 27,
+		"scoreInit" : 0,
+		"scoreIntoRate" : 0.75,
+		"totalUserCount" : 39
+		},
+		{
+		"animationType" : -1,
+		"cardCount" : 1,
+		"name" : "27强赛",
+		"rankLine" : [
+		[
+			4000,
+			1
+		],
+		[
+			2385,
+			2
+		],
+		[
+			2000,
+			3
+		],
+		[
+			1889,
+			4
+		],
+		[
+			1778,
+			5
+		],
+		[
+			1667,
+			6
+		],
+		[
+			1500,
+			7
+		],
+		[
+			1350,
+			8
+		],
+		[
+			1220,
+			9
+		],
+		[
+			1100,
+			10
+		],
+		[
+			1000,
+			11
+		],
+		[
+			920,
+			12
+		],
+		[
+			860,
+			13
+		],
+		[
+			800,
+			14
+		],
+		[
+			750,
+			15
+		],
+		[
+			700,
+			16
+		],
+		[
+			650,
+			17
+		],
+		[
+			570,
+			18
+		],
+		[
+			500,
+			19
+		],
+		[
+			400,
+			20
+		],
+		[
+			290,
+			21
+		],
+		[
+			180,
+			22
+		],
+		[
+			80,
+			23
+		],
+		[
+			-110,
+			24
+		],
+		[
+			-300,
+			25
+		],
+		[
+			-700,
+			26
+		],
+		[
+			-51500,
+			27
+		]
+		],
+		"riseUserCount" : 18,
+		"scoreInit" : 0,
+		"scoreIntoRate" : 0.7,
+		"totalUserCount" : 27
+		},
+		{
+		"animationType" : -1,
+		"cardCount" : 1,
+		"name" : "18强赛",
+		"rankLine" : [
+		[
+			3800,
+			1
+		],
+		[
+			2100,
+			2
+		],
+		[
+			1800,
+			3
+		],
+		[
+			1700,
+			4
+		],
+		[
+			1600,
+			5
+		],
+		[
+			1450,
+			6
+		],
+		[
+			1300,
+			7
+		],
+		[
+			1200,
+			8
+		],
+		[
+			1100,
+			9
+		],
+		[
+			1000,
+			10
+		],
+		[
+			900,
+			11
+		],
+		[
+			790,
+			12
+		],
+		[
+			700,
+			13
+		],
+		[
+			500,
+			14
+		],
+		[
+			200,
+			15
+		],
+		[
+			0,
+			16
+		],
+		[
+			-300,
+			17
+		],
+		[
+			-51500,
+			18
+		]
+		],
+		"riseUserCount" : 12,
+		"scoreInit" : 0,
+		"scoreIntoRate" : 0.7,
+		"totalUserCount" : 18
+		},
+		{
+		"animationType" : -1,
+		"cardCount" : 1,
+		"name" : "12强赛",
+		"rankLine" : [
+		[
+			3000,
+			1
+		],
+		[
+			2000,
+			2
+		],
+		[
+			1600,
+			3
+		],
+		[
+			1380,
+			4
+		],
+		[
+			1150,
+			5
+		],
+		[
+			1050,
+			6
+		],
+		[
+			900,
+			7
+		],
+		[
+			750,
+			8
+		],
+		[
+			600,
+			9
+		],
+		[
+			300,
+			10
+		],
+		[
+			50,
+			11
+		],
+		[
+			-51090,
+			12
+		]
+		],
+		"riseUserCount" : 6,
+		"scoreInit" : 0,
+		"scoreIntoRate" : 0.6,
+		"totalUserCount" : 12
+		},
+		{
+		"animationType" : -1,
+		"cardCount" : 1,
+		"name" : "6强赛",
+		"rankLine" : [
+		[
+			2400,
+			1
+		],
+		[
+			1750,
+			2
+		],
+		[
+			1080,
+			3
+		],
+		[
+			600,
+			4
+		],
+		[
+			200,
+			5
+		],
+		[
+			-51500,
+			6
+		]
+		],
+		"riseUserCount" : 3,
+		"scoreInit" : 0,
+		"scoreIntoRate" : 0.6,
+		"totalUserCount" : 6
+		},
+		{
+		"animationType" : 2,
+		"cardCount" : 1,
+		"name" : "决赛",
+		"rankLine" : [
+		[
+			2200,
+			1
+		],
+		[
+			1000,
+			2
+		],
+		[
+			-51500,
+			3
+		]
+		],
+		"riseUserCount" : 1,
+		"scoreInit" : 0,
+		"scoreIntoRate" : 0.5,
+		"totalUserCount" : 3
+		}
+		],
+		"startTime" : "00:00",
+		"stopTime" : "00:00",
+		"tableMaxTimes" : 480,
+		"tableSeatCount" : 3,
+		"tips" : {
+			"infos" : [
+				"积分相同时，按报名先后顺序确定名次。",
+				"每轮结束后会刷新您的排名。",
+				"新的一轮开始时，带入积分可能会衰减。"
+			],
+			"interval" : 5
+		},
+"matchRules": [
+	[
+		{
+			"type": 0,
+			"text": "规则介绍"
+		},
+		{
+			"type": 1,
+			"text": "玩法：经典玩法"
+		},
+		{
+			"type": 1,
+			"text": "初始积分：1000"
+		},
+		{
+			"type": 1,
+			"text": "决赛：12轮1副瑞士移位，决出冠军"
+		}
+	]
+],
+"tipsForNotSignin" : "报名还未开始",
+"tipsForWillStopInfo" : "本比赛为限时开放，5分钟后暂时关闭，会按实时名次结算奖励，敬请谅解。"
+},
+"maxCoin" : -1,
+"maxCoinQS" : -1,
+"maxLevel" : -1,
+"minCoin" : 0,
+"minCoinQS" : 0,
+"name" : "20元红包赛",
+"championLed" : "冠军led显示",
+"rewardShow" : "20元微信红包",
+"playDesc" : "",
+"playMode" : "123",
+"robotUserCallUpTime" : 2,
+"robotUserMaxCount" : 3,
+"robotUserOpTime" : [
+	1,
+	2
+],
+"roomFee" : 45,
+"roomMutil" : 50,
+"showCard" : 0,
+"tableConf" : {
+	"autochange" : 1,
+	"autoPlay" : 0,
+	"basebet" : 1,
+	"basemulti" : 1,
+	"canchat" : 0,
+	"nongminWinAlone" : 1,
+	"cardNoteDiamond" : 12,
+	"coin2chip" : 1,
+	"grab" : 0,
+	"gslam" : 128,
+	"lucky" : 0,
+	"maxSeatN" : 3,
+	"optime" : 15,
+	"passtime" : 5,
+	"rangpaiMultiType" : 1,
+	"robottimes" : 1,
+	"tbbox" : 0,
+	"unticheat" : 0
+},
+"typeName" : "dizhu_arena_match",
+"winDesc" : ""
+}

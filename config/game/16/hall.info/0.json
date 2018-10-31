@@ -1,0 +1,14 @@
+{
+  "room_items" : {
+    "16001": {"id":16001, "name":"普通厅", "basebet":100, "mincoin":1000, "maxcoin":-1, "config":0, "condition":"1万金币准入", "upperLimitNums":150,"isRoomState":0},
+    "16002": {"id":16002, "name":"贵宾厅", "basebet":100, "mincoin":1000, "maxcoin":-1, "config":0, "condition":"1万金币准入", "upperLimitNums":150,"isRoomState":0}
+  },
+
+  "session_items" : {
+    "br": {"session":"百人场","roomName":"普通场", "match":0, "gameType":1, "roomCount":2, "minDragInChip": 5000000,"maxDragInChip": 30000000, "rooms": ["16001","16002"]}
+  },
+
+  "templates" : {
+    "default" : ["br"]
+  }
+}

@@ -1,0 +1,72 @@
+{
+ "templates"            : {
+  "pdk_v3.901_AI_healthy": {
+   "interval"             : 5,
+   "name"                 : "pdk_v3.901_AI_healthy",
+   "ads"                  : [
+    150120201
+   ]
+  },
+  "pdk_v3.901_AI_pdk"    : {
+   "interval"             : 5,
+   "name"                 : "pdk_v3.901_AI_pdk",
+   "ads"                  : [
+    150120201
+   ]
+  }
+ },
+ "ads"                  : [
+  {
+   "startTime"            : "2016-12-02 00:00:00",
+   "id"                   : 150120201,
+   "todotasks"            : [
+    {
+     "actId"                : "activity_phz_zjz_jiankang",
+     "typeId"               : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"            : 1,
+   "pic"                  : "${http_download}/paohuzi/ads/imgs/phzzjz_jkx.jpg",
+   "endTime"              : "2020-12-31 00:00:00"
+  },
+  {
+   "startTime"            : "2017-01-22 00:00:00",
+   "id"                   : 150012201,
+   "todotasks"            : [
+    {
+     "actId"                : "youle_pdk_2017newyear0122",
+     "typeId"               : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"            : 1,
+   "pic"                  : "${http_download}/paohuzi/ads/2017newyear0122_icon.jpg",
+   "endTime"              : "2017-01-29 00:00:00"
+  },
+  {
+   "startTime"            : "2017-03-07 00:00:00",
+   "id"                   : 150030701,
+   "todotasks"            : [
+    {
+     "actId"                : "sqy_pdk_fnj_0308",
+     "typeId"               : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"            : 1,
+   "pic"                  : "${http_download}/hunan/paohuzi/ads/funvjiehuodongtu-1.jpg",
+   "endTime"              : "2017-03-09 00:00:00"
+  },
+  {
+   "startTime"            : "2017-04-01 00:00:00",
+   "id"                   : 150040101,
+   "todotasks"            : [
+    {
+     "actId"                : "qingminghuodong_0402",
+     "typeId"               : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"            : 1,
+   "pic"                  : "${http_download}/hunan/paohuzi/ads/qingming_0404.jpg",
+   "endTime"              : "2017-04-05 00:00:00"
+  }
+ ]
+}

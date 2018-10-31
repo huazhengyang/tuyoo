@@ -1,0 +1,471 @@
+流程
+1. 创建牌桌
+	client->UT(生成自建桌信息保存到redis)->client(返回客户端自建桌信息)
+2. 加入牌桌
+	client->UT(加入自建桌)->GR(获取空闲桌子)->GT(绑定桌子)->client(quick_start\table_info)
+3. 微信邀请
+	client->GT(生成邀请URL)->client(邀请回应)->打开微信分享
+4. 解散牌桌
+	client->GT(发送解散申请给其他用户，等待其他牌友确认)
+	
+配置
+	自建桌创建配置
+	房卡不足各种文案、商品配置
+	二次确认框客户端处理
+	解散牌桌文案、重复解散请求文案，超时时间
+	加入房间按钮间隔时间
+	玩法介绍
+	
+1. 朋友桌协议
+
+获取朋友桌配置
+请求
+	{
+		"cmd":"dizhu",
+		"params":{
+			"userId":10001,
+			"gameId":6,
+			"action":"ft_get_conf"
+		}
+	}
+	
+返回
+	{
+		"cmd":"dizhu",
+		"result":{
+			"userId":10001,
+			"gameId":6,
+			"action":"ft_get_conf",
+			"code":0,
+			"cardCount":10,
+			"conf":{
+				"cardPrice":5,
+				"cardProduct":"TY9999A0000501",
+				"rounds":[
+					{
+						"nRound":3,
+						"fee":2
+					}
+				],
+				"playModes":[
+					{
+						"name":"classic",
+						"displayName":"经典"
+					},
+					{
+						"name":"happy",
+						"displayName":"欢乐"
+					}
+				]
+			}
+		}
+	}
+	
+创建朋友桌
+	{
+		"cmd":"dizhu",
+		"params":{
+			"userId":10001,
+			"gameId":6,
+			"action":"ft_create",
+			"conf":{
+				"nRound":3,
+				"double":1,
+				"playMode":"classic",
+				"goodCard":0/1
+			}
+		}
+	}
+	
+返回
+	{
+		"cmd":"dizhu",
+		"result":{
+			"userId":10001,
+			"gameId":6,
+			"action":"ft_create",
+			"code":0,
+			"ftId":"123456",
+			"cardCount":10
+		}
+	}
+	
+进入自建桌
+	{
+		"cmd":"dizhu",
+		"params":{
+			"userId":10001,
+			"gameId":6,
+			"action":"ft_enter",
+			"inviteId":"12345678", # 经过服务器加密处理的字符串，可解析出ftId
+			"ftId":"123456"
+		}
+	}
+
+返回错误
+	{
+		"cmd":"dizhu",
+		"params":{
+			"userId":10001,
+			"gameId":6,
+			"action":"ft_enter",
+			"code":1,
+			"info":"已经开始/没有找到"
+		}
+	}
+
+正确
+	{
+		"cmd":"dizhu",
+		"params":{
+			"userId":10001,
+			"gameId":6,
+			"action":"ft_enter",
+			"code":0
+		}
+	}
+
+紧跟着返回quickstart/table_info等进入朋友桌
+	{
+		"cmd":"quick_start",
+		"result":{
+		}
+	}
+	
+	{
+		"cmd":"table_info",
+		"result":{
+
+	        "ftInfo": {
+	            "ftId": "000086",
+	            "curRound": 0,
+	            "totalRound": 8,
+	            "double": 1,
+	            "goodCard": 1
+	        },
+		}
+	}
+	
+牌桌协议
+等待农民加倍协议
+	{
+		"cmd":"table_call",
+		"result":{
+			"action":"wait_nm_jiabei",
+			"seatId":1,
+			"userId":10001,
+			"optime":15
+		}
+	}
+等待地主加倍
+	{
+		"cmd":"table_call",
+		"result":{
+			"action":"wait_dz_jiabei",
+			"seatId":1,
+			"userId":10001,
+			"optime":15
+		}
+	}
+	
+加倍协议
+请求
+	{
+		"cmd":"table_call",
+		"params":{
+			"action":"jiabei",
+			"seatId":1,
+			"userId":10001,
+			"jiabei":0/1
+		}
+	}
+返回
+	{
+		"cmd":"table_call",
+		"result":{
+			"action":"jiabei",
+			"seatId":1,
+			"userId":10001,
+			"jiabei":0/1
+		}
+	}
+分享协议
+	{
+		"cmd":"table_call",
+		"params":{
+			"action":"ft_req_invite",
+			"userId":10001,
+			"gameId":6,
+			"roomId":6001,
+			"tableId":600110000001
+		}
+	}
+	
+无回应
+
+解散牌桌请求
+	{
+		"cmd":"table_call",
+		"params":{
+			"action":"ft_req_disbind",
+			"userId":10001,
+			"seatId":1,
+			"gameId":6,
+			"roomId":6001,
+			"tableId":600110000001
+		}
+	}
+	
+给其它人发送
+	{
+		"cmd":"table",
+		"result":{
+			"action":"ft_req_disbind",
+			"userId":10001,
+			"gameId":6,
+			"seatId":1,
+			"roomId":6001,
+			"tableId":600110000001,
+			"optime":90,
+			"disbinds":[1,-1,-1]
+		}
+	}
+	{
+		"cmd":"table",
+		"result":{
+			"action":"ft_req_disbind",
+			"userId":10001,
+			"gameId":6,
+			"seatId":1,
+			"roomId":6001,
+			"tableId":600110000001,
+			"code":-1,
+			"info":"重复解散请求文案"
+		}
+	}
+牌桌解散请求确认
+	{
+		"cmd":"table_call",
+		"params":{
+			"action":"ft_req_disbind_answer",
+			"userId":10001,
+			"seatId":1,
+			"gameId":6,
+			"roomId":6001,
+			"tableId":600110000001,
+			"disbinds":[1,0,1]
+		}
+	}
+广播用户回应
+	{
+		"cmd":"table_call",
+		"result":{
+			"action":"ft_req_disbind_answer",
+			"userId":10001,
+			"seatId":1,
+			"gameId":6,
+			"roomId":6001,
+			"tableId":600110000001,
+			"disbinds":[1,0,1]
+		}
+	}
+	
+	{
+		"cmd":"table_call",
+		"result":{
+			"action":"ft_req_disbind_result",
+			"gameId":6,
+			"roomId":6001,
+			"tableId":600110000001,
+			"disbindResult":0/1,
+			"disbinds":[1,0,1]
+		}
+	}
+	
+
+牌桌解散
+	{
+		"cmd":"table_call",
+		"result":{
+			"action":"ft_disbind",
+			"gameId":6,
+			"roomId":6001,
+			"ftId":"123456",
+			"tableId":600110000001,
+			"statics":{
+				"seats":[
+					{"win":0/1/-1, "bigWinner":1},
+					{"win":0/1/-1, "bigWinner":0},
+					{"win":0/1/-1, "bigWinner":0}
+				]				
+			},
+			"results":[
+				[
+					{
+						"score":1000,
+						"delta":12,
+						"multi":12
+					},
+					{
+						"score":1000,
+						"delta":12,
+						"multi":12
+					},
+					{
+						"score":2000,
+						"delta":-24
+						"multi":24
+					}
+				]
+			]
+		}
+	}
+
+换牌
+	{
+		"cmd":"table_call",
+		"result":{
+			"action":"startHuanpai",
+			"gameId":6,
+			"roomId":6001,
+			"tableId":600110000001
+		}
+	}
+	
+用户换牌
+	{
+		"cmd":"table_call",
+		"params":{
+			"action":"huanpai",
+			"userId":10001,
+			"seatId":1,
+			"gameId":6,
+			"roomId":6001,
+			"tableId":600110000001,
+			"cards":[1,2,3]
+		}
+	}
+广播用户换牌
+	{
+		"cmd":"table_call",
+		"result":{
+			"action":"huanpai",
+			"userId":10001,
+			"seatId":1,
+			"gameId":6,
+			"roomId":6001,
+			"tableId":600110000001
+		}
+	}
+换牌完成
+	{
+		"cmd":"table_call",
+		"result":{
+			"action":"endHuanhai",
+			"outCards":[1,2,3],
+			"inCards":[4,5,6],
+			"myCardNote":[0,1,2,3],
+			"seatCards":[
+				[1,2,3,4,5,6],
+				[-1,-1,-1,-1,-1],
+				[4,5,6,]
+			]
+		}
+	}
+	
+table_info协议修改
+	{
+		"cmd":"table_info",
+		"result":{
+			"ftInfo":{
+				"ftId":"123456",
+				"creator":10001,
+				"curRound":1,
+				"totalRound":3,
+				"double":0,
+				"playMode":{"name":"123", "displayName":"经典玩法"}
+			},
+			"disbind":{
+				"states":[-1, 0, 1],
+				"optime":30
+			}
+		}
+	}
+
+继续自建桌协议
+	{
+		"cmd":"table_call",
+		"params":{
+			"action":"ft_continue",
+			"userId":10001,
+			"seatId":1,
+			"gameId":6,
+			"roomId":6001,
+			"tableId":600110000001
+		}
+	}
+	回应
+	{
+		"cmd":"table_call",
+		"result":{
+			"action":"ft_continue",
+			"userId":10001,
+			"seatId":1,
+			"gameId":6,
+			"roomId":6001,
+			"tableId":600110000001
+		}
+	}
+结算协议
+	{
+		"cmd":"dizhu",
+		"result":{
+			"action":"game_win",
+			"ftId":"123456",
+			"curRound":8,   # 当前打过的有效牌桌数
+			"finish":1,		# 是否结束了
+			"totalRound":8,
+			"statics":{
+				"seats":[
+					{"win":0/1/-1, "bigWinner":1},
+					{"win":0/1/-1, "bigWinner":0},
+					{"win":0/1/-1, "bigWinner":0}
+				]				
+			},
+			"results":[    # 房间牌局结果
+				 {
+	                "base": 1,
+	                "winloses": [
+	                    {
+	                        "delta": -384,
+	                        "multi": 408,
+	                        "score": -384
+	                    },
+	                    {
+	                        "delta": 384,
+	                        "multi": 384,
+	                        "score": 384
+	                    }
+	                ]
+            	},
+            	{
+	                "base": 1,
+	                "winloses": [
+	                    {
+	                        "delta": -384,
+	                        "multi": 408,
+	                        "score": -384
+	                    },
+	                    {
+	                        "delta": 384,
+	                        "multi": 384,
+	                        "score": 384
+	                    }
+	                ]
+            	}
+			]
+		}
+	}
+	
+	
+	

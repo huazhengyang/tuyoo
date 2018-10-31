@@ -1,0 +1,191 @@
+{
+  "TY9999Q0015014": {
+    "buyType": "exchange",
+    "content": {
+      "desc": "2冰封",
+      "items": [
+        {
+          "count": 2,
+          "itemId": "item:1199"
+        }
+      ],
+      "typeId": "FixedContent"
+    },
+    "desc": "2个冰封",
+    "diamondExchangeRate": 0,
+    "displayName": "冰封",
+    "exchangeFeeContent": {
+      "count": 1,
+      "itemId": "item:1224"
+    },
+    "exchangeFeeNotEnoughText": "亲，您的剩余\\${feeName}不足，不能兑换此商品哦～",
+    "mail": "购买\\${displayName}，获得\\${content}",
+    "pic": "${http_download}/hall/item/imgs/item_2172.png",
+    "price": "1",
+    "priceDiamond": "10",
+    "productId": "TY9999Q0015014",
+    "recordLastBuy": 0
+  },
+  "TY9999Q0015015": {
+    "buyType": "exchange",
+    "content": {
+      "desc": "30元话费充值卡",
+      "items": [
+        {
+          "count": 1,
+          "itemId": "item:4142"
+        }
+      ],
+      "typeId": "FixedContent"
+    },
+    "desc": "可兑换30元话费",
+    "diamondExchangeRate": 0,
+    "displayName": "30元话费充值卡",
+    "exchangeFeeContent": {
+      "count": 300,
+      "itemId": "item:1224"
+    },
+    "exchangeFeeNotEnoughText": "亲，您的剩余\\${feeName}不足，不能兑换此商品哦～",
+    "mail": "购买\\${displayName}，获得\\${content}",
+    "pic": "${http_download}/hall/item/imgs/item_phoneCard_39.png",
+    "price": "300",
+    "priceDiamond": "10",
+    "productId": "TY9999Q0015015",
+    "recordLastBuy": 0
+  },
+  "TY9999Q0015016": {
+    "buyType": "exchange",
+    "content": {
+      "desc": "500宝石",
+      "items": [
+        {
+          "count": 500,
+          "itemId": "item:1223"
+        }
+      ],
+      "typeId": "FixedContent"
+    },
+    "desc": "500宝石",
+    "diamondExchangeRate": 0,
+    "displayName": "500宝石",
+    "exchangeFeeContent": {
+      "count": 300,
+      "itemId": "item:1224"
+    },
+    "exchangeFeeNotEnoughText": "亲，您的剩余\\${feeName}不足，不能兑换此商品哦～",
+    "mail": "购买\\${displayName}，获得\\${content}",
+    "pic": "${http_download}/hall/item/imgs/item_1210_4.png",
+    "price": "300",
+    "priceDiamond": "10",
+    "productId": "TY9999Q0015016",
+    "recordLastBuy": 0
+  },
+  "TY9999Q0015017": {
+    "buyType": "exchange",
+    "content": {
+      "desc": "300宝石",
+      "items": [
+        {
+          "count": 300,
+          "itemId": "item:1223"
+        }
+      ],
+      "typeId": "FixedContent"
+    },
+    "desc": "300宝石",
+    "diamondExchangeRate": 0,
+    "displayName": "300宝石",
+    "exchangeFeeContent": {
+      "count": 200,
+      "itemId": "item:1224"
+    },
+    "exchangeFeeNotEnoughText": "亲，您的剩余\\${feeName}不足，不能兑换此商品哦～",
+    "mail": "购买\\${displayName}，获得\\${content}",
+    "pic": "${http_download}/hall/item/imgs/item_1210_3.png",
+    "price": "200",
+    "priceDiamond": "10",
+    "productId": "TY9999Q0015017",
+    "recordLastBuy": 0
+  },
+  "TY9999Q0015018": {
+    "buyType": "exchange",
+    "content": {
+      "desc": "一个一级激光",
+      "items": [
+        {
+          "count": 1,
+          "itemId": "item:1202"
+        }
+      ],
+      "typeId": "FixedContent"
+    },
+    "desc": "激光Ⅰ",
+    "diamondExchangeRate": 0,
+    "displayName": "激光Ⅰ",
+    "exchangeFeeContent": {
+      "count": 75,
+      "itemId": "item:1224"
+    },
+    "exchangeFeeNotEnoughText": "亲，您的剩余\\${feeName}不足，不能兑换此商品哦～",
+    "mail": "购买\\${displayName}，获得\\${content}",
+    "pic": "${http_download}/hall/item/imgs/item_1202_1.png",
+    "price": "75",
+    "priceDiamond": "10",
+    "productId": "TY9999Q0015018",
+    "recordLastBuy": 0
+  },
+  "TY9999Q0015019": {
+    "buyType": "exchange",
+    "content": {
+      "desc": "激光Ⅱ",
+      "items": [
+        {
+          "count": 1,
+          "itemId": "item:1203"
+        }
+      ],
+      "typeId": "FixedContent"
+    },
+    "desc": "激光Ⅱ",
+    "diamondExchangeRate": 0,
+    "displayName": "激光Ⅱ",
+    "exchangeFeeContent": {
+      "count": 125,
+      "itemId": "item:1224"
+    },
+    "exchangeFeeNotEnoughText": "亲，您的剩余\\${feeName}不足，不能兑换此商品哦～",
+    "mail": "购买\\${displayName}，获得\\${content}",
+    "pic": "${http_download}/hall/item/imgs/item_1203.png",
+    "price": "125",
+    "priceDiamond": "10",
+    "productId": "TY9999Q0015019",
+    "recordLastBuy": 0
+  },
+  "TY9999Q0015020":{
+    "buyType": "exchange",
+    "content": {
+      "desc": "3000奖券",
+      "items": [
+        {
+          "count": 3000,
+          "itemId": "user:coupon"
+        }
+      ],
+      "typeId": "FixedContent"
+    },
+    "desc": "可兑换3000奖券",
+    "diamondExchangeRate": 0,
+    "displayName": "3000奖券",
+    "exchangeFeeContent": {
+      "count": 300,
+      "itemId": "item:1224"
+    },
+    "exchangeFeeNotEnoughText": "亲，您的剩余\\${feeName}不足，不能兑换此商品哦～",
+    "mail": "购买\\${displayName}，获得\\${content}",
+    "pic": "${http_download}/hall/item/imgs/item_phoneCard_39.png",
+    "price": "300",
+    "priceDiamond": "10",
+    "productId": "TY9999Q0015020",
+    "recordLastBuy": 0
+  }
+}

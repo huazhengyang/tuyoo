@@ -1,0 +1,11 @@
+将红包生成和获取分为两个部分：
+	1.红包发布(开启一个Timer定时在红包发布时间点发布红包)
+	2.红包信息获取，红包领取
+
+红包发布标记map: 'act:luckymoneynew:%s.pub' % str(poolKey) 
+红包发布路径list: 'act:luckymoneynew:%s' % str(poolKey) 
+
+红包发布过程：
+	1.通过hincr redis中带期号的标记为来抢夺发布权
+	2.根据配置生成红包数据
+	3.将红包数据循环分批存入redis中(每次存数十个，循环调用lpush)

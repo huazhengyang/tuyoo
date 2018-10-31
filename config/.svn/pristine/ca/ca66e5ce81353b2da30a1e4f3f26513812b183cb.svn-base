@@ -1,0 +1,1439 @@
+{
+    "1000": [
+        {
+            "taskId": 1001, 
+            "desc": "捕获1000条鱼", 
+            "target": {
+                "num": 1000
+            }, 
+            "type": 1, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 500, 
+                    "name": 101
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 31003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1002, 
+            "desc": "捕获1只boss", 
+            "target": {
+                "num": 1
+            }, 
+            "type": 2, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 500, 
+                    "name": 101
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 31003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1003, 
+            "desc": "捕获4条3倍(或更高)倍率鱼", 
+            "target": {
+                "num": 4, 
+                "condition": 3
+            }, 
+            "type": 3, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 10, 
+                    "name": 3106
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 32004
+                }
+            ]
+        }, 
+        {
+            "taskId": 1004, 
+            "desc": "使用技能20次", 
+            "target": {
+                "num": 20
+            }, 
+            "type": 4, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 10, 
+                    "name": 103
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 33003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1005, 
+            "desc": "捕获1条10倍(或更高)倍率鱼", 
+            "target": {
+                "num": 1, 
+                "condition": 10
+            }, 
+            "type": 3, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": 8005, 
+            "norReward": [], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 34007
+                }
+            ]
+        }, 
+        {
+            "taskId": 1006, 
+            "desc": "捕获4000条鱼", 
+            "target": {
+                "num": 4000
+            }, 
+            "type": 1, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 1000, 
+                    "name": 101
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 31003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1007, 
+            "desc": "捕获5只boss", 
+            "target": {
+                "num": 5
+            }, 
+            "type": 2, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 3000, 
+                    "name": 101
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 31003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1008, 
+            "desc": "使用技能80次", 
+            "target": {
+                "num": 80
+            }, 
+            "type": 4, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 20, 
+                    "name": 3106
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 32004
+                }
+            ]
+        }, 
+        {
+            "taskId": 1009, 
+            "desc": "捕获4条10倍(或更高)倍率鱼", 
+            "target": {
+                "num": 4, 
+                "condition": 10
+            }, 
+            "type": 3, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 50, 
+                    "name": 103
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 33003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1010, 
+            "desc": "捕获1条20倍(或更高)倍率鱼", 
+            "target": {
+                "num": 1, 
+                "condition": 20
+            }, 
+            "type": 3, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": 8006, 
+            "norReward": [], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 34007
+                }
+            ]
+        }, 
+        {
+            "taskId": 1011, 
+            "desc": "捕获10只boss", 
+            "target": {
+                "num": 10
+            }, 
+            "type": 2, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 3000, 
+                    "name": 101
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 31003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1012, 
+            "desc": "捕获160万金币的鱼", 
+            "target": {
+                "num": 1600000
+            }, 
+            "type": 5, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 30, 
+                    "name": 3106
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 36001
+                }
+            ]
+        }, 
+        {
+            "taskId": 1013, 
+            "desc": "获得渔场比赛奖励20次", 
+            "target": {
+                "num": 20
+            }, 
+            "type": 6, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 5000, 
+                    "name": 101
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 32004
+                }
+            ]
+        }, 
+        {
+            "taskId": 1014, 
+            "desc": "捕获2条20倍(或更高)倍率鱼", 
+            "target": {
+                "num": 2, 
+                "condition": 20
+            }, 
+            "type": 3, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 35, 
+                    "name": 3106
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 33003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1015, 
+            "desc": "捕获1条50倍(或更高)倍率鱼", 
+            "target": {
+                "num": 1, 
+                "condition": 50
+            }, 
+            "type": 3, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 100, 
+                    "name": 103
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 34007
+                }
+            ]
+        }, 
+        {
+            "taskId": 1016, 
+            "desc": "捕获15只boss", 
+            "target": {
+                "num": 15
+            }, 
+            "type": 2, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 2, 
+                    "name": 1284
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 32004
+                }
+            ]
+        }, 
+        {
+            "taskId": 1017, 
+            "desc": "捕获320万金币的鱼", 
+            "target": {
+                "num": 3200000
+            }, 
+            "type": 5, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 40, 
+                    "name": 3106
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 35003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1018, 
+            "desc": "获得渔场比赛奖励30次", 
+            "target": {
+                "num": 30
+            }, 
+            "type": 6, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 3, 
+                    "name": 1284
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 32004
+                }
+            ]
+        }, 
+        {
+            "taskId": 1019, 
+            "desc": "捕获3条20倍(或更高)倍率鱼", 
+            "target": {
+                "num": 3, 
+                "condition": 20
+            }, 
+            "type": 3, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 100, 
+                    "name": 103
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 33003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1020, 
+            "desc": "捕获2条50倍(或更高)倍率鱼", 
+            "target": {
+                "num": 2, 
+                "condition": 50
+            }, 
+            "type": 3, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": 8007, 
+            "norReward": [], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 34007
+                }
+            ]
+        }, 
+        {
+            "taskId": 1021, 
+            "desc": "捕获20只boss", 
+            "target": {
+                "num": 20
+            }, 
+            "type": 2, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 3, 
+                    "name": 1284
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 34007
+                }
+            ]
+        }, 
+        {
+            "taskId": 1022, 
+            "desc": "捕获640万金币的鱼", 
+            "target": {
+                "num": 6400000
+            }, 
+            "type": 5, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 50, 
+                    "name": 3106
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 34007
+                }
+            ]
+        }, 
+        {
+            "taskId": 1023, 
+            "desc": "获得渔场比赛奖励40次", 
+            "target": {
+                "num": 40
+            }, 
+            "type": 6, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 3, 
+                    "name": 1284
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 34007
+                }
+            ]
+        }, 
+        {
+            "taskId": 1024, 
+            "desc": "捕获4条20倍(或更高)倍率鱼", 
+            "target": {
+                "num": 4, 
+                "condition": 20
+            }, 
+            "type": 3, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 200, 
+                    "name": 103
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 34007
+                }
+            ]
+        }, 
+        {
+            "taskId": 1025, 
+            "desc": "捕获3条50倍(或更高)倍率鱼", 
+            "target": {
+                "num": 3, 
+                "condition": 50
+            }, 
+            "type": 3, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 1, 
+                    "name": 1285
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 34007
+                }
+            ]
+        }, 
+        {
+            "taskId": 1026, 
+            "desc": "捕获35只boss", 
+            "target": {
+                "num": 35
+            }, 
+            "type": 2, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 100, 
+                    "name": 3106
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 35003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1027, 
+            "desc": "捕获1300万金币的鱼", 
+            "target": {
+                "num": 13000000
+            }, 
+            "type": 5, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 1, 
+                    "name": 1285
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 35003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1028, 
+            "desc": "获得渔场比赛奖励80次", 
+            "target": {
+                "num": 80
+            }, 
+            "type": 6, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 100, 
+                    "name": 3106
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 35003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1029, 
+            "desc": "捕获8条20倍(或更高)倍率鱼", 
+            "target": {
+                "num": 8, 
+                "condition": 20
+            }, 
+            "type": 3, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 300, 
+                    "name": 103
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 35003
+                }
+            ]
+        }, 
+        {
+            "taskId": 1030, 
+            "desc": "捕获6条50倍(或更高)倍率鱼", 
+            "target": {
+                "num": 6, 
+                "condition": 50
+            }, 
+            "type": 3, 
+            "isMax": 1, 
+            "repeat": 0, 
+            "groupId": 1000, 
+            "honorId": 8008, 
+            "norReward": [], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 36001
+                }
+            ]
+        }
+    ], 
+    "2000": [
+        {
+            "taskId": 2001, 
+            "desc": "连击达到1次combo 15", 
+            "target": {
+                "num": 1, 
+                "condition": 15
+            }, 
+            "type": 7, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 2000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 500, 
+                    "name": 101
+                }, 
+                {
+                    "count": 3, 
+                    "name": 1288
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 2002, 
+            "desc": "连击达到1次combo 30", 
+            "target": {
+                "num": 1, 
+                "condition": 30
+            }, 
+            "type": 7, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 2000, 
+            "honorId": 8001, 
+            "norReward": [
+                {
+                    "count": 3, 
+                    "name": 1165
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 2003, 
+            "desc": "用技能一发炮弹捕获15条鱼", 
+            "target": {
+                "fishNum": 15, 
+                "wpId": [
+                    22, 
+                    23
+                ], 
+                "num": 1
+            }, 
+            "type": 8, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 2000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 3, 
+                    "name": 1165
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 34007
+                }
+            ]
+        }, 
+        {
+            "taskId": 2004, 
+            "desc": "连击达到combo 60", 
+            "target": {
+                "num": 1, 
+                "condition": 60
+            }, 
+            "type": 7, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 2000, 
+            "honorId": 8002, 
+            "norReward": [
+                {
+                    "count": 3, 
+                    "name": 1166
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 2005, 
+            "desc": "用技能一发炮弹捕获25条鱼", 
+            "target": {
+                "fishNum": 25, 
+                "wpId": [
+                    22, 
+                    23
+                ], 
+                "num": 1
+            }, 
+            "type": 8, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 2000, 
+            "honorId": 8003, 
+            "norReward": [
+                {
+                    "count": 3, 
+                    "name": 1166
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 2006, 
+            "desc": "引爆炸弹鱼来捕获20只鱼", 
+            "target": {
+                "fishNum": 20, 
+                "wpId": [
+                    24
+                ], 
+                "num": 1
+            }, 
+            "type": 8, 
+            "isMax": 1, 
+            "repeat": 0, 
+            "groupId": 2000, 
+            "honorId": 8004, 
+            "norReward": [
+                {
+                    "count": 3, 
+                    "name": 1167
+                }
+            ], 
+            "chestReward": []
+        }
+    ], 
+    "3000": [
+        {
+            "taskId": 3001, 
+            "desc": "将1个技能升到5级", 
+            "target": {
+                "num": 1, 
+                "condition": 5
+            }, 
+            "type": 9, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 3000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 20, 
+                    "name": 3106
+                }, 
+                {
+                    "count": 3, 
+                    "name": 1284
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 3002, 
+            "desc": "将3个技能升到10级", 
+            "target": {
+                "num": 3, 
+                "condition": 10
+            }, 
+            "type": 9, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 3000, 
+            "honorId": 8013, 
+            "norReward": [
+                {
+                    "count": 10, 
+                    "name": 1284
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 3003, 
+            "desc": "将3个技能升到14级", 
+            "target": {
+                "num": 3, 
+                "condition": 14
+            }, 
+            "type": 9, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 3000, 
+            "honorId": 8014, 
+            "norReward": [
+                {
+                    "count": 5, 
+                    "name": 1286
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 3004, 
+            "desc": "将3个技能升到5星", 
+            "target": {
+                "num": 3, 
+                "star": 5
+            }, 
+            "type": 9, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 3000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 5, 
+                    "name": 1286
+                }, 
+                {
+                    "count": 10, 
+                    "name": 1194
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 3005, 
+            "desc": "将6个技能升到18级", 
+            "target": {
+                "num": 6, 
+                "condition": 18
+            }, 
+            "type": 9, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 3000, 
+            "honorId": 8015, 
+            "norReward": [
+                {
+                    "count": 10, 
+                    "name": 1194
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 3006, 
+            "desc": "将8个技能升到19级", 
+            "target": {
+                "num": 8, 
+                "condition": 19
+            }, 
+            "type": 9, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 3000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 5, 
+                    "name": 1286
+                }, 
+                {
+                    "count": 15, 
+                    "name": 1194
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 3007, 
+            "desc": "将10个技能升到20级", 
+            "target": {
+                "num": 10, 
+                "condition": 20
+            }, 
+            "type": 9, 
+            "isMax": 1, 
+            "repeat": 0, 
+            "groupId": 3000, 
+            "honorId": 8016, 
+            "norReward": [
+                {
+                    "count": 30, 
+                    "name": 1194
+                }
+            ], 
+            "chestReward": []
+        }
+    ], 
+    "4000": [
+        {
+            "taskId": 4001, 
+            "desc": "渔场中收集100海星", 
+            "target": {
+                "num": 100
+            }, 
+            "type": 10, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 4000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 3, 
+                    "name": 1288
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 34007
+                }
+            ]
+        }, 
+        {
+            "taskId": 4002, 
+            "desc": "登上海星榜1次", 
+            "target": {
+                "num": 1, 
+                "condition": 30
+            }, 
+            "type": 11, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 4000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 800, 
+                    "name": 103
+                }, 
+                {
+                    "count": 3, 
+                    "name": 1165
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 4003, 
+            "desc": "进入海星榜前10", 
+            "target": {
+                "num": 1, 
+                "condition": 10
+            }, 
+            "type": 11, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 4000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 2000, 
+                    "name": 103
+                }, 
+                {
+                    "count": 3, 
+                    "name": 1166
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 4004, 
+            "desc": "获得海星榜第一", 
+            "target": {
+                "num": 1, 
+                "condition": 1
+            }, 
+            "type": 11, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 4000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 5000, 
+                    "name": 103
+                }, 
+                {
+                    "count": 3, 
+                    "name": 1167
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 4005, 
+            "desc": "连续获得3次海星榜第一", 
+            "target": {
+                "num": 3, 
+                "condition": 1
+            }, 
+            "type": 12, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 4000, 
+            "honorId": 8017, 
+            "norReward": [
+                {
+                    "count": 3, 
+                    "name": 1290
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 4006, 
+            "desc": "获得5次海星榜第一", 
+            "target": {
+                "num": 5, 
+                "condition": 1
+            }, 
+            "type": 12, 
+            "isMax": 1, 
+            "repeat": 1, 
+            "groupId": 4000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 2000, 
+                    "name": 103
+                }, 
+                {
+                    "count": 5, 
+                    "name": 1286
+                }
+            ], 
+            "chestReward": []
+        }
+    ], 
+    "5000": [
+        {
+            "taskId": 5001, 
+            "desc": "获得休闲假日前80名", 
+            "target": {
+                "top": 80, 
+                "num": 1, 
+                "roomId": 44104
+            }, 
+            "type": 13, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 5000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 30, 
+                    "name": 3106
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 34007
+                }
+            ]
+        }, 
+        {
+            "taskId": 5002, 
+            "desc": "获得休闲假日前50名", 
+            "target": {
+                "top": 50, 
+                "num": 1, 
+                "roomId": 44104
+            }, 
+            "type": 13, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 5000, 
+            "honorId": 8009, 
+            "norReward": [
+                {
+                    "count": 10000, 
+                    "name": 101
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 5003, 
+            "desc": "获得水上乐园前50名", 
+            "target": {
+                "top": 50, 
+                "num": 1, 
+                "roomId": 44101
+            }, 
+            "type": 13, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 5000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 100, 
+                    "name": 3106
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 35003
+                }
+            ]
+        }, 
+        {
+            "taskId": 5004, 
+            "desc": "获得水上乐园前30名", 
+            "target": {
+                "top": 30, 
+                "num": 1, 
+                "roomId": 44101
+            }, 
+            "type": 13, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 5000, 
+            "honorId": 8010, 
+            "norReward": [], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 35003
+                }
+            ]
+        }, 
+        {
+            "taskId": 5005, 
+            "desc": "获得欢乐竞技前50名", 
+            "target": {
+                "top": 50, 
+                "num": 1, 
+                "roomId": 44102
+            }, 
+            "type": 13, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 5000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 200, 
+                    "name": 3106
+                }
+            ], 
+            "chestReward": [
+                {
+                    "count": 1, 
+                    "name": 35003
+                }
+            ]
+        }, 
+        {
+            "taskId": 5006, 
+            "desc": "获得欢乐竞技前20名", 
+            "target": {
+                "top": 20, 
+                "num": 1, 
+                "roomId": 44102
+            }, 
+            "type": 13, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 5000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 1, 
+                    "name": 1285
+                }, 
+                {
+                    "count": 1, 
+                    "name": 1194
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 5007, 
+            "desc": "获得欢乐竞技前5名", 
+            "target": {
+                "top": 5, 
+                "num": 1, 
+                "roomId": 44102
+            }, 
+            "type": 13, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 5000, 
+            "honorId": 8011, 
+            "norReward": [
+                {
+                    "count": 1, 
+                    "name": 1194
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 5008, 
+            "desc": "获得王者争霸前20名", 
+            "target": {
+                "top": 20, 
+                "num": 1, 
+                "roomId": 44103
+            }, 
+            "type": 13, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 5000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 1, 
+                    "name": 1286
+                }, 
+                {
+                    "count": 2, 
+                    "name": 1194
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 5009, 
+            "desc": "获得王者争霸前10名", 
+            "target": {
+                "top": 10, 
+                "num": 1, 
+                "roomId": 44103
+            }, 
+            "type": 13, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 5000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 2, 
+                    "name": 1286
+                }, 
+                {
+                    "count": 3, 
+                    "name": 1194
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 5010, 
+            "desc": "获得1次王者争霸冠军", 
+            "target": {
+                "top": 1, 
+                "num": 1, 
+                "roomId": 44103
+            }, 
+            "type": 13, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 5000, 
+            "honorId": -1, 
+            "norReward": [
+                {
+                    "count": 3, 
+                    "name": 1286
+                }, 
+                {
+                    "count": 4, 
+                    "name": 1194
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 5011, 
+            "desc": "累计获得3次王者争霸冠军", 
+            "target": {
+                "top": 1, 
+                "num": 3, 
+                "roomId": 44103
+            }, 
+            "type": 13, 
+            "isMax": 0, 
+            "repeat": 0, 
+            "groupId": 5000, 
+            "honorId": 8012, 
+            "norReward": [
+                {
+                    "count": 5, 
+                    "name": 1194
+                }
+            ], 
+            "chestReward": []
+        }, 
+        {
+            "taskId": 5012, 
+            "desc": "累计获得10次王者争霸冠军", 
+            "target": {
+                "top": 1, 
+                "num": 10, 
+                "roomId": 44103
+            }, 
+            "type": 13, 
+            "isMax": 1, 
+            "repeat": 0, 
+            "groupId": 5000, 
+            "honorId": 8018, 
+            "norReward": [
+                {
+                    "count": 20, 
+                    "name": 1194
+                }
+            ], 
+            "chestReward": []
+        }
+    ]
+}

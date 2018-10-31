@@ -1,0 +1,36 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "水浒传"
+     ],
+     "md5"              : "a88377bd8b41db6a930a3328a5d85c39",
+     "ver"              : "5.0",
+     "url"              : "${http_download}/hall/plugin/game/tyshuihu_release_v5.0_1.zip",
+     "size"             : "5.2"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "水浒传"
+     ],
+     "md5"              : "27186d55d7e2781510210627837d436d",
+     "ver"              : "5.02",
+     "url"              : "${http_download}/hall/plugin/game/shz_release_v5.02_3.zip",
+     "size"             : "5.2"
+    }
+   ],
+   "description"      : [
+    "水浒传"
+   ],
+   "gameId"           : 88,
+   "gameMark"         : "shz"
+  }
+ ],
+ "templates"        : [ ]
+}

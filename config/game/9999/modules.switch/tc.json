@@ -1,0 +1,104 @@
+{
+  "templates" : {
+    "default" : [
+      {
+        "name" : "more_games",
+        "open" : 1
+      },
+      {
+        "name" : "activity",
+        "open" : 1
+      },
+      {
+        "name" : "inner_promote",
+        "open" : 0
+      },
+      {
+        "name" : "complain",
+        "open" : 1
+      },
+      {
+        "name" : "exchange",
+        "open" : 1
+      }
+    ],
+    "default_no_exchange" : [
+      {
+        "name" : "more_games",
+        "open" : 1
+      },
+      {
+        "name" : "activity",
+        "open" : 1
+      },
+      {
+        "name" : "inner_promote",
+        "open" : 0
+      },
+      {
+        "name" : "complain",
+        "open" : 1
+      },
+      {
+        "name" : "exchange",
+        "open" : 0
+      }
+    ],
+    "default_test" : [
+      {
+        "name" : "more_games",
+        "open" : 1
+      },
+      {
+        "name" : "activity",
+        "open" : 1
+      },
+      {
+        "name" : "inner_promote",
+        "open" : 1
+      },
+      {
+        "name" : "complain",
+        "open" : 1
+      },
+      {
+        "name" : "exchange",
+        "open" : 1
+      }
+    ],
+    "ver3_7" : [
+      {
+        "name" : "complain",
+        "open" : 1
+      }
+    ],
+    "ver3_97" : [
+      {
+        "name" : "more_games",
+        "open" : 1
+      },
+      {
+        "name" : "activity",
+        "open" : 1
+      },
+      {
+        "name" : "inner_promote",
+        "open" : 0
+      },
+      {
+        "name" : "complain",
+        "open" : 1
+      },
+      {
+        "name" : "exchange",
+        "open" : 1
+      },
+      {
+        "name" : "sdkads",
+        "enable" : 1,
+        "startup" : 1,
+        "exit" : 1
+      }      
+    ]
+  }
+}

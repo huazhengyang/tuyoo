@@ -1,0 +1,303 @@
+{
+    "buyinchip": 0,
+    "maxCoin": -1,
+    "maxCoinQS": -1,
+    "minCoin": -1,
+    "minCoinQS": -1,
+    "chat_chip": 500,
+    "chat_time": 5,
+    "matchConf": {
+        "name": "疯狂200红包券免费赛(测试)",
+        "desc": "20:00开赛",
+        "taskDesc": "20:00开赛",
+        "timeRange": "40分钟",
+        "fees": [
+        ],
+        "rank.rewards": [
+            {
+                "desc": "200红包券",
+                "rankRange": [1,1],
+                "rewards": [
+                    {
+                        "count": 20000,
+                        "itemId": "user:coupon"
+                    }
+                ]
+            },
+            {
+                "desc": "60红包券",
+                "rankRange": [2,2],
+                "rewards": [
+                    {
+                        "count": 6000,
+                        "itemId": "user:coupon"
+                    }
+                ]
+            },
+            {
+                "desc": "300000金币",
+                "rankRange": [3,3],
+                "rewards": [
+                    {
+                        "count": 300000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "200000金币",
+                "rankRange": [4,4],
+                "rewards": [
+                    {
+                        "count": 200000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "100000金币",
+                "rankRange": [5,6],
+                "rewards": [
+                    {
+                        "count": 100000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "80000金币",
+                "rankRange": [7,8],
+                "rewards": [
+                    {
+                        "count": 80000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "50000金币",
+                "rankRange": [9,16],
+                "rewards": [
+                    {
+                        "count": 50000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "30000金币",
+                "rankRange": [17,32],
+                "rewards": [
+                    {
+                        "count": 30000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "10000金币",
+                "rankRange": [33,64],
+                "rewards": [
+                    {
+                        "count": 10000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "5000金币",
+                "rankRange": [65,128],
+                "rewards": [
+                    {
+                        "count": 5000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            }
+        ],
+        "stages": [
+            {
+                "card.count": 999,
+                "name": "海选赛",
+                "rise.user.count": 80,
+                "grouping.user.count": 800,
+                "rules": {
+                    "rise.user.refer": 120,
+                    "score.base.grow": {
+                        "base": 400,
+                        "incr": 100,
+                        "typeId": "incr"
+                    },
+                    "score.base.grow.times": 120,
+                    "score.lose": {
+                        "loseScore": 1000,
+                        "typeId": "fixed"
+                    },
+                    "typeId": "ass"
+                },
+                "score.base": 1000,
+                "score.calc": {
+                    "score": 20000,
+                    "typeId": "set"
+                }
+            },
+            {
+                "card.count": 999,
+                "name": "晋级赛",
+                "rise.user.count": 32,
+                "rules": {
+                    "rise.user.refer": 48,
+                    "score.base.grow": {
+                        "base": 400,
+                        "incr": 100,
+                        "typeId": "incr"
+                    },
+                    "score.base.grow.times": 120,
+                    "score.lose": {
+                        "loseScore": 100,
+                        "typeId": "fixed"
+                    },
+                    "typeId": "ass"
+                },
+                "score.raw":16000,
+                "score.base": 1000,
+                "score.calc": {
+                    "base": 15000,
+                    "typeId": "sqrt"
+                }
+            },
+            {
+                "card.count": 2,
+                "name": "32强赛",
+                "rise.user.count": 16,
+                "rules": {
+                    "typeId": "dieout"
+                },
+                "score.base": 1000,
+                "score.calc": {
+                    "base": 10000,
+                    "typeId": "sqrt"
+                }
+            },
+            {
+                "card.count": 2,
+                "name": "16强赛",
+                "rise.user.count": 8,
+                "rules": {
+                    "typeId": "dieout"
+                },
+                "score.base": 1000,
+                "score.calc": {
+                    "rate": 0.1,
+                    "typeId": "rate"
+                }
+            },
+            {
+                "card.count": 2,
+                "name": "8强赛",
+                "rise.user.count": 4,
+                "rules": {
+                    "typeId": "dieout"
+                },
+                "score.base": 1000,
+                "score.calc": {
+                    "rate": 0.1,
+                    "typeId": "rate"
+                }
+            },
+            {
+                "card.count": 2,
+                "name": "决赛",
+                "rise.user.count": 1,
+                "rules": {
+                    "typeId": "dieout"
+                },
+                "score.base": 1000,
+                "score.calc": {
+                    "rate": 0.1,
+                    "typeId": "rate"
+                }
+            }
+        ],
+        "start": {
+            "fee.type": 1,
+            "maxplaytime": 10800,
+            "prepare.times": 10,
+            "selectFirstStage": 0,
+            "signin.maxsize": 10000,
+            "signin.times": 86400,
+            "start.speed": 8,
+            "table.times": 480,
+            "times": {
+                "days": {
+                    "count": 365,
+                    "first": "",
+                    "interval": "1d"
+                },
+                "times_in_day": {
+                    "count": 1,
+                    "first": "20:00",
+                    "interval": 1440 
+                }
+            },
+            "type": 2,
+            "user.groupsize": 5000,
+            "user.maxsize": 5000,
+            "user.minsize": 100,
+            "user.next.group": 0
+        },
+        "table.seat.count" : 4,
+        "finish.animation.time": 5,
+        "tips": {
+            "infos": [
+                "积分相同时，按报名先后顺序确定名次。",
+                "积分低于淘汰分数线会被淘汰，称打立出局。",
+                "打立赛制有局数上限，打满局数会等待他人。",
+                "打立阶段，轮空时会记1局游戏。",
+                "定局赛制，指打固定局数后按积分排名。",
+                "每局会按照开局时的底分结算。",
+                "比赛流局时，可能会有积分惩罚。"
+            ],
+            "interval": 5
+        }
+    },
+    "playMode": "guobiao",
+    "playModeName": "疯狂麻将",
+    "tableType": "match",
+    "tableConf": {
+        "robotLevel": 1,
+        "autoLevel": 0,
+        "decide_absence_timeout": 8,
+        "leave_vote_num": {
+            "4": 4
+        },
+        "refuse_leave_vote_num": {
+            "4": 1
+        },
+        "maxSeatN": 4,
+        "play_timeout": 12,
+        "room_coefficient": 1,
+        "trustee_timeout": 1,
+        "ready_max_timeout": 3600,
+        "ready_after_sit": 1,
+        "dissolve_vote_time_out": 60,
+        "tiles_no_pao": 0,
+        "hand_tiles_count": 13,
+        "gang_base": 0,
+        "win_base": 1,
+        "score_base": 0,
+        "fan_list": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            128,
+            256
+        ],
+        "max_fan": 999
+    },
+    "typeName": "stage_match"
+}

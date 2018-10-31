@@ -1,0 +1,23 @@
+1. 协议：
+
+#请求
+{
+	"cmd":"dizhu",
+	"params":{
+		"action":"user_report",
+		"userId":10004,
+		"gameId":6
+		"otherPlayerId":10002,
+		"reasons": [1,2 3,4,5]
+}
+
+
+# 返回
+{
+    "cmd":"dizhu",
+    "result":{
+        "action":"user_report",
+        "success": 1,
+        "tip": "您在之前牌局对玩家王玉珏(被举报玩家昵称)①、②、③(举报原因，④/⑤不列出，为假选项)的举报系统已受理，系统将记录并跟进，并给予相应处理，谢谢您的举报信息。"
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "buyinchip" : 30000,
+  "dummyUserCount" : 0,
+  "gameRule" : "classic",
+  "hasrobot" : 0,
+  "ismatch" : 0,
+  "level" : "senior",
+  "matchConf" : null,
+  "maxCoin" : -1,
+  "maxCoinQS" : 180000,
+  "maxLevel" : -1,
+  "minCoin" : 50000,
+  "minCoinQS" : 75000,
+  "name" : "高级场",
+  "nameUrl" : "http://ddz.dl.tuyoo.com/cdn37/majiang/images/others/mahjong_room_tle_3.png",
+  "playMode" : "guobiao",
+  "redEnvelopeLevel" : "adwanced",
+  "tableConf" : {
+    "base_chip" : 750,
+    "big_degree_fee" : [
+      30,
+      0.1,
+      200
+    ],
+    "good_tile_chance" : 1.5,
+    "maxSeatN" : 4,
+    "play_timeout" : 9,
+    "room_coefficient" : 4,
+    "service_fee" : 750
+  },
+  "typeName" : "normal"
+}

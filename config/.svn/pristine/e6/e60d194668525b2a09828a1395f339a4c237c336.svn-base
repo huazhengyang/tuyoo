@@ -1,0 +1,128 @@
+{
+    "comment": [
+        "商城发货额外奖励配置",
+        "time_begin: 活动开始日期，请在后面脑补 0:00:00",
+        "time_end: 活动结束时间, 请也在后面脑补 0:00:00",
+        "clientIdFilter: 如果配置了clientId, 则按clientId过滤。否则按 os 和 minVer 过滤",
+        "clientIdFilter: os: 可选 ios winpc macpc android h5",
+        "clientIdFilter: minVer: 大于等于",
+        "clientIdFilter: ids: 同时支持字符串格式和数字格式",
+        "timesLimit: 活动期间内可以买多少次"
+    ],
+    "config": [
+        {
+            "clientIdFilter": {
+                "ids": [
+                ],
+                "minVer": 3.7,
+                "os": "ios"
+            },
+            "products": {
+                "TY9999D0030007": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值30元，获得清新夏日宝箱*1",
+                    "prop": {
+                        "1007": 1
+                    },
+                    "timesLimit": 0
+                },
+                "TY9999D0098007": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值98元，获得清新夏日宝箱*3",
+                    "prop": {
+                        "1007": 3
+                    },
+                    "timesLimit": 0
+                },
+                "TY9999D0198007": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值198元，获得清新夏日宝箱*7",
+                    "prop": {
+                        "1007": 7
+                    },
+                    "timesLimit": 0
+                },
+                "TY9999D0328007": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值328元，获得浓情夏日宝箱*1",
+                    "prop": {
+                        "1007": 1
+                    },
+                    "timesLimit": 0
+                },
+                "TY9999D0648007": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值648元，获得激情夏日宝箱*1",
+                    "prop": {
+                        "1007": 1
+                    },
+                    "timesLimit": 0
+                }
+            },
+            "time_begin": "2016 05 20",
+            "time_end": "2016 08 01"
+        },
+        {
+            "clientIdFilter": {
+                "ids": [
+                ],
+                "minVer": 3.7,
+                "os": "android"
+            },
+            "products": {
+                "TY9999D0030024": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值30元，获得清新夏日宝箱*1",
+                    "prop": {
+                        "1007": 1
+                    },
+                    "timesLimit": 0
+                },
+                "TY9999D0100021": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值100元，获得清新夏日宝箱*3",
+                    "prop": {
+                        "1007": 3
+                    },
+                    "timesLimit": 0
+                },
+                "TY9999D0300004": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值300元，获得浓情夏日宝箱*1",
+                    "prop": {
+                        "1007": 1
+                    },
+                    "timesLimit": 0
+                },
+                "TY9999D1000012": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值1000元，获得激情夏日宝箱*1",
+                    "prop": {
+                        "1007": 1
+                    },
+                    "timesLimit": 0
+                },
+                "TY9999D5000001": {
+                    "chip": 0,
+                    "coupon": 0,
+                    "mail": "恭喜你充值5000元，获得激情夏日宝箱*6",
+                    "prop": {
+                        "1007": 6
+                    },
+                    "timesLimit": 0
+                }
+            },
+            "time_begin": "2016 05 20",
+            "time_end": "2016 08 01"
+        }
+    ]
+}

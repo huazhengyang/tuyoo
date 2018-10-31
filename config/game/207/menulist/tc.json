@@ -1,0 +1,33 @@
+{
+ "custom_menus"                   : {
+  "207zhanji"                      : {
+   "picUrl"                         : "${http_download}/hunan/majiang/ads/hall_bottom_icon_zhanji.png",
+   "todotasks"                      : [
+    {
+     "enter_param"                    : {
+      "pluginParams"                   : {
+       "gameType"                       : 11,
+       "tasks"                          : [
+        {
+         "action"                         : "pop_create_room_zhanji",
+         "params"                         : { }
+        }
+       ]
+      },
+      "type"                           : "roomlist"
+     },
+     "gameId"                         : 207,
+     "typeId"                         : "hall.goto.enter.game"
+    }
+   ]
+  }
+ },
+ "templates"                      : {
+  "dazhong_v3.901_AI_dazhong": [
+   "activity",
+   "message",
+   "207zhanji",
+   "settings"
+  ]
+ }
+}

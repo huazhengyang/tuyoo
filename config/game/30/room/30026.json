@@ -1,0 +1,129 @@
+{
+    "autoQueue": 0, 
+    "dealerCare": {
+        "bOpen": 0, 
+        "rules": []
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            50000, 
+            5000, 
+            -5000
+        ], 
+        "chicken": [
+            50000, 
+            5000, 
+            -5000
+        ], 
+        "doubleAce": [
+            50000, 
+            10000, 
+            10000
+        ], 
+        "eggs": [
+            50000, 
+            5000, 
+            -5000
+        ], 
+        "fishing": [
+            50000, 
+            5000, 
+            -5000
+        ], 
+        "ring": [
+            50000, 
+            10000, 
+            10000
+        ], 
+        "rose": [
+            50000, 
+            10000, 
+            10000
+        ], 
+        "thumb": [
+            50000, 
+            10000, 
+            10000
+        ]
+    }, 
+    "jackPotConf": {
+        "enable": 0
+    }, 
+    "matchConf": {
+        "match_id": "0.0"
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 0, 
+    "minCoin": 5000000, 
+    "minCoinQS": 99999999999, 
+    "minTableCount": 1, 
+    "minTriggerLen": 2, 
+    "name": "贵宾老千", 
+    "playMode": "classic", 
+    "roomID": 30026, 
+    "sortId": 1, 
+    "tableConf": {
+        "bb": 100000, 
+        "big_pot": 0, 
+        "bigpot_fee_floor": 15000000, 
+        "buyin": 10000000, 
+        "buyinConf": "1/2/3/4", 
+        "callChip": -1, 
+        "chat_require_vip_level": 0, 
+        "commission": 0.05, 
+        "exchange_cards_prices": [
+            [
+                500, 
+                1000, 
+                2000, 
+                4000, 
+                5000
+            ], 
+            [
+                500, 
+                1000, 
+                2000, 
+                4000, 
+                5000
+            ], 
+            [
+                1000, 
+                2000, 
+                4000, 
+                5000, 
+                6000
+            ]
+        ], 
+        "exchange_cards_reset": 1, 
+        "fee": 50000, 
+        "flip_card_game": {
+            "bet": 10000, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "is_deceiver": 1, 
+        "maxHandCount": 20, 
+        "maxSeatN": 6, 
+        "max_bigpot_fee": -1, 
+        "min_players": 2, 
+        "optime": 13, 
+        "pay_factor": 1.0, 
+        "pkHandCount": 5, 
+        "prebet": 500000, 
+        "raise_times": [
+            2, 
+            4, 
+            8
+        ], 
+        "sb": 100000, 
+        "seeCardHandCount": 0, 
+        "start_card": 2, 
+        "tag": 3, 
+        "tag_label": "${http_download}/t3card/images/vip_room/tag_label_deceiver.png", 
+        "tname": "贵宾老千"
+    }, 
+    "triggerLen": 6, 
+    "typeName": "vip", 
+    "visible": 0
+}

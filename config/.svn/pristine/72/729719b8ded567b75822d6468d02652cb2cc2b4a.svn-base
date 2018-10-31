@@ -1,0 +1,553 @@
+{
+    "tehuilibao": {
+        "start_date": "2015-04-01",
+        "end_date": "2017-07-01",
+        "diamonds": 300,
+        "itemId": 1012,
+        "chip": 300000
+    },
+    "led_notify": [
+        {
+            "matchId": "6060",
+            "type": "match",
+            "ledtext": [
+                {
+                    "stage": "signin",
+                    "text": "{MATCH_NAME}开始报名了，速来报名赢{WIN1st_REWARD}等大奖！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "start",
+                    "text": "{MATCH_NAME}即将开始，请火速前往报名界面等待开赛！",
+                    "seconds": 300
+                },
+                {
+                    "stage": "end",
+                    "text": "恭喜{WINN1st_NAME}获得{MATCH_NAME}第一名，{WIN1st_REWARD}大奖归您了！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "after_end",
+                    "text": "本次{MATCH_NAME}{WIN1st_REWARD}、{WIN2nd_REWARD}等奖品已经各有归属，感谢大家参与，下次继续努力吧！",
+                    "seconds": 180
+                }
+            ]
+        },
+        {
+            "matchId": "6061",
+            "type": "match",
+            "ledtext": [
+                {
+                    "stage": "signin",
+                    "text": "{MATCH_NAME}开始报名了，速来报名赢{WIN1st_REWARD}等大奖！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "start",
+                    "text": "{MATCH_NAME}即将开始，请火速前往报名界面等待开赛！",
+                    "seconds": 300
+                },
+                {
+                    "stage": "end",
+                    "text": "恭喜{WINN1st_NAME}获得{MATCH_NAME}第一名，{WIN1st_REWARD}大奖归您了！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "after_end",
+                    "text": "本次{MATCH_NAME}{WIN1st_REWARD}、{WIN2nd_REWARD}等奖品已经各有归属，感谢大家参与，下次继续努力吧！",
+                    "seconds": 180
+                }
+            ]
+        },
+        {
+            "matchId": "6062",
+            "type": "match",
+            "ledtext": [
+                {
+                    "stage": "signin",
+                    "text": "{MATCH_NAME}开始报名了，速来报名赢{WIN1st_REWARD}等大奖！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "start",
+                    "text": "{MATCH_NAME}即将开始，请火速前往报名界面等待开赛！",
+                    "seconds": 300
+                },
+                {
+                    "stage": "end",
+                    "text": "恭喜{WINN1st_NAME}获得{MATCH_NAME}第一名，{WIN1st_REWARD}大奖归您了！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "after_end",
+                    "text": "本次{MATCH_NAME}{WIN1st_REWARD}、{WIN2nd_REWARD}等奖品已经各有归属，感谢大家参与，下次继续努力吧！",
+                    "seconds": 180
+                }
+            ]
+        },
+        {
+            "matchId": "6997",
+            "type": "match",
+            "ledtext": [
+                {
+                    "stage": "signin",
+                    "text": "{MATCH_NAME}开始报名了，速来报名赢{WIN1st_REWARD}等大奖！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "start",
+                    "text": "{MATCH_NAME}即将开始，请火速前往报名界面等待开赛！",
+                    "seconds": 300
+                },
+                {
+                    "stage": "end",
+                    "text": "恭喜{WINN1st_NAME}获得{MATCH_NAME}第一名，{WIN1st_REWARD}大奖归您了！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "after_end",
+                    "text": "本次{MATCH_NAME}{WIN1st_REWARD}、{WIN2nd_REWARD}等奖品已经各有归属，感谢大家参与，下次继续努力吧！",
+                    "seconds": 180
+                }
+            ]
+        },
+        {
+            "matchId": "6047",
+            "type": "match",
+            "ledtext": [
+                {
+                    "stage": "signin",
+                    "text": "{MATCH_NAME}开始报名了，速来报名赢{WIN1st_REWARD}等大奖！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "start",
+                    "text": "{MATCH_NAME}即将开始，请火速前往报名界面等待开赛！",
+                    "seconds": 300
+                },
+                {
+                    "stage": "end",
+                    "text": "恭喜{WINN1st_NAME}获得{MATCH_NAME}第一名，{WIN1st_REWARD}大奖归您了！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "after_end",
+                    "text": "本次{MATCH_NAME}{WIN1st_REWARD}、{WIN2nd_REWARD}等奖品已经各有归属，感谢大家参与，下次继续努力吧！",
+                    "seconds": 180
+                }
+            ]
+        },
+        {
+            "matchId": "6055",
+            "type": "match",
+            "ledtext": [
+                {
+                    "stage": "signin",
+                    "text": "{MATCH_NAME}开始报名了，速来报名赢{WIN1st_REWARD}等大奖！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "start",
+                    "text": "{MATCH_NAME}即将开始，请火速前往报名界面等待开赛！",
+                    "seconds": 300
+                },
+                {
+                    "stage": "end",
+                    "text": "恭喜{WINN1st_NAME}获得{MATCH_NAME}第一名，{WIN1st_REWARD}大奖归您了！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "after_end",
+                    "text": "本次{MATCH_NAME}{WIN1st_REWARD}、{WIN2nd_REWARD}等奖品已经各有归属，感谢大家参与，下次继续努力吧！",
+                    "seconds": 180
+                }
+            ]
+        },
+        {
+            "matchId": "6056",
+            "type": "match",
+            "ledtext": [
+                {
+                    "stage": "signin",
+                    "text": "{MATCH_NAME}开始报名了，速来报名赢{WIN1st_REWARD}等大奖！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "start",
+                    "text": "{MATCH_NAME}即将开始，请火速前往报名界面等待开赛！",
+                    "seconds": 300
+                },
+                {
+                    "stage": "end",
+                    "text": "恭喜{WINN1st_NAME}获得{MATCH_NAME}第一名，{WIN1st_REWARD}大奖归您了！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "after_end",
+                    "text": "本次{MATCH_NAME}{WIN1st_REWARD}、{WIN2nd_REWARD}等奖品已经各有归属，感谢大家参与，下次继续努力吧！",
+                    "seconds": 180
+                }
+            ],
+            "clientIds": [
+                "Android_3.712_huawei.huawei,yisdkpay4.0-hall6.huawei.dingzhidj",
+                "Android_3.711_huawei.huawei,yisdkpay4.0-hall6.huawei.dingzhidj"
+            ]
+        },
+        {
+            "matchId": "6044",
+            "type": "match",
+            "ledtext": [
+                {
+                    "stage": "signin",
+                    "text": "{MATCH_NAME}开始报名了，速来报名赢{WIN1st_REWARD}等大奖！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "start",
+                    "text": "{MATCH_NAME}即将开始，请火速前往报名界面等待开赛！",
+                    "seconds": 300
+                },
+                {
+                    "stage": "end",
+                    "text": "恭喜{WINN1st_NAME}获得{MATCH_NAME}第一名，{WIN1st_REWARD}大奖归您了！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "after_end",
+                    "text": "本次{MATCH_NAME}{WIN1st_REWARD}、{WIN2nd_REWARD}等奖品已经各有归属，感谢大家参与，下次继续努力吧！",
+                    "seconds": 180
+                }
+            ]
+        },
+        {
+            "matchId": "6996",
+            "type": "match",
+            "ledtext": [
+                {
+                    "stage": "signin",
+                    "text": "{MATCH_NAME}开始报名了，速来报名赢{WIN1st_REWARD}等大奖！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "start",
+                    "text": "{MATCH_NAME}即将开始，请火速前往报名界面等待开赛！",
+                    "seconds": 300
+                },
+                {
+                    "stage": "end",
+                    "text": "恭喜{WINN1st_NAME}获得{MATCH_NAME}第一名，{WIN1st_REWARD}大奖归您了！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "after_end",
+                    "text": "本次{MATCH_NAME}{WIN1st_REWARD}、{WIN2nd_REWARD}等奖品已经各有归属，感谢大家参与，下次继续努力吧！",
+                    "seconds": 180
+                }
+            ]
+        },
+        {
+            "matchId": "6998",
+            "type": "match",
+            "ledtext": [
+                {
+                    "stage": "signin",
+                    "text": "{MATCH_NAME}开始报名了，速来报名赢{WIN1st_REWARD}等大奖！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "start",
+                    "text": "{MATCH_NAME}即将开始，请火速前往报名界面等待开赛！",
+                    "seconds": 300
+                },
+                {
+                    "stage": "end",
+                    "text": "恭喜{WINN1st_NAME}获得{MATCH_NAME}第一名，{WIN1st_REWARD}大奖归您了！",
+                    "seconds": 0
+                },
+                {
+                    "stage": "after_end",
+                    "text": "本次{MATCH_NAME}{WIN1st_REWARD}、{WIN2nd_REWARD}等奖品已经各有归属，感谢大家参与，下次继续努力吧！",
+                    "seconds": 180
+                }
+            ]
+        }
+    ],
+    "huiyuan_360": {
+        "start_date": "2015-10-30",
+        "end_date": "2016-05-20",
+        "clientId": [
+            "Winpc_3.601_360.360.0-hall6.360.zdddz",
+            "Winpc_3.601_360.360.0-hall6.360.kxddz",
+            "Winpc_3.76_phone.tuyoo.0-hall6.tuyoo.danbao",
+            "Winpc_3.76_360.360.0-hall6.360.zdddz",
+            "Winpc_3.76_360.360.0-hall6.360.kxddz",
+            "Winpc_3.76_360.360.0-hall6.360.jdddz",
+            "Winpc_3.70_360.360.0-hall6.360.zdddz",
+            "Winpc_3.70_360.360.0-hall6.360.kxddz",
+            "Winpc_3.70_360.360.0-hall6.360.jdddz",
+            "Winpc_3.601_phone.tuyoo.0-hall6.tuyoo.danbao"
+        ],
+        "choujiang_round": [
+            5,
+            10,
+            15
+        ],
+        "login30": [
+            {
+                "itemId": "user:chip",
+                "count": 500
+            },
+            {
+                "itemId": "user:chip",
+                "count": 800
+            },
+            {
+                "itemId": "item:3002",
+                "count": 3
+            },
+            {
+                "itemId": "item:3001",
+                "count": 1
+            },
+            {
+                "itemId": "user:chip",
+                "count": 500
+            },
+            {
+                "itemId": "item:2003",
+                "count": 1
+            },
+            {
+                "itemId": "user:chip",
+                "count": 600
+            },
+            {
+                "itemId": "user:chip",
+                "count": 1000
+            },
+            {
+                "itemId": "user:chip",
+                "count": 800
+            },
+            {
+                "itemId": "user:chip",
+                "count": 900
+            },
+            {
+                "itemId": "user:chip",
+                "count": 1000
+            },
+            {
+                "itemId": "user:chip",
+                "count": 500
+            },
+            {
+                "itemId": "user:chip",
+                "count": 800
+            },
+            {
+                "itemId": "user:chip",
+                "count": 1200
+            },
+            {
+                "itemId": "user:chip",
+                "count": 1500
+            },
+            {
+                "itemId": "item:1007",
+                "count": 5
+            },
+            {
+                "itemId": "user:chip",
+                "count": 1100
+            },
+            {
+                "itemId": "user:chip",
+                "count": 800
+            },
+            {
+                "itemId": "user:chip",
+                "count": 600
+            },
+            {
+                "itemId": "user:chip",
+                "count": 1100
+            },
+            {
+                "itemId": "user:chip",
+                "count": 1600
+            },
+            {
+                "itemId": "user:chip",
+                "count": 800
+            },
+            {
+                "itemId": "user:chip",
+                "count": 900
+            },
+            {
+                "itemId": "item:3002",
+                "count": 2
+            },
+            {
+                "itemId": "user:chip",
+                "count": 1500
+            },
+            {
+                "itemId": "user:chip",
+                "count": 800
+            },
+            {
+                "itemId": "user:chip",
+                "count": 1200
+            },
+            {
+                "itemId": "user:chip",
+                "count": 2300
+            },
+            {
+                "itemId": "user:chip",
+                "count": 1800
+            },
+            {
+                "itemId": "user:chip",
+                "count": 2000
+            }
+        ]
+    },
+    "vip_send": {
+        "start_date": "2015-12-15 00:00:00",
+        "end_date": "2015-12-23 23:59:59",
+        "vip_level": 1,
+        "items": [
+        ],
+        "item_send": [
+            {
+                "itemId": "user:chip",
+                "count": 1
+            }
+        ],
+        "mail": "您的VIP福利礼包已发放到背包，尊贵套装等你拿~"
+    },
+    "dashi_send": {
+        "start_date": "2015-12-02 00:00:00",
+        "end_date": "2015-12-09 23:59:59",
+        "dashi_level": 10,
+        "items": [
+        ],
+        "item_send": [
+            {
+                "itemId": "user:chip",
+                "count": 1
+            }
+        ],
+        "mail": "恭喜您获得大师登录礼包*1"
+    },
+    "ddz_fund": {
+        "start_date": "2016-10-18 00:00:00",
+        "end_date": "2030-01-18 23:59:59",
+        "autoactivize": 0,
+        "cycle": {
+            "typeId": "perDay"
+        },
+        "productIds": [
+              "TY9999D0008027",
+			  "TY9999R0006001",
+			  "TY9999D0008005",
+              "TY9999D0006003",
+			  "TY9999D0002001"
+        ],
+        "hallGameIds": [
+            6
+        ]
+    },
+    "matchscore": {
+        "start_date": "2016-09-28 00:00:00",
+        "end_date": "2030-10-12 23:59:59"
+    },
+    "skilllevel_gift": {
+        "toggle": false,
+        "start": "2016-04-19 00:00:00",
+        "mail": "您获得了斗地主段位大礼包，在背包中打开立得海量金币，祝游戏愉快！",
+        "assets": {
+            "itemId": "item:4242",
+            "count": 1
+        }
+    },
+    "item_sender": {
+        "datetime_start": "2016-08-02 00:00:00",
+        "datetime_end": "2016-08-31 23:59:59",
+        "assets": {
+            "itemId": "item:4364",
+            "count": 1
+        },
+        "supportContainClientIdOr": [
+            "0-hall6.360",
+            "0-hall6.360danji"
+        ],
+        "mail": "恭喜您获得360专属8元礼包，充值可额外获得奖励。暑期还有360专属的手机比赛，欢迎参加！"
+    },
+    "ddz_dumplings": {
+        "datetime_start": "2017-04-27 00:00:00",
+        "datetime_end": "2017-05-03 00:00:00",
+        "activityId": "activity_ddz_51bang_170427"
+    },
+    "month_checkin_gift": {
+        "datetime_start": "2016-05-23 00:00:00",
+        "datetime_end": "2016-06-01 00:00:00",
+        "mail": "恭喜您获得五月满月签到额外奖励\\${gotContent}。",
+        "giftDayCount": 31,
+        "giftContent": {
+            "typeId": "FixedContent",
+            "desc": "天使套装+TUPT周决选赛门票",
+            "items": [
+                {
+                    "itemId": "item:4121",
+                    "count": 1
+                },
+                {
+                    "itemId": "item:4107",
+                    "count": 1
+                },
+                {
+                    "itemId": "item:4116",
+                    "count": 1
+                },
+                {
+                    "itemId": "item:4275",
+                    "count": 1
+                }
+            ]
+        }
+    },
+    "bindphonelead": {
+        "datetime_start": "2016-05-31 00:00:00",
+        "datetime_end": "2020-06-30 23:59:59",
+        "assets": [
+            {
+                "itemId": "user:chip",
+                "count": 8888
+            },
+            {
+                "itemId": "item:1008",
+                "count": 1
+            },
+            {
+                "itemId": "user:coupon",
+                "count": 50
+            }
+        ],
+        "clientIdList": [
+			"Android_3.771_wannew.wannew.0-hall6.wdj.dj",
+			"Android_3.91_wannew.wannew.0-hall6.wdj.dj",
+			"Android_3.97_wannew.wannew,yisdkpay.0-hall6.wdj.dj",
+			"Android_3.761_wannew.wannew,yisdkpay4.0-hall6.wdj.tu",
+			"Android_3.771_wannew.wannew.0-hall6.wdj.tu",
+			"Android_3.782_wannew.wannew.0-hall6.wdj.tu",
+			"Android_3.82_wannew.wannew.0-hall6.wdj.tu",
+			"Android_3.91_wannew.wannew.0-hall6.wdj.tu",
+			"Android_3.97_wannew.wannew,yisdkpay.0-hall6.wdj.tu"
+        ],
+        "mail": "恭喜您获得绑定手机号奖励：金币*8888、英雄帖*1、红包券*0.5。"
+    }
+}

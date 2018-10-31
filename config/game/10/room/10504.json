@@ -1,0 +1,44 @@
+{
+	"minCoin": 1,
+	"minCoinQS": 1,
+	"maxCoin": -1,
+	"maxCoinQS": -1,
+	"fullNum": 10,
+	"no.": 4,
+	"new": 1,
+	"signinEndTimePerUser": 4,
+	"baseBets": [1000, 2000, 3000, 4000],
+	"baseBetIncrTimevalMinute": 2,
+	"baseBetNotifySecond": 30,
+	"signinFee": {"itemId": "item:1007", "count": 1},
+	"durationMinute": 15,
+	"initTChip": 10000,
+	"minTChipRate": 2,
+	"rewards": [
+		{"start": 1, "end": 1, "chip": 500, "desc": "500金币"},
+		{"start": 2, "end": 2, "chip": 400, "desc": "400金币"},
+		{"start": 3, "end": 3, "chip": 300, "desc": "300金币"},
+		{"start": 4, "end": 5, "chip": 200, "desc": "200金币"}
+	],
+	"matchRule": [
+		["比赛时长:", "15分钟"],
+		["初始积分:", "10000"],
+		["基数增长:", "1000/2000/3000/4000"],
+		["淘汰规则:", "桌面积分小于2倍基数"]
+	],
+	"daojuScale": 10,
+	"name": "免费体验赛",
+	"leftTip": "手动组牛",
+	"rightTip": "满10人开赛",
+	"invalidHourRange": [0, 6],
+	"hasrobot": 0,
+	"robotRate": [0.8, 0.9],
+	"robotChipRange": [50000, 100000],
+	"tableConf": {
+		"maxSeatN": 5
+	},
+	"playMode": 5,
+	"roomType": 1,
+	"matchKindId": 1,
+	"typeName": "dnLTS"
+}

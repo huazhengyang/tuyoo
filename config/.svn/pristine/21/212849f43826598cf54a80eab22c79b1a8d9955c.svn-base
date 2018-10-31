@@ -1,0 +1,289 @@
+{
+    "description": {
+        "0": "关于ID说明",
+        "1": "本配置以象棋为例，其他题材插件请参考象棋一一对应",
+        "2": "例如，象棋游戏楚阵营ID：100， 汉阵营ID：200， 和阵营ID：300(有大小之分)",
+        "3": "在麻将里，筒阵营ID: 100， 条阵营：200，发财阵营ID：300(有大小之分)"
+    },
+    "open_base_probility": 0.77053,
+    "items": [
+        {
+            "id": 1,
+            "camp": 100,
+            "name": "象棋：楚-将；麻将：1筒",
+            "times": 15,
+            "weight": 7480
+        },
+        {
+            "id": 2,
+            "camp": 100,
+            "name": "象棋：楚-士；麻将：2筒",
+            "times": 8,
+            "weight": 17350
+        },
+        {
+            "id": 3,
+            "camp": 100,
+            "name": "象棋：楚-象；麻将：3筒",
+            "times": 8,
+            "weight": 17350
+        },
+        {
+            "id": 4,
+            "camp": 100,
+            "name": "楚-卒(4筒)",
+            "times": 4,
+            "weight": 38590
+        },
+        {
+            "id": 5,
+            "camp": 200,
+            "name": "象棋：汉-帅；麻将：1条",
+            "times": 15,
+            "weight": 7480
+        },
+        {
+            "id": 6,
+            "camp": 200,
+            "name": "象棋：汉-士；麻将：2条",
+            "times": 8,
+            "weight": 17350
+        },
+        {
+            "id": 7,
+            "camp": 200,
+            "name": "象棋：汉-相；麻将：3条",
+            "times": 8,
+            "weight": 17350
+        },
+        {
+            "id": 8,
+            "camp": 200,
+            "name": "象棋：汉-兵；麻将：4条",
+            "times": 4,
+            "weight": 38590
+        }
+    ],
+    "betable_list": [1, 2, 3, 4, 5, 6, 7, 8, 100, 200, 300],
+    "client_view": {
+        "1": "15倍",
+        "2": "8倍",
+        "3": "8倍",
+        "4": "4倍",
+        "5": "15倍",
+        "6": "8倍",
+        "7": "8倍",
+        "8": "4倍",
+        "100": "2倍",
+        "200": "2倍",
+        "300": "5—30倍"
+    },
+    "events": [
+        {
+            "id": 9,
+            "weight": 183,
+            "result": {
+                "1": 15,
+                "2": 8,
+                "3": 8,
+                "4": 4,
+                "100": 2
+            },
+            "desc": "象棋：楚-大获全胜；麻将：筒-大获全胜"
+        },
+        {
+            "id": 10,
+            "weight": 550,
+            "result": {
+                "1": 2,
+                "2": 2,
+                "3": 2,
+                "4": 2,
+                "100": 2
+            },
+            "desc": "楚-小胜一场"
+        },
+        {
+            "id": 11,
+            "weight": 183,
+            "result": {
+                "5": 15,
+                "6": 8,
+                "7": 8,
+                "8": 4,
+                "200": 2
+            },
+            "desc": "象棋：汉-大获全胜；麻将：条-大获全胜"
+        },
+        {
+            "id": 12,
+            "weight": 550,
+            "result": {
+                "5": 2,
+                "6": 2,
+                "7": 2,
+                "8": 2,
+                "200": 2
+            },
+            "desc": "汉-小胜一场"
+        },
+        {
+            "id": 13,
+            "weight": 626,
+            "result": {
+                "300": 5
+            },
+            "desc": "和（小）* 5倍"
+        },
+        {
+            "id": 14,
+            "weight": 201,
+            "result": {
+                "300": 30
+            },
+            "desc": "和（大）* 30倍"
+        }
+    ],
+    "bet_limit": 5000000,
+    "rebet_vip_required": 3,
+    "bet_range": [
+        {
+            "chip": [0, 100000],
+            "baseBet": [100, 1000, 10000]
+        },
+        {
+            "chip": [100000, 5000000],
+            "baseBet": [1000, 10000, 100000]
+        },
+        {
+            "chip": [5000000, -1],
+            "baseBet": [10000, 100000, 1000000]
+        }
+    ],
+    "crit": [
+        {
+            "id": 0,
+            "weight": 9550,
+            "times": 1
+        },
+        {
+            "id": 1,
+            "weight": 400,
+            "times": 1.2
+        },
+        {
+            "id": 2,
+            "weight": 50,
+            "times": 2
+        }
+    ],
+    "vip_required": 0,
+    "chip_required": 10000,
+    "trigger_pool_probility": 10000,
+    "bonus_add": 0.005,
+    "caijin": [
+        0.5,
+        0.25,
+        0.12,
+        0.05,
+        0.02,
+        0.02,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+    ],
+    "caijin_add": 0.007,
+    "caijin_reset": 0.1,
+    "rank_len": 10,
+    "history_len": 20,
+    "pool_list_len": 15,
+    "pool_chip": {
+        "bonus": 0.08,
+        "ladder_1": {"percent": 0.5, "num": 2},
+        "ladder_2": {"percent": 0.3, "num": 3},
+        "ladder_3": {"percent": 0.2, "num": 5}
+    },
+    "compensation": {
+        "1": {"lost": 500000,"rate": 0.2},
+        "2": {"lost": 2500000,"rate": 0.2},
+        "3": {"lost": 12500000,"rate": 0.2},
+        "4": {"lost": 62500000,"rate": 0.2},
+        "5": {"lost": 400000000,"rate": 0.2},
+        "6": {"lost": 1000000000,"rate": 0.2}
+    },
+    "return_rate": 0.98,
+    "products": {
+        "androidVipTableBuyLeastChip": [
+            {
+                "vip_required": 0,
+                "products": [
+                    80000,
+                    360000,
+                    1500000,
+                    5000000
+                ]
+            },
+            {
+                "vip_required": 6,
+                "products": [
+                    80000,
+                    360000,
+                    1500000,
+                    5000000
+                ]
+            }
+        ],
+        "iosVipTableBuyLeastChip": [
+            {
+                "vip_required": 0,
+                "products": [
+                    60000,
+                    360000,
+                    1400000,
+                    3000000
+                ]
+            },
+            {
+                "vip_required": 6,
+                "products": [
+                    60000,
+                    360000,
+                    1400000,
+                    3000000
+                ]
+            }
+        ]
+    },
+    "emoji": [
+        {"id": 1, "name": "鸡蛋", "price": 1000, "self_meili": 100, "peer_meili": -100},
+        {"id": 2, "name": "炸弹", "price": 2000, "self_meili": 200, "peer_meili": -200},
+        {"id": 3, "name": "大拇指", "price": 1000, "self_meili": 100, "peer_meili": 100},
+        {"id": 4, "name": "鲜花", "price": 5000, "self_meili": 500, "peer_meili": 500},
+        {"id": 5, "name": "钻戒", "price": 10000, "self_meili": 10000, "peer_meili": 10000}
+    ],
+    "robot": {
+        "robot_count": 4,
+        "vip_range": [2, 7],
+        "bet_count": 2,
+        "betable_list": [1, 2, 3, 4, 5, 6, 7, 8, 100, 200, 300],
+        "bet_delay": [4, 8],
+        "cared_emoji": [1, 2],
+        "use_emoji": 1,
+        "use_emoji_prob": 0.3,
+        "emoji_optime": [2, 6],
+        "chips_exit": 10000,
+        "take_chips": [10000, 30000]
+    },
+    "notice": {
+        "title": "奖励加倍",
+        "content": [
+        ]
+    },
+    "god_user_list": [],
+    "god_chip_user_num": 1,
+    "god_login_chip": 88888,
+    "god_emoji_chip": 16888,
+    "god_open_interval": 1800,
+    "god_chip_interval": 60
+}

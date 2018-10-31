@@ -1,0 +1,84 @@
+{
+    "handlers": [
+        {
+            "name": "lead_to_pay_v1",
+            "module": "gamble.plugins.lead_to_pay_v1",
+            "class": "LeadToPay",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GameBiEventReporter",
+            "module": "gamble.plugins.game_bi_event_reporter",
+            "class": "GameBiEventReporter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_pay",
+            "module": "gamble.plugins.table_pay",
+            "class": "TablePay",
+            "handle": "event_handle"
+        },
+        {
+            "name": "notify",
+            "module": "gamble.plugins.notify",
+            "class": "Notify",
+            "handle": "event_handle"
+        },
+        {
+            "name": "misc",
+            "module": "gamble.plugins.misc",
+            "class": "Misc",
+            "handle": "event_handle"
+        },
+        {
+            "name": "JackPot",
+            "module": "t3cardhundred.plugins.jack_pot.jack_pot",
+            "class": "JackPot",
+            "handle": "event_handle"
+        },
+        {
+            "name": "Waybill",
+            "module": "t3cardhundred.plugins.waybill.waybill",
+            "class": "Waybill",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GM",
+            "module": "t3cardhundred.plugins.gm",
+            "class": "GM",
+            "handle": "event_handle"
+        },
+        {
+            "name": "ranking",
+            "module": "t3cardhundred.plugins.ranking",
+            "class": "Ranking",
+            "handle": "event_handle"
+        },
+        {
+            "name": "advertisement",
+            "module": "t3cardhundred.plugins.advertisement",
+            "object": "Advertisement",
+            "handle": "event_handle"
+        },
+        {
+            "name": "fireworks",
+            "module": "t3cardhundred.plugins.fireworks",
+            "object": "Fireworks",
+            "handle": "event_handle"
+        },
+        {
+            "name": "socilSystem",
+            "module": "t3cardhundred.plugins.socialSystem.socialSystem",
+            "object": "SocialSystem",
+            "handle": "event_handle"
+        },
+        {
+            "name": "misc",
+            "module": "t3cardhundred.plugins.misc",
+            "class": "Misc",
+            "handle": "event_handle"
+        }
+    ],
+    "event_seq": {
+    }
+}

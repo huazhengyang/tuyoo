@@ -1,0 +1,36 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捕鱼大作战全新上线"
+     ],
+     "md5"              : "62604777a6cef6031e123dc9d71f61be",
+     "ver"              : "1.0",
+     "url"              : "${http_download}/hall/plugin/game/bycj_release_v1.0_thirteenth.zip",
+     "size"             : "21.6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捕鱼大作战v1.1全新上线"
+     ],
+     "md5"              : "0bc927d895f227e482923501188cf3d8",
+     "ver"              : "1.1",
+     "url"              : "${http_download}/hall/plugin/game/bycj_release_v1.1_second.zip",
+     "size"             : "21.9M"
+    }
+   ],
+   "description"      : [
+    "捕鱼大作战，最刺激的捕鱼游戏"
+   ],
+   "gameId"           : 60,
+   "gameMark"         : "bycj"
+  }
+ ],
+ "templates"        : [ ]
+}

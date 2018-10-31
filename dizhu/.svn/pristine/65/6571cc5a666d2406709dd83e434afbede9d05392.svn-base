@@ -1,0 +1,31 @@
+配置文件说明:
+
+db.json 说明:
+{
+    "redis":{
+        "user01":["127.0.0.1", 7979, 0, 80], 
+        "user02":["127.0.0.1", 7979, 0, 80],
+        "login":["127.0.0.1",  7979, 0, 80]
+    },
+    "mysql":{
+        "user01":["127.0.0.1", 3306, "tydata0", "tuyoogame", "tuyoogame123"],
+        "user02":["127.0.0.1", 3306, "tydata1", "tuyoogame", "tuyoogame123"]
+    }
+}
+
+"redis":{ "user01":["127.0.0.1", 7979, 0, 80] }
+"user01" ---- REDIS数据库的名称
+"127.0.0.1" ---- REDIS数据库的机器地址
+7979 ---- REDIS的端口号
+0 ---- REDIS的DBID
+80 ---- REDIS连接池的最大连接数量
+
+"mysql":{"user01":["127.0.0.1", 3306, "tydata0", "tuyoogame", "tuyoogame123"]}
+"user01" ---- MYSQL数据库的名称
+"127.0.0.1" ---- MYSQL数据库的机器地址
+3306 ---- MYSQL数据库的端口号
+tydata0 ---- MYSQL的database名称
+tuyoogame ---- MYSQL的用户名称
+tuyoogame123 ---- MYSQL的用户密码
+
+

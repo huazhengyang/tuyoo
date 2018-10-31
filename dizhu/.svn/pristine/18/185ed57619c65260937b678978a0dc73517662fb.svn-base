@@ -1,0 +1,389 @@
+# -*- coding=utf-8 -*-
+'''
+Created on 2015年5月7日
+
+@author: zqh
+'''
+from dizhu.activities_wx import activity_wx_season_info, activity_wx, activity_wx_share_charm, activity_wx_active, activity_wx_charge
+from dizhu.arenamatch.match import ArenaMatchIF
+from dizhu.async_upgrade_hero_match.match_interface import CommonMatchIF
+from dizhu.bigmatch.match import BigMatch
+from dizhu.entity import dizhutodotask, dizhuconf, dizhuled, dizhuusercond, tableskin, dizhu_score_ranking, \
+    dizhu_giftbag, dizhufishing, matchhistory, dizhu_user_behaviour, dizhu_red_envelope_bomb, dizhuworship, \
+    dizhu_new_roundlist
+from dizhu.entity.official_counts import wx_official
+from dizhu.entity.reward_async import reward_async
+from dizhu.entity.segment import dizhu_segment_match, dizhu_segment_usercond
+from dizhu.entity.dizhuconf import DIZHU_GAMEID
+from dizhu.entity.matchrecord import MatchRecord
+from dizhu.erdayimatch.match import ErdayiMatch
+from dizhu.games.arenamatch.ctrlroom import DizhuCtrlRoomArenaMatch
+from dizhu.games.arenamatch.tableroom import DizhuTableRoomArenaMatch
+from dizhu.games.custom_match.ctrlroom import DizhuCtrlRoomCustomMatch
+from dizhu.games.custom_match.tableroom import DizhuTableRoomCustomMatch
+from dizhu.games.erdayimatch.ctrlroom import DizhuCtrlRoomErdayiMatch
+from dizhu.games.erdayimatch.tableroom import DizhuTableRoomErdayiMatch
+from dizhu.games.free.ctrlroom import DizhuCtrlRoomNormalFree
+from dizhu.games.free.tableroom import DizhuTableRoomNormalFree
+from dizhu.games.friend.ctrlroom import DizhuCtrlRoomFriend
+from dizhu.games.friend.tableroom import DizhuTableRoomFriend
+from dizhu.games.groupmatch.ctrlroom import DizhuCtrlRoomGroupMatch
+from dizhu.games.groupmatch.tableroom import DizhuTableRoomGroupMatch
+from dizhu.games.mix.ctrlroom import DizhuCtrlRoomMix
+from dizhu.games.mix.tableroom import DizhuTableRoomMix
+from dizhu.games.normal.ctrlroom import DizhuCtrlRoomNormal
+from dizhu.games.normal.tableroom import DizhuTableRoomNormal
+from dizhu.games.segmentmatch.ctrlroom import DizhuCtrlRoomSegmentMatch
+from dizhu.games.segmentmatch.tableroom import DizhuTableRoomSegmentMatch
+
+from dizhu.gametable.dizhu_arena_match_table import DizhuArenaMatchTable
+from dizhu.gametable.dizhu_bigmatch_table import DizhuBigMatchTable
+from dizhu.gametable.dizhu_friend_table import DizhuFriendTable
+from dizhu.gametable.dizhu_group_match_table import DizhuGroupMatchTable
+from dizhu.groupmatch.match import GroupMatch
+from dizhu.replay import replay_service
+from dizhu.room.ftroom import FTRoom
+from dizhu.tupt.ob import obsystem
+from dizhucomm.entity import skillscore
+from dizhucomm.room.base import DizhuRoom
+import freetime.util.log as ftlog
+from hall.entity import hallpopwnd, hallstartchip
+from hall.entity.todotask import TodoTaskFlipCard, TodoTaskHelper, TodoTaskExit, \
+    TodoTaskEnterGameNew
+from poker.entity.configure import gdata
+from poker.entity.events.tyevent import EventHeartBeat, OnLineTcpChangedEvent
+from poker.entity.events.tyeventbus import globalEventBus
+from poker.entity.game.game import TYGame
+from poker.entity.game.rooms import tyRoomConst
+from poker.util import strutil
+import poker.util.timestamp as pktimestamp
+from dizhu.entity.segment import duobao
+
+
+class TGDizhu(TYGame):
+    def __init__(self, *args):
+        super(TGDizhu, self).__init__()
+        
+    def initGameBefore(self):
+        '''
+        此方法由系统进行调用
+        游戏初始化的预处理
+        '''
+        from dizhu.entity import dizhutask, dizhuasset
+        from dizhu.entity import dizhupopwnd
+        tyRoomConst.ROOM_CLASS_DICT['dizhuFT'] = FTRoom
+        tyRoomConst.ROOM_CLASS_DICT['dizhu_normal'] = (DizhuCtrlRoomNormal, DizhuTableRoomNormal)
+        tyRoomConst.ROOM_CLASS_DICT['dizhu_normal_free'] = (DizhuCtrlRoomNormalFree, DizhuTableRoomNormalFree)
+        tyRoomConst.ROOM_CLASS_DICT['dizhu_group_match'] = (DizhuCtrlRoomGroupMatch, DizhuTableRoomGroupMatch)
+        tyRoomConst.ROOM_CLASS_DICT['dizhu_arena_match'] = (DizhuCtrlRoomArenaMatch, DizhuTableRoomArenaMatch)
+        tyRoomConst.ROOM_CLASS_DICT['dizhu_erdayi_match'] = (DizhuCtrlRoomErdayiMatch, DizhuTableRoomErdayiMatch)
+        tyRoomConst.ROOM_CLASS_DICT['dizhu_friend'] = (DizhuCtrlRoomFriend, DizhuTableRoomFriend)
+        tyRoomConst.ROOM_CLASS_DICT['dizhu_mix'] = (DizhuCtrlRoomMix, DizhuTableRoomMix)
+        tyRoomConst.ROOM_CLASS_DICT['dizhu_custom_match'] = (DizhuCtrlRoomCustomMatch, DizhuTableRoomCustomMatch)
+        tyRoomConst.ROOM_CLASS_DICT['dizhu_segment_match'] = (DizhuCtrlRoomSegmentMatch, DizhuTableRoomSegmentMatch)
+        ftlog.info('TGDizhu.initGameBefore',
+                   'tyRoomConst.keys=', tyRoomConst.ROOM_CLASS_DICT.keys())
+
+        dizhupopwnd._registerClasses()
+
+        dizhutask._registerClasses()
+        dizhuasset._registerClasses()
+        dizhuusercond._registerClasses()
+        dizhu_segment_usercond._registerClasses()
+        activity_wx_season_info._registerClass()
+        activity_wx_share_charm._registerClass()
+        activity_wx_active._registerClass()
+        activity_wx_charge._registerClass()
+
+    def onOnLineTcpChangedEvent(self, event):
+        ftlog.info('TGDizhu.onOnLineTcpChangedEvent userId=', event.userId,
+                   'isOnline=', event.isOnline)
+        from dizhu.entity import dizhuonlinedata
+        if not event.isOnline:
+            dizhuonlinedata.onUserOffline(event.userId)
+
+    def initGame(self):
+        serverType = gdata.serverType()
+
+        from dizhu.entity import dizhuaccount
+        from dizhu.friendtable import ft_service
+        from dizhu.activities.chargelead import ChargeLead
+
+        self._account = dizhuaccount
+        dizhuSkillScore = skillscore.GameSkillScore(DIZHU_GAMEID)
+        dizhuSkillScore.init()
+        skillscore.registerGameSkillScore(DIZHU_GAMEID, dizhuSkillScore)
+        replay_service._initialize()
+        ft_service._initialize()
+        obsystem._initialize()
+        dizhu_giftbag.initialize()
+
+        tableskin._initialize(serverType == gdata.SRV_TYPE_CENTER)
+        dizhu_score_ranking._initialize(serverType == gdata.SRV_TYPE_CENTER)
+        dizhu_segment_match._initialize(serverType == gdata.SRV_TYPE_CENTER)
+        dizhu_new_roundlist._initialize()
+        wx_official._initialize(serverType == gdata.SRV_TYPE_CENTER)
+        reward_async._initialize()
+        dizhufishing._initialize()
+        matchhistory._initialize()
+        duobao.initialize()
+        activity_wx._initialize()
+
+        if serverType == gdata.SRV_TYPE_ROBOT :
+            from dizhu.robot.robot import DizhuRobotManager
+            self._robotmgr = DizhuRobotManager()
+            globalEventBus.subscribe(EventHeartBeat, self._robotmgr.onHeartBeat)
+
+        if serverType == gdata.SRV_TYPE_UTIL:
+            from dizhu.entity import dizhuflipcard, dizhutask, dizhucoupon, dizhuranking, dizhuredenvelope
+            from dizhu.activities import activitysystem
+            from dizhu.activitynew import activitysystemnew
+            dizhuflipcard._initialize()
+            from dizhu.entity.segment import dizhu_segment_rewards
+            dizhu_segment_rewards._initialize()
+            dizhutask._initialize()
+            dizhucoupon._initialize()
+            activitysystem._initialize()
+            dizhuranking._initialize()
+            dizhuled._initialize()
+            activitysystemnew._initialize()
+            dizhuredenvelope._initialize()
+            dizhu_red_envelope_bomb._initialize()
+            dizhuworship._initialize()
+
+            from dizhu.entity import dizhushare
+            dizhushare.initialize()
+
+            MatchRecord.initialize(self.getEventBus())
+            ChargeLead.registerEvents(self.getEventBus())
+            from hall.game import TGHall
+            TGHall.getEventBus().subscribe(OnLineTcpChangedEvent, self.onOnLineTcpChangedEvent)
+
+            dizhu_user_behaviour.initBehaviourReward()
+
+            from dizhu.games.endgame import endgame
+            endgame._initialize()
+
+            from dizhu.entity import wx_follow
+            wx_follow._initialize()
+
+        from dizhu.entity.treasure_chest import treasure_chest
+        treasure_chest._initialize()
+
+        if serverType == gdata.SRV_TYPE_CENTER:
+            from dizhu.activitynew import activity_score_ranking
+            activity_score_ranking.initialize()
+
+            dizhu_user_behaviour.initialize()
+
+
+    def gameId(self):
+        '''
+        取得当前游戏的GAMEID, int值
+        '''
+        return DIZHU_GAMEID
+
+    def newTable(self, room, tableId):
+        '''
+        此方法由系统进行调用
+        更具给出的房间的基本定义信息, 创建一个TYTable的实例
+        其必须是 poker.entity.game.table.TYTable的子类
+        room 桌子所属的房间的TYRoom实例
+        tableId 新桌子实例的ID
+        '''
+        if isinstance(room, DizhuRoom):
+            return room.newTable(tableId)
+        else:
+            from dizhu.gametable.dizhu_table import DizhuTable
+            if room.roomConf['typeName'] == tyRoomConst.ROOM_TYPE_NAME_BIG_MATCH :
+                return DizhuBigMatchTable(room, tableId)
+            elif room.roomConf['typeName'] == tyRoomConst.ROOM_TYPE_NAME_ARENA_MATCH:
+                return DizhuArenaMatchTable(room, tableId)
+            elif room.roomConf['typeName'] == tyRoomConst.ROOM_TYPE_NAME_GROUP_MATCH:
+                return DizhuGroupMatchTable(room, tableId)
+            elif room.roomConf['typeName'] == tyRoomConst.ROOM_TYPE_NAME_ERDAYI_MATCH:
+                from dizhu.gametable.dizhu_erdayi_match_table import DizhuErdayiMatchTable
+                return DizhuErdayiMatchTable(room, tableId)
+            elif room.roomConf['typeName'] == tyRoomConst.ROOM_TYPE_ASYNC_UPGRADE_HERO_MATCH:
+                from dizhu.gametable.dizhu_hero_match_table import DizhuMillionHeroMatchTable
+                return DizhuMillionHeroMatchTable(room, tableId)
+            if room.roomConf['typeName'] == 'dizhuFT':
+                return DizhuFriendTable(room, tableId)
+            return DizhuTable(room, tableId)
+
+
+    def getInitDataKeys(self):
+        '''
+        取得游戏数据初始化的字段列表
+        '''
+        return self._account.getInitDataKeys()
+
+ 
+    def getInitDataValues(self):
+        '''
+        取得游戏数据初始化的字段缺省值列表
+        '''
+        return self._account.getInitDataValues()
+
+
+    def getGameInfo(self, userId, clientId):
+        '''
+        取得当前用户的游戏账户信息dict
+        '''
+        return self._account.getGameInfo(userId, clientId)
+
+
+    def getDaShiFen(self, userId, clientId):
+        '''
+        取得当前用户的游戏账户的大师分信息
+        '''
+        return self._account.getDaShiFen(userId, clientId)
+
+
+    def createGameData(self, userId, clientId):
+        '''
+        初始化该游戏的所有的相关游戏数据
+        包括: 主游戏数据gamedata, 道具item, 勋章medal等
+        返回主数据的键值和值列表
+        '''
+        return self._account.createGameData(userId, clientId)
+
+
+    def loginGame(self, userId, gameId, clientId, iscreate, isdayfirst):
+        '''
+        用户登录一个游戏, 游戏自己做一些其他的业务或数据处理
+        例如: 1. IOS大厅不发启动资金的补丁, 
+             2. 麻将的记录首次登录时间
+             3. 游戏插件道具合并至大厅道具
+        '''
+        return self._account.loginGame(userId, gameId, clientId, iscreate, isdayfirst)
+
+    def _needSendStartChip(self, gameId, userId, clientId):
+        _, clientVer, _ = strutil.parseClientId(clientId)
+        # 3.37之前是领完连续登录奖励才发的
+        if clientVer >= 3.37:
+            return hallstartchip.needSendStartChip(userId, gameId)
+        return False
+
+    def getTodoTasksAfterLogin(self, userId, gameId, clientId, isdayfirst):
+        '''
+        获取登录后的todotasks列表
+        '''
+        from dizhu.entity import dizhuflipcard
+        
+        _, clientVer, _ = strutil.parseClientId(clientId)
+        
+        ftlog.debug('TGDizhu.getTodoTasksAfterLogin userId=', userId,
+                    'gameId=', gameId,
+                    'clientId=', clientId,
+                    'isdayfirst=', isdayfirst)
+
+        if clientVer >= 3.7:
+            return
+
+        ret = []
+        timestamp = pktimestamp.getCurrentTimestamp()
+
+        #连续登录奖励
+        todotask = TodoTaskHelper.makeTodoTaskNsloginReward(gameId, userId, clientId)
+        if todotask:
+            ret.append(todotask)
+
+        status = dizhuflipcard.flipCard.loadStatus(userId, timestamp)
+        todotask = TodoTaskFlipCard(status.nslogin, False,
+                                    dizhuflipcard.encodePaddings(status.paddings),
+                                    status.getRemFlipCount(),
+                                    dizhuflipcard.encodeFlipCardMap(status.itemMap))
+        ret.append(todotask)
+
+
+        #ios 提示更新
+        iosUpgrade = hallpopwnd.makeTodoTaskByTemplate(gameId, userId, clientId, 'iosUpgrade')
+        if iosUpgrade:
+            ret.append(iosUpgrade)
+        else:
+            ftlog.debug('iosUpgrade not find')
+
+
+        # 特殊弹框
+        todotask = dizhutodotask.makeBeforeActivityTodoTasks(gameId, userId, clientId)
+        if todotask:
+            ret.append(todotask)
+
+        #活动数据
+        if not self._needSendStartChip(gameId, userId, clientId):
+            conf = dizhuconf.getPopActivityTemplate(clientId)
+            if conf:
+                todotask = dizhutodotask.makeTodoTaskPopActivity(gameId, userId, clientId, conf)
+                if todotask:
+                    ret.append(todotask)
+
+        #退出框
+        ret.append(TodoTaskExit(1))
+
+        if ftlog.is_debug():
+            ftlog.debug('TGDizhu.getTodoTasksAfterLogin userId=', userId,
+                        'gameId=', gameId,
+                        'clientId=', clientId,
+                        'isdayfirst=', isdayfirst,
+                        'ret=', [t.getAction() for t in ret])
+        return ret
+
+
+    def getBigMatchPlugin(self):
+        return BigMatch
+
+    def getArenaMatchPlugin(self):
+        return ArenaMatchIF
+
+    def getGroupMatchPlugin(self):
+        return GroupMatch
+
+    def getErdayiMatchPlugin(self):
+        return ErdayiMatch
+
+    def isWaitPigTable(self, userId, room, tableId):
+        '''
+        检查是否是杀猪状态的桌子, 缺省为非杀猪状态的桌子
+        '''
+        try:
+            killPigLevel = room.roomConf.get('killPigLevel', 0)
+            ftlog.debug('killPigLevel=', killPigLevel, userId, room, tableId)
+            if killPigLevel > 0 :
+                from dizhu.gametable import quick_kill_pig
+                if quick_kill_pig.isWaitPigTable(userId, killPigLevel, room, tableId) :
+                    return 1
+        except:
+            ftlog.error()
+        return 0
+
+    def checkFriendTable(self, ftId):
+        '''
+        校验亲友/熟人场
+        0 - 有效
+        1 - 无效
+        
+        返回值：
+        第一个参数返回结果，第二个参数返回描述
+        '''
+        from dizhu.friendtable import ft_service
+        return ft_service.ftExists(ftId)
+
+    def enterFriendTable(self, userId, gameId, clientId, ftId):
+        todotask = TodoTaskEnterGameNew(DIZHU_GAMEID, {
+                                                        'type':'game',
+                                                        'pluginParams':{
+                                                            'gameType':9, 'ftId':ftId, 'action':'enter'
+                                                        }
+                                        })
+        TodoTaskHelper.sendTodoTask(DIZHU_GAMEID, userId, todotask)
+        
+    def getCommonMatchPlugin(self):
+        return CommonMatchIF
+    
+TGDizhu = TGDizhu()
+
+
+def getInstance():
+    return TGDizhu
+

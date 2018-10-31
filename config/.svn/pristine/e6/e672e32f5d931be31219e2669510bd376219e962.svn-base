@@ -1,0 +1,36 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "新疯狂国标麻将"
+     ],
+     "md5"              : "3b131021da5983faa9138ab43af9ba83",
+     "ver"              : "5.03",
+     "url"              : "${http_download}/hall/plugin/game/mj_fengkuang_5.03v7.zip",
+     "size"             : "8.8M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "新疯狂国标麻将"
+     ],
+     "md5"              : "59edf570c8f9950e1ab41e90c28b3409",
+     "ver"              : "5.06",
+     "url"              : "${http_download}/hall/plugin/game/mj_fengkuang_5.06_07.zip",
+     "size"             : "8.5M"
+    }
+   ],
+   "description"      : [
+    "新疯狂国标麻将"
+   ],
+   "gameId"           : 700,
+   "gameMark"         : "guobiao"
+  }
+ ],
+ "templates"        : [ ]
+}

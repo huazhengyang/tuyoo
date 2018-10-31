@@ -1,0 +1,87 @@
+{
+    "exchanges":[
+        {
+            "exchangeId":99990001,
+            "name":"1000",
+            "desc":"10元微信红包",
+            "pic":"${http_download}/hall/promote/imgs/yaoqingbtn_tiny_10.png",
+            "cost":1000,
+            "content":{
+                "typeId":"FixedContent",
+                "items":[
+                    {"itemId":"item:2244", "count":1}
+                ]
+            }
+        },
+        {
+            "exchangeId":99990002,
+            "name":"3000",
+            "desc":"30元微信红包",
+            "pic":"${http_download}/hall/promote/imgs/yaoqingbtn_tiny_30.png",
+            "cost":3000,
+            "content":{
+                "typeId":"FixedContent",
+                "items":[
+                    {"itemId":"item:2247", "count":1}
+                ]
+            }
+        },
+        {
+            "exchangeId":99990003,
+            "name":"3000",
+            "desc":"30元微信红包",
+            "pic":"${http_download}/hall/promote/imgs/yaoqingbtn_tiny_30.png",
+            "cost":3000,
+            "content":{
+                "typeId":"FixedContent",
+                "items":[
+                    {"itemId":"item:2247", "count":1}
+                ]
+            }
+        },
+        {
+            "exchangeId":99990004,
+            "name":"3000",
+            "desc":"30元微信红包",
+            "pic":"${http_download}/hall/promote/imgs/yaoqingbtn_tiny_30.png",
+            "cost":3000,
+            "content":{
+                "typeId":"FixedContent",
+                "items":[
+                    {"itemId":"item:2247", "count":1}
+                ]
+            }
+        },
+        {
+            "exchangeId":99990005,
+            "name":"5000",
+            "desc":"50元微信红包",
+            "pic":"${http_download}/hall/promote/imgs/yaoqingbtn_tiny_50.png",
+            "cost":5000,
+            "content":{
+                "typeId":"FixedContent",
+                "items":[
+                    {"itemId":"item:2248", "count":1}
+                ]
+            }
+        }
+    ],
+    "vipExchangeList":[
+        {
+            "vipRange":[0, 0],
+            "exchangeIds":[99990001]
+        },
+        {
+            "vipRange":[1, 1],
+            "exchangeIds":[99990001]
+        },
+        {
+            "vipRange":[2, 2],
+            "exchangeIds":[99990001]
+        },
+        {
+            "vipRange":[3, -1],
+            "exchangeIds":[99990001]
+        }
+    ]
+}

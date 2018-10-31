@@ -1,0 +1,192 @@
+{
+	"dogs": [
+		{"id": 1, "name": "高加索"},
+		{"id": 2, "name": "金毛"},
+		{"id": 3, "name": "萨摩耶"},
+		{"id": 4, "name": "沙皮"},
+		{"id": 5, "name": "泰迪"},
+		{"id": 6, "name": "腊肠"}
+	],
+	"baseDogList": [1, 3, 4, 6, 7, 8],
+	"public": {
+		"ledBaseChip": 500000000,
+		"ledKingAtMinute": 60
+	},
+	"relatedGames": [
+		{"type": "game", "typeId": "clown", "gameId": 27, "vipLevel":1, "enter_param": {"gameType": 1}, "isOffline": 0},
+		{"type": "game", "typeId": "newfruit", "gameId": 31, "vipLevel":0, "enter_param" : {"gameType" : 1}, "isOffline": 0}
+	],
+	"bet": {
+		"vip_required_for_bet": 1,
+		"limit_chip": 20000,
+		"bet_range": [2000, 10000, 50000, 100000],
+		"default_bet_chip": 10000,
+		"vip_required_for_repeat_bet": 3,
+		"bet_chip_uplimit": 4000000,
+		"win_tops": 5,
+		"time_interval": {
+			"one_round": 35,
+			"seal": 3
+		}
+	},
+	"open_rate": {
+		"dogs": [
+			{"id": 12, "rate": 2208, "times": 4},
+			{"id": 13, "rate": 1472, "times": 6},
+			{"id": 14, "rate": 1104, "times": 8},
+			{"id": 15, "rate": 880, "times": 10},
+			{"id": 16, "rate": 437, "times": 20},
+			{"id": 23, "rate": 885, "times": 10},
+			{"id": 24, "rate": 736, "times": 12},
+			{"id": 25, "rate": 624, "times": 24},
+			{"id": 26, "rate": 219, "times": 40},
+			{"id": 34, "rate": 491, "times": 18},
+			{"id": 35, "rate": 363, "times": 24},
+			{"id": 36, "rate": 144, "times": 60},
+			{"id": 45, "rate": 245, "times": 36},
+			{"id": 46, "rate": 107, "times": 80},
+			{"id": 56, "rate": 85, "times": 100}
+		],
+		"dog_speed_tools": [
+			[0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+			[0, 1, 1, 1, -1, 0, 0, 0, 0, 0],
+			[0, 1, 1, -1, 0, 0, 0, 0, 0, 0],
+			[0, 1, -1, 0, 0, 0, 0, 0, 0, 0],
+			[0, 1, -1, -1, 0, 0, 0, 0, 0, 0],
+			[0, -1, -1, 0, 0, 0, 0, 0, 0, 0]
+		],
+		"return_reward_limit": [
+			{"low_return": 0, "up_return": 85, "limit_times": 20},
+			{"low_return": 85, "up_return": 90, "limit_times": 10},
+			{"low_return": 90, "up_return": 95, "limit_times": 5},
+			{"low_return": 95, "up_return": -1, "limit_times": 2}
+		]
+	},
+	"fire": {
+		"user": {
+			"price": 100000,
+			"count": [1, 5, 10],
+			"basefee": [21888, 155200, 328200],
+			"rewards": [
+				{
+					"big": {"chip": 10000, "number": 1},
+					"small": {"chip": 688, "number": 99}
+				},
+				{
+					"big": {"chip": 38888, "number": 1},
+					"small": {"chip": 2888, "number": 99}
+				},
+				{
+					"big": {"chip": 88888, "number": 1},
+					"small": {"chip": 5888, "number": 99}
+				}
+			],
+			"broadcast_sys_msgs": [
+				"富农{name}放了10万大礼花！",
+				"土豪{name}放了50万大礼花！",
+				"惊呆了，超级土豪{name}放了一百万大礼花，赶紧膜拜吧！"
+			],
+			"reward_msgs": [
+				"恭喜您获得富农{name}的礼金{chip}金币！",
+				"恭喜您获得土豪{name}的礼金{chip}金币！",
+				"恭喜您获得超级土豪{name}的礼金{chip}金币！"
+			],
+			"msg_lable_types": [0, 0, 2]
+		},
+		"system": {
+			"begin": "2016-07-22 12:00:00",
+			"end": "2017-07-22 12:00:00",
+			"times_per_hour": 1,
+			"least_interval": 10,
+			"guixie_name": "系统",
+			"fire_index": 0,
+			"basefee": 31888,
+			"reward": {
+				"small": {"chip": 688, "number": 99}
+			},
+			"broadcast_sys_msg": "系统发放了1个大礼花！",
+			"reward_msg": "恭喜您获得系统发放的礼金{chip}金币！"
+		}
+	},
+	"pool": {
+		"choushui_rate": [
+			{"minChip": 3000000000, "maxChip": -1, "rate": 0.01},
+			{"minChip": 0, "maxChip": 3000000000, "rate": 0.05}
+		],
+		"init_chip": 3000000000,
+		"base_chip": 1000000000,
+		"trigger_dogs": [16, 26, 36, 46, 56],
+		"trigger_rate": 2,
+		"pool_list_len": 20,
+		"guide": [
+			"彩池奖励：\n除获得基础奖励倍数后，再获得一次同样倍数的奖励。",
+			"凡是押中带6小狗的前两只小狗，都有概率触发彩池。\n例如：\n押100万5-6小狗的，中奖后将给予基础奖励100倍后，再给予100倍的彩池奖励，总共200倍2亿奖励。"
+		]
+	},
+	"history": {
+		"num": 20
+	},
+	"king": {
+		"today": {
+			"game_count": 20,
+			"bi_count": 30
+		},
+		"week": {
+			"day_count": 7
+		},
+		"reward": 20000000
+	},
+	"products": {
+		"androidVipTableBuyLeastChip": [
+			80000,
+			80000,
+			360000,
+			360000,
+			1500000,
+			1500000,
+			5000000,
+			20000000,
+			20000000,
+			20000000,
+			20000000
+		],
+		"iosVipTableBuyLeastChip": [
+			60000,
+			60000,
+			360000,
+			1400000,
+			3000000,
+			5500000,
+			12000000,
+			12000000,
+			12000000,
+			12000000,
+			12000000
+		]
+	},
+	"chat": {
+		"vip_required": 5,
+		"interval_chat": 10,
+		"period_after_guixie": 60,
+		"welcome_vip_limit": 6,
+		"welcome_vip_msg_fmt": "欢迎土豪{name}VIP{VIPLevel}进入房间!",
+		"define_chat": [
+			"跪谢土豪",
+			"赢那么多,放个礼花吧~",
+			"彩池要爆炸啦,快上啊!",
+			"玩太小没意思,来把大的!",
+			"告诉你一个秘密,这局我赢定了!",
+			"这都能中,赶紧买彩票吧!",
+			"再来一把,我就不信这个邪!",
+			"全押腊肠,玩的就是心跳!",
+			"买大狗,积少成多!",
+			"追小狗,赢了发大财!",
+			"搏一搏单车变摩托!",
+			"大家好啊,今天买什么呢?"
+		],
+		"period_sysmsg": 600,
+		"game_define_sysmsg": [
+		]
+	},
+	"randomRank": 25
+}

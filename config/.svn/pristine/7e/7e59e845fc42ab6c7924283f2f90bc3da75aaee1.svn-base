@@ -1,0 +1,34 @@
+{
+  "buyinchip" : 30000,
+  "dummyUserCount" : 0,
+  "gameRule" : "classic",
+  "hasrobot" : 0,
+  "ismatch" : 0,
+  "level" : "master",
+  "matchConf" : null,
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : 200000,
+  "minCoinQS" : 200000,
+  "name" : "大师场",
+  "nameUrl" : "http://ddz.dl.tuyoo.com/cdn37/majiang/images/others/mahjong_room_tle_4.png",
+  "playMode" : "sichuan_dq",
+  "redEnvelopeLevel" : "master",
+  "tableConf" : {
+    "base_chip" : 10000,
+    "big_degree_fee" : [
+      30,
+      0.1,
+      200
+    ],
+    "change3_timeout" : 10,
+    "decide_absence_timeout" : 8,
+    "good_tile_chance" : 1.5,
+    "maxSeatN" : 4,
+    "play_timeout" : 8,
+    "room_coefficient" : 6,
+    "service_fee" : 2000
+  },
+  "typeName" : "normal"
+}

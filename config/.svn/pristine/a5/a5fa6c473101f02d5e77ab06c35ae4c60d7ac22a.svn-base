@@ -1,0 +1,126 @@
+{
+    "5101": {
+        "itemId": "item:1198",
+        "vip_lvl": 0, 
+        "used_weapon": 0, 
+        "global_cd": [
+            5014, 
+            5015, 
+            5101
+        ], 
+        "dmd_cost": 2, 
+        "cool_down": 18, 
+        "player_lvl": 0, 
+        "duration": 18, 
+        "skill_name": "string_suoding", 
+        "skillId": 5101
+    }, 
+    "5102": {
+        "itemId": "item:1199",
+        "vip_lvl": 0, 
+        "used_weapon": 0, 
+        "global_cd": 0, 
+        "dmd_cost": 5, 
+        "cool_down": 10, 
+        "player_lvl": 0, 
+        "duration": 10, 
+        "skill_name": "string_bingfeng", 
+        "skillId": 5102
+    }, 
+    "5103": {
+        "itemId": "item:1200",
+        "vip_lvl": 0, 
+        "used_weapon": 0, 
+        "global_cd": 0, 
+        "dmd_cost": 2, 
+        "cool_down": 2, 
+        "player_lvl": 0, 
+        "duration": 0, 
+        "skill_name": "string_zhaohuan", 
+        "skillId": 5103
+    }, 
+    "5104": {
+        "itemId": "item:1201",
+        "vip_lvl": 3, 
+        "used_weapon": 0, 
+        "global_cd": 1, 
+        "dmd_cost": 20, 
+        "cool_down": 18, 
+        "player_lvl": 0, 
+        "duration": 18, 
+        "skill_name": "string_kuangbao1", 
+        "skillId": 5104
+    }, 
+    "5106": {
+        "itemId": "item:1202",
+        "vip_lvl": 0, 
+        "used_weapon": 2201, 
+        "global_cd": 2, 
+        "dmd_cost": 0, 
+        "cool_down": 20, 
+        "player_lvl": 0, 
+        "duration": 0, 
+        "skill_name": "string_jiguang1", 
+        "skillId": 5106
+    }, 
+    "5107": {
+        "itemId": "item:1203",
+        "vip_lvl": 0, 
+        "used_weapon": 2202, 
+        "global_cd": 2, 
+        "dmd_cost": 0, 
+        "cool_down": 20, 
+        "player_lvl": 0, 
+        "duration": 0, 
+        "skill_name": "string_jiguang2", 
+        "skillId": 5107
+    }, 
+    "5108": {
+        "itemId": "item:1204",
+        "vip_lvl": 0, 
+        "used_weapon": 2203, 
+        "global_cd": 2, 
+        "dmd_cost": 0, 
+        "cool_down": 20, 
+        "player_lvl": 0, 
+        "duration": 0, 
+        "skill_name": "string_jiguang3", 
+        "skillId": 5108
+    }, 
+    "5109": {
+        "itemId": "item:1205",
+        "vip_lvl": 0, 
+        "used_weapon": 2204, 
+        "global_cd": 2, 
+        "dmd_cost": 0, 
+        "cool_down": 20, 
+        "player_lvl": 0, 
+        "duration": 0, 
+        "skill_name": "string_jiguang4", 
+        "skillId": 5109
+    }, 
+    "5110": {
+        "itemId": "item:1206",
+        "vip_lvl": 2, 
+        "used_weapon": 2205, 
+        "global_cd": 3,
+        "dmd_cost": 200, 
+        "cool_down": 20, 
+        "player_lvl": 0, 
+        "duration": 0, 
+        "skill_name": "string_hedan", 
+        "skillId": 5110
+    }, 
+    "5111": {
+        "itemId": "item:1219",
+        "vip_lvl": 5, 
+        "used_weapon": 2206, 
+        "global_cd": 3,
+        "dmd_cost": 2000, 
+        "cool_down": 20, 
+        "player_lvl": 0, 
+        "duration": 0, 
+        "skill_name": "string_chaojihedan", 
+        "skillId": 5111
+    }
+}

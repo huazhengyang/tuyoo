@@ -1,0 +1,67 @@
+{
+	"_desc1": "filterGameIds 需要过滤的游戏ID",
+	"_desc2": "passHall 忽略（不进行gamelist过滤）包含[ hallXX. ]的clientId",
+	"_desc3": "passClientVer 忽略小于这个版本号的clientId",
+	"_desc4": "passVipLevel 忽略 VIP级别大于等于此级别的用户",
+	"_desc5": "passTotalPlayTime 忽略 游戏时长大于等于此时长的用户",
+	"_desc6": "filterClientIds 只有在此列表中的clientId 才进行检查",
+	"_desc7": "enableIpCheck 等于1时进行北京地区IP的检查，否则不检查, 即： 忽略北京地区外的IP地址",
+	"_desc8": "badGameIds 一定要删除的gameId",
+	"filterGameIds": [
+		10,
+		16,
+		30,
+		23,
+		38
+	],
+	"badGameIds": [
+	],
+	"passHall": [
+	],
+	"filterHall": [
+		"hall6",
+		"hall7",
+		"hall3",
+		"hall20",
+		"hall25",
+		"hall21",
+		"hall17"
+	],
+	"filterHall_special": [
+		"hall8",
+		"hall10",
+		"hall30"
+	],
+	"passClientVer": 3.9,
+	"passClientVer_special_game": 3.9,
+	"passVipLevel": 4,
+	"group1_passVipLevel": 5,
+	"group2_key_area_passVipLevel": 14,
+	"group2_passVipLevel": 4,
+	"group3_key_area_passVipLevel": 2,
+	"group3_passVipLevel": 2,
+	"group1_games": [
+		30,
+		10,
+		88,
+		16
+	],
+	"group2_games": [
+		38,
+		89
+	],
+	"group3_games": [
+	],
+	"passTotalPlayTime": 3600,
+	"group1_passTotalPlayTime": 7200,
+	"group2_passTotalPlayTime": 3600,
+	"group3_key_area_passTotalPlayTime": 1800,
+	"group3_passTotalPlayTime": 1800,
+	"enableIpCheck": 1,
+	"filterClientIds": [
+	],
+	"group2018_games": [
+		38,
+		89
+	]
+}

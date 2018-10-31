@@ -1,0 +1,95 @@
+{
+  "html_items" : {
+
+    "shop":{
+      "style":    0,
+      "title":    "商店",
+      "tabs":     [["金币", "${http_download}/douniu/shop_1.html"], ["道具", "${http_download}/douniu/shop_2.html"]]
+      },
+
+    "task":{
+      "style":    0,
+      "title":    "任务",
+      "tabs":     [["", "${http_download}/douniu/task_1.html"]]
+      },
+
+    "message":{
+      "style":    0,
+      "title":    "消息",
+      "tabs":     [["我的消息", "${http_download}/douniu/message_1.html"], ["系统公告", "${http_download}/douniu/message_2.html"]]
+      },
+
+    "help":{
+      "style":    0,
+      "title":    "帮助",
+      "tabs":     [["游戏规则", "${http_download}/douniu/helps/game_rools.html"], ["牌型介绍", "${http_download}/douniu/helps/card_type_introduce.html"]]
+      },
+
+    "rank":{
+      "style":    0,
+      "title":    "排行榜",
+      "tabs":     [["", "${http_download}/douniu/rank_1.html"]]
+      },
+
+    "feedback":{
+      "style":    0,
+      "title":    "意见反馈",
+      "tabs":     [["", "${http_download}/douniu/feedback_1.html"]]
+      },
+
+    "activity":  {
+      "style":    0,
+      "title":    "活动",
+      "tabs":     [["", "${http_download}/douniu/activity_1.html"]]
+      },
+
+    "joysticks": {
+      "style":    0,
+      "title":    "更多游戏",
+      "tabs":     [["", "${http_download}/douniu/joysticks_1.html"]]
+      },
+
+    "bigprize": {
+      "style":    0,
+      "title":    "背包",
+      "tabs":     [["普通道具", "${http_download}/douniu/bag_1.html"], ["特殊道具", "${http_download}/douniu/bag_2.html"], ["兑换", "${http_download}/douniu/bag_3.html"]]
+      },
+
+    "dlg_quit": {
+      "style":    1,
+      "title":    "退出",
+      "url":      ""
+      },
+
+    "daylogin": {
+      "style":    0,
+      "title":    "每日登录",
+      "tabs":     [["每日登录", ""], ["公告消息", ""], ["两元抽奖", ""]]
+      },
+
+    "reward": {
+      "style":    0,
+      "title":    "领奖",
+      "tabs":[["我的领奖", "${http_download}/douniu/message_1.html"], ["系统领奖", "${http_download}/douniu/message_2.html"]]
+    }
+
+    },
+
+    "templates" : {
+      "default": {
+        "shop":         "shop",
+        "task":         "task",
+        "message":      "message",
+        "help":         "help",
+        "rank":         "rank",
+        "feedback":     "feedback",
+        "activity":     "activity",
+        "joysticks":    "joysticks",
+        "reward":       "reward",
+        "bigprize":     "bigprize",
+        "dlg_quit":     "dlg_quit",
+        "daylogin":     "daylogin"
+    }
+  }
+  
+}

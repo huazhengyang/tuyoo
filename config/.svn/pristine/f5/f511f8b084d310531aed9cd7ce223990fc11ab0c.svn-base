@@ -1,0 +1,528 @@
+{
+"displayCond":{
+         "typeId":"user.cond.or",
+         "list":[
+            {
+                "typeId": "user.cond.datetime",
+                "format": "%Y-%m-%d %H:%M:%S",
+                "start": "2017-07-21 21:00:00",
+                "end": "2017-08-18 21:00:00"
+            }
+        ]
+    },
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "开赛时间：周一至周五21点 \n报名费用：免费",
+    "fees" : [],
+    "rank.rewards" : [
+      {
+        "desc" : "TUPT深圳线下决赛邀请函1张+养生壶兑换券1张+2000大师分",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+		  {
+            "count" : 1,
+            "itemId" : "item:1007"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:2116"
+			
+          },
+          {
+            "count" : 2000,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "600万金币+TUPT分站周赛门票x1+1000大师分",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 6000000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:3095"
+          },
+		  {
+            "count" : 1000,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "360万金币+TUPT分站周赛门票x1+600大师分",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 3600000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:3095"
+          },
+		  {
+            "count" : 600,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "120万金币+TUPT分站周赛门票x1+200大师分",
+        "ranking" : {
+          "end" : 5,
+          "start" : 4
+        },
+        "rewards" : [
+          {
+            "count" : 1200000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:3095"
+          },
+		  {
+            "count" : 200,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "60万金币+TUPT分站周赛门票x1+100大师分",
+        "ranking" : {
+          "end" : 10,
+          "start" : 6
+        },
+        "rewards" : [
+          {
+            "count" : 600000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:3095"
+          },
+		  {
+            "count" : 100,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "36万金币+TUPT分站周赛门票x1+60大师分",
+        "ranking" : {
+          "end" : 20,
+          "start" : 11
+        },
+        "rewards" : [
+          {
+            "count" : 360000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:3095"
+          },
+		  {
+            "count" : 60,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "24万金币+TUPT分站周赛门票x1+40大师分",
+        "ranking" : {
+          "end" : 40,
+          "start" : 21
+        },
+        "rewards" : [
+          {
+            "count" : 240000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:3095"
+          },
+		  {
+            "count" : 40,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "12万金币+TUPT分站周赛门票x1+20大师分",
+        "ranking" : {
+          "end" : 80,
+          "start" : 41
+        },
+        "rewards" : [
+          {
+            "count" : 120000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:3095"
+          },
+		  {
+            "count" : 20,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "72000金币+TUPT分站周赛门票x1+12大师分",
+        "ranking" : {
+          "end" : 150,
+          "start" : 81
+        },
+        "rewards" : [
+          {
+            "count" : 72000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:3095"
+          },
+		  {
+            "count" : 12,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "12000金币+TUPT分站周赛门票x1+2大师分",
+        "ranking" : {
+          "end" : 240,
+          "start" : 151
+        },
+        "rewards" : [
+          {
+            "count" : 12000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:3095"
+          },
+		  {
+            "count" : 2,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "6000金币+TUPT分站周赛门票x1+1大师分",
+        "ranking" : {
+          "end" : 1000,
+          "start" : 241
+        },
+        "rewards" : [
+          {
+            "count" :6000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:3095"
+          },
+		  {
+            "count" : 1,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "3600金币+TUPT分站周赛门票x1",
+        "ranking" : {
+          "end" : 1500,
+          "start" : 1001
+        },
+        "rewards" : [
+          {
+            "count" : 3600,
+            "itemId" : "user:chip"
+          },
+		  {
+            "count" : 1,
+            "itemId" : "item:3095"
+          }
+        ]
+       },
+	   {
+        "desc" : "3000金币",
+        "ranking" : {
+          "end" : 2000,
+          "start" : 1501
+        },
+        "rewards" : [
+          {
+            "count" : 3000,
+            "itemId" : "user:chip"
+          }
+        ]
+      }
+    ],
+    "stages" : [
+      {
+        "animation.type" : 0,
+        "card.count" : 15,
+        "chip.base" : 1000,
+        "chip.grow" : 0.3,
+        "chip.grow.base" : 300,
+        "chip.grow.incr" : 100,
+        "chip.times" : 60,
+        "chip.user" : 20000,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 0,
+        "grouping.type" : 2,
+        "grouping.user.count" : 3000,
+        "lose.user.chip" : 0,
+        "name" : "海选赛",
+        "rise.user.count" : 810,
+        "rise.user.refer" : 1080,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 0,
+        "card.count" : 15,
+        "chip.base" : 1000,
+        "chip.grow" : 0.2,
+        "chip.grow.base" : 200,
+        "chip.grow.incr" : 100,
+        "chip.times" : 60,
+        "chip.user" : 3,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 20000,
+        "lose.user.chip" : 0,
+        "name" : "晋级赛",
+        "rise.user.count" : 810,
+        "rise.user.refer" : 1080,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 0,
+        "card.count" : 15,
+        "chip.base" : 1000,
+        "chip.grow" : 0.2,
+        "chip.grow.base" : 200,
+        "chip.grow.incr" : 100,
+        "chip.times" : 60,
+        "chip.user" : 3,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 20000,
+        "lose.user.chip" : 0,
+        "name" : "晋级赛",
+        "rise.user.count" : 192,
+        "rise.user.refer" : 256,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 3,
+        "chip.user.3.base" : 300,
+        "name" : "192强赛",
+        "call.type": "inturn",
+        "rise.user.count" : 96,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "96强赛",
+        "call.type": "inturn",
+        "rise.user.count" : 48,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "48强赛",
+        "call.type": "inturn",
+        "rise.user.count" : 24,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "24强赛",
+        "call.type": "inturn",
+        "rise.user.count" : 12,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "12强赛",
+        "call.type": "inturn",
+        "rise.user.count" : 6,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "6强赛",
+        "call.type": "inturn",
+        "rise.user.count" : 3,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 2,
+        "card.count" : 6,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "决赛",
+        "call.type": "inturn",
+        "rise.user.count" : 1,
+        "seat.principles" : 2,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 0,
+      "maxplaytime" : 10800,
+      "prepare.times" : 10,
+      "signin.times" : 86400,
+      "start.speed" : 8,
+      "table.times" : 480,
+      "times" : {
+        "days" : {
+          "list" : [
+			"20170810",
+			"20170811",
+			"20170814",
+			"20170815",
+			"20170816",
+			"20170817",
+			"20170818"
+          ]
+        },
+        "times_in_day" : {
+          "list" : [
+            "21:00"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 15000,
+      "user.maxsize" : 15000,
+	  "signin.maxsize":15000,
+      "user.minsize" : 30,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 3,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。",
+        "积分低于淘汰分数线会被淘汰，称打立出局。",
+        "打立赛制有局数上限，打满局数会等待他人。",
+        "打立阶段，轮空时会记1局游戏。",
+        "定局赛制，指打固定局数后按积分排名。",
+        "每局会按照开局时的底分结算。",
+        "比赛流局时，可能会有积分惩罚。"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "TUPT丨深圳分站海选赛",
+  "canQuit": 0,
+  "topindex" : 99,
+  "championLed" : "冠军led显示",
+  "rewardShow" : "TUPT深圳站线下决赛邀请函+养生壶兑换券1张",
+  "playDesc" : "",
+  "playMode" : "123",
+  "robotUserCallUpTime" : 5,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    2,
+    3
+  ],
+  "roomFee" : 45,
+  "roomMutil" : 50,
+  "showCard" : 0,
+  "tableConf" : {
+    "autochange" : 1,
+    "basebet" : 1,
+    "basemulti" : 1,
+    "canchat" : 0,
+    "cardNoteDiamond" : 12,
+    "coin2chip" : 1,
+    "grab" : 0,
+    "gslam" : 128,
+    "lucky" : 0,
+    "maxSeatN" : 3,
+    "optime" : 15,
+    "passtime" : 5,
+    "rangpaiMultiType" : 1,
+    "robottimes" : 2,
+    "tbbox" : 0,
+    "unticheat" : 0
+  },
+  "typeName" : "dizhu_group_match",
+  "winDesc" : ""
+}

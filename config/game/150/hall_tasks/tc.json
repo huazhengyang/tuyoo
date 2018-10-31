@@ -1,0 +1,18 @@
+{
+    "taskUnits": [
+    ],
+    "templates": {
+        "pdk_youlepdk": {
+            "hall.task.newuser": "hall.task.youlepdk"
+        },
+        "pdk_sqypdk": {
+            "hall.task.newuser": "hall.task.sqypdk"
+        },
+        "pdk_iossqypdk": {
+            "hall.task.newuser": "hall.task.iossqypdk"
+        },
+        "pdk_iosyoulepdk": {
+            "hall.task.newuser": "hall.task.iosyoulepdk"
+        }
+    }
+}

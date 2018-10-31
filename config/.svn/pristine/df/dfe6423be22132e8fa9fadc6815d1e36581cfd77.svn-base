@@ -1,0 +1,36 @@
+{
+    "hasrobot": 0,
+    "isMatch": 0,
+    "name": "秘海宝藏(300倍场)",
+    "sceneName": "string_mhbz",
+    "fishPool": 6,
+    "bullets": [
+        1000,
+        2000,
+        5000,
+        10000
+    ],
+    "multiple": 300,
+    "lack": 100,
+    "showLevel": 10,
+    "minLevel": 15,
+    "maxLevel": 999,
+    "expLimitLevel": 999,
+    "minCoin": 300000,
+    "maxCoin": -1,
+    "minGunLevel": 2115,
+    "maxGunLevel": 2130,
+    "maxSkillLevel": 20,
+    "taskLoopInterval": 1800,
+    "ncmptt1TaskInterval": 176,
+    "cmpttTaskInterval": 709,
+    "ncmptt2TaskInterval": 1076,
+    "bonusTaskInterval": 1609,
+    "minBonus": 5000,
+    "systemBonus": 0,
+    "typeName": "fish_normal",
+    "tableConf": {
+        "fishGroupsName": "string_mhbz",
+        "maxSeatN": 4
+    }
+}

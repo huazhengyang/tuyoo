@@ -1,0 +1,1209 @@
+{
+    "couponFish": {
+        "1": {
+            "fishPool": 1, 
+            "totalBullet": 20000, 
+            "minSecond": 180, 
+            "maxSecond": 1200, 
+            "fishes": [
+                {
+                    "probb": [
+                        1, 
+                        10000
+                    ], 
+                    "fishType": 29054
+                }
+            ]
+        }, 
+        "2": {
+            "fishPool": 2, 
+            "totalBullet": 36000, 
+            "minSecond": 180, 
+            "maxSecond": 1200, 
+            "fishes": [
+                {
+                    "probb": [
+                        1, 
+                        3500
+                    ], 
+                    "fishType": 15036
+                }, 
+                {
+                    "probb": [
+                        3501, 
+                        6500
+                    ], 
+                    "fishType": 15037
+                }, 
+                {
+                    "probb": [
+                        6501, 
+                        10000
+                    ], 
+                    "fishType": 27079
+                }
+            ]
+        }, 
+        "3": {
+            "fishPool": 3, 
+            "totalBullet": 50000, 
+            "minSecond": 180, 
+            "maxSecond": 1200, 
+            "fishes": [
+                {
+                    "probb": [
+                        1, 
+                        3500
+                    ], 
+                    "fishType": 15039
+                }, 
+                {
+                    "probb": [
+                        3501, 
+                        6500
+                    ], 
+                    "fishType": 15055
+                }, 
+                {
+                    "probb": [
+                        6501, 
+                        10000
+                    ], 
+                    "fishType": 27080
+                }
+            ]
+        }, 
+        "4": {
+            "fishPool": 4, 
+            "totalBullet": 60000, 
+            "minSecond": 180, 
+            "maxSecond": 1200, 
+            "fishes": []
+        }, 
+        "5": {
+            "fishPool": 5, 
+            "totalBullet": 60000, 
+            "minSecond": 180, 
+            "maxSecond": 1200, 
+            "fishes": []
+        }, 
+        "6": {
+            "fishPool": 6, 
+            "totalBullet": 64000, 
+            "minSecond": 180, 
+            "maxSecond": 1200, 
+            "fishes": [
+                {
+                    "probb": [
+                        1, 
+                        4200
+                    ], 
+                    "fishType": 15056
+                }, 
+                {
+                    "probb": [
+                        4201, 
+                        7500
+                    ], 
+                    "fishType": 15057
+                }, 
+                {
+                    "probb": [
+                        7501, 
+                        10000
+                    ], 
+                    "fishType": 15058
+                }
+            ]
+        }
+    }, 
+    "multipleFish": {
+        "1": [
+            {
+                "multiple": 2, 
+                "probb": [
+                    1, 
+                    1800
+                ], 
+                "highProbb": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "multiple": 3, 
+                "probb": [
+                    1801, 
+                    5800
+                ], 
+                "highProbb": [
+                    1, 
+                    500
+                ]
+            }, 
+            {
+                "multiple": 5, 
+                "probb": [
+                    5801, 
+                    8320
+                ], 
+                "highProbb": [
+                    501, 
+                    1500
+                ]
+            }, 
+            {
+                "multiple": 10, 
+                "probb": [
+                    8321, 
+                    9850
+                ], 
+                "highProbb": [
+                    1501, 
+                    5000
+                ]
+            }, 
+            {
+                "multiple": 20, 
+                "probb": [
+                    9851, 
+                    9950
+                ], 
+                "highProbb": [
+                    5001, 
+                    8050
+                ]
+            }, 
+            {
+                "multiple": 50, 
+                "probb": [
+                    9951, 
+                    10000
+                ], 
+                "highProbb": [
+                    8051, 
+                    10000
+                ]
+            }
+        ], 
+        "2": [
+            {
+                "multiple": 2, 
+                "probb": [
+                    1, 
+                    1800
+                ], 
+                "highProbb": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "multiple": 3, 
+                "probb": [
+                    1801, 
+                    5800
+                ], 
+                "highProbb": [
+                    1, 
+                    500
+                ]
+            }, 
+            {
+                "multiple": 5, 
+                "probb": [
+                    5801, 
+                    8320
+                ], 
+                "highProbb": [
+                    501, 
+                    1500
+                ]
+            }, 
+            {
+                "multiple": 10, 
+                "probb": [
+                    8321, 
+                    9850
+                ], 
+                "highProbb": [
+                    1501, 
+                    5000
+                ]
+            }, 
+            {
+                "multiple": 20, 
+                "probb": [
+                    9851, 
+                    9950
+                ], 
+                "highProbb": [
+                    5001, 
+                    8050
+                ]
+            }, 
+            {
+                "multiple": 50, 
+                "probb": [
+                    9951, 
+                    10000
+                ], 
+                "highProbb": [
+                    8051, 
+                    10000
+                ]
+            }
+        ], 
+        "3": [
+            {
+                "multiple": 2, 
+                "probb": [
+                    1, 
+                    1800
+                ], 
+                "highProbb": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "multiple": 3, 
+                "probb": [
+                    1801, 
+                    5800
+                ], 
+                "highProbb": [
+                    1, 
+                    500
+                ]
+            }, 
+            {
+                "multiple": 5, 
+                "probb": [
+                    5801, 
+                    8320
+                ], 
+                "highProbb": [
+                    501, 
+                    1500
+                ]
+            }, 
+            {
+                "multiple": 10, 
+                "probb": [
+                    8321, 
+                    9850
+                ], 
+                "highProbb": [
+                    1501, 
+                    5000
+                ]
+            }, 
+            {
+                "multiple": 20, 
+                "probb": [
+                    9851, 
+                    9950
+                ], 
+                "highProbb": [
+                    5001, 
+                    8050
+                ]
+            }, 
+            {
+                "multiple": 50, 
+                "probb": [
+                    9951, 
+                    10000
+                ], 
+                "highProbb": [
+                    8051, 
+                    10000
+                ]
+            }
+        ], 
+        "4": [
+            {
+                "multiple": 2, 
+                "probb": [
+                    1, 
+                    1800
+                ], 
+                "highProbb": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "multiple": 3, 
+                "probb": [
+                    1801, 
+                    5800
+                ], 
+                "highProbb": [
+                    1, 
+                    500
+                ]
+            }, 
+            {
+                "multiple": 5, 
+                "probb": [
+                    5801, 
+                    8320
+                ], 
+                "highProbb": [
+                    501, 
+                    1500
+                ]
+            }, 
+            {
+                "multiple": 10, 
+                "probb": [
+                    8321, 
+                    9850
+                ], 
+                "highProbb": [
+                    1501, 
+                    5000
+                ]
+            }, 
+            {
+                "multiple": 20, 
+                "probb": [
+                    9851, 
+                    9950
+                ], 
+                "highProbb": [
+                    5001, 
+                    8050
+                ]
+            }, 
+            {
+                "multiple": 50, 
+                "probb": [
+                    9951, 
+                    10000
+                ], 
+                "highProbb": [
+                    8051, 
+                    10000
+                ]
+            }
+        ], 
+        "5": [
+            {
+                "multiple": 2, 
+                "probb": [
+                    1, 
+                    1800
+                ], 
+                "highProbb": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "multiple": 3, 
+                "probb": [
+                    1801, 
+                    5800
+                ], 
+                "highProbb": [
+                    1, 
+                    500
+                ]
+            }, 
+            {
+                "multiple": 5, 
+                "probb": [
+                    5801, 
+                    8320
+                ], 
+                "highProbb": [
+                    501, 
+                    1500
+                ]
+            }, 
+            {
+                "multiple": 10, 
+                "probb": [
+                    8321, 
+                    9850
+                ], 
+                "highProbb": [
+                    1501, 
+                    5000
+                ]
+            }, 
+            {
+                "multiple": 20, 
+                "probb": [
+                    9851, 
+                    9950
+                ], 
+                "highProbb": [
+                    5001, 
+                    8050
+                ]
+            }, 
+            {
+                "multiple": 50, 
+                "probb": [
+                    9951, 
+                    10000
+                ], 
+                "highProbb": [
+                    8051, 
+                    10000
+                ]
+            }
+        ], 
+        "6": [
+            {
+                "multiple": 2, 
+                "probb": [
+                    1, 
+                    1800
+                ], 
+                "highProbb": [
+                    1, 
+                    0
+                ]
+            }, 
+            {
+                "multiple": 3, 
+                "probb": [
+                    1801, 
+                    5800
+                ], 
+                "highProbb": [
+                    1, 
+                    500
+                ]
+            }, 
+            {
+                "multiple": 5, 
+                "probb": [
+                    5801, 
+                    8320
+                ], 
+                "highProbb": [
+                    501, 
+                    1500
+                ]
+            }, 
+            {
+                "multiple": 10, 
+                "probb": [
+                    8321, 
+                    9850
+                ], 
+                "highProbb": [
+                    1501, 
+                    5000
+                ]
+            }, 
+            {
+                "multiple": 20, 
+                "probb": [
+                    9851, 
+                    9950
+                ], 
+                "highProbb": [
+                    5001, 
+                    8050
+                ]
+            }, 
+            {
+                "multiple": 50, 
+                "probb": [
+                    9951, 
+                    10000
+                ], 
+                "highProbb": [
+                    8051, 
+                    10000
+                ]
+            }
+        ], 
+        "11": [
+            {
+                "multiple": 2, 
+                "probb": [
+                    1, 
+                    4000
+                ], 
+                "highProbb": [
+                    1, 
+                    4000
+                ]
+            }, 
+            {
+                "multiple": 3, 
+                "probb": [
+                    4001, 
+                    9000
+                ], 
+                "highProbb": [
+                    4001, 
+                    9000
+                ]
+            }, 
+            {
+                "multiple": 5, 
+                "probb": [
+                    9001, 
+                    10000
+                ], 
+                "highProbb": [
+                    9001, 
+                    10000
+                ]
+            }
+        ], 
+        "12": [
+            {
+                "multiple": 3, 
+                "probb": [
+                    1, 
+                    3000
+                ], 
+                "highProbb": [
+                    1, 
+                    3000
+                ]
+            }, 
+            {
+                "multiple": 4, 
+                "probb": [
+                    3001, 
+                    7000
+                ], 
+                "highProbb": [
+                    3001, 
+                    7000
+                ]
+            }, 
+            {
+                "multiple": 5, 
+                "probb": [
+                    7001, 
+                    9200
+                ], 
+                "highProbb": [
+                    7001, 
+                    9200
+                ]
+            }, 
+            {
+                "multiple": 10, 
+                "probb": [
+                    9201, 
+                    9750
+                ], 
+                "highProbb": [
+                    9201, 
+                    9750
+                ]
+            }, 
+            {
+                "multiple": 20, 
+                "probb": [
+                    9751, 
+                    10000
+                ], 
+                "highProbb": [
+                    9751, 
+                    10000
+                ]
+            }
+        ]
+    }, 
+    "bossFish": {
+        "1": [
+            {
+                "probb": [
+                    1, 
+                    2100
+                ], 
+                "fishType": 12027
+            }, 
+            {
+                "probb": [
+                    2101, 
+                    3800
+                ], 
+                "fishType": 12028
+            }, 
+            {
+                "probb": [
+                    3801, 
+                    5000
+                ], 
+                "fishType": 12030
+            }, 
+            {
+                "probb": [
+                    5001, 
+                    7100
+                ], 
+                "fishType": 12027
+            }, 
+            {
+                "probb": [
+                    7101, 
+                    8800
+                ], 
+                "fishType": 12028
+            }, 
+            {
+                "probb": [
+                    8801, 
+                    10000
+                ], 
+                "fishType": 12030
+            }
+        ], 
+        "2": [
+            {
+                "probb": [
+                    1, 
+                    2100
+                ], 
+                "fishType": 35027
+            }, 
+            {
+                "probb": [
+                    2101, 
+                    3800
+                ], 
+                "fishType": 35030
+            }, 
+            {
+                "probb": [
+                    3801, 
+                    5000
+                ], 
+                "fishType": 35031
+            }, 
+            {
+                "probb": [
+                    5001, 
+                    7100
+                ], 
+                "fishType": 35027
+            }, 
+            {
+                "probb": [
+                    7101, 
+                    8800
+                ], 
+                "fishType": 35030
+            }, 
+            {
+                "probb": [
+                    8801, 
+                    10000
+                ], 
+                "fishType": 35031
+            }
+        ], 
+        "3": [
+            {
+                "probb": [
+                    1, 
+                    1890
+                ], 
+                "fishType": 24029
+            }, 
+            {
+                "probb": [
+                    1891, 
+                    3420
+                ], 
+                "fishType": 24032
+            }, 
+            {
+                "probb": [
+                    3421, 
+                    4500
+                ], 
+                "fishType": 24031
+            }, 
+            {
+                "probb": [
+                    4501, 
+                    6810
+                ], 
+                "fishType": 24029
+            }, 
+            {
+                "probb": [
+                    6811, 
+                    8680
+                ], 
+                "fishType": 24032
+            }, 
+            {
+                "probb": [
+                    8681, 
+                    10000
+                ], 
+                "fishType": 24031
+            }
+        ], 
+        "4": [
+            {
+                "probb": [
+                    1, 
+                    1890
+                ], 
+                "fishType": 24029
+            }, 
+            {
+                "probb": [
+                    1891, 
+                    3420
+                ], 
+                "fishType": 24032
+            }, 
+            {
+                "probb": [
+                    3421, 
+                    4500
+                ], 
+                "fishType": 24031
+            }, 
+            {
+                "probb": [
+                    4501, 
+                    6810
+                ], 
+                "fishType": 24029
+            }, 
+            {
+                "probb": [
+                    6811, 
+                    8680
+                ], 
+                "fishType": 24032
+            }, 
+            {
+                "probb": [
+                    8681, 
+                    10000
+                ], 
+                "fishType": 24031
+            }
+        ], 
+        "5": [
+            {
+                "probb": [
+                    1, 
+                    1890
+                ], 
+                "fishType": 24029
+            }, 
+            {
+                "probb": [
+                    1891, 
+                    3420
+                ], 
+                "fishType": 24032
+            }, 
+            {
+                "probb": [
+                    3421, 
+                    4500
+                ], 
+                "fishType": 24031
+            }, 
+            {
+                "probb": [
+                    4501, 
+                    6810
+                ], 
+                "fishType": 24029
+            }, 
+            {
+                "probb": [
+                    6811, 
+                    8680
+                ], 
+                "fishType": 24032
+            }, 
+            {
+                "probb": [
+                    8681, 
+                    10000
+                ], 
+                "fishType": 24031
+            }
+        ], 
+        "6": [
+            {
+                "probb": [
+                    1, 
+                    1260
+                ], 
+                "fishType": 25028
+            }, 
+            {
+                "probb": [
+                    1261, 
+                    2280
+                ], 
+                "fishType": 25029
+            }, 
+            {
+                "probb": [
+                    2281, 
+                    3000
+                ], 
+                "fishType": 25032
+            }, 
+            {
+                "probb": [
+                    3001, 
+                    5940
+                ], 
+                "fishType": 25028
+            }, 
+            {
+                "probb": [
+                    5941, 
+                    8320
+                ], 
+                "fishType": 25029
+            }, 
+            {
+                "probb": [
+                    8321, 
+                    10000
+                ], 
+                "fishType": 25032
+            }
+        ], 
+        "12": [
+            {
+                "probb": [
+                    1, 
+                    5000
+                ], 
+                "fishType": 36031
+            }, 
+            {
+                "probb": [
+                    5001, 
+                    10000
+                ], 
+                "fishType": 36078
+            }
+        ]
+    }, 
+    "hitBoss": [
+        {
+            "probb": [
+                1, 
+                4550
+            ], 
+            "multiple": 0.0
+        }, 
+        {
+            "probb": [
+                4551, 
+                6550
+            ], 
+            "multiple": 0.5
+        }, 
+        {
+            "probb": [
+                6551, 
+                9050
+            ], 
+            "multiple": 1.0
+        }, 
+        {
+            "probb": [
+                9051, 
+                9750
+            ], 
+            "multiple": 2.5
+        }, 
+        {
+            "probb": [
+                9751, 
+                10000
+            ], 
+            "multiple": 5.0
+        }
+    ], 
+    "chestFish": {
+        "1": [
+            {
+                "score": 2000, 
+                "probb": [
+                    1, 
+                    3000
+                ]
+            }, 
+            {
+                "score": 5000, 
+                "probb": [
+                    3001, 
+                    6500
+                ]
+            }, 
+            {
+                "score": 8000, 
+                "probb": [
+                    6501, 
+                    8500
+                ]
+            }, 
+            {
+                "score": 10000, 
+                "probb": [
+                    8501, 
+                    9500
+                ]
+            }, 
+            {
+                "score": 20000, 
+                "probb": [
+                    9501, 
+                    10000
+                ]
+            }
+        ], 
+        "2": [
+            {
+                "score": 2000, 
+                "probb": [
+                    1, 
+                    3000
+                ]
+            }, 
+            {
+                "score": 5000, 
+                "probb": [
+                    3001, 
+                    6500
+                ]
+            }, 
+            {
+                "score": 8000, 
+                "probb": [
+                    6501, 
+                    8500
+                ]
+            }, 
+            {
+                "score": 10000, 
+                "probb": [
+                    8501, 
+                    9500
+                ]
+            }, 
+            {
+                "score": 20000, 
+                "probb": [
+                    9501, 
+                    10000
+                ]
+            }
+        ], 
+        "3": [
+            {
+                "score": 2000, 
+                "probb": [
+                    1, 
+                    3000
+                ]
+            }, 
+            {
+                "score": 5000, 
+                "probb": [
+                    3001, 
+                    6500
+                ]
+            }, 
+            {
+                "score": 8000, 
+                "probb": [
+                    6501, 
+                    8500
+                ]
+            }, 
+            {
+                "score": 10000, 
+                "probb": [
+                    8501, 
+                    9500
+                ]
+            }, 
+            {
+                "score": 20000, 
+                "probb": [
+                    9501, 
+                    10000
+                ]
+            }
+        ], 
+        "4": [
+            {
+                "score": 2000, 
+                "probb": [
+                    1, 
+                    3000
+                ]
+            }, 
+            {
+                "score": 5000, 
+                "probb": [
+                    3001, 
+                    6500
+                ]
+            }, 
+            {
+                "score": 8000, 
+                "probb": [
+                    6501, 
+                    8500
+                ]
+            }, 
+            {
+                "score": 10000, 
+                "probb": [
+                    8501, 
+                    9500
+                ]
+            }, 
+            {
+                "score": 20000, 
+                "probb": [
+                    9501, 
+                    10000
+                ]
+            }
+        ], 
+        "5": [
+            {
+                "score": 2000, 
+                "probb": [
+                    1, 
+                    3000
+                ]
+            }, 
+            {
+                "score": 5000, 
+                "probb": [
+                    3001, 
+                    6500
+                ]
+            }, 
+            {
+                "score": 8000, 
+                "probb": [
+                    6501, 
+                    8500
+                ]
+            }, 
+            {
+                "score": 10000, 
+                "probb": [
+                    8501, 
+                    9500
+                ]
+            }, 
+            {
+                "score": 20000, 
+                "probb": [
+                    9501, 
+                    10000
+                ]
+            }
+        ], 
+        "6": [
+            {
+                "score": 2000, 
+                "probb": [
+                    1, 
+                    3000
+                ]
+            }, 
+            {
+                "score": 5000, 
+                "probb": [
+                    3001, 
+                    6500
+                ]
+            }, 
+            {
+                "score": 8000, 
+                "probb": [
+                    6501, 
+                    8500
+                ]
+            }, 
+            {
+                "score": 10000, 
+                "probb": [
+                    8501, 
+                    9500
+                ]
+            }, 
+            {
+                "score": 20000, 
+                "probb": [
+                    9501, 
+                    10000
+                ]
+            }
+        ]
+    }, 
+    "activityFish": {
+        "1": {
+            "fishPool": 1, 
+            "totalBullet": 10000, 
+            "minSecond": 120, 
+            "maxSecond": 360, 
+            "fishes": []
+        }, 
+        "2": {
+            "fishPool": 2, 
+            "totalBullet": 15000, 
+            "minSecond": 120, 
+            "maxSecond": 360, 
+            "fishes": []
+        }, 
+        "3": {
+            "fishPool": 3, 
+            "totalBullet": 20000, 
+            "minSecond": 120, 
+            "maxSecond": 360, 
+            "fishes": []
+        }, 
+        "4": {
+            "fishPool": 4, 
+            "totalBullet": 22000, 
+            "minSecond": 120, 
+            "maxSecond": 360, 
+            "fishes": []
+        }, 
+        "5": {
+            "fishPool": 5, 
+            "totalBullet": 24000, 
+            "minSecond": 120, 
+            "maxSecond": 360, 
+            "fishes": []
+        }, 
+        "6": {
+            "fishPool": 6, 
+            "totalBullet": 25000, 
+            "minSecond": 120, 
+            "maxSecond": 360, 
+            "fishes": []
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "_comment": [
+    "子大厅轮播图"
+  ],
+  "pics": [
+    {
+      "name": "德州春季嘉年华",
+      "pic": "${http_download}/texas/images/ads/20180316_spring_subhall.jpg",
+      "todotask": {"action":"dz_match_detail",
+      "params":{"roomId": 8328}}
+    },{
+      "name": "红包大作战",
+      "pic": "${http_download}/texas/images/ads/20180307_schedule_subhall.jpg",
+      "todotask": {"action":"dz_match_detail",
+      "params":{"roomId": 8462}}
+    },
+	{
+      "name": "冬季金手链回馈赛",
+      "pic": "${http_download}/texas/images/ads/20180230_gold_subhall.jpg",
+      "todotask": {"action":"dz_match_detail",
+      "params":{"roomId": 8202}}
+    },
+    {
+      "name": "保险功能介绍",
+      "pic": "${http_download}/texas/images/ads/20170519_insurance_subhall.jpg",
+      "todotask": {"action":"dz_match_detail"}
+    }
+  ]
+}

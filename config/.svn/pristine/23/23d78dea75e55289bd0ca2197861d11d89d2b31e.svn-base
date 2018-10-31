@@ -1,0 +1,64 @@
+{
+    "lotterypool_config_br":{
+        "27": {
+            "initPool":            350000000,
+            "basePool":            800000000,
+            "prizes":[
+                {
+                    "type": "big",
+                    "loseChip": 1000000000,
+                    "stars": 8,
+                    "reward": 0.2
+                },
+                {
+                    "type": "small",
+                    "loseChip": 200000000,
+                    "interval": 600,
+                    "stars": 8,
+                    "reward": 10000000
+                },
+                {
+                    "type": "little",
+                    "loseChip": 50000000,
+                    "stars": 4,
+                    "reward": 2000000
+                },
+                {
+                    "type": "normal",
+                    "loseChip": 10000000,
+                    "interval": 86400,
+                    "stars": 4,
+                    "reward": 500000
+                },
+                {
+                    "type": "normal",
+                    "loseChip": 5000000,
+                    "interval": 86400,
+                    "stars": 4,
+                    "reward": 250000
+                },
+                {
+                    "type": "normal",
+                    "loseChip": 2000000,
+                    "interval": 86400,
+                    "stars": 4,
+                    "reward": 100000
+                },
+                {
+                    "type": "normal",
+                    "loseChip": 500000,
+                    "interval": 86400,
+                    "stars": 4,
+                    "reward": 50000
+                },
+                {
+                    "type": "normal",
+                    "loseChip": 200000,
+                    "interval": 86400,
+                    "stars": 4,
+                    "reward": 20000
+                }
+            ]
+        }
+    }
+}

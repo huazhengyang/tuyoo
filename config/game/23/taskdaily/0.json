@@ -1,0 +1,148 @@
+{
+	"tasks": [
+		{
+			"id": 1,
+			"name": "勤劳致富",
+			"desc": "押注获胜10局，奖励2500金币",
+			"type": "task.round",
+			"count": 10,
+			"reward": {
+        		"itemId": "user:chip",
+        		"count": 2500
+        	},
+        	"mail": "恭喜您获得中发白勤劳致富任务奖励: {REWARD}"
+		},
+		{
+			"id": 2,
+			"name": "勤劳致富",
+			"desc": "押注获胜100局，奖励2.5万金币",
+			"type": "task.round",
+			"count": 100,
+			"reward": {
+        		"itemId": "user:chip",
+        		"count": 25000
+        	},
+        	"mail": "恭喜您获得中发白勤劳致富任务奖励: {REWARD}"
+		},
+		{
+			"id": 3,			
+			"name": "勤劳致富",
+			"desc": "押注获胜200局，奖励5万金币",
+			"type": "task.round",
+			"count": 200,
+			"reward": {
+        		"itemId": "user:chip",
+        		"count": 50000
+        	},
+        	"mail": "恭喜您获得中发白勤劳致富任务奖励: {REWARD}"
+		},
+		{
+			"id": 4,			
+			"name": "勤劳致富",
+			"desc": "押注获胜500局，奖励10万金币",
+			"type": "task.round",
+			"count": 500,
+			"reward": {
+        		"itemId": "user:chip",
+        		"count": 100000
+        	},
+        	"mail": "恭喜您获得中发白勤劳致富任务奖励: {REWARD}"
+		},
+		{
+			"id": 5,			
+			"name": "富可敌国",
+			"desc": "累计赢取500万，奖励2.5万金币",
+			"type": "task.winchip",
+			"count": 5000000,
+			"reward": {
+        		"itemId": "user:chip",
+        		"count": 25000
+        	},
+        	"mail": "恭喜您获得中发白富可敌国任务奖励: {REWARD}"
+		},
+		{
+			"id": 6,			
+			"name": "富可敌国",
+			"desc": "累计赢取5000万，奖励10万金币",
+			"type": "task.winchip",
+			"count": 50000000,
+			"reward": {
+        		"itemId": "user:chip",
+        		"count": 100000
+        	},
+        	"mail": "恭喜您获得中发白富可敌国任务奖励: {REWARD}"
+		},
+		{
+			"id": 7,
+			"name": "富可敌国",
+			"desc": "累计赢取2亿，奖励50万金币",
+			"type": "task.winchip",
+			"count": 200000000,
+			"reward": {
+        		"itemId": "user:chip",
+        		"count": 500000
+        	},
+        	"mail": "恭喜您获得中发白富可敌国任务奖励: {REWARD}"
+		},
+		{
+			"id": 8,			
+			"name": "富可敌国",
+			"desc": "累计赢取5亿，奖励100万金币",
+			"type": "task.winchip",
+			"count": 500000000,
+			"reward": {
+        		"itemId": "user:chip",
+        		"count": 1000000
+        	},
+        	"mail": "恭喜您获得中发白富可敌国任务奖励: {REWARD}"
+		},
+		{
+			"id": 9,			
+			"name": "赌神之路",
+			"desc": "累计消耗500万，奖励3万金币",
+			"type": "task.losechip",
+			"count": 5000000,
+			"reward": {
+        		"itemId": "user:chip",
+        		"count": 30000
+        	},
+        	"mail": "恭喜您获得中发白赌神之路任务奖励: {REWARD}"
+		},
+		{
+			"id": 10,			
+			"name": "赌神之路",
+			"desc": "累计消耗5000万，奖励15万金币",
+			"type": "task.losechip",
+			"count": 50000000,
+			"reward": {
+        		"itemId": "user:chip",
+        		"count": 150000
+        	},
+        	"mail": "恭喜您获得中发白赌神之路任务奖励: {REWARD}"
+		},
+		{
+			"id": 11,			
+			"name": "赌神之路",
+			"desc": "累计消耗2亿，奖励60万金币",
+			"type": "task.losechip",
+			"count": 200000000,
+			"reward": {
+        		"itemId": "user:chip",
+        		"count": 600000
+        	},
+        	"mail": "恭喜您获得中发白赌神之路任务奖励: {REWARD}"
+		},
+		{
+			"id": 12,			
+			"name": "赌神之路",
+			"desc": "累计消耗5亿，奖励120万金币",
+			"type": "task.losechip",
+			"count": 500000000,
+			"reward": {
+        		"itemId": "user:chip",
+        		"count": 1200000
+        	},
+        	"mail": "恭喜您获得中发白赌神之路任务奖励: {REWARD}"
+		}
+	]
+}

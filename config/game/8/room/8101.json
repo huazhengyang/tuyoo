@@ -1,0 +1,98 @@
+{
+    "interEmoticon": {
+        "bomb": [
+            2, 
+            1, 
+            -1
+        ], 
+        "chicken": [
+            2, 
+            1, 
+            -1
+        ], 
+        "doubleAce": [
+            2, 
+            1, 
+            1
+        ], 
+        "eggs": [
+            2, 
+            1, 
+            -1
+        ], 
+        "fishing": [
+            2, 
+            1, 
+            -1
+        ], 
+        "ring": [
+            2, 
+            1, 
+            1
+        ], 
+        "rose": [
+            2, 
+            1, 
+            1
+        ], 
+        "thumb": [
+            2, 
+            1, 
+            1
+        ]
+    }, 
+    "matchConf": {
+        "match_id": "0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 10000, 
+    "minCoin": 200, 
+    "minCoinQS": 200, 
+    "minTriggerLen": 2, 
+    "n_recycle": 3, 
+    "name": "quick_greener", 
+    "playMode": "classic", 
+    "rewardDealerChip": 10, 
+    "roomID": 8101, 
+    "sortId": 1, 
+    "tableConf": {
+        "autoGrad": 0, 
+        "bb": 10, 
+        "big_pot": 0, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 500, 
+        "buyinConf": "1/2", 
+        "callChip": -1, 
+        "chat_require_vip_level": 8, 
+        "commission": 0.0, 
+        "extname": "新手场(准入:200)", 
+        "fee": 1, 
+        "flip_card_game": {
+            "bet": 0, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "get_insurance_info": 0.0, 
+        "isSitBigBlind": 0.0, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "min_players": 2, 
+        "nameForPc": "200场", 
+        "optime": 11, 
+        "pay_factor": 1.0, 
+        "prebet": 0, 
+        "sb": 5, 
+        "scheduleFloor": 3, 
+        "start_card": 2, 
+        "timeup": 10, 
+        "tname": "200场", 
+        "win_exp": 2
+    }, 
+    "triggerLen": 6, 
+    "typeName": "queue", 
+    "validate_fold_limit": 15.0, 
+    "validate_play_limit": 50.0
+}

@@ -1,0 +1,773 @@
+{
+    "templates": {
+        "default": {
+            "helpDesc":"1.VIP等级仅可通过充值提升，每次升级均会获得新的VIP权益。\n2.高级VIP可享受低级VIP的所有权益，如果权益类型相同，则以高级VIP权益为准。\n3.金币每日登录补足权益，仅在每日首次登录，且自身金币量低于需要补足的金币量时触发，首次登录之后当天不会触发该权益。\n4.VIP玩家可领取的登录补足奖励总额与游戏和充值行为相关，如果登录补足奖励停止发放，可通过充值恢复权益。\n5.所有VIP权益最终解释权归本游戏所有，如有问题，请联系客服电话或QQ：4008098000",
+            "default_ddzVip": {
+                "name": "斗地主特权",
+                "isVisible": false,
+                "vipData": [
+                    {
+                        "level":1,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip1.png"
+                    },
+                    {
+                        "level":2,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip2.png"
+                    },
+                    {
+                        "level":3,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip3.png"
+                    },
+                    {
+                        "level":4,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip4.png"
+                    },
+                    {
+                        "level":5,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip5_0920.png"
+                    },
+                    {
+                        "level":6,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip6_0920.png"
+                    },
+                    {
+                        "level":7,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip7_0920.png"
+                    },
+                    {
+                        "level":8,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip8_0920.png"
+                    },
+                    {
+                        "level":9,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip9_0920.png"
+                    }
+                ]
+            },
+            "default_fishVip": {
+                "name": "捕鱼特权",
+                "isVisible": true,
+                "vipData": [
+                    {
+                        "level":1,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_1_0816.png"
+                    },
+                    {
+                        "level":2,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_2_0816.png"
+                    },
+                    {
+                        "level":3,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_3_0816.png"
+                    },
+                    {
+                        "level":4,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_4_0816.png"
+                    },
+                    {
+                        "level":5,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_5_0816.png"
+                    },
+                    {
+                        "level":6,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_6_0816.png"
+                    },
+                    {
+                        "level":7,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_7_0816.png"
+                    },
+                    {
+                        "level":8,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_8_0816.png"
+                    },
+                    {
+                        "level":9,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_9_0816.png"
+                    }
+                ]
+            },
+            "default_vipLevel": {
+                "type": "vipLevel",
+                "vipLvData": [
+                    {
+                        "desc0":"VIP专享地主农民造型",
+                        "desc1":"千元擂台赛积分加成5%"
+                    },
+                    {
+                        "desc0":"7日签到奖励翻倍",
+                        "desc1":"千元擂台赛积分加成10%"
+                    },
+                    {
+                        "desc0":"千元擂台赛积分加成20%",
+                        "desc1":"万元争霸赛积分加成5%"
+                    },
+                    {
+                        "desc0":"千元擂台赛积分加成30%",
+                        "desc1":"万元争霸赛积分加成10%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足10万",
+                        "desc1":"万元争霸赛积分加成20%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足50万",
+                        "desc1":"万元争霸赛积分加成30%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足100万",
+                        "desc1":""
+                    },
+                    {
+                        "desc0":"金币每日登录补足200万",
+                        "desc1":""
+                    },
+                    {
+                        "desc0":"金币每日登录补足500万",
+                        "desc1":""
+                    }
+                ]
+            }
+        },
+		"default4.57": {
+			"helpDesc":"1.VIP等级仅可通过充值提升，每次升级均会获得新的VIP权益，VIP等级一经提升，永久有效。\n2.高级VIP可享受低级VIP的所有权益，如果权益类型相同，则以高级VIP权益为准。即千元擂台赛积分加成、万元争霸赛积分加成和金币每日登录补足权益，均以当前VIP等级取最高权益值，不会进行权益加成的叠加。（特殊：如购买贵族月卡等超值道具，可享受千元擂台赛积分加成和万元争霸赛积分加成的权益叠加）\n3.VIP1级的VIP专享地主和农民造型仅可在斗地主游戏中使用。\n4.VIP2级的7日签到奖励翻倍仅在大厅4.56及以上版本可用，低于4.56版本大厅不适用该VIP权益。\n5.VIP3级的解锁全部付费牌桌场景仅可在斗地主游戏中使用，若未达到该VIP等级，解锁付费牌桌场景需要打开斗地主牌桌左上角【设置】中花费钻石或金币进行永久解锁。\n6.VIP4级的VIP特惠兑换权益仅在部分时段开放，届时将有特惠红包券兑换奖励，仅针对VIP4及以上等级的玩家可见和可兑换。\n7.VIP1-VIP6级的千元擂台赛积分加成和万元争霸赛积分加成仅针对斗地主游戏可用。\n8.VIP5及以上等级的金币每日登录补足权益，仅在每日首次登录，且自身金币量低于需要补足的金币量时触发，首次登录之后当天不会触发该权益。另外VIP玩家可领取的登录补足奖励总额与游戏和充值行为相关，如果登录补足奖励停止发放，可通过充值恢复权益。\n9.所有VIP权益最终解释权归本游戏所有，如有问题，请联系客服电话或QQ：4008098000。",
+            "default4.57_ddzVip": {
+                "name": "斗地主特权",
+                "isVisible": false,
+                "vipData": [
+                    {
+                        "level":1,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip1.png"
+                    },
+                    {
+                        "level":2,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip2.png"
+                    },
+                    {
+                        "level":3,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip3.png"
+                    },
+                    {
+                        "level":4,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip4.png"
+                    },
+                    {
+                        "level":5,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip5_0920.png"
+                    },
+                    {
+                        "level":6,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip6_0920.png"
+                    },
+                    {
+                        "level":7,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip7_0920.png"
+                    },
+                    {
+                        "level":8,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip8_0920.png"
+                    },
+                    {
+                        "level":9,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip9_0920.png"
+                    }
+                ]
+            },
+            "default4.57_fishVip": {
+                "name": "捕鱼特权",
+                "isVisible": true,
+                "vipData": [
+                    {
+                        "level":1,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_1_0816.png"
+                    },
+                    {
+                        "level":2,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_2_0816.png"
+                    },
+                    {
+                        "level":3,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_3_0816.png"
+                    },
+                    {
+                        "level":4,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_4_0816.png"
+                    },
+                    {
+                        "level":5,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_5_0816.png"
+                    },
+                    {
+                        "level":6,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_6_0816.png"
+                    },
+                    {
+                        "level":7,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_7_0816.png"
+                    },
+                    {
+                        "level":8,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_8_0816.png"
+                    },
+                    {
+                        "level":9,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_9_0816.png"
+                    }
+                ]
+            },
+            "default4.57_vipLevel": {
+                "type": "vipLevel",
+                "vipLvData": [
+                    {
+                        "desc0":"VIP专享地主农民造型",
+                        "desc1":"千元擂台赛积分加成5%"
+                    },
+                    {
+                        "desc0":"7日签到奖励翻倍",
+                        "desc1":"千元擂台赛积分加成10%"
+                    },
+                    {
+                        "desc0":"千元擂台赛积分加成20%",
+                        "desc1":"万元争霸赛积分加成5%"
+                    },
+                    {
+                        "desc0":"千元擂台赛积分加成30%",
+                        "desc1":"万元争霸赛积分加成10%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足10万",
+                        "desc1":"万元争霸赛积分加成20%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足50万",
+                        "desc1":"万元争霸赛积分加成30%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足100万",
+                        "desc1":""
+                    },
+                    {
+                        "desc0":"金币每日登录补足200万",
+                        "desc1":""
+                    },
+                    {
+                        "desc0":"金币每日登录补足500万",
+                        "desc1":""
+                    }
+                ]
+            }
+        },
+		"defaultBycj": {
+			"helpDesc":"1.VIP等级仅可通过充值提升，每次升级均会获得新的VIP权益。\n2.高级VIP可享受低级VIP的所有权益，如果权益类型相同，则以高级VIP权益为准。\n3.金币每日登录补足权益，仅在每日首次登录，且自身金币量低于需要补足的金币量时触发，首次登录之后当天不会触发该权益。\n4.VIP玩家可领取的登录补足奖励总额与游戏和充值行为相关，如果登录补足奖励停止发放，可通过充值恢复权益。\n5.所有VIP权益最终解释权归本游戏所有，如有问题，请联系客服电话或QQ：4008098000",
+            "defaultBycj_ddzVip": {
+                "name": "斗地主特权",
+                "isVisible": true,
+                "vipData": [
+                    {
+                        "level":1,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip1.png"
+                    },
+                    {
+                        "level":2,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip2.png"
+                    },
+                    {
+                        "level":3,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip3.png"
+                    },
+                    {
+                        "level":4,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip4.png"
+                    },
+                    {
+                        "level":5,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip5_0920.png"
+                    },
+                    {
+                        "level":6,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip6_0920.png"
+                    },
+                    {
+                        "level":7,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip7_0920.png"
+                    },
+                    {
+                        "level":8,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip8_0920.png"
+                    },
+                    {
+                        "level":9,
+                        "headpic": "${http_download}/hall/vip/new_ddz_vip9_0920.png"
+                    }
+                ]
+            },
+            "defaultBycj_fishVip": {
+                "name": "捕鱼特权",
+                "isVisible": true,
+                "vipData": [
+                    {
+                        "level":1,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_1_0816.png"
+                    },
+                    {
+                        "level":2,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_2_0816.png"
+                    },
+                    {
+                        "level":3,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_3_0816.png"
+                    },
+                    {
+                        "level":4,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_4_0816.png"
+                    },
+                    {
+                        "level":5,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_5_0816.png"
+                    },
+                    {
+                        "level":6,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_6_0816.png"
+                    },
+                    {
+                        "level":7,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_7_0816.png"
+                    },
+                    {
+                        "level":8,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_8_0816.png"
+                    },
+                    {
+                        "level":9,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_9_0816.png"
+                    }
+                ]
+            },
+            "defaultBycj_vipLevel": {
+                "type": "vipLevel",
+                "vipLvData": [
+                    {
+                        "desc0":"VIP专享地主农民造型",
+                        "desc1":"千元擂台赛积分加成5%"
+                    },
+                    {
+                        "desc0":"7日签到奖励翻倍",
+                        "desc1":"千元擂台赛积分加成10%"
+                    },
+                    {
+                        "desc0":"千元擂台赛积分加成20%",
+                        "desc1":"万元争霸赛积分加成5%"
+                    },
+                    {
+                        "desc0":"千元擂台赛积分加成30%",
+                        "desc1":"万元争霸赛积分加成10%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足10万",
+                        "desc1":"万元争霸赛积分加成20%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足50万",
+                        "desc1":"万元争霸赛积分加成30%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足100万",
+                        "desc1":""
+                    },
+                    {
+                        "desc0":"金币每日登录补足200万",
+                        "desc1":""
+                    },
+                    {
+                        "desc0":"金币每日登录补足500万",
+                        "desc1":""
+                    }
+                ]
+            }
+        },
+        "defaulttexascj": {
+            "helpDesc":"1.VIP等级仅可通过充值提升，每次升级均会获得新的VIP权益。\n2.高级VIP可享受低级VIP的所有权益，如果权益类型相同，则以高级VIP权益为准。\n3.金币每日登录补足权益，仅在每日首次登录，且自身金币量低于需要补足的金币量时触发，首次登录之后当天不会触发该权益。\n4.如有问题，请联系客服电话或QQ：4008098000",
+            "defaulttexascj_ddzVip": {
+                "name": "德州特权",
+                "isVisible": false,
+                "vipData": [
+                    {
+                        "level":1,
+                        "headpic": "http://ddz.dl.tuyoo.com/cdn37/hall/vip/newvip_texas_vip1_2.png"
+                    },
+                    {
+                        "level":2,
+                        "headpic": "http://ddz.dl.tuyoo.com/cdn37/hall/vip/newvip_texas_vip2_2.png"
+                    },
+                    {
+                        "level":3,
+                        "headpic": "http://ddz.dl.tuyoo.com/cdn37/hall/vip/newvip_texas_vip3_2.png"
+                    },
+                    {
+                        "level":4,
+                        "headpic": "http://ddz.dl.tuyoo.com/cdn37/hall/vip/newvip_texas_vip4_2_1.png"
+                    },
+                    {
+                        "level":5,
+                        "headpic": "http://ddz.dl.tuyoo.com/cdn37/hall/vip/newvip_texas_vip5_2.png"
+                    },
+                    {
+                        "level":6,
+                        "headpic": "http://ddz.dl.tuyoo.com/cdn37/hall/vip/newvip_texas_vip6_2.png"
+                    },
+                    {
+                        "level":7,
+                        "headpic": "http://ddz.dl.tuyoo.com/cdn37/hall/vip/newvip_texas_vip7_2.png"
+                    },
+                    {
+                        "level":8,
+                        "headpic": "http://ddz.dl.tuyoo.com/cdn37/hall/vip/newvip_texas_vip8_2.png"
+                    },
+                    {
+                        "level":9,
+                        "headpic": "http://ddz.dl.tuyoo.com/cdn37/hall/vip/newvip_texas_vip9_2.png"
+                    }
+                ]
+            },
+            "defaulttexascj_texasVip": {
+                "name": "德州特权",
+                "isVisible": true,
+                "vipData": [
+                    {
+                        "level":1,
+                        "headpic": "{http_download}/hall/vip/newvip_texas_1.png"
+                    },
+                    {
+                        "level":2,
+                        "headpic": "{http_download}/hall/vip/newvip_texas_2.png"
+                    },
+                    {
+                        "level":3,
+                        "headpic": "{http_download}/hall/vip/newvip_texas_3.png"
+                    },
+                    {
+                        "level":4,
+                        "headpic": "{http_download}/hall/vip/newvip_texas_4.png"
+                    },
+                    {
+                        "level":5,
+                        "headpic": "{http_download}/hall/vip/newvip_texas_5.png"
+                    },
+                    {
+                        "level":6,
+                        "headpic": "{http_download}/hall/vip/newvip_texas_6.png"
+                    },
+                    {
+                        "level":7,
+                        "headpic": "{http_download}/hall/vip/newvip_texas_7.png"
+                    },
+                    {
+                        "level":8,
+                        "headpic": "{http_download}/hall/vip/newvip_texas_8.png"
+                    },
+                    {
+                        "level":9,
+                        "headpic": "{http_download}/hall/vip/newvip_texas_9.png"
+                    }
+                ]
+            },
+            "defaulttexascj_vipLevel": {
+                "type": "vipLevel",
+                "vipLvData": [
+                    {
+                        "desc0":"1、7日签到奖励1.5倍",
+                        "desc1":"2、每日额外获得5张参赛券"
+                    },
+                    {
+                        "desc0":"1、7日签到奖励翻倍",
+                        "desc1":"2、4万场-50万场每日前5场免服务费"
+                    },
+                    {
+                        "desc0":"1、4万场-50万场每日前10场免服务费",
+                        "desc1":"2、直接获得一张VIP周卡"
+                    },
+                    {
+                        "desc0":"1、开启VIP特惠兑换",
+                        "desc1":"2、4万场-50万场每日前15场免服务费"
+                    },
+                    {
+                        "desc0":"1、金币每日登录补足至10万",
+                        "desc1":"2、4万场-50万场每日前20场免服务费"
+                    },
+                    {
+                        "desc0":"1、金币每日登录补足至50万",
+                        "desc1":"2、福运-云顶每日前5场免服务费"
+                    },
+                    {
+                        "desc0":"1、金币每日登录补足至100万",
+                        "desc1":"2、福运-云顶每日前10场免服务费"
+                    },
+                    {
+                        "desc0":"1、金币每日登录补足至200万",
+                        "desc1":"2、福运-云顶每日前15场免服务费"
+                    },
+                    {
+                        "desc0":"1、金币每日登录补足至500万",
+                        "desc1":"2、福运-云顶每日前20场免服务费"
+                    }
+                ]
+            }
+        },
+    "defaultPHZ": {
+            "helpDesc":"1.VIP等级仅可通过充值提升，每次升级均会获得新的VIP权益。\n2.高级VIP可享受低级VIP的所有权益，如果权益类型相同，则以高级VIP权益为准。\n3.金币每日登录补足权益，仅在每日首次登录，且自身金币量低于需要补足的金币量时触发，首次登录之后当天不会触发该权益。\n4.VIP玩家可领取的登录补足奖励总额与游戏和充值行为相关，如果登录补足奖励停止发放，可通过充值恢复权益。\n5.所有VIP权益最终解释权归本游戏所有，如有问题，请联系客服电话或QQ：4008098000",
+            "defaultPHZ_ddzVip": {
+                "name": "跑胡子特权",
+                "isVisible": false,
+                "vipData": [
+                    {
+                        "level":1,
+                        "headpic": "${http_download}/paohuzi/act/vip_1.png"
+                    },
+                    {
+                        "level":2,
+                        "headpic": "${http_download}/paohuzi/act/vip_2.png"
+                    },
+                    {
+                        "level":3,
+                        "headpic": "${http_download}/paohuzi/act/vip_3.png"
+                    },
+                    {
+                        "level":4,
+                        "headpic": "${http_download}/paohuzi/act/vip_4.png"
+                    },
+                    {
+                        "level":5,
+                        "headpic": "${http_download}/paohuzi/act/vip_5.png"
+                    },
+                    {
+                        "level":6,
+                        "headpic": "${http_download}/paohuzi/act/vip_6.png"
+                    },
+                    {
+                        "level":7,
+                        "headpic": "${http_download}/paohuzi/act/vip_7.png"
+                    },
+                    {
+                        "level":8,
+                        "headpic": "${http_download}/paohuzi/act/vip_8.png"
+                    },
+                    {
+                        "level":9,
+                        "headpic": "${http_download}/paohuzi/act/vip_9.png"
+                    }
+                ]
+            },
+            "defaultPHZ_fishVip": {
+                "name": "捕鱼特权",
+                "isVisible": true,
+                "vipData": [
+                    {
+                        "level":1,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_1_0816.png"
+                    },
+                    {
+                        "level":2,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_2_0816.png"
+                    },
+                    {
+                        "level":3,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_3_0816.png"
+                    },
+                    {
+                        "level":4,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_4_0816.png"
+                    },
+                    {
+                        "level":5,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_5_0816.png"
+                    },
+                    {
+                        "level":6,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_6_0816.png"
+                    },
+                    {
+                        "level":7,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_7_0816.png"
+                    },
+                    {
+                        "level":8,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_8_0816.png"
+                    },
+                    {
+                        "level":9,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_9_0816.png"
+                    }
+                ]
+            },
+            "defaultPHZ_vipLevel": {
+                "type": "vipLevel",
+                "vipLvData": [
+                    {
+                        "desc0":"牌桌发送表情5折优惠",
+                        "desc1":""
+                    },
+                    {
+                        "desc0":"签到奖励翻倍",
+                        "desc1":"救济金每次发放2000"
+                    },
+                    {
+                        "desc0":"救济金每日可领4次",
+                        "desc1":""
+                    },
+                    {
+                        "desc0":"救济金每次发放5000",
+                        "desc1":""
+                    },
+                    {
+                        "desc0":"金币每日登录补足10万",
+                        "desc1":"救济金每次发放10000"
+                    },
+                    {
+                        "desc0":"金币每日登录补足50万",
+                        "desc1":""
+                    },
+                    {
+                        "desc0":"金币每日登录补足100万",
+                        "desc1":""
+                    },
+                    {
+                        "desc0":"金币每日登录补足200万",
+                        "desc1":""
+                    },
+                    {
+                        "desc0":"金币每日登录补足500万",
+                        "desc1":""
+                    }
+                ]
+            }
+        },                
+    	"defaultBH": {
+            "helpDesc":"1.VIP等级仅可通过充值提升，每次升级均会获得新的VIP权益。\n2.高级VIP可享受低级VIP的所有权益，如果权益类型相同，则以高级VIP权益为准。\n3.金币每日登录补足权益，仅在每日首次登录，且自身金币量低于需要补足的金币量时触发，首次登录之后当天不会触发该权益。\n4.VIP玩家可领取的登录补足奖励总额与游戏和充值行为相关，如果登录补足奖励停止发放，可通过充值恢复权益。\n5.所有VIP权益最终解释权归本游戏所有，如有问题，请联系客服电话或QQ：4008098000",
+            "defaultBH_ddzVip": {
+                "name": "斗地主特权",
+                "isVisible": false,
+                "vipData": [
+                    {
+                        "level":1,
+                        "headpic": "${http_download}/baohuang/icon/vip_1.png"
+                    },
+                    {
+                        "level":2,
+                        "headpic": "${http_download}/baohuang/icon/vip_2.png"
+                    },
+                    {
+                        "level":3,
+                        "headpic": "${http_download}/baohuang/icon/vip_3.png"
+                    },
+                    {
+                        "level":4,
+                        "headpic": "${http_download}/baohuang/icon/vip_4.png"
+                    },
+                    {
+                        "level":5,
+                        "headpic": "${http_download}/baohuang/icon/vip_5.png"
+                    },
+                    {
+                        "level":6,
+                        "headpic": "${http_download}/baohuang/icon/vip_6.png"
+                    },
+                    {
+                        "level":7,
+                        "headpic": "${http_download}/baohuang/icon/vip_7.png"
+                    },
+                    {
+                        "level":8,
+                        "headpic": "${http_download}/baohuang/icon/vip_8.png"
+                    },
+                    {
+                        "level":9,
+                        "headpic": "${http_download}/baohuang/icon/vip_9.png"
+                    }
+                ]
+            },
+            "defaultBH_fishVip": {
+                "name": "捕鱼特权",
+                "isVisible": true,
+                "vipData": [
+                    {
+                        "level":1,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_1_0816.png"
+                    },
+                    {
+                        "level":2,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_2_0816.png"
+                    },
+                    {
+                        "level":3,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_3_0816.png"
+                    },
+                    {
+                        "level":4,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_4_0816.png"
+                    },
+                    {
+                        "level":5,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_5_0816.png"
+                    },
+                    {
+                        "level":6,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_6_0816.png"
+                    },
+                    {
+                        "level":7,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_7_0816.png"
+                    },
+                    {
+                        "level":8,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_8_0816.png"
+                    },
+                    {
+                        "level":9,
+                        "headpic": "${http_download}/hall/vip/newvip_fish_9_0816.png"
+                    }
+                ]
+            },
+            "defaultBH_vipLevel": {
+                "type": "vipLevel",
+                "vipLvData": [
+                    {
+                        "desc0":"每日发放3次救济金",
+                        "desc1":"段位积分+20%"
+                    },
+                    {
+                        "desc0":"签到奖励翻倍",
+                        "desc1":"救济金每次发放2000",
+                        "desc2":"段位积分+40%"
+                    },
+                    {
+                        "desc0":"牌桌付费表情5折优惠",
+                        "desc1":"段位积分+60%"
+                    },
+                    {
+                        "desc0":"好友桌免收服务费",
+                        "desc1":"段位积分+80%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足10万",
+                        "desc1":"段位积分+200%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足50万",
+                        "desc1":"段位积分+220%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足100万",
+                        "desc1":"段位积分+240%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足200万",
+                        "desc1":"段位积分+260%"
+                    },
+                    {
+                        "desc0":"金币每日登录补足500万",
+                        "desc1":"段位积分+300%"
+                    }
+                ]
+            }
+        }
+    }
+}

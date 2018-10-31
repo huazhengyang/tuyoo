@@ -1,0 +1,25 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "百人大战，疯狂发财"
+     ],
+     "md5"              : "c99286987aa074d0a27836648ec132fb",
+     "ver"              : "1.0",
+     "url"              : "${http_download}/hall/plugin/game/brdz_release_v1.0_eleventh_26.zip",
+     "size"             : "3.7M"
+    }
+   ],
+   "description"      : [
+    "百人大战"
+   ],
+   "gameId"           : 65,
+   "gameMark"         : "brdz"
+  }
+ ],
+ "templates"        : [ ]
+}

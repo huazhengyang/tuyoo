@@ -1,0 +1,157 @@
+{
+  "double" : {
+    "doubleItems" : {
+      "user:coupon" : 2
+    },
+    "act.start.date" : "2014-12-17",
+    "act.end.date" : "2014-12-25",
+    "double.start.time" : "20:00",
+    "double.end.time" : "23:00"
+  },
+  "rooms" : {
+    "6012" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "reward" : {
+      	"items" : [{
+          "count" : 2,
+          "itemId" : "user:coupon"
+        }],
+        "typeId" : "FixedContent"
+      },
+      "desc" : "连续玩6局,开启宝箱送2个奖券"
+    },
+    "6771" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送30个奖券",
+      "reward" : {
+        "items" : [{
+          "count" : 30,
+          "itemId" : "user:coupon"
+        }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "6013" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送2个奖券",
+      "reward" : {
+        "items" : [{
+          "count" : 10,
+          "itemId" : "user:coupon"
+        }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "6014" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送4个奖券",
+      "reward" : {
+        "items" : [{
+          "count" : 30,
+          "itemId" : "user:coupon"
+        }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "6015" : {
+      "playCount" : 3,
+      "continueSeconds" : 300,
+      "desc" : "连续玩3局,开启宝箱送6个奖券",
+      "reward" : {
+        "items" : [{
+          "count" : 6,
+          "itemId" : "user:coupon"
+        }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "6016" : {
+      "playCount" : 3,
+      "continueSeconds" : 300,
+      "desc" : "连续玩3局,开启宝箱送40个奖券",
+      "reward" : {
+        "items" : [{
+          "count" : 40,
+          "itemId" : "user:coupon"
+        }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "6002" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "reward" : {
+        "items" : [{
+          "count" : 2,
+          "itemId" : "user:coupon"
+        }],
+        "typeId" : "FixedContent"
+      },
+      "desc" : "连续玩6局,开启宝箱送2个奖券"
+    },
+    "6003" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送2个奖券",
+      "reward" : {
+        "items" : [{
+          "count" : 10,
+          "itemId" : "user:coupon"
+        }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "6004" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送4个奖券",
+      "reward" : {
+        "items" : [{
+          "count" : 30,
+          "itemId" : "user:coupon"
+        }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "6022" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "reward" : {
+        "items" : [{
+          "count" : 2,
+          "itemId" : "user:coupon"
+        }],
+        "typeId" : "FixedContent"
+      },
+      "desc" : "连续玩6局,开启宝箱送2个奖券"
+    },
+    "6023" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送2个奖券",
+      "reward" : {
+        "items" : [{
+          "count" : 10,
+          "itemId" : "user:coupon"
+        }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "6024" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送4个奖券",
+      "reward" : {
+        "items" : [{
+          "count" : 30,
+          "itemId" : "user:coupon"
+        }],
+        "typeId" : "FixedContent"
+      }
+    }
+  }
+}

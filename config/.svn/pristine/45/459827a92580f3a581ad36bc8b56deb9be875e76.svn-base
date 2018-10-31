@@ -1,0 +1,646 @@
+{
+ "templates"                         : {
+  "t3card2016_v3.78_AI_online_ads"    : {
+   "interval"                          : 5,
+   "name"                              : "t3card2016_v3.78_AI_online_ads",
+   "ads"                               : [
+    30060801,
+    30022001,
+    30041201,
+    30051601,
+    30111401
+   ]
+  },
+  "t3card2016_v3.97_online_ads"       : {
+   "interval"                          : 5,
+   "name"                              : "t3card2016_v3.97_online_ads",
+   "ads"                               : [
+    30112202,
+    30111401
+   ]
+  },
+  "t3card2016_v3.778_A_360push_ads"   : {
+   "interval"                          : 5,
+   "name"                              : "t3card2016_v3.778_A_360push_ads",
+   "ads"                               : [
+    30112202,
+    30112201,
+    30111401,
+    30083001
+   ]
+  },
+  "t3cardNew_v3.77_Android_test_ads"  : {
+   "interval"                          : 5,
+   "name"                              : "t3cardNew_v3.77_Android_test_ads",
+   "ads"                               : [
+    30061301
+   ]
+  },
+  "t3card2016_v3.78_I_examination_ads": {
+   "interval"                          : 5,
+   "name"                              : "t3card2016_v3.78_I_examination_ads",
+   "ads"                               : [
+    30061301
+   ]
+  }
+ },
+ "ads"                               : [
+  {
+   "startTime"                         : "2016-05-17 00:00:00",
+   "id"                                : 30051701,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3cardnew_0517_activity02",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/texas/images/ads/db321_icon.jpg",
+   "endTime"                           : "2016-08-31 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-06-13 00:00:00",
+   "id"                                : 30061301,
+   "clickable"                         : 0,
+   "pic"                               : "${http_download}/hall/ads/imgs/douniu_ads_1.png",
+   "endTime"                           : "2019-10-23 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-06-28 00:00:00",
+   "id"                                : 30062801,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card2016_0629_VIPdouble_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_0628_VIP_ads.jpg",
+   "endTime"                           : "2016-07-31 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-06-28 00:00:00",
+   "id"                                : 30062802,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card2016_0629_Mastermatch_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_0628_ads.jpg",
+   "endTime"                           : "2016-07-31 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-06-28 00:00:00",
+   "id"                                : 30062803,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card2016_0629_5000Wmatch_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_0628_mtt_5000w_ads.jpg",
+   "endTime"                           : "2016-07-31 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-07-22 00:00:00",
+   "id"                                : 30072201,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0722_1ematch_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/1ematch_3cards_0722_icon.jpg",
+   "endTime"                           : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-07-27 00:00:00",
+   "id"                                : 30072701,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card2016_0727_360match_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card2016_360match_0727_ads.jpg",
+   "endTime"                           : "2017-09-20 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-08-03 00:00:00",
+   "id"                                : 30080301,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card2016_0803_lADOZDO4vs0Bxc0Ckw_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card2016_0918_recharge_ads.jpg",
+   "endTime"                           : "2017-01-31 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-09-29 14:17:07",
+   "id"                                : 30082901,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : 1
+      },
+      "type"                              : "game"
+     },
+     "gameId"                            : 38,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/H3card_0929_gameonline_ads.jpg.jpg",
+   "endTime"                           : "2016-10-08 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-08-30 00:00:00",
+   "id"                                : 30083001,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card2016_0830_goldmatch_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card2016_0918_match_ads.jpg",
+   "endTime"                           : "2017-10-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-09-14 00:00:00",
+   "id"                                : 30091401,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card2016_0914_midautumn_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card2016_0913_midautumn_ads.jpg",
+   "endTime"                           : "2017-01-31 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-09-14 00:00:00",
+   "id"                                : 30091402,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card2016_0914_returnreward_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card2016_0918_return_ads.jpg",
+   "endTime"                           : "2017-03-31 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-09-29 14:14:42",
+   "id"                                : 30091801,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card2016_0929_nationalDay_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card2016_0929_nationalDay_ads.jpg",
+   "endTime"                           : "2016-10-08 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-11-14 00:00:00",
+   "id"                                : 30111401,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card2016_1114_monthCard_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_1114_store_monthCard_ads.jpg",
+   "endTime"                           : "2017-11-30 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-11-22 00:00:00",
+   "id"                                : 30112201,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card2016_1122_texasthanksgiving_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/texas/images/ads/texas_1122_thanksgivingmatch_ads.jpg",
+   "endTime"                           : "2016-11-29 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-11-22 00:00:00",
+   "id"                                : 30112202,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : 1
+      },
+      "type"                              : "game"
+     },
+     "gameId"                            : 38,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/H3card_1123_allVisible_ads.jpg",
+   "endTime"                           : "2018-11-22 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-11-30 00:00:00",
+   "id"                                : 30113001,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_1130_monthCard_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_1130_monthCard_ads.jpg",
+   "endTime"                           : "2016-12-05 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-11-30 00:00:00",
+   "id"                                : 30113002,
+   "todotasks"                         : [
+    {
+     "actId"                             : "Copy_t3card_1130_monthCard_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_1130_firstmonthcard_ads.jpg",
+   "endTime"                           : "2016-12-05 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-12-21 00:00:00",
+   "id"                                : 30122101,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_1221_jinbi_6000w_shengdan_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_1221_jinbi_6000w_shengdan_ads.jpg.jpg",
+   "endTime"                           : "2016-12-26 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-12-21 00:00:00",
+   "id"                                : 30122102,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_1221_jinbi_10000w_shengdan_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_1221_jinbi_10000w_shengdan_ads.jpg.jpg",
+   "endTime"                           : "2016-12-26 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-12-21 00:00:00",
+   "id"                                : 30122103,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_1221_jinbi_50000w_shengdan_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_1221_jinbi_50000w_shengdan_ads.jpg.jpg",
+   "endTime"                           : "2016-12-26 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-12-21 00:00:00",
+   "id"                                : 30122104,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_1221_huafei_2w_shengdan_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_1221_huafei_2w_shengdan_ads.jpg.jpg",
+   "endTime"                           : "2017-01-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-12-27 00:00:00",
+   "id"                                : 30122701,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_1227_free_yuandan_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_1227_free_yuandan_ads.jpg",
+   "endTime"                           : "2017-01-05 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-12-27 00:00:00",
+   "id"                                : 30122702,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_1227_10000_yuandan_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_1227_10000_yuandan_ads.jpg",
+   "endTime"                           : "2017-01-02 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-01-22 00:00:00",
+   "id"                                : 30012001,
+   "todotasks"                         : [
+    {
+     "typeId"                            : "hall.download",
+     "url"                               : "http://ddz.dl.tuyoo.com/cdn37/t3card/download/dl.html"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_0120_download_ads.jpg",
+   "endTime"                           : "2017-02-06 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-02-13 00:00:00",
+   "id"                                : 30021301,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0213_qingrenjie_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_0213_qingrenjie_ads.jpg",
+   "endTime"                           : "2017-02-16 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-02-16 14:00:00",
+   "id"                                : 30021601,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0216_ipaddajiangsai_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/pad_0216_ads.jpg",
+   "endTime"                           : "2017-02-22 23:59:00"
+  },
+  {
+   "startTime"                         : "2017-02-22 00:00:00",
+   "id"                                : 30022001,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0220_paddajiangsai_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20180103_pad_ads.jpg",
+   "endTime"                           : "2018-07-11 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-02-22 00:00:00",
+   "id"                                : 30022201,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0221_yonglizailin_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170221_yongli_ads.jpg",
+   "endTime"                           : "2017-04-30 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-03-01 00:00:00",
+   "id"                                : 30030101,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0301_yongliplus_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170301_yongli_ads.jpg",
+   "endTime"                           : "2017-05-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-03-01 00:00:00",
+   "id"                                : 30030102,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : 1
+      },
+      "type"                              : "game"
+     },
+     "gameId"                            : 38,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170301_honghei_ads.jpg",
+   "endTime"                           : "2017-05-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-03-03 00:00:00",
+   "id"                                : 30030301,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0303_funvjie_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170303_funvjie_ads.jpg",
+   "endTime"                           : "2017-03-09 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-03-24 00:00:00",
+   "id"                                : 30032401,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0324_chengjiu_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170324_chengjiu_ads.jpg",
+   "endTime"                           : "2017-03-31 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-03-23 00:00:00",
+   "id"                                : 30032402,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0324_weixinhongbao_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170324_weixinhongbao_ads.jpg",
+   "endTime"                           : "2017-05-06 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-03-24 00:00:00",
+   "id"                                : 30032403,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0324_guibin_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170324_yongliplus_ads.jpg",
+   "endTime"                           : "2017-05-06 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-03-28 00:00:00",
+   "id"                                : 30032801,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0328_yurenjie_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170328_yurenjie_ads.jpg",
+   "endTime"                           : "2017-04-04 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-03-29 00:00:00",
+   "id"                                : 30032901,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0328_qingmingjie_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170328_qingmingjie_ads.jpg",
+   "endTime"                           : "2017-04-05 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-04-06 00:00:00",
+   "id"                                : 30040601,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0406_redlucky_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170406_lucky_ads.jpg",
+   "endTime"                           : "2017-10-31 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-04-12 00:00:00",
+   "id"                                : 30041201,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0412_supper6000_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170412_supper6000_ads.jpg",
+   "endTime"                           : "2018-08-16 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-04-25 00:00:00",
+   "id"                                : 30042501,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0425_shuangjie_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170425_shuangjie_ads.jpg",
+   "endTime"                           : "2017-05-05 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-04-25 00:00:00",
+   "id"                                : 30042601,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0426_guibin_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170426_lguibin_ads.jpg",
+   "endTime"                           : "2017-05-03 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-05-08 00:00:00",
+   "id"                                : 30050801,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0508_muqinjie_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170508_muqinjie_ads.jpg",
+   "endTime"                           : "2017-05-15 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-05-16 00:00:00",
+   "id"                                : 30051601,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_t3card_shimingrenzheng_170515",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_RealName_baidu_170316.png",
+   "endTime"                           : "2018-03-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-05-24 00:00:00",
+   "id"                                : 30052401,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0524_duanwujie_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/t3card_20170524_duanwujie_ads.jpg",
+   "endTime"                           : "2017-05-31 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-06-08 00:00:00",
+   "id"                                : 30060801,
+   "todotasks"                         : [
+    {
+     "actId"                             : "t3card_0608_VIProom_activity",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/t3card/images/ads/20170608_VIProom_ads.jpg",
+   "endTime"                           : "2018-06-12 00:00:00"
+  }
+ ]
+}

@@ -1,0 +1,633 @@
+{
+	"templates": {
+		"default": {
+			"list": [{
+					"npwId": "newcheckin",
+					"enable": 1,
+					"buttonClick": {
+
+					}
+				},
+				{
+					"npwId": "vip",
+					"enable": 0,
+					"buttonClick": {
+
+					}
+				},
+				{
+					"npwId": "payorder_v1",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_8.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_8_1.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0008001"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v2",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_30.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_30.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0030006"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v3",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_100.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_100.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0100018"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v4",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_300.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_300.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0300014"
+						}
+					}
+				},
+				{
+					"npwId": "identity_activity",
+					"enable": 1,
+					"titlePic": "${http_download}/hall/popwnd/imgs/top_notice.png",
+					"picUrl": "${http_download}/hall/popwnd/imgs/ddz_realname_popwnd.png",
+					"buttonText": "确定",
+					"sub_action": {
+						"action": "pop_active_wnd",
+						"params": {
+							"actId": "activity_realnamereg_0203",
+							"typeId": "hall.goto.activity.byid"
+						}
+					}
+				},
+				{
+					"npwId": "notice",
+					"enable": 0,
+					"titlePic": "${http_download}/hall/popwnd/imgs/top_notice.png",
+					"picUrl": "${http_download}/hall/act/imgs/20171018_picture.png",
+					"buttonText": "确定",
+					"sub_action": {
+						"action": "pop_active_wnd",
+						"params": {
+							"actId": "redmatch_51_20170426_activity",
+							"typeId": "hall.goto.activity.byid"
+						}
+					}
+				}
+			]
+		},
+		"fangshuahao": {
+			"list": [{
+					"npwId": "vip",
+					"enable": 0,
+					"buttonClick": {
+
+					}
+				},
+				{
+					"npwId": "payorder_v1",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_8.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_8_1.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0008001"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v2",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_30.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_30.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0030006"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v3",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_100.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_100.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0100018"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v4",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_300.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_300.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0300014"
+						}
+					}
+				},
+				{
+					"npwId": "notice",
+					"enable": 1,
+					"titlePic": "${http_download}/hall/popwnd/imgs/top_notice.png",
+					"picUrl": "${http_download}/hall/act/imgs/20171018_picture.png",
+					"buttonText": "确定",
+					"sub_action": {
+						"action": "pop_active_wnd",
+						"params": {
+							"actId": "redmatch_51_20170426_activity",
+							"typeId": "hall.goto.activity.byid"
+						}
+					}
+				}
+			]
+		},
+		"tishen": {
+			"list": [{
+				"npwId": "newcheckin",
+				"enable": 1,
+				"buttonClick": {
+
+				}
+			}]
+		},
+		"tishen_ios": {
+			"list": [{
+				"npwId": "newcheckin",
+				"enable": 0,
+				"buttonClick": {}
+			}]
+		},
+		"default_ios": {
+			"list": [{
+					"npwId": "newcheckin",
+					"enable": 1,
+					"buttonClick": {
+
+					}
+				},
+				{
+					"npwId": "vip",
+					"enable": 0,
+					"buttonClick": {
+
+					}
+				},
+				{
+					"npwId": "payorder_v1",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_6.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_6.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0006004"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v2",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_30.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_30.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0030006"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v3",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_128.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_128.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0128008"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v4",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_328.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_328.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0328006"
+						}
+					}
+				}
+			]
+		},
+		"beta_quickstart": {
+			"list": [{
+					"npwId": "newcheckin",
+					"enable": 1,
+					"buttonClick": {
+
+					}
+				},
+				{
+					"npwId": "monthcard",
+					"enable": 1,
+					"titlePic": "${http_download}/hall/popwnd/imgs/top_ddz_fish_monthcard_popwnd.png",
+					"picUrl": "${http_download}/hall/popwnd/imgs/ddz_monthcard_popwnd_0801.png",
+					"buttonText": "获取特权",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0028011"
+						}
+					}
+				},
+				{
+					"npwId": "vip",
+					"enable": 0,
+					"buttonClick": {
+
+					}
+				},
+				{
+					"npwId": "payorder_v1",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_8.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_8_1.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0008001"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v2",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_30.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_30.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0030006"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v3",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_100.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_100.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0100018"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v4",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_300.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_300.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0300014"
+						}
+					}
+				},
+				{
+					"npwId": "notice_quickstart",
+					"enable": 1,
+					"titlePic": "${http_download}/hall/popwnd/imgs/top_notice.png",
+					"picUrl": "${http_download}/hall/act/imgs/notice_img_0811_2.png",
+					"buttonText": "去挑战",
+					"sub_action": {
+						"action": "quick_start_new",
+						"params": {}
+					}
+
+				}
+			]
+		},
+		"huawei": {
+			"list": [{
+					"npwId": "newcheckin",
+					"enable": 1,
+					"buttonClick": {
+
+					}
+				},
+				{
+					"npwId": "notice",
+					"enable": 1,
+					"titlePic": "${http_download}/hall/popwnd/imgs/top_notice.png",
+					"picUrl": "${http_download}/hall/act/imgs/notice_huaweidashisai_170814.png",
+					"buttonText": "确定",
+					"sub_action": {
+						"action": "pop_active_wnd",
+						"params": {
+							"actId": "activity_ddz_scoreboard_huawei_170811",
+							"typeId": "hall.goto.activity.byid"
+						}
+					}
+				},
+				{
+					"npwId": "monthcard",
+					"enable": 1,
+					"titlePic": "${http_download}/hall/popwnd/imgs/top_ddz_fish_monthcard_popwnd.png",
+					"picUrl": "${http_download}/hall/popwnd/imgs/ddz_monthcard_popwnd_0801.png",
+					"buttonText": "获取特权",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0028011"
+						}
+					}
+				},
+				{
+					"npwId": "vip",
+					"enable": 0,
+					"buttonClick": {
+
+					}
+				},
+				{
+					"npwId": "payorder_v1",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_8.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_8_1.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0008001"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v2",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_30.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_30.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0030006"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v3",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_100.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_100.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0100018"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v4",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_300.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_300.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0300014"
+						}
+					}
+				}
+			]
+		},
+		"360": {
+			"list": [{
+					"npwId": "newcheckin",
+					"enable": 1,
+					"buttonClick": {
+
+					}
+				},
+				{
+					"npwId": "notice",
+					"enable": 1,
+					"titlePic": "${http_download}/hall/popwnd/imgs/top_notice.png",
+					"picUrl": "${http_download}/hall/act/imgs/notice_360qixi_170824.png",
+					"buttonText": "知道了",
+					"sub_action": {
+						"action": "pop_active_wnd",
+						"params": {
+							"actId": "activity_ddz_scoreboard_360qixi_0824",
+							"typeId": "hall.goto.activity.byid"
+						}
+					}
+				}
+			]
+		},
+		"beta_fish": {
+			"list": [{
+					"npwId": "newcheckin",
+					"enable": 1,
+					"buttonClick": {
+
+					}
+				},
+				{
+					"npwId": "monthcard",
+					"enable": 1,
+					"titlePic": "${http_download}/hall/popwnd/imgs/top_ddz_fish_monthcard_popwnd.png",
+					"picUrl": "${http_download}/hall/popwnd/imgs/ddz_fish_monthcard_popwnd_0821.png",
+					"buttonText": "获取特权",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0028011"
+						}
+					}
+				},
+				{
+					"npwId": "vip",
+					"enable": 0,
+					"buttonClick": {
+
+					}
+				},
+				{
+					"npwId": "payorder_v1",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_8.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_8_1.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0008001"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v2",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_30.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_30.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0030006"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v3",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_100.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_100.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0100018"
+						}
+					}
+				},
+				{
+					"npwId": "payorder_v4",
+					"enable": 1,
+					"titleUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_title_300.png",
+					"imgUrl": "${http_download}/hall/popwnd/imgs/pop_recommend_buy_300.png",
+					"sub_action_text": "领取礼包",
+					"typeId": "todotask.template.recommendBuy",
+					"desc": "",
+					"sub_action": {
+						"action": "pop_pay_order",
+						"params": {
+							"buy_type": "direct",
+							"id": "TY9999D0300014"
+						}
+					}
+				}
+			]
+		}
+	}
+}

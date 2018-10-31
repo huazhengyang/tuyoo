@@ -1,0 +1,137 @@
+
+=========================================================
+1、资源配置
+
+后端配置表设置 6/table.skin.versions/
+1.json --- 版本号对应 前端内置皮肤版本号
+
+{
+	"local":["0"],
+	"list":[
+		{
+			"id":"1001",
+			"name":"kitty",
+			"display":"猫猫", 
+			"update":1,   		  // 小版本号
+			"icon":"http://192.168.10.26/dizhu/table.skin/kitty/icon.png",
+			"preview":"http://192.168.10.26/dizhu/table.skin/kitty/preview.png" // 预览图
+			"fee":{
+				"itemId" : "user:chip",
+				"count":100,
+				"img":"http://192.168.10.26/dizhu/table.skin/fee.img/chip.png"
+			},
+			"url":"http://192.168.10.26/dizhu/table.skin/kitty/kitty.zip",
+			"md5":""
+		},
+		{
+			"id":"1002"
+		}
+	]
+}
+2.json
+{
+	"local":["0"],
+	"list":[
+		{
+			"id":"1001",
+			"name":"kitty",
+			"display":"猫猫", 
+			"update":1,   		  // 小版本号
+			"icon":"http://192.168.10.26/dizhu/table.skin/kitty/icon.png",
+			"preview":"http://192.168.10.26/dizhu/table.skin/kitty/preview.png" // 预览图
+			"fee":{
+				"itemId" : "user:chip",
+				"count":100,
+				"img":"http://192.168.10.26/dizhu/table.skin/fee.img/chip.png"
+			},
+			"url":"http://192.168.10.26/dizhu/table.skin/kitty/kitty.zip",
+			"md5":""
+		},
+		{
+			"id":"1002"
+		}
+	]
+}
+
+后端渠道模板配置表设置 6/table.skin/
+tc.json
+{
+  "templates" : {
+    "default" : [
+      "1001",
+      "1002"
+    ],
+    "oppo" : [
+      "1001",
+      "1002"
+    ],
+    "xiaomi" : [
+      "1001",
+      "1002"
+    ]
+  }
+}
+
+vc.json
+{
+  "actual" : {
+    "11744" : "oppo",
+    "12871" : "xiaomi"
+  },
+  "default" : "default"
+}
+=========================================================
+2、用户信息存储
+gamedata:6:userId
+
+"table.skin": str({"curSkin":"1002", "mySkins":["1001", "1002"]})
+
+==============================================================
+3、皮肤压缩包的内容
+
+zip包中的文件清单举例：
+kitty.zip
+	kitty---|
+		ddz_table_skin_kitty.plist
+		ddz_table_skin_kitty.png
+		ddz_table_skin_kitty_table_bg.png
+		ddz_table_skin_kitty_tablename.fnt
+		ddz_table_skin_kitty_tablename.png
+		...
+		config.json
+
+
+	config.json必须有，格式如下：
+	{
+		"version":"1",
+		"update":1,
+		"plist":[
+			"ddz_table_skin_kitty.plist"
+		],
+		"conf":{
+			"img":{
+				"table_bg":{
+					"type":"png",
+					"path":"kitty/ddz_table_skin_kitty_table_bg.png"
+				},
+				"table_bottom":{
+					"type":"plist",
+					"path":"ddz_table_skin_kitty_table_bottom.png"
+				}
+			},
+			"fnt":{
+				"table_name":"ddz_table_skin_kitty_tablename.fnt"
+			},
+			"txt":{
+				"result_my_info":{
+					"color":"208FED",
+					"size":"26",
+				}
+			}
+		}
+	}
+=========================================================
+
+
+
+

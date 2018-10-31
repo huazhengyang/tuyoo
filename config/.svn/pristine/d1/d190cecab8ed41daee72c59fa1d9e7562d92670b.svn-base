@@ -1,0 +1,209 @@
+{
+    "room_items": {
+        "mt6801": {
+            "name" : "时时赛",
+            "des" : "每10分钟一场",
+            "level" : "C", 
+
+            "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+            "avatorDefault": "chip",
+            "signupFee": {
+                "desc": "10钻石"
+            },
+            "matchCondition": {
+                "type": "datetime"
+            },
+            "countdownTime": 600,
+            "secondAlarmTime": 60,
+            "condition": "每10分钟一场",
+            "config": 4,
+            "entry": "10钻石",
+            "id": 6801,
+            "least": 0
+        },
+        "mt6802": {
+            "name" : "金币练习赛",
+            "des" : "每1分钟一场",
+            "level" : "", 
+            "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+            "avatorDefault": "chip",
+            "signupFee": {
+                "desc": "免费"
+            },
+            "matchCondition": {
+                "type": "datetime"
+            },
+            "countdownTime": 600,
+            "secondAlarmTime": 60,
+            "condition": "每1分钟一场",
+            "config": 4,
+            "entry": "免费",
+            "id": 6802,
+            "least": 0
+        },
+        "mt6803": {
+            "name" : "2人PK赛",
+            "des" : "满2人开赛",
+            "level" : "C", 
+            "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+            "avatorDefault": "chip",
+            "signupFee": {
+                "desc": "20钻石"
+            },
+            "matchCondition": {
+                "type": "datetime"
+            },
+            "countdownTime": 600,
+            "secondAlarmTime": 60,
+            "condition": "满2人开赛",
+            "config": 4,
+            "entry": "20钻石",
+            "id": 6803,
+            "least": 0
+        },
+        "mt6804": {
+            "name" : "大师免费赛",
+            "des" : "每天21:30",
+            "level" : "", 
+
+            "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+            "avatorDefault": "chip",
+            "signupFee": {
+                "desc": "免费"
+            },
+            "matchCondition": {
+                "type": "datetime"
+            },
+            "countdownTime": 600,
+            "secondAlarmTime": 60,
+            "condition": "每天21:30",
+            "config": 4,
+            "entry": "免费",
+            "id": 6804,
+            "least": 0
+        },
+        "mt6805": {
+            "name" : "500元精英赛",
+            "des" : "每天21点",
+            "level" : "C", 
+
+            "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+            "avatorDefault": "chip",
+            "signupFee": {
+                "desc": "10钻石"
+            },
+            "matchCondition": {
+                "type": "datetime"
+            },
+            "countdownTime": 600,
+            "secondAlarmTime": 60,
+            "condition": "每天21点",
+            "config": 4,
+            "entry": "10钻石",
+            "id": 6805,
+            "least": 0
+        },
+		"mt6806": {
+            "name" : "A级海选赛",
+            "des" : "10月21日19:00",
+            "level" : "", 
+            "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+            "avatorDefault": "chip",
+            "signupFee": {
+                "desc": "A级海选赛门票"
+            },
+            "matchCondition": {
+                "type": "datetime"
+            },
+            "countdownTime": 600,
+            "secondAlarmTime": 60,
+            "condition": "10月21日19:00",
+            "config": 4,
+            "entry": "A级海选赛门票",
+            "id": 6806,
+            "least": 0
+        },
+		"mt6807": {
+            "name" : "A级首轮赛",
+            "des" : "10月25日20:00",
+            "level" : "A", 
+            "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+            "avatorDefault": "chip",
+            "signupFee": {
+                "desc": "A级首轮赛门票"
+            },
+            "matchCondition": {
+                "type": "datetime"
+            },
+            "countdownTime": 600,
+            "secondAlarmTime": 60,
+            "condition": "10月25日20:00",
+            "config": 4,
+            "entry": "A级首轮赛门票",
+            "id": 6807,
+            "least": 0
+        },
+		"mt6808": {
+            "name" : "A级落地赛",
+            "des" : "10月28日12:00",
+            "level" : "A", 
+            "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+            "avatorDefault": "chip",
+            "signupFee": {
+                "desc": "A级落地赛门票"
+            },
+            "matchCondition": {
+                "type": "datetime"
+            },
+            "countdownTime": 600,
+            "secondAlarmTime": 60,
+            "condition": "10月28日12:00",
+            "config": 4,
+            "entry": "A级落地赛门票",
+            "id": 6808,
+            "least": 0
+        }
+    },
+    "session_items": {
+        "mt": {
+            "description": [
+                "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+                "2、为保证公平，一些比赛隐藏了对手信息。"
+            ],
+            "match": 1,
+            "new": 1,
+            "rooms": [
+                "mt6803",
+                "mt6801",
+                "mt6805",
+                "mt6804",
+                "mt6802",
+				"mt6806",
+				"mt6807",
+				"mt6808"
+            ],
+            "session": "二打一比赛场"
+        },
+        "2v1ts": {
+            "description": [
+                "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+                "2、为保证公平，一些比赛隐藏了对手信息。"
+            ],
+            "match": 1,
+            "new": 1,
+            "rooms": [
+                "mt6802",
+                "mt6804"
+            ],
+            "session": "二打一比赛场"
+        }
+    },
+    "templates": {
+        "default": [
+            "mt"
+        ],
+        "2v1tishen": [
+            "2v1ts"
+        ]
+    }
+}

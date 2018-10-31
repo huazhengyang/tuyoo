@@ -1,0 +1,124 @@
+{
+	"local":["0", "1", "2"],
+	"list":[
+		{
+			"id":"1001",
+			"name":"girl",
+			"type":"2d",
+			"display":"初恋", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/girl/icon5.png",
+			"preview":"${http_download}/dizhu/table.skin/girl/preview.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count":30,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【初恋】永久皮肤，售价30钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/girl/girl_v6_u1_1.zip",
+			"md5":"9fcbb42a29e66520abe60933f933a932"
+		},
+		{
+			"id":"1002",
+			"name":"green",
+			"type":"2d",
+			"display":"绿色", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/green/icon5.png",
+			"preview":"${http_download}/dizhu/table.skin/green/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":0,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【绿色】限时免费"
+			},
+			"url":"${http_download}/dizhu/table.skin/green/green_v6_u1_1.zip",
+			"md5":"7065a3c618b56e790a253af97137048c"
+		},
+		{
+			"id":"1003",
+			"name":"grid",
+			"type":"2d",
+			"display":"格子", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/grid/icon5.png",
+			"preview":"${http_download}/dizhu/table.skin/grid/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":30000,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【格子】永久皮肤，售价30000金币，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/grid/grid_v6_u1_1.zip",
+			"md5":"35089a2c976dc0f919fa6ba4cecea713"
+		},
+		{
+			"id":"1004",
+			"name":"newyear",
+			"type":"2d",
+			"display":"春节", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/newyear/icon5.png",
+			"preview":"${http_download}/dizhu/table.skin/newyear/preview_2.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count":10,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【春节】永久皮肤，售价10钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/newyear/newyear_v6_u1_1.zip",
+			"md5":"29fc9f8c1155a26d20ebb1b7560cecca"
+		},
+		{
+			"id":"1005",
+			"name":"tuyoo",
+			"type":"2d",
+			"display":"绿色", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/green/icon5.png",
+			"preview":"${http_download}/dizhu/table.skin/green/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":0,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【绿色】限时免费"
+			},
+			"url":"${http_download}/dizhu/table.skin/tuyoo.zip",
+			"md5":"64854f06c5941e7aa08f71470ff8ef70"
+		},
+		{
+			"id":"3001",
+			"name":"seaside",
+			"type":"3d",
+			"display":"沙滩", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/seaside/seaside_icon.png",
+			"preview":"${http_download}/dizhu/table.skin/seaside/heaven_preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":0,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【沙滩】3D皮肤，限时免费"
+			},
+			"url":"${http_download}/dizhu/table.skin/seaside/seaside_v6_u1_3.zip",
+			"md5":"3ec6e8594faaf47e6d14d497a3399a7a"
+		},
+		{
+			"id":"3002",
+			"name":"heaven",
+			"type":"3d",
+			"display":"福临门", 
+			"update":2,
+			"icon":"${http_download}/dizhu/table.skin/seaside/heaven_icon.png",
+			"preview":"${http_download}/dizhu/table.skin/seaside/heaven_preview2.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count": 10,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【福临门】3D皮肤，售价10钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/seaside/heaven_v6_u2.zip",
+			"md5":"8c30b11495da5d12b27b2374127701d7"
+		}
+	]
+}

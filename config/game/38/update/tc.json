@@ -1,0 +1,43 @@
+{
+    "38": {
+    	"3.799":[
+            {
+                "des": "修正个别情况下红黑退出时可能未能带出金币的问题",
+                "updateVersion": "1",
+                "md5": "9df755dc7f35a4ca36d659d59ce4dd1a",
+                "path": "${http_download}/hall/update/h3card_3.799_4.zip",
+                "size": "267.6K"
+            }
+        ],
+		"3.801":[
+            {
+                "des": "修正底牌资源错误问题",
+                "updateVersion": "1",
+                "md5": "d75c007ec11e9fafa7b4ab2d6574722c",
+                "path": "${http_download}/hall/update/h3card_3.801_1.zip",
+                "size": "316.7K"
+            },
+			{
+                "des": "修正2:1屏幕适配问题",
+                "updateVersion": "2",
+                "md5": "e414a0db6f26a02f4eb79ea0427f0d04",
+                "path": "${http_download}/hall/update/h3card_3.801_4.zip",
+                "size": "1.2M"
+            },
+			{
+                "des": "修正无法踢出牌桌的问题",
+                "updateVersion": "3",
+                "md5": "6e52e47314ac0b91cddc0dc16ae8dfd4",
+                "path": "${http_download}/hall/update/h3card_3.801_5.zip",
+                "size": "264.1K"
+            },
+			{
+                "des": "添加服务费明示",
+                "updateVersion": "4",
+                "md5": "dc106eb2a944c3256181da695430ef58",
+                "path": "${http_download}/hall/update/h3card_3.801_6.zip",
+                "size": "268.2K"
+            }
+        ]
+    }
+}

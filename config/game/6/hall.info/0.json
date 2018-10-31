@@ -1,0 +1,241 @@
+{
+	"room_items": {
+		"mt01": {
+			"signupFee": {
+				"desc": "1钻石",
+				"count": 1
+			},
+			"segment": 4,
+			"minQuickStartDiamond": 1,
+			"condition": "81人开赛",
+			"id": 6070,
+			"mixId": "6070",
+			"name": "5元红包赛",
+			"showInfo": {
+				"gameDes": "冠军奖励1元红包"
+			}
+		},
+		"mt02": {
+			"signupFee": {
+				"desc": "4钻石",
+				"count": 4
+			},
+			"segment": 6,
+			"minQuickStartDiamond": 12,
+			"condition": "81人开赛",
+			"entry": "报名费:4钻石",
+			"id": 6070,
+			"mixId": "6072",
+			"name": "20元红包赛",
+			"showInfo": {
+				"gameDes": "冠军奖励4元红包"
+			}
+		},
+		"mt03": {
+			"signupFee": {
+				"desc": "19钻石",
+				"count": 19
+			},
+			"segment": 7,
+			"minQuickStartDiamond": 60,
+			"condition": "81人开赛",
+			"id": 6070,
+			"mixId": "6057",
+			"name": "100元红包赛",
+			"showInfo": {
+				"gameDes": "冠军奖励20元红包"
+			}
+		},
+		"jd6661": {
+			"condition": "闯关升级",
+			"id": 6661,
+			"tishenVer": 0,
+			"name": "闯关升级",
+			"showInfo": {
+				"gameDes": "连胜送话费 (赢牌送金币)"
+			}
+		},
+		"jd20": {
+			"condition": "4000",
+			"minQuickStartChip" : 4000,
+			"entry": "底注100金币",
+			"id": 6012,
+			"name": "经典初级场",
+			"showInfo": {
+				"gameDes": "6局送0.02元"
+			}
+		},
+		"jd30": {
+			"condition": "2万",
+			"minQuickStartChip" : 40000,
+			"entry": "底注500金币",
+			"id": 6019,
+			"mixId": "high",
+			"name": "经典中级场",
+			"showInfo": {
+				"gameDes": "6局送0.1元"
+			}
+		},
+		"jd40": {
+			"condition": "8万",
+			"minQuickStartChip" : 120000,
+			"entry": "底注2000金币",
+			"id": 6019,
+			"mixId": "master",
+			"name": "经典高级场",
+			"showInfo": {
+				"gameDes": "6局送0.3元"
+			}
+		},
+		"lz20": {
+			"condition": "4000",
+			"minQuickStartChip" : 4000,
+			"entry": "底注100金币",
+			"id": 6022,
+			"least": 100,
+			"name": "癞子初级场",
+			"showInfo": {
+				"gameDes": "6局送0.02元"
+			}
+		},
+		"lz30": {
+			"condition": "3万",
+			"minQuickStartChip" : 50000,
+			"entry": "底注500金币",
+			"id": 6029,
+			"mixId": "high",
+			"name": "癞子中级场",
+			"showInfo": {
+				"gameDes": "6局送0.1元"
+			}
+		},
+		"lz40": {
+			"condition": "14万",
+			"minQuickStartChip" : 210000,
+			"entry": "底注2000金币",
+			"id": 6029,
+			"mixId": "master",
+			"name": "癞子高级场",
+			"showInfo": {
+				"gameDes": "6局送0.3元"
+			}
+		},
+		"hl20": {
+			"condition": "4000",
+			"minQuickStartChip" : 4000,
+			"entry": "底注100金币",
+			"id": 6002,
+			"name": "欢乐初级场",
+			"showInfo": {
+				"gameDes": "6局送0.02元"
+			}
+		},
+		"hl30": {
+			"condition": "2万",
+			"minQuickStartChip" : 40000,
+			"entry": "底注500金币",
+			"id": 6009,
+			"mixId": "high",
+			"name": "欢乐中级场",
+			"showInfo": {
+				"gameDes": "6局送0.1元"
+			}
+		},
+		"hl40": {
+			"condition": "8万",
+			"minQuickStartChip" : 120000,
+			"entry": "底注2000金币",
+			"id": 6009,
+			"mixId": "master",
+			"name": "欢乐高级场",
+			"showInfo": {
+				"gameDes": "6局送0.3元"
+			}
+		}
+	},
+	"session_items": {
+		"mt": {
+			"description": [
+				"1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+				"2、为保证公平，一些比赛隐藏了对手信息。"
+			],
+			"match": 1,
+			"new": 1,
+			"rooms": [
+				"mt01",
+				"mt02",
+				"mt03"
+			],
+			"session": "比赛场",
+			"showTip":"即来即玩，红包拿来",
+			"playMode":"match"
+		},
+		"jd": {
+			"description": [
+				"最正宗的经典玩法，考验技巧，百玩不腻；"
+			],
+			"match": 0,
+			"new": 0,
+			"rooms": [
+				"jd20",
+				"jd30",
+				"jd40"
+			],
+			"session": "经典场",
+			"showTip":"玩6局免费拿红包",
+			"playMode":"123"
+		},
+		"lz": {
+			"description": [
+				"去掉3、4、5，极速癞子玩法"
+			],
+			"match": 0,
+			"new": 0,
+			"rooms": [
+				"lz20",
+				"lz30",
+                                "lz40"
+			],
+			"session": "癞子场",
+			"showTip":"玩6局免费拿红包",
+			"playMode":"quick_laizi"
+		},
+		"hl": {
+			"description": [
+				"能换3张的斗地主"
+			],
+			"match": 0,
+			"new": 0,
+			"rooms": [
+				"hl20",
+				"hl30",
+                                "hl40"
+			],
+			"session": "欢乐场",
+			"showTip":"玩6局免费拿红包",
+			"playMode":"happy"
+		},
+		"tt": {
+			"description": [
+				"1、段位赛段位赛",
+				"2、段位赛段位赛"
+			],
+			"segment": 1,
+			"new": 0,
+			"rooms": [
+				"jd6661"
+			],
+			"session": "段位赛",
+			"showTip":"轻松闯关，连胜得红包"
+		}
+	},
+	"templates": {
+		"default": [
+			"jd",
+			"lz",
+			"hl",
+			"mt",
+			"tt"
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"strings":{
+  		"string.renameCard.required":"老板，修改昵称需要一张改名卡哦",
+  		"string.rename.desc":"修改昵称需消耗一张改名卡。",
+  		"string.rename.desc.first":"首次修改昵称免费，给自己起个独特的昵称吧。",
+  		"string.rename.successed":"昵称修改成功",
+  		"string.rename.contains.sensitive":"您的昵称中含有敏感词，请重新输入"
+  	},
+  	"payOrder":{
+        "shelves": [
+            "item",
+            "diamond"
+        ],
+        "contains": {
+            "itemId": "item:2001",
+            "count": 1
+        }
+  	}
+}

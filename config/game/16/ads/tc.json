@@ -1,0 +1,31 @@
+{
+ "templates": { },
+ "ads"      : [
+  {
+   "startTime": "2015-09-20 00:00:00",
+   "id"       : 13,
+   "todotasks": [
+    {
+     "actId"    : "douniu_3_7_Android_1",
+     "typeId"   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable": 1,
+   "pic"      : "${http_download}/hall/ads/imgs/douniu_ads_1.png",
+   "endTime"  : "2018-02-21 00:00:00"
+  },
+  {
+   "startTime": "2015-09-24 00:00:00",
+   "id"       : 14,
+   "todotasks": [
+    {
+     "actId"    : "douniu_3_7_Android_2",
+     "typeId"   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable": 1,
+   "pic"      : "${http_download}/hall/ads/imgs/douniu_ads_20151224_0.png",
+   "endTime"  : "2018-10-15 00:00:00"
+  }
+ ]
+}

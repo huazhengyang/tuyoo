@@ -1,0 +1,49 @@
+                      ==log-server==
+
+* 使用自研的定长纪录文件系统存储关键事件日志，并提供查询索引
+  因为日志系统数据量特别大，读写IO要求较高，所以采用文件系统
+  获取最佳的读写性能，节省存储空间，便于分析系统高速采集数据
+  ,查询操作需要高性能的随机访问，所以使用ssd磁盘存储最新数据
+
+* 业务服务调用freetime.util.log中的统一API，通过http发送关键
+  事件日志，为了保证数据完整安全，采用双机互备机制，同时向两
+  台机器发送事件
+
+* 为每条事件纪录分配一个唯一ID(redis中维护一个global.logid字
+  段)，通过logid，可以按照规则直接在定长纪录文件中seek访问到
+  具体日志纪录. 
+  redis中还为每个用户建立了时间戳索引：
+  log:<userid>-->[(timestamp, logid),(timestamp, logid)....]
+  利用这个索引,结合文件seek,可以高速的按时段查询用户事件详单
+
+* 双机备份保证可靠性(参见log-server.pdf的架构图) 
+  - log-client使用http post发送事件日志给LogIndexerM,
+    只发纯数据，不管logid
+  - LogIndexerM申请redis获取logid，并append时间索引, 
+    然后用http post同时请求LogWriterM和LogWriterS写文件
+    LogIndexerS平时空闲
+  - 如果master主机down掉，通过lvs的keepalived执行如下: 
+    1.切换slave的ip为master的ip
+    2.切换redis slave为master
+    这样前端过来的日志请求，就自动转到了备机上
+
+* 调用接口是：
+  ftlog.sendHttpLog(group, log_type, log_record) 
+  - 这里group对应用户分群或者游戏分群，一个group对应一个redis
+    连接池，例如：user01，user02，game01，game02...
+  - log_type代表BI日志事件，例如：chip，login，gamestart等
+  - log_record表示二进制数据，目前要求是用struct.pack生成的二
+    进制数据，日志接收服务会用配置的format解析校验这个数据
+  例如：
+    ftlog.sendHttpLog("user01", "chip",  
+                    struct.pack("8s", "12345678")
+
+  - 文件存储方式：
+    <LOGROOT>/<log-type>/<group>/bidata_<log-type>_<group>_<index>
+    例如：
+    └── chip
+        └── user01
+            └── bidata_chip_user01_0
+
+  - 详细参考：freetime/support/logserver里面的conf和
+              protocol/http.py代码

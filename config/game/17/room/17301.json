@@ -1,0 +1,37 @@
+{
+  "buyinchip" : 0,
+  "dashifenLevel" : 0,
+  "dummyUserCount" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 0,
+  "maxCoin" : -1,
+  "maxCoinQS" : 4000,
+  "maxdashifen" : -1,
+  "minCoin" : 500,
+  "minCoinQS" : 500,
+  "name" : "潍坊新手场",
+  "openAutoChat" : 0,
+  "openIpLimit" : 0,
+  "playMode" : "weifang",
+  "robotUserCallUpTime" : 2,
+  "robotUserMaxCount" : -1,
+  "robotUserOpTime" : [
+    2,
+    3
+  ],
+  "roomFee" : 160,
+  "tableConf" : {
+    "autoOutCard" : 0,
+    "baoHuangScore" : 1,
+    "baseChip" : 200,
+    "dengJiTimeout" : 5,
+    "guardShowTimeout" : 5,
+    "maxSeatN" : 5,
+    "playTimeout" : 10,
+    "qiangDuTimeout" : 5,
+    "selectCardTimeout" : 5,
+    "send3Timeout" : 5
+  },
+  "tableType" : "normal",
+  "typeName" : "normal"
+}

@@ -1,0 +1,134 @@
+{
+    "exchangeShare": [
+        {
+            "conditions": [
+                {"typeId": "user.cond.isMyGameid", "myGameId": 8}
+            ], 
+            "value": "112"
+        },
+        {
+            "conditions": [
+                {"typeId": "user.cond.isMyGameid", "myGameId": 3}
+            ], 
+            "value": "110"
+        },
+        {
+            "conditions": [
+                {"typeId": "user.cond.isMyGameid", "myGameId": 6}
+            ], 
+            "value": "110000"
+        },
+        {
+            "conditions": [
+                {"typeId": "user.cond.isMyGameid", "myGameId": 10}
+            ], 
+            "value": "1002"
+        }
+    ],
+    "matchShare": [
+        {
+            "conditions": [], 
+            "value": "155"
+        }
+    ],
+    "dailyShare": [
+        {
+            "conditions": [
+                {"typeId": "user.cond.isMyGameid", "myGameId": 6}
+            ], 
+            "value": "100"
+        },
+        {
+            "conditions": [
+                {"typeId": "user.cond.isMyGameid", "myGameId": 7}
+            ], 
+            "value": "102"
+        },
+		{
+            "conditions": [
+                {"typeId": "user.cond.isMyGameid", "myGameId": 30}
+            ], 
+            "value": "30001"
+        },
+        {
+            "conditions": [
+                {"typeId": "user.cond.isMyGameid", "myGameId": 10}
+            ], 
+            "value": "1002"
+        },
+        {
+            "conditions": [
+                {"typeId": "user.cond.isMyGameid", "myGameId": 3}
+            ], 
+            "value": "104"
+        },
+        {
+            "conditions": [
+                {"typeId": "user.cond.isMyGameid", "myGameId": 17}
+            ],
+            "value": "70300"
+        },
+        {
+            "conditions": [
+                {"typeId": "user.cond.isMyGameid", "myGameId": 21}
+            ],
+            "value": "70303"
+        }
+    ],
+    "red_envelope": [
+        {
+            "conditions": [], 
+            "value": "111"
+        }
+    ],
+    "wxRedEnvelope": [
+        {
+            "conditions": [], 
+            "value": "153"
+        }
+    ],
+    "neituiguang2": [
+        {
+            "conditions": [], 
+            "value": "14"
+        }
+    ],
+    "Relieffund": [
+        {
+            "conditions": [], 
+            "value": "171"
+        }
+    ],
+    "firstshare": [
+        {
+            "conditions": [], 
+            "value": "200"
+        }
+    ],
+    "friendplay": [
+        {
+            "conditions": [], 
+            "value": "250"
+        }
+    ],
+    "mj_invite_play_share": [
+        {
+            "conditions": [
+                {"typeId": "user.cond.gameId", "gameId": 701}
+            ],
+            "value": "70198"            
+        },
+        {
+            "conditions": [
+                {"typeId": "user.cond.gameId", "gameId": 702}
+            ],
+            "value": "70298"            
+        },
+        {
+            "conditions": [
+                {"typeId": "user.cond.gameId", "gameId": 201}
+            ],
+            "value": "20198"            
+        }
+    ]
+}

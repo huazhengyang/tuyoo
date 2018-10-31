@@ -1,0 +1,746 @@
+{
+    "flip_card_game_config" : {
+        "probability" : {
+            "normal" : [10652298, 8000002, 1000000, 250000, 50000, 25000, 20000, 2500, 200, 0],
+            "white" : [],
+            "black" : [],
+            "test" : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        "odds" : [0, 0.5, 1, 3, 8, 30, 88, 100, 200, 2000, 10000],
+        "types" : ["high_card", "one_pair", "one_pair_bigger_x", "two_pairs", "three_of_a_kind",
+                   "straight", "flush", "full_house", "four_of_a_kind",
+                   "straight_flush", "royal_flush"],
+        "types_ch" : ["高牌", "一对", "对J以上", "两对", "三条",
+                      "顺子", "同花", "葫芦", "四条",
+                      "同花顺", "皇家同花顺"],
+        "sendAllPlayersLed" : 5,
+        "sendAllPlayersLed_winChips" : 88880,
+        "shareLevel" : 5,
+        "onePairBiggerX" : 11,
+        "userChipRatio" : 0.005,
+        "betMin" : 10,
+        "betMax" : 100000,
+        "shareCfg":{
+            "dTitle":"翻翻乐战绩",
+            "dCardType":"获得“%s”牌型",
+            "dReward":"奖励:%s金币",
+            "sTitle":"途游德州翻翻乐",
+            "sReward" : "赢得:%s金币"
+        },
+        "extra_reward": {
+            "[102,105,107,109,114]": {"type": "odds", "data": 2},
+            "[202,205,207,209,214]": {"type": "odds", "data": 2},
+            "[302,305,307,309,314]": {"type": "odds", "data": 2},
+            "[402,405,407,409,414]": {"type": "odds", "data": 2}
+        }
+    },
+    "flip_card_led_cfg": {
+        "gameLostLed": "大奖就在眼前\n请再接再厉！",
+        "gameWinLed": "奖励:%s金币\n牌型:[%s]x%s倍",
+        "lessChipLed": "金币不够了\n快点补充一点吧!",
+        "normalLed": "皇家同花顺8888倍；同花顺1888倍；四条188倍；葫芦68倍；同花50倍；顺子20倍；三条5倍；两对3倍；对J以上1倍；一对以上0.5倍",
+        "tips": [
+            "TIPS:点击翻牌按钮就可以开始新一局的游戏了",
+            "TIPS:点击下注按钮可以轻松选择下注倍数",
+            "TIPS:您可以在帮助中查看中奖倍率表",
+            "TIPS:中奖的喜悦是需要分享才有乐趣",
+            "TIPS:游戏次数越多，中奖几率越大",
+            "TIPS:享受金币飞入你口袋的一刻吧",
+            "TIPS:长按翻牌按钮，就可以轻松翻牌了",
+            "TIPS:大赢家榜里都有谁，点开帮助看看吧",
+            "TIPS:在你孤独等待的时候，我可以陪你！"
+        ]
+    },
+    "flip_card_room_bet_cfg": {
+        "8001": {
+            "bet": 10,
+            "loading_show": 0,
+            "show": 0
+        },
+        "8101": {
+            "bet": 10,
+            "loading_show": 0,
+            "show": 0
+        },
+        "8102": {
+            "bet": 10,
+            "loading_show": 0,
+            "show": 0
+        },
+        "8103": {
+            "bet": 20,
+            "loading_show": 0,
+            "show": 0
+        },
+        "8104": {
+            "bet": 100,
+            "loading_show": 0,
+            "show": 1
+        },
+        "81200": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81201": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81202": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81203": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81204": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81205": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81206": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81207": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81208": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81209": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81210": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81211": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81212": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81213": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81214": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81215": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81216": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81217": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81218": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81219": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81220": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81221": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81222": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81223": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81224": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81225": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81226": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81227": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81228": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81229": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81230": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81231": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81232": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81233": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81234": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81235": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81236": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81237": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81238": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81239": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81240": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81241": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81242": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81243": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81244": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81245": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81246": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81247": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81248": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81249": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81250": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81251": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81252": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81253": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81254": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81255": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81256": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81257": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81258": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81259": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81260": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81261": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81262": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81263": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81264": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81265": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81266": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81267": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81268": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81269": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81270": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81271": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81272": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81273": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81274": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81275": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81276": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81277": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81278": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81279": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81280": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81281": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81282": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81283": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81284": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81285": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81286": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81287": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81288": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81289": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81290": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81291": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81292": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81293": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "8130": {
+            "bet": 500,
+            "loading_show": 0,
+            "show": 1
+        },
+        "81300": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81301": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81302": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81303": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81304": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81305": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81306": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81307": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81308": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81309": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81310": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81311": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81312": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81313": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81314": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "8132": {
+            "bet": 1000,
+            "loading_show": 0,
+            "show": 1
+        },
+        "8134": {
+            "bet": 2500,
+            "loading_show": 0,
+            "show": 1
+        },
+        "8136": {
+            "bet": 5000,
+            "loading_show": 0,
+            "show": 1
+        },
+        "8138": {
+            "bet": 10000,
+            "loading_show": 0,
+            "show": 1
+        },
+        "8139": {
+            "bet": 5000,
+            "loading_show": 1,
+            "show": 1
+        },
+        "8140": {
+            "bet": 20000,
+            "loading_show": 0,
+            "show": 1
+        },
+        "8141": {
+            "bet": 2000,
+            "loading_show": 0,
+            "show": 1
+        },
+        "8142": {
+            "bet": 10000,
+            "loading_show": 0,
+            "show": 1
+        },
+        "8150": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "8151": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "8152": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "8153": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "8154": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "8155": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "8160": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "8161": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 0
+        },
+        "8162": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 0
+        },
+        "8163": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "8164": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "8165": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81900": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81901": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        },
+        "81902": {
+            "bet": 0,
+            "loading_show": 1,
+            "show": 1
+        }
+    }
+}

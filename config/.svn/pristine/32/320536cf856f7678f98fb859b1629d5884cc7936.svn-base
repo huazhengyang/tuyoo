@@ -1,0 +1,174 @@
+{
+  "rooms" : {
+    "21011" : "conf0",
+    "21012" : "conf1",
+    "21013" : "conf2",
+    "21014" : "conf3",
+    "21021" : "conf0",
+    "21022" : "conf1",
+    "21023" : "conf2",
+    "21024" : "conf3",
+    "21031" : "conf0",
+    "21032" : "conf1",
+    "21033" : "conf2",
+    "21034" : "conf3",
+    "21061" : "conf0",
+    "21062" : "conf1",
+    "21063" : "conf2",
+    "21064" : "conf3",
+    "21071" : "conf0",
+    "21072" : "conf1",
+    "21073" : "conf2",
+    "21074" : "conf3",
+    "21081" : "conf0",
+    "21082" : "conf1",
+    "21083" : "conf2",
+    "21084" : "conf3",
+    "21091" : "conf0",
+    "21092" : "conf1",
+    "21093" : "conf2",
+    "21094" : "conf3",
+    "21101" : "conf4",
+    "21111" : "conf0",
+    "21112" : "conf1",
+    "21113" : "conf2",
+    "21114" : "conf3",
+    "21121" : "conf0",
+    "21122" : "conf1",
+    "21123" : "conf2",
+    "21124" : "conf3",
+    "21131" : "conf0",
+    "21132" : "conf1",
+    "21133" : "conf2",
+    "21134" : "conf3",
+    "21141" : "conf0",
+    "21142" : "conf1",
+    "21143" : "conf2",
+    "21144" : "conf3",
+    "21151" : "conf0",
+    "21152" : "conf1",
+    "21153" : "conf2",
+    "21154" : "conf3",
+    "21161" : "conf0",
+    "21162" : "conf1",
+    "21163" : "conf2",
+    "21164" : "conf3"
+  },
+  "vip_special" : [{
+        "level" : 4,
+        "rate" : 0.5,
+        "desc" : "互动表情魅力值增加50%"
+      }],
+  "templates" : {
+    "conf4" : {
+      "bomb" : {
+        "other_charm" : 0,
+        "price" : 0,
+        "self_charm" : 0
+      },
+      "diamond" : {
+        "other_charm" : 0,
+        "price" : 0,
+        "self_charm" : 0
+      },
+      "egg" : {
+        "other_charm" : 0,
+        "price" : 0,
+        "self_charm" : 0
+      },
+      "flower" : {
+        "other_charm" : 0,
+        "price" : 0,
+        "self_charm" : 0
+      }
+    },
+    "conf0" : {
+      "bomb" : {
+        "other_charm" : -4,
+        "price" : 40,
+        "self_charm" : 4
+      },
+      "diamond" : {
+        "other_charm" : 8,
+        "price" : 40,
+        "self_charm" : 8
+      },
+      "egg" : {
+        "other_charm" : -1,
+        "price" : 10,
+        "self_charm" : 1
+      },
+      "flower" : {
+        "other_charm" : 2,
+        "price" : 10,
+        "self_charm" : 2
+      }
+    },
+    "conf1" : {
+      "bomb" : {
+        "other_charm" : -15,
+        "price" : 150,
+        "self_charm" : 15
+      },
+      "diamond" : {
+        "other_charm" : 30,
+        "price" : 150,
+        "self_charm" : 30
+      },
+      "egg" : {
+        "other_charm" : -4,
+        "price" : 40,
+        "self_charm" : 4
+      },
+      "flower" : {
+        "other_charm" : 8,
+        "price" : 40,
+        "self_charm" : 8
+      }
+    },
+    "conf2" : {
+      "bomb" : {
+        "other_charm" : -60,
+        "price" : 600,
+        "self_charm" : 60
+      },
+      "diamond" : {
+        "other_charm" : 120,
+        "price" : 600,
+        "self_charm" : 120
+      },
+      "egg" : {
+        "other_charm" : -20,
+        "price" : 200,
+        "self_charm" : 20
+      },
+      "flower" : {
+        "other_charm" : 40,
+        "price" : 200,
+        "self_charm" : 40
+      }
+    },
+    "conf3" : {
+      "bomb" : {
+        "other_charm" : -250,
+        "price" : 2500,
+        "self_charm" : 250
+      },
+      "diamond" : {
+        "other_charm" : 500,
+        "price" : 2500,
+        "self_charm" : 500
+      },
+      "egg" : {
+        "other_charm" : -100,
+        "price" : 1000,
+        "self_charm" : 100
+      },
+      "flower" : {
+        "other_charm" : 200,
+        "price" : 1000,
+        "self_charm" : 200
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+    "dealerCare": {
+        "bOpen": 0, 
+        "rules": []
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            10, 
+            1, 
+            -1
+        ], 
+        "chicken": [
+            10, 
+            1, 
+            -1
+        ], 
+        "doubleAce": [
+            10, 
+            2, 
+            2
+        ], 
+        "eggs": [
+            10, 
+            1, 
+            -1
+        ], 
+        "fishing": [
+            10, 
+            1, 
+            -1
+        ], 
+        "ring": [
+            10, 
+            2, 
+            2
+        ], 
+        "rose": [
+            10, 
+            2, 
+            2
+        ], 
+        "thumb": [
+            10, 
+            2, 
+            2
+        ]
+    }, 
+    "jackPotConf": {
+        "activateFee": 8, 
+        "activateVipLevel": 0, 
+        "enable": 1, 
+        "frameCfg": [
+            10, 
+            10, 
+            10
+        ], 
+        "lowerLimit": {
+            "activity": 40000, 
+            "activity_time": [
+                10, 
+                20, 
+                22
+            ], 
+            "base": 3000
+        }, 
+        "playLed": 0, 
+        "rewardCardType": {
+            "6100000": [
+                0.01, 
+                "9以上顺金"
+            ], 
+            "7000000": [
+                0.02, 
+                "A以下豹子"
+            ], 
+            "7140000": [
+                0.05, 
+                "豹子AAA"
+            ]
+        }, 
+        "roomFeePercent": 0.2
+    }, 
+    "matchConf": {
+        "match_id": "0.0"
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 1000000, 
+    "maxCoinQS": 40000, 
+    "minCoin": 4000, 
+    "minCoinQS": 5000, 
+    "minTriggerLen": 2, 
+    "n_recycle": 4, 
+    "name": "白银级", 
+    "playMode": "classic", 
+    "roomID": 30012, 
+    "tableConf": {
+        "bb": 20, 
+        "big_pot": 0, 
+        "bigpot_fee_floor": 4000, 
+        "buyin": 2000, 
+        "buyinConf": "1/2", 
+        "chat_require_vip_level": 0, 
+        "commission": 0.05, 
+        "fee": 15, 
+        "flip_card_game": {
+            "bet": 0, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "maxHandCount": 10, 
+        "maxSeatN": 6, 
+        "max_bigpot_fee": -1, 
+        "min_players": 2, 
+        "optime": 13, 
+        "pay_factor": 1.0, 
+        "pkHandCount": 3, 
+        "prebet": 50, 
+        "raise_times": [
+            2, 
+            4, 
+            8
+        ], 
+        "sb": 20, 
+        "scheduleFloor": 3, 
+        "seeCardHandCount": 0, 
+        "start_card": 7, 
+        "timeup": 10, 
+        "tname": "白银级"
+    }, 
+    "triggerLen": 6, 
+    "typeName": "queue", 
+    "xijin": 0
+}

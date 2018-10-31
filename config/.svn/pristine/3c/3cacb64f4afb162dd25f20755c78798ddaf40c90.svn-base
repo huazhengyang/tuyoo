@@ -1,0 +1,328 @@
+{
+    "handlers": [
+        {
+            "name": "flip_card_game",
+            "module": "texas.plugins.flip_card_game",
+            "class": "FlipCardGame",
+            "handle": "event_handle"
+        },
+        {
+            "name": "lead_to_pay_v1",
+            "module": "texas.plugins.lead_to_pay_v1",
+            "class": "LeadToPay",
+            "handle": "event_handle"
+        },
+        {
+            "name": "shark",
+            "module": "texas.plugins.shark",
+            "class": "Shark",
+            "handle": "event_handle"
+        },
+        {
+            "name": "notify",
+            "module": "texas.plugins.notify",
+            "class": "Notify",
+            "handle": "event_handle"
+        },
+        {
+            "name": "hunter_medal",
+            "module": "texas.plugins.hunter_medal",
+            "class": "HunterMedal",
+            "handle": "event_handle"
+        },
+        {
+            "name": "tutorial",
+            "module": "texas.plugins.tutorial",
+            "class": "Tutorial",
+            "handle": "event_handle"
+        },
+        {
+            "name": "medal",
+            "module": "texas.plugins.medal",
+            "class": "GameMedal",
+            "handle": "event_handle"
+        },
+        {
+            "name": "treasure_box",
+            "module": "texas.plugins.treasure_box",
+            "class": "TBox",
+            "handle": "event_handle"
+        },
+        {
+            "name": "tbox",
+            "module": "texas.plugins.tbox",
+            "class": "Tbox_new",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_chat",
+            "module": "texas.plugins.table_chat",
+            "class": "TableChat",
+            "handle": "event_handle"
+        },
+        {
+            "name": "game_config",
+            "module": "texas.plugins.game_config",
+            "class": "GameConfig",
+            "handle": "event_handle"
+        },
+        {
+            "name": "misc",
+            "module": "texas.plugins.misc",
+            "class": "Misc",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_pay",
+            "module": "texas.plugins.table_pay",
+            "class": "TablePay",
+            "handle": "event_handle"
+        },
+        {
+            "name": "play_count",
+            "module": "texas.plugins.play_count",
+            "class": "PlayerPlayCounter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "ranking",
+            "module": "texas.plugins.ranking",
+            "class": "Ranking",
+            "handle": "event_handle"
+        },
+        {
+            "name": "Annouce",
+            "module": "texas.plugins.announce",
+            "class": "Annouce",
+            "handle": "event_handle"
+        },
+        {
+            "name": "AfterLogin",
+            "module": "texas.plugins.afterlogin",
+            "class": "AfterLogin",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GameBiEventReporter",
+            "module": "texas.plugins.game_bi_event_reporter",
+            "class": "GameBiEventReporter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "Achievement",
+            "module": "texas.plugins.achievement",
+            "class": "Achievement",
+            "handle": "event_handle"
+        },
+        {
+            "name": "MatchPreview",
+            "module": "texas.plugins.match_preview",
+            "class": "MatchPreview",
+            "handle": "event_handle"
+        },
+        {
+            "name": "LeadToVipRoom",
+            "module": "texas.plugins.lead_to_vip_room",
+            "class": "LeadToVipRoom",
+            "handle": "event_handle"
+        },
+        {
+            "name": "LeadToBiggerRoom",
+            "module": "texas.plugins.lead_to_bigger_room",
+            "class": "LeadToBiggerRoom",
+            "handle": "event_handle"
+        },
+        {
+            "name": "TableActBigCard",
+            "module": "texas.plugins.table_act.act_big_card",
+            "object": "TableActBigCard",
+            "handle": "event_handle"
+        },
+        {
+            "name": "TableCounter",
+            "module": "texas.plugins.table_counter",
+            "class": "TableCounter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "MTTCounter",
+            "module": "texas.plugins.mtt_counter",
+            "class": "MTTCounter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GM",
+            "module": "texas.plugins.gm",
+            "class": "GM",
+            "handle": "event_handle"
+        },
+        {
+            "name": "TalbeRecord",
+            "module": "texas.plugins.table_record",
+            "class": "TableRecorder",
+            "handle": "event_handle"
+        },
+        {
+            "name": "TableReview",
+            "module": "texas.plugins.table_review",
+            "class": "TableReview",
+            "handle": "event_handle"
+        },
+        {
+            "name": "RebuyNotify",
+            "module": "gamble.plugins.mtt.rebuy_notify",
+            "class": "RebuyNotify",
+            "handle": "event_handle"
+        },
+        {
+            "name": "DelayReward",
+            "module": "gamble.plugins.mtt.delay_reward",
+            "class": "DelayReward",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GloryWinner",
+            "module": "texas.plugins.glory.winner",
+            "class": "Winner",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GloryChampion",
+            "module": "texas.plugins.glory.champion",
+            "class": "Champion",
+            "handle": "event_handle"
+        },
+        {
+            "name": "AfterOrderDeliveryProcess",
+            "module": "gamble.plugins.after_order_delivery",
+            "class": "AfterOrderDeliveryProcess",
+            "handle": "event_handle"
+        },
+        {
+            "name": "IdentifyingCodePlugin",
+            "module": "gamble.plugins.identifying_code",
+            "object": "IdentifyingCodePlugin",
+            "handle": "event_handle"
+        },
+        {
+            "name": "MissionSystem",
+            "module": "texas.plugins.mission.mission_system",
+            "class": "MissionSystem",
+            "handle": "event_handle"
+        },
+        {
+            "name": "VipTableListDataCounter",
+            "module": "texas.plugins.vip_table_list_data_counter",
+            "class": "VipTableListDataCounter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "nslogin",
+            "module": "texas.plugins.nslogin",
+            "class": "NSLogin",
+            "handle": "event_handle"
+        },
+        {
+            "name": "TableRewardDealer",
+            "module": "gamble.plugins.table_reward_dealer",
+            "class": "TableRewardDealer",
+            "handle": "event_handle"
+        },
+        {
+            "name": "ChargeMission",
+            "module": "texas.plugins.charge_mission",
+            "class": "ChargeMission",
+            "handle": "event_handle"
+        },
+        {
+            "name": "TicketExchanging",
+            "module": "gamble.plugins.ticket_exchanging",
+            "object": "TicketExchanging",
+            "handle": "event_handle"
+        },
+        {
+            "name": "StarTable",
+            "module": "texas.plugins.starTables",
+            "object": "StarTable",
+            "handle": "event_handle"
+        },
+        {
+            "name": "LiveShow",
+            "module": "gamble.plugins.liveshow",
+            "object": "LiveShow",
+            "handle": "event_handle"
+        },
+        {
+            "name": "RingExchange",
+            "module": "texas.plugins.act_ring_exchange",
+            "object": "Act",
+            "handle": "event_handle"
+        },
+        {
+            "name": "PlayTimeCounter",
+            "module": "gamble.plugins.play_time_counter",
+            "object": "PlayTimeCounter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "SubHallBar",
+            "module": "texas.plugins.sub_hall_bar",
+            "object": "SubHallBar",
+            "handle": "event_handle"
+        },
+        {
+            "name": "SubHallAds",
+            "module": "texas.plugins.sub_hall_ads",
+            "object": "SubHallAds",
+            "handle": "event_handle"
+        },
+        {
+            "name": "SubHallAdBanner",
+            "module": "texas.plugins.sub_hall_ad_banner",
+            "object": "SubHallAdBanner",
+            "handle": "event_handle"
+        },
+        {
+            "name": "ActChargeRank",
+            "module": "texas.plugins.act_charge_rank",
+            "object": "Act",
+            "handle": "event_handle"
+        },
+        {
+            "name": "RewardUpgrade",
+            "module": "texas.plugins.reward_ios_upgrade",
+            "object": "RewardUpgrade",
+            "handle": "event_handle"
+        },
+        {
+            "name": "BigWinLed",
+            "module": "texas.plugins.big_win",
+            "class": "BigWin",
+            "handle": "event_handle"
+        },
+        {
+            "name": "ActSnowflake",
+            "module": "gamble.plugins.act_snowflake",
+            "object": "ActSnowflake",
+            "handle": "event_handle"
+        },
+        {
+            "name": "quest",
+            "module": "texas.plugins.quest.quest",
+            "object": "Quest",
+            "handle": "event_handle"
+        },
+        {
+            "name": "statistics",
+            "module": "texas.plugins.statistics.statistics",
+            "object": "Statistics",
+            "handle": "event_handle"
+        }
+    ],
+    "event_seq": {
+        "EV_TABLE_GAMES": ["TableActBigCard", "flip_card_game"],
+        "EV_STOP_PLAYER_PLAY_COUNTER": ["play_count"],
+        "game roomConfig": ["LiveShow", "misc"],
+        "EV_LEAVE_ROOM": ["PlayTimeCounter", "..."]
+    }
+}

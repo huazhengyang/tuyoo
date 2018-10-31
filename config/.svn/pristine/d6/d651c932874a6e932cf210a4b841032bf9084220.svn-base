@@ -1,0 +1,174 @@
+{
+    "rooms":{
+        "44001":"conf1",
+        "44002":"conf2",
+        "44003":"conf3",
+        "44004":"conf4",
+        "44005":"conf5",
+        "44006":"conf6",
+        "44101":"conf2",
+        "44102":"conf3",
+        "44103":"conf6",
+        "44104":"conf1",
+        "44201":"conf2",
+        "44301":"conf3"
+    },
+    "templates":{
+        "conf1":{
+            "11301":{
+                "expressionId": 11301,
+                "self_charm":20,
+                "other_charm":20,
+                "price":100
+            },
+            "11302":{
+                "expressionId": 11302,
+                "self_charm":20,
+                "other_charm":-20,
+                "price":100
+            },
+            "11303":{
+                "expressionId": 11303,
+                "self_charm":80,
+                "other_charm":30,
+                "price":300
+            },
+            "11304":{
+                "expressionId": 11304,
+                "self_charm":30,
+                "other_charm":-80,
+                "price":300
+            }
+        },
+        "conf2":{
+            "11301":{
+                "expressionId": 11301,
+                "self_charm":40,
+                "other_charm":40,
+                "price":200
+            },
+            "11302":{
+                "expressionId": 11302,
+                "self_charm":40,
+                "other_charm":-40,
+                "price":200
+            },
+            "11303":{
+                "expressionId": 11303,
+                "self_charm":160,
+                "other_charm":60,
+                "price":600
+            },
+            "11304":{
+                "expressionId": 11304,
+                "self_charm":60,
+                "other_charm":-160,
+                "price":600
+            }
+        },
+        "conf3":{
+            "11301":{
+                "expressionId": 11301,
+                "self_charm":100,
+                "other_charm":100,
+                "price":500
+            },
+            "11302":{
+                "expressionId": 11302,
+                "self_charm":100,
+                "other_charm":-100,
+                "price":500
+            },
+            "11303":{
+                "expressionId": 11303,
+                "self_charm":400,
+                "other_charm":150,
+                "price":1500
+            },
+            "11304":{
+                "expressionId": 11304,
+                "self_charm":150,
+                "other_charm":-400,
+                "price":1500
+            }
+        },
+        "conf4":{
+            "11301":{
+                "expressionId": 11301,
+                "self_charm":100,
+                "other_charm":100,
+                "price":500
+            },
+            "11302":{
+                "expressionId": 11302,
+                "self_charm":100,
+                "other_charm":-100,
+                "price":500
+            },
+            "11303":{
+                "expressionId": 11303,
+                "self_charm":400,
+                "other_charm":150,
+                "price":1500
+            },
+            "11304":{
+                "expressionId": 11304,
+                "self_charm":150,
+                "other_charm":-400,
+                "price":1500
+            }
+        },
+        "conf5":{
+            "11301":{
+                "expressionId": 11301,
+                "self_charm":100,
+                "other_charm":100,
+                "price":500
+            },
+            "11302":{
+                "expressionId": 11302,
+                "self_charm":100,
+                "other_charm":-100,
+                "price":500
+            },
+            "11303":{
+                "expressionId": 11303,
+                "self_charm":400,
+                "other_charm":150,
+                "price":1500
+            },
+            "11304":{
+                "expressionId": 11304,
+                "self_charm":150,
+                "other_charm":-400,
+                "price":1500
+            }
+        },
+        "conf6":{
+            "11301":{
+                "expressionId": 11301,
+                "self_charm":200,
+                "other_charm":200,
+                "price":1000
+            },
+            "11302":{
+                "expressionId": 11302,
+                "self_charm":200,
+                "other_charm":-200,
+                "price":1000
+            },
+            "11303":{
+                "expressionId": 11303,
+                "self_charm":800,
+                "other_charm":300,
+                "price":3000
+            },
+            "11304":{
+                "expressionId": 11304,
+                "self_charm":300,
+                "other_charm":-800,
+                "price":3000
+            }
+        }
+    }
+}

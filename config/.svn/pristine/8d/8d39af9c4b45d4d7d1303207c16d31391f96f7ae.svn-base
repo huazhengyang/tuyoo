@@ -1,0 +1,47 @@
+
+{
+    "task": {
+        "201": {
+            "taskId": 201,
+            "gameId": 201,
+            "taskName": "胜局",
+            "taskDesc": "胜局2局,奖励4张奖券",
+            "taskCount": 2,
+            "roomList": -1,
+            "urlOrLink": "someThing",
+            "autoAccept": 1,
+            "autoReward": 0,
+            "taskFinishEvent": 2001,
+            "reward": {
+                "items": [
+                    {
+                        "count": 4,
+                        "itemId": "item:10003"
+                    }
+                ],
+                "typeId": "FixedContent"
+            }
+        },
+        "202": {
+            "taskId": 202,
+            "gameId": 201,
+            "taskName": "胜局",
+            "taskDesc": "胜局4局,奖励8张奖券",
+            "taskCount": 4,
+            "roomList": -1,
+            "urlOrLink": "someThing",
+            "autoAccept": 0,
+            "autoReward": 0,
+            "taskFinishEvent": 2002,
+            "reward": {
+                "items": [
+                    {
+                        "count": 8,
+                        "itemId": "item:10004"
+                    }
+                ],
+                "typeId": "FixedContent"
+            }
+        }
+    }
+}

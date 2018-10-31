@@ -1,0 +1,6 @@
+{
+	"des" : "新手场是否显示的开关，小于3.971版本一定不显示，配置在showByMahjongVersion中的麻将插件版本且包的cleintId没有配置在notShowByClientId中才会显示新手场",
+	"showFreshManRoomMinVersion" : 3.971,
+	"showByMahjongVersion" : [3.972, 3.973, 3.9731],
+	"notShowByClientId" : []
+}

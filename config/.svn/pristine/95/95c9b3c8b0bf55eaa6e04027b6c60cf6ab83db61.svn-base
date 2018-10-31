@@ -1,0 +1,18 @@
+{
+    "handlers": [
+        {
+            "name": "notify",
+            "module": "gamble.plugins.notify",
+            "class": "Notify",
+            "handle": "event_handle"
+        },
+        {
+            "name": "lottery",
+            "module": "lottery.plugins.lottery_core.lottery_core",
+            "class": "lottery",
+            "handle": "event_handle"
+        }
+    ],
+    "event_seq": {
+    }
+}

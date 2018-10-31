@@ -1,0 +1,18 @@
+{
+	"minCoin": 1000000,
+	"minCoinQS": 1000000,
+	"maxCoin": -1,
+	"maxCoinQS": -1,
+	"baseBet": 100000,
+	"sfee": 27000,
+	"maxTableChip": 10000000,
+	"daojuScale": 8,
+	"name": "小试牛刀",
+	"hasrobot": 0,
+	"tableConf": {
+		"maxSeatN": 5
+	},
+	"playMode": 3,
+	"roomType": 2,
+	"typeName": "normal"
+}

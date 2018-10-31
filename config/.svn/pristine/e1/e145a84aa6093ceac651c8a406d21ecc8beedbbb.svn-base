@@ -1,0 +1,122 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "途游捕鱼全新上线"
+     ],
+     "md5"              : "327e02a1a161ccbe70383f71125de424",
+     "ver"              : "4.511",
+     "url"              : "${http_download}/hall/plugin/game/newfish_4.511_beta_70.zip",
+     "size"             : "45.0M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "途游捕鱼全新上线"
+     ],
+     "md5"              : "098734114568a4631031b3035d7e13be",
+     "ver"              : "4.512",
+     "url"              : "${http_download}/hall/plugin/game/newfish_4.512_0.zip",
+     "size"             : "32.0M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "休闲捕鱼用"
+     ],
+     "md5"              : "978944e56a50f76e5e0c085eff9d076f",
+     "ver"              : "4.513",
+     "url"              : "${http_download}/hall/plugin/game/newfish_4.513_xiuxian.zip",
+     "size"             : "32.0M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "博万捕鱼用"
+     ],
+     "md5"              : "18366d19f208276de12b9d34335b8788",
+     "ver"              : "4.515",
+     "url"              : "${http_download}/hall/plugin/game/newfish_4.515_0.zip",
+     "size"             : "40M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "经典捕鱼用"
+     ],
+     "md5"              : "2802ac929a2c1f8daa411614d55720a4",
+     "ver"              : "4.516",
+     "url"              : "${http_download}/hall/plugin/game/newfish_4.516_beta_0.zip",
+     "size"             : "45.0M"
+    }
+   ],
+   "description"      : [
+    "途游捕鱼"
+   ],
+   "gameId"           : 44,
+   "gameMark"         : "newfish"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "欢乐捕鱼单包版号申请",
+   "name"             : "newfish_v4.55_AI_banhao",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 44,
+        "iconUrl"          : "${http_download}/hall/ads/imgs/4.55buyu0308.png",
+        "vipLevel"         : 0,
+        "gameName"         : "欢乐捕鱼",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "4.516",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "休闲捕鱼提审包插件配置",
+   "name"             : "newfish_v4.55_AI_newfish_v4.55_AI_xiuxian",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 44,
+        "iconUrl"          : "${http_download}/hall/ads/imgs/4.55buyu0308.png",
+        "vipLevel"         : 0,
+        "gameName"         : "欢乐捕鱼",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "4.513",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+  "conditions":[
+  					{
+					"typeId":"user.cond.isMyGameid",
+					"myGameId":17
+					},
+					{
+					"typeId":"user.cond.notin.clientIds",
+					"clientIds":[21543,22567]
+					}
+				],
+ "inviteShareId":70301,
+ "playMode":{
+ 			"weihai":"威海",
+ 			"qingdao_b3":"憋三",
+ 			"qingdao":"青岛",
+ 			"weifang":"潍坊"
+ 			},
+ "matchQRCode":{
+            "21520": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_huawei.png",
+            "22438": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_huawei.png",
+            "21540": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_qq.png",
+            "21541": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_qqexplorer.png",
+            "21542": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_qqgj.png",
+            "21537": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_360.png",
+            "21547": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_wdj.png",
+            "21530": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_91new.png",
+            "21534": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_duokunew.png",
+            "21532": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_bdtiebanew.png",
+            "21531": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_baidunew.png",
+            "21535": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_jinli.png",
+            "21536": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_leshiphone.png",
+            "21616": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_tuyoo.png",
+ 			"21420": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_tuyoo.png",
+ 			"21526": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_tuyoo.png",
+ 			"21825": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_tuyoo.png",
+ 			"22216": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_tuyoo.png",
+ 			"22236": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_tuyoo.png",
+ 			"21570": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_oppo.png",
+ 			"21615": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_vivo.png",
+ 			"21561": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_jinli.png",
+ 			"21538": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_mi.png",
+ 			"22205": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_360.png",
+ 			"22201": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_huawei.png",
+ 			"22200": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_oppo.png",
+ 			"22208": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_uc.png",
+ 			"22220": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_vivo.png",
+ 			"22353": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_sanxing.png",
+ 			"22230": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_qq.png",
+ 			"22214": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_jinli.png",
+ 			"22213": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_duokunew.png",
+ 			"22211": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_baidunew.png",
+ 			"22210": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_91new.png",
+ 			"22351": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_jinligame.png",
+ 			"22209": "http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_wdj.png",
+ 			"21543": "",
+ 			"22567": "",
+ 			"default":"http://ddz.dl.tuyoo.com/cdn37/baohuang/icon/ewm_tuyoo.png"
+ 			}
+}

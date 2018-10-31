@@ -1,0 +1,112 @@
+{
+    "autoQueue": 0.0, 
+    "consumeSwitch": 0, 
+    "couponActCfg": {
+        "add": 400, 
+        "memberAdd": 0, 
+        "timeSegs": [
+            [
+                [
+                    0, 
+                    0
+                ], 
+                [
+                    24, 
+                    0
+                ]
+            ]
+        ]
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            4000, 
+            400, 
+            -400
+        ], 
+        "chicken": [
+            4000, 
+            400, 
+            -400
+        ], 
+        "doubleAce": [
+            4000, 
+            800, 
+            800
+        ], 
+        "eggs": [
+            4000, 
+            400, 
+            -400
+        ], 
+        "fishing": [
+            4000, 
+            400, 
+            -400
+        ], 
+        "ring": [
+            4000, 
+            800, 
+            800
+        ], 
+        "rose": [
+            4000, 
+            800, 
+            800
+        ], 
+        "thumb": [
+            4000, 
+            800, 
+            800
+        ]
+    }, 
+    "matchConf": {
+        "match_id": "0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 10000000, 
+    "minCoin": 1000000, 
+    "minCoinQS": 2500000, 
+    "minTableCount": 2, 
+    "name": "福运", 
+    "playMode": "classic", 
+    "queueVipLevel": 6.0, 
+    "rewardDealerChip": 20000, 
+    "roomID": 8124, 
+    "sortId": 10, 
+    "tableConf": {
+        "autoGrad": 0, 
+        "bb": 20000, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 1000000, 
+        "buyinConf": "1/2/3/4/5", 
+        "call": 1, 
+        "callChip": -1, 
+        "chat_require_vip_level": 8, 
+        "commission": 0.0, 
+        "extname": "福运{}(准入:100万)", 
+        "fee": 10000, 
+        "flip_card_game": {
+            "bet": 10000, 
+            "loading_show": 0, 
+            "show": 1
+        }, 
+        "get_insurance_info": 1.0, 
+        "inner_game": 0, 
+        "isSitBigBlind": 0.0, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "min_players": 2, 
+        "nameForPc": "贵宾室-福运", 
+        "optime": 10, 
+        "pay_factor": 1.0, 
+        "prebet": 10000, 
+        "sb": 10000, 
+        "start_card": 2, 
+        "tname": "福运", 
+        "win_exp": 2
+    }, 
+    "typeName": "vip"
+}

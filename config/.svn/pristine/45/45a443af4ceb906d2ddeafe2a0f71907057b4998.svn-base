@@ -1,0 +1,35 @@
+{
+    "url_conf": {
+        "host": "http://texas.tuyoo.com",
+        "gamerule": "/texas/help_gamerule.html",
+        "question": "/texas/help_question.html",
+        "feedback": "/texas/help_feedback.html",
+        "activity": "/texas/activity.html",
+        "activity_ios": "/texas/activity_ios.html"
+    },
+
+    "room_rule":{
+        "vip": [{ "type": 0, "text": "选择支持的阵营" },
+                { "type": 1, "text": "您可以根据历史牌路信息支持红黑任意一方阵营。" },
+
+                { "type": 0, "text": "支持获胜牌型" },
+                { "type": 1, "text": "您也可以支持特定牌型。本局获胜牌型为区域内任意一种，即可按" },
+                { "type": 1, "text": "对应倍数获得奖励。" },
+
+                { "type": 0, "text": "富豪和幸运星" },
+                { "type": 1, "text": "最近累计下注最多的前七名玩家为富豪。近20局获胜最多的玩家为" },
+                { "type": 1, "text": "幸运星。只有富豪和幸运星显示在牌桌上。" },
+
+                { "type": 0, "text": "奖池" },
+                { "type": 1, "text": "每局获胜的钱有一小部分进入奖池。当获胜牌型为豹子、顺金时会" },
+                { "type": 1, "text": "开奖。1等奖会在牌桌上玩家随机选择一个。其他玩家随机获得彩" },
+                { "type": 1, "text": "池奖励。" }
+               ]
+    },
+    "texas_project_management": {
+        "teamSvnRoot": "http://202.106.9.134:9055/newsvn/poker",
+        "teamSvnConfDir": "/config",
+        "roomSvnConfXlsName": "room.xls",
+        "teamLocalConfDir": "texas-team"
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "hasRobot": 0,
+  "isMatch": 0,
+  "name" : "史前深渊",
+  "sceneName":"string_haidibaozang",
+  "fishPool": 2,
+  "dummyUserCount" : 0,
+  "maxLevel" : 999,
+  "minCoin" : 10000,
+  "minGunLevel":2114,
+  "maxGunLevel":2129,
+  "taskLoopInterval": 1200,
+  "cmpttTaskInterval": 300,
+  "ncmpttTaskInterval": 600,
+  "bonusTaskInterval": 900,
+  "minBonus": 5000,
+  "miniGameLevel": 1,
+  "typeName" : "normal",
+  "tableConf" : {
+    "fishGroupsName":"string_haidibaozang",
+    "fishTideName":"tideLevel1",        
+    "maxSeatN": 4   
+  }
+}

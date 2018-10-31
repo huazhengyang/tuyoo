@@ -1,0 +1,251 @@
+0. 老客户端需要展示一个最小准入的混房的房间
+   通过配置过滤session， 配置如下：
+    hall.info 进行版本过滤配置
+        "displayCond": {
+                        "typeId":"user.cond.dizhu.clientVer",
+                        "minVersion":3.822
+                    },
+
+1. 界面展示：
+    hall.info 配置 "mixId" 字段（分别代表混合房间不同的房间配置），固定值 'low', 'middle', 'high', 'master', 'xingyao'
+
+2. 客户端请求quick_start 需要带入mixId参数
+
+3. 版本兼容通过控制版本号来展示不同房间
+
+4. 新建一个房间类型， dizhu_mix, 基本功能继承自normalbase， 用户初始化时放入用户数据
+
+5.  准入， 带入， 踢出， 牌桌任务， 各种礼包， 开宝箱奖励（6局奖券发放）以及结算针对player标记进行计算，
+    带有 roomId 弹窗，在 mixConf 中 配置 roomId， 通过 mixId 获取，这样不动大厅及其poker代码
+    举例： lessBuyChip 大厅加入kwargs 在 调用时传入 minCoin到kwargs, 并且判断roomId是否为bigRoomId 这样避免没有房间取不到配置
+
+6. 断线重连, 结算后用户没有离开房间， 当断线后再次从另一个入口进入时， 此时检查是否有用户有的话，更新mixID
+
+7. 人如果房间类型是mix, 根据mixId 获取对应配置的配置比例 mixUserRate 以及 假数据 dummyUserCount 展示在线人数,
+    在线人数返回在session中对应的room中， 字段为 userCount
+    dizhu/servers/util/game_handler.py  filterMixRoomUserCount
+
+
+
+房间配置如下所示：
+
+{
+  "mixConf" : [
+      {
+        "buyinchip": 4000,
+        "continueBuyin": 1,
+        "luckyBox": 1,
+        "roomId": 6012,
+        "chipControlLine": 500,
+        "continueLuckyGift": 1,
+        "continueLuckyVer": 3.822,
+        "luckeyGiftBaseLine": 1000,
+        "dummyUserCount": 0,
+        "minQuickStartChip": 0,
+            "minCoin" : 4000,
+            "minCoinQS" : 4000,
+            "kickOutCoin": 3500,
+        "maxCoin": -1,
+        "maxCoinQS": -1,
+        "maxLevel": -1,
+        "name": "经典中级场",
+        "otherPlayersCareerRound": 3,
+        "roomFee": 0,
+        "winnerTaxMulti": 0.1,
+        "roomLevel": 1,
+        "roomMutil": 10,
+        "winDesc": "",
+        "mixIndex": 0,
+        "tableConf": {
+            "autochange": 1,
+            "autoPlay": 0,
+            "basebet": 1,
+            "basemulti": 1,
+            "canchat": 1,
+            "cardNoteChip": 200,
+            "coin2chip": 1,
+            "grab": 0,
+            "gslam": 128,
+            "lucky": 60,
+            "maxSeatN": 3,
+            "optime": 15,
+            "passtime": 5,
+            "rangpaiMultiType": 1,
+            "robottimes": 1,
+            "tbbox": 0,
+            "unticheat": 0,
+            "abortRestartSwitch": 1,
+            "abortRestartMinVer": 3.818
+        },
+        "winStreakTask": {
+            "tasks": [
+                {
+                    "count": 10,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 30,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 100,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 2,
+                    "itemId": "user:coupon"
+                },
+                {
+                    "count": 500,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 1000,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 2000,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 5000,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 8000,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 80,
+                    "itemId": "user:coupon"
+                }
+            ]
+        }
+      },
+      {
+        "buyinchip": 40000,
+        "luckyBox": 1,
+        "roomId": 6013,
+        "continueBuyin": 1,
+        "chipControlLine": 500,
+        "continueLuckyGift": 1,
+        "continueLuckyVer": 3.822,
+        "luckeyGiftBaseLine": 1000,
+        "dummyUserCount": 0,
+        "maxCoin": -1,
+        "maxCoinQS": -1,
+        "maxLevel": -1,
+            "minCoin" : 20000,
+            "minCoinQS" : 20000,
+            "kickOutCoin": 6000,
+            "minQuickStartChip": 60000,
+        "name": "经典高级场",
+        "otherPlayersCareerRound": 3,
+        "roomFee": 0,
+        "winnerTaxMulti": 0.1,
+        "roomLevel": 1,
+        "roomMutil": 10,
+        "winDesc": "",
+        "mixIndex": 1,
+        "tableConf": {
+            "autochange": 1,
+            "autoPlay": 0,
+            "basebet": 1,
+            "basemulti": 1,
+            "canchat": 1,
+            "cardNoteChip": 200,
+            "coin2chip": 1,
+            "grab": 0,
+            "gslam": 128,
+            "lucky": 60,
+            "maxSeatN": 3,
+            "optime": 15,
+            "passtime": 5,
+            "rangpaiMultiType": 1,
+            "robottimes": 1,
+            "tbbox": 0,
+            "unticheat": 0,
+            "abortRestartSwitch": 1,
+            "abortRestartMinVer": 3.818
+        },
+        "winStreakTask": {
+            "tasks": [
+                {
+                    "count": 100,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 300,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 1000,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 20,
+                    "itemId": "user:coupon"
+                },
+                {
+                    "count": 5000,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 10000,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 20000,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 50000,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 80000,
+                    "itemId": "user:chip"
+                },
+                {
+                    "count": 800,
+                    "itemId": "user:coupon"
+                }
+            ]
+        }
+      }
+    ],
+    "canQuit": 1,
+    "goodCard": 1,
+    "hasrobot": 0,
+    "ismatch": 0,
+    "matchConf": null,
+    "playDesc": "",
+    "playMode": "123",
+    "firstCallPolicyType": "luck",
+    "robotUserCallUpTime": 10,
+    "robotUserMaxCount": 0,
+    "robotUserOpTime": [
+        5,
+        12
+    ],
+    "showCard": 0,
+    "winStreakAssignTable": {
+        "timeout": 3,
+        "sections": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                5,
+                10
+            ]
+        ]
+    },
+    "isMix": 1,
+    "typeName": "dizhu_mix"
+}

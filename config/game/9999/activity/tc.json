@@ -1,0 +1,3082 @@
+{
+ "templates"                             : {
+  "default"                               : {
+   "desc"                                  : "clientId默认使用的模板(不配)",
+   "activities"                            : [
+    "activity_notice_51match_2015-05-28"
+   ]
+  }
+ },
+ "activities"                            : {
+  "activity_ddz_chaojihuafeisai_0223"     : {
+   "id"                                    : "activity_ddz_chaojihuafeisai_0223",
+   "des"                                   : "1.本比赛第一轮为分组赛，结算的排名为组内排名，该轮淘汰的玩家获得10红包券奖励。\\\n2.比赛火热报名中，详情见【比赛场】-【超级话费测试赛】。",
+   "moduleId"                              : "general_btn",
+   "typeid"                                : 4,
+   "name"                                  : "超级话费赛",
+   "server_config"                         : {
+    "start"                                 : "2016-02-24 00:00:00",
+    "end"                                   : "2016-03-08 00:00:00"
+   },
+   "config"                                : {
+    "button"                                : {
+     "visible"                               : true,
+     "todoTask"                              : {
+      "enter_param"                           : {
+       "pluginParams"                          : {
+        "gameType"                              : 3
+       },
+       "type"                                  : "roomlist"
+      },
+      "gameId"                                : 6,
+      "typeId"                                : "hall.goto.enter.game"
+     },
+     "URL"                                   : "${http_download}/hall/act/complete/general_btn/mianfeibaoming_btn.png"
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/general_btn/act_ddz_huafeisai_0308.jpg"
+   }
+  },
+  "activity_notice_51match_2015-05-28"    : {
+   "id"                                    : "activity_notice_51match_2015-05-28",
+   "des"                                   : "公告信息，敬请各位关注。",
+   "moduleId"                              : "notice_img",
+   "typeid"                                : 1,
+   "name"                                  : "公告板",
+   "server_config"                         : {
+    "start"                                 : "2015-02-28 00:00:00",
+    "end"                                   : "2017-11-17 00:00:00"
+   },
+   "config"                                : {
+    "firstButton"                           : {
+     "visible"                               : 0,
+     "action"                                : "pop_tip",
+     "params"                                : {
+      "duration"                              : 2,
+      "text"                                  : "确定"
+     }
+    },
+    "secondButton"                          : {
+     "visible"                               : 0,
+     "action"                                : "pop_tip",
+     "params"                                : {
+      "duration"                              : 2,
+      "text"                                  : "确定"
+     }
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/notice_img/act_notice_1125.jpg"
+   },
+   "url"                                   : "http://ddz.dl.tuyoo.com/activity/complete/notice_img/notice_img.js"
+  },
+  "activity_nbajingcai_1116"              : {
+   "id"                                    : "activity_nbajingcai_1116",
+   "des"                                   : "1.竞猜规则请点击【竞猜规则】按钮查看。\n2.比赛结束后系统发奖，可在【竞猜记录】中查看。 ",
+   "moduleId"                              : "betguess",
+   "activityGameId"                        : 6,
+   "typeid"                                : 6012,
+   "name"                                  : "NBA竞猜",
+   "server_config"                         : {
+    "start"                                 : "2016-10-24 00:00:00",
+    "end"                                   : "2017-11-11 23:59:59"
+   },
+   "config"                                : {
+    "client"                                : {
+     "backgroundUrl"                         : "",
+     "buttonUrlBetValue2"                    : "",
+     "buttonUrlBetValue1"                    : "",
+     "tabButtonUrlRecord"                    : "",
+     "buttonUrlBetValue3"                    : "",
+     "ruleDesc"                              : "1.竞猜NBA该场次的比赛结果，比赛开赛前停止竞猜，投注金额扣除服务费后计入总奖池。\n2.实时赔率=总奖池÷该竞猜项投注总额度，最终将根据投注截止时的赔率，作为最终发奖的赔率，最终奖金=中奖项投注额*该项最终赔率。\n3.比赛结束后系统发奖，可在【竞猜记录】中查看。",
+     "tabButtonUrlAbout"                     : "",
+     "buttonUrlGuressTA"                     : "",
+     "popupBackgroundUrl"                    : "",
+     "tabButtonUrlAboutDisabled"             : "",
+     "recordCellItemWinColor"                : [
+      255,
+      244,
+      0
+     ],
+     "recordCellBackgroundUrl"               : "",
+     "betButtonChips"                        : [
+      10000,
+      100000,
+      1000000
+     ],
+     "buttonUrlBetValue3Selected"            : "",
+     "buttonUrlBetValue2Selected"            : "",
+     "tabButtonUrlRecordDisabled"            : "",
+     "recordCellItemDefaultColor"            : [
+      200,
+      200,
+      200
+     ],
+     "buttonUrlBetValue1Selected"            : ""
+    },
+    "issueMap"                              : {
+     "2016-11-27 08:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/qicai.png",
+       "displayName"                           : "奇才"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/maci.png",
+       "displayName"                           : "马刺"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-21 10:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huren.png",
+       "displayName"                           : "湖人"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/gongniu.png",
+       "displayName"                           : "公牛"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2017-01-09 10:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huren.png",
+       "displayName"                           : "湖人"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/moshu.png",
+       "displayName"                           : "魔术"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-03 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/gongniu.png",
+       "displayName"                           : "公牛"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/qishi.png",
+       "displayName"                           : "骑士"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-06 08:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/menglong.png",
+       "displayName"                           : "猛龙"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/qishi.png",
+       "displayName"                           : "骑士"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-27 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/gongniu.png",
+       "displayName"                           : "公牛"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/buxingzhe.png",
+       "displayName"                           : "步行者"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-08 11:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kuaichuan.png",
+       "displayName"                           : "快船"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/yongshi.png",
+       "displayName"                           : "勇士"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-09 10:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/gongniu.png",
+       "displayName"                           : "公牛"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/maci.png",
+       "displayName"                           : "马刺"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-26 03:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/qishi.png",
+       "displayName"                           : "骑士"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/yongshi.png",
+       "displayName"                           : "勇士"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-26 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/jueshi.png",
+       "displayName"                           : "爵士"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/laoying.png",
+       "displayName"                           : "老鹰"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2017-01-10 9:00:00"                    : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/gongniu.png",
+       "displayName"                           : "公牛"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/leiting.png",
+       "displayName"                           : "雷霆"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2017-01-05 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/qishi.png",
+       "displayName"                           : "骑士"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/gongniu.png",
+       "displayName"                           : "公牛"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-16 11:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/yongshi.png",
+       "displayName"                           : "勇士"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/nikesi.png",
+       "displayName"                           : "尼克斯"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-30 11:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huren.png",
+       "displayName"                           : "湖人"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/xiaoniu.png",
+       "displayName"                           : "小牛"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-22 10:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/taiyang.png",
+       "displayName"                           : "太阳"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huojian.png",
+       "displayName"                           : "火箭"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2017-01-16 10:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huixiong.png",
+       "displayName"                           : "灰熊"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/gongniu.png",
+       "displayName"                           : "公牛"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-01 08:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/menglong.png",
+       "displayName"                           : "猛龙"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huixiong.png",
+       "displayName"                           : "灰熊"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-18 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huojian.png",
+       "displayName"                           : "火箭"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kaituozhe.png",
+       "displayName"                           : "开拓者"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2017-01-17 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/yongshi.png",
+       "displayName"                           : "勇士"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/qishi.png",
+       "displayName"                           : "骑士"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-29 11:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/yongshi.png",
+       "displayName"                           : "勇士"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/laoying.png",
+       "displayName"                           : "老鹰"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-13 11:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/guowang.png",
+       "displayName"                           : "国王"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huren.png",
+       "displayName"                           : "湖人"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-22 11:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kuaichuan.png",
+       "displayName"                           : "快船"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/menglong.png",
+       "displayName"                           : "猛龙"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-28 10:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kaituozhe.png",
+       "displayName"                           : "开拓者"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huojian.png",
+       "displayName"                           : "火箭"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-02 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/qishi.png",
+       "displayName"                           : "骑士"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kuaichuan.png",
+       "displayName"                           : "快船"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2017-01-04 09:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/maci.png",
+       "displayName"                           : "马刺"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/menglong.png",
+       "displayName"                           : "猛龙"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-12 10:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huren.png",
+       "displayName"                           : "湖人"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/nikesi.png",
+       "displayName"                           : "尼克斯"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-20 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/leiting.png",
+       "displayName"                           : "雷霆"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/laoying.png",
+       "displayName"                           : "老鹰"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-24 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huixiong.png",
+       "displayName"                           : "灰熊"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huojian.png",
+       "displayName"                           : "火箭"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-29 11:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/yongshi.png",
+       "displayName"                           : "勇士"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/menglong.png",
+       "displayName"                           : "猛龙"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-19 08:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huangfeng.png",
+       "displayName"                           : "黄蜂"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/laoying.png",
+       "displayName"                           : "老鹰"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2017-01-12 9:00:00"                    : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/leiting.png",
+       "displayName"                           : "雷霆"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huixiong.png",
+       "displayName"                           : "灰熊"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-05 08:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/leiting.png",
+       "displayName"                           : "雷霆"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/tihu.png",
+       "displayName"                           : "鹈鹕"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2017-01-13 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/nikesi.png",
+       "displayName"                           : "尼克斯"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/gongniu.png",
+       "displayName"                           : "公牛"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2017-01-06 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huojian.png",
+       "displayName"                           : "火箭"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/leiting.png",
+       "displayName"                           : "雷霆"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-23 11:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kuaichuan.png",
+       "displayName"                           : "快船"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/maci.png",
+       "displayName"                           : "马刺"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-10 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/leiting.png",
+       "displayName"                           : "雷霆"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huojian.png",
+       "displayName"                           : "火箭"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2017-01-18 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/gongniu.png",
+       "displayName"                           : "公牛"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/xiaoniu.png",
+       "displayName"                           : "小牛"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2017-01-02 10:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huren.png",
+       "displayName"                           : "湖人"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/menglong.png",
+       "displayName"                           : "猛龙"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2017-01-03 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huojian.png",
+       "displayName"                           : "火箭"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/qicai.png",
+       "displayName"                           : "奇才"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-19 07:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huixiong.png",
+       "displayName"                           : "灰熊"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/jueshi.png",
+       "displayName"                           : "爵士"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-17 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/76ren.png",
+       "displayName"                           : "76人"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huren.png",
+       "displayName"                           : "湖人"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-24 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/huojian.png",
+       "displayName"                           : "火箭"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/menglong.png",
+       "displayName"                           : "猛龙"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-12-15 10:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/maci.png",
+       "displayName"                           : "马刺"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kaierteren.png",
+       "displayName"                           : "凯尔特人"
+      },
+      "bankerPumping"                         : 0.1
+     }
+    },
+    "server"                                : {
+     "recordCellIssueTitleFormat"            : "%m月%d日%H:%M \\${leftSideName}VS\\${rightSideName}",
+     "mail"                                  : "恭喜您参与NBA竞猜活动\\${issueMonth}月\\${issueDay}日\\${issueLeftSideName}VS\\${issueRightSideName}场次，投注\\${issueWinBetNumber}金币猜中\\${issueWinSideName}胜，最终赔率为\\${issueFinalOdds}，获得\\${issuePrizeChipNumber}金币。",
+     "betChipOverflow"                       : "下注超过本次竞猜最大额度",
+     "lessBuyChipDesc"                       : "[[{\"text\": \"您的金币不够啦，至少需要\", \"style\": \"labelStyle_pop_order_normal\", \"type\": \"ttf\"}, {\"text\": \"\\${betchip}\", \"font\": \"hall_button_text_special_red\", \"type\": \"bmf\"}], [{\"text\": \"推荐您购买\\${product.displayName}\", \"type\": \"ttf\"}]]",
+     "issueOutdate"                          : "本次竞猜已经结束啦~",
+     "recordCellResultLoseTip"               : "未猜中",
+     "payOrderMap"                           : {
+      "10000"                                 : {
+       "shelves"                               : [
+        "lessbuychip"
+       ],
+       "contains"                              : {
+        "count"                                 : 10000,
+        "minCount"                              : 0,
+        "itemId"                                : "user:chip",
+        "maxCount"                              : -1
+       },
+       "buyTypes"                              : [
+        "direct"
+       ]
+      },
+      "1000000"                               : {
+       "shelves"                               : [
+        "lessbuychip"
+       ],
+       "contains"                              : {
+        "count"                                 : 1000000,
+        "minCount"                              : 0,
+        "itemId"                                : "user:chip",
+        "maxCount"                              : -1
+       },
+       "buyTypes"                              : [
+        "direct"
+       ]
+      },
+      "100000"                                : {
+       "shelves"                               : [
+        "lessbuychip"
+       ],
+       "contains"                              : {
+        "count"                                 : 100000,
+        "minCount"                              : 0,
+        "itemId"                                : "user:chip",
+        "maxCount"                              : -1
+       },
+       "buyTypes"                              : [
+        "direct"
+       ]
+      }
+     },
+     "chipNotEnough"                         : "下注金币不足",
+     "recordCellResultWinTip"                : "猜中",
+     "allIssueOutdate"                       : "活动时间已过，下次早点来哟~",
+     "lessBuyChipNote"                       : "[[{\"text\": \"需要花费\\${product.price}元。客服电话4008-098-000\", \"font\": \"labelStyle_pop_order_tip\", \"type\": \"ttf\"}]]",
+     "recordCellWaitingResultTip"            : "未开奖",
+     "issueDateFormat"                       : "%m月%d日%H:%M"
+    }
+   }
+  },
+  "activity_bairensanzhang_1123"          : {
+   "id"                                    : "activity_bairensanzhang_1123",
+   "des"                                   : "红黑大战新版本上线，奖池奖励最高，任性土豪最多的聚集地！想赚钱的都来这了，你还在等啥！",
+   "moduleId"                              : "general_btn",
+   "typeid"                                : 4,
+   "name"                                  : "新红黑大战",
+   "server_config"                         : {
+    "start"                                 : "2016-11-22 00:00:00",
+    "end"                                   : "2016-12-16 00:00:00"
+   },
+   "config"                                : {
+    "button"                                : {
+     "visible"                               : "true",
+     "todoTask"                              : {
+      "enter_param"                           : {
+       "pluginParams"                          : {
+        "gameType"                              : 1
+       },
+       "type"                                  : "game"
+      },
+      "gameId"                                : 38,
+      "typeId"                                : "hall.goto.enter.game"
+     },
+     "URL"                                   : "${http_download}/t3card/images/activity/H3card_0929_gameonline_button.png"
+    },
+    "bgURL"                                 : "${http_download}/t3card/images/activity/H3card_1123_allVisible_activity.jpg"
+   }
+  },
+  "activity_ddz_chongzhirenwu_1221"       : {
+   "id"                                    : "activity_ddz_chongzhirenwu_1221",
+   "des"                                   : "1.活动规则见【活动规则】。\n2.活动12月28日24时结束。",
+   "moduleId"                              : "funact",
+   "typeid"                                : 6014,
+   "name"                                  : "圣诞充值好礼",
+   "server_config"                         : {
+    "start"                                 : "2016-12-12 00:00:00",
+    "end"                                   : "2016-12-28 23:59:59"
+   },
+   "config"                                : {
+    "client"                                : {
+     "backgroundUrl"                         : "${http_download}/hall/act/complete/funact/bg_mj_1221.jpg",
+     "buttonReset"                           : {
+      "buttonUrl"                             : "${http_download}/hall/act/complete/funact/60zuanchongzhi_mj_1221.png",
+      "buttonDisabledUrl"                     : "${http_download}/hall/act/complete/funact/60zuanchongzhi_hui.png",
+      "prompt"                                : "是否花费60钻石重置所有任务？"
+     },
+     "desc"                                  : "1.本任务活动需依次完成，领取前一项任务奖励后自动激活后一项任务。\n2.活动时间内可花费60钻石重置任务，重置后所有任务进度清零，回到第一项任务未完成状态。\n3.活动12月28日24时结束，请及时领取任务奖励。",
+     "tipBarBtnDoneTip"                      : "已领取该奖励",
+     "descriptionBackgroundUrl"              : "${http_download}/hall/act/complete/funact/guizekuang_mj_1221.png",
+     "tipBarArrowUrl"                        : "${http_download}/hall/act/complete/funact/jiantou_mj_1221.png",
+     "tipBarBackgroundUrl"                   : "${http_download}/hall/act/complete/funact/miaoshubeijing_mj_1221.png",
+     "tipBarTextColor"                       : [
+      255,
+      255,
+      255
+     ],
+     "tipBarBtnLockTip"                      : "任务未激活，完成前一项任务后自动激活本任务",
+     "debug.reset"                           : false
+    },
+    "server"                                : {
+     "payOrder"                              : {
+      "shelves"                               : [
+       "diamond"
+      ],
+      "priceDiamond"                          : {
+       "count"                                 : 60,
+       "minCount"                              : 60,
+       "maxCount"                              : -1
+      },
+      "buyTypes"                              : [
+       "charge"
+      ]
+     },
+     "lessBuyChipNote"                       : "[[{\"text\": \"需要花费\\${product.price}元。客服电话4008-098-000\", \"font\": \"labelStyle_pop_order_tip\", \"type\": \"ttf\"}]]",
+     "backendActivityNewActId"               : "majiangchongzhi1221",
+     "lessBuyChipDesc"                       : "[[{\"text\": \"您的钻石不够啦，至少需要60钻石\"}], [{\"text\": \"推荐您购买\\${product.displayName}\", \"type\": \"ttf\"}]]"
+    }
+   }
+  },
+  "majiang_3_71_Android_3"                : {
+   "id"                                    : "majiang_3_71_Android_3",
+   "des"                                   : "如有疑问请联系客服\n电话：4008098000\nQQ：4008098000",
+   "moduleId"                              : "general_btn",
+   "typeid"                                : 1,
+   "name"                                  : "公告板",
+   "server_config"                         : {
+    "start"                                 : "2015-09-24 00:00:00",
+    "end"                                   : "2016-10-31 00:00:00"
+   },
+   "config"                                : {
+    "button"                                : {
+     "visible"                               : false,
+     "todoTask"                              : "",
+     "URL"                                   : ""
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/notice_img/act_notice_1125.jpg"
+   }
+  },
+  "activity_score_0217"                   : {
+   "id"                                    : "activity_score_0217",
+   "des"                                   : "1.斗地主各场次新手/中级/高级/大师场每玩1局得1/2/5/10积分；星耀大师场每玩1局得20积分；\n2.在比赛房间游戏不获得积分；\n3.活动将于3月2日24时结束，结束后积分清零。",
+   "moduleId"                              : "newExchange",
+   "typeid"                                : 2,
+   "name"                                  : "正月积分好礼",
+   "server_config"                         : {
+    "accumulateField"                       : "roundNum",
+    "conditions"                            : [
+     "roundNum"
+    ],
+    "accumulateIdentifer"                   : "roomId",
+    "rewardNeedNum"                         : 1,
+    "presentConfig"                         : {
+     "6034"                                  : 10,
+     "6033"                                  : 5,
+     "6032"                                  : 2,
+     "6031"                                  : 1,
+     "6024"                                  : 10,
+     "6015"                                  : 20,
+     "6013"                                  : 5,
+     "6001"                                  : 1,
+     "6014"                                  : 10,
+     "6002"                                  : 2,
+     "6011"                                  : 1,
+     "6003"                                  : 5,
+     "6012"                                  : 2,
+     "6021"                                  : 1,
+     "6004"                                  : 10,
+     "6022"                                  : 2,
+     "6023"                                  : 5
+    },
+    "accumulateMustContinuous"              : 1,
+    "start"                                 : "2016-02-18 00:00:00",
+    "dayTimeLimit"                          : [
+     [
+      0,
+      24
+     ]
+    ],
+    "accumulateMaxInterval"                 : 0,
+    "accumulateType"                        : 0,
+    "presentBased"                          : "roomId",
+    "end"                                   : "2016-03-02 23:59:59"
+   },
+   "config"                                : {
+    "gift"                                  : {
+     "unit"                                  : "",
+     "name"                                  : "积分"
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/general_btn/act_ddz_zhengyuejifen_0217_2.jpg",
+    "exchange"                              : [
+     {
+      "id"                                    : 1,
+      "consumeCount"                          : 10,
+      "items"                                 : [
+       {
+        "unit"                                  : "天",
+        "count"                                 : 1,
+        "name"                                  : "记牌器x",
+        "productId"                             : "item:2003"
+       },
+       {
+        "unit"                                  : "个",
+        "count"                                 : 1,
+        "name"                                  : "月光宝盒x",
+        "productId"                             : "item:3002"
+       }
+      ],
+      "limitTimes"                            : 1
+     },
+     {
+      "id"                                    : 2,
+      "consumeCount"                          : 50,
+      "items"                                 : [
+       {
+        "unit"                                  : "个",
+        "count"                                 : 3,
+        "name"                                  : "幸运卡x",
+        "productId"                             : "item:4167"
+       },
+       {
+        "unit"                                  : "个",
+        "count"                                 : 5,
+        "name"                                  : "参赛劵x",
+        "productId"                             : "item:1007"
+       }
+      ],
+      "limitTimes"                            : 1
+     },
+     {
+      "id"                                    : 3,
+      "consumeCount"                          : 500,
+      "items"                                 : [
+       {
+        "unit"                                  : "把",
+        "count"                                 : 3,
+        "name"                                  : "月光之钥x",
+        "productId"                             : "item:3001"
+       },
+       {
+        "unit"                                  : "个",
+        "count"                                 : 5,
+        "name"                                  : "英雄帖x",
+        "productId"                             : "item:1008"
+       }
+      ],
+      "limitTimes"                            : 1
+     },
+     {
+      "id"                                    : 4,
+      "consumeCount"                          : 1000,
+      "items"                                 : [
+       {
+        "unit"                                  : "天",
+        "count"                                 : 7,
+        "name"                                  : "天使之翼x",
+        "productId"                             : "item:4121"
+       }
+      ],
+      "limitTimes"                            : 1
+     }
+    ]
+   }
+  },
+  "activity_ddz_dashiganenjifenjifen_1123": {
+   "id"                                    : "activity_ddz_dashiganenjifenjifen_1123",
+   "des"                                   : "1.积分获取规则见【积分规则】。\n2.每项奖励每天限兑换一次，积分每天24时清零，活动11月30日24时结束。",
+   "moduleId"                              : "integral_exchange",
+   "typeid"                                : 9999002,
+   "name"                                  : "大师感恩积分",
+   "server_config"                         : {
+    "start"                                 : "2016-11-22 00:00:00",
+    "creditSource"                          : [
+     {
+      "credits"                               : {
+       "6035"                                  : 3,
+       "6015"                                  : 3,
+       "6025"                                  : 3,
+       "6016"                                  : 5,
+       "6026"                                  : 5,
+       "6005"                                  : 3
+      },
+      "game"                                  : 6,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credits"                               : {
+       "7906"                                  : 2,
+       "7004"                                  : 2,
+       "7704"                                  : 2,
+       "7604"                                  : 2,
+       "7104"                                  : 2,
+       "7504"                                  : 2,
+       "7902"                                  : 2,
+       "7903"                                  : 2,
+       "7904"                                  : 2,
+       "7905"                                  : 2,
+       "7404"                                  : 2
+      },
+      "game"                                  : 7,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credit"                                : 1,
+      "typeId"                                : "act.credit.charge"
+     }
+    ],
+    "creditReset"                           : "day",
+    "end"                                   : "2016-11-30 23:59:59"
+   },
+   "config"                                : {
+    "ruleBtnURL"                            : "${http_download}/hall/act/complete/integral_exchange/ganenjifenjifen_guizekuang_1123.png",
+    "button"                                : {
+     "visible"                               : true,
+     "todoTask"                              : {
+      "subStore"                              : "coin",
+      "typeId"                                : "hall.goto.shop"
+     },
+     "URL"                                   : "${http_download}/hall/act/complete/integral_exchange/huoqujifen_1019.png"
+    },
+    "reqIntegralBtnURL"                     : "${http_download}/hall/act/complete/integral_exchange/huoqujifen_1019.png",
+    "exchangePreBtnURL"                     : "${http_download}/hall/act/complete/integral_exchange/duihuan_hui.png",
+    "bgURL"                                 : "${http_download}/hall/act/complete/integral_exchange/ganenjifen_bg_1123.jpg",
+    "exchange"                              : [
+     {
+      "content"                               : {
+       "desc"                                  : "5万金币",
+       "items"                                 : [
+        {
+         "count"                                 : 50000,
+         "itemId"                                : "user:chip"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 101,
+      "price"                                 : 100,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     },
+     {
+      "content"                               : {
+       "desc"                                  : "15万金币",
+       "items"                                 : [
+        {
+         "count"                                 : 150000,
+         "itemId"                                : "user:chip"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 102,
+      "price"                                 : 200,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     },
+     {
+      "content"                               : {
+       "desc"                                  : "50万金币",
+       "items"                                 : [
+        {
+         "count"                                 : 500000,
+         "itemId"                                : "user:chip"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 103,
+      "price"                                 : 500,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     },
+     {
+      "content"                               : {
+       "desc"                                  : "128万金币",
+       "items"                                 : [
+        {
+         "count"                                 : 1280000,
+         "itemId"                                : "user:chip"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 104,
+      "price"                                 : 1000,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     }
+    ],
+    "exchangeBtnURL"                        : "${http_download}/hall/act/complete/integral_exchange/duihuan_1019.png",
+    "ruleText"                              : "1.每充值1元得1积分；在斗地主任意星耀场对局每局得3积分，经典巅峰场/癞子巅峰场每局得5积分；在麻将任意大师场及贵宾桌对局每局得2积分。\n2.每项奖励每天限兑换一次，积分每天24时清零，活动11月30日24时结束。"
+   }
+  },
+  "activity_gomoku_20160223001"           : {
+   "id"                                    : "activity_gomoku_20160223001",
+   "des"                                   : "回忆儿时经典，男女老少都爱不释手！",
+   "moduleId"                              : "notice_img",
+   "typeid"                                : 1,
+   "name"                                  : "玩经典五子棋",
+   "server_config"                         : {
+    "start"                                 : "2016-02-23 00:00:00",
+    "end"                                   : "2018-03-14 00:00:00"
+   },
+   "config"                                : {
+    "firstButton"                           : {
+     "visible"                               : 0,
+     "action"                                : "",
+     "params"                                : {
+      "duration"                              : 2,
+      "text"                                  : "确定"
+     }
+    },
+    "secondButton"                          : {
+     "visible"                               : 0,
+     "action"                                : "",
+     "params"                                : {
+      "duration"                              : 2,
+      "text"                                  : "确定"
+     }
+    },
+    "bgURL"                                 : "${http_download}/gomoku/act_20160223001.jpg"
+   },
+   "url"                                   : ""
+  },
+  "activity_all_jinqiujifen_1009"         : {
+   "id"                                    : "activity_all_jinqiujifen_1009",
+   "des"                                   : "积分获取规则见【积分规则】按钮。每项奖励每天限兑换一次，积分每天24时清零。10月19日24时活动结束。部分版本游戏不支持签到，请及时升级为最新版本客户端。",
+   "moduleId"                              : "integral_exchange",
+   "typeid"                                : 9999002,
+   "name"                                  : "金秋积分好礼",
+   "server_config"                         : {
+    "start"                                 : "2016-09-27 00:00:00",
+    "creditSource"                          : [
+     {
+      "credits"                               : {
+       "6994"                                  : 5,
+       "6069"                                  : 5,
+       "6995"                                  : 5,
+       "6068"                                  : 5,
+       "6042"                                  : 5,
+       "6992"                                  : 5,
+       "6993"                                  : 5,
+       "6065"                                  : 5,
+       "6991"                                  : 5,
+       "6064"                                  : 5,
+       "6067"                                  : 5,
+       "6066"                                  : 5,
+       "6061"                                  : 5,
+       "6024"                                  : 5,
+       "6060"                                  : 5,
+       "6025"                                  : 10,
+       "6063"                                  : 5,
+       "6062"                                  : 5,
+       "6001"                                  : 1,
+       "6002"                                  : 2,
+       "6021"                                  : 1,
+       "6003"                                  : 3,
+       "6004"                                  : 5,
+       "6022"                                  : 2,
+       "6005"                                  : 10,
+       "6023"                                  : 3,
+       "6997"                                  : 5,
+       "6996"                                  : 5,
+       "6998"                                  : 5,
+       "6034"                                  : 5,
+       "6059"                                  : 2,
+       "6033"                                  : 3,
+       "6058"                                  : 2,
+       "6032"                                  : 2,
+       "6057"                                  : 5,
+       "6031"                                  : 1,
+       "6056"                                  : 5,
+       "6055"                                  : 5,
+       "6054"                                  : 5,
+       "6035"                                  : 10,
+       "6053"                                  : 5,
+       "6015"                                  : 8,
+       "6016"                                  : 10,
+       "6013"                                  : 3,
+       "6014"                                  : 5,
+       "6011"                                  : 1,
+       "6012"                                  : 2
+      },
+      "game"                                  : 6,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credits"                               : {
+       "3037"                                  : 2,
+       "3036"                                  : 2,
+       "3039"                                  : 2,
+       "3038"                                  : 2,
+       "3005"                                  : 5,
+       "3006"                                  : 5,
+       "3003"                                  : 2,
+       "3004"                                  : 2,
+       "3009"                                  : 5,
+       "3008"                                  : 5,
+       "3035"                                  : 2,
+       "3034"                                  : 2,
+       "3033"                                  : 2,
+       "3032"                                  : 2,
+       "3031"                                  : 2,
+       "3002"                                  : 2,
+       "3020"                                  : 5,
+       "3001"                                  : 2,
+       "3010"                                  : 5,
+       "3040"                                  : 2
+      },
+      "game"                                  : 3,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credits"                               : {
+       "7701"                                  : 1,
+       "7003"                                  : 3,
+       "7004"                                  : 5,
+       "7703"                                  : 3,
+       "7101"                                  : 1,
+       "7702"                                  : 2,
+       "7103"                                  : 3,
+       "7704"                                  : 5,
+       "7102"                                  : 2,
+       "7001"                                  : 1,
+       "7104"                                  : 5,
+       "7002"                                  : 2,
+       "7906"                                  : 8,
+       "7355"                                  : 5,
+       "7356"                                  : 5,
+       "7357"                                  : 5,
+       "7402"                                  : 2,
+       "7401"                                  : 1,
+       "7603"                                  : 3,
+       "7351"                                  : 5,
+       "7604"                                  : 5,
+       "7352"                                  : 5,
+       "7601"                                  : 1,
+       "7353"                                  : 5,
+       "7602"                                  : 2,
+       "7501"                                  : 1,
+       "7354"                                  : 5,
+       "7804"                                  : 5,
+       "7803"                                  : 3,
+       "7350"                                  : 5,
+       "7902"                                  : 8,
+       "7903"                                  : 8,
+       "7904"                                  : 8,
+       "7802"                                  : 2,
+       "7905"                                  : 8,
+       "7801"                                  : 1,
+       "7504"                                  : 5,
+       "7503"                                  : 3,
+       "7502"                                  : 2,
+       "7403"                                  : 3,
+       "7404"                                  : 5,
+       "7361"                                  : 5,
+       "7365"                                  : 5,
+       "7364"                                  : 5,
+       "7363"                                  : 5,
+       "7362"                                  : 5,
+       "7367"                                  : 5
+      },
+      "game"                                  : 7,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credits"                               : {
+       "25001"                                 : 2,
+       "25005"                                 : 2
+      },
+      "game"                                  : 25,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credits"                               : {
+       "20003"                                 : 2,
+       "20002"                                 : 2,
+       "20005"                                 : 2,
+       "20001"                                 : 2,
+       "20007"                                 : 2,
+       "20006"                                 : 2
+      },
+      "game"                                  : 20,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credit"                                : 10,
+      "typeId"                                : "act.credit.checkin"
+     }
+    ],
+    "creditReset"                           : "day",
+    "end"                                   : "2016-10-19 23:59:59"
+   },
+   "config"                                : {
+    "ruleBtnURL"                            : "${http_download}/hall/act/complete/integral_exchange/jinqiujifen_guizekuang_1012.png",
+    "button"                                : {
+     "visible"                               : true,
+     "todoTask"                              : {
+      "typeId"                                : "todotask.showInfo",
+      "info"                                  : "快去玩您喜欢的游戏获得积分吧~"
+     },
+     "URL"                                   : "${http_download}/hall/act/complete/integral_exchange/huoqujifen1012.png"
+    },
+    "reqIntegralBtnURL"                     : "${http_download}/hall/act/complete/integral_exchange/huoqujifen1012.png",
+    "exchangePreBtnURL"                     : "${http_download}/hall/act/complete/integral_exchange/duihuan_hui.png",
+    "bgURL"                                 : "${http_download}/hall/act/complete/integral_exchange/jinqiujifen_bg_1012.jpg",
+    "exchange"                              : [
+     {
+      "content"                               : {
+       "desc"                                  : "1个月光宝盒",
+       "items"                                 : [
+        {
+         "count"                                 : 1,
+         "itemId"                                : "item:3002"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 101,
+      "price"                                 : 20,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     },
+     {
+      "content"                               : {
+       "desc"                                  : "1张幸运卡",
+       "items"                                 : [
+        {
+         "count"                                 : 1,
+         "itemId"                                : "item:4167"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 102,
+      "price"                                 : 30,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     },
+     {
+      "content"                               : {
+       "desc"                                  : "0.1红包券",
+       "items"                                 : [
+        {
+         "count"                                 : 10,
+         "itemId"                                : "user:coupon"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 103,
+      "price"                                 : 100,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     },
+     {
+      "content"                               : {
+       "desc"                                  : "1把月光之钥",
+       "items"                                 : [
+        {
+         "count"                                 : 1,
+         "itemId"                                : "item:3001"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 104,
+      "price"                                 : 200,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     }
+    ],
+    "exchangeBtnURL"                        : "${http_download}/hall/act/complete/integral_exchange/duihuan1012.png",
+    "ruleText"                              : "1.每天签到得10积分；每天24时积分清零重置。\n2.在斗地主金币桌新手/中级/高级/大师/星耀/星耀大师场对局每局分别得1/2/3/5/8/10积分；参加1元红包赛每场得2积分，其他比赛每场得5积分。\n3.在麻将金币桌的初级/中级/高级/大师/贵宾桌对局分别得1/2/3/5/8积分，参加比赛每场得5积分。\n4.在中国象棋/军棋/五子棋任意场次(除自建桌)对局每局得2积分，参加象棋比赛每场得5积分。"
+   }
+  },
+  "acitivity_all_dezhoushengdansai_1229"  : {
+   "id"                                    : "acitivity_all_dezhoushengdansai_1229",
+   "des"                                   : "1月1日开放免费ipad大奖赛，除海量金币之外，第一名将获得ipad mini4一台，赶快来报名吧！",
+   "moduleId"                              : "general_btn",
+   "typeid"                                : 4,
+   "name"                                  : "德州元旦赛",
+   "server_config"                         : {
+    "start"                                 : "2016-12-29 00:00:00",
+    "end"                                   : "2017-01-01 22:00:00"
+   },
+   "config"                                : {
+    "button"                                : {
+     "visible"                               : true,
+     "todoTask"                              : {
+      "enter_param"                           : {
+       "pluginParams"                          : {
+        "gameType"                              : 4
+       },
+       "type"                                  : "roomlist"
+      },
+      "gameId"                                : 8,
+      "typeId"                                : "hall.goto.enter.game"
+     },
+     "URL"                                   : "${http_download}/hall/act/complete/general_btn/lijibaoming_1024.png"
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/general_btn/act_ddz_dezhouyuandansai_1229.jpg"
+   }
+  },
+  "activity_code_duihuanma_0201"          : {
+   "id"                                    : "activity_code_duihuanma_0201",
+   "des"                                   : "如有问题，请拨打客服电话：4008098000。",
+   "moduleId"                              : "input_3761",
+   "typeid"                                : 3,
+   "name"                                  : "兑换码活动",
+   "server_config"                         : {
+    "start"                                 : "2015-02-28 00:00:00",
+    "end"                                   : "2020-12-30 00:00:00"
+   },
+   "config"                                : {
+    "titleURL"                              : "",
+    "bgURL"                                 : "${http_download}/hall/act/imgs/libaoduihuan_180206.jpg"
+   }
+  },
+  "pc_activity_GongGaoBan_160105"         : {
+   "id"                                    : "pc_activity_GongGaoBan_160105",
+   "des"                                   : "公告信息，敬请关注。",
+   "moduleId"                              : "pc_module_GongGaoBan",
+   "typeid"                                : 1,
+   "name"                                  : "公告板",
+   "server_config"                         : {
+    "start"                                 : "2015-12-31 00:00:00",
+    "end"                                   : "2016-12-31 00:00:00"
+   },
+   "config"                                : {
+    "firstButton"                           : {
+     "visible"                               : 0,
+     "action"                                : "pop_tip",
+     "params"                                : {
+      "duration"                              : 2,
+      "text"                                  : "确定"
+     }
+    },
+    "secondButton"                          : {
+     "visible"                               : 0,
+     "action"                                : "pop_tip",
+     "params"                                : {
+      "duration"                              : 2,
+      "text"                                  : "确定"
+     }
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/pc_GongGaoBan/bg160105.png"
+   }
+  },
+  "activity_texas_yuanxiaojie_0217"       : {
+   "id"                                    : "activity_texas_yuanxiaojie_0217",
+   "des"                                   : "元宵节专属比赛，十亿金币奖池，更多获奖名额，2月20日晚20:00准时开赛，不要错过！",
+   "moduleId"                              : "general_btn",
+   "typeid"                                : 4,
+   "name"                                  : "元宵节十亿赛",
+   "server_config"                         : {
+    "start"                                 : "2016-02-17 00:00:00",
+    "end"                                   : "2016-02-29 00:00:00"
+   },
+   "config"                                : {
+    "button"                                : {
+     "visible"                               : true,
+     "todoTask"                              : {
+      "enter_param"                           : {
+       "pluginParams"                          : {
+        "gameType"                              : 4
+       },
+       "type"                                  : "roomlist"
+      },
+      "gameId"                                : 8,
+      "typeId"                                : "hall.goto.enter.game"
+     },
+     "URL"                                   : "${http_download}/texas/images/activity/springmatch118_btn.png"
+    },
+    "bgURL"                                 : "${http_download}/texas/images/activity/yuanxiaojie022220_bg.jpg"
+   }
+  },
+  "activity_bairenniuniu_1116"            : {
+   "id"                                    : "activity_bairenniuniu_1116",
+   "des"                                   : "全新百人牛牛上线，彩金奖励翻倍，还等什么，下个幸运的就是你！",
+   "moduleId"                              : "general_btn",
+   "typeid"                                : 4,
+   "name"                                  : "全新百人牛牛",
+   "server_config"                         : {
+    "start"                                 : "2016-11-15 00:00:00",
+    "end"                                   : "2016-11-25 00:00:00"
+   },
+   "config"                                : {
+    "button"                                : {
+     "visible"                               : "true",
+     "todoTask"                              : {
+      "enter_param"                           : {
+       "pluginParams"                          : {
+        "gameType"                              : 1
+       },
+       "type"                                  : "roomlist"
+      },
+      "gameId"                                : 16,
+      "typeId"                                : "hall.goto.enter.game"
+     },
+     "URL"                                   : "${http_download}/hall/act/complete/general_btn/lijicanyu_0907.png"
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/general_btn/act_bairenniuniu_1116.jpg"
+   }
+  },
+  "activity_texas_charge_rank_1026"       : {
+   "id"                                    : "activity_texas_charge_rank_1026",
+   "des"                                   : "1.本排行榜是每日获得金秋积分数量的排行榜，每天按排名送出海量金币！\n2.金秋积分榜每天24点结算清零，奖励自动到账。\n3.10月27日凌晨5点后充值开始获得金秋积分。",
+   "moduleId"                              : "texas_charge_rank",
+   "typeid"                                : 8002,
+   "name"                                  : "金秋积分榜",
+   "server_config"                         : {
+    "start"                                 : "2016-10-26 00:00:00",
+    "end"                                   : "2016-11-02 23:59:59"
+   },
+   "config"                                : { }
+  },
+  "activity_nbajingcai_1102"              : {
+   "id"                                    : "activity_nbajingcai_1102",
+   "des"                                   : "1.竞猜规则请点击【竞猜规则】按钮查看。\n2.比赛结束后系统发奖，可在【竞猜记录】中查看。 ",
+   "moduleId"                              : "betguess",
+   "activityGameId"                        : 6,
+   "typeid"                                : 6012,
+   "name"                                  : "NBA竞猜",
+   "server_config"                         : {
+    "start"                                 : "2016-10-24 00:00:00",
+    "end"                                   : "2017-11-10 23:59:59"
+   },
+   "config"                                : {
+    "client"                                : {
+     "backgroundUrl"                         : "",
+     "buttonUrlBetValue2"                    : "",
+     "buttonUrlBetValue1"                    : "",
+     "tabButtonUrlRecord"                    : "",
+     "buttonUrlBetValue3"                    : "",
+     "ruleDesc"                              : "1.竞猜NBA该场次的比赛结果，开赛前可投注，投注金额扣除服务费后计入总奖池。\n2.实时赔率=总奖池÷该竞猜项投注额度，最终将根据投注截止时的赔率，作为最终发奖的赔率，最终奖金=中奖项投注额*该项最终赔率。\n3.比赛结束后系统发奖，可在【竞猜记录】中查看。",
+     "tabButtonUrlAbout"                     : "",
+     "buttonUrlGuressTA"                     : "",
+     "popupBackgroundUrl"                    : "",
+     "tabButtonUrlAboutDisabled"             : "",
+     "recordCellItemWinColor"                : [
+      255,
+      244,
+      0
+     ],
+     "recordCellBackgroundUrl"               : "",
+     "betButtonChips"                        : [
+      10000,
+      100000,
+      1000000
+     ],
+     "buttonUrlBetValue3Selected"            : "",
+     "buttonUrlBetValue2Selected"            : "",
+     "tabButtonUrlRecordDisabled"            : "",
+     "recordCellItemDefaultColor"            : [
+      200,
+      200,
+      200
+     ],
+     "buttonUrlBetValue1Selected"            : ""
+    },
+    "issueMap"                              : {
+     "2016-11-05 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/dizhu/act/betguess/jueshi.png",
+       "displayName"                           : "爵士"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/dizhu/act/betguess/maci.png",
+       "displayName"                           : "马刺"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-03 10:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/dizhu/act/betguess/kuaichuan.png",
+       "displayName"                           : "快船"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/dizhu/act/betguess/leting.png",
+       "displayName"                           : "雷霆"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-07 10:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/dizhu/act/betguess/huren.png",
+       "displayName"                           : "湖人"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/dizhu/act/betguess/taiyang.png",
+       "displayName"                           : "太阳"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-08 09:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/dizhu/act/betguess/leiting.png",
+       "displayName"                           : "雷霆"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/dizhu/act/betguess/rehuo.png",
+       "displayName"                           : "热火"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-10 11:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/dizhu/act/betguess/yongshi.png",
+       "displayName"                           : "勇士"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/dizhu/act/betguess/xiaoniu.png",
+       "displayName"                           : "小牛"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-04 08:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/dizhu/act/betguess/qishi.png",
+       "displayName"                           : "骑士"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/dizhu/act/betguess/kaierteren.png",
+       "displayName"                           : "凯尔特人"
+      },
+      "bankerPumping"                         : 0.1
+     }
+    },
+    "server"                                : {
+     "recordCellIssueTitleFormat"            : "%m月%d日%H:%M \\${leftSideName}VS\\${rightSideName}",
+     "mail"                                  : "恭喜您获得竞猜活动奖励\\${chipNumber}金币",
+     "betChipOverflow"                       : "下注超过本次竞猜最大额度",
+     "lessBuyChipDesc"                       : "[[{\"text\": \"您的金币不够啦，至少需要\", \"style\": \"labelStyle_pop_order_normal\", \"type\": \"ttf\"}, {\"text\": \"\\${betchip}\", \"font\": \"hall_button_text_special_red\", \"type\": \"bmf\"}], [{\"text\": \"推荐您购买\\${product.displayName}\", \"type\": \"ttf\"}]]",
+     "issueOutdate"                          : "本次竞猜已经结束啦~",
+     "recordCellResultLoseTip"               : "未猜中",
+     "payOrderMap"                           : {
+      "10000"                                 : {
+       "shelves"                               : [
+        "lessbuychip"
+       ],
+       "contains"                              : {
+        "count"                                 : 10000,
+        "minCount"                              : 0,
+        "itemId"                                : "user:chip",
+        "maxCount"                              : -1
+       },
+       "buyTypes"                              : [
+        "direct"
+       ]
+      },
+      "1000000"                               : {
+       "shelves"                               : [
+        "lessbuychip"
+       ],
+       "contains"                              : {
+        "count"                                 : 1000000,
+        "minCount"                              : 0,
+        "itemId"                                : "user:chip",
+        "maxCount"                              : -1
+       },
+       "buyTypes"                              : [
+        "direct"
+       ]
+      },
+      "100000"                                : {
+       "shelves"                               : [
+        "lessbuychip"
+       ],
+       "contains"                              : {
+        "count"                                 : 100000,
+        "minCount"                              : 0,
+        "itemId"                                : "user:chip",
+        "maxCount"                              : -1
+       },
+       "buyTypes"                              : [
+        "direct"
+       ]
+      }
+     },
+     "chipNotEnough"                         : "下注金币不足",
+     "recordCellResultWinTip"                : "猜中",
+     "allIssueOutdate"                       : "活动时间已过，下次早点来哟~",
+     "lessBuyChipNote"                       : "[[{\"text\": \"需要花费\\${product.price}元。客服电话4008-098-000\", \"font\": \"labelStyle_pop_order_tip\", \"type\": \"ttf\"}]]",
+     "recordCellWaitingResultTip"            : "未开奖",
+     "issueDateFormat"                       : "%m月%d日%H:%M"
+    }
+   }
+  },
+  "activity_ddz_yuanxiaosai_0217"         : {
+   "id"                                    : "activity_ddz_yuanxiaosai_0217",
+   "des"                                   : "1、2月22日晚21点欢乐元宵大奖赛，免费参赛即可拿红包券。\n2、比赛详情见【比赛场】-【欢乐元宵大奖赛】。",
+   "moduleId"                              : "general_btn",
+   "typeid"                                : 4,
+   "name"                                  : "元宵大奖赛",
+   "server_config"                         : {
+    "start"                                 : "2016-02-17 00:00:00",
+    "end"                                   : "2016-02-24 00:00:00"
+   },
+   "config"                                : {
+    "button"                                : {
+     "visible"                               : true,
+     "todoTask"                              : {
+      "enter_param"                           : {
+       "pluginParams"                          : {
+        "gameType"                              : 3
+       },
+       "type"                                  : "roomlist"
+      },
+      "gameId"                                : 6,
+      "typeId"                                : "hall.goto.enter.game"
+     },
+     "URL"                                   : "${http_download}/hall/act/complete/general_btn/mianfeicansai_0217.png"
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/general_btn/act_ddz_yuanxiaosai_0217.jpg"
+   }
+  },
+  "activity_ddz_dashixinnianjifen_1229"   : {
+   "id"                                    : "activity_ddz_dashixinnianjifen_1229",
+   "des"                                   : "1.积分获取规则见【积分规则】。\n2.每项奖励每天限兑换一次，积分每天24时清零，活动1月4日24时结束。",
+   "moduleId"                              : "integral_exchange",
+   "typeid"                                : 9999002,
+   "name"                                  : "大师新年积分",
+   "server_config"                         : {
+    "start"                                 : "2016-12-26 23:59:59",
+    "creditSource"                          : [
+     {
+      "credits"                               : {
+       "6035"                                  : 3,
+       "6015"                                  : 3,
+       "6025"                                  : 3,
+       "6016"                                  : 5,
+       "6005"                                  : 3
+      },
+      "game"                                  : 6,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credits"                               : {
+       "7906"                                  : 2,
+       "7004"                                  : 2,
+       "7704"                                  : 2,
+       "7604"                                  : 2,
+       "7104"                                  : 2,
+       "7504"                                  : 2,
+       "7902"                                  : 2,
+       "7903"                                  : 2,
+       "7904"                                  : 2,
+       "7905"                                  : 2,
+       "7404"                                  : 2
+      },
+      "game"                                  : 7,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credit"                                : 1,
+      "typeId"                                : "act.credit.charge"
+     }
+    ],
+    "creditReset"                           : "day",
+    "end"                                   : "2017-01-04 23:59:59"
+   },
+   "config"                                : {
+    "ruleBtnURL"                            : "${http_download}/hall/act/complete/integral_exchange/dashixinnianjifenjifen_guizekuang_12292.png",
+    "button"                                : {
+     "visible"                               : true,
+     "todoTask"                              : {
+      "subStore"                              : "coin",
+      "typeId"                                : "hall.goto.shop"
+     },
+     "URL"                                   : "${http_download}/hall/act/complete/integral_exchange/huoqujifen_1229.png"
+    },
+    "reqIntegralBtnURL"                     : "${http_download}/hall/act/complete/integral_exchange/huoqujifen_1019.png",
+    "exchangePreBtnURL"                     : "${http_download}/hall/act/complete/integral_exchange/duihuan_hui.png",
+    "bgURL"                                 : "${http_download}/hall/act/complete/integral_exchange/dashixinnianjifen_bg_1229.jpg",
+    "exchange"                              : [
+     {
+      "content"                               : {
+       "desc"                                  : "5万金币",
+       "items"                                 : [
+        {
+         "count"                                 : 50000,
+         "itemId"                                : "user:chip"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 101,
+      "price"                                 : 100,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     },
+     {
+      "content"                               : {
+       "desc"                                  : "15万金币",
+       "items"                                 : [
+        {
+         "count"                                 : 150000,
+         "itemId"                                : "user:chip"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 102,
+      "price"                                 : 200,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     },
+     {
+      "content"                               : {
+       "desc"                                  : "50万金币",
+       "items"                                 : [
+        {
+         "count"                                 : 500000,
+         "itemId"                                : "user:chip"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 103,
+      "price"                                 : 500,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     },
+     {
+      "content"                               : {
+       "desc"                                  : "128万金币",
+       "items"                                 : [
+        {
+         "count"                                 : 1280000,
+         "itemId"                                : "user:chip"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 104,
+      "price"                                 : 1000,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     }
+    ],
+    "exchangeBtnURL"                        : "${http_download}/hall/act/complete/integral_exchange/duihuan_1019.png",
+    "ruleText"                              : "1.每充值1元得1积分；在斗地主任意星耀场对局每局得3积分，经典巅峰场每局得5积分；在麻将任意大师场及贵宾桌对局每局得2积分。\n2.每项奖励每天限兑换一次，积分每天24时清零，活动1月4日24时结束。"
+   }
+  },
+  "activity_general_nobtn"                : {
+   "id"                                    : "activity_general_nobtn",
+   "des"                                   : "重要公告",
+   "moduleId"                              : "general_btn",
+   "typeid"                                : 1,
+   "name"                                  : "重要公告",
+   "server_config"                         : {
+    "start"                                 : "2018-01-05 00:00:00",
+    "end"                                   : "2020-12-06 23:59:59"
+   },
+   "config"                                : {
+    "button"                                : {
+     "visible"                               : false,
+     "todoTask"                              : "",
+     "URL"                                   : ""
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/general_btn/zygg.jpg"
+   }
+  },
+  "activity_nbajingcai_1102ol"            : {
+   "id"                                    : "activity_nbajingcai_1102ol",
+   "des"                                   : "1.竞猜规则请点击【竞猜规则】按钮查看。\n2.比赛结束后系统发奖，可在【竞猜记录】中查看。 ",
+   "moduleId"                              : "betguess",
+   "activityGameId"                        : 6,
+   "typeid"                                : 6012,
+   "name"                                  : "NBA竞猜",
+   "server_config"                         : {
+    "start"                                 : "2016-10-24 00:00:00",
+    "end"                                   : "2017-11-11 23:59:59"
+   },
+   "config"                                : {
+    "client"                                : {
+     "backgroundUrl"                         : "",
+     "buttonUrlBetValue2"                    : "",
+     "buttonUrlBetValue1"                    : "",
+     "tabButtonUrlRecord"                    : "",
+     "buttonUrlBetValue3"                    : "",
+     "ruleDesc"                              : "1.竞猜NBA该场次的比赛结果，比赛开赛前停止竞猜，投注金额扣除服务费后计入总奖池。\n2.实时赔率=总奖池÷该竞猜项投注总额度，最终将根据投注截止时的赔率，作为最终发奖的赔率，最终奖金=中奖项投注额*该项最终赔率。\n3.比赛结束后系统发奖，可在【竞猜记录】中查看。",
+     "tabButtonUrlAbout"                     : "",
+     "buttonUrlGuressTA"                     : "",
+     "popupBackgroundUrl"                    : "",
+     "tabButtonUrlAboutDisabled"             : "",
+     "recordCellItemWinColor"                : [
+      255,
+      244,
+      0
+     ],
+     "recordCellBackgroundUrl"               : "",
+     "betButtonChips"                        : [
+      10000,
+      100000,
+      1000000
+     ],
+     "buttonUrlBetValue3Selected"            : "",
+     "buttonUrlBetValue2Selected"            : "",
+     "tabButtonUrlRecordDisabled"            : "",
+     "recordCellItemDefaultColor"            : [
+      200,
+      200,
+      200
+     ],
+     "buttonUrlBetValue1Selected"            : ""
+    },
+    "issueMap"                              : {
+     "2016-11-14 18:40:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kuaichuan.png",
+       "displayName"                           : "快船"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/leiting.png",
+       "displayName"                           : "雷霆1"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-14 18:20:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kuaichuan.png",
+       "displayName"                           : "快船"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/leiting.png",
+       "displayName"                           : "雷霆1"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-14 16:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/qishi.png",
+       "displayName"                           : "骑士"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kaierteren.png",
+       "displayName"                           : "凯尔特人"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-14 17:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kuaichuan.png",
+       "displayName"                           : "快船"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/leiting.png",
+       "displayName"                           : "雷霆2"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-14 16:00:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kuaichuan.png",
+       "displayName"                           : "快船"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/leiting.png",
+       "displayName"                           : "雷霆1"
+      },
+      "bankerPumping"                         : 0.1
+     },
+     "2016-11-13 10:30:00"                   : {
+      "userMaxBetChip"                        : 100000000,
+      "rightSide"                             : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/kuaichuan.png",
+       "displayName"                           : "快船"
+      },
+      "leftSide"                              : {
+       "avatorIcon"                            : "${http_download}/hall/act/complete/betguess/leiting.png",
+       "displayName"                           : "雷霆"
+      },
+      "bankerPumping"                         : 0.1
+     }
+    },
+    "server"                                : {
+     "recordCellIssueTitleFormat"            : "%m月%d日%H:%M \\${leftSideName}VS\\${rightSideName}",
+     "mail"                                  : "恭喜您获得竞猜活动奖励\\${chipNumber}金币",
+     "betChipOverflow"                       : "下注超过本次竞猜最大额度",
+     "lessBuyChipDesc"                       : "[[{\"text\": \"您的金币不够啦，至少需要\", \"style\": \"labelStyle_pop_order_normal\", \"type\": \"ttf\"}, {\"text\": \"\\${betchip}\", \"font\": \"hall_button_text_special_red\", \"type\": \"bmf\"}], [{\"text\": \"推荐您购买\\${product.displayName}\", \"type\": \"ttf\"}]]",
+     "issueOutdate"                          : "本次竞猜已经结束啦~",
+     "recordCellResultLoseTip"               : "未猜中",
+     "payOrderMap"                           : {
+      "10000"                                 : {
+       "shelves"                               : [
+        "lessbuychip"
+       ],
+       "contains"                              : {
+        "count"                                 : 10000,
+        "minCount"                              : 0,
+        "itemId"                                : "user:chip",
+        "maxCount"                              : -1
+       },
+       "buyTypes"                              : [
+        "direct"
+       ]
+      },
+      "1000000"                               : {
+       "shelves"                               : [
+        "lessbuychip"
+       ],
+       "contains"                              : {
+        "count"                                 : 1000000,
+        "minCount"                              : 0,
+        "itemId"                                : "user:chip",
+        "maxCount"                              : -1
+       },
+       "buyTypes"                              : [
+        "direct"
+       ]
+      },
+      "100000"                                : {
+       "shelves"                               : [
+        "lessbuychip"
+       ],
+       "contains"                              : {
+        "count"                                 : 100000,
+        "minCount"                              : 0,
+        "itemId"                                : "user:chip",
+        "maxCount"                              : -1
+       },
+       "buyTypes"                              : [
+        "direct"
+       ]
+      }
+     },
+     "chipNotEnough"                         : "下注金币不足",
+     "recordCellResultWinTip"                : "猜中",
+     "allIssueOutdate"                       : "活动时间已过，下次早点来哟~",
+     "lessBuyChipNote"                       : "[[{\"text\": \"需要花费\\${product.price}元。客服电话4008-098-000\", \"font\": \"labelStyle_pop_order_tip\", \"type\": \"ttf\"}]]",
+     "recordCellWaitingResultTip"            : "未开奖",
+     "issueDateFormat"                       : "%m月%d日%H:%M"
+    }
+   }
+  },
+  "activity_viprenwu_1123"                : {
+   "id"                                    : "activity_viprenwu_1123",
+   "des"                                   : "感恩任务仅支持3.90以上版本，敬请升级新版。",
+   "moduleId"                              : "general_btn",
+   "typeid"                                : 4,
+   "name"                                  : "感恩任务放送",
+   "server_config"                         : {
+    "start"                                 : "2016-11-22 00:00:00",
+    "end"                                   : "2016-12-01 00:00:00"
+   },
+   "config"                                : {
+    "button"                                : {
+     "visible"                               : "true",
+     "todoTask"                              : {
+      "typeId"                                : "hall.goto.free"
+     },
+     "URL"                                   : "${http_download}/hall/act/complete/general_btn/chakanrenwu_1123.png"
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/general_btn/act_ganenrenwu_1124.jpg"
+   }
+  },
+  "activity_ganendenglu_1123"             : {
+   "id"                                    : "activity_ganendenglu_1123",
+   "des"                                   : "11月24日-30日，登录游戏即可领取当天感恩好礼，记得每天来玩哦！",
+   "moduleId"                              : "general_btn",
+   "typeid"                                : 1,
+   "name"                                  : "感恩登录好礼",
+   "server_config"                         : {
+    "start"                                 : "2016-11-22 00:00:00",
+    "end"                                   : "2016-12-01 00:00:00"
+   },
+   "config"                                : {
+    "button"                                : {
+     "visible"                               : "false",
+     "todoTask"                              : "",
+     "URL"                                   : ""
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/general_btn/act_ganendenglu_1123.jpg"
+   }
+  },
+  "activity_code_duihuanma_37"            : {
+   "id"                                    : "activity_code_duihuanma_37",
+   "des"                                   : "如有问题，请咨询客服QQ：4008098000\\\n或拨打客服电话：4008098000。",
+   "moduleId"                              : "input",
+   "typeid"                                : 3,
+   "name"                                  : "兑换码活动（废弃）",
+   "server_config"                         : {
+    "start"                                 : "2015-02-28 00:00:00",
+    "end"                                   : "2016-04-30 00:00:00"
+   },
+   "config"                                : {
+    "titleURL"                              : "",
+    "bgURL"                                 : "${http_download}/hall/act/complete/input/act_exchange_1125_2.jpg"
+   },
+   "url"                                   : ""
+  },
+  "pc_activity_YuanXiaoSai_160219"        : {
+   "id"                                    : "pc_activity_YuanXiaoSai_160219",
+   "des"                                   : "1、2月22日晚21点欢乐元宵大奖赛，免费参赛即可拿红包券。2、比赛详情见【比赛场】-【欢乐元宵大奖赛】。",
+   "moduleId"                              : "pc_module_SingleButton",
+   "typeid"                                : 4,
+   "name"                                  : "元宵大奖赛",
+   "server_config"                         : {
+    "start"                                 : "2016-02-19 00:00:00",
+    "end"                                   : "2016-02-24 00:00:00"
+   },
+   "config"                                : {
+    "button"                                : {
+     "bkg3_url"                              : "${http_download}/hall/act/complete/pc_SingleButton/btn3_160219_poker.png",
+     "visible"                               : true,
+     "todoTask"                              : {
+      "enter_param"                           : {
+       "pluginParams"                          : {
+        "gameType"                              : "match",
+        "roomInfo"                              : {
+         "roomName"                              : "欢乐元宵大奖赛",
+         "cost"                                  : "报名费:免费",
+         "roomID"                                : 6055
+        }
+       },
+       "type"                                  : "quickstart"
+      },
+      "gameId"                                : 6,
+      "typeId"                                : "hall.goto.enter.game"
+     },
+     "bkg1_url"                              : "${http_download}/hall/act/complete/pc_SingleButton/btn1_160219_poker.png",
+     "bkg2_url"                              : "${http_download}/hall/act/complete/pc_SingleButton/btn2_160219_poker.png"
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/pc_SingleButton/bg_20160219_Spring_Money.png"
+   }
+  },
+  "activity_ddz_jiankangyouxi_0201"       : {
+   "id"                                    : "activity_ddz_jiankangyouxi_0201",
+   "des"                                   : "健康游戏公告",
+   "moduleId"                              : "notice_img",
+   "typeid"                                : 1,
+   "name"                                  : "健康游戏公告",
+   "server_config"                         : {
+    "start"                                 : "2016-02-01 00:00:00",
+    "end"                                   : "2019-01-31 00:00:00"
+   },
+   "config"                                : {
+    "firstButton"                           : {
+     "visible"                               : 0,
+     "action"                                : "",
+     "params"                                : {
+      "duration"                              : 2,
+      "text"                                  : "确定"
+     }
+    },
+    "secondButton"                          : {
+     "visible"                               : 0,
+     "action"                                : "",
+     "params"                                : {
+      "duration"                              : 2,
+      "text"                                  : "确定"
+     }
+    },
+    "bgURL"                                 : "${http_download}/hall/act/complete/notice_img/shenhegonggao.png"
+   },
+   "url"                                   : ""
+  },
+  "activity_all_dongrijifen_1130"         : {
+   "id"                                    : "activity_all_dongrijifen_1130",
+   "des"                                   : "积分获取规则见【积分规则】按钮。每项奖励每天限兑换一次，积分每天24时清零。12月7日24时活动结束。部分版本游戏不支持签到，请及时升级为最新版本客户端。",
+   "moduleId"                              : "integral_exchange",
+   "typeid"                                : 9999002,
+   "name"                                  : "冬日暖心积分",
+   "server_config"                         : {
+    "start"                                 : "2016-11-29 00:00:00",
+    "creditSource"                          : [
+     {
+      "credits"                               : {
+       "6994"                                  : 5,
+       "6069"                                  : 5,
+       "6995"                                  : 5,
+       "6068"                                  : 5,
+       "6042"                                  : 5,
+       "6992"                                  : 5,
+       "6993"                                  : 5,
+       "6065"                                  : 5,
+       "6991"                                  : 5,
+       "6064"                                  : 5,
+       "6067"                                  : 5,
+       "6066"                                  : 5,
+       "6061"                                  : 5,
+       "6024"                                  : 5,
+       "6060"                                  : 5,
+       "6025"                                  : 8,
+       "6063"                                  : 5,
+       "6026"                                  : 10,
+       "6062"                                  : 5,
+       "6001"                                  : 1,
+       "6002"                                  : 2,
+       "6021"                                  : 1,
+       "6003"                                  : 3,
+       "6004"                                  : 5,
+       "6022"                                  : 2,
+       "6005"                                  : 8,
+       "6023"                                  : 3,
+       "6997"                                  : 5,
+       "6996"                                  : 5,
+       "6998"                                  : 5,
+       "6034"                                  : 5,
+       "6059"                                  : 2,
+       "6033"                                  : 3,
+       "6058"                                  : 2,
+       "6032"                                  : 2,
+       "6057"                                  : 5,
+       "6031"                                  : 1,
+       "6056"                                  : 5,
+       "6055"                                  : 5,
+       "6054"                                  : 5,
+       "6035"                                  : 8,
+       "6053"                                  : 5,
+       "6015"                                  : 8,
+       "6016"                                  : 10,
+       "6013"                                  : 3,
+       "6014"                                  : 5,
+       "6011"                                  : 1,
+       "6012"                                  : 2
+      },
+      "game"                                  : 6,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credits"                               : {
+       "3037"                                  : 2,
+       "3036"                                  : 2,
+       "3039"                                  : 2,
+       "3038"                                  : 2,
+       "3005"                                  : 5,
+       "3006"                                  : 5,
+       "3003"                                  : 2,
+       "3004"                                  : 2,
+       "3009"                                  : 5,
+       "3008"                                  : 5,
+       "3035"                                  : 2,
+       "3034"                                  : 2,
+       "3033"                                  : 2,
+       "3032"                                  : 2,
+       "3031"                                  : 2,
+       "3002"                                  : 2,
+       "3020"                                  : 5,
+       "3001"                                  : 2,
+       "3010"                                  : 5,
+       "3040"                                  : 2
+      },
+      "game"                                  : 3,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credits"                               : {
+       "7701"                                  : 1,
+       "7003"                                  : 3,
+       "7004"                                  : 5,
+       "7703"                                  : 3,
+       "7101"                                  : 1,
+       "7702"                                  : 2,
+       "7103"                                  : 3,
+       "7704"                                  : 5,
+       "7102"                                  : 2,
+       "7001"                                  : 1,
+       "7104"                                  : 5,
+       "7002"                                  : 2,
+       "7906"                                  : 8,
+       "7355"                                  : 5,
+       "7356"                                  : 5,
+       "7357"                                  : 5,
+       "7402"                                  : 2,
+       "7401"                                  : 1,
+       "7603"                                  : 3,
+       "7351"                                  : 5,
+       "7604"                                  : 5,
+       "7352"                                  : 5,
+       "7601"                                  : 1,
+       "7353"                                  : 5,
+       "7602"                                  : 2,
+       "7501"                                  : 1,
+       "7354"                                  : 5,
+       "7804"                                  : 5,
+       "7803"                                  : 3,
+       "7350"                                  : 5,
+       "7902"                                  : 8,
+       "7903"                                  : 8,
+       "7904"                                  : 8,
+       "7802"                                  : 2,
+       "7905"                                  : 8,
+       "7801"                                  : 1,
+       "7504"                                  : 5,
+       "7503"                                  : 3,
+       "7502"                                  : 2,
+       "7403"                                  : 3,
+       "7404"                                  : 5,
+       "7361"                                  : 5,
+       "7365"                                  : 5,
+       "7364"                                  : 5,
+       "7363"                                  : 5,
+       "7362"                                  : 5,
+       "7367"                                  : 5
+      },
+      "game"                                  : 7,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credits"                               : {
+       "25001"                                 : 2,
+       "25005"                                 : 2
+      },
+      "game"                                  : 25,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credits"                               : {
+       "20003"                                 : 2,
+       "20002"                                 : 2,
+       "20005"                                 : 2,
+       "20001"                                 : 2,
+       "20007"                                 : 2,
+       "20006"                                 : 2
+      },
+      "game"                                  : 20,
+      "typeId"                                : "act.credit.gamePlay"
+     },
+     {
+      "credit"                                : 10,
+      "typeId"                                : "act.credit.checkin"
+     }
+    ],
+    "creditReset"                           : "day",
+    "end"                                   : "2016-12-07 23:59:59"
+   },
+   "config"                                : {
+    "ruleBtnURL"                            : "${http_download}/hall/act/complete/integral_exchange/dongrijifen_guizekuang_1130.png",
+    "button"                                : {
+     "visible"                               : true,
+     "todoTask"                              : {
+      "typeId"                                : "todotask.showInfo",
+      "info"                                  : "快去玩您喜欢的游戏获得积分吧~"
+     },
+     "URL"                                   : "${http_download}/hall/act/complete/integral_exchange/huoqujifen1012.png"
+    },
+    "reqIntegralBtnURL"                     : "${http_download}/hall/act/complete/integral_exchange/huoqujifen1012.png",
+    "exchangePreBtnURL"                     : "${http_download}/hall/act/complete/integral_exchange/duihuan_hui.png",
+    "bgURL"                                 : "${http_download}/hall/act/complete/integral_exchange/dongrijifen_bg_1130.jpg",
+    "exchange"                              : [
+     {
+      "content"                               : {
+       "desc"                                  : "1个月光宝盒",
+       "items"                                 : [
+        {
+         "count"                                 : 1,
+         "itemId"                                : "item:3002"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 101,
+      "price"                                 : 20,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     },
+     {
+      "content"                               : {
+       "desc"                                  : "1张幸运卡",
+       "items"                                 : [
+        {
+         "count"                                 : 1,
+         "itemId"                                : "item:4167"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 102,
+      "price"                                 : 30,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     },
+     {
+      "content"                               : {
+       "desc"                                  : "0.1红包券",
+       "items"                                 : [
+        {
+         "count"                                 : 10,
+         "itemId"                                : "user:coupon"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 103,
+      "price"                                 : 100,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     },
+     {
+      "content"                               : {
+       "desc"                                  : "1把月光之钥",
+       "items"                                 : [
+        {
+         "count"                                 : 1,
+         "itemId"                                : "item:3001"
+        }
+       ],
+       "typeId"                                : "FixedContent"
+      },
+      "id"                                    : 104,
+      "price"                                 : 200,
+      "limitReset"                            : "day",
+      "limitTimes"                            : 1
+     }
+    ],
+    "exchangeBtnURL"                        : "${http_download}/hall/act/complete/integral_exchange/duihuan1012.png",
+    "ruleText"                              : "1.每天签到得10积分；每天24时积分清零重置。\n2.在斗地主金币桌新手/中级/高级/大师/星耀/巅峰场对局每局分别得1/2/3/5/8/10积分；参加1元红包赛每场得2积分，其他比赛每场得5积分。\n3.在麻将金币桌的初级/中级/高级/大师/贵宾桌对局分别得1/2/3/5/8积分，参加比赛每场得5积分。\n4.在中国象棋/军棋/五子棋任意场次(除自建桌)对局每局得2积分，参加象棋比赛每场得5积分。"
+   }
+  },
+  "activity_realnamereg_0203"             : {
+   "id"                                    : "activity_realnamereg_0203",
+   "des"                                   : "实名认证",
+   "moduleId"                              : "realName_certification",
+   "typeid"                                : 1,
+   "name"                                  : "实名认证",
+   "server_config"                         : {
+    "start"                                 : "2017-04-20 00:00:00",
+    "end"                                   : "2038-11-17 00:00:00"
+   },
+   "config"                                : {
+    "firstButton"                           : {
+     "visible"                               : 0,
+     "action"                                : "pop_tip",
+     "params"                                : {
+      "duration"                              : 2,
+      "text"                                  : "确定"
+     }
+    },
+    "secondButton"                          : {
+     "visible"                               : 0,
+     "action"                                : "pop_tip",
+     "params"                                : {
+      "duration"                              : 2,
+      "text"                                  : "确定"
+     }
+    }
+   }
+  }
+ },
+ "modules"                               : {
+  "mj_fund_prize"                         : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/fund_prize",
+    "url"                                   : "${http_download}/hall/act/complete/fund_prize_new/fund_prize3.zip"
+   },
+   "ccbiPath"                              : "games/activity/fund_prize/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/fund_prize/script/main.js",
+   "ver"                                   : "3.0",
+   "ctorName"                              : "MjFundPrize"
+  },
+  "input_3761"                            : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/input_0202",
+    "url"                                   : "${http_download}/hall/act/complete/inputNew/input_180115_3.zip"
+   },
+   "ccbiPath"                              : "games/activity/input_0202/ccbi/input.ccbi",
+   "ctorPath"                              : "games/activity/input_0202/script/input.js",
+   "ver"                                   : "1.4",
+   "ctorName"                              : "ActivityInputNe"
+  },
+  "matchQuiz"                             : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/matchquiz",
+    "url"                                   : "${http_download}/hall/act/complete/matchquiz/matchquiz3.zip"
+   },
+   "ccbiPath"                              : "games/activity/matchquiz/ccbi/matchquiz.ccbi",
+   "ctorPath"                              : "games/activity/matchquiz/script/matchquiz.js",
+   "ver"                                   : "1",
+   "ctorName"                              : "ActivityMatchQuiz"
+  },
+  "table_replay_ranking"                  : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/table_replay_ranking",
+    "url"                                   : "${http_download}/hall/act/complete/table_replay_ranking/table_replay_ranking3.zip"
+   },
+   "ccbiPath"                              : "games/activity/table_replay_ranking/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/table_replay_ranking/script/main.js",
+   "ver"                                   : "1.0",
+   "ctorName"                              : "ActivityTableReplayRanking"
+  },
+  "mj_score_prize"                        : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/score_prize",
+    "url"                                   : "${http_download}/hall/act/complete/score_prize/score_prize7.zip"
+   },
+   "ccbiPath"                              : "games/activity/score_prize/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/score_prize/script/main.js",
+   "ver"                                   : "7.0",
+   "ctorName"                              : "MjScorePrize"
+  },
+  "pc_module_GongGaoBan"                  : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/pc_GongGaoBan",
+    "url"                                   : "${http_download}/hall/act/complete/pc_GongGaoBan/pc_GongGaoBan.zip"
+   },
+   "ccbiPath"                              : "games/activity/pc_GongGaoBan/ccbi/pc_GongGaoBan.ccbi",
+   "ctorPath"                              : "games/activity/pc_GongGaoBan/script/pc_GongGaoBan.js",
+   "ver"                                   : "1",
+   "ctorName"                              : "ActivityPcGongGaoBan"
+  },
+  "mj_common_winstreak_prize"             : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/common_winstreak_prize",
+    "url"                                   : "${http_download}/hall/act/complete/common_winstreak_prize/common_winstreak_prize1.zip"
+   },
+   "ccbiPath"                              : "games/activity/common_winstreak_prize/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/common_winstreak_prize/script/main.js",
+   "ver"                                   : "1.0",
+   "ctorName"                              : "MjCommonWinstreakPrize"
+  },
+  "fund"                                  : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/fund",
+    "url"                                   : "${http_download}/hall/act/complete/fund/fund_3.zip"
+   },
+   "ccbiPath"                              : "games/activity/fund/ccbi/fund.ccbi",
+   "ctorPath"                              : "games/activity/fund/script/fund.js",
+   "ver"                                   : "3.0",
+   "ctorName"                              : "ActivityFund"
+  },
+  "texas_proptoprop"                      : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/proptoprop",
+    "url"                                   : "${http_download}/texas/activity/texas_proptoprop_3.zip"
+   },
+   "ccbiPath"                              : "games/activity/proptoprop/ccbi/prop_to_prop.ccbi",
+   "ctorPath"                              : "games/activity/proptoprop/script/prop_to_prop.js",
+   "ver"                                   : "2.0",
+   "ctorName"                              : "ActivityPropToProp"
+  },
+  "exchange"                              : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/exchange",
+    "url"                                   : "${http_download}/hall/act/complete/exchange/exchange_1029.zip"
+   },
+   "ccbiPath"                              : "games/activity/exchange/ccbi/exchange.ccbi",
+   "ctorPath"                              : "games/activity/exchange/script/exchange.js",
+   "ver"                                   : "1.0",
+   "ctorName"                              : "ActivityTreeExchange"
+  },
+  "realName_certification"                : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/realName_certification",
+    "url"                                   : "${http_download}/hall/act/complete/realName_certification/realName_certification8.zip"
+   },
+   "ccbiPath"                              : "games/activity/realName_certification/ccbi/realName_certification.ccbi",
+   "ctorPath"                              : "games/activity/realName_certification/script/realName_certification.js",
+   "ver"                                   : "8.0",
+   "ctorName"                              : "RealNameCertify"
+  },
+  "input_0201"                            : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/input_0201",
+    "url"                                   : "${http_download}/hall/act/complete/input/input_180112.zip"
+   },
+   "ccbiPath"                              : "games/activity/input_0201/ccbi/input.ccbi",
+   "ctorPath"                              : "games/activity/input_0201/script/input.js",
+   "ver"                                   : "1.1",
+   "ctorName"                              : "ActivityInputNew"
+  },
+  "pc_module_DuiHuanMa"                   : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/pc_DuiHuanMa",
+    "url"                                   : "${http_download}/hall/act/complete/pc_DuiHuanMa/pc_DuiHuanMa.zip"
+   },
+   "ccbiPath"                              : "games/activity/pc_DuiHuanMa/ccbi/pc_DuiHuanMa.ccbi",
+   "ctorPath"                              : "games/activity/pc_DuiHuanMa/script/pc_DuiHuanMa.js",
+   "ver"                                   : "1",
+   "ctorName"                              : "ActivityPcDuiHuanMa"
+  },
+  "pc_module_GongGaoBan_Texas"            : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "7d9a22bba38499b41033b500346179ad",
+    "dirName"                               : "games/activity/pc_GongGaoBan_Texas",
+    "url"                                   : "${http_download}/hall/act/complete/pc_GongGaoBan_Texas/pc_GongGaoBan_Texas.zip"
+   },
+   "ccbiPath"                              : "games/activity/pc_GongGaoBan_Texas/ccbi/pc_GongGaoBan_Texas.ccbi",
+   "ctorPath"                              : "games/activity/pc_GongGaoBan_Texas/script/pc_GongGaoBan_Texas.js",
+   "ver"                                   : "1",
+   "ctorName"                              : "ActivityPcGongGaoBanTexas"
+  },
+  "mj_winstreak_prize"                    : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/winstreak_prize",
+    "url"                                   : "${http_download}/hall/act/complete/winstreak_prize/winstreak_prize7.zip"
+   },
+   "ccbiPath"                              : "games/activity/winstreak_prize/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/winstreak_prize/script/main.js",
+   "ver"                                   : "7.0",
+   "ctorName"                              : "MjWinstreakPrize"
+  },
+  "funact"                                : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/funact",
+    "url"                                   : "${http_download}/hall/act/complete/funact/funact3.zip"
+   },
+   "ccbiPath"                              : "games/activity/funact/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/funact/script/main.js",
+   "ver"                                   : "3.0",
+   "ctorName"                              : "FunAct"
+  },
+  "input"                                 : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/input_1128",
+    "url"                                   : "${http_download}/hall/act/complete/input/input_1128.zip"
+   },
+   "ccbiPath"                              : "games/activity/input_1128/ccbi/input.ccbi",
+   "ctorPath"                              : "games/activity/input_1128/script/input.js",
+   "ver"                                   : "1.0",
+   "ctorName"                              : "ActivityInputNe"
+  },
+  "mj_tiger_machine"                      : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/tiger_machine",
+    "url"                                   : "${http_download}/hall/act/complete/tiger_machine/tiger_machine2.zip"
+   },
+   "ccbiPath"                              : "games/activity/tiger_machine/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/tiger_machine/script/main.js",
+   "ver"                                   : "3.0",
+   "ctorName"                              : "MjTigerMachine"
+  },
+  "luckyMoneyNew"                         : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/luckymoneynew",
+    "url"                                   : "${http_download}/hall/act/complete/luckymoneynew/luckymoneynew8.zip"
+   },
+   "ccbiPath"                              : "games/activity/luckymoneynew/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/luckymoneynew/script/main.js",
+   "ver"                                   : "8.0",
+   "ctorName"                              : "LuckyMoneyNew"
+  },
+  "mj_score_prize2"                       : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/score_prize2",
+    "url"                                   : "${http_download}/hall/act/complete/score_prize2/score_prize2.zip"
+   },
+   "ccbiPath"                              : "games/activity/score_prize2/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/score_prize2/script/main.js",
+   "ver"                                   : "1.0",
+   "ctorName"                              : "MjScorePrize2"
+  },
+  "luckyMoney"                            : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/luckymoney",
+    "url"                                   : "${http_download}/hall/act/complete/luckymoney/luckymoney4.zip"
+   },
+   "ccbiPath"                              : "games/activity/luckymoney/ccbi/luckymoney.ccbi",
+   "ctorPath"                              : "games/activity/luckymoney/script/luckymoney.js",
+   "ver"                                   : "4",
+   "ctorName"                              : "ActivityLuckyMoney"
+  },
+  "item_exchange"                         : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/item_exchange",
+    "url"                                   : "${http_download}/hall/act/complete/item_exchange/item_exchange.zip"
+   },
+   "ccbiPath"                              : "games/activity/item_exchange/ccbi/item_exchange.ccbi",
+   "ctorPath"                              : "games/activity/item_exchange/script/item_exchange.js",
+   "ver"                                   : "1.0",
+   "ctorName"                              : "ActivityItem"
+  },
+  "flipcard"                              : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/flipcard",
+    "url"                                   : "${http_download}/hall/act/complete/flipcard/flipcard.zip"
+   },
+   "ccbiPath"                              : "games/activity/flipcard/ccbi/flipcard.ccbi",
+   "ctorPath"                              : "games/activity/flipcard/script/flipcard.js",
+   "ver"                                   : "1.0",
+   "ctorName"                              : "ActivityFlipCard"
+  },
+  "mj_task_prize"                         : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/task_prize",
+    "url"                                   : "${http_download}/hall/act/complete/task_prize/task_prize5.zip"
+   },
+   "ccbiPath"                              : "games/activity/task_prize/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/task_prize/script/main.js",
+   "ver"                                   : "5.0",
+   "ctorName"                              : "MjTaskPrize"
+  },
+  "scoreboard2"                           : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/scoreboard",
+    "url"                                   : "${http_download}/hall/act/complete/scoreboard/chess_scoreboard3.8_add2_fixed.zip"
+   },
+   "ccbiPath"                              : "games/activity/scoreboard/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/scoreboard/script/main.js",
+   "ver"                                   : "2.8",
+   "ctorName"                              : "ActScoreboard"
+  },
+  "notice_img"                            : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/notice_img",
+    "url"                                   : "${http_download}/hall/act/complete/notice_img/notice_img.zip"
+   },
+   "ccbiPath"                              : "games/activity/notice_img/ccbi/notice_img.ccbi",
+   "ctorPath"                              : "games/activity/notice_img/script/notice_img.js",
+   "ver"                                   : "1.0",
+   "ctorName"                              : "ActivityNoticeImg"
+  },
+  "newExchange"                           : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/newExchange",
+    "url"                                   : "${http_download}/hall/act/complete/newExchange/newExchange16.zip"
+   },
+   "ccbiPath"                              : "games/activity/newExchange/ccbi/newExchange.ccbi",
+   "ctorPath"                              : "games/activity/newExchange/script/newExchange.js",
+   "ver"                                   : "10.0",
+   "ctorName"                              : "ActivityTreeNewExchange"
+  },
+  "pc_module_SingleButton"                : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/pc_SingleButton",
+    "url"                                   : "${http_download}/hall/act/complete/pc_SingleButton/pc_SingleButton.zip"
+   },
+   "ccbiPath"                              : "games/activity/pc_SingleButton/ccbi/pc_SingleButton.ccbi",
+   "ctorPath"                              : "games/activity/pc_SingleButton/script/pc_SingleButton.js",
+   "ver"                                   : "1",
+   "ctorName"                              : "ActivityPcSingleButton"
+  },
+  "scoreboard"                            : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/scoreboard",
+    "url"                                   : "${http_download}/hall/act/complete/scoreboard/ddz_scoreboard3.8_add2.zip"
+   },
+   "ccbiPath"                              : "games/activity/scoreboard/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/scoreboard/script/main.js",
+   "ver"                                   : "3.9",
+   "ctorName"                              : "ActScoreboard"
+  },
+  "general_btn"                           : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/general_btn",
+    "url"                                   : "${http_download}/hall/act/complete/general_btn/general_btn_0119.zip"
+   },
+   "ccbiPath"                              : "games/activity/general_btn/ccbi/general_btn.ccbi",
+   "ctorPath"                              : "games/activity/general_btn/script/general_btn.js",
+   "ver"                                   : "1.1",
+   "ctorName"                              : "ActivityGeneralBtn"
+  },
+  "invite_newFriend"                      : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/invite_newFriend",
+    "url"                                   : "${http_download}/hall/act/complete/invite_newFriend/invite_newFriend.zip"
+   },
+   "ccbiPath"                              : "games/activity/invite_newFriend/ccbi/invite_newFriend.ccbi",
+   "ctorPath"                              : "games/activity/invite_newFriend/script/invite_newFriend.js",
+   "ver"                                   : "1.0",
+   "ctorName"                              : "ActivityInviteNewFriend"
+  },
+  "pc_module_DumpLings"                   : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/pc_DumpLings",
+    "url"                                   : "${http_download}/hall/act/complete/pc_DumpLings/pc_DumpLings.zip"
+   },
+   "ccbiPath"                              : "games/activity/pc_DumpLings/ccbi/pc_DumpLings.ccbi",
+   "ctorPath"                              : "games/activity/pc_DumpLings/script/pc_DumpLings.js",
+   "ver"                                   : "1",
+   "ctorName"                              : "ActivityPcDumpLings"
+  },
+  "integral_exchange"                     : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/integral_exchange",
+    "url"                                   : "${http_download}/hall/act/complete/integral_exchange/integral_exchange2.zip"
+   },
+   "ccbiPath"                              : "games/activity/integral_exchange/ccbi/integral_exchange.ccbi",
+   "ctorPath"                              : "games/activity/integral_exchange/script/integral_exchange.js",
+   "ver"                                   : "2.0",
+   "ctorName"                              : "ActivityIntegral"
+  },
+  "scoreboard_texas"                      : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/scoreboard",
+    "url"                                   : "${http_download}/hall/act/complete/scoreboard/scoreboard2.8_texas.zip"
+   },
+   "ccbiPath"                              : "games/activity/scoreboard/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/scoreboard/script/main.js",
+   "ver"                                   : "2.4",
+   "ctorName"                              : "ActScoreboard"
+  },
+  "betguess"                              : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/betguess",
+    "url"                                   : "${http_download}/hall/act/complete/betguess/betguess3.zip"
+   },
+   "ccbiPath"                              : "games/activity/betguess/ccbi/betguess.ccbi",
+   "ctorPath"                              : "games/activity/betguess/script/betguess.js",
+   "ver"                                   : "3.0",
+   "ctorName"                              : "BetGuess"
+  },
+  "wishingwell"                           : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/wishingwell",
+    "url"                                   : "${http_download}/hall/act/complete/wishingwell/wishingwell.zip"
+   },
+   "ccbiPath"                              : "games/activity/wishingwell/ccbi/wishingwell.ccbi",
+   "ctorPath"                              : "games/activity/wishingwell/script/wishingwell.js",
+   "ver"                                   : "1",
+   "ctorName"                              : "WishingWell"
+  },
+  "pc_module_5Game1Gift"                  : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/pc_5Game1Gift",
+    "url"                                   : "${http_download}/hall/act/complete/pc_5Game1Gift/pc_5Game1Gift.zip"
+   },
+   "ccbiPath"                              : "games/activity/pc_5Game1Gift/ccbi/pc_5Game1Gift.ccbi",
+   "ctorPath"                              : "games/activity/pc_5Game1Gift/script/pc_5Game1Gift.js",
+   "ver"                                   : "1",
+   "ctorName"                              : "ActivityPc5Game1Gift"
+  },
+  "texas_charge_rank"                     : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/autumnActivity",
+    "url"                                   : "${http_download}/texas/activity/autumnActivity_1.zip"
+   },
+   "ccbiPath"                              : "games/activity/autumnActivity/ccbi/autumn_activity.ccbi",
+   "ctorPath"                              : "games/activity/autumnActivity/script/autumn_activity.js",
+   "ver"                                   : "2.0",
+   "ctorName"                              : "AutumnActivity"
+  },
+  "good_life"                             : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/goodlife",
+    "url"                                   : "${http_download}/hall/act/complete/scoreboard/goodlife8.zip"
+   },
+   "ccbiPath"                              : "games/activity/goodlife/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/goodlife/script/main.js",
+   "ver"                                   : "1.7",
+   "ctorName"                              : "ActGoodlife"
+  },
+  "match_rank"                            : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/match_rank",
+    "url"                                   : "${http_download}/hall/act/complete/scoreboard/match_rank_v1.2.zip"
+   },
+   "ccbiPath"                              : "games/activity/match_rank/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/match_rank/script/main.js",
+   "ver"                                   : "1.2",
+   "ctorName"                              : "ActMatchRank"
+  },
+  "share_connect"                         : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/share_connect",
+    "url"                                   : "${http_download}/hall/act/complete/share_connect/share_connect.zip"
+   },
+   "ccbiPath"                              : "games/activity/share_connect/ccbi/share_connect.ccbi",
+   "ctorPath"                              : "games/activity/share_connect/script/share_connect.js",
+   "ver"                                   : "1.0",
+   "ctorName"                              : "ActivityShareConnect"
+  },
+  "christmas"                             : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/christmas",
+    "url"                                   : "${http_download}/hall/act/complete/scoreboard/christmas_v1.1_171220.zip"
+   },
+   "ccbiPath"                              : "games/activity/christmas/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/christmas/script/main.js",
+   "ver"                                   : "1.1",
+   "ctorName"                              : "ActChristmas"
+  },
+  "mj_ranking_prize"                      : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/ranking_prize",
+    "url"                                   : "${http_download}/hall/act/complete/ranking_prize/ranking_prize2.zip"
+   },
+   "ccbiPath"                              : "games/activity/ranking_prize/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/ranking_prize/script/main.js",
+   "ver"                                   : "2.0",
+   "ctorName"                              : "MjRankingPrize"
+  },
+  "redPacket"                             : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/redpacket",
+    "url"                                   : "${http_download}/hall/act/complete/redPacket/redpacket.zip"
+   },
+   "ccbiPath"                              : "games/activity/redpacket/ccbi/redpacket.ccbi",
+   "ctorPath"                              : "games/activity/redpacket/script/redpacket.js",
+   "ver"                                   : "1.0",
+   "ctorName"                              : "ActivityRedPacket"
+  },
+  "ipone_bind"                            : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/ipone_bind",
+    "url"                                   : "${http_download}/hall/act/complete/ipone_bind/ipone_bind180205.zip"
+   },
+   "ccbiPath"                              : "games/activity/ipone_bind/ccbi/ipone_bind.ccbi",
+   "ctorPath"                              : "games/activity/ipone_bind/script/ipone_bind.js",
+   "ver"                                   : "13.1",
+   "ctorName"                              : "ActivityIphoneBind"
+  },
+  "pc_GongGaoBan_Texas_New"               : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "1ccd1b56af21317add76b5229b6fea9a",
+    "dirName"                               : "games/activity",
+    "url"                                   : "${http_download}/hall/act/complete/pc_GongGaoBan_Texas/pc_GongGaoBan_Texas_New_Second.zip"
+   },
+   "ccbiPath"                              : "games/activity/pc_GongGaoBan_Texas/pc_GongGaoBan_Texas.ccbi",
+   "ctorPath"                              : "games/activity/pc_GongGaoBan_Texas/pc_GongGaoBan_Texas.js",
+   "ver"                                   : "1.0",
+   "ctorName"                              : "ActivityPcGongGaoBanTexas"
+  },
+  "mj_date_prize"                         : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/date_prize",
+    "url"                                   : "${http_download}/hall/act/complete/date_prize/date_prize_170525new.zip"
+   },
+   "ccbiPath"                              : "games/activity/date_prize/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/date_prize/script/main.js",
+   "ver"                                   : "4.0",
+   "ctorName"                              : "MjDatePrize"
+  },
+  "mj_charge_prize"                       : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/charge_prize",
+    "url"                                   : "${http_download}/hall/act/complete/charge_prize/charge_prize2.zip"
+   },
+   "ccbiPath"                              : "games/activity/charge_prize/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/charge_prize/script/main.js",
+   "ver"                                   : "2.0",
+   "ctorName"                              : "MjChargePrize"
+  },
+  "dumplings"                             : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/dumplings",
+    "url"                                   : "${http_download}/hall/act/complete/dumplings/dumplings.zip"
+   },
+   "ccbiPath"                              : "games/activity/dumplings/ccbi/dumplings.ccbi",
+   "ctorPath"                              : "games/activity/dumplings/script/dumplings.js",
+   "ver"                                   : "1",
+   "ctorName"                              : "ActivityDumplings"
+  },
+  "luckyMoney2"                           : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/luckymoney2",
+    "url"                                   : "${http_download}/hall/act/complete/luckymoney/luckymoney2.zip"
+   },
+   "ccbiPath"                              : "games/activity/luckymoney2/ccbi/luckymoney.ccbi",
+   "ctorPath"                              : "games/activity/luckymoney2/script/luckymoney.js",
+   "ver"                                   : "2",
+   "ctorName"                              : "ActivityLuckyMoney"
+  },
+  "pc_module_QiangHongBao"                : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/pc_QiangHongBao",
+    "url"                                   : "${http_download}/hall/act/complete/pc_QiangHongBao/pc_QiangHongBao.zip"
+   },
+   "ccbiPath"                              : "games/activity/pc_QiangHongBao/ccbi/pc_QiangHongBao.ccbi",
+   "ctorPath"                              : "games/activity/pc_QiangHongBao/script/pc_QiangHongBao.js",
+   "ver"                                   : "1",
+   "ctorName"                              : "ActivityPcQiangHongBao"
+  },
+  "mj_charge_score_prize"                 : {
+   "ZIPconfig"                             : {
+    "fileType"                              : "zip",
+    "versionUrl"                            : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                                   : "",
+    "dirName"                               : "games/activity/charge_score_prize",
+    "url"                                   : "${http_download}/hall/act/complete/charge_score_prize/charge_score_prize4.zip"
+   },
+   "ccbiPath"                              : "games/activity/charge_score_prize/ccbi/main.ccbi",
+   "ctorPath"                              : "games/activity/charge_score_prize/script/main.js",
+   "ver"                                   : "4.0",
+   "ctorName"                              : "MjChargeScorePrize"
+  }
+ }
+}

@@ -1,0 +1,154 @@
+"activity_bet_guess": {
+    "id": "activity_bet_guess",
+    "des": "1.激活该基金需消耗300钻石;\n2.该基金的激活截止时间为1月6日24:00，任务截止时间为1月13日24:00;\n3.限经典/欢乐/癞子/二人场对局计入局数累计 ",
+    "moduleId": "betguess",
+    "typeid": 6012,
+    "activityGameId": 6,
+    "name": "NBA竞猜",
+    "server_config": {
+        "start": "2016-10-24 00:00:00",
+        "end": "2016-11-10 23:59:59"
+    },
+    "config": {
+        "issueMap": { // 每一期竞猜的配置
+            "2016-10-31 18:20:00":{
+                "bankerPumping": 0.2, // 抽水比例
+                "userMaxBetChip": 10000, // 玩家最大下注限额，若不配置则不限制
+                "leftSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/bingdao.png", "displayName": "冰岛2"},
+                "rightSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/deguo.png", "displayName": "德国2" }
+            },
+            "2016-11-01 10:40:00":{
+                "bankerPumping": 0.2,
+                "userMaxBetChip": 10000,
+                "leftSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/bingdao.png", "displayName": "冰岛2"},
+                "rightSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/deguo.png", "displayName": "德国2" }
+            },
+            "2016-11-01 10:50:00":{
+                "bankerPumping": 0.2,
+                "userMaxBetChip": 10000,
+                "leftSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/bingdao.png", "displayName": "冰岛2"},
+                "rightSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/deguo.png", "displayName": "德国2" }
+            },
+            "2016-11-01 12:30:00":{
+                "bankerPumping": 0.2,
+                "leftSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/bingdao.png", "displayName": "冰岛2"},
+                "rightSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/deguo.png", "displayName": "德国2" }
+            },
+            "2016-11-01 12:50:00":{
+                "bankerPumping": 0.2,
+                "userMaxBetChip": 10000,
+                "leftSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/bingdao.png", "displayName": "冰岛2"},
+                "rightSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/deguo.png", "displayName": "德国2" }
+            },
+            "2016-11-01 14:50:00":{
+                "bankerPumping": 0.2,
+                "leftSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/bingdao.png", "displayName": "冰岛2"},
+                "rightSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/deguo.png", "displayName": "德国2" }
+            },
+            "2016-11-01 15:50:00":{
+                "bankerPumping": 0.2,
+                "leftSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/bingdao.png", "displayName": "冰岛2"},
+                "rightSide": { "avatorIcon": "${http_download}/dizhu/act/eurocup2016/imgs/deguo.png", "displayName": "德国2" }
+            }
+        },
+        "client":{
+            "backgroundUrl":"", // 主体背景图
+            "popupBackgroundUrl":"", // 弹出层的背景图
+            "recordCellBackgroundUrl":"", // 列表项的背景图
+            
+            "buttonUrlGuressTA":"", // 下注按钮图片
+            "buttonUrlBetValue1":"", // 下注额第一个按钮正常
+            "buttonUrlBetValue1Selected":"", // 下注额第一个按钮选中
+            "buttonUrlBetValue2":"",
+            "buttonUrlBetValue2Selected":"",
+            "buttonUrlBetValue3":"",
+            "buttonUrlBetValue3Selected":"",
+            
+            "tabButtonUrlAbout":"", // 竞猜规则说明按钮
+            "tabButtonUrlAboutDisabled":"", // 竞猜规则说明按钮禁用
+            "tabButtonUrlRecord":"", // 竞猜记录按钮
+            "tabButtonUrlRecordDisabled":"",// 竞猜记录按钮禁用
+            
+            "betButtonChips":[10000, 100000, 1000000], // 三个按钮对应的下注额
+            "recordCellItemWinColor":[255,244,0], // 竞猜记录文字胜利颜色
+            "recordCellItemDefaultColor":[200,200,200],// 竞猜记录文字普通颜色
+            "ruleDesc": "1.激活该基金需消耗300钻石;\n2.该基金的激活截止时间为1月6日24:00，任务截止时间为1月13日24:00;\n3.限经典/欢乐/癞子/二人场对局计入局数累计" // 竞猜规则说明
+        },
+        "server":{
+            "issueDateFormat": "%m月%d日%H:%M", // 主界面显示的期号
+            
+            "recordCellWaitingResultTip": "未开奖",
+            "recordCellResultWinTip": "猜中",
+            "recordCellResultLoseTip": "未猜中",
+            "recordCellIssueTitleFormat": "%m月%d日%H:%M \\${leftSideName}VS\\${rightSideName}",// 竞猜记录单项显示的标题
+            
+            "mail": "恭喜您获得竞猜活动奖励\\${chipNumber}金币",
+            "allIssueOutdate":"活动时间已过，下次早点来哟~",
+            "issueOutdate": "本次竞猜已经结束啦~",
+            "chipNotEnough":"下注金币不足",
+            "betChipOverflow":"下注超过本次竞猜最大额度",
+
+            // 金币不足提示文案配置
+            "lessBuyChipDesc": "[[{\"text\": \"您的金币不够啦，至少需要\", \"style\": \"labelStyle_pop_order_normal\", \"type\": \"ttf\"}, {\"text\": \"\\${betchip}\", \"font\": \"hall_button_text_special_red\", \"type\": \"bmf\"}], [{\"text\": \"推荐您购买\\${product.displayName}\", \"type\": \"ttf\"}]]",
+            "lessBuyChipNote": "[[{\"text\": \"需要花费\\${product.price}元。客服电话4008-098-000\", \"font\": \"labelStyle_pop_order_tip\", \"type\": \"ttf\"}]]",
+                                
+            // 三个按钮押注额，对应的商品查找配置
+            "payOrderMap":{
+                "10000":{                           
+                    "shelves":["lessbuychip"],
+                    "buyTypes":["direct"],
+                    "contains":{
+                        "itemId":"user:chip",
+                        "count":10000,
+                        "minCount":0,
+                        "maxCount":-1
+                    }
+                },
+                "100000":{
+                    "shelves":["lessbuychip"],
+                    "buyTypes":["direct"],
+                    "contains":{
+                        "itemId":"user:chip",
+                        "count":100000,
+                        "minCount":0,
+                        "maxCount":-1
+                    }
+                },
+                "1000000":{
+                    "shelves":["lessbuychip"],
+                    "buyTypes":["direct"],
+                    "contains":{
+                        "itemId":"user:chip",
+                        "count":1000000,
+                        "minCount":0,
+                        "maxCount":-1
+                    }
+                }
+            }
+        }
+    }
+},
+
+
+
+
+
+
+
+
+
+
+
+  "betguess"                       : {
+   "ZIPconfig"                         : {
+    "fileType"                          : "zip",
+    "versionUrl"                        : "http://raw.github.com/minggo/AssetsManagerTest/master/version",
+    "MD5"                               : "",
+    "dirName"                           : "games/activity/betguess",
+    "url"                               : "${http_download}/hall/act/complete/betguess/betguess.zip"
+   },
+   "ccbiPath"                          : "games/activity/betguess/ccbi/betguess.ccbi",
+   "ctorPath"                          : "games/activity/betguess/script/betguess.js",
+   "ver"                               : "1",
+   "ctorName"                          : "BetGuess"
+  },

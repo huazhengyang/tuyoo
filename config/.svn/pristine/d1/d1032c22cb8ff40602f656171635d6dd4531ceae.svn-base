@@ -1,0 +1,830 @@
+{
+    "dealerCare": {
+        "bOpen": 1, 
+        "rules": [
+            {
+                "bOpen": 1, 
+                "badCardFrs": 16, 
+                "badScore": 4000000, 
+                "ctPrs": [
+                    0.3, 
+                    0.3, 
+                    0.2, 
+                    0.2
+                ], 
+                "name": "牌特别差", 
+                "prl": 4, 
+                "rt": 3
+            }, 
+            {
+                "bOpen": 1, 
+                "mltBuyIn": 5, 
+                "name": "输的过多", 
+                "pr": 0.8, 
+                "prl": 3, 
+                "roomPlayers": 5, 
+                "rt": 4, 
+                "triggerFrs": 4
+            }
+        ]
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            500, 
+            50, 
+            -50
+        ], 
+        "chicken": [
+            500, 
+            50, 
+            -50
+        ], 
+        "doubleAce": [
+            500, 
+            100, 
+            100
+        ], 
+        "eggs": [
+            500, 
+            50, 
+            -50
+        ], 
+        "fishing": [
+            500, 
+            50, 
+            -50
+        ], 
+        "ring": [
+            500, 
+            100, 
+            100
+        ], 
+        "rose": [
+            500, 
+            100, 
+            100
+        ], 
+        "thumb": [
+            500, 
+            100, 
+            100
+        ]
+    }, 
+    "jackPotConf": {
+        "enable": 0
+    }, 
+    "matchConf": {
+        "addonDesc": "最大增购次数：6次\\n底注等级9-18级可以增购筹码", 
+        "addonTimes": 6, 
+        "autoEnter": 0, 
+        "betsConf": [
+            {
+                "bb": 50, 
+                "buyinTimeout": 10, 
+                "prebet": 100, 
+                "rebuy": [
+                    [
+                        200000
+                    ], 
+                    20000
+                ], 
+                "sb": 50, 
+                "timePoint": 0
+            }, 
+            {
+                "bb": 100, 
+                "buyinTimeout": 10, 
+                "prebet": 200, 
+                "rebuy": [
+                    [
+                        200000
+                    ], 
+                    20000
+                ], 
+                "sb": 100, 
+                "timePoint": 180
+            }, 
+            {
+                "bb": 200, 
+                "buyinTimeout": 10, 
+                "prebet": 400, 
+                "rebuy": [
+                    [
+                        200000
+                    ], 
+                    20000
+                ], 
+                "sb": 200, 
+                "timePoint": 360
+            }, 
+            {
+                "bb": 400, 
+                "buyinTimeout": 10, 
+                "prebet": 800, 
+                "rebuy": [
+                    [
+                        300000
+                    ], 
+                    30000
+                ], 
+                "sb": 400, 
+                "timePoint": 540
+            }, 
+            {
+                "bb": 600, 
+                "buyinTimeout": 10, 
+                "prebet": 1200, 
+                "rebuy": [
+                    [
+                        300000
+                    ], 
+                    30000
+                ], 
+                "sb": 600, 
+                "timePoint": 720
+            }, 
+            {
+                "bb": 800, 
+                "buyinTimeout": 10, 
+                "prebet": 1600, 
+                "rebuy": [
+                    [
+                        300000
+                    ], 
+                    30000
+                ], 
+                "sb": 800, 
+                "timePoint": 900
+            }, 
+            {
+                "bb": 1000, 
+                "buyinTimeout": 10, 
+                "prebet": 2000, 
+                "rebuy": [
+                    [
+                        400000
+                    ], 
+                    40000
+                ], 
+                "sb": 1000, 
+                "timePoint": 1080
+            }, 
+            {
+                "bb": 1200, 
+                "buyinTimeout": 10, 
+                "prebet": 2400, 
+                "rebuy": [
+                    [
+                        400000
+                    ], 
+                    40000
+                ], 
+                "sb": 1200, 
+                "timePoint": 1260
+            }, 
+            {
+                "addon": [
+                    [
+                        600000
+                    ], 
+                    60000
+                ], 
+                "bb": 1400, 
+                "buyinTimeout": 10, 
+                "prebet": 2800, 
+                "sb": 1400, 
+                "timePoint": 1440
+            }, 
+            {
+                "addon": [
+                    [
+                        600000
+                    ], 
+                    60000
+                ], 
+                "bb": 1600, 
+                "buyinTimeout": 10, 
+                "prebet": 3200, 
+                "sb": 1600, 
+                "timePoint": 1620
+            }, 
+            {
+                "addon": [
+                    [
+                        800000
+                    ], 
+                    90000
+                ], 
+                "bb": 1800, 
+                "buyinTimeout": 10, 
+                "prebet": 3600, 
+                "sb": 1800, 
+                "timePoint": 1800
+            }, 
+            {
+                "addon": [
+                    [
+                        800000
+                    ], 
+                    90000
+                ], 
+                "bb": 2000, 
+                "buyinTimeout": 10, 
+                "prebet": 4000, 
+                "sb": 2000, 
+                "timePoint": 1980
+            }, 
+            {
+                "addon": [
+                    [
+                        1200000
+                    ], 
+                    120000
+                ], 
+                "bb": 2500, 
+                "buyinTimeout": 10, 
+                "prebet": 5000, 
+                "sb": 2500, 
+                "timePoint": 2160
+            }, 
+            {
+                "addon": [
+                    [
+                        1200000
+                    ], 
+                    120000
+                ], 
+                "bb": 3000, 
+                "buyinTimeout": 10, 
+                "prebet": 6000, 
+                "sb": 3000, 
+                "timePoint": 2340
+            }, 
+            {
+                "addon": [
+                    [
+                        1200000
+                    ], 
+                    120000
+                ], 
+                "bb": 3500, 
+                "buyinTimeout": 10, 
+                "prebet": 7000, 
+                "sb": 3500, 
+                "timePoint": 2520
+            }, 
+            {
+                "addon": [
+                    [
+                        1400000
+                    ], 
+                    140000
+                ], 
+                "bb": 4000, 
+                "buyinTimeout": 10, 
+                "prebet": 8000, 
+                "sb": 4000, 
+                "timePoint": 2700
+            }, 
+            {
+                "addon": [
+                    [
+                        1400000
+                    ], 
+                    140000
+                ], 
+                "bb": 5000, 
+                "buyinTimeout": 10, 
+                "prebet": 10000, 
+                "sb": 5000, 
+                "timePoint": 2880
+            }, 
+            {
+                "addon": [
+                    [
+                        1400000
+                    ], 
+                    140000
+                ], 
+                "bb": 6000, 
+                "buyinTimeout": 10, 
+                "prebet": 12000, 
+                "sb": 6000, 
+                "timePoint": 3060
+            }, 
+            {
+                "bb": 7000, 
+                "prebet": 14000, 
+                "sb": 7000, 
+                "timePoint": 3240
+            }, 
+            {
+                "bb": 8000, 
+                "prebet": 16000, 
+                "sb": 8000, 
+                "timePoint": 3420
+            }, 
+            {
+                "bb": 9000, 
+                "prebet": 18000, 
+                "sb": 9000, 
+                "timePoint": 3600
+            }, 
+            {
+                "bb": 10000, 
+                "prebet": 20000, 
+                "sb": 10000, 
+                "timePoint": 3780
+            }, 
+            {
+                "bb": 15000, 
+                "prebet": 30000, 
+                "sb": 15000, 
+                "timePoint": 3960
+            }, 
+            {
+                "bb": 20000, 
+                "prebet": 40000, 
+                "sb": 20000, 
+                "timePoint": 4140
+            }, 
+            {
+                "bb": 30000, 
+                "prebet": 60000, 
+                "sb": 30000, 
+                "timePoint": 4320
+            }, 
+            {
+                "bb": 40000, 
+                "prebet": 80000, 
+                "sb": 40000, 
+                "timePoint": 4500
+            }, 
+            {
+                "bb": 50000, 
+                "prebet": 100000, 
+                "sb": 50000, 
+                "timePoint": 4680
+            }, 
+            {
+                "bb": 60000, 
+                "prebet": 120000, 
+                "sb": 60000, 
+                "timePoint": 4860
+            }, 
+            {
+                "bb": 80000, 
+                "prebet": 160000, 
+                "sb": 80000, 
+                "timePoint": 5040
+            }, 
+            {
+                "bb": 100000, 
+                "prebet": 200000, 
+                "sb": 100000, 
+                "timePoint": 5220
+            }, 
+            {
+                "bb": 120000, 
+                "prebet": 240000, 
+                "sb": 120000, 
+                "timePoint": 5400
+            }, 
+            {
+                "bb": 150000, 
+                "prebet": 300000, 
+                "sb": 150000, 
+                "timePoint": 5580
+            }, 
+            {
+                "bb": 200000, 
+                "prebet": 400000, 
+                "sb": 200000, 
+                "timePoint": 5760
+            }, 
+            {
+                "bb": 400000, 
+                "prebet": 800000, 
+                "sb": 400000, 
+                "timePoint": 5940
+            }
+        ], 
+        "championLed": 1, 
+        "costUrl": "${http_download}/t3card/images/mtt/ticket_default.png", 
+        "delaySignInDes": "底注等级2级前可延迟报名", 
+        "delaySigninBlindBetPoint": 2, 
+        "iosAuditVisible": 0, 
+        "matchSpeed": "fast", 
+        "matchUrl": "${http_download}/t3card/images/mtt/20170322_5000yuan1.png", 
+        "match_id": "mtt_chip_6000w_yuandan", 
+        "nameColor": [
+            255, 
+            210, 
+            35
+        ], 
+        "openTime": {
+            "closed": 0
+        }, 
+        "openTimeDesc": [
+            "", 
+            "大约1小时"
+        ], 
+        "previewCfg": {
+            "bVisible": 1, 
+            "repeat": 10, 
+            "rewardValue": 6000, 
+            "tags": [
+                "all", 
+                "big", 
+                "it", 
+                "share", 
+                "peakedness_great_master"
+            ], 
+            "weight": 10
+        }, 
+        "rank": [
+            {
+                "rank": [
+                    1
+                ], 
+                "rankdesc": "1", 
+                "reward": {
+                    "chip": 5000000, 
+                    "coupon": 0, 
+                    "masterScore": 151, 
+                    "mttScore": 110, 
+                    "prop": [
+                        [
+                            4233, 
+                            2
+                        ], 
+                        [
+                            3094, 
+                            1
+                        ]
+                    ]
+                }, 
+                "rewarddesc": "500万金币+200元京东卡+IPAD大奖赛门票+151金花分"
+            }, 
+            {
+                "rank": [
+                    2
+                ], 
+                "rankdesc": "2", 
+                "reward": {
+                    "chip": 3000000, 
+                    "coupon": 0, 
+                    "masterScore": 151, 
+                    "mttScore": 75, 
+                    "prop": [
+                        [
+                            4233, 
+                            1
+                        ], 
+                        [
+                            4232, 
+                            1
+                        ], 
+                        [
+                            3094, 
+                            1
+                        ]
+                    ]
+                }, 
+                "rewarddesc": "300万金币+150元京东卡+IPAD大奖赛门票+151金花分"
+            }, 
+            {
+                "rank": [
+                    3
+                ], 
+                "rankdesc": "3", 
+                "reward": {
+                    "chip": 2000000, 
+                    "coupon": 0, 
+                    "masterScore": 150, 
+                    "mttScore": 50, 
+                    "prop": [
+                        [
+                            4233, 
+                            1
+                        ], 
+                        [
+                            3094, 
+                            1
+                        ]
+                    ]
+                }, 
+                "rewarddesc": "200万金币+100元京东卡+IPAD大奖赛门票+150金花分"
+            }, 
+            {
+                "rank": [
+                    4
+                ], 
+                "rankdesc": "4", 
+                "reward": {
+                    "chip": 1500000, 
+                    "coupon": 8000, 
+                    "masterScore": 123, 
+                    "mttScore": 39
+                }, 
+                "rewarddesc": "150万金币+80.00红包券+123金花分"
+            }, 
+            {
+                "rank": [
+                    5
+                ], 
+                "rankdesc": "5", 
+                "reward": {
+                    "chip": 1000000, 
+                    "coupon": 7000, 
+                    "masterScore": 103, 
+                    "mttScore": 31
+                }, 
+                "rewarddesc": "100万金币+70.00红包券+103金花分"
+            }, 
+            {
+                "rank": [
+                    6
+                ], 
+                "rankdesc": "6", 
+                "reward": {
+                    "chip": 750000, 
+                    "coupon": 5000, 
+                    "masterScore": 93, 
+                    "mttScore": 23
+                }, 
+                "rewarddesc": "75万金币+50.00红包券+93金花分"
+            }, 
+            {
+                "rank": [
+                    7
+                ], 
+                "rankdesc": "7", 
+                "reward": {
+                    "chip": 600000, 
+                    "coupon": 4000, 
+                    "masterScore": 88, 
+                    "mttScore": 18
+                }, 
+                "rewarddesc": "60万金币+40.00红包券+88金花分"
+            }, 
+            {
+                "rank": [
+                    8
+                ], 
+                "rankdesc": "8", 
+                "reward": {
+                    "chip": 500000, 
+                    "coupon": 3500, 
+                    "masterScore": 86, 
+                    "mttScore": 16
+                }, 
+                "rewarddesc": "50万金币+35.00红包券+86金花分"
+            }, 
+            {
+                "rank": [
+                    9
+                ], 
+                "rankdesc": "9", 
+                "reward": {
+                    "chip": 400000, 
+                    "coupon": 3000, 
+                    "masterScore": 83, 
+                    "mttScore": 13
+                }, 
+                "rewarddesc": "40万金币+30.00红包券+83金花分"
+            }, 
+            {
+                "rank": [
+                    10, 
+                    12
+                ], 
+                "rankdesc": "10~12", 
+                "reward": {
+                    "chip": 700000, 
+                    "coupon": 1500, 
+                    "masterScore": 82, 
+                    "mttScore": 12
+                }, 
+                "rewarddesc": "70万金币+15.00红包券+82金花分"
+            }, 
+            {
+                "rank": [
+                    13, 
+                    15
+                ], 
+                "rankdesc": "13~15", 
+                "reward": {
+                    "chip": 600000, 
+                    "coupon": 1000, 
+                    "masterScore": 74, 
+                    "mttScore": 9
+                }, 
+                "rewarddesc": "60万金币+10.00红包券+74金花分"
+            }, 
+            {
+                "rank": [
+                    16, 
+                    18
+                ], 
+                "rankdesc": "16~18", 
+                "reward": {
+                    "chip": 500000, 
+                    "coupon": 500, 
+                    "masterScore": 69, 
+                    "mttScore": 7
+                }, 
+                "rewarddesc": "50万金币+5.00红包券+69金花分"
+            }, 
+            {
+                "rank": [
+                    19, 
+                    21
+                ], 
+                "rankdesc": "19~21", 
+                "reward": {
+                    "chip": 400000, 
+                    "coupon": 0, 
+                    "masterScore": 47, 
+                    "mttScore": 4
+                }, 
+                "rewarddesc": "40万金币+47金花分"
+            }, 
+            {
+                "rank": [
+                    22, 
+                    24
+                ], 
+                "rankdesc": "22~24", 
+                "reward": {
+                    "chip": 300000, 
+                    "coupon": 0, 
+                    "masterScore": 43, 
+                    "mttScore": 3
+                }, 
+                "rewarddesc": "30万金币+43金花分"
+            }, 
+            {
+                "rank": [
+                    25, 
+                    27
+                ], 
+                "rankdesc": "25~27", 
+                "reward": {
+                    "chip": 250000, 
+                    "coupon": 0, 
+                    "masterScore": 41, 
+                    "mttScore": 3
+                }, 
+                "rewarddesc": "25万金币+41金花分"
+            }, 
+            {
+                "rank": [
+                    28, 
+                    30
+                ], 
+                "rankdesc": "28~30", 
+                "reward": {
+                    "chip": 200000, 
+                    "coupon": 0, 
+                    "masterScore": 40, 
+                    "mttScore": 2
+                }, 
+                "rewarddesc": "20万金币+40金花分"
+            }, 
+            {
+                "rank": [
+                    31, 
+                    36
+                ], 
+                "rankdesc": "31~36", 
+                "reward": {
+                    "chip": 180000, 
+                    "coupon": 0, 
+                    "masterScore": 38, 
+                    "mttScore": 2
+                }, 
+                "rewarddesc": "18万金币+38金花分"
+            }, 
+            {
+                "rank": [
+                    37, 
+                    42
+                ], 
+                "rankdesc": "37~42", 
+                "reward": {
+                    "chip": 160000, 
+                    "coupon": 0, 
+                    "masterScore": 36, 
+                    "mttScore": 2
+                }, 
+                "rewarddesc": "16万金币+36金花分"
+            }, 
+            {
+                "rank": [
+                    43, 
+                    48
+                ], 
+                "rankdesc": "43~48", 
+                "reward": {
+                    "chip": 140000, 
+                    "coupon": 0, 
+                    "masterScore": 34, 
+                    "mttScore": 1
+                }, 
+                "rewarddesc": "14万金币+34金花分"
+            }, 
+            {
+                "rank": [
+                    49, 
+                    54
+                ], 
+                "rankdesc": "49~54", 
+                "reward": {
+                    "chip": 120000, 
+                    "coupon": 0, 
+                    "masterScore": 32, 
+                    "mttScore": 1
+                }, 
+                "rewarddesc": "12万金币+32金花分"
+            }
+        ], 
+        "rebuyDesc": "最大重购次数：5次\\n底注等级1-8级可以重购筹码", 
+        "rebuyTimes": 5, 
+        "resultExpire": "43200.0", 
+        "ruleTitle": "帮助", 
+        "signinDesc": "1张5000元京东卡红包赛门票或20万金币", 
+        "signinFee": "_or(prop(3075,1),chip(200000))", 
+        "signinRequire": {
+            "cond": "", 
+            "desc": "无"
+        }, 
+        "sortId": 1, 
+        "startMatchPlayersN": 18, 
+        "startTimes": {
+            "days": {
+                "count": 100, 
+                "first": "", 
+                "interval": "1d"
+            }, 
+            "times_in_day": {
+                "list": [
+                    "21:30"
+                ]
+            }
+        }, 
+        "tag": "hot", 
+        "tags": [
+            "peakedness_great_master"
+        ], 
+        "topTime": {
+            "top_begin_day": "20170101", 
+            "top_begin_time": "19:30", 
+            "top_end_day": "20180108", 
+            "top_end_time": "21:10", 
+            "top_week": "7"
+        }, 
+        "totalReward": "4000万金币+1000.00红包券", 
+        "visible": 1
+    }, 
+    "maxCoin": 0, 
+    "maxCoinQS": 0, 
+    "minCoin": 0, 
+    "minCoinQS": 0, 
+    "minTriggerLen": 2, 
+    "n_recycle": 4, 
+    "name": "5000元奖池京东卡红包赛", 
+    "playMode": "classic", 
+    "roomID": 30236, 
+    "tableConf": {
+        "bb": 100, 
+        "better_card": 1, 
+        "big_pot": 0, 
+        "buyin": 20000, 
+        "chat_require_vip_level": 10, 
+        "commission": 0.0, 
+        "fee": 0, 
+        "flip_card_game": {
+            "bet": 0, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "maxHandCount": 20, 
+        "maxSeatN": 6, 
+        "min_players": 2, 
+        "optime": 11, 
+        "pay_factor": 1.0, 
+        "pkHandCount": 5, 
+        "raise_times": [
+            2, 
+            4, 
+            8
+        ], 
+        "sb": 100, 
+        "seeCardHandCount": 0, 
+        "start_card": 2, 
+        "tname": "5000元奖池京东卡红包赛"
+    }, 
+    "triggerLen": 6, 
+    "typeName": "mtt"
+}

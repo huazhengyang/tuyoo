@@ -1,0 +1,32 @@
+{
+ "templates"                               : {
+  "xuezhan_v3.901_AI_xuezhanhuodong"  : {
+   "desc"                                    : "血战活动",
+   "activities"                              : [
+    "juyou_xuezhan_bugzjgg"
+   ]
+  }
+ },
+ "activities"                              : {
+  "juyou_xuezhan_bugzjgg"                        : {
+   "id"                                      : "juyou_xuezhan_bugzjgg",
+   "des"                                     : "建议征集活动公告",
+   "moduleId"                                : "general_btn",
+   "typeid"                                  : 1,
+   "name"                                    : "游戏建议征集",
+   "server_config"                           : {
+    "start"                                   : "2017-04-11 00:00:00",
+    "end"                                     : "2018-04-05 00:00:00"
+   },
+   "config"                                  : {
+    "button"                                  : {
+     "visible"                                 : "true",
+     "todoTask"                                : "",
+     "URL"                                     : ""
+    },
+    "bgURL"                                   : "${http_download}/hubei/ads/guangaoduan1.jpg"
+   }
+  }
+ },
+ "modules"                                 : { }
+}

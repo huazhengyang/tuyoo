@@ -1,0 +1,173 @@
+{
+    "6": [
+        {
+            "name": "checkin",
+            "button": "去签到",
+            "tips": "亲~您今天还没有签到，赶紧去领取签到奖励吧！",
+            "conditions": [
+                {
+                    "typeId": "user.cond.NotCheckInToday"
+                }
+            ],
+            "todotasks" : [
+                {"typeId":"hall.goto.checkin"}
+            ]
+        },
+        {
+            "name": "match",
+            "button": "去房间",
+            "tips": "亲~我会想你的，记得明天再来哦~",
+            "conditions": [],
+            "todotasks" : [
+                {"gameId": 6, "typeId": "hall.goto.enter.game", "enter_param": {"type": "roomlist", "pluginParams": {"gameType": 1}}}
+            ]
+        }
+    ],
+    "7": [
+         {
+            "name": "match",
+            "button": "去比赛",
+            "tips": "亲~比赛马上开始，快去赢取红包券金币大奖吧！",
+            "conditions": [
+                {
+                    "list": [
+                        {
+                            "typeId": "user.cond.clientVersion",
+                            "minVersion": 3.90,
+                            "maxVersion": 5.0
+                        },
+                        {
+                            "typeId": "user.cond.newuser"
+                        }
+
+                    ],
+                    "typeId": "user.cond.and"
+                }
+            ],
+            "todotasks" : [
+                {"gameId": 700, "typeId": "hall.goto.enter.game", "enter_param": {"type": "roomlist", "pluginParams": {"playMode":"guobiao", "gameType": 5}}}
+            ]
+        },
+        {
+            "name": "coin",
+            "button": "去房间",
+            "tips": "亲~真的要走么？高级场有玩家在叫嚣，再去赢他几局！",
+            "conditions": [
+                {
+                    "list": [
+                        {
+                            "typeId": "user.cond.clientVersion",
+                            "minVersion": 3.90,
+                            "maxVersion": 5.0
+                        },{
+                            "typeId": "user.cond.registerDays",
+                            "startDays": 7,
+                            "stopDays": -1
+                        }
+                    ],
+                    "typeId": "user.cond.and"
+                }
+            ],
+            "todotasks" : [
+                {"gameId": 700, "typeId": "hall.goto.enter.game", "enter_param": {"type": "roomlist", "pluginParams": {"playMode":"guobiao", "gameType": 1}}}
+            ]
+        }
+    ],
+    "701": [
+        {
+            "name": "match",
+            "button": "去比赛",
+            "tips": "亲~比赛马上开始，快去赢取红包券金币大奖吧！",
+            "conditions": [
+                {
+                    "list": [
+                        {
+                            "typeId": "user.cond.clientVersion",
+                            "minVersion": 3.90,
+                            "maxVersion": 5.0
+                        },
+                        {
+                            "typeId": "user.cond.newuser"
+                        }                      
+                    ],
+                    "typeId": "user.cond.and"
+                }
+            ],
+            "todotasks" : [
+                {"gameId": 701, "typeId": "hall.goto.enter.game", "enter_param": {"type": "roomlist", "pluginParams": {"playMode":"xueliu", "gameType": 5}}}
+            ]
+        },
+        {
+            "name": "coin",
+            "button": "去房间",
+            "tips": "亲~真的要走么？高级场有玩家在叫嚣，再去赢他几局！",
+            "conditions": [
+                {
+                    "list": [
+                        {
+                            "typeId": "user.cond.clientVersion",
+                            "minVersion": 3.90,
+                            "maxVersion": 5.0
+                        },{
+                            "typeId": "user.cond.registerDays",
+                            "startDays": 7,
+                            "stopDays": -1
+                        }                      
+                    ],
+                    "typeId": "user.cond.and"
+                }
+            ],
+            "todotasks" : [
+                {"gameId": 701, "typeId": "hall.goto.enter.game", "enter_param": {"type": "roomlist", "pluginParams": {"playMode":"xueliu", "gameType": 1}}}
+            ]
+        }
+    ],
+	"3": [
+        {
+            "name": "checkin",
+            "button": "去签到",
+            "tips": "亲~您今天还没有签到，赶紧去领取签到奖励吧！",
+            "conditions": [
+                {
+                    "typeId": "user.cond.NotCheckInToday"
+                }
+            ],
+            "todotasks" : [
+                {"typeId":"hall.goto.checkin"}
+            ]
+        },
+        {
+            "name": "match",
+            "button": "去比赛",
+            "tips": "亲~我会想你的，记得明天再来哦~",
+            "conditions": [],
+            "todotasks" : [
+				{"gameId": 3, "typeId": "hall.goto.enter.game", "enter_param": {"type": "roomlist", "pluginParams": {"gameType":"chess_match"}}}
+            ]
+        }
+    ],
+	"25": [
+        {
+            "name": "checkin",
+            "button": "去签到",
+            "tips": "亲~您今天还没有签到，赶紧去领取签到奖励吧！",
+            "conditions": [
+                {
+                    "typeId": "user.cond.NotCheckInToday"
+                }
+            ],
+            "todotasks" : [
+                {"typeId":"hall.goto.checkin"}
+            ]
+        },
+        {
+            "name": "game",
+            "button": "再玩会儿",
+            "tips": "亲~我会想你的，记得明天再来哦~",
+            "conditions": [],
+            "todotasks" : [
+				{"gameId": 25, "typeId": "hall.goto.enter.game", "enter_param": {"type": "roomlist", "pluginParams": {"gameType":"junqi_sian"}}}
+            ]
+        }
+    ]
+}

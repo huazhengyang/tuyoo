@@ -1,0 +1,99 @@
+1. 每日领奖 day_login_reward
+c->s :
+{
+    "cmd":"game",
+    "params":{
+        "action":"day_login_reward",
+        "gameId":6,
+        "userId":10001,
+        "clientId":"H5_5.1_weixin.weixin.0-hall6.weixin.rich",
+    }
+}
+
+s->c :
+{
+	"cmd":"game",
+	"result":{
+		"action":"day_login_reward",
+        "gameId":6,
+        "userId":10001,
+		"count":1,			# 领取钻石数量，0代表失败
+		"msg":""			# 领取成功活失败提示消息
+		}
+}
+
+
+2.新手保护
+
+newUserProtect
+{
+	'cmd': 'room',
+	'result': {
+		'action': 'wait',
+		'gameId': 6,
+		'roomId': 67891000,
+		'newUserProtect': [-1,3]  # 新手保护次数，-1代表已不是新手，没有新手保护次数，其他值代表剩余新手保护次数
+		...
+	}
+}
+
+3. 战绩  get_ft_table_record
+c->s :
+{
+　　"clientId":"XXX",
+　　"cmd":"dizhu",
+　　"params":{
+　　　　"action":"get_ft_table_record",
+　　　　"gameId":6,
+　　　　"userId":10001,
+　　　　"clientId":"XXX"
+　　}
+}
+
+s->c :
+{
+　　"cmd":"dizhu",
+　　"result":{
+　　　　"action":"get_ft_table_record",
+　　　　"records":[
+　　　　　　{
+　　　　　　　　"ftId":"237764",
+　　　　　　　　"totalRound":8,
+　　　　　　　　"curRound":2,
+			 "curSeatId":1,
+　　　　　　　　"results":[
+            	{
+                "base":1,
+                "winloses":[
+                    {
+                        "delta":24,
+                        "multi":24,
+                        "score":24,
+                        "isDizhu":true,
+                        "nickname":"xiaohui_O4NH",
+                        "avatar":"https://wx.qlogo.cn/mmopen/vi_32/WoSNlKa0o3gicUT6AiaGTuUCkAjGicLiaWW1UiatibMRK82LRvqFDbMZNicaX1S7UVbgMrMPQhJ2GKmPIPOXuwsssicBTQ/0"
+                    },
+                    {
+                        "delta":-12,
+                        "multi":12,
+                        "score":-12,
+                        "isDizhu":false,
+                        "nickname":"许昕妍",
+                        "avatar":"https://wx.qlogo.cn/mmopen/vi_32/Iib2TzuAe71OQg7x3WH8Ws9gicnicwWAha7GBVKcwCMSbPbtbiaF290icpJlq2zRef0Rfib36icWxln7nqicvy2Fb2wPMw/0"
+                    },
+                    {
+                        "delta":-12,
+                        "multi":12,
+                        "score":-12,
+                        "isDizhu":false,
+                        "nickname":"Jason",
+                        "avatar":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLBia25PUps4TdIFricvk0lx9Gm8UD6k1nHgMdfFichKkWwWib8QT1E0tm8zA0kvS4kVVW6Xc588oobtQ/0"
+                    }
+                ]
+            	}
+        	],
+　　　　　　　　"time":"2018-03-21 17:19"
+　　　　　　}
+　　　　]
+　　}
+}

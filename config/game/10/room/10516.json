@@ -1,0 +1,318 @@
+{
+    "minCoin": 1,
+    "minCoinQS": 1,
+    "maxCoin": -1,
+    "maxCoinQS": -1,
+    "fullNum": 2,
+    "no.": 11,
+    "new": 0,
+    "baseBets": [500,1000,1500,2000,2500,3000,3500,4000,4500,5000,6000,7000,8000,9000,10000,15000,20000,25000,30000,35000,40000,45000,50000,60000,70000,80000,90000,100000,150000,200000,300000,500000],
+    "baseBetIncrTimevalMinute": 3,
+    "baseBetNotifySecond": 30,
+    "signinFee": ["chip",0],
+    "initTChip": 10000,
+    "minTChipRate": 2,
+    "rewards": [
+        {"start": 1, "end": 1, "reward": [{"itemId":"item:2046", "count":1}], "desc": "1元微信红包"},
+        {"start": 2, "end": 2, "reward": [{"itemId":"user:chip", "count":12000}], "desc": "12000金币"},
+        {"start": 3, "end": 3, "reward": [{"itemId":"user:chip", "count":10000}], "desc": "10000金币"},
+        {"start": 4, "end": 4, "reward": [{"itemId":"user:chip", "count":8000}], "desc": "8000金币"},
+        {"start": 5, "end": 5, "reward": [{"itemId":"user:chip", "count":6000}], "desc": "6000金币"},
+		{"start": 6, "end": 6, "reward": [{"itemId":"user:chip", "count":5000}], "desc": "5000金币"},
+        {"start": 7, "end": 7, "reward": [{"itemId":"user:chip", "count":4500}], "desc": "4500金币"},
+        {"start": 8, "end": 8, "reward": [{"itemId":"user:chip", "count":4000}], "desc": "4000金币"},
+        {"start": 9, "end": 9, "reward": [{"itemId":"user:chip", "count":3600}], "desc": "3600金币"},
+        {"start": 10, "end": 12, "reward": [{"itemId":"user:chip", "count":3200}], "desc": "3200金币"},
+        {"start": 13, "end": 15, "reward": [{"itemId":"user:chip", "count":2800}], "desc": "2800金币"},
+        {"start": 16, "end": 18, "reward": [{"itemId":"user:chip", "count":2000}], "desc": "2000金币"},
+        {"start": 19, "end": 24, "reward": [{"itemId":"user:chip", "count":1500}], "desc": "1500金币"}
+    ],
+    "matchRule": [
+        ["比赛时长:", "无限制"],
+        ["初始积分:", "10000"],
+        ["基数增长:", "500/1000/1500/2000/2500/3000/3500/4000/4500/5000/6000/7000/8000/9000/10000/15000/20000/25000/30000/35000/40000/45000/50000/60000/70000/80000/90000/100000/150000/200000/300000/500000"],
+        ["淘汰规则:", "桌面积分小于2倍基数"]
+    ],
+    "daojuScale": 10,
+    "name": "免费实时微信红包赛",
+    "leftTip": "免费",
+    "rightTip": "16:40",
+    "invalidHourRange": [0, 7],
+	"matchConf": {
+        "addonDesc": "底分等级5-13级可增购6次", 
+        "addonTimes": 6, 
+        "autoEnter": 0, 
+        "championLed": 1, 
+        "costUrl": "${http_download}/t3card/images/mtt/ticket_coin.png", 
+        "delaySignInDes": "3分钟内可延迟报名", 
+        "delaySigninBlindBetPoint": 5, 
+        "iosAuditVisible": 0, 
+        "matchSpeed": "superfast", 
+        "matchUrl": "${http_download}/t3card/images/mtt/20170322_10yuan1.png", 
+        "match_id": "mtt_free_10yuan", 
+        "nameColor": [
+            255, 
+            210, 
+            35
+        ], 
+        "openTime": {
+            "closed": 0
+        }, 
+        "openTimeDesc": [
+            "", 
+            "大约1小时"
+        ], 
+        "rank": [
+            {
+                "rank": [
+                    1
+                ], 
+                "rankdesc": "1", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0
+                }, 
+                "rewarddesc": "1元微信红包"
+            }, 
+            {
+                "rank": [
+                    2
+                ], 
+                "rankdesc": "2", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0 
+                    
+                }, 
+                "rewarddesc": "12000金币"
+            }, 
+            {
+                "rank": [
+                    3
+                ], 
+                "rankdesc": "3", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0 
+                    
+                }, 
+                "rewarddesc": "10000金币"
+            }, 
+			{
+                "rank": [
+                    4
+                ], 
+                "rankdesc": "4", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0 
+                    
+                }, 
+                "rewarddesc": "8000金币"
+            },
+			{
+                "rank": [
+                    5
+                ], 
+                "rankdesc": "5", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0 
+                    
+                }, 
+                "rewarddesc": "6000金币"
+            },
+			{
+                "rank": [
+                    6
+                ], 
+                "rankdesc": "6", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0 
+                    
+                }, 
+                "rewarddesc": "5000金币"
+            },
+			{
+                "rank": [
+                    7
+                ], 
+                "rankdesc": "7", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0 
+                    
+                }, 
+                "rewarddesc": "4500金币"
+            },
+			{
+                "rank": [
+                    8
+                ], 
+                "rankdesc": "8", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0 
+                    
+                }, 
+                "rewarddesc": "4000金币"
+            },
+			{
+                "rank": [
+                    9
+                ], 
+                "rankdesc": "9", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0 
+                    
+                }, 
+                "rewarddesc": "3600金币"
+            },
+            {
+                "rank": [
+                    10, 
+                    12
+                ], 
+                "rankdesc": "10~12", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0
+                }, 
+                "rewarddesc": "3200金币"
+            }, 
+			{
+                "rank": [
+                    13, 
+                    15
+                ], 
+                "rankdesc": "13~15", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0
+                }, 
+                "rewarddesc": "2800金币"
+            },  
+			{
+                "rank": [
+                    16, 
+                    18
+                ], 
+                "rankdesc": "16~18", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0
+                }, 
+                "rewarddesc": "2000金币"
+            },  
+			{
+                "rank": [
+                    19, 
+                    24
+                ], 
+                "rankdesc": "19~24", 
+                "reward": {
+                    "chip": 0, 
+                    "coupon": 0, 
+                    "masterScore": 0, 
+                    "mttScore": 0
+                }, 
+                "rewarddesc": "1500金币"
+            }
+        ], 
+        "rebuyDesc": "底分等级1-4级可重购8次", 
+        "rebuyTimes": 8, 
+        "resultExpire": "43200.0", 
+        "signinDesc": "免费报名", 
+        "signinFee": "0", 
+        "signinRequire": {
+            "cond": "", 
+            "desc": "无"
+        }, 
+        "startMatchPlayersN": 2, 
+        "startTimes": {
+            "days": {
+                "count": 100, 
+                "first": "", 
+                "interval": "1d"
+            }, 
+            "times_in_day": {
+                "list":[
+				"10:20",
+				"13:20",
+				"16:20",
+				"17:50",
+				"19:20",
+				"20:50",
+				"22:20",
+				"23:50"
+				]
+            }
+        }, 
+        "tags": [
+            "all",
+			"free"
+        ], 
+        "totalReward": "10万金币", 
+        "visible": 1
+    }, 
+    "hasrobot": 0,
+    "tableConf": {
+        "maxSeatN": 5,
+		"tname": "免费实时微信红包赛"
+    },
+    "playMode": 5,
+    "roomType": 2,
+    "matchKindId": 1,
+    "beginTime": [0, 0],
+    "notifyTime": 30,
+    "presetTime": 180,
+    "bufferTime": 180,
+    "mttBuyin": {
+        "rebuy": [
+            {"price": 500, "added": 10000, "type": 0},
+			{"price": 500, "added": 10000, "type": 0},
+            {"price": 1000, "added": 20000, "type": 0},
+            {"price": 1000, "added": 20000, "type": 0}
+        ],
+        "rebuyCount": 8,
+        "addon": [
+            {"price": 2000, "added": 60000, "type": 1},
+			{"price": 2000, "added": 60000, "type": 1},
+			{"price": 2000, "added": 60000, "type": 1},
+			{"price": 3000, "added": 100000, "type": 1},
+			{"price": 3000, "added": 100000, "type": 1},
+			{"price": 3000, "added": 100000, "type": 1},
+			{"price": 4000, "added": 160000, "type": 1},
+			{"price": 4000, "added": 160000, "type": 1},
+			{"price": 4000, "added": 160000, "type": 1}
+        ],
+        "addonCount": 6
+    },
+    "typeName": "dnMTT"
+}

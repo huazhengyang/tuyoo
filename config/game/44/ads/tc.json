@@ -1,0 +1,34 @@
+{
+ "templates"                       : {
+  "newfish_v4.55_AI_examination_ads": {
+   "interval"                        : 5,
+   "name"                            : "newfish_v4.55_AI_examination_ads",
+   "ads"                             : [
+    44082501
+   ]
+  },
+  "newfish_v4.55_AI_first_test"     : {
+   "interval"                        : 5,
+   "name"                            : "newfish_v4.55_AI_first_test",
+   "ads"                             : [
+    44110601
+   ]
+  }
+ },
+ "ads"                             : [
+  {
+   "startTime"                       : "2017-08-25 00:00:00",
+   "id"                              : 44082501,
+   "clickable"                       : 0,
+   "pic"                             : "${http_download}/newfish/newfish_hall_images/ads/ads_warningfortuyoogaming.png",
+   "endTime"                         : "2019-12-17 00:00:00"
+  },
+  {
+   "startTime"                       : "2017-11-06 00:00:00",
+   "id"                              : 44110601,
+   "clickable"                       : 0,
+   "pic"                             : "${http_download}/newfish/newfish_hall_images/ads/newfish_20171106_examination_ads.jpg",
+   "endTime"                         : "2019-04-30 00:00:00"
+  }
+ ]
+}

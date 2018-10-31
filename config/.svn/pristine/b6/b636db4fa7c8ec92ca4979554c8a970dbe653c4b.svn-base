@@ -1,0 +1,42 @@
+{
+  "firework_config" : {
+         "160011001":{
+            "price":100000,
+            "count":[1, 5, 10],
+            "basefee":[21888, 155200, 328200],
+            "reward":[
+                [
+                    {"chip":10000, "number":1},
+                    {"chip":688, "number":99}
+                ],
+                [
+                    {"chip":38888, "number":1},
+                    {"chip":2888, "number":99}
+                ],
+                [
+                    {"chip":88888, "number":1},
+                    {"chip":5888, "number":99}
+                ]
+            ]
+        },
+        "160021001":{
+            "price":100000,
+            "count":[1, 5, 10],
+            "basefee":[21888, 155200, 328200],
+            "reward":[
+                [
+                    {"chip":10000, "number":1},
+                    {"chip":688, "number":99}
+                ],
+                [
+                    {"chip":38888, "number":1},
+                    {"chip":2888, "number":99}
+                ],
+                [
+                    {"chip":88888, "number":1},
+                    {"chip":5888, "number":99}
+                ]
+            ]
+        }     
+    }
+}

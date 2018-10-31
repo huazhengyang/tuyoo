@@ -1,0 +1,90 @@
+{
+  "winStreakRewardSwitch": 0,
+  "matchRewardSwitch": 0,
+  "shareFakeSwitch": 0,
+  "burialIdList": [
+    {
+      "burialId": "invite",
+      "shareOrVideo": [
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": -1
+              },
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t"
+                ]
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "video"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": -1
+              },
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t"
+                ]
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": -1
+              },
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t"
+                ]
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        }
+      ]
+    }
+  ]
+}

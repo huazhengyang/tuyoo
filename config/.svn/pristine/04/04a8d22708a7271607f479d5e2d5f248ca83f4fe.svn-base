@@ -1,0 +1,238 @@
+{
+    "room_items": {
+        "fc10": {
+            "id": 7001,
+            "name": "新手场",
+            "least": 400,
+            "entry": "底注25金币",
+            "config": 0,
+            "condition": "400~15000金币准入"
+        },
+        "fc20": {
+            "id": 7002,
+            "name": "中级场",
+            "least": 2000,
+            "entry": "底注150金币",
+            "config": 0,
+            "condition": "2000~45000金币准入"
+        },
+        "fc30": {
+            "id": 7003,
+            "name": "高级场",
+            "least": 10000,
+            "entry": "底注600金币",
+            "config": 0,
+            "condition": "大于1万金币准入"
+        },
+        "fc40": {
+            "id": 7004,
+            "name": "大师场",
+            "least": 30000,
+            "entry": "底注3000金币",
+            "config": 0,
+            "condition": "大于3万金币准入"
+        },
+        "gb10": {
+            "id": 7101,
+            "name": "新手场",
+            "least": 400,
+            "entry": "底注20金币",
+            "config": 0,
+            "condition": "400~12000金币准入"
+        },
+        "gb20": {
+            "id": 7102,
+            "name": "中级场",
+            "least": 2000,
+            "entry": "底注100金币",
+            "config": 0,
+            "condition": "2000~45000金币准入"
+        },
+        "gb30": {
+            "id": 7103,
+            "name": "高级场",
+            "least": 10000,
+            "entry": "底注500金币",
+            "config": 0,
+            "condition": "大于1万金币准入"
+        },
+        "gb40": {
+            "id": 7104,
+            "name": "大师场",
+            "least": 50000,
+            "entry": "底注3000金币",
+            "config": 0,
+            "condition": "大于5万金币准入"
+        },
+        "sc10": {
+            "id": 7401,
+            "name": "新手场",
+            "least": 400,
+            "entry": "底注20金币",
+            "config": 0,
+            "condition": "400~12000金币准入"
+        },
+        "sc20": {
+            "id": 7402,
+            "name": "中级场",
+            "least": 2000,
+            "entry": "底注150金币",
+            "config": 0,
+            "condition": "2000~45000金币准入"
+        },
+        "sc30": {
+            "id": 7403,
+            "name": "高级场",
+            "least": 10000,
+            "entry": "底注600金币",
+            "config": 0,
+            "condition": "大于1万金币准入"
+        },
+        "sc40": {
+            "id": 7404,
+            "name": "大师场",
+            "least": 30000,
+            "entry": "底注3000金币",
+            "config": 0,
+            "condition": "大于3万金币准入"
+        },
+        "er10": {
+            "id": 7601,
+            "name": "新手场",
+            "least": 800,
+            "entry": "底注50金币",
+            "config": 0,
+            "condition": "800~25000金币准入"
+        },
+        "er20": {
+            "id": 7602,
+            "name": "中级场",
+            "least": 4000,
+            "entry": "底注250金币",
+            "config": 0,
+            "condition": "4000~10万金币准入"
+        },
+        "er30": {
+            "id": 7603,
+            "name": "高级场",
+            "least": 15000,
+            "entry": "底注1000金币",
+            "config": 0,
+            "condition": "大于1.5万金币准入"
+        },
+        "er40": {
+            "id": 7604,
+            "name": "大师场",
+            "least": 50000,
+            "entry": "底注3000金币",
+            "config": 0,
+            "condition": "大于5万金币准入"
+        },
+        "xl10": {
+            "id": 7701,
+            "name": "新手场",
+            "least": 400,
+            "entry": "底注20金币",
+            "config": 0,
+            "condition": "400~12000金币准入"
+        },
+        "xl20": {
+            "id": 7702,
+            "name": "中级场",
+            "least": 2000,
+            "entry": "底注100金币",
+            "config": 0,
+            "condition": "2000~45000金币准入"
+        },
+        "xl30": {
+            "id": 7703,
+            "name": "高级场",
+            "least": 10000,
+            "entry": "底注500金币",
+            "config": 0,
+            "condition": "大于1万金币准入"
+        },
+        "xl40": {
+            "id": 7704,
+            "name": "大师场",
+            "least": 30000,
+            "entry": "底注2000金币",
+            "config": 0,
+            "condition": "大于3万金币准入"
+        }
+    },
+    "session_items": {
+        "fc": {
+            "session": "疯狂麻将",
+            "match": 0,
+            "new": 0,
+            "rooms": [
+                "fc10",
+                "fc20",
+                "fc30",
+                "fc40"
+            ],
+            "description": []
+        },
+        "gb": {
+            "session": "国标麻将",
+            "match": 0,
+            "new": 0,
+            "rooms": [
+                "gb10",
+                "gb20",
+                "gb30",
+                "gb40"
+            ],
+            "description": []
+        },
+        "sc": {
+            "session": "四川麻将",
+            "match": 0,
+            "new": 0,
+            "rooms": [
+                "sc10",
+                "sc20",
+                "sc30",
+                "sc40"
+            ],
+            "description": []
+        }, 
+        "er": {
+            "session": "二人麻将",
+            "match": 0,
+            "new": 0,
+            "rooms": [
+                "er10",
+                "er20",
+                "er30",
+                "er40"
+            ],
+            "description": []
+        },
+        "xl": {
+            "session": "血流成河",
+            "match": 0,
+            "new": 0,
+            "rooms": [
+                "xl10",
+                "xl20",
+                "xl30",
+                "xl40"
+            ],
+            "description": []
+        }
+    },
+    "templates": {
+        "default": [],
+        "nofruit": [],
+        "ios_tishen": [],
+        "winpc_default": [
+            "fc",
+            "gb",
+            "sc",
+            "er",
+            "xl"
+        ]
+    }
+}

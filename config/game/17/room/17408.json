@@ -1,0 +1,220 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "最近一场开赛时间",
+    "fees" : [],
+    "rank.rewards" : [
+      {
+        "desc" : "100元话费卡",
+        "message":"您在【保皇\\${matchName}】中获得第\\${rank}名。\n赢得奖励：\\${rewardContent}",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4144"
+          }
+        ]
+      },
+      {
+        "desc" : "50元话费卡",
+        "message":"您在【保皇\\${matchName}】中获得第\\${rank}名。\n赢得奖励：\\${rewardContent}",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4143"
+          }
+        ]
+      },
+      {
+        "desc" : "50元话费卡",
+        "message":"您在【保皇\\${matchName}】中获得第\\${rank}名。\n赢得奖励：\\${rewardContent}",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4143"
+          }
+        ]
+      },
+      {
+        "desc" : "30元话费卡",
+        "message":"您在【保皇\\${matchName}】中获得第\\${rank}名。\n赢得奖励：\\${rewardContent}",
+        "ranking" : {
+          "end" : 5,
+          "start" : 4
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4142"
+          }
+        ]
+      },
+      {
+        "desc" : "10元话费卡",
+        "message":"您在【保皇\\${matchName}】中获得第\\${rank}名。\n赢得奖励：\\${rewardContent}",
+        "ranking" : {
+          "end" : 9,
+          "start" : 6
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4141"
+          }
+        ]
+      },
+      {
+        "desc" : "10000金币",
+        "message":"您在【保皇\\${matchName}】中获得第\\${rank}名。\n赢得奖励：\\${rewardContent}",
+        "ranking" : {
+          "end" : 20,
+          "start" : 10
+        },
+        "rewards" : [
+          {
+            "count" : 10000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "5000金币",
+        "message":"您在【保皇\\${matchName}】中获得第\\${rank}名。\n赢得奖励：\\${rewardContent}",
+        "ranking" : {
+          "end" : 30,
+          "start" : 21
+        },
+        "rewards" : [
+          {
+            "count" : 5000,
+            "itemId" : "user:chip"
+          }
+        ]
+      }
+    ],
+    "stages" : [
+      {
+        "animation.type" : 0,
+        "card.count" : 3,
+        "chip.base" : 1000,
+        "chip.grow" : 0.2,
+        "chip.grow.base" : 400,
+        "chip.grow.incr" : 200,
+        "chip.times" : 360,
+        "chip.user" : 10000,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 0,
+        "lose.user.chip" : 0.15,
+        "name" : "海选赛",
+        "rise.user.count" : 10,
+        "rise.user.refer" : 12,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 2,
+        "chip.base" : 500,
+        "chip.grow" : 0,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.1,
+        "name" : "10强赛",
+        "rise.user.count" : 5,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 3,
+        "card.count" : 2,
+        "chip.base" : 500,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.1,
+        "name" : "决赛",
+        "rise.user.count" : 1,
+        "seat.principles" : 2,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 1,
+      "maxplaytime" : 7200,
+      "signin.times" : 432000,
+      "table.avg.times" : 1200,
+      "table.times" : 1200,
+      "times" : {
+        "days" : {
+          "count" : 100,
+          "first" : "",
+          "interval" : "1d"
+        },
+        "times_in_day" : {
+          "list" : [
+            "21:00"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 10000,
+      "user.maxsize" : 1750,
+      "user.minsize" : 15,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 5,
+    "tips" : {
+      "infos" : [
+        "当积分相同时，按报名先后顺序确定名次。",
+        "除海选赛阶段，只有力争第一才可以晋级！",
+        "忽如一夜春风来，千人万人牌桌开！",
+        "海选阶段要稳打，低于基础分会被淘汰哟！"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "minCoin" : 0,
+  "minCoinQS" : 0,
+  "name" : "300元话费赛",
+  "openAutoChat" : 0,
+  "openIpLimit" : 0,
+  "playMode" : "weihai",
+  "robotUserCallUpTime" : 2,
+  "robotUserMaxCount" : -1,
+  "robotUserOpTime" : [
+    2,
+    3
+  ],
+  "roomFee" : 50,
+  "tableConf" : {
+    "autoOutCard" : 1,
+    "baoHuangScore" : 1,
+    "baseChip" : 200,
+    "dengJiTimeout" : 10,
+    "guardShowTimeout" : 5,
+    "kickTimeout" : 5,
+    "maxSeatN" : 5,
+    "niuTimeout" : 5,
+    "playTimeout" : 10,
+    "qiangDuTimeout" : 5,
+    "zaoFanTimeout" : 5
+  },
+  "tableType" : "normal",
+  "typeName" : "big_match"
+}

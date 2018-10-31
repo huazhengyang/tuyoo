@@ -1,0 +1,328 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "最近一场开赛时间 \n报名费用：TUPT总决赛邀请函",
+    "fees" : [
+      {
+        "count" : 1,
+        "itemId" : "item:1007",
+        "params" : {
+          "failure" : "获得TUPT总决赛邀请函的48位斗地主大师，可在线下争夺现金大奖~"
+        }
+      }
+    ],
+    "rank.rewards" : [
+      {
+        "desc" : "10万元现金",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:1007"
+          }
+        ],
+        "todotask" : {
+          "action" : "rep_sence_shop",
+          "params" : {
+            "subStore" : "coupon"
+          }
+        }
+      },
+      {
+        "desc" : "5万元现金",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:1007"
+          }
+        ]
+      },
+      {
+        "desc" : "3万元现金",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:1007"
+          }
+        ]
+      },
+      {
+        "desc" : "2万元现金",
+        "ranking" : {
+          "end" : 5,
+          "start" : 4
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:1007"
+          }
+        ]
+      },
+      {
+        "desc" : "1.5万元现金",
+        "ranking" : {
+          "end" : 7,
+          "start" : 6
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:1007"
+          }
+        ]
+      },
+      {
+        "desc" : "1万元现金",
+        "ranking" : {
+          "end" : 11,
+          "start" : 8
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:1007"
+          }
+        ]
+      },
+      {
+        "desc" : "8000元现金",
+        "ranking" : {
+          "end" : 18,
+          "start" : 12
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:1007"
+          }
+        ]
+      },
+      {
+        "desc" : "7000元现金",
+        "ranking" : {
+          "end" : 24,
+          "start" : 19
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:1007"
+          }
+        ]
+      },
+      {
+        "desc" : "6000元现金",
+        "ranking" : {
+          "end" : 28,
+          "start" : 25
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:1007"
+          }
+        ]
+      },
+      {
+        "desc" : "5000元现金",
+        "ranking" : {
+          "end" : 36,
+          "start" : 29
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:1007"
+          }
+        ]
+      },
+      {
+        "desc" : "4000元现金",
+        "ranking" : {
+          "end" : 48,
+          "start" : 37
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:1007"
+          }
+        ]
+      }
+    ],
+    "stages" : [
+      {
+        "animation.type" : 0,
+        "card.count" : 10,
+        "chip.base" : 1000,
+        "chip.grow" : 0.3,
+        "chip.grow.base" : 300,
+        "chip.grow.incr" : 100,
+        "chip.times" : 60,
+        "chip.user" : 15000,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 0,
+        "lose.user.chip" : 0.5,
+        "name" : "海选赛",
+        "rise.user.count" : 48,
+        "rise.user.refer" : 56,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 3,
+        "chip.user.3.base" : 300,
+        "name" : "48强赛",
+        "rise.user.count" : 24,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "24强赛",
+        "rise.user.count" : 12,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "12强赛",
+        "rise.user.count" : 6,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "6强赛",
+        "rise.user.count" : 3,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 2,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "决赛",
+        "rise.user.count" : 1,
+        "seat.principles" : 2,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 0,
+      "maxplaytime" : 7200,
+      "signin.times" : 3600,
+      "signin.times.str" : "决赛改为10月中旬在京举办，近期客服会和牌手联系告知详情，祝大家赢得大奖！",
+      "times" : {
+        "days" : {
+          "list" : [
+            "20161015"
+          ]
+        },
+        "times_in_day" : {
+          "list" : [
+            "10:00"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 10000,
+      "user.maxsize" : 10000,
+      "user.minsize" : 3,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 3,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。",
+        "积分低于淘汰分数线会被淘汰，称打立出局。",
+        "打立赛制有局数上限，打满局数会等待他人。",
+        "打立阶段，轮空时会记1局游戏。",
+        "定局赛制，指打固定局数后按积分排名。",
+        "每局会按照开局时的底分结算。",
+        "比赛流局时，可能会有积分惩罚。"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "TUPT总决赛",
+  "playDesc" : "",
+  "playMode" : "happy",
+  "robotUserCallUpTime" : 5,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    2,
+    3
+  ],
+  "roomFee" : 45,
+  "roomMutil" : 50,
+  "showCard" : 0,
+  "tableConf" : {
+    "autochange" : 1,
+    "basebet" : 1,
+    "basemulti" : 1,
+    "canchat" : 0,
+    "cardNoteChip" : 500,
+    "coin2chip" : 1,
+    "grab" : 1,
+    "gslam" : 128,
+    "lucky" : 0,
+    "maxSeatN" : 3,
+    "optime" : 15,
+    "passtime" : 5,
+    "rangpaiMultiType" : 1,
+    "robottimes" : 1,
+    "tbbox" : 0,
+    "unticheat" : 0
+  },
+  "typeName" : "group_match",
+  "winDesc" : ""
+}

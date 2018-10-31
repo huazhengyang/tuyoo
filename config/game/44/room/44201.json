@@ -1,0 +1,28 @@
+{
+  "hasrobot" : 0,
+  "isMatch" : 0,
+  "name" : "渔友竞技",
+  "sceneName": "string_yyjj",
+  "fishPool": 11,
+  "multiple": 1,
+  "showLevel": 1,
+  "minLevel": 1,
+  "maxLevel": 999,
+  "minCoin": 0,
+  "maxCoin": -1,
+  "minGunLevel": 2101,
+  "maxGunLevel": 2120,
+  "maxSkillLevel": 10,
+  "typeName" : "fish_friend",
+  "matchConf" : {
+    "desc" : "",
+    "fishPool": 11,
+    "playingTime": 120,
+    "bullet": 5000,
+    "table.seat.count" : 2
+  },
+  "tableConf" : {
+    "maxSeatN" : 4,
+    "fishGroupsName": "string_yyjj"
+  }
+}

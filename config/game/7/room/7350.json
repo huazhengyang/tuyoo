@@ -1,0 +1,362 @@
+{
+  "anteType" : 2,
+  "continueTime" : 7200,
+  "dummyUserCount" : 0,
+  "gameRule" : "classic",
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "ledLevel" : 2,
+  "matchConf" : {
+    "base_chip" : 50,
+    "desc" : "每1分钟一场免费报名，前128名有奖",
+    "fees" : [
+      {
+        "count" : 0,
+        "itemId" : "user:chip",
+        "params" : {
+          "failure" : "金币不够啦，买一个超值礼包吧！",
+          "payOrder" : {
+            "contains" : {
+              "count" : 5000,
+              "itemId" : "user:chip"
+            },
+            "shelves" : [
+              "lessbuychip"
+            ]
+          }
+        }
+      }
+    ],
+    "majiang_match_type" : 1,
+    "match_type" : 3,
+    "players" : [
+      8,
+      5000
+    ],
+    "purl" : "http://ddz.dl.tuyoo.com/cdn37/majiang/images/others/mahjong_taskreward_item_chip.png",
+    "rank.rewards" : [
+      {
+        "desc" : "1.00红包券",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 100,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "8000金币",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 8000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "4000金币",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 4000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "2000金币",
+        "ranking" : {
+          "end" : 4,
+          "start" : 4
+        },
+        "rewards" : [
+          {
+            "count" : 2000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "1500金币",
+        "ranking" : {
+          "end" : 6,
+          "start" : 5
+        },
+        "rewards" : [
+          {
+            "count" : 1500,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "1000金币",
+        "ranking" : {
+          "end" : 8,
+          "start" : 7
+        },
+        "rewards" : [
+          {
+            "count" : 1000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "800金币",
+        "ranking" : {
+          "end" : 12,
+          "start" : 9
+        },
+        "rewards" : [
+          {
+            "count" : 800,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "400金币",
+        "ranking" : {
+          "end" : 16,
+          "start" : 13
+        },
+        "rewards" : [
+          {
+            "count" : 400,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "200金币",
+        "ranking" : {
+          "end" : 32,
+          "start" : 17
+        },
+        "rewards" : [
+          {
+            "count" : 200,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "100金币",
+        "ranking" : {
+          "end" : 64,
+          "start" : 33
+        },
+        "rewards" : [
+          {
+            "count" : 100,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "50金币",
+        "ranking" : {
+          "end" : 128,
+          "start" : 65
+        },
+        "rewards" : [
+          {
+            "count" : 50,
+            "itemId" : "user:chip"
+          }
+        ]
+      }
+    ],
+    "score_change_type" : 0,
+    "service_fee" : 0,
+    "stages" : [
+      {
+        "animation.type" : 0,
+        "card.count" : 100,
+        "chip.base" : 50,
+        "chip.grow" : 0,
+        "chip.times" : 150,
+        "chip.user" : 5000,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 0,
+        "lose.user.base.chip" : 3600,
+        "lose.user.chip" : 0.5,
+        "name" : "预赛",
+        "rise.user.count" : 8,
+        "rise.user.refer" : 12,
+        "seat.principles" : 1,
+        "stage.desc" : [
+          "淘汰至12人时",
+          "停止比赛",
+          "取前8名晋级"
+        ],
+        "type" : 1
+      },
+      {
+        "animation.type" : 0,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0,
+        "chip.times" : 0,
+        "chip.user" : 3,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 5000,
+        "lose.user.chip" : 0,
+        "name" : "8进4赛",
+        "rise.user.count" : 4,
+        "seat.principles" : 1,
+        "stage.desc" : [
+          "2局定局积分",
+          "前四名晋级"
+        ],
+        "type" : 2
+      },
+      {
+        "animation.type" : 0,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0,
+        "chip.times" : 0,
+        "chip.user" : 3,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 5000,
+        "lose.user.chip" : 0,
+        "name" : "决赛",
+        "rise.user.count" : 1,
+        "seat.principles" : 1,
+        "stage.desc" : [
+          "2局定局积分",
+          "赢取冠军"
+        ],
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 1,
+      "maxplaytime" : 7200,
+      "prepare.times" : 5,
+      "signin.times" : 0,
+      "start.speed" : 6,
+      "table.times" : 270,
+      "times" : {
+        "days" : {
+          "count" : 100,
+          "first" : "",
+          "interval" : "1d"
+        },
+        "times_in_day" : {
+          "list" : [
+		   "00:05",
+          "00:15",
+          "00:35",
+          "00:55",
+          "01:15",
+          "01:40",
+          "02:10",
+          "06:20",
+          "06:50",
+          "07:15",
+          "07:35",
+          "07:55",
+          "08:15",
+          "08:35",
+          "08:55",
+          "09:15",
+          "09:35",
+          "09:55",
+          "10:15",
+          "10:35",
+          "10:55",
+          "11:15",
+          "11:35",
+          "11:55",
+          "12:15",
+          "12:35",
+          "12:55",
+          "13:15",
+          "13:35",
+          "13:55",
+          "14:15",
+          "14:35",
+          "14:55",
+          "15:15",
+          "15:35",
+          "15:55",
+          "16:15",
+          "16:35",
+          "16:55",
+          "17:15",
+          "17:35",
+          "17:55",
+          "18:15",
+          "18:35",
+          "18:55",
+          "19:15",
+          "19:35",
+          "19:55",
+          "20:15",
+          "20:35",
+          "20:55",
+          "21:15",
+          "21:35",
+          "21:55",
+          "22:15",
+          "22:35",
+          "22:55",
+          "23:15",
+          "23:35",
+          "23:55"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 5000,
+      "user.maxsize" : 5000,
+      "user.minsize" : 4,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 4,
+    "title" : "疯狂1元话费赛"
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "minCoin" : 10000,
+  "minCoinQS" : 10000,
+  "name" : "疯狂1元话费赛",
+  "playMode" : "guobiao",
+  "redEnvelopeLevel" : "beginner",
+  "refreshList" : 1,
+  "reqInterval" : 6,
+  "robotUserCallUpTime" : 2,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    1,
+    2
+  ],
+  "tab" : [
+    "all",
+    "free"
+  ],
+  "tableConf" : {
+    "base_chip" : 50,
+    "big_degree_fee" : [],
+    "good_tile_chance" : 1.3,
+    "maxSeatN" : 4,
+    "play_timeout" : 10,
+    "room_coefficient" : 4,
+    "service_fee" : 0
+  },
+  "typeName" : "majiang_bigmatch"
+}

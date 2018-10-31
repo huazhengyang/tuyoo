@@ -1,0 +1,52 @@
+{
+  "buyinchip": 0,
+  "dummyUserCount": 0,
+  "hasrobot": 0,
+  "create_item": 6013,
+  "level": "junior",
+  "matchConf": null,
+  "maxCoin": -1,
+  "maxCoinQS": -1,
+  "minCoin": 0,
+  "minCoinQS": 0,
+  "takeIn": 0,
+  "name": "自建桌",
+  "playMode": "xuezhan",
+  "playModeName": "血战到底",
+  "tableType": "create",
+  "base_chip": 1,
+  "tableConf": {
+    "decide_absence_timeout": 8,
+    "leave_vote_num": {
+      "4": 4
+    },
+    "refuse_leave_vote_num": {
+      "4": 1
+    },
+    "maxSeatN": 4,
+    "play_timeout": 12,
+    "room_coefficient": 1,
+    "trustee_timeout": -1,
+    "ready_max_timeout": 3600,
+    "ready_after_sit": 0,
+    "dissolve_vote_time_out": 60,
+    "tiles_no_pao": 0,
+    "hand_tiles_count": 13,
+    "gang_base": 1,
+    "win_base": 1,
+    "score_base": 0,
+    "fan_list": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "max_fan": 64
+  },
+  "typeName": "normal"
+}

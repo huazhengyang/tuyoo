@@ -1,0 +1,115 @@
+{
+    "dealerCare": {
+        "bOpen": 0, 
+        "rules": []
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            20, 
+            2, 
+            -2
+        ], 
+        "chicken": [
+            20, 
+            2, 
+            -2
+        ], 
+        "doubleAce": [
+            20, 
+            4, 
+            4
+        ], 
+        "eggs": [
+            20, 
+            2, 
+            -2
+        ], 
+        "fishing": [
+            20, 
+            2, 
+            -2
+        ], 
+        "ring": [
+            20, 
+            4, 
+            4
+        ], 
+        "rose": [
+            20, 
+            4, 
+            4
+        ], 
+        "thumb": [
+            20, 
+            4, 
+            4
+        ]
+    }, 
+    "jackPotConf": {
+        "activateVipLevel": 0, 
+        "enable": 0, 
+        "lowerLimit": {}, 
+        "playLed": 0
+    }, 
+    "matchConf": {
+        "match_id": "0.0"
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 0, 
+    "minCoin": 10000, 
+    "minCoinQS": 99999999999, 
+    "minTriggerLen": 2, 
+    "n_recycle": 3, 
+    "name": "千王场", 
+    "playMode": "classic", 
+    "roomID": 30015, 
+    "tableConf": {
+        "bb": 40, 
+        "big_pot": 0, 
+        "bigpot_fee_floor": 4000, 
+        "buyin": 4000, 
+        "buyinConf": "1/2", 
+        "chat_require_vip_level": 0, 
+        "commission": 0.05, 
+        "exchange_cards_bet": 100, 
+        "exchange_cards_prices": [
+            [
+                5, 
+                10, 
+                20, 
+                -1
+            ]
+        ], 
+        "exchange_cards_prices_type": 1, 
+        "exchange_cards_reset": 1, 
+        "fee": 40, 
+        "flip_card_game": {
+            "bet": 500, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "is_deceiver": 1, 
+        "maxHandCount": 10, 
+        "maxSeatN": 6, 
+        "max_bigpot_fee": -1, 
+        "min_players": 2, 
+        "optime": 13, 
+        "pay_factor": 1.0, 
+        "pkHandCount": 3, 
+        "prebet": 200, 
+        "raise_times": [
+            2, 
+            4, 
+            8
+        ], 
+        "sb": 40, 
+        "scheduleFloor": 3, 
+        "seeCardHandCount": 0, 
+        "start_card": 2, 
+        "timeup": 10, 
+        "tname": "千王场"
+    }, 
+    "triggerLen": 6, 
+    "typeName": "queue"
+}

@@ -1,0 +1,50 @@
+{
+  "buyinchip" : 0,
+  "canchat" : 1,
+  "dummyUserCount" : 0,
+  "escapeExp" : -2,
+  "hasrobot" : 0,
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxPassTimes" : 5,
+  "maxTimeoutTimes":3,
+  "minCoin" : 0,
+  "minCoinQS" : 0,
+  "name" : "双人单挑场",
+  "playMode" : "dantiao",
+  "receiverCharm" : [
+    -10,
+    10,
+    -5,
+    5
+  ],
+  "reqMaxExp" : -1,
+  "reqMinExp" : -500000,
+  "robotUserCallUpTime" : 6,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    2,
+    3,
+    4,
+    5
+  ],
+  "roomFee" : 0,
+  "senderCharm" : [
+    10,
+    10,
+    5,
+    5
+  ],
+  "smiliesPrice" : [
+    300,
+    300,
+    150,
+    150
+  ],
+  "tableConf" : {
+    "maxSeatN" : 2
+  },
+  "typeName" : "normal",
+  "scoreMvLimit": 30,
+  "winExp" : 1
+}

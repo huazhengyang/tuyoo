@@ -1,0 +1,45 @@
+{
+	"configDesc": "这个配置文件内容为麻将 <累计充值奖励配置>",
+	"desc": "",
+	"times":{
+	        "start": 	"2016-01-24 00:00:00",
+	        "end": 	 "2016-06-28 00:00:00"
+	    },
+	"gradient":{
+		"0":{
+			"diamond": 100,
+			"exchangeDesc":"1天雀神之翼",
+			"id": 0,
+			"reward":[
+				{"count":1,"itemId":"item:4125"}
+			]
+		},
+		"1":{
+			"diamond": 300,
+			"exchangeDesc":"88888金币",
+			"id": 1,
+			"reward":[
+				{"count":88888,"itemId":"user:chip"}
+			]
+		},
+		"2":{
+			"diamond": 2000,
+			"exchangeDesc":"30天雀神之翼+18888金币",
+			"id": 2,
+			"reward":[
+				{"count":18888,"itemId":"user:chip"},
+				{"count":30,"itemId":"item:4125"}
+			]
+		},
+		"3":{
+			"diamond": 8888,
+			"exchangeDesc":"365天雀神之翼+666666金币",
+			"id": 3,
+			"reward":[
+				{"count":666666, "itemId":"user:chip"},
+				{"count":365,  "itemId":"item:4125"}
+			]
+		}
+	},
+	"forbiden.clientIds": []
+}

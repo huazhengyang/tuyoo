@@ -1,0 +1,38 @@
+{
+    "hasrobot": 0,
+    "isMatch": 0,
+    "name": "宁静海滩(新手场)",
+    "sceneName": "string_njht",
+    "fishPool": 1,
+    "bullets": [
+        300,
+        1000,
+        5000,
+        10000
+    ],
+    "multiple": 1,
+    "lack": 50,
+    "showLevel": 1,
+    "minLevel": 1,
+    "maxLevel": 999,
+    "expLimitLevel": 20,
+    "minCoin": -1,
+    "maxCoin": -1,
+    "minGunLevel": 2101,
+    "maxGunLevel": 2110,
+    "maxSkillLevel": 5,
+    "taskLoopInterval": 1800,
+    "ncmptt1TaskInterval": 116,
+    "ncmpttATaskInterval": 356,
+    "cmpttTaskInterval": 709,
+    "ncmptt2TaskInterval": 1016,
+    "ncmpttBTaskInterval": 1256,
+    "bonusTaskInterval": 1609,
+    "minBonus": 500,
+    "systemBonus": 500,
+    "typeName": "fish_normal",
+    "tableConf": {
+        "fishGroupsName": "string_njht",
+        "maxSeatN": 4
+    }
+}

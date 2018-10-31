@@ -1,0 +1,69 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、翻翻乐首发"
+     ],
+     "md5"              : "8a82b1e76979a0e44d34d51b3a6efa8a",
+     "ver"              : "3.702",
+     "url"              : "${http_download}/hall/plugin/game/flipcard_release_v3.702_4.zip",
+     "size"             : "0.4M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、修改翻翻乐bug，优化展示"
+     ],
+     "md5"              : "8d9e606d87cb98d78523336a28a62c48",
+     "ver"              : "3.703",
+     "url"              : "${http_download}/hall/plugin/game/flipcard_release_v3.702_5.zip",
+     "size"             : "0.4M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、翻翻乐换皮"
+     ],
+     "md5"              : "6e213b2979fb2610fd0354a0f97afa00",
+     "ver"              : "3.705",
+     "url"              : "${http_download}/hall/plugin/game/flipcard_release_v3.705_1.zip",
+     "size"             : "0.4M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "翻乐70"
+     ],
+     "md5"              : "d3cde95a2840e7acae4ced5d4495f0a6",
+     "ver"              : "3.707",
+     "url"              : "${http_download}/hall/plugin/game/flipcard_release_v3.707_2.zip",
+     "size"             : "0.4M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、翻翻乐3.811 "
+     ],
+     "md5"              : "b5f1c23ba21e1d8e9f73fdb1f6a07db4",
+     "ver"              : "3.811",
+     "url"              : "${http_download}/hall/plugin/game/flipcard_release_v3.811_1.zip",
+     "size"             : "0.5M"
+    }
+   ],
+   "description"      : [
+    "1、通用牌桌内小游戏之三张牌翻翻乐"
+   ],
+   "gameId"           : 22,
+   "gameMark"         : "flipcard"
+  }
+ ],
+ "templates"        : [ ]
+}

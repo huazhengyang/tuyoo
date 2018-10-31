@@ -1,0 +1,84 @@
+{
+    "handlers": [
+        {
+            "name": "lead_to_pay_v1",
+            "module": "gamble.plugins.lead_to_pay_v1",
+            "class": "LeadToPay",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GameBiEventReporter",
+            "module": "gamble.plugins.game_bi_event_reporter",
+            "class": "GameBiEventReporter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_pay",
+            "module": "gamble.plugins.table_pay",
+            "class": "TablePay",
+            "handle": "event_handle"
+        },
+        {
+            "name": "notify",
+            "module": "gamble.plugins.notify",
+            "class": "Notify",
+            "handle": "event_handle"
+        },
+        {
+            "name": "misc",
+            "module": "gamble.plugins.misc",
+            "class": "Misc",
+            "handle": "event_handle"
+        },
+        {
+            "name": "tbox",
+            "module": "t3flush.plugins.tbox",
+            "class": "Tbox_new",
+            "handle": "event_handle"
+        },
+        {
+            "name": "Achievement",
+            "module": "t3flush.plugins.achievement",
+            "class": "Achievement",
+            "handle": "event_handle"
+        },
+        {
+            "name": "MissionSystem",
+            "module": "t3flush.plugins.mission.mission_system",
+            "class": "MissionSystem",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_chat",
+            "module": "t3flush.plugins.table_chat",
+            "class": "TableChat",
+            "handle": "event_handle"
+        },
+        {
+            "name": "TableCounter",
+            "module": "t3flush.plugins.table_counter",
+            "class": "TableCounter",
+            "handle": "event_handle"
+        },
+         {
+            "name": "play_count",
+            "module": "t3flush.plugins.play_count",
+            "class": "PlayerPlayCounter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GM",
+            "module": "t3flush.plugins.gm",
+            "class": "GM",
+            "handle": "event_handle"
+        },
+        {
+            "name": "Misc",
+            "module": "t3flush.plugins.misc",
+            "class": "Misc",
+            "handle": "event_handle"
+        }
+    ],
+    "event_seq": {
+    }
+}

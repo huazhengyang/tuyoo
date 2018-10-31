@@ -1,0 +1,18 @@
+{
+	"timing": 120,
+	"playround_limit": 2,
+	"basechip": 2000000,
+	"add_rate": 0.1,
+	"winner_rate": 0.05,
+	"prize_rate": 0.01,
+	"support_ver": 3.72,
+	"win_tip": "您被幸运彩池击中了，获得{CHIP}金币",
+	"lose_tip": "上次彩池擦肩而过，继续努力吧！",
+	"help": [
+		"彩池每{TIMING}分钟发奖一次",
+		"每游戏{PLAYROUND_LIMIT}局，自动参加发奖",
+		"大师分段位越高，中奖率越高",
+		"房间等级越高，中奖金额越大"
+	],
+	"close": 0
+}

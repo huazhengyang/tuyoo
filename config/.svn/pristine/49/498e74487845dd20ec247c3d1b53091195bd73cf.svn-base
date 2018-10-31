@@ -1,0 +1,1073 @@
+{
+    "items": [
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6001,
+            "catagoryDesc": "道具",
+            "kindId": 6001,
+            "typeId": "common.box",
+            "displayName": "道具礼包",
+            "visibleInBag": 1,
+            "desc": "道具礼包，请您笑纳~",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_1001.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0,
+            "actions": [
+                {
+                    "name": "sale",
+                    "displayName": "出售",
+                    "typeId": "common.sale",
+                    "mail": "您出售了\\${saleItem}，获得\\${gotContent}",
+                    "message": "您出售了\\${saleItem}，获得\\${gotContent}",
+                    "params": {
+                        "type": "countSale",
+                        "desc": "出售可获得:",
+                        "confirm": 1
+                    },
+                    "saleContent": {
+                        "itemId": "user:chip",
+                        "count": 1000
+                    }
+                },
+                {
+                    "name": "open",
+                    "displayName": "打开",
+                    "typeId": "common.box.open",
+                    "mail": "您开启了\\${item}，获得\\${gotContent}",
+                    "message": "您开启了\\${item}，获得\\${gotContent}",
+                    "contents": [
+                        {
+                            "typeId": "FixedContent",
+                            "openTimes": {
+                                "start": -1,
+                                "stop": -1
+                            },
+                            "items": [
+                                {
+                                    "itemId": "item:1002",
+                                    "count": 1
+                                },
+                                {
+                                    "itemId": "item:1004",
+                                    "count": 1
+                                },
+                                {
+                                    "itemId": "item:3002",
+                                    "count": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6002,
+            "catagoryDesc": "道具",
+            "kindId": 6002,
+            "typeId": "common.simple",
+            "displayName": "体力",
+            "visibleInBag": 1,
+            "desc": "1点体力",
+            "singleMode": 1,
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6003,
+            "catagoryDesc": "道具",
+            "kindId": 6003,
+            "typeId": "common.simple",
+            "displayName": "加1行",
+            "maxCount": 999,
+            "visibleInBag": 1,
+            "desc": "给对方加1行",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6004,
+            "catagoryDesc": "道具",
+            "kindId": 6004,
+            "maxCount": 999,
+            "typeId": "common.simple",
+            "displayName": "加2行",
+            "visibleInBag": 1,
+            "desc": "给对方加2行",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6005,
+            "catagoryDesc": "道具",
+            "kindId": 6005,
+            "maxCount": 999,
+            "typeId": "common.simple",
+            "displayName": "遮挡3秒",
+            "visibleInBag": 1,
+            "desc": "遮挡3秒",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6006,
+            "catagoryDesc": "道具",
+            "kindId": 6006,
+            "maxCount": 999,
+            "typeId": "common.simple",
+            "displayName": "减1行",
+            "visibleInBag": 1,
+            "desc": "减1行",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6007,
+            "catagoryDesc": "道具",
+            "kindId": 6007,
+            "maxCount": 999,
+            "typeId": "common.simple",
+            "displayName": "减2行",
+            "visibleInBag": 1,
+            "desc": "减2行",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6008,
+            "catagoryDesc": "道具",
+            "kindId": 6008,
+            "typeId": "common.simple",
+            "displayName": "减4行",
+            "visibleInBag": 1,
+            "desc": "减4行",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6009,
+            "catagoryDesc": "道具",
+            "kindId": 6009,
+            "typeId": "common.simple",
+            "displayName": "加10秒复活",
+            "visibleInBag": 1,
+            "desc": "复活后获得10秒加时继续挑战",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6010,
+            "catagoryDesc": "道具",
+            "kindId": 6010,
+            "maxCount": 999,
+            "typeId": "common.simple",
+            "displayName": "加5步道具",
+            "visibleInBag": 1,
+            "desc": "复活后获得5块方块继续挑战",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6011,
+            "catagoryDesc": "道具",
+            "kindId": 6011,
+            "typeId": "common.simple",
+            "displayName": "勋章",
+            "visibleInBag": 1,
+            "desc": "勋章",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6012,
+            "catagoryDesc": "道具",
+            "kindId": 6012,
+            "typeId": "common.box",
+            "displayName": "减行礼包",
+            "visibleInBag": 1,
+            "desc": "减行礼包",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_1001.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0,
+            "actions": [
+                {
+                    "name": "open",
+                    "displayName": "打开",
+                    "typeId": "common.box.open",
+                    "mail": "您开启了\\${item}，获得\\${gotContent}",
+                    "message": "您开启了\\${item}，获得\\${gotContent}",
+                    "contents": [
+                        {
+                            "typeId": "FixedContent",
+                            "openTimes": {
+                                "start": -1,
+                                "stop": -1
+                            },
+                            "items": [
+                                {
+                                    "itemId": "item:1002",
+                                    "count": 1
+                                },
+                                {
+                                    "itemId": "item:1004",
+                                    "count": 1
+                                },
+                                {
+                                    "itemId": "item:3002",
+                                    "count": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6013,
+            "catagoryDesc": "道具",
+            "kindId": 6013,
+            "maxCount": 999,
+            "typeId": "common.simple",
+            "displayName": "消冰导弹",
+            "visibleInBag": 1,
+            "desc": "消除冰块",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6014,
+            "catagoryDesc": "道具",
+            "kindId": 6014,
+            "maxCount": 999,
+            "typeId": "common.simple",
+            "displayName": "消冰炸弹",
+            "visibleInBag": 1,
+            "desc": "炸弹",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6015,
+            "catagoryDesc": "道具",
+            "kindId": 6015,
+            "maxCount": 999,
+            "typeId": "common.simple",
+            "displayName": "后悔药",
+            "visibleInBag": 1,
+            "desc": "后悔药",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6016,
+            "catagoryDesc": "道具",
+            "kindId": 6016,
+            "typeId": "common.simple",
+            "displayName": "解谜提示",
+            "visibleInBag": 1,
+            "desc": "解谜提示",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6017,
+            "catagoryDesc": "道具",
+            "kindId": 6017,
+            "typeId": "common.simple",
+            "displayName": "金币",
+            "visibleInBag": 1,
+            "desc": "金币",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6018,
+            "catagoryDesc": "道具",
+            "kindId": 6018,
+            "maxCount": 999,
+            "typeId": "common.simple",
+            "displayName": "补块导弹",
+            "visibleInBag": 1,
+            "desc": "补块",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4138.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 2003,
+            "catagoryDesc": "道具",
+            "kindId": 2003,
+            "typeId": "common.simple",
+            "displayName": "记牌器",
+            "visibleInBag": 1,
+            "desc": "用于斗地主牌桌记牌，好记性不如烂笔头",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_2003.png",
+            "units": {
+                "typeId": "common.day",
+                "displayName": "天"
+            },
+            "removeFromBagWhenRemainingZero": 0,
+            "removeFromBagWhenExpires": 1
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 4118,
+            "catagoryDesc": "道具",
+            "kindId": 4118,
+            "typeId": "common.decroation",
+            "displayName": "左轮手枪",
+            "visibleInBag": 1,
+            "desc": "使用后可在牌桌内激发，“左轮手枪”特效",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_4118.png",
+            "units": {
+                "typeId": "common.day",
+                "displayName": "天"
+            },
+            "removeFromBagWhenRemainingZero": 0,
+            "removeFromBagWhenExpires": 1,
+            "localRes": {
+                "resName": "item_revolver"
+            },
+            "pos": {
+                "zOrder": 30
+            },
+            "masks": 16,
+            "actions": [
+                {
+                    "name": "wear",
+                    "displayName": "佩戴",
+                    "message": "您佩戴了\\${item}",
+                    "typeId": "common.decroation.wear"
+                },
+                {
+                    "name": "unwear",
+                    "displayName": "卸下",
+                    "message": "您卸下了\\${item}",
+                    "typeId": "common.decroation.unwear"
+                }
+            ]
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 1007,
+            "catagoryDesc": "道具",
+            "kindId": 1007,
+            "typeId": "common.simple",
+            "displayName": "参赛券",
+            "visibleInBag": 1,
+            "desc": "报名比赛专用",
+            "singleMode": 1,
+            "pic": "${http_download}/hall/item/imgs/item_1007.png",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6019,
+            "catagoryDesc": "道具",
+            "kindId": 6019,
+            "typeId": "common.simple",
+            "displayName": "银币",
+            "visibleInBag": 1,
+            "desc": "银币",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6020,
+            "catagoryDesc": "道具",
+            "kindId": 6020,
+            "typeId": "common.simple",
+            "displayName": "宝石",
+            "visibleInBag": 1,
+            "desc": "宝石",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6021,
+            "catagoryDesc": "道具",
+            "kindId": 6021,
+            "typeId": "common.simple",
+            "displayName": "房卡",
+            "visibleInBag": 1,
+            "desc": "房卡",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6024,
+            "catagoryDesc": "道具",
+            "kindId": 6024,
+            "typeId": "common.simple",
+            "displayName": "5点体力",
+            "visibleInBag": 1,
+            "desc": "5点体力",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6025,
+            "catagoryDesc": "道具",
+            "kindId": 6025,
+            "typeId": "common.simple",
+            "displayName": "30点体力",
+            "visibleInBag": 1,
+            "desc": "30点体力",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6031,
+            "catagoryDesc": "道具",
+            "kindId": 6031,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤1",
+            "visibleInBag": 1,
+            "desc": "主题皮肤1",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6032,
+            "catagoryDesc": "道具",
+            "kindId": 6032,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤2",
+            "visibleInBag": 1,
+            "desc": "主题皮肤2",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6033,
+            "catagoryDesc": "道具",
+            "kindId": 6033,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤3",
+            "visibleInBag": 1,
+            "desc": "主题皮肤3",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6034,
+            "catagoryDesc": "道具",
+            "kindId": 6034,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤4",
+            "visibleInBag": 1,
+            "desc": "主题皮肤4",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6035,
+            "catagoryDesc": "道具",
+            "kindId": 6035,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤5",
+            "visibleInBag": 1,
+            "desc": "主题皮肤5",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6036,
+            "catagoryDesc": "道具",
+            "kindId": 6036,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤6",
+            "visibleInBag": 1,
+            "desc": "主题皮肤6",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6037,
+            "catagoryDesc": "道具",
+            "kindId": 6037,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤7",
+            "visibleInBag": 1,
+            "desc": "主题皮肤7",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6038,
+            "catagoryDesc": "道具",
+            "kindId": 6038,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤8",
+            "visibleInBag": 1,
+            "desc": "主题皮肤8",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6039,
+            "catagoryDesc": "道具",
+            "kindId": 6039,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤9",
+            "visibleInBag": 1,
+            "desc": "主题皮肤9",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6040,
+            "catagoryDesc": "道具",
+            "kindId": 6040,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤10",
+            "visibleInBag": 1,
+            "desc": "主题皮肤10",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6041,
+            "catagoryDesc": "道具",
+            "kindId": 6041,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤11",
+            "visibleInBag": 1,
+            "desc": "主题皮肤11",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6042,
+            "catagoryDesc": "道具",
+            "kindId": 6042,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤12",
+            "visibleInBag": 1,
+            "desc": "主题皮肤12",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6043,
+            "catagoryDesc": "道具",
+            "kindId": 6043,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤13",
+            "visibleInBag": 1,
+            "desc": "主题皮肤13",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6044,
+            "catagoryDesc": "道具",
+            "kindId": 6044,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤14",
+            "visibleInBag": 1,
+            "desc": "主题皮肤14",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6045,
+            "catagoryDesc": "道具",
+            "kindId": 6045,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤15",
+            "visibleInBag": 1,
+            "desc": "主题皮肤15",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6046,
+            "catagoryDesc": "道具",
+            "kindId": 6046,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤16",
+            "visibleInBag": 1,
+            "desc": "主题皮肤16",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6047,
+            "catagoryDesc": "道具",
+            "kindId": 6047,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤17",
+            "visibleInBag": 1,
+            "desc": "主题皮肤17",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6048,
+            "catagoryDesc": "道具",
+            "kindId": 6048,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤18",
+            "visibleInBag": 1,
+            "desc": "主题皮肤18",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6049,
+            "catagoryDesc": "道具",
+            "kindId": 6049,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤19",
+            "visibleInBag": 1,
+            "desc": "主题皮肤19",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6050,
+            "catagoryDesc": "道具",
+            "kindId": 6050,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤20",
+            "visibleInBag": 1,
+            "desc": "主题皮肤20",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6051,
+            "catagoryDesc": "道具",
+            "kindId": 6051,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤21",
+            "visibleInBag": 1,
+            "desc": "主题皮肤21",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6052,
+            "catagoryDesc": "道具",
+            "kindId": 6052,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤22",
+            "visibleInBag": 1,
+            "desc": "主题皮肤22",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        },
+        {
+            "gameId": 26,
+            "catagoryId": 1,
+            "sortId": 6053,
+            "catagoryDesc": "道具",
+            "kindId": 6053,
+            "typeId": "common.simple",
+            "displayName": "主题皮肤23",
+            "visibleInBag": 1,
+            "desc": "主题皮肤23",
+            "pic": "",
+            "units": {
+                "typeId": "common.count",
+                "displayName": "个"
+            },
+            "removeFromBagWhenRemainingZero": 1,
+            "removeFromBagWhenExpires": 0
+        }
+    ],
+    "user.init.items.new": [
+        {
+            "itemKindId": 6017,
+            "count": 3000
+        },
+                {
+            "itemKindId": 6021,
+            "count": 20
+        },
+        {
+            "itemKindId": 6003,
+            "count": 2
+        },
+        {
+            "itemKindId": 6004,
+            "count": 2
+        },
+        {
+            "itemKindId": 6005,
+            "count": 2
+        },
+        {
+            "itemKindId": 6006,
+            "count": 2
+        },
+        {
+            "itemKindId": 6007,
+            "count": 2
+        },
+        {
+            "itemKindId": 6008,
+            "count": 2
+        },
+        {
+            "itemKindId": 6013,
+            "count": 2
+        },
+        {
+            "itemKindId": 6014,
+            "count": 2
+        },
+        {
+            "itemKindId": 6015,
+            "count": 2
+        },
+        {
+            "itemKindId": 6016,
+            "count": 2
+        },
+        {
+            "itemKindId": 6018,
+            "count": 2
+        }
+    ],
+    "exchangeGdssUrl": "http://gdssapi.touch4.me/?act=api.propExchange"
+}

@@ -1,0 +1,52 @@
+{
+	"_comment": [
+		"7天登录奖励配置文件",
+        "配置项: ",
+      "img: 在前端显示的图片",
+      "desc: 奖励描述",
+      "prop: 奖励的道具",
+      "chip: 奖励的金币数量"
+	],
+"days": [
+		{
+			"_comment": "day 1",
+			"prop": {"1007": 1},
+			"desc": "参赛券*1"
+		},
+		{
+			"_comment": "day 2",
+			"prop": {"3063": 1},
+			"desc": "复活卡*1"
+		},
+		{
+			"_comment": "day 3",
+			"prop": {"1007": 2},
+			"desc": "参赛券*2"
+		},
+		{
+			"_comment": "day 4",
+			"prop": {"3063": 2},
+			"desc": "复活卡*2"
+		},
+		{
+			"_comment": "day 5",
+			"prop": {"1007": 3},
+			"desc": "参赛券*3"
+		},
+		{
+			"_comment": "day 6",
+			"prop": {"1007": 5},
+			"desc": "参赛券*5"
+		},
+		{
+			"_comment": "day 7",
+			"prop": {"1007": 5},
+			"desc": "参赛券*5"
+		},
+		{
+			"_comment": "day >=7 additional reward",
+			"prop": {"1007": 3},
+			"desc": "参赛券*3"
+		}
+	]
+}

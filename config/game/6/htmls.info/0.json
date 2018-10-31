@@ -1,0 +1,128 @@
+{
+  "html_items" : {
+    "shop" : {
+      "style" : 0,
+      "title" : "商店",
+      "tabs" : [["金币", "${http_game}/dizhu2/shop_1.html"],
+          ["道具", "${http_game}/dizhu2/shop_2.html"]]
+    },
+    "task" : {
+      "style" : 0,
+      "title" : "任务",
+      "tabs" : [["今日任务", "${http_game}/dizhu2/task_1.html"],
+          ["全局任务", "${http_game}/dizhu2/task_2.html"]]
+    },
+    "message" : {
+      "style" : 0,
+      "title" : "消息",
+      "tabs" : [["我的消息", "${http_game}/dizhu2/message_1.html"],
+          ["系统公告", "${http_game}/dizhu2/message_2.html"]]
+    },
+    "help" : {
+      "style" : 0,
+      "title" : "帮助",
+      "tabs" : [["游戏规则", "${http_game}/dizhu2/help_1.html"],
+          ["比赛赛制", "${http_game}/dizhu2/help_2.html"],
+          ["常见问题", "${http_game}/dizhu2/help_3.html"]]
+    },
+    "help360" : {
+      "style" : 0,
+      "title" : "帮助",
+      "tabs" : [["游戏规则", "${http_game}/dizhu2/help_1.html"],
+          ["比赛赛制", "${http_game}/dizhu2/help_2.html"],
+          ["常见问题", "${http_game}/dizhu2/help_4.html"]]
+    },
+    "help114" : {
+      "style" : 0,
+      "title" : "帮助",
+      "tabs" : [["游戏规则", "${http_game}/dizhu2/help_1.html"],
+          ["比赛赛制", "${http_game}/dizhu2/help_2.html"],
+          ["常见问题", "${http_game}/dizhu2/help_114.html"]]
+    },
+    "rank" : {
+      "style" : 0,
+      "title" : "排行榜",
+      "tabs" : [["", "${http_game}/dizhu2/rank_1.html"]]
+    },
+    "feedback" : {
+      "style" : 0,
+      "title" : "意见反馈",
+      "tabs" : [["", "${http_game}/dizhu2/feedback_1.html"]]
+    },
+    "activity" : {
+      "style" : 0,
+      "title" : "活动",
+      "tabs" : [["", "${http_game}/dizhu2/activity_1.html"]]
+    },
+    "joysticks" : {
+      "style" : 0,
+      "title" : "更多游戏",
+      "tabs" : [["", "${http_game}/dizhu2/joysticks_1.html"]]
+    },
+    "reward" : {
+      "style" : 0,
+      "title" : "兑奖",
+      "tabs" : [["兑换", "${http_game}/dizhu2/bag_3.html"]]
+    },
+    "bigprize" : {
+      "style" : 0,
+      "title" : "背包",
+      "tabs" : [["普通道具", "${http_game}/dizhu2/bag_1.html"],
+          ["特殊道具", "${http_game}/dizhu2/bag_2.html"]]
+    },
+    "dlg_quit" : {
+      "style" : 1,
+      "title" : "退出",
+      "url" : ""
+    },
+    "daylogin" : {
+      "style" : 0,
+      "title" : "每日登录",
+      "tabs" : [["每日登录", ""], ["公告消息", ""]]
+    }
+  },
+  "templates" : {
+    "default" : {
+      "shop" : "shop",
+      "task" : "task",
+      "message" : "message",
+      "help" : "help",
+      "rank" : "rank",
+      "feedback" : "feedback",
+      "activity" : "activity",
+      "joysticks" : "joysticks",
+      "reward" : "reward",
+      "bigprize" : "bigprize",
+      "dlg_quit" : "dlg_quit",
+      "daylogin" : "daylogin"
+    },
+    "sns360" : {
+      "shop" : "shop",
+      "task" : "task",
+      "message" : "message",
+      "help" : "help360",
+      "rank" : "rank",
+      "feedback" : "feedback",
+      "activity" : "activity",
+      "joysticks" : "joysticks",
+      "reward" : "reward",
+      "bigprize" : "bigprize",
+      "dlg_quit" : "dlg_quit",
+      "daylogin" : "daylogin"
+    },
+    "chanel_114" : {
+      "shop" : "shop",
+      "task" : "task",
+      "message" : "message",
+      "help" : "help114",
+      "rank" : "rank",
+      "feedback" : "feedback",
+      "activity" : "activity",
+      "joysticks" : "joysticks",
+      "reward" : "reward",
+      "bigprize" : "bigprize",
+      "dlg_quit" : "dlg_quit",
+      "daylogin" : "daylogin"
+    }
+  }
+}

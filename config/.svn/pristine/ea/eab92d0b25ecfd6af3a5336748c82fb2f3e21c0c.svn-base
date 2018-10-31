@@ -1,0 +1,26 @@
+{
+  "templates": {
+    "sqypdk": [
+      {
+        "count": 6,
+        "itemKindId": 6009,
+        "conditions": [
+          {
+            "typeId": "login.snsid.weixin"
+          }
+        ]
+      }
+    ],
+    "youlepdk": [
+      {
+        "count": 6,
+        "itemKindId": 6002,
+        "conditions": [
+          {
+            "typeId": "login.snsid.weixin"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "广东推倒胡/鸡平胡"
+     ],
+     "md5"              : "5895a90535c8ae44b156b457ce7aa818",
+     "ver"              : "5.01",
+     "url"              : "${http_download}/hall/plugin/game/mj_guangdong_5.01_20171129_02.zip",
+     "size"             : "8.24M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "广东推倒胡/鸡平胡"
+     ],
+     "md5"              : "2cf608e5cd998e3eb231742b18588bba",
+     "ver"              : "5.03",
+     "url"              : "${http_download}/hall/plugin/game/mj_guangdong_5.03_5.zip",
+     "size"             : "9.09M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "广东推倒胡/鸡平胡"
+     ],
+     "md5"              : "33737652cbdb9657b372a04a5e02ed65",
+     "ver"              : "5.05",
+     "url"              : "${http_download}/hall/plugin/game/mj_guangdong_v5.05_v5.zip",
+     "size"             : "9.22M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "广东麻将/大众麻将"
+     ],
+     "md5"              : "1aa0b213357214e492ca2ca2617ee0ef",
+     "ver"              : "5.06",
+     "url"              : "${http_download}/hall/plugin/game/mj_guangdong_5.06_05.zip",
+     "size"             : "9.04"
+    }
+   ],
+   "description"      : [
+    "广东推倒胡/鸡平胡"
+   ],
+   "gameId"           : 702,
+   "gameMark"         : "guangdong"
+  }
+ ],
+ "templates"        : [ ]
+}

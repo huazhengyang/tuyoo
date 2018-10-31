@@ -1,0 +1,323 @@
+{
+    "templates":{
+        "default":[
+            {
+                "burialId":"userInfo",
+                "tips":"个人信息分享，暂无",
+                "pointId":66660000
+            },
+            {
+                "burialId":"tbbox",
+                "tips":"金币桌固定局数返奖分享",
+                "pointId":66660018
+            },
+            {
+                "burialId":"cash",
+                "tips":"红包兑现分享",
+                "pointId":66660001
+            },
+            {
+                "burialId":"FTInvite",
+                "tips":"朋友桌邀请分享",
+                "pointId":66660002
+            },
+            {
+                "burialId":"segementRecover",
+                "tips":"保段分享",
+                "pointId":66660011
+            },
+            {
+                "burialId":"default",
+                "tips":"默认邀请分享,微信右上角的转发分享!",
+                "pointId":66660012
+            },
+            {
+                "burialId":"DailyInvite",
+                "tips":"邀请好友给金币的分享",
+                "pointId":66660013
+            },
+            {
+                "burialId":"matchResult",
+                "tips":"比赛结算时分享",
+                "pointId":66660003
+            },
+            {
+                "burialId":"invite",
+                "tips":"邀请好友分享，福利界面那个",
+                "pointId":66660004
+            },
+            {
+                "burialId":"FetchGroupID",
+                "tips":"群排名分享",
+                "pointId":66660005
+            },
+            {
+                "burialId":"TaskDouble",
+                "tips":"任务奖励加倍，指定为群分享",
+                "pointId":66660006
+            },
+            {
+                "burialId":"RankNotify",
+                "tips":"排行榜普通分享，炫耀，支持发给好友，只配置文案",
+                "pointId":66660007
+            },
+            {
+                "burialId":"SegmentUp",
+                "tips":"升星分享，只配置文案",
+                "pointId":66660008
+            },
+            {
+                "burialId":"FTResult",
+                "tips":"朋友桌结算分享，只配置文案",
+                "pointId":66660010
+            },
+            {
+                "burialId":"MatchFix5",
+                "tips":"5元红包赛返报名费",
+                "pointId":66660101
+            },
+            {
+                "burialId":"MatchFix20",
+                "tips":"20元红包赛返报名费",
+                "pointId":66660102
+            },
+            {
+                "burialId":"MatchFix100",
+                "tips":"100元红包赛返报名费",
+                "pointId":66660103
+            },
+            {
+                "burialId":"coinRoomResult",
+                "tips":"金币桌结算分享",
+                "pointId":66660201
+            },
+            {
+                "burialId":"newerRedEnvelope",
+                "tips":"新手礼红包",
+                "pointId":66660200
+            },
+            {
+                "burialId":"coinRoomWinStreak",
+                "tips":"连胜分享",
+                "pointId":66660015
+            },
+            {
+                "burialId":"coinRoomBankruptcy1",
+                "tips":"初级场破产分享",
+                "pointId":66660017
+            },
+            {
+                "burialId":"highRate",
+                "tips":"高倍分享，只配置文案",
+                "pointId":66660009
+            },
+            {
+                "burialId":"noInvitedGetDiamond",
+                "tips":"薅羊毛用户不给星",
+                "pointId":66660019
+            },
+            {
+                "burialId":"endgameInvite",
+                "tips":"残局炫耀，普通分享",
+                "pointId":66660901
+            },
+            {
+                "burialId":"endgamePlayback",
+                "tips":"残局回放，需要播放按钮",
+                "pointId":66660902
+            },
+            {
+                "burialId":"endgameHelp",
+                "tips":"残局求助，求好友点击",
+                "pointId":66660903
+            },
+            {
+                "burialId":"rewardAsync",
+                "tips":"分享/看视频领奖",
+                "pointId":66660904
+            },
+            {
+                "burialId":"checkinDaily",
+                "tips":"新手五天签到",
+                "pointId":66660905
+            },
+            {
+                "burialId":"firstLose",
+                "tips":"新手金币桌首败",
+                "pointId":66660906
+            },
+            {
+                "burialId":"segmentAddStar",
+                "tips":"分享加星",
+                "pointId":66660907
+            },
+            {
+                "burialId": "treasureChestHelp",
+                "tips": "宝箱好友助力",
+                "pointId": 66660908
+            },
+            {
+                "burialId":"dimenShare",
+                "tips":"五维图分享",
+                "pointId":66660909
+            }
+        ],
+        "shuban": [
+            {
+                "burialId": "userInfo",
+                "tips": "个人信息分享，暂无",
+                "pointId": 77770000
+            },
+            {
+                "burialId": "tbbox",
+                "tips": "金币桌固定局数返奖分享",
+                "pointId": 77770018
+            },
+            {
+                "burialId": "cash",
+                "tips": "红包兑现分享",
+                "pointId": 77770001
+            },
+            {
+                "burialId": "FTInvite",
+                "tips": "朋友桌邀请分享",
+                "pointId": 77770002
+            },
+            {
+                "burialId": "segementRecover",
+                "tips": "保段分享",
+                "pointId": 77770011
+            },
+            {
+                "burialId": "default",
+                "tips": "默认邀请分享,微信右上角的转发分享!",
+                "pointId": 77770012
+            },
+            {
+                "burialId": "DailyInvite",
+                "tips": "邀请好友给金币的分享",
+                "pointId": 77770013
+            },
+            {
+                "burialId": "matchResult",
+                "tips": "比赛结算时分享",
+                "pointId": 77770003
+            },
+            {
+                "burialId": "invite",
+                "tips": "邀请好友分享，福利界面那个",
+                "pointId": 77770004
+            },
+            {
+                "burialId": "FetchGroupID",
+                "tips": "群排名分享",
+                "pointId": 77770005
+            },
+            {
+                "burialId": "TaskDouble",
+                "tips": "任务奖励加倍，指定为群分享",
+                "pointId": 77770006
+            },
+            {
+                "burialId": "RankNotify",
+                "tips": "排行榜普通分享，炫耀，支持发给好友，只配置文案",
+                "pointId": 77770007
+            },
+            {
+                "burialId": "SegmentUp",
+                "tips": "升星分享，只配置文案",
+                "pointId": 77770008
+            },
+            {
+                "burialId": "FTResult",
+                "tips": "朋友桌结算分享，只配置文案",
+                "pointId": 77770010
+            },
+            {
+                "burialId": "MatchFix5",
+                "tips": "5元红包赛返报名费",
+                "pointId": 77770101
+            },
+            {
+                "burialId": "MatchFix20",
+                "tips": "20元红包赛返报名费",
+                "pointId": 77770102
+            },
+            {
+                "burialId": "MatchFix100",
+                "tips": "100元红包赛返报名费",
+                "pointId": 77770103
+            },
+            {
+                "burialId": "coinRoomResult",
+                "tips": "金币桌结算分享",
+                "pointId": 77770201
+            },
+            {
+                "burialId": "newerRedEnvelope",
+                "tips": "新手礼红包",
+                "pointId": 77770200
+            },
+            {
+                "burialId": "coinRoomWinStreak",
+                "tips": "连胜分享",
+                "pointId": 77770015
+            },
+            {
+                "burialId": "coinRoomBankruptcy1",
+                "tips": "初级场破产分享",
+                "pointId": 77770017
+            },
+            {
+                "burialId": "highRate",
+                "tips": "高倍分享，只配置文案",
+                "pointId": 77770009
+            },
+            {
+                "burialId": "endgameInvite",
+                "tips": "残局炫耀，普通分享",
+                "pointId": 77770901
+            },
+            {
+                "burialId": "endgamePlayback",
+                "tips": "残局回放，需要播放按钮",
+                "pointId": 77770902
+            },
+            {
+                "burialId": "endgameHelp",
+                "tips": "残局求助，求好友点击",
+                "pointId": 77770903
+            },
+            {
+                "burialId": "rewardAsync",
+                "tips": "分享/看视频领奖",
+                "pointId": 77770904
+            },
+            {
+                "burialId": "checkinDaily",
+                "tips": "新手五天签到",
+                "pointId": 77770905
+            },
+            {
+                "burialId": "firstLose",
+                "tips": "新手金币桌首败",
+                "pointId": 77770906
+            },
+            {
+                "burialId": "segmentAddStar",
+                "tips": "分享加星",
+                "pointId": 77770907
+            },
+            {
+                "burialId": "treasureChestHelp",
+                "tips": "宝箱好友助力",
+                "pointId": 77770908
+            },
+            {
+                "burialId":"dimenShare",
+                "tips":"五维图分享",
+                "pointId":77770909
+            }
+        ]
+    }
+}

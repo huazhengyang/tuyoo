@@ -1,0 +1,26 @@
+{
+ "templates"                                : {
+  "guangdong_v3.901_AI_guangdongguanggao": {
+   "interval"                                 : 5,
+   "name"                                     : "guangdong_v3.901_AI_guangdongguanggao",
+   "ads"                                      : [
+    702031501
+   ]
+  }
+ },
+ "ads"                                      : [
+  {
+   "startTime"                                : "2017-03-15 00:00:00",
+   "id"                                       : 702031501,
+   "todotasks"                                : [
+    {
+     "actId"                                    : "juyou_guangdong_bugzjgg",
+     "typeId"                                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                : 1,
+   "pic"                                      : "${http_download}/hubei/ads/0418guanggao.jpg",
+   "endTime"                                  : "2018-08-31 00:00:00"
+  }
+ ]
+}

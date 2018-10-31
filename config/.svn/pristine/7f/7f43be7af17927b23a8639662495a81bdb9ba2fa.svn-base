@@ -1,0 +1,21 @@
+{
+    "bindInviterReward":{
+        "typeId":"FixedContent",
+        "items":[
+            {"itemId":"item:1008", "count":1},
+			{"itemId":"item:1236", "count":1},
+			{"itemId":"user:chip", "count":1000}
+        ]
+    },
+    "inviteeBindWXRewardCount":10,
+    "remindTodotask":{
+    	"typeId":"newShare.pop",
+    	"sharePointId":999901042,
+    	"urlParams":{}
+    },
+	"oldRemindTodotask":{
+    	"typeId":"newShare.pop",
+    	"sharePointId":999901047,
+    	"urlParams":{}
+    }
+}

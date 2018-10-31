@@ -1,0 +1,53 @@
+{
+  "condition": {
+    "list": [
+      {
+        "typeId": "user.cond.registerDays",
+        "startDays": 5,
+        "stopDays": -1
+      },
+      {
+        "typeId": "user.cond.segment",
+        "startSegment": 6,
+        "endSegment": -1
+      }
+    ],
+    "typeId": "user.cond.or"
+  },
+  "crossList": [
+    {
+      "appId": "wxa9b801abd43333d9",
+      "from": "pages/index/index?from=tyddz",
+      "path": "pages/index/index?from=tyddz",
+      "icon": "${http_download}/ddz/other/config/daoliu/majiang.png",
+      "show": 1,
+      "desc": "麻将"
+    },
+    {
+      "appId": "wx4806f332084cae85",
+      "from": "pages/index/index?from=tyddz",
+      "path": "pages/index/index?from=tyddz",
+      "icon": "${http_download}/ddz/other/config/daoliu/fish.png",
+      "show": 1,
+      "desc": "捕鱼"
+    },
+    {
+      "appId": "friend_table",
+      "from": "",
+      "path": "",
+      "icon": "${http_download}/ddz/other/config/daoliu/friendtable.png",
+      "show": 1,
+      "desc": "好友桌"
+    },
+    {
+      "appId": "wx1668490543c6bae9",
+      "from": "pages/recommend/index?from=tyddz",
+      "path": "pages/recommend/index?from=tyddz",
+      "icon": "${http_download}/ddz/other/config/daoliu/more.png",
+      "show": 1,
+      "desc": "更多"
+    }
+  ],
+  "crossPlayCount": 20,
+  "crossDelaySeconds": 4
+}

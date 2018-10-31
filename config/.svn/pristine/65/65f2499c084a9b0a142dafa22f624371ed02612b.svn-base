@@ -1,0 +1,18 @@
+{
+  "condition": {
+    "list": [
+      {
+        "startExp": -1,
+        "stopExp": 2,
+        "typeId": "user.cond.vipExp"
+      },
+      {
+        "startDays": -1,
+        "stopDays": -1,
+        "typeId": "user.cond.registerDays"
+      }
+    ],
+    "typeId": "user.cond.and"
+  },
+  "freshSeconds": 30
+}

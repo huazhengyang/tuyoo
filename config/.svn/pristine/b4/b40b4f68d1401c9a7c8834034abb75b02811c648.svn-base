@@ -1,0 +1,318 @@
+{
+    "buyinchip": 0,
+    "maxCoin": -1,
+    "maxCoinQS": -1,
+    "minCoin": -1,
+    "minCoinQS": -1,
+    "chat_chip": 200,
+    "chat_time": 5,        
+    "matchConf": {
+        "name": "血战到底100红包券免费赛",
+        "desc": "20:00开赛",
+        "taskDesc": "20:00开赛",
+        "timeRange": "40分钟",
+        "fees": [
+            {
+                 "desc":"1张参赛券",
+                 "count" : 1,
+                 "itemId" : "item:1007",
+                 "params" : {
+                     "failure" : "您的费用不足，本比赛报名费需1张参赛券"
+                    }
+            },
+            {
+                "desc":"100金币",
+                "count" : 100,
+                "itemId" : "user:chip",
+                "params" : {
+                    "nextTip" : "您的参赛券不足啦~使用100金币报名入场吧~\n(提示：每日登陆赠送20张参赛券喔！)",
+                    "failure" : "您的金币不足，选择其他报名条件或者买个金币礼包吧",
+                    "payOrder" : {
+                    "contains" : {
+                         "count" : 100,
+                         "itemId" : "user:chip"
+                        },
+                    "shelves" : [
+                        "lessbuychip"
+                            ]
+                        }
+                    }
+            }
+        ],
+        "rank.rewards": [
+            {
+                "desc": "100红包券",
+                "rankRange": [1,1],
+                "rewards": [
+                    {
+                        "count": 10000,
+                        "itemId": "user:coupon"
+                    }
+                ]
+            },
+            {
+                "desc": "30红包券",
+                "rankRange": [2,2],
+                "rewards": [
+                    {
+                        "count": 3000,
+                        "itemId": "user:coupon"
+                    }
+                ]
+            },
+            {
+                "desc": "300000金币",
+                "rankRange": [3,3],
+                "rewards": [
+                    {
+                        "count": 300000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "200000金币",
+                "rankRange": [4,4],
+                "rewards": [
+                    {
+                        "count": 200000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "100000金币",
+                "rankRange": [5,6],
+                "rewards": [
+                    {
+                        "count": 100000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "80000金币",
+                "rankRange": [7,8],
+                "rewards": [
+                    {
+                        "count": 80000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "50000金币",
+                "rankRange": [9,16],
+                "rewards": [
+                    {
+                        "count": 50000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "30000金币",
+                "rankRange": [17,32],
+                "rewards": [
+                    {
+                        "count": 30000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "10000金币",
+                "rankRange": [33,64],
+                "rewards": [
+                    {
+                        "count": 10000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            },
+            {
+                "desc": "5000金币",
+                "rankRange": [65,128],
+                "rewards": [
+                    {
+                        "count": 5000,
+                        "itemId": "user:chip"
+                    }
+                ]
+            }
+        ],
+        "stages": [
+            {
+                "card.count": 999,
+                "name": "海选赛",
+                "rise.user.count": 12,
+                "grouping.user.count": 40,
+                "rules": {
+                    "rise.user.refer": 16,
+                    "score.base.grow": {
+                        "base": 300,
+                        "incr": 100,
+                        "typeId": "incr"
+                    },
+                    "score.base.grow.times": 60,
+                    "score.lose": {
+                        "loseScore": 1000,
+                        "typeId": "fixed"
+                    },
+                    "typeId": "ass"
+                },
+                "score.base": 1000,
+                "score.calc": {
+                    "score": 20000,
+                    "typeId": "set"
+                }
+            },
+            {
+                "card.count": 999,
+                "name": "晋级赛",
+                "rise.user.count": 8,
+                "rules": {
+                    "rise.user.refer": 10,
+                    "score.base.grow": {
+                        "base": 200,
+                        "incr": 100,
+                        "typeId": "incr"
+                    },
+                    "score.base.grow.times": 60,
+                    "score.lose": {
+                        "loseScore": 100,
+                        "typeId": "fixed"
+                    },
+                    "typeId": "ass"
+                },
+                "score.raw":16000,
+                "score.base": 1000,
+                "score.calc": {
+                    "base": 20000,
+                    "typeId": "sqrt"
+                }
+            },
+            {
+                "card.count": 2,
+                "name": "8强赛",
+                "rise.user.count": 4,
+                "rules": {
+                    "typeId": "dieout"
+                },
+                "score.base": 100,
+                "score.calc": {
+                    "rate": 0.2,
+                    "typeId": "rate"
+                }
+            },
+            {
+                "card.count": 2,
+                "name": "决赛",
+                "rise.user.count": 1,
+                "rules": {
+                    "typeId": "dieout"
+                },
+                "score.base": 100,
+                "score.calc": {
+                    "rate": 0.2,
+                    "typeId": "rate"
+                }
+            }
+        ],
+        "start": {
+            "fee.type": 1,
+            "maxplaytime": 10800,
+            "prepare.times": 10,
+            "selectFirstStage": 0,
+            "signin.maxsize": 10000,
+            "signin.times": 86400,
+            "start.speed": 8,
+            "table.times": 480,
+            "times": {
+                "days": {
+                    "count": 365,
+                    "first": "",
+                    "interval": "1d"
+                },
+                "times_in_day": {
+                    "count": 2000,
+                    "first": "00:00",
+                    "interval": 3
+                }
+            },
+            "type": 2,
+            "user.groupsize": 10000,
+            "user.maxsize": 10000,
+            "user.minsize": 3,
+            "user.next.group": 0
+        },
+        "table.seat.count" : 4,
+        "tips": {
+            "infos": [
+                "积分相同时，按报名先后顺序确定名次。",
+                "积分低于淘汰分数线会被淘汰，称打立出局。",
+                "打立赛制有局数上限，打满局数会等待他人。",
+                "打立阶段，轮空时会记1局游戏。",
+                "定局赛制，指打固定局数后按积分排名。",
+                "每局会按照开局时的底分结算。",
+                "比赛流局时，可能会有积分惩罚。"
+            ],
+            "interval": 5
+        }
+    },
+    "playMode": "xuezhan",
+    "playModeName": "血战到底",
+    "queueConfigs": [
+        {
+            "waitTime": 10,
+            "busNumber": 16
+        },
+        {
+            "waitTime": 10,
+            "busNumber": 16                    
+        }
+    ],
+    "tableType": "match",
+    "tableConf": {
+        "robotLevel": 1,
+        "autoLevel": 0,
+        "decide_absence_timeout": 8,
+        "leave_vote_num": {
+            "4": 4
+        },
+        "refuse_leave_vote_num": {
+            "4": 1
+        },
+        "maxSeatN": 4,
+        "play_timeout": 12,
+        "room_coefficient": 1,
+        "trustee_timeout": 1,
+        "ready_max_timeout": 3600,
+        "ready_after_sit": 1,
+        "dissolve_vote_time_out": 60,
+        "tiles_no_pao": 0,
+        "hand_tiles_count": 13,
+        "gang_base": 1,
+        "win_base": 1,
+        "score_base": 0,
+        "fan_list": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            128,
+            256
+        ],
+        "max_fan": 64,
+        "threeTiles": 1,
+        "callTransfer": 1,
+        "quanyaojiuFan": 1,
+        "haidilaoyueFan": 1,
+        "tiandihuFan": 1,
+        "jiangduiFan": 0
+    },
+    "typeName": "stage_match"
+}

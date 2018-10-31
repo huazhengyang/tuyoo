@@ -1,0 +1,86 @@
+{
+    "interEmoticon": {
+        "bomb": [
+            6000, 
+            600, 
+            -600
+        ], 
+        "chicken": [
+            6000, 
+            600, 
+            -600
+        ], 
+        "doubleAce": [
+            6000, 
+            1200, 
+            1200
+        ], 
+        "eggs": [
+            6000, 
+            600, 
+            -600
+        ], 
+        "fishing": [
+            6000, 
+            600, 
+            -600
+        ], 
+        "ring": [
+            6000, 
+            1200, 
+            1200
+        ], 
+        "rose": [
+            6000, 
+            1200, 
+            1200
+        ], 
+        "thumb": [
+            6000, 
+            1200, 
+            1200
+        ]
+    }, 
+    "matchConf": {}, 
+    "maxCoin": 0, 
+    "maxCoinQS": -1, 
+    "minCoin": 300000, 
+    "minCoinQS": 600000, 
+    "minTableCount": 1, 
+    "minTriggerLen": 2, 
+    "n_recycle": 1, 
+    "name": "quick_tuhao", 
+    "playMode": "classic", 
+    "roomID": 39005, 
+    "sortId": 5, 
+    "tableConf": {
+        "bb": 6000, 
+        "big_pot": 450000, 
+        "bigpot_fee_floor": 450000, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 300000, 
+        "buyinConf": "1/2/3/4", 
+        "chat_require_vip_level": 0, 
+        "commission": 0.05, 
+        "fee": 3600, 
+        "flip_card_game": {
+            "bet": 500, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "max_bigpot_fee": 9999999999, 
+        "min_players": 2, 
+        "optime": 13, 
+        "pay_factor": 1.0, 
+        "prebet": 6000, 
+        "sb": 3000, 
+        "start_card": 2, 
+        "tname": "土豪场", 
+        "win_exp": 2
+    }, 
+    "triggerLen": 9, 
+    "typeName": "vip"
+}

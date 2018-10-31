@@ -1,0 +1,215 @@
+{
+    "typeId": "todotasks.gen.switch",
+    "list": [
+        {
+            "typeId": "todotasks.gen.single",
+            "condition": {
+                "typeId": "user.cond.tutorial",
+                "state": 0,
+                "gameId": 8
+            },
+            "todotask": {
+                "enter_param" : {
+                    "pluginParams": {
+                        "action" : "dz_show_tutorial",
+                        "params":{
+                            "fromHall":true
+                        }
+                    },
+                    "type" : "todotask"
+                },
+                "gameId": 8,
+                "delay":2,
+                "typeId" : "hall.goto.enter.game"
+            }
+        },
+		{
+            "typeId": "todotasks.gen.single",
+            "condition": {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 0
+            },
+            "todotask": {
+                "typeId": "hall.goto.activity.byid",
+                "actId": "activity_ddz_xiaojiadian_170517"
+            }
+        },
+        {
+            "typeId": "todotasks.gen.switch",
+            "condition": {
+                "typeId": "user.cond.registerDays",
+                "startDays": 1,
+                "stopDays": -1
+            },
+            "list": [
+                {
+                    "typeId": "todotasks.gen.single",
+                    "condition": {
+                        "typeId": "user.cond.and",
+                        "list": [
+                            {
+                                "typeId":"user.cond.vipLevel",
+                                "startLevel":0,
+                                "stopLevel":2
+                            },
+                            {
+                                "typeId": "user.cond.notIsMember"
+                            },
+							{
+								"typeId": "user.cond.notin.clientIds",
+								"clientIds": [20365]
+							}
+                    ]
+                    },
+                    "todotask": {
+                        "templateName": "memberBuy2"
+                    }
+                },
+                {
+                    "typeId": "todotasks.gen.single",
+                    "condition": {
+                        "typeId": "user.cond.and",
+                        "list": [
+                            {
+                                "typeId":"user.cond.vipLevel",
+                                "startLevel":0,
+                                "stopLevel":2
+                            },
+                            {
+                                "typeId": "user.cond.IsMember"
+                            },
+							{
+								"typeId": "user.cond.notin.clientIds",
+								"clientIds": [20365]
+							}
+                        ]
+                    },
+                    "todotask": {
+                        "templateName": "recommendBuy"
+                    }
+                },
+                {
+                    "typeId": "todotasks.gen.single",
+                    "condition": {
+                        "typeId": "user.cond.and",
+                        "list": [
+                            {
+                                "typeId":"user.cond.vipLevel",
+                                "startLevel":3,
+                                "stopLevel":-1
+                            },
+                            {
+                                "typeId": "user.cond.signDayMod",
+                                "mod":2,
+                                "remainder":0
+                            },
+                            {
+                            	"typeId":"user.cond.clientVersion",
+                            	"minVersion":3.76,
+                            	"maxVersion":3.77
+                            },
+							{
+								"typeId": "user.cond.notin.clientIds",
+								"clientIds": [20365]
+							}
+                        ]
+                    },
+                    "todotask": {
+                        "templateName": "recommendBuy_vip_500_300zuan"
+                    }
+                },
+                {
+                    "typeId": "todotasks.gen.single",
+                    "condition": {
+                        "typeId": "user.cond.and",
+                        "list": [
+                            {
+                                "typeId":"user.cond.vipLevel",
+                                "startLevel":3,
+                                "stopLevel":-1
+                            },
+                            {
+                                "typeId": "user.cond.signDayMod",
+                                "mod":2,
+                                "remainder":1
+                            },
+                            {
+                            	"typeId":"user.cond.clientVersion",
+                            	"minVersion":3.76,
+                            	"maxVersion":3.77
+                            },
+							{
+								"typeId": "user.cond.notin.clientIds",
+								"clientIds": [20365]
+							}
+                        ]
+                    },
+                    "todotask": {
+                        "templateName": "recommendBuy_vip_1280_1000zuan"
+                    }
+                },
+				{
+                    "typeId": "todotasks.gen.single",
+                    "condition": {
+                        "typeId": "user.cond.and",
+                        "list": [
+                            {
+                                "typeId":"user.cond.vipLevel",
+                                "startLevel":3,
+                                "stopLevel":-1
+                            },
+                            {
+                                "typeId": "user.cond.signDayMod",
+                                "mod":2,
+                                "remainder":0
+                            },
+                            {
+                            	"typeId":"user.cond.clientVersion",
+                            	"minVersion":3.77,
+                            	"maxVersion":-1
+                            },
+							{
+								"typeId": "user.cond.notin.clientIds",
+								"clientIds": [20365]
+							}
+                        ]
+                    },
+                    "todotask": {
+                        "templateName": "recommendBuy_vip_1280_1000zuan"
+                    }
+                },
+                {
+                    "typeId": "todotasks.gen.single",
+                    "condition": {
+                        "typeId": "user.cond.and",
+                        "list": [
+                            {
+                                "typeId":"user.cond.vipLevel",
+                                "startLevel":3,
+                                "stopLevel":-1
+                            },
+                            {
+                                "typeId": "user.cond.signDayMod",
+                                "mod":2,
+                                "remainder":1
+                            },
+                            {
+                            	"typeId":"user.cond.clientVersion",
+                            	"minVersion":3.77,
+                            	"maxVersion":-1
+                            },
+							{
+								"typeId": "user.cond.notin.clientIds",
+								"clientIds": [20365]
+							}
+                        ]
+                    },
+                    "todotask": {
+                        "templateName": "recommendBuy_vip_3280_3000zuan"
+                    }
+                }
+            ]
+        }
+    ]
+}

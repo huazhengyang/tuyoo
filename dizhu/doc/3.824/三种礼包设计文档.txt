@@ -1,0 +1,24 @@
+增加配置文件 giftBuff.json
+{
+    "giftBuff":{
+        {
+            "productId": "item:668070001",
+            "buff":{"xxxxxx"}
+        },
+        {
+            "productId": "item:668070002",
+            "buff":{"xxxxxx"}
+        },
+        {
+            "productId": "item:668070003",
+            "buff":{"xxxxxx"}
+        }
+    }
+}
+
+﻿监听事件TYOrderDeliveryEvent
+//TGHall.getEventBus().subscribe(TYOrderDeliveryEvent, cls.onOrderDelivery)
+
+取event.orderDeliveryResult.order.productId和配置中的productId比对，若匹配则执行相应buff逻辑
+
+

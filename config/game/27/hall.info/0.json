@@ -1,0 +1,13 @@
+{
+  "room_items" : {
+    "27001": {"id":27001, "name":"普通厅", "basebet":100, "mincoin":-1, "maxcoin":-1, "config":0, "condition":"1万金币准入", "minDragInChip": 5000000,"upperLimitNums":150,"isRoomState":0}
+  },
+
+  "session_items" : {
+    "clown": {"session":"欢乐小丑","roomName":"普通场", "match":0, "gameType":1, "roomCount":1, "onLineCount": 0,"rooms": ["27001"]}
+  },
+
+  "templates" : {
+    "default" : ["clown"]
+  }
+}

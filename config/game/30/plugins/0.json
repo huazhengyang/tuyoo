@@ -1,0 +1,199 @@
+{
+    "handlers": [
+        {
+            "name": "lead_to_pay_v1",
+            "module": "t3card.plugins.lead_to_pay_v1",
+            "class": "LeadToPay",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GameBiEventReporter",
+            "module": "gamble.plugins.game_bi_event_reporter",
+            "class": "GameBiEventReporter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "RebuyNotify",
+            "module": "gamble.plugins.mtt.rebuy_notify",
+            "class": "RebuyNotify",
+            "handle": "event_handle"
+        },
+        {
+            "name": "DelayReward",
+            "module": "gamble.plugins.mtt.delay_reward",
+            "class": "DelayReward",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_pay",
+            "module": "gamble.plugins.table_pay",
+            "class": "TablePay",
+            "handle": "event_handle"
+        },
+        {
+            "name": "vip_table_list",
+            "module": "t3card.plugins.vip_table_list",
+            "class": "VipTableList",
+            "handle": "event_handle"
+        },
+        {
+            "name": "play_count",
+            "module": "t3card.plugins.play_count",
+            "class": "PlayerCounter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_chat",
+            "module": "t3card.plugins.table_chat",
+            "class": "TableChat",
+            "handle": "event_handle"
+        },
+        {
+            "name": "deceiver",
+            "module": "t3card.plugins.deceiver",
+            "class": "Deceiver",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_count",
+            "module": "t3card.plugins.table_count",
+            "class": "TableCount",
+            "handle": "event_handle"
+        },
+        {
+            "name": "tbox",
+            "module": "t3card.plugins.tbox",
+            "class": "Tbox_new",
+            "handle": "event_handle"
+        },
+        {
+            "name": "notify",
+            "module": "gamble.plugins.notify",
+            "class": "Notify",
+            "handle": "event_handle"
+        },
+        {
+            "name": "MTTCounter",
+            "module": "t3card.plugins.mtt_counter",
+            "class": "MTTCounter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GM",
+            "module": "t3card.plugins.gm",
+            "class": "GM",
+            "handle": "event_handle"
+        },
+        {
+            "name": "Annouce",
+            "module": "t3card.plugins.announce",
+            "class": "Annouce",
+            "handle": "event_handle"
+        },
+        {
+            "name": "VipTableListDataCounter",
+            "module": "t3card.plugins.vip_table_list_data_counter",
+            "class": "VipTableListDataCounter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "LeadToVipRoom",
+            "module": "gamble.plugins.lead_to_vip_room",
+            "class": "LeadToVipRoom",
+            "handle": "event_handle"
+        },
+        {
+            "name": "LeadToBiggerRoom",
+            "module": "gamble.plugins.lead_to_bigger_room",
+            "class": "LeadToBiggerRoom",
+            "handle": "event_handle"
+        },
+        {
+            "name": "JackPot",
+            "module": "t3card.plugins.jack_pot.jack_pot",
+            "class": "JackPot",
+            "handle": "event_handle"
+        },
+        {
+            "name": "misc",
+            "module": "t3card.plugins.misc",
+            "class": "Misc",
+            "handle": "event_handle"
+        },
+        {
+            "name": "XiJin",
+            "module": "t3card.plugins.xi_jin",
+            "object": "XiJin",
+            "handle": "event_handle"
+        },
+        {
+            "name": "shark",
+            "module": "t3card.plugins.shark",
+            "class": "Shark",
+            "handle": "event_handle"
+        },
+        {
+            "name": "dealer_care",
+            "module": "t3card.plugins.table_dealer_care",
+            "object": "TableDealerCare",
+            "handle": "event_handle"
+        },
+        {
+            "name": "AfterOrderDeliveryProcess",
+            "module": "gamble.plugins.after_order_delivery",
+            "class": "AfterOrderDeliveryProcess",
+            "handle": "event_handle"
+        },
+        {
+            "name": "TicketExchanging",
+            "module": "gamble.plugins.ticket_exchanging",
+            "object": "TicketExchanging",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GloryWinner",
+            "module": "t3card.plugins.glory.winner",
+            "class": "Winner",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GloryChampion",
+            "module": "t3card.plugins.glory.champion",
+            "class": "Champion",
+            "handle": "event_handle"
+        },
+        {
+            "name": "MatchPreview",
+            "module": "t3card.plugins.match_preview",
+            "class": "MatchPreview",
+            "handle": "event_handle"
+        },
+        {
+            "name": "game_config",
+            "module": "t3card.plugins.game_config",
+            "class": "GameConfig",
+            "handle": "event_handle"
+        },
+        {
+            "name": "quest",
+            "module": "t3card.plugins.quest.quest",
+            "object": "Quest",
+            "handle": "event_handle"
+        },
+        {
+            "name": "ActSnowflake",
+            "module": "gamble.plugins.act_snowflake",
+            "object": "ActSnowflake",
+            "handle": "event_handle"
+        },
+        {
+            "name": "AfterLogin",
+            "module": "t3card.plugins.afterlogin",
+            "class": "AfterLogin",
+            "handle": "event_handle"
+        }
+    ],
+    "event_seq": {
+        "EV_TABLE_CHAT": ["table_chat", "...", "achievement"]
+    }
+}

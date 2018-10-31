@@ -1,0 +1,88 @@
+{
+    "interEmoticon": {
+        "bomb": [
+            200, 
+            20, 
+            -20
+        ], 
+        "chicken": [
+            200, 
+            20, 
+            -20
+        ], 
+        "doubleAce": [
+            200, 
+            40, 
+            40
+        ], 
+        "eggs": [
+            200, 
+            20, 
+            -20
+        ], 
+        "fishing": [
+            200, 
+            20, 
+            -20
+        ], 
+        "ring": [
+            200, 
+            40, 
+            40
+        ], 
+        "rose": [
+            200, 
+            40, 
+            40
+        ], 
+        "thumb": [
+            200, 
+            40, 
+            40
+        ]
+    }, 
+    "matchConf": {}, 
+    "maxCoin": 0, 
+    "maxCoinQS": 100000, 
+    "minCoin": 10000, 
+    "minCoinQS": 10000, 
+    "minTriggerLen": 2, 
+    "n_recycle": 3, 
+    "name": "quick_normal", 
+    "playMode": "classic", 
+    "roomID": 39001, 
+    "sortId": 1, 
+    "tableConf": {
+        "bb": 200, 
+        "big_pot": 15000, 
+        "bigpot_fee_floor": 15000, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 10000, 
+        "buyinConf": "1/2", 
+        "chat_require_vip_level": 0, 
+        "commission": 0.05, 
+        "fee": 120, 
+        "flip_card_game": {
+            "bet": 0, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "lose_exp": 1, 
+        "maxSeatN": 6, 
+        "max_bigpot_fee": 9999999999, 
+        "min_players": 2, 
+        "optime": 13, 
+        "pay_factor": 1.0, 
+        "prebet": 0, 
+        "sb": 100, 
+        "scheduleFloor": 2, 
+        "start_card": 2, 
+        "timeup": 5, 
+        "tname": "白领场", 
+        "validate_fold_limit": 100, 
+        "win_exp": 2
+    }, 
+    "triggerLen": 6, 
+    "typeName": "queue"
+}

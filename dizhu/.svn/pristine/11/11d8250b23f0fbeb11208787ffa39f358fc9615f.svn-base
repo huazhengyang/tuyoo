@@ -1,0 +1,23 @@
+1，table_info添加字段
+	{
+		"cmd":"table_info",
+		"result":{
+	        "winsConf": {						# 有这个字段就表示该房间开启了连胜任务
+	        	"cur":0,     				# 玩家当前的任务索引
+	        	"conf":[
+	        		{
+	    				"count":10,
+	    				"itemId":"user:chip"
+	        		},
+	        		{
+	        			"count":10,
+	    				"itemId":"user:chip"
+	        		},
+	        		{
+	        			"count":10,
+	    				"itemId":"user:chip"
+	        		}
+	        	]
+	        }
+		}
+	}

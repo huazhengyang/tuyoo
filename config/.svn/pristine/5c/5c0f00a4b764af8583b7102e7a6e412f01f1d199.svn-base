@@ -1,0 +1,393 @@
+{
+    "templates": {
+        "default": {
+            "optimedis": "您的上家网络不好，等他一会儿吧",
+            "quick_start_errinfo": {
+                "1": "您正在玩另一个途游游戏,请稍后再试",
+                "2": "服务器内部错误,请稍后再试",
+                "3": "当前房间已满,请选择其他房间进行游戏",
+                "4": "您的金币不足无法进入此房间，赶紧充值吧！",
+                "5": "亲~您太富有了，该去更高级的房间战斗啦！",
+                "6": "亲~您太富有了，没有房间可以玩啦！",
+                "7": "当前房间已满,请稍后再试",
+                "8": "亲~比赛时间未到哦",
+                "9": "你的积分不满足该房间!",
+                "10": "服务器内部错误,请退出客户端,重新登录",
+                "101": "你没有进入该房间的门票",
+                "17": "服务器即将维护，请稍后再试",
+                "18": "服务器即将维护，请稍后再试"
+            },
+            "chess_book": [],
+            "arena_reward": [
+                {
+                    "start_date": "2016-12-28",
+                    "end_date": "2017-1-4",
+                    "title":"擂台闯关  豪礼相送",
+                    "desc":"2016年12月29日-2017年1月4日，在擂台场举办“擂台闯关豪礼相送”活动，对升级到相应关数玩家发放奖励如下：\n  第2关：300金币；\n  第3关：参赛券1张；\n  第4关：幸运卡1张；\n  第5关：1000金币：\n  第6关：2000金币；\n  第7关：3000金币；\n  第8关：幸运戒指1枚；\n  第9关：天使头环3天；\n  第10关：天使之翼3天。",
+                    "message":"恭喜您，在“擂台赛“活动中达到第%s关，获得%s",
+                    "reward": {
+                        "2":[
+                            {"itemId":"user:chip", "count":300, "name":"300金币"}
+                        ],
+                        "3":[
+                            {"itemId":"item:1007", "count":1, "name":"参赛券1张"}
+                        ],
+                        "4":[
+                            {"itemId":"item:4167", "count":1, "name":"幸运卡1张"}
+                        ],
+                        "5":[
+                            {"itemId":"user:chip", "count":1000, "name":"1000金币"}
+                        ],
+                        "6":[
+                            {"itemId":"user:chip", "count":2000, "name":"2000金币"}
+                        ],
+                        "7":[
+                            {"itemId":"user:chip", "count":3000, "name":"3000金币"}
+                        ],
+                        "8":[
+                            {"itemId":"item:1020", "count":1, "name":"幸运戒指1枚"}
+                        ],
+                        "9":[
+                            {"itemId":"item:4107", "count":3, "name":"天使头环3天"}
+                        ],
+                        "10":[
+                            {"itemId":"item:4121", "count":3, "name":"天使之翼3天"}
+                        ]
+                    }
+                }
+            ],
+            "chess_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/king_match_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "棋王争霸"
+                }
+            ],
+            "chess_relaxation_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxation_match_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "chess_renman_match_ads":[
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/renman_match_8ren.jpg",
+                    "gotoUrl": "",
+                    "des": "8人快速赛"
+                }
+            ],
+            "shareMessage" : "请将房间号:%s告诉你的好友，好友在自建桌输入房号即可进入房间。",
+            "shareTitle" : "房间号 : %s",
+            "shareDesc" : "我在 途游中国象棋 里开好了房间等你哦！在游戏自建桌中输入房间号%s来对局吧！",
+            "shareTitleJieqi" : "【揭棋】房间号 : %s",
+            "shareDescJieqi" : "我在 途游中国象棋 里开好了房间等你哦！在游戏自建桌中输入房间号%s来对局吧！",
+            "sharePieceTextUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/replay/index.html?ver=2017090701",
+            "downLoadGameUrl": "http://3g.tuyoo.com/2015/chess_0618/5.html"
+        },
+        "hejiaoyu": {
+            "optimedis": "您的上家网络不好，等他一会儿吧",
+            "quick_start_errinfo": {
+                "1": "您正在玩另一个途游游戏,请稍后再试",
+                "2": "服务器内部错误,请稍后再试",
+                "3": "当前房间已满,请选择其他房间进行游戏",
+                "4": "您的金币不足无法进入此房间，赶紧充值吧！",
+                "5": "亲~您太富有了，该去更高级的房间战斗啦！",
+                "6": "亲~您太富有了，没有房间可以玩啦！",
+                "7": "当前房间已满,请稍后再试",
+                "8": "亲~比赛时间未到哦",
+                "9": "你的积分不满足该房间!",
+                "10": "服务器内部错误,请退出客户端,重新登录",
+                "17": "服务器即将维护，请稍后再试",
+                "18": "服务器即将维护，请稍后再试"
+            },
+            "chess_book": [],
+            "double_exp": [
+                {
+                    "dateType": 1,
+                    "start_date": "2016-09-27",
+                    "end_date": "2016-09-28",
+                    "start_time": "14:50:00",
+                    "end_time": "16:50:00",
+                    "doubleN": 2
+                },
+                {
+                    "dateType": 2,
+                    "week_day_list": [
+                        6,
+                        7
+                    ],
+                    "start_time": "20:00:00",
+                    "end_time": "22:00:00",
+                    "doubleN": 2
+                }
+            ],
+            "arena_reward": [
+                {
+                    "start_date": "2016-12-28",
+                    "end_date": "2017-1-4",
+                    "title":"擂台闯关  豪礼相送",
+                    "desc":"2016年12月29日-2017年1月4日，在擂台场举办“擂台闯关豪礼相送”活动，对升级到相应关数玩家发放奖励如下：\n  第2关：300金币；\n  第3关：参赛券1张；\n  第4关：幸运卡1张；\n  第5关：1000金币：\n  第6关：2000金币；\n  第7关：3000金币；\n  第8关：幸运戒指1枚；\n  第9关：天使头环3天；\n  第10关：天使之翼3天。",
+                    "message":"恭喜您，在“擂台赛“活动中达到第%s关，获得%s",
+                    "reward": {
+                        "2":[
+                            {"itemId":"user:chip", "count":300, "name":"300金币"}
+                        ],
+                        "3":[
+                            {"itemId":"item:1007", "count":1, "name":"参赛券1张"}
+                        ],
+                        "4":[
+                            {"itemId":"item:4167", "count":1, "name":"幸运卡1张"}
+                        ],
+                        "5":[
+                            {"itemId":"user:chip", "count":1000, "name":"1000金币"}
+                        ],
+                        "6":[
+                            {"itemId":"user:chip", "count":2000, "name":"2000金币"}
+                        ],
+                        "7":[
+                            {"itemId":"user:chip", "count":3000, "name":"3000金币"}
+                        ],
+                        "8":[
+                            {"itemId":"item:1020", "count":1, "name":"幸运戒指1枚"}
+                        ],
+                        "9":[
+                            {"itemId":"item:4107", "count":3, "name":"天使头环3天"}
+                        ],
+                        "10":[
+                            {"itemId":"item:4121", "count":3, "name":"天使之翼3天"}
+                        ]
+                    }
+                }
+            ],
+            "chess_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/chess_match_20160524001.jpg",
+                    "gotoUrl": "http://www.tuyoo.com/",
+                    "des": "棋王争霸"
+                },
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/chess_match_20160524001.jpg",
+                    "gotoUrl": "http://www.tuyoo.com/",
+                    "des": "棋王争霸"
+                },
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/chess_match_20160524001.jpg",
+                    "gotoUrl": "http://www.tuyoo.com/",
+                    "des": "棋王争霸"
+                }
+            ],
+            "chess_relaxation_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxation_match_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "chess_renman_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/renman_match_8ren.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "shareMessage" : "请将房间号:%s告诉你的好友，好友在自建桌输入房号即可进入房间。",
+            "shareTitle" : "房间号 : %s",
+            "shareDesc" : "我在 途游中国象棋 里开好了房间等你哦！在游戏自建桌中输入房间号%s来对局吧！",
+            "shareTitleJieqi" : "【揭棋】房间号 : %s",
+            "shareDescJieqi" : "我在 途游中国象棋 里开好了房间等你哦！在游戏自建桌中输入房间号%s来对局吧！",
+            "sharePieceTextUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/replay/index.html?ver=2017090701",
+            "downLoadGameUrl": "http://3g.tuyoo.com/2015/chess_0618/5.html"
+        },
+        "huawei": {
+            "optimedis": "您的上家网络不好，等他一会儿吧",
+            "quick_start_errinfo": {
+                "1": "您正在玩另一个途游游戏,请稍后再试",
+                "2": "服务器内部错误,请稍后再试",
+                "3": "当前房间已满,请选择其他房间进行游戏",
+                "4": "您的金币不足无法进入此房间，赶紧充值吧！",
+                "5": "亲~您太富有了，该去更高级的房间战斗啦！",
+                "6": "亲~您太富有了，没有房间可以玩啦！",
+                "7": "当前房间已满,请稍后再试",
+                "8": "亲~比赛时间未到哦",
+                "9": "你的积分不满足该房间!",
+                "10": "服务器内部错误,请退出客户端,重新登录",
+                "17": "服务器即将维护，请稍后再试",
+                "18": "服务器即将维护，请稍后再试"
+            },
+            "chess_book": [],
+            "double_exp": [
+                {
+                    "dateType": 1,
+                    "start_date": "2016-09-27",
+                    "end_date": "2016-09-28",
+                    "start_time": "14:50:00",
+                    "end_time": "16:50:00",
+                    "doubleN": 2
+                },
+                {
+                    "dateType": 2,
+                    "week_day_list": [
+                        6,
+                        7
+                    ],
+                    "start_time": "20:00:00",
+                    "end_time": "22:00:00",
+                    "doubleN": 2
+                }
+            ],
+            "arena_reward": [
+                {
+                    "start_date": "2016-12-28",
+                    "end_date": "2017-1-4",
+                    "title":"擂台闯关  豪礼相送",
+                    "desc":"2016年12月29日-2017年1月4日，在擂台场举办“擂台闯关豪礼相送”活动，对升级到相应关数玩家发放奖励如下：\n  第2关：300金币；\n  第3关：参赛券1张；\n  第4关：幸运卡1张；\n  第5关：1000金币：\n  第6关：2000金币；\n  第7关：3000金币；\n  第8关：幸运戒指1枚；\n  第9关：天使头环3天；\n  第10关：天使之翼3天。",
+                    "message":"恭喜您，在“擂台赛“活动中达到第%s关，获得%s",
+                    "reward": {
+                        "2":[
+                            {"itemId":"user:chip", "count":300, "name":"300金币"}
+                        ],
+                        "3":[
+                            {"itemId":"item:1007", "count":1, "name":"参赛券1张"}
+                        ],
+                        "4":[
+                            {"itemId":"item:4167", "count":1, "name":"幸运卡1张"}
+                        ],
+                        "5":[
+                            {"itemId":"user:chip", "count":1000, "name":"1000金币"}
+                        ],
+                        "6":[
+                            {"itemId":"user:chip", "count":2000, "name":"2000金币"}
+                        ],
+                        "7":[
+                            {"itemId":"user:chip", "count":3000, "name":"3000金币"}
+                        ],
+                        "8":[
+                            {"itemId":"item:1020", "count":1, "name":"幸运戒指1枚"}
+                        ],
+                        "9":[
+                            {"itemId":"item:4107", "count":3, "name":"天使头环3天"}
+                        ],
+                        "10":[
+                            {"itemId":"item:4121", "count":3, "name":"天使之翼3天"}
+                        ]
+                    }
+                }
+            ],
+            "chess_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/king_match_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "棋王争霸"
+                }
+            ],
+            "chess_relaxation_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/huawei_relaxtion_match_ads_20170420.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "chess_renman_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/renman_match_8ren.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "shareMessage" : "请将房间号:%s告诉你的好友，好友在自建桌输入房号即可进入房间。",
+            "shareTitle" : "房间号 : %s",
+            "shareDesc" : "我在 途游中国象棋 里开好了房间等你哦！在游戏自建桌中输入房间号%s来对局吧！",
+            "shareTitleJieqi" : "【揭棋】房间号 : %s",
+            "shareDescJieqi" : "我在 途游中国象棋 里开好了房间等你哦！在游戏自建桌中输入房间号%s来对局吧！",
+            "sharePieceTextUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/replay/index.html?ver=2017090701",
+            "downLoadGameUrl": "http://3g.tuyoo.com/2015/chess_0618/5.html"
+        },
+        "ios_tishen": {
+            "optimedis": "您的上家网络不好，等他一会儿吧",
+            "hideJieQi": 1,
+            "quick_start_errinfo": {
+                "1": "您正在玩另一个途游游戏,请稍后再试",
+                "2": "服务器内部错误,请稍后再试",
+                "3": "当前房间已满,请选择其他房间进行游戏",
+                "4": "您的金币不足无法进入此房间，赶紧充值吧！",
+                "5": "亲~您太富有了，该去更高级的房间战斗啦！",
+                "6": "亲~您太富有了，没有房间可以玩啦！",
+                "7": "当前房间已满,请稍后再试",
+                "8": "亲~比赛时间未到哦",
+                "9": "你的积分不满足该房间!",
+                "10": "服务器内部错误,请退出客户端,重新登录",
+                "101": "你没有进入该房间的门票",
+                "17": "服务器即将维护，请稍后再试",
+                "18": "服务器即将维护，请稍后再试"
+            },
+            "chess_book": [],
+            "arena_reward": [
+                {
+                    "start_date": "2016-12-28",
+                    "end_date": "2017-1-4",
+                    "title":"擂台闯关  豪礼相送",
+                    "desc":"2016年12月29日-2017年1月4日，在擂台场举办“擂台闯关豪礼相送”活动，对升级到相应关数玩家发放奖励如下：\n  第2关：300金币；\n  第3关：参赛券1张；\n  第4关：幸运卡1张；\n  第5关：1000金币：\n  第6关：2000金币；\n  第7关：3000金币；\n  第8关：幸运戒指1枚；\n  第9关：天使头环3天；\n  第10关：天使之翼3天。",
+                    "message":"恭喜您，在“擂台赛“活动中达到第%s关，获得%s",
+                    "reward": {
+                        "2":[
+                            {"itemId":"user:chip", "count":300, "name":"300金币"}
+                        ],
+                        "3":[
+                            {"itemId":"item:1007", "count":1, "name":"参赛券1张"}
+                        ],
+                        "4":[
+                            {"itemId":"item:4167", "count":1, "name":"幸运卡1张"}
+                        ],
+                        "5":[
+                            {"itemId":"user:chip", "count":1000, "name":"1000金币"}
+                        ],
+                        "6":[
+                            {"itemId":"user:chip", "count":2000, "name":"2000金币"}
+                        ],
+                        "7":[
+                            {"itemId":"user:chip", "count":3000, "name":"3000金币"}
+                        ],
+                        "8":[
+                            {"itemId":"item:1020", "count":1, "name":"幸运戒指1枚"}
+                        ],
+                        "9":[
+                            {"itemId":"item:4107", "count":3, "name":"天使头环3天"}
+                        ],
+                        "10":[
+                            {"itemId":"item:4121", "count":3, "name":"天使之翼3天"}
+                        ]
+                    }
+                }
+            ],
+            "chess_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/king_match_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "棋王争霸"
+                }
+            ],
+            "chess_relaxation_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxation_match_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "chess_renman_match_ads":[
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/renman_match_8ren.jpg",
+                    "gotoUrl": "",
+                    "des": "8人快速赛"
+                }
+            ],
+            "shareMessage" : "请将房间号:%s告诉你的好友，好友在自建桌输入房号即可进入房间。",
+            "shareTitle" : "房间号 : %s",
+            "shareDesc" : "我在 途游中国象棋 里开好了房间等你哦！在游戏自建桌中输入房间号%s来对局吧！",
+            "shareTitleJieqi" : "【揭棋】房间号 : %s",
+            "shareDescJieqi" : "我在 途游中国象棋 里开好了房间等你哦！在游戏自建桌中输入房间号%s来对局吧！",
+            "sharePieceTextUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/replay/index.html?ver=2017090701",
+            "downLoadGameUrl": "http://3g.tuyoo.com/2015/chess_0618/5.html"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "cycleDays": 7,
+  "rewardList": [
+    {
+      "startCount": 1,
+      "endCount": 1,
+      "rewardDesc": "0.3元红包券+1天记牌器",
+      "rewardPic": "",
+      "rewards": [
+        {
+          "itemId": "user:coupon",
+          "count": 30,
+          "pic": ""
+        },
+        {
+          "itemId": "item:2003",
+          "count": 1,
+          "pic": ""
+        }
+      ]
+    },
+    {
+      "startCount": 2,
+      "endCount": -1,
+      "rewardDesc": "2000金币+1钻石+1天记牌器",
+      "rewardPic": "",
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 2000,
+          "pic": ""
+        },
+        {
+          "itemId": "item:1311",
+          "count": 1,
+          "pic": ""
+        },
+        {
+          "itemId": "item:2003",
+          "count": 1,
+          "pic": ""
+        }
+      ]
+    }
+  ]
+}

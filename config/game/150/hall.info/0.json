@@ -1,0 +1,320 @@
+{
+  "room_items" : {
+    "mt150072": {
+        "avator": "${http_download}/dizhu/room/imgs/matchlist_20yuanhongbao_1103.png",
+        "signupFee": {
+            "desc": "免费报名"
+        },
+        "matchCondition": {
+            "type": "static",
+            "top": "第1名获奖",
+            "bottom": "满3人开赛"
+        },
+        "countdownTime": 600,
+        "secondAlarmTime": 60,
+        "condition": "满3人开赛",
+        "config": 4,
+        "entry": "报名费:无",
+        "id": 150072,
+        "least": 0,
+        "mixId": "150072",
+        "showAllReward" :1,
+        "name": "跑得快金币赛",
+        "showInfo": {
+            "name": "跑得快金币赛",
+            "playerCntKind": "playerCnt",
+            "gameDes": "冠军奖励1万金币",
+            "extendInfo": "满3人开赛"
+        },
+        "nameurl": "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt150001": {
+      "condition": "0金币准入",
+      "minQuickStartChip":0,
+      "config": 0,
+      "entry": "底注10金币",
+      "id": 150001,
+      "least": 10,
+      "name": "经典场",
+      "showInfo": {
+          "name": "好友桌对战场",
+          "namezyy" : "好友桌对战场zzy",
+          "playerCntKind": "playerCnt",
+          "gameDes": "和好友欢乐对战",
+          "extendInfo": ""
+      },
+      "nameurl": "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "mt150002": {
+      "condition": "0金币准入",
+      "minQuickStartChip":0,
+      "config": 0,
+      "entry": "底注10金币",
+      "id": 150002,
+      "least": 10,
+      "name": "经典场",
+      "showInfo": {
+          "name": "新手训练场(10底)",
+          "namezyy" : "新手训练场",
+          "playerCntKind": "playerCnt",
+          "gameDes": "连胜送话费",
+          "extendInfo": ""
+      },
+      "nameurl": "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "mt150003": {
+      "condition": "40000金币准入",
+      "minQuickStartChip":0,
+      "config": 0,
+      "entry": "底注10金币",
+      "id": 150003,
+      "least": 10,
+      "name": "经典场",
+      "showInfo": {
+          "name": "初级场(10底)",
+          "namezyy" : "初级场",
+          "playerCntKind": "playerCnt",
+          "gameDes": "连胜送话费",
+          "extendInfo": ""
+      },
+      "nameurl": "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "mt150004": {
+      "condition": "2W金币准入",
+      "minQuickStartChip":0,
+      "config": 0,
+      "entry": "底注10金币",
+      "id": 150004,
+      "least": 10,
+      "name": "经典场",
+      "showInfo": {
+          "name": "中级场(10底)",
+          "namezyy" : "中级场",
+          "playerCntKind": "playerCnt",
+          "gameDes": "连胜送话费",
+          "extendInfo": ""
+      },
+      "nameurl": "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "mt150005": {
+      "condition": "0金币准入",
+      "minQuickStartChip":0,
+      "config": 0,
+      "entry": "底注10金币",
+      "id": 150005,
+      "least": 10,
+      "name": "经典场",
+      "showInfo": {
+          "name": "高级场(10底)",
+          "namezyy" : "高级场",
+          "playerCntKind": "playerCnt",
+          "gameDes": "连胜送话费",
+          "extendInfo": ""
+      },
+      "nameurl": "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "jd10": {
+      "condition": "200金币准入",
+      "minQuickStartChip":0,
+      "config": 0,
+      "entry": "底注10金币",
+      "id": 150011,
+      "least": 10,
+      "name": "经典场",
+      "showInfo": {
+          "name": "新手训练场(10底)",
+          "namezyy" : "新手训练场",
+          "playerCntKind": "playerCnt",
+          "gameDes": "连胜送话费",
+          "extendInfo": ""
+      },
+      "nameurl": "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "jd100": {
+      "condition": "5000金币准入",
+      "minQuickStartChip":5000,
+      "config": 0,
+      "entry": "底注100金币",
+      "id": 150012,
+      "least": 100,
+      "name": "经典场",
+      "showInfo": {
+          "name": "初级场(100底)",
+          "namezyy" : "初级场",
+          "playerCntKind": "playerCnt",
+          "gameDes": "连胜送话费",
+          "extendInfo": ""
+      },
+      "nameurl": "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "jd1000": {
+      "condition": "50000金币准入",
+      "minQuickStartChip":50000,
+      "config": 0,
+      "entry": "底注1000金币",
+      "id": 150013,
+      "least": 1000,
+      "name": "经典场",
+      "showInfo": {
+          "name": "中级场(1000底)",
+          "namezyy" : "中级场",
+          "playerCntKind": "playerCnt",
+          "gameDes": "连胜送话费",
+          "extendInfo": ""
+      },
+      "nameurl": "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "jd5000": {
+      "condition": "200000金币准入",
+      "minQuickStartChip":200000,
+      "config": 0,
+      "entry": "底注5000金币",
+      "id": 150014,
+      "least": 5000,
+      "name": "经典场",
+      "showInfo": {
+          "name": "高级场(5000底)",
+          "namezyy" : "高级场",
+          "playerCntKind": "playerCnt",
+          "gameDes": "连胜送话费",
+          "extendInfo": ""
+      },
+      "nameurl": "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+	"arena1": {
+			"avator": "${http_download}/dizhu/room/imgs/matchlist_1yuanhongbao_1103.png",
+			"signupFee": {
+				"desc": "免费"
+			},
+			"matchCondition": {
+				"type": "static",
+				"top": "前45名获奖",
+				"bottom": "满90人开赛"
+			},
+			"countdownTime": 600,
+			"secondAlarmTime": 60,
+			"condition": "90人开赛",
+			"config": 4,
+			"entry": "报名费:免费",
+			"id": 150081,
+			"quickSignin":1,
+			"zyyQuickSignin":1,
+			"least": 0,
+			"name": "1元话费赛",
+			"showInfo": {
+				"name": "1元红包赛(免费)",
+				"namezyy" : "新手训练场",
+				"playerCntKind": "playerCnt",
+				"gameDes": "冠军奖励1元话费",
+				"extendInfo": "满90人开赛"
+			},
+			"nameurl": "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+	"arena3": {
+			"avator": "${http_download}/dizhu/room/imgs/matchlist_5yuanhongbao_1103_new.png",
+			"signupFee": {
+				"desc": "免费"
+			},
+			"matchCondition": {
+				"type": "static",
+				"top": "前180名获奖",
+				"bottom": "满600人开赛"
+			},
+			"countdownTime": 600,
+			"secondAlarmTime": 60,
+			"condition": "600人开赛",
+			"config": 4,
+			"entry": "报名费:免费",
+			"id": 150082,
+			"showAllReward" :1,
+			"quickSignin":1,
+			"least": 0,
+			"name": "5元红包赛（赢牌奖）",
+			"showInfo": {
+				"name": "5元红包赛(免费)",
+				"playerCntKind": "playerCnt",
+				"gameDes": "冠军奖励3元红包",
+				"extendInfo": "满600人开赛"
+			},
+			"nameurl": "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    }
+  },
+  "session_items" : {
+    "mt_arena": {
+        "description": [
+            "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+            "2、为保证公平，一些比赛隐藏了对手信息。"
+        ],
+        "match": 1,
+        "new": 1,
+        "rooms": [
+            "mt150072"
+        ],
+        "session": "比赛场"
+    },
+    "mt_normal": {
+        "description": [
+            "为保证公平，一些比赛隐藏了对手信息。"
+        ],
+        "match": 0,
+        "new": 1,
+        "rooms": [
+            "mt150002",
+            "mt150003",
+            "mt150004",
+            "mt150005",
+            "mt150072"
+        ],
+        "session": "普通场"
+    },
+    "mt_friend": {
+        "description": [
+            "为保证公平，一些比赛隐藏了对手信息。"
+        ],
+        "match": 0,
+        "new": 1,
+        "rooms": [
+            "mt150001"
+        ],
+        "session": "好友桌"
+    },
+    "jd": {
+        "description": [
+            "为保证公平，一些比赛隐藏了对手信息。"
+        ],
+        "match": 0,
+        "new": 1,
+        "rooms": [
+            "jd10",
+			"jd100",
+			"jd1000",
+			"jd5000"
+        ],
+        "session": "经典场"
+    },
+	"arena": {
+        "description": [
+            "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+            "2、为保证公平，一些比赛隐藏了对手信息。"
+        ],
+        "match": 1,
+        "new": 1,
+        "rooms": [
+            "arena1",
+			"arena3"
+        ],
+        "session": "比赛场"
+    }
+  },
+  "templates" : {
+    "default": [
+      "mt_arena",
+      "mt_normal",
+      "mt_friend"
+    ],
+	"pdk_app": [
+      "jd",
+	  "arena"
+    ]
+   }
+}

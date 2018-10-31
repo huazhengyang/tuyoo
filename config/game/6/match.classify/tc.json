@@ -1,0 +1,34 @@
+{
+    "introduction": "本配置表用于比赛分类，对应地主插件版本3.827及以上",
+    "templates": {
+        "default": [
+            {
+                "index":0,
+                "desc":"红包赛",
+                "entry":{
+                    "normal" : "${http_download}/dizhu/room/imgs/new_match_red_normal.png",
+                    "select" : "${http_download}/dizhu/room/imgs/new_match_red_select.png"
+                },
+                "roomIds": [6075]
+            },
+            {
+                "index":2,
+                "desc":"实物赛",
+                "entry":{
+                    "normal" : "${http_download}/dizhu/room/imgs/new_match_free_normal.png",
+                    "select" : "${http_download}/dizhu/room/imgs/new_match_free_select.png"
+                },
+                "roomIds": []
+            },
+            {
+                "index": 1,
+                "desc":"福利赛",
+                "entry":{
+                    "normal" : "${http_download}/dizhu/room/imgs/new_match_fuli_normal_1.png",
+                    "select" : "${http_download}/dizhu/room/imgs/new_match_fuli_select.png"
+                },
+                "roomIds": []
+            }
+        ]
+    }
+}

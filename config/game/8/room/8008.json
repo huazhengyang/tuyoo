@@ -1,0 +1,103 @@
+{
+    "autoQueue": 0.0, 
+    "couponActCfg": {
+        "add": 0, 
+        "memberAdd": 0, 
+        "timeSegs": [
+            [
+                [
+                    12, 
+                    0
+                ], 
+                [
+                    24, 
+                    0
+                ]
+            ]
+        ]
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            20000, 
+            2000, 
+            -2000
+        ], 
+        "chicken": [
+            20000, 
+            2000, 
+            -2000
+        ], 
+        "doubleAce": [
+            20000, 
+            4000, 
+            4000
+        ], 
+        "eggs": [
+            20000, 
+            2000, 
+            -2000
+        ], 
+        "fishing": [
+            20000, 
+            2000, 
+            -2000
+        ], 
+        "ring": [
+            20000, 
+            4000, 
+            4000
+        ], 
+        "rose": [
+            20000, 
+            4000, 
+            4000
+        ], 
+        "thumb": [
+            20000, 
+            4000, 
+            4000
+        ]
+    }, 
+    "isLiveShowRoom": 1.0, 
+    "matchConf": {
+        "match_id": "0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 99900000000, 
+    "minCoin": 2000000, 
+    "minCoinQS": 99900000000, 
+    "minTableCount": 0, 
+    "name": "直播间8", 
+    "playMode": "classic", 
+    "queueVipLevel": 5.0, 
+    "rewardDealerChip": 20000, 
+    "roomID": 8008, 
+    "sortId": 8, 
+    "tableConf": {
+        "bb": 20000, 
+        "big_pot": 1000000, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 2000000, 
+        "buyinConf": "1/2/3/4/5/6/7/8/9/10", 
+        "call": 1, 
+        "callChip": -1, 
+        "commission": 0.03, 
+        "fee": 5000, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "max_bigpot_fee": 500000, 
+        "min_players": 2, 
+        "nameForPc": "直播间8", 
+        "optime": 11, 
+        "pay_factor": 1.0, 
+        "prebet": 0, 
+        "sb": 10000, 
+        "start_card": 2, 
+        "tname": "直播间8", 
+        "win_exp": 2
+    }, 
+    "typeName": "vip"
+}

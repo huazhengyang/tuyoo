@@ -1,0 +1,2459 @@
+{
+  "groups": [
+    {
+      "groupId": 1,
+      "reward": {
+        "content": {
+          "typeId": "FixedContent",
+          "items": [
+            {
+              "itemId": "item:1311",
+              "count": 1
+            }
+          ]
+        },
+        "cycle": {
+          "timeCycle": {
+            "typeId": "day"
+          },
+          "count": 3
+        }
+      }
+    },
+    {
+      "groupId": 2
+    },
+    {
+      "groupId": 101,
+      "reward": {
+        "content": {
+          "typeId": "FixedContent",
+          "items": [
+            {
+              "itemId": "item:1311",
+              "count": 1
+            }
+          ]
+        },
+        "cycle": {
+          "timeCycle": {
+            "typeId": "day"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "groupId": 102,
+      "reward": {
+        "content": {
+          "typeId": "FixedContent",
+          "items": [
+            {
+              "itemId": "item:1311",
+              "count": 2
+            }
+          ]
+        },
+        "cycle": {
+          "timeCycle": {
+            "typeId": "day"
+          },
+          "count": 2
+        }
+      }
+    },
+    {
+      "groupId": 103,
+      "reward": {
+        "content": {
+          "typeId": "FixedContent",
+          "items": [
+            {
+              "itemId": "item:1311",
+              "count": 6
+            }
+          ]
+        },
+        "cycle": {
+          "timeCycle": {
+            "typeId": "day"
+          },
+          "count": 3
+        }
+      }
+    },
+    {
+      "groupId": 200,
+      "reward": {
+        "content": {
+          "typeId": "FixedContent",
+          "items": [
+            {
+              "itemId": "user:coupon",
+              "count": 11
+            }
+          ]
+        },
+        "cycle": {
+          "timeCycle": {
+            "typeId": "life"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "groupId": 17,
+      "reward": {
+        "content": {
+          "typeId": "FixedContent",
+          "items": [
+            {
+              "itemId": "user:chip",
+              "count": 4000
+            }
+          ]
+        },
+        "cycle": {
+          "timeCycle": {
+            "typeId": "day"
+          },
+          "count": 3
+        }
+      }
+    },
+    {
+      "groupId": 300,
+      "reward": {
+        "content": {
+          "typeId": "FixedContent",
+          "items": [
+            {
+              "itemId": "user:chip",
+              "count": 5000
+            }
+          ]
+        },
+        "cycle": {
+          "timeCycle": {
+            "typeId": "life"
+          },
+          "count": 1
+        }
+      }
+    },
+    {
+      "groupId": 400,
+      "reward": {
+        "content": {
+          "typeId": "FixedContent",
+          "items": [
+          ]
+        },
+        "cycle": {
+          "timeCycle": {
+            "typeId": "day"
+          },
+          "count": 3
+        }
+      }
+    },
+    {
+      "groupId": 500,
+      "reward": {
+        "content": {
+          "typeId": "FixedContent",
+          "items": [
+          ]
+        },
+        "cycle": {
+          "timeCycle": {
+            "typeId": "day"
+          },
+          "count": 1
+        }
+      }
+    }
+  ],
+  "contents": [
+    {
+      "title":"[\\${userName}@你]炸不炸啊？太纠结了！快来帮帮我！",
+      "pic":"${http_download}/ddz/share/092902.jpg",
+      "shareId": 2018092902
+    },
+    {
+      "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+      "pic":"${http_download}/ddz/share/092904.jpg",
+      "shareId":2018092904
+    },
+    {
+      "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+      "pic":"${http_download}/ddz/share/092906.jpg",
+	  "shareId":2018092906
+    },
+    {
+      "title":"@所有人 自从知道了这个办法，天天都能拿红包！",
+      "pic":"${http_download}/ddz/share/100901.jpg",
+	  "shareId":2018100901
+    },
+	{
+       "title":"[提示]进入即可领红包，打开就有0.68元！",
+       "pic":"${http_download}/ddz/share/100902.jpg",
+	   "shareId":2018100902
+    },
+    {
+       "title":"[红包]听说这游戏100%能拿红包，还不来领？",
+       "pic":"${http_download}/ddz/share/100903.jpg",
+	   "shareId":2018100903
+    },
+    {
+
+       "title":"一年级学生都会的算术，却难倒了99%的大人！",
+       "pic":"${http_download}/ddz/share/100904.jpg",
+	   "shareId":2018100904
+    },
+    {
+       "title":"拿到这牌我以为赢定了，结果却让我想起来就想哭！",
+       "pic":"${http_download}/ddz/share/100905.jpg",
+	   "shareId":2018100905
+    },
+    {
+        "title":"一个让人无力回天的残局，1万人参与，竟无人能破解！",
+        "pic":"${http_download}/ddz/share/100906.jpg",
+	    "shareId":2018100906
+    },
+	{
+        "title":"@你 我赚大了，天降红包，有福同享，点击就领！",
+        "pic":"${http_download}/ddz/share/100907.jpg",
+	    "shareId":2018100907
+    },
+	{
+        "title":"@你 千山万水总是情，点下帮助行不行，道友在此谢过了！",
+        "pic":"${http_download}/ddz/share/100908.jpg",
+	    "shareId":2018100908
+    },
+	{
+        "title":"@所有人 朋友们帮帮忙，小手一点助我拿币！",
+        "pic":"${http_download}/ddz/share/100909.jpg",
+		"shareId":2018100909
+    },
+	{
+        "title":"唐僧师徒三人斗地主，真的笑的牙疼，八戒这句子太经典了！",
+        "pic":"${http_download}/ddz/share/xiyouji_0808.jpg",
+		"shareId":2018101001
+    },
+	{
+        "title":"唐僧师徒三人斗地主，这手牌让八戒连裤子都输掉了！",
+        "pic":"${http_download}/ddz/share/xiyouji2.jpg",
+		"shareId":2018101002
+    },
+	{
+        "title":"西游记原来唐僧只对她动过心，情关最难过啊！",
+        "pic":"${http_download}/ddz/share/xiyouji3.jpg",
+		"shareId":2018101003
+    },
+	{
+        "title":"长寿村长寿调查，结果绝对出乎你的意料！",
+        "pic":"${http_download}/ddz/share/laoren3.jpg",
+		"shareId":2018101004
+    }
+  ],
+  "pointsNew": [
+    {
+      "pointIds": [66660001,66660003,66660012,66660013,66660011,66660004,66660101,66660102,66660103,66660200,66660017,66660018,66660015,66660901,66660903,66660904,66660905,66660906,66660019,66660907,66660909,66660908,66660910,66660911],
+      "contents": [
+        {
+          "weight":10,
+          "item": 2018092902
+        },
+        {
+          "weight": 10,
+          "item": 2018092904
+        },
+        {
+          "weight":10,
+          "item": 2018092906
+        },
+        {
+          "weight":10,
+          "item": 2018092902
+        },
+        {
+          "weight":10,
+          "item": 2018092904
+        },
+        {
+          "weight":10,
+          "item": 2018092906
+        }
+      ],
+      "flagId": 10001,
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.inCities",
+            "cities": [
+                  "局域网\t局域网\t\t",
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t"
+                ]
+          }
+        ],
+        "typeId": "user.cond.and"
+      }
+    },
+    {
+      "pointIds": [66660001,66660003,66660012,66660013,66660011,66660004,66660101,66660102,66660103,66660200,66660017,66660018,66660015,66660901,66660903,66660904,66660905,66660906,66660019,66660907,66660909,66660908,66660910,66660911],
+      "contents": [
+          {
+          "weight":10,
+          "item": 2018101001
+        },
+        {
+          "weight": 10,
+          "item": 2018101002
+        },
+        {
+          "weight":10,
+          "item": 2018101003
+        },
+        {
+          "weight":10,
+          "item": 2018101004
+        }
+      ],
+      "flagId": 10002,
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.notInCities",
+            "cities":[
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t"
+            ]
+          }
+        ],
+        "typeId": "user.cond.and"
+      }
+    },
+    {
+      "pointIds": [66660001,66660003,66660012,66660013,66660011,66660004,66660101,66660102,66660103,66660200,66660017,66660018,66660015,66660901,66660903,66660904,66660905,66660906,66660019,66660907,66660909,66660908,66660910,66660911],
+      "contents": [
+          {
+          "weight":10,
+          "item": 2018101001
+        },
+        {
+          "weight": 10,
+          "item": 2018101002
+        },
+        {
+          "weight":10,
+          "item": 2018101003
+        },
+        {
+          "weight":10,
+          "item": 2018101004
+        }
+      ],
+      "flagId": 10003,
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.alwaysTrue"
+          }
+        ],
+        "typeId": "user.cond.and"
+      }
+    }
+  ],
+  "points": [
+    {
+      "pointId": 66660001,
+      "groupId": 2,
+      "whereToReward": "all"
+    },
+    {
+      "pointId": 66660002,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      }
+    },
+    {
+      "pointId": 66660003,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      }
+    },
+    {
+      "pointId": 66660012,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018073017,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018092902,
+            "title": "炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic": "${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018092904,
+            "title": "残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic": "${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018092906,
+            "title": "全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic": "${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660013,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660011,
+      "groupId": 2,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660004,
+      "groupId": 1,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660005,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 203302,
+            "title": "本群斗地主实力排名！看看你上榜了吗？",
+            "pic": "${http_download}/ddz/share/203.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 203301,
+            "title": "本群排行新鲜出炉，第一竟是TA？",
+            "pic": "${http_download}/ddz/share/203.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660006,
+      "groupId": 2,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 102102,
+            "title": "[有人@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018062212,
+            "title": "[有人@你]听说只有7%的人能破解，这把地主怎么出？",
+            "pic": "${http_download}/ddz/share/break_through_the_customs_0622.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660007,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 20,
+          "content": {
+            "shareId": 7000,
+            "title": "我在途游斗地主打进了全国前100名，你也来试试？",
+            "pic": "${http_download}/ddz/share/rewardDouble_1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660008,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 20,
+          "content": {
+            "shareId": 1,
+            "title": "我已经打败了全国90%斗地主玩家，敢不敢和我一战！",
+            "pic": "${http_download}/ddz/share/rewardDouble_1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660010,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 20,
+          "content": {
+            "shareId": 1010,
+            "title": "好友斗地主的最新战果出炉，看看谁最强！",
+            "pic": "${http_download}/ddz/share/rewardDouble_1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660101,
+      "groupId": 101,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660102,
+      "groupId": 102,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660103,
+      "groupId": 103,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660201,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018073020,
+            "title": "[有人@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660200,
+      "groupId": 200,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660017,
+      "groupId": 17,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660018,
+      "groupId": 2,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660015,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 102102,
+            "title": "[有人@你]连胜根本停不下来，这个游戏真简单！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660009,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 20,
+          "content": {
+            "shareId": 9000,
+            "title": "[有人@你]看我这一手高倍，就问你敢不敢来挑战！",
+            "pic": "${http_download}/ddz/share/rewardDouble_1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660901,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660902,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 20,
+          "content": {
+            "shareId": 201807201,
+            "title": "超精彩的对局录像，快来看看吧！",
+            "pic": "${http_download}/ddz/share/icon_show.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660903,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018072604,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        },
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660904,
+      "groupId": 2,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660905,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018072811,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        },
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660906,
+      "groupId": 300,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018072819,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        },
+        {
+          "weight": 5,
+          "content": {
+            "shareId": 2018072821,
+            "title": "起手4个炸弹，这牌居然输了，你敢信？",
+            "pic": "${http_download}/ddz/share/bomb_new_0726.jpg"
+          }
+        },
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660019,
+      "groupId": 500,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018073160,
+            "title": "[有人@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018073162,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        },
+        {
+          "weight": 5,
+          "content": {
+            "shareId": 2018073164,
+            "title": "[\\${userName}@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018073166,
+            "title": "起手4个炸弹，这牌居然输了，你敢信？",
+            "pic": "${http_download}/ddz/share/bomb_new_0726.jpg"
+          }
+        },
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660907,
+      "groupId": 400,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "limitProvinces": [
+              "中国\t北京\t北京\t",
+              "中国\t上海\t上海\t",
+              "中国\t广东\t广州\t",
+              "中国\t广东\t深圳\t"
+            ],
+            "typeId": "user.cond.limitProvince"
+          },
+          {
+            "periods": [
+              [
+                "00:00",
+                "08:30"
+              ]
+            ],
+            "typeId": "user.cond.timePeriod"
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660909,
+      "groupId": 2,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660908,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018073017,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        },
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660910,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018073017,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        },
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 66660911,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+          {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770001,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101105,
+            "title": "[有人@你]好玩又赚钱的斗地主，速来！",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 102102,
+            "title": "[有人@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018062212,
+            "title": "[有人@你]听说只有7%的人能破解，这把地主怎么出？",
+            "pic": "${http_download}/ddz/share/break_through_the_customs_0622.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018062512,
+            "title": "牌桌上最致命的不是运气差，而是碰上了冤家牌！",
+            "pic": "${http_download}/ddz/share/enemy_card_0625.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 206306,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770002,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2000,
+            "title": "斗地主房间已建好，点击下方按钮加入！",
+            "pic": "${http_download}/ddz/share/180521_3.png"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770003,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770012,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 102102,
+            "title": "[有人@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 206306,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770013,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 30,
+          "content": {
+            "shareId": 2018062621,
+            "title": "[有人@你]帮我点一下，你也可以领红包哦",
+            "pic": "${http_download}/ddz/share/get_money_0626.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018072012,
+            "title": "帮我点一下，就能和我一起领取现金",
+            "pic": "${http_download}/ddz/share/share_red_cash_0720.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018072301,
+            "title": " [\\${userName}@你]帮我点一下，你也可以领红包哦",
+            "pic": "${http_download}/ddz/share/get_money_0626.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018072303,
+            "title": "[\\${userName}@你]帮我点一下，就能和我一起领取现金",
+            "pic": "${http_download}/ddz/share/share_red_cash_0720.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770011,
+      "groupId": 2,
+      "whereToReward": "group",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "sshareId": 102102,
+            "title": "[有人@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 206306,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770004,
+      "groupId": 1,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 102102,
+            "title": "[有人@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 206306,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770005,
+      "groupId": 2,
+      "whereToReward": "group",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 203302,
+            "title": "本群斗地主实力排名！看看你上榜了吗？",
+            "pic": "${http_download}/ddz/share/203.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 203301,
+            "title": "本群排行新鲜出炉，第一竟是TA？",
+            "pic": "${http_download}/ddz/share/203.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770006,
+      "groupId": 2,
+      "whereToReward": "group",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 102102,
+            "title": "[有人@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018062212,
+            "title": "[有人@你]听说只有7%的人能破解，这把地主怎么出？",
+            "pic": "${http_download}/ddz/share/break_through_the_customs_0622.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770007,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 20,
+          "content": {
+            "shareId": 7000,
+            "title": "我在途游斗地主打进了全国前100名，你也来试试？",
+            "pic": "${http_download}/ddz/share/rewardDouble_1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770008,
+      "groupId": 2,
+      "whereToReward": "group",
+      "contents": [
+        {
+          "weight": 20,
+          "content": {
+            "shareId": 1,
+            "title": "我已经打败了全国90%斗地主玩家，敢不敢和我一战！",
+            "pic": "${http_download}/ddz/share/rewardDouble_1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770010,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 20,
+          "content": {
+            "shareId": 1010,
+            "title": "好友斗地主的最新战果出炉，看看谁最强！",
+            "pic": "${http_download}/ddz/share/rewardDouble_1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770101,
+      "groupId": 101,
+      "whereToReward": "group",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770102,
+      "groupId": 102,
+      "whereToReward": "group",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770103,
+      "groupId": 103,
+      "whereToReward": "group",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770201,
+      "groupId": 2,
+      "whereToReward": "group",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 102102,
+            "title": "[有人@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018062212,
+            "title": "[有人@你]听说只有7%的人能破解，这把地主怎么出？",
+            "pic": "${http_download}/ddz/share/break_through_the_customs_0622.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770200,
+      "groupId": 200,
+      "whereToReward": "group",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101105,
+            "title": "[有人@你]我刚又领了0.11元，好玩又赚钱的斗地主，快来！",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770017,
+      "groupId": 17,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 102102,
+            "title": "[有人@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 206306,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018062211,
+            "title": "高智商斗地主残局闯关，你能过几关？",
+            "pic": "${http_download}/ddz/share/break_through_the_customs_0622.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018062212,
+            "title": "[有人@你]听说只有7%的人能破解，这把地主怎么出？",
+            "pic": "${http_download}/ddz/share/break_through_the_customs_0622.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770018,
+      "groupId": 2,
+      "whereToReward": "group",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 102102,
+            "title": "[有人@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 206306,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770015,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 102102,
+            "title": "[有人@你]连胜根本停不下来，这个游戏真简单！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770009,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 20,
+          "content": {
+            "shareId": 9000,
+            "title": "[有人@你]看我这一手高倍，就问你敢不敢来挑战！",
+            "pic": "${http_download}/ddz/share/rewardDouble_1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770900,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 20,
+          "content": {
+            "shareId": 9000,
+            "title": "[有人@你]快帮我闯残局吧！",
+            "pic": "${http_download}/ddz/share/rewardDouble_1.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770901,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 102102,
+            "title": "[有人@你]炸？还是不炸？快帮我做个选择！",
+            "pic": "${http_download}/ddz/share/102.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770902,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 20,
+          "content": {
+            "shareId": 201807201,
+            "title": "清华毕业的实力才能通过！",
+            "pic": "${http_download}/ddz/share/icon_show.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770903,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 20,
+          "content": {
+            "shareId": 201807202,
+            "title": "听说只有1%的人可以破解！",
+            "pic": "${http_download}/ddz/share/how_to_win.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770904,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018072803,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        },
+        {
+          "weight": 5,
+          "content": {
+            "shareId": 2018072805,
+            "title": "起手4个炸弹，这牌居然输了，你敢信？",
+            "pic": "${http_download}/ddz/share/bomb_new_0726.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770905,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018072811,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        },
+        {
+          "weight": 5,
+          "content": {
+            "shareId": 2018072813,
+            "title": "起手4个炸弹，这牌居然输了，你敢信？",
+            "pic": "${http_download}/ddz/share/bomb_new_0726.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770906,
+      "groupId": 300,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770907,
+      "groupId": 400,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770908,
+      "groupId": 2,
+      "whereToReward": "all",
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 304221,
+            "title": "近日各地群众反映自从玩了这款斗地主，生活水平骤升",
+            "pic": "${http_download}/ddz/share/news_broadcaast_0628.jpg"
+          }
+        },
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 101104,
+            "title": "[有人@你]好玩又赚钱的斗地主，你不来试试？",
+            "pic": "${http_download}/ddz/share/101.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770909,
+      "groupId": 2,
+      "whereToReward": "group",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092902,
+            "title":"炸不炸啊？太纠结了！[\\${userName}@你]快来帮帮我！",
+            "pic":"${http_download}/ddz/share/092902.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092904,
+            "title":"残局闯关，200万牌友参与，通过率竟不足1%！",
+            "pic":"${http_download}/ddz/share/092904.jpg"
+          }
+        },
+        {
+          "weight":10,
+          "content":{
+            "shareId":2018092906,
+            "title":"全国最难“绝望”残局，据说过关的人智商超过140！",
+            "pic":"${http_download}/ddz/share/092906.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "pointId": 77770910,
+      "groupId": 2,
+      "whereToReward": "all",
+      "condition": {
+        "list": [
+          {
+            "typeId": "user.cond.registerDays",
+            "startDays": -1,
+            "stopDays": -1
+          }
+        ],
+        "typeId": "user.cond.and"
+      },
+      "contents": [
+        {
+          "weight": 10,
+          "content": {
+            "shareId": 2018073017,
+            "title": "[有人@你]不允许四带二，地主先出，怎么走？",
+            "pic": "${http_download}/ddz/share/break_mess0621new.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

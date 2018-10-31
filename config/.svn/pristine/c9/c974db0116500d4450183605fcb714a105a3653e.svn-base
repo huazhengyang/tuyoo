@@ -1,0 +1,12 @@
+{
+	"refreshHour":3,
+	"refreshContent":{
+		"typeId":"FixedContent",
+    	"items":[
+        	{"itemId":"user:chip", "count":3000}
+        ]
+	},
+	"starCountList":[
+        {"star":1, "count":5}
+    ]
+}

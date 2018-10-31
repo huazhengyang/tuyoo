@@ -1,0 +1,8770 @@
+{
+	"activities": [{
+			"actId": "act1",
+			"typeId": "ddz.act.buy_send_prize",
+			"intActId": 60002,
+			"limitCount": 1,
+			"limitTimeCycle": {
+				"typeId": "perDay"
+			},
+			"hallGameIds": [
+				6
+			],
+			"startTime": "2016-07-06 00:00:00",
+			"endTime": "2016-07-14 00:00:00",
+			"mail": "您购买暑期特惠礼包，获得\\${rewardContent}，快去报名参加暑期特惠大奖赛吧",
+			"prizes": [{
+					"payOrder": {
+						"productId": "TY9999D0002001"
+					},
+					"content": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "item:2003",
+								"count": 2
+							},
+							{
+								"itemId": "item:4168",
+								"count": 1
+							},
+							{
+								"itemId": "item:4342",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"payOrder": {
+						"productId": "TY9999D0001002"
+					},
+					"content": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "item:2003",
+								"count": 1
+							},
+							{
+								"itemId": "item:4168",
+								"count": 1
+							},
+							{
+								"itemId": "item:4342",
+								"count": 1
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"actId": "act4",
+			"typeId": "ddz.act.buy_send_prize",
+			"intActId": 60005,
+			"limitCount": 1,
+			"limitTimeCycle": {
+				"typeId": "perDay"
+			},
+			"hallGameIds": [
+				6
+			],
+			"startTime": "2016-07-20 00:00:00",
+			"endTime": "2016-07-28 00:00:00",
+			"mail": "您购买盛夏特惠礼包，获得\\${rewardContent}，快去报名参加盛夏特惠大奖赛吧",
+			"prizes": [{
+					"payOrder": {
+						"productId": "TY9999D0002001"
+					},
+					"content": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "item:2003",
+								"count": 2
+							},
+							{
+								"itemId": "item:4168",
+								"count": 1
+							},
+							{
+								"itemId": "item:4360",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"payOrder": {
+						"productId": "TY9999D0001002"
+					},
+					"content": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "item:2003",
+								"count": 1
+							},
+							{
+								"itemId": "item:4168",
+								"count": 1
+							},
+							{
+								"itemId": "item:4360",
+								"count": 1
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"actId": "act5",
+			"typeId": "ddz.act.buy_send_prize",
+			"intActId": 60006,
+			"limitCount": 1,
+			"limitTimeCycle": {
+				"typeId": "perDay"
+			},
+			"hallGameIds": [
+				6
+			],
+			"startTime": "2016-07-27 00:00:00",
+			"endTime": "2016-08-11 00:00:00",
+			"mail": "您购买盛夏特惠礼包，获得\\${rewardContent}，快去报名参加盛夏特惠大奖赛吧",
+			"prizes": [{
+				"payOrder": {
+					"productId": "TY9999D0002006"
+				},
+				"content": {
+					"typeId": "FixedContent",
+					"items": [{
+						"itemId": "item:2003",
+						"count": 2
+					}]
+				}
+			}]
+		},
+		{
+			"actId": "act_20160810",
+			"typeId": "ddz.act.buy_send_prize",
+			"intActId": 60008,
+			"limitCount": 2,
+			"limitTimeCycle": {
+				"typeId": "perDay"
+			},
+			"hallGameIds": [],
+			"startTime": "2016-07-27 00:00:00",
+			"endTime": "2016-08-18 05:00:00",
+			"mail": "您购买了本周特惠商品，额外获得\\${rewardContent}，祝您游戏愉快~",
+			"prizes": [{
+					"payOrder": {
+						"productId": "TY9999D0100001"
+					},
+					"content": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 200000
+						}]
+					}
+				},
+				{
+					"payOrder": {
+						"productId": "TY9999D0098001"
+					},
+					"content": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 200000
+						}]
+					}
+				}
+			]
+		},
+		{
+			"actId": "max_charge_recorder",
+			"typeId": "ddz.act.max_charge_recorder",
+			"intActId": 60007,
+			"startTime": "2016-08-02 00:00:00",
+			"endTime": "2016-10-20 00:00:00"
+		},
+		{
+			"actId": "charge_send_present_num",
+			"typeId": "ddz.act.charge_send_present_num",
+			"presentNumActId": "activity_ddz_aoyunjifen_0810",
+			"intActId": 60013,
+			"startTime": "2016-08-11 00:00:00",
+			"endTime": "2016-08-18 00:00:00",
+			"rate": 1,
+			"hallGameIds": [
+				6
+			]
+		},
+		{
+			"actId": "play_game_todotask1",
+			"typeId": "ddz.act.play_game_todotask",
+			"intActId": 60017,
+			"cycle": {
+				"typeId": "life"
+			},
+			"condition": {
+				"typeId": "user.cond.and",
+				"list": [{
+						"typeId": "user.cond.registerDays",
+						"startDays": 30,
+						"stopDays": -1
+					},
+					{
+						"typeId": "user.cond.payCount",
+						"minPayCount": 0,
+						"maxPayCount": 1
+					},
+					{
+						"typeId": "user.cond.share.count",
+						"start": 0,
+						"stop": 1
+					}
+				]
+			},
+			"playRounds": [{
+				"playRound": 1,
+				"todotask": {
+					"typeId": "todotask.showInfo.with.share",
+					"shareId": 200
+				}
+			}],
+			"hallGameIds": [
+				6
+			]
+		},
+		{
+			"actId": "max_charge_recorder1",
+			"typeId": "ddz.act.max_charge_recorder",
+			"intActId": 60018,
+			"startTime": "2016-09-14 00:00:00",
+			"endTime": "2017-11-30 00:00:00"
+		},
+		{
+			"actId": "max_charge_recorder_jq",
+			"typeId": "ddz.act.max_charge_recorder",
+			"intActId": 60019,
+			"startTime": "2016-09-22 05:30:00",
+			"endTime": "2016-10-13 00:00:00"
+		},
+		{
+			"actId": "table_share_recorder1",
+			"typeId": "ddz.act.table_share_recorder",
+			"intActId": 60020,
+			"startTime": "2016-11-16 00:00:00",
+			"endTime": "2050-11-16 00:00:00",
+			"mail": "恭喜您获得牌局分享奖励\\${prizeContent}",
+			"prizeList": [{
+				"itemId": "user:coupon",
+				"count": 30
+			}]
+		},
+		{
+			"actId": "quweitask1212",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60022,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					6001,
+					6002,
+					6003,
+					6004
+				]
+			}],
+			"tasks": [{
+					"kindId": 5001,
+					"typeId": "ddz.qwtask.simple",
+					"name": "50奖券",
+					"desc": "朋友桌玩1局",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_weChat_packet_20.png",
+					"inspector": {
+						"typeId": "ddz.myFTFinish",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:1132",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"action": "create",
+								"gameType": 9
+							}
+						}
+					},
+					"rewardMail": "恭喜获得圣诞任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 5002,
+					"typeId": "ddz.qwtask.simple",
+					"name": "20奖券",
+					"desc": "分享一次牌局视频给至微信朋友圈或好友，可获得20奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.sharetable",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 20
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"action": "mine_video",
+								"gameType": 10,
+								"roomType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得圣诞任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 5003,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1万金币",
+					"desc": "大师场以上打10局",
+					"count": 10,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 10000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 10,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得圣诞任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 5004,
+					"typeId": "ddz.qwtask.simple",
+					"name": "10万金币",
+					"desc": "星耀场以上打30局",
+					"count": 30,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 30,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 100000
+						}]
+					},
+					"rewardMail": "恭喜获得圣诞任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 6001,
+					"typeId": "ddz.qwtask.simple",
+					"name": "50奖券",
+					"desc": "在斗地主朋友场玩6局，即可领取50奖券。",
+					"count": 6,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 50
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"action": "create",
+								"gameType": 9
+							}
+						}
+					},
+					"rewardMail": "恭喜获得朋友场任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 6002,
+					"typeId": "ddz.qwtask.simple",
+					"name": "20奖券",
+					"desc": "分享一次牌局视频至微信朋友圈或好友，即可领取20奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.sharetable",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 20
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"action": "mine_video",
+								"gameType": 10,
+								"roomType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得朋友场任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 6003,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1万金币",
+					"desc": "在斗地主大师场以上场次打满10局，即可领取1万金币。",
+					"count": 10,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015,
+								6016,
+								6005,
+								6025,
+								6026,
+								6035,
+								6004,
+								6014,
+								6024,
+								6034
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 10000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6014,
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得朋友场任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 6004,
+					"typeId": "ddz.qwtask.simple",
+					"name": "10万金币",
+					"desc": "在斗地主星耀场以上场次打满30局，即可领取10万金币。",
+					"count": 30,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015,
+								6016,
+								6005,
+								6025,
+								6026,
+								6035
+							]
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6015,
+								"gameType": 1
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 100000
+						}]
+					},
+					"rewardMail": "恭喜获得朋友场任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "pengyoutask1229",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60024,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					9001,
+					9002,
+					9003,
+					9004
+				]
+			}],
+			"tasks": [{
+					"kindId": 9001,
+					"typeId": "ddz.qwtask.simple",
+					"name": "50奖券",
+					"desc": "在斗地主朋友场玩6局，即可领取50奖券。",
+					"count": 6,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6201,
+								6211,
+								6221,
+								6241
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 50
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"action": "create",
+								"gameType": 9
+							}
+						}
+					},
+					"rewardMail": "恭喜获得朋友场任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 9002,
+					"typeId": "ddz.qwtask.simple",
+					"name": "20奖券",
+					"desc": "分享一次牌局视频至微信朋友圈或好友，即可领取20奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.sharetable",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 20
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"action": "mine_video",
+								"gameType": 10,
+								"roomType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得朋友场任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 9003,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1万金币",
+					"desc": "在斗地主大师场以上场次打满10局，即可领取1万金币。",
+					"count": 10,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015,
+								6016,
+								6005,
+								6025,
+								6026,
+								6035,
+								6004,
+								6014,
+								6024,
+								6034
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 10000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6014,
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得朋友场任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 9004,
+					"typeId": "ddz.qwtask.simple",
+					"name": "10万金币",
+					"desc": "在斗地主星耀场以上场次打满30局，即可领取10万金币。",
+					"count": 30,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015,
+								6016,
+								6005,
+								6025,
+								6026,
+								6035
+							]
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6015,
+								"gameType": 1
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 100000
+						}]
+					},
+					"rewardMail": "恭喜获得朋友场任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "majiangchongzhi1221",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60023,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"gameId": 6,
+			"initPools": [{
+					"kindIds": [
+						7001,
+						7002,
+						7003,
+						7004
+					],
+					"condition": {
+						"startLevel": 1,
+						"stopLevel": -1,
+						"typeId": "user.cond.vipLevel"
+					}
+				},
+				{
+					"kindIds": [
+						8001,
+						8002,
+						8003,
+						8004
+					]
+				}
+			],
+			"tasks": [{
+					"kindId": 7001,
+					"typeId": "ddz.qwtask.simple",
+					"name": "10万金币",
+					"desc": "单笔充值实付金额满98元，可领取10万金币。",
+					"count": 98,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 100000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 980,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得圣诞任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 7002,
+					"typeId": "ddz.qwtask.simple",
+					"name": "20万金币",
+					"desc": "单笔充值实付金额满98元，可领取20万金币。",
+					"count": 98,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 200000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 980,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得圣诞任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 7003,
+					"typeId": "ddz.qwtask.simple",
+					"name": "40万金币",
+					"desc": "单笔充值实付金额满98元，可领取40万金币。",
+					"count": 98,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 400000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 980,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得圣诞任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 7004,
+					"typeId": "ddz.qwtask.simple",
+					"name": "80万金币",
+					"desc": "单笔充值实付金额满98元，可领取80万金币。",
+					"count": 98,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 800000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 980,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得圣诞任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 8001,
+					"typeId": "ddz.qwtask.simple",
+					"name": "15000金币",
+					"desc": "单笔充值实付金额满6元，可领取15000金币。",
+					"count": 6,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 15000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 60,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得圣诞任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 8002,
+					"typeId": "ddz.qwtask.simple",
+					"name": "30000金币",
+					"desc": "单笔充值实付金额满6元，可领取30000金币。",
+					"count": 6,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 30000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 300,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得圣诞任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 8003,
+					"typeId": "ddz.qwtask.simple",
+					"name": "60000金币",
+					"desc": "单笔充值实付金额满6元，可领取60000金币。",
+					"count": 6,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 60000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 60,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得圣诞任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 8004,
+					"typeId": "ddz.qwtask.simple",
+					"name": "120000金币",
+					"desc": "单笔充值实付金额满6元，可领取120000金币。",
+					"count": 6,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 120000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 60,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得圣诞任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "labaquweirenwu0103",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60025,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+					"kindIds": [
+						601031,
+						601032,
+						601033,
+						601034
+					],
+					"condition": {
+						"startLevel": 0,
+						"stopLevel": 2,
+						"typeId": "user.cond.vipLevel"
+					}
+				},
+				{
+					"kindIds": [
+						601035,
+						601036,
+						601037,
+						601038
+					],
+					"condition": {
+						"startLevel": 3,
+						"stopLevel": -1,
+						"typeId": "user.cond.vipLevel"
+					}
+				}
+			],
+			"tasks": [{
+					"kindId": 601031,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1天记牌器",
+					"desc": "在斗地主赢取4炸以上的牌局并保存牌局，可获得1天记牌器。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.zhadan",
+							"nbomb": 4
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得腊八任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601032,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光宝盒*1",
+					"desc": "在斗地主分享一次牌局至朋友圈或好友，可获得月光宝盒1个。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3002_39.png",
+					"inspector": {
+						"typeId": "ddz.sharetable",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3002",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"action": "mine_video",
+								"gameType": 10,
+								"roomType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得腊八任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601033,
+					"typeId": "ddz.qwtask.simple",
+					"name": "幸运卡*1",
+					"desc": "在斗地主打出春天或反春天并获胜1场，可获得幸运卡1张。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/lotteryCard_39.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.chuntian"
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:4167",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得腊八任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601034,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光之钥*1",
+					"desc": "在斗地主朋友场玩6局，即可获得月光之钥1个。",
+					"count": 6,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3001_39.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6201,
+								6211,
+								6221,
+								6241
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3001",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"action": "create",
+								"gameType": 9
+							}
+						}
+					},
+					"rewardMail": "恭喜获得腊八任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601035,
+					"typeId": "ddz.qwtask.simple",
+					"name": "5万金币",
+					"desc": "在斗地主星耀场及以上获胜10局，可领取5万金币。",
+					"count": 10,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015,
+								6016,
+								6005,
+								6025,
+								6026,
+								6035
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 50000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "quickstart",
+							"pluginParams": {
+								"roomId": 6015,
+								"gameType": "gold"
+							}
+						}
+					},
+					"rewardMail": "恭喜获得腊八任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601036,
+					"typeId": "ddz.qwtask.simple",
+					"name": "20万金币",
+					"desc": "在斗地主星耀场及以上获胜20局，即可领取20万金币。",
+					"count": 20,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015,
+								6016,
+								6005,
+								6025,
+								6026,
+								6035
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 200000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "quickstart",
+							"pluginParams": {
+								"roomId": 6015,
+								"gameType": "gold"
+							}
+						}
+					},
+					"rewardMail": "恭喜获得腊八任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601037,
+					"typeId": "ddz.qwtask.simple",
+					"name": "60万金币",
+					"desc": "在斗地主星耀场及以上获胜40局，即可领取60万金币。",
+					"count": 40,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015,
+								6016,
+								6005,
+								6025,
+								6026,
+								6035
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 600000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "quickstart",
+							"pluginParams": {
+								"roomId": 6015,
+								"gameType": "gold"
+							}
+						}
+					},
+					"rewardMail": "恭喜获得腊八任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601038,
+					"typeId": "ddz.qwtask.simple",
+					"name": "100万金币",
+					"desc": "在斗地主星耀场及以上获胜50局，即可领取100万金币。",
+					"count": 50,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015,
+								6016,
+								6005,
+								6025,
+								6026,
+								6035
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 1000000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "quickstart",
+							"pluginParams": {
+								"roomId": 6015,
+								"gameType": "gold"
+							}
+						}
+					},
+					"rewardMail": "恭喜获得腊八任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "360djrenwu0105",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60026,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					601051,
+					601052,
+					601053,
+					601054
+				]
+			}],
+			"tasks": [{
+					"kindId": 601051,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1元微信红包",
+					"desc": "创建斗地主朋友场并打完，即可获得1元微信红包",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_weChat_packet_39.png",
+					"inspector": {
+						"typeId": "ddz.myFTFinish",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:1081",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"action": "create",
+								"gameType": 9
+							}
+						}
+					},
+					"rewardMail": "恭喜获得朋友场任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601052,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1天记牌器",
+					"desc": "在斗地主赢取4炸以上的牌局并保存牌局，可获得1天记牌器。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.zhadan",
+							"nbomb": 4
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得朋友场任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601053,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1万金币",
+					"desc": "在斗地主大师场以上场次打满10局，即可领取1万金币。",
+					"count": 10,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015,
+								6016,
+								6005,
+								6025,
+								6026,
+								6035,
+								6004,
+								6014,
+								6024,
+								6034
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 10000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6014,
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得朋友场任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601054,
+					"typeId": "ddz.qwtask.simple",
+					"name": "10万金币",
+					"desc": "在斗地主星耀场以上场次打满30局，即可领取10万金币。",
+					"count": 30,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015,
+								6016,
+								6005,
+								6025,
+								6026,
+								6035
+							]
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6015,
+								"gameType": 1
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 100000
+						}]
+					},
+					"rewardMail": "恭喜获得朋友场任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "chunjiefulirenwu0115",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60025,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+					"kindIds": [
+						601031,
+						601032,
+						601033,
+						601034
+					],
+					"condition": {
+						"startLevel": 0,
+						"stopLevel": 2,
+						"typeId": "user.cond.vipLevel"
+					}
+				},
+				{
+					"kindIds": [
+						601035,
+						601036,
+						601037,
+						601038
+					],
+					"condition": {
+						"startLevel": 3,
+						"stopLevel": -1,
+						"typeId": "user.cond.vipLevel"
+					}
+				}
+			],
+			"tasks": [{
+					"kindId": 601031,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1天记牌器",
+					"desc": "在斗地主赢取4炸以上的牌局，可获得1天记牌器。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.zhadan",
+							"nbomb": 4
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得春节福利任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601032,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光宝盒*1",
+					"desc": "在斗地主游戏内赢取64倍以上的牌局，可获得月光宝盒1个。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3002_39.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.windoubles",
+							"stop": -1,
+							"start": 64
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3002",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得春节福利任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601033,
+					"typeId": "ddz.qwtask.simple",
+					"name": "幸运卡*1",
+					"desc": "在斗地主打出春天或反春天并获胜1场，可获得幸运卡1张。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/lotteryCard_39.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.chuntian"
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:4167",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得春节福利任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601034,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光之钥*1",
+					"desc": "在斗地主大师场及以上玩10局，可获得月光之钥1个。",
+					"count": 10,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3001_39.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6004,
+								6005,
+								6014,
+								6015,
+								6016,
+								6024,
+								6025,
+								6026,
+								6034,
+								6035
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3001",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得春节福利任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601035,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1万金币",
+					"desc": "在斗地主大师场及以上获胜10局，可领取1万金币。",
+					"count": 10,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6004,
+								6005,
+								6034,
+								6035,
+								6014,
+								6015,
+								6016,
+								6024,
+								6025,
+								6026
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 10000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得春节福利任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601036,
+					"typeId": "ddz.qwtask.simple",
+					"name": "5万金币",
+					"desc": "在斗地主星耀场及以上获胜10局，即可领取5万金币。",
+					"count": 10,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015,
+								6016,
+								6005,
+								6025,
+								6026,
+								6035
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 50000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得春节福利任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601037,
+					"typeId": "ddz.qwtask.simple",
+					"name": "20万金币",
+					"desc": "在斗地主星耀场及以上获胜20局，即可领取20万金币。",
+					"count": 20,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015,
+								6016,
+								6005,
+								6025,
+								6026,
+								6035
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 200000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得春节福利任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 601038,
+					"typeId": "ddz.qwtask.simple",
+					"name": "50万金币",
+					"desc": "在斗地主巅峰场获胜20局，即可领取50万金币。",
+					"count": 20,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6016,
+								6026
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 500000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得春节福利任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "dachuntian0214",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60028,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					602141,
+					602142,
+					602143,
+					602144
+				]
+			}],
+			"tasks": [{
+					"kindId": 602141,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1天记牌器",
+					"desc": "在斗地主金币桌打出春天或反春天并获胜1场，可获得1天记牌器。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.chuntian"
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得打春天任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 602142,
+					"typeId": "ddz.qwtask.simple",
+					"name": "10奖券",
+					"desc": "在斗地主金币桌打出春天或反春天并获胜1场，可获得10奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.chuntian"
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 10
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得打春天任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 602143,
+					"typeId": "ddz.qwtask.simple",
+					"name": "50奖券",
+					"desc": "在斗地主金币桌打出春天或反春天并获胜2场，可获得50奖券。",
+					"count": 2,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.chuntian"
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 50
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得打春天任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 602144,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1把月光之钥",
+					"desc": "在斗地主金币桌打出春天或反春天并获胜3场，可获得1把月光之钥。",
+					"count": 3,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3001_39.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.chuntian"
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3001",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得打春天任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "bisaitiantianwan",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60029,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					602211,
+					602212,
+					602213,
+					602214
+				]
+			}],
+			"tasks": [{
+					"kindId": 602211,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1天记牌器",
+					"desc": "参加20局1元红包赛，即可获得1天记牌器。",
+					"count": 20,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6058,
+								6059
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6058,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得比赛天天玩任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 602212,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1张幸运卡",
+					"desc": "参加任意1场每晚实物赛，可获得1张幸运卡。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/lotteryCard_39.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6060,
+								6061,
+								6997,
+								6998
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:4167",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6998,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得比赛天天玩任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 602213,
+					"typeId": "ddz.qwtask.simple",
+					"name": "10奖券",
+					"desc": "参加1场15元红包赛，即可领取10奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6055,
+								6056
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 10
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6055,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得比赛天天玩任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 602214,
+					"typeId": "ddz.qwtask.simple",
+					"name": "50奖券",
+					"desc": "参加1场100元红包赛，即可领取50奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6057
+							]
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6057,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 50
+						}]
+					},
+					"rewardMail": "恭喜获得比赛天天玩任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "cansaiqianghongbao",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60030,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					602281,
+					602282,
+					602283,
+					602284
+				]
+			}],
+			"tasks": [{
+					"kindId": 602281,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1天记牌器",
+					"desc": "参加20局1元红包赛，即可获得1天记牌器。",
+					"count": 20,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6058,
+								6059
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6058,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得参赛抢红包任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 602282,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1张幸运卡",
+					"desc": "参加1场经典5元红包赛，可获得1张幸运卡。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/lotteryCard_39.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6070
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:4167",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6070,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得参赛抢红包任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 602283,
+					"typeId": "ddz.qwtask.simple",
+					"name": "10奖券",
+					"desc": "参加1场经典20元礼物赛，即可领取10奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6072
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 10
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6072,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得参赛抢红包任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 602284,
+					"typeId": "ddz.qwtask.simple",
+					"name": "50奖券",
+					"desc": "参加1场经典100元礼物赛，即可领取50奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6057
+							]
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6057,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 50
+						}]
+					},
+					"rewardMail": "恭喜获得参赛抢红包任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "alzhuanshurenwu",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60031,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:chip",
+				"count": 1000
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					603011,
+					603012,
+					603013,
+					603014
+				]
+			}],
+			"tasks": [{
+					"kindId": 603011,
+					"typeId": "ddz.qwtask.simple",
+					"name": "200个金币",
+					"desc": "进行任意1局斗地主游戏，即可获得200个金币。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 200
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得阿里专属任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603012,
+					"typeId": "ddz.qwtask.simple",
+					"name": "300个金币",
+					"desc": "在癞子场进行任意2局斗地主游戏，即可获得300个金币。",
+					"count": 2,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6021,
+								6022,
+								6023,
+								6024,
+								6025
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 300
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 4
+							}
+						}
+					},
+					"rewardMail": "恭喜获得阿里专属任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603013,
+					"typeId": "ddz.qwtask.simple",
+					"name": "400个金币",
+					"desc": "在欢乐场进行任意3局斗地主游戏，即可获得400个金币。",
+					"count": 3,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6001,
+								6002,
+								6003,
+								6004,
+								6005
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 400
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 2
+							}
+						}
+					},
+					"rewardMail": "恭喜获得阿里专属任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603014,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1天记牌器",
+					"desc": "在斗地主任意场次打出炸弹并获得胜利，即可获得1天记牌器。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.zhadan",
+							"nbomb": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"rewardMail": "恭喜获得阿里专属任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170309",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60032,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					603071,
+					603072,
+					603073,
+					603074
+				]
+			}],
+			"tasks": [{
+					"kindId": 603071,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1天记牌器",
+					"desc": "参加15局5元红包赛，即可获得1天记牌器。",
+					"count": 15,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6070
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6070,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得比赛天天玩任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603072,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1张幸运卡",
+					"desc": "参加任意1场每晚实物赛，可获得1张幸运卡。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/lotteryCard_39.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6060,
+								6061,
+								6997,
+								6998
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:4167",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6998,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得比赛天天玩任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603073,
+					"typeId": "ddz.qwtask.simple",
+					"name": "10奖券",
+					"desc": "参加1场20元红包赛，即可领取10奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6072
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 10
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6072,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得比赛天天玩任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603074,
+					"typeId": "ddz.qwtask.simple",
+					"name": "50奖券",
+					"desc": "参加1场100元礼物赛，即可领取50奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6057
+							]
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6057,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 50
+						}]
+					},
+					"rewardMail": "恭喜获得比赛天天玩任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170316",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60033,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 120
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					603161,
+					603162,
+					603163,
+					603164
+				]
+			}],
+			"tasks": [{
+					"kindId": 603161,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光宝盒*1",
+					"desc": "在经典场取得3场胜利，即可获得月光宝盒1个",
+					"count": 3,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3002.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6011,
+								6012,
+								6013,
+								6014,
+								6015,
+								6016
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3002",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603162,
+					"typeId": "ddz.qwtask.simple",
+					"name": "3888金币",
+					"desc": "单笔充值实付金额满2元，可领取3888金币",
+					"count": 2,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 3888
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 20,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603163,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光之钥*1",
+					"desc": "参加8局3元红包赛，即可获得月光之钥1个",
+					"count": 8,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3001.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6071
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3001",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6071,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603164,
+					"typeId": "ddz.qwtask.simple",
+					"name": "88888金币",
+					"desc": "单笔充值实付金额满30元，可领取88888金币。",
+					"count": 30,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 300,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 88888
+						}]
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_tencent170321",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60034,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 120
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					603211,
+					603212,
+					603213,
+					603214
+				]
+			}],
+			"tasks": [{
+					"kindId": 603211,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光宝盒*1",
+					"desc": "在经典场取得3场胜利，即可获得月光宝盒1个",
+					"count": 3,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3002.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6011,
+								6012,
+								6013,
+								6014,
+								6015,
+								6016
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3002",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603212,
+					"typeId": "ddz.qwtask.simple",
+					"name": "8888金币",
+					"desc": "单笔充值实付金额满8元，可领取8888金币",
+					"count": 8,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 8888
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 80,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603213,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光之钥*1",
+					"desc": "参加8局3元红包赛，即可获得月光之钥1个",
+					"count": 8,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3001.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6071
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3001",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6071,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603214,
+					"typeId": "ddz.qwtask.simple",
+					"name": "50奖券",
+					"desc": "参加每晚21点免费实物赛，即可领取50奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6998
+							]
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6998,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 50
+						}]
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_360_170328",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60035,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 120
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					603281,
+					603282,
+					603283,
+					603284
+				]
+			}],
+			"tasks": [{
+					"kindId": 603281,
+					"typeId": "ddz.qwtask.simple",
+					"name": "28888金币",
+					"desc": "单笔充值实付金额满8元，可领取28888金币",
+					"count": 8,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 28888
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 80,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603282,
+					"typeId": "ddz.qwtask.simple",
+					"name": "88888金币",
+					"desc": "单笔充值实付金额满30元，可领取88888金币",
+					"count": 30,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 88888
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 300,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603283,
+					"typeId": "ddz.qwtask.simple",
+					"name": "20万金币",
+					"desc": "单笔充值实付金额满100元，可领取20万金币",
+					"count": 100,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 200000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 1000,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603284,
+					"typeId": "ddz.qwtask.simple",
+					"name": "60万金币",
+					"desc": "单笔充值实付金额满300元，可领取60万金币",
+					"count": 300,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 600000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 3000,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170330",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60036,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 120
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					603301,
+					603302,
+					603303,
+					603304
+				]
+			}],
+			"tasks": [{
+					"kindId": 603301,
+					"typeId": "ddz.qwtask.simple",
+					"name": "10元话费卡*1",
+					"desc": "单笔充值实付金额满98元，可领取10元话费卡1张",
+					"count": 98,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_4141.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:4141",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 980,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603302,
+					"typeId": "ddz.qwtask.simple",
+					"name": "红包券*1",
+					"desc": "经典大师场胜利10局，可领取100奖券",
+					"count": 10,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6014,
+								6015
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 100
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603303,
+					"typeId": "ddz.qwtask.simple",
+					"name": "10元话费卡*1",
+					"desc": "经典星耀场胜利10局，可领取10元话费卡1张",
+					"count": 10,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_4141.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6015
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:4141",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 603304,
+					"typeId": "ddz.qwtask.simple",
+					"name": "50万金币",
+					"desc": "单笔充值实付金额满300元，可领取50万金币",
+					"count": 300,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 500000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 3000,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170407",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60038,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					604071,
+					604072,
+					604073,
+					604074
+				]
+			}],
+			"tasks": [{
+					"kindId": 604071,
+					"typeId": "ddz.qwtask.simple",
+					"name": "幸运卡*1",
+					"desc": "在经典场取得6场胜利，即可获得幸运卡1个",
+					"count": 6,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/lotteryCard.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6011,
+								6012,
+								6013,
+								6014,
+								6015
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:4167",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 604072,
+					"typeId": "ddz.qwtask.simple",
+					"name": "3888金币",
+					"desc": "单笔充值实付金额满2元，可领取3888金币",
+					"count": 2,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 3888
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 20,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 604073,
+					"typeId": "ddz.qwtask.simple",
+					"name": "记牌器1天",
+					"desc": "参加每晚21点免费实物赛，即可领取记牌器1天。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6998
+							]
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6998,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 604074,
+					"typeId": "ddz.qwtask.simple",
+					"name": "红包券*0.1",
+					"desc": "在斗地主分享一次牌局至朋友圈或好友，可获得10奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.sharetable",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 10
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"action": "mine_video",
+								"gameType": 10,
+								"roomType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170413",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60039,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					604131,
+					604132,
+					604133,
+					604134
+				]
+			}],
+			"tasks": [{
+					"kindId": 604131,
+					"typeId": "ddz.qwtask.simple",
+					"name": "大师分*30",
+					"desc": "取胜3局（除比赛场、单机场）\n赠【大师分*30】（可参与更多大奖赛）",
+					"count": 3,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/dashifen.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6001,
+								6002,
+								6003,
+								6009,
+								6031,
+								6032,
+								6033,
+								6039,
+								6011,
+								6012,
+								6013,
+								6019,
+								6021,
+								6022,
+								6023,
+								6029
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "ddz:master.score",
+							"count": 30
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 604132,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光宝盒*2（稀有）",
+					"desc": "购买任意档金币或钻石\n赠【月光宝盒】2个（最高得20万金币）",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3002.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3002",
+							"count": 2
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 10,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 604133,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光之钥*1",
+					"desc": "参加1场20元红包赛\n赠【月光之钥】1个",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3001.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6072
+							]
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6072,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3001",
+							"count": 1
+						}]
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 604134,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光之钥*1",
+					"desc": "单笔充值实付满6元\n再赠【月光之钥】1个",
+					"count": 5,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3001.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3001",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 60,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_tencent170413",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60040,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					704131,
+					704132,
+					704133,
+					704134
+				]
+			}],
+			"tasks": [{
+					"kindId": 704131,
+					"typeId": "ddz.qwtask.simple",
+					"name": "大师分*50",
+					"desc": "取胜5局（除比赛场、单机场）\n赠【大师分*50】（提高段位更多特权）",
+					"count": 5,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/dashifen.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6001,
+								6002,
+								6003,
+								6004,
+								6005,
+								6006,
+								6031,
+								6032,
+								6033,
+								6034,
+								6035,
+								6036,
+								6011,
+								6012,
+								6013,
+								6014,
+								6015,
+								6017,
+								6021,
+								6022,
+								6023,
+								6024,
+								6025,
+								6027
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "ddz:master.score",
+							"count": 50
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 704132,
+					"typeId": "ddz.qwtask.simple",
+					"name": "记牌器1天",
+					"desc": "单笔充值实付金额满2元\n赠【记牌器】1天",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 20,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 704133,
+					"typeId": "ddz.qwtask.simple",
+					"name": "补签卡*2",
+					"desc": "参加2局3元红包赛\n赠【补签卡】2个",
+					"count": 2,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/buqian.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6071
+							]
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6071,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:4168",
+							"count": 2
+						}]
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 704134,
+					"typeId": "ddz.qwtask.simple",
+					"name": "红包券*0.1",
+					"desc": "单笔充值实付金额满8元\n额外赠【10奖券】（可兑换京东卡、话费等）",
+					"count": 6,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 10
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 80,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170511",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60041,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					705111,
+					705112,
+					705113,
+					705114
+				]
+			}],
+			"tasks": [{
+					"kindId": 705111,
+					"typeId": "ddz.qwtask.simple",
+					"name": "金币*500",
+					"desc": "取胜3局（除比赛场、单机场）\n奖励【500金币】",
+					"count": 3,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6001,
+								6002,
+								6003,
+								6004,
+								6005,
+								6006,
+								6031,
+								6032,
+								6033,
+								6034,
+								6035,
+								6036,
+								6011,
+								6012,
+								6013,
+								6014,
+								6015,
+								6016,
+								6021,
+								6022,
+								6023,
+								6024,
+								6025,
+								6026
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 500
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 705112,
+					"typeId": "ddz.qwtask.simple",
+					"name": "大师分*50",
+					"desc": "癞子场进行2局游戏，\n赠【大师分*50】（提高段位更多特权）",
+					"count": 2,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/dashifen.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6021,
+								6022,
+								6023,
+								6024,
+								6025,
+								6026
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "ddz:master.score",
+							"count": 50
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 4
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 705113,
+					"typeId": "ddz.qwtask.simple",
+					"name": "记牌器1天",
+					"desc": "再取胜3局（除比赛场、单机场）\n奖励【记牌器1天】",
+					"count": 3,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6001,
+								6002,
+								6003,
+								6004,
+								6005,
+								6006,
+								6031,
+								6032,
+								6033,
+								6034,
+								6035,
+								6036,
+								6011,
+								6012,
+								6013,
+								6014,
+								6015,
+								6016,
+								6021,
+								6022,
+								6023,
+								6024,
+								6025,
+								6026
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 705114,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光宝盒1个",
+					"desc": "赢取一次4炸以上的牌局，\n奖励【月光宝盒*1】",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3002.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.zhadan",
+							"nbomb": 4
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3002",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170608",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60043,
+			"open": 0,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 60
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					706081,
+					706082,
+					706083,
+					706084
+				]
+			}],
+			"tasks": [{
+					"kindId": 706081,
+					"typeId": "ddz.qwtask.simple",
+					"name": "金币*1000",
+					"desc": "取胜5场赠【金币*1000】\n（除比赛场、单机场）",
+					"count": 5,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6001,
+								6002,
+								6003,
+								6004,
+								6005,
+								6006,
+								6031,
+								6032,
+								6033,
+								6034,
+								6035,
+								6036,
+								6011,
+								6012,
+								6013,
+								6014,
+								6015,
+								6016,
+								6021,
+								6022,
+								6023,
+								6024,
+								6025,
+								6026
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 1000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706082,
+					"typeId": "ddz.qwtask.simple",
+					"name": "金币*11000",
+					"desc": "在高级场取胜7场赠【金币*11000】\n（含大师场、星耀场）",
+					"count": 7,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6004,
+								6005,
+								6006,
+								6034,
+								6035,
+								6036,
+								6014,
+								6015,
+								6016,
+								6024,
+								6025,
+								6026
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 11000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706083,
+					"typeId": "ddz.qwtask.simple",
+					"name": "金币*8.8万",
+					"desc": "在大师场取胜20场赠【金币*8.8万】\n（含星耀场）",
+					"count": 20,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6005,
+								6006,
+								6035,
+								6036,
+								6015,
+								6016,
+								6025,
+								6026
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 88000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706084,
+					"typeId": "ddz.qwtask.simple",
+					"name": "金币*40万",
+					"desc": "在星耀场取胜20场赠【金币*40万】",
+					"count": 20,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6006,
+								6036,
+								6016,
+								6026
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 400000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170615",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60044,
+			"open": 1,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 1000
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					706121,
+					706122,
+					706123,
+					706124
+				]
+			}],
+			"tasks": [{
+					"kindId": 706121,
+					"typeId": "ddz.qwtask.simple",
+					"name": "30奖券",
+					"desc": "累计充值满2元\n赠【30奖券】",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 30
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 20,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706122,
+					"typeId": "ddz.qwtask.simple",
+					"name": "100奖券",
+					"desc": "累计充值满6元\n赠【100奖券】",
+					"count": 5,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 100
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 60,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706123,
+					"typeId": "ddz.qwtask.simple",
+					"name": "800奖券",
+					"desc": "累计充值满30元\n赠【800奖券】",
+					"count": 28,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 800
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 300,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706124,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1200奖券",
+					"desc": "累计充值满60元\n赠【1200奖券】",
+					"count": 56,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 1200
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 300,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170622",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60045,
+			"open": 1,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 100
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					706221,
+					706222,
+					706223,
+					706224
+				]
+			}],
+			"tasks": [{
+					"kindId": 706221,
+					"typeId": "ddz.qwtask.simple",
+					"name": "20奖券+5000金币",
+					"desc": "累计充值满2元\n赠【20奖券+5000金币】",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "user:coupon",
+								"count": 20
+							},
+							{
+								"itemId": "user:chip",
+								"count": 5000
+							}
+						]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 10,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706222,
+					"typeId": "ddz.qwtask.simple",
+					"name": "70奖券+3万金币",
+					"desc": "累计充值满10元\n赠【70奖券+3万金币】",
+					"count": 9,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "user:coupon",
+								"count": 70
+							},
+							{
+								"itemId": "user:chip",
+								"count": 30000
+							}
+						]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 6,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706223,
+					"typeId": "ddz.qwtask.simple",
+					"name": "150奖券+7万金币",
+					"desc": "累计充值满20元\n赠【150奖券+7万金币】",
+					"count": 19,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "user:coupon",
+								"count": 150
+							},
+							{
+								"itemId": "user:chip",
+								"count": 70000
+							}
+						]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 6,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706224,
+					"typeId": "ddz.qwtask.simple",
+					"name": "400奖券+18万金币",
+					"desc": "累计充值满35元\n赠【400奖券+18万金币】",
+					"count": 33,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "user:coupon",
+								"count": 400
+							},
+							{
+								"itemId": "user:chip",
+								"count": 180000
+							}
+						]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 300,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170629",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60046,
+			"open": 1,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 100
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					706291,
+					706292,
+					706293,
+					706294
+				]
+			}],
+			"tasks": [{
+					"kindId": 706291,
+					"typeId": "ddz.qwtask.simple",
+					"name": "记牌器1天",
+					"desc": "取胜1局（除比赛场、单机场）\n奖励【记牌器1天】",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6001,
+								6002,
+								6003,
+								6004,
+								6005,
+								6006,
+								6031,
+								6032,
+								6033,
+								6034,
+								6035,
+								6036,
+								6011,
+								6012,
+								6013,
+								6014,
+								6015,
+								6016,
+								6021,
+								6022,
+								6023,
+								6024,
+								6025,
+								6026
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706292,
+					"typeId": "ddz.qwtask.simple",
+					"name": "10奖券",
+					"desc": "参加1场充能一夏免费家电赛，可获得10奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6604
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 10
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6604,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706293,
+					"typeId": "ddz.qwtask.simple",
+					"name": "2万金币",
+					"desc": "单笔充值满6元，可领取2万金币。",
+					"count": 5,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 20000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 60,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706294,
+					"typeId": "ddz.qwtask.simple",
+					"name": "100奖券",
+					"desc": "参加1场VIP专属回馈赛，可获得100奖券。",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6603,
+								6605
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:coupon",
+							"count": 100
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6603,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170824",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60049,
+			"open": 1,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 100
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					706221,
+					706222,
+					706223,
+					706224
+				]
+			}],
+			"tasks": [{
+					"kindId": 706221,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1000金币",
+					"desc": "经典场取得1场胜利\n即可获得【1000金币】",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6011,
+								6012,
+								6013,
+								6019
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 1000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706222,
+					"typeId": "ddz.qwtask.simple",
+					"name": "2000金币",
+					"desc": "经典场累计取得5场胜利\n即可获得【2000金币】",
+					"count": 5,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6011,
+								6012,
+								6013,
+								6019
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 2000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706223,
+					"typeId": "ddz.qwtask.simple",
+					"name": "3000金币",
+					"desc": "参与2局3元红包赛\n即可获得【3000金币】",
+					"count": 2,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6071
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 3000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6071,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706224,
+					"typeId": "ddz.qwtask.simple",
+					"name": "精灵花冠+2w金币",
+					"desc": "累计充值满6元\n即可获得【精灵花冠*1+2w金币】",
+					"count": 6,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t500k.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "item:4105",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 20000
+							}
+						]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 80,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170825",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60051,
+			"open": 1,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 1000
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					706221,
+					706222,
+					706223,
+					706224
+				]
+			}],
+			"tasks": [{
+					"kindId": 706221,
+					"typeId": "ddz.qwtask.simple",
+					"name": "记牌器*1+1.5W金币",
+					"desc": "累计充值满1元\n赠【记牌器*1+15000金币】",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/ntg/imgs/chip1.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "item:2003",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 15000
+							}
+						]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 20,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706222,
+					"typeId": "ddz.qwtask.simple",
+					"name": "40000金币",
+					"desc": "累计充值满12元\n赠【40000金币】",
+					"count": 11,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/ntg/imgs/chip1.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 40000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 80,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706223,
+					"typeId": "ddz.qwtask.simple",
+					"name": "70000金币",
+					"desc": "累计充值满30元\n赠【70000金币】",
+					"count": 29,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/ntg/imgs/chip1.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 70000
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 300,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706224,
+					"typeId": "ddz.qwtask.simple",
+					"name": "500奖券+16w金币",
+					"desc": "累计充值满60元\n赠【500奖券+160000金币】",
+					"count": 59,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/coupon.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "user:coupon",
+								"count": 500
+							},
+							{
+								"itemId": "user:chip",
+								"count": 160000
+							}
+						]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 300,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170915",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60061,
+			"open": 1,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 100
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					706221,
+					706222,
+					706223,
+					706224
+				]
+			}],
+			"tasks": [{
+					"kindId": 706221,
+					"typeId": "ddz.qwtask.simple",
+					"name": "牛仔帽+1.2w金币",
+					"desc": "累计充值满6元\n即可获得【牛仔帽+1.2w金币】",
+					"count": 6,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_4103.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "item:4103",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 12000
+							}
+						]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 60,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706222,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1200金币",
+					"desc": "初级及以上场次累计取得3场胜利\n即可获得【1200金币】",
+					"count": 3,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6002,
+								6003,
+								6009,
+								6012,
+								6013,
+								6019,
+								6022,
+								6023,
+								6029,
+								6032,
+								6033,
+								6039,
+								6007,
+								6027
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 1200
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706223,
+					"typeId": "ddz.qwtask.simple",
+					"name": "英雄帖+2千金币",
+					"desc": "初级及以上场次累计取得9场胜利\n即可获得【英雄帖*1+2000金币】",
+					"count": 9,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6002,
+								6003,
+								6009,
+								6012,
+								6013,
+								6019,
+								6022,
+								6023,
+								6029,
+								6032,
+								6033,
+								6039,
+								6007,
+								6027
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "item:1008",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000
+							}
+						]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706224,
+					"typeId": "ddz.qwtask.simple",
+					"name": "青春派(女)",
+					"desc": "参与1次经典3元红包赛\n即可获得【青春派(女)】",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_4110.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6071
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:4110",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6071,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_170904",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 60055,
+			"open": 1,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 100
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					706221,
+					706222,
+					706223,
+					706224
+				]
+			}],
+			"tasks": [{
+					"kindId": 706221,
+					"typeId": "ddz.qwtask.simple",
+					"name": "神秘礼帽+2w金币",
+					"desc": "累计充值满6元\n即可获得【神秘礼帽+2w金币】",
+					"count": 6,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_4101.png",
+					"inspector": {
+						"typeId": "hall.charge.cumulation",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "item:4101",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 20000
+							}
+						]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 60,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706222,
+					"typeId": "ddz.qwtask.simple",
+					"name": "1000金币",
+					"desc": "初级及以上场次累计取得2场胜利\n即可获得【1000金币】",
+					"count": 2,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6002,
+								6003,
+								6009,
+								6012,
+								6013,
+								6019,
+								6022,
+								6023,
+								6029,
+								6032,
+								6033,
+								6039
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 1000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706223,
+					"typeId": "ddz.qwtask.simple",
+					"name": "2000金币",
+					"desc": "初级及以上场次累计取得5场胜利\n即可获得【2000金币】",
+					"count": 5,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6002,
+								6003,
+								6009,
+								6012,
+								6013,
+								6019,
+								6022,
+								6023,
+								6029,
+								6032,
+								6033,
+								6039
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 2000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 706224,
+					"typeId": "ddz.qwtask.simple",
+					"name": "3千金币+魅力族(男)",
+					"desc": "参与1次全国九人卫星赛\n即可获得【3000金币+魅力族(男)】",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_4111.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6702
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+								"itemId": "item:4111",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000
+							}
+						]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6702,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_171001",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 61001,
+			"open": 1,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 120
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					710011,
+					710012,
+					710013,
+					710014
+				]
+			}],
+			"tasks": [{
+					"kindId": 710011,
+					"typeId": "ddz.qwtask.simple",
+					"name": "大师分*50",
+					"desc": "初级及以上场次累计取得5场胜利\n即可获得【大师分*50】",
+					"count": 5,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/dashifen.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6002,
+								6003,
+								6009,
+								6012,
+								6013,
+								6019,
+								6022,
+								6023,
+								6029,
+								6032,
+								6033,
+								6039
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "ddz:master.score",
+							"count": 50
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 710012,
+					"typeId": "ddz.qwtask.simple",
+					"name": "记牌器1天",
+					"desc": "初级及以上场次累计取得10场胜利\n即可获得【记牌器1天】",
+					"count": 10,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_2003.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6002,
+								6003,
+								6009,
+								6012,
+								6013,
+								6019,
+								6022,
+								6023,
+								6029,
+								6032,
+								6033,
+								6039
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:2003",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 1
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 710013,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光宝盒*2",
+					"desc": "参加1场20元红包赛\n赠【月光宝盒】2个",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3002.png",
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6072
+							]
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"roomId": 6072,
+								"gameType": 3
+							}
+						}
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3002",
+							"count": 2
+						}]
+					},
+					"rewardMail": "恭喜获得第3阶段任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 710014,
+					"typeId": "ddz.qwtask.simple",
+					"name": "月光之钥*1",
+					"desc": "单笔充值满6元\n赠【月光之钥】1个",
+					"count": 5,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/item/imgs/item_3001.png",
+					"inspector": {
+						"typeId": "hall.charge.single",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "item:3001",
+							"count": 1
+						}]
+					},
+					"todotask": {
+						"typeId": "todotask.payOrder",
+						"payOrder": {
+							"shelves": [
+								"coin"
+							],
+							"buyTypes": [
+								"direct",
+								"consume"
+							],
+							"priceDiamond": {
+								"count": 60,
+								"maxCount": -1,
+								"minCount": 0
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段任务奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "renwu4_1031win",
+			"typeId": "ddz.act.quweitask",
+			"intActId": 71031,
+			"open": 1,
+			"taskCount": 4,
+			"refreshFee": {
+				"itemId": "user:diamond",
+				"count": 100
+			},
+			"autoRefresh": 1,
+			"gameId": 6,
+			"initPools": [{
+				"kindIds": [
+					710311,
+					710312,
+					710313,
+					710314
+				]
+			}],
+			"tasks": [{
+					"kindId": 710311,
+					"typeId": "ddz.qwtask.simple",
+					"name": "金币×1000",
+					"desc": "欢乐场取胜1场赠【金币*1000】(训练场除外)",
+					"count": 1,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6002,
+								6003,
+								6009
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 1000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 2
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第1阶段奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 710312,
+					"typeId": "ddz.qwtask.simple",
+					"name": "金币×3000",
+					"desc": "欢乐场取胜5场赠【金币*3000】(训练场除外)",
+					"count": 5,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6002,
+								6003,
+								6009
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 3000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 2
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第2阶段奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 710313,
+					"typeId": "ddz.qwtask.simple",
+					"name": "金币×2万",
+					"desc": "欢乐场取胜20场赠【金币*2万】(训练场、初级场除外)",
+					"count": 20,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6003,
+								6009
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 20000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 2
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第3阶段奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 710314,
+					"typeId": "ddz.qwtask.simple",
+					"name": "金币×8.8万",
+					"desc": "欢乐场取胜88场赠【金币*8.8万】(训练场、初级场除外)",
+					"count": 88,
+					"totalLimit": 1,
+					"pic": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [{
+							"typeId": "ddz.cond.roomId",
+							"roomIds": [
+								6003,
+								6009
+							]
+						}]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [{
+							"itemId": "user:chip",
+							"count": 88000
+						}]
+					},
+					"todotask": {
+						"gameId": 6,
+						"typeId": "hall.goto.enter.game",
+						"enter_param": {
+							"type": "roomlist",
+							"pluginParams": {
+								"gameType": 2
+							}
+						}
+					},
+					"rewardMail": "恭喜获得第4阶段奖励：\\${rewardContent}"
+				}
+			]
+		},
+		{
+			"actId": "act60930",
+			"typeId": "act_ddz_scoreboard",
+			"intActId": 60930,
+			"open": 1,
+			"showLimit": 50,
+			"showLimitDaily": 1,
+            "showLimitTotal": 3,
+			"rewardLimit": 500,
+			"issueNum": 20180101,
+			"delDate": 20180102,
+			"startTime": "2017-12-25 00:00:00",
+			"endTime": "2017-12-31 23:59:59",
+			"dayOpenTime": "00:00",
+			"dayCloseTime": "23:59",
+			"mail": "您在360棋牌大师赛中获得\\${rewardContent}，快去看看吧",
+			"historyLen": 10,
+			"hallGameIds": [
+				6
+			],
+			"clientIds": [
+				20209,
+				20210,
+				20211,
+				20214,
+				20216,
+				20255,
+				20257,
+				20278,
+				20347,
+				20352,
+				20359,
+				20571,
+				20572,
+				20673,
+				20690,
+				20691,
+				20861,
+				20862,
+				21127,
+				21128,
+				21129,
+				21299,
+				21300,
+				21301,
+				21303,
+				21571,
+				21858,
+				21324,
+				21340
+			],
+			"itemAddition": {
+				"rate": 0.1,
+				"itemId": "item:1282",
+				"todoTask": {
+					"url": "",
+					"typeId": "hall.thirdsdk.extend",
+					"params": {
+						"action": "ysdk",
+						"func": "bbs"
+					}
+				},
+				"open": 0
+			},
+			"dibaoScore": 60,
+			"dibaoReward": {
+				"desc": "幸运卡×1",
+				"items": [{
+					"itemId": "item:4167",
+					"count": 1
+				}]
+			},
+			"scoreUpWay": {
+				"roundAndWins": [{
+						"maxScore": 120,
+						"scorePerRound": 1,
+						"scorePerWin": 1,
+						"openRoomIds": [
+							6002,
+							6012,
+							6022
+						]
+					},
+					{
+						"maxScore": 200,
+						"scorePerRound": 2,
+						"scorePerWin": 3,
+						"openRoomIds": [
+							6003,
+							6013,
+							6023
+						]
+					},
+					{
+						"maxScore": 1500,
+						"scorePerRound": 4,
+						"scorePerWin": 6,
+						"openRoomIds": [
+							6004,
+							6014,
+							6024
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 8,
+						"scorePerWin": 10,
+						"openRoomIds": [
+							6005,
+							6015,
+							6025
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 14,
+						"scorePerWin": 18,
+						"openRoomIds": [
+							6006,
+							6016,
+							6026
+						]
+					}
+				],
+				"charge": {
+					"maxScore": 999999,
+					"exchangeRate": 0
+				},
+				"share": {
+					"shareId": [
+						100
+					],
+					"maxShareScore": 100,
+					"score": 0
+				}
+			},
+			"dailyReward": [{
+					"start": 1,
+					"end": 1,
+					"img": "${http_download}/hall/item/imgs/item_4233.png",
+					"desc": "100元京东卡×2",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 2
+					}]
+				},
+				{
+					"start": 2,
+					"end": 2,
+					"img": "${http_download}/hall/item/imgs/item_4233.png",
+					"desc": "100元京东卡×1",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 1
+					}]
+				},
+				{
+					"start": 3,
+					"end": 3,
+					"img": "${http_download}/hall/item/imgs/item_4232.png",
+					"desc": "50元京东卡×1",
+					"items": [{
+						"itemId": "item:4232",
+						"count": 1
+					}]
+				},
+				{
+					"start": 4,
+					"end": 10,
+					"img": "${http_download}/hall/pdt/imgs/item_4142.png",
+					"desc": "30元话费",
+					"items": [{
+						"itemId": "item:4142",
+						"count": 1
+					}]
+				},
+				{
+					"start": 11,
+					"end": 20,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "20万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 200000
+					}]
+				},
+				{
+					"start": 21,
+					"end": 100,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "10万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 100000
+					}]
+				},
+				{
+					"start": 101,
+					"end": 200,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "5万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 50000
+					}]
+				},
+				{
+					"start": 201,
+					"end": 500,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "3万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 30000
+					}]
+				}
+			],
+			"totalReward": [{
+					"start": 1,
+					"end": 1,
+					"img": "${http_download}/hall/item/imgs/item_2230.png",
+					"desc": "1000元京东卡+360扑克大师称号",
+					"items": [{
+						"itemId": "item:2230",
+						"count": 1
+					}]
+				},
+				{
+					"start": 2,
+					"end": 2,
+					"img": "${http_download}/hall/item/imgs/item_4369.png",
+					"desc": "500元京东卡×1",
+					"items": [{
+						"itemId": "item:4369",
+						"count": 1
+					}]
+				},
+				{
+					"start": 3,
+					"end": 3,
+					"img": "${http_download}/hall/item/imgs/item_4233.png",
+					"desc": "100元京东卡×2",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 2
+					}]
+				},
+				{
+					"start": 4,
+					"end": 10,
+					"img": "${http_download}/hall/item/imgs/item_4233.png",
+					"desc": "100元京东卡×1",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 1
+					}]
+				},
+				{
+					"start": 11,
+					"end": 20,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "70万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 700000
+					}]
+				},
+				{
+					"start": 21,
+					"end": 30,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "50万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 500000
+					}]
+				},
+				{
+					"start": 31,
+					"end": 40,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "30万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 300000
+					}]
+				},
+				{
+					"start": 41,
+					"end": 50,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "20万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 200000
+					}]
+				}
+			]
+		},
+		{
+			"actId": "act171229",
+			"typeId": "act_ddz_scoreboard",
+			"intActId": 71229,
+			"open": 1,
+			"showLimit": 50,
+			"showLimitDaily": 1,
+            "showLimitTotal": 3,
+			"rewardLimit": 500,
+			"issueNum": 20180105,
+			"delDate": 20180106,
+			"startTime": "2017-12-29 00:00:00",
+			"endTime": "2018-01-04 23:59:59",
+			"dayOpenTime": "00:00",
+			"dayCloseTime": "23:59",
+			"mail": "您在vivo棋牌大师赛中获得\\${rewardContent}，快去看看吧",
+			"historyLen": 10,
+			"hallGameIds": [
+				6
+			],
+			"clientIds": [],
+			"itemAddition": {
+				"rate": 0.1,
+				"itemId": "item:1282",
+				"todoTask": {
+					"url": "",
+					"typeId": "hall.thirdsdk.extend",
+					"params": {
+						"action": "ysdk",
+						"func": "bbs"
+					}
+				},
+				"open": 0
+			},
+			"dibaoScore": 60,
+			"dibaoReward": {
+				"desc": "幸运卡×1",
+				"items": [{
+					"itemId": "item:4167",
+					"count": 1
+				}]
+			},
+			"scoreUpWay": {
+				"roundAndWins": [{
+						"maxScore": 120,
+						"scorePerRound": 1,
+						"scorePerWin": 1,
+						"openRoomIds": [
+							6002,
+							6012,
+							6022
+						]
+					},
+					{
+						"maxScore": 200,
+						"scorePerRound": 2,
+						"scorePerWin": 3,
+						"openRoomIds": [
+							6003,
+							6013,
+							6023
+						]
+					},
+					{
+						"maxScore": 1500,
+						"scorePerRound": 4,
+						"scorePerWin": 6,
+						"openRoomIds": [
+							6004,
+							6014,
+							6024
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 8,
+						"scorePerWin": 10,
+						"openRoomIds": [
+							6005,
+							6015,
+							6025
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 14,
+						"scorePerWin": 18,
+						"openRoomIds": [
+							6006,
+							6016,
+							6026
+						]
+					}
+				],
+				"charge": {
+					"maxScore": 999999,
+					"exchangeRate": 5
+				},
+				"share": {
+					"shareId": [
+						100
+					],
+					"maxShareScore": 100,
+					"score": 0
+				}
+			},
+			"dailyReward": [{
+					"start": 1,
+					"end": 1,
+					"img": "${http_download}/hall/item/imgs/item_4369.png",
+					"desc": "800元京东卡",
+					"items": [{
+							"itemId": "item:4369",
+							"count": 1
+						},
+						{
+							"itemId": "item:4233",
+							"count": 3
+						}
+					]
+				},
+				{
+					"start": 2,
+					"end": 2,
+					"img": "${http_download}/hall/item/imgs/item_4369.png",
+					"desc": "500元京东卡×1",
+					"items": [{
+						"itemId": "item:4369",
+						"count": 1
+					}]
+				},
+				{
+					"start": 3,
+					"end": 3,
+					"img": "${http_download}/hall/item/imgs/item_4233.png",
+					"desc": "100元京东卡×2",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 2
+					}]
+				},
+				{
+					"start": 4,
+					"end": 10,
+					"img": "${http_download}/hall/pdt/imgs/item_4143.png",
+					"desc": "50元话费",
+					"items": [{
+						"itemId": "item:4143",
+						"count": 1
+					}]
+				},
+				{
+					"start": 11,
+					"end": 20,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "20万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 200000
+					}]
+				},
+				{
+					"start": 21,
+					"end": 100,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "10万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 100000
+					}]
+				},
+				{
+					"start": 101,
+					"end": 200,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "5万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 50000
+					}]
+				},
+				{
+					"start": 201,
+					"end": 500,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "3万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 30000
+					}]
+				}
+			],
+			"totalReward": [{
+					"start": 1,
+					"end": 1,
+					"img": "${http_download}/hall/item/imgs/item_2243.png",
+					"desc": "vivo X20手机",
+					"items": [{
+						"itemId": "item:2243",
+						"count": 1
+					}]
+				},
+				{
+					"start": 2,
+					"end": 2,
+					"img": "${http_download}/hall/item/imgs/item_2230.png",
+					"desc": "1000元京东卡×1",
+					"items": [{
+						"itemId": "item:2230",
+						"count": 1
+					}]
+				},
+				{
+					"start": 3,
+					"end": 3,
+					"img": "${http_download}/hall/item/imgs/item_4369.png",
+					"desc": "500元京东卡×1",
+					"items": [{
+						"itemId": "item:4369",
+						"count": 1
+					}]
+				},
+				{
+					"start": 4,
+					"end": 10,
+					"img": "${http_download}/hall/item/imgs/item_4233.png",
+					"desc": "100元京东卡×1",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 1
+					}]
+				},
+				{
+					"start": 11,
+					"end": 20,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "70万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 700000
+					}]
+				},
+				{
+					"start": 21,
+					"end": 30,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "50万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 500000
+					}]
+				},
+				{
+					"start": 31,
+					"end": 40,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "30万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 300000
+					}]
+				},
+				{
+					"start": 41,
+					"end": 50,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "20万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 200000
+					}]
+				}
+			]
+		},
+		{
+			"actId": "act_ddz_360qipaidasai",
+			"typeId": "ddz.act.match_promotion_list",
+			"intActId": 62001,
+			"open": 1,
+			"startTime": "2017-10-16 00:00:00",
+			"endTime": "2017-12-16 23:59:59",
+			"matchList": {
+				"showBar": [{
+						"name": "总决赛晋级名单",
+						"round": "topRound"
+					},
+					{
+						"name": "月赛晋级名单",
+						"round": "childRound"
+					}
+				],
+				"topRound_list": [{
+						"name": "十月",
+						"dateList": [
+							"20171031"
+						],
+						"matches": [
+							6305
+						],
+						"num": 10,
+						"promotionNum": 2
+					},
+					{
+						"name": "十一月",
+						"dateList": [
+							"20171130"
+						],
+						"matches": [
+							6305
+						],
+						"num": 11,
+						"promotionNum": 3
+					},
+					{
+						"name": "十二月",
+						"dateList": [
+							"20171215"
+						],
+						"matches": [
+							6305
+						],
+						"num": 12,
+						"promotionNum": 3
+					}
+				],
+				"childRound_list": [{
+						"name": "十月",
+						"dateRange": "20171001-20171031",
+						"round_list": [{
+								"name": "第一周",
+								"dateList": [
+									"20171021",
+									"20171022"
+								],
+								"matches": [
+									6304
+								],
+								"promotionNum": 10,
+								"num": 1
+							},
+							{
+								"name": "第二周",
+								"dateList": [
+									"20171028",
+									"20171029"
+								],
+								"matches": [
+									6304
+								],
+								"promotionNum": 10,
+								"num": 2
+							}
+						]
+					},
+					{
+						"name": "十一月",
+						"dateRange": "20171101-20171130",
+						"round_list": [{
+								"name": "第一周",
+								"dateList": [
+									"20171104",
+									"20171105"
+								],
+								"matches": [
+									6304
+								],
+								"promotionNum": 10,
+								"num": 1
+							},
+							{
+								"name": "第二周",
+								"dateList": [
+									"20171111",
+									"20171112"
+								],
+								"matches": [
+									6304
+								],
+								"promotionNum": 10,
+								"num": 2
+							},
+							{
+								"name": "第三周",
+								"dateList": [
+									"20171118",
+									"20171119"
+								],
+								"matches": [
+									6304
+								],
+								"promotionNum": 10,
+								"num": 3
+							},
+							{
+								"name": "第四周",
+								"dateList": [
+									"20171125",
+									"20171126"
+								],
+								"matches": [
+									6304
+								],
+								"promotionNum": 10,
+								"num": 4
+							}
+						]
+					},
+					{
+						"name": "十二月",
+						"dateRange": "20171201-20171215",
+						"round_list": [{
+								"name": "第一周",
+								"dateList": [
+									"20171202",
+									"20171203"
+								],
+								"matches": [
+									6304
+								],
+								"promotionNum": 10,
+								"num": 1
+							},
+							{
+								"name": "第二周",
+								"dateList": [
+									"20171209",
+									"20171210"
+								],
+								"matches": [
+									6304
+								],
+								"promotionNum": 10,
+								"num": 2
+							}
+						]
+					}
+				]
+			},
+			"clientIds": [
+				11744,
+				11753,
+				11884,
+				11885,
+				11961,
+				12073,
+				12378,
+				12422,
+				12624,
+				12628,
+				12770,
+				12794,
+				12953,
+				13147,
+				13213,
+				13586,
+				13765,
+				13798,
+				14418,
+				14596,
+				14763,
+				14812,
+				14876,
+				14918,
+				14919,
+				15491,
+				15492,
+				15493,
+				15683,
+				15710,
+				15836,
+				15845,
+				15856,
+				16004,
+				16223,
+				16232,
+				16369,
+				16370,
+				16381,
+				16393,
+				16397,
+				16523,
+				16679,
+				16944,
+				16971,
+				17002,
+				17009,
+				17020,
+				17021,
+				17208,
+				17261,
+				17265,
+				17350,
+				17351,
+				17352,
+				17353,
+				17354,
+				17356,
+				17357,
+				17361,
+				17389,
+				17402,
+				17675,
+				17919,
+				17996,
+				17998,
+				17999,
+				18047,
+				18088,
+				18094,
+				18095,
+				18096,
+				18097,
+				18098,
+				18139,
+				18198,
+				18384,
+				18386,
+				18618,
+				18693,
+				19650,
+				19652,
+				19759,
+				19760,
+				20209,
+				20210,
+				20211,
+				20214,
+				20257,
+				20278,
+				20347,
+				20352,
+				20359,
+				20571,
+				20572,
+				20673,
+				20690,
+				20861,
+				20862,
+				21127,
+				21128,
+				21129,
+				21324,
+				21340,
+				21132,
+				21858
+			]
+		},
+		{
+			"actId": "act171213",
+			"typeId": "act_ddz_christmas",
+			"intActId": 171213,
+			"open": 1,
+			"startTime": "2017-09-05 00:00:00",
+			"endTime": "2018-01-02 23:59:59",
+			"dayOpenTime": "00:00",
+			"dayCloseTime": "00:00",
+			"mail": "您在圣诞活动中兑换获得\\${rewardContent}，快去看看吧",
+			"roomList": [{
+					"roomId": [
+						6002,
+						6012,
+						6022
+					],
+					"dropRate": 0.05,
+					"itemId": "item:1294"
+				},
+				{
+					"roomId": [
+						6003
+					],
+					"dropRate": 0.1,
+					"itemId": "item:1294"
+				},
+				{
+					"roomId": [
+						6013
+					],
+					"dropRate": 0.15,
+					"itemId": "item:1294"
+				},
+				{
+					"roomId": [
+						6023
+					],
+					"dropRate": 0.2,
+					"itemId": "item:1294"
+				},
+				{
+					"roomId": [
+						6004,
+						6014,
+						6024
+					],
+					"dropRate": 0.4,
+					"itemId": "item:1294"
+				},
+				{
+					"roomId": [
+						6005,
+						6006,
+						6015,
+						6016,
+						6025,
+						6026
+					],
+					"dropRate": 0.6,
+					"itemId": "item:1294"
+				}
+			],
+			"collectItems": {
+				"sock1": {
+					"itemId": "item:1293",
+					"count": 2,
+					"todotask": {
+						"shareId": 100,
+						"urlParams": {}
+					}
+				},
+				"sock2": {
+					"itemId": "item:1294",
+					"count": 10,
+					"todotask": {
+						"sessionIndex": "0",
+						"tip": "0-经典 1-欢乐 2-癞子 3-二人 注意sessionIndex是字符"
+					}
+				},
+				"sock3": {
+					"itemId": "item:1295",
+					"count": 2,
+					"todotask": {
+						"matchIndex": "0",
+						"tip": "0-比赛第一页 1-比赛第二页 2-比赛第三页 注意matchIndex是字符"
+					}
+				}
+			},
+			"tips": "你的愿望是什么？",
+			"rewards": [{
+					"minVip": 0,
+					"maxVip": 0,
+					"reward": [{
+						"itemId": "item:1296",
+						"count": 1
+					}]
+				},
+				{
+					"minVip": 1,
+					"maxVip": 1,
+					"reward": [{
+						"itemId": "item:1297",
+						"count": 1
+					}]
+				},
+				{
+					"minVip": 2,
+					"maxVip": 2,
+					"reward": [{
+						"itemId": "item:1298",
+						"count": 1
+					}]
+				},
+				{
+					"minVip": 3,
+					"maxVip": 3,
+					"reward": [{
+						"itemId": "item:1299",
+						"count": 1
+					}]
+				},
+				{
+					"minVip": 4,
+					"maxVip": 15,
+					"reward": [{
+						"itemId": "item:1300",
+						"count": 1
+					}]
+				}
+			]
+		},
+		{
+			"actId": "act_oppo_80131",
+			"typeId": "act_ddz_scoreboard",
+			"intActId": 80131,
+			"open": 1,
+			"showLimit": 50,
+            "showLimitDaily": 1,
+            "showLimitTotal": 3,
+			"rewardLimit": 500,
+			"issueNum": 20180408,
+			"delDate": 20180414,
+			"startTime": "2018-03-26 00:00:00",
+			"endTime": "2018-04-07 23:59:59",
+			"dayOpenTime": "00:00",
+			"dayCloseTime": "23:59",
+			"mail": "您OPPO_R15新品福利赛中获得\\${rewardContent}，快去看看吧",
+			"historyLen": 10,
+			"hallGameIds": [
+				6
+			],
+			"clientIds": [
+				22411
+			],
+			"itemAddition": {
+				"rate": 0.1,
+				"itemId": "item:1282",
+				"todoTask": {
+					"url": "",
+					"typeId": "hall.thirdsdk.extend",
+					"params": {
+						"action": "ysdk",
+						"func": "bbs"
+					}
+				},
+				"open": 0
+			},
+			"dibaoScore": 60,
+			"dibaoReward": {
+				"desc": "幸运卡×1",
+				"items": [{
+					"itemId": "item:4167",
+					"count": 1
+				}]
+			},
+			"scoreUpWay": {
+				"roundAndWins": [{
+						"maxScore": 1000,
+						"scorePerRound": 2,
+						"scorePerWin": 2,
+						"openRoomIds": [
+							6002,
+							6012,
+							6022
+						]
+					},
+					{
+						"maxScore": 3000,
+						"scorePerRound": 4,
+						"scorePerWin": 4,
+						"openRoomIds": [
+							6003,
+							6013,
+							6023
+						]
+					},
+					{
+						"maxScore": 5000,
+						"scorePerRound": 8,
+						"scorePerWin": 6,
+						"openRoomIds": [
+							6004,
+							6014,
+							6024
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 14,
+						"scorePerWin": 8,
+						"openRoomIds": [
+							6005,
+							6015,
+							6025
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 20,
+						"scorePerWin": 12,
+						"openRoomIds": [
+							6006,
+							6016,
+							6026
+						]
+					},
+					{
+						"maxScore": 100,
+						"scorePerRound": 1,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6058,
+							6070,
+							6075
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 4,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6071
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 8,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6072
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 15,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6057
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 30,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6053
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 60,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6077
+						]
+					}
+				],
+				"charge": {
+					"maxScore": 999999,
+					"exchangeRate": 10
+				},
+				"share": {
+					"shareId": [
+						100
+					],
+					"maxShareScore": 100,
+					"score": 0
+				}
+			},
+			"dailyReward": [{
+					"start": 1,
+					"end": 1,
+					"img": "${http_download}/hall/item/item_2264.png",
+					"desc": "OPPO_R15手机一部",
+					"items": [{
+						"itemId": "item:2267",
+						"count": 1
+					}]
+				},
+				{
+					"start": 2,
+					"end": 2,
+					"img": "${http_download}/hall/item/imgs/item_4369_39.png",
+					"desc": "500元京东卡",
+					"items": [{
+						"itemId": "item:4369",
+						"count": 1
+					}]
+				},
+				{
+					"start": 3,
+					"end": 3,
+					"img": "${http_download}/hall/item/imgs/item_4233.png",
+					"desc": "100元京东卡×3",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 3
+					}]
+				},
+				{
+					"start": 4,
+					"end": 10,
+					"img": "${http_download}/hall/item/imgs/coupon_1.png",
+					"desc": "50元红包券",
+					"items": [{
+						"itemId": "user:coupon",
+						"count": 5000
+					}]
+				},
+				{
+					"start": 11,
+					"end": 20,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "10万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 100000
+					}]
+				},
+				{
+					"start": 21,
+					"end": 100,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "5万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 50000
+					}]
+				},
+				{
+					"start": 101,
+					"end": 200,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "3万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 30000
+					}]
+				},
+				{
+					"start": 201,
+					"end": 500,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "1万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 10000
+					}]
+				}
+			],
+			"totalReward": [{
+					"start": 1,
+					"end": 1,
+					"img": "${http_download}/hall/item/imgs/item_2177.png",
+					"desc": "oppoR15手机+大礼包",
+					"items": [{
+						"itemId": "item:2177",
+						"count": 1
+					}]
+				},
+				{
+					"start": 2,
+					"end": 2,
+					"img": "${http_download}/hall/item/imgs/item_2230.png",
+					"desc": "1000元京东卡×1",
+					"items": [{
+						"itemId": "item:2230",
+						"count": 1
+					}]
+				},
+				{
+					"start": 3,
+					"end": 3,
+					"img": "${http_download}/hall/item/imgs/item_4369.png",
+					"desc": "500元京东卡×1",
+					"items": [{
+						"itemId": "item:4369",
+						"count": 1
+					}]
+				},
+				{
+					"start": 4,
+					"end": 10,
+					"img": "${http_download}/hall/item/imgs/item_4233.png",
+					"desc": "100元京东卡×3",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 3
+					}]
+				},
+				{
+					"start": 11,
+					"end": 20,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "70万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 700000
+					}]
+				},
+				{
+					"start": 21,
+					"end": 30,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "50万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 500000
+					}]
+				},
+				{
+					"start": 31,
+					"end": 40,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "30万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 300000
+					}]
+				},
+				{
+					"start": 41,
+					"end": 50,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "20万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 200000
+					}]
+				}
+			]
+		},
+		{
+			"actId": "act_huawei_80131",
+			"typeId": "act_ddz_scoreboard",
+			"intActId": 80131,
+			"open": 1,
+			"showLimit": 50,
+            "showLimitDaily": 1,
+            "showLimitTotal": 3,
+			"rewardLimit": 300,
+			"issueNum": 20180405,
+			"delDate": 20180412,
+			"startTime": "2018-03-26 00:00:00",
+			"endTime": "2018-04-04 23:59:59",
+			"dayOpenTime": "00:00",
+			"dayCloseTime": "23:59",
+			"mail": "您在途游华为大师赛中获得\\${rewardContent}，快去看看吧",
+			"historyLen": 10,
+			"hallGameIds": [
+				6
+			],
+			"clientIds": [
+				22399,
+				22408
+			],
+			"itemAddition": {
+				"rate": 0.1,
+				"itemId": "item:1282",
+				"todoTask": {
+					"url": "",
+					"typeId": "hall.thirdsdk.extend",
+					"params": {
+						"action": "ysdk",
+						"func": "bbs"
+					}
+				},
+				"open": 0
+			},
+			"dibaoScore": 60,
+			"dibaoReward": {
+				"desc": "幸运卡×1",
+				"items": [{
+					"itemId": "item:4167",
+					"count": 1
+				}]
+			},
+			"scoreUpWay": {
+				"roundAndWins": [{
+						"maxScore": 1000,
+						"scorePerRound": 2,
+						"scorePerWin": 2,
+						"openRoomIds": [
+							6002,
+							6012,
+							6022
+						]
+					},
+					{
+						"maxScore": 3000,
+						"scorePerRound": 4,
+						"scorePerWin": 4,
+						"openRoomIds": [
+							6003,
+							6013,
+							6023
+						]
+					},
+					{
+						"maxScore": 5000,
+						"scorePerRound": 8,
+						"scorePerWin": 6,
+						"openRoomIds": [
+							6004,
+							6014,
+							6024
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 14,
+						"scorePerWin": 8,
+						"openRoomIds": [
+							6005,
+							6015,
+							6025
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 20,
+						"scorePerWin": 12,
+						"openRoomIds": [
+							6006,
+							6016,
+							6026
+						]
+					},
+					{
+						"maxScore": 100,
+						"scorePerRound": 1,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6058,
+							6070,
+							6075
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 4,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6071
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 8,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6072
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 15,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6057
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 30,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6053
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 60,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6077
+						]
+					}
+				],
+				"charge": {
+					"maxScore": 999999,
+					"exchangeRate": 10
+				},
+				"share": {
+					"shareId": [
+						100
+					],
+					"maxShareScore": 100,
+					"score": 0
+				}
+			},
+			"dailyReward": [{
+					"start": 1,
+					"end": 1,
+					"img": "${http_download}/hall/item/imgs/coupon_1.png",
+					"desc": "800元红包券",
+					"items": [{
+						"itemId": "user:coupon",
+						"count": 80000
+					}]
+				},
+				{
+					"start": 2,
+					"end": 2,
+					"img": "${http_download}/hall/item/imgs/coupon_1.png",
+					"desc": "500元红包券",
+					"items": [{
+						"itemId": "user:coupon",
+						"count": 50000
+					}]
+				},
+				{
+					"start": 3,
+					"end": 3,
+					"img": "${http_download}/hall/item/imgs/coupon_1.png",
+					"desc": "200元红包券",
+					"items": [{
+						"itemId": "user:coupon",
+						"count": 20000
+					}]
+				},
+				{
+					"start": 4,
+					"end": 10,
+					"img": "${http_download}/hall/item/imgs/item_4144_1.png",
+					"desc": "100元话费",
+					"items": [{
+						"itemId": "item:4144",
+						"count": 1
+					}]
+				},
+				{
+					"start": 11,
+					"end": 20,
+					"img": "${http_download}/hall/item/imgs/item_4142_3.png",
+					"desc": "30元话费",
+					"items": [{
+						"itemId": "item:4142",
+						"count": 1
+					}]
+				},
+				{
+					"start": 21,
+					"end": 100,
+					"img": "${http_download}/hall/item/imgs/item_4141_1.png",
+					"desc": "10元话费",
+					"items": [{
+						"itemId": "item:4141",
+						"count": 1
+					}]
+				},
+				{
+					"start": 101,
+					"end": 200,
+					"img": "${http_download}/hall/item/imgs/item_4180_1.png",
+					"desc": "5元话费",
+					"items": [{
+						"itemId": "item:4180",
+						"count": 1
+					}]
+				},
+				{
+					"start": 201,
+					"end": 300,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "1万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 10000
+					}]
+				}
+			],
+			"totalReward": [{
+					"start": 1,
+					"end": 1,
+					"img": "${http_download}/hall/item/huaweidashisai02.jpg",
+					"desc": "华为P20手机",
+					"items": [{
+						"itemId": "item:2269",
+						"count": 1
+					}]
+				},
+				{
+					"start": 2,
+					"end": 2,
+					"img": "${http_download}/hall/item/huaweidashisai04.png",
+					"desc": "华为荣耀9青春版×1",
+					"items": [{
+						"itemId": "item:2272",
+						"count": 1
+					}]
+				},
+				{
+					"start": 3,
+					"end": 3,
+					"img": "${http_download}/hall/item/huaweidashisai05.png",
+					"desc": "华为平板×1",
+					"items": [{
+						"itemId": "item:2271",
+						"count": 1
+					}]
+				},
+				{
+					"start": 4,
+					"end": 10,
+					"img": "${http_download}/hall/item/huaweidashisai03.png",
+					"desc": "华为蓝牙运动耳机×1",
+					"items": [{
+						"itemId": "item:2270",
+						"count": 1
+					}]
+				},
+				{
+					"start": 11,
+					"end": 20,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "70万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 700000
+					}]
+				},
+				{
+					"start": 21,
+					"end": 30,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "50万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 500000
+					}]
+				},
+				{
+					"start": 31,
+					"end": 40,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "30万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 300000
+					}]
+				},
+				{
+					"start": 41,
+					"end": 50,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "20万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 200000
+					}]
+				}
+			]
+		},
+		{
+	"actId": "act_vivo_80131",
+	"typeId": "act_ddz_scoreboard",
+	"intActId": 80131,
+	"open": 1,
+	"showLimit": 50,
+	"showLimitDaily": 1,
+	"showLimitTotal": 3,
+	"rewardLimit": 1000,
+	"issueNum": 20180329,
+	"delDate": 20180405,
+	"startTime": "2018-03-22 00:00:00",
+	"endTime": "2018-03-28 23:59:59",
+	"dayOpenTime": "00:00",
+	"dayCloseTime": "23:59",
+	"mail": "您在vivo棋牌大师赛中获得\\${rewardContent}，快去看看吧",
+	"historyLen": 10,
+	"hallGameIds": [
+		6
+	],
+	"clientIds": [
+		22412
+	],
+	"itemAddition": {
+		"rate": 0.1,
+		"itemId": "item:1282",
+		"todoTask": {
+			"url": "",
+			"typeId": "hall.thirdsdk.extend",
+			"params": {
+				"action": "ysdk",
+				"func": "bbs"
+			}
+		},
+		"open": 0
+	},
+	"dibaoScore": 60,
+	"dibaoReward": {
+		"desc": "幸运卡×1",
+		"items": [{
+			"itemId": "item:4167",
+			"count": 1
+		}]
+	},
+	"scoreUpWay": {
+		"roundAndWins": [{
+				"maxScore": 1000,
+				"scorePerRound": 2,
+				"scorePerWin": 2,
+				"openRoomIds": [
+					6002,
+					6012,
+					6022
+				]
+			},
+			{
+				"maxScore": 3000,
+				"scorePerRound": 4,
+				"scorePerWin": 4,
+				"openRoomIds": [
+					6003,
+					6013,
+					6023
+				]
+			},
+			{
+				"maxScore": 5000,
+				"scorePerRound": 8,
+				"scorePerWin": 6,
+				"openRoomIds": [
+					6004,
+					6014,
+					6024
+				]
+			},
+			{
+				"maxScore": 99999,
+				"scorePerRound": 14,
+				"scorePerWin": 8,
+				"openRoomIds": [
+					6005,
+					6015,
+					6025
+				]
+			},
+			{
+				"maxScore": 99999,
+				"scorePerRound": 20,
+				"scorePerWin": 12,
+				"openRoomIds": [
+					6006,
+					6016,
+					6026
+				]
+			},
+			{
+				"maxScore": 100,
+				"scorePerRound": 1,
+				"scorePerWin": 0,
+				"openRoomIds": [
+					6058,
+					6070,
+					6075
+				]
+			},
+			{
+				"maxScore": 99999,
+				"scorePerRound": 4,
+				"scorePerWin": 0,
+				"openRoomIds": [
+					6071
+				]
+			},
+			{
+				"maxScore": 99999,
+				"scorePerRound": 8,
+				"scorePerWin": 0,
+				"openRoomIds": [
+					6072
+				]
+			},
+			{
+				"maxScore": 99999,
+				"scorePerRound": 15,
+				"scorePerWin": 0,
+				"openRoomIds": [
+					6057
+				]
+			},
+			{
+				"maxScore": 99999,
+				"scorePerRound": 30,
+				"scorePerWin": 0,
+				"openRoomIds": [
+					6053
+				]
+			},
+			{
+				"maxScore": 99999,
+				"scorePerRound": 60,
+				"scorePerWin": 0,
+				"openRoomIds": [
+					6077
+				]
+			}
+		],
+		"charge": {
+			"maxScore": 999999,
+			"exchangeRate": 10
+		},
+		"share": {
+			"shareId": [
+				100
+			],
+			"maxShareScore": 100,
+			"score": 0
+		}
+	},
+	"dailyReward": [{
+			"start": 1,
+			"end": 1,
+			"img": "${http_download}/hall/item/item_2264.png",
+			"desc": "vivoX21手机一部",
+			"items": [{
+				"itemId": "item:2264",
+				"count": 1
+			}]
+		},
+		{
+			"start": 2,
+			"end": 2,
+			"img": "${http_download}/hall/item/imgs/coupon_1.png",
+			"desc": "800元红包券",
+			"items": [{
+				"itemId": "user:coupon",
+				"count": 80000
+			}]
+		},
+		{
+			"start": 3,
+			"end": 3,
+			"img": "${http_download}/hall/item/imgs/item_4233.png",
+			"desc": "300元红包券",
+			"items": [{
+				"itemId": "user:coupon",
+				"count": 30000
+			}]
+		},
+		{
+			"start": 4,
+			"end": 10,
+			"img": "${http_download}/hall/item/imgs/item_4144_1.png",
+			"desc": "100元话费卡",
+			"items": [{
+				"itemId": "item:4144",
+				"count": 1
+			}]
+		},
+		{
+			"start": 11,
+			"end": 20,
+			"img": "${http_download}/hall/item/imgs/item_4142_3.png",
+			"desc": "30元话费卡",
+			"items": [{
+				"itemId": "item:4142",
+				"count": 1
+			}]
+		},
+		{
+			"start": 21,
+			"end": 100,
+			"img": "${http_download}/hall/item/imgs/item_4141_1.png",
+			"desc": "10元话费卡",
+			"items": [{
+				"itemId": "item:4141",
+				"count": 1
+			}]
+		},
+		{
+			"start": 101,
+			"end": 200,
+			"img": "${http_download}/hall/item/imgs/item_4180_1.png",
+			"desc": "5元话费卡",
+			"items": [{
+				"itemId": "item:4180",
+				"count": 1
+			}]
+		},
+		{
+			"start": 201,
+			"end": 500,
+			"img": "${http_download}/hall/item/imgs/item_4178_1.png",
+			"desc": "3元话费卡",
+			"items": [{
+				"itemId": "item:4178",
+				"count": 3
+			}]
+		},
+		{
+			"start": 501,
+			"end": 1000,
+			"img": "${http_download}/hall/item/imgs/item_4178_1.png",
+			"desc": "1元话费卡",
+			"items": [{
+				"itemId": "item:4178",
+				"count": 1
+			}]
+		}
+	],
+	"totalReward": [{
+			"start": 1,
+			"end": 1,
+			"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+			"desc": "500万金币",
+			"items": [{
+				"itemId": "user:chip",
+				"count": 5000000
+			}]
+		},
+		{
+			"start": 2,
+			"end": 2,
+			"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+			"desc": "300万金币",
+			"items": [{
+				"itemId": "user:chip",
+				"count": 3000000
+			}]
+		},
+		{
+			"start": 3,
+			"end": 3,
+			"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+			"desc": "100万金币",
+			"items": [{
+				"itemId": "user:chip",
+				"count": 1000000
+			}]
+		},
+		{
+			"start": 4,
+			"end": 10,
+			"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+			"desc": "50万金币",
+			"items": [{
+				"itemId": "user:chip",
+				"count": 500000
+			}]
+		}
+	]
+},
+		{
+			"actId": "act_qq_80131",
+			"typeId": "act_ddz_scoreboard",
+			"intActId": 80131,
+			"open": 1,
+			"showLimit": 50,
+			"showLimitDaily": 1,
+			"showLimitTotal": 3,
+			"rewardLimit": 300,
+			"issueNum": 20180405,
+			"delDate": 20180412,
+			"startTime": "2018-03-26 00:00:00",
+			"endTime": "2018-04-04 23:59:59",
+			"dayOpenTime": "00:00",
+			"dayCloseTime": "23:59",
+			"mail": "您在应用宝棋牌大师赛中获得\\${rewardContent}，快去看看吧",
+			"historyLen": 10,
+			"hallGameIds": [
+				6
+			],
+			"clientIds": [
+				22481,
+				22570,
+				22433,
+				22482,
+				22571,
+				22434,
+				22485,
+				22572,
+				22437
+			],
+			"itemAddition": {
+				"rate": 0.1,
+				"itemId": "item:1282",
+				"todoTask": {
+					"url": "",
+					"typeId": "hall.thirdsdk.extend",
+					"params": {
+						"action": "ysdk",
+						"func": "bbs"
+					}
+				},
+				"open": 0
+			},
+			"dibaoScore": 60,
+			"dibaoReward": {
+				"desc": "幸运卡×1",
+				"items": [{
+					"itemId": "item:4167",
+					"count": 1
+				}]
+			},
+			"scoreUpWay": {
+				"roundAndWins": [{
+						"maxScore": 1000,
+						"scorePerRound": 2,
+						"scorePerWin": 2,
+						"openRoomIds": [
+							6002,
+							6012,
+							6022
+						]
+					},
+					{
+						"maxScore": 3000,
+						"scorePerRound": 4,
+						"scorePerWin": 4,
+						"openRoomIds": [
+							6003,
+							6013,
+							6023
+						]
+					},
+					{
+						"maxScore": 5000,
+						"scorePerRound": 8,
+						"scorePerWin": 6,
+						"openRoomIds": [
+							6004,
+							6014,
+							6024
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 14,
+						"scorePerWin": 8,
+						"openRoomIds": [
+							6005,
+							6015,
+							6025
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 20,
+						"scorePerWin": 12,
+						"openRoomIds": [
+							6006,
+							6016,
+							6026
+						]
+					},
+					{
+						"maxScore": 100,
+						"scorePerRound": 1,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6058,
+							6070,
+							6075
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 4,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6071
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 8,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6072
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 15,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6057
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 30,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6053
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 60,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6077
+						]
+					}
+				],
+				"charge": {
+					"maxScore": 999999,
+					"exchangeRate": 10
+				},
+				"share": {
+					"shareId": [
+						100
+					],
+					"maxShareScore": 100,
+					"score": 0
+				}
+			},
+			"dailyReward": [{
+					"start": 1,
+					"end": 1,
+					"img": "${http_download}/hall/item/imgs/coupon_1.png",
+					"desc": "500元红包券",
+					"items": [{
+						"itemId": "user:coupon",
+						"count": 50000
+					}]
+				},
+				{
+					"start": 2,
+					"end": 2,
+					"img": "${http_download}/hall/item/imgs/coupon_1.png",
+					"desc": "300元红包券",
+					"items": [{
+						"itemId": "user:coupon",
+						"count": 30000
+					}]
+				},
+				{
+					"start": 3,
+					"end": 3,
+					"img": "${http_download}/hall/item/imgs/coupon_1.png",
+					"desc": "200元红包券",
+					"items": [{
+						"itemId": "user:coupon",
+						"count": 20000
+					}]
+				},
+				{
+					"start": 4,
+					"end": 10,
+					"img": "${http_download}/hall/item/imgs/item_4144_1.png",
+					"desc": "100元话费",
+					"items": [{
+						"itemId": "item:4144",
+						"count": 1
+					}]
+				},
+				{
+					"start": 11,
+					"end": 20,
+					"img": "${http_download}/hall/item/imgs/item_4142_3.png",
+					"desc": "30元话费",
+					"items": [{
+						"itemId": "item:4142",
+						"count": 1
+					}]
+				},
+				{
+					"start": 21,
+					"end": 100,
+					"img": "${http_download}/hall/item/imgs/item_4141_1.png",
+					"desc": "10元话费",
+					"items": [{
+						"itemId": "item:4141",
+						"count": 1
+					}]
+				},
+				{
+					"start": 101,
+					"end": 200,
+					"img": "${http_download}/hall/item/imgs/item_4180_1.png",
+					"desc": "5元话费",
+					"items": [{
+						"itemId": "item:4180",
+						"count": 1
+					}]
+				},
+				{
+					"start": 201,
+					"end": 300,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "1万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 10000
+					}]
+				}
+			],
+			"totalReward": [{
+					"start": 1,
+					"end": 1,
+					"img": "${http_download}/hall/item/yingyongbaodashisai01.png",
+					"desc": "华为nove3手机",
+					"items": [{
+						"itemId": "item:2268",
+						"count": 1
+					}]
+				},
+				{
+					"start": 2,
+					"end": 2,
+					"img": "${http_download}/hall/item/imgs/item_2230.png",
+					"desc": "1000元京东卡×1",
+					"items": [{
+						"itemId": "item:2230",
+						"count": 1
+					}]
+				},
+				{
+					"start": 3,
+					"end": 3,
+					"img": "${http_download}/hall/item/imgs/item_4369.png",
+					"desc": "500元京东卡×1",
+					"items": [{
+						"itemId": "item:4369",
+						"count": 1
+					}]
+				},
+				{
+					"start": 4,
+					"end": 10,
+					"img": "${http_download}/hall/item/imgs/item_4233.png",
+					"desc": "100元京东卡×3",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 3
+					}]
+				},
+				{
+					"start": 11,
+					"end": 20,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "70万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 700000
+					}]
+				},
+				{
+					"start": 21,
+					"end": 30,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "50万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 500000
+					}]
+				},
+				{
+					"start": 31,
+					"end": 40,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "30万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 300000
+					}]
+				},
+				{
+					"start": 41,
+					"end": 50,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "20万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 200000
+					}]
+				}
+			]
+		},
+		{
+			"actId": "act_mi_80131",
+			"typeId": "act_ddz_scoreboard",
+			"intActId": 80131,
+			"open": 1,
+			"showLimit": 50,
+			"showLimitDaily": 1,
+            "showLimitTotal": 3,
+			"rewardLimit": 500,
+			"issueNum": 20180402,
+			"delDate": 20180408,
+			"startTime": "2018-03-23 00:00:00",
+			"endTime": "2018-04-01 23:59:59",
+			"dayOpenTime": "00:00",
+			"dayCloseTime": "23:59",
+			"mail": "您在小米棋牌大师赛中获得\\${rewardContent}，快去看看吧",
+			"historyLen": 10,
+			"hallGameIds": [
+				6
+			],
+			"clientIds": [
+				22413,
+				22882
+			],
+			"itemAddition": {
+				"rate": 0.1,
+				"itemId": "item:1282",
+				"todoTask": {
+					"url": "",
+					"typeId": "hall.thirdsdk.extend",
+					"params": {
+						"action": "ysdk",
+						"func": "bbs"
+					}
+				},
+				"open": 0
+			},
+			"dibaoScore": 60,
+			"dibaoReward": {
+				"desc": "幸运卡×1",
+				"items": [{
+					"itemId": "item:4167",
+					"count": 1
+				}]
+			},
+			"scoreUpWay": {
+				"roundAndWins": [{
+						"maxScore": 1000,
+						"scorePerRound": 2,
+						"scorePerWin": 2,
+						"openRoomIds": [
+							6002,
+							6012,
+							6022
+						]
+					},
+					{
+						"maxScore": 3000,
+						"scorePerRound": 4,
+						"scorePerWin": 4,
+						"openRoomIds": [
+							6003,
+							6013,
+							6023
+						]
+					},
+					{
+						"maxScore": 5000,
+						"scorePerRound": 8,
+						"scorePerWin": 6,
+						"openRoomIds": [
+							6004,
+							6014,
+							6024
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 14,
+						"scorePerWin": 8,
+						"openRoomIds": [
+							6005,
+							6015,
+							6025
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 20,
+						"scorePerWin": 12,
+						"openRoomIds": [
+							6006,
+							6016,
+							6026
+						]
+					},
+					{
+						"maxScore": 100,
+						"scorePerRound": 1,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6058,
+							6070,
+							6075
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 4,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6071
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 8,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6072
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 15,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6057
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 30,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6053
+						]
+					},
+					{
+						"maxScore": 99999,
+						"scorePerRound": 60,
+						"scorePerWin": 0,
+						"openRoomIds": [
+							6077
+						]
+					}
+				],
+				"charge": {
+					"maxScore": 999999,
+					"exchangeRate": 10
+				},
+				"share": {
+					"shareId": [
+						100
+					],
+					"maxShareScore": 100,
+					"score": 0
+				}
+			},
+			"dailyReward": [{
+					"start": 1,
+					"end": 1,
+					"img": "${http_download}/hall/item/imgs/item_4233_39_1.png",
+					"desc": "100元京东卡×3",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 3
+					}]
+				},
+				{
+					"start": 2,
+					"end": 2,
+					"img": "${http_download}/hall/item/imgs/item_4233_39_1.png",
+					"desc": "100元京东卡×2",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 2
+					}]
+				},
+				{
+					"start": 3,
+					"end": 3,
+					"img": "${http_download}/hall/item/imgs/item_4233.png",
+					"desc": "100元京东卡×1",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 1
+					}]
+				},
+				{
+					"start": 4,
+					"end": 4,
+					"img": "${http_download}/hall/item/imgs/item_4232_39_1.png",
+					"desc": "50元京东卡",
+					"items": [{
+						"itemId": "item:4232",
+						"count": 1
+					}]
+				},
+				{
+					"start": 5,
+					"end": 10,
+					"img": "${http_download}/hall/item/imgs/item_4142_3.png",
+					"desc": "30元话费卡",
+					"items": [{
+						"itemId": "item:4142",
+						"count": 1
+					}]
+				},
+				{
+					"start": 11,
+					"end": 20,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "10万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 100000
+					}]
+				},
+				{
+					"start": 21,
+					"end": 50,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "5万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 50000
+					}]
+				},
+				{
+					"start": 51,
+					"end": 100,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "2万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 20000
+					}]
+				},
+								{
+					"start": 101,
+					"end": 200,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "1万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 10000
+					}]
+				},
+				{
+					"start": 201,
+					"end": 500,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "5000金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 5000
+					}]
+				}
+			],
+			"totalReward": [{
+					"start": 1,
+					"end": 1,
+					"img": "${http_download}/hall/item/item_2265.png",
+					"desc": "小米mix2手机",
+					"items": [{
+						"itemId": "item:2265",
+						"count": 1
+					}]
+				},
+				{
+					"start": 2,
+					"end": 2,
+					"img": "${http_download}/hall/item/imgs/item_2258.png",
+					"desc": "途游金珠",
+					"items": [{
+						"itemId": "item:2258",
+						"count": 1
+					}]
+				},
+				{
+					"start": 3,
+					"end": 3,
+					"img": "${http_download}/hall/item/imgs/item_4369_39.png",
+					"desc": "500元京东卡",
+					"items": [{
+						"itemId": "item:4369",
+						"count": 1
+					}]
+				},
+								{
+					"start": 4,
+					"end": 4,
+					"img": "${http_download}/hall/item/imgs/item_4233.png",
+					"desc": "100元京东卡x2",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 2
+					}]
+				},
+								{
+					"start": 5,
+					"end": 5,
+					"img": "${http_download}/hall/item/imgs/item_4233.png",
+					"desc": "100元京东卡",
+					"items": [{
+						"itemId": "item:4233",
+						"count": 1
+					}]
+				},
+				{
+					"start": 6,
+					"end": 10,
+					"img": "${http_download}/hall/item/imgs/item_4232_39_1.png",
+					"desc": "50元京东卡",
+					"items": [{
+						"itemId": "item:4232",
+						"count": 1
+					}]
+				},
+				{
+					"start": 11,
+					"end": 20,
+					"img": "${http_download}/hall/item/imgs/item_4142_3.png",
+					"desc": "30元话费卡",
+					"items": [{
+						"itemId": "item:4142",
+						"count": 1
+					}]
+				},
+				{
+					"start": 21,
+					"end": 30,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "20万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 200000
+					}]
+				},
+				{
+					"start": 31,
+					"end": 60,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "10万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 100000
+					}]
+				},
+				{
+					"start": 61,
+					"end": 100,
+					"img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+					"desc": "5万金币",
+					"items": [{
+						"itemId": "user:chip",
+						"count": 50000
+					}]
+				}
+			]
+		}
+	]
+}

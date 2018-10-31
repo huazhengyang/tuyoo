@@ -1,0 +1,254 @@
+{
+    "0": {
+        "threshold_value": 0, 
+        "prizes": [
+            {
+                "count": 2, 
+                "prizeName": "prize1", 
+                "name": "user:coupon", 
+                "value": 8000
+            }, 
+            {
+                "count": 10, 
+                "prizeName": "prize2", 
+                "name": "user:diamond", 
+                "value": 10000
+            }, 
+            {
+                "count": 5, 
+                "prizeName": "prize3", 
+                "name": "user:diamond", 
+                "value": 5000
+            }, 
+            {
+                "count": 200, 
+                "prizeName": "prize4", 
+                "name": "user:chip", 
+                "value": 200
+            }, 
+            {
+                "count": 600, 
+                "prizeName": "prize5", 
+                "name": "user:chip", 
+                "value": 600
+            }, 
+            {
+                "count": 1200, 
+                "prizeName": "prize6", 
+                "name": "user:chip", 
+                "value": 1200
+            }
+        ], 
+        "lottery_name": "string_muxiangchoujiang"
+    }, 
+    "1": {
+        "threshold_value": 10000, 
+        "prizes": [
+            {
+                "count": 15, 
+                "prizeName": "prize1", 
+                "name": "user:coupon", 
+                "value": 60000
+            }, 
+            {
+                "count": 100, 
+                "prizeName": "prize2", 
+                "name": "user:diamond", 
+                "value": 100000
+            }, 
+            {
+                "count": 50, 
+                "prizeName": "prize3", 
+                "name": "user:diamond", 
+                "value": 50000
+            }, 
+            {
+                "count": 8000, 
+                "prizeName": "prize4", 
+                "name": "user:chip", 
+                "value": 8000
+            }, 
+            {
+                "count": 12000, 
+                "prizeName": "prize5", 
+                "name": "user:chip", 
+                "value": 12000
+            }, 
+            {
+                "count": 30000, 
+                "prizeName": "prize6", 
+                "name": "user:chip", 
+                "value": 30000
+            }
+        ], 
+        "lottery_name": "string_tongxiangchoujiang"
+    }, 
+    "2": {
+        "threshold_value": 100000, 
+        "prizes": [
+            {
+                "count": 40, 
+                "prizeName": "prize1", 
+                "name": "user:coupon", 
+                "value": 201000
+            }, 
+            {
+                "count": 200, 
+                "prizeName": "prize2", 
+                "name": "user:diamond", 
+                "value": 200000
+            }, 
+            {
+                "count": 80000, 
+                "prizeName": "prize3", 
+                "name": "user:chip", 
+                "value": 80000
+            }, 
+            {
+                "count": 120000, 
+                "prizeName": "prize4", 
+                "name": "user:chip", 
+                "value": 120000
+            }, 
+            {
+                "count": 4, 
+                "prizeName": "prize5", 
+                "name": "item:13104", 
+                "value": 160000
+            }, 
+            {
+                "count": 1, 
+                "prizeName": "prize6", 
+                "name": "item:13106", 
+                "value": 150000
+            }
+        ], 
+        "lottery_name": "string_yinxiangchoujiang"
+    }, 
+    "3": {
+        "threshold_value": 200000, 
+        "prizes": [
+            {
+                "count": 80, 
+                "prizeName": "prize1", 
+                "name": "user:coupon", 
+                "value": 401000
+            }, 
+            {
+                "count": 400, 
+                "prizeName": "prize2", 
+                "name": "user:diamond", 
+                "value": 400000
+            }, 
+            {
+                "count": 160000, 
+                "prizeName": "prize3", 
+                "name": "user:chip", 
+                "value": 160000
+            }, 
+            {
+                "count": 210000, 
+                "prizeName": "prize4", 
+                "name": "user:chip", 
+                "value": 210000
+            }, 
+            {
+                "count": 8, 
+                "prizeName": "prize5", 
+                "name": "item:13104", 
+                "value": 320000
+            }, 
+            {
+                "count": 1, 
+                "prizeName": "prize6", 
+                "name": "item:13107", 
+                "value": 250000
+            }
+        ], 
+        "lottery_name": "string_jinxiangchoujiang"
+    }, 
+    "4": {
+        "threshold_value": 400000, 
+        "prizes": [
+            {
+                "count": 240, 
+                "prizeName": "prize1", 
+                "name": "user:coupon", 
+                "value": 1501000
+            }, 
+            {
+                "count": 600, 
+                "prizeName": "prize2", 
+                "name": "user:diamond", 
+                "value": 600000
+            }, 
+            {
+                "count": 320000, 
+                "prizeName": "prize3", 
+                "name": "user:chip", 
+                "value": 320000
+            }, 
+            {
+                "count": 3, 
+                "prizeName": "prize4", 
+                "name": "item:13107", 
+                "value": 750000
+            }, 
+            {
+                "count": 3, 
+                "prizeName": "prize5", 
+                "name": "item:13108", 
+                "value": 1500000
+            }, 
+            {
+                "count": 6, 
+                "prizeName": "prize6", 
+                "name": "item:13110", 
+                "value": 1200000
+            }
+        ], 
+        "lottery_name": "string_zuanshichoujiang"
+    }, 
+    "5": {
+        "threshold_value": 1200000, 
+        "prizes": [
+            {
+                "count": 480, 
+                "prizeName": "prize1", 
+                "name": "user:coupon", 
+                "value": 2401000
+            }, 
+            {
+                "count": 2400, 
+                "prizeName": "prize2", 
+                "name": "user:diamond", 
+                "value": 2400000
+            }, 
+            {
+                "count": 1100000, 
+                "prizeName": "prize3", 
+                "name": "user:chip", 
+                "value": 1100000
+            }, 
+            {
+                "count": 3, 
+                "prizeName": "prize4", 
+                "name": "item:13108", 
+                "value": 1500000
+            }, 
+            {
+                "count": 2, 
+                "prizeName": "prize5", 
+                "name": "item:13109", 
+                "value": 2000000
+            }, 
+            {
+                "count": 4, 
+                "prizeName": "prize6", 
+                "name": "item:13110", 
+                "value": 800000
+            }
+        ], 
+        "lottery_name": "string_zhizunchoujiang"
+    }
+}

@@ -1,0 +1,401 @@
+# -*- coding:utf-8 -*-
+import json
+from sre_compile import isstring
+
+from dizhu.activities_wx.activity_wx import ActivityWx, ActivityWxHelper, ActivityWxRegister
+import freetime.util.log as ftlog
+from dizhu.entity import dizhu_util
+from dizhu.entity.dizhuconf import DIZHU_GAMEID
+from hall.entity.hallevent import HallShare3Event
+from dizhu.entity.common.events import ActiveEvent
+from poker.entity.biz.content import TYContentItem
+from poker.entity.biz.exceptions import TYBizConfException
+from poker.entity.biz.store.store import TYOrderDeliveryEvent
+from poker.entity.dao import sessiondata, daobase
+import poker.util.timestamp as pktimestamp
+from poker.entity.events.tyevent import ChargeNotifyEvent
+
+
+def _registerClass():
+    ActivityWxRegister.registerClass(ActivityWxUserActive.TYPE_ID, ActivityWxUserActive)
+
+
+class ActiveSchedule(object):
+    DAY = 'dayActive'
+    WEEK = 'weekActive'
+    ACTVALUE = 'actValue'
+
+    def __init__(self, userId):
+        self.userId = userId
+
+    def getActive(self, actClass):
+        return daobase.executeUserCmd(self.userId, 'hget', 'active:%s:%s' % (DIZHU_GAMEID, self.userId), actClass)
+
+    def checkDayActive(self, act):
+        # 检查日活跃任务完成情况, 第一个返回表示当日某项任务是否完成, 第二个返回表示是否需要更新活跃进度
+        activeSche = self.getActive(self.DAY)
+        if not activeSche:
+            return 0, 0  # ?
+        activeSche = json.loads(activeSche)
+        if not _checkSameDayOrWeekActive(self.userId):
+            return 0, 1
+        isDone = activeSche.get(act, 0)
+        if not isDone:
+            return 0, 0
+        return 1, 0
+
+    def updateActiveSchedule(self, timestamp, act, actValue):
+        isDone, needRefresh = self.checkDayActive(act)
+        if isDone:
+            return
+        if needRefresh:
+            daobase.executeUserCmd(self.userId, 'hset', 'active:%s:%s' % (DIZHU_GAMEID, self.userId), self.DAY,
+                                   json.dumps({str(act): timestamp, self.ACTVALUE: actValue}))
+            self.updateWeekActive(timestamp, actValue)
+            return
+        activeSche = self.getActive(self.DAY)
+        if activeSche:
+            activeSche = json.loads(activeSche)
+        else:
+            activeSche = {self.ACTVALUE: 0}
+        activeSche[self.ACTVALUE] += actValue
+        activeSche.update({str(act): timestamp})
+        daobase.executeUserCmd(self.userId, 'hset', 'active:%s:%s' % (DIZHU_GAMEID, self.userId), self.DAY,
+                               json.dumps(activeSche))
+        self.updateWeekActive(timestamp, actValue)
+
+    # def getWeekActive(self):
+    #     return daobase.executeUserCmd(self.userId, 'hget', 'active:%s:%s' % (DIZHU_GAMEID, self.userId), self.WEEK)
+
+    def setWeekActive(self, timestamp, actValue):
+        daobase.executeUserCmd(self.userId, 'hset', 'active:%s:%s' % (DIZHU_GAMEID, self.userId), self.WEEK,
+                               json.dumps({str(timestamp): actValue}))
+
+    def updateWeekActive(self, timestamp, actValue):
+        weekSche = self.getActive(self.WEEK)
+        if not weekSche:
+            self.setWeekActive(timestamp, actValue)
+            return
+        # lastUpdateTime = int(json.loads(weekSche).keys()[0])
+        if not _checkSameDayOrWeekActive(self.userId, 0):
+            self.setWeekActive(timestamp, actValue)
+            return
+        actValue = json.loads(weekSche).values()[0] + actValue
+        self.setWeekActive(timestamp, actValue)
+
+
+class ActiveRewardItem(object):
+    ''' 日、周活跃度奖励 '''
+    DAY = 'dayReward'
+    WEEK = 'weekReward'
+
+    def __init__(self):
+        # self.type = type
+        self.active = None
+        self.rewardDesc = None
+        self.rewardPic = None
+        self.rewards = None
+
+    def decodeFromDict(self, d):
+        # if not isstring(self.type):
+        #     raise TYBizConfException(d, 'ActiveRewardItem.type must be str')
+        self.active = d.get('active')
+        if not isinstance(self.active, int):
+            raise TYBizConfException(d, 'ActiveRewardItem.active must be int')
+        self.rewardDesc = d.get('rewardDesc')
+        if not isstring(self.rewardDesc):
+            raise TYBizConfException(d, 'ActiveRewardItem.rewardDesc must be str')
+        self.rewardPic = d.get('rewardPic')
+        if not isstring(self.rewardPic):
+            raise TYBizConfException(d, 'ActiveRewardItem.rewardPic must be str')
+        rewards = d.get('rewards')
+        if not isinstance(rewards, list):
+            raise TYBizConfException(d, 'ActiveRewardItem.rewards must be list')
+        try:
+            r = TYContentItem.decodeList(rewards)
+        except Exception, e:
+            raise TYBizConfException(d, 'ActiveRewardItem.rewards err=%s' % e.message)
+        self.rewards = r
+        return self
+
+    def getRewardReceive(self, userId, rewardKind):
+        if rewardKind == self.DAY:
+            timeStr = str(pktimestamp.formatTimeDayInt())
+        else:
+            timeStr = str(pktimestamp.formatTimeWeekInt())
+        return daobase.executeUserCmd(userId, 'hget', 'active.reward:%s:%s' % (rewardKind, userId), timeStr)
+
+    def setRewardReceive(self, userId, rewardKind, rewardList):
+        if rewardKind == self.DAY:
+            timeStr = str(pktimestamp.formatTimeDayInt())
+        else:
+            timeStr = str(pktimestamp.formatTimeWeekInt())
+        daobase.executeUserCmd(userId, 'hset', 'active.reward:%s:%s' % (rewardKind, userId), timeStr, rewardList)
+
+
+class ActiveEventItem(object):
+    ''' 活跃事件相关 '''
+
+    def __init__(self):
+        self.eventId = None
+        self.active = None
+        self.rewardDesc = None
+        self.rewardPic = None
+
+    def decodeFromDict(self, d):
+        self.eventId = d.get('eventId')
+        if not isstring(self.eventId):
+            raise TYBizConfException(d, 'ActiveEventItem.eventId must be str')
+        self.active = d.get('active')
+        if not isinstance(self.active, int):
+            raise TYBizConfException(d, 'ActiveEventItem.active must be int')
+        self.rewardDesc = d.get('rewardDesc')
+        if not isstring(self.rewardDesc):
+            raise TYBizConfException(d, 'ActiveEventItem.rewardDesc must be str')
+        self.rewardPic = d.get('rewardPic')
+        if not isstring(self.rewardPic):
+            raise TYBizConfException(d, 'ActiveEventItem.rewardPic must be str')
+        return self
+
+    def encodeToDict(self):
+        return {
+            'eventId': self.eventId,
+            'active': self.active,
+            'rewardDesc': self.rewardDesc,
+            'rewardPic': self.rewardPic
+        }
+
+
+class ActivityWxUserActive(ActivityWx):
+    TYPE_ID = 'ddz.act.wx.active'
+    ACTION_ACTIVE_LIST = 'active_list'
+    ACTION_ACTIVE_REWARD = 'active_reward'
+
+    def __init__(self):
+        super(ActivityWxUserActive, self).__init__()
+
+    def init(self):
+        from hall.game import TGHall
+        from dizhu.game import TGDizhu
+        if ftlog.is_debug():
+            ftlog.debug('ActivityWxUserActive.init start')
+        TGHall.getEventBus().subscribe(HallShare3Event, _processActive)
+        TGHall.getEventBus().subscribe(TYOrderDeliveryEvent, _processActive)
+        TGHall.getEventBus().subscribe(ChargeNotifyEvent, _processActive)
+        TGDizhu.getEventBus().subscribe(ActiveEvent, _processActive)
+        if ftlog.is_debug():
+            ftlog.debug('ActivityWxUserActive.init end')
+
+    def cleanup(self):
+        from hall.game import TGHall
+        from dizhu.game import TGDizhu
+        TGHall.getEventBus().unsubscribe(HallShare3Event, _processActive)
+        TGHall.getEventBus().unsubscribe(TYOrderDeliveryEvent, _processActive)
+        TGHall.getEventBus().unsubscribe(ChargeNotifyEvent, _processActive)
+        TGDizhu.getEventBus().unsubscribe(ActiveEvent, _processActive)
+
+    def handleRequest(self, userId, clientId, action, msg):
+        if action == self.ACTION_ACTIVE_LIST:
+            return self._activeInfoList(userId)
+        elif action == self.ACTION_ACTIVE_REWARD:
+            return self._sendActiveReward(userId, msg)
+        return None
+
+    def _decodeFromDictImpl(self, d):
+        activeEvent = d.get('activeEvent')
+        if not isinstance(activeEvent, list):
+            raise TYBizConfException(d, 'ActivityWxUserActive.activeEvent must be list')
+        self.activeEvent = [ActiveEventItem().decodeFromDict(r) for r in activeEvent]
+        dayActiveRewards = d.get('dayActiveRewards')
+        if not isinstance(dayActiveRewards, list):
+            raise TYBizConfException(d, 'ActivityWxUserActive.dayActiveRewards must be list')
+        self.dayActiveRewards = [ActiveRewardItem().decodeFromDict(r) for r in dayActiveRewards]
+        weekActiveRewards = d.get('weekActiveRewards')
+        if not isinstance(weekActiveRewards, list):
+            raise TYBizConfException(d, 'ActivityWxUserActive.weekActiveRewards must be list')
+        self.weekActiveRewards = [ActiveRewardItem().decodeFromDict(r) for r in weekActiveRewards]
+        return self
+
+    def _activeInfoList(self, userId):
+        activeProcess = _getDayActiveProcess(userId)
+        # dayActiveProcess, weekActiveProcess = _activeValueProcess(userId)
+        actInstance = _getActInstance(userId)
+        dayReward = ActiveRewardItem().getRewardReceive(userId, ActiveRewardItem.DAY) or []
+        weekReward = ActiveRewardItem().getRewardReceive(userId, ActiveRewardItem.WEEK) or []
+        actList = []
+        if actInstance:
+            for i in actInstance.activeEvent:
+                if str(i.eventId) in activeProcess:
+                    act = i.encodeToDict()
+                    act.update({'actProcess': activeProcess.get(str(i.eventId))})
+                    actList.append(act)
+        dayActiveValue = ActiveSchedule(userId).getActive(ActiveSchedule.DAY)
+        weekActiveValue = ActiveSchedule(userId).getActive(ActiveSchedule.WEEK)
+        dayActive = json.loads(dayActiveValue).get(ActiveSchedule.ACTVALUE) if _checkSameDayOrWeekActive(userId, 1) else 0
+        weekActive = json.loads(weekActiveValue).values()[0] if _checkSameDayOrWeekActive(userId, 0) else 0
+        if ftlog.is_debug():
+            ftlog.debug('ActivityWxUserActive._activeInfoList userId= ', userId,
+                        'dayActive= ', dayActive,
+                        'dayReward= ', dayReward,
+                        'weekActive= ', weekActive,
+                        'weekReward= ', weekReward,
+                        'actList= ', actList,
+                        'activeProcess= ', activeProcess)
+
+        return {
+            'dayActive': dayActive,
+            'dayReward': dayReward,
+            'weekActive': weekActive,
+            'weekReward': weekReward,
+            'actList': actList
+        }
+
+    def _sendActiveReward(self, userId, msg):
+        # 发奖接口
+        rewardKind = msg.getParam('rewardKind')
+        rewardValue = msg.getParam('rewardValue')
+        if ftlog.is_debug():
+            ftlog.debug('ActivityWxUserActive._sendActiveReward userId= ', userId,
+                        'rewardKind= ', rewardKind,
+                        'rewardValue= ', rewardValue)
+        actInstance = _getActInstance(userId)
+        if actInstance:
+            if rewardKind == ActiveRewardItem.DAY:
+                contentItems = actInstance.dayActiveRewards
+            else:
+                contentItems = actInstance.weekActiveRewards
+            rewardReceive = ActiveRewardItem().getRewardReceive(userId, rewardKind) or []
+            if rewardReceive:
+                rewardReceive = json.loads(rewardReceive)
+                if rewardValue in rewardReceive:
+                    return 0
+            dizhu_util.sendRewardItems(userId, contentItems, None, 'ACTIVE_REWARD', 0)
+            newRewardReceive = rewardReceive.append(rewardValue)
+            ActiveRewardItem().setRewardReceive(userId, rewardKind, newRewardReceive)
+            return 1
+        return 0
+
+    def hasReward(self, userId):
+        return False
+
+
+def _getActInstance(userId):
+    clientId = sessiondata.getClientId(userId)
+    actList = ActivityWxHelper.getActivityList(userId, clientId)
+    for act in actList:
+        if act['typeId'] == ActivityWxUserActive.TYPE_ID:
+            actId = act['actId']
+            actInstance = ActivityWxHelper.findActivity(actId)
+            return actInstance
+
+
+def _processActive(evt):
+    _processActiveImpl(evt)
+
+
+def _processActiveImpl(evt):
+    actInstance = _getActInstance(evt.userId)
+    if ftlog.is_debug():
+        ftlog.debug('_processActiveImpl userId=', evt.userId,
+                    'gameId=', evt.gameId,
+                    'type=', type(evt))
+    if actInstance:
+        # if str(evt.sharePointId) in actInstance.activeEvent:
+        eventIds = [i.eventId for i in actInstance.activeEvent]
+        if isinstance(evt, HallShare3Event):
+            eventId = evt.sharePointId
+        elif isinstance(evt, ActiveEvent):
+            eventId = evt.eventId
+        elif isinstance(evt, ChargeNotifyEvent):
+            eventId = 'recharge'
+        elif isinstance(evt, TYOrderDeliveryEvent):
+            eventId = 'exchangeCoin'
+        else:
+            return
+        if str(eventId) in eventIds:
+            timestamp = pktimestamp.getCurrentTimestamp()
+            # actValue = actInstance.activeEvent.get(str(evt.sharePointId))
+            actValue = 0
+            for act in actInstance.activeEvent:
+                if act.eventId == str(eventId):
+                    actValue = act.active
+                    break
+            if actValue:
+                # 完成活跃分享任务记录每日完成状态，增加日、周活跃值
+                ActiveSchedule(evt.userId).updateActiveSchedule(timestamp, evt.sharePointId, actValue)
+                if ftlog.is_debug():
+                    ftlog.debug('_processShareActiveImpl userId= ', evt.userId,
+                                'gameId= ', evt.gameId,
+                                'sharePointId= ', evt.sharePointId)
+
+
+def _getDayActiveProcess(userId):
+    # 获取每日活跃任务完成进度
+    dayActive = ActiveSchedule(userId).getActive(ActiveSchedule.DAY)
+    actInstance = _getActInstance(userId)
+    if actInstance:
+        # activeEvent = actInstance.activeEvent.keys()
+        activeEvent = [str(i.eventId) for i in actInstance.activeEvent]
+        activeProgress = {}
+        if ftlog.is_debug():
+            ftlog.debug('_processShareActiveImpl userId= ', userId,
+                        'dayActive= ', dayActive,
+                        'actInstance', actInstance,
+                        'activeEvent', activeEvent)
+        for act in activeEvent:
+            activeProgress[act] = 0
+        if dayActive:
+            dayActive = json.loads(dayActive)
+            if _checkSameDayOrWeekActive(userId):
+                # if pktimestamp.is_same_day(timestamp, dayActive.values()[-1]):
+                for act in dayActive.keys():
+                    if act in activeEvent:
+                        activeProgress[act] = 1
+        if ftlog.is_debug():
+            ftlog.debug('_processShareActiveImpl userId= ', userId,
+                        'activeProgress= ', activeProgress)
+        return activeProgress
+    return {}
+
+
+def _activeValueProcess(userId):
+    # 获取活跃值进度条完成进度
+    actInstance = _getActInstance(userId)
+    if actInstance:
+        dayActiveRewards, weekActiveRewards = actInstance.dayActiveRewards, actInstance.weekActiveRewards
+        dayActiveProcess = {i.active: 0 for i in dayActiveRewards}
+        weekActiveProcess = {i.active: 0 for i in weekActiveRewards}
+        dayActive = ActiveSchedule(userId).getActive(ActiveSchedule.DAY)
+        if _checkSameDayOrWeekActive(userId, 1):
+            actValue = json.loads(dayActive).get(dayActive.ACTVALUE)
+            for i in dayActiveProcess:
+                if actValue >= i:
+                    dayActiveProcess[i] = 1
+        weekActive = ActiveSchedule(userId).getActive(ActiveSchedule.WEEK)
+        if _checkSameDayOrWeekActive(userId, 0):
+            actValue = json.loads(weekActive).get(weekActive.ACTVALUE)
+            for i in weekActiveProcess:
+                if actValue >= i:
+                    weekActiveProcess[i] = 1
+        return dayActiveProcess, weekActiveProcess
+    return {}, {}
+
+
+def _checkSameDayOrWeekActive(userId, isDay=1):
+    actClass = ActiveSchedule.DAY
+    if not isDay:
+        actClass = ActiveSchedule.WEEK
+    active = ActiveSchedule(userId).getActive(actClass)
+    if active:
+        active = json.loads(active)
+        timestamp = pktimestamp.getCurrentTimestamp()
+        k = ''
+        for k in active:
+            if k != ActiveSchedule.ACTVALUE:
+                break
+        if isDay:
+            if pktimestamp.is_same_day(timestamp, active[k]):
+                return 1
+        else:
+            if pktimestamp.is_same_week(timestamp, int(active.keys()[0])):
+                return 1

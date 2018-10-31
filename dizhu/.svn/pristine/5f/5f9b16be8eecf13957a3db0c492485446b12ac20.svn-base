@@ -1,0 +1,367 @@
+活动：华为棋牌大师赛
+
+1、获取积分榜总信息
+#请求
+{
+	"cmd”:”act”,
+	"params":{
+		"action":"scoreboardActivity",
+		"type": "todayRank/yesterdayRank/totalRank"
+	}
+}
+#返回
+{
+	"cmd”:”act”,
+	"result":{
+		"action":"scoreboardActivity",
+		"userInfo":{ // 用户自己的排行信息
+		    "todayScore": 1233,
+		    "todayRank": 1,
+		    "totalScore": 123,
+		    "totalRank": 3,
+		    "nextRewardDesc": "蓝牙耳机",
+		    "nextRewardScore": 301,
+		    "dailyRewardState": 1
+		},
+		"rankInfo":[
+			{
+				"name":"虚位以待",
+				"score":0,
+				"desc":"宝箱x2\n+3000万金币"		//奖励对应的描述（取配置）
+			},
+			{
+				"name":"李四",
+				"score":23,
+				"desc":"宝箱x2\n+3000万金币"
+			}
+		]
+	}
+}
+
+2.显示奖励信息
+#请求
+{
+	"cmd”:”act”,
+	"params":{
+		"action":"scoreboardActivity_rewardInfo",
+    }
+}
+#返回
+{
+    "action": "scoreboardActivity_rewardInfo",
+    "rewardInfo":[
+        {
+            "issueNum": 20170729,
+            "score": 100,
+            "rank": 1,
+            "desc": "蓝牙耳机",
+            "state": 1
+        },
+        {
+            "issueNum": 20170730,
+            "score": 100,
+            "rank": 2,
+            "desc": "蓝牙耳机",
+            "state": 0
+        }
+    ]
+
+}
+
+3.领奖
+#请求
+{
+	"cmd”:”act”,
+	"params":{
+		"action":"scoreboardActivity_gainReward"
+	}
+}
+#返回
+无返回，走大厅接口，弹出奖励信息
+
+
+
+功能点：
+1.多种游戏行为均可配置积分数
+积分行为：
+    1.局数+指定房间号 # 金币桌、比赛玩法局数获得积分，不同bigRoomId获得积分支持配置。PS:积分兑换活动中的 （1场比赛固定加分，正常结束加分，中途退出不处理）
+    2.胜场+指定房间号# 金币桌胜场获得积分
+    3.充值 # 按照商品标价来增加积分
+    4.登录（指定版本号）# 只有这个版本号下的客户端登陆才给积分，监听大厅登陆事件
+    5.指定道具增加获得积分 # 结算时判断背包中的物品数量
+    6.分享（指定ShareID）
+
+    # 暂缓
+    7.金币变化 #今天、金币增加量 暂缓
+    8.使用指定道具获得积分 # 暂缓
+    9.奖券兑换实物 # 暂缓
+
+2.可对一定时间周期内某一种游戏行为产生的做积分上限设置，多余部分不在计入。
+
+3.同时按照每天，每活动周期分别进行排行。可指定某渠道、某包、某插件计分。
+
+4.服务器配置 test-dizhu/game/6/activity.new/0.json
+{
+    "actId": "act60047",
+    "typeId": "ddz.act.activity_score_ranking",
+    "intActId": 60047,
+    "open": 1,
+    "showLimit": 50,
+    "rewardLimit": 500,
+    "issueNum": 20170820,
+    "startTime": "2017-07-20 00:00:00",
+    "endTime": "2017-08-20 00:00:00",
+    "mail": "您在华为积分排行榜中获得\\${rewardContent}，快去分享给朋友们知道吧",
+    "historyLen": 10,
+    "hallGameIds": [
+        6
+    ],
+    "clientIds": [
+      17996,
+      20161,
+      20278,
+      19979,
+      19903,
+      19893
+    ],
+    "scoreUpWay": {
+        "roundAndWins": [
+            {
+                "maxScore": 1000,
+                "scorePerRound": 1,
+                "scorePerWin": 3,
+                "openRoomIds":[
+                    6001,6011,6012,6014,6015,6016,
+                    6021,6022,6023,6024,6025,6026,
+                    6022,6023,6024,6024,6026,6029,
+                    6031,6032,6033,6034,6035,6036,6039
+                ]
+            },
+            {
+                "maxScore": 8000,
+                "scorePerRound": 5,
+                "scorePerWin": 12,
+                "openRoomIds":[
+                    6012,
+                    6013,
+                    6019
+                ]
+            },
+            {
+                  "maxScore": 8000,
+                  "scorePerRound": 5,
+                  "scorePerWin": 12,
+                  "openRoomIds":[
+                      6031,
+                      6032,
+                      6033,
+                      6039
+                  ]
+            }
+        ],
+        "charge":{
+            "maxScore": -1,
+            "exchangeRate": 0.1
+        },
+        "gatherItem": [
+            {
+                "itemId": "item:6081",
+                "score": 10
+            },
+            {
+                "itemId": "item:6082",
+                "score": 20
+            }
+        ],
+        "share":{
+            "maxShareScore": 500,
+            "shareId":[
+                100,
+                101,
+                102,
+                205
+            ]
+        }
+    },
+    "rules": [
+        [
+            {
+                "type": 1,
+                "text": "1.万元争霸赛开放时间为每日早9:00至晚23:30，超过截止"
+            },
+            {
+                "type": 1,
+                "text": "时间将不再记录积分。"
+            },
+            {
+                "type": 1,
+                "text": "2.万元争霸赛只有在各玩法高级场、大师场、星耀场才可"
+            },
+            {
+                "type": 1,
+                "text": "获得积分。"
+            },
+            {
+                "type": 1,
+                "text": "3.万元争霸赛与千元擂台赛的积分不通用。"
+            },
+            {
+                "type": 1,
+                "text": "4.每周日晚23:30后定榜结算。"
+            }
+        ],
+        [
+            {
+                "type": 1,
+                "text": "1.连胜与VIP等级可获得对应的积分加成，结算时按照金币"
+            },
+            {
+                "type": 1,
+                "text": "获取量来计算本局增加的积分(四舍五入)。"
+            },
+            {
+                "type": 1,
+                "text": "2.开放时间内金币与积分同时变化，比率为1000金币/积分，"
+            },
+            {
+                "type": 1,
+                "text": "损失金币时也会扣分，扣分不受加成影响。"
+            },
+            {
+                "type": 1,
+                "text": "3.每日不限局数，但若玩家当日局数超过200局时，积分获"
+            },
+            {
+                "type": 1,
+                "text": "取将会衰减，VIP及连胜加成不变。"
+            }
+        ],
+        [
+            {
+                "type": 1,
+                "text": "1.积分相同的情况下，先到达该积分的玩家排名在前。"
+            },
+            {
+                "type": 1,
+                "text": "2.每周定榜后，积分最高的玩家将成为周冠军，获得周冠"
+            },
+            {
+                "type": 1,
+                "text": "军大奖。"
+            },
+            {
+                "type": 1,
+                "text": "3.奖励将保留4周，逾期将无法再领取奖励。"
+            }
+        ]
+    ],
+    "dailyReward": [
+        {
+            "start": 1,
+            "end": 1,
+            "img": "${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+            "desc": "华为畅享6s",
+            "items": [
+                {
+                    "itemId":"item:1191",
+                    "count": 2
+                },
+                {
+                    "itemId": "user:chip",
+                    "count": 2000000
+                }
+            ]
+        },
+        {
+            "start": 2,
+            "end": 2,
+            "img": "${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+            "desc": "华为畅享6s",
+            "items": {
+                "itemId": "user:chip",
+                "count": 2000000
+            }
+        },
+        {
+            "start": 3,
+            "end": 3,
+            "img": "${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+            "desc": "运动蓝牙耳机",
+            "items": [
+                {
+                    "itemId": "user:chip",
+                    "count": 2000000
+                }
+            ]
+        },
+        {
+            "start": 4,
+            "end": 10,
+            "img": "${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+            "desc": "运动蓝牙耳机",
+            "items": [
+                {
+                    "itemId": "user:chip",
+                    "count": 2000000
+                }
+            ]
+        }
+
+    ],
+    "totalReward": [
+        {
+            "start": 1,
+            "end": 1,
+            "img": "${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+            "desc": "运动蓝牙耳机",
+            "items": [
+                {
+                    "itemId": "user:chip",
+                    "count": 2000000
+                }
+            ]
+        },
+        {
+            "start": 2,
+            "end": 2,
+            "img": "${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+            "desc": "运动蓝牙耳机",
+            "items": [
+                {
+                    "itemId": "user:chip",
+                    "count": 2000000
+                }
+            ]
+        },
+        {
+            "start": 3,
+            "end": 3,
+            "img": "${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+            "desc": "运动蓝牙耳机",
+            "items": [
+                {
+                    "itemId": "user:chip",
+                    "count": 2000000
+                }
+            ]
+        },
+        {
+            "start": 4,
+            "end": 10,
+            "img": "${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+            "desc": "运动蓝牙耳机",
+            "items": [
+                {
+                    "itemId": "user:chip",
+                    "count": 2000000
+                }
+            ]
+        }
+
+    ]
+}
+
+
+设计文档：
+1.
+

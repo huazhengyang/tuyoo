@@ -1,0 +1,65 @@
+{
+	"winStreakBuff": {
+		"desc": "连胜礼包buff 购买productId礼包后 在roomId中的比赛 连胜奖励翻multi倍 有效期limitHour小时",
+		"productIds": [
+			"TY9999Q0006044",
+            "TY9999Q0008044"
+		],
+		"type": "winStreakBuff",
+		"openTimes": [
+			5,
+			8
+		],
+		"limitHour": 2,
+		"multi": 3,
+		"roomId": [
+			6001,
+			6011,
+			6021
+		]
+	},
+	"loseStreakBuff": {
+		"desc": "连败礼包buff 购买productId礼包后 在roomId中的比赛 赢牌奖励翻multi倍 有效期limitHour小时",
+		"productIds": [
+			"TY9999Q0008043",
+            "TY9999Q0006043"
+		],
+		"type": "loseStreakBuff",
+		"openTimes": [
+			3,
+			5,
+			7
+		],
+		"multi": 2,
+		"limitHour": 2,
+		"roomId": [
+			6001,
+			6011,
+			6021,
+			6031
+		]
+	}, 
+	"stopWinStreakBuff": {
+        "desc": "高连胜中断 分享 winBuy",
+        "type": "stopWinStreakBuff",
+        "winBuy": [
+            8
+        ],
+        "openTimes": [
+        	1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9
+        ],
+        "limitHour": 0,
+        "roomId": [
+            6001,
+            6011,
+            6021,
+            6031
+        ]
+    }
+}

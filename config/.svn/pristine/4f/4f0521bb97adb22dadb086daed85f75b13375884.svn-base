@@ -1,0 +1,42 @@
+{
+  "condition": {
+    "list": [
+      {
+        "typeId": "user.cond.registerDays",
+        "startDays": -1,
+        "stopDays": -1
+      },
+      {
+        "typeId": "user.cond.segment",
+        "startSegment": -1,
+        "endSegment": -1
+      }
+    ],
+    "typeId": "user.cond.or"
+  },
+  "crossList": [
+    {
+      "appId": "1",
+      "from": "",
+      "path": "",
+      "icon": "",
+      "show": 0
+    },
+    {
+      "appId": "2",
+      "from": "",
+      "path": "",
+      "icon": "",
+      "show": 1
+    },
+    {
+      "appId": "3",
+      "from": "",
+      "path": "",
+      "icon": "",
+      "show": 1
+    }
+  ],
+  "crossPlayCount": 10,
+  "crossDelaySeconds": 10
+}

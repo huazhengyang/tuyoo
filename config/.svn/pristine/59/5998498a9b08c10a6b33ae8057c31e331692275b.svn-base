@@ -1,0 +1,80 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捕鱼插件全新上线 "
+     ],
+     "md5"              : "dbdcc3af15f4ec73fa6e76e5300d1c88",
+     "ver"              : "3.911",
+     "url"              : "${http_download}/hall/plugin/game/fish_3.971_alpha_02.zip",
+     "size"             : "10.6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捕鱼插件全新上线 "
+     ],
+     "md5"              : "6c3300d3412bf3d68a45cddb2767b050",
+     "ver"              : "3.971",
+     "url"              : "${http_download}/hall/plugin/game/fish_3.971_beta_10.zip",
+     "size"             : "10.6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捕鱼插件全新上线 "
+     ],
+     "md5"              : "6dcda51efe9b75614c18f98369c150e8",
+     "ver"              : "3.972",
+     "url"              : "${http_download}/hall/plugin/game/fish_3.972_beta_01.zip",
+     "size"             : "10.8M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捕鱼插件全新上线 "
+     ],
+     "md5"              : "4897891cbbd7f4c8324d19fb7f5d6fed",
+     "ver"              : "3.973",
+     "url"              : "${http_download}/hall/plugin/game/fish_3.973_beta_08.zip",
+     "size"             : "11.2M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捕鱼3.974版本全新上线 "
+     ],
+     "md5"              : "429cdf074005492c8a6544ad70c1fad8",
+     "ver"              : "3.974",
+     "url"              : "${http_download}/hall/plugin/game/fish_3.974_beta_06.zip",
+     "size"             : "11.4M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捕鱼3.975版本全新上线 "
+     ],
+     "md5"              : "9a11215abdf81a8b644da03389748794",
+     "ver"              : "3.975",
+     "url"              : "${http_download}/hall/plugin/game/fish_3.975_beta_01.zip",
+     "size"             : "11.20M"
+    }
+   ],
+   "description"      : [
+    "捕鱼插件全新上线"
+   ],
+   "gameId"           : 43,
+   "gameMark"         : "fish"
+  }
+ ],
+ "templates"        : [ ]
+}

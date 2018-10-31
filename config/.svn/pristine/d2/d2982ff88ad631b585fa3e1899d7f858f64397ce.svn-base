@@ -1,0 +1,697 @@
+{
+  "activities": [
+    {
+      "typeId": "ddz.act.wx.seasonInfo",
+      "actId": "seasonInfo20180901",
+      "intActId": 20180901,
+      "startTime": "2018-08-30 00:00:00",
+      "endTime": "2018-09-30 23:59:59"
+    },
+    {
+      "typeId": "ddz.act.wx.seasonInfo",
+      "actId": "seasonInfo20181001",
+      "intActId": 20181001,
+      "startTime": "2018-10-01 00:00:00",
+      "endTime": "2018-10-31 23:59:59"
+    },
+    {
+      "typeId": "ddz.act.wx.shareCharm",
+      "actId": "shareCharm",
+      "intActId": 20180820,
+      "startTime": "2018-09-04 00:00:00",
+      "endTime": "2019-09-30 23:59:59",
+      "maxRankNum": 500,
+      "rankRewards": [
+        {
+          "startRank": 1,
+          "endRank": 1,
+          "rewardDesc": "",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:coupon",
+              "count": 8000,
+              "pic":"${http_download}/ddz/other/config/wx_red_envelope.png"
+            }
+          ]
+        },
+        {
+          "startRank": 2,
+          "endRank": 2,
+          "rewardDesc": "",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:coupon",
+              "count": 1500,
+              "pic":"${http_download}/ddz/other/config/wx_red_envelope.png"
+            },
+            {
+              "itemId": "user:chip",
+              "count": 200000,
+              "pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+            },
+            {
+              "itemId": "item:1311",
+              "count": 60,
+              "pic":"${http_download}/ddz/other/payment/payment_shop_icon_3.png"
+            },
+            {
+              "itemId": "item:2003",
+              "count": 7,
+              "pic":"${http_download}/ddz/other/config/item_cardnote.png"
+            }
+          ]
+        },
+        {
+          "startRank": 3,
+          "endRank": 3,
+          "rewardDesc": "",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:coupon",
+              "count": 500,
+              "pic":"${http_download}/ddz/other/config/wx_red_envelope.png"
+            },
+            {
+              "itemId": "user:chip",
+              "count": 170000,
+              "pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+            },
+            {
+              "itemId": "item:1311",
+              "count": 30,
+              "pic":"${http_download}/ddz/other/payment/payment_shop_icon_3.png"
+            },
+            {
+              "itemId": "item:2003",
+              "count": 5,
+              "pic":"${http_download}/ddz/other/config/item_cardnote.png"
+            }
+          ]
+        },
+        {
+          "startRank": 4,
+          "endRank": 10,
+          "rewardDesc": "",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 210000,
+              "pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+            },
+            {
+              "itemId": "item:1311",
+              "count": 30,
+              "pic":"${http_download}/ddz/other/payment/payment_shop_icon_3.png"
+            },
+            {
+              "itemId": "item:2003",
+              "count": 3,
+              "pic":"${http_download}/ddz/other/config/item_cardnote.png"
+            }
+          ]
+        },
+        {
+          "startRank": 11,
+          "endRank": 30,
+          "rewardDesc": "",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 170000,
+              "pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+            },
+            {
+              "itemId": "item:1311",
+              "count": 20,
+              "pic":"${http_download}/ddz/other/payment/payment_shop_icon_1.png"
+            },
+            {
+              "itemId": "item:2003",
+              "count": 3,
+              "pic":"${http_download}/ddz/other/config/item_cardnote.png"
+            }
+          ]
+        },
+        {
+          "startRank": 31,
+          "endRank": 50,
+          "rewardDesc": "",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 120000,
+              "pic":"${http_download}/ddz/other/config/invite_chip_middle.png"
+            },
+            {
+              "itemId": "item:1311",
+              "count": 10,
+              "pic":"${http_download}/dddz/other/payment/payment_shop_icon_1.png"
+            },
+            {
+              "itemId": "item:2003",
+              "count": 1,
+              "pic":"${http_download}/ddz/other/config/item_cardnote.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "typeId": "ddz.act.wx.active",
+      "actId": "active",
+      "startTime": "2018-09-01 00:00:00",
+      "endTime": "2019-09-30 23:59:59",
+      "intActId": 20180820,
+      "activeEvent": [
+        {
+          "eventId": "signIn",
+          "active": 20,
+          "rewardDesc": "公众号签到",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_daily.checkin.png",
+          "level": 10
+        },
+        {
+          "eventId": "recharge",
+          "active": 20,
+          "rewardDesc": "充值奖励",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_chongzhi.png",
+          "level": 20
+        },
+        {
+          "eventId": "exchangeCoin",
+          "active": 20,
+          "rewardDesc": "钻石兑换金币",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_chipexchange.png",
+          "level": 30
+        },
+        {
+          "eventId": "66660201",
+          "active": 15,
+          "rewardDesc": "金币桌结算分享",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_share.png",
+          "level": 40
+        },
+        {
+          "eventId": "66660901",
+          "active": 15,
+          "rewardDesc": "残局通关炫耀分享",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_share.png",
+          "level": 50
+        },
+        {
+          "eventId": "66660008",
+          "active": 15,
+          "rewardDesc": "升星炫耀分享",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_share.png",
+          "level": 60
+        },
+        {
+          "eventId": "66660009",
+          "active": 15,
+          "rewardDesc": "高倍炫耀分享",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_share.png",
+          "level": 70
+        },
+        {
+          "eventId": "66660015",
+          "active": 15,
+          "rewardDesc": "连胜炫耀分享",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_share.png",
+          "level": 80
+        },
+        {
+          "eventId": "redEnvelope",
+          "active": 15,
+          "rewardDesc": "任意红包赛获奖",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_match.png",
+          "level": 90
+        },
+        {
+          "eventId": "playTimes3",
+          "active": 10,
+          "rewardDesc": "游戏局数x3",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_segment.png",
+          "level": 100
+        },
+        {
+          "eventId": "friendGame",
+          "active": 10,
+          "rewardDesc": "朋友桌游戏局数x1",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_friend.png",
+          "level": 110
+        },
+        {
+          "eventId": "dailyFirstWin",
+          "active": 10,
+          "rewardDesc": "每日首胜",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_firstblood.png",
+          "level": 120
+        },
+        {
+          "eventId": "firstLogin",
+          "active": 10,
+          "rewardDesc": "每日登录",
+          "rewardPic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_load.png",
+          "level": 130
+        }
+      ],
+      "dayActiveRewards": [
+        {
+          "active": 20,
+          "scheduleId": 100001,
+          "rewardDesc": "奖励",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 288,
+              "pic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_chip_30.png",
+              "desc": "x288"
+            }
+          ]
+        },
+        {
+          "active": 50,
+          "scheduleId": 100002,
+          "rewardDesc": "奖励",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 588,
+              "pic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_chip_60.png",
+              "desc": "x588"
+            }
+          ]
+        },
+        {
+          "active": 90,
+          "scheduleId": 100003,
+          "rewardDesc": "奖励",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 888,
+              "pic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_chip_90.png",
+              "desc": "x888"
+            }
+          ]
+        },
+        {
+          "active": 130,
+          "scheduleId": 100004,
+          "rewardDesc": "奖励",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 2888,
+              "pic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_chip_120.png",
+              "desc": "x2888"
+            }
+          ]
+        },
+        {
+          "active": 150,
+          "scheduleId": 100005,
+          "rewardDesc": "奖励",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 3888,
+              "pic": "${http_download}/ddz/other/config/huoyuedurenwu/huoyue_chip_1500.png",
+              "desc": "x3888"
+            }
+          ]
+        }
+      ],
+      "weekActiveRewards": [
+        {
+          "active": 400,
+          "scheduleId": 200001,
+          "rewardDesc": "奖励",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:chip",
+              "count": 3888,
+              "pic": "${http_download}/ddz/other/config/invite_chip_high.png",
+              "desc": "x3888"
+            },
+            {
+              "itemId": "item:2003",
+              "count": 1,
+              "pic": "${http_download}/ddz/other/config/item_cardnote.png",
+              "desc": "x1天"
+            }
+          ]
+        },
+        {
+          "active": 900,
+          "scheduleId": 200002,
+          "rewardDesc": "奖励",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "item:1311",
+              "count": 40,
+              "pic": "${http_download}/ddz/other/payment/payment_shop_icon_3.png",
+              "desc": "x40"
+            },
+            {
+              "itemId": "item:2003",
+              "count": 3,
+              "pic": "${http_download}/ddz/other/config/item_cardnote.png",
+              "desc": "x3天"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "typeId": "ddz.act.wx.chargeBox",
+      "actId": "chargeBox",
+      "intActId": 20180904,
+      "startTime": "2018-09-01 00:00:00",
+      "endTime": "2019-09-30 23:59:59",
+      "chargeBoxes": [
+        {
+          "desc": "首充礼包",
+          "type": "firstChargeBox",
+          "conditions": [
+          ],
+          "products": [
+            {
+              "productId": "TY9999D0006028",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 80000,
+                  "pic": "${http_download}/ddz/other/payment/exchange_chip_icon_3.png"
+                },
+                {
+                  "itemId": "item:1311",
+                  "count": 20,
+                  "pic": "${http_download}/ddz/other/payment/payment_shop_icon_3.png"
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 3,
+                  "pic": "${http_download}/ddz/other/config/item_cardnote.png"
+                }
+              ],
+              "pic": "",
+              "timeList": []
+            }
+          ]
+        },
+        {
+          "desc": "超值礼包",
+          "type": "superChargeBox",
+          "conditions": [],
+          "products": [
+            {
+              "productId": "TY9999D0006006",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 80000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 3,
+                  "pic": ""
+                }
+              ],
+              "pic": "${http_download}/ddz/other/config/tejialibao/6yuan_chaozhi.png",
+              "timeList": []
+            },
+            {
+              "productId": "TY9999D0012002",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 150000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 5,
+                  "pic": ""
+                }
+              ],
+              "pic": "${http_download}/ddz/other/config/tejialibao/12yuan_chaozhi.png",
+              "timeList": []
+            },
+            {
+              "productId": "TY9999D0030008",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 380000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 6,
+                  "pic": ""
+                }
+              ],
+              "pic": "${http_download}/ddz/other/config/tejialibao/30yuan_chaozhi.png",
+              "timeList": []
+            },
+            {
+              "productId": "TY9999D0050002",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 660000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 7,
+                  "pic": ""
+                }
+              ],
+              "pic": "${http_download}/ddz/other/config/tejialibao/50yuan_chaozhi.png",
+              "timeList": []
+            },
+            {
+              "productId": "TY9999D0068003",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 980000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 10,
+                  "pic": ""
+                }
+              ],
+              "pic": "${http_download}/ddz/other/config/tejialibao/68yuan_chaohzhi.png",
+              "timeList": []
+            },
+            {
+              "productId": "TY9999D0098002",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 1580000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 10,
+                  "pic": ""
+                }
+              ],
+              "pic": "${http_download}/ddz/other/config/tejialibao/98yuan_chaozhi.png",
+              "timeList": []
+            }
+          ]
+        },
+        {
+          "desc": "限时礼包",
+          "conditions": [],
+          "type": "timeLimitChargeBox",
+          "products": [
+            {
+              "productId": "TY9999D0012004",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 20000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:1311",
+                  "count": 120,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 2,
+                  "pic": ""
+                }
+              ],
+              "pic": "${http_download}/ddz/other/config/tejialibao/12yuan_xianshi.png",
+              "timeList": [
+                [
+                  "09:00",
+                  "22:00"
+                ]
+              ]
+            },
+            {
+              "productId": "TY9999D0025002",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 50000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:1311",
+                  "count": 250,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 4,
+                  "pic": ""
+                }
+              ],
+              "pic": "${http_download}/ddz/other/config/tejialibao/25yuan_xianshi.png",
+              "timeList": [
+                [
+                  "09:00",
+                  "22:00"
+                ]
+              ]
+            },
+            {
+              "productId": "TY9999D0045001",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 90000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:1311",
+                  "count": 450,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 7,
+                  "pic": ""
+                }
+              ],
+              "pic": "${http_download}/ddz/other/config/tejialibao/45yuan_xianshi.png",
+              "timeList": [
+                [
+                  "09:00",
+                  "22:00"
+                ]
+              ]
+            },
+            {
+              "productId": "TY9999D0068004",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 160000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:1311",
+                  "count": 680,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 7,
+                  "pic": ""
+                }
+              ],
+              "pic": "${http_download}/ddz/other/config/tejialibao/68yuan_xianshi.png",
+              "timeList": [
+                [
+                  "09:00",
+                  "22:00"
+                ]
+              ]
+            },
+            {
+              "productId": "TY9999D0108001",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 200000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:1311",
+                  "count": 1080,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 10,
+                  "pic": ""
+                }
+              ],
+              "pic": "${http_download}/ddz/other/config/tejialibao/108yuan_xianshi.png",
+              "timeList": [
+                [
+                  "09:00",
+                  "22:00"
+                ]
+              ]
+            },
+            {
+              "productId": "TY9999D0188001",
+              "rewards": [
+                {
+                  "itemId": "user:chip",
+                  "count": 300000,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:1311",
+                  "count": 1880,
+                  "pic": ""
+                },
+                {
+                  "itemId": "item:2003",
+                  "count": 10,
+                  "pic": ""
+                }
+              ],
+              "pic": "${http_download}/ddz/other/config/tejialibao/188yuan_xianshi.png",
+              "timeList": [
+                [
+                  "09:00",
+                  "22:00"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

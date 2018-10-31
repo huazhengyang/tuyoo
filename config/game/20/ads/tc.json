@@ -1,0 +1,272 @@
+{
+ "templates"              : {
+  "gomoku_v3.97_AI_tishen" : {
+   "interval"               : 5,
+   "name"                   : "gomoku_v3.97_AI_tishen",
+   "ads"                    : [
+    200001
+   ]
+  },
+  "gomoku_AI_wuchajian"    : {
+   "interval"               : 5,
+   "name"                   : "gomoku_AI_wuchajian",
+   "ads"                    : [
+    20020901
+   ]
+  },
+  "gomoku_v3.97_AI_special": {
+   "interval"               : 5,
+   "name"                   : "gomoku_v3.97_AI_special",
+   "ads"                    : [
+    20122002,
+    20010901
+   ]
+  },
+  "gomoku_v4.55_4.55"      : {
+   "interval"               : 5,
+   "name"                   : "gomoku_v4.55_4.55",
+   "ads"                    : [
+    20010901,
+    20122002
+   ]
+  },
+  "template_gomoku_normal" : {
+   "interval"               : 5,
+   "name"                   : "template_gomoku_normal",
+   "ads"                    : [
+    20020901
+   ]
+  },
+  "gomoku_v4.56_AI_qq"     : {
+   "interval"               : 5,
+   "name"                   : "gomoku_v4.56_AI_qq",
+   "ads"                    : [
+    20010901,
+    20010902,
+    20122002
+   ]
+  },
+  "gomoku_v3.73_AI_zhengfu": {
+   "interval"               : 5,
+   "name"                   : "gomoku_v3.73_AI_zhengfu",
+   "ads"                    : [
+    602011
+   ]
+  }
+ },
+ "ads"                    : [
+  {
+   "startTime"              : "2016-02-23 00:00:00",
+   "id"                     : 200001,
+   "clickable"              : 0,
+   "pic"                    : "${http_download}/gomoku/ads_20160223001.jpg",
+   "endTime"                : "2023-03-08 00:00:00"
+  },
+  {
+   "startTime"              : "2016-10-10 00:00:00",
+   "id"                     : 20101001,
+   "todotasks"              : [
+    {
+     "actId"                  : "activity_wuziqi_xinzhongfabai_1010",
+     "typeId"                 : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/gomoku/ads_xinzhongfabai_1011.jpg",
+   "endTime"                : "2016-10-22 00:00:00"
+  },
+  {
+   "startTime"              : "2016-10-11 00:00:00",
+   "id"                     : 20101101,
+   "todotasks"              : [
+    {
+     "actId"                  : "activity_all_jinqiujifen_1009",
+     "typeId"                 : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/hall/ads/imgs/ads_jinqiujifen_10122.jpg",
+   "endTime"                : "2016-10-21 00:00:00"
+  },
+  {
+   "startTime"              : "2016-10-19 00:00:00",
+   "id"                     : 20101801,
+   "todotasks"              : [
+    {
+     "actId"                  : "activity_wzq_xinshuiguo_1018",
+     "typeId"                 : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/hall/ads/imgs/ads_ddz_dafengshou_0907.jpg",
+   "endTime"                : "2016-11-05 00:00:00"
+  },
+  {
+   "startTime"              : "2016-11-16 00:00:00",
+   "id"                     : 20111601,
+   "todotasks"              : [
+    {
+     "actId"                  : "wzq_invite_new_friend_20161022",
+     "typeId"                 : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/hall/ads/imgs/ads_xinpengyou_1116.jpg",
+   "endTime"                : "2017-11-23 00:00:00"
+  },
+  {
+   "startTime"              : "2016-12-20 00:00:00",
+   "id"                     : 20122001,
+   "todotasks"              : [
+    {
+     "actId"                  : "activity_gomoku_douniu_1220",
+     "typeId"                 : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/hall/ads/imgs/ads_gomoku_douniu_1220.jpg",
+   "endTime"                : "2025-12-31 00:00:00"
+  },
+  {
+   "startTime"              : "2017-12-01 00:00:00",
+   "id"                     : 20122002,
+   "todotasks"              : [
+    {
+     "enter_param"            : {
+      "pluginParams"           : {
+       "gameType"               : 0
+      },
+      "type"                   : "game"
+     },
+     "gameId"                 : 44,
+     "typeId"                 : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/newfish/ads_newfish_bg_zhaocai_20180207.jpg",
+   "endTime"                : "2018-03-31 00:00:00"
+  },
+  {
+   "startTime"              : "2017-02-09 00:00:00",
+   "id"                     : 20020901,
+   "todotasks"              : [
+    {
+     "actId"                  : "wzq_friend_20170209",
+     "typeId"                 : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/gomoku/ads_friend20170209.jpg",
+   "endTime"                : "2018-06-30 00:00:00"
+  },
+  {
+   "startTime"              : "2018-02-12 00:00:00",
+   "id"                     : 20052201,
+   "todotasks"              : [
+    {
+     "enter_param"            : {
+      "pluginParams"           : {
+       "gameType"               : "gomoku_match"
+      },
+      "type"                   : "roomlist"
+     },
+     "gameId"                 : 20,
+     "typeId"                 : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/chinesechess/ads_wzqhuawei20180203.jpg",
+   "endTime"                : "2018-02-23 00:00:00"
+  },
+  {
+   "startTime"              : "2017-08-17 00:00:00",
+   "id"                     : 20081701,
+   "todotasks"              : [
+    {
+     "actId"                  : "activity_wzqmeizu",
+     "typeId"                 : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/gomoku/ads_wzqmeizu.jpg",
+   "endTime"                : "2017-08-21 00:00:00"
+  },
+  {
+   "startTime"              : "2018-01-09 00:00:00",
+   "id"                     : 20010901,
+   "todotasks"              : [
+    {
+     "enter_param"            : {
+      "pluginParams"           : {
+       "gameType"               : "gomoku_match"
+      },
+      "type"                   : "roomlist"
+     },
+     "gameId"                 : 20,
+     "typeId"                 : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/gomoku/ads_wzq20171216.jpg",
+   "endTime"                : "2018-06-01 00:00:00"
+  },
+  {
+   "startTime"              : "2018-01-09 00:00:00",
+   "id"                     : 20010902,
+   "todotasks"              : [
+    {
+     "actId"                  : "wzq_hongbao20180109",
+     "typeId"                 : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/hall/ads/imgs/ads_ddz_hongbaoquan.jpg",
+   "endTime"                : "2018-05-01 00:00:00"
+  },
+  {
+   "startTime"              : "2018-02-12 00:00:00",
+   "id"                     : 20020501,
+   "todotasks"              : [
+    {
+     "enter_param"            : {
+      "pluginParams"           : {
+       "gameType"               : "gomoku_match"
+      },
+      "type"                   : "roomlist"
+     },
+     "gameId"                 : 20,
+     "typeId"                 : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/chinesechess/ads_qi20180201.jpg",
+   "endTime"                : "2018-02-22 00:00:00"
+  },
+  {
+   "startTime"              : "2018-02-13 00:00:00",
+   "id"                     : 20021101,
+   "todotasks"              : [
+    {
+     "actId"                  : "wzq_cuxiao180211",
+     "typeId"                 : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/chinesechess/ads_fuli20180211.jpg",
+   "endTime"                : "2018-02-22 00:00:00"
+  },
+  {
+   "startTime"              : "2018-02-12 00:00:00",
+   "id"                     : 20021102,
+   "todotasks"              : [
+    {
+     "typeId"                 : "hall.download",
+     "url"                    : "http://a.app.qq.com/o/simple.jsp?pkgname=com.tuyoo.doudizhu.maintu"
+    }
+   ],
+   "clickable"              : 1,
+   "pic"                    : "${http_download}/chinesechess/ads_qq20180211.jpg",
+   "endTime"                : "2018-02-24 00:00:00"
+  }
+ ]
+}

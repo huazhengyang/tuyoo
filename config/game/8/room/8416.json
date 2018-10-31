@@ -1,0 +1,561 @@
+{
+    "interEmoticon": {
+        "bomb": [
+            2000, 
+            200, 
+            -200
+        ], 
+        "chicken": [
+            2000, 
+            200, 
+            -200
+        ], 
+        "doubleAce": [
+            2000, 
+            400, 
+            400
+        ], 
+        "eggs": [
+            2000, 
+            200, 
+            -200
+        ], 
+        "fishing": [
+            2000, 
+            200, 
+            -200
+        ], 
+        "ring": [
+            2000, 
+            400, 
+            400
+        ], 
+        "rose": [
+            2000, 
+            400, 
+            400
+        ], 
+        "thumb": [
+            2000, 
+            400, 
+            400
+        ]
+    }, 
+    "matchConf": {
+        "addonDesc": "本比赛不可增购", 
+        "autoEnter": 1, 
+        "betsConf": [
+            {
+                "bb": 100, 
+                "prebet": 1600000, 
+                "sb": 50, 
+                "timePoint": 0
+            }, 
+            {
+                "bb": 200, 
+                "prebet": 1600000, 
+                "sb": 100, 
+                "timePoint": 180
+            }, 
+            {
+                "bb": 300, 
+                "prebet": 1600000, 
+                "sb": 150, 
+                "timePoint": 360
+            }, 
+            {
+                "bb": 400, 
+                "prebet": 1600000, 
+                "sb": 200, 
+                "timePoint": 540
+            }, 
+            {
+                "bb": 600, 
+                "prebet": 1600000, 
+                "sb": 300, 
+                "timePoint": 720
+            }, 
+            {
+                "bb": 800, 
+                "prebet": 1600000, 
+                "sb": 400, 
+                "timePoint": 900
+            }, 
+            {
+                "bb": 1000, 
+                "prebet": 1600000, 
+                "sb": 500, 
+                "timePoint": 1080
+            }, 
+            {
+                "bb": 1200, 
+                "prebet": 1600000, 
+                "sb": 600, 
+                "timePoint": 1260
+            }, 
+            {
+                "bb": 1600, 
+                "prebet": 1600000, 
+                "sb": 800, 
+                "timePoint": 1440
+            }, 
+            {
+                "bb": 2000, 
+                "prebet": 1600000, 
+                "sb": 1000, 
+                "timePoint": 1620
+            }, 
+            {
+                "bb": 2400, 
+                "prebet": 1600000, 
+                "sb": 1200, 
+                "timePoint": 1800
+            }, 
+            {
+                "bb": 3000, 
+                "prebet": 1600000, 
+                "sb": 1500, 
+                "timePoint": 1980
+            }, 
+            {
+                "bb": 4000, 
+                "prebet": 1600000, 
+                "sb": 2000, 
+                "timePoint": 2160
+            }, 
+            {
+                "bb": 5000, 
+                "prebet": 1600000, 
+                "sb": 2500, 
+                "timePoint": 2340
+            }, 
+            {
+                "bb": 6000, 
+                "prebet": 1600000, 
+                "sb": 3000, 
+                "timePoint": 2520
+            }, 
+            {
+                "bb": 8000, 
+                "prebet": 1600000, 
+                "sb": 4000, 
+                "timePoint": 2700
+            }, 
+            {
+                "bb": 10000, 
+                "prebet": 1600000, 
+                "sb": 5000, 
+                "timePoint": 2880
+            }, 
+            {
+                "bb": 12000, 
+                "prebet": 1600000, 
+                "sb": 6000, 
+                "timePoint": 3060
+            }, 
+            {
+                "bb": 16000, 
+                "prebet": 1600000, 
+                "sb": 8000, 
+                "timePoint": 3240
+            }, 
+            {
+                "bb": 20000, 
+                "prebet": 1600000, 
+                "sb": 10000, 
+                "timePoint": 3420
+            }, 
+            {
+                "bb": 24000, 
+                "prebet": 1600000, 
+                "sb": 12000, 
+                "timePoint": 3600
+            }, 
+            {
+                "bb": 30000, 
+                "prebet": 1600000, 
+                "sb": 15000, 
+                "timePoint": 3780
+            }, 
+            {
+                "bb": 40000, 
+                "prebet": 1600000, 
+                "sb": 20000, 
+                "timePoint": 3960
+            }, 
+            {
+                "bb": 50000, 
+                "prebet": 1600000, 
+                "sb": 25000, 
+                "timePoint": 4140
+            }, 
+            {
+                "bb": 60000, 
+                "prebet": 1600000, 
+                "sb": 30000, 
+                "timePoint": 4320
+            }, 
+            {
+                "bb": 80000, 
+                "prebet": 1600000, 
+                "sb": 40000, 
+                "timePoint": 4500
+            }, 
+            {
+                "bb": 100000, 
+                "prebet": 1600000, 
+                "sb": 50000, 
+                "timePoint": 4680
+            }, 
+            {
+                "bb": 120000, 
+                "prebet": 1600000, 
+                "sb": 60000, 
+                "timePoint": 4860
+            }, 
+            {
+                "bb": 160000, 
+                "prebet": 1600000, 
+                "sb": 80000, 
+                "timePoint": 5040
+            }, 
+            {
+                "bb": 200000, 
+                "prebet": 1600000, 
+                "sb": 100000, 
+                "timePoint": 5220
+            }, 
+            {
+                "bb": 240000, 
+                "prebet": 1600000, 
+                "sb": 120000, 
+                "timePoint": 5400
+            }, 
+            {
+                "bb": 300000, 
+                "prebet": 1600000, 
+                "sb": 150000, 
+                "timePoint": 5580
+            }, 
+            {
+                "bb": 400000, 
+                "prebet": 1600000, 
+                "sb": 200000, 
+                "timePoint": 5760
+            }, 
+            {
+                "bb": 500000, 
+                "prebet": 1600000, 
+                "sb": 250000, 
+                "timePoint": 5940
+            }, 
+            {
+                "bb": 600000, 
+                "prebet": 1600000, 
+                "sb": 300000, 
+                "timePoint": 6120
+            }, 
+            {
+                "bb": 800000, 
+                "prebet": 1600000, 
+                "sb": 400000, 
+                "timePoint": 6300
+            }, 
+            {
+                "bb": 1000000, 
+                "prebet": 1600000, 
+                "sb": 500000, 
+                "timePoint": 6480
+            }, 
+            {
+                "bb": 1200000, 
+                "prebet": 1600000, 
+                "sb": 600000, 
+                "timePoint": 6660
+            }, 
+            {
+                "bb": 1600000, 
+                "prebet": 1600000, 
+                "sb": 800000, 
+                "timePoint": 6840
+            }, 
+            {
+                "bb": 2000000, 
+                "prebet": 1600000, 
+                "sb": 1000000, 
+                "timePoint": 7020
+            }, 
+            {
+                "bb": 2400000, 
+                "prebet": 1600000, 
+                "sb": 1200000, 
+                "timePoint": 7200
+            }, 
+            {
+                "bb": 3000000, 
+                "prebet": 1600000, 
+                "sb": 1500000, 
+                "timePoint": 7380
+            }, 
+            {
+                "bb": 4000000, 
+                "prebet": 1600000, 
+                "sb": 2000000, 
+                "timePoint": 7560
+            }, 
+            {
+                "bb": 5000000, 
+                "prebet": 1600000, 
+                "sb": 2500000, 
+                "timePoint": 7740
+            }, 
+            {
+                "bb": 6000000, 
+                "prebet": 1600000, 
+                "sb": 3000000, 
+                "timePoint": 7920
+            }, 
+            {
+                "bb": 8000000, 
+                "prebet": 1600000, 
+                "sb": 4000000, 
+                "timePoint": 8100
+            }, 
+            {
+                "bb": 10000000, 
+                "prebet": 1600000, 
+                "sb": 5000000, 
+                "timePoint": 8280
+            }, 
+            {
+                "bb": 12000000, 
+                "prebet": 1600000, 
+                "sb": 6000000, 
+                "timePoint": 8460
+            }, 
+            {
+                "bb": 16000000, 
+                "prebet": 1600000, 
+                "sb": 8000000, 
+                "timePoint": 8640
+            }
+        ], 
+        "costUrl": {
+            "5.01": {
+                "chip": "${http_download}/texas/images/mtt/ticket_chip_5.0.1", 
+                "diamond": "${http_download}/texas/images/mtt/ticket_diamond_5.0.1.png", 
+                "monthCard": "${http_download}/texas/images/mtt/Month_card5.0.1.png", 
+                "ring": "${http_download}/texas/images/mtt/ticket_ring_5.0.1.png", 
+                "ticket": "${http_download}/texas/images/mtt/ticket_default_5.0.1.png"
+            }, 
+            "chip": "", 
+            "diamond": "${http_download}/texas/images/mtt/ticket_diamond.png", 
+            "monthCard": "${http_download}/texas/images/mtt/Month_card.png", 
+            "ring": "${http_download}/texas/images/mtt/ticket_ring.png", 
+            "ticket": "${http_download}/texas/images/mtt/ticket_default.png"
+        }, 
+        "delaySignInDes": "该比赛不能延迟报名", 
+        "iosAuditVisible": 0, 
+        "matchSpeed": "ordinary", 
+        "matchUrl": "${http_download}/texas/images/mtt/20180210_roll1000000.png", 
+        "match_id": "mtt_dog_1000000", 
+        "nameColor": [
+            255, 
+            210, 
+            35
+        ], 
+        "openTime": {
+            "closed": 0
+        }, 
+        "openTimeDesc": [
+            "", 
+            "大约1小时"
+        ], 
+        "operator": 0, 
+        "previewCfg": {
+            "repeat": 10, 
+            "tags": [
+                "all", 
+                "free", 
+                "big", 
+                "share"
+            ], 
+            "weight": 100
+        }, 
+        "raiseTime": 180, 
+        "rank": [
+            {
+                "rank": [
+                    1
+                ], 
+                "rankdesc": "1", 
+                "reward": {
+                    "coupon": 66600
+                }, 
+                "rewarddesc": "666红包券"
+            }, 
+            {
+                "rank": [
+                    2
+                ], 
+                "rankdesc": "2", 
+                "reward": {
+                    "coupon": 32000
+                }, 
+                "rewarddesc": "320红包券"
+            }, 
+            {
+                "rank": [
+                    3, 
+                    4
+                ], 
+                "rankdesc": "3~4", 
+                "reward": {
+                    "coupon": 16000
+                }, 
+                "rewarddesc": "160红包券"
+            }, 
+            {
+                "rank": [
+                    5, 
+                    8
+                ], 
+                "rankdesc": "5~8", 
+                "reward": {
+                    "coupon": 8000
+                }, 
+                "rewarddesc": "80红包券"
+            }, 
+            {
+                "rank": [
+                    9, 
+                    16
+                ], 
+                "rankdesc": "9~16", 
+                "reward": {
+                    "coupon": 4000
+                }, 
+                "rewarddesc": "40红包券"
+            }
+        ], 
+        "rebuyDesc": "本比赛不可重购", 
+        "require": "无", 
+        "requireState": [], 
+        "resultExpire": "43200", 
+        "rewardType": [
+            0
+        ], 
+        "rule": "比赛牌桌内的筹码不能带出牌桌外。\n奖励按照排名发放。\n更大池底，更多刺激！", 
+        "ruleTitle": "帮助", 
+        "ruleUrl": "http://ddz.dl.tuyoo.com/texas/match/mtt_match_desc.html", 
+        "rules": [
+            {
+                "text": "狗年玩家碰碰乐说明：", 
+                "type": 0
+            }, 
+            {
+                "text": "免费参赛，两人桌强制allin,比赛仅需3分钟，请务必提前入场准备", 
+                "type": 1
+            }, 
+            {
+                "text": "比赛时长：3分钟", 
+                "type": 1
+            }, 
+            {
+                "text": "初始筹码：100筹码", 
+                "type": 1
+            }, 
+            {
+                "text": "开赛模式：定时开赛，02.12-02.21每天11场，09：45-19：45点开赛。", 
+                "type": 1
+            }, 
+            {
+                "text": "奖池数量：200红包券", 
+                "type": 1
+            }, 
+            {
+                "text": "注意事项：", 
+                "type": 1
+            }, 
+            {
+                "text": "  a) 比赛中赢取筹码不带出比赛牌桌", 
+                "type": 1
+            }, 
+            {
+                "text": "  b) 遇到任何比赛问题，请及时联系客服 (电话：400-8098-000，客服Q群：246344650)", 
+                "type": 1
+            }
+        ], 
+        "show_lottery_cfg": 0, 
+        "signinDesc": "金手链20条或100万金币", 
+        "signinFee": "_or(prop(3130,20),chip(1000000))", 
+        "signinRequire": {
+            "cond": "", 
+            "desc": "无"
+        }, 
+        "sortId": 2, 
+        "startMatchPlayersN": 32, 
+        "startTimes": {
+            "days": {
+                "count": 100, 
+                "first": "", 
+                "interval": "1d"
+            }, 
+            "times_in_day": {
+                "list": [
+                    "18:45", 
+                    "19:45"
+                ]
+            }
+        }, 
+        "tags": [
+            "realtime"
+        ], 
+        "topTime": {
+            "top_begin_day": "20170524", 
+            "top_begin_time": "00:00", 
+            "top_end_day": "20181227", 
+            "top_end_time": "23:59", 
+            "top_week": "1,2,3,4,5,6,7"
+        }, 
+        "totalReward": "2000红包券", 
+        "visible": 1
+    }, 
+    "maxCoin": 0, 
+    "maxCoinQS": 0, 
+    "minCoin": 0, 
+    "minCoinQS": 0, 
+    "minTriggerLen": 2, 
+    "n_recycle": 1, 
+    "name": "狗年玩家碰碰乐", 
+    "playMode": "classic", 
+    "rewardDealerChip": 400, 
+    "roomID": 8416, 
+    "tableConf": {
+        "bb": 100, 
+        "big_pot": 0, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 100, 
+        "chat_require_vip_level": 8, 
+        "commission": 0.0, 
+        "fee": 0, 
+        "flip_card_game": {
+            "bet": 0, 
+            "loading_show": 1, 
+            "show": 1
+        }, 
+        "lose_exp": 50, 
+        "maxSeatN": 2, 
+        "min_players": 2, 
+        "optime": 8, 
+        "pay_factor": 1.0, 
+        "pk": 0, 
+        "sb": 50, 
+        "start_card": 2, 
+        "tname": "狗年玩家碰碰乐", 
+        "win_exp": 100
+    }, 
+    "triggerLen": 2, 
+    "typeName": "mtt"
+}

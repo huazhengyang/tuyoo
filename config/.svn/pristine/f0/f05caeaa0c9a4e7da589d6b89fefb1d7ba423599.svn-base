@@ -1,0 +1,60 @@
+{
+  "room_items" : {
+    "cg01": {
+      "condition": "400~7999金币准入",
+      "entry": "底注30金币",
+      "id": 42001,
+      "name": "经典新手场",
+      "showInfo": {
+        "name": "新手场(底注30)",
+        "playerCntKind": "playerCnt",
+        "gameDes": "新手场没有奖券奖励哟",
+        "extendInfo": "金币桌"
+      },
+      "nameurl": "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "dtg01": {
+      "condition": "400~7999金币准入",
+      "entry": "底注30金币",
+      "id": 42101,
+      "name": "打通关新手场",
+      "showInfo": {
+        "name": "打通关新手场",
+        "playerCntKind": "playerCnt",
+        "gameDes": "新手场没有奖券奖励哟",
+        "extendInfo": "金币桌"
+      },
+      "nameurl": "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    }
+  },
+
+  "session_items" : {
+     "cg" : {
+      "description" : [
+        "1、经典玩法；"
+      ],
+      "match" : 0,
+      "new" : 0,
+      "rooms" : [
+        "cg01"
+      ],
+      "session" : "经典场"
+    },
+    "dtg" : {
+      "description" : [
+        "1、闯关玩法；",
+        "2、离场后级数不变,下次回来接着打"
+      ],
+      "match" : 0,
+      "new" : 0,
+      "rooms" : [
+        "dtg01"
+      ],
+      "session" : "闯关场"
+    }
+  },
+  
+  "templates" : {
+  	"default" : ["cg", "dtg"]
+  }
+}

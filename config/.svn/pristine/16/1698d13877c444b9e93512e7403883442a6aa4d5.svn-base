@@ -1,0 +1,27 @@
+{
+    "templates": {
+        "default": {
+            "lpic": "${http_download}/texas/activities/images/3_7_window.jpg", 
+            "rpic": "${http_download}/texas/activities/images/vip12.jpg", 
+            "url": "${http_download}/texas/activities/new37.html"
+        }, 	
+        "template_ios": {
+            "lpic": "${http_download}/texas/activities/images/3_7_window.jpg", 
+            "rpic": "${http_download}/texas/activities/images/iosczlb.jpg", 
+            "url": "${http_download}/texas/activities/jiangquan1112.html"
+        }, 
+        "template_android_audit": {
+            "lpic": "${http_download}/texas/activities/images/db319_window1.jpg", 
+            "rpic": "${http_download}/texas/activities/images/huodong_3_0_20150204_new.jpg", 
+            "url": "${http_download}/texas/activities/db319.html"
+        }, 
+        "template_ios_audit": {
+            "lpic": "${http_download}/texas/activities/images/db319_window1.jpg", 
+            "rpic": "${http_download}/texas/activities/images/db319_window1.jpg", 
+            "url": "${http_download}/texas/activities/db319.html"
+        }, 
+        "template_disabled": {
+            "closed": 1
+        }
+    }
+}

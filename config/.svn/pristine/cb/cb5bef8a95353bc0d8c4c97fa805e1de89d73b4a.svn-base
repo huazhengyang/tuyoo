@@ -1,0 +1,199 @@
+{
+    "65301": {
+        "task_goal": 25, 
+        "task_viplimit": 9, 
+        "task_weaponlvl": 10000, 
+        "task_description": "string_jinrichongzhi", 
+        "reward_icon": "fish_icon_laser_2.png", 
+        "reward": [
+            {
+                "count": 1, 
+                "name": "item:1203"
+            }
+        ]
+    }, 
+    "65206": {
+        "task_goal": 15000000, 
+        "task_viplimit": 9, 
+        "task_weaponlvl": 10000, 
+        "task_description": "string_yingdejinbi", 
+        "reward_icon": "fish_icon_rage_none.png", 
+        "reward": [
+            {
+                "count": 20, 
+                "name": "item:1201"
+            }
+        ]
+    }, 
+    "65201": {
+        "task_goal": 100000, 
+        "task_viplimit": 9, 
+        "task_weaponlvl": 30, 
+        "task_description": "string_yingdejinbi", 
+        "reward_icon": "fish_icon_lock.png", 
+        "reward": [
+            {
+                "count": 10, 
+                "name": "item:1198"
+            }
+        ]
+    }, 
+    "65101": {
+        "task_goal": 1, 
+        "task_viplimit": 0, 
+        "task_weaponlvl": 30, 
+        "task_description": "string_jinridenglu", 
+        "reward_icon": "fish_icon_gold_1", 
+        "reward": [
+            {
+                "count": 1000, 
+                "name": "user:chip"
+            }
+        ]
+    }, 
+    "65102": {
+        "task_goal": 1, 
+        "task_viplimit": 0, 
+        "task_weaponlvl": 100, 
+        "task_description": "string_jinridenglu", 
+        "reward_icon": "fish_icon_gold_1", 
+        "reward": [
+            {
+                "count": 3000, 
+                "name": "user:chip"
+            }
+        ]
+    }, 
+    "65103": {
+        "task_goal": 1, 
+        "task_viplimit": 0, 
+        "task_weaponlvl": 300, 
+        "task_description": "string_jinridenglu", 
+        "reward_icon": "fish_icon_gold_1", 
+        "reward": [
+            {
+                "count": 6000, 
+                "name": "user:chip"
+            }
+        ]
+    }, 
+    "65104": {
+        "task_goal": 1, 
+        "task_viplimit": 0, 
+        "task_weaponlvl": 500, 
+        "task_description": "string_jinridenglu", 
+        "reward_icon": "fish_icon_gold_1", 
+        "reward": [
+            {
+                "count": 8000, 
+                "name": "user:chip"
+            }
+        ]
+    }, 
+    "65105": {
+        "task_goal": 1, 
+        "task_viplimit": 0, 
+        "task_weaponlvl": 10000, 
+        "task_description": "string_jinridenglu", 
+        "reward_icon": "fish_icon_gold_1", 
+        "reward": [
+            {
+                "count": 10000, 
+                "name": "user:chip"
+            }
+        ]
+    }, 
+    "65106": {
+        "task_goal": 1, 
+        "task_viplimit": 3, 
+        "task_weaponlvl": 10000, 
+        "task_description": "string_jinridenglu", 
+        "reward_icon": "fish_icon_gold_1", 
+        "reward": [
+            {
+                "count": 20000, 
+                "name": "user:chip"
+            }
+        ]
+    }, 
+    "65107": {
+        "task_goal": 1, 
+        "task_viplimit": 6, 
+        "task_weaponlvl": 10000, 
+        "task_description": "string_jinridenglu", 
+        "reward_icon": "fish_icon_gold_1", 
+        "reward": [
+            {
+                "count": 50000, 
+                "name": "user:chip"
+            }
+        ]
+    }, 
+    "65108": {
+        "task_goal": 1, 
+        "task_viplimit": 9, 
+        "task_weaponlvl": 10000, 
+        "task_description": "string_jinridenglu", 
+        "reward_icon": "fish_icon_gold_1", 
+        "reward": [
+            {
+                "count": 80000, 
+                "name": "user:chip"
+            }
+        ]
+    }, 
+    "65203": {
+        "task_goal": 1500000, 
+        "task_viplimit": 9, 
+        "task_weaponlvl": 300, 
+        "task_description": "string_yingdejinbi", 
+        "reward_icon": "fish_icon_lock.png", 
+        "reward": [
+            {
+                "count": 30, 
+                "name": "item:1198"
+            }
+        ]
+    }, 
+    "startTime": "2017-05-13 00:00:01",
+    "65202": {
+        "task_goal": 500000, 
+        "task_viplimit": 9, 
+        "task_weaponlvl": 100, 
+        "task_description": "string_yingdejinbi", 
+        "reward_icon": "fish_icon_lock.png", 
+        "reward": [
+            {
+                "count": 20, 
+                "name": "item:1198"
+            }
+        ]
+    }, 
+    "65204": {
+        "task_goal": 3000000, 
+        "task_viplimit": 9, 
+        "task_weaponlvl": 500, 
+        "task_description": "string_yingdejinbi", 
+        "reward_icon": "fish_icon_lock.png", 
+        "reward": [
+            {
+                "count": 50, 
+                "name": "item:1198"
+            }
+        ]
+    },
+    "endTime": "2017-05-15 23:59:59",
+    "65205": {
+        "task_goal": 7000000, 
+        "task_viplimit": 9, 
+        "task_weaponlvl": 1000, 
+        "task_description": "string_yingdejinbi", 
+        "reward_icon": "fish_icon_lock.png", 
+        "reward": [
+            {
+                "count": 100, 
+                "name": "item:1198"
+            }
+        ]
+    }
+}

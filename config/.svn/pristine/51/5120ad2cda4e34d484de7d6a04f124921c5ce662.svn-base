@@ -1,0 +1,1239 @@
+{
+  "plugins": {
+    "default_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v2.3_2.zip", 
+        "ver": 2
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    }, 
+    "default_douniu_0": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v2.3_2.zip", 
+        "ver": 2
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_35_audit_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "2.9M", 
+        "url": "http://open.touch4.me/hall6/douniu/douniu_release_v3.352_v4.zip", 
+        "ver": 3.352
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_35_audit_douniu_2": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "2.9M", 
+        "url": "http://open.touch4.me/hall6/douniu/douniu_release_v3.352_v4.zip", 
+        "ver": 3.352
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    },
+    "v3_35_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "2.9M", 
+        "url": "http://open.touch4.me/hall6/douniu/douniu_release_v3.352_v4.zip", 
+        "ver": 3.352
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_35_douniu_1": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "2.9M", 
+        "url": "http://open.touch4.me/hall6/douniu/douniu_release_v3.352_v4.zip", 
+        "ver": 3.352
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    },
+    "v3_35_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "2.61M", 
+        "url": "http://open.touch4.me/hall6/texas/texas_release_v3.351_5.zip", 
+        "ver": 3.35105
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_36_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.361_8.zip", 
+        "ver": 3.36108
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    }, 
+    "v3_36_douniu_3": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.361_8.zip", 
+        "ver": 3.36108
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    },
+    "v3_36_no_t3card_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.361_8.zip", 
+        "ver": 3.36108
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    }, 
+    "v3_36_no_t3card_douniu_4": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.361_8.zip", 
+        "ver": 3.36108
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    },
+    "v3_36_no_t3card_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.92M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/texas/texas_release_v3.363_3.zip", 
+        "ver": 3.36304
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    },
+    "v3_36_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.92M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/texas/texas_release_v3.363_3.zip", 
+        "ver": 3.36304
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_36_xiangqi_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.361_8.zip", 
+        "ver": 3.36108
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    }, 
+    "v3_36_xiangqi_douniu_5": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.361_8.zip", 
+        "ver": 3.36108
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    },
+    "v3_36_xiangqi_majiang": {
+      "ctorName": "mj", 
+      "ctorPath": "games/majiang/majiang_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u724c\u578b\u4e30\u5bcc\u60f3\u80e1\u5c31\u80e1", 
+          "2\u3001\u8840\u6218\u5230\u5e95\u8fde\u80e1\u4e0d\u505c"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.3M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/majiang/majiang_release_v3.361_36.zip", 
+        "ver": 3.36136
+      }, 
+      "description": [
+        "1\u3001\u724c\u578b\u4e30\u5bcc\u60f3\u80e1\u5c31\u80e1", 
+        "2\u3001\u8840\u6218\u5230\u5e95\u8fde\u80e1\u4e0d\u505c"
+      ], 
+      "gameId": 7, 
+      "gameName": "\u9ebb\u5c06", 
+      "game_mark": "majiang", 
+      "game_type": 1, 
+      "icon": "majiang_icon.png", 
+      "icon_mask": "majiang_icon_mask.png", 
+      "is_new": 1
+    },
+    "v3_36_xiangqi_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.92M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/texas/texas_release_v3.363_3.zip", 
+        "ver": 3.36304
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_372_ios_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.373_2.zip", 
+        "ver": 3.37004
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    }, 
+    "v3_372_ios_douniu_7": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.373_2.zip", 
+        "ver": 3.37004
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    },
+    "v3_372_ios_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "1.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/texas/texas_release_v3.501_0.zip", 
+        "ver": 3.37503
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_37_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.373_2.zip", 
+        "ver": 3.37004
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    }, 
+    "v3_37_douniu_6": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.373_2.zip", 
+        "ver": 3.37004
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    },
+    "v3_37_hall10_majiang": {
+      "ctorName": "mj", 
+      "ctorPath": "games/majiang/majiang_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u724c\u578b\u4e30\u5bcc\u60f3\u80e1\u5c31\u80e1", 
+          "2\u3001\u8840\u6218\u5230\u5e95\u8fde\u80e1\u4e0d\u505c"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.3M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/majiang/majiang_release_v3.371_11.zip", 
+        "ver": 3.3711
+      }, 
+      "description": [
+        "1\u3001\u724c\u578b\u4e30\u5bcc\u60f3\u80e1\u5c31\u80e1", 
+        "2\u3001\u8840\u6218\u5230\u5e95\u8fde\u80e1\u4e0d\u505c"
+      ], 
+      "gameId": 7, 
+      "gameName": "\u9ebb\u5c06", 
+      "game_mark": "majiang", 
+      "game_type": 1, 
+      "icon": "majiang_icon.png", 
+      "icon_mask": "majiang_icon_mask.png", 
+      "is_new": 1
+    },
+    "v3_37_hall10_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "1.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/texas/texas_release_v3.501_0.zip", 
+        "ver": 3.37503
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_37_hall8_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.372_1.zip", 
+        "ver": 3.37003
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    }, 
+    "v3_37_hall8_douniu_8": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.372_1.zip", 
+        "ver": 3.37003
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    },
+    "v3_37_huawei_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "1.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/texas/texas_release_v3.501_0.zip", 
+        "ver": 3.37503
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_37_majang_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.372_1.zip", 
+        "ver": 3.37003
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    }, 
+    "v3_37_majang_douniu_9": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.372_1.zip", 
+        "ver": 3.37003
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    },
+    "v3_37_majang_majiang": {
+      "ctorName": "mj", 
+      "ctorPath": "games/majiang/majiang_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u724c\u578b\u4e30\u5bcc\u60f3\u80e1\u5c31\u80e1", 
+          "2\u3001\u8840\u6218\u5230\u5e95\u8fde\u80e1\u4e0d\u505c"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.3M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/majiang/majiang_release_v3.371_11.zip", 
+        "ver": 3.37101
+      }, 
+      "description": [
+        "1\u3001\u724c\u578b\u4e30\u5bcc\u60f3\u80e1\u5c31\u80e1", 
+        "2\u3001\u8840\u6218\u5230\u5e95\u8fde\u80e1\u4e0d\u505c"
+      ], 
+      "gameId": 7, 
+      "gameName": "\u9ebb\u5c06", 
+      "game_mark": "majiang", 
+      "game_type": 1, 
+      "icon": "majiang_icon.png", 
+      "icon_mask": "majiang_icon_mask.png", 
+      "is_new": 1
+    },
+    "v3_37_majang_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "1.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/texas/texas_release_v3.501_0.zip", 
+        "ver": 3.37503
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_37_no_t3card_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.373_2.zip", 
+        "ver": 3.37004
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    }, 
+    "v3_37_no_t3card_douniu_10": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.373_2.zip", 
+        "ver": 3.37004
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    },
+    "v3_37_no_t3card_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "1.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/texas/texas_release_v3.501_0.zip", 
+        "ver": 3.37503
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_37_not3_nofruit_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.373_2.zip", 
+        "ver": 3.37004
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    }, 
+    "v3_37_not3_nofruit_douniu_11": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.373_2.zip", 
+        "ver": 3.37004
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    },
+    "v3_37_not3_nofruit_nodoouniu_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "1.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/texas/texas_release_v3.501_0.zip", 
+        "ver": 3.37503
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_37_not3_nofruit_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "1.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/texas/texas_release_v3.501_0.zip", 
+        "ver": 3.37503
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    },
+    "v3_37_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "1.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/texas/texas_release_v3.501_0.zip", 
+        "ver": 3.37503
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    }, 
+    "v3_37_xiangqi_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.372_1.zip", 
+        "ver": 3.37003
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    }, 
+    "v3_37_xiangqi_douniu_12": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 2, 
+        "size": "2.5M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/douniu/douniu_release_v3.372_1.zip", 
+        "ver": 3.37003
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    },
+    "v3_37_xiangqi_majiang": {
+      "ctorName": "mj", 
+      "ctorPath": "games/majiang/majiang_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u724c\u578b\u4e30\u5bcc\u60f3\u80e1\u5c31\u80e1", 
+          "2\u3001\u8840\u6218\u5230\u5e95\u8fde\u80e1\u4e0d\u505c"
+        ], 
+        "hall_min_required": 4, 
+        "size": "2.3M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/majiang/majiang_release_v3.371_11.zip", 
+        "ver": 3.37111
+      }, 
+      "description": [
+        "1\u3001\u724c\u578b\u4e30\u5bcc\u60f3\u80e1\u5c31\u80e1", 
+        "2\u3001\u8840\u6218\u5230\u5e95\u8fde\u80e1\u4e0d\u505c"
+      ], 
+      "gameId": 7, 
+      "gameName": "\u9ebb\u5c06", 
+      "game_mark": "majiang", 
+      "game_type": 1, 
+      "icon": "majiang_icon.png", 
+      "icon_mask": "majiang_icon_mask.png", 
+      "is_new": 1
+    },
+    "v3_37_xiangqi_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "1.9M", 
+        "url": "http://ddz.dl.tuyoo.com/hall6/texas/texas_release_v3.501_0.zip", 
+        "ver": 3.37503
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    }, 
+    "xiaomi_douniu": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+          "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "2.9M", 
+        "url": "http://open.touch4.me/hall6/douniu/douniu_release_v3.352_v4.zip", 
+        "ver": 3.352
+      }, 
+      "description": [
+        "1\u3001\u767e\u4eba\u5171\u4e00\u684c\uff0c\u70ed\u95f9~", 
+        "2\u3001\u4e0a\u5e84\u6700\u523a\u6fc0\uff0c\u8fc7\u763e~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u767e\u4eba\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 1, 
+      "icon": "douniu_2.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 1
+    }, 
+    "xiaomi_douniu_13": {
+      "ctorName": "dn", 
+      "ctorPath": "games/douniu/douniu_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+          "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "2.9M", 
+        "url": "http://open.touch4.me/hall6/douniu/douniu_release_v3.352_v4.zip", 
+        "ver": 3.352
+      }, 
+      "description": [
+        "1\u3001\u770b\u724c\u518d\u52a0\u500d\uff0c\u5b89\u9038~", 
+        "2\u3001\u7b80\u5355\u53c8\u523a\u6fc0\uff0c\u7cbe\u5f69~"
+      ], 
+      "gameId": 10, 
+      "gameName": "\u75af\u72c2\u62fc\u5341", 
+      "game_mark": "douniu", 
+      "game_type": 2, 
+      "icon": "douniu_1.png", 
+      "icon_mask": "douniu_1_mask.png", 
+      "is_new": 0
+    },
+    "xiaomi_texas": {
+      "ctorName": "dz", 
+      "ctorPath": "games/texas/script/build/dz_release.js", 
+      "current_ver": {
+        "changelogs": [
+          "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+          "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+        ], 
+        "hall_min_required": 3, 
+        "size": "2.61M", 
+        "url": "http://open.touch4.me/hall6/texas/texas_release_v3.351_5.zip", 
+        "ver": 3.35105
+      }, 
+      "description": [
+        "1\u3001\u7b80\u5355\u6613\u5b66\uff0c\u4e0a\u624b\u5feb~", 
+        "2\u3001\u5bf9\u6218\u523a\u6fc0\uff0c\u8d62\u5f97\u591a~"
+      ], 
+      "gameId": 8, 
+      "gameName": "\u5fb7\u5dde\u6251\u514b", 
+      "game_mark": "texas", 
+      "game_type": 0, 
+      "icon": "dehzhou_icon.png", 
+      "icon_mask": "dezhou_icon_mask.png", 
+      "is_new": 1
+    }
+  }, 
+  "templates": {
+    "more_game_default": [
+      "default_douniu", 
+      "default_douniu_0"
+    ], 
+    "more_game_none": [], 
+    "more_game_v3_35": [
+      "v3_35_texas",
+      "v3_35_douniu", 
+      "v3_35_douniu_1"
+    ], 
+    "more_game_v3_35_audit": [
+      "v3_35_audit_douniu", 
+      "v3_35_audit_douniu_2"
+    ], 
+    "more_game_v3_36": [
+      "v3_36_douniu", 
+      "v3_36_douniu_3", 
+      "v3_36_texas"
+    ], 
+    "more_game_v3_36_no_t3card": [
+      "v3_36_no_t3card_douniu", 
+      "v3_36_no_t3card_douniu_4", 
+      "v3_36_no_t3card_texas"
+    ], 
+    "more_game_v3_36_xiangqi": [
+      "v3_36_xiangqi_majiang", 
+      "v3_36_xiangqi_douniu", 
+      "v3_36_xiangqi_douniu_5", 
+      "v3_36_xiangqi_texas"
+    ], 
+    "more_game_v3_37": [
+      "v3_37_douniu", 
+      "v3_37_douniu_6",
+      "v3_37_texas"
+    ], 
+    "more_game_v3_372_ios": [
+      "v3_372_ios_douniu", 
+      "v3_372_ios_douniu_7",
+      "v3_372_ios_texas"
+    ], 
+    "more_game_v3_37_hall10": [
+      "v3_37_hall10_texas", 
+      "v3_37_hall10_majiang"
+    ], 
+    "more_game_v3_37_hall8": [
+      "v3_37_hall8_douniu", 
+      "v3_37_hall8_douniu_8"
+    ], 
+    "more_game_v3_37_huawei": [
+      "v3_37_huawei_texas"
+    ], 
+    "more_game_v3_37_majang": [
+      "v3_37_majang_majiang", 
+      "v3_37_majang_texas", 
+      "v3_37_majang_douniu", 
+      "v3_37_majang_douniu_9"
+    ], 
+    "more_game_v3_37_no_t3card": [
+      "v3_37_no_t3card_douniu", 
+      "v3_37_no_t3card_douniu_10",
+      "v3_37_no_t3card_texas"
+    ], 
+    "more_game_v3_37_not3_nofruit": [
+      "v3_37_not3_nofruit_douniu", 
+      "v3_37_not3_nofruit_douniu_11", 
+      "v3_37_not3_nofruit_texas"
+    ], 
+    "more_game_v3_37_not3_nofruit_nodoouniu": [
+      "v3_37_not3_nofruit_nodoouniu_texas"
+    ], 
+    "more_game_v3_37_xiangqi": [
+      "v3_37_xiangqi_majiang", 
+      "v3_37_xiangqi_texas", 
+      "v3_37_xiangqi_douniu", 
+      "v3_37_xiangqi_douniu_12"
+    ], 
+    "more_game_v3_37_xiangqi_only_fruit": [
+    ], 
+    "more_game_xiaomi": [
+      "xiaomi_texas",
+      "xiaomi_douniu", 
+      "xiaomi_douniu_13"
+    ]
+  }
+}

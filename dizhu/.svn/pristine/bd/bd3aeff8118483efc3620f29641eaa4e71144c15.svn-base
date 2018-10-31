@@ -1,0 +1,73 @@
+# -*- coding:utf-8 -*-
+'''
+Created on 2018年7月11日
+
+@author: wangyonghui
+'''
+import random
+import time
+
+import datetime
+
+from dizhu.entity import dizhutask, dizhu_login_reward, dizhuaccount
+from dizhu.entity.dizhuconf import DIZHU_GAMEID
+import freetime.util.log as ftlog
+from dizhu.entity.segment.dao import segmentdata
+from hall.entity.user_analysis import analysis_api
+import poker.util.timestamp as pktimestamp
+
+def loginGame(userId, gameId, clientId, iscreate, isdayfirst):
+    '''
+    用户登录一个游戏, 游戏自己做一些其他的业务或数据处理
+    例如: 1. IOS大厅不发启动资金的补丁,
+         2. 麻将的记录首次登录时间
+         3. 游戏插件道具合并至大厅道具
+    '''
+    ftlog.debug('dizhu.loginGame->', userId, gameId, clientId, iscreate, isdayfirst)
+    dizhutask._onUserLogin(gameId, userId, clientId, iscreate, isdayfirst)
+    # if not (iscreate or hallstartchip.needSendStartChip(userId, gameId)):
+    #     hallbenefits.benefitsSystem.sendBenefits(gameId, userId, pktimestamp.getCurrentTimestamp())
+    if iscreate:
+        dizhu_login_reward.sendLoginReward(gameId, userId, clientId, iscreate, isdayfirst)
+
+    # 高峰期时段减少请求次数
+    openTime = "20:30:00"
+    closeTime = "22:30:00"
+    openTime = datetime.datetime.strptime(openTime, "%H:%M:%S")
+    closeTime = datetime.datetime.strptime(closeTime, "%H:%M:%S")
+    if openTime.time() <= datetime.datetime.now().time() <= closeTime.time():
+        if ftlog.is_debug():
+            ftlog.debug('dizhuaccount.loginGame setUserBehaviourFeature',
+                        'userId=', userId,
+                        'openTime', openTime,
+                        'closeTime=', closeTime)
+        x = random.randint(0, 1)
+        if x == 0:
+            return
+
+    # 进一步优化，存储过期时间，每2小时刷一次
+    shareBehaviorFeatureTimestamp = segmentdata.getSegmentAttr(userId, DIZHU_GAMEID, 'shareBehaviorFeatureTimestamp')
+    if not shareBehaviorFeatureTimestamp:
+        shareBehaviorFeatureTimestamp = pktimestamp.getCurrentTimestamp()
+        segmentdata.setSegmentAttr(userId, DIZHU_GAMEID, 'shareBehaviorFeatureTimestamp', shareBehaviorFeatureTimestamp)
+
+    if pktimestamp.getCurrentTimestamp() - shareBehaviorFeatureTimestamp > 3600 * 2:
+        segmentdata.setSegmentAttr(userId, DIZHU_GAMEID, 'shareBehaviorFeatureTimestamp', pktimestamp.getCurrentTimestamp())
+        # 存储用户行为特征库数据
+        params = {
+            'user_id': userId,
+            'cloud_id': 29,
+            'game_id': 6,
+            'time': int(time.time())
+        }
+        ec, datas = analysis_api.requestAnalysis('api.getUserFeature', params)
+        if ftlog.is_debug():
+            ftlog.debug('dizhuaccount.loginGame setUserBehaviourFeature',
+                        'userId=', userId,
+                        'ec=', ec,
+                        'datas=', datas)
+        share_behavior = datas.get('sharing_behavior', None) if ec == 1 else None
+        if share_behavior:
+            segmentdata.setSegmentAttr(userId, DIZHU_GAMEID, 'shareBehaviorFeature', share_behavior)
+
+dizhuaccount.loginGame = loginGame

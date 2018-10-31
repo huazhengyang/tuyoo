@@ -1,0 +1,58 @@
+{
+	"buyinchip": 0,
+	"dummyUserCount": 0,
+	"hasrobot": 1,
+	"create_item": 6013,
+	"level": "junior",
+	"matchConf": null,
+	"maxCoin": -1,
+	"maxCoinQS": -1,
+	"minCoin": 0,
+	"minCoinQS": 0,
+	"iscreate": 1,
+	"ismatch": 0,
+	"name": "试炼场",
+	"playMode": "erren_guobiao",
+	"playModeName": "二人国标",
+	"tableType": "create",
+	"base_chip": 1,
+	"tableConf": 
+	{
+		"robotLevel": 2,
+		"decide_absence_timeout": 8,
+		"leave_vote_num": 
+		{
+			"2": 2
+		},
+		"refuse_leave_vote_num": 
+		{
+			"2": 1
+		},
+		"maxSeatN": 2,
+		"play_timeout": 12,
+		"room_coefficient": 1,
+		"trustee_timeout": -1,
+		"ready_max_timeout": 3600,
+		"ready_after_sit": 1,
+		"dissolve_vote_time_out": 60,
+		"tiles_no_pao": 0,
+		"hand_tiles_count": 13,
+		"gang_base": 0,
+		"win_base": 1,
+		"score_base": 0,
+		"fan_list": 
+		[
+			1,
+			2,
+			4,
+			8,
+			16,
+			32,
+			64,
+			128,
+			256
+		],
+		"max_fan": 999
+	},
+	"typeName": "normal"
+}

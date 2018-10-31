@@ -1,0 +1,58 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "新金三顺5.01版本上线"
+     ],
+     "md5"              : "f0087eb9907fb3f431cbe16b4efdf807",
+     "ver"              : "5.01",
+     "url"              : "${http_download}/hall/plugin/game/t3order_release_5.01_10.zip",
+     "size"             : "17.6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "新金三顺5.02版本上线"
+     ],
+     "md5"              : "d65f974c708f67a181097c3c7fd8f125",
+     "ver"              : "5.02",
+     "url"              : "${http_download}/hall/plugin/game/t3order_release_5.02_08.zip",
+     "size"             : "17.6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "新金三顺5.03版本上线"
+     ],
+     "md5"              : "92bae427c669a9ef7b1ce3a96db61478",
+     "ver"              : "5.03",
+     "url"              : "${http_download}/hall/plugin/game/t3order_release_5.03_05.zip",
+     "size"             : "8.8M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "新金三顺5.04版本上线"
+     ],
+     "md5"              : "ba0db70f7589e09b03ef51276067a12c",
+     "ver"              : "5.04",
+     "url"              : "${http_download}/hall/plugin/game/t3order_release_5.04_04.zip",
+     "size"             : "11.6M"
+    }
+   ],
+   "description"      : [
+    "新金三顺"
+   ],
+   "gameId"           : 77,
+   "gameMark"         : "t3order"
+  }
+ ],
+ "templates"        : [ ]
+}

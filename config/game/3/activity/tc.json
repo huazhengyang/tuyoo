@@ -1,0 +1,1707 @@
+{
+ "templates"                                       : {
+  "template_chess_banhao"                           : {
+   "desc"                                            : "用于版号申请相关",
+   "activities"                                      : [
+    "activity_xq_180214",
+    "xq_fish_171206",
+    "xq_gonggao1130",
+    "activity_code_duihuanma_0201"
+   ]
+  },
+  "chess_v3.771_AI_tishen"                          : {
+   "desc"                                            : "",
+   "activities"                                      : [
+    "activity_ddz_jiankangyouxi_0201"
+   ]
+  },
+  "chinesechess_3_71_tishen"                        : {
+   "desc"                                            : "象棋",
+   "activities"                                      : [
+    "activity_xq_shiming"
+   ]
+  },
+  "chess_v3.771_A_huawei"                           : {
+   "desc"                                            : "华为专用",
+   "activities"                                      : [
+    "activity_xq_180214",
+    "xq_fish_171206",
+    "activity_code_duihuanma_0707",
+    "xq_gonggao1130"
+   ]
+  },
+  "chess_v4.56_AI_oppo"                             : {
+   "desc"                                            : "oppo专用",
+   "activities"                                      : [
+    "chess_oppo_scoreboard_171218"
+   ]
+  },
+  "chess_v3.91_AI_test"                             : {
+   "desc"                                            : "象棋活动测试",
+   "activities"                                      : [
+    "chess_huawei_scoreboard_171218",
+    "activity_ddz_jiankangyouxi_0201"
+   ]
+  },
+  "chess_v3.71_A_tuijian"                           : {
+   "desc"                                            : "应用宝渠道春节专用",
+   "activities"                                      : [
+    "activity_xq_180214",
+    "xq_fish_171206",
+    "activity_code_duihuanma_0707",
+    "xq_gonggao1130"
+   ]
+  },
+  "chess_jiankangyouxi_tishen"                      : {
+   "desc"                                            : "健康游戏公告提审",
+   "activities"                                      : [
+    "activity_ddz_jiankangyouxi_0201",
+    "activity_xq_shiming"
+   ]
+  },
+  "chess_AI_wuchajian"                              : {
+   "desc"                                            : "无插件",
+   "activities"                                      : [
+    "activity_xq_180214",
+    "activity_code_duihuanma_0707",
+    "xq_gonggao1130"
+   ]
+  },
+  "chess_v3.77_AI_3.77"                             : {
+   "desc"                                            : "4.5以下",
+   "activities"                                      : [
+    "activity_xq_180214",
+    "activity_code_duihuanma_0707",
+    "xq_gonggao1130"
+   ]
+  },
+  "chess_v3.82_AI_xinzhuanpan"                      : {
+   "desc"                                            : "3.82新转盘",
+   "activities"                                      : [
+    "activity_xq_180214",
+    "activity_code_duihuanma_0707",
+    "xq_gonggao1130"
+   ]
+  },
+  "chess_v4.55_normal"                              : {
+   "desc"                                            : "适用4.5以上",
+   "activities"                                      : [
+    "activity_xq_180214",
+    "xq_fish_171206",
+    "activity_code_duihuanma_0707",
+    "xq_gonggao1130"
+   ]
+  }
+ },
+ "activities"                                      : {
+  "activity_general_btn_chinese_chess_20160629"     : {
+   "id"                                              : "activity_general_btn_chinese_chess_20160629",
+   "des"                                             : "新版上线",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 1,
+   "name"                                            : "新版上线",
+   "server_config"                                   : {
+    "start"                                           : "2016-06-29 00:00:00",
+    "end"                                             : "2017-07-01 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : "true",
+     "todoTask"                                        : {
+      "typeId"                                          : "hall.download",
+      "url"                                             : "https://itunes.apple.com/cn/app/tu-you-zhong-guo-xiang-qi/id1113501281?mt=8"
+     },
+     "URL"                                             : ""
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_weekend20160512.jpg"
+   }
+  },
+  "activity_general_btn_chinese_chess_20160721"     : {
+   "id"                                              : "activity_general_btn_chinese_chess_20160721",
+   "des"                                             : "比赛最新推出“休闲赛”，随时报名随时参赛，无时间限制，只需下满7盘棋即有机会获奖，获得的奖券可以兑换话费及其他实物。",
+   "moduleId"                                        : "notice_img",
+   "typeid"                                          : 1,
+   "name"                                            : "赛事精彩",
+   "server_config"                                   : {
+    "start"                                           : "2016-07-20 00:00:00",
+    "end"                                             : "2017-07-01 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_freematch20160720.jpg"
+   },
+   "url"                                             : ""
+  },
+  "activity_general_btn_chinese_chess_20160720"     : {
+   "id"                                              : "activity_general_btn_chinese_chess_20160720",
+   "des"                                             : "众多玩家期待已久的邀请好友、自建桌功能已全新上线，棋友可以自定义房间参数、邀请好友对弈、旁观。约好友来对弈无处不在！",
+   "moduleId"                                        : "notice_img",
+   "typeid"                                          : 1,
+   "name"                                            : "约好友来对弈",
+   "server_config"                                   : {
+    "start"                                           : "2016-07-20 00:00:00",
+    "end"                                             : "2017-07-01 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_friend20160719.jpg"
+   },
+   "url"                                             : ""
+  },
+  "activity_code_duihuanma_0707"                    : {
+   "id"                                              : "activity_code_duihuanma_0707",
+   "des"                                             : "如有问题，请拨打客服电话：4008098000。",
+   "moduleId"                                        : "input_3761",
+   "typeid"                                          : 3,
+   "name"                                            : "兑换码活动",
+   "server_config"                                   : {
+    "start"                                           : "2015-02-28 00:00:00",
+    "end"                                             : "2020-12-30 00:00:00"
+   },
+   "config"                                          : {
+    "titleURL"                                        : "",
+    "bgURL"                                           : "${http_download}/hall/act/complete/input/act_exchange_0110.jpg"
+   }
+  },
+  "chess_huawei_scoreboard_171218"                  : {
+   "id"                                              : "chess_huawei_scoreboard_171218",
+   "des"                                             : "华为大师赛",
+   "moduleId"                                        : "scoreboard2",
+   "typeid"                                          : "act_chinesechess_scoreboard",
+   "name"                                            : "华为大师赛",
+   "server_config"                                   : {
+    "start"                                           : "2018-02-13 00:00:00",
+    "end"                                             : "2018-02-25 23:59:59"
+   },
+   "config"                                          : {
+    "right_btn_gray"                                  : "${http_download}/hall/act/complete/scoreboard/right_btn_gray.png",
+    "lottery_btn"                                     : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward_gotolottery_btn.png",
+    "right_btn"                                       : "${http_download}/hall/act/complete/scoreboard/right_btn.png",
+    "ye_n_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_yes_normal.png",
+    "td_s_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_today_select.png",
+    "reward_btn"                                      : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward.png",
+    "help_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_help_btn.png",
+    "rank_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank.png",
+    "reward_bg"                                       : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward_bg.png",
+    "rules"                                           : [
+     {
+      "text"                                            : "[比赛时间]",
+      "type"                                            : 0
+     },
+     {
+      "text"                                            : "2月13日-2月22日(9:00-23:00)",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "[活动介绍]",
+      "type"                                            : 0
+     },
+     {
+      "text"                                            : "活动期间在指定场进行游戏可获得积分",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "每日23:59按积分排名发放日榜奖励（前50名）",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "2月22日23:59还将对总榜前50名发放大奖！",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "[奖励领取]",
+      "type"                                            : 0
+     },
+     {
+      "text"                                            : "点击“我的奖励”领取，2月25日23:00为最后领奖时间",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "[积分规则]",
+      "type"                                            : 0
+     },
+     {
+      "text"                                            : "在象棋任意场进行游戏可获得积分",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "每局2积分,胜利额外得1积分(每日上限50分)",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "每充值1元可获得10积分",
+      "type"                                            : 1
+     }
+    ],
+    "right_bg"                                        : "${http_download}/hall/act/complete/scoreboard/right_bg.png",
+    "close"                                           : "${http_download}/hall/act/complete/scoreboard/scoreboard_close.png",
+    "to_s_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_total_select.png",
+    "help_bg"                                         : "${http_download}/hall/act/complete/scoreboard/scoreboard_help_bg.png",
+    "td_n_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_today_normal.png",
+    "rank_bg"                                         : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_bg.png",
+    "reward_get_btn"                                  : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward_get_btn.png",
+    "bg"                                              : "${http_download}/chinesechess/chess_huawei_activity_score_180213_1.jpg",
+    "to_n_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_total_normal.png",
+    "ye_s_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_yes_select.png"
+   }
+  },
+  "activity_general_btn_chinese_chess_20160913"     : {
+   "id"                                              : "activity_general_btn_chinese_chess_20160913",
+   "des"                                             : "新版3.82已发布，新增加比赛系统，休闲赛、定点赛任您选择；随时可以约好友对战；全新闯关模式，擂台争霸等待你参与，欢迎大家更新最新版本哟！",
+   "moduleId"                                        : "notice_img",
+   "typeid"                                          : 1,
+   "name"                                            : "发布新版",
+   "server_config"                                   : {
+    "start"                                           : "2016-09-13 00:00:00",
+    "end"                                             : "2017-09-01 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_new20160913.jpg"
+   },
+   "url"                                             : ""
+  },
+  "activity_xq_fish_170928"                         : {
+   "id"                                              : "activity_xq_fish_170928",
+   "des"                                             : "国庆捕鱼活动",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "国庆捕鱼活动",
+   "server_config"                                   : {
+    "start"                                           : "2017-09-28 00:00:00",
+    "end"                                             : "2017-10-09 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : 0
+       },
+       "type"                                            : "game"
+      },
+      "gameId"                                          : 44,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/newfish/newfish_hall_images/activity/newfish_20170928_nationaldayevent_btn.png"
+    },
+    "bgURL"                                           : "${http_download}/newfish/newfish_hall_images/activity/newfish_20170928_nationaldayevent_new_activity.png"
+   }
+  },
+  "xq_fish_171206"                                  : {
+   "id"                                              : "xq_fish_171206",
+   "des"                                             : "招财模式上线",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "招财模式上线",
+   "server_config"                                   : {
+    "start"                                           : "2017-09-28 00:00:00",
+    "end"                                             : "2018-03-31 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : 0
+       },
+       "type"                                            : "game"
+      },
+      "gameId"                                          : 44,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/newfish/act_newfish_btn_zhaocai.png"
+    },
+    "bgURL"                                           : "${http_download}/newfish/act_newfish_bg_zhaocai_20180207.jpg"
+   }
+  },
+  "activity_general_btn_chinese_chess_20160621"     : {
+   "id"                                              : "activity_general_btn_chinese_chess_20160621",
+   "des"                                             : "新版3.82已发布，新增加比赛系统，休闲赛、定点赛任您选择；随时可以约好友对战；全新闯关模式，擂台争霸等待你参与，欢迎大家更新最新版本哟！",
+   "moduleId"                                        : "notice_img",
+   "typeid"                                          : 1,
+   "name"                                            : "新版发布",
+   "server_config"                                   : {
+    "start"                                           : "2016-06-21 00:00:00",
+    "end"                                             : "2017-06-01 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_new20160913.jpg"
+   },
+   "url"                                             : ""
+  },
+  "xq_hongbao20180109"                              : {
+   "id"                                              : "xq_hongbao20180109",
+   "des"                                             : "红包券来了",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 1,
+   "name"                                            : "红包券来了",
+   "server_config"                                   : {
+    "start"                                           : "2017-01-18 00:00:00",
+    "end"                                             : "2018-05-01 23:59:59"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : false,
+     "todoTask"                                        : "",
+     "URL"                                             : ""
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_ddz_hongbaoquan.jpg"
+   }
+  },
+  "xq_gonggao1130"                                  : {
+   "id"                                              : "xq_gonggao1130",
+   "des"                                             : "重要公告",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 1,
+   "name"                                            : "重要公告",
+   "server_config"                                   : {
+    "start"                                           : "2017-01-18 00:00:00",
+    "end"                                             : "2020-12-31 23:59:59"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : false,
+     "todoTask"                                        : "",
+     "URL"                                             : ""
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/ZYGG2018.jpg"
+   }
+  },
+  "Copy_xq_invite_new_friend_20161028"              : {
+   "id"                                              : "Copy_xq_invite_new_friend_20161028",
+   "des"                                             : "1.领取微信红包需关注微信公众号。\n2.部分版本不支持分享，可在公众号内邀请新朋友。",
+   "moduleId"                                        : "invite_newFriend",
+   "typeid"                                          : 9999003,
+   "name"                                            : "新朋友红包",
+   "server_config"                                   : {
+    "start"                                           : "2016-10-22 00:00:00",
+    "end"                                             : "2017-11-11 00:00:00"
+   },
+   "config"                                          : {
+    "button_moments"                                  : {
+     "visible"                                         : "true",
+     "todoTask"                                        : {
+      "share"                                           : 7008
+     },
+     "URL"                                             : ""
+    },
+    "button_friend"                                   : {
+     "visible"                                         : "true",
+     "todoTask"                                        : {
+      "share"                                           : 7007
+     },
+     "URL"                                             : ""
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/201702024xinpengyou3yuan2000.jpg"
+   }
+  },
+  "activity_general_btn_chinese_chess_1121001"      : {
+   "id"                                              : "activity_general_btn_chinese_chess_1121001",
+   "des"                                             : "免费参加德州扑克话费赛，赢百元话费和海量金币\n玩德州扑克，赢iPhone6s手机",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "玩德州赢话费",
+   "server_config"                                   : {
+    "start"                                           : "2015-10-09 00:00:00",
+    "end"                                             : "2016-12-14 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : { },
+       "type"                                            : "game"
+      },
+      "gameId"                                          : 8,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/hall/act/complete/general_btn/chess_goto_game_btn.png"
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_chess_img_20151121001.jpg"
+   }
+  },
+  "activity_xq_qiwang"                              : {
+   "id"                                              : "activity_xq_qiwang",
+   "des"                                             : "2017年全国业余棋王争霸赛（象棋）外卡赛于6月8-9月28日进行，比赛共分四期，每期均有海选赛和入围赛，每期最终录取前10名，共40名进入线下总决赛。",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "棋王争霸赛",
+   "server_config"                                   : {
+    "start"                                           : "2017-03-01 00:00:00",
+    "end"                                             : "2017-09-29 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : "chess_match"
+       },
+       "type"                                            : "roomlist"
+      },
+      "gameId"                                          : 3,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/hall/act/complete/general_btn/dabisai.png"
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_qiwang20170911.jpg"
+   }
+  },
+  "chess_oppo_scoreboard_171218"                    : {
+   "id"                                              : "chess_oppo_scoreboard_171218",
+   "des"                                             : "oppo R15新品福利赛",
+   "moduleId"                                        : "scoreboard2",
+   "typeid"                                          : "act_chinesechess_scoreboard",
+   "name"                                            : "oppo R15新品福利赛",
+   "server_config"                                   : {
+    "start"                                           : "2018-03-26 00:00:00",
+    "end"                                             : "2018-04-07 23:59:59"
+   },
+   "config"                                          : {
+    "right_btn_gray"                                  : "${http_download}/hall/act/complete/scoreboard/right_btn_gray.png",
+    "lottery_btn"                                     : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward_gotolottery_btn.png",
+    "right_btn"                                       : "${http_download}/hall/act/complete/scoreboard/right_btn.png",
+    "ye_n_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_yes_normal.png",
+    "td_s_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_today_select.png",
+    "reward_btn"                                      : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward.png",
+    "help_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_help_btn.png",
+    "rank_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank.png",
+    "reward_bg"                                       : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward_bg.png",
+    "rules"                                           : [
+     {
+      "text"                                            : "[比赛时间]",
+      "type"                                            : 0
+     },
+     {
+      "text"                                            : "3月30日-4月7日(0:00-23:59)",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "[活动介绍]",
+      "type"                                            : 0
+     },
+     {
+      "text"                                            : "活动期间在指定场进行游戏可获得积分",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "每日23:59按积分排名发放日榜奖励（前50名）",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "4月07日23:59还将对总榜前50名发放大奖！",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "【奖品设置】",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "1.日榜奖励：",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "第1-10名：50元话费",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "第11-30名：10元话费",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "第31-50名：1万游戏金币",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "2.总榜奖励：",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "第1名：OPPO R15梦境版手机1部",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "第2名：50元话费",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "第3名：30元话费",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "第4-20名：20万金币",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "第21-50名：10万金币",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "[奖励领取]",
+      "type"                                            : 0
+     },
+     {
+      "text"                                            : "点击“我的奖励”领取，4月10日23:00为最后领奖时间",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "[积分规则]",
+      "type"                                            : 0
+     },
+     {
+      "text"                                            : "在象棋任意场进行游戏可获得积分",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "每局2积分,胜利额外得1积分(每日上限50分)",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "每充值1元可获得10积分",
+      "type"                                            : 1
+     }
+    ],
+    "right_bg"                                        : "${http_download}/hall/act/complete/scoreboard/right_bg.png",
+    "close"                                           : "${http_download}/hall/act/complete/scoreboard/scoreboard_close.png",
+    "to_s_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_total_select.png",
+    "help_bg"                                         : "${http_download}/hall/act/complete/scoreboard/scoreboard_help_bg.png",
+    "td_n_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_today_normal.png",
+    "rank_bg"                                         : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_bg.png",
+    "reward_get_btn"                                  : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward_get_btn.png",
+    "bg"                                              : "${http_download}/hall/act/imgs/act_ddz_oppodashisai_2018032701.jpg",
+    "to_n_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_total_normal.png",
+    "ye_s_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_yes_select.png"
+   }
+  },
+  "activity_xq_zhuanpanshengji_0824"                : {
+   "id"                                              : "activity_xq_zhuanpanshengji_0824",
+   "des"                                             : "全新转盘，大奖概率翻倍，更有趣味夺宝玩法，500万金币幸运好礼等着你~",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "转盘夺宝升级",
+   "server_config"                                   : {
+    "start"                                           : "2016-08-23 00:00:00",
+    "end"                                             : "2016-08-31 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : "true",
+     "todoTask"                                        : {
+      "typeId"                                          : "hall.goto.lottery"
+     },
+     "URL"                                             : "${http_download}/hall/act/complete/general_btn/quyingjiang.png"
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_ddz_zhuanpanshengji_0824.jpg"
+   }
+  },
+  "activity_xq_aoyunjingcai_0818"                   : {
+   "id"                                              : "activity_xq_aoyunjingcai_0818",
+   "des"                                             : "1.竞猜本场奥运男足90分钟的比赛结果，每场比赛开赛前停止竞猜，竞猜总额上限为5000万金币。\n2.奖金=竞猜金额X赔率，比赛结束后次日11时奖金发放到账户。",
+   "moduleId"                                        : "matchQuiz",
+   "typeid"                                          : 6004,
+   "name"                                            : "奥运竞猜",
+   "server_config"                                   : {
+    "stopBetTime"                                     : "2016-08-18 03:00:00",
+    "betTitle"                                        : "竞猜额",
+    "oddsDesc"                                        : "赔率\\${odds}",
+    "gameId"                                          : 3,
+    "leftTitle"                                       : "尼日利亚男足",
+    "rightImg"                                        : "${http_download}/dizhu/act/eurocup2016/imgs/deguo.png",
+    "leftImg"                                         : "${http_download}/dizhu/act/eurocup2016/imgs/niriliya.png",
+    "rightTitle"                                      : "德国男足",
+    "totalBetLimitDesc"                               : "已达到本次竞猜最大额度",
+    "rightOdds"                                       : 1.86,
+    "chipNotEnough"                                   : "你的金币不够啦，去买点金币再来吧~",
+    "leftOdds"                                        : 3.39,
+    "start"                                           : "2016-06-17 00:00:00",
+    "totalBetLimit"                                   : 50000000,
+    "stopBetDesc"                                     : "本场竞猜已经结束啦~",
+    "totalBetDesc"                                    : "已投\\${totalBet}金币",
+    "intActId"                                        : 30001,
+    "chipAssetId"                                     : "user:chip",
+    "middleOdds"                                      : 3.22,
+    "bgImg"                                           : "${http_download}/dizhu/act/eurocup2016/imgs/aoyunjingcai_0813.jpg",
+    "bet3"                                            : {
+     "amount"                                          : 1000000,
+     "normal"                                          : "${http_download}/dizhu/act/eurocup2016/imgs/100wjinbi.png",
+     "push"                                            : "${http_download}/dizhu/act/eurocup2016/imgs/100wjinbi_h.png"
+    },
+    "end"                                             : "2016-08-23 00:00:00",
+    "bet2"                                            : {
+     "amount"                                          : 100000,
+     "normal"                                          : "${http_download}/dizhu/act/eurocup2016/imgs/10wjinbi.png",
+     "push"                                            : "${http_download}/dizhu/act/eurocup2016/imgs/10wjinbi_h.png"
+    },
+    "bet1"                                            : {
+     "amount"                                          : 10000,
+     "normal"                                          : "${http_download}/dizhu/act/eurocup2016/imgs/1wjinbi.png",
+     "push"                                            : "${http_download}/dizhu/act/eurocup2016/imgs/1wjinbi_h.png"
+    }
+   },
+   "config"                                          : { }
+  },
+  "activity_xq_180214"                              : {
+   "id"                                              : "activity_xq_180214",
+   "des"                                             : "金棋子大赛",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "金棋子大赛",
+   "server_config"                                   : {
+    "start"                                           : "2018-02-12 00:00:00",
+    "end"                                             : "2018-03-04 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : "chess_match_jieqi"
+       },
+       "type"                                            : "roomlist"
+      },
+      "gameId"                                          : 3,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/chinesechess/btn_xq20180228.png"
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_xqyx20180228.jpg"
+   }
+  },
+  "activity_xq_aoyunjingcai_0810"                   : {
+   "id"                                              : "activity_xq_aoyunjingcai_0810",
+   "des"                                             : "1.竞猜本场奥运女足90分钟的比赛结果，每场比赛开赛前停止竞猜，竞猜总额上限为10万钻石。\n2.奖金为金币，金额=猜中钻石数X赔率X1000，比赛结束后次日11时奖金发放到账户。",
+   "moduleId"                                        : "matchQuiz",
+   "typeid"                                          : 6004,
+   "name"                                            : "奥运竞猜",
+   "server_config"                                   : {
+    "stopBetTime"                                     : "2016-08-10 09:00:00",
+    "betTitle"                                        : "竞猜额",
+    "oddsDesc"                                        : "赔率\\${odds}",
+    "gameId"                                          : 6,
+    "leftTitle"                                       : "中国女足",
+    "rightImg"                                        : "${http_download}/dizhu/act/eurocup2016/imgs/ruidian.png",
+    "leftImg"                                         : "${http_download}/dizhu/act/eurocup2016/imgs/zhongguo.png",
+    "rightTitle"                                      : "瑞典女足",
+    "totalBetLimitDesc"                               : "已达到本次竞猜最大额度",
+    "rightOdds"                                       : 3.6,
+    "chipNotEnough"                                   : "你的钻石不够啦，去买点钻石再来吧~",
+    "leftOdds"                                        : 7.2,
+    "start"                                           : "2016-06-17 00:00:00",
+    "totalBetLimit"                                   : 100000,
+    "stopBetDesc"                                     : "本场竞猜已经结束啦~",
+    "totalBetDesc"                                    : "已投\\${totalBet}钻石",
+    "intActId"                                        : 60012,
+    "chipAssetId"                                     : "user:diamond",
+    "middleOdds"                                      : 6.4,
+    "bgImg"                                           : "${http_download}/dizhu/act/eurocup2016/imgs/aoyunjingcai_0803_2.jpg",
+    "bet3"                                            : {
+     "amount"                                          : 1000,
+     "normal"                                          : "${http_download}/dizhu/act/eurocup2016/imgs/1000zuanshi.png",
+     "push"                                            : "${http_download}/dizhu/act/eurocup2016/imgs/1000zuanshi_h.png"
+    },
+    "end"                                             : "2016-08-23 00:00:00",
+    "bet2"                                            : {
+     "amount"                                          : 100,
+     "normal"                                          : "${http_download}/dizhu/act/eurocup2016/imgs/100zuanshi.png",
+     "push"                                            : "${http_download}/dizhu/act/eurocup2016/imgs/100zuanshi_h.png"
+    },
+    "bet1"                                            : {
+     "amount"                                          : 10,
+     "normal"                                          : "${http_download}/dizhu/act/eurocup2016/imgs/10zuanshi.png",
+     "push"                                            : "${http_download}/dizhu/act/eurocup2016/imgs/10zuanshi_h.png"
+    }
+   },
+   "config"                                          : { }
+  },
+  "activity_xq_jieqi"                               : {
+   "id"                                              : "activity_xq_jieqi",
+   "des"                                             : "华为棋牌大师赛—“揭棋大赛”将于9月29日-10月8日进行，每天进行一场，优胜者将获得华为手机、京东卡、话费、金币等丰厚奖励，明争暗斗，运筹帷幄，揭出你的实力！",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "华为棋牌大师赛",
+   "server_config"                                   : {
+    "start"                                           : "2017-09-29 00:00:00",
+    "end"                                             : "2017-10-09 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : "chess_match_jieqi"
+       },
+       "type"                                            : "roomlist"
+      },
+      "gameId"                                          : 3,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/hall/act/complete/general_btn/dabisai.png"
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_xq20170926.jpg"
+   }
+  },
+  "activity_general_btn_chinese_chess_1016001"      : {
+   "id"                                              : "activity_general_btn_chinese_chess_1016001",
+   "des"                                             : "途游中国象棋3.71全新UI体验！\n永久免费、无广告、为广大象棋玩家提供一个绿色平台~",
+   "moduleId"                                        : "notice_img",
+   "typeid"                                          : 1,
+   "name"                                            : "中国象棋3.71",
+   "server_config"                                   : {
+    "start"                                           : "2015-07-31 00:00:00",
+    "end"                                             : "2016-02-01 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "pop_tip",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "pop_tip",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_chess_img_20151016.jpg"
+   }
+  },
+  "activity_xq_huaweii0501"                         : {
+   "id"                                              : "activity_xq_huaweii0501",
+   "des"                                             : "4月27日至5月6日每日开赛，有万元奖品与巨额游戏金币奖励放送！免费报名参赛，欢乐享受比赛，快乐赢取大奖。",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "华为棋牌大师赛",
+   "server_config"                                   : {
+    "start"                                           : "2017-03-01 00:00:00",
+    "end"                                             : "2017-05-07 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : "chess_match"
+       },
+       "type"                                            : "roomlist"
+      },
+      "gameId"                                          : 3,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/hall/act/complete/general_btn/dabisai.png"
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_xq20170501.jpg"
+   }
+  },
+  "activity_xq_xinshuiguo_1018"                     : {
+   "id"                                              : "activity_xq_xinshuiguo_1018",
+   "des"                                             : "新版大丰收上线，100倍“7”来啦！更有100倍的彩池奖励，最高200倍大奖等你来赢！每日水果王再送2000万金币！",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "全新大丰收",
+   "server_config"                                   : {
+    "start"                                           : "2016-10-19 00:00:00",
+    "end"                                             : "2016-11-05 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : "true",
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : 1
+       },
+       "type"                                            : "roomlist"
+      },
+      "gameId"                                          : 31,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/hall/act/complete/general_btn/lijicanyu_0907.png"
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_ddz_xinshuiguo_0907.jpg"
+   }
+  },
+  "activity_general_btn_chinese_chess_20161001"     : {
+   "id"                                              : "activity_general_btn_chinese_chess_20161001",
+   "des"                                             : "为欢度国庆，10月1-7日，晚20-22点，象棋游戏积分结算时双倍统计，得分为正，收益加倍；得分为负，不受影响。",
+   "moduleId"                                        : "notice_img",
+   "typeid"                                          : 1,
+   "name"                                            : "国庆福利",
+   "server_config"                                   : {
+    "start"                                           : "2016-09-28 00:00:00",
+    "end"                                             : "2016-10-05 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_20161001.jpg"
+   },
+   "url"                                             : ""
+  },
+  "activity_xq_meizujieqi"                          : {
+   "id"                                              : "activity_xq_meizujieqi",
+   "des"                                             : "魅族专属比赛—“揭棋大赛”将于8月18-20日进行，每天进行一场，优胜者将获得魅族移动充电宝、金币等丰厚奖励，明争暗斗，运筹帷幄，揭出你的实力！",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "魅族专属比赛",
+   "server_config"                                   : {
+    "start"                                           : "2017-03-01 00:00:00",
+    "end"                                             : "2017-08-21 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : "chess_match_jieqi"
+       },
+       "type"                                            : "roomlist"
+      },
+      "gameId"                                          : 3,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/hall/act/complete/general_btn/dabisai.png"
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_xqmezu.jpg"
+   }
+  },
+  "xq_qq180211"                                     : {
+   "id"                                              : "xq_qq180211",
+   "des"                                             : "途游斗地主，邀你领红包！",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "邀你领红包",
+   "server_config"                                   : {
+    "start"                                           : "2018-02-12 00:00:00",
+    "end"                                             : "2018-02-24 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "typeId"                                          : "hall.download",
+      "url"                                             : "http://a.app.qq.com/o/simple.jsp?pkgname=com.tuyoo.doudizhu.maintu"
+     },
+     "URL"                                             : "${http_download}/chinesechess/anniu_20180212.png"
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_qq20180211.jpg"
+   }
+  },
+  "activity_xq_xinzhuanpan_0818"                    : {
+   "id"                                              : "activity_xq_xinzhuanpan_0818",
+   "des"                                             : "新版本新转盘，10亿金币、30天会员等大奖转出来！更有趣味夺宝玩法，500万金币每期都送！该转盘活动仅限3.82及以上版本参加，欢迎广大玩家前往相应应用商店更新至新版本。",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 1,
+   "name"                                            : "新转盘赚大奖",
+   "server_config"                                   : {
+    "start"                                           : "2016-08-16 00:00:00",
+    "end"                                             : "2016-08-23 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : "false",
+     "todoTask"                                        : "",
+     "URL"                                             : ""
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_ddz_xinzhuanpan_0818.jpg"
+   }
+  },
+  "activity_general_btn_chinese_chess_20160608"     : {
+   "id"                                              : "activity_general_btn_chinese_chess_20160608",
+   "des"                                             : "众多玩家期盼已久的象棋赛事已推出，目前该赛事为定点赛，支持玩家提前报名，采用积分编排赛制，最终决出优胜者；赛事奖品丰富，获得的奖券可以兑换话费和京东卡以及其他实物。",
+   "moduleId"                                        : "notice_img",
+   "typeid"                                          : 1,
+   "name"                                            : "精彩赛事",
+   "server_config"                                   : {
+    "start"                                           : "2016-06-08 00:00:00",
+    "end"                                             : "2017-06-01 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_match.jpg"
+   },
+   "url"                                             : ""
+  },
+  "activity_xq_jingcaisaishi_1110"                  : {
+   "id"                                              : "activity_xq_jingcaisaishi_1110",
+   "des"                                             : "揭棋定点赛上线，彰显实力，杜绝外挂，快来参赛吧！",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "揭棋定点赛",
+   "server_config"                                   : {
+    "start"                                           : "2016-11-10 00:00:00",
+    "end"                                             : "2017-12-31 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : "chess_match_jieqi"
+       },
+       "type"                                            : "roomlist"
+      },
+      "gameId"                                          : 3,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/hall/act/complete/general_btn/dabisai.png"
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_jq20171025.jpg"
+   }
+  },
+  "activity_xq_shuang11_1110"                       : {
+   "id"                                              : "activity_xq_shuang11_1110",
+   "des"                                             : "11月11日上午11点至晚上23点，象棋游戏积分结算时双倍统计，得分为正，收益加倍；得分为负，不受影响。",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 1,
+   "name"                                            : "双11双倍积分",
+   "server_config"                                   : {
+    "start"                                           : "2016-11-10 00:00:00",
+    "end"                                             : "2016-11-11 23:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : false,
+     "todoTask"                                        : "",
+     "URL"                                             : ""
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_xq_shuangbeijifen_1110.jpg"
+   }
+  },
+  "activity_xq_zhuanpanshengji3.7_0824"             : {
+   "id"                                              : "activity_xq_zhuanpanshengji3.7_0824",
+   "des"                                             : "全新转盘，大奖概率翻倍，更有趣味夺宝玩法，500万金币幸运好礼等着你！该转盘活动仅限3.82及以上版本参加，欢迎广大玩家前往相应应用商店更新至新版本。",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 1,
+   "name"                                            : "转盘夺宝升级",
+   "server_config"                                   : {
+    "start"                                           : "2016-08-23 00:00:00",
+    "end"                                             : "2016-08-31 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : "false",
+     "todoTask"                                        : "",
+     "URL"                                             : ""
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_ddz_zhuanpanshengji_08242.jpg"
+   }
+  },
+  "xq_cuxiao180211"                                 : {
+   "id"                                              : "xq_cuxiao180211",
+   "des"                                             : "新春促销",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "新春促销",
+   "server_config"                                   : {
+    "start"                                           : "2018-02-13 00:00:00",
+    "end"                                             : "2018-02-22 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "subStore"                                        : "holidaygift",
+      "typeId"                                          : "hall.goto.shop"
+     },
+     "URL"                                             : "${http_download}/chinesechess/aniu_qi20180211.png"
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_fuli20180211.jpg"
+   }
+  },
+  "activity_xq_xinzhuanpan3.82_0818"                : {
+   "id"                                              : "activity_xq_xinzhuanpan3.82_0818",
+   "des"                                             : "新版本新转盘，10亿金币、30天会员等大奖转出来！更有趣味夺宝玩法，500万金币每期都送！",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "新转盘赚大奖",
+   "server_config"                                   : {
+    "start"                                           : "2016-08-16 00:00:00",
+    "end"                                             : "2016-08-26 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : "true",
+     "todoTask"                                        : {
+      "typeId"                                          : "hall.goto.lottery"
+     },
+     "URL"                                             : "${http_download}/hall/act/complete/general_btn/quyingjiang.png"
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_ddz_xinzhuanpan_08183.jpg"
+   }
+  },
+  "activity_chess_general_nobtn"                    : {
+   "id"                                              : "activity_chess_general_nobtn",
+   "des"                                             : "TUPT总决赛",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 1,
+   "name"                                            : "TUPT总决赛",
+   "server_config"                                   : {
+    "start"                                           : "2017-11-16 00:00:00",
+    "end"                                             : "2017-11-26 23:59:59"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : false,
+     "todoTask"                                        : "",
+     "URL"                                             : ""
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_ddz_tupt_171123.png"
+   }
+  },
+  "activity_general_btn_chinese_chess_20160512"     : {
+   "id"                                              : "activity_general_btn_chinese_chess_20160512",
+   "des"                                             : "每周六、日，晚20-22点，象棋游戏积分结算时双倍统计，得分为正，收益加倍；得分为负，不受影响。",
+   "moduleId"                                        : "notice_img",
+   "typeid"                                          : 1,
+   "name"                                            : "周末福利",
+   "server_config"                                   : {
+    "start"                                           : "2016-05-12 00:00:00",
+    "end"                                             : "2017-06-01 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_weekend20160512.jpg"
+   },
+   "url"                                             : ""
+  },
+  "activity_xq_xinzhongfabai_1011"                  : {
+   "id"                                              : "activity_xq_xinzhongfabai_1011",
+   "des"                                             : "中发白全新改版，新增座位系统，10亿彩池发不停，快来中发白体验吧！",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "全新中发白",
+   "server_config"                                   : {
+    "start"                                           : "2016-10-11 00:00:00",
+    "end"                                             : "2016-10-21 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : "true",
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : 1
+       },
+       "type"                                            : "roomlist"
+      },
+      "gameId"                                          : 23,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/hall/act/complete/general_btn/quyingjiang.png"
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_xinzhongfabai_1011.jpg"
+   }
+  },
+  "xq_invite_new_friend_20161028"                   : {
+   "id"                                              : "xq_invite_new_friend_20161028",
+   "des"                                             : "1.领取微信红包需关注微信公众号。\n2.部分版本不支持分享，可在公众号内邀请新朋友。",
+   "moduleId"                                        : "invite_newFriend",
+   "typeid"                                          : 9999003,
+   "name"                                            : "新朋友红包",
+   "server_config"                                   : {
+    "start"                                           : "2016-10-22 00:00:00",
+    "end"                                             : "2017-11-11 00:00:00"
+   },
+   "config"                                          : {
+    "button_moments"                                  : {
+     "visible"                                         : "true",
+     "todoTask"                                        : {
+      "share"                                           : 7008
+     },
+     "URL"                                             : ""
+    },
+    "button_friend"                                   : {
+     "visible"                                         : "true",
+     "todoTask"                                        : {
+      "share"                                           : 7007
+     },
+     "URL"                                             : ""
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/invite_newFriend/201702024xinpengyou3yuan2000.jpg"
+   }
+  },
+  "activity_general_btn_chinese_chess_20160418"     : {
+   "id"                                              : "activity_general_btn_chinese_chess_20160418",
+   "des"                                             : "4月23日—5月2日，每晚20-22点，象棋游戏积分结算时双倍统计，得分为正，收益加倍；得分为负，不受影响。",
+   "moduleId"                                        : "notice_img",
+   "typeid"                                          : 1,
+   "name"                                            : "双倍积分来袭",
+   "server_config"                                   : {
+    "start"                                           : "2016-04-18 00:00:00",
+    "end"                                             : "2016-04-25 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "pop_tip",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "pop_tip",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_20160423.jpg"
+   },
+   "url"                                             : ""
+  },
+  "activity_xq_360"                                 : {
+   "id"                                              : "activity_xq_360",
+   "des"                                             : "360棋牌大赛",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "360棋牌大赛",
+   "server_config"                                   : {
+    "start"                                           : "2017-09-29 00:00:00",
+    "end"                                             : "2017-12-21 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : "chess_match_jieqi"
+       },
+       "type"                                            : "roomlist"
+      },
+      "gameId"                                          : 3,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/hall/act/complete/general_btn/dabisai.png"
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_xq36020171206.png"
+   }
+  },
+  "Copy_activity_general_btn_chinese_chess_20160621": {
+   "id"                                              : "Copy_activity_general_btn_chinese_chess_20160621",
+   "des"                                             : "新版3.82已发布，新增加比赛系统，休闲赛、定点赛任您选择；随时可以约好友对战；全新闯关模式，擂台争霸等待你参与，欢迎大家更新最新版本哟！",
+   "moduleId"                                        : "notice_img",
+   "typeid"                                          : 1,
+   "name"                                            : "新版发布",
+   "server_config"                                   : {
+    "start"                                           : "2016-06-21 00:00:00",
+    "end"                                             : "2017-06-01 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_new20160913.jpg"
+   },
+   "url"                                             : ""
+  },
+  "activity_xq_final"                               : {
+   "id"                                              : "activity_xq_final",
+   "des"                                             : "途游棋牌锦标赛—象棋总决赛“线上海选赛”于9月14日-10月28日进行，10月29日进行入围赛，入围赛前32名选手将有资格参加11月25-26日北京线下总决赛，冠军奖励20000元。",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "象棋总决赛",
+   "server_config"                                   : {
+    "start"                                           : "2017-03-01 00:00:00",
+    "end"                                             : "2017-10-30 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : "chess_match"
+       },
+       "type"                                            : "roomlist"
+      },
+      "gameId"                                          : 3,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/chinesechess/btn_xq20170914.png"
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_xq20170914.jpg"
+   }
+  },
+  "activity_xq_gonggao1108"                         : {
+   "id"                                              : "activity_xq_gonggao1108",
+   "des"                                             : "2017TUPT途游棋牌锦标赛赛事须知  本次TUPT比赛参赛选手年龄应在18周岁及以上，并在现场提供身份证验证。",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 1,
+   "name"                                            : "赛事须知",
+   "server_config"                                   : {
+    "start"                                           : "2017-01-18 00:00:00",
+    "end"                                             : "2018-02-01 23:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : false,
+     "todoTask"                                        : "",
+     "URL"                                             : ""
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_xq1108.jpg"
+   }
+  },
+  "chess_360_scoreboard_180104"                     : {
+   "id"                                              : "chess_360_scoreboard_180104",
+   "des"                                             : "360大师赛",
+   "moduleId"                                        : "scoreboard2",
+   "typeid"                                          : "act_chinesechess_scoreboard",
+   "name"                                            : "360大师赛",
+   "server_config"                                   : {
+    "start"                                           : "2017-12-11 00:00:00",
+    "end"                                             : "2018-01-17 23:59:59"
+   },
+   "config"                                          : {
+    "right_btn_gray"                                  : "${http_download}/hall/act/complete/scoreboard/right_btn_gray.png",
+    "lottery_btn"                                     : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward_gotolottery_btn.png",
+    "right_btn"                                       : "${http_download}/hall/act/complete/scoreboard/right_btn.png",
+    "ye_n_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_yes_normal.png",
+    "td_s_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_today_select.png",
+    "reward_btn"                                      : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward.png",
+    "help_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_help_btn.png",
+    "rank_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank.png",
+    "reward_bg"                                       : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward_bg.png",
+    "rules"                                           : [
+     {
+      "text"                                            : "[比赛时间]",
+      "type"                                            : 0
+     },
+     {
+      "text"                                            : "1月8日-1月14日(9:00-23:00)",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "[活动介绍]",
+      "type"                                            : 0
+     },
+     {
+      "text"                                            : "活动期间在对弈场进行游戏可获得积分",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "每日23:59按积分排名发放日榜奖励（前50名）",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "1月14日23:59还将对总榜前50名发放大奖！",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "[奖励领取]",
+      "type"                                            : 0
+     },
+     {
+      "text"                                            : "点击“我的奖励”领取，1月17日23:00为最后领奖时间",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "[积分规则]",
+      "type"                                            : 0
+     },
+     {
+      "text"                                            : "在象棋、揭棋对弈场进行游戏可获得积分",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "每局2积分,胜利额外得1积分(每日上限50分)",
+      "type"                                            : 1
+     },
+     {
+      "text"                                            : "每充值1元可获得10积分",
+      "type"                                            : 1
+     }
+    ],
+    "right_bg"                                        : "${http_download}/hall/act/complete/scoreboard/right_bg.png",
+    "close"                                           : "${http_download}/hall/act/complete/scoreboard/scoreboard_close.png",
+    "to_s_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_total_select.png",
+    "help_bg"                                         : "${http_download}/hall/act/complete/scoreboard/scoreboard_help_bg.png",
+    "td_n_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_today_normal.png",
+    "rank_bg"                                         : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_bg.png",
+    "reward_get_btn"                                  : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward_get_btn.png",
+    "bg"                                              : "${http_download}/chinesechess/chess_360_activity_score_180105.jpg",
+    "to_n_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_total_normal.png",
+    "ye_s_btn"                                        : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_yes_select.png"
+   }
+  },
+  "act_fahuo"                                       : {
+   "id"                                              : "act_fahuo",
+   "des"                                             : "春节期间实物发放公告。",
+   "moduleId"                                        : "notice_img",
+   "typeid"                                          : 1,
+   "name"                                            : "发货公告",
+   "server_config"                                   : {
+    "start"                                           : "2018-02-09 00:00:00",
+    "end"                                             : "2018-02-23 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/FHGG.png"
+   },
+   "url"                                             : ""
+  },
+  "activity_xq_jinqiulibao_0921"                    : {
+   "id"                                              : "activity_xq_jinqiulibao_0921",
+   "des"                                             : "玩家在9月22日-9月30日期间首次登录游戏即可免费获得金秋特惠礼包，快去背包看看吧！每个途游账号只能获得一次哦~",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 1,
+   "name"                                            : "金秋特惠礼包",
+   "server_config"                                   : {
+    "start"                                           : "2016-09-20 00:00:00",
+    "end"                                             : "2016-10-01 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : "false",
+     "todoTask"                                        : "",
+     "URL"                                             : ""
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_ddz_jinqiulibao_0922.jpg"
+   }
+  },
+  "activity_xq_shiming"                             : {
+   "id"                                              : "activity_xq_shiming",
+   "des"                                             : "实名认证",
+   "moduleId"                                        : "realName_certification",
+   "typeid"                                          : 1,
+   "name"                                            : "实名认证",
+   "server_config"                                   : {
+    "start"                                           : "2015-02-28 00:00:00",
+    "end"                                             : "2017-11-17 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "pop_tip",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "pop_tip",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    }
+   }
+  },
+  "activity_general_btn_chinese_chess_20160825"     : {
+   "id"                                              : "activity_general_btn_chinese_chess_20160825",
+   "des"                                             : "全新3.82版本推出闯关模式，擂台共设10关，每关净胜3盘晋级，期待您的参与！",
+   "moduleId"                                        : "notice_img",
+   "typeid"                                          : 1,
+   "name"                                            : "擂台争霸",
+   "server_config"                                   : {
+    "start"                                           : "2016-08-25 00:00:00",
+    "end"                                             : "2017-10-02 00:00:00"
+   },
+   "config"                                          : {
+    "firstButton"                                     : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "secondButton"                                    : {
+     "visible"                                         : 0,
+     "action"                                          : "",
+     "params"                                          : {
+      "duration"                                        : 2,
+      "text"                                            : "确定"
+     }
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_leitai20160825.jpg"
+   },
+   "url"                                             : ""
+  },
+  "activity_xq_gonggao0118"                         : {
+   "id"                                              : "activity_xq_gonggao0118",
+   "des"                                             : "亲爱的途友们，因春节临近，物流延缓，1月26日—2月4日期间我们将停止发货，2月5日后恢复正常！为此对您如有造成不便，我们表示深深的歉意，并预祝各位途友们新春快乐！",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 1,
+   "name"                                            : "发货公告",
+   "server_config"                                   : {
+    "start"                                           : "2017-01-18 00:00:00",
+    "end"                                             : "2017-02-06 23:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : false,
+     "todoTask"                                        : "",
+     "URL"                                             : ""
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/act_20170118.jpg"
+   }
+  },
+  "activity_zgxq_aoyunjingcai_0813"                 : {
+   "id"                                              : "activity_zgxq_aoyunjingcai_0813",
+   "des"                                             : "1.竞猜本场奥运女足90分钟的比赛结果，每场比赛开赛前停止竞猜，竞猜总额上限为5000万金币。\n2.奖金=竞猜金额X赔率，比赛结束后次日11时奖金发放到账户。",
+   "moduleId"                                        : "matchQuiz",
+   "typeid"                                          : 6004,
+   "name"                                            : "奥运竞猜",
+   "server_config"                                   : {
+    "stopBetTime"                                     : "2016-08-13 03:00:00",
+    "betTitle"                                        : "竞猜额",
+    "oddsDesc"                                        : "赔率\\${odds}",
+    "gameId"                                          : 6,
+    "leftTitle"                                       : "中国女足",
+    "rightImg"                                        : "${http_download}/dizhu/act/eurocup2016/imgs/deguo.png",
+    "leftImg"                                         : "${http_download}/dizhu/act/eurocup2016/imgs/zhongguo.png",
+    "rightTitle"                                      : "德国女足",
+    "totalBetLimitDesc"                               : "已达到本次竞猜最大额度",
+    "rightOdds"                                       : 1.31,
+    "chipNotEnough"                                   : "你的金币不够啦，去买点金币再来吧~",
+    "leftOdds"                                        : 5.81,
+    "start"                                           : "2016-06-17 00:00:00",
+    "totalBetLimit"                                   : 50000000,
+    "stopBetDesc"                                     : "本场竞猜已经结束啦~",
+    "totalBetDesc"                                    : "已投\\${totalBet}金币",
+    "intActId"                                        : 30001,
+    "chipAssetId"                                     : "user:chip",
+    "middleOdds"                                      : 4.06,
+    "bgImg"                                           : "${http_download}/dizhu/act/eurocup2016/imgs/aoyunjingcai_0813.jpg",
+    "bet3"                                            : {
+     "amount"                                          : 1000000,
+     "normal"                                          : "${http_download}/dizhu/act/eurocup2016/imgs/100wjinbi.png",
+     "push"                                            : "${http_download}/dizhu/act/eurocup2016/imgs/100wjinbi_h.png"
+    },
+    "end"                                             : "2016-08-23 00:00:00",
+    "bet2"                                            : {
+     "amount"                                          : 100000,
+     "normal"                                          : "${http_download}/dizhu/act/eurocup2016/imgs/10wjinbi.png",
+     "push"                                            : "${http_download}/dizhu/act/eurocup2016/imgs/10wjinbi_h.png"
+    },
+    "bet1"                                            : {
+     "amount"                                          : 10000,
+     "normal"                                          : "${http_download}/dizhu/act/eurocup2016/imgs/1wjinbi.png",
+     "push"                                            : "${http_download}/dizhu/act/eurocup2016/imgs/1wjinbi_h.png"
+    }
+   },
+   "config"                                          : { }
+  },
+  "activity_xq_buyu_170609"                         : {
+   "id"                                              : "activity_xq_buyu_170609",
+   "des"                                             : "捕鱼回馈赛",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "捕鱼回馈赛",
+   "server_config"                                   : {
+    "start"                                           : "2017-05-17 00:00:00",
+    "end"                                             : "2018-05-16 23:59:59"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "enter_param"                                     : {
+       "pluginParams"                                    : {
+        "gameType"                                        : 0
+       },
+       "type"                                            : "game"
+      },
+      "gameId"                                          : 44,
+      "typeId"                                          : "hall.goto.enter.game"
+     },
+     "URL"                                             : "${http_download}/newfish/act_newfish_btn_matchopen_20170704.png"
+    },
+    "bgURL"                                           : "${http_download}/newfish/act_newfish_bg_matchopen_20170704.jpg"
+   }
+  },
+  "activity_xq_zuanshi_1109"                        : {
+   "id"                                              : "activity_xq_zuanshi_1109",
+   "des"                                             : "钻石转盘奖励大升级，iPhone7、魅族手机、小米充电宝等实物大奖来袭，快来转大奖吧！钻石转盘仅支持3.82以上版本，敬请升级新版。",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 4,
+   "name"                                            : "玩转盘赢手机",
+   "server_config"                                   : {
+    "start"                                           : "2016-11-09 00:00:00",
+    "end"                                             : "2016-11-19 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : true,
+     "todoTask"                                        : {
+      "typeId"                                          : "hall.goto.lottery"
+     },
+     "URL"                                             : "${http_download}/hall/act/complete/general_btn/quyingjiang.png"
+    },
+    "bgURL"                                           : "${http_download}/hall/act/complete/general_btn/act_zuanshizhuanpan_1109.jpg"
+   }
+  },
+  "activity_xq_leitai1229"                          : {
+   "id"                                              : "activity_xq_leitai1229",
+   "des"                                             : "2016年12月29日-2017年1月4日，在擂台场举办“擂台闯关豪礼相送”活动，对升级到相应关数玩家进行相应奖励。",
+   "moduleId"                                        : "general_btn",
+   "typeid"                                          : 1,
+   "name"                                            : "擂台闯关",
+   "server_config"                                   : {
+    "start"                                           : "2016-11-10 00:00:00",
+    "end"                                             : "2017-01-05 00:00:00"
+   },
+   "config"                                          : {
+    "button"                                          : {
+     "visible"                                         : false,
+     "todoTask"                                        : "",
+     "URL"                                             : "${http_download}/chinesechess/xq_1229.png"
+    },
+    "bgURL"                                           : "${http_download}/chinesechess/xq_act20161228.jpg"
+   }
+  }
+ },
+ "modules"                                         : { }
+}

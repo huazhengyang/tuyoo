@@ -1,0 +1,536 @@
+{
+	"buyinchip" : 0,
+	"hasRewardIndex" : 1,
+	"dummyUserCount" : 0,
+	"goodCard" : 0,
+	"hasrobot" : 0,
+	"ismatch" : 1,
+	"matchConf" : {
+		"desc" : "开赛时间：每日21:00 \n报名费用：2万金币或7张英雄帖或10钻石",
+		"outAssWait": 1,
+		"fees" : [
+			{
+				"count" : 20000,
+				"itemId" : "user:chip",
+				"params" : {
+					"failure" : "您的金币不足，选择其他报名条件或者买个金币礼包吧",
+					"payOrder" : {
+						"contains" : {
+							"count" : 20000,
+							"itemId" : "user:chip"
+						},
+						"shelves" : [
+							"lessbuychip"
+						]
+					}
+				}
+			},
+			{
+				"count" : 7,
+				"itemId" : "item:1008",
+				"params" : {
+					"failure" : "您的报名条件不足，本比赛需要7张英雄帖"
+				}
+			},
+			{
+				"count" : 10,
+				"itemId" : "user:diamond",
+				"params" : {
+					"failure" : "您的报名条件不足，请前往钻石商城购买钻石再来抢夺大奖",
+					"payOrder" : {
+						"priceDiamond" : {
+							"count" : 10,
+							"minCount" : 10,
+							"maxCount" : -1
+						},
+						"buyTypes":["charge"]
+					}
+				}
+			}			
+		],
+		"rank.rewards" : [
+			{
+				"desc" : "200元话费卡+300大师分",
+				"bigImg":"${http_download}/dizhu/room/imgs/reward_240_200yuanhuafeika_0206.png",
+				"ranking" : {
+					"end" : 1,
+					"start" : 1
+				},
+				"shareInfo": {
+					"rmb": 200,
+					"type": "redEnvelope",
+					"name": "微信红包"
+				},
+				"rewards" : [
+					{
+						"count" : 2,
+						"itemId" : "item:4144",
+						"img":"${http_download}/dizhu/room/imgs/reward_120_200yuanhuafeika_0206.png",
+						"displayName":"200元话费卡",
+						"desc":"200元话费"
+					},
+					{
+						"count" : 300,
+						"itemId" : "ddz:master.score"
+					}
+
+				],
+				"todotask" : {
+					"action" : "rep_sence_pack",
+					"params" : {}
+				}
+			},
+			{
+				"desc" : "150元话费卡+150大师分",
+				"bigImg":"${http_download}/dizhu/room/imgs/reward_240_150yuanhuafeika_0206.png",
+				"ranking" : {
+					"end" : 2,
+					"start" : 2
+				},
+				"shareInfo": {
+					"rmb": 150,
+					"type": "redEnvelope",
+					"name": "微信红包"
+				},
+				"rewards" : [
+					{
+						"count" : 3,
+						"itemId" : "item:4143",
+						"img":"${http_download}/dizhu/room/imgs/reward_120_150yuanhuafeika_0206.png",
+						"displayName":"150元话费卡",
+						"desc":"150元话费"
+					},
+					{
+						"count" : 150,
+						"itemId" : "ddz:master.score"
+					}
+
+				],
+				"todotask" : {
+					"action" : "rep_sence_pack",
+					"params" : {}
+				}
+			},
+			{
+				"desc" : "100元话费卡+70大师分",
+				"bigImg":"${http_download}/dizhu/room/imgs/reward_240_100yuanhuafeika_0206.png",
+				"ranking" : {
+					"end" : 3,
+					"start" : 3
+				},
+				"shareInfo": {
+					"rmb": 100,
+					"type": "redEnvelope",
+					"name": "微信红包"
+				},
+				"rewards" : [
+					{
+						"count" : 1,
+						"itemId" : "item:4144",
+						"desc":"100元话费"
+					},
+					{
+						"count" : 70,
+						"itemId" : "ddz:master.score"
+					}
+
+				],
+				"todotask" : {
+					"action" : "rep_sence_pack",
+					"params" : {}
+				}
+			},
+			{
+				"desc" : "30元话费卡+50大师分",
+				"bigImg":"${http_download}/dizhu/room/imgs/reward_240_30yuanhuafeika_0206.png",
+				"ranking" : {
+					"end" : 10,
+					"start" : 4
+				},
+				"shareInfo": {
+					"rmb": 30,
+					"type": "redEnvelope",
+					"name": "微信红包"
+				},
+				"rewards" : [
+					{
+						"count" : 1,
+						"itemId" : "item:4142"
+					},
+					{
+						"count" : 50,
+						"itemId" : "ddz:master.score"
+					}
+
+				],
+				"todotask" : {
+					"action" : "rep_sence_pack",
+					"params" : {}
+				}
+			},
+			{
+				"desc" : "10元话费卡+30大师分",
+				"bigImg":"${http_download}/dizhu/room/imgs/reward_240_10yuanhuafeika_1114.png",
+				"ranking" : {
+					"end" : 50,
+					"start" : 11
+				},
+				"shareInfo": {
+					"rmb": 10,
+					"type": "redEnvelope",
+					"name": "微信红包"
+				},
+				"rewards" : [
+					{
+						"count" : 1,
+						"itemId" : "item:4141"
+					},
+					{
+						"count" : 30,
+						"itemId" : "ddz:master.score"
+					}
+
+				],
+				"todotask" : {
+					"action" : "rep_sence_pack",
+					"params" : {}
+				}
+			},
+			{
+				"desc" : "5元话费卡+10大师分",
+				"bigImg":"${http_download}/dizhu/room/imgs/reward_240_5yuanhuafeika_1114.png",
+				"ranking" : {
+					"end" : 100,
+					"start" : 51
+				},
+				"shareInfo": {
+					"rmb": 5,
+					"type": "redEnvelope",
+					"name": "微信红包"
+				},
+				"rewards" : [
+					{
+						"count" : 1,
+						"itemId" : "item:4180"
+					},
+					{
+						"count" : 10,
+						"itemId" : "ddz:master.score"
+					}
+
+				],
+				"todotask" : {
+					"action" : "rep_sence_pack",
+					"params" : {}
+				}
+			},
+			{
+				"desc" : "2元话费卡+5大师分",
+				"bigImg":"${http_download}/dizhu/room/imgs/reward_240_2yuanhuafeika_0206.png",
+				"ranking" : {
+					"end" : 200,
+					"start" : 101
+				},
+				"shareInfo": {
+					"rmb": 2,
+					"type": "redEnvelope",
+					"name": "微信红包"
+				},
+				"rewards" : [
+					{
+						"count" : 1,
+						"itemId" : "item:4179"
+					},
+					{
+						"count" : 5,
+						"itemId" : "ddz:master.score"
+					}
+
+				],
+				"todotask" : {
+					"action" : "rep_sence_pack",
+					"params" : {}
+				}
+			},
+			{
+				"desc" : "1元话费卡+1大师分",
+				"bigImg":"${http_download}/dizhu/room/imgs/reward_240_1yuanhuafeika_1114.png",
+				"ranking" : {
+					"end" : 1000,
+					"start" : 201
+				},
+				"shareInfo": {
+					"rmb": 1,
+					"type": "redEnvelope",
+					"name": "微信红包"
+				},
+				"rewards" : [
+					{
+						"count" : 1,
+						"itemId" : "item:4178"
+					},
+					{
+						"count" : 1,
+						"itemId" : "ddz:master.score"
+					}
+
+				],
+				"todotask" : {
+					"action" : "rep_sence_pack",
+					"params" : {}
+				}
+			}
+		],
+		"stages" : [
+			{
+				"animation.type" : 0,
+				"card.count" : 15,
+				"chip.base" : 1000,
+				"chip.grow" : 0.3,
+				"chip.grow.base" : 300,
+				"chip.grow.incr" : 100,
+				"chip.times" : 60,
+				"chip.user" : 20000,
+				"chip.user.2.rate" : 0,
+				"chip.user.3.base" : 0,
+				"lose.user.chip" : 0,
+				"name" : "海选赛",
+				"rise.user.count" : 810,
+				"rise.user.refer" : 1080,
+				"seat.principles" : 1,
+				"type" : 1
+			},
+			{
+				"animation.type" : 0,
+				"card.count" : 15,
+				"chip.base" : 1000,
+				"chip.grow" : 0.2,
+				"chip.grow.base" : 200,
+				"chip.grow.incr" : 100,
+				"chip.times" : 60,
+				"chip.user" : 3,
+				"chip.user.2.rate" : 0,
+				"chip.user.3.base" : 20000,
+				"chip.user.score": 20000,
+				"lose.user.chip" : 0,
+				"name" : "晋级赛",
+				"rise.user.count" : 192,
+				"rise.user.refer" : 300,
+				"seat.principles" : 1,
+				"type" : 1
+			},
+			{
+				"animation.type" : 1,
+				"card.count" : 3,
+				"chip.base" : 100,
+				"chip.grow" : 0.5,
+				"chip.times" : 3600,
+				"chip.user" : 3,
+				"chip.user.3.base" : 300,
+				"name" : "192强赛",
+				"call.type": "inturn",
+				"rise.user.count" : 96,
+				"seat.principles" : 2,
+				"type" : 2
+			},
+			{
+				"animation.type" : 1,
+				"card.count" : 3,
+				"chip.base" : 100,
+				"chip.grow" : 0.5,
+				"chip.times" : 3600,
+				"chip.user" : 2,
+				"chip.user.2.rate" : 0.3,
+				"name" : "96强赛",
+				"call.type": "inturn",
+				"rise.user.count" : 48,
+				"seat.principles" : 2,
+				"type" : 2
+			},
+			{
+				"animation.type" : 1,
+				"card.count" : 3,
+				"chip.base" : 100,
+				"chip.grow" : 0.5,
+				"chip.times" : 3600,
+				"chip.user" : 2,
+				"chip.user.2.rate" : 0.3,
+				"name" : "48强赛",
+				"call.type": "inturn",
+				"rise.user.count" : 24,
+				"seat.principles" : 2,
+				"type" : 2
+			},
+			{
+				"animation.type" : 1,
+				"card.count" : 3,
+				"chip.base" : 100,
+				"chip.grow" : 0.5,
+				"chip.times" : 3600,
+				"chip.user" : 2,
+				"chip.user.2.rate" : 0.3,
+				"name" : "24强赛",
+				"call.type": "inturn",
+				"rise.user.count" : 12,
+				"seat.principles" : 2,
+				"type" : 2
+			},
+			{
+				"animation.type" : 1,
+				"card.count" : 3,
+				"chip.base" : 100,
+				"chip.grow" : 0.5,
+				"chip.times" : 3600,
+				"chip.user" : 2,
+				"chip.user.2.rate" : 0.3,
+				"name" : "12强赛",
+				"call.type": "inturn",
+				"rise.user.count" : 6,
+				"seat.principles" : 2,
+				"type" : 2
+			},
+			{
+				"animation.type" : 1,
+				"card.count" : 3,
+				"chip.base" : 100,
+				"chip.grow" : 0.5,
+				"chip.times" : 3600,
+				"chip.user" : 2,
+				"chip.user.2.rate" : 0.3,
+				"name" : "6强赛",
+				"call.type": "inturn",
+				"rise.user.count" : 3,
+				"seat.principles" : 2,
+				"type" : 2
+			},
+			{
+				"animation.type" : 2,
+				"card.count" : 3,
+				"chip.base" : 100,
+				"chip.grow" : 0.5,
+				"chip.times" : 3600,
+				"chip.user" : 2,
+				"chip.user.2.rate" : 0.3,
+				"name" : "决赛",
+				"call.type": "inturn",
+				"rise.user.count" : 1,
+				"seat.principles" : 2,
+				"type" : 2
+			}
+		],
+	"start" : {
+		"fee.type" : 1,
+		"maxplaytime" : 10800,
+		"selectFirstStage" : 1,
+		"prepare.times" : 10,
+		"signin.times" : 86400,
+		"start.speed" : 8,
+		"table.times" : 480,
+		"times" : {
+        "days" : {
+          "count" : 365,
+          "first" : "",
+          "interval" : "1d"
+        },
+			"times_in_day" : {
+				"list" : [
+					"21:00"
+
+				]
+			}
+		},
+		"type" : 2,
+		"user.groupsize" : 20000,
+		"user.maxsize" : 20000,
+		"signin.maxsize":40000,
+		"user.minsize" : 30,
+		"user.next.group" : 0
+	},
+    "table.seat.count" : 3,
+	"tips" : {
+		"infos" : [
+			"积分相同时，按报名先后顺序确定名次。",
+			"积分低于淘汰分数线会被淘汰，称打立出局。",
+			"打立赛制有局数上限，打满局数会等待他人。",
+			"打立阶段，轮空时会记1局游戏。",
+			"定局赛制，指打固定局数后按积分排名。",
+			"每局会按照开局时的底分结算。",
+			"比赛流局时，可能会有积分惩罚。"
+		],
+		"interval" : 5
+	},
+	"matchRules": [
+		[
+			{
+				"type": 0,
+				"text": "规则介绍"
+			},
+			{
+				"type": 1,
+				"text": "玩法：经典玩法"
+			},
+			{
+				"type": 1,
+				"text": "阶段1：海选赛：打立出局，1080人截止，810名晋级。"
+			},
+			{
+				"type": 1,
+				"text": "阶段2：晋级赛：打立出局，300人截止，192人晋级。"
+			},
+			{
+				"type": 1,
+				"text": "阶段3：决赛：7轮定局积分，轮流首叫，每轮3副牌，"
+			},
+			{
+				"type": 1,
+				"text": "提示：实物奖励会发放至背包中，请尽快使用并填写"
+			},
+			{
+				"type": 1,
+				"text": "对应信息哟。"
+			}
+		]
+	]
+	},
+	"maxCoin" : -1,
+	"maxCoinQS" : -1,
+	"maxLevel" : -1,
+	"minCoin" : -1,
+	"minCoinQS" : -1,
+	"name" : "万元话费大奖赛",
+	"topindex" : 98,
+	"championLed" : "冠军led显示",
+	"rewardShow" : "200元话费卡1张",
+	"playDesc" : "",
+	"playMode" : "123",
+	"robotUserCallUpTime" : 5,
+	"robotUserMaxCount" : 0,
+	"robotUserOpTime" : [
+		2,
+		3
+	],
+	"roomFee" : 45,
+	"roomMutil" : 50,
+	"showCard" : 0,
+	"tableConf" : {
+		"autochange" : 1,
+		"basebet" : 1,
+		"basemulti" : 1,
+		"canchat" : 0,
+		"nongminWinAlone" : 1,
+		"cardNoteDiamond" : 12,
+		"coin2chip" : 1,
+		"grab" : 0,
+		"gslam" : 128,
+		"lucky" : 0,
+		"maxSeatN" : 3,
+		"optime" : 15,
+		"passtime" : 5,
+		"rangpaiMultiType" : 1,
+		"robottimes" : 2,
+		"tbbox" : 0,
+		"unticheat" : 0
+	},
+	"typeName" : "dizhu_group_match",
+	"winDesc" : ""
+}

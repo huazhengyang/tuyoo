@@ -1,0 +1,427 @@
+{
+    "hasrobot": 0, 
+    "interEmoticon": {
+        "bomb": [
+            100, 
+            10, 
+            -10
+        ], 
+        "chicken": [
+            100, 
+            10, 
+            -10
+        ], 
+        "doubleAce": [
+            100, 
+            20, 
+            20
+        ], 
+        "eggs": [
+            100, 
+            10, 
+            -10
+        ], 
+        "fishing": [
+            100, 
+            10, 
+            -10
+        ], 
+        "ring": [
+            100, 
+            20, 
+            20
+        ], 
+        "rose": [
+            100, 
+            20, 
+            20
+        ], 
+        "thumb": [
+            100, 
+            20, 
+            20
+        ]
+    }, 
+    "matchConf": {
+        "addonTimes": 1, 
+        "betsConf": [
+            {
+                "bb": 50, 
+                "buyinTimeout": 30, 
+                "prebet": 0, 
+                "rebuy": [
+                    [
+                        100
+                    ], 
+                    5000
+                ], 
+                "sb": 25, 
+                "timePoint": 0
+            }, 
+            {
+                "bb": 100, 
+                "buyinTimeout": 30, 
+                "prebet": 0, 
+                "rebuy": [
+                    [
+                        100
+                    ], 
+                    5000
+                ], 
+                "sb": 50, 
+                "timePoint": 120
+            }, 
+            {
+                "bb": 200, 
+                "buyinTimeout": 30, 
+                "prebet": 0, 
+                "rebuy": [
+                    [
+                        100
+                    ], 
+                    5000
+                ], 
+                "sb": 100, 
+                "timePoint": 240
+            }, 
+            {
+                "bb": 400, 
+                "buyinTimeout": 30, 
+                "prebet": 0, 
+                "rebuy": [
+                    [
+                        100
+                    ], 
+                    5000
+                ], 
+                "sb": 200, 
+                "timePoint": 360
+            }, 
+            {
+                "bb": 600, 
+                "buyinTimeout": 30, 
+                "prebet": 0, 
+                "rebuy": [
+                    [
+                        100
+                    ], 
+                    5000
+                ], 
+                "sb": 300, 
+                "timePoint": 480
+            }, 
+            {
+                "bb": 800, 
+                "buyinTimeout": 30, 
+                "prebet": 0, 
+                "rebuy": [
+                    [
+                        100
+                    ], 
+                    5000
+                ], 
+                "sb": 400, 
+                "timePoint": 600
+            }, 
+            {
+                "addon": [
+                    [
+                        200
+                    ], 
+                    2000
+                ], 
+                "bb": 1000, 
+                "buyinTimeout": 30, 
+                "prebet": 0, 
+                "sb": 500, 
+                "timePoint": 720
+            }, 
+            {
+                "bb": 1200, 
+                "prebet": 0, 
+                "sb": 600, 
+                "timePoint": 840
+            }, 
+            {
+                "bb": 1400, 
+                "prebet": 0, 
+                "sb": 700, 
+                "timePoint": 960
+            }, 
+            {
+                "bb": 1600, 
+                "prebet": 0, 
+                "sb": 800, 
+                "timePoint": 1080
+            }, 
+            {
+                "bb": 2000, 
+                "prebet": 0, 
+                "sb": 1000, 
+                "timePoint": 1200
+            }, 
+            {
+                "bb": 3000, 
+                "prebet": 0, 
+                "sb": 1500, 
+                "timePoint": 1320
+            }, 
+            {
+                "bb": 4000, 
+                "prebet": 0, 
+                "sb": 2000, 
+                "timePoint": 1440
+            }, 
+            {
+                "bb": 5000, 
+                "prebet": 0, 
+                "sb": 2500, 
+                "timePoint": 1560
+            }, 
+            {
+                "bb": 6000, 
+                "prebet": 0, 
+                "sb": 3000, 
+                "timePoint": 1680
+            }, 
+            {
+                "bb": 7000, 
+                "prebet": 0, 
+                "sb": 3500, 
+                "timePoint": 1800
+            }, 
+            {
+                "bb": 8000, 
+                "prebet": 0, 
+                "sb": 4000, 
+                "timePoint": 1920
+            }, 
+            {
+                "bb": 10000, 
+                "prebet": 0, 
+                "sb": 5000, 
+                "timePoint": 2040
+            }, 
+            {
+                "bb": 12000, 
+                "prebet": 0, 
+                "sb": 6000, 
+                "timePoint": 2160
+            }, 
+            {
+                "bb": 16000, 
+                "prebet": 0, 
+                "sb": 8000, 
+                "timePoint": 2280
+            }, 
+            {
+                "bb": 20000, 
+                "prebet": 0, 
+                "sb": 10000, 
+                "timePoint": 2400
+            }, 
+            {
+                "bb": 30000, 
+                "prebet": 0, 
+                "sb": 15000, 
+                "timePoint": 2520
+            }, 
+            {
+                "bb": 40000, 
+                "prebet": 0, 
+                "sb": 20000, 
+                "timePoint": 2640
+            }, 
+            {
+                "bb": 60000, 
+                "prebet": 0, 
+                "sb": 30000, 
+                "timePoint": 2760
+            }, 
+            {
+                "bb": 80000, 
+                "prebet": 0, 
+                "sb": 40000, 
+                "timePoint": 2880
+            }, 
+            {
+                "bb": 120000, 
+                "prebet": 0, 
+                "sb": 60000, 
+                "timePoint": 3000
+            }, 
+            {
+                "bb": 160000, 
+                "prebet": 0, 
+                "sb": 80000, 
+                "timePoint": 3120
+            }, 
+            {
+                "bb": 200000, 
+                "prebet": 0, 
+                "sb": 100000, 
+                "timePoint": 3240
+            }, 
+            {
+                "bb": 300000, 
+                "prebet": 0, 
+                "sb": 150000, 
+                "timePoint": 3360
+            }, 
+            {
+                "bb": 400000, 
+                "prebet": 0, 
+                "sb": 200000, 
+                "timePoint": 3480
+            }, 
+            {
+                "bb": 600000, 
+                "prebet": 0, 
+                "sb": 300000, 
+                "timePoint": 3600
+            }, 
+            {
+                "bb": 1000000, 
+                "prebet": 0, 
+                "sb": 500000, 
+                "timePoint": 3720
+            }, 
+            {
+                "bb": 2000000, 
+                "prebet": 0, 
+                "sb": 1000000, 
+                "timePoint": 3840
+            }, 
+            {
+                "bb": 3000000, 
+                "prebet": 0, 
+                "sb": 1500000, 
+                "timePoint": 3960
+            }, 
+            {
+                "bb": 6000000, 
+                "prebet": 0, 
+                "sb": 3000000, 
+                "timePoint": 4080
+            }
+        ], 
+        "costUrl": {
+            "5.01": {
+                "chip": "${http_download}/texas/images/mtt/ticket_chip_5.0.1", 
+                "diamond": "${http_download}/texas/images/mtt/ticket_diamond_5.0.1.png", 
+                "monthCard": "${http_download}/texas/images/mtt/Month_card5.0.1.png", 
+                "ring": "${http_download}/texas/images/mtt/ticket_ring_5.0.1.png", 
+                "ticket": "${http_download}/texas/images/mtt/ticket_default_5.0.1.png"
+            }, 
+            "chip": "", 
+            "diamond": "${http_download}/texas/images/mtt/ticket_diamond.png", 
+            "monthCard": "${http_download}/texas/images/mtt/Month_card.png", 
+            "ring": "${http_download}/texas/images/mtt/ticket_ring.png", 
+            "ticket": "${http_download}/texas/images/mtt/ticket_default.png"
+        }, 
+        "day1EndConf": {
+            "day2BigRoomId": 8164, 
+            "day2InitTableChipType": 0, 
+            "endBlindBetIndex": 4, 
+            "endPlayerN": 20
+        }, 
+        "delaySignInDes": "盲注等级2级前可延迟报名", 
+        "delaySigninBlindBetPoint": 2, 
+        "matchUrl": "${http_download}/texas/images/mtt/mtt_test.png", 
+        "match_id": "mtt_test_day1_1", 
+        "nameColor": [
+            255, 
+            210, 
+            35
+        ], 
+        "openTime": {
+            "closed": 0
+        }, 
+        "openTimeDesc": [
+            "", 
+            "大约一小时"
+        ], 
+        "operator": 0, 
+        "raiseTime": 90, 
+        "rank": [], 
+        "rebuyTimes": 9999, 
+        "require": "无", 
+        "requireState": [], 
+        "resultExpire": "43200", 
+        "rule": "比赛牌桌内的筹码不能带出牌桌外。\n奖励按照排名发放。\n更大池底，更多刺激！", 
+        "ruleTitle": "帮助", 
+        "ruleUrl": "http://ddz.dl.tuyoo.com/texas/match/mtt_match_desc.html", 
+        "rules": [
+            {
+                "text": "测试用DAY1-1", 
+                "type": 0
+            }, 
+            {
+                "text": "小一点，但是仍然没有什么卵用-mtt", 
+                "type": 1
+            }
+        ], 
+        "show_lottery_cfg": 0, 
+        "signinDesc": "免费", 
+        "signinFee": "chip(0)", 
+        "signinRequire": {
+            "cond": "", 
+            "desc": "无"
+        }, 
+        "sortId": 0, 
+        "startMatchPlayersN": 20, 
+        "startTimes": {
+            "days": {
+                "count": 100, 
+                "first": "", 
+                "interval": "1d"
+            }, 
+            "times_in_day": {
+                "count": 400, 
+                "first": "8:38", 
+                "interval": 5
+            }
+        }, 
+        "totalReward": "测试总奖励", 
+        "visible": 0
+    }, 
+    "maxCoin": 0, 
+    "maxCoinQS": 0, 
+    "minCoin": 0, 
+    "minCoinQS": 0, 
+    "minTriggerLen": 2, 
+    "n_recycle": 6, 
+    "name": "day1内部测试赛8162", 
+    "playMode": "classic", 
+    "rewardDealerChip": 100, 
+    "robotUserMaxCount": 18, 
+    "roomID": 8162, 
+    "tableConf": {
+        "bb": 50, 
+        "big_pot": 0, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 5000, 
+        "chat_require_vip_level": 8, 
+        "commission": 0.0, 
+        "fee": 0, 
+        "flip_card_game": {
+            "bet": 0, 
+            "loading_show": 1, 
+            "show": 1
+        }, 
+        "lose_exp": 50, 
+        "maxSeatN": 9, 
+        "min_players": 2, 
+        "optime": 11, 
+        "pay_factor": 1.0, 
+        "pk": 0, 
+        "sb": 25, 
+        "start_card": 2, 
+        "tname": "DAY1内部测试赛8162", 
+        "win_exp": 100
+    }, 
+    "triggerLen": 9, 
+    "typeName": "mtt", 
+    "visible": 0
+}

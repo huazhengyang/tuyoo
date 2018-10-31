@@ -1,0 +1,53 @@
+{
+    "chip":{
+        "format":"<IIqqqIIHHIBI",
+        "rec_type":1,
+        "record_size":53,
+        "reserved_size":26,
+        "single_file_record_count":10000000,
+        "days_ago_move":10,
+        "pre_create_file_nums":4,
+    	"group": ["user0", "user1", "user2", "user3", "user4", "user5", "user6", "user7"],
+        "index_field":[1]
+    },
+    "login":{
+        "format":"<IIIHHII32s40sBBH",
+        "rec_type":2,
+        "record_size":100,
+        "reserved_size":27,
+        "single_file_record_count":10000000,
+        "days_ago_move":30,
+        "pre_create_file_nums":1,
+        "group": ["user0", "user1", "user2", "user3", "user4", "user5", "user6", "user7"]
+    },
+    "pay":{
+        "format":"<IIIHHI14s6s25sHHBIIiH10s32s32s32sI11sBB",
+        "rec_type":3,
+        "record_size":207,
+        "reserved_size":16,
+        "single_file_record_count":10000000,
+        "days_ago_move":30,
+        "pre_create_file_nums":1,
+        "group": ["user0", "user1", "user2", "user3", "user4", "user5", "user6", "user7"]
+    },
+    "game":{
+        "format":"<IIIHIQQIqqqBB20B",
+        "rec_type":4,
+        "record_size":84,
+        "reserved_size":27,
+        "single_file_record_count":10000000,
+        "days_ago_move":3,
+        "pre_create_file_nums":6,
+        "group": ["user0", "user1", "user2", "user3", "user4", "user5", "user6", "user7"]
+    },
+    "card":{
+        "format":"<IIIHIQQIqqqBB20B",
+        "rec_type":4,
+        "record_size":84,
+        "reserved_size":27,
+        "single_file_record_count":10000000,
+        "days_ago_move":0,
+        "pre_create_file_nums":4,
+        "group": ["user0", "user1", "user2", "user3", "user4", "user5", "user6", "user7"]
+    }
+}

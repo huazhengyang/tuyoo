@@ -1,0 +1,139 @@
+斗地主牌桌皮肤协议
+
+1、获取斗地主皮肤列表
+请求：
+{
+	"cmd":"dizhu",
+	"params":{
+		"userId":10001,
+		"gameId":6,
+		"action":"table_skin_conf",
+		"version":"1"     // 皮肤版本号
+	}
+}
+返回：
+{
+	"cmd":"dizhu",
+	"result":{
+		"userId":10001,
+		"gameId":6,
+		"action":"table_skin_conf",
+		"version":"1",
+		"skins":[
+			{
+				"id":"1001",		 	  // 唯一标示符
+				"name":"kitty",		  // 皮肤名称（唯一），用于本地资源文件夹名称
+				"display":"猫猫",      // 前端显示名称
+				"update":1,			  // 小版本号
+				"icon":"http://192.168.10.26/dizhu/table.skin/pig/icon.png",   // 显示的icon图片
+				"fee":{
+					"count":100,												   // 个数
+					"img":"http://192.168.10.26/dizhu/table.skin/pig/chip.png"     // 付费方式的显示图片
+				},
+				"preview":"http://192.168.10.26/dizhu/table.skin/pig/preview.png", // 预览图
+				"res":{
+					"url":"http://192.168.10.26/dizhu/table.skin/kitty/kitty.zip",
+					"md5":""
+				}
+			},
+			{
+				"id":"1002",
+				"name":"pig",
+				"display":"猪猪",      // 显示名称
+				"update":1,
+				"icon":"http://192.168.10.26/dizhu/table.skin/pig/icon.png",
+				"fee":{
+					"count":100,												   // 个数
+					"img":"http://192.168.10.26/dizhu/table.skin/pig/chip.png"     // 付费方式的显示图片
+				},
+				"preview":"http://192.168.10.26/dizhu/table.skin/pig/preview.png", // 预览图
+				"res":{
+					"url":"http://192.168.10.26/dizhu/table.skin/kitty/kitty.zip",
+					"md5":""
+				}
+			}
+		]
+	}
+}
+
+===============================================
+
+2、我的皮肤 ： 用户皮肤信息获取 见“前后端配置表.txt“ -> 2、用户信息存储
+
+请求：
+{
+	"cmd":"dizhu",
+	"params":{
+		"userId":10001,
+		"gameId":6,
+		"action":"table_skin_mine",
+	}
+}
+返回：
+{
+	"cmd":"dizhu",
+	"result":{
+		"userId":10001,
+		"gameId":6,
+		"action":"table_skin_mine",
+		"skins":["1001", "1002"],
+		"curSkin":"1002" 		 // 当前使用的皮肤id，("0"、"1"表示使用的本地皮肤, 当前本地有"0"、"1"两套皮肤)
+	}
+}
+
+===============================================
+
+
+3、购买皮肤 ： 用户皮肤信息存储 见“前后端配置表.txt“ -> 2、用户信息存储
+请求：
+{
+	"cmd":"dizhu",
+	"params":{
+		"userId":10001,
+		"gameId":6,
+		"action":"table_skin_buy",
+		"skinId":"1001",
+		"version":"1"     // 皮肤版本号
+	}
+}
+返回：
+{
+	"cmd":"dizhu",
+	"result":{
+		"userId":10001,
+		"gameId":6,
+		"action":"table_skin_buy",
+		"skinId":"1001",
+		"code":0/-1,     // 错误码 0购买成功 -1钱不够 -2其他错误
+		"info":"钱不够"
+	}
+}
+
+===============================================
+
+4、使用皮肤， 如果已经拥有该皮肤，后端保存用户正在使用的皮肤skinId，
+	用户皮肤信息存储 见“前后端配置表.txt“ -> 2、用户信息存储
+请求：
+{
+	"cmd":"dizhu",
+	"params":{
+		"userId":10001,
+		"gameId":6,
+		"action":"table_skin_use",
+		"skinId":"1001",
+		"version":"1"     // 皮肤版本号
+	}
+}
+返回：
+{
+	"cmd":"dizhu",
+	"result":{
+		"userId":10001,
+		"gameId":6,
+		"action":"table_skin_use",
+		"skinId":"1001",
+		"code":0/-1,		// 0成功使用 -1失败
+		"info":"无法使用"
+	}
+}
+

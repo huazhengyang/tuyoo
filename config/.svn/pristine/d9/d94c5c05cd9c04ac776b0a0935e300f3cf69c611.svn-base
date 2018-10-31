@@ -1,0 +1,7 @@
+以下内容, 后期都应该是重GDSS同步数据过来, 由数据控制中心进行统一的ID管理
+
+map.activityid.json       ACTEVENT的字符串ID到数值ID的对应关系表
+map.bieventid.json        BIEVENT的字符串ID到数值ID的对应关系表
+map.clientid.json.sample  CLIENTID的字符串ID到数值ID的对应关系表, 已经实现同步
+map.giftid.json           礼物的字符串ID到数值ID的对应关系表
+map.productid.json.sample 商品的字符串ID到数值ID的对应关系表, 已经实现同步

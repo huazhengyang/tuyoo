@@ -1,0 +1,456 @@
+{
+    "overall_base_prob": 25,
+    "overall_category_prob_list": [
+        {
+            "type": 1,
+            "desc": "全盘水浒传",
+            "weight": 15
+        },
+        {
+            "type": 2,
+            "desc": "全盘忠义堂",
+            "weight": 30
+        },
+        {
+            "type": 3,
+            "desc": "全盘替天行道",
+            "weight": 50
+        },
+        {
+            "type": 4,
+            "desc": "全盘宋江",
+            "weight": 100
+        },
+        {
+            "type": 5,
+            "desc": "全盘林冲",
+            "weight": 200
+        },
+        {
+            "type": 6,
+            "desc": "全盘鲁智深",
+            "weight": 400
+        },
+        {
+            "type": 7,
+            "desc": "全盘金刀",
+            "weight": 600
+        },
+        {
+            "type": 8,
+            "desc": "全盘银枪",
+            "weight": 1000
+        },
+        {
+            "type": 9,
+            "desc": "全盘铁斧",
+            "weight": 2000
+        },
+        {
+            "type": 10,
+            "desc": "全盘武器",
+            "weight": 7500
+        },
+        {
+            "type": 11,
+            "desc": "全盘人物",
+            "weight": 3000
+        }
+    ],
+    "cell_prob_list": [
+        {
+            "id": 1,
+            "weight": 4300
+        },
+        {
+            "id": 2,
+            "weight": 5000
+        },
+        {
+            "id": 3,
+            "weight": 7000
+        },
+        {
+            "id": 4,
+            "weight": 9000
+        },
+        {
+            "id": 5,
+            "weight": 10000
+        },
+        {
+            "id": 6,
+            "weight": 11000
+        },
+        {
+            "id": 7,
+            "weight": 15000
+        },
+        {
+            "id": 8,
+            "weight": 18000
+        },
+        {
+            "id": 9,
+            "weight": 20700
+        }
+    ],
+    "weapon_prob_list": [
+        {
+            "id": 1,
+            "weight": 5357
+        },
+        {
+            "id": 7,
+            "weight": 25000
+        },
+        {
+            "id": 8,
+            "weight": 32143
+        },
+        {
+            "id": 9,
+            "weight": 37500
+        }
+    ],
+    "human_prob_list": [
+        {
+            "id": 1,
+            "weight": 8824
+        },
+        {
+            "id": 7,
+            "weight": 26471
+        },
+        {
+            "id": 8,
+            "weight": 29412
+        },
+        {
+            "id": 9,
+            "weight": 35294
+        }
+    ],
+    "statement": "奖励包括倍数奖励和bonusgame次数奖励，reward的key由类型-出现次数组成，比如：3-5表示替天行道出现5次",
+    "reward": {
+        "1-3": {
+            "multi": 0,
+            "bonus_game_count": 1,
+            "desc": "水浒传3连，奖励BonusGame1次"
+        },
+        "1-4": {
+            "multi": 0,
+            "bonus_game_count": 2,
+            "desc": "水浒传4连，奖励BonusGame2次"
+        },
+        "1-5": {
+            "multi": 2000,
+            "bonus_game_count": 3,
+            "desc": "水浒传5连，奖励2000倍，BonusGame3次"
+        },
+        "1-999": {
+            "multi": 3000,
+            "bonus_game_count": 4,
+            "desc": "水浒传全盘，奖励3000倍"
+        },
+        "2-3": {
+            "multi": 50,
+            "bonus_game_count": 0,
+            "desc": "忠义堂3连，奖励50倍"
+        },
+        "2-4": {
+            "multi": 200,
+            "bonus_game_count": 0,
+            "desc": "忠义堂4连，奖励200倍"
+        },
+        "2-5": {
+            "multi": 1000,
+            "bonus_game_count": 0,
+            "desc": "忠义堂5连，奖励1000倍"
+        },
+        "2-999": {
+            "multi": 1500,
+            "bonus_game_count": 0,
+            "desc": "忠义堂全盘，奖励1500倍"
+        },
+        "3-3": {
+            "multi": 20,
+            "bonus_game_count": 0,
+            "desc": "替天行道3连，奖励20倍"
+        },
+        "3-4": {
+            "multi": 80,
+            "bonus_game_count": 0,
+            "desc": "替天行道4连，奖励80倍"
+        },
+        "3-5": {
+            "multi": 400,
+            "bonus_game_count": 0,
+            "desc": "替天行道5连，奖励400倍"
+        },
+        "3-999": {
+            "multi": 600,
+            "bonus_game_count": 0,
+            "desc": "替天行道全盘，奖励600倍"
+        },
+        "4-3": {
+            "multi": 15,
+            "bonus_game_count": 0,
+            "desc": "宋江3连，奖励15倍"
+        },
+        "4-4": {
+            "multi": 40,
+            "bonus_game_count": 0,
+            "desc": "宋江4连，奖励40倍"
+        },
+        "4-5": {
+            "multi": 200,
+            "bonus_game_count": 0,
+            "desc": "宋江5连，奖励200倍"
+        },
+        "4-999": {
+            "multi": 300,
+            "bonus_game_count": 0,
+            "desc": "宋江5连，奖励300倍"
+        },
+        "5-3": {
+            "multi": 10,
+            "bonus_game_count": 0,
+            "desc": "林冲3连，奖励20倍"
+        },
+        "5-4": {
+            "multi": 30,
+            "bonus_game_count": 0,
+            "desc": "林冲4连，奖励20倍"
+        },
+        "5-5": {
+            "multi": 160,
+            "bonus_game_count": 0,
+            "desc": "林冲5连，奖励20倍"
+        },
+        "5-999": {
+            "multi": 240,
+            "bonus_game_count": 0,
+            "desc": "林冲全盘，奖励20倍"
+        },
+        "6-3": {
+            "multi": 7,
+            "bonus_game_count": 0,
+            "desc": "鲁智深3连，奖励20倍"
+        },
+        "6-4": {
+            "multi": 20,
+            "bonus_game_count": 0,
+            "desc": "鲁智深4连，奖励20倍"
+        },
+        "6-5": {
+            "multi": 100,
+            "bonus_game_count": 0,
+            "desc": "鲁智深5连，奖励20倍"
+        },
+        "6-999": {
+            "multi": 150,
+            "bonus_game_count": 0,
+            "desc": "鲁智深全盘，奖励20倍"
+        },
+        "7-3": {
+            "multi": 5,
+            "bonus_game_count": 0,
+            "desc": "金刀3连，奖励20倍"
+        },
+        "7-4": {
+            "multi": 15,
+            "bonus_game_count": 0,
+            "desc": "金刀4连，奖励20倍"
+        },
+        "7-5": {
+            "multi": 60,
+            "bonus_game_count": 0,
+            "desc": "金刀5连，奖励20倍"
+        },
+        "7-999": {
+            "multi": 90,
+            "bonus_game_count": 0,
+            "desc": "金刀全盘，奖励20倍"
+        },
+        "8-3": {
+            "multi": 3,
+            "bonus_game_count": 0,
+            "desc": "银枪3连，奖励20倍"
+        },
+        "8-4": {
+            "multi": 10,
+            "bonus_game_count": 0,
+            "desc": "银枪4连，奖励20倍"
+        },
+        "8-5": {
+            "multi": 40,
+            "bonus_game_count": 0,
+            "desc": "银枪5连，奖励20倍"
+        },
+        "8-999": {
+            "multi": 60,
+            "bonus_game_count": 0,
+            "desc": "银枪全盘，奖励20倍"
+        },
+        "9-3": {
+            "multi": 2,
+            "bonus_game_count": 0,
+            "desc": "铁斧3连，奖励20倍"
+        },
+        "9-4": {
+            "multi": 5,
+            "bonus_game_count": 0,
+            "desc": "铁斧4连，奖励20倍"
+        },
+        "9-5": {
+            "multi": 20,
+            "bonus_game_count": 0,
+            "desc": "铁斧5连，奖励20倍"
+        },
+        "9-999": {
+            "multi": 30,
+            "bonus_game_count": 0,
+            "desc": "铁斧全盘，奖励20倍"
+        },
+        "10-999": {
+            "multi": 15,
+            "bonus_game_count": 0,
+            "desc": "武器全盘，奖励15倍"
+        },
+        "11-999": {
+            "multi": 50,
+            "bonus_game_count": 0,
+            "desc": "人物全盘，奖励50倍"
+        }
+    },
+    "bonus_game": {
+        "statement": "inBonusGame里中间四个卡牌的概率配置",
+        "inner_prob_list": [
+            {
+                "id": 2,
+                "weight": 3000
+            },
+            {
+                "id": 3,
+                "weight": 6000
+            },
+            {
+                "id": 4,
+                "weight": 9000
+            },
+            {
+                "id": 5,
+                "weight": 12000
+            },
+            {
+                "id": 6,
+                "weight": 15000
+            },
+            {
+                "id": 7,
+                "weight": 15000
+            },
+            {
+                "id": 8,
+                "weight": 20000
+            },
+            {
+                "id": 9,
+                "weight": 20000
+            }
+        ],
+        "outer_prob_list": [
+            {
+                "id": 0,
+                "weight": 25000
+            },
+            {
+                "id": 2,
+                "weight": 4000
+            },
+            {
+                "id": 3,
+                "weight": 5000
+            },
+            {
+                "id": 4,
+                "weight": 8000
+            },
+            {
+                "id": 5,
+                "weight": 8000
+            },
+            {
+                "id": 6,
+                "weight": 10000
+            },
+            {
+                "id": 7,
+                "weight": 10000
+            },
+            {
+                "id": 8,
+                "weight": 15000
+            },
+            {
+                "id": 9,
+                "weight": 15000
+            }
+        ],
+        "multi": {
+            "2": 200,
+            "3": 100,
+            "4": 70,
+            "5": 50,
+            "6": 20,
+            "7": 10,
+            "8": 5,
+            "9": 2
+        }
+    },
+    "products": {
+        "androidVipTableBuyLeastChip": [
+            {
+                "vip_required": 0,
+                "products": [
+                    120000,
+                    600000,
+                    2000000,
+                    6000000
+                ]
+            },
+            {
+                "vip_required": 6,
+                "products": [
+                    600000,
+                    2000000,
+                    6000000,
+                    20000000
+                ]
+            }
+        ],
+        "iosVipTableBuyLeastChip": [
+            {
+                "vip_required": 0,
+                "products": [
+                    120000,
+                    600000,
+                    2560000,
+                    6560000
+                ]
+            },
+            {
+                "vip_required": 6,
+                "products": [
+                    1360000,
+                    2560000,
+                    6560000,
+                    12960000
+                ]
+            }
+        ]
+    },
+    "newerNum": 100,
+    "welfareNum": 50
+}

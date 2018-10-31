@@ -1,0 +1,22 @@
+
+{
+	"cmd":"table_call",
+	"result":{
+		"action":"lucky_box",
+
+		"task":  {
+			"action": "pop_pay_order" ,
+			"params":  {
+				"id": "TY9999D0030001" ,
+				"name": "36万金币" ,
+				"price": "30" ,
+				"desc": "1元=12000金币" ,
+				"type": 1 ,
+				"addchip": 360000 ,
+				"buy_type": "direct" ,
+
+			}
+		}
+				
+	}
+}

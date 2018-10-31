@@ -1,0 +1,462 @@
+一、配置：
+在开启了活动的房间中，在配置的时间段内。获取金币则增加对应排行榜的积分
+  大排行榜走统一配置，小排行榜走统一配置
+  例如： game/6/score.ranklist/中增加 0.json tc.json vc.json
+  o.json
+{
+    "closed": 0,
+    "historyLen": 5,
+    "fameHallLen": 10,
+    "ranks": [
+        {
+            "rankId": "0",
+            "switch": 1,
+            "minVer": 3.822,
+            "desc": "计分时间：每日早9:00至晚23:30（各玩法高级场、大师场、星耀场可获得积分）",
+            "tips": "每日早9:00至晚23:30才会有积分记录哦",
+            "rewardCounts": 500,
+            "rankCounts": 3000,
+            "exchangeRate": 1000,
+            "playCountsDecayRate": {
+                "scoreRate": 0.5,
+                "playCounts": 5
+            },
+            "beginTime": "09:00",
+            "endTime": "23:30",
+            "settleTime": "23:45",
+            "winsPlus": 0.3,
+            "vipBenefits": {
+                "0": {
+                    "scoreUp": 0.2
+                },
+                "1": {
+                    "scoreUp": 0.3
+                },
+                "2": {
+                    "scoreUp": 0.4
+                },
+                "3": {
+                    "scoreUp": 0.5
+                },
+                "4": {
+                    "scoreUp": 0.6
+                },
+                "5": {
+                    "scoreUp": 0.7
+                },
+                "6": {
+                    "scoreUp": 0.7
+                },
+                "7": {
+                    "scoreUp": 0.7
+                },
+                "8": {
+                    "scoreUp": 0.7
+                }
+            },
+            "openRoomList": [
+                6019
+            ],
+            "rules": [
+                [
+                    {
+                        "type": 1,
+                        "text": "1.万元争霸赛开放时间为每日早9:00至晚23:30，超过截止时间将"
+                    },
+                    {
+                        "type": 1,
+                        "text": "不再记录积分，但不影响金币输赢。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "2.万元争霸赛只有在各玩法高级场、大师场、星耀场方可获得积分。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "3.万元争霸赛与千元擂台赛的积分不通用。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "4.每周日晚23:45定榜，榜单将不再变更。"
+                    }
+                ],
+                [
+                    {
+                        "type": 1,
+                        "text": "1.结算时按照金币获取量来计算当局增加的积分，连胜与VIP等级可"
+                    },
+                    {
+                        "type": 1,
+                        "text": "获得对应的积分加成。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "2.万元争霸赛金币与积分同时获取，比率为1000金币/分，损失金"
+                    },
+                    {
+                        "type": 1,
+                        "text": "币时也会扣分，扣分不受加成影响。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "3.每日不限局数，多打多得，少打少得。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "4.每日超过200局时积分的增减将会衰减，VIP及连胜加成不变。"
+                    }
+                ],
+                [
+                    {
+                        "type": 1,
+                        "text": "1.积分相同的情况下，先到达该积分的玩家排名在前。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "2.每周一比赛重新开始后，上周积分最高的玩家将成为周冠军，获得周"
+                    },
+                    {
+                        "type": 1,
+                        "text": "冠军大奖。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "3.奖励保留4周，超过4周未领取的奖励，将无法再领取。"
+                    }
+                ]
+            ]
+        },
+        {
+            "rankId": "1",
+            "switch": 1,
+            "minVer": 3.822,
+            "desc": "计分时间：每日早9:00至晚23:30（各玩法高级场、大师场、星耀场可获得积分）",
+            "tips": "每日早9:00至晚23:30才会有积分记录哦",
+            "rewardCounts": 500,
+            "rankCounts": 3000,
+            "exchangeRate": 100,
+            "playCountsDecayRate": {
+                "scoreRate": 0.5,
+                "playCounts": 5
+            },
+            "beginTime": "9:00",
+            "endTime": "23:30",
+            "settleTime": "23:45",
+            "winsPlus": 0.25,
+            "vipBenefits": {
+                "0": {
+                    "scoreUp": 0.2
+                },
+                "1": {
+                    "scoreUp": 0.3
+                },
+                "2": {
+                    "scoreUp": 0.4
+                },
+                "3": {
+                    "scoreUp": 0.5
+                },
+                "4": {
+                    "scoreUp": 0.6
+                },
+                "5": {
+                    "scoreUp": 0.7
+                },
+                "6": {
+                    "scoreUp": 0.7
+                },
+                "7": {
+                    "scoreUp": 0.7
+                },
+                "8": {
+                    "scoreUp": 0.7
+                }
+            },
+            "openRoomList": [
+                6009
+            ],
+            "dibao": {
+                "score": 1000,
+                "playCount": 3,
+                "rewardMail": "恭喜获得排行榜入围奖励，赠送\\${rewardContent}",
+                "desc": "50奖券",
+                "typeId": "FixedContent",
+                "items": [
+                    {
+                        "itemId": "user:coupon",
+                        "count": 50
+                    }
+                ]
+            },
+            "rules": [
+                [
+                    {
+                        "type": 1,
+                        "text": "1.千元擂台赛开放时间为每日早9:00至晚23:30，超过截止时间将"
+                    },
+                    {
+                        "type": 1,
+                        "text": "不再记录积分，但不影响金币输赢。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "2.千元擂台赛只有在各玩法初级场、中级场方可获得积分。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "3.千元擂台赛与万元争霸赛的积分不通用。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "4.每周日晚23:45定榜，榜单将不再变更。"
+                    }
+                ],
+                [
+                    {
+                        "type": 1,
+                        "text": "1.结算时按照金币获取量来计算当局增加的积分，连胜与VIP等级可"
+                    },
+                    {
+                        "type": 1,
+                        "text": "获得对应的积分加成。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "2.千元擂台赛金币与积分同时获取，比率为100金币/分，损失金"
+                    },
+                    {
+                        "type": 1,
+                        "text": "币时也会扣分，扣分不受加成影响。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "3.每日不限局数，多打多得，少打少得。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "4.每日超过200局时积分的增减将会衰减，VIP及连胜加成不变。"
+                    }
+                ],
+                [
+                    {
+                        "type": 1,
+                        "text": "1.积分相同的情况下，先到达该积分的玩家排名在前。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "2.每周一比赛重新开始后，上周积分最高的玩家将成为周冠军，获得周"
+                    },
+                    {
+                        "type": 1,
+                        "text": "冠军大奖。"
+                    },
+                    {
+                        "type": 1,
+                        "text": "3.奖励保留4周，超过4周未领取的奖励，将无法再领取。"
+                    }
+                ]
+            ]
+        }
+    ]
+}
+
+tc.json
+
+vc.json
+{
+  "actual" : {
+    "19046"  : "ddz_v3.97_AI_aligame",
+    "18757"  : "ddz_v3.97_AI_test",
+    "12638"  : "default"
+  },
+  "default": "default"
+}
+
+
+二、用户数据存储
+replay库
+=================================
+1.用户数据
+userkey = roomRank.userData:6:{userId}:{rankId}
+hset key {issueNum} jstr{d}
+d={score, plays, isDibao, rankRewards, rankRewardsState, rank}
+rankRewards: 周榜奖励，和期号的配置对应
+isDibao: 0未完成 1未发奖 2已发奖
+rankRewardsState: 0未完成 1未发奖 2已发奖
+
+2.排行榜
+rankkey = roomRank.rankList:6:{rankId}:{issueNum}
+保存
+zadd key {score} {userId}
+删除
+zremrangebyrank key 0 (-topN-1)
+
+3.排行榜历史记录，最多保存N期
+hiskey = roomRank.historyIssnueNum:6:rankId
+hset key issnueNum sendRewardStu
+sendRewardStu: 0未完成 1未发奖 2已发奖
+
+4.名人堂
+结算时插入名人堂数据
+famekey = roomRank.fameHall:6:rankId
+hset famekey issueNum jstr{d}
+d={'issn': issueNum, 'name': userName, 'img': xxx, 'score': 123}
+
+取名人堂数据
+hgetall famekey
+
+=================================
+操作玩家数据：
+def saveUserData
+  hset userkey issueNum jstr
+
+def loadUserData(userId, rankId, issueNum)
+  hget userkey issueNum
+
+def updateUserScore(userId, rankId, issueNum, scoreDelta):
+  #用户积分变化时在UT对用户积分进行调整
+  loadUserData
+  exchangeUserData
+  saveUserData
+  insertRankList
+
+#删除过期排行数据
+def removeUserDataHistory
+  historyFields = hkeys userkey 
+  minIssn = historyFields[0]
+  hdel userkey minIssn
+
+def saveUserDataRewards
+  loadUserData
+  修改奖励信息
+  saveUserData
+
+=================================
+操作排行榜数据：
+def insertRanklist(rankId, issueNum, userId, userScore, topN=10000):
+  ret = zadd rankkey userScore userId
+  zremrangebyrank rankkey 0 (-topN-1)
+  if ret == 1 :
+    removeUserDataHistory
+
+def getRanklist(rankId, issueNum, topN):
+  zrevrange rankkey 0 (topN-1) withscores
+
+=================================
+操作历史期号数据：
+def setHistoryIssueList(rankId, issueNum, stu):
+  hset hiskey issueNum stu
+
+def getHistoryIssueList(rankId)
+  hkeys hiskey
+=================================
+重置排行榜：
+def initScoreRanklist
+    FTTimer(5, setRanklistTimer)
+def setRanklistTimer()
+    nowDateTime
+    settleDateTime
+    若能结算则 将对应期的奖励写到玩家属性中。
+    结算后添加当前期号到历史
+=================================
+限制条件：
+1.历史排行榜前端展示条数限制50条
+    长连接方式，消息上限64K
+    返回历史排行榜时消息为(历史记录中只有4人时有704字节左右)：
+    {
+        "cmd":"dizhu",
+        "result":{
+            "action":"score_get_rank",
+            "rankId":0/1,
+            "issn":"20170601",
+            "userInfo":{
+                "score":1233,
+                "rank":1
+            },
+            "rank":[            //大约200字节
+                {
+                    "me":0/1,
+                    "name":"",  //玩家名字最长20字节
+                    "img":"",   //玩家头像60字节 例如http://ddz.image.tuyoo.com/avatar/head_female_1.png
+                    "score":1000,
+                    "desc":"现金三千元"
+                }
+            ]
+        }
+    }
+
+
+
+=================================
+
+
+
+期号：
+期号为当前周第一天（周一）的日期字符串例如 20170611
+def calcIssueNum(timestamp = None):
+    issueNum = datetime.datetime.fromtimestamp(timestamp).strftime('%Y%m%d')
+
+def getCurrentRanklistForShow(userId, rankId, timeStamp = None)
+    #获取当前排行榜，会在玩家请求时实时刷新
+
+
+排行榜信息处理：
+	在CT进程中进行，定时执行
+	#循环遍历 getHistoryIssueList，对该结束的结束，对未发奖的排行榜进行发奖，并更新st
+	1.getHistoryIssueList
+	2.判断stu,若满足条件 保存当前奖励到玩家排行榜信息中 领奖状态置为可领取
+
+
+玩家领取排行榜奖励
+    def gainUserRanklistReward(userId, rankId, issueNum)
+	1.查询排行榜历史中对应数据
+	2.若可领取则发奖，然后将状态置为“已领取”
+	dizhu_util.sendReward 发奖
+玩家领取低保奖励
+    gainDibaoReward(userId, rankId, issueNum)
+	1.玩家在牌局计算后，若积分到达低保线，返回信息告知客户端“可领取低保”
+	2.玩家点击“查看”，客户端请求低保奖励，服务器验证状态、发奖、改状态
+	dizhu_util.sendReward 发奖
+
+限制：
+1.客户端请求排行榜界面信息时 判断大开关和版本号
+2.结算积分，给客户端返回信息时，判断大开关和版本号
+
+优化：
+在内存中缓存 排行榜历史数据、当前排行榜数据
+class curScoreRankList
+    self._curRankList = None
+    self._timeStamp = 0
+    #{}
+    self._hisRankList = None
+    #_hisRankList = {"issueNum1": listJson2, "issueNum1": listJson2}
+
+    @CT
+    def checkCacheRankList(rankId)
+        if isRankListOutTime():
+            calcCurRankList(rankId)
+        lastFlushRankListTime = time.now()
+
+    def getCurRankList(rankId)
+        checkCacheRankList(rankId)
+        return self._curRankList[rankId]
+
+
+    def calcCurRankList(rankId)
+
+        issueNum = calcIssueNum()
+        buildKye
+
+    def getHisRankList(issueNum, rankId)
+        if self._his...
+            return
+        else :
+            find in redis
+            flush cache
+
+
+
+增加读配置设置
+    参考大厅排行榜验证配置的代码，待完善
+
+

@@ -1,0 +1,142 @@
+{
+	"public": {
+		"ledBaseChip": 15000000000,
+		"ledKingAtMinute": 60
+	},
+	"relatedGames": [
+		{"type": "game", "typeId": "clown", "gameId": 27, "vipLevel":1, "enter_param": {"gameType": 1}, "isOffline": 0},
+		{"type": "game", "typeId": "dog", "gameId": 19, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0}
+	],
+	"bet": {
+		"limit_chip": 20000,
+		"bet_range": [
+			{"chip": [0, 100000], "baseBet": [100, 500, 1000, 10000]},
+			{"chip": [100000, 1000000], "baseBet": [1000, 5000, 10000, 50000]},
+			{"chip": [1000000, 10000000], "baseBet": [10000, 50000, 100000, 500000]},
+			{"chip": [10000000, 20000000], "baseBet": [50000, 100000, 500000, 1000000]},
+			{"chip": [20000000, -1], "baseBet": [100000, 500000, 1000000, 2000000]}
+		],
+		"vip_required_for_bet": 1,
+		"vip_required_for_repeat_bet": 3,
+		"bet_chip_uplimit": 5000000,
+		"scale_display_betchip": {
+			"min_users": 4,
+			"scale_infos": [
+				{"chip": [100, 100000], "scale": [1, 3]}
+			]
+		}
+	},
+	"fire": {
+		"user": {
+			"price": 100000,
+			"count": [1, 5, 10],
+			"basefee": [21888, 155200, 328200],
+			"rewards": [
+				{
+					"big": {"chip": 10000, "number": 1},
+					"small": {"chip": 688, "number": 99}
+				},
+				{
+					"big": {"chip": 38888, "number": 1},
+					"small": {"chip": 2888, "number": 99}
+				},
+				{
+					"big": {"chip": 88888, "number": 1},
+					"small": {"chip": 5888, "number": 99}
+				}
+			],
+			"broadcast_sys_msgs": [
+				"富农{name}放了10万大礼花!",
+				"土豪{name}放了50万大礼花!",
+				"惊呆了,超级土豪{name}放了一百万大礼花,赶紧膜拜吧!"
+			],
+			"reward_msgs": [
+				"恭喜您获得富农{name}的礼金{chip}金币!",
+				"恭喜您获得土豪{name}的礼金{chip}金币!",
+				"恭喜您获得超级土豪{name}的礼金{chip}金币!"
+			],
+			"msg_lable_types": [0, 0, 2]
+		},
+		"system": {
+			"begin": "2016-07-22 12:00:00",
+			"end": "2017-07-22 12:00:00",
+			"times_per_hour": 1,
+			"least_interval": 10,
+			"guixie_name": "系统",
+			"fire_index": 0,
+			"basefee": 31888,
+			"reward": {
+				"small": {"chip": 688, "number": 99}
+			},
+			"broadcast_sys_msg": "系统发放了1个大礼花!",
+			"reward_msg": "恭喜您获得系统发放的礼金{chip}金币!"
+		}
+	},
+	"pool": {
+		"pool_list_len": 20,
+		"guide": [
+			"系统开出大7、小7、大西瓜、小西瓜，有机会触发彩池奖励；",
+			"全体在线用户均有机会获得随机奖励"
+		]
+	},
+	"history": {
+		"save_last_time_for_fruits": [15, 16],
+		"num": 20,
+		"simple_num": 11
+	},
+	"products": {
+		"androidVipTableBuyLeastChip": [
+			80000,
+			80000,
+			360000,
+			360000,
+			1500000,
+			1500000,
+			5000000,
+			20000000,
+			20000000,
+			20000000,
+			20000000
+		],
+		"iosVipTableBuyLeastChip": [
+			60000,
+			60000,
+			360000,
+			1400000,
+			3000000,
+			5500000,
+			12000000,
+			12000000,
+			12000000,
+			12000000,
+			12000000
+		]
+	},
+	"chat": {
+		"vip_required": 5,
+		"interval_chat": 10,
+		"period_after_guixie": 60,
+		"define_chat": [
+			"向大赢家求礼物",
+			"跪谢土豪",
+			"巨奖要爆炸啦,快上啊!",
+			"土豪是铁钱是钢,不放礼花憋得慌!",
+			"买房难,就业惨,押个西瓜当老板!",
+			"水果上弹钢琴,全买了!",
+			"赢那么多,放个礼花吧~",
+			"只押7,只押7,中个77买飞机!",
+			"听说放礼花会中巨奖?",
+			"押7易,中7难,且押且珍惜!",
+			"土豪放礼花,大家笑哈哈!"
+		],
+		"wish_tips": [
+			"恭喜{name}，赢了那么多，放个礼花吧！",
+			"{name}土豪，请带我们飞！",
+			"中大奖发礼花，下次中西瓜！@{name}",
+			"礼花！礼花！7+西瓜~~@{name}!"
+		],
+		"period_sysmsg": 600,
+		"game_define_sysmsg": [
+		]
+	}
+}

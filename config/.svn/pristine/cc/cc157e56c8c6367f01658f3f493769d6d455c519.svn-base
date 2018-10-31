@@ -1,0 +1,264 @@
+{
+    "double": {
+        "ratio": 2,
+        "start.date": "2014-12-17",
+        "end.date": "2014-12-25",
+        "start.time": "20:00",
+        "end.time": "23:00"
+    },
+    "desc": "玩\\${round}局，送\\${prize}",
+    "rooms": {
+        "701101": {
+            "roundCount": 3,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 1,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.01红包券"
+        },
+        "701102": {
+            "roundCount": 3,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 5,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.05红包券"
+        },
+        "701103": {
+            "roundCount": 3,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 10,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.10红包券"
+        },
+        "701104": {
+            "roundCount": 6,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 12,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.12红包券"
+        },
+        "701105": {
+            "roundCount": 6,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 80,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.80红包券"
+        },
+        "701107": {
+            "roundCount": 3,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 1,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.01红包券"
+        },
+        "701108": {
+            "roundCount": 3,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 5,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.05红包券"
+        },
+        "701109": {
+            "roundCount": 3,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 15,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.15红包券"
+        },
+        "701110": {
+            "roundCount": 6,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 100,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "1红包券"
+        },
+        "701201": {
+            "roundCount": 3,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 1,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.01红包券"
+        },
+        "701202": {
+            "roundCount": 3,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 5,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.05红包券"
+        },
+        "701203": {
+            "roundCount": 3,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 10,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.10红包券"
+        },
+        "701204": {
+            "roundCount": 6,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 12,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.12红包券"
+        },
+        "701205": {
+            "roundCount": 6,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 80,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.80红包券"
+        },
+        "701207": {
+            "roundCount": 3,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 1,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.01红包券"
+        },
+        "701208": {
+            "roundCount": 3,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 5,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.05红包券"
+        },
+        "701209": {
+            "roundCount": 3,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 15,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.15红包券"
+        },
+        "701210": {
+            "roundCount": 6,
+            "continueSeconds": 3600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 100,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "1红包券"
+        }
+    }
+}

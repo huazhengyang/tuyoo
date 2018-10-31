@@ -1,0 +1,51 @@
+
+minQuickStartChip = -1 表示不支持快开
+房间配置
+{
+    "minQuickStartChip": 4000
+}
+
+房间进入条件配置
+{
+    "enterRoomCond":  [
+    {
+      "cond": {
+        "typeId": "user.cond.vipLevel",
+        "startLevel": -1,
+        "stopLevel": -1
+      },
+      "msg":"等级不足"
+    },
+    {
+      "cond": {
+        "typeId": "user.cond.dizhu.dashifen",
+        "minScore": -1,
+        "maxScore": -1
+      },
+      "msg":"大师分不足"
+    }
+    ]
+}
+
+
+game:6:quickstart:0.json
+{
+  "hallStartChip" : 8000,
+  "hallStartRooms" : [6001, 6002, 6011, 6031],
+  "matchStartChip": 10000000,
+  "matchStartRooms": [6059]
+}
+
+
+
+大厅快开：
+当玩家持有金币数量小于 minQuickStartChip 时——引导至 hallStartRooms 的房间中，
+当玩家持有金币数量大于 minQuickStartChip 时——执行经典场房间列表中“快速开始”按钮逻辑。
+
+房间快开：
+当玩家金币数量小于（不等于）该PlayMode下的最小金币场的miniQuickStartChip引导至免费场
+若玩家大于（等于）该PlayMode下的最小金币场的miniQuickStartChip将玩家引导至与玩家持有金币数量最为匹配的房间中（优先从大房间开始找）
+
+比赛快开：
+当玩家持有金币数量小于 matchStartChip 时——引导至 matchStartRooms 的房间中（经典1元红包赛中）
+当玩家持有金币数量大于 matchStartChip 时——引导至玩家持有金币数量最为匹配的房间中（优先从大房间开始找）

@@ -1,0 +1,433 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "chess_v3.771_AI_hejiaoyu"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 3110801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "chess_v3.771_AI_share"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "chess_v3.77_IOS"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "chess_v3.82_AI_chess_v3.765_AI_ddz_lianyun_promote_slots"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "chess_v3.82_AI_chess_v3.821_ddz_v3.82_AI_ddz_lianyun_promote_slots2"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 3012901,
+       "conditions"  : [
+        {
+         "stopExp"     : 1,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "chess_v4.56_AI_4.56"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6112201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "chess_v4.56_AI_shiming"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "template.3_71_chinesechess"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "template.3_71_chinesechess_empty"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 3072101,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "shareId"     : 104,
+     "typeId"      : "todotask.sharegift.with.shareId"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "推荐分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 3072102,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "shareId"     : 105,
+     "typeId"      : "todotask.sharegift.with.shareId"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "多次分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 3080901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新的首冲",
+   "url"         : "${http_download}/hall/promote/imgs/promote_button_FirstRecharge_20160809.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 3102801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "xq_invite_new_friend_20161028",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "新朋友活动",
+   "url"         : "${http_download}/hall/promote/imgs/xinpengyouhongbao2.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 3110801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 104,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "推荐好友注册，您的朋友可得20元微信红包！！！（每日首次分享赠送500金币）"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "推荐分享",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_dailyshare_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 3012901,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "templateName": "firstBuy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "一元首充",
+   "url"         : "${http_download}/hall/promote/imgs/first_charge68_458.png",
+   "defaultRes"  : "一元首充"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+  "withdrawAmount": [
+    {
+      "conditions": {
+        "list": [
+        {
+          "startExp": 0,
+          "stopExp": 50,
+          "typeId": "user.cond.vipExp"
+        },
+        { "start": 2,
+          "stop": 3,
+          "typeId": "user.cond.couponWithdraw"
+        }
+      ],
+      "typeId": "user.cond.and"
+      },
+      "amount": 10
+    },
+    {
+      "conditions": {
+        "list": [
+        {
+          "startExp": 0,
+          "stopExp": 50,
+          "typeId": "user.cond.vipExp"
+        },
+        { "start": 4,
+          "stop": 5,
+          "typeId": "user.cond.couponWithdraw"
+        }
+      ],
+      "typeId": "user.cond.and"
+      },
+      "amount": 30
+    },
+    {
+      "conditions": {
+        "list": [
+        {
+          "startExp": 0,
+          "stopExp": 50,
+          "typeId": "user.cond.vipExp"
+        },
+        { "start": 6,
+          "stop": -1,
+          "typeId": "user.cond.couponWithdraw"
+        }
+      ],
+      "typeId": "user.cond.and"
+      },
+      "amount": 40
+    },
+    {
+      "conditions": {
+        "list": [
+        {
+          "startExp": 50,
+          "stopExp": 100,
+          "typeId": "user.cond.vipExp"
+        },
+        { "start": 3,
+          "stop": 4,
+          "typeId": "user.cond.couponWithdraw"
+        }
+      ],
+      "typeId": "user.cond.and"
+      },
+      "amount": 10
+    },
+    {
+      "conditions": {
+        "list": [
+        {
+          "startExp": 50,
+          "stopExp": 100,
+          "typeId": "user.cond.vipExp"
+        },
+        { "start": 5,
+          "stop": -1,
+          "typeId": "user.cond.couponWithdraw"
+        }
+      ],
+      "typeId": "user.cond.and"
+      },
+      "amount": 20
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "_comment": [
+    "子大厅轮播图"
+  ],
+  "normal": {
+    "name": "云顶牌桌活动升级",
+    "pic": "${http_download}/texas/images/ads/20180103_subhallbanner_yunding.jpg",
+    "todotask": {"action": "dz_quick_start",
+     "params": {
+     "roomId": 8127
+      }
+    }
+  },
+  "match": {
+    "name": "星耀午间冠军赛",
+    "pic": "${http_download}/texas/images/ads/20180103_subhallbanner_match.jpg",
+    "todotask": {
+    "action":"dz_match_detail",
+    "params":{"roomId": 8212}}
+    }
+}

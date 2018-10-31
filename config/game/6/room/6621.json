@@ -1,0 +1,517 @@
+{
+  "buyinchip" : 0,
+  "hasRewardIndex" : 1,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "开赛时间：每日21:00 \n报名费用：200金币或1张参赛券",
+	"outAssWait": 1,
+    "fees" : [
+			{
+				"count" : 1,
+				"itemId" : "item:1007",
+				"params" : {
+					"failure" : "您的费用不足，本比赛报名费需1张参赛券"
+				}
+			},
+			{
+				"count" : 200,
+				"itemId" : "user:chip",
+				"params" : {
+					"nextTip" : "您的参赛券不足啦~使用200金币报名入场吧~\n(提示：每日登录赠送10张参赛券喔！)",
+					"failure" : "您的金币不足，选择其他报名条件或者买个金币礼包吧",
+					"payOrder" : {
+						"contains" : {
+							"count" : 200,
+							"itemId" : "user:chip"
+						},
+						"shelves" : [
+							"lessbuychip"
+						]
+					}
+				}
+			}
+		],
+    "rank.rewards" : [
+      {
+        "desc" : "元宵礼盒x1",
+        "bigImg":"${http_download}/dizhu/room/imgs/reward_240_yuanxiaolihe_180227.png",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "shareInfo": {
+          "type": "jiadian",
+          "name": "元宵礼盒"
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:2263",
+            "desc" : "元宵礼盒"
+          },
+          {
+            "count" : 320,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "50红包券+150大师分",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 5000,
+            "itemId" : "user:coupon"
+          },
+          {
+            "count" : 150,
+            "itemId" : "ddz:master.score"
+          }
+        ],
+        "todotask" : {
+          "action" : "rep_sence_shop",
+          "params" : {
+            "subStore" : "coupon"
+          }
+        }
+      },
+      {
+        "desc" : "30红包券+70大师分",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 3000,
+            "itemId" : "user:coupon"
+          },
+          {
+            "count" : 70,
+            "itemId" : "ddz:master.score"
+          }
+        ],
+        "todotask" : {
+          "action" : "rep_sence_shop",
+          "params" : {
+            "subStore" : "coupon"
+          }
+        }
+      },
+      {
+        "desc" : "10红包券+60大师分",
+        "ranking" : {
+          "end" : 5,
+          "start" : 4
+        },
+        "rewards" : [
+          {
+            "count" : 1000,
+            "itemId" : "user:coupon"
+          },
+          {
+            "count" : 60,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "8红包券+40大师分",
+        "ranking" : {
+          "end" : 10,
+          "start" : 6
+        },
+        "rewards" : [
+          {
+            "count" : 800,
+            "itemId" : "user:coupon"
+          },
+          {
+            "count" : 40,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "6红包券+35大师分",
+        "ranking" : {
+          "end" : 20,
+          "start" : 11
+        },
+        "rewards" : [
+          {
+            "count" : 600,
+            "itemId" : "user:coupon"
+          },
+          {
+            "count" : 35,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "4红包券+25大师分",
+        "ranking" : {
+          "end" : 40,
+          "start" : 21
+        },
+        "rewards" : [
+          {
+            "count" : 400,
+            "itemId" : "user:coupon"
+          },
+          {
+            "count" : 25,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "3红包券+15大师分",
+        "ranking" : {
+          "end" : 80,
+          "start" : 41
+        },
+        "rewards" : [
+          {
+            "count" : 300,
+            "itemId" : "user:coupon"
+          },
+          {
+            "count" : 15,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "2红包券+6大师分",
+        "ranking" : {
+          "end" : 150,
+          "start" : 81
+        },
+        "rewards" : [
+          {
+            "count" : 200,
+            "itemId" : "user:coupon"
+          },
+          {
+            "count" : 6,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "1红包券+3大师分",
+        "ranking" : {
+          "end" : 240,
+          "start" : 151
+        },
+        "rewards" : [
+          {
+            "count" : 100,
+            "itemId" : "user:coupon"
+          },
+          {
+            "count" : 3,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "0.5红包券+1大师分",
+        "ranking" : {
+          "end" : 500,
+          "start" : 241
+        },
+        "rewards" : [
+          {
+            "count" : 50,
+            "itemId" : "user:coupon"
+          },
+          {
+            "count" : 1,
+            "itemId" : "ddz:master.score"
+          }
+        ]
+      },
+      {
+        "desc" : "0.3红包券",
+        "ranking" : {
+          "end" : 1000,
+          "start" : 501
+        },
+        "rewards" : [
+          {
+            "count" : 30,
+            "itemId" : "user:coupon"
+          }
+        ]
+      }
+    ],
+    "stages" : [
+      {
+        "animation.type" : 0,
+        "card.count" : 15,
+        "chip.base" : 1000,
+        "chip.grow" : 0.3,
+        "chip.grow.base" : 300,
+        "chip.grow.incr" : 100,
+        "chip.times" : 60,
+        "chip.user" : 30000,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 0,
+        "grouping.type" : 2,
+        "grouping.user.count" : 3000,
+        "lose.user.chip" : 0,
+        "name" : "海选赛",
+        "rise.user.count" : 600,
+        "rise.user.refer" : 900,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 0,
+        "card.count" : 15,
+        "chip.base" : 1000,
+        "chip.grow" : 0.2,
+        "chip.grow.base" : 200,
+        "chip.grow.incr" : 100,
+        "chip.times" : 60,
+        "chip.user" : 3,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 20000,
+        "lose.user.chip" : 0,
+        "name" : "晋级赛",
+        "rise.user.count" : 192,
+        "rise.user.refer" : 300,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 3,
+        "chip.user.3.base" : 300,
+        "name" : "192强赛",
+		"call.type": "inturn",
+        "rise.user.count" : 96,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "96强赛",
+		"call.type": "inturn",
+        "rise.user.count" : 48,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "48强赛",
+		"call.type": "inturn",
+        "rise.user.count" : 24,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "24强赛",
+		"call.type": "inturn",
+        "rise.user.count" : 12,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "12强赛",
+		"call.type": "inturn",
+        "rise.user.count" : 6,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "6强赛",
+		"call.type": "inturn",
+        "rise.user.count" : 3,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 2,
+        "card.count" : 6,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "决赛",
+		"call.type": "inturn",
+        "rise.user.count" : 1,
+        "seat.principles" : 2,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 1,
+      "maxplaytime" : 10800,
+      "prepare.times" : 10,
+      "signin.times" : 86400,
+      "start.speed" : 8,
+      "table.times" : 480,
+      "times" : {
+        "days" : {
+		"list" : [
+		"20180301",
+		"20180302",
+		"20180303"		
+		]
+    },
+        "times_in_day" : {
+          "list" : [
+            "21:00"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 20000,
+      "user.maxsize" : 20000,
+	  "signin.maxsize":40000,
+      "user.minsize" : 30,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 3,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。",
+        "积分低于淘汰分数线会被淘汰，称打立出局。",
+        "打立赛制有局数上限，打满局数会等待他人。",
+        "打立阶段，轮空时会记1局游戏。",
+        "定局赛制，指打固定局数后按积分排名。",
+        "每局会按照开局时的底分结算。",
+        "比赛流局时，可能会有积分惩罚。"
+      ],
+      "interval" : 5
+    },
+    "matchRules": [
+      [
+        {
+            "type": 0,
+            "text": "规则介绍"
+        },
+        {
+            "type": 1,
+            "text": "玩法：经典玩法"
+        },
+        {
+            "type": 1,
+            "text": "阶段1：海选赛：3000人一组，打立出局至900人截止，"
+        },
+        {
+            "type": 1,
+            "text": "各组前600名晋级。"
+        },
+        {
+            "type": 1,
+            "text": "阶段2：晋级赛：打立出局至300人截止，192人晋级。"
+        },
+        {
+            "type": 1,
+            "text": "阶段3：决赛：7轮定局积分，轮流首叫，前6轮3副牌，"
+        },
+        {
+            "type": 1,
+            "text": "第7轮6副牌。"
+        },
+        {
+            "type": 1,
+            "text": "提示：实物奖励会发放至背包中，请尽快使用并填写"
+        },
+        {
+            "type": 1,
+            "text": "对应信息哟。"
+        }
+      ]
+    ]
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "元宵节丨团圆飘香庆上元",
+  "championLed" : "冠军led显示",
+  "rewardShow" : "元宵礼盒兑换券1张",
+  "playDesc" : "",
+  "playMode" : "123",
+  "robotUserCallUpTime" : 5,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    2,
+    3
+  ],
+  "roomFee" : 45,
+  "roomMutil" : 50,
+  "showCard" : 0,
+  "tableConf" : {
+    "autochange" : 1,
+    "basebet" : 1,
+    "basemulti" : 1,
+    "canchat" : 0,
+	"nongminWinAlone" : 1,
+    "cardNoteDiamond" : 12,
+    "coin2chip" : 1,
+    "grab" : 0,
+    "gslam" : 128,
+    "lucky" : 0,
+    "maxSeatN" : 3,
+    "optime" : 15,
+    "passtime" : 5,
+    "rangpaiMultiType" : 1,
+    "robottimes" : 2,
+    "tbbox" : 0,
+    "unticheat" : 0
+  },
+  "typeName" : "dizhu_group_match",
+  "winDesc" : ""
+}

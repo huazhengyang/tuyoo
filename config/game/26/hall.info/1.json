@@ -1,0 +1,46 @@
+{
+  "room_items": {
+    "26001": { "id": 26001, "name": "新手场", "basebet": 20, "mingold": 0, "maxgold": 400, "condition": "最少携带1020金币" },
+    "26002": { "id": 26002, "name": "中级场", "basebet": 200, "mingold": 400, "maxgold": 6000, "condition": "最少携带1030金币" },
+    "26003": { "id": 26003, "name": "高级场", "basebet": 2000, "mingold": 6000, "maxgold": -1, "condition": "最少携带1040金币" },
+    "26004": { "id": 26004, "name": "大师场", "basebet": 2000, "mingold": 6000, "maxgold": -1, "condition": "最少携带1050金币" },
+    "26005": { "id": 26005, "name": "宗师场", "basebet": 2000, "mingold": 6000, "maxgold": -1, "condition": "最少携带1060金币" },
+    "26006": { "id": 26006, "name": "荣耀宗师", "basebet": 2000, "mingold": 6000, "maxgold": -1, "condition": "最少携带1070金币" },
+
+    "26101": { "id": 26101, "name": "新手场",  "basebet": 10, "mingold": 0, "maxgold": 400, "condition": "最少携带1000金币" },
+    "26102": { "id": 26102, "name": "中级场",  "basebet": 100, "mingold": 400, "maxgold": 6000, "condition": "最少携带2000金币" },
+    "26103": { "id": 26103, "name": "高级场",  "basebet": 1000, "mingold": 6000, "maxgold": -1, "condition": "最少携带3000金币" },
+    "26104": { "id": 26104, "name": "大师场",  "basebet": 1000, "mingold": 6000, "maxgold": -1, "condition": "最少携带4000金币" },
+    "26105": { "id": 26105, "name": "宗师场",  "basebet": 1000, "mingold": 6000, "maxgold": -1, "condition": "最少携带5000金币" },
+    "26106": { "id": 26106, "name": "荣耀宗师", "basebet": 1000, "mingold": 6000, "maxgold": -1, "condition": "最少携带6000金币" },
+
+    "26201": { "id": 26201, "name": "青铜赛", "award" : 10,    "mingold": 0,       "maxgold": 400, "condition": "最少携带1000金币" },
+    "26202": { "id": 26202, "name": "白银赛", "award" : 100,   "mingold": 400,     "maxgold": 6000, "condition": "最少携带2200金币" },
+    "26203": { "id": 26203, "name": "黄金赛", "award" : 1000,  "mingold": 6000,    "maxgold": -1, "condition": "最少携带2300金币" },
+    "26204": { "id": 26204, "name": "钻石赛", "award" : 10000, "mingold": 6000,    "maxgold": -1, "condition": "最少携带2400金币" },
+    "26205": { "id": 26205, "name": "皇冠赛", "award" : 10000, "mingold": 6000,    "maxgold": -1, "condition": "最少携带2500金币" },
+    "26206": { "id": 26206, "name": "传奇赛", "award" : 20000, "mingold": 6000,    "maxgold": -1, "condition": "最少携带2600金币" },
+
+    "26301": { "id": 26301, "name": "青铜赛", "award" : 100,  "mingold": 0, "maxgold": 400, "condition": "最少携带1000金币" },
+    "26302": { "id": 26302, "name": "白银赛", "award" : 100,  "mingold": 400, "maxgold": 6000, "condition": "最少携带1200金币" },
+    "26303": { "id": 26303, "name": "黄金赛", "award" : 100,  "mingold": 6000, "maxgold": -1, "condition": "最少携带1300金币" },
+    "26304": { "id": 26304, "name": "钻石赛", "award" : 100,  "mingold": 6000, "maxgold": -1, "condition": "最少携带1400金币" },
+    "26305": { "id": 26305, "name": "皇冠赛", "award" : 100,  "mingold": 6000, "maxgold": -1, "condition": "最少携带1500金币" },
+    "26306": { "id": 26306, "name": "传奇赛", "award" : 100,  "mingold": 6000, "maxgold": -1, "condition": "最少携带1600金币" },
+
+    "26450": { "id": 26450, "name": "大比赛快速",  "condition": "" },
+    "26451": { "id": 26451, "name": "大比赛经典",  "condition": "" }
+  },
+  "session_items" : {
+    "jd": {"session": "1v1经典模式", "match": 1, "room_type":1, "gameType": 26, "rooms": ["26001", "26002", "26003", "26004", "26005", "26006"]},
+    "ks": {"session": "1v1快速模式", "match": 1, "room_type":2,"gameType": 26, "rooms": ["26101", "26102", "26103", "26104", "26105", "26106"]},
+    "8j": {"session": "8人经典比赛", "match": 1,"room_type":3, "gameType": 26, "rooms": ["26201", "26202", "26203", "26204", "26205", "26206"]},
+    "8k": {"session": "8人快速比赛", "match": 1,"room_type":4, "gameType": 26, "rooms": ["26301", "26302", "26303", "26304", "26305", "26306"]},
+    "bj": {"session": "经典大比赛", "match": 1,"room_type":5, "gameType": 26, "rooms": ["26450"]},
+    "bk": {"session": "快速大比赛", "match": 1,"room_type":6, "gameType": 26, "rooms": ["26451"]}
+  },
+
+  "templates" : {
+    "default" : ["jd", "ks", "8j", "8k", "bj", "bk"]
+  }
+}

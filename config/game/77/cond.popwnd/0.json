@@ -1,0 +1,132 @@
+{
+  "login":[
+    {
+      "id":"cond.popwnd.nocharge.entertable",
+      "popcountlimit":
+      {
+        "type": "day",
+        "popcount":3
+      },
+      "maintaskparams":
+      {
+        "pic":"http://ddz.dl.tuyoo.com/cdn37/texas/images/activity/20170124_590590.jpg",
+        "close": true,
+        "notshowintable":true
+      },
+      "conditions"                    : [
+      {
+            "typeId": "user.cond.datetime",
+            "format": "%Y-%m-%d %H:%M:%S",
+            "start": "2017-05-29 12:30:00",
+            "end": "2018-01-01 12:30:00"
+        }
+     ],
+      "subtask"   :
+      {
+       "action": "quick_start",
+        "params": {
+          "roomId": 77009
+        }
+      }
+    },
+    {
+      "id":"cond.popwnd.nocharge.entermatch",
+      "popcountlimit":
+      {
+        "type": "day",
+        "popcount":1
+      },
+      "maintaskparams":
+      {
+        "pic":"http://ddz.dl.tuyoo.com/cdn37/texas/images/popwnd/20180313_allin.png",
+        "close": true,
+        "notshowintable":true
+      },
+      "conditions"                    :
+      [
+      {
+            "typeId": "user.cond.datetime",
+            "format": "%Y-%m-%d %H:%M:%S",
+            "start": "2017-05-29 12:30:00",
+            "end": "2018-04-30 12:30:00"
+        }
+     ],
+      "subtask":{
+        "action":"t3order_jump2_match",
+        "params":{
+                            "subaction":{"action":"dz_match_detail",
+                              "params":{"roomId":77017}}}}
+    },
+    {
+      "id": "cond.popwnd.nocharge.quickstart",
+      "popcountlimit": {
+        "type": "day",
+        "popcount": 3
+      },
+      "maintaskparams": {
+        "pic": "http://ddz.dl.tuyoo.com/cdn37/texas/images/activity/20170124_590590.jpg",
+        "close": true,
+        "notshowintable":true
+      },
+      "conditions": [
+        {
+            "typeId": "user.cond.datetime",
+            "format": "%Y-%m-%d %H:%M:%S",
+            "start": "2017-05-29 12:30:00",
+            "end": "2018-01-01 12:30:00"
+        }
+      ],
+      "subtask": {
+        "action": "quick_start",
+        "params": {}
+      }
+    },
+    {
+      "id": "cond.popwnd.nocharge.closepop",
+      "popcountlimit": {
+        "type": "timestamp",
+        "start":"2017-05-29 12:00:00",
+        "end":"2018-01-01 12:00:00",
+        "popcount": 3
+      },
+      "maintaskparams": {
+        "pic": "http://ddz.dl.tuyoo.com/cdn37/texas/images/activity/20170124_590590.jpg",
+        "close": true,
+        "notshowintable":true
+      },
+      "conditions": [
+        {
+          "typeId": "user.cond.datetime",
+          "format": "%Y-%m-%d %H:%M:%S",
+          "start": "2017-05-29 12:30:00",
+          "end": "2018-01-01 12:30:00"
+        }
+      ],
+      "subtask": {
+      }
+    },
+    {
+      "id": "cond.popwnd.nocharge.noeffect",
+      "popcountlimit": {
+        "type": "day",
+        "popcount": 3
+      },
+      "maintaskparams": {
+        "pic": "http://ddz.dl.tuyoo.com/cdn37/texas/images/activity/20170124_590590.jpg",
+        "close": false,
+        "notshowintable":true
+      },
+      "conditions": [
+        {
+          "typeId": "user.cond.datetime",
+          "format": "%Y-%m-%d %H:%M:%S",
+          "start": "2017-05-29 12:30:00",
+          "end": "2018-01-01 12:30:00"
+        }
+      ],
+      "subtask": {
+      }
+    }
+  ],
+  "pay":[]
+}

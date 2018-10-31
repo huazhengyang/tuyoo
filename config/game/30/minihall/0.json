@@ -1,0 +1,29 @@
+{
+    "minihall":[
+	    {
+            "img": "${http_download}/t3card/images/ads/20170608_VIProom_ads.jpg",
+            "des": "打开贵宾室房间列表",
+            "gotoType": "goto_roomlist",
+            "gotoParam": {
+				"gameType": 3
+			}
+		},
+		{
+            "img": "${http_download}/t3card/images/ads/20170412_supper6000_ads.jpg",
+            "des": "比赛列表pageIndex:标签页数",
+            "gotoType": "goto_mtt",
+            "gotoParam": {
+                "pageIndex":3
+            }
+        },
+	    {
+            "img": "${http_download}/t3card/images/ads/20180103_pad_ads.jpg",
+            "des": "比赛列表pageIndex:标签页数",
+            "gotoType": "goto_mtt",
+            "gotoParam": {
+                "pageIndex":3
+            }
+		}
+		
+    ]
+}

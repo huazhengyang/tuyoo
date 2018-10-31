@@ -1,0 +1,14 @@
+{
+	"templates":{
+		"tishen":{
+			"honngbaoquan.switch":0,
+			"red_packet_rain.switch":0,
+			"led.switch":0
+		},
+		"default" : {
+			"honngbaoquan.switch":1,
+			"red_packet_rain.switch":1,
+			"led.switch":1
+	    }
+	}
+}

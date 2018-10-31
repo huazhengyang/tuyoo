@@ -1,0 +1,22 @@
+{
+  "default":{
+      "img":"${http_download}/t3card/images/vip_room/h3card_ad_t3card_1124.jpg",
+      "bOpenCusTom": false,
+      "gotoGameId": 30,
+      "typeId": "t3card",
+      "gotoParam":{}
+  },
+  "defaultNotT3card":{
+      "img":"${http_download}/t3card/images/h3card_ad_t3card_3.21.jpg",
+      "bOpenCusTom": false,
+      "gotoGameId": -1,
+	  "vip": 2,
+	  "totalTime":10000,
+	  "playTimes":10000,
+	  "aduit_clientId": ["0-hall30"],
+      "typeId": "t3card_downloadApp",
+      "gotoParam":{}
+  },
+  "richRankingReward":"${http_download}/t3card/images/h3card_ad_t3card_rankhint.jpg",
+  "fireworksBuff":"${http_download}/t3card/images/h3card_ad_t3card_buff.jpg"
+}

@@ -1,0 +1,67 @@
+陌陌客户端与服务器的初始通讯协议:
+
+1. user_info  ->  user_info
+	禁止登陆检查 OK
+	发送基本用户信息 OK
+	发送游戏基本信息 OK
+	大厅过滤大师分 OK
+
+2. bind_user  ->  user_info | game_data
+	禁止登陆检查 OK
+	更新基本信息 OK
+	登录当前的游戏 OK
+		检查,创建游戏数据 OK
+			基本游戏数据gamedata OK
+			其他item, medal等 NG
+		今日首次登录标记 OK
+		触发EventUserLogin事件 OK
+			大厅发启动资金 NG (暂时固定代码处理)
+			大厅发救济金 NG
+	发送响应消息 OK
+	发送TODOTASK弹窗 NG
+	BI日志汇报 OK
+
+3. game_data  ->  game_data
+	仅返回游戏数据 OK
+
+4. bind_game  ->  game_data
+	业务处理与bind_user基本一致
+	返回游戏数据 OK
+	发送TODOTASK弹窗 NG
+	BI日志汇报 OK
+
+5. heart_beat -> room_online_info & m_signs & led
+	发送系统的LED消息 GO from poker.entity.biz.message.led import Led, 未实现具体内容
+	发送用户的比赛报名状态 GO 需要协调比赛房间报名时,报名状态再redis中的键值和数据格式
+	发送当前的在线人数信息 GO 需要协调房间的心跳时上报的房间人数的redis键值和数据格式
+
+6. modules_switch -> modules_switch
+	发送界面开关的配置信息
+
+7. hall_info -> hall_info
+	完成 OK
+	全量配置 NG
+
+8. bag#update
+	建刚处理 NG
+
+9. every_task#update
+	喜讯处理
+
+10. message#(private_update,global_update)  -> message
+	完成 OK 
+			仅保留private_update消息, 
+			global_update的消息已经无用, 丢弃, 仅作缺省消息支持
+
+11. htmls_info  ->  htmls_info
+	完成 OK
+
+12. get_head_pics  ->  get_head_pics
+	完成 OK
+
+13. get_more_games  ->  get_more_games
+	完成 OK
+
+14. quick_start
+	NG
+	

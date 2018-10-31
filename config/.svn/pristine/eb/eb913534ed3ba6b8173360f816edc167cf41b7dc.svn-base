@@ -1,0 +1,137 @@
+{
+  "condition" : "1万金币准入",
+  "dummyUserCount" : 0,
+  "goodCard" : 1,
+  "hasrobot" : 0,
+  "ismatch" : 0,
+  "matchConf" : null,
+  "maxCoin" : -1,
+  "maxLevel" : -1,
+  "minCoin" : 1,
+  "minCoinQS": 1,
+  "maxCoinQS": -1,
+  "name" : "超级小丑",
+  "playDesc" : "",
+  "playMode" : "clown",
+  "robotUserCallUpTime" : 2,
+  "robotUserMaxCount" : 6,
+  "robotUserOpTime" : [
+    1,
+    2
+  ],
+  "roomFee" : 45,
+  "roomMutil" : 50,
+  "sendCoupon" : 0,
+  "showCard" : 1,
+  "tableConf" : {
+    "baseBetTimes" : [
+      2,
+      3,
+      5
+    ],
+    "chargeAutoResultTime" : 180,
+    "deafultGameTimes" : 999,
+    "defaultAutoRoll" : 20,
+    "failChipForDay" : 500000000,
+    "gameType" : 1,
+    "maxDoubleLoseCheckStar": 3,
+    "maxDoubleContinueLoseTimes": 1000000,
+    "isOpenBaseBetTimes" : [
+      0,
+      0,
+      -1
+    ],
+    "limitChip" : 20000,
+    "maxSeatN" : -1,
+    "optionalBetRanges" : {
+      "10000" : {
+        "betRange" : [
+          100,
+          1000,
+          2000,
+          5000,
+          10000
+        ],
+        "defaultBet" : 2000
+      },
+      "10000000" : {
+        "betRange" : [
+          10000,
+          20000,
+          50000,
+          100000,
+          200000
+        ],
+        "defaultBet" : 50000
+      },
+      "300000" : {
+        "betRange" : [
+          1000,
+          2000,
+          5000,
+          10000,
+          20000
+        ],
+        "defaultBet" : 5000
+      },
+      "5000000" : {
+        "betRange" : [
+          5000,
+          10000,
+          20000,
+          50000,
+          100000
+        ],
+        "defaultBet" : 20000
+      },
+      "50000000" : {
+        "betRange" : [
+          20000,
+          50000,
+          100000,
+          200000,
+          300000
+        ],
+        "defaultBet" : 100000
+      },
+      "600000" : {
+        "betRange" : [
+          2000,
+          5000,
+          10000,
+          20000,
+          50000
+        ],
+        "defaultBet" : 10000
+      }
+    },
+    "playGameChip" : 20000,
+    "playGameVip" : 1,
+    "profilesForPlayer" : [
+      {
+        "maxChip" : -1,
+        "minChip" : 1000000000,
+        "rate" : 5
+      },
+      {
+        "maxChip" : 1000000000,
+        "minChip" : 500000000,
+        "rate" : 15
+      },
+      {
+        "maxChip" : 500000000,
+        "minChip" : 0,
+        "rate" : 35
+      }
+    ],
+	"relatedGames": [
+      {"type": "game", "typeId": "newfruit", "gameId": 31, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0},
+      {"type": "game", "typeId": "dog", "gameId": 19, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0}
+	],
+    "srollTime1" : 2,
+    "srollTime2" : 10,
+    "updatePoolTime" : 120
+  },
+  "typeName" : "normal",
+  "winDesc" : ""
+}

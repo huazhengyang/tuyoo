@@ -1,0 +1,50 @@
+{
+ "templates"                            : {
+  "newfish_v4.55_AI_first_test"          : {
+   "desc"                                 : "欢乐捕鱼大厅活动测试",
+   "activities"                           : [
+    "newfish_20170828_test_activity"
+   ]
+  },
+  "newfish_v4.55_AI_examination_activity": {
+   "desc"                                 : "欢乐捕鱼activity提审模板",
+   "activities"                           : [
+    "newfish_20170828_test_activity"
+   ]
+  }
+ },
+ "activities"                           : {
+  "newfish_20170828_test_activity"       : {
+   "id"                                   : "newfish_20170828_test_activity",
+   "des"                                  : "即日起，在渔场打鱼的玩家有机会遇到金币宝箱，捕获后可得大量金币",
+   "moduleId"                             : "notice_img",
+   "typeid"                               : 1,
+   "name"                                 : "渔场寻宝",
+   "server_config"                        : {
+    "start"                                : "2017-08-28 00:00:00",
+    "end"                                  : "2017-12-13 00:00:00"
+   },
+   "config"                               : {
+    "firstButton"                          : {
+     "visible"                              : 0,
+     "action"                               : "",
+     "params"                               : {
+      "duration"                             : 2,
+      "text"                                 : "确定"
+     }
+    },
+    "secondButton"                         : {
+     "visible"                              : 0,
+     "action"                               : "",
+     "params"                               : {
+      "duration"                             : 2,
+      "text"                                 : "确定"
+     }
+    },
+    "bgURL"                                : "${http_download}/newfish/act_catchfish_20170818_treasurebox.jpg"
+   },
+   "url"                                  : ""
+  }
+ },
+ "modules"                              : { }
+}

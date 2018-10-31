@@ -1,0 +1,117 @@
+{
+    "limits": [
+        {
+            "itemId": "chip",
+            "minValue": 1,
+            "maxValue": 20000,
+            "minCount": 1,
+            "maxCount": 1000
+        },
+        {
+            "itemId": "coupon",
+            "minValue": 1,
+            "maxValue": 200,
+            "minCount": 1,
+            "maxCount": 1000
+        },
+        {
+            "itemId": "diamond",
+            "minValue": 1,
+            "maxValue": 10,
+            "minCount": 1,
+            "maxCount": 1000
+        },
+        {
+            "itemId": "charm",
+            "minValue": 1,
+            "maxValue": 10,
+            "minCount": 1,
+            "maxCount": 1000
+        },
+        {
+            "itemId": "exp",
+            "minValue": 1,
+            "maxValue": 100,
+            "minCount": 1,
+            "maxCount": 1000
+        },
+        {
+            "itemId": "item",
+            "minValue": 1,
+            "maxValue": 1,
+            "minCount": 1,
+            "maxCount": 1000
+        }
+    ],
+    "config": {
+        "minCount": 1,
+        "maxCount": 3,
+        "expiredTime": 604800
+    },
+    "tips": {
+        "not_found": {
+            "info": "好遗憾，红包过期了，以后下手一定要快哦~",
+            "code": 1
+        },
+        "finished": {
+            "info": "好遗憾，红包被抢光了，以后下手一定要快哦~",
+            "code": 2
+        },
+        "opened": {
+            "info": "您已领取过这个红包",
+            "code": 3
+        },
+        "not_login": {
+            "info": "您尚未登录，请先使用手机号登录！",
+            "code": 4
+        },
+        "success": {
+            "info": "恭喜你打开红包，获得：",
+            "code": 5
+        },
+        "not_support": {
+            "info": "不支持的红包内容",
+            "code": 6
+        },
+        "value_out": {
+            "info": "数值超限，请重新申请",
+            "code": 7
+        },
+        "count_out": {
+            "info": "数量超限，请重新申请",
+            "code": 8
+        },
+        "item_ok": {
+            "info": "添加红包内容成功",
+            "code": 9
+        },
+        "envelope_ok": {
+            "info": "生成红包成功",
+            "code": 10
+        },
+        "load_config_err": {
+            "info": "好遗憾，红包过期了，以后下手一定要快哦~",
+            "code": 11
+        },
+        "load_contents_err": {
+            "info": "红包奖励池信息有误",
+            "code": 12
+        },
+        "load_packages_err": {
+            "info": "好遗憾，红包过期了，以后下手一定要快哦~",
+            "code": 13
+        },
+        "load_receiver_err": {
+            "info": "获取红包领用者信息有误",
+            "code": 14
+        },
+        "promote_already_have": {
+            "info": "您已经生成过推广红包",
+            "code": 15
+        },
+        "expired": {
+            "info": "好遗憾，红包过期了，以后下手一定要快哦~",
+            "code": 16
+        }
+    }
+}

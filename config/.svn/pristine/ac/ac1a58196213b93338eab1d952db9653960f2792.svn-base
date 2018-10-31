@@ -1,0 +1,14 @@
+{
+  "templates" : {
+    "full1" : {
+      "force" : "0",
+      "des" : "1、测试全量更新\n\n更新文件大小: 16.2M",
+      "path" : "${http_download}/update/update_package_v3.apk",
+      "md5" : "ZZZZZZZZZZZZZZZZZZZZZZZZZZ",
+      "id" : 1,
+      "size" : "169KB",
+      "autoDownloadCondition" : 7,
+      "updateAt" : "background"
+    }
+  }
+}

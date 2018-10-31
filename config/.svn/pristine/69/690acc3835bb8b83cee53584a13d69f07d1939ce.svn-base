@@ -1,0 +1,62 @@
+{
+  "switch": 0,
+  "templates": {
+    "promote": {
+      "msg": "你的好友【\\${userName}】在闯关升级中段位超越了你，还不快去反超他\n点击下方直接进入\n����",
+      "needmsg": 1,
+      "needcard": 0,
+      "mediaid": "NxjrezNgv7fjgtAGeHlpx3yb5f4fL-lacZkZzA2WpMM",
+      "cardtitle": "连胜根本停不下来，奖励拿不断，你也来试试吧~",
+      "count": 1
+    },
+    "withdraw": {
+      "msg": "你的好友【\\${userName}】兑换了\\${amount}元微信红包，好礼多多你还在等什么\n点击直接进入，红包拿到手软！\n👇👇👇👇",
+      "needmsg": 1,
+      "needcard": 0,
+      "mediaid": "NxjrezNgv7fjgtAGeHlpx3yb5f4fL-lacZkZzA2WpMM",
+      "cardtitle": "连胜根本停不下来，奖励拿不断，你也来试试吧~",
+      "count": 2
+    },
+    "redEnvelope": {
+      "msg": "你的好友【\\${userName}】在\\${roomName}中拿到了\\${reward}，获得了第1名！ \n红包丰富，等你来拿",
+      "needmsg": 1,
+      "needcard": 1,
+      "mediaid": {
+        "6070": "NxjrezNgv7fjgtAGeHlpx3yb5f4fL-lacZkZzA2WpMM",
+        "6072": "NxjrezNgv7fjgtAGeHlpx22KbhO5DpWN63wNLQVAL10",
+        "6057": "NxjrezNgv7fjgtAGeHlpxy-w6Ok3JkMHR8nZpgqLkew"
+      },
+      "cardtitle": "好玩又赚钱的斗地主，你也来试试吧~",
+      "count": 1
+    },
+    "winStreak": {
+      "msg": "你的好友【\\${userName}】豪取九连胜，获得神秘大礼，你还在等什么",
+      "needmsg": 1,
+      "needcard": 1,
+      "mediaid": "NxjrezNgv7fjgtAGeHlpx6PB2h3LNP9eOfkcCc3xmGA",
+      "cardtitle": "连胜根本停不下来，奖励拿不断，你也来试试吧~",
+      "count": 2
+    },
+    "multi": {
+      "msg": "你的好友【\\${userName}】打出了超级高倍，简直逆天，你不来试试？\n点击下方直接进入\n👇👇👇👇",
+      "needmsg": 1,
+      "needcard": 0,
+      "mediaid": "NxjrezNgv7fjgtAGeHlpx6PB2h3LNP9eOfkcCc3xmGA",
+      "cardtitle": "连胜根本停不下来，奖励拿不断，你也来试试吧~",
+      "count": 2
+    },
+    "highest": {
+      "msg": "你的好友【\\${userName}】达成最高段位——传奇大师\n奖励丰富更有传奇大师专属头像框哦~\n快进入游戏挑战他吧！\n👇👇👇👇",
+      "needmsg": 1,
+      "needcard": 0,
+      "mediaid": "NxjrezNgv7fjgtAGeHlpx6PB2h3LNP9eOfkcCc3xmGA",
+      "cardtitle": "连胜根本停不下来，奖励拿不断，你也来试试吧~",
+      "count": 1
+    }
+  },
+  "startTime": "08:00",
+  "stopTime": "23:00",
+  "timeInterval": 7200,
+  "dayTimes": 5,
+  "testUserIds": []
+}

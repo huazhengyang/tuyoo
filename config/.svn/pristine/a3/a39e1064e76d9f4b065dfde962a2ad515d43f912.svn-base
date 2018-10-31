@@ -1,0 +1,418 @@
+{
+    "mission_new_day": {
+        "hour": 4, 
+        "minute": 0, 
+        "weekday": 3
+    }, 
+    "mission_todo": [
+        {
+            "action": "dz_quick_start", 
+            "id": 1, 
+            "params": {
+                "roomId": 77007
+            }
+        }
+    ], 
+    "mission_triggers": [
+        {
+            "auto_show": 0, 
+            "id": 77001, 
+            "require": "", 
+            "type": "get_mission_list"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 77002, 
+            "require": "lambda x=1304,y=1305:have_prop(x,y) >0", 
+            "type": "have_prop"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 77003, 
+            "require": "lambda x:x>=1518364800", 
+            "type": "time_stamp"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 77004, 
+            "require": "lambda x:x>=1523116800 and x <= 1523203199", 
+            "type": "time_stamp"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 77005, 
+            "require": "lambda x:x>=1523203200 and x <= 1523289599", 
+            "type": "time_stamp"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 77006, 
+            "require": "lambda x:x>=1523289600 and x <= 1523375999", 
+            "type": "time_stamp"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 77007, 
+            "require": "lambda x:x>=1523376000 and x <= 1523462399", 
+            "type": "time_stamp"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 77008, 
+            "require": "lambda x:x>=1523462400 and x <= 1523548799", 
+            "type": "time_stamp"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 77009, 
+            "require": "lambda x:x>=1523548800 and x <= 1523635199", 
+            "type": "time_stamp"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 77010, 
+            "require": "lambda x:x>=1523635200 and x <= 1523721599", 
+            "type": "time_stamp"
+        }
+    ], 
+    "missions": [
+        {
+            "accumulate": 0, 
+            "id": 770005100, 
+            "sortId": 6, 
+            "sub_missions": [
+                770005101
+            ], 
+            "time": {
+                "end_time": 1523203199, 
+                "type": "timestamp"
+            }, 
+            "trigger": 77004, 
+            "trigger_text": "（每日）大师场顺子以上牌型获胜活动"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 770005200, 
+            "sortId": 6, 
+            "sub_missions": [
+                770005201
+            ], 
+            "time": {
+                "end_time": 1523289599, 
+                "type": "timestamp"
+            }, 
+            "trigger": 77005, 
+            "trigger_text": "（每日）大师场同花以上牌型获胜活动"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 770005300, 
+            "sortId": 6, 
+            "sub_missions": [
+                770005301
+            ], 
+            "time": {
+                "end_time": 1523375999, 
+                "type": "timestamp"
+            }, 
+            "trigger": 77006, 
+            "trigger_text": "（每日）大师场同花顺以上牌型获胜活动"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 770005400, 
+            "sortId": 6, 
+            "sub_missions": [
+                770005401
+            ], 
+            "time": {
+                "end_time": 1523462399, 
+                "type": "timestamp"
+            }, 
+            "trigger": 77007, 
+            "trigger_text": "（每日）大师场顺子牌型获胜活动"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 770005500, 
+            "sortId": 6, 
+            "sub_missions": [
+                770005501
+            ], 
+            "time": {
+                "end_time": 1523548799, 
+                "type": "timestamp"
+            }, 
+            "trigger": 77008, 
+            "trigger_text": "（每日）大师场同花牌型获胜活动"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 770005600, 
+            "sortId": 6, 
+            "sub_missions": [
+                770005601
+            ], 
+            "time": {
+                "end_time": 1523635199, 
+                "type": "timestamp"
+            }, 
+            "trigger": 77009, 
+            "trigger_text": "（每日）大师场同花顺牌型获胜活动"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 770005700, 
+            "sortId": 6, 
+            "sub_missions": [
+                770005701
+            ], 
+            "time": {
+                "end_time": 1523721599, 
+                "type": "timestamp"
+            }, 
+            "trigger": 77010, 
+            "trigger_text": "（每日）大师场豹子牌型获胜活动"
+        }
+    ], 
+    "sub_missions": [
+        {
+            "auto_reward": 1, 
+            "desc": "1000金币", 
+            "id": 770005101, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1000金币", 
+                    "id": 770005101, 
+                    "num": 1000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                77007
+            ], 
+            "roomType": "", 
+            "special_config": "", 
+            "target": 1, 
+            "title": "顺子以上牌型获胜1局", 
+            "todo": 5, 
+            "type": "win_card_type", 
+            "update_type": "accumulate", 
+            "user_cond": [
+                {
+                    "target": "lambda x: x >= 4", 
+                    "type": "cardType"
+                }
+            ]
+        }, 
+        {
+            "auto_reward": 1, 
+            "desc": "2000金币", 
+            "id": 770005201, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "2000金币", 
+                    "id": 770005201, 
+                    "num": 2000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                77007
+            ], 
+            "roomType": "", 
+            "special_config": "", 
+            "target": 1, 
+            "title": "同花以上牌型获胜1局", 
+            "todo": 5, 
+            "type": "win_card_type", 
+            "update_type": "accumulate", 
+            "user_cond": [
+                {
+                    "target": "lambda x: x >= 3", 
+                    "type": "cardType"
+                }
+            ]
+        }, 
+        {
+            "auto_reward": 1, 
+            "desc": "3000金币", 
+            "id": 770005301, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "3000金币", 
+                    "id": 770005301, 
+                    "num": 3000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                77007
+            ], 
+            "roomType": "", 
+            "special_config": "", 
+            "target": 1, 
+            "title": "同花顺以上牌型获胜1局", 
+            "todo": 5, 
+            "type": "win_card_type", 
+            "update_type": "accumulate", 
+            "user_cond": [
+                {
+                    "target": "lambda x: x >= 5", 
+                    "type": "cardType"
+                }
+            ]
+        }, 
+        {
+            "auto_reward": 1, 
+            "desc": "4000金币", 
+            "id": 770005401, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "4000金币", 
+                    "id": 770005401, 
+                    "num": 4000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                77007
+            ], 
+            "roomType": "", 
+            "special_config": "", 
+            "target": 1, 
+            "title": "顺子牌型获胜1局", 
+            "todo": 5, 
+            "type": "win_card_type", 
+            "update_type": "accumulate", 
+            "user_cond": [
+                {
+                    "target": "lambda x: x == 4", 
+                    "type": "cardType"
+                }
+            ]
+        }, 
+        {
+            "auto_reward": 1, 
+            "desc": "5000金币", 
+            "id": 770005501, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "5000金币", 
+                    "id": 770005501, 
+                    "num": 5000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                77007
+            ], 
+            "roomType": "", 
+            "special_config": "", 
+            "target": 1, 
+            "title": "同花牌型获胜1局", 
+            "todo": 5, 
+            "type": "win_card_type", 
+            "update_type": "accumulate", 
+            "user_cond": [
+                {
+                    "target": "lambda x: x == 3", 
+                    "type": "cardType"
+                }
+            ]
+        }, 
+        {
+            "auto_reward": 1, 
+            "desc": "6000金币", 
+            "id": 770005601, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "6000金币", 
+                    "id": 770005601, 
+                    "num": 6000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                77007
+            ], 
+            "roomType": "", 
+            "special_config": "", 
+            "target": 1, 
+            "title": "同花顺牌型获胜1局", 
+            "todo": 5, 
+            "type": "win_card_type", 
+            "update_type": "accumulate", 
+            "user_cond": [
+                {
+                    "target": "lambda x: x == 5", 
+                    "type": "cardType"
+                }
+            ]
+        }, 
+        {
+            "auto_reward": 1, 
+            "desc": "7000金币", 
+            "id": 770005701, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "7000金币", 
+                    "id": 770005701, 
+                    "num": 7000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                77007
+            ], 
+            "roomType": "", 
+            "special_config": "", 
+            "target": 1, 
+            "title": "豹子牌型获胜1局", 
+            "todo": 5, 
+            "type": "win_card_type", 
+            "update_type": "accumulate", 
+            "user_cond": [
+                {
+                    "target": "lambda x: x == 6", 
+                    "type": "cardType"
+                }
+            ]
+        }
+    ]
+}

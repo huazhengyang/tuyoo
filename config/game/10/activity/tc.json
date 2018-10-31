@@ -1,0 +1,596 @@
+{
+ "templates"                      : {
+  "douniu_v3.90_AI_IOStishen"      : {
+   "desc"                           : "苹果提审",
+   "activities"                     : [
+    "activity_code_duihuanma_0201"
+   ]
+  },
+  "douniu_v3.780_AI_zftishen"      : {
+   "desc"                           : "开心斗牛版号申请",
+   "activities"                     : [
+    "activity_ddz_jiankangyouxi_0201"
+   ]
+  },
+  "douniu_3_7_Android"             : {
+   "desc"                           : "斗牛全活动",
+   "activities"                     : [
+    "douniu_3_7_Android_1",
+    "douniu_3_7_Android_2"
+   ]
+  },
+  "douniu_v3.901_A_ceshi"          : {
+   "desc"                           : "缺比赛场和朋友场",
+   "activities"                     : [
+    "activity_code_duihuanma_0201",
+    "activity_notice_1130"
+   ]
+  },
+  "douniu_v3.712_AI_ZFtishen"      : {
+   "desc"                           : "政府提审",
+   "activities"                     : [
+    "activity_ddz_jiankangyouxi_0201"
+   ]
+  },
+  "douniu_3_711_tishen"            : {
+   "desc"                           : "斗牛提审活动模板",
+   "activities"                     : [
+    "activity_DN_newversion_20160325"
+   ]
+  }
+ },
+ "activities"                     : {
+  "activity_dn_hongheidazhan_0225" : {
+   "id"                             : "activity_dn_hongheidazhan_0225",
+   "des"                            : "红黑大战，一触即发",
+   "moduleId"                       : "general_btn",
+   "typeid"                         : 4,
+   "name"                           : "新红黑大战",
+   "server_config"                  : {
+    "start"                          : "2017-02-27 00:00:00",
+    "end"                            : "2017-05-31 00:00:00"
+   },
+   "config"                         : {
+    "button"                         : {
+     "visible"                        : true,
+     "todoTask"                       : {
+      "enter_param"                    : {
+       "pluginParams"                   : {
+        "gameType"                       : 1
+       },
+       "type"                           : "game"
+      },
+      "gameId"                         : 38,
+      "typeId"                         : "hall.goto.enter.game"
+     },
+     "URL"                            : "${http_download}/hall/act/complete/general_btn/act_wanyiba_0225.png"
+    },
+    "bgURL"                          : "${http_download}/hall/act/complete/general_btn/act_dn_hongheidazhan_0225.jpg"
+   }
+  },
+  "activity_notice_1130"           : {
+   "id"                             : "activity_notice_1130",
+   "des"                            : "重要游戏公告，请仔细阅读并严格遵守！",
+   "moduleId"                       : "general_btn",
+   "typeid"                         : 1,
+   "name"                           : "重要公告",
+   "server_config"                  : {
+    "start"                          : "2017-11-30 00:00:00",
+    "end"                            : "2020-12-31 23:59:59"
+   },
+   "config"                         : {
+    "button"                         : {
+     "visible"                        : true,
+     "todoTask"                       : "",
+     "URL"                            : ""
+    },
+    "bgURL"                          : "${http_download}/hall/act/complete/general_btn/ZYGG2018.jpg"
+   }
+  },
+  "activity_dn_yunxiaojifen_0209"  : {
+   "id"                             : "activity_dn_yunxiaojifen_0209",
+   "des"                            : "积分获取规则见【积分规则】按钮。每项奖励每天限兑换一次，积分每天24时清零。2月15日24时活动结束。",
+   "moduleId"                       : "integral_exchange",
+   "typeid"                         : 9999002,
+   "name"                           : "欢喜闹元宵",
+   "server_config"                  : {
+    "start"                          : "2017-02-08 00:00:00",
+    "creditSource"                   : [
+     {
+      "credits"                        : {
+       "10501"                          : 2,
+       "10502"                          : 10,
+       "10503"                          : 50
+      },
+      "game"                           : 10,
+      "typeId"                         : "act.credit.gamePlay"
+     }
+    ],
+    "creditReset"                    : "day",
+    "end"                            : "2017-02-15 23:59:59"
+   },
+   "config"                         : {
+    "ruleBtnURL"                     : "${http_download}/hall/act/complete/integral_exchange/chunjiejifen_guizekuang_0119.png",
+    "button"                         : {
+     "visible"                        : true,
+     "todoTask"                       : {
+      "enter_param"                    : {
+       "pluginParams"                   : {
+        "gameType"                       : 5
+       },
+       "type"                           : "roomlist"
+      },
+      "gameId"                         : 10,
+      "typeId"                         : "hall.goto.enter.game"
+     },
+     "URL"                            : "${http_download}/hall/act/complete/integral_exchange/huoqujifen_1229.png"
+    },
+    "reqIntegralBtnURL"              : "${http_download}/hall/act/complete/integral_exchange/huoqujifen_1229.png",
+    "exchangePreBtnURL"              : "${http_download}/hall/act/complete/integral_exchange/duihuan_hui_0119.png",
+    "bgURL"                          : "${http_download}/hall/act/complete/integral_exchange/yuanxiaojifen_bg_0209.jpg",
+    "exchange"                       : [
+     {
+      "content"                        : {
+       "desc"                           : "1个月光宝盒",
+       "items"                          : [
+        {
+         "count"                          : 1,
+         "itemId"                         : "item:3002"
+        }
+       ],
+       "typeId"                         : "FixedContent"
+      },
+      "id"                             : 101,
+      "price"                          : 10,
+      "limitReset"                     : "day",
+      "limitTimes"                     : 1
+     },
+     {
+      "content"                        : {
+       "desc"                           : "5千金币",
+       "items"                          : [
+        {
+         "count"                          : 5000,
+         "itemId"                         : "user:chip"
+        }
+       ],
+       "typeId"                         : "FixedContent"
+      },
+      "id"                             : 102,
+      "price"                          : 50,
+      "limitReset"                     : "day",
+      "limitTimes"                     : 1
+     },
+     {
+      "content"                        : {
+       "desc"                           : "30奖券",
+       "items"                          : [
+        {
+         "count"                          : 30,
+         "itemId"                         : "user:coupon"
+        }
+       ],
+       "typeId"                         : "FixedContent"
+      },
+      "id"                             : 103,
+      "price"                          : 150,
+      "limitReset"                     : "day",
+      "limitTimes"                     : 1
+     },
+     {
+      "content"                        : {
+       "desc"                           : "1把月光之钥",
+       "items"                          : [
+        {
+         "count"                          : 1,
+         "itemId"                         : "item:3001"
+        }
+       ],
+       "typeId"                         : "FixedContent"
+      },
+      "id"                             : 104,
+      "price"                          : 250,
+      "limitReset"                     : "day",
+      "limitTimes"                     : 1
+     }
+    ],
+    "exchangeBtnURL"                 : "${http_download}/hall/act/complete/integral_exchange/duihuan_0119.png",
+    "ruleText"                       : "1.在金牛大赛玩法中，参加1000金币体验赛/10000金币欢乐赛/50000金币欢乐赛，每局分别得2/10/50积分。\n2.每项奖励每天限兑换一次，每天24时积分清零重置。"
+   }
+  },
+  "activity_DN_newversion_20160325": {
+   "id"                             : "activity_DN_newversion_20160325",
+   "des"                            : "途游斗牛最新版本火爆上线",
+   "moduleId"                       : "notice_img",
+   "typeid"                         : 1,
+   "name"                           : "斗牛新版上线",
+   "server_config"                  : {
+    "start"                          : "2016-03-25 00:00:00",
+    "end"                            : "2018-04-21 00:00:00"
+   },
+   "config"                         : {
+    "firstButton"                    : {
+     "visible"                        : 0,
+     "action"                         : "",
+     "params"                         : {
+      "duration"                       : 2,
+      "text"                           : "确定"
+     }
+    },
+    "secondButton"                   : {
+     "visible"                        : 0,
+     "action"                         : "",
+     "params"                         : {
+      "duration"                       : 2,
+      "text"                           : "确定"
+     }
+    },
+    "bgURL"                          : "${http_download}/hall/act/complete/notice_img/act_DN_newversion_20160325.jpg"
+   },
+   "url"                            : ""
+  },
+  "douniu_3_7_Android_2"           : {
+   "id"                             : "douniu_3_7_Android_2",
+   "des"                            : "如有疑问请联系客服\n电话：4008098000\nQQ：4008098000",
+   "moduleId"                       : "general_btn",
+   "typeid"                         : 1,
+   "name"                           : "跨年有礼",
+   "server_config"                  : {
+    "start"                          : "2015-09-24 00:00:00",
+    "end"                            : "2016-10-15 00:00:00"
+   },
+   "config"                         : {
+    "button"                         : {
+     "visible"                        : false,
+     "todoTask"                       : {
+      "action"                         : "pop_tip",
+      "params"                         : {
+       "duration"                       : 2,
+       "text"                           : "确定"
+      }
+     },
+     "URL"                            : "${http_download}/hall/act/complete/general_btn/buy_button_3.7.png"
+    },
+    "bgURL"                          : "${http_download}/hall/act/complete/general_btn/douniu_activity_20151224_0.jpg"
+   }
+  },
+  "activity_douniuyueka_12.13"     : {
+   "id"                             : "activity_douniuyueka_12.13",
+   "des"                            : "月卡温暖大赠送",
+   "moduleId"                       : "general_btn",
+   "typeid"                         : 4,
+   "name"                           : "超值月卡上线",
+   "server_config"                  : {
+    "start"                          : "2016-12-13 00:00:00",
+    "end"                            : "2017-03-31 00:00:00"
+   },
+   "config"                         : {
+    "button"                         : {
+     "visible"                        : true,
+     "todoTask"                       : {
+      "subStore"                       : "activity",
+      "typeId"                         : "hall.goto.shop"
+     },
+     "URL"                            : "${http_download}/hall/act/complete/general_btn/act_duoniugoumai_12.13.png"
+    },
+    "bgURL"                          : "${http_download}/hall/act/complete/general_btn/act_douniuyueka_12.13.jpg"
+   }
+  },
+  "activity_douniubairen_12.12"    : {
+   "id"                             : "activity_douniubairen_12.12",
+   "des"                            : "全新百人牛牛上线，彩金奖励翻倍，还等什么，下个幸运的就是你！",
+   "moduleId"                       : "general_btn",
+   "typeid"                         : 4,
+   "name"                           : "全新百人牛牛",
+   "server_config"                  : {
+    "start"                          : "2016-12-12 00:00:00",
+    "end"                            : "2017-02-28 00:00:00"
+   },
+   "config"                         : {
+    "button"                         : {
+     "visible"                        : true,
+     "todoTask"                       : {
+      "enter_param"                    : {
+       "pluginParams"                   : {
+        "gameType"                       : 1
+       },
+       "type"                           : "roomlist"
+      },
+      "gameId"                         : 16,
+      "typeId"                         : "hall.goto.enter.game"
+     },
+     "URL"                            : "${http_download}/hall/act/complete/general_btn/lijicanyu_0907.png"
+    },
+    "bgURL"                          : "${http_download}/hall/act/complete/general_btn/act_bairenniuniu_1116.jpg"
+   }
+  },
+  "douniu_3_7_Android_1"           : {
+   "id"                             : "douniu_3_7_Android_1",
+   "des"                            : "如有疑问请联系客服\n电话：4008098000\nQQ：4008098000",
+   "moduleId"                       : "general_btn",
+   "typeid"                         : 4,
+   "name"                           : "幸运大抽奖",
+   "server_config"                  : {
+    "start"                          : "2015-12-03 00:00:00",
+    "end"                            : "2015-12-17 23:59:00"
+   },
+   "config"                         : {
+    "button"                         : {
+     "visible"                        : true,
+     "todoTask"                       : {
+      "payOrder"                       : {
+       "shelves"                        : [
+        "raffle"
+       ],
+       "priceDiamond"                   : {
+        "count"                          : 60,
+        "minCount"                       : 0,
+        "maxCount"                       : -1
+       },
+       "buyTypes"                       : [
+        "direct",
+        "consume"
+       ]
+      },
+      "typeId"                         : "todotask.payOrder"
+     },
+     "URL"                            : "${http_download}/hall/act/complete/general_btn/buy_button_3.7.png"
+    },
+    "bgURL"                          : "${http_download}/hall/act/complete/general_btn/douniu_raffle_0.jpg"
+   }
+  },
+  "activity_dn_jinniudasai_0120"   : {
+   "id"                             : "activity_dn_jinniudasai_0120",
+   "des"                            : "金牛大赛，海量金币等你赢",
+   "moduleId"                       : "general_btn",
+   "typeid"                         : 4,
+   "name"                           : "金牛大赛",
+   "server_config"                  : {
+    "start"                          : "2017-01-20 00:00:00",
+    "end"                            : "2017-03-31 00:00:00"
+   },
+   "config"                         : {
+    "button"                         : {
+     "visible"                        : true,
+     "todoTask"                       : {
+      "enter_param"                    : {
+       "pluginParams"                   : {
+        "gameType"                       : 5
+       },
+       "type"                           : "roomlist"
+      },
+      "gameId"                         : 10,
+      "typeId"                         : "hall.goto.enter.game"
+     },
+     "URL"                            : "${http_download}/hall/act/complete/general_btn/act_douniuanniuhong_0120.png"
+    },
+    "bgURL"                          : "${http_download}/hall/act/complete/general_btn/act_dn_jinniudasai_0120.jpg"
+   }
+  },
+  "activity_dn_xinchunjifen_0119"  : {
+   "id"                             : "activity_dn_xinchunjifen_0119",
+   "des"                            : "积分获取规则见【积分规则】按钮。每项奖励每天限兑换一次，积分每天24时清零。2月10日24时活动结束。部分版本游戏不支持签到，请及时升级为最新版本客户端。",
+   "moduleId"                       : "integral_exchange",
+   "typeid"                         : 9999002,
+   "name"                           : "积分酉福",
+   "server_config"                  : {
+    "start"                          : "2017-01-17 00:00:00",
+    "creditSource"                   : [
+     {
+      "credits"                        : {
+       "10102"                          : 1,
+       "10101"                          : 1,
+       "10123"                          : 20,
+       "10111"                          : 5,
+       "10121"                          : 20
+      },
+      "game"                           : 10,
+      "typeId"                         : "act.credit.gamePlay"
+     },
+     {
+      "credit"                         : 10,
+      "typeId"                         : "act.credit.checkin"
+     },
+     {
+      "credit"                         : 10,
+      "typeId"                         : "act.credit.charge"
+     }
+    ],
+    "creditReset"                    : "day",
+    "end"                            : "2017-02-06 23:59:59"
+   },
+   "config"                         : {
+    "ruleBtnURL"                     : "${http_download}/hall/act/complete/integral_exchange/chunjiejifen_guizekuang_0119.png",
+    "button"                         : {
+     "visible"                        : true,
+     "todoTask"                       : {
+      "enter_param"                    : {
+       "pluginParams"                   : {
+        "gameType"                       : 1
+       },
+       "type"                           : "roomlist"
+      },
+      "gameId"                         : 10,
+      "typeId"                         : "hall.goto.enter.game"
+     },
+     "URL"                            : "${http_download}/hall/act/complete/integral_exchange/huoqujifen_1229.png"
+    },
+    "reqIntegralBtnURL"              : "${http_download}/hall/act/complete/integral_exchange/huoqujifen_1229.png",
+    "exchangePreBtnURL"              : "${http_download}/hall/act/complete/integral_exchange/duihuan_hui_0119.png",
+    "bgURL"                          : "${http_download}/hall/act/complete/integral_exchange/chunjiejifen_bg_0124.jpg",
+    "exchange"                       : [
+     {
+      "content"                        : {
+       "desc"                           : "1个月光宝盒",
+       "items"                          : [
+        {
+         "count"                          : 1,
+         "itemId"                         : "item:3002"
+        }
+       ],
+       "typeId"                         : "FixedContent"
+      },
+      "id"                             : 101,
+      "price"                          : 20,
+      "limitReset"                     : "day",
+      "limitTimes"                     : 1
+     },
+     {
+      "content"                        : {
+       "desc"                           : "1张幸运卡",
+       "items"                          : [
+        {
+         "count"                          : 1,
+         "itemId"                         : "item:4167"
+        }
+       ],
+       "typeId"                         : "FixedContent"
+      },
+      "id"                             : 102,
+      "price"                          : 30,
+      "limitReset"                     : "day",
+      "limitTimes"                     : 1
+     },
+     {
+      "content"                        : {
+       "desc"                           : "30奖券",
+       "items"                          : [
+        {
+         "count"                          : 30,
+         "itemId"                         : "user:coupon"
+        }
+       ],
+       "typeId"                         : "FixedContent"
+      },
+      "id"                             : 103,
+      "price"                          : 300,
+      "limitReset"                     : "day",
+      "limitTimes"                     : 1
+     },
+     {
+      "content"                        : {
+       "desc"                           : "1天忍者头像",
+       "items"                          : [
+        {
+         "count"                          : 1,
+         "itemId"                         : "item:4139"
+        }
+       ],
+       "typeId"                         : "FixedContent"
+      },
+      "id"                             : 104,
+      "price"                          : 1000,
+      "limitReset"                     : "day",
+      "limitTimes"                     : 1
+     }
+    ],
+    "exchangeBtnURL"                 : "${http_download}/hall/act/complete/integral_exchange/duihuan_0119.png",
+    "ruleText"                       : "1.每天签到得10积分。\n2.在斗牛经典看牌玩法中，初生牛犊/小试牛刀/冲天牛气场对局每局分别得1/5/20积分。\n3.每充值1元，获得10积分。\n4.每项奖励每天限兑换一次，每天24时积分清零重置。"
+   }
+  },
+  "activity_dn_qqqun_0223"         : {
+   "id"                             : "activity_dn_qqqun_0223",
+   "des"                            : "加官方QQ群，免费领取金币礼包",
+   "moduleId"                       : "general_btn",
+   "typeid"                         : 1,
+   "name"                           : "加群享豪礼",
+   "server_config"                  : {
+    "start"                          : "2017-02-20 00:00:00",
+    "end"                            : "2017-06-30 00:00:00"
+   },
+   "config"                         : {
+    "button"                         : {
+     "visible"                        : false,
+     "todoTask"                       : "",
+     "URL"                            : ""
+    },
+    "bgURL"                          : "${http_download}/hall/act/complete/general_btn/act_dn_qqqun_0223.jpg"
+   }
+  },
+  "activity_douniukanpai_12.12"    : {
+   "id"                             : "activity_douniukanpai_12.12",
+   "des"                            : "看牌抢庄，大杀四方，快速拼牛，领取拼牛奖励！",
+   "moduleId"                       : "general_btn",
+   "typeid"                         : 4,
+   "name"                           : "看牌抢庄",
+   "server_config"                  : {
+    "start"                          : "2016-12-12 00:00:00",
+    "end"                            : "2017-02-28 00:00:00"
+   },
+   "config"                         : {
+    "button"                         : {
+     "visible"                        : true,
+     "todoTask"                       : {
+      "enter_param"                    : {
+       "pluginParams"                   : {
+        "gameType"                       : 1
+       },
+       "type"                           : "roomlist"
+      },
+      "gameId"                         : 10,
+      "typeId"                         : "hall.goto.enter.game"
+     },
+     "URL"                            : "${http_download}/hall/act/complete/general_btn/act_douniuanniulan_12.12.png"
+    },
+    "bgURL"                          : "${http_download}/hall/act/complete/general_btn/act_douniukanpai_12.12.jpg"
+   }
+  },
+  "activity_douniuxuezhan_12.12"   : {
+   "id"                             : "activity_douniuxuezhan_12.12",
+   "des"                            : "先下注，后拼牛，闷到底。",
+   "moduleId"                       : "general_btn",
+   "typeid"                         : 4,
+   "name"                           : "1/3血战",
+   "server_config"                  : {
+    "start"                          : "2016-12-12 00:00:00",
+    "end"                            : "2017-02-28 00:00:00"
+   },
+   "config"                         : {
+    "button"                         : {
+     "visible"                        : true,
+     "todoTask"                       : {
+      "enter_param"                    : {
+       "pluginParams"                   : {
+        "gameType"                       : 3
+       },
+       "type"                           : "roomlist"
+      },
+      "gameId"                         : 10,
+      "typeId"                         : "hall.goto.enter.game"
+     },
+     "URL"                            : "${http_download}/hall/act/complete/general_btn/act_douniuanniuhong_12.12.png"
+    },
+    "bgURL"                          : "${http_download}/hall/act/complete/general_btn/act_douniuxuezhan_12.12.jpg"
+   }
+  },
+  "activity_douniushuiguo_12.12"   : {
+   "id"                             : "activity_douniushuiguo_12.12",
+   "des"                            : "全新大丰收，中7喜赢200倍！",
+   "moduleId"                       : "general_btn",
+   "typeid"                         : 4,
+   "name"                           : "全新大丰收",
+   "server_config"                  : {
+    "start"                          : "2016-12-12 00:00:00",
+    "end"                            : "2017-02-28 00:00:00"
+   },
+   "config"                         : {
+    "button"                         : {
+     "visible"                        : true,
+     "todoTask"                       : {
+      "enter_param"                    : {
+       "pluginParams"                   : {
+        "gameType"                       : 1
+       },
+       "type"                           : "roomlist"
+      },
+      "gameId"                         : 31,
+      "typeId"                         : "hall.goto.enter.game"
+     },
+     "URL"                            : "${http_download}/hall/act/complete/general_btn/lijicanyu_0907.png"
+    },
+    "bgURL"                          : "${http_download}/hall/act/complete/general_btn/act_douniushuiguo_12.12.jpg"
+   }
+  }
+ },
+ "modules"                        : { }
+}

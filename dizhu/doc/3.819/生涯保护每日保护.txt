@@ -1,0 +1,9 @@
+1. 数据存储
+	hget msafe:6:10001 6058 {"life":{"ts":123456789,"count":1}, "daily":{"ts":123456789,"count":1}}
+
+2. 处理流程
+	a) 报名时去用户的msafe信息，保存到MatchPlayer.matchSafe字段
+	b) 在第一轮结束是执行判断逻辑，如果处于保护状态中则给用户增加积分
+		1) 还有life保护
+		2) 今天没有life保护并且还有daily保护
+	c) 用户本局比赛结束时保存matchSafe字段（如果有变化）

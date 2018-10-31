@@ -1,0 +1,199 @@
+{
+ "templates"                                        : {
+  "tractor_v3.97_A_online_activity"                  : {
+   "desc"                                             : "双升线上活动模板",
+   "activities"                                       : [
+    "tractor_20170109_stagesclear_activity",
+    "activity_tractor_realnamereg_170420",
+    "tractor_20161220_normalnotice_activity",
+    "tractor_20161220_exchangecode_activity"
+   ]
+  },
+  "tractor_v3.97_AI_examination_activity"            : {
+   "desc"                                             : "双升提审活动模板",
+   "activities"                                       : [
+    "activity_ddz_jiankangyouxi_0201"
+   ]
+  },
+  "tractor_v3.97_AI_tractor_v3.97_A_notuyoo_activity": {
+   "desc"                                             : "废弃",
+   "activities"                                       : [
+    "tractor_20170109_stagesclear_activity"
+   ]
+  },
+  "tractor_v3.97_AI_notuyoo_activity"                : {
+   "desc"                                             : "双升无途游标识活动模板",
+   "activities"                                       : [
+    "tractor_20170418_normalnotice_activity"
+   ]
+  }
+ },
+ "activities"                                       : {
+  "tractor_20170109_stagesclear_activity"            : {
+   "id"                                               : "tractor_20170109_stagesclear_activity",
+   "des"                                              : "独创升级闯关玩法，打过A即送话费，快来参与！",
+   "moduleId"                                         : "general_btn",
+   "typeid"                                           : 4,
+   "name"                                             : "升级通关赛",
+   "server_config"                                    : {
+    "start"                                            : "2017-01-09 00:00:00",
+    "end"                                              : "2018-11-30 00:00:00"
+   },
+   "config"                                           : {
+    "button"                                           : {
+     "visible"                                          : true,
+     "todoTask"                                         : {
+      "enter_param"                                      : {
+       "pluginParams"                                     : {
+        "gameType"                                         : 2
+       },
+       "type"                                             : "roomlist"
+      },
+      "gameId"                                           : 42,
+      "typeId"                                           : "hall.goto.enter.game"
+     },
+     "URL"                                              : "${http_download}/texas/images/activity/texas_1122_join_button.png"
+    },
+    "bgURL"                                            : "${http_download}/tractor/images/activity/tractor_20170109_stageclear_activity.jpg"
+   }
+  },
+  "activity_tractor_realnamereg_170420"              : {
+   "id"                                               : "activity_tractor_realnamereg_170420",
+   "des"                                              : "实名认证",
+   "moduleId"                                         : "realName_certification",
+   "typeid"                                           : 1,
+   "name"                                             : "实名认证",
+   "server_config"                                    : {
+    "start"                                            : "2015-02-28 00:00:00",
+    "end"                                              : "2019-11-17 00:00:00"
+   },
+   "config"                                           : {
+    "firstButton"                                      : {
+     "visible"                                          : 0,
+     "action"                                           : "pop_tip",
+     "params"                                           : {
+      "duration"                                         : 2,
+      "text"                                             : "确定"
+     }
+    },
+    "secondButton"                                     : {
+     "visible"                                          : 0,
+     "action"                                           : "pop_tip",
+     "params"                                           : {
+      "duration"                                         : 2,
+      "text"                                             : "确定"
+     }
+    }
+   }
+  },
+  "tractor_20170418_normalnotice_activity"           : {
+   "id"                                               : "tractor_20170418_normalnotice_activity",
+   "des"                                              : "健康游戏公告无途游logo",
+   "moduleId"                                         : "notice_img",
+   "typeid"                                           : 1,
+   "name"                                             : "健康游戏公告无途游logo",
+   "server_config"                                    : {
+    "start"                                            : "2016-12-20 00:00:00",
+    "end"                                              : "2018-07-31 00:00:00"
+   },
+   "config"                                           : {
+    "firstButton"                                      : {
+     "visible"                                          : 0,
+     "action"                                           : "",
+     "params"                                           : {
+      "duration"                                         : 2,
+      "text"                                             : "确定"
+     }
+    },
+    "secondButton"                                     : {
+     "visible"                                          : 0,
+     "action"                                           : "",
+     "params"                                           : {
+      "duration"                                         : 2,
+      "text"                                             : "确定"
+     }
+    },
+    "bgURL"                                            : "${http_download}/42/activity/activity_healthy.jpg"
+   },
+   "url"                                              : ""
+  },
+  "tractor_20161220_exchangecode_activity"           : {
+   "id"                                               : "tractor_20161220_exchangecode_activity",
+   "des"                                              : "如有问题，请咨询客服QQ：4008098000\n或拨打客服电话：4008098000。",
+   "moduleId"                                         : "input_3761",
+   "typeid"                                           : 3,
+   "name"                                             : "兑换码活动",
+   "server_config"                                    : {
+    "start"                                            : "2015-02-28 00:00:00",
+    "end"                                              : "2020-12-30 00:00:00"
+   },
+   "config"                                           : {
+    "titleURL"                                         : "",
+    "bgURL"                                            : "${http_download}/hall/act/complete/input/act_exchange_1125_2.jpg"
+   }
+  },
+  "tractor_20170103_customservice_activity"          : {
+   "id"                                               : "tractor_20170103_customservice_activity",
+   "des"                                              : "如果您在游戏中遇到任何困难或需要联系我们反馈您的意见建议，可以通过以上联系方式联系到我们，感谢您的支持！",
+   "moduleId"                                         : "notice_img",
+   "typeid"                                           : 1,
+   "name"                                             : "联系我们",
+   "server_config"                                    : {
+    "start"                                            : "2016-12-16 00:00:00",
+    "end"                                              : "2020-02-28 00:00:00"
+   },
+   "config"                                           : {
+    "firstButton"                                      : {
+     "visible"                                          : 0,
+     "action"                                           : "",
+     "params"                                           : {
+      "duration"                                         : 2,
+      "text"                                             : "确定"
+     }
+    },
+    "secondButton"                                     : {
+     "visible"                                          : 0,
+     "action"                                           : "",
+     "params"                                           : {
+      "duration"                                         : 2,
+      "text"                                             : "确定"
+     }
+    },
+    "bgURL"                                            : "${http_download}/texas/images/activity/texas_20161216_customservice_activity.jpg"
+   },
+   "url"                                              : ""
+  },
+  "tractor_20161220_normalnotice_activity"           : {
+   "id"                                               : "tractor_20161220_normalnotice_activity",
+   "des"                                              : "健康游戏公告",
+   "moduleId"                                         : "notice_img",
+   "typeid"                                           : 1,
+   "name"                                             : "健康游戏公告",
+   "server_config"                                    : {
+    "start"                                            : "2016-12-20 00:00:00",
+    "end"                                              : "2018-07-31 00:00:00"
+   },
+   "config"                                           : {
+    "firstButton"                                      : {
+     "visible"                                          : 0,
+     "action"                                           : "",
+     "params"                                           : {
+      "duration"                                         : 2,
+      "text"                                             : "确定"
+     }
+    },
+    "secondButton"                                     : {
+     "visible"                                          : 0,
+     "action"                                           : "",
+     "params"                                           : {
+      "duration"                                         : 2,
+      "text"                                             : "确定"
+     }
+    },
+    "bgURL"                                            : "${http_download}/hall/act/complete/notice_img/shenhegonggao.png"
+   },
+   "url"                                              : ""
+  }
+ },
+ "modules"                                          : { }
+}

@@ -1,0 +1,69 @@
+{
+  "condition": {
+    "list": [
+      {
+        "typeId": "user.cond.registerDays",
+        "startDays": -1,
+        "stopDays": 50
+      }
+    ],
+    "typeId": "user.cond.and"
+  },
+  "signInRewards": [
+    {
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 1000,
+          "pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+          "desc": "x1000"
+        }
+      ],
+      "day": 1
+    },
+    {
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 2000,
+          "pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+          "desc": "x2000"
+        }
+      ],
+      "day": 2
+    },
+    {
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 3000,
+          "pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+          "desc": "x3000"
+        }
+      ],
+      "day": 3
+    },
+    {
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 4000,
+          "pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+          "desc": "x4000"
+        }
+      ],
+      "day": 4
+    },
+    {
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 5000,
+          "pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+          "desc": "x5000"
+        }
+      ],
+      "day": 5
+    }
+  ]
+}

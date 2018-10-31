@@ -1,0 +1,86 @@
+{
+	"cows": [
+		{"point": 0, "name": "无牛", "times": 1},
+		{"point": 1, "name": "牛丁", "times": 1},
+		{"point": 2, "name": "牛二", "times": 1},
+		{"point": 3, "name": "牛三", "times": 1},
+		{"point": 4, "name": "牛四", "times": 1},
+		{"point": 5, "name": "牛五", "times": 1},
+		{"point": 6, "name": "牛六", "times": 1},
+		{"point": 7, "name": "牛七", "times": 2},
+		{"point": 8, "name": "牛八", "times": 2},
+		{"point": 9, "name": "牛九", "times": 2},
+		{"point": 10, "name": "牛牛", "times": 3},
+		{"point": 11, "name": "银牛", "times": 3},
+		{"point": 12, "name": "金牛", "times": 3},
+		{"point": 13, "name": "炸弹", "times": 3},
+		{"point": 14, "name": "五小牛", "times": 3},
+		{"point": 15, "name": "同花牛", "times": 3},
+		{"point": 16, "name": "花炸牛", "times": 3},
+		{"point": 17, "name": "花顺牛", "times": 3}
+	],
+	"daily_luck_card": {
+		"max_finish_times": 3,
+		"reward_boxes_chip": [688, 1088, 1888],
+		"cards": [
+			{"point": 6, "times": 2},
+			{"point": 7, "times": 3},
+			{"point": 8, "times": 3},
+			{"point": 9, "times": 3},
+			{"point": 10, "times": 4}
+		]
+	},
+	"pinniu": {
+		"reward_rate": 0.30,
+		"interval": 3,
+		"maxpoint": 12
+	},
+	"daoju": [
+		{"id": 1, "name": "鸡蛋", "price": 100, "self_meili": 10, "peer_meili": -10},
+		{"id": 2, "name": "炸弹", "price": 200, "self_meili": 20, "peer_meili": -20},
+		{"id": 3, "name": "大拇指", "price": 100, "self_meili": 10, "peer_meili": 10},
+		{"id": 4, "name": "鲜花", "price": 500, "self_meili": 50, "peer_meili": 50},
+		{"id": 5, "name": "钻戒", "price": 1000, "self_meili": 1000, "peer_meili": 1000}
+	],
+	"chat": {
+		"custom_chat_vip_required": 8,
+		"define_chat": [
+			"大家好，很高兴见到各位",
+			"玩就玩大的，抢庄4倍走起",
+			"手里有牛牛，金币不用愁",
+			"我就呵呵了~~",
+			"有牛啦，看我大煞四方",
+			"快点吧，等到花儿都谢了",
+			"发牌就抢庄，赢钱心不慌",
+			"朋友，给个联系方式呗",
+			"别磨叽了，没牛就是没牛",
+			"你是MM还GG",
+			"不要走，决战到天亮",
+			"不好意思，我要离开一会"
+		],
+		"period_sysmsg": 600,
+		"game_define_sysmsg": [
+			"五张牌中三张加起来是10的倍数就有牛。",
+			"在倒计时前2秒内拼出牛的会获得额外奖励。",
+			"看牌抢庄倍数越高，抢到庄家的机会就越大。",
+			"打出牛牛及以上牌型获胜，可以赢3倍金币。",
+			"金币为游戏道具，严禁倒卖交易，保护账号安全，谨防上当受骗。",
+			"牌型相同，会用最大的一张牌计算胜负，K最大A最小。",
+			"打出牛七、牛八、牛九获胜，可以赢2倍金币。",
+			"每日当庄用幸运牌型获胜时，也会获得额外奖励。"
+		]
+	},
+	"winchip_rank": {
+		"today_topn": 30,
+		"play_mode": {
+			"1": "100010004"
+		},
+		"rewards": {
+			"100010004": [
+				{"start": 1, "end": 1, "chip": 10000000},
+				{"start": 2, "end": 3, "chip": 5000000},
+				{"start": 4, "end": 10, "chip": 100000}
+			]
+		}
+	}
+}

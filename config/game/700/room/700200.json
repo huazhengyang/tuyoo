@@ -1,0 +1,91 @@
+{
+	"buyinchip": 5000,
+	"dummyUserCount": 35,
+	"hasrobot": 0,
+	"level": "free",
+	"maxCoin": 5000,
+	"maxCoinQS": 4999,
+	"maxTableCoin": -1,
+	"minCoin": -1,
+	"minCoinQS": -1,
+	"name": "新手场",
+	"playMode": "erren_guobiao",
+	"playModeName": "二人麻将",
+	"tableType": "queue",
+    "mixedRooms" : [
+        {
+            "mixedRoomId": 700200,
+            "maxCoin": 5000,
+            "maxCoinQS": 4999,
+            "minCoin": -1,
+            "minCoinQS": -1,
+            "buyinchip": 5000,
+            "maxTableCoin": -1,
+            "dummyRatio": 23,
+            "name": "新手场",
+            "taskDesc": "连胜10局送1.00红包券",
+            "service_fee_sit_down": 0,
+            "service_fee_win": 0,
+            "service_fee_lose": 0,
+            "service_fee_dahu_rate": 0,
+            "service_fee_dahu_on": 0.5,
+            "service_fee_dahu_fan": 24,
+            "base_chip": 20,
+            "chat_chip": 5,
+            "chat_time": 5,
+            "nameDesc": "农民",
+            "queueConfig": {
+                "waitTime": 12,
+                "busNumber": 16
+            },
+            "openConfig": {
+                "startTime": "00:01",
+                "endTime": "23:59"
+            },
+            "mixedConfig": {
+                "mixedWithRooms": [],
+                "beMixedMaxUsers": 1
+            }
+        }
+    ],
+	"tableConf": 
+	{
+		"robotLevel": 1,
+		"autoLevel": 0,
+        "decide_absence_timeout": 8,
+		"leave_vote_num": 
+		{
+			"2": 2
+		},
+		"refuse_leave_vote_num": 
+		{
+			"2": 1
+		},
+		"maxSeatN": 2,
+		"play_timeout": 12,
+		"room_coefficient": 1,
+		"trustee_timeout": 1,
+		"ready_max_timeout": 3600,
+		"ready_after_sit": 1,
+		"dissolve_vote_time_out": 60,
+		"tiles_no_pao": 0,
+		"hand_tiles_count": 13,
+		"gang_base": 0,
+		"win_base": 1,
+		"score_base": 0,
+		"fan_list": 
+		[
+			1,
+			2,
+			4,
+			8,
+			16,
+			32,
+			64,
+			128,
+			256
+		],
+		"max_fan": 999
+	},
+	"typeName": "queue_mixed_room"
+}

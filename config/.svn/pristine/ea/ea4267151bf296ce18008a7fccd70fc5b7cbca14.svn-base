@@ -1,0 +1,55 @@
+{
+ "templates"                : {
+  "default"    : {
+   "desc"                     : "跑得快默认模板",
+   "activities"               : []
+  },
+  "pdk_v3.901_AI_pdk"        : {
+   "desc"                     : "跑得快专用活动模板Online",
+   "activities"               : [
+    "activity_majiang_shanximj_jiankang"
+   ]
+  }
+ },
+ "activities"               : {
+  "youle_pdk_2017newyear0122": {
+   "id"                       : "youle_pdk_2017newyear0122",
+   "des"                      : "2017新年已经到来，除夕至初二全平台游戏免费，初三至初六每日下午14点-20点限时免费，让您假期爽玩跑胡子，跑得快，湖南麻将。祝您新年快乐，鸡年大吉",
+   "moduleId"                 : "general_btn",
+   "typeid"                   : 1,
+   "name"                     : "新年免费活动",
+   "server_config"            : {
+    "start"                    : "2016-11-22 00:00:00",
+    "end"                      : "2019-07-01 10:05:39"
+   },
+   "config"                   : {
+    "button"                   : {
+     "visible"                  : "true",
+     "todoTask"                 : "",
+     "URL"                      : ""
+    },
+    "bgURL"                    : "${http_download}/paohuzi/act/2017newyear0122_bg.jpg"
+   }
+  },
+  "sqy_pdk_fnj_0308"         : {
+   "id"                       : "sqy_pdk_fnj_0308",
+   "des"                      : "妇女节当天微信登录的女性玩家，可以领取玫瑰花一束，玫瑰花可兑换8张房卡。",
+   "moduleId"                 : "general_btn",
+   "typeid"                   : 1,
+   "name"                     : "女人节活动",
+   "server_config"            : {
+    "start"                    : "2017-03-07 00:00:00",
+    "end"                      : "2017-03-09 00:00:00"
+   },
+   "config"                   : {
+    "button"                   : {
+     "visible"                  : "true",
+     "todoTask"                 : "",
+     "URL"                      : ""
+    },
+    "bgURL"                    : "${http_download}/hunan/paohuzi/activity/funvjiehuodong-2.jpg"
+   }
+  }
+ },
+ "modules"                  : {}
+}

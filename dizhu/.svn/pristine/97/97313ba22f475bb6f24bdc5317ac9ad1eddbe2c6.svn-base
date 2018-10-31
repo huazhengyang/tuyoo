@@ -1,0 +1,262 @@
+# -*- coding:utf-8 -*-
+import json
+
+import freetime.util.log as ftlog
+import poker.entity.events.tyeventbus as pkeventbus
+from dizhu.entity.dizhuconf import DIZHU_GAMEID
+from dizhu.games.segmentmatch.events import SegmentTableWinloseEvent
+from dizhucomm.entity.events import UserTableWinloseEvent
+from poker.entity.configure import configure
+from poker.entity.dao import gamedata
+from poker.entity.events.tyevent import EventConfigure
+
+_inited = False
+_roundListConf = None
+
+
+def buildUserRoundKey():  # 用户五维图信息
+    return 'roundlist'
+
+
+def buildUserDataTotalKey():  # 用户总信息
+    return 'roundlist:total'
+
+
+def buildUserRoundStateKey():  # 用户五维图解锁状态
+    return 'roundlist:state'
+
+
+def _initialize():
+    ftlog.debug('dizhu_new_roundlist._initialize begin')
+    global _inited
+    if not _inited:
+        _inited = True
+        _reloadConf()
+        pkeventbus.globalEventBus.subscribe(EventConfigure, _onConfChanged)
+        subscribeSegmentTableWinlose()
+        subscribeNormalTableWinlose()
+
+    ftlog.debug('dizhu_new_roundlist._initialize end')
+
+
+def _onConfChanged(event):
+    if _inited and event.isChanged('game:6:roundlist:0'):
+        ftlog.debug('dizhu_new_roundlist._onConfChanged')
+        _reloadConf()
+
+
+def _reloadConf():
+    global _roundListConf
+    _roundListConf = configure.getGameJson(DIZHU_GAMEID, 'roundlist', {}, 0)
+
+    ftlog.info('dizhu_new_roundlist._reloadConf succeed',
+               '_roundListConf=', _roundListConf)
+
+
+def subscribeSegmentTableWinlose():
+    from dizhu.game import TGDizhu
+    TGDizhu.getEventBus().subscribe(SegmentTableWinloseEvent, _processNewRoundList)
+
+
+def subscribeNormalTableWinlose():
+    from dizhu.game import TGDizhu
+    TGDizhu.getEventBus().subscribe(UserTableWinloseEvent, _processNewRoundList)
+
+
+class UserRoundInfo(object):
+    ''' 局数据-五维图 '''
+
+    def __init__(self):
+        self.outCardSeconds = 0
+        self.assist = 0
+        self.isWin = 0
+        self.validMaxOutCard = 0
+
+    def fromDict(self, d):
+        self.outCardSeconds = d.get('outCardSeconds', 0)
+        self.assist = d.get('assist', 0)
+        self.isWin = d.get('isWin', 0)
+        self.validMaxOutCard = d.get('validMaxOutCard', 0)
+        return self
+
+    def toDict(self):
+        return {
+            'outCardSeconds': self.outCardSeconds,
+            'assist': self.assist,
+            'isWin': self.isWin,
+            'validMaxOutCard': self.validMaxOutCard
+        }
+
+
+class UserRoundListDataTotal(object):
+
+    def __init__(self):
+        self.totalPlayCount = 0
+        self.totalWinCount = 0
+
+    def fromDict(self, d):
+        self.totalPlayCount = d.get('outCardSeconds', 0)
+        self.totalWinCount = d.get('outCardSeconds', 0)
+
+    def toDict(self):
+        return {
+            'totalPlayCount': self.totalPlayCount,
+            'totalWinCount': self.totalWinCount
+        }
+
+
+def saveUserRoundInfo(userId, roundInfo):
+    ''' 保存用户局信息, 最多保存30局 '''
+    if ftlog.is_debug():
+        ftlog.debug('saveUserRoundInfo userId=', userId,
+                    'roundInfo=', roundInfo,
+                    'roundInfoDict=', roundInfo.toDict())
+    roundListCount = _roundListConf.get('roundListCount', 30)
+    key = buildUserRoundKey()
+    roundInfoList = gamedata.getGameAttr(userId, DIZHU_GAMEID, key)
+    if roundInfoList:
+        roundInfoList = json.loads(roundInfoList)
+    else:
+        roundInfoList = []
+    roundInfoList.append(roundInfo.toDict())
+    gamedata.setGameAttr(userId, DIZHU_GAMEID, key, json.dumps(roundInfoList[-roundListCount:]))
+
+
+def saveUserRoundDataTotal(userId, data):
+    ''' 保存用户五维图总局数等信息 '''
+    key = buildUserDataTotalKey()
+    if ftlog.is_debug():
+        ftlog.debug('saveUserRoundDataTotal userId=', userId,
+                    'key=', key,
+                    'data=', data,
+                    'dataDict=', data.toDict())
+    gamedata.setGameAttr(userId, DIZHU_GAMEID, key, json.dumps(data.toDict()))
+
+
+def saveUserRoundState(userId):
+    gamedata.setGameAttr(userId, DIZHU_GAMEID, buildUserRoundStateKey(), 1)
+
+
+def getUserRoundState(userId):
+    return gamedata.getGameAttr(userId, DIZHU_GAMEID, buildUserRoundStateKey())
+
+
+def handleRoundList(evt):
+    # 五维图信息处理
+    userRound = UserRoundInfo()
+    userRound.assist = evt.winlose.assist
+    userRound.validMaxOutCard = evt.winlose.validMaxOutCard
+    userRound.outCardSeconds = evt.winlose.outCardSeconds
+    userRound.isWin = evt.winlose.isWin
+    saveUserRoundInfo(evt.userId, userRound)
+
+
+def getUserRoundInfo(userId):
+    ''' 获取用户五维图 '''
+
+    outCardSeconds = 0
+    assist = 0
+    winCount = 0
+    validMaxOutCard = 0
+
+    roundInfoList = gamedata.getGameAttr(userId, DIZHU_GAMEID, buildUserRoundKey())
+    if roundInfoList:
+        roundInfoList = json.loads(roundInfoList)
+        roundList = [UserRoundInfo().fromDict(d) for d in roundInfoList]
+        for roundInfo in roundList:
+            outCardSeconds += roundInfo.outCardSeconds
+            assist += roundInfo.assist
+            winCount += 1 if roundInfo.isWin else 0
+            validMaxOutCard += roundInfo.validMaxOutCard
+
+    return {
+               'outCardSeconds': outCardSeconds,
+               'assist': assist,
+               'winCount': winCount,
+               'validMaxOutCard': validMaxOutCard
+           }, len(roundInfoList if roundInfoList else 0)
+
+
+def getUserNewRoundInfo(userId):
+    ''' 获取用户五维图等信息 '''
+    abilityList = None
+    winRate = None
+    totalPlayCount = 0
+    roundState = 0
+    showRoundCount = _roundListConf.get('showRoundCount', 8)
+    if totalPlayCount < showRoundCount:
+        return {
+            'roundState': roundState,
+            'winRate': winRate,
+            'totalPlayCount': totalPlayCount,
+            'abilityList': abilityList
+        }
+    if not getUserRoundState(userId):
+        roundState = 1
+        return {
+            'roundState': roundState,
+            'winRate': winRate,
+            'totalPlayCount': totalPlayCount,
+            'abilityList': abilityList
+        }
+    from dizhu.entity.segment.dizhu_segment_match import SegmentMatchHelper
+    issue = SegmentMatchHelper.getCurrentIssue()
+    userSegmentIssue = SegmentMatchHelper.getUserSegmentDataIssue(userId, issue)
+    if ftlog.is_debug():
+        ftlog.debug('getUserNewRoundInfo userId=', userId,
+                    'issue=', issue,
+                    'userSegmentIssue=', userSegmentIssue.toDict() if userSegmentIssue else None)
+    # 获取用户总信息
+    userTotalInfo = getUserRoundListDataTotal(userId)
+    totalPlayCount = userTotalInfo.totalPlayCount
+    winRate = '%d' % (userTotalInfo.totalWinCount * 1.0 / userTotalInfo.totalPlayCount * 100) + '%'
+    # 获取五维图信息
+    roundState = 2
+    userRoundInfo, length = getUserRoundInfo(userId)
+    # 计算局均出牌时间
+    outSeconds = round(userRoundInfo['outCardSeconds'] * 1.0 / length, 2)
+    if outSeconds >= 60:
+        outcardRate = 0
+    elif outSeconds <= 15:
+        outcardRate = 1
+    else:
+        outcardRate = 1 - (round((outSeconds - 15) * 1.0 / 45, 2))
+    abilityList = [round(userRoundInfo['winCount'] * 1.0 / length, 2),
+                   outcardRate,
+                   round(userRoundInfo['assist'] * 1.0 / length, 2),
+                   round(userRoundInfo['validMaxOutCard'] * 1.0 / length, 2),
+                   round(userSegmentIssue.segment * 1.0 / 25, 2)
+                   ]
+    return {
+        'roundState': roundState,
+        'winRate': winRate,
+        'totalPlayCount': totalPlayCount,
+        'showRoundCount': showRoundCount,
+        'abilityList': abilityList
+    }
+
+
+def getUserRoundListDataTotal(userId):
+    ''' 获取用户天梯赛总信息 '''
+    key = buildUserDataTotalKey()
+    data = gamedata.getGameAttr(userId, DIZHU_GAMEID, key)
+    if ftlog.is_debug():
+        ftlog.debug('getUserRoundListDataTotal userId, ', userId,
+                    'key, ', key,
+                    'data, ', data,
+                    'dataType', type(data))
+    if data:
+        data = json.loads(data)
+        return UserRoundListDataTotal().fromDict(data)
+    return UserRoundListDataTotal()
+
+
+def _processNewRoundList(evt):
+    handleRoundList(evt)
+    userRoundTotal = getUserRoundListDataTotal(evt.userId)
+    userRoundTotal.totalPlayCount += 1
+    userRoundTotal.totalWinCount += 1 if evt.winlose.isWin else 0
+    saveUserRoundDataTotal(evt.userId, userRoundTotal)
+
+
+

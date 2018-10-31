@@ -1,0 +1,880 @@
+{
+    "buyinchip": 0,
+    "hasRewardIndex": 4,
+    "dummyUserCount": 0,
+    "goodCard": 0,
+    "hasrobot": 0,
+    "ismatch": 1,
+    "matchConf": {
+        "baseScore": 100,
+        "desc": "开赛时间：满54人开赛\n报名费：1钻石",
+        "fees": [
+            {
+						"count" : 1,
+						"itemId" : "item:1311",
+						"params" : {
+							"failure" : "您的钻石不足，先去完成邀请任务赚点钻石吧"
+						}
+					}
+        ],
+        "matchId": 6075,
+        "topindex": 100,
+        "maxPlayerCount": 100,
+        "maxSigninCount": 50,
+        "minSigninCount": 6,
+        "prepareStopSeconds": 300,
+        "processSigninCountPerTime": 500,
+        "processSigninIntervalSeconds": 5,
+        "rank.rewards": [
+					{
+						"desc" : "1元微信红包",
+						"ranking" : {
+							"end" : 1,
+							"start" : 1
+						},
+						"rewards" : [
+							{
+								"count" : 100,
+								"itemId" : "user:coupon"
+							}
+						]
+					},
+					{
+						"desc" : "0.8元微信红包",
+						"ranking" : {
+							"end" : 2,
+							"start" : 2
+						},
+						"rewards" : [
+							{
+								"count" : 80,
+								"itemId" : "user:coupon"
+							}
+						]
+					},
+					{
+						"desc" : "0.5元微信红包",
+						"ranking" : {
+							"end" : 3,
+							"start" : 3
+						},
+						"rewards" : [
+							{
+								"count" : 50,
+								"itemId" : "user:coupon"
+							}
+						]
+					},
+					{
+						"desc" : "0.3元微信红包",
+						"ranking" : {
+							"end" : 6,
+							"start" : 4
+						},
+						"rewards" : [
+							{
+								"count" : 30,
+								"itemId" : "user:coupon"
+							}
+						]
+					},
+					{
+						"desc" : "0.2元微信红包",
+						"ranking" : {
+							"end" : 12,
+							"start" : 7
+						},
+						"rewards" : [
+							{
+								"count" : 20,
+								"itemId" : "user:coupon"
+							}
+						]
+					},
+					{
+						"desc" : "0.1元微信红包",
+						"ranking" : {
+							"end" : 18,
+							"start" : 13
+						},
+						"rewards" : [
+							{
+								"count" : 10,
+								"itemId" : "user:coupon"
+							}
+						]
+					}
+				],
+        "stages": [
+            {
+                "animationType": -1,
+                "cardCount": 1,
+                "name": "51强赛",
+                "rankLine": [
+					  [
+						7600,
+						1
+					  ],
+					  [
+						4700,
+						5
+					  ],
+					  [
+						3600,
+						10
+					  ],
+					  [
+						2400,
+						15
+					  ],
+					  [
+						1200,
+						20
+					  ],
+					  [
+						800,
+						25
+					  ],
+					  [
+						600,
+						30
+					  ],
+					  [
+						400,
+						32
+					  ],
+					  [
+						200,
+						34
+					  ],
+					  [
+						0,
+						36
+					  ],
+					  [
+						-200,
+						38
+					  ],
+					  [
+						-300,
+						40
+					  ],
+					  [
+						-400,
+						42
+					  ],
+					  [
+						-500,
+						43
+					  ],
+					  [
+						-600,
+						44
+					  ],
+					  [
+						-700,
+						45
+					  ],
+					  [
+						-800,
+						46
+					  ],
+					  [
+						-1000,
+						47
+					  ],
+					  [
+						-1200,
+						48
+					  ],
+					  [
+						-2400,
+						49
+					  ],
+					  [
+						-3600,
+						50
+					  ],
+					  [
+						-51500,
+						51
+					  ]
+					],
+                "riseUserCount": 42,
+                "scoreInit": 1000,
+                "scoreIntoRate": 1,
+                "totalUserCount": 51
+            },
+            {
+                "animationType": -1,
+                "cardCount": 1,
+                "name": "42强赛",
+                "rankLine": [
+				  [
+							8440,
+							1
+						],
+						[
+							5260,
+							5
+						],
+						[
+							3600,
+							10
+						],
+						[
+							2400,
+							15
+						],
+						[
+							1200,
+							20
+						],
+						[
+							600,
+							23
+						],
+						[
+							400,
+							25
+						],
+						[
+							200,
+							28
+						],
+						[
+							0,
+							30
+						],
+						[
+							-100,
+							32
+						],
+						[
+							-250,
+							33
+						],
+						[
+							-400,
+							34
+						],
+						[
+							-500,
+							35
+						],
+						[
+							-600,
+							36
+						],
+						[
+							-800,
+							37
+						],
+						[
+							-1200,
+							38
+						],
+						[
+							-1800,
+							39
+						],
+						[
+							-2400,
+							40
+						],
+						[
+							-3600,
+							41
+						],
+						[
+							-51500,
+							42
+						]
+				],
+                "riseUserCount": 33,
+                "scoreInit": 0,
+                "scoreIntoRate": 0.7,
+                "totalUserCount": 42
+            },
+            {
+                "animationType": -1,
+                "cardCount": 1,
+                "name": "33强赛",
+                "rankLine": [
+						[
+							7990,
+							1
+						],
+						[
+							5200,
+							2
+						],
+						[
+							4400,
+							3
+						],
+						[
+							3600,
+							4
+						],
+						[
+							2800,
+							5
+						],
+						[
+							2400,
+							6
+						],
+						[
+							2000,
+							7
+						],
+						[
+							1900,
+							8
+						],
+						[
+							1800,
+							9
+						],
+						[
+							1700,
+							10
+						],
+						[
+							1600,
+							11
+						],
+						[
+							1500,
+							12
+						],
+						[
+							1400,
+							13
+						],
+						[
+							1300,
+							14
+						],
+						[
+							1200,
+							15
+						],
+						[
+							1100,
+							16
+						],
+						[
+							1000,
+							17
+						],
+						[
+							900,
+							18
+						],
+						[
+							800,
+							19
+						],
+						[
+							700,
+							20
+						],
+						[
+							600,
+							21
+						],
+						[
+							500,
+							22
+						],
+						[
+							400,
+							23
+						],
+						[
+							300,
+							24
+						],
+						[
+							200,
+							25
+						],
+						[
+							100,
+							26
+						],
+						[
+							0,
+							27
+						],
+						[
+							-200,
+							28
+						],
+						[
+							-400,
+							29
+						],
+						[
+							-600,
+							30
+						],
+						[
+							-1200,
+							31
+						],
+						[
+							-2400,
+							32
+						],
+						[
+							-51500,
+							33
+						]
+				],
+                "riseUserCount": 27,
+                "scoreInit": 0,
+                "scoreIntoRate": 0.7,
+                "totalUserCount": 33
+            },
+            {
+                "animationType": -1,
+                "cardCount": 1,
+                "name": "27强赛",
+                "rankLine": [
+						[
+							7632,
+							1
+						],
+						[
+							4400,
+							2
+						],
+						[
+							3700,
+							3
+						],
+						[
+							3200,
+							4
+						],
+						[
+							2800,
+							5
+						],
+						[
+							2400,
+							6
+						],
+						[
+							2000,
+							7
+						],
+						[
+							1800,
+							8
+						],
+						[
+							1600,
+							9
+						],
+						[
+							1400,
+							10
+						],
+						[
+							1200,
+							11
+						],
+						[
+							1100,
+							12
+						],
+						[
+							1000,
+							13
+						],
+						[
+							900,
+							14
+						],
+						[
+							800,
+							15
+						],
+						[
+							700,
+							16
+						],
+						[
+							600,
+							17
+						],
+						[
+							500,
+							18
+						],
+						[
+							400,
+							19
+						],
+						[
+							300,
+							20
+						],
+						[
+							150,
+							21
+						],
+						[
+							0,
+							22
+						],
+						[
+							-200,
+							23
+						],
+						[
+							-400,
+							24
+						],
+						[
+							-600,
+							25
+						],
+						[
+							-1200,
+							26
+						],
+						[
+							-51500,
+							27
+						]
+				],
+                "riseUserCount": 21,
+                "scoreInit": 0,
+                "scoreIntoRate": 0.6,
+                "totalUserCount": 27
+            },
+            {
+                "animationType": -1,
+                "cardCount": 1,
+                "name": "21强赛",
+                "rankLine": [
+						[
+							7462,
+							1
+						],
+						[
+							4400,
+							2
+						],
+						[
+							3700,
+							3
+						],
+						[
+							3000,
+							4
+						],
+						[
+							2400,
+							5
+						],
+						[
+							1900,
+							6
+						],
+						[
+							1500,
+							7
+						],
+						[
+							1200,
+							8
+						],
+						[
+							1000,
+							9
+						],
+						[
+							800,
+							10
+						],
+						[
+							700,
+							11
+						],
+						[
+							600,
+							12
+						],
+						[
+							500,
+							13
+						],
+						[
+							400,
+							14
+						],
+						[
+							250,
+							15
+						],
+						[
+							100,
+							16
+						],
+						[
+							-100,
+							17
+						],
+						[
+							-300,
+							18
+						],
+						[
+							-600,
+							19
+						],
+						[
+							-1200,
+							20
+						],
+						[
+							-51500,
+							21
+						]
+				],
+                "riseUserCount": 15,
+                "scoreInit": 0,
+                "scoreIntoRate": 0.6,
+                "totalUserCount": 21
+            },
+            {
+                "animationType" : -1,
+				"cardCount" : 1,
+				"name" : "15强赛",
+                "rankLine": [
+						[
+							7165,
+							1
+						],
+						[
+							3600,
+							2
+						],
+						[
+							2700,
+							3
+						],
+						[
+							2100,
+							4
+						],
+						[
+							1600,
+							5
+						],
+						[
+							1200,
+							6
+						],
+						[
+							900,
+							7
+						],
+						[
+							700,
+							8
+						],
+						[
+							400,
+							9
+						],
+						[
+							200,
+							10
+						],
+						[
+							0,
+							11
+						],
+						[
+							-200,
+							12
+						],
+						[
+							-600,
+							13
+						],
+						[
+							-1200,
+							14
+						],
+						[
+							-51500,
+							15
+						]
+				],
+                "riseUserCount": 9,
+                "scoreInit": 0,
+                "scoreIntoRate": 0.6,
+                "totalUserCount": 15
+            },
+            {
+                "animationType" : -1,
+				"cardCount" : 1,
+				"name" : "9强赛",
+                "rankLine": [
+						[
+							7500,
+							1
+						],
+						[
+							1500,
+							2
+						],
+						[
+							700,
+							3
+						],
+						[
+							500,
+							4
+						],
+						[
+							200,
+							5
+						],
+						[
+							-100,
+							6
+						],
+						[
+							-300,
+							7
+						],
+						[
+							-600,
+							8
+						],
+						[
+							-51500,
+							9
+						]
+				],
+                "riseUserCount": 3,
+                "scoreInit": 0,
+                "scoreIntoRate": 0.5,
+                "totalUserCount": 9
+            },
+            {
+                "animationType" : 2,
+				"cardCount" : 1,
+				"name" : "决赛",
+                "rankLine": [
+						[
+							7461,
+							1
+						],
+						[
+							619,
+							2
+						],
+						[
+							0,
+							3
+						]
+				],
+                "riseUserCount": 1,
+                "scoreInit": 0,
+                "scoreIntoRate": 0.5,
+                "totalUserCount": 3
+            }
+        ],
+        "startTime": "00:00",
+        "stopTime": "00:00",
+        "tableMaxTimes": 480,
+        "tableSeatCount": 3,
+        "tips": {
+            "infos": [
+                "当积分相同时，按报名先后顺序确定名次。",
+                "除海选赛阶段，只有力争第一才可以晋级！",
+                "天生我材必有用，有用就得斗地主！",
+                "忽如一夜春风来，千人万人牌桌开！",
+                "普通场获得勋章时，记得领取相应奖励哦。",
+                "万人比赛火热上线，记得要关注哦。",
+                "海选阶段要稳打，低于基础分会被淘汰哟！"
+            ],
+            "interval": 5
+        },
+        "matchRules": [
+            [
+                {
+                    "type": 0,
+                    "text": "规则介绍"
+                },
+                {
+                    "type": 1,
+                    "text": "玩法：经典玩法"
+                },
+                {
+                    "type": 1,
+                    "text": "初始积分：1000"
+                },
+                {
+                    "type": 1,
+                    "text": "赛制：8轮1副瑞士移位，决出冠军"
+                }
+            ]
+        ],
+        "tipsForNotSignin": "8点至24点才开赛喔，先去参加别的比赛吧",
+        "tipsForWillStopInfo": "由于服务器维护，本次比赛将于5分钟后结束，给您带来的不便敬请见谅。"
+    },
+    "maxCoin": -1,
+    "maxCoinQS": 7999,
+    "maxLevel": -1,
+    "minCoin": 0,
+    "minCoinQS": 0,
+    "name": "5元红包赛",
+    "canQuit": 0,
+    "minQuickStartChip": 0.5,
+    "playDesc": "",
+    "playMode": "123",
+    "quickMatchCoinTopLimit": 8000,
+    "quickMatchToggle": 1,
+    "robotUserCallUpTime": 2,
+    "robotUserMaxCount": 3,
+    "robotUserOpTime": [
+        1,
+        2
+    ],
+    "roomFee": 45,
+    "roomMutil": 50,
+    "showCard": 0,
+    "tableConf": {
+        "autochange": 1,
+        "basebet": 1,
+        "basemulti": 1,
+        "canchat": 0,
+        "nongminWinAlone": 1,
+        "cardNoteDiamond": 12,
+        "coin2chip": 1,
+        "grab": 0,
+        "gslam": 128,
+        "lucky": 0,
+        "maxSeatN": 3,
+        "optime": 15,
+        "passtime": 5,
+        "rangpaiMultiType": 1,
+        "robottimes": 1,
+        "tbbox": 0,
+        "unticheat": 0
+    },
+    "typeName": "dizhu_arena_match",
+    "matchListPeopleNumberTip": "限时8至24点",
+    "winDesc": ""
+}

@@ -1,0 +1,25 @@
+{
+	"prizeDetail":"*红包口令是识别用户身份的唯一标识，红包任务发放以玩家填写红包口令为准\n*成功发送红包任务至小伙伴1次即可获得20000金币，发送次数越多，奖励越丰厚\n*小伙伴输入红包口令并将账号与手机绑定后，即为发送成功\n*任务奖励需绑定手机后领取",
+	"shareRewardImgUrl":"${http_download}/baohuang/taskicon/shareReward.png",
+	"inviteRewardImgUrl":"${http_download}/baohuang/taskicon/inviteReward.png",
+	"rewardImgUrl":"${http_download}/baohuang/taskicon/gold.png",
+	"inviteRewardItem":{
+		"itemId":"user:chip",
+		"count":20000
+	},
+	"inviteRewardDesc":"20000金币",
+	"inviteeRewardTips":"验证成功，恭喜您获得\\${rewardContent}",
+	"inviterRewardTips":"恭喜您获得\\${rewardContent}",
+	"prizeRewardDesc":"每推荐一个人可获得\\${rewardContent}",
+	"prizeNotGotRewardDesc":"还未获得奖励",
+	"prizeGotTotalRewardDesc":"已经获得\\${totalRewardContent}",
+	"prizeAvailableRewardDesc":"可领取奖励\\${availableRewardContent}",
+	"shareRewardItem":{
+		"itemId":"user:chip",
+		"count":2000
+	},
+	"shareRewardDesc":"2000金币",
+	"shareLoc":"neituiguang",
+	"pleaseBindPhone":"为了您的账号安全,请绑定手机号",
+	"defaultShareId":152
+}

@@ -1,0 +1,98 @@
+{
+    "interEmoticon": {
+        "bomb": [
+            4, 
+            1, 
+            -1
+        ], 
+        "chicken": [
+            4, 
+            1, 
+            -1
+        ], 
+        "doubleAce": [
+            4, 
+            1, 
+            1
+        ], 
+        "eggs": [
+            4, 
+            1, 
+            -1
+        ], 
+        "fishing": [
+            4, 
+            1, 
+            -1
+        ], 
+        "ring": [
+            4, 
+            1, 
+            1
+        ], 
+        "rose": [
+            4, 
+            1, 
+            1
+        ], 
+        "thumb": [
+            4, 
+            1, 
+            1
+        ]
+    }, 
+    "matchConf": {
+        "match_id": "0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 20000, 
+    "minCoin": 5000, 
+    "minCoinQS": 10000, 
+    "minTriggerLen": 2, 
+    "n_recycle": 3, 
+    "name": "quick_normal", 
+    "playMode": "classic", 
+    "rewardDealerChip": 20, 
+    "roomID": 8102, 
+    "sortId": 2, 
+    "tableConf": {
+        "autoGrad": 0, 
+        "bb": 20, 
+        "big_pot": 0, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 1000, 
+        "buyinConf": "1/2", 
+        "callChip": -1, 
+        "chat_require_vip_level": 8, 
+        "commission": 0.0, 
+        "extname": "试练场(准入:5000)", 
+        "fee": 2, 
+        "flip_card_game": {
+            "bet": 0, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "get_insurance_info": 0.0, 
+        "isSitBigBlind": 0.0, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "min_players": 2, 
+        "nameForPc": "5000场", 
+        "optime": 11, 
+        "pay_factor": 1.0, 
+        "prebet": 0, 
+        "sb": 10, 
+        "scheduleFloor": 3, 
+        "start_card": 2, 
+        "timeup": 10, 
+        "tname": "5000场", 
+        "win_exp": 2
+    }, 
+    "triggerLen": 6, 
+    "typeName": "queue", 
+    "validate_fold_limit": 15.0, 
+    "validate_play_limit": 50.0
+}

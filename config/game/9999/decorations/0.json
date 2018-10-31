@@ -1,0 +1,552 @@
+{
+    "decorations": [
+        {
+            "localRes": {
+                "resName": "hat_glory_crown"
+            },
+            "id": 4108,
+            "pos": {
+                "zOrder": 40
+            }
+        },
+        {
+            "localRes": {
+                "resName": "head_young_m"
+            },
+            "id": 4109,
+            "pos": {
+                "zOrder": 10
+            }
+        },
+        {
+            "localRes": {
+                "resName": "head_young_f"
+            },
+            "id": 4110,
+            "pos": {
+                "zOrder": 10
+            }
+        },
+        {
+            "localRes": {
+                "resName": "head_charm_m"
+            },
+            "id": 4111,
+            "pos": {
+                "zOrder": 10
+            }
+        },
+        {
+            "localRes": {
+                "resName": "head_charm_f"
+            },
+            "id": 4112,
+            "pos": {
+                "zOrder": 10
+            }
+        },
+        {
+            "localRes": {
+                "resName": "item_lucky_necklace"
+            },
+            "id": 4113,
+            "pos": {
+                "zOrder": 30
+            }
+        },
+        {
+            "localRes": {
+                "resName": "item_fate_cup"
+            },
+            "id": 4114,
+            "pos": {
+                "zOrder": 30
+            }
+        },
+        {
+            "localRes": {
+                "resName": "item_gentleman_staff"
+            },
+            "id": 4115,
+            "pos": {
+                "zOrder": 30
+            }
+        },
+        {
+            "localRes": {
+                "resName": "item_wand"
+            },
+            "id": 4116,
+            "pos": {
+                "zOrder": 30
+            }
+        },
+        {
+            "localRes": {
+                "resName": "item_mystery_pipe"
+            },
+            "id": 4117,
+            "pos": {
+                "zOrder": 30
+            }
+        },
+        {
+            "localRes": {
+                "resName": "item_revolver"
+            },
+            "id": 4118,
+            "pos": {
+                "zOrder": 30
+            }
+        },
+        {
+            "localRes": {
+                "resName": "item_holy_cross"
+            },
+            "id": 4119,
+            "pos": {
+                "zOrder": 30
+            }
+        },
+        {
+            "localRes": {
+                "resName": "item_hell_trident"
+            },
+            "id": 4120,
+            "pos": {
+                "zOrder": 30
+            }
+        },
+        {
+            "localRes": {
+                "resName": "hat_lucky_hat"
+            },
+            "id": 4100,
+            "pos": {
+                "zOrder": 40
+            }
+        },
+        {
+            "localRes": {
+                "resName": "wing_elf_wing"
+            },
+            "id": 4122,
+            "pos": {
+                "zOrder": 50
+            }
+        },
+        {
+            "localRes": {
+                "resName": "wing_demon_wing"
+            },
+            "id": 4123,
+            "pos": {
+                "zOrder": 50
+            }
+        },
+        {
+            "localRes": {
+                "resName": "wing_god_red"
+            },
+            "id": 4124,
+            "pos": {
+                "zOrder": 50
+            }
+        },
+        {
+            "localRes": {
+                "resName": "wing_god_red"
+            },
+            "id": 4125,
+            "pos": {
+                "zOrder": 50
+            }
+        },
+        {
+            "localRes": {
+                "resName": "wing_glory_golden"
+            },
+            "id": 4126,
+            "pos": {
+                "zOrder": 50
+            }
+        },
+        {
+            "localRes": {
+                "resName": "hat_mystery_hat"
+            },
+            "id": 4101,
+            "pos": {
+                "zOrder": 40
+            }
+        },
+        {
+            "localRes": {
+                "resName": "border_gold"
+            },
+            "id": 4128,
+            "pos": {
+                "zOrder": 20
+            }
+        },
+        {
+            "localRes": {
+                "resName": "border_silver"
+            },
+            "id": 4129,
+            "pos": {
+                "zOrder": 20
+            }
+        },
+        {
+            "localRes": {
+                "resName": "item_god_ring"
+            },
+            "id": 4130,
+            "pos": {
+                "zOrder": 30
+            }
+        },
+        {
+            "localRes": {
+                "resName": "item_badge"
+            },
+            "id": 4131,
+            "pos": {
+                "zOrder": 30
+            }
+        },
+        {
+            "localRes": {
+                "resName": "hat_gentleman_hat"
+            },
+            "id": 4102,
+            "pos": {
+                "zOrder": 40
+            }
+        },
+        {
+            "localRes": {
+                "resName": "border_nature"
+            },
+            "id": 4135,
+            "pos": {
+                "zOrder": 23
+            }
+        },
+        {
+            "localRes": {
+                "resName": "border_classic"
+            },
+            "id": 4136,
+            "pos": {
+                "zOrder": 23
+            }
+        },
+        {
+            "localRes": {
+                "resName": "border_metal"
+            },
+            "id": 4137,
+            "pos": {
+                "zOrder": 23
+            }
+        },
+        {
+            "localRes": {
+                "resName": "hat_cowboy_hat"
+            },
+            "id": 4103,
+            "pos": {
+                "zOrder": 40
+            }
+        },
+        {
+            "remoteRes": {
+                "type": "img",
+                "pos": {
+                    "posType": "head_center",
+                    "anchorPoint": {
+                        "y": 0.5,
+                        "x": 0.5
+                    }
+                },
+                "imgUrl": "${http_download}/hall/decroation/hall_decoration_head_naughty_f.gif"
+            },
+            "id": 4140,
+            "pos": {
+                "zOrder": 10
+            }
+        },
+        {
+            "localRes": {
+                "resName": "hat_colorful_crown"
+            },
+            "id": 4104,
+            "pos": {
+                "zOrder": 40
+            }
+        },
+        {
+            "localRes": {
+                "resName": "wing_demon_wing"
+            },
+            "id": 4146,
+            "pos": {
+                "zOrder": 50
+            }
+        },
+        {
+            "localRes": {
+                "resName": "hat_elf_wreath"
+            },
+            "id": 4105,
+            "pos": {
+                "zOrder": 40
+            }
+        },
+        {
+            "localRes": {
+                "resName": "hat_demon_horn"
+            },
+            "id": 4106,
+            "pos": {
+                "zOrder": 40
+            }
+        },
+        {
+            "localRes": {
+                "resName": "hat_angel_halo"
+            },
+            "id": 4107,
+            "pos": {
+                "zOrder": 40
+            }
+        },
+        {
+            "localRes": {
+                "resName": "wing_angel_wing"
+            },
+            "id": 4121,
+            "pos": {
+                "zOrder": 50
+            }
+        },
+        {
+            "localRes": {
+                "resName": "wing_rich_purple"
+            },
+            "id": 4127,
+            "pos": {
+                "zOrder": 50
+            }
+        },
+        {
+            "remoteRes": {
+                "type": "img",
+                "pos": {
+                    "posType": "head_center",
+                    "anchorPoint": {
+                        "y": 0.5,
+                        "x": 0.5
+                    }
+                },
+                "imgUrl": "${http_download}/hall/decroation/hall_decoration_head_ninja_m.gif"
+            },
+            "id": 4139,
+            "pos": {
+                "zOrder": 10
+            }
+        },
+        {
+            "localRes": {
+                "resName": "tip_vip_1"
+            },
+            "id": 4001,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "localRes": {
+                "resName": "tip_vip_2"
+            },
+            "id": 4002,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "localRes": {
+                "resName": "tip_vip_3"
+            },
+            "id": 4003,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "localRes": {
+                "resName": "tip_vip_4"
+            },
+            "id": 4004,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "localRes": {
+                "resName": "tip_vip_5"
+            },
+            "id": 4005,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "remoteRes": {
+                "type": "img",
+                "pos": {
+                    "posType": "head_lower_right",
+                    "anchorPoint": {
+                        "y": 0.15,
+                        "x": 0.95
+                    }
+                },
+                "imgUrl": "${http_download}/hall/vip/hall_decoration_tip_vip_6.png"
+            },
+            "id": 4006,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "remoteRes": {
+                "type": "img",
+                "pos": {
+                    "posType": "head_lower_right",
+                    "anchorPoint": {
+                        "y": 0.15,
+                        "x": 0.95
+                    }
+                },
+                "imgUrl": "${http_download}/hall/vip/hall_decoration_tip_vip_7.png"
+            },
+            "id": 4007,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "remoteRes": {
+                "type": "img",
+                "pos": {
+                    "posType": "head_lower_right",
+                    "anchorPoint": {
+                        "y": 0.15,
+                        "x": 0.95
+                    }
+                },
+                "imgUrl": "${http_download}/hall/vip/hall_decoration_tip_vip_8.png"
+            },
+            "id": 4008,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "remoteRes": {
+                "type": "img",
+                "pos": {
+                    "posType": "head_lower_right",
+                    "anchorPoint": {
+                        "y": 0.15,
+                        "x": 0.95
+                    }
+                },
+                "imgUrl": "${http_download}/hall/vip/hall_decoration_tip_vip_9.png"
+            },
+            "id": 4009,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "remoteRes": {
+                "type": "img",
+                "pos": {
+                    "posType": "head_lower_right",
+                    "anchorPoint": {
+                        "y": 0.15,
+                        "x": 0.95
+                    }
+                },
+                "imgUrl": "${http_download}/hall/vip/hall_decoration_tip_vip_10.png"
+            },
+            "id": 4010,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "remoteRes": {
+                "type": "img",
+                "pos": {
+                    "posType": "head_lower_right",
+                    "anchorPoint": {
+                        "y": 0.15,
+                        "x": 0.95
+                    }
+                },
+                "imgUrl": "${http_download}/hall/vip/hall_decoration_tip_vip_11.png"
+            },
+            "id": 4011,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "remoteRes": {
+                "type": "img",
+                "pos": {
+                    "posType": "head_lower_right",
+                    "anchorPoint": {
+                        "y": 0.15,
+                        "x": 0.95
+                    }
+                },
+                "imgUrl": "${http_download}/hall/vip/hall_decoration_tip_vip_12.png"
+            },
+            "id": 4012,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "remoteRes": {
+                "type": "img",
+                "pos": {
+                    "posType": "head_lower_right",
+                    "anchorPoint": {
+                        "y": 0.15,
+                        "x": 0.95
+                    }
+                },
+                "imgUrl": "${http_download}/hall/vip/hall_decoration_tip_vip_13.png"
+            },
+            "id": 4013,
+            "pos": {
+                "zOrder": 25
+            }
+        },
+        {
+            "localRes": {
+                "resName": "border_gold"
+            },
+            "id": 4163,
+            "pos": {
+                "zOrder": 20
+            }
+        }
+    ]
+}

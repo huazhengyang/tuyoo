@@ -1,0 +1,26 @@
+{
+	"minCoin": 30000,
+	"minCoinQS": 30000,
+	"maxCoin": -1,
+	"maxCoinQS": -1,
+	"baseBet": 1250,
+	"sfee": 3000,
+	"changeCardsFee": 100,
+	"bankerRange": [1, 2, 3, 4],
+	"playerScaleRanges": [[5, 7, 10, 15, 20], [5, 10, 15, 20, 25], [5, 10, 20, 25, 30], [5, 10, 20, 30, 40], [5, 15, 30, 40, 50]],
+	"playerScaleC": [25, 30, 40, 50],
+	"daojuScale": 10,
+	"name": "冲天牛气",
+	"hasrobot": 1,
+	"robotChipRange": [320000, 1000000],
+	"tableConf": {
+		"maxSeatN": 5
+	},
+	"playMode": 1,
+	"roomType": 3,
+	"picIndex": 3,
+	"picUrl": "",
+	"baseBetsDesc":"底分:1250",
+	"minCoinDesc":"进房下限:3万",
+	"typeName": "normal"
+}

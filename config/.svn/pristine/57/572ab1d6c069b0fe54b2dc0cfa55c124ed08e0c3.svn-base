@@ -1,0 +1,701 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+   "lifeSafeCount":15,
+   "dailySafeCount":1, 
+   "safeAddScore":200,
+   "baseScore" : 100,
+   "fees" :[
+    {
+      "count" : 6000,
+      "itemId" : "user:chip",
+      "params" : {
+        "failure" : "您的金币不足，选择其他报名条件或者买个金币礼包吧",
+        "payOrder" : {
+          "contains" : {
+            "count" : 6000,
+            "itemId" : "user:chip"
+          },
+          "shelves" : [
+            "lessbuychip"
+          ]
+        }
+      }
+    },
+    {
+      "count" : 2,
+      "itemId" : "item:1008",
+      "params" : {
+        "failure" : "您的报名条件不足，本比赛需要2张英雄帖"
+      }
+    }
+  ],
+   "matchId" : 6074,
+   "topindex" : 95,
+   "maxPlayerCount" : 1500,
+   "maxSigninCount" : 500,
+   "minSigninCount" : 6,
+   "prepareStopSeconds" : 300,
+   "processSigninCountPerTime" : 500,
+   "processSigninIntervalSeconds" : 5,
+   "rank.rewards" : [
+    {
+      "desc" : "2.5红包券+10大师分",
+      "ranking" : {
+        "end" : 1,
+        "start" : 1
+      },
+      "shareInfo": {
+        "rmb": 2.5,
+        "type": "redEnvelope",
+        "name": "微信红包"
+      },
+      "rewards" : [
+        {
+          "count" : 250,
+          "itemId" : "user:coupon"
+        },
+        {
+          "count" : 10,
+          "itemId" : "ddz:master.score"
+        }
+      ],
+      "todotask" : {
+        "action" : "rep_sence_pack",
+        "params" : {}
+      }
+    },
+    {
+      "desc" : "2红包券+8大师分",
+      "ranking" : {
+        "end" : 2,
+        "start" : 2
+      },
+      "shareInfo": {
+        "rmb": 2,
+        "type": "redEnvelope",
+        "name": "微信红包"
+      },
+      "rewards" : [
+        {
+          "count" : 200,
+          "itemId" : "user:coupon"
+        },
+        {
+          "count" : 8,
+          "itemId" : "ddz:master.score"
+        }
+      ],
+      "todotask" : {
+        "action" : "rep_sence_shop",
+        "params" : {
+          "subStore" : "coupon"
+        }
+      }
+    },
+    {
+      "desc" : "1.5红包券+5大师分",
+      "ranking" : {
+        "end" : 3,
+        "start" : 3
+      },
+      "shareInfo": {
+        "rmb": 1.5,
+        "type": "redEnvelope",
+        "name": "微信红包"
+      },
+      "rewards" : [
+        {
+          "count" : 150,
+          "itemId" : "user:coupon"
+        },
+        {
+          "count" : 5,
+          "itemId" : "ddz:master.score"
+        }
+      ],
+      "todotask" : {
+        "action" : "rep_sence_shop",
+        "params" : {
+          "subStore" : "coupon"
+        }
+      }
+    },
+    {
+      "desc" : "1红包券+3大师分",
+      "ranking" : {
+        "end" : 6,
+        "start" : 4
+      },
+      "shareInfo": {
+        "rmb": 1,
+        "type": "redEnvelope",
+        "name": "微信红包"
+      },
+      "rewards" : [
+        {
+          "count" : 100,
+          "itemId" : "user:coupon"
+        },
+        {
+          "count" : 3,
+          "itemId" : "ddz:master.score"
+        }
+      ],
+      "todotask" : {
+        "action" : "rep_sence_shop",
+        "params" : {
+          "subStore" : "coupon"
+        }
+      }
+    },
+    {
+      "desc" : "0.8红包券+2大师分",
+      "ranking" : {
+        "end" : 12,
+        "start" : 7
+      },
+      "shareInfo": {
+        "rmb": 0.8,
+        "type": "redEnvelope",
+        "name": "微信红包"
+      },
+      "rewards" : [
+        {
+          "count" : 80,
+          "itemId" : "user:coupon"
+        },
+        {
+          "count" : 2,
+          "itemId" : "ddz:master.score"
+        }
+      ],
+      "todotask" : {
+        "action" : "rep_sence_shop",
+        "params" : {
+          "subStore" : "coupon"
+        }
+      }
+    },
+    {
+      "desc" : "6000金币",
+      "ranking" : {
+        "end" : 18,
+        "start" : 13
+      },
+      "rewards" : [
+        {
+          "count" : 6000,
+          "itemId" : "user:chip"
+        }
+      ]
+    }
+  ],
+   "stages" : [
+    {
+      "animationType" : -1,
+      "cardCount" : 1,
+      "name" : "30强赛",
+      "rankLine" : [
+        [
+          3200,
+          1
+        ],
+        [
+          2600,
+          2
+        ],
+        [
+          2000,
+          3
+        ],
+        [
+          1900,
+          4
+        ],
+        [
+          1800,
+          5
+        ],
+        [
+          1700,
+          6
+        ],
+        [
+          1600,
+          7
+        ],
+        [
+          1500,
+          8
+        ],
+        [
+          1400,
+          9
+        ],
+        [
+          1300,
+          10
+        ],
+        [
+          1200,
+          11
+        ],
+        [
+          1100,
+          12
+        ],
+        [
+          1000,
+          13
+        ],
+        [
+          900,
+          14
+        ],
+        [
+          800,
+          15
+        ],
+        [
+          700,
+          16
+        ],
+        [
+          600,
+          17
+        ],
+        [
+          500,
+          18
+        ],
+        [
+          400,
+          19
+        ],
+        [
+          300,
+          20
+        ],
+        [
+          200,
+          21
+        ],
+        [
+          100,
+          22
+        ],
+        [
+          0,
+          23
+        ],
+        [
+          -100,
+          24
+        ],
+        [
+          -200,
+          25
+        ],
+        [
+          -400,
+          26
+        ],
+        [
+          -800,
+          27
+        ],
+        [
+          -1600,
+          28
+        ],
+        [
+          -3200,
+          29
+        ],
+        [
+          -51200,
+          30
+        ]
+      ],
+      "riseUserCount" : 24,
+      "scoreInit" : 1000,
+      "scoreIntoRate" : 1,
+      "totalUserCount" : 30
+    },
+    {
+      "animationType" : -1,
+      "cardCount" : 1,
+      "name" : "24强赛",
+      "rankLine" : [
+        [
+          5000,
+          1
+        ],
+        [
+          4200,
+          2
+        ],
+        [
+          3600,
+          3
+        ],
+        [
+          3000,
+          4
+        ],
+        [
+          2400,
+          5
+        ],
+        [
+          2210,
+          6
+        ],
+        [
+          2030,
+          7
+        ],
+        [
+          1840,
+          8
+        ],
+        [
+          1700,
+          9
+        ],
+        [
+          1500,
+          10
+        ],
+        [
+          1300,
+          11
+        ],
+        [
+          1100,
+          12
+        ],
+        [
+          900,
+          13
+        ],
+        [
+          700,
+          14
+        ],
+        [
+          500,
+          15
+        ],
+        [
+          300,
+          16
+        ],
+        [
+          200,
+          17
+        ],
+        [
+          150,
+          18
+        ],
+        [
+          50,
+          19
+        ],
+        [
+          -50,
+          20
+        ],
+        [
+          -200,
+          21
+        ],
+        [
+          -400,
+          22
+        ],
+        [
+          -800,
+          23
+        ],
+        [
+          -51500,
+          24
+        ]
+      ],
+      "riseUserCount" : 18,
+      "scoreInit" : 0,
+      "scoreIntoRate" : 0.6,
+      "totalUserCount" : 24
+    },
+    {
+      "animationType" : -1,
+      "cardCount" : 1,
+      "name" : "18强赛",
+      "rankLine" : [
+        [
+          4400,
+          1
+        ],
+        [
+          3600,
+          2
+        ],
+        [
+          2800,
+          3
+        ],
+        [
+          2200,
+          4
+        ],
+        [
+          1900,
+          5
+        ],
+        [
+          1600,
+          6
+        ],
+        [
+          1300,
+          7
+        ],
+        [
+          1000,
+          8
+        ],
+        [
+          700,
+          9
+        ],
+        [
+          500,
+          10
+        ],
+        [
+          400,
+          11
+        ],
+        [
+          300,
+          12
+        ],
+        [
+          150,
+          13
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          -200,
+          15
+        ],
+        [
+          -500,
+          16
+        ],
+        [
+          -800,
+          17
+        ],
+        [
+          -51500,
+          18
+        ]
+      ],
+      "riseUserCount" : 12,
+      "scoreInit" : 0,
+      "scoreIntoRate" : 0.6,
+      "totalUserCount" : 18
+    },
+    {
+      "animationType" : -1,
+      "cardCount" : 1,
+      "name" : "12强赛",
+      "rankLine" : [
+        [
+          4000,
+          1
+        ],
+        [
+          2400,
+          2
+        ],
+        [
+          1800,
+          3
+        ],
+        [
+          1200,
+          4
+        ],
+        [
+          700,
+          5
+        ],
+        [
+          450,
+          6
+        ],
+        [
+          250,
+          7
+        ],
+        [
+          100,
+          8
+        ],
+        [
+          -150,
+          9
+        ],
+        [
+          -300,
+          10
+        ],
+        [
+          -800,
+          11
+        ],
+        [
+          -51500,
+          12
+        ]
+      ],
+      "riseUserCount" : 6,
+      "scoreInit" : 0,
+      "scoreIntoRate" : 0.6,
+      "totalUserCount" : 12
+    },
+    {
+      "animationType" : -1,
+      "cardCount" : 1,
+      "name" : "6强赛",
+      "rankLine" : [
+        [
+          2000,
+          1
+        ],
+        [
+          1200,
+          2
+        ],
+        [
+          600,
+          3
+        ],
+        [
+          300,
+          4
+        ],
+        [
+          -200,
+          5
+        ],
+        [
+          -51500,
+          6
+        ]
+      ],
+      "riseUserCount" : 3,
+      "scoreInit" : 0,
+      "scoreIntoRate" : 0.6,
+      "totalUserCount" : 6
+    },
+    {
+      "animationType" : 2,
+      "cardCount" : 1,
+      "name" : "决赛",
+      "rankLine" : [
+        [
+          2000,
+          1
+        ],
+        [
+          1000,
+          2
+        ],
+        [
+          -51500,
+          3
+        ]
+      ],
+      "riseUserCount" : 1,
+      "scoreInit" : 0,
+      "scoreIntoRate" : 0.6,
+      "totalUserCount" : 3
+    }
+  ],
+"startTime" : "20:00",
+"stopTime" : "23:00",
+"tableMaxTimes" : 480,
+"tableSeatCount" : 3,
+"tips" : {
+  "infos" : [
+    "当积分相同时，按报名先后顺序确定名次。",
+    "除海选赛阶段，只有力争第一才可以晋级！",
+    "天生我材必有用，有用就得斗地主！",
+    "忽如一夜春风来，千人万人牌桌开！",
+    "普通场获得勋章时，记得领取相应奖励哦。",
+    "万人比赛火热上线，记得要关注哦。",
+    "海选阶段要稳打，低于基础分会被淘汰哟！"
+  ],
+  "interval" : 5
+},
+"tipsForNotSignin" : "20点至23点才开赛喔，先去参加别的比赛吧",
+"tipsForWillStopInfo" : "由于服务器维护，本次比赛将于5分钟后结束，给您带来的不便敬请见谅。"
+},
+"maxCoin" : -1,
+"maxCoinQS" : -1,
+"maxLevel" : -1,
+"minCoin" : 0,
+"minCoinQS" : 0,
+"name" : "经典30元红包券快速赛",
+"playDesc" : "",
+"playMode" : "123",
+"displayCond":{
+ "typeId":"user.cond.notin.clientIds",
+ "clientIds":[
+ ]
+},
+"robotUserCallUpTime" : 2,
+"robotUserMaxCount" : 3,
+"robotUserOpTime" : [
+  1,
+  2
+],
+"roomFee" : 45,
+"roomMutil" : 50,
+"showCard" : 0,
+"tableConf" : {
+  "autochange" : 1,
+  "basebet" : 1,
+  "basemulti" : 1,
+  "canchat" : 0,
+  "nongminWinAlone" : 1,
+  "cardNoteDiamond" : 12,
+  "coin2chip" : 1,
+  "grab" : 0,
+  "gslam" : 128,
+  "lucky" : 0,
+  "maxSeatN" : 3,
+  "optime" : 15,
+  "passtime" : 5,
+  "rangpaiMultiType" : 1,
+  "robottimes" : 1,
+  "tbbox" : 0,
+  "unticheat" : 0
+},
+"typeName" : "dizhu_arena_match",
+"matchListPeopleNumberTip" : "限时20至23点",
+"winDesc" : ""
+}

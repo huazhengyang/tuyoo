@@ -1,0 +1,33 @@
+{
+ "custom_menus"                   : {
+  "702zhanji"                      : {
+   "picUrl"                         : "${http_download}/hunan/majiang/ads/hall_bottom_icon_zhanji.png",
+   "todotasks"                      : [
+    {
+     "enter_param"                    : {
+      "pluginParams"                   : {
+       "gameType"                       : 11,
+       "tasks"                          : [
+        {
+         "action"                         : "pop_create_room_zhanji",
+         "params"                         : { }
+        }
+       ]
+      },
+      "type"                           : "roomlist"
+     },
+     "gameId"                         : 702,
+     "typeId"                         : "hall.goto.enter.game"
+    }
+   ]
+  }
+ },
+ "templates"                      : {
+  "guangdong_v3.901_AI_guangdong": [
+   "activity",
+   "message",
+   "702zhanji",
+   "settings"
+  ]
+ }
+}

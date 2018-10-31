@@ -1,0 +1,543 @@
+{
+  "room_items" : {
+    "jd10" : {
+      "id" : 21011,
+      "name" : "经典新手场",
+      "basebet": 50,
+      "mincoin": 0,
+      "maxcoin": 10000,
+      "entry" : "底注50金币",
+      "config" : 0,
+      "condition" : "",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "jd20" : {
+      "id" : 21012,
+      "name" : "经典中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": -1,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "jd30" : {
+      "id" : 21013,
+      "name" : "经典高级场",
+      "basebet": 1000,
+      "mincoin": 10000,
+      "maxcoin": -1,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.02红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "jd40" : {
+      "id" : 21014,
+      "name" : "经典大师场",
+      "basebet": 2000,
+      "mincoin": 20000,
+      "maxcoin": -1,
+      "entry" : "底注2000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.04红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+
+    "fp10" : {
+      "id" : 21021,
+      "name" : "放炮新手场",
+      "basebet": 50,
+      "mincoin": 0,
+      "maxcoin": -1,
+      "entry" : "底注50金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "fp20" : {
+      "id" : 21022,
+      "name" : "放炮中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": -1,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "fp30" : {
+      "id" : 21023,
+      "name" : "放炮高级场",
+      "basebet": 1000,
+      "mincoin": 10000,
+      "maxcoin": -1,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.02红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "fp40" : {
+      "id" : 21024,
+      "name" : "放炮大师场",
+      "basebet": 2000,
+      "mincoin": 20000,
+      "maxcoin": -1,
+      "entry" : "底注2000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.04红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "guilin10" : {
+      "id" : 21091,
+      "name" : "桂林新手场",
+      "basebet": 50,
+      "mincoin": 0,
+      "maxcoin": -1,
+      "entry" : "底注50金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "guilin20" : {
+      "id" : 21092,
+      "name" : "桂林中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": -1,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "guilin30" : {
+      "id" : 21093,
+      "name" : "桂林高级场",
+      "basebet": 1000,
+      "mincoin": 10000,
+      "maxcoin": -1,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.02红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "guilin40" : {
+      "id" : 21094,
+      "name" : "桂林大师场",
+      "basebet": 2000,
+      "mincoin": 20000,
+      "maxcoin": -1,
+      "entry" : "底注2000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.04红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "hechi10" : {
+      "id" : 21111,
+      "name" : "河池新手场",
+      "basebet": 50,
+      "mincoin": 0,
+      "maxcoin": -1,
+      "entry" : "底注50金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "hechi20" : {
+      "id" : 21112,
+      "name" : "河池中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": -1,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "hechi30" : {
+      "id" : 21113,
+      "name" : "河池高级场",
+      "basebet": 1000,
+      "mincoin": 10000,
+      "maxcoin": -1,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.02红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "hechi40" : {
+      "id" : 21114,
+      "name" : "河池大师场",
+      "basebet": 2000,
+      "mincoin": 20000,
+      "maxcoin": -1,
+      "entry" : "底注2000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.04红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "chenzhou10" : {
+      "id" : 21121,
+      "name" : "郴州新手场",
+      "basebet": 50,
+      "mincoin": 0,
+      "maxcoin": -1,
+      "entry" : "底注50金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "chenzhou20" : {
+      "id" : 21122,
+      "name" : "郴州中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": -1,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "chenzhou30" : {
+      "id" : 21123,
+      "name" : "郴州高级场",
+      "basebet": 1000,
+      "mincoin": 10000,
+      "maxcoin": -1,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.02红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "chenzhou40" : {
+      "id" : 21124,
+      "name" : "郴州大师场",
+      "basebet": 2000,
+      "mincoin": 20000,
+      "maxcoin": -1,
+      "entry" : "底注2000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.04红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "yueyangwai10" : {
+      "id" : 21131,
+      "name" : "岳阳新手场",
+      "basebet": 50,
+      "mincoin": 0,
+      "maxcoin": -1,
+      "entry" : "底注50金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "yueyangwai20" : {
+      "id" : 21132,
+      "name" : "岳阳中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": -1,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "yueyangwai30" : {
+      "id" : 21133,
+      "name" : "岳阳高级场",
+      "basebet": 1000,
+      "mincoin": 10000,
+      "maxcoin": -1,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.02红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "yueyangwai40" : {
+      "id" : 21134,
+      "name" : "岳阳大师场",
+      "basebet": 2000,
+      "mincoin": 20000,
+      "maxcoin": -1,
+      "entry" : "底注2000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.04红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "shaozi10" : {
+      "id" : 21141,
+      "name" : "邵阳新手场",
+      "basebet": 50,
+      "mincoin": 0,
+      "maxcoin": -1,
+      "entry" : "底注50金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "shaozi20" : {
+      "id" : 21142,
+      "name" : "邵阳中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": -1,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "shaozi30" : {
+      "id" : 21143,
+      "name" : "邵阳高级场",
+      "basebet": 1000,
+      "mincoin": 10000,
+      "maxcoin": -1,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.02红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "shaozi40" : {
+      "id" : 21144,
+      "name" : "邵阳大师场",
+      "basebet": 2000,
+      "mincoin": 20000,
+      "maxcoin": -1,
+      "entry" : "底注2000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.04红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "yongzhou10" : {
+      "id" : 21151,
+      "name" : "永州新手场",
+      "basebet": 50,
+      "mincoin": 0,
+      "maxcoin": -1,
+      "entry" : "底注50金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "yongzhou20" : {
+      "id" : 21152,
+      "name" : "永州中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": -1,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "yongzhou30" : {
+      "id" : 21153,
+      "name" : "永州高级场",
+      "basebet": 1000,
+      "mincoin": 10000,
+      "maxcoin": -1,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.02红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "yongzhou40" : {
+      "id" : 21154,
+      "name" : "永州大师场",
+      "basebet": 2000,
+      "mincoin": 20000,
+      "maxcoin": -1,
+      "entry" : "底注2000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.04红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "zhuzhou10" : {
+      "id" : 21161,
+      "name" : "碰胡子新手场",
+      "basebet": 50,
+      "mincoin": 0,
+      "maxcoin": -1,
+      "entry" : "底注50金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "zhuzhou20" : {
+      "id" : 21162,
+      "name" : "碰胡子中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": -1,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "玩6局送0.01红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "zhuzhou30" : {
+      "id" : 21163,
+      "name" : "碰胡子高级场",
+      "basebet": 1000,
+      "mincoin": 10000,
+      "maxcoin": -1,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.02红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "zhuzhou40" : {
+      "id" : 21164,
+      "name" : "碰胡子大师场",
+      "basebet": 2000,
+      "mincoin": 20000,
+      "maxcoin": -1,
+      "entry" : "底注2000金币",
+      "config" : 0,
+      "condition" : "玩6局送0.04红包券",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    
+    "nuanchun_500" : {
+      "id" : 21056,
+      "name" : "暖春500元红包赛",
+      "least" : 0,
+      "entry" : "1张豪杰卡",
+      "config" : 4,
+      "condition" : "时长30分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png",
+      "playMode": "常德跑胡子"
+    },
+    
+     
+    "mt20" : {
+      "id" : 21052,
+      "name" : "6元红包赛",
+      "least" : 0,
+      "entry" : "免费",
+      "config" : 4,
+      "condition" : "时长15分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png",
+      "detail": "每10分钟开启一场比赛",
+      "playMode": "常德跑胡子"
+    },
+    "mt30" : {
+      "id" : 21055,
+      "name" : "18元红包赛",
+      "least" : 0,
+      "entry" : "3000金币;1张豪杰卡",
+      "config" : 4,
+      "condition" : "时长25分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png",
+      "detail": "每1小时开启一场比赛",
+      "playMode": "常德跑胡子"
+    },
+    
+    
+    "mt40" : {
+      "id" : 21054,
+      "name" : "50元红包赛",
+      "least" : 0,
+      "entry" : "免费",
+      "config" : 4,
+      "condition" : "时长30分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png",
+      "playMode": "常德跑胡子"
+    },
+    "mt50" : {
+      "id" : 21051,
+      "name" : "50元红包赛",
+      "least" : 0,
+      "entry" : "免费",
+      "config" : 4,
+      "condition" : "时长30分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png",
+      "playMode": "常德跑胡子"
+    },
+    "mt60" : {
+      "id" : 21053,
+      "name" : "300元红包赛",
+      "least" : 0,
+      "entry" : "免费",
+      "config" : 4,
+      "condition" : "时长30分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png",
+      "playMode": "常德跑胡子"
+    }
+  },
+  "session_items" : {
+    "jd" : {
+      "session" : "经典场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["jd10", "jd20", "jd30", "jd40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "fangpao" : {
+      "session" : "放炮罚",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["fp10", "fp20", "fp30", "fp40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "guilin" : {
+      "session" : "桂林字牌",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["guilin10", "guilin20", "guilin30", "guilin40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "hechi" : {
+      "session" : "河池字牌",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["hechi10", "hechi20", "hechi30", "hechi40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "chenzhou" : {
+      "session" : "郴州字牌",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["chenzhou10", "chenzhou20", "chenzhou30", "chenzhou40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "yueyangwai" : {
+      "session" : "岳阳歪胡子",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["yueyangwai10", "yueyangwai20", "yueyangwai30", "yueyangwai40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "shaozi" : {
+      "session" : "邵阳字牌",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["shaozi10", "shaozi20", "shaozi30", "shaozi40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "yongzhou" : {
+      "session" : "永州扯胡子",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["yongzhou10", "yongzhou20", "yongzhou30", "yongzhou40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "zhuzhou" : {
+      "session" : "株洲碰胡子",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["zhuzhou10", "zhuzhou20", "zhuzhou30", "zhuzhou40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "mt" : {
+      "session" : "比赛场",
+      "match" : 1,
+      "new" : 1,
+      "rooms" : ["nuanchun_500", "mt60", "mt20",   "mt30", "mt40", "mt50"],
+      "description" : ["1、比赛需交报名费（有些为免费），结束后按名次发奖励。", "2、为保证公平，一些比赛隐藏了对手信息。"]
+    }
+  },
+  "templates" : {
+    "default" : ["jd", "fangpao", "mt", "guilin", "hechi", "chenzhou", "yueyangwai", "shaozi", "yongzhou", "zhuzhou"]
+  }
+}

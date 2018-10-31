@@ -1,0 +1,24 @@
+{
+  "hasRobot": 0,
+  "isMatch": 0,
+  "name" : "浅海探险",
+  "sceneName":"string_menghuanshanhu",
+  "fishPool": 1,
+  "dummyUserCount" : 0,
+  "maxLevel" : 999,
+  "minCoin" : 0,
+  "minGunLevel":2101,
+  "maxGunLevel":2114,
+  "taskLoopInterval": 1200,
+  "cmpttTaskInterval": 300,
+  "ncmpttTaskInterval": 600,
+  "bonusTaskInterval": 900,
+  "minBonus": 800,
+  "miniGameLevel": 1,
+  "typeName" : "normal",
+  "tableConf" : {
+    "fishGroupsName":"string_menghuanshanhu",
+    "fishTideName":"tideLevel1",        
+    "maxSeatN": 4   
+  }
+}

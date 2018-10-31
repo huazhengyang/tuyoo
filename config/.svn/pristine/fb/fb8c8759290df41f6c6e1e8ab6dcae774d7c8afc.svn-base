@@ -1,0 +1,24 @@
+{
+ "templates"              : {
+  "ddz_wx_exmall": {
+   "shelves"                : [
+    {
+     "visible"                : 1,
+     "displayName"            : "热门商品",
+     "name"                   : "tools",
+     "products"               : [
+      "30001",
+      "30002",
+      "30003",
+      "30004",
+      "30005",
+      "30006",
+      "30007",
+      "30008"
+     ],
+     "sort"                   : 0
+    }
+   ]
+  }
+ }
+}

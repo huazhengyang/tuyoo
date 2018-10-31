@@ -1,0 +1,20 @@
+{
+	"modules":[
+		{"name":"account", "type":0, "needReport":1, "hallType":"common"},
+        {"name":"bag", "type":0, "needReport":1, "hallType":"common"},
+        {"name":"medal", "type":0, "needReport":0, "hallType":"common"},
+        {"name":"message", "type":0, "needReport":1, "hallType":"common"},
+        {"name":"task", "type":0, "needReport":0, "hallType":"special"},
+        {"name":"activity", "type":0, "needReport":1, "hallType":"special"},
+        {"name":"friends", "type":0, "needReport":1, "hallType":"common"},		
+        {"name":"actGup", "type":0, "needReport":0, "hallType":"common"},
+        {"name":"act_charge", "type":0, "needReport":0, "hallType":"common"},
+        {"name":"act_charge_crystal", "type":0, "needReport":0, "hallType":"common"},
+        {"name":"actFirstRecharge", "type":0, "needReport":0, "hallType":"common"},
+        {"name":"actDailyTk", "type":0, "needReport":0, "hallType":"common"},
+        {"name":"checkin", "type":0, "needReport":0, "hallType":"common"},
+        {"name":"inviteFriend", "type":0, "needReport":0, "hallType":"common"},
+        {"name":"dailyInvite", "type":0, "needReport":0, "hallType":"common"},
+        {"name":"fishFriends", "type":0, "needReport":0, "hallType":"common"}
+	]
+}

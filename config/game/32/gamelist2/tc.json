@@ -1,0 +1,51 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松连线欢乐",
+      "2、桌面开心比倍小丑"
+     ],
+     "md5"              : "96e1366d6cd48ae9d1594ba20def2b86",
+     "ver"              : "3.701",
+     "url"              : "${http_download}/hall/plugin/game/tclown_release_v3.7013.zip",
+     "size"             : "1.1"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松连线欢乐",
+      "2、桌面开心比倍小丑"
+     ],
+     "md5"              : "c5a7c4d7dfca223dc5db50d08ba121b7",
+     "ver"              : "3.802",
+     "url"              : "${http_download}/hall/plugin/game/tclown_release_v3.8012.zip",
+     "size"             : "1.1"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松连线欢乐",
+      "2、桌面开心比倍小丑"
+     ],
+     "md5"              : "51042a6cf05f2da5f68dad9b47eb303a",
+     "ver"              : "3.803",
+     "url"              : "${http_download}/hall/plugin/game/tclown_release_v3.803.zip",
+     "size"             : "1.10"
+    }
+   ],
+   "description"      : [
+    "1、轻松连线欢乐",
+    "2、开心比倍小丑"
+   ],
+   "gameId"           : 32,
+   "gameMark"         : "tclown"
+  }
+ ],
+ "templates"        : [ ]
+}

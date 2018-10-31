@@ -1,0 +1,28 @@
+{
+        "buyinchip" : 0,
+        "dummyUserCount" : 0, 
+        "hasrobot" : 0,
+        "robotUserCallUpTime": 6,
+        "robotUserMaxCount": 0,
+        "openIpLimit": 1,
+        "meetNumLimit": 2,
+        "isLeiTai": 1,
+        "robotUserOpTime": [
+          1,
+          2,
+          3
+        ],         
+        "minCoin" : 0,
+        "minCoinQS" : 0, 
+        "maxCoinQS" : -1,  
+        "maxCoin" : -1,  
+        "name" : "第十关", 
+        "playMode" : "jifen", 
+        "roomFee" : 0,
+        "canchat" : 1,       
+        "tableConf" : {
+            "maxSeatN" : 2       
+        }, 
+        "typeName" : "normal"
+
+}

@@ -1,0 +1,11 @@
+{
+	"task.ui.config": {
+		"coin": "${http_download}/majiang/images/others/task_coin.png",
+		"coupon": "${http_download}/majiang/images/others/item_50.png",
+		"vip": "${http_download}/majiang/images/others/vip.png"
+	},
+	"medal.ui.config": {
+		"title": "${http_download}/majiang/images/medal/title.png",
+    	"level": "${http_download}/majiang/images/medal/%s.png"
+	}
+}

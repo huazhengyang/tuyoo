@@ -1,0 +1,1049 @@
+{
+    "taskUnits": [
+        {
+            "taskUnitId": "hall.task.mj",
+            "typeId": "hall.task.newuser",
+            "pools": [
+                {
+                    "acceptedCond": {
+                        "typeId": "user.cond.registerDays",
+                        "startDays": -1,
+                        "stopDays": 0
+                    },
+                    "nextType": "nextByOrder",
+                    "taskOrder": [
+                        70001,
+                        70002,
+                        70003,
+                        70004
+                    ],
+                    "visibleCond": {
+                        "typeId": "user.cond.registerDays",
+                        "startDays": -1,
+                        "stopDays": 15
+                    },
+                    "tasks": [
+                        {
+                            "kindId": 70001,
+                            "typeId": "hall.task.simple",
+                            "name": "1元微信红包",
+                            "desc": "金币达到5000金币，奖励1元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 5000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.chip",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "1元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:2051",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 70002,
+                            "typeId": "hall.task.simple",
+                            "name": "1元微信红包",
+                            "desc": "金币达到10000金币，奖励1元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 10000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.chip",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "1元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:2052",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 70003,
+                            "typeId": "hall.task.simple",
+                            "name": "1元微信红包",
+                            "desc": "金币达到15000金币，奖励1元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 15000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.chip",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "1元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:2053",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 70004,
+                            "typeId": "hall.task.simple",
+                            "name": "2元微信红包",
+                            "desc": "金币达到20000金币，奖励2元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 20000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.chip",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "2元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:2054",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "freshTip": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "taskUnitId": "majiang_newuser_task",
+            "typeId": "hall.task.newuser",
+            "pools": [{
+                "acceptedCond": {
+                    "startLevel": 0,
+                    "stopLevel": 0,
+                    "typeId": "user.cond.vipLevel"
+                },
+                "nextType": "nextByOrder",
+                "taskOrder": [
+                    70118,
+                    70119,
+                    70120,
+                    70121,
+                    70122
+                ],
+                "visibleCond": {
+                    "typeId": "user.cond.datetime",
+                    "format": "%Y-%m-%d %H:%M:%S",
+                    "end": "2018-04-02 23:59:59",
+                    "start": "2018-03-29 00:00:00"
+                },
+                "showCond": {
+                	"typeId":"user.cond.isMyGameid",
+                        "myGameId":7
+                },
+                "tasks": [{
+                        "kindId": 70118,
+                        "typeId": "hall.task.simple",
+                        "name": "4000金币",
+                        "desc": "麻将游戏20局可得4000金币",
+                        "pic": "task_share",
+                        "count": 20,
+                        "star": 0,
+                        "totalLimit": 1,
+                        "inspectors": [{
+                            "typeId": "hall.play",
+                            "conditions": [
+                                {
+                                    "typeId":"task.cond.in.gameIds",
+                                    "gameIds":[700, 701, 702]
+                                }
+                            ]
+                        }],
+                        "rewardContent": {
+                            "typeId": "FixedContent",
+                            "desc": "4000金币",
+                            "items": [{
+                                "itemId": "user:chip",
+                                "count": 4000
+                            }]
+                        },
+                        "rewardMail": "",
+                        "todotask": {
+                            "enter_param": {
+                                "pluginParams": {
+                                    "gameType": 1,
+                                    "playMode" : "guobiao"
+                                },
+                                "type": "roomlist"
+                            },
+                            "gameId": 700,
+                            "typeId": "hall.goto.enter.game"
+                        },
+                        "freshTip": true
+                    },
+                    {
+                        "kindId": 70119,
+                        "typeId": "hall.task.simple",
+                        "name": "1红包券",
+                        "desc": "麻将进行50局可得1红包券",
+                        "pic": "task_share",
+                        "count": 50,
+                        "star": 0,
+                        "totalLimit": 1,
+                        "inspectors": [{
+                            "typeId": "hall.play",
+                            "conditions": [
+                                {
+                                    "typeId":"task.cond.in.gameIds",
+                                    "gameIds":[700, 701, 702]
+                                }
+                            ]
+                        }],
+                        "rewardContent": {
+                            "typeId": "FixedContent",
+                            "desc": "1红包券",
+                            "items": [{
+                                "itemId": "user:coupon",
+                                "count": 100
+                            }]
+                        },
+                        "rewardMail": "",
+                        "todotask": {
+                            "enter_param": {
+                                "pluginParams": {
+                                    "gameType": 1,
+                                    "playMode" : "guobiao"
+                                },
+                                "type": "roomlist"
+                            },
+                            "gameId": 700,
+                            "typeId": "hall.goto.enter.game"
+                        },
+                        "freshTip": true
+                    },
+                    {
+                        "kindId": 70120,
+                        "typeId": "hall.task.simple",
+                        "name": "2红包券",
+                        "desc": "累计充值满8元，可得2红包券\n3月29日-4月2日",
+                        "pic": "task_coupon",
+                        "count": 8,
+                        "star": 0,
+                        "totalLimit": 1,
+                        "inspectors": [{
+                            "typeId": "hall.charge.cumulation",
+                            "conditions": []
+                        }],
+                        "rewardContent": {
+                            "typeId": "FixedContent",
+                            "desc": "2红包券",
+                            "items": [{
+                                "itemId": "user:coupon",
+                                "count": 200
+                            }]
+                        },
+                        "rewardMail": "",
+                        "todotask": {
+                            "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 80,
+                                        "maxCount": 300,
+                                        "minCount": 80
+                                    }
+                                }
+                        },
+                        "lblEnter": "充值",
+                        "freshTip": true
+                    },
+                    {
+                        "kindId": 70121,
+                        "typeId": "hall.task.simple",
+                        "name": "3红包券",
+                        "desc": "VIP达到2级，可得3红包券\n3月29日-4月2日",
+                        "pic": "task_coupon",
+                        "count": 2,
+                        "star": 0,
+                        "totalLimit": 1,
+                        "inspectors": [{
+                            "typeId": "hall.vip.level",
+                            "conditions": []
+                        }],
+                        "rewardContent": {
+                            "typeId": "FixedContent",
+                            "desc": "3红包券",
+                            "items": [{
+                                "itemId": "user:coupon",
+                                "count": 300
+                            }]
+                        },
+                        "rewardMail": "",
+                        "todotask": {
+                            "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 300,
+                                        "maxCount": 1000,
+                                        "minCount": 300
+                                    }
+                                }
+                        },
+                        "lblEnter": "充值",
+                        "freshTip": true
+                    },
+                    {
+                        "kindId": 70122,
+                        "typeId": "hall.task.simple",
+                        "name": "4红包券",
+                        "desc": "累计充值满50元，可得4红包券\n3月29日-4月2日",
+                        "pic": "task_coupon",
+                        "count": 50,
+                        "star": 0,
+                        "totalLimit": 1,
+                        "inspectors": [{
+                            "typeId": "hall.charge.cumulation",
+                            "conditions": []
+                        }],
+                        "rewardContent": {
+                            "typeId": "FixedContent",
+                            "desc": "4红包券",
+                            "items": [{
+                                "itemId": "user:coupon",
+                                "count": 400
+                            }]
+                        },
+                        "rewardMail": "",
+                        "todotask": {
+                            "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 300,
+                                        "maxCount": 500,
+                                        "minCount": 80
+                                    }
+                                }
+                        },
+                        "lblEnter": "充值",
+                        "freshTip": true
+                    }
+                ]
+            }]
+        },
+        {
+            "taskUnitId": "majiang_charge_task",
+            "typeId": "hall.task.charge",
+            "pools": [{
+                    "nextType": "nextByOrder",
+                    "taskOrder": [
+                        70514,
+                        70515,
+                        70516,
+                        70517
+                    ],
+                    "acceptedCond": {
+                        "typeId": "user.cond.and",
+                        "list": [
+                            {
+                                "startLevel": 0,
+                                "stopLevel": 0,
+                                "typeId": "user.cond.vipLevel"
+                            },
+                            {
+                                "typeId":"user.cond.isMyGameid",
+                                "myGameId":7
+                            }
+                        ]
+                    },
+                    "visibleCond": {
+                        "typeId": "user.cond.datetime",
+                        "format": "%Y-%m-%d %H:%M:%S",
+                        "end": "2018-04-02 23:59:59",
+                        "start": "2018-03-29 00:00:00"
+                    },
+                    "showCond": {
+                        "typeId":"user.cond.isMyGameid",
+                        "myGameId":7
+                    },
+                    "tasks": [{
+                            "kindId": 70514,
+                            "typeId": "hall.task.simple",
+                            "name": "2红包券",
+                            "desc": "单笔充值满6元，可得2红包券\n3月29日-4月2日",
+                            "pic": "task_coupon",
+                            "count": 6,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [{
+                                "typeId": "hall.charge.single",
+                                "conditions": [
+                                    {
+                                        "typeId":"task.cond.isMyGameIdClient",
+                                        "myGameId":7
+                                    }
+                                ]
+                            }],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "2红包券",
+                                "items": [{
+                                    "itemId": "user:coupon",
+                                    "count": 200
+                                }]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 60,
+                                        "maxCount": 10000,
+                                        "minCount": 60
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 70515,
+                            "typeId": "hall.task.simple",
+                            "name": "10红包券",
+                            "desc": "单笔充值满30元，可得10红包券\n3月29日-4月2日",
+                            "pic": "task_coupon",
+                            "count": 30,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [{
+                                "typeId": "hall.charge.single",
+                                "conditions": [
+                                    {
+                                        "typeId":"task.cond.isMyGameIdClient",
+                                        "myGameId":7
+                                    }
+                                ]
+                            }],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "10红包券",
+                                "items": [{
+                                    "itemId": "user:coupon",
+                                    "count": 1000
+                                }]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 300,
+                                        "maxCount": 10000,
+                                        "minCount": 300
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 70516,
+                            "typeId": "hall.task.simple",
+                            "name": "20红包券",
+                            "desc": "累计充值满100元，可得20红包券\n3月29日-4月2日",
+                            "pic": "task_coupon",
+                            "count": 100,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [{
+                                "typeId": "hall.charge.cumulation",
+                                "conditions": [
+                                    {
+                                        "typeId":"task.cond.isMyGameIdClient",
+                                        "myGameId":7
+                                    }
+                                ]
+                            }],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "20红包券",
+                                "items": [{
+                                    "itemId": "user:coupon",
+                                    "count": 2000
+                                }]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 1000,
+                                        "maxCount": 10000,
+                                        "minCount": 1000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 70517,
+                            "typeId": "hall.task.simple",
+                            "name": "30红包券",
+                            "desc": "累计充值满200元，可得30红包券\n3月29日-4月2日",
+                            "pic": "task_coupon",
+                            "count": 200,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [{
+                                "typeId": "hall.charge.cumulation",
+                                "conditions": [
+                                    {
+                                        "typeId":"task.cond.isMyGameIdClient",
+                                        "myGameId":7
+                                    }
+                                ]
+                            }],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "30红包券",
+                                "items": [{
+                                    "itemId": "user:coupon",
+                                    "count": 3000
+                                }]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 1000,
+                                        "maxCount": 10000,
+                                        "minCount": 1000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        }
+                    ]
+                },
+                {
+                    "nextType": "nextByOrder",
+                    "taskOrder": [
+                        70614,
+                        70615,
+                        70616,
+                        70617
+                    ],
+                    "acceptedCond": {
+                        "typeId": "user.cond.and",
+                        "list": [
+                            {
+                                "startLevel": 1,
+                                "stopLevel": 3,
+                                "typeId": "user.cond.vipLevel"
+                            },
+                            {
+                                "typeId":"user.cond.isMyGameid",
+                                "myGameId":7
+                            }
+                        ]
+                    },
+                    "visibleCond": {
+                        "typeId": "user.cond.datetime",
+                        "format": "%Y-%m-%d %H:%M:%S",
+                        "end": "2018-04-02 23:59:59",
+                        "start": "2018-03-29 00:00:00"
+                    },
+                    "showCond": {
+                        "typeId":"user.cond.isMyGameid",
+                        "myGameId":7
+                    },
+                    "tasks": [{
+                            "kindId": 70614,
+                            "typeId": "hall.task.simple",
+                            "name": "10红包券",
+                            "desc": "单笔充值满30元，可得10红包券\n3月29日-4月2日",
+                            "pic": "task_coupon",
+                            "count": 30,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [{
+                                "typeId": "hall.charge.single",
+                                "conditions": [
+                                    {
+                                        "typeId":"task.cond.isMyGameIdClient",
+                                        "myGameId":7
+                                    }
+                                ]
+                            }],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "10红包券",
+                                "items": [{
+                                    "itemId": "user:coupon",
+                                    "count": 1000
+                                }]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 300,
+                                        "maxCount": 10000,
+                                        "minCount": 300
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 70615,
+                            "typeId": "hall.task.simple",
+                            "name": "20红包券",
+                            "desc": "单笔充值满98元，可得20红包券\n3月29日-4月2日",
+                            "pic": "task_coupon",
+                            "count": 98,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [{
+                                "typeId": "hall.charge.single",
+                                "conditions": [
+                                    {
+                                        "typeId":"task.cond.isMyGameIdClient",
+                                        "myGameId":7
+                                    }
+                                ]
+                            }],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "20红包券",
+                                "items": [{
+                                    "itemId": "user:coupon",
+                                    "count": 2000
+                                }]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 980,
+                                        "maxCount": 10000,
+                                        "minCount": 980
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 70616,
+                            "typeId": "hall.task.simple",
+                            "name": "50红包券",
+                            "desc": "单笔充值满300元，可得50红包券\n3月29日-4月2日",
+                            "pic": "task_coupon",
+                            "count": 300,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [{
+                                "typeId": "hall.charge.single",
+                                "conditions": [
+                                    {
+                                        "typeId":"task.cond.isMyGameIdClient",
+                                        "myGameId":7
+                                    }
+                                ]
+                            }],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "50红包券",
+                                "items": [{
+                                    "itemId": "user:coupon",
+                                    "count": 5000
+                                }]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 3000,
+                                        "maxCount": 10000,
+                                        "minCount": 3000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 70617,
+                            "typeId": "hall.task.simple",
+                            "name": "300万金币",
+                            "desc": "累计充值满500元，得300万金币\n3月29日-4月2日",
+                            "pic": "task_share",
+                            "count": 500,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [{
+                                "typeId": "hall.charge.cumulation",
+                                "conditions": [
+                                    {
+                                        "typeId":"task.cond.isMyGameIdClient",
+                                        "myGameId":7
+                                    }
+                                ]
+                            }],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "300万金币",
+                                "items": [{
+                                    "itemId": "user:chip",
+                                    "count": 3000000
+                                }]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 3000,
+                                        "maxCount": 10000,
+                                        "minCount": 3000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        }
+                    ]
+                },
+                {
+                    "nextType": "nextByOrder",
+                    "taskOrder": [
+                        70714,
+                        70715,
+                        70716,
+                        70717
+                    ],
+                    "acceptedCond": {
+                        "typeId": "user.cond.and",
+                        "list": [
+                            {
+                                "startLevel": 4,
+                                "stopLevel": -1,
+                                "typeId": "user.cond.vipLevel"
+                            },
+                            {
+                                "typeId":"user.cond.isMyGameid",
+                                "myGameId":7
+                            }
+                        ]
+                    },
+                    "visibleCond": {
+                        "typeId": "user.cond.datetime",
+                        "format": "%Y-%m-%d %H:%M:%S",
+                        "end": "2018-04-02 23:59:59",
+                        "start": "2018-03-29 00:00:00"
+                    },
+                    "showCond": {
+                        "typeId":"user.cond.isMyGameid",
+                        "myGameId":7
+                    },
+                    "tasks": [
+                        {
+                            "kindId": 70714,
+                            "typeId": "hall.task.simple",
+                            "name": "20红包券",
+                            "desc": "单笔充值满98元，可得20红包券\n3月29日-4月2日",
+                            "pic": "task_coupon",
+                            "count": 98,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [{
+                                "typeId": "hall.charge.single",
+                                "conditions": [
+                                    {
+                                        "typeId":"task.cond.isMyGameIdClient",
+                                        "myGameId":7
+                                    }
+                                ]
+                            }],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "20红包券",
+                                "items": [{
+                                    "itemId": "user:coupon",
+                                    "count": 2000
+                                }]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 980,
+                                        "maxCount": 10000,
+                                        "minCount": 980
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 70715,
+                            "typeId": "hall.task.simple",
+                            "name": "50红包券",
+                            "desc": "单笔充值满300元，可得50红包券\n3月29日-4月2日",
+                            "pic": "task_coupon",
+                            "count": 300,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [{
+                                "typeId": "hall.charge.single",
+                                "conditions": [
+                                    {
+                                        "typeId":"task.cond.isMyGameIdClient",
+                                        "myGameId":7
+                                    }
+                                ]
+                            }],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "50红包券",
+                                "items": [{
+                                    "itemId": "user:coupon",
+                                    "count": 5000
+                                }]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 3000,
+                                        "maxCount": 10000,
+                                        "minCount": 3000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 70716,
+                            "typeId": "hall.task.simple",
+                            "name": "150红包券",
+                            "desc": "单笔充值满1000元，得150红包券\n3月29日-4月2日",
+                            "pic": "task_share",
+                            "count": 1000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [{
+                                "typeId": "hall.charge.single",
+                                "conditions": [
+                                    {
+                                        "typeId":"task.cond.isMyGameIdClient",
+                                        "myGameId":7
+                                    }
+                                ]
+                            }],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "150红包券",
+                                "items": [{
+                                    "itemId": "user:coupon",
+                                    "count": 15000
+                                }]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 10000,
+                                        "maxCount": 50000,
+                                        "minCount": 10000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 70717,
+                            "typeId": "hall.task.simple",
+                            "name": "3000万金币",
+                            "desc": "累计充值满5000元，得3000万金币\n3月29日-4月2日",
+                            "pic": "task_share",
+                            "count": 5000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [{
+                                "typeId": "hall.charge.cumulation",
+                                "conditions": [
+                                    {
+                                        "typeId":"task.cond.isMyGameIdClient",
+                                        "myGameId":7
+                                    }
+                               ]
+                            }],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "3000万金币",
+                                "items": [{
+                                    "itemId": "user:chip",
+                                    "count": 30000000
+                                }]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 10000,
+                                        "maxCount": 50000,
+                                        "minCount": 10000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "templates": {
+        "7_normal_hall_task": {
+            "hall.task.newuser": "majiang_newuser_task",
+            "hall.task.charge": "majiang_charge_task"
+        },
+        "7_none": {},
+        "wechat_redpackets2": {
+            "hall.task.newuser": "hall.task.mj"
+        }
+    }
+}

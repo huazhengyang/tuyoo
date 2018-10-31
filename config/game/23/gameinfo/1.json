@@ -1,0 +1,251 @@
+{
+    "relatedGames": [
+        {"type": "game", "typeId": "clown", "gameId": 27, "vipLevel":1, "enter_param": {"gameType": 1}, "isOffline": 0},
+        {"type": "game", "typeId": "newfruit", "gameId": 31, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0},
+        {"type": "game", "typeId": "dog", "gameId": 19, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0}
+    ],
+    "public": {
+        "ledBaseChip": 500000000,
+        "ledKingAtMinute": 60,
+        "ledKingBaseChip": 5000000,
+        "ledPoolPrizeBaseChip": 5000000,
+        "kick_after_rounds": 100,
+        "kick_vip_lessthan": 5,
+        "day_lose_uplimit": 10000000000000,
+        "sys_chip_up": 2000000000,
+        "sys_chip_down": -1000000000,
+        "sys_control_rate": 0.75
+    },
+   "bet": {
+        "bet_limit": 5000000,
+        "vip_required_for_bet": 0,
+        "limit_chip": 10000,
+        "base_bet_range": [100,500,1000,5000,10000,50000,100000,500000,1000000,2000000],
+        "time_interval": {
+            "game_ready": 1,
+            "game_start": 1.5,
+            "bet_start": 12,
+            "game_seal": 0,
+            "game_cards": 11,
+            "pool": 9
+        },
+        "bet_range": [
+            {"chip": [0, 100000], "baseBet": [100, 500, 1000,10000]},
+            {"chip": [100000, 1000000], "baseBet": [1000, 5000, 10000,50000]},
+            {"chip": [1000000, 10000000], "baseBet": [10000, 50000, 100000,500000]},
+            {"chip": [10000000, 20000000], "baseBet": [50000, 100000, 500000,1000000]},
+            {"chip": [20000000, -1], "baseBet": [100000, 500000, 1000000,2000000]}
+        ],
+        "default_bet_index": 1,
+        "win_tops": 3,
+        "banker_choushui": 6,
+        "player_choushui": 0,
+        "pos_win_rates": [5,5,5,5,5,5,5,5,5,5,10,30,2,10,2],
+        "loseUplimit": 2000000000
+    },
+    "history": {
+        "num": 18
+    },
+    "banker": {
+        "banker_claim": {
+            "minchip": 5000000,
+            "maxchip": 50000000,
+            "pluschip": 5000000
+        },
+        "union_join": {
+            "minchip": 1000000,
+            "pluschip": 1000000,
+            "maxusers": 2
+        },
+        "banking": {
+            "max_round": 4,
+            "minchip": 1000000,
+            "huazi": {
+                "lirun_rate": 10,
+                "countdown_round": 5
+            }
+        }
+    },
+    "pool": {
+        "choushui_rate": [
+            {"minChip": 1000000000, "maxChip": -1, "rate": 5},
+            {"minChip": 0, "maxChip": 1000000000, "rate": 20}
+        ],
+        "init_chip": 1000000000,
+        "base_chip": 500000000,
+        "trigger": {
+            "cards": [[2, 8], [10, 10], [11, 11], [12, 12]],
+            "banker_rate": {
+                "2-8": 8,
+                "10-10": 8,
+                "11-11": 8,
+                "12-12": 8
+            },
+            "player_rate": {
+                "2-8": 8,
+                "10-10": 8,
+                "11-11": 8,
+                "12-12": 8
+            },
+            "banker_times": 5,
+            "player_times": 1
+        },
+        "pool_list_len": 20,
+        "guide": [
+            "所有玩家的获利将有小部分进入彩池。\n出现特殊牌型时有概率触发彩池额外奖励。\n特殊牌型：28天杠、对红中、对发财、对白板。\n彩池奖励数额为中彩区域的总押注额。\n中奖玩家在9个座位里随机(1个庄家，8个闲家)。"
+        ]
+    },
+    "parter": {
+        "help": [
+            "合伙上庄可与其他玩家一起凑钱上庄，盈利后按照加入比例分成。\n发起合伙上庄后，不能再次申请上庄，也不能加入其它合伙。\n加入合伙后，不能再次加入其它合伙，也不能发起合伙。\n开通最多支持3位玩家合伙上庄。\n发起者若掉线则自动退出排队。"
+        ]
+    },
+    "king": {
+        "count": 10,
+        "reward_ratio": [50, 22, 8, 2, 2, 2, 1, 1, 1, 1],
+        "caijin_choushui": 0.5,
+        "reward": 20000000,
+        "caijin_guide": [
+            "1、彩金由所有玩家押注形成(包括庄闲);",
+            "2、押注越多累积彩金越高;",
+            "3、当日押注排名前10名,次日获得奖励;",
+            "4、彩金奖励需玩家主动领取;",
+            "5、当日不领取则自动失效,请及时领取."
+        ]
+    },
+    "fire": {
+        "timeout": 10,
+        "user": {
+            "price": 100000,
+            "count": [1, 5, 10],
+            "basefee": [21888, 155200, 328200],
+            "rewards": [
+                {
+                    "small": {"chip": 688, "number": 99}
+                },
+                {
+                    "small": {"chip": 2888, "number": 99}
+                },
+                {
+                    "small": {"chip": 5888, "number": 99}
+                }
+            ],
+            "broadcast_sys_msgs": [
+                "富农{name}放了10万大礼花！",
+                "土豪{name}放了50万大礼花！",
+                "惊呆了，超级土豪{name}放了一百万大礼花，赶紧膜拜吧！"
+            ],
+            "reward_msgs": [
+                "恭喜您获得富农{name}的礼金{chip}金币！",
+                "恭喜您获得土豪{name}的礼金{chip}金币！",
+                "恭喜您获得超级土豪{name}的礼金{chip}金币！"
+            ],
+            "msg_lable_types": [0, 0, 2]
+        },
+        "system": {
+            "begin": "2016-07-22 12:00:00",
+            "end": "2017-07-22 12:00:00",
+            "times_per_hour": 1,
+            "least_interval": 10,
+            "guixie_name": "系统",
+            "fire_index": 0,
+            "basefee": 31888,
+            "reward": {
+                "small": {"chip": 688, "number": 99}
+            },
+            "broadcast_sys_msg": "系统发放了1个大礼花！",
+            "reward_msg": "恭喜您获得系统发放的礼金{chip}金币！"
+        }
+    },
+    "products": {
+        "androidVipTableBuyLeastChip": [
+            {
+                "vip_required": 0,
+                "products": [360000, 1500000, 5000000]
+            },
+            {
+                "vip_required": 6,
+                "products": [1500000, 5000000, 20000000]
+            }
+        ],
+        "iosVipTableBuyLeastChip": [
+            {
+                "vip_required": 0,
+                "products": [360000, 1400000, 3000000]
+            },
+            {
+                "vip_required": 6,
+                "products": [3000000, 5500000, 12000000]
+            }
+        ]
+    },
+    "chat": {
+        "vip_required": 5,
+        "interval_chat": 10,
+        "period_after_guixie": 60,
+        "welcome_vip_limit": 6,
+        "welcome_vip_msg_fmt": "欢迎土豪{name}VIP{VIPLevel}进入房间!",
+        "welcome_time_limit": 30,
+        "define_chat": [
+            "跪谢土豪",
+            "赢那么多，放个礼花吧～",
+            "跟我押豹子，赢钱买房子。",
+            "中个28杠，翻身把歌唱。",
+            "一起押豹子，赢钱刚开始。",
+            "赢钱放礼花，运气好到家！",
+            "下把出天杠，大家一起上。",
+            "该出手时就出手，莫等翻牌悔成狗。"
+        ],
+        "period_sysmsg": 600,
+        "game_define_sysmsg": [
+            "雀王返奖再提高100%,押注越多彩金越多,回馈更贴心!",
+            "彩池爆率翻倍,每小时都开大奖,下一个幸运的就是你!"
+        ]
+    },
+    "seats": {
+        "offsite_onepage_players": 15,
+        "siteseat_vip": 3,
+        "kick_no_activity": 100
+    },
+    "daoju": [
+        {"id": 1, "name": "鸡蛋", "price": 1000, "self_meili": 100, "peer_meili": -100},
+        {"id": 2, "name": "炸弹", "price": 2000, "self_meili": 200, "peer_meili": -200},
+        {"id": 3, "name": "大拇指", "price": 1000, "self_meili": 100, "peer_meili": 100},
+        {"id": 4, "name": "鲜花", "price": 5000, "self_meili": 500, "peer_meili": 500},
+        {"id": 5, "name": "钻戒", "price": 10000, "self_meili": 10000, "peer_meili": 10000}
+    ],
+    "robot": {
+        "maxCount": 10,
+        "onlineCorresponding": 0.143,
+        "VIPRange": [2, 7],
+        "bets": [
+            {"rate": 0.17, "indexRange": [12, 12], "name": "中"},
+            {"rate": 0.17, "indexRange": [14, 14], "name": "白"},
+            {"rate": 0.03, "indexRange": [13, 13], "name": "平"},
+            {"rate": 0.03, "indexRange": [11, 11], "name": "天杠"},
+            {"rate": 0.04, "indexRange": [10, 10], "name": "豹子"},
+            {"rate": 0.06, "indexRange": [0, 9], "name": "0到9点"}
+        ],
+        "betChipScaleRange": [0.1, 0.5],
+        "betDelayRange": [3, 12],
+        "handleDaojuIds": [1, 2],
+        "backDaojuId": 1,
+        "daojuBackRate": 0.3,
+        "daojuDelayRange": [2, 6],
+        "minExitChip": 20000,
+        "initChipRange": [30000, 300000]
+    },
+    "lottery_policy": {
+        "reopen": 1,
+        "reopen_probility": [80, 70, 60, 50, 40, 30, 20, 10],
+        "tg_min": 5000000
+    },
+    "compensation": {
+        "1": {"lost": 30000000, "rate": 0.2},
+        "2": {"lost": 90000000, "rate": 0.21},
+        "3": {"lost": 200000000, "rate": 0.22},
+        "4": {"lost": 330000000, "rate": 0.22},
+        "5": {"lost": 500000000, "rate": 0.24},
+        "6": {"lost": 800000000, "rate": 0.25}
+    }
+}

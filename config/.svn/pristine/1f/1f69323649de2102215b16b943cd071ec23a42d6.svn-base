@@ -1,0 +1,65 @@
+{
+	"buyinchip": 1000000,
+	"dummyUserCount": 11,
+	"hasrobot": 1,
+	"level": "master",
+	"matchConf": null,
+	"maxCoin": -1,
+	"maxCoinQS": -1,
+	"minCoin": 500000,
+	"minCoinQS": 800000,
+	"name": "专家场",
+	"playMode": "guobiao",
+	"playModeName": "疯狂麻将",
+	"tableType": "normal",
+	"taskDesc": "",
+	"nameDesc": "专家",
+	"base_chip": 20000,
+	"service_fee_sit_down": 20000,
+	"service_fee_win": 0,
+	"service_fee_lose": 0,
+	"service_fee_dahu_rate": 0.03,
+	"service_fee_dahu_on": 0.5,
+	"service_fee_dahu_fan": 16,
+	"chat_chip": 5000,
+	"chat_time": 5,
+	"tableConf": 
+	{
+		"robotLevel": 1,
+		"autoLevel": 0,
+		"leave_vote_num": 
+		{
+			"4": 4
+		},
+		"refuse_leave_vote_num": 
+		{
+			"4": 2
+		},
+		"maxSeatN": 4,
+		"play_timeout": 12,
+		"room_coefficient": 1,
+		"trustee_timeout": 1,
+		"ready_max_timeout": 3600,
+		"ready_after_sit": 1,
+		"dissolve_vote_time_out": 60,
+		"tiles_no_pao": 0,
+		"hand_tiles_count": 13,
+		"gang_base": 0,
+		"win_base": 1,
+		"score_base": 0,
+		"fan_list": 
+		[
+			1,
+			2,
+			4,
+			8,
+			16,
+			32,
+			64,
+			128,
+			256
+		],
+		"max_fan": 999
+	},
+	"typeName": "normal"
+}

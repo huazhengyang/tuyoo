@@ -1,0 +1,668 @@
+{
+ "templates"                           : {
+  "gomoku_v3.97_AI_tishen"              : {
+   "desc"                                : "提审",
+   "activities"                          : [
+    "activity_code_duihuanma_0201",
+    "wzq_friend_20170209",
+    "activity_gomoku_20160223001",
+    "activity_wzq_shiming"
+   ]
+  },
+  "gomoku_v4.55_normal"                 : {
+   "desc"                                : "适用4.5以上",
+   "activities"                          : [
+    "wzq_cuxiao180211",
+    "activity_wzq_180214",
+    "wzq_fish_171206",
+    "activity_wzq20180109",
+    "wzq_gonggao1130",
+    "act_wzqfahuo",
+    "activity_code_duihuanma_0201"
+   ]
+  },
+  "gomoku_AI_wuchajian"                 : {
+   "desc"                                : "无插件",
+   "activities"                          : [
+    "wzq_cuxiao180211",
+    "activity_wzq_180214",
+    "act_wzqfahuo",
+    "activity_code_duihuanma_0201",
+    "wzq_gonggao1130"
+   ]
+  },
+  "gomoku_v3.97_AI_special"             : {
+   "desc"                                : "特别渠道专用",
+   "activities"                          : [
+    "wzq_vico180209",
+    "wzq_cuxiao180211",
+    "activity_wzq_180214",
+    "act_wzqfahuo",
+    "activity_code_duihuanma_0201",
+    "wzq_gonggao1130"
+   ]
+  },
+  "template_gomoku_normal"              : {
+   "desc"                                : "适用4.5以下",
+   "activities"                          : [
+    "wzq_cuxiao180211",
+    "activity_wzq_180214",
+    "wzq_friend_20170209",
+    "act_wzqfahuo",
+    "wzq_gonggao1130",
+    "activity_code_duihuanma_0201"
+   ]
+  },
+  "gomoku_v4.56_A_huawei"               : {
+   "desc"                                : "华为专用",
+   "activities"                          : [
+    "gomoku_huawei_scoreboard_171218",
+    "wzq_cuxiao180211",
+    "activity_wzq_180214",
+    "wzq_fish_171206",
+    "act_wzqfahuo",
+    "wzq_gonggao1130"
+   ]
+  },
+  "gomoku_v4.56_AI_qq"                  : {
+   "desc"                                : "应用宝渠道",
+   "activities"                          : [
+    "wzq_cuxiao180211",
+    "activity_wzq_180214",
+    "wzq_qq180211",
+    "act_wzqfahuo",
+    "activity_code_duihuanma_0201",
+    "wzq_gonggao1130"
+   ]
+  },
+  "gomoku_v3.73_AI_zhengfu"             : {
+   "desc"                                : "政府",
+   "activities"                          : [
+    "activity_ddz_jiankangyouxi_0201"
+   ]
+  }
+ },
+ "activities"                          : {
+  "act_wzqfahuo"                        : {
+   "id"                                  : "act_wzqfahuo",
+   "des"                                 : "春节期间实物发放公告。",
+   "moduleId"                            : "notice_img",
+   "typeid"                              : 1,
+   "name"                                : "发货公告",
+   "server_config"                       : {
+    "start"                               : "2018-02-09 00:00:00",
+    "end"                                 : "2018-02-23 00:00:00"
+   },
+   "config"                              : {
+    "firstButton"                         : {
+     "visible"                             : 0,
+     "action"                              : "",
+     "params"                              : {
+      "duration"                            : 2,
+      "text"                                : "确定"
+     }
+    },
+    "secondButton"                        : {
+     "visible"                             : 0,
+     "action"                              : "",
+     "params"                              : {
+      "duration"                            : 2,
+      "text"                                : "确定"
+     }
+    },
+    "bgURL"                               : "${http_download}/hall/act/complete/general_btn/FHGG.png"
+   },
+   "url"                                 : ""
+  },
+  "wzq_friend_20170209"                 : {
+   "id"                                  : "wzq_friend_20170209",
+   "des"                                 : "玩家期待已久的好友场全新上线，棋友可以自建房间邀请好友对弈。约战无处不在！",
+   "moduleId"                            : "notice_img",
+   "typeid"                              : 1,
+   "name"                                : "好友场上线",
+   "server_config"                       : {
+    "start"                               : "2017-02-09 00:00:00",
+    "end"                                 : "2018-02-01 00:00:00"
+   },
+   "config"                              : {
+    "firstButton"                         : {
+     "visible"                             : 0,
+     "action"                              : "",
+     "params"                              : {
+      "duration"                            : 2,
+      "text"                                : "确定"
+     }
+    },
+    "secondButton"                        : {
+     "visible"                             : 0,
+     "action"                              : "",
+     "params"                              : {
+      "duration"                            : 2,
+      "text"                                : "确定"
+     }
+    },
+    "bgURL"                               : "${http_download}/gomoku/act_friend20170209.jpg"
+   },
+   "url"                                 : ""
+  },
+  "activity_wuziqi_xinzhongfabai_1010"  : {
+   "id"                                  : "activity_wuziqi_xinzhongfabai_1010",
+   "des"                                 : "中发白全新改版，新增座位系统，10亿彩池发不停，快来中发白体验吧！",
+   "moduleId"                            : "general_btn",
+   "typeid"                              : 4,
+   "name"                                : "全新中发白",
+   "server_config"                       : {
+    "start"                               : "2016-10-10 00:00:00",
+    "end"                                 : "2016-10-21 00:00:00"
+   },
+   "config"                              : {
+    "button"                              : {
+     "visible"                             : "true",
+     "todoTask"                            : {
+      "enter_param"                         : {
+       "pluginParams"                        : {
+        "gameType"                            : 1
+       },
+       "type"                                : "roomlist"
+      },
+      "gameId"                              : 23,
+      "typeId"                              : "hall.goto.enter.game"
+     },
+     "URL"                                 : "${http_download}/hall/act/complete/general_btn/quyingjiang.png"
+    },
+    "bgURL"                               : "${http_download}/hall/act/complete/general_btn/act_xinzhongfabai_1011.jpg"
+   }
+  },
+  "wzq_fish_171206"                     : {
+   "id"                                  : "wzq_fish_171206",
+   "des"                                 : "招财模式上线",
+   "moduleId"                            : "general_btn",
+   "typeid"                              : 4,
+   "name"                                : "招财模式上线",
+   "server_config"                       : {
+    "start"                               : "2017-09-28 00:00:00",
+    "end"                                 : "2018-03-31 00:00:00"
+   },
+   "config"                              : {
+    "button"                              : {
+     "visible"                             : true,
+     "todoTask"                            : {
+      "enter_param"                         : {
+       "pluginParams"                        : {
+        "gameType"                            : 0
+       },
+       "type"                                : "game"
+      },
+      "gameId"                              : 44,
+      "typeId"                              : "hall.goto.enter.game"
+     },
+     "URL"                                 : "${http_download}/newfish/act_newfish_btn_zhaocai.png"
+    },
+    "bgURL"                               : "${http_download}/newfish/act_newfish_bg_zhaocai_20180207.jpg"
+   }
+  },
+  "activity_wzq_xinshuiguo_1018"        : {
+   "id"                                  : "activity_wzq_xinshuiguo_1018",
+   "des"                                 : "新版大丰收上线，100倍“7”来啦！更有100倍的彩池奖励，最高200倍大奖等你来赢！每日水果王再送2000万金币！",
+   "moduleId"                            : "general_btn",
+   "typeid"                              : 4,
+   "name"                                : "全新大丰收",
+   "server_config"                       : {
+    "start"                               : "2016-10-19 00:00:00",
+    "end"                                 : "2016-11-05 00:00:00"
+   },
+   "config"                              : {
+    "button"                              : {
+     "visible"                             : "true",
+     "todoTask"                            : {
+      "enter_param"                         : {
+       "pluginParams"                        : {
+        "gameType"                            : 1
+       },
+       "type"                                : "roomlist"
+      },
+      "gameId"                              : 31,
+      "typeId"                              : "hall.goto.enter.game"
+     },
+     "URL"                                 : "${http_download}/hall/act/complete/general_btn/lijicanyu_0907.png"
+    },
+    "bgURL"                               : "${http_download}/hall/act/complete/general_btn/act_ddz_xinshuiguo_0907.jpg"
+   }
+  },
+  "activity_wuziqi20170524"             : {
+   "id"                                  : "activity_wuziqi20170524",
+   "des"                                 : "华为棋牌大师赛-“五子棋”活动将于8月25日-9月2日进行，每天抽取30名玩家，每人10元话费奖励；另有20人将获得每人1万金币奖励；参与多多，好运多多！",
+   "moduleId"                            : "notice_img",
+   "typeid"                              : 1,
+   "name"                                : "华为棋牌大师赛",
+   "server_config"                       : {
+    "start"                               : "2017-05-22 00:00:00",
+    "end"                                 : "2017-09-03 00:00:00"
+   },
+   "config"                              : {
+    "firstButton"                         : {
+     "visible"                             : 0,
+     "action"                              : "",
+     "params"                              : {
+      "duration"                            : 2,
+      "text"                                : "确定"
+     }
+    },
+    "secondButton"                        : {
+     "visible"                             : 0,
+     "action"                              : "",
+     "params"                              : {
+      "duration"                            : 2,
+      "text"                                : "确定"
+     }
+    },
+    "bgURL"                               : "${http_download}/gomoku/act_wzq20170825.jpg"
+   },
+   "url"                                 : ""
+  },
+  "activity_wzq_shiming"                : {
+   "id"                                  : "activity_wzq_shiming",
+   "des"                                 : "实名认证",
+   "moduleId"                            : "realName_certification",
+   "typeid"                              : 1,
+   "name"                                : "实名认证",
+   "server_config"                       : {
+    "start"                               : "2015-02-28 00:00:00",
+    "end"                                 : "2017-11-17 00:00:00"
+   },
+   "config"                              : {
+    "firstButton"                         : {
+     "visible"                             : 0,
+     "action"                              : "pop_tip",
+     "params"                              : {
+      "duration"                            : 2,
+      "text"                                : "确定"
+     }
+    },
+    "secondButton"                        : {
+     "visible"                             : 0,
+     "action"                              : "pop_tip",
+     "params"                              : {
+      "duration"                            : 2,
+      "text"                                : "确定"
+     }
+    }
+   }
+  },
+  "activity_wzqmeizu"                   : {
+   "id"                                  : "activity_wzqmeizu",
+   "des"                                 : "魅族专属比赛-“五子棋”活动将于8月18—20日进行，参与好友场，每天进行10局的用户获得抽奖机会，每天抽取一名幸运者，获得魅族移动充电宝；",
+   "moduleId"                            : "notice_img",
+   "typeid"                              : 1,
+   "name"                                : "魅族专属比赛",
+   "server_config"                       : {
+    "start"                               : "2017-05-22 00:00:00",
+    "end"                                 : "2017-08-21 00:00:00"
+   },
+   "config"                              : {
+    "firstButton"                         : {
+     "visible"                             : 0,
+     "action"                              : "",
+     "params"                              : {
+      "duration"                            : 2,
+      "text"                                : "确定"
+     }
+    },
+    "secondButton"                        : {
+     "visible"                             : 0,
+     "action"                              : "",
+     "params"                              : {
+      "duration"                            : 2,
+      "text"                                : "确定"
+     }
+    },
+    "bgURL"                               : "${http_download}/gomoku/act_wzqmeizu.jpg"
+   },
+   "url"                                 : ""
+  },
+  "gomoku_huawei_scoreboard_171218"     : {
+   "id"                                  : "gomoku_huawei_scoreboard_171218",
+   "des"                                 : "华为大师赛",
+   "moduleId"                            : "scoreboard2",
+   "typeid"                              : "act_gomoku_scoreboard",
+   "name"                                : "华为大师赛",
+   "server_config"                       : {
+    "start"                               : "2018-02-13 00:00:00",
+    "end"                                 : "2018-02-25 23:59:59"
+   },
+   "config"                              : {
+    "right_btn_gray"                      : "${http_download}/hall/act/complete/scoreboard/right_btn_gray.png",
+    "lottery_btn"                         : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward_gotolottery_btn.png",
+    "right_btn"                           : "${http_download}/hall/act/complete/scoreboard/right_btn.png",
+    "ye_n_btn"                            : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_yes_normal.png",
+    "td_s_btn"                            : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_today_select.png",
+    "reward_btn"                          : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward.png",
+    "help_btn"                            : "${http_download}/hall/act/complete/scoreboard/scoreboard_help_btn.png",
+    "rank_btn"                            : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank.png",
+    "reward_bg"                           : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward_bg.png",
+    "rules"                               : [
+     {
+      "text"                                : "[比赛时间]",
+      "type"                                : 0
+     },
+     {
+      "text"                                : "2月13日-2月22日(9:00-23:00)",
+      "type"                                : 1
+     },
+     {
+      "text"                                : "[活动介绍]",
+      "type"                                : 0
+     },
+     {
+      "text"                                : "活动期间在指定场进行游戏可获得积分",
+      "type"                                : 1
+     },
+     {
+      "text"                                : "每日23:59按积分排名发放日榜奖励（前50名）",
+      "type"                                : 1
+     },
+     {
+      "text"                                : "2月22日23:59还将对总榜前50名发放大奖！",
+      "type"                                : 1
+     },
+     {
+      "text"                                : "[奖励领取]",
+      "type"                                : 0
+     },
+     {
+      "text"                                : "点击“我的奖励”领取，2月25日23:00为最后领奖时间",
+      "type"                                : 1
+     },
+     {
+      "text"                                : "[积分规则]",
+      "type"                                : 0
+     },
+     {
+      "text"                                : "在五子棋任意场进行游戏可获得积分",
+      "type"                                : 1
+     },
+     {
+      "text"                                : "每局2积分,胜利额外得1积分(每日上限50分)",
+      "type"                                : 1
+     },
+     {
+      "text"                                : "每充值1元可获得10积分",
+      "type"                                : 1
+     }
+    ],
+    "right_bg"                            : "${http_download}/hall/act/complete/scoreboard/right_bg.png",
+    "close"                               : "${http_download}/hall/act/complete/scoreboard/scoreboard_close.png",
+    "to_s_btn"                            : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_total_select.png",
+    "help_bg"                             : "${http_download}/hall/act/complete/scoreboard/scoreboard_help_bg.png",
+    "td_n_btn"                            : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_today_normal.png",
+    "rank_bg"                             : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_bg.png",
+    "reward_get_btn"                      : "${http_download}/hall/act/complete/scoreboard/scoreboard_reward_get_btn.png",
+    "bg"                                  : "${http_download}/chinesechess/chess_huawei_activity_score_180213_1.jpg",
+    "to_n_btn"                            : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_total_normal.png",
+    "ye_s_btn"                            : "${http_download}/hall/act/complete/scoreboard/scoreboard_rank_yes_select.png"
+   }
+  },
+  "activity_wzq_180214"                 : {
+   "id"                                  : "activity_wzq_180214",
+   "des"                                 : "春节活动",
+   "moduleId"                            : "general_btn",
+   "typeid"                              : 4,
+   "name"                                : "春节活动",
+   "server_config"                       : {
+    "start"                               : "2018-02-12 00:00:00",
+    "end"                                 : "2018-02-22 00:00:00"
+   },
+   "config"                              : {
+    "button"                              : {
+     "visible"                             : true,
+     "todoTask"                            : {
+      "enter_param"                         : {
+       "pluginParams"                        : {
+        "gameType"                            : "gomoku_match"
+       },
+       "type"                                : "roomlist"
+      },
+      "gameId"                              : 20,
+      "typeId"                              : "hall.goto.enter.game"
+     },
+     "URL"                                 : "${http_download}/hall/act/complete/general_btn/dabisai.png"
+    },
+    "bgURL"                               : "${http_download}/chinesechess/act_qi20180201.jpg"
+   }
+  },
+  "activity_gomoku_buyu_1220"           : {
+   "id"                                  : "activity_gomoku_buyu_1220",
+   "des"                                 : "捕鱼领金币、免费钻石升千炮，采用全新捕鱼梦幻海底场景，回归纯正经典玩法！",
+   "moduleId"                            : "general_btn",
+   "typeid"                              : 4,
+   "name"                                : "经典千炮捕鱼",
+   "server_config"                       : {
+    "start"                               : "2016-12-20 00:00:00",
+    "end"                                 : "2025-12-31 00:00:00"
+   },
+   "config"                              : {
+    "button"                              : {
+     "visible"                             : "true",
+     "todoTask"                            : {
+      "enter_param"                         : {
+       "pluginParams"                        : {
+        "gameType"                            : 1
+       },
+       "type"                                : "roomlist"
+      },
+      "gameId"                              : 43,
+      "typeId"                              : "hall.goto.enter.game"
+     },
+     "URL"                                 : "${http_download}/hall/act/complete/general_btn/act_gomoku_buyu_btn_kaishibuyu_1220.png"
+    },
+    "bgURL"                               : "${http_download}/hall/act/complete/general_btn/act_gomoku_buyu_1220.jpg"
+   }
+  },
+  "wzq_cuxiao180211"                    : {
+   "id"                                  : "wzq_cuxiao180211",
+   "des"                                 : "新春促销",
+   "moduleId"                            : "general_btn",
+   "typeid"                              : 4,
+   "name"                                : "新春促销",
+   "server_config"                       : {
+    "start"                               : "2018-02-13 00:00:00",
+    "end"                                 : "2018-02-22 00:00:00"
+   },
+   "config"                              : {
+    "button"                              : {
+     "visible"                             : true,
+     "todoTask"                            : {
+      "subStore"                            : "holidaygift",
+      "typeId"                              : "hall.goto.shop"
+     },
+     "URL"                                 : "${http_download}/chinesechess/aniu_qi20180211.png"
+    },
+    "bgURL"                               : "${http_download}/chinesechess/act_fuli20180211.jpg"
+   }
+  },
+  "wzq_vico180209"                      : {
+   "id"                                  : "wzq_vico180209",
+   "des"                                 : "vivo X20选购",
+   "moduleId"                            : "general_btn",
+   "typeid"                              : 4,
+   "name"                                : "vivo X20选购",
+   "server_config"                       : {
+    "start"                               : "2017-09-28 00:00:00",
+    "end"                                 : "2018-02-23 00:00:00"
+   },
+   "config"                              : {
+    "button"                              : {
+     "visible"                             : true,
+     "todoTask"                            : {
+      "typeId"                              : "hall.download",
+      "url"                                 : "https://shop.vivo.com.cn/wap/product/10056?cid=h-1-danji-15?mc=tuyoo"
+     },
+     "URL"                                 : "${http_download}/hall/act/imgs/act_vivoshouji_btn.png"
+    },
+    "bgURL"                               : "${http_download}/hall/act/imgs/act_vivoshouji.jpg"
+   }
+  },
+  "wzq_gonggao1130"                     : {
+   "id"                                  : "wzq_gonggao1130",
+   "des"                                 : "重要公告",
+   "moduleId"                            : "general_btn",
+   "typeid"                              : 1,
+   "name"                                : "重要公告",
+   "server_config"                       : {
+    "start"                               : "2017-01-18 00:00:00",
+    "end"                                 : "2020-12-31 23:59:59"
+   },
+   "config"                              : {
+    "button"                              : {
+     "visible"                             : false,
+     "todoTask"                            : "",
+     "URL"                                 : ""
+    },
+    "bgURL"                               : "${http_download}/hall/act/complete/general_btn/ZYGG2018.jpg"
+   }
+  },
+  "wzq_hongbao20180109"                 : {
+   "id"                                  : "wzq_hongbao20180109",
+   "des"                                 : "红包券来了",
+   "moduleId"                            : "general_btn",
+   "typeid"                              : 1,
+   "name"                                : "红包券来了",
+   "server_config"                       : {
+    "start"                               : "2017-01-18 00:00:00",
+    "end"                                 : "2018-05-01 23:59:59"
+   },
+   "config"                              : {
+    "button"                              : {
+     "visible"                             : false,
+     "todoTask"                            : "",
+     "URL"                                 : ""
+    },
+    "bgURL"                               : "${http_download}/hall/act/complete/general_btn/act_ddz_hongbaoquan.jpg"
+   }
+  },
+  "activity_gomoku_douniu_1220"         : {
+   "id"                                  : "activity_gomoku_douniu_1220",
+   "des"                                 : "新版斗牛来袭！血战、经典看牌、通比挂机等多种独创玩法，快来体验吧！",
+   "moduleId"                            : "general_btn",
+   "typeid"                              : 4,
+   "name"                                : "全新斗牛来袭",
+   "server_config"                       : {
+    "start"                               : "2016-12-20 00:00:00",
+    "end"                                 : "2025-12-31 00:00:00"
+   },
+   "config"                              : {
+    "button"                              : {
+     "visible"                             : "true",
+     "todoTask"                            : {
+      "enter_param"                         : {
+       "pluginParams"                        : {
+        "gameType"                            : 1
+       },
+       "type"                                : "roomlist"
+      },
+      "gameId"                              : 10,
+      "typeId"                              : "hall.goto.enter.game"
+     },
+     "URL"                                 : "${http_download}/hall/act/complete/general_btn/act_gomoku_douniu_btn_lijikaishi_1220.png"
+    },
+    "bgURL"                               : "${http_download}/hall/act/complete/general_btn/act_gomoku_douniu_1220.jpg"
+   }
+  },
+  "activity_gomoku_scoreboard2_20170925": {
+   "id"                                  : "activity_gomoku_scoreboard2_20170925",
+   "des"                                 : "华为大师赛",
+   "moduleId"                            : "scoreboard2",
+   "typeid"                              : "act_gomoku_scoreboard",
+   "name"                                : "华为大师赛",
+   "server_config"                       : {
+    "start"                               : "2017-10-20 00:00:00",
+    "end"                                 : "2017-10-21 23:59:59"
+   },
+   "config"                              : {
+    "bgURL"                               : "${http_download}/gomoku/act_wzq20170825.jpg"
+   }
+  },
+  "wzq_qq180211"                        : {
+   "id"                                  : "wzq_qq180211",
+   "des"                                 : "途游斗地主，邀你领红包！",
+   "moduleId"                            : "general_btn",
+   "typeid"                              : 4,
+   "name"                                : "邀你领红包",
+   "server_config"                       : {
+    "start"                               : "2018-02-12 00:00:00",
+    "end"                                 : "2018-02-24 00:00:00"
+   },
+   "config"                              : {
+    "button"                              : {
+     "visible"                             : true,
+     "todoTask"                            : {
+      "typeId"                              : "hall.download",
+      "url"                                 : "http://a.app.qq.com/o/simple.jsp?pkgname=com.tuyoo.doudizhu.maintu"
+     },
+     "URL"                                 : "${http_download}/chinesechess/anniu_20180212.png"
+    },
+    "bgURL"                               : "${http_download}/chinesechess/act_qq20180211.jpg"
+   }
+  },
+  "wzq_invite_new_friend_20161022"      : {
+   "id"                                  : "wzq_invite_new_friend_20161022",
+   "des"                                 : "1.领取微信红包需关注微信公众号。\n2.部分版本不支持分享，可在公众号内邀请新朋友。",
+   "moduleId"                            : "invite_newFriend",
+   "typeid"                              : 9999003,
+   "name"                                : "新朋友红包",
+   "server_config"                       : {
+    "start"                               : "2016-10-22 00:00:00",
+    "end"                                 : "2017-11-11 00:00:00"
+   },
+   "config"                              : {
+    "button_moments"                      : {
+     "visible"                             : "true",
+     "todoTask"                            : {
+      "share"                               : 7004
+     },
+     "URL"                                 : ""
+    },
+    "button_friend"                       : {
+     "visible"                             : "true",
+     "todoTask"                            : {
+      "share"                               : 7003
+     },
+     "URL"                                 : ""
+    },
+    "bgURL"                               : "${http_download}/hall/act/complete/invite_newFriend/xinpegnyouBJ.jpg"
+   }
+  },
+  "activity_wzq20180109"                : {
+   "id"                                  : "activity_wzq20180109",
+   "des"                                 : "五子棋新版本发布",
+   "moduleId"                            : "notice_img",
+   "typeid"                              : 1,
+   "name"                                : "新版本发布",
+   "server_config"                       : {
+    "start"                               : "2017-05-22 00:00:00",
+    "end"                                 : "2018-06-01 00:00:00"
+   },
+   "config"                              : {
+    "firstButton"                         : {
+     "visible"                             : 0,
+     "action"                              : "",
+     "params"                              : {
+      "duration"                            : 2,
+      "text"                                : "确定"
+     }
+    },
+    "secondButton"                        : {
+     "visible"                             : 0,
+     "action"                              : "",
+     "params"                              : {
+      "duration"                            : 2,
+      "text"                                : "确定"
+     }
+    },
+    "bgURL"                               : "${http_download}/gomoku/act_wzq20180109.jpg"
+   },
+   "url"                                 : ""
+  }
+ },
+ "modules"                             : { }
+}

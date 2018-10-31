@@ -1,0 +1,418 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 30092701,
+       "conditions"  : [
+        {
+         "start"       : -1,
+         "typeId"      : "user.cond.share.count",
+         "end"         : 1
+        }
+       ]
+      },
+      {
+       "promotionId" : 30092702,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.HasDailyShareReward"
+        },
+        {
+         "start"       : 1,
+         "typeId"      : "user.cond.share.count",
+         "end"         : -1
+        },
+        {
+         "typeId"      : "user.cond.HasDailyShareConfig"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 30091901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "t3card2016_v3.778_AI_online_promote"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "t3card2016_v3.78_I_examination_promote"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 30092701,
+       "conditions"  : [
+        {
+         "start"       : -1,
+         "typeId"      : "user.cond.share.count",
+         "end"         : 1
+        }
+       ]
+      },
+      {
+       "promotionId" : 30092702,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.HasDailyShareReward"
+        },
+        {
+         "start"       : 1,
+         "typeId"      : "user.cond.share.count",
+         "end"         : -1
+        },
+        {
+         "typeId"      : "user.cond.HasDailyShareConfig"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 30091901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "t3card2016_v3.90_AI_online_promote"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 30050703,
+       "conditions"  : [ ]
+      },
+      {
+       "promotionId" : 30092901,
+       "conditions"  : [ ]
+      },
+      {
+       "promotionId" : 30082201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 30091901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "t3card2016_v3.91_t3card2016_v3.91_AI_online_noshare_promote"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 30050703,
+       "conditions"  : [ ]
+      },
+      {
+       "promotionId" : 30050701,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 30050702,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.firstRecharged"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 30091901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "t3cardNew_v3.77_AIH_function_test"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 30050701,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三张首充礼包",
+   "url"         : "${http_download}/hall/promote/imgs/texas_firstrecharge_0623.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30050702,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "desc"        : "恭喜您获得首充奖励大礼包！",
+     "typeId"      : "todotask.firstRechargeReward",
+     "url"         : "${http_download}/hall/promote/imgs/t3cardnew_1st_recharged.png"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三张首充礼包奖励",
+   "url"         : "${http_download}/hall/promote/imgs/texas_firstrecharge_0623.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30050703,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subStore"    : "coin",
+     "typeId"      : "hall.goto.shop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "商城",
+   "url"         : "${http_download}/hall/promote/imgs/texas_shop_0623.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30071801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "action"      : "tutorial"
+      },
+      "type"        : "quickstart"
+     },
+     "gameId"      : 30,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三张新手教学",
+   "url"         : "${http_download}/hall/promote/imgs/texas_newbeeguide_0623.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30072101,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "action"      : "tutorial_laoqian"
+      },
+      "type"        : "quickstart"
+     },
+     "gameId"      : 30,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三张老千教学",
+   "url"         : "${http_download}/hall/promote/imgs/t3card2016_cheatguide_0723.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30081801,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 11
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 30,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新三张荣誉堂",
+   "url"         : "${http_download}/hall/promote/imgs/texas_honorhall_0623.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30082201,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 12
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 30,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新三张今日比赛",
+   "url"         : "${http_download}/hall/promote/imgs/texas_todaymatch_0623.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30091901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.free"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "免费福利",
+   "url"         : "${http_download}/hall/promote/imgs/texas_0928_dailyreward.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30092701,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 30001,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "推荐朋友下载注册\n超多奖励人人有份\n您分享即可获得奖励"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首次分享",
+   "url"         : "${http_download}/hall/promote/imgs/texas_envelope_share_0802.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30092702,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 30002,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "这么棒的游戏，还不分享给好友？\n何况分享即可获得奖励\n不要犹豫，快分享！"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "每日分享",
+   "url"         : "${http_download}/hall/promote/imgs/texas_login_promote.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30092901,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.lottery"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新三张幸运抽奖",
+   "url"         : "${http_download}/hall/promote/imgs/texas_0928_luckywheel.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30110201,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 13
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 30,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "牌神之路",
+   "url"         : "${http_download}/hall/promote/imgs/t3card2016_guide1_1103.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30110202,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 14
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 30,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "贵族成就",
+   "url"         : "${http_download}/hall/promote/imgs/t3card2016_guide2_1103.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 30110501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 15
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 30,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "成就系统",
+   "url"         : "${http_download}/hall/promote/imgs/t3card2016_quest_1104.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

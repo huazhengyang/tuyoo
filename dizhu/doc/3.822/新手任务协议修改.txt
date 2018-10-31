@@ -1,0 +1,79 @@
+新手任务
+
+新手判断
+
+hall_info
+
+{
+	newer:0/1
+}
+
+
+1、table_info
+
+newertask:{
+	details:[
+		{
+			name:"玩3局经典场",
+			desc:"玩${progress}局经典场",
+			total:3,
+			finish:3,
+			reward:[
+				{
+					name:"金币",
+					img:"http://",
+					count:8
+				},
+				{
+					name:"大师分",
+					img:"http://",
+					count:10
+				}
+			]
+		},
+		{
+			name:"玩9局经典场",
+			desc:"玩${progress}局经典场",
+			total:9,
+			finish:3,
+			reward:[
+				{
+					name:"金币",
+					img:"http://",
+					count:80
+				},
+				{
+					name:"大师分",
+					img:"http://",
+					count:100
+				}
+			]
+		}
+	],
+	final:[
+		{
+			name:"金币",
+			img:"http://",
+			count:8
+		},
+		{
+			name:"大师分",
+			img:"http://",
+			count:10
+		}
+	],
+	deadline:140xxxx
+}
+
+2、game_win
+
+newertask:{
+	cur:{
+		total:9,
+		finish:9
+	},
+	final:0/1
+}
+
+
+

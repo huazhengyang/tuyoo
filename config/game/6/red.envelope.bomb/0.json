@@ -1,0 +1,1367 @@
+{
+    "open": 1,
+    "reportLocalLog": 0,
+    "minVersion": 3.90,
+    "ledCount": 400,
+    "tipTop": [
+        {
+            "item": "给给给",
+            "weight": 100
+        }
+    ],
+    "issueNum": "20180101",
+    "activeDate": ["20180101", "20180312"],
+    "dailyCountLimit": 10000000,
+    "userDailyCountLimit": {
+        "vip0": 100,
+        "vip1": 200,
+        "vip2": 800,
+        "vip3": 800,
+        "vip4": 5000,
+        "vip5": 5000
+    },
+    "roomBaseTrigger": {
+        "6001": 0.12,"6011": 0.10,"6021": 0.10,"6032": 0.22,
+        "6002": 0.25,"6012": 0.23,"6022": 0.21,"6033": 0.25,
+        "6003": 0.26,"6013": 0.24,"6023": 0.23,"6034": 0.25,
+		"6004": 0.27,"6014": 0.26,"6024": 0.21,"6035": 0.30,
+		"6005": 0.27,"6015": 0.26,"6025": 0.21,
+		"6006": 0.27,"6016": 0.26,"6026": 0.21
+    },
+    "roomReward": {
+        "6001": 1,"6011": 1,"6021": 1,"6032": 2,
+        "6002": 2,"6012": 2,"6022": 2,"6033": 3,
+        "6003": 3,"6013": 3,"6023": 3,"6034": 4,
+		"6004": 4,"6014": 4,"6024": 4,"6035": 5,
+		"6005": 5,"6015": 5,"6025": 5,
+		"6006": 6,"6016": 6,"6026": 6
+    },
+    "dailyPlayCountLimit": {
+        "6001": 100,
+		"6011": 100,
+		"6021": 100
+    },
+    "rewardsTemplate": [
+        {
+            "id": 1,
+            "doubleBaseRate": 0.05,
+            "doubleCount": 4,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":1,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "weight": 8
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":6,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":20,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":50,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":100,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 92
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "doubleBaseRate": 0.06,
+            "doubleCount": 4,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":1,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "weight": 30
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":12,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":50,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":125,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":250,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 70
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "doubleBaseRate": 0.08,
+            "doubleCount": 5,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":1,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 24
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":2,
+                                    "desc": "五福临门，抢到\\${value}红包券"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":4,
+                                    "desc": "金玉满堂，抢到\\${value}红包券"
+                                },
+                                "weight": 12
+                            }
+                        ]
+                    },
+                    "weight": 30
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":50,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":200,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":500,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":1000,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 70
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "doubleBaseRate": 0.10,
+            "doubleCount": 6,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":1,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 8
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":3,
+                                    "desc": "五福临门，抢到\\${value}红包券"
+                                },
+                                "weight": 50
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":5,
+                                    "desc": "金玉满堂，抢到\\${value}红包券"
+                                },
+                                "weight": 30
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":8,
+                                    "desc": "财运亨通，抢到\\${value}红包券"
+                                },
+                                "weight": 12
+                            }
+                        ]
+                    },
+                    "weight": 50
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":200,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":800,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":2000,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":4000,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 50
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "doubleBaseRate": 0.10,
+            "doubleCount": 6,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":3,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 8
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":9,
+                                    "desc": "五福临门，抢到\\${value}红包券"
+                                },
+                                "weight": 50
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":15,
+                                    "desc": "金玉满堂，抢到\\${value}红包券"
+                                },
+                                "weight": 30
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":24,
+                                    "desc": "财运亨通，抢到\\${value}红包券"
+                                },
+                                "weight": 12
+                            }
+                        ]
+                    },
+                    "weight": 50
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":500,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":2000,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":5000,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":10000,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 50
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "doubleBaseRate": 0.10,
+            "doubleCount": 6,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":20,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 8
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":60,
+                                    "desc": "五福临门，抢到\\${value}红包券"
+                                },
+                                "weight": 50
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":100,
+                                    "desc": "金玉满堂，抢到\\${value}红包券"
+                                },
+                                "weight": 30
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":160,
+                                    "desc": "财运亨通，抢到\\${value}红包券"
+                                },
+                                "weight": 12
+                            }
+                        ]
+                    },
+                    "weight": 50
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":2500,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":10000,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":25000,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":50000,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 50
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "doubleBaseRate": 0.05,
+            "doubleCount": 5,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":1,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "weight": 8
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":6,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":20,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":50,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":100,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 92
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "doubleBaseRate": 0.10,
+            "doubleCount": 5,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":1,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "weight": 40
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":12,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":50,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":125,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":250,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 60
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "doubleBaseRate": 0.14,
+            "doubleCount": 5,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":1,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 24
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":3,
+                                    "desc": "五福临门，抢到\\${value}红包券"
+                                },
+                                "weight": 50
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":5,
+                                    "desc": "金玉满堂，抢到\\${value}红包券"
+                                },
+                                "weight": 26
+                            }
+                        ]
+                    },
+                    "weight": 40
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":50,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":200,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":500,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":1000,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 60
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "doubleBaseRate": 0.14,
+            "doubleCount": 6,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":5,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 4
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":8,
+                                    "desc": "五福临门，抢到\\${value}红包券"
+                                },
+                                "weight": 20
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":15,
+                                    "desc": "金玉满堂，抢到\\${value}红包券"
+                                },
+                                "weight": 50
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":22,
+                                    "desc": "财运亨通，抢到\\${value}红包券"
+                                },
+                                "weight": 26
+                            }
+                        ]
+                    },
+                    "weight": 80
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":200,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":800,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":2000,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":4000,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 20
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "doubleBaseRate": 0.14,
+            "doubleCount": 6,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":15,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 4
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":20,
+                                    "desc": "五福临门，抢到\\${value}红包券"
+                                },
+                                "weight": 20
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":30,
+                                    "desc": "金玉满堂，抢到\\${value}红包券"
+                                },
+                                "weight": 50
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":40,
+                                    "desc": "财运亨通，抢到\\${value}红包券"
+                                },
+                                "weight": 26
+                            }
+                        ]
+                    },
+                    "weight": 80
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":500,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":2000,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":5000,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":10000,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 20
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "doubleBaseRate": 0.14,
+            "doubleCount": 6,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":30,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 4
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":60,
+                                    "desc": "五福临门，抢到\\${value}红包券"
+                                },
+                                "weight": 20
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":100,
+                                    "desc": "金玉满堂，抢到\\${value}红包券"
+                                },
+                                "weight": 66
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":410,
+                                    "desc": "财运亨通，抢到\\${value}红包券"
+                                },
+                                "weight": 10
+                            }
+                        ]
+                    },
+                    "weight": 80
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":2500,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":10000,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":25000,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":50000,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 20
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "doubleBaseRate": 0.05,
+            "doubleCount": 3,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":1,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 4
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":2,
+                                    "desc": "五福临门，抢到\\${value}红包券"
+                                },
+                                "weight": 20
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":4,
+                                    "desc": "金玉满堂，抢到\\${value}红包券"
+                                },
+                                "weight": 50
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":6,
+                                    "desc": "财运亨通，抢到\\${value}红包券"
+                                },
+                                "weight": 26
+                            }
+                        ]
+                    },
+                    "weight": 40
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":25,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":100,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":250,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":500,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 60
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "doubleBaseRate": 0.10,
+            "doubleCount": 3,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":8,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 5
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":10,
+                                    "desc": "五福临门，抢到\\${value}红包券"
+                                },
+                                "weight": 20
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":20,
+                                    "desc": "金玉满堂，抢到\\${value}红包券"
+                                },
+                                "weight": 49
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":30,
+                                    "desc": "财运亨通，抢到\\${value}红包券"
+                                },
+                                "weight": 26
+                            }
+                        ]
+                    },
+                    "weight": 40
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":125,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":500,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":1250,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":2500,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 60
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "doubleBaseRate": 0.14,
+            "doubleCount": 4,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":15,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 4
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":30,
+                                    "desc": "五福临门，抢到\\${value}红包券"
+                                },
+                                "weight": 20
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":60,
+                                    "desc": "金玉满堂，抢到\\${value}红包券"
+                                },
+                                "weight": 50
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":90,
+                                    "desc": "财运亨通，抢到\\${value}红包券"
+                                },
+                                "weight": 26
+                            }
+                        ]
+                    },
+                    "weight": 80
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":500,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":2000,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":5000,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":10000,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 20
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "doubleBaseRate": 0.14,
+            "doubleCount": 4,
+            "rewards": [
+                {
+                    "item": {
+                        "type": "redEnvelope",
+                        "items": [
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":30,
+                                    "desc": "福星高照，抢到\\${value}红包券"
+                                },
+                                "weight": 6
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":62,
+                                    "desc": "五福临门，抢到\\${value}红包券"
+                                },
+                                "weight": 23
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":106,
+                                    "desc": "金玉满堂，抢到\\${value}红包券"
+                                },
+                                "weight": 56
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:coupon",
+                                    "count":300,
+                                    "desc": "财运亨通，抢到\\${value}红包券"
+                                },
+                                "weight": 15
+                            }
+                        ]
+                    },
+                    "weight": 80
+                },
+                {
+                    "item": {
+                        "type": "normal",
+                        "items": [
+                           {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":1250,
+                                    "desc": "福星高照，获得\\${value}金币。"
+                                },
+                                "weight": 25
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":5000,
+                                    "desc": "五福临门，获得\\${value}金币。"
+                                },
+                                "weight": 64
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":12500,
+                                    "desc": "金玉满堂，获得\\${value}金币。"
+                                },
+                                "weight": 10
+                            },
+                            {
+                                "item": {
+                                    "itemId": "user:chip",
+                                    "count":25000,
+                                    "desc": "财运亨通，获得\\${value}金币。"
+                                },
+                                "weight": 1
+                            }
+                        ]
+                    },
+                    "weight": 20
+                }
+            ]
+        }
+    ],
+    "weekRateControl": [
+        {
+            "dateRange": ["20180101", "20180212"],
+            "rateControl": 1,
+            "countRateControl": 1
+        },
+        {
+            "dateRange": ["20180213", "20180222"],
+            "rateControl": 1,
+            "countRateControl": 1
+        },
+        {
+            "dateRange": ["20180223", "20180312"],
+            "rateControl": 1,
+            "countRateControl": 0.7
+        }
+    ],
+    "dailyRateControl": [
+        {
+            "timeRange": ["00:00", "10:00"],
+            "rateControl": 0,
+            "countRateControl": 0
+        },
+        {
+            "timeRange": ["10:00", "23:59"],
+            "rateControl": 1,
+            "countRateControl": 1
+        }
+    ],
+    "rollAdditionPoints": {
+        "rollBasePoint": 100,
+        "vip": {
+            "vip1": 5,"vip2": 5,"vip3": 10,
+            "vip4": 20,"vip5": 30,"vip6": 40,
+            "vip7": 40,"vip8": 40,"vip9": 40,
+            "vip10": 40,"vip11": 40,"vip12": 40, 
+            "vip13": 40
+        },
+        "newUser": 10,
+        "badLuck": 2
+    }
+}

@@ -1,0 +1,463 @@
+# -*- coding:utf-8 -*-
+'''
+Created on 2017年2月13日
+
+@author: zhaojiangang
+'''
+import time
+
+from dizhu.entity.dizhuconf import DIZHU_GAMEID
+from dizhu.games.events import UserLeaveRoomEvent
+from dizhu.games.mplayertableroom import DizhuManagerPlayerTableRoom
+from dizhu.games.normalbase import dealer
+from dizhu.games.normalbase.policies import JoinTablePolicy, \
+    AssignTableWinStreakPolicy, AssignTableWithChipPolicy
+from dizhu.games.normalbase.tabletask import WinStreakTaskSystem, \
+    DailyPlayTimesWinTaskSystem
+from dizhu.servers.room.rpc import normal_room_remote
+from dizhu.servers.util.rpc import new_table_remote
+from dizhu.tupt.ob import obsystem
+from dizhucomm.core.const import StandupReason
+from dizhucomm.core.events import SitdownEvent, StandupEvent
+from dizhucomm.core.exceptions import InSeatException, NoIdleSeatException
+from dizhucomm.core.table import DizhuPlayer
+from dizhucomm.entity import commconf
+from freetime.core.tasklet import FTTasklet
+import freetime.util.log as ftlog
+from freetime.core.timer import FTLoopTimer
+from freetime.entity.msg import MsgPack
+from poker.entity.configure import gdata
+from poker.entity.dao import onlinedata
+from poker.entity.game.rooms.room import TYRoom
+from poker.protocol import router
+from poker.util import strutil, sortedlist
+
+
+class PlayShare(object):
+    def __init__(self):
+        self.maxWinDoubles = 0
+        self.lastChip = 0
+        self.fistChip = 0
+        self.deltaChip = 0
+        self.winCount = 0
+        self.loseCount = 0
+
+    @property
+    def totalCount(self):
+        return self.winCount + self.loseCount
+
+    @property
+    def winRate(self):
+        return round(float(self.winCount) / self.totalCount, 2)
+
+    @property
+    def winChips(self):
+        return self.deltaChip
+
+    def getShareInfo(self, roomConf, clientId):
+        # 若玩家赢取金币数不小于房间配置
+        minShareWinChip = roomConf.get('minShareWinChip', 0)
+        minSharePlayCount = roomConf.get('minSharePlayCount', 0)
+        if not minShareWinChip or not minSharePlayCount:
+            return
+
+        if self.winChips >= roomConf.get('minShareWinChip') and self.totalCount >= roomConf.get('minSharePlayCount'):
+            shareConf = commconf.getNewShareInfoByCondiction(DIZHU_GAMEID, clientId, 'gamewin')
+            if ftlog.is_debug():
+                ftlog.debug('PlayShare.getShareInfo shareConf=', shareConf)
+
+            return {
+                'winChips': self.winChips,
+                'winRate': self.winRate,
+                'maxWinDoubles': self.maxWinDoubles,
+                'totalCount': self.totalCount,
+                'winCount': self.winCount,
+                'share': shareConf,
+                'shareIds': shareConf.get('shareIds') if shareConf else None
+            }
+        return
+
+
+class DizhuPlayerNormalBase(DizhuPlayer):
+    def __init__(self, room, userId):
+        super(DizhuPlayerNormalBase, self).__init__(room, userId)
+        self.idleTime = 0
+        self.continueBuyin = False
+        self.needInit = True
+        self.luckValue = 0
+        self.playShare = PlayShare()
+        
+    def initPlayer(self):
+        '''
+        填充player信息
+        '''
+        if self.needInit:
+            self.needInit = False
+            datas = new_table_remote.doInitTablePlayerDatas(self.userId, self.room.roomId)
+            self.updateDatas(datas)
+        return self
+    
+class DizhuTableRoomNormalBase(DizhuManagerPlayerTableRoom):
+    def __init__(self, roomDefine):
+        super(DizhuTableRoomNormalBase, self).__init__(roomDefine, 10)
+        # 加入桌子的策略
+        self._joinTablePolicy = JoinTablePolicy()
+        # 桌子列表
+        self._tableList = []
+        self._dealer = dealer.DIZHU_DEALER_DICT[self.roomConf['playMode']]
+        # 连胜任务
+        self._winStreakTask = WinStreakTaskSystem(self)
+
+        # 房间是否有局次任务奖励标志
+        self._dailyPlayTimesWinTask = DailyPlayTimesWinTaskSystem(self)
+        
+        self._assignTableWinStreakPolicy = AssignTableWinStreakPolicy()
+        # 已用户金币为基准进行配桌
+        self._assignTableWithChipPolicy = AssignTableWithChipPolicy()
+        # 混房按MixId配桌, 真正初始化是在mix
+        self._assignTableWithMixIdPolicy = None
+        # 初始化定时器循环定时检测
+        if self.roomConf.get('occupyIntervalSeconds'):
+            # 启动定时器
+            self._timer = FTLoopTimer(self.roomConf['occupyIntervalSeconds'], -1, self._processRoomUserOccupy)
+            self._timer.start()
+
+    @property
+    def winStreakTask(self):
+        return self._winStreakTask
+    
+    @property
+    def dailyPlayTimesWinTask(self):
+        return self._dailyPlayTimesWinTask
+    
+    def newTable(self, tableId):
+        tableCtrl = self._makeTableCtrl(tableId, self._dealer)
+        self._assignTableWinStreakPolicy.setupTable(tableCtrl.table)
+        self._assignTableWithChipPolicy.setupTable(tableCtrl.table)
+        if self._assignTableWithMixIdPolicy:
+            self._assignTableWithMixIdPolicy.setupTable(tableCtrl.table)
+        self._addTable(tableCtrl.table)
+        self._winStreakTask.setupTable(tableCtrl.table)
+        self._dailyPlayTimesWinTask.setupTable(tableCtrl.table)
+        tableCtrl.setupTable()
+        obsystem.setupTable(tableCtrl.table)
+        return tableCtrl
+    
+    def findPlayer(self, userId):
+        return self._playerMap.get(userId)
+    
+    def quickStart(self, userId, tableId, continueBuyin):
+        if tableId:
+            player = self.findPlayer(userId)
+            if player:
+                if player.table:
+                    player.table.online(player.seat)
+                    return player
+                player.online = True
+        # 开始游戏
+        try:
+            player = self.enterRoom(userId, continueBuyin)
+            seat = self.startGame(userId, continueBuyin)
+        except Exception, e:
+            self.leaveRoom(userId, TYRoom.LEAVE_ROOM_REASON_LESS_MIN)
+            ftlog.warn('DizhuTableRoomNormalBase.quickStart'
+                       'userId=', userId,
+                       'roomId=', self.roomId,
+                       'continueBuyin=', continueBuyin,
+                       'warn=', e.message)
+            # 发送离开房间
+            mp = MsgPack()
+            mp.setCmd('room_leave')
+            mp.setResult('reason', 0)
+            mp.setResult('gameId', self.gameId)
+            mp.setResult('roomId', self.roomId)  # 处理结果返回给客户端时，部分游戏（例如德州、三顺）需要判断返回的roomId是否与本地一致
+            mp.setResult('userId', userId)
+            router.sendToUser(mp, userId)
+            return
+        return seat
+    
+    def enterRoom(self, userId, continueBuyin):
+        '''
+        用户进入房间，带入，取用户信息等
+        '''
+        with self._keyLock.lock(userId):
+            exists = self.findPlayer(userId)
+            if exists:
+                exists.continueBuyin = True
+                ftlog.info('DizhuTableRoomNormalBase.enterRoom',
+                           'userId=', userId,
+                           'clientId=', exists.clientId,
+                           'dizhuVersion=', exists.gameClientVer,
+                           'idlePlayerCount=', len(self._idlePlayerMap),
+                           'playerCount=', len(self._playerMap),
+                           'tableCount=', len(self._tableList),
+                           'continueBuyin=', True,
+                           'roomId=', self.roomId)
+                return exists
+        
+            player = self._makePlayer(userId)
+            player.initPlayer()
+        
+            # 检查准入
+            self._enterRoomCheck(player, continueBuyin)
+        
+            self.ensureNotInSeat(userId)
+        
+            self._addPlayer(player)
+            ftlog.info('DizhuTableRoomNormalBase.enterRoom',
+                       'userId=', userId,
+                       'clientId=', player.clientId,
+                       'dizhuVersion=', player.gameClientVer,
+                       'idlePlayerCount=', len(self._idlePlayerMap),
+                       'playerCount=', len(self._playerMap),
+                       'tableCount=', len(self._tableList),
+                       'continueBuyin=', continueBuyin,
+                       'roomId=', self.roomId)           
+            return player
+    
+    def leaveRoom(self, userId, reason):
+        '''
+        玩家离开房间
+        '''
+        with self._keyLock.lock(userId):
+            player = self.findPlayer(userId)
+            if ftlog.is_debug():
+                ftlog.debug('DizhuTableRoomNormalBase.leaveRoom',
+                            'roomId=', self.roomId,
+                            'userId=', userId,
+                            'player=', player,
+                            'reason=', reason,
+                            'tableId=', player.tableId if player else None,
+                            'seatId=', player.seatId if player else None,
+                            'tableState=', (player.table.state.name if player.table else None) if player else None)
+            ret = True
+            if player:
+                # 断线不离开房间（防止用户网不好导致连胜中断）
+                if reason == TYRoom.LEAVE_ROOM_REASON_LOST_CONNECTION:
+                    if not player.table:
+                        player.online = False
+                        return False
+                    if player.table.gameRound:
+                        player.table.offline(player.seat)
+                        return False
+                    else:
+                        return player.table.standup(player.seat, StandupReason.TCP_CLOSED)
+
+                # 主动离开, 记录用户loc
+                canQuit = self.roomConf.get('canQuit', 0)
+                if reason == TYRoom.LEAVE_ROOM_REASON_ACTIVE and canQuit and player.tableId and player.seatId and player.table.state.name != 'idle':
+                    ftlog.info('DizhuTableRoomNormalBase.leaveRoom',
+                               'roomId=', self.roomId,
+                               'userId=', userId,
+                               'canQuit=', canQuit,
+                               'reason=', reason)
+                    player.table.quit(player.seat)
+                    self.fire(UserLeaveRoomEvent(self, player, reason))
+                    return ret
+
+                if player.seat:
+                    ret = player.table.standup(player.seat)
+                if not player.seat:
+                    self._leaveRoom(player, reason)
+            return ret
+
+    def leaveTable(self, userId, tableId, reason):
+        with self._keyLock.lock(userId):
+            player = self.findPlayer(userId)
+            if player and player.table.tableId == tableId:
+                if not player.table.standup(player.seat):
+                    return False
+            return True
+
+    def ensureNotInSeat(self, userId):
+        '''
+        确认该用户没有在其它桌子上打牌
+        '''
+        locList = onlinedata.getOnlineLocList(userId)
+        for loc in locList:
+            onlineRoomId, onlineTableId, onlineSeatId = loc[0], loc[1], loc[2]
+            if not onlineRoomId in gdata.roomIdDefineMap() :
+                onlinedata.removeOnlineLoc(userId, onlineRoomId, onlineTableId)
+                continue
+            gameId = strutil.getGameIdFromBigRoomId(onlineRoomId)
+            if gameId == DIZHU_GAMEID and onlineSeatId:
+                raise InSeatException()
+    
+    def startGame(self, userId, continueBuyin):
+        '''
+        选一个桌子坐下
+        '''
+        with self._keyLock.lock(userId):
+            player = self.findPlayer(userId)
+            if ftlog.is_debug():
+                ftlog.debug('DizhuTableRoomNormalBase.startGame',
+                            'roomId=', self.roomId,
+                            'userId=', userId,
+                            'player=', player,
+                            'continueBuyin=', continueBuyin,
+                            'playerContinueBuyin=', player.continueBuyin)
+            if player:
+                # 已经在座位上
+                if player.seat:
+                    return player.seat
+                
+                player.initPlayer()
+
+                self.ensureNotInSeat(player.userId)
+                # 坐到合适的座位
+                if not self._trySitdown(player, player.continueBuyin or continueBuyin):
+                    raise NoIdleSeatException()
+
+                # 用户第一次进入房间带入金币
+                if not player.playShare.fistChip:
+                    player.playShare.fistChip = player.score
+                    if ftlog.is_debug():
+                        ftlog.debug('DizhuTableRoomNormalBase init playShare', 'firstChip=', player.playShare.fistChip,
+                                    'userId=', player.userId,
+                                    'roomId=', self.roomId)
+                return player.seat
+            return None
+    
+    def _trySitdown(self, player, continueBuyin):
+        for _ in xrange(3):
+            table = self._getTable(player)
+            if table:
+                table.processing = True
+                try:
+                    if table.sitdown(player, continueBuyin):
+                        return True
+                except NoIdleSeatException:
+                    pass
+                finally:
+                    table.processing = False
+            FTTasklet.getCurrentFTTasklet().sleepNb(0.5)
+        return False
+
+    def _getTable(self, player):
+        '''
+        查找一张合适的桌子
+        '''
+        found = None
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableRoomNormalBase._getTable',
+                        'roomId=', self.roomId,
+                        'userId=', player.userId,
+                        'tableCount=', len(self._tableList))
+        
+        candidateList = []
+        for table in self._tableList:
+            if table.processing:
+                continue
+            idleSeatCount = table.idleSeatCount
+            if idleSeatCount <= 0:
+                break
+            if table.state.name != 'idle':
+                ftlog.warn('DizhuTableRoomNormalBase._getTable BadTableState',
+                           'roomId=', self.roomId,
+                           'userId=', player.userId,
+                           'tableId=', table.tableId,
+                           'tableState=', table.state.name,
+                           'idleSeatCount=', idleSeatCount)
+                continue
+            if idleSeatCount == table.seatCount:
+                found = table
+                break
+            else:
+                if (self._joinTablePolicy
+                    and not self._joinTablePolicy.canJoin(table, player)):
+                    continue
+                candidateList.append(table)
+
+                if table.winStreakSection:
+                    # 连胜匹配规则
+                    if self._assignTableWinStreakPolicy.canJoin(table, player):
+                        found = table
+                        break
+                elif table.chipSection:
+                    # 金币匹配规则
+                    if self._assignTableWithChipPolicy.canJoin(table, player):
+                        found = table
+                        break
+                elif table.mixIdSection:
+                    # 混房按 mixId 匹配
+                    if self._assignTableWithMixIdPolicy.canJoin(table, player):
+                        found = table
+                        break
+                else:
+                    found = table
+                    break
+
+        if not found and candidateList:
+            found = candidateList[0]
+            if ftlog.is_debug():
+                ftlog.debug('DizhuTableRoomNormalBase._getTable',
+                            'roomId=', self.roomId,
+                            'userId=', player.userId,
+                            'candidateList=', [t.tableId for t in candidateList])
+        if not found:
+            ftlog.warn('DizhuTableRoomNormalBase._getTable',
+                       'roomId=', self.roomId,
+                       'userId=', player.userId,
+                       'table=', None)
+        return found
+    
+    def _clacTableScore(self, table):
+        hi = table.idleSeatCount if table.idleSeatCount > 0 else table.seatCount + 1
+        return ((hi << 32) | int(time.time())) * 10000 + (table.tableId % 10000)
+    
+    def _addTable(self, table):
+        table._score = self._clacTableScore(table)
+        self._tableList.append(table)
+        table.on(SitdownEvent, self._onSitdownEvent)
+        table.on(StandupEvent, self._onStandupEvent)
+        
+    def _updateTableScore(self, table):
+        score = self._clacTableScore(table)
+        sortedlist.remove(self._tableList, table)
+        table._score = score
+        sortedlist.insert(self._tableList, table)
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableRoomNormalBase._updateTableScore',
+                        'roomId=', self.roomId,
+                        'tableList=', self._tableList,
+                        'idleSeatCount=', [(t.tableId, t.state.name, t.idleSeatCount) for t in self._tableList])
+        
+    def _onSitdownEvent(self, evt):
+        self._removeIdlePlayer(evt.player)
+        self._updateTableScore(evt.table)
+
+    def _onStandupEvent(self, evt):
+        self._updateTableScore(evt.table)
+        self._addIdlePlayer(evt.player)
+        evt.player.needInit = True
+
+    def _enterRoomCheck(self, player, continueBuyin):
+        '''
+        检查用户是否可以进入该房间
+        '''
+        pass
+    
+    def _makeTableCtrl(self, tableId, dealer):
+        raise NotImplementedError
+    
+    def _makePlayer(self, userId):
+        raise NotImplementedError
+
+    def _processRoomUserOccupy(self):
+        """获取当前进程容量"""
+        if not self.roomConf.get('occupySwitch', 0):
+            return
+        playerCount = len(self._playerMap)
+        tableCount = len(self._tableList)
+        tableSeatCount = self.tableConf['maxSeatN']
+        totalCount = tableSeatCount * tableCount
+        occupy = round(playerCount * 1.0 / totalCount, 3)
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableRoomNormalBase._processRoomUserOccupy',
+                        'roomId=', self.roomId,
+                        'playerCount=', playerCount,
+                        'tableCount=', tableCount,
+                        'tableSeatCount=', tableSeatCount,
+                        'totalCount=', totalCount,
+                        'roomUserOccupy=', occupy)
+        normal_room_remote.reportRoomUserOccupy(self.ctrlRoomId, self.roomId, occupy)

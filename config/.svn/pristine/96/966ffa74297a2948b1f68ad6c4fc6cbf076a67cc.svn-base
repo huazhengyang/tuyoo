@@ -1,0 +1,63 @@
+{
+  "room_items" : {
+    "sa01" : {
+      "id" : 25001,
+      "name" : "四暗初级场",
+      "condition" : "不限定积分",
+      "stepTime":40,
+      "maxPassTimes":5,
+      "maxTimeoutTimes":3,
+      "noExpInN":40,
+      "noGiveUpInN":20,
+      "drawNoEatInN": 70
+    },
+    "sm01" : {
+      "id" : 25005,
+      "name" : "双明初级场",
+      "condition" : "积分1500以下",
+      "stepTime":40,
+      "maxPassTimes":5,
+      "maxTimeoutTimes":3,
+      "noExpInN":40,
+      "noGiveUpInN":20,
+      "drawNoEatInN": 70   
+    },
+    "dt01" : {
+      "id" : 25010,
+      "name" : "双人单挑场",
+      "condition" : "积分1500以下",
+      "stepTime":40,
+      "maxPassTimes":5,
+      "maxTimeoutTimes":3,
+      "noExpInN":40,
+      "noGiveUpInN":20,
+      "drawNoEatInN": 70   
+    }
+  },
+  "session_items" : {
+    "sa" : {
+      "session" : "四暗场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["sa01"],
+      "description" : ["四国军棋四暗玩法"]
+    },
+    "sm" : {
+      "session" : "双明场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["sm01"],
+      "description" : ["四国军棋双明玩法"]
+    },
+    "dt" : {
+      "session" : "单挑场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["dt01"],
+      "description" : ["四国军棋双人单挑"]
+    }
+  },
+  "templates" : {
+    "default" : ["sa", "sm", "dt"]
+  }
+}

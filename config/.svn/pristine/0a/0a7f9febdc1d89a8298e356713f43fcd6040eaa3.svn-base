@@ -1,0 +1,25 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "大众麻将震撼发布"
+     ],
+     "md5"              : "22d982f81e68a18385260ee1ab62b5b1",
+     "ver"              : "5.01",
+     "url"              : "${http_download}/hall/plugin/game/mj_sichuan_test_5.01_01.zip",
+     "size"             : "10.1M"
+    }
+   ],
+   "description"      : [
+    "大众麻将"
+   ],
+   "gameId"           : 207,
+   "gameMark"         : "gd_dazhongmajiang"
+  }
+ ],
+ "templates"        : [ ]
+}

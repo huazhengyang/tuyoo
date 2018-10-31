@@ -1,0 +1,183 @@
+{
+    "url_conf": {
+        "host": "http://texas.tuyoo.com",
+        "gamerule": "/texas/help_gamerule.html",
+        "question": "/texas/help_question.html",
+        "feedback": "/texas/help_feedback.html",
+        "activity": "/texas/activity.html",
+        "activity_ios": "/texas/activity_ios.html"
+    },
+
+    "room_rule":{
+        "mtt":[ { "type": 0, "text": "什么是锦标赛（MTT）？" },
+                { "type": 1, "text": "锦标赛（MTT）是德州扑克的一种定时开赛多桌同时进行的比赛玩法。" },
+                { "type": 1, "text": "所有参赛玩家在比赛开始后以同样的筹码量开始比赛，随着比赛的进行" },
+                { "type": 1, "text": "盲注会不断提升，当比赛只剩下一人时产生冠军，比赛结束。" },
+
+                { "type": 0, "text": "锦标赛规则" },
+                { "type": 1, "text": "1.固定时间开始比赛，参赛人数小于最低开赛人数时，比赛取消，退还" },
+                { "type": 1, "text": "报名费用。" },
+                { "type": 1, "text": "2.比赛名次按玩家淘汰（或退出）顺序的倒序排列，第一个筹码输完的" },
+                { "type": 1, "text": "玩家即是最后一名，以此类推。" },
+                { "type": 1, "text": "3.每场比赛玩家会获得初始计数筹码，此筹码仅用于本场比赛，不等同" },
+                { "type": 1, "text": "于账户金币。" },
+                { "type": 1, "text": "4.重购筹码（Rebuy）指的是在指定的盲注级别中，当玩家筹码少于初始" },
+                { "type": 1, "text": "筹码或变为0时，玩家可以点击重购筹码按钮使用金币购买筹码，购买筹" },
+                { "type": 1, "text": "码有次数限制。" },
+                { "type": 1, "text": "5.加买筹码（Addon）指的是在指定的盲注级别中，玩家可通过点击加" },
+                { "type": 1, "text": "买筹码按钮使用金币购买比赛筹码，购买筹码有次数限制。" },
+                { "type": 1, "text": "6.锦标赛优先使用门票报名" },
+                { "type": 1, "text": "7.已报名的比赛在开赛前会在游戏内弹出开赛提示" },
+                { "type": 1, "text": "8.比赛开始时，如果是离线状态，系统会帮您在比赛内托管，在被淘汰前" },
+                { "type": 1, "text": "登录，系统会帮您自动进入比赛" },
+                
+                { "type": 0, "text": "锦标赛标志含义" },
+                { "type": 1, "text": "超、快、普、慢：这四个标志表示锦标赛涨盲的速度；" },
+                { "type": 1, "text": "L：这个标志表示这场比赛支持延迟报名；" },
+                { "type": 1, "text": "R：这个标志表示这场比赛支持重买（rebuy）；" },
+                { "type": 1, "text": "A：这个标志表示这场比赛支持加买（addon）；" },
+                { "type": 1, "text": "瞄准镜：猎人赛标志，此比赛中赢光一名玩家的筹码可获得额外金币奖励；" },
+                { "type": 1, "text": "配置锦标赛标志是为了让您在丰富多彩的比赛中尽快找到自己喜欢的比赛。" },
+                { "type": 1, "text": "祝您在比赛中吉星高照！" },
+
+                { "type": 0, "text": "猎人赛比赛规则" },
+                { "type": 1, "text": "1.猎人赛在普通MTT的基础上，开始比赛时为每位玩家设定了初始赏金，" },
+                { "type": 1, "text": "清空玩家的筹码即可获得相应的赏金，其他规则和MTT相同。" },
+                { "type": 1, "text": "2.猎人赛分为三种，普通猎人赛、滚雪球猎人赛、特殊目标猎人赛（猎杀" },
+                { "type": 1, "text": "兔八哥）" },
+                { "type": 1, "text": "普通猎人赛：比赛中清空玩家筹码可获得该玩家的赏金，赏金直接添加至玩" },
+                { "type": 1, "text": "家账户。" },
+                { "type": 1, "text": "滚雪球猎人赛：被清空玩家的赏金，一定比例直接添加至获胜玩家账户，" },
+                { "type": 1, "text": "另外一部分积累至获胜玩家的赏金。" },
+                { "type": 1, "text": "特殊目标猎人赛（猎杀兔八哥）：在普通猎人赛的基础上，添加猎杀目标。" },
+                { "type": 1, "text": "将特殊目标筹码清空可获得额外的金币奖励。" },
+                { "type": 1, "text": "3.猎人赛结束后，会按照比赛排名发放一份排名奖励。" },
+                { "type": 1, "text": "4.Rebuy：重新入场， 重新拥有自己的初始赏金。" },
+                { "type": 1, "text": "Addon：增加筹码， 在猎人赛中赏金不变。" },
+                { "type": 1, "text": "筹码没有耗尽的情况下，Rebuy和Addon只增加对应筹码，对赏金没有影响。" },
+                
+                { "type": 0, "text": "欢乐赛赛制"},
+                { "type": 1, "text": "欢乐赛是一种娱乐玩法,在锦标赛(MTT)的赛制基础上,发牌过程中只发7-A,"},
+                { "type": 1, "text": "除去7以下的小牌之后中牌率更高，对局更过瘾。"},
+                
+                
+                { "type": 0, "text": "分阶段赛事赛制"},
+                { "type": 1, "text": "1、比赛分为两个阶段，第一阶段为DAY1预选赛（共六天，赢取DAY2资格），"},
+                { "type": 1, "text": "第二阶段为DAY2决赛。"},
+                { "type": 1, "text": "2、DAY1六天比赛分别为DAY1-A，DAY1-B……DAY1-F。"},
+                { "type": 1, "text": "3、DAY1打满比赛相应盲注级别比赛将自动结束，"},
+                { "type": 1, "text": "比赛结束后剩下所有选手保留筹码进入DAY2。"},
+                { "type": 1, "text": "4、可参加一场或多场DAY1，取其中筹码最多的一次进入DAY2。"},
+                { "type": 1, "text": "5、DAY2开赛时，系统将自动拉入参赛选手，无需报名。"},
+                { "type": 1, "text": "6、DAY2阶段按照排名发放奖励。"}
+        ],
+        "sng":[{
+                    "text": "sng比赛规则说明",
+                    "type": 0
+                },
+                {
+                    "text": "本比赛添加幸运摇奖机制，赢取40-4000万金币奖励，坐满即玩，随时开赛，享受国际级比赛乐趣。",
+                    "type": 1
+                }],
+        "vip":[{
+                    "text": "平均底池",
+                    "type": 0
+                },
+                {
+                    "text": "近50局牌桌总底池的平均值，平均底池越高说明牌桌里打的越激烈。",
+                    "type": 1
+                },
+          {
+                    "text": "平均筹码",
+                    "type": 0
+                },
+                {
+                    "text": "牌桌里所有玩家带入牌桌的筹码平均值，平均筹码越高说明牌桌里的玩",
+                    "type": 1
+                },
+          {
+                    "text": "家越豪。",
+                    "type": 1
+                },
+
+
+          {
+                    "text": "翻牌率",
+                    "type": 0
+                },
+                {
+                    "text": "近50局牌桌玩家进入flop（翻牌圈）的人数比率，比率越高说明牌桌内",
+                    "type": 1
+                },
+           {
+                    "text": "玩家玩的手牌越多。",
+                    "type": 1
+                },
+
+          {
+                    "text": "主动加注率",
+                    "type": 0
+                },
+                {
+                    "text": "近50局牌桌玩家主动下注的比率，比率越高说明牌桌内玩家打牌越激进。",
+                    "type": 1
+                }
+        ]
+
+    },
+    "texas_project_management": {
+        "teamSvnRoot": "http://202.106.9.134:9055/newsvn/poker",
+        "teamSvnConfDir": "/config",
+        "roomSvnConfXlsName": "room.xls",
+        "teamLocalConfDir": "texas-team"
+    },
+  "mtt_guide":{
+		"chip":[3000,5000,100000],
+		"vip":1
+	},
+    "t3card_project_management": {
+        "teamSvnRoot": "http://202.106.9.134:9055/newsvn/poker",
+        "teamSvnConfDir": "/config",
+        "roomSvnConfXlsName": "room.xls",
+        "teamLocalConfDir": "t3card-team"
+    },
+    "normal_rank":[{
+      "typeId":"1",
+      "groupId":"10"
+    },{
+      "typeId":"1",
+      "groupId":"20"
+    },{
+      "typeId":"1",
+      "groupId":"30"
+    },{
+      "typeId":"1",
+      "groupId":"40"
+    }],
+    "mtt_rank":[
+      {
+        "typeId":"1",
+        "groupId":"10"
+      },
+	  {
+      "typeId":"1",
+      "groupId":"50"
+	  },
+	  {
+      "typeId":"1",
+      "groupId":"70"
+	  },
+	  {
+      "typeId":"1",
+      "groupId":"40"
+	  }
+    ],
+    "month_card":["TY9999D0100019","TY9999D0128002","TY9999D1000013","TY9999D0998001"],
+    "guide_index":{"16":"guide1","17":"guide2"},
+    "rank_tag_name":{"1":"游戏历程", "9":"特殊成就"},
+    "guide_version":1,
+	"auditClientid":[""],
+    "questBlackList":[],
+    "card_hole_externappId":10890,
+	"consumeLimit":200000000
+}

@@ -1,0 +1,1227 @@
+{
+    "taskUnits": [
+        {
+            "taskUnitId": "hall.task.neituiguang.newUser",
+            "pools": [
+                {
+                    "tasks": [
+                        {
+                            "kindId": 10004,
+                            "typeId": "hall.task.simple",
+                            "name": "斗地主赢一局",
+                            "desc": "斗地主游戏内赢得一场胜利",
+                            "pic": "${http_download}/hall/ntg/imgs/chip.png",
+                            "count": 1,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.play",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "1000金币",
+                                "items": [
+                                    {
+                                        "itemId": "user:chip",
+                                        "count": 1000
+                                    }
+                                ]
+                            },
+                            "rewardMail": ""
+                        },
+                        {
+                            "kindId": 10005,
+                            "typeId": "hall.task.simple",
+                            "name": "斗地主赢一局",
+                            "desc": "免费2元话费赛获得前10名",
+                            "pic": "${http_download}/hall/ntg/imgs/coupon.png",
+                            "count": 1,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.match.win",
+                                    "conditions": [
+                                        {
+                                            "typeId": "ddz.cond.matchRank",
+                                            "startRank": 1,
+                                            "stopRank": 10
+                                        }
+                                    ]
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "100奖券",
+                                "items": [
+                                    {
+                                        "itemId": "user:coupon",
+                                        "count": 100
+                                    }
+                                ]
+                            },
+                            "rewardMail": ""
+                        },
+                        {
+                            "kindId": 10006,
+                            "typeId": "hall.task.simple",
+                            "name": "斗地主赢一局",
+                            "desc": "斗地主游戏大师分15段",
+                            "pic": "${http_download}/hall/ntg/imgs/member.png",
+                            "count": 15,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.skillScore.level",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "会员特权1天",
+                                "items": [
+                                    {
+                                        "itemId": "item:89",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": ""
+                        }
+                    ]
+                },
+                {
+                    "tasks": [
+                        {
+                            "kindId": 10001,
+                            "typeId": "hall.task.simple",
+                            "name": "斗地主赢一局",
+                            "desc": "斗地主游戏内赢得一场胜利",
+                            "pic": "${http_download}/hall/ntg/imgs/pcard1.png",
+                            "count": 1,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.play",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "1元话费卡",
+                                "items": [
+                                    {
+                                        "itemId": "item:4178",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": ""
+                        },
+                        {
+                            "kindId": 10002,
+                            "typeId": "hall.task.simple",
+                            "name": "斗地主赢一局",
+                            "desc": "免费2元话费赛获得前10名",
+                            "pic": "${http_download}/hall/ntg/imgs/pcard2.png",
+                            "count": 1,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.match.win",
+                                    "conditions": [
+                                        {
+                                            "typeId": "ddz.cond.matchRank",
+                                            "startRank": 1,
+                                            "stopRank": 10
+                                        }
+                                    ]
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "2元话费卡",
+                                "items": [
+                                    {
+                                        "itemId": "item:4179",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": ""
+                        },
+                        {
+                            "kindId": 10003,
+                            "typeId": "hall.task.simple",
+                            "name": "斗地主赢一局",
+                            "desc": "斗地主游戏大师分15段",
+                            "pic": "${http_download}/hall/ntg/imgs/pcard5.png",
+                            "count": 15,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.skillScore.level",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "5元话费卡",
+                                "items": [
+                                    {
+                                        "itemId": "item:4180",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "taskUnitId": "hall.task.newuser01",
+            "typeId": "hall.task.newuser",
+            "pools": [
+                {
+                    "acceptedCond": {
+                        "typeId": "user.cond.registerDays",
+                        "startDays": -1,
+                        "stopDays": 0
+                    },
+                    "nextType": "nextByOrder",
+                    "taskOrder": [
+                        20001,
+                        20002,
+                        20003,
+                        20004
+                    ],
+                    "visibleCond": {
+                        "typeId": "user.cond.registerDays",
+                        "startDays": -1,
+                        "stopDays": 15
+                    },
+                    "tasks": [
+                        {
+                            "kindId": 20001,
+                            "typeId": "hall.task.simple",
+                            "name": "金币任务",
+                            "desc": "斗地主游戏获胜3局可得3000金币",
+                            "pic": "task_share",
+                            "count": 3,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.win",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "3000金币",
+                                "items": [
+                                    {
+                                        "itemId": "user:chip",
+                                        "count": 3000
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "enter_param": {
+                                    "pluginParams": {
+                                        "gameType": 1
+                                    },
+                                    "type": "roomlist"
+                                },
+                                "gameId": 6,
+                                "typeId": "hall.goto.enter.game"
+                            },
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 20002,
+                            "typeId": "hall.task.simple",
+                            "name": "1元话费卡",
+                            "desc": "斗地主进行30局可得1元话费卡道具，使用后可直接兑换话费",
+                            "pic": "task_iphoneCard",
+                            "count": 30,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.play",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "1元话费卡",
+                                "items": [
+                                    {
+                                        "itemId": "item:4178",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "enter_param": {
+                                    "pluginParams": {
+                                        "gameType": 1
+                                    },
+                                    "type": "roomlist"
+                                },
+                                "gameId": 6,
+                                "typeId": "hall.goto.enter.game"
+                            },
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 20003,
+                            "typeId": "hall.task.simple",
+                            "name": "2元话费券",
+                            "desc": "斗地主进行100局200奖券，累积奖券可在商城兑换实物大奖",
+                            "pic": "task_iphoneCard",
+                            "count": 100,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.play",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "200奖券",
+                                "items": [
+                                    {
+                                        "itemId": "user:coupon",
+                                        "count": 200
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "enter_param": {
+                                    "pluginParams": {
+                                        "gameType": 1
+                                    },
+                                    "type": "roomlist"
+                                },
+                                "gameId": 6,
+                                "typeId": "hall.goto.enter.game"
+                            },
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 20004,
+                            "typeId": "hall.task.simple",
+                            "name": "2元话费卡",
+                            "desc": "钻石抽奖一次可得2元话费卡道具，使用后可直接兑换话费",
+                            "pic": "task_iphoneCard",
+                            "count": 1,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "hall.roulette.diamond",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "2元话费卡",
+                                "items": [
+                                    {
+                                        "itemId": "item:4179",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "hall.goto.lottery"
+                            },
+                            "freshTip": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "taskUnitId": "hall.task.newuser02",
+            "typeId": "hall.task.newuser",
+            "pools": [
+                {
+                    "acceptedCond": {
+                        "typeId": "user.cond.registerDays",
+                        "startDays": -1,
+                        "stopDays": 0
+                    },
+                    "nextType": "nextByOrder",
+                    "taskOrder": [
+                        20101,
+                        20102,
+                        20103,
+                        20104
+                    ],
+                    "visibleCond": {
+                        "typeId": "user.cond.newuser"
+                    },
+                    "tasks": [
+                        {
+                            "kindId": 20101,
+                            "typeId": "hall.task.simple",
+                            "name": "金币任务",
+                            "desc": "斗地主游戏10局可得3000金币",
+                            "pic": "task_share",
+                            "count": 10,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.play",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "3000金币",
+                                "items": [
+                                    {
+                                        "itemId": "user:chip",
+                                        "count": 3000
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "enter_param": {
+                                    "pluginParams": {
+                                        "gameType": 1
+                                    },
+                                    "type": "roomlist"
+                                },
+                                "gameId": 6,
+                                "typeId": "hall.goto.enter.game"
+                            },
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 20102,
+                            "typeId": "hall.task.simple",
+                            "name": "金币任务",
+                            "desc": "斗地主进行50局可得10000金币",
+                            "pic": "task_share",
+                            "count": 50,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.play",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "10000金币",
+                                "items": [
+                                    {
+                                        "itemId": "user:chip",
+                                        "count": 10000
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "enter_param": {
+                                    "pluginParams": {
+                                        "gameType": 1
+                                    },
+                                    "type": "roomlist"
+                                },
+                                "gameId": 6,
+                                "typeId": "hall.goto.enter.game"
+                            },
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 20103,
+                            "typeId": "hall.task.simple",
+                            "name": "金币任务",
+                            "desc": "钻石抽奖一次，可额外获得20000金币",
+                            "pic": "task_share",
+                            "count": 1,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "hall.roulette.diamond",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "20000金币",
+                                "items": [
+                                    {
+                                        "itemId": "user:chip",
+                                        "count": 20000
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "hall.goto.lottery"
+                            },
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 20104,
+                            "typeId": "hall.task.simple",
+                            "name": "金币任务",
+                            "desc": "VIP达到3级，奖励100000金币",
+                            "pic": "task_share",
+                            "count": 3,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "hall.vip.level",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "100000金币",
+                                "items": [
+                                    {
+                                        "itemId": "user:chip",
+                                        "count": 100000
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "freshTip": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "taskUnitId": "hall.task.special",
+            "typeId": "hall.task.newuser",
+            "pools": [
+                {
+                    "acceptedCond": {
+                        "typeId": "user.cond.registerDays",
+                        "startDays": -1,
+                        "stopDays": 0
+                    },
+                    "nextType": "nextByOrder",
+                    "taskOrder": [
+                        30001,
+                        30002,
+                        30003,
+                        30004,
+                        30005
+                    ],
+                    "visibleCond": {
+                        "typeId": "user.cond.registerDays",
+                        "startDays": -1,
+                        "stopDays": 15
+                    },
+                    "tasks": [
+                        {
+                            "kindId": 30001,
+                            "typeId": "hall.task.simple",
+                            "name": "1元微信红包",
+                            "desc": "斗地主游戏胜利20局，可得1元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 20,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.play",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "1元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:1092",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "enter_param": {
+                                    "pluginParams": {
+                                        "gameType": 1
+                                    },
+                                    "type": "roomlist"
+                                },
+                                "gameId": 6,
+                                "typeId": "hall.goto.enter.game"
+                            },
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 30002,
+                            "typeId": "hall.task.simple",
+                            "name": "1元微信红包",
+                            "desc": "斗地主游戏连胜3局，可得1元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 3,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.winStreak",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "1元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:1093",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "enter_param": {
+                                    "pluginParams": {
+                                        "gameType": 1
+                                    },
+                                    "type": "roomlist"
+                                },
+                                "gameId": 6,
+                                "typeId": "hall.goto.enter.game"
+                            },
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 30003,
+                            "typeId": "hall.task.simple",
+                            "name": "1元微信红包",
+                            "desc": "斗地主游戏胜利20局，可得1元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 20,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.play",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "1元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:1094",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "enter_param": {
+                                    "pluginParams": {
+                                        "gameType": 1
+                                    },
+                                    "type": "roomlist"
+                                },
+                                "gameId": 6,
+                                "typeId": "hall.goto.enter.game"
+                            },
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 30004,
+                            "typeId": "hall.task.simple",
+                            "name": "2元微信红包",
+                            "desc": "斗地主游戏连胜5局，可得2元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 5,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.winStreak",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "2元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:1095",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "enter_param": {
+                                    "pluginParams": {
+                                        "gameType": 1
+                                    },
+                                    "type": "roomlist"
+                                },
+                                "gameId": 6,
+                                "typeId": "hall.goto.enter.game"
+                            },
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 30005,
+                            "typeId": "hall.task.simple",
+                            "name": "15元微信红包",
+                            "desc": "斗地主游戏胜利30局，可得15元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 30,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.play",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "15元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:2049",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "enter_param": {
+                                    "pluginParams": {
+                                        "gameType": 1
+                                    },
+                                    "type": "roomlist"
+                                },
+                                "gameId": 6,
+                                "typeId": "hall.goto.enter.game"
+                            },
+                            "freshTip": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "taskUnitId": "hall.task.charge",
+            "typeId": "hall.task.charge",
+            "pools": [
+                {
+                    "nextType": "nextByOrder",
+                    "taskOrder": [
+                        50001,
+                        50002,
+                        50003
+                    ],
+                    "acceptedCond": {
+                        "startLevel": 0,
+                        "stopLevel": 0,
+                        "typeId": "user.cond.vipLevel"
+                    },
+                    "visibleCond": {
+                        "typeId": "user.cond.datetime",
+                        "format": "%Y-%m-%d %H:%M:%S",
+                        "end": "2017-04-26 23:59:59",
+                        "start": "2017-04-17 00:00:00"
+                    },
+                    "tasks": [
+                        {
+                            "kindId": 50001,
+                            "typeId": "hall.task.simple",
+                            "name": "100奖券",
+                            "desc": "单笔充值满8元，可得100奖券",
+                            "pic": "task_coupon",
+                            "count": 8,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "hall.charge.single",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "100奖券",
+                                "items": [
+                                    {
+                                        "itemId": "user:coupon",
+                                        "count": 100
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 80,
+                                        "maxCount": 10000,
+                                        "minCount": 80
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 50002,
+                            "typeId": "hall.task.simple",
+                            "name": "10元话费卡",
+                            "desc": "单笔充值满30元，可得10元话费卡",
+                            "pic": "task_iphoneCard",
+                            "count": 30,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "hall.charge.single",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "10元话费卡",
+                                "items": [
+                                    {
+                                        "itemId": "item:4141",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 300,
+                                        "maxCount": 10000,
+                                        "minCount": 300
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 50003,
+                            "typeId": "hall.task.simple",
+                            "name": "50元话费卡",
+                            "desc": "累计充值满300元，可得50元话费卡",
+                            "pic": "task_iphoneCard",
+                            "count": 300,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "hall.charge.cumulation",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "50元话费卡",
+                                "items": [
+                                    {
+                                        "itemId": "item:4143",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 1000,
+                                        "maxCount": 10000,
+                                        "minCount": 1000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        }
+                    ]
+                },
+                {
+                    "nextType": "nextByOrder",
+                    "taskOrder": [
+                        50101,
+                        50102,
+                        50103
+                    ],
+                    "acceptedCond": {
+                        "startLevel": 1,
+                        "stopLevel": 3,
+                        "typeId": "user.cond.vipLevel"
+                    },
+                    "visibleCond": {
+                        "typeId": "user.cond.datetime",
+                        "format": "%Y-%m-%d %H:%M:%S",
+                        "end": "2017-04-26 23:59:59",
+                        "start": "2017-04-17 00:00:00"
+                    },
+                    "tasks": [
+                        {
+                            "kindId": 50101,
+                            "typeId": "hall.task.simple",
+                            "name": "10元话费卡",
+                            "desc": "单笔充值满30元，可得10元话费卡",
+                            "pic": "task_iphoneCard",
+                            "count": 30,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "hall.charge.single",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "10元话费卡",
+                                "items": [
+                                    {
+                                        "itemId": "item:4141",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 300,
+                                        "maxCount": 10000,
+                                        "minCount": 300
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 50102,
+                            "typeId": "hall.task.simple",
+                            "name": "50元话费卡",
+                            "desc": "单笔充值满300元，可得50元话费卡",
+                            "pic": "task_iphoneCard",
+                            "count": 300,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "hall.charge.single",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "50元话费卡",
+                                "items": [
+                                    {
+                                        "itemId": "item:4143",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 3000,
+                                        "maxCount": 10000,
+                                        "minCount": 3000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 50103,
+                            "typeId": "hall.task.simple",
+                            "name": "300万金币",
+                            "desc": "累计充值满1000元，可得300万金币",
+                            "pic": "task_share",
+                            "count": 1000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "hall.charge.cumulation",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "300万金币",
+                                "items": [
+                                    {
+                                        "itemId": "user:chip",
+                                        "count": 3000000
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 3000,
+                                        "maxCount": 10000,
+                                        "minCount": 3000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        }
+                    ]
+                },
+                {
+                    "nextType": "nextByOrder",
+                    "taskOrder": [
+                        50201,
+                        50202,
+                        50203
+                    ],
+                    "acceptedCond": {
+                        "startLevel": 4,
+                        "stopLevel": -1,
+                        "typeId": "user.cond.vipLevel"
+                    },
+                    "visibleCond": {
+                        "typeId": "user.cond.datetime",
+                        "format": "%Y-%m-%d %H:%M:%S",
+                        "end": "2017-04-26 23:59:59",
+                        "start": "2017-04-17 00:00:00"
+                    },
+                    "tasks": [
+                        {
+                            "kindId": 50201,
+                            "typeId": "hall.task.simple",
+                            "name": "50元话费卡",
+                            "desc": "单笔充值满300元，可得50元话费卡",
+                            "pic": "task_iphoneCard",
+                            "count": 300,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "hall.charge.single",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "50元话费卡",
+                                "items": [
+                                    {
+                                        "itemId": "item:4143",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 3000,
+                                        "maxCount": 10000,
+                                        "minCount": 3000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 50202,
+                            "typeId": "hall.task.simple",
+                            "name": "300万金币",
+                            "desc": "单笔充值满1000元，可得300万金币",
+                            "pic": "task_share",
+                            "count": 1000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "hall.charge.single",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "3000万金币",
+                                "items": [
+                                    {
+                                        "itemId": "user:chip",
+                                        "count": 3000000
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 10000,
+                                        "maxCount": 50000,
+                                        "minCount": 10000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        },
+                        {
+                            "kindId": 50203,
+                            "typeId": "hall.task.simple",
+                            "name": "3000万金币",
+                            "desc": "累计充值满1万元，可得3000万金币",
+                            "pic": "task_share",
+                            "count": 10000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "hall.charge.cumulation",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "3000万金币",
+                                "items": [
+                                    {
+                                        "itemId": "user:chip",
+                                        "count": 30000000
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "todotask": {
+                                "typeId": "todotask.payOrder",
+                                "payOrder": {
+                                    "shelves": [
+                                        "coin"
+                                    ],
+                                    "buyTypes": [
+                                        "consume",
+                                        "direct"
+                                    ],
+                                    "priceDiamond": {
+                                        "count": 10000,
+                                        "maxCount": 50000,
+                                        "minCount": 10000
+                                    }
+                                }
+                            },
+                            "lblEnter": "充值"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "templates": {
+        "default": {
+            "hall.task.newuser": "hall.task.newuser02"
+        },
+        "none": {},
+        "test_mixed": {
+            "hall.task.newuser": "hall.task.newuser01"
+        },
+        "wechat_redpackets": {
+            "hall.task.newuser": "hall.task.special"
+        }
+    }
+}

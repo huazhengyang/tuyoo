@@ -1,0 +1,67 @@
+{
+	"desc": "这个配置文件内容为麻将 <主界面实物兑换配置，目前只有奖券兑换话费>",
+
+	"items": [
+	    {
+	        "id": 		"TY9999Q0000101",
+	        "coupon": 	1180,
+	        "name": 	"10元",
+	        "pic": 		"${http_download}/majiang/images/coupon_exchange/huafei01.png"
+	    },
+	    {
+	        "id": 		"TY9999Q0000401",
+	        "coupon": 	3450,
+	        "name": 	"30元",
+	        "pic": 		"${http_download}/majiang/images/coupon_exchange/huafei02.png"
+	    },
+	    {
+	        "id": 		"TY9999Q0000601",
+	        "coupon": 	5500,
+	        "name": 	"50元",
+	        "pic": 		"${http_download}/majiang/images/coupon_exchange/huafei03.png"
+	    },
+	    {
+	        "id": 		"TY9999Q0001001",
+	        "coupon": 	10000,
+	        "name": 	"100元",
+	        "pic": 		"${http_download}/majiang/images/coupon_exchange/huafei04.png"
+	    }
+	],
+
+	"pathway":	[
+		{
+			"desc":		"拜雀神 quick_start进入到一个桌面",
+			"action": "simulate_slot_excute",
+			"params": {
+				 "type": 		"quickstart",
+				 "gameName": 	"麻将快速开始",
+				 "version": 	"3.701",
+				 "gameType": 	0,
+				 "defaultRes": 	"QuickStart",
+				 "isOffline": 	0,
+				 "pluginParams": {
+				 	"gameType": 	5,
+				 	"play_mode": 	"sichuan_xlch"
+				 },
+				 "quitAlert": 0
+			}
+		},
+		{
+			"desc":		"进入比赛界面",
+			"action": 	"simulate_slot_excute",
+			"params": 	{
+				 "type":		"roomlist",
+				 "gameName": 	"雀神场",
+				 "version": 	"3.701",
+				 "gameType": 	0,
+				 "defaultRes": 	"MaJiangMatch",
+				 "isOffline": 	0,
+				 "pluginParams": {
+				 	"gameType": 3
+				 },
+				 "quitAlert": 	1,
+				 "quitAlertName":"去比赛"
+			}
+		}
+	]
+}

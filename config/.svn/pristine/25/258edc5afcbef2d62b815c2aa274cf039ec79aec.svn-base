@@ -1,0 +1,3440 @@
+{
+    "mission_new_day": {
+        "hour": 4, 
+        "minute": 0, 
+        "weekday": 3
+    }, 
+    "mission_todo": [
+        {
+            "action": "dz_quick_start", 
+            "id": 1, 
+            "params": {
+                "roomId": 8101
+            }
+        }, 
+        {
+            "action": "dz_quick_start", 
+            "id": 2, 
+            "params": {
+                "roomId": 8102
+            }
+        }, 
+        {
+            "action": "dz_quick_start", 
+            "id": 3, 
+            "params": {
+                "roomId": 8103
+            }
+        }, 
+        {
+            "action": "dz_quick_start", 
+            "id": 4, 
+            "params": {
+                "roomId": 8104
+            }
+        }, 
+        {
+            "action": "dz_quick_start", 
+            "id": 5, 
+            "params": {
+                "roomId": 8121
+            }
+        }, 
+        {
+            "action": "dz_quick_start", 
+            "id": 6, 
+            "params": {
+                "roomId": 8122
+            }
+        }, 
+        {
+            "action": "dz_quick_start", 
+            "id": 7, 
+            "params": {
+                "roomId": 8123
+            }
+        }, 
+        {
+            "action": "dz_quick_start", 
+            "id": 8, 
+            "params": {
+                "roomId": 8124
+            }
+        }, 
+        {
+            "action": "dz_quick_start", 
+            "id": 9, 
+            "params": {
+                "roomId": 8125
+            }
+        }, 
+        {
+            "action": "dz_quick_start", 
+            "id": 10, 
+            "params": {
+                "roomId": 8126
+            }
+        }, 
+        {
+            "action": "dz_quick_start", 
+            "id": 11, 
+            "params": {
+                "roomId": 8127
+            }
+        }, 
+        {
+            "action": "dz_quick_start", 
+            "id": 12, 
+            "params": {
+                "roomId": 8130
+            }
+        }, 
+        {
+            "action": "dz_quick_start", 
+            "id": 13, 
+            "params": {
+                "roomId": 8120
+            }
+        }
+    ], 
+    "mission_triggers": [
+        {
+            "auto_show": 0, 
+            "id": 8001, 
+            "require": "", 
+            "type": "get_mission_list"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 8002, 
+            "require": "lambda x: x == 2", 
+            "type": "vip_group"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 8004, 
+            "require": "lambda x: x == 3", 
+            "type": "vip_group"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 8005, 
+            "require": "lambda x: x == 4", 
+            "type": "vip_group"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 8006, 
+            "require": "lambda x: x >= 5", 
+            "type": "vip_group"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 8007, 
+            "require": "lambda x: x == 6", 
+            "type": "vip_group"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 8008, 
+            "require": "lambda x: x == 7", 
+            "type": "vip_group"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 8009, 
+            "require": "lambda x: x == 8", 
+            "type": "vip_group"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 8010, 
+            "require": "lambda x: x == 9", 
+            "type": "vip_group"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 8011, 
+            "require": "lambda x: x >= 10", 
+            "type": "vip_group"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 8012, 
+            "require": "lambda x=1309,y=1310:have_prop(x,y) >0", 
+            "type": "have_prop"
+        }, 
+        {
+            "auto_show": 0, 
+            "id": 8013, 
+            "require": "lambda x:x>=1518364800", 
+            "type": "time_stamp"
+        }
+    ], 
+    "missions": [
+        {
+            "accumulate": 0, 
+            "id": 80000100, 
+            "sub_missions": [
+                80000101, 
+                80000102
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（日常）新手场对局挑战任务\\n每天新手场内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80005100, 
+            "sub_missions": [
+                80005101, 
+                80005102
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（日常）新手场对局挑战任务\\n每天新手场内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80000200, 
+            "sub_missions": [
+                80000201, 
+                80000202
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（日常）试炼场对局挑战任务\\n每天试炼场内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80005200, 
+            "sub_missions": [
+                80005201, 
+                80005202
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（日常）试炼场对局挑战任务\\n每天试炼场内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80000300, 
+            "sub_missions": [
+                80000301, 
+                80000302
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（日常）进阶场对局挑战任务\\n每天进阶场内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80005300, 
+            "sub_missions": [
+                80005301, 
+                80005302
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（日常）进阶场对局挑战任务\\n每天进阶场内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80000400, 
+            "sub_missions": [
+                80000401, 
+                80000402
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（日常）高手场对局挑战任务\\n每天高手场内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80005400, 
+            "sub_missions": [
+                80005401, 
+                80005402
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（日常）高手场对局挑战任务\\n每天高手场内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80007400, 
+            "sub_missions": [
+                80007401
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖券\\n试炼场每对局达到一定局数即可自动获取奖券奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80007500, 
+            "sub_missions": [
+                80007501
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖券\\n进阶场每对局达到一定局数即可自动获取奖券奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80007600, 
+            "sub_missions": [
+                80007601
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖券\\n高手场每对局达到一定局数即可自动获取奖券奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80004000, 
+            "sub_missions": [
+                80004001
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖券\\n贵宾厅4万场每对局达到一定局数即可自动获取奖券奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80000800, 
+            "sub_missions": [
+                80000801
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖券\\n贵宾厅10万场每对局达到一定局数即可自动获取奖券奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80000900, 
+            "sub_missions": [
+                80000901
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖券\\n贵宾厅20万场每对局达到一定局数即可自动获取奖券奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80001000, 
+            "sub_missions": [
+                80001001
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖励\\n贵宾厅50万场每对局达到一定局数即可自动获取奖券奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80004100, 
+            "sub_missions": [
+                80004101
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖励\\n贵宾厅福运每对局达到一定局数即可自动获取奖券奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80004200, 
+            "sub_missions": [
+                80004201
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖励\\n贵宾厅天地每对局达到一定局数即可自动获取奖券奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80004300, 
+            "sub_missions": [
+                80004301
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖励\\n贵宾厅银河每对局达到一定局数即可自动获取奖券奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80001600, 
+            "sub_missions": [
+                80001601
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖励\\n贵宾厅云顶每对局达到一定局数即可自动获取奖券奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80004400, 
+            "sub_missions": [
+                80004401
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖励\\n贵宾厅福运每对局达到一定局数即可自动获取道具奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80004500, 
+            "sub_missions": [
+                80004501
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖励\\n贵宾厅天地每对局达到一定局数即可自动获取道具奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80004600, 
+            "sub_missions": [
+                80004601
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖励\\n贵宾厅银河每对局达到一定局数即可自动获取道具奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80004700, 
+            "sub_missions": [
+                80004701
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（无限循环）对局赢奖励\\n贵宾厅云顶每对局达到一定局数即可自动获取道具奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80006500, 
+            "sub_missions": [
+                80006501
+            ], 
+            "time": {
+                "type": "weekly"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（周任务）贵宾厅福运对局挑战任务\\n每周贵宾厅福运内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80006600, 
+            "sub_missions": [
+                80006601
+            ], 
+            "time": {
+                "type": "weekly"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（周任务）贵宾厅天地对局挑战任务\\n每周贵宾厅天地内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80006700, 
+            "sub_missions": [
+                80006701
+            ], 
+            "time": {
+                "type": "weekly"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（周任务）贵宾厅银河对局挑战任务\\n每周贵宾厅银河内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80006800, 
+            "sub_missions": [
+                80006801
+            ], 
+            "time": {
+                "type": "weekly"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（周任务）贵宾厅云顶对局挑战任务\\n每周贵宾厅云顶内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80006900, 
+            "sub_missions": [
+                80006901
+            ], 
+            "time": {
+                "type": "weekly"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（限时活动）进阶场对局挑战任务\\n每周进阶场内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80007000, 
+            "sub_missions": [
+                80007001
+            ], 
+            "time": {
+                "type": "weekly"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（限时活动）高手场对局挑战任务\\n每周高手场内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80007100, 
+            "sub_missions": [
+                80007101, 
+                80007102
+            ], 
+            "time": {
+                "remain_time": 3, 
+                "type": "register"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（限时）新手场对局挑战任务\\n注册前三天新手场内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80007200, 
+            "sub_missions": [
+                80007201
+            ], 
+            "time": {
+                "type": "weekly"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（限时活动）贵宾厅云顶对局挑战任务\\n每周贵宾厅云顶内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80007300, 
+            "sub_missions": [
+                80007301
+            ], 
+            "time": {
+                "type": "month"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（月任务）云顶对局挑战任务\\n一个月内贵宾厅云顶对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80017400, 
+            "sub_missions": [
+                80017401
+            ], 
+            "time": {
+                "type": "weekly"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（限时活动）贵宾厅银河对局挑战任务\\n每周贵宾厅银河内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80007900, 
+            "sub_missions": [
+                80007901
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8002, 
+            "trigger_text": "（VIP2）贵宾厅4万场每日前5局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80008000, 
+            "sub_missions": [
+                80008001
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8002, 
+            "trigger_text": "（VIP2）贵宾厅10万场每日前5局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80008100, 
+            "sub_missions": [
+                80008101
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8002, 
+            "trigger_text": "（VIP2）贵宾厅20万场每日前5局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80008200, 
+            "sub_missions": [
+                80008201
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8002, 
+            "trigger_text": "（VIP2）贵宾厅50万场每日前5局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80008300, 
+            "sub_missions": [
+                80008301
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8004, 
+            "trigger_text": "（VIP3）贵宾厅4万场每日前10局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80008400, 
+            "sub_missions": [
+                80008401
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8004, 
+            "trigger_text": "（VIP3）贵宾厅10万场每日前10局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80008500, 
+            "sub_missions": [
+                80008501
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8004, 
+            "trigger_text": "（VIP3）贵宾厅20万场每日前10局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80008600, 
+            "sub_missions": [
+                80008601
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8004, 
+            "trigger_text": "（VIP3）贵宾厅50万场每日前10局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80008700, 
+            "sub_missions": [
+                80008701
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8005, 
+            "trigger_text": "（VIP4）贵宾厅4万场每日前15局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80008800, 
+            "sub_missions": [
+                80008801
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8005, 
+            "trigger_text": "（VIP4）贵宾厅10万场每日前15局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80008900, 
+            "sub_missions": [
+                80008901
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8005, 
+            "trigger_text": "（VIP4）贵宾厅20万场每日前15局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80009000, 
+            "sub_missions": [
+                80009001
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8005, 
+            "trigger_text": "（VIP4）贵宾厅50万场每日前15局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80009100, 
+            "sub_missions": [
+                80009101
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8006, 
+            "trigger_text": "（VIP5）贵宾厅4万场每日前20局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80009200, 
+            "sub_missions": [
+                80009201
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8006, 
+            "trigger_text": "（VIP5）贵宾厅10万场每日前20局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80009300, 
+            "sub_missions": [
+                80009301
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8006, 
+            "trigger_text": "（VIP5）贵宾厅20万场每日前20局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80009400, 
+            "sub_missions": [
+                80009401
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8006, 
+            "trigger_text": "（VIP5）贵宾厅50万场每日前20局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80009500, 
+            "sub_missions": [
+                80009501
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8007, 
+            "trigger_text": "（VIP6）贵宾厅福运每日前5局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80009600, 
+            "sub_missions": [
+                80009601
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8007, 
+            "trigger_text": "（VIP6）贵宾厅天地每日前5局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80009700, 
+            "sub_missions": [
+                80009701
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8007, 
+            "trigger_text": "（VIP6）贵宾厅银河每日前5局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80009800, 
+            "sub_missions": [
+                80009801
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8007, 
+            "trigger_text": "（VIP6）贵宾厅云顶每日前5局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80009900, 
+            "sub_missions": [
+                80009901
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8008, 
+            "trigger_text": "（VIP7）贵宾厅福运每日前10局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80010000, 
+            "sub_missions": [
+                80010001
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8008, 
+            "trigger_text": "（VIP7）贵宾厅天地每日前10局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80010100, 
+            "sub_missions": [
+                80010101
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8008, 
+            "trigger_text": "（VIP7）贵宾厅银河每日前10局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80010200, 
+            "sub_missions": [
+                80010201
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8008, 
+            "trigger_text": "（VIP7）贵宾厅云顶每日前10局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80010300, 
+            "sub_missions": [
+                80010301
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8009, 
+            "trigger_text": "（VIP8）贵宾厅福运每日前15局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80010400, 
+            "sub_missions": [
+                80010401
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8009, 
+            "trigger_text": "（VIP8）贵宾厅天地每日前15局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80010500, 
+            "sub_missions": [
+                80010501
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8009, 
+            "trigger_text": "（VIP8）贵宾厅银河每日前15局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80010600, 
+            "sub_missions": [
+                80010601
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8009, 
+            "trigger_text": "（VIP8）贵宾厅云顶每日前15局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80010700, 
+            "sub_missions": [
+                80010701
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8010, 
+            "trigger_text": "（VIP9）贵宾厅福运每日前20局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80010800, 
+            "sub_missions": [
+                80010801
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8010, 
+            "trigger_text": "（VIP9）贵宾厅天地每日前20局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80010900, 
+            "sub_missions": [
+                80010901
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8010, 
+            "trigger_text": "（VIP9）贵宾厅银河每日前20局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80011000, 
+            "sub_missions": [
+                80011001
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8010, 
+            "trigger_text": "（VIP9）贵宾厅云顶每日前20局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80011100, 
+            "sub_missions": [
+                80011101
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8011, 
+            "trigger_text": "（VIP10+）贵宾厅福运每日前20局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80011200, 
+            "sub_missions": [
+                80011201
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8011, 
+            "trigger_text": "（VIP10+）贵宾厅天地每日前20局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80011300, 
+            "sub_missions": [
+                80011301
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8011, 
+            "trigger_text": "（VIP10+）贵宾厅银河每日前20局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80011400, 
+            "sub_missions": [
+                80011401
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8011, 
+            "trigger_text": "（VIP10+）贵宾厅云顶每日前20局免服务费"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80011500, 
+            "sub_missions": [
+                80011501
+            ], 
+            "time": {
+                "type": "daily"
+            }, 
+            "trigger": 8001, 
+            "trigger_text": "（每日）云顶葫芦以上牌型获胜活动"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80012000, 
+            "sub_missions": [
+                80012001
+            ], 
+            "time": {
+                "type": "infinite"
+            }, 
+            "trigger": 8012, 
+            "trigger_text": "对局赢奖励\\n贵宾厅云顶每对局达到一定局数即可自动获取道具奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80013000, 
+            "sub_missions": [
+                80013001
+            ], 
+            "time": {
+                "end_time": 1519228800, 
+                "type": "timestamp"
+            }, 
+            "trigger": 8013, 
+            "trigger_text": "（限时活动）贵宾厅福运对局挑战任务\\n春节贵宾厅福运内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80013100, 
+            "sub_missions": [
+                80013101
+            ], 
+            "time": {
+                "end_time": 1519228800, 
+                "type": "timestamp"
+            }, 
+            "trigger": 8013, 
+            "trigger_text": "（限时活动）贵宾厅天地对局挑战任务\\n春节贵宾厅天地内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80013200, 
+            "sub_missions": [
+                80013201
+            ], 
+            "time": {
+                "end_time": 1519228800, 
+                "type": "timestamp"
+            }, 
+            "trigger": 8013, 
+            "trigger_text": "（限时活动）贵宾厅银河对局挑战任务\\n春节贵宾厅银河内对局达到一定局数即可获取奖励"
+        }, 
+        {
+            "accumulate": 0, 
+            "id": 80013300, 
+            "sub_missions": [
+                80013301
+            ], 
+            "time": {
+                "end_time": 1519228800, 
+                "type": "timestamp"
+            }, 
+            "trigger": 8013, 
+            "trigger_text": "（限时活动）贵宾厅云顶对局挑战任务\\n春节贵宾厅云顶内对局达到一定局数即可获取奖励"
+        }
+    ], 
+    "sub_missions": [
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "鲨鱼分x5", 
+            "id": 80000101, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "鲨鱼分x5", 
+                    "id": 80000101, 
+                    "num": 5, 
+                    "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+                    "propId": 0, 
+                    "type": "masterScore"
+                }
+            ], 
+            "roomId": [
+                8101
+            ], 
+            "roomType": "", 
+            "target": 5, 
+            "title": "新手场对局5场", 
+            "todo": 1, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "鲨鱼分x20", 
+            "id": 80000102, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "鲨鱼分x20", 
+                    "id": 80000102, 
+                    "num": 20, 
+                    "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+                    "propId": 0, 
+                    "type": "masterScore"
+                }
+            ], 
+            "roomId": [
+                8101
+            ], 
+            "roomType": "", 
+            "target": 50, 
+            "title": "新手场对局50场", 
+            "todo": 1, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "100金币", 
+            "id": 80005101, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "100金币", 
+                    "id": 80005101, 
+                    "num": 100, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8101
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "新手场对局20场", 
+            "todo": 1, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "500金币", 
+            "id": 80005102, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "500金币", 
+                    "id": 80005102, 
+                    "num": 500, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8101
+            ], 
+            "roomType": "", 
+            "target": 100, 
+            "title": "新手场对局100场", 
+            "todo": 1, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "鲨鱼分x5", 
+            "id": 80000201, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "鲨鱼分x5", 
+                    "id": 80000201, 
+                    "num": 5, 
+                    "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+                    "propId": 0, 
+                    "type": "masterScore"
+                }
+            ], 
+            "roomId": [
+                8102
+            ], 
+            "roomType": "", 
+            "target": 5, 
+            "title": "试炼场对局5场", 
+            "todo": 2, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "鲨鱼分x20", 
+            "id": 80000202, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+            "remind": -1, 
+            "reward": [], 
+            "roomId": [
+                8102
+            ], 
+            "roomType": "", 
+            "target": 50, 
+            "title": "试炼场对局50场", 
+            "todo": 2, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "200金币", 
+            "id": 80005201, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "200金币", 
+                    "id": 80005201, 
+                    "num": 200, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8102
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "试炼场对局20场", 
+            "todo": 2, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "1000金币", 
+            "id": 80005202, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1000金币", 
+                    "id": 80005202, 
+                    "num": 1000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8102
+            ], 
+            "roomType": "", 
+            "target": 100, 
+            "title": "试炼场对局100场", 
+            "todo": 2, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "鲨鱼分x10", 
+            "id": 80000301, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "鲨鱼分x10", 
+                    "id": 80000301, 
+                    "num": 10, 
+                    "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+                    "propId": 0, 
+                    "type": "masterScore"
+                }
+            ], 
+            "roomId": [
+                8103
+            ], 
+            "roomType": "", 
+            "target": 5, 
+            "title": "进阶场对局5场", 
+            "todo": 3, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "鲨鱼分x40", 
+            "id": 80000302, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "鲨鱼分x40", 
+                    "id": 80000302, 
+                    "num": 40, 
+                    "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+                    "propId": 0, 
+                    "type": "masterScore"
+                }
+            ], 
+            "roomId": [
+                8103
+            ], 
+            "roomType": "", 
+            "target": 50, 
+            "title": "进阶场对局50场", 
+            "todo": 3, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "500金币", 
+            "id": 80005301, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "500金币", 
+                    "id": 80005301, 
+                    "num": 500, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8103
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "进阶场对局20场", 
+            "todo": 3, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "2500金币", 
+            "id": 80005302, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "2500金币", 
+                    "id": 80005302, 
+                    "num": 2500, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8103
+            ], 
+            "roomType": "", 
+            "target": 100, 
+            "title": "进阶场对局100场", 
+            "todo": 3, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "鲨鱼分x10", 
+            "id": 80000401, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "鲨鱼分x10", 
+                    "id": 80000401, 
+                    "num": 10, 
+                    "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+                    "propId": 0, 
+                    "type": "masterScore"
+                }
+            ], 
+            "roomId": [
+                8104
+            ], 
+            "roomType": "", 
+            "target": 5, 
+            "title": "高手场对局5场", 
+            "todo": 4, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "鲨鱼分x40", 
+            "id": 80000402, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "鲨鱼分x40", 
+                    "id": 80000402, 
+                    "num": 40, 
+                    "pic": "/texas/images/tbox_reward/tbox_shark.png", 
+                    "propId": 0, 
+                    "type": "masterScore"
+                }
+            ], 
+            "roomId": [
+                8104
+            ], 
+            "roomType": "", 
+            "target": 50, 
+            "title": "高手场对局50场", 
+            "todo": 4, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "1000金币", 
+            "id": 80005401, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1000金币", 
+                    "id": 80005401, 
+                    "num": 1000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8104
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "高手场对局20场", 
+            "todo": 4, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "5000金币", 
+            "id": 80005402, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "5000金币", 
+                    "id": 80005402, 
+                    "num": 5000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8104
+            ], 
+            "roomType": "", 
+            "target": 100, 
+            "title": "高手场对局100场", 
+            "todo": 4, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "0.01红包券", 
+            "id": 80007401, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "0.01红包券", 
+                    "id": 80007401, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8102
+            ], 
+            "roomType": "", 
+            "target": 150, 
+            "title": "试炼场每对局150场", 
+            "todo": 2, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "0.01红包券", 
+            "id": 80007501, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "0.01红包券", 
+                    "id": 80007501, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8103
+            ], 
+            "roomType": "", 
+            "target": 120, 
+            "title": "进阶场每对局120场", 
+            "todo": 3, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "0.01红包券", 
+            "id": 80007601, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "0.01红包券", 
+                    "id": 80007601, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8104
+            ], 
+            "roomType": "", 
+            "target": 100, 
+            "title": "高手场每对局100场", 
+            "todo": 4, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "0.01红包券", 
+            "id": 80004001, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "0.01红包券", 
+                    "id": 80004001, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8120
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "4万场每对局10场", 
+            "todo": 13, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "0.02红包券", 
+            "id": 80000801, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "0.02红包券", 
+                    "id": 80000801, 
+                    "num": 2, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8121
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "10万场每对局10场", 
+            "todo": 5, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "0.04红包券", 
+            "id": 80000901, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "0.04红包券", 
+                    "id": 80000901, 
+                    "num": 4, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8122
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "20万场每对局10场", 
+            "todo": 6, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "0.1红包券", 
+            "id": 80001001, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "0.1红包券", 
+                    "id": 80001001, 
+                    "num": 10, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8123
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "50万场每对局10场", 
+            "todo": 7, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "0.2红包券", 
+            "id": 80004101, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "0.2红包券", 
+                    "id": 80004101, 
+                    "num": 20, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8124
+            ], 
+            "roomType": "", 
+            "target": 6, 
+            "title": "福运每对局6场", 
+            "todo": 8, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "0.4红包券", 
+            "id": 80004201, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "0.4红包券", 
+                    "id": 80004201, 
+                    "num": 40, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8125
+            ], 
+            "roomType": "", 
+            "target": 6, 
+            "title": "天地每对局6场", 
+            "todo": 9, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "1.4红包券", 
+            "id": 80004301, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1.4红包券", 
+                    "id": 80004301, 
+                    "num": 140, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8126
+            ], 
+            "roomType": "", 
+            "target": 8, 
+            "title": "银河每对局8场", 
+            "todo": 10, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "4红包券", 
+            "id": 80001601, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "4红包券", 
+                    "id": 80001601, 
+                    "num": 400, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 8, 
+            "title": "云顶每对局8场", 
+            "todo": 11, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "1条金手链", 
+            "id": 80004401, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/item_3130.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1条金手链", 
+                    "id": 80004401, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/item_3130.png", 
+                    "propId": 3130, 
+                    "type": "item"
+                }
+            ], 
+            "roomId": [
+                8124
+            ], 
+            "roomType": "", 
+            "target": 60, 
+            "title": "福运每对局60场", 
+            "todo": 8, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "1条金手链", 
+            "id": 80004501, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/item_3130.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1条金手链", 
+                    "id": 80004501, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/item_3130.png", 
+                    "propId": 3130, 
+                    "type": "item"
+                }
+            ], 
+            "roomId": [
+                8125
+            ], 
+            "roomType": "", 
+            "target": 30, 
+            "title": "天地每对局30场", 
+            "todo": 9, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "1条金手链", 
+            "id": 80004601, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/item_3130.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1条金手链", 
+                    "id": 80004601, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/item_3130.png", 
+                    "propId": 3130, 
+                    "type": "item"
+                }
+            ], 
+            "roomId": [
+                8126
+            ], 
+            "roomType": "", 
+            "target": 12, 
+            "title": "银河每对局12场", 
+            "todo": 10, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "5条金手链", 
+            "id": 80004701, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/item_3130.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "5条金手链", 
+                    "id": 80004701, 
+                    "num": 5, 
+                    "pic": "/hall/item/imgs/item_3130.png", 
+                    "propId": 3130, 
+                    "type": "item"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "云顶每对局20场", 
+            "todo": 11, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "150万金币", 
+            "id": 80006501, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "150万金币", 
+                    "id": 80006501, 
+                    "num": 1500000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8124
+            ], 
+            "roomType": "", 
+            "target": 800, 
+            "title": "福运每周800场（周四4:00刷新）", 
+            "todo": 8, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "100条金手链", 
+            "id": 80006601, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/item_3130.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "100条金手链", 
+                    "id": 80006601, 
+                    "num": 100, 
+                    "pic": "/hall/item/imgs/item_3130.png", 
+                    "propId": 3130, 
+                    "type": "item"
+                }
+            ], 
+            "roomId": [
+                8125
+            ], 
+            "roomType": "", 
+            "target": 800, 
+            "title": "天地每周800场（周四4:00刷新）", 
+            "todo": 9, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "大师赛-周赛门票一张", 
+            "id": 80006701, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/item_3083.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "大师赛-周赛门票一张", 
+                    "id": 80006701, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/item_3083.png", 
+                    "propId": 3083, 
+                    "type": "item"
+                }
+            ], 
+            "roomId": [
+                8126
+            ], 
+            "roomType": "", 
+            "target": 500, 
+            "title": "银河每周500场（周四4:00刷新）", 
+            "todo": 10, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "1800万金币", 
+            "id": 80006801, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1800万金币", 
+                    "id": 80006801, 
+                    "num": 18000000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 600, 
+            "title": "云顶每周600场（周四4:00刷新）", 
+            "todo": 11, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "200万金币赛门票1张", 
+            "id": 80006901, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/item_3097.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "200万金币赛门票1张", 
+                    "id": 80006901, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/item_3097.png", 
+                    "propId": 3097, 
+                    "type": "item"
+                }
+            ], 
+            "roomId": [
+                8103
+            ], 
+            "roomType": "", 
+            "target": 700, 
+            "title": "进阶场每周700场（周四4:00刷新）", 
+            "todo": 3, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "200万金币赛门票1张", 
+            "id": 80007001, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/item_3097.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "200万金币赛门票1张", 
+                    "id": 80007001, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/item_3097.png", 
+                    "propId": 3097, 
+                    "type": "item"
+                }
+            ], 
+            "roomId": [
+                8104
+            ], 
+            "roomType": "", 
+            "target": 400, 
+            "title": "高手场每周400场（周四4:00刷新）", 
+            "todo": 4, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "1000万金币赛门票1张", 
+            "id": 80007101, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/item_3099.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1000万金币赛门票1张", 
+                    "id": 80007101, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/item_3099.png", 
+                    "propId": 3099, 
+                    "type": "item"
+                }
+            ], 
+            "roomId": [
+                8101
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "新手场对局10场（注册3天内）", 
+            "todo": 1, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "5000万金币赛门票1张", 
+            "id": 80007102, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/item_3101.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "5000万金币赛门票一张", 
+                    "id": 80007102, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/item_3101.png", 
+                    "propId": 3101, 
+                    "type": "item"
+                }
+            ], 
+            "roomId": [
+                8101
+            ], 
+            "roomType": "", 
+            "target": 100, 
+            "title": "新手场对局100场（注册3天内）", 
+            "todo": 1, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "1000红包券", 
+            "id": 80007201, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1000红包券", 
+                    "id": 80007201, 
+                    "num": 100000, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 1400, 
+            "title": "云顶每周1400场（周四4:00刷新）", 
+            "todo": 11, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "5000万金币", 
+            "id": 80007301, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "5000万金币", 
+                    "id": 80007301, 
+                    "num": 50000000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 5000, 
+            "title": "云顶5000场（每月1号刷新）", 
+            "todo": 11, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "200红包券", 
+            "id": 80017401, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "200红包券", 
+                    "id": 80017401, 
+                    "num": 20000, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8126
+            ], 
+            "roomType": "", 
+            "target": 1000, 
+            "title": "银河每周1000场（周四4:00刷新）", 
+            "todo": 10, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "500金币", 
+            "id": 80007901, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "500金币", 
+                    "id": 80007901, 
+                    "num": 500, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8120
+            ], 
+            "roomType": "", 
+            "target": 5, 
+            "title": "前5局免服务费（vip2）", 
+            "todo": 13, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "1250金币", 
+            "id": 80008001, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1250金币", 
+                    "id": 80008001, 
+                    "num": 1250, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8121
+            ], 
+            "roomType": "", 
+            "target": 5, 
+            "title": "前5局免服务费（vip2）", 
+            "todo": 5, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "2500金币", 
+            "id": 80008101, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "2500金币", 
+                    "id": 80008101, 
+                    "num": 2500, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8122
+            ], 
+            "roomType": "", 
+            "target": 5, 
+            "title": "前5局免服务费（vip2）", 
+            "todo": 6, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "7500金币", 
+            "id": 80008201, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "7500金币", 
+                    "id": 80008201, 
+                    "num": 7500, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8123
+            ], 
+            "roomType": "", 
+            "target": 5, 
+            "title": "前5局免服务费（vip2）", 
+            "todo": 7, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "1000金币", 
+            "id": 80008301, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1000金币", 
+                    "id": 80008301, 
+                    "num": 1000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8120
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "前10局免服务费（vip3）", 
+            "todo": 13, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "2500金币", 
+            "id": 80008401, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "2500金币", 
+                    "id": 80008401, 
+                    "num": 2500, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8121
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "前10局免服务费（vip3）", 
+            "todo": 5, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "5000金币", 
+            "id": 80008501, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "5000金币", 
+                    "id": 80008501, 
+                    "num": 5000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8122
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "前10局免服务费（vip3）", 
+            "todo": 6, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "15000金币", 
+            "id": 80008601, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "15000金币", 
+                    "id": 80008601, 
+                    "num": 15000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8123
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "前10局免服务费（vip3）", 
+            "todo": 7, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "1500金币", 
+            "id": 80008701, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1500金币", 
+                    "id": 80008701, 
+                    "num": 1500, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8120
+            ], 
+            "roomType": "", 
+            "target": 15, 
+            "title": "前15局免服务费（vip4）", 
+            "todo": 13, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "3750金币", 
+            "id": 80008801, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "3750金币", 
+                    "id": 80008801, 
+                    "num": 3750, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8121
+            ], 
+            "roomType": "", 
+            "target": 15, 
+            "title": "前15局免服务费（vip4）", 
+            "todo": 5, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "7500金币", 
+            "id": 80008901, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "7500金币", 
+                    "id": 80008901, 
+                    "num": 7500, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8122
+            ], 
+            "roomType": "", 
+            "target": 15, 
+            "title": "前15局免服务费（vip4）", 
+            "todo": 6, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "22500金币", 
+            "id": 80009001, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "22500金币", 
+                    "id": 80009001, 
+                    "num": 22500, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8123
+            ], 
+            "roomType": "", 
+            "target": 15, 
+            "title": "前15局免服务费（vip4）", 
+            "todo": 7, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "2000金币", 
+            "id": 80009101, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "2000金币", 
+                    "id": 80009101, 
+                    "num": 2000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8120
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "前20局免服务费（vip5）", 
+            "todo": 13, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "5000金币", 
+            "id": 80009201, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "5000金币", 
+                    "id": 80009201, 
+                    "num": 5000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8121
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "前20局免服务费（vip5）", 
+            "todo": 5, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "1万金币", 
+            "id": 80009301, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "1万金币", 
+                    "id": 80009301, 
+                    "num": 10000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8122
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "前20局免服务费（vip5）", 
+            "todo": 6, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "3万金币", 
+            "id": 80009401, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "3万金币", 
+                    "id": 80009401, 
+                    "num": 30000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8123
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "前20局免服务费（vip5）", 
+            "todo": 7, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "5万金币", 
+            "id": 80009501, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "5万金币", 
+                    "id": 80009501, 
+                    "num": 50000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8124
+            ], 
+            "roomType": "", 
+            "target": 5, 
+            "title": "前5局免服务费（vip6）", 
+            "todo": 8, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "10万金币", 
+            "id": 80009601, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "10万金币", 
+                    "id": 80009601, 
+                    "num": 100000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8125
+            ], 
+            "roomType": "", 
+            "target": 5, 
+            "title": "前5局免服务费（vip6）", 
+            "todo": 9, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "25万金币", 
+            "id": 80009701, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "25万金币", 
+                    "id": 80009701, 
+                    "num": 250000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8126
+            ], 
+            "roomType": "", 
+            "target": 5, 
+            "title": "前5局免服务费（vip6）", 
+            "todo": 10, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "75万金币", 
+            "id": 80009801, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "75万金币", 
+                    "id": 80009801, 
+                    "num": 750000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 5, 
+            "title": "前5局免服务费（vip6）", 
+            "todo": 11, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "10万金币", 
+            "id": 80009901, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "10万金币", 
+                    "id": 80009901, 
+                    "num": 100000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8124
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "前10局免服务费（vip7）", 
+            "todo": 8, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "20万金币", 
+            "id": 80010001, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "20万金币", 
+                    "id": 80010001, 
+                    "num": 200000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8125
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "前10局免服务费（vip7）", 
+            "todo": 9, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "50万金币", 
+            "id": 80010101, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "50万金币", 
+                    "id": 80010101, 
+                    "num": 500000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8126
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "前10局免服务费（vip7）", 
+            "todo": 10, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "150万金币", 
+            "id": 80010201, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "150万金币", 
+                    "id": 80010201, 
+                    "num": 1500000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 10, 
+            "title": "前10局免服务费（vip7）", 
+            "todo": 11, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "15万金币", 
+            "id": 80010301, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "15万金币", 
+                    "id": 80010301, 
+                    "num": 150000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8124
+            ], 
+            "roomType": "", 
+            "target": 15, 
+            "title": "前15局免服务费（vip8）", 
+            "todo": 8, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "30万金币", 
+            "id": 80010401, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "30万金币", 
+                    "id": 80010401, 
+                    "num": 300000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8125
+            ], 
+            "roomType": "", 
+            "target": 15, 
+            "title": "前15局免服务费（vip8）", 
+            "todo": 9, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "75万金币", 
+            "id": 80010501, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "75万金币", 
+                    "id": 80010501, 
+                    "num": 750000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8126
+            ], 
+            "roomType": "", 
+            "target": 15, 
+            "title": "前15局免服务费（vip8）", 
+            "todo": 10, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "225万金币", 
+            "id": 80010601, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "225万金币", 
+                    "id": 80010601, 
+                    "num": 2250000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 15, 
+            "title": "前15局免服务费（vip8）", 
+            "todo": 11, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "20万金币", 
+            "id": 80010701, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "20万金币", 
+                    "id": 80010701, 
+                    "num": 200000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8124
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "前20局免服务费（vip9）", 
+            "todo": 8, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "40万金币", 
+            "id": 80010801, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "40万金币", 
+                    "id": 80010801, 
+                    "num": 400000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8125
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "前20局免服务费（vip9）", 
+            "todo": 9, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "100万金币", 
+            "id": 80010901, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "100万金币", 
+                    "id": 80010901, 
+                    "num": 1000000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8126
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "前20局免服务费（vip9）", 
+            "todo": 10, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "300万金币", 
+            "id": 80011001, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "300万金币", 
+                    "id": 80011001, 
+                    "num": 3000000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "前20局免服务费（vip9）", 
+            "todo": 11, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "20万金币", 
+            "id": 80011101, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "20万金币", 
+                    "id": 80011101, 
+                    "num": 200000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8124
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "前20局免服务费（vip10+）", 
+            "todo": 8, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "40万金币", 
+            "id": 80011201, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "40万金币", 
+                    "id": 80011201, 
+                    "num": 400000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8125
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "前20局免服务费（vip10+）", 
+            "todo": 9, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "100万金币", 
+            "id": 80011301, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "100万金币", 
+                    "id": 80011301, 
+                    "num": 1000000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8126
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "前20局免服务费（vip10+）", 
+            "todo": 10, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "300万金币", 
+            "id": 80011401, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "300万金币", 
+                    "id": 80011401, 
+                    "num": 3000000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "前20局免服务费（vip10+）", 
+            "todo": 11, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": [
+                {
+                    "target": "lambda x: x >= 7", 
+                    "type": "cardType"
+                }
+            ], 
+            "desc": "300万金币", 
+            "id": 80011501, 
+            "notify": "", 
+            "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "300万金币", 
+                    "id": 80011501, 
+                    "num": 3000000, 
+                    "pic": "/texas/images/tbox_reward/tbox_reward.png", 
+                    "propId": 0, 
+                    "type": "chip"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 3, 
+            "title": "葫芦以上牌型获胜3局", 
+            "todo": 11, 
+            "type": "win_card_type", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 1, 
+            "cond": "", 
+            "desc": "云顶之钥", 
+            "id": 80012001, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/item_1310.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "云顶之钥", 
+                    "id": 80012001, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/item_1310.png", 
+                    "propId": 1310, 
+                    "type": "item"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 20, 
+            "title": "云顶对局20场", 
+            "todo": 11, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "188红包券", 
+            "id": 80013001, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "188红包券", 
+                    "id": 80013001, 
+                    "num": 18800, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8124
+            ], 
+            "roomType": "", 
+            "target": 1888, 
+            "title": "福运对局1888场", 
+            "todo": 8, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "388红包券", 
+            "id": 80013101, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "388红包券", 
+                    "id": 80013101, 
+                    "num": 38800, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8125
+            ], 
+            "roomType": "", 
+            "target": 1888, 
+            "title": "天地对局1888场", 
+            "todo": 9, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "888红包券", 
+            "id": 80013201, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/redcoupon.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "888红包券", 
+                    "id": 80013201, 
+                    "num": 88800, 
+                    "pic": "/hall/item/imgs/redcoupon.png", 
+                    "propId": 0, 
+                    "type": "coupon"
+                }
+            ], 
+            "roomId": [
+                8126
+            ], 
+            "roomType": "", 
+            "target": 1888, 
+            "title": "银河对局1888场", 
+            "todo": 10, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }, 
+        {
+            "auto_reward": 0, 
+            "cond": "", 
+            "desc": "iPad mini4 128G", 
+            "id": 80013301, 
+            "notify": "", 
+            "pic": "/hall/item/imgs/item_4198.png", 
+            "remind": -1, 
+            "reward": [
+                {
+                    "desc": "iPad mini4 128G", 
+                    "id": 80013301, 
+                    "num": 1, 
+                    "pic": "/hall/item/imgs/item_4198.png", 
+                    "propId": 4198, 
+                    "type": "item"
+                }
+            ], 
+            "roomId": [
+                8127
+            ], 
+            "roomType": "", 
+            "target": 1888, 
+            "title": "云顶对局1888场", 
+            "todo": 11, 
+            "type": "game_start", 
+            "update_type": "accumulate"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "section":[
+    {
+  		"start_time" : "10:30:00",
+  		"end_time"   : "15:59:59",
+  		"min" :200,
+  		"max" :300
+  	},
+    {
+  		"start_time" : "16:00:00",
+  		"end_time"   : "19:19:59",
+  		"min" :300,
+  		"max" :400
+  	},
+  	{
+  		"start_time" : "19:20:00",
+  		"end_time"   : "22:30:59",
+  		"min" :400,
+  		"max" :500
+  	},
+  	{
+  		"start_time" : "22:31:00",
+  		"end_time"   : "23:30:00",
+  		"min" :200,
+  		"max" :300
+  	}
+  ],
+  "default":{
+  	"min":50,
+  	"max":150
+  },
+  "section_other":{
+    "min":7,
+    "max":30
+  }
+}

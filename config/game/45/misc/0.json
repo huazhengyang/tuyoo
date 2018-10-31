@@ -1,0 +1,15 @@
+{
+    "delay":180,
+    "balanceDelay":5,
+    "starttime":9,
+    "endtime":1,
+    "exchange":{
+        "type":"item",
+        "num":1,
+        "propId":3089,
+        "purl":"${http_download}/t3card/activities/images/rewardExchange_0331.png",
+        "prize":"300",
+        "name":"幸运红包赛门票",
+        "desc":"可参加三张牌幸运红包赛，赢取微信红包奖励！"
+    }
+}

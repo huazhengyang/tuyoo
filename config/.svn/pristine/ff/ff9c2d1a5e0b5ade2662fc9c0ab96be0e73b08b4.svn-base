@@ -1,0 +1,1226 @@
+{
+	"referrer_switch": 1,
+	"led.manager.timeout": 15,
+	"newer_quick_start_play_times": 0,
+	"gonggao": [{
+		"time": 1531307958,
+		"text": "[置顶]新功能上线#  极速癞子、欢乐换三张上线啦~点击快速开始，开始愉快地玩耍吧~"
+	}],
+	"optimedis": "您的上家网络不好，等他一会儿吧",
+	"http_download_html": "${http_download}/dizhu/",
+	"http_download_pic": "${http_download}/6/",
+	"http_download_default": "${http_download}/6/",
+	"buyin": {
+		"start_version": 3.502,
+		"tip": "客官，此房间最多允许带入{BUYIN_CHIP}金币哦!",
+		"tip_auto": "系统自动为您补充了金币",
+		"tip_auto_all": "您的金币已经全部带入啦!",
+		"tip_auto_all_next": "客官，您的金币已经全部带入啦!"
+	},
+	"vip_special_right": {
+		"dashifen": [{
+			"level": 2,
+			"rate": 0.2,
+			"desc": "大师分获取增加20%"
+		}]
+	},
+	"roomfee_conf": {
+		"basic": 1,
+		"high_multi": 8,
+		"fee_multi": 2
+	},
+	"behaviour_reward": {
+		"open": 0,
+		"reward": [{
+				"itemId": "item:1196",
+				"count": 3
+			},
+			{
+				"itemId": "item:2003",
+				"count": 3
+			}
+		],
+		"mail": "恭喜您获得了3天贵族月卡",
+		"executeTime": "6:05:00",
+		"intClientIds": [
+			21324, 21127, 20347, 20862,
+			18047, 21128, 20257, 18088,
+			20690, 17996, 21129, 21571,
+			20209, 21299, 21301, 20210,
+			20572, 20359, 11884, 21300,
+			20571, 21303, 12073, 13798,
+			16944, 18096, 17998, 18094
+		],
+		"expectedClientIds": [
+			4426520
+		]
+	},
+	"change_nickname_level": 3,
+	"ad_notify_play_count": 2,
+	"use_momo_ranking": 0,
+	"use_tuyou_ranking": 1,
+	"enableLogChatMsg": 1,
+	"quick_start_errinfo": {
+		"1": "您正在玩另一个途游游戏,请稍后再试",
+		"2": "服务器内部错误,请稍后再试",
+		"3": "当前房间已满,请选择其他房间进行游戏",
+		"4": "您的金币不足无法进入此房间，赶紧充值吧！",
+		"5": "亲~您太富有了，该去更高级的房间战斗啦！",
+		"6": "亲~金币不足啦，买个礼包享受牌局吧~",
+		"7": "当前房间已满,请稍后再试",
+		"8": "亲~比赛时间未到哦",
+		"9": "亲~您没有资格进入此房间哦",
+		"10": "服务器内部错误,请退出客户端,重新登录",
+		"11": "亲~您的VIP等级不够哦",
+		"12": "亲～您的大师分级别不够哦",
+		"13": "该房间本时段未开放。",
+		"17": "此房间牌局还未结束,\n客官可前往其他房间玩耍噢~",
+		"18": "系统提示：即将进行系统停服维护"
+	},
+	"enable_test_robot": 0,
+	"max_table_robot_count": 3,
+	"card_note_open": {
+		"chip": {
+			"desc": "本局记牌器使用费: \\${consumeChip}金币",
+			"desc.chip_not_enough": "场外金币不足，不能使用记牌器喔~",
+			"desc.month_card": "月卡用户可免费使用记牌器"
+		},
+		"diamond": {
+			"desc": "今日记牌器使用费: \\${consumeChip}钻石",
+			"desc.chip_not_enough": "钻石不足，不能使用记牌器喔~",
+			"desc.month_card": "月卡用户可免费使用记牌器"
+		}
+	},
+	"matchRankConfig1": [{
+		"periods": [],
+		"ranks": [
+			6702,
+			6710,
+			6703,
+			6707,
+			6704,
+			6708,
+			6705,
+			6715,
+			6717,
+			6718,
+			6719,
+			6709,
+			6998,
+			6604,
+			6601,
+			6615,
+			6616,
+			6617,
+			6618,
+			6619,
+			6620,
+			6621,
+			6622,
+			6602,
+			6711,
+			6714,
+			6716,
+			6992,
+			6061,
+			6075,
+			6058,
+			6070,
+			6071,
+			6072,
+			6057,
+			6059,
+			6302,
+			6303,
+			6304,
+			6305
+		]
+	}],
+	"matchRankTimeConfig": [
+		[{
+				"start": "2016-07-20 23:00:00",
+				"end": "2016-07-21 18:00:00"
+			},
+			{
+				"start": "2016-07-21 23:00:00",
+				"end": "2016-07-22 18:00:00"
+			},
+			{
+				"start": "2016-07-22 23:00:00",
+				"end": "2016-07-23 18:00:00"
+			},
+			{
+				"start": "2016-07-23 23:00:00",
+				"end": "2016-07-24 18:00:00"
+			},
+			{
+				"start": "2016-07-24 23:00:00",
+				"end": "2016-07-25 18:00:00"
+			},
+			{
+				"start": "2016-07-25 23:00:00",
+				"end": "2016-07-26 18:00:00"
+			},
+			{
+				"start": "2016-07-26 23:00:00",
+				"end": "2016-07-27 18:00:00"
+			},
+			{
+				"start": "2016-07-27 23:00:00",
+				"end": "2016-07-28 18:00:00"
+			},
+			{
+				"start": "2016-07-29 23:00:00",
+				"end": "2016-07-30 18:00:00"
+			}
+		],
+		[{
+				"start": "2016-07-20 18:00:00",
+				"end": "2016-07-20 23:00:00"
+			},
+			{
+				"start": "2016-07-21 18:00:00",
+				"end": "2016-07-21 23:00:00"
+			},
+			{
+				"start": "2016-07-22 18:00:00",
+				"end": "2016-07-22 23:00:00"
+			},
+			{
+				"start": "2016-07-23 18:00:00",
+				"end": "2016-07-23 23:00:00"
+			},
+			{
+				"start": "2016-07-25 18:00:00",
+				"end": "2016-07-25 23:00:00"
+			},
+			{
+				"start": "2016-07-26 18:00:00",
+				"end": "2016-07-26 23:00:00"
+			},
+			{
+				"start": "2016-07-27 18:00:00",
+				"end": "2016-07-27 23:00:00"
+			}
+
+		],
+		[
+
+			{
+				"start": "2016-07-24 18:00:00",
+				"end": "2016-07-24 23:00:00"
+			}
+
+		]
+	],
+	"matchRankConfig": [
+		[
+			6991,
+			6058,
+			6059,
+			6054,
+			6061,
+			6998,
+			6997,
+			6062
+		],
+		[
+			6991,
+			6061,
+			6998,
+			6997,
+			6062,
+			6058,
+			6059,
+			6054
+		],
+		[
+			6991,
+			6061,
+			6998,
+			6997,
+			6062,
+			6058,
+			6059,
+			6054
+		]
+	],
+	"five_star_win_desc": "",
+	"nextmatchtime": {
+		"coinRoomShowDayInfo": 0,
+		"today": "",
+		"dayInfoCnt": 1,
+		"dayInfo0": "",
+		"dayInfo1": "明天",
+		"dayInfo2": "后天",
+		"other": "\\${month}月\\${day}日\n"
+	},
+	"bombNextDelay": 2,
+	"match_v3_77": {
+		"peopleNumber_online": "\\${people_number}",
+		"peopleNumber_signup": "\\${people_number}",
+		"datetime_topdate": "\\${month}月\\${day}日",
+		"daily_topdate": "今日"
+	},
+	"matchClassify": [{
+			"index": 0,
+			"name": "微信红包赛",
+			"roomIds": [6075, 6058, 6070, 6071, 6072, 6057, 6059],
+			"bgUrl": "yellow",
+			"tipMsg": "",
+			"tipMsgFontSize": 22,
+			"tipMsgColor": "120,97,31",
+			"tipMsgAnimation": {
+				"displayTime": 5,
+				"nextShowInter": 3
+			},
+			"rewardIconUrl": "${http_download}/dizhu/room/imgs/hongbaosai_beijing.png",
+			"rewardIconMaskUrl": "${http_download}/dizhu/room/imgs/match_classfiy_reward_mask_0_2.png",
+			"nameUrl": "${http_download}/dizhu/room/imgs/nameurl_shishihongbaosai.png",
+			"matchListNameUrl": "${http_download}/dizhu/room/imgs/matchlistnameurl_shishihongbaosai.png",
+			"bottomMsg": "",
+			"bottomMsgFontSize": 24,
+			"bottomMsgColor": "255,202,134",
+			"bottomHeadUrl": "${http_download}/dizhu/room/imgs/bottom_hongbaosai_12061.png"
+		},
+		{
+			"index": 1,
+			"name": "福利回馈赛",
+			"roomIds": [6719, 6992, 6601, 6616, 6602, 6618, 6622],
+			"bgUrl": "blue",
+			"tipMsg": "",
+			"tipMsgFontSize": 22,
+			"tipMsgColor": "21,100,165",
+			"tipMsgAnimation": {
+				"displayTime": 5,
+				"nextShowInter": 4
+			},
+			"rewardIconUrl": "${http_download}/dizhu/room/imgs/fulihuikuisai_icon_1226.png",
+			"rewardIconMaskUrl": "${http_download}/dizhu/room/imgs/fulihuikuisai_icon_baidi_1226.png",
+			"nameUrl": "${http_download}/dizhu/room/imgs/fulihuikuisai_12062.png",
+			"matchListNameUrl": "${http_download}/dizhu/room/imgs/fulihuikuisai_biaoti_1205.png",
+			"bottomMsg": "",
+			"bottomMsgFontSize": 24,
+			"bottomMsgColor": "130,255,138",
+			"bottomHeadUrl": "${http_download}/dizhu/room/imgs/bottom_fulisai_12061.png",
+			"tupt": {
+				"frames": [{
+						"type": "img",
+						"icon": "${http_download}/dizhu/room/imgs/fulisaizuo_xiaotu_1205.png",
+						"title": "冬日回馈季",
+						"img": "${http_download}/dizhu/room/imgs/fulisaizuo_datu_1226.jpg"
+					},
+					{
+						"type": "img",
+						"icon": "${http_download}/dizhu/room/imgs/fulisaizhong_xiaotu_1226.jpg",
+						"title": "奖励大放送",
+						"img": "${http_download}/dizhu/room/imgs/fulisaizhong_datu_1226.jpg"
+					},
+					{
+						"type": "img",
+						"icon": "${http_download}/dizhu/room/imgs/fulisaiyou_xiaotu_1206.png",
+						"title": "赢百万金币",
+						"img": "${http_download}/dizhu/room/imgs/fulisaiyou_datu_12061.png"
+					}
+				],
+				"button_1": {
+					"type": "img",
+					"title": "赛事资讯",
+					"img": "${http_download}/dizhu/room/imgs/tupt_sszx_7.jpg"
+				},
+				"button_2": {
+					"type": "img",
+					"title": "选手风采",
+					"img": "${http_download}/dizhu/room/imgs/tupt_qg_datu_5n.png"
+				}
+			}
+		},
+		{
+			"index": 2,
+			"name": "免费家电赛",
+			"roomIds": [6604, 6615, 6998, 6607, 6608, 6609, 6610, 6611, 6612, 6613],
+			"bgUrl": "red",
+			"tipMsg": "",
+			"tipMsgFontSize": 22,
+			"tipMsgColor": "116,41,176",
+			"tipMsgAnimation": {
+				"displayTime": 5,
+				"nextShowInter": 5
+			},
+			"rewardIconUrl": "${http_download}/dizhu/room/imgs/match_classfiy_reward_0621_new.png",
+			"rewardIconMaskUrl": "${http_download}/dizhu/room/imgs/match_classfiy_reward_mask_0621_new",
+			"nameUrl": "${http_download}/dizhu/room/imgs/nameurl_jiadiansai_0621.png",
+			"matchListNameUrl": "${http_download}/dizhu/room/imgs/biaoti_jiadiansai_0621.png",
+			"bottomMsg": "",
+			"bottomMsgFontSize": 24,
+			"bottomMsgColor": "255,161,243",
+			"bottomHeadUrl": "${http_download}/dizhu/room/imgs/bottom_jiadiansai_12061.png"
+		}
+	],
+	"warmupSystem": {
+		"cooldown": 10,
+		"defaultMessageNumber": 10,
+		"mail": "您在\\${match_name}前的热身活动中，幸运的获得\\${assets_desc}",
+		"expensesAssets": {
+			"itemId": "user:chip",
+			"count": 100
+		},
+		"rewardPool": [{
+				"itemId": "user:chip",
+				"count": 56,
+				"weight": 2,
+				"desc": "56金币",
+				"message": "与好友一起喝茶聊天斗地主，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 71,
+				"weight": 2,
+				"desc": "71金币",
+				"message": "与好友一起喝茶聊天斗地主，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 85,
+				"weight": 2,
+				"desc": "85金币",
+				"message": "与好友一起喝茶聊天斗地主，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 96,
+				"weight": 2,
+				"desc": "96金币",
+				"message": "与好友一起喝茶聊天斗地主，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 105,
+				"weight": 2,
+				"desc": "105金币",
+				"message": "与好友一起喝茶聊天斗地主，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 55,
+				"weight": 2,
+				"desc": "55金币",
+				"message": "在赛场门口捡到\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 66,
+				"weight": 2,
+				"desc": "66金币",
+				"message": "在赛场门口捡到\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 73,
+				"weight": 2,
+				"desc": "73金币",
+				"message": "在赛场门口捡到\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 88,
+				"weight": 2,
+				"desc": "88金币",
+				"message": "在赛场门口捡到\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 118,
+				"weight": 2,
+				"desc": "118金币",
+				"message": "在赛场门口捡到\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 115,
+				"weight": 2,
+				"desc": "115金币",
+				"message": "出售祖传斗地主秘籍，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 126,
+				"weight": 2,
+				"desc": "126金币",
+				"message": "出售祖传斗地主秘籍，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 135,
+				"weight": 2,
+				"desc": "135金币",
+				"message": "出售祖传斗地主秘籍，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 141,
+				"weight": 2,
+				"desc": "141金币",
+				"message": "出售祖传斗地主秘籍，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 156,
+				"weight": 2,
+				"desc": "156金币",
+				"message": "出售祖传斗地主秘籍，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 130,
+				"weight": 2,
+				"desc": "130金币",
+				"message": "得到女神方片Q的祝福，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 150,
+				"weight": 2,
+				"desc": "150金币",
+				"message": "得到女神方片Q的祝福，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 160,
+				"weight": 2,
+				"desc": "160金币",
+				"message": "得到女神方片Q的祝福，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 180,
+				"weight": 2,
+				"desc": "180金币",
+				"message": "得到女神方片Q的祝福，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 190,
+				"weight": 2,
+				"desc": "190金币",
+				"message": "得到女神方片Q的祝福，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 51,
+				"weight": 2,
+				"desc": "51金币",
+				"message": "在财富榜上签到，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 70,
+				"weight": 2,
+				"desc": "70金币",
+				"message": "在财富榜上签到，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 81,
+				"weight": 2,
+				"desc": "81金币",
+				"message": "在财富榜上签到，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 101,
+				"weight": 2,
+				"desc": "101金币",
+				"message": "在财富榜上签到，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 120,
+				"weight": 2,
+				"desc": "120金币",
+				"message": "在财富榜上签到，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 133,
+				"weight": 2,
+				"desc": "133金币",
+				"message": "向朋友分享斗地主心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 145,
+				"weight": 2,
+				"desc": "145金币",
+				"message": "向朋友分享斗地主心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 161,
+				"weight": 2,
+				"desc": "161金币",
+				"message": "向朋友分享斗地主心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 175,
+				"weight": 2,
+				"desc": "175金币",
+				"message": "向朋友分享斗地主心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 186,
+				"weight": 2,
+				"desc": "186金币",
+				"message": "向朋友分享斗地主心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 58,
+				"weight": 2,
+				"desc": "58金币",
+				"message": "领悟了春天的秘密，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 86,
+				"weight": 2,
+				"desc": "86金币",
+				"message": "领悟了春天的秘密，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 116,
+				"weight": 2,
+				"desc": "116金币",
+				"message": "领悟了春天的秘密，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 146,
+				"weight": 2,
+				"desc": "146金币",
+				"message": "领悟了春天的秘密，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 176,
+				"weight": 2,
+				"desc": "176金币",
+				"message": "领悟了春天的秘密，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 60,
+				"weight": 2,
+				"desc": "60金币",
+				"message": "顿悟了连胜的真谛，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 90,
+				"weight": 2,
+				"desc": "90金币",
+				"message": "顿悟了连胜的真谛，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 148,
+				"weight": 2,
+				"desc": "148金币",
+				"message": "顿悟了连胜的真谛，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 165,
+				"weight": 2,
+				"desc": "165金币",
+				"message": "顿悟了连胜的真谛，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 191,
+				"weight": 2,
+				"desc": "191金币",
+				"message": "顿悟了连胜的真谛，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 111,
+				"weight": 2,
+				"desc": "111金币",
+				"message": "感悟了满贯的诀窍，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 131,
+				"weight": 2,
+				"desc": "131金币",
+				"message": "感悟了满贯的诀窍，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 171,
+				"weight": 2,
+				"desc": "171金币",
+				"message": "感悟了满贯的诀窍，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 193,
+				"weight": 2,
+				"desc": "193金币",
+				"message": "感悟了满贯的诀窍，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 196,
+				"weight": 2,
+				"desc": "196金币",
+				"message": "感悟了满贯的诀窍，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 75,
+				"weight": 2,
+				"desc": "75金币",
+				"message": "彻悟了反春的技巧，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 103,
+				"weight": 2,
+				"desc": "103金币",
+				"message": "彻悟了反春的技巧，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 163,
+				"weight": 2,
+				"desc": "163金币",
+				"message": "彻悟了反春的技巧，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 178,
+				"weight": 2,
+				"desc": "178金币",
+				"message": "彻悟了反春的技巧，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:chip",
+				"count": 199,
+				"weight": 2,
+				"desc": "199金币",
+				"message": "彻悟了反春的技巧，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 28,
+				"weight": 1,
+				"desc": "28魅力值",
+				"message": "与女神二人斗地主到天亮，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 31,
+				"weight": 1,
+				"desc": "31魅力值",
+				"message": "与女神二人斗地主到天亮，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 33,
+				"weight": 1,
+				"desc": "33魅力值",
+				"message": "与女神二人斗地主到天亮，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 36,
+				"weight": 1,
+				"desc": "36魅力值",
+				"message": "与女神二人斗地主到天亮，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 25,
+				"weight": 1,
+				"desc": "25魅力值",
+				"message": "捡到金扑克拾金不昧，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 27,
+				"weight": 1,
+				"desc": "27魅力值",
+				"message": "捡到金扑克拾金不昧，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 29,
+				"weight": 1,
+				"desc": "29魅力值",
+				"message": "捡到金扑克拾金不昧，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 32,
+				"weight": 1,
+				"desc": "32魅力值",
+				"message": "捡到金扑克拾金不昧，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 26,
+				"weight": 1,
+				"desc": "26魅力值",
+				"message": "路遇斗粉签名，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 30,
+				"weight": 1,
+				"desc": "30魅力值",
+				"message": "路遇斗粉签名，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 34,
+				"weight": 1,
+				"desc": "34魅力值",
+				"message": "路遇斗粉签名，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 35,
+				"weight": 1,
+				"desc": "35魅力值",
+				"message": "路遇斗粉签名，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 37,
+				"weight": 1,
+				"desc": "37魅力值",
+				"message": "得到女神红桃Q的青睐，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 38,
+				"weight": 1,
+				"desc": "38魅力值",
+				"message": "得到女神红桃Q的青睐，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 39,
+				"weight": 1,
+				"desc": "39魅力值",
+				"message": "得到女神红桃Q的青睐，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 40,
+				"weight": 1,
+				"desc": "40魅力值",
+				"message": "得到女神红桃Q的青睐，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 20,
+				"weight": 1,
+				"desc": "20魅力值",
+				"message": "在魅力榜上签到，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 24,
+				"weight": 1,
+				"desc": "24魅力值",
+				"message": "在魅力榜上签到，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 28,
+				"weight": 1,
+				"desc": "28魅力值",
+				"message": "在魅力榜上签到，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 32,
+				"weight": 1,
+				"desc": "32魅力值",
+				"message": "在魅力榜上签到，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 21,
+				"weight": 1,
+				"desc": "21魅力值",
+				"message": "经斗神GG指点，信心倍增，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 23,
+				"weight": 1,
+				"desc": "23魅力值",
+				"message": "经斗神GG指点，信心倍增，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 27,
+				"weight": 1,
+				"desc": "27魅力值",
+				"message": "经斗神GG指点，信心倍增，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 29,
+				"weight": 1,
+				"desc": "29魅力值",
+				"message": "经斗神GG指点，信心倍增，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 22,
+				"weight": 1,
+				"desc": "22魅力值",
+				"message": "与农民MM讨论偷菜心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 30,
+				"weight": 1,
+				"desc": "30魅力值",
+				"message": "与农民MM讨论心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 31,
+				"weight": 1,
+				"desc": "31魅力值",
+				"message": "与农民MM讨论心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "user:charm",
+				"count": 33,
+				"weight": 1,
+				"desc": "33魅力值",
+				"message": "与农民MM讨论心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 8,
+				"weight": 1,
+				"desc": "8大师分",
+				"message": "与地主婆交流星耀大师场见闻，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 11,
+				"weight": 1,
+				"desc": "11大师分",
+				"message": "与地主婆交流星耀大师场见闻，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 12,
+				"weight": 1,
+				"desc": "12大师分",
+				"message": "与地主婆交流星耀大师场见闻，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 13,
+				"weight": 1,
+				"desc": "13大师分",
+				"message": "与地主婆交流星耀大师场见闻，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 5,
+				"weight": 1,
+				"desc": "5大师分",
+				"message": "牌品出众，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 7,
+				"weight": 1,
+				"desc": "7大师分",
+				"message": "牌品出众，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 9,
+				"weight": 1,
+				"desc": "9大师分",
+				"message": "牌品出众，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 12,
+				"weight": 1,
+				"desc": "12大师分",
+				"message": "牌品出众，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 6,
+				"weight": 1,
+				"desc": "6大师分",
+				"message": "苦思冥想破解斗地主残局，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 10,
+				"weight": 1,
+				"desc": "10大师分",
+				"message": "苦思冥想破解斗地主残局，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 14,
+				"weight": 1,
+				"desc": "14大师分",
+				"message": "苦思冥想破解斗地主残局，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 15,
+				"weight": 1,
+				"desc": "15大师分",
+				"message": "苦思冥想破解斗地主残局，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 5,
+				"weight": 1,
+				"desc": "5大师分",
+				"message": "在赛场偶遇地主老财交流心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 8,
+				"weight": 1,
+				"desc": "8大师分",
+				"message": "在赛场偶遇地主老财交流心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 10,
+				"weight": 1,
+				"desc": "10大师分",
+				"message": "在赛场偶遇地主老财交流心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 11,
+				"weight": 1,
+				"desc": "11大师分",
+				"message": "在赛场偶遇地主老财交流心得，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 8,
+				"weight": 1,
+				"desc": "8大师分",
+				"message": "得到女神梅花Q的加持，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 11,
+				"weight": 1,
+				"desc": "11大师分",
+				"message": "得到女神梅花Q的加持，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 13,
+				"weight": 1,
+				"desc": "13大师分",
+				"message": "得到女神梅花Q的加持，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 15,
+				"weight": 1,
+				"desc": "15大师分",
+				"message": "得到女神梅花Q的加持，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 5,
+				"weight": 1,
+				"desc": "5大师分",
+				"message": "得赌神传授搓牌神技，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 7,
+				"weight": 1,
+				"desc": "7大师分",
+				"message": "得赌神传授搓牌神技，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 9,
+				"weight": 1,
+				"desc": "9大师分",
+				"message": "得赌神传授搓牌神技，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 12,
+				"weight": 1,
+				"desc": "12大师分",
+				"message": "得赌神传授搓牌神技，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 6,
+				"weight": 1,
+				"desc": "6大师分",
+				"message": "贿赂裁判，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 10,
+				"weight": 1,
+				"desc": "10大师分",
+				"message": "贿赂裁判，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 14,
+				"weight": 1,
+				"desc": "14大师分",
+				"message": "贿赂裁判，获得\\${assets_desc}"
+			},
+			{
+				"itemId": "ddz:master.score",
+				"count": 15,
+				"weight": 1,
+				"desc": "15大师分",
+				"message": "贿赂裁判，获得\\${assets_desc}"
+			},
+			{
+				"weight": 4,
+				"message": "私藏大王被发现，被裁判枪毙1分钟"
+			},
+			{
+				"weight": 4,
+				"message": "祝各位赛出水平，赛出风格！"
+			},
+			{
+				"weight": 4,
+				"message": "梦到获得TUPT冠军50W大奖~~"
+			},
+			{
+				"weight": 4,
+				"message": "已经摩拳擦掌，迫不及待要拿冠军了！"
+			},
+			{
+				"weight": 4,
+				"message": "被地主婆预言将成为本次比赛的冠军！"
+			},
+			{
+				"weight": 4,
+				"message": "被农民MM预言将成为本次比赛的冠军！"
+			},
+			{
+				"weight": 4,
+				"message": "携带4个2被安检发现，禁闭1分钟"
+			},
+			{
+				"weight": 4,
+				"message": "偷看底牌被发现，被裁判教育1分钟"
+			},
+			{
+				"weight": 4,
+				"message": "把地主当队友，错失一把好牌"
+			},
+			{
+				"weight": 4,
+				"message": "接到隔壁老王电话，错失一把好牌"
+			},
+			{
+				"weight": 4,
+				"message": "遭遇猪一样的队友，颗粒无收"
+			}
+		]
+	},
+	"matchAnimationDelay": {
+		"startStep": 6,
+		"type0": 3,
+		"type1": 3,
+		"type2": 3,
+		"type3": 3,
+		"waitToNextMatch": 5
+	},
+	"ddzRoomListAdornTag": [
+		"${http_download}/dizhu/room/imgs/ddz_room_drink_tag_1_2.png",
+		"${http_download}/dizhu/room/imgs/ddz_room_drink_tag_2_2.png",
+		"${http_download}/dizhu/room/imgs/ddz_room_drink_tag_3_2.png",
+		"${http_download}/dizhu/room/imgs/ddz_room_drink_tag_4_2.png",
+		"${http_download}/dizhu/room/imgs/ddz_room_drink_tag_5_2.png",
+		"${http_download}/dizhu/room/imgs/ddz_room_drink_tag_6_2.png"
+	],
+	"match_history": {
+		"record_number": 10,
+		"history_group_word": "分组",
+		"reward_format": "\\${history_group}第\\${history_rank}名,获得\\${history_reward}",
+		"no_reaward_format": "\\${history_group}第\\${history_rank}名"
+	},
+	"decoration_info": {
+		"hasDecoration": 0,
+		"decorationImgs": {
+			"img_001": "${http_download}/dizhu/room/imgs/ddz_chunjie_top.png",
+			"img_002": "${http_download}/dizhu/room/imgs/ddz_decoration_bottom.png",
+			"img_003": "${http_download}/dizhu/room/imgs/ddz_chunjie_left_top.png",
+			"img_004": "${http_download}/dizhu/room/imgs/ddz_chunjie_right_top.png"
+		}
+	},
+	"VipBenefits": {
+		"SendMinCoin": 0,
+		"VipMap": {
+			"1": {},
+			"2": {},
+			"3": {},
+			"4": {},
+			"5": {},
+			"6": {},
+			"7": {}
+		}
+	},
+	"erdayi.misc": {
+		"3rdapi.host": "https://api-cc.cmsa.cn",
+		"3rdapi.token": "TF3URJVC2VMYLNMCL007HNFW0I8NTQU3",
+		"3rdapi.cpid": "11101",
+
+		"withdraw_money_toofew_errinfo": "提现失败，余额大于等于2元时才可提现",
+		"withdraw_need_realinfo_errinfo": "需认证过才能提现",
+		"withdraw_need_bankinfo_errinfo": "需绑定银行卡才能提现",
+		"withdraw_wait_errinfo": "您的提现申请已发送，请您耐心等待。",
+		"withdraw_accept_tip": "你提现申请已成功受理，请查收！",
+		"withdraw_failed_tip": "提现失败，提取奖金已返还到奖金账户",
+		"bind_bank_success_tip": "绑定银行卡成功",
+
+		"withdraw_money_lowat": 2,
+		"vcode_expiryminute": 10,
+		"vcode_content": "正在手机验证，验证码\\${vcode}，请在\\${vcode_expiryminute}分钟内输入。工作人员不会向您索取，请勿泄露验证码信息。",
+		"withdraw_wait": 86400,
+		"auth_reward": {
+			"itemId": "user:chip",
+			"count": 2000,
+			"desc": "2000金币"
+		},
+		"auth_reward_desc": "认证后可获得2000金币",
+		"auth_reward_mail": "恭喜您获得认证奖励\\${reward_desc}"
+	},
+	"diplomaShareId": 251,
+	"wxTuiguang": []
+}

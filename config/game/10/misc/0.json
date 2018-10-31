@@ -1,0 +1,62 @@
+{
+    "freematch_guide_conf": 1000,
+    "jdkp_roomlist_freematch": {
+        "picIndex": 0,
+        "picUrl": "",
+        "baseBetsDesc": "免费实时比赛",
+        "minCoinDesc": "不要金币也能赚"
+    },
+    "mtt_guide": {
+        "chip": [
+            0,
+            5000,
+            10000
+        ],
+        "vip": 0
+    },
+    "normal_rank": [
+        {
+            "typeId": "1",
+            "groupId": "10"
+        },
+        {
+            "typeId": "1",
+            "groupId": "20"
+        },
+        {
+            "typeId": "1",
+            "groupId": "30"
+        },
+        {
+            "typeId": "1",
+            "groupId": "40"
+        }
+    ],
+    "mtt_rank": [
+        {
+            "typeId": "1",
+            "groupId": "10"
+        },
+        {
+            "typeId": "1",
+            "groupId": "50"
+        },
+        {
+            "typeId": "1",
+            "groupId": "70"
+        },
+        {
+            "typeId": "1",
+            "groupId": "40"
+        }
+    ],
+    "mtt_interval": 7200,
+    "rank_tag_name": {
+        "1": "游戏历程",
+        "9": "特殊成就"
+    },
+    "guide_index": {
+        "13": "guide1",
+        "14": "guide2"
+    }
+}

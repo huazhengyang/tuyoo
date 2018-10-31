@@ -1,0 +1,127 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "isDebug" : 0,
+  "matchConf" : {
+    "chip.base" : 50,
+    "desc" : "比赛时间：每日10:00~23:00 \n报名费用：免费",
+    "fees" : [],
+    "rank.rewards" : [
+      {
+        "desc" : "20.00红包券",
+        "message" : "恭喜您，在休闲赛中获得第%d名，奖励20.00红包券",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 2000,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "12.00红包券",
+        "message" : "恭喜您，在休闲赛中获得第%d名，奖励12.00红包券",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 1200,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "10.00红包券",
+        "message" : "恭喜您，在休闲赛中获得第%d名，奖励10.00红包券",
+        "ranking" : {
+          "end" : 4,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 1000,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "8.00红包券",
+        "message" : "恭喜您，在休闲赛中获得第%d名，奖励8.00红包券",
+        "ranking" : {
+          "end" : 8,
+          "start" : 5
+        },
+        "rewards" : [
+          {
+            "count" : 800,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "6.00红包券",
+        "message" : "恭喜您，在休闲赛中获得第%d名，奖励6.00红包券",
+        "ranking" : {
+          "end" : 16,
+          "start" : 9
+        },
+        "rewards" : [
+          {
+            "count" : 600,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "2.00红包券",
+        "message" : "恭喜您，在休闲赛中获得第%d名，奖励2.00红包券",
+        "ranking" : {
+          "end" : 32,
+          "start" : 17
+        },
+        "rewards" : [
+          {
+            "count" : 200,
+            "itemId" : "user:coupon"
+          }
+        ]
+      }
+    ],
+    "recordId" : 20016,
+    "start" : {
+      "maxPlayCount" : 10,
+      "minPlayCount" : 10,
+      "startTime" : "10:00",
+      "closeTime" : "23:00",
+      "endTime" : "23:30",
+      "scoreGapLimit" : 50,
+      "waitTimeLimit" : 10
+    },
+    "table.seat.count" : 2
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "minCoin" : 0,
+  "minCoinQS" : 0,
+  "name" : "休闲赛",
+  "playMode" : "free",
+  "robotUserCallUpTime" : 6,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    1,
+    2,
+    3
+  ],
+  "roomFee" : 0,
+  "tableConf" : {
+    "maxSeatN" : 2
+  },
+  "typeName" : "relaxation_match"
+}

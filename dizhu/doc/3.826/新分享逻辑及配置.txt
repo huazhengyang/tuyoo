@@ -1,0 +1,100 @@
+
+
+在协议中增加分享相关信息：
+//红包赛
+{
+ "cmd": "m_over",
+    "result": {
+        "shareInfoNew":{
+            "matchShareType": 1 ,  // 0-本场比赛所有奖励中无实物、无红包  1-比赛奖励有红包  2-比赛奖励有实物奖
+            "shareNum": 0,         // 我的第几个红包
+            "shareTotalNum": 50,   // 我在红包赛总获得钱数
+            "get":0/1,             // 本次是否获得红包
+            "rmb":200              // 如果我获得了红包，就填我获得的红包金额，若我没获得，则填最终奖的红包金额
+        }
+  }
+}
+
+//实物赛
+{
+ "cmd": "m_over",
+    "result": {
+        "shareInfoNew":{
+            "matchShareType": 2 ,            // 0-本场比赛所有奖励中无实物、无红包  1-比赛奖励有红包  2-比赛奖励有实物奖
+            "shareNum": 0,                   // 这个奖励是这个比赛的第几个最终奖励
+            "shareName": "途游扫地机器人",     // 最终奖励的描述
+            "get":0/1                        // 本次比赛我是否获得实物
+         }
+    ...
+  }
+}
+
+
+配置增加：
+在比赛的房间下增加对应配置：
+{
+    ...
+    "matchConf":{
+        "rank.rewards":{
+            # 分组赛 奖励为加电时
+            "shareInfo": {
+                "type": "jiadian",
+                "name": "电饭锅"
+            }
+        }
+    }
+    ...
+}
+
+{
+    ...
+    "matchConf":{
+        "rank.rewards":{
+            # 红包赛 奖励为红包、话费卡、京东卡时，统一为redEnvelope类型，名字 "微信红包"
+            "shareInfo": {
+                "rmb": 15,
+                "type": "redEnvelope",
+                "name": "微信红包"
+            }
+        }
+    }
+    ...
+}
+
+
+存储结构：
+在user数据库中增加生涯信息字段
+daobase.executeUserCmd(userId, 'HGET', 'weekShareInfo:6:' + str(userId), weekDate)
+
+daobase.executeUserCmd(userId, 'HSET', 'weekShareInfo:6:' + str(userId), weekDate, strutil.dumps(shareInfo))
+
+shareInfo内容为：
+self.issueNum = issueNum
+# 连胜次数
+self.winStreak = {
+    '3':0,
+    '4':0,
+    '5':0,
+    '6':0,
+    '7':0,
+    '8':0,
+    '9':0,
+    '10':0
+}
+# 对局数据 炸弹,春天,满贯,火箭,飞机
+self.roundInfo = [0,0,0,0,0] #bomb#chuntian#slam #rocket#plane
+# 游戏局数
+self.playRound = 0
+# 获胜局数
+self.winRound = 0
+# 分组赛赢取奖励
+self.groupReward = [] # "rewardsDesc"
+# 获得count个红包 累计获得红包金额rmb元
+self.red = {} #"count":10,"rmb":200
+# 金币桌赢取总金币数
+self.winChip = 0
+# 单局最高倍
+self.maxMulti = 0
+
+
+

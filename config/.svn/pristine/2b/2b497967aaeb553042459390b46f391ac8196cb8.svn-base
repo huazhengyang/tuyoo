@@ -1,0 +1,52 @@
+{
+	"_comment": [
+		"7天登录奖励配置文件",
+        "配置项: ",
+      "img: 在前端显示的图片",
+      "desc: 奖励描述",
+      "prop: 奖励的道具",
+      "chip: 奖励的金币数量"
+	],
+"days": [
+		{
+			"_comment": "day 1",
+			"prop": {"4371": 1},
+			"desc": "金戒指*1"
+		},
+		{
+			"_comment": "day 2",
+			"prop": {"4371": 2},
+			"desc": "金戒指*2"
+		},
+		{
+			"_comment": "day 3",
+			"prop": {"1080": 1},
+			"desc": "800万回馈赛门票*1"
+		},
+		{
+			"_comment": "day 4",
+			"prop": {"4371": 3},
+			"desc": "金戒指*3"
+		},
+		{
+			"_comment": "day 5",
+			"prop": {"4371": 3},
+			"desc": "金戒指*3"
+		},
+		{
+			"_comment": "day 6",
+			"prop": {"4371": 4},
+			"desc": "金戒指*4"
+		},
+		{
+			"_comment": "day 7",
+			"prop": {"1080": 2},
+			"desc": "800万回馈赛门票*2"
+		},
+		{
+			"_comment": "day >=7 additional reward",
+			"prop": {"4371": 5},
+			"desc": "金戒指*5"
+		}
+	]
+}

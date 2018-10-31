@@ -1,0 +1,129 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "isDebug" : 0,
+  "matchConf" : {
+    "chip.base" : 50,
+    "desc" : "比赛时间：每日10:00~23:00 \n报名费用：免费",
+    "fees" : [],
+    "rank.rewards" : [
+      {
+        "desc" : "途游锦标赛入围赛门票",
+        "message" : "恭喜您，在途游锦标赛海选赛中获得第%d名，奖励途游锦标赛入围赛门票",
+        "ranking" : {
+          "end" : 20,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:2064"
+          }
+        ]
+      },
+      {
+        "desc" : "2.00红包券",
+        "message" : "恭喜您，在途游锦标赛海选赛中获得第%d名，奖励2.00红包券",
+        "ranking" : {
+          "end" : 30,
+          "start" : 21
+        },
+        "rewards" : [
+          {
+            "count" : 200,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "1.00红包券",
+        "message" : "恭喜您，在途游锦标赛海选赛中获得第%d名，奖励1.00红包券",
+        "ranking" : {
+          "end" : 50,
+          "start" : 31
+        },
+        "rewards" : [
+          {
+            "count" : 100,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "0.50红包券",
+        "message" : "恭喜您，在途游锦标赛海选赛中获得第%d名，奖励0.50红包券",
+        "ranking" : {
+          "end" : 100,
+          "start" : 51
+        },
+        "rewards" : [
+          {
+            "count" : 50,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "0.30红包券",
+        "message" : "恭喜您，在途游锦标赛海选赛中获得第%d名，奖励0.30红包券",
+        "ranking" : {
+          "end" : 200,
+          "start" : 101
+        },
+        "rewards" : [
+          {
+            "count" : 30,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "0.20红包券",
+        "message" : "恭喜您，在途游锦标赛海选赛中获得第%d名，奖励0.20红包券",
+        "ranking" : {
+          "end" : 300,
+          "start" : 201
+        },
+        "rewards" : [
+          {
+            "count" : 20,
+            "itemId" : "user:coupon"
+          }
+        ]
+      }
+    ],
+    "recordId" : 3056,
+    "start" : {
+      "maxPlayCount" : 7,
+      "minPlayCount" : 7,
+      "startDate" : "2017-09-11",
+      "endDate" : "2017-10-28",
+      "startTime" : "10:00",
+      "closeTime" : "23:00",
+      "endTime" : "23:30",
+      "scoreGapLimit" : 50,
+      "waitTimeLimit" : 10
+    },
+    "table.seat.count" : 2
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "minCoin" : 0,
+  "minCoinQS" : 0,
+  "name" : "途游锦标赛海选赛",
+  "playMode" : "jifen",
+  "robotUserCallUpTime" : 6,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    1,
+    2,
+    3
+  ],
+  "roomFee" : 0,
+  "tableConf" : {
+    "maxSeatN" : 2
+  },
+  "typeName" : "relaxation_match"
+}

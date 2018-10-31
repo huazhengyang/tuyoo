@@ -1,0 +1,80 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、单机商城接联网支付"
+     ],
+     "md5"              : "15eff1548d82b9b39061f3f355b8dd9b",
+     "ver"              : "3.706",
+     "url"              : "${http_download}/hall/plugin/game/ddzsingle_release_v3.706_6.zip",
+     "size"             : "1.0M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      " [1、单机商城接联网支付"
+     ],
+     "md5"              : "d45f275e4a40afffd24d6615b1398e83",
+     "ver"              : "3.707",
+     "url"              : "${http_download}/hall/plugin/game/ddzsingle_ddz_release_v3.707_6.zip",
+     "size"             : "1.0M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、单机商城接联网支付"
+     ],
+     "md5"              : "8f0ce7f60286bc09906c14ab7267ce67",
+     "ver"              : "3.708",
+     "url"              : "${http_download}/hall/plugin/game/ddzsingle_release_v3.708_2.zip",
+     "size"             : "3.3M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、单机商城接联网支付"
+     ],
+     "md5"              : "8e2063d4ed1f8f633b2d815465e38929",
+     "ver"              : "3.812",
+     "url"              : "${http_download}/hall/plugin/game/ddzsingle_release_v3.812_1.zip",
+     "size"             : "3.7"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "[1、玩单机斗地主，就在途游"
+     ],
+     "md5"              : "444e5b7de1ef53107631f3ba8237d1dc",
+     "ver"              : "3.813",
+     "url"              : "${http_download}/hall/plugin/game/ddzsingle_release_v3.813_4.zip",
+     "size"             : "18.1M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、玩单机斗地主，就在途游"
+     ],
+     "md5"              : "3cd2a4c12efd61dacc3454944c27e8e1",
+     "ver"              : "3.8131",
+     "url"              : "${http_download}/hall/plugin/game/ddzsingle_release_3.8131_2.zip",
+     "size"             : "15M"
+    }
+   ],
+   "description"      : [
+    "1、单机斗地主"
+   ],
+   "gameId"           : 24,
+   "gameMark"         : "ddzsingle"
+  }
+ ],
+ "templates"        : [ ]
+}

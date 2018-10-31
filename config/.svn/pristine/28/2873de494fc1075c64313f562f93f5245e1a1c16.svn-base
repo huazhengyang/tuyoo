@@ -1,0 +1,121 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "matchId3" : "11101REP1I71", 
+    "promotionMatchId": "111016IZZ3Y5000001",
+	"promotionCount": 150,
+    "desc" : "开赛时间：19:00\n报名费用：一张A级海选赛门票",
+    "fees" : [
+    	{
+        	"count" : 1,
+        	"itemId" : "item:3118",
+        	"params" : {
+          		"failure" : "您的报名条件不足，本比赛需要一张A级海选赛门票"
+        	}
+      }
+    ],
+    "rank.rewards" : [      
+	    {
+        "desc" : "A级首轮赛门票1张",
+        "ranking" : {
+          "end" : 150,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:3119"
+          }
+        ]
+      }
+	],
+    "stages" : [
+      {
+        "animation.type" : 2,
+        "card.count" : 30,
+        "chip.base" : 100,
+        "name" : "海选赛",
+        "rise.user.count" : 1,
+        "seat.principles" : 2,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 1,
+      "maxplaytime" : 10800,
+      "prepare.times" : 10,
+      "signin.times" : 86400,
+      "start.speed" : 5,
+      "table.times" : 480,
+      "times" : {
+        "days" : {
+          "list" : [
+			"20171021"
+          ]
+        },
+        "times_in_day" : {
+          "list" : [
+            "19:00"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.maxsize" : 200,
+      "user.minsize" : 100,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 1,
+    "tips" : {
+      "infos" : [
+        "地主可以针对农民的加倍再加倍！",
+		"认证牌手身份才能获得大师分哦",
+		"竞技二打一是国家体育总局认证的全国性赛事",
+		"绑定银行卡后才能领取比赛奖金哦",
+		"奖金记录只显示最新的20条奖金信息",
+		"24小时内只能进行一次提现操作"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "A级海选赛",
+  "playDesc" : "",
+  "playMode" : "erdayi",
+  "robotUserCallUpTime" : 2,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    1,
+    1
+  ],
+  "roomFee" : 45,
+  "roomMutil" : 50,
+  "showCard" : 0,
+  "tableConf" : {
+    "autochange" : 1,
+    "basebet" : 1,
+    "basemulti" : 1,
+    "canchat" : 0,
+    "cardNoteChip" : 500,
+    "coin2chip" : 1,
+    "grab" : 0,
+    "gslam" : 128,
+    "lucky" : 0,
+    "maxSeatN" : 3,
+    "optime" : 15,
+    "passtime" : 5,
+    "rangpaiMultiType" : 1,
+    "robottimes" : 2,
+    "tbbox" : 0,
+    "unticheat" : 0
+  },
+  "typeName" : "erdayi_match",
+  "winDesc" : ""
+}

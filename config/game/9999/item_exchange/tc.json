@@ -1,0 +1,69 @@
+{
+    "exchanges": [
+        {
+        	"message" : "已经将您的{delCount}个1元微信红包，自动转换为{newCount}个10元微信红包",
+            "conditions": [
+            ],
+            "itemIdSrc": 1092,
+            "itemIdDst": 1082,
+            "ratio": 10
+        },
+        {
+        	"message" : "已经将您的{delCount}个10元微信红包，自动转换为{newCount}个100元微信红包",
+            "conditions": [
+            ],
+            "itemIdSrc": 1082,
+            "itemIdDst": 1091,
+            "ratio": 10
+        },
+        {
+        	"message" : "已经将您的{delCount}个1元话费卡，自动转换为{newCount}个10元话费卡",
+            "conditions": [
+            ],
+            "itemIdSrc": 4178,
+            "itemIdDst": 4141,
+            "ratio": 10
+        },
+        {
+        	"message" : "已经将您的{delCount}个2元话费卡，自动转换为{newCount}个10元话费卡",
+            "conditions": [
+            ],
+            "itemIdSrc": 4179,
+            "itemIdDst": 4141,
+            "ratio": 5
+        },
+        {
+        	"message" : "已经将您的{delCount}个5元话费卡，自动转换为{newCount}个10元话费卡",
+            "conditions": [
+            ],
+            "itemIdSrc": 4180,
+            "itemIdDst": 4141,
+            "ratio": 2
+        },
+        {
+        	"message" : "已经将您的{delCount}个10元话费卡，自动转换为{newCount}个100元话费卡",
+            "conditions": [
+            ],
+            "itemIdSrc": 4141,
+            "itemIdDst": 4144,
+            "ratio": 10
+        },
+        {
+        	"message" : "为提升用户体验已经将您的癞子场1元微信红包升级为新版",
+            "conditions": [
+            ],
+            "itemIdSrc": 1086,
+            "itemIdDst": 2111,
+            "ratio": 1
+        },
+        {
+        	"message" : "为提升用户体验已经将您的包月会员卡升级为新版贵族月卡",
+            "conditions": [
+            ],
+            "itemIdSrc": 89,
+            "itemIdDst": 1196,
+            "ratio": 1
+        }
+    ],
+    "info": "道具系统比较复杂，道具互换暂不支持时间类道具。配置上线前需仔细测试。"
+}

@@ -1,0 +1,967 @@
+{
+	"closed": 0,
+	"rankCacheTime": 600,
+	"rankRecordCount": 500,
+	"saveRecordCount": 4,
+	"roundListCount": 30,
+	"seasonTips": ["        本赛季于6月30日晚24时截止并开始结算，奖励于次月1日进\n行发放。红包赛、金币桌、闯关海量红包等你拿！"],
+	"segmentTips": [""],
+	"mainPicture": {
+		"seasonPic": "${http_download}/ddz/other/config/logo_match_season_with_date_2.png",
+		"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+	},
+	"gameWinReward": {
+		"totalLimit": -1,
+		"conditions": [{
+				"typeId": "user.cond.segmentWinDoubles",
+				"start": 64,
+				"end": -1
+			},
+			{
+				"typeId": "user.cond.segmentChuntian"
+			}
+		]
+
+	},
+	"mail": "赛季结算奖励#感谢您在闯关中的努力与付出，恭喜您在第\\${startTime}到\\${endTime}赛季达到\\${segment}级别，途游斗地主为您奉上赛季奖励：\\${rewardContent}，祝您游戏愉快~",
+	"seasonRewards": [{
+			"segments": [
+				25
+			],
+			"title": "传奇大师",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 40
+				},
+				{
+					"itemId": "user:chip",
+					"count": 40000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x40",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x40000",
+					"url": "${http_download}/ddz/other/config/invite_chip_high.png"
+				},
+				{
+					"desc": "传奇大师头像框",
+					"url": "${http_download}/ddz/other/config/txk_grandmaster.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				24
+			],
+			"title": "星耀大师",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 28
+				},
+				{
+					"itemId": "user:chip",
+					"count": 29000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x28",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x29000",
+					"url": "${http_download}/ddz/other/config/invite_chip_high.png"
+				},
+				{
+					"desc": "星耀头像框",
+					"url": "${http_download}/ddz/other/config/txk_xingyao_third1.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				23
+			],
+			"title": "星耀特级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 28
+				},
+				{
+					"itemId": "user:chip",
+					"count": 29000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x28",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x29000",
+					"url": "${http_download}/ddz/other/config/invite_chip_high.png"
+				},
+				{
+					"desc": "星耀头像框",
+					"url": "${http_download}/ddz/other/config/txk_xingyao_third1.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				22
+			],
+			"title": "星耀高级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 28
+				},
+				{
+					"itemId": "user:chip",
+					"count": 29000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x28",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x29000",
+					"url": "${http_download}/ddz/other/config/invite_chip_high.png"
+				},
+				{
+					"desc": "星耀头像框",
+					"url": "${http_download}/ddz/other/config/txk_xingyao_third1.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				21
+			],
+			"title": "星耀中级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 28
+				},
+				{
+					"itemId": "user:chip",
+					"count": 29000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x28",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x29000",
+					"url": "${http_download}/ddz/other/config/invite_chip_high.png"
+				},
+				{
+					"desc": "星耀头像框",
+					"url": "${http_download}/ddz/other/config/txk_xingyao_second1.png"
+				}
+			]
+
+		},
+		{
+			"segments": [
+				20
+			],
+			"title": "星耀初级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 28
+				},
+				{
+					"itemId": "user:chip",
+					"count": 29000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x28",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x29000",
+					"url": "${http_download}/ddz/other/config/invite_chip_high.png"
+				},
+				{
+					"desc": "星耀头像框",
+					"url": "${http_download}/ddz/other/config/txk_xingyao_first1.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				19
+			],
+			"title": "钻石大师",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 21
+				},
+				{
+					"itemId": "user:chip",
+					"count": 22000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x21",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x22000",
+					"url": "${http_download}/ddz/other/config/invite_chip_middle.png"
+				},
+				{
+					"desc": "钻石头像框",
+					"url": "${http_download}/ddz/other/config/txk_zuanshi_third.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				18
+			],
+			"title": "钻石特级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 21
+				},
+				{
+					"itemId": "user:chip",
+					"count": 22000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x21",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x22000",
+					"url": "${http_download}/ddz/other/config/invite_chip_middle.png"
+				},
+				{
+					"desc": "钻石头像框",
+					"url": "${http_download}/ddz/other/config/txk_zuanshi_third.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				17
+			],
+			"title": "钻石高级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 21
+				},
+				{
+					"itemId": "user:chip",
+					"count": 22000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x21",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x22000",
+					"url": "${http_download}/ddz/other/config/invite_chip_middle.png"
+				},
+				{
+					"desc": "钻石头像框",
+					"url": "${http_download}/ddz/other/config/txk_zuanshi_third.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				16
+			],
+			"title": "钻石中级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 21
+				},
+				{
+					"itemId": "user:chip",
+					"count": 22000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x21",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x22000",
+					"url": "${http_download}/ddz/other/config/invite_chip_middle.png"
+				},
+				{
+					"desc": "钻石头像框",
+					"url": "${http_download}/ddz/other/config/txk_zuanshi_second.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				15
+			],
+			"title": "钻石初级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 21
+				},
+				{
+					"itemId": "user:chip",
+					"count": 22000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x21",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x22000",
+					"url": "${http_download}/ddz/other/config/invite_chip_middle.png"
+				},
+				{
+					"desc": "钻石头像框",
+					"url": "${http_download}/ddz/other/config/txk_zuanshi_first.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				14
+			],
+			"title": "铂金特级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 19
+				},
+				{
+					"itemId": "user:chip",
+					"count": 19000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x19",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x19000",
+					"url": "${http_download}/ddz/other/config/invite_chip_middle.png"
+				},
+				{
+					"desc": "铂金头像框",
+					"url": "${http_download}/ddz/other/config/txk_bojin_third.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				13
+			],
+			"title": "铂金高级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 19
+				},
+				{
+					"itemId": "user:chip",
+					"count": 19000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x19",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x19000",
+					"url": "${http_download}/ddz/other/config/invite_chip_middle.png"
+				},
+				{
+					"desc": "铂金头像框",
+					"url": "${http_download}/ddz/other/config/txk_bojin_third.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				12
+			],
+			"title": "铂金中级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 19
+				},
+				{
+					"itemId": "user:chip",
+					"count": 19000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x19",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x19000",
+					"url": "${http_download}/ddz/other/config/invite_chip_middle.png"
+				},
+				{
+					"desc": "铂金头像框",
+					"url": "${http_download}/ddz/other/config/txk_bojin_second.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				11
+			],
+			"title": "铂金初级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 19
+				},
+				{
+					"itemId": "user:chip",
+					"count": 19000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x19",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x19000",
+					"url": "${http_download}/ddz/other/config/invite_chip_middle.png"
+				},
+				{
+					"desc": "铂金头像框",
+					"url": "${http_download}/ddz/other/config/txk_bojin_first.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				10
+			],
+			"title": "黄金特级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 12
+				},
+				{
+					"itemId": "user:chip",
+					"count": 12000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x12",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x12000",
+					"url": "${http_download}/ddz/other/config/invite_chip_low.png"
+				},
+				{
+					"desc": "黄金头像框",
+					"url": "${http_download}/ddz/other/config/txk_huangjin_third.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				9
+			],
+			"title": "黄金高级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 12
+				},
+				{
+					"itemId": "user:chip",
+					"count": 12000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x12",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x12000",
+					"url": "${http_download}/ddz/other/config/invite_chip_low.png"
+				},
+				{
+					"desc": "黄金头像框",
+					"url": "${http_download}/ddz/other/config/txk_huangjin_third.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				8
+			],
+			"title": "黄金中级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 12
+				},
+				{
+					"itemId": "user:chip",
+					"count": 12000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x12",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x12000",
+					"url": "${http_download}/ddz/other/config/invite_chip_low.png"
+				},
+				{
+					"desc": "黄金头像框",
+					"url": "${http_download}/ddz/other/config/txk_huangjin_second.png"
+				}
+			]
+		},
+		{
+			"segments": [
+				7
+			],
+			"title": "黄金初级",
+			"rewards": [{
+					"itemId": "item:1311",
+					"count": 12
+				},
+				{
+					"itemId": "user:chip",
+					"count": 12000
+				}
+			],
+			"rewardShow": [{
+					"desc": "钻石x12",
+					"url": "${http_download}/ddz/other/config/nopack_icon_diamond.png"
+				},
+				{
+					"desc": "金币x12000",
+					"url": "${http_download}/ddz/other/config/invite_chip_low.png"
+				},
+				{
+					"desc": "黄金头像框",
+					"url": "${http_download}/ddz/other/config/txk_huangjin_first.png"
+				}
+			]
+		}
+	],
+	"segments": [{
+			"segment": 1,
+			"stars": 1,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 1,
+			"title": "青铜初级"
+		},
+		{
+			"segment": 2,
+			"stars": 2,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 1,
+			"title": "青铜中级"
+		},
+		{
+			"segment": 3,
+			"stars": 2,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 1,
+			"title": "青铜高级"
+		},
+		{
+			"segment": 4,
+			"stars": 3,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 1,
+			"title": "白银初级"
+		},
+		{
+			"segment": 5,
+			"stars": 3,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 1,
+			"title": "白银中级"
+		},
+		{
+			"segment": 6,
+			"stars": 3,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 1,
+			"title": "白银高级"
+		},
+		{
+			"segment": 7,
+			"stars": 4,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "黄金初级"
+		},
+		{
+			"segment": 8,
+			"stars": 4,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "黄金中级"
+		},
+		{
+			"segment": 9,
+			"stars": 4,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "黄金高级"
+		},
+		{
+			"segment": 10,
+			"stars": 4,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "黄金特级"
+		},
+		{
+			"segment": 11,
+			"stars": 5,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "铂金初级"
+		},
+		{
+			"segment": 12,
+			"stars": 5,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "铂金中级"
+		},
+		{
+			"segment": 13,
+			"stars": 5,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "铂金高级"
+		},
+		{
+			"segment": 14,
+			"stars": 5,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "铂金特级"
+		},
+		{
+			"segment": 15,
+			"stars": 6,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "钻石初级"
+		},
+		{
+			"segment": 16,
+			"stars": 6,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "钻石中级"
+		},
+		{
+			"segment": 17,
+			"stars": 6,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "钻石高级"
+		},
+		{
+			"segment": 18,
+			"stars": 6,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "钻石特级"
+		},
+		{
+			"segment": 19,
+			"stars": 6,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "钻石大师"
+		},
+		{
+			"segment": 20,
+			"stars": 7,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "星耀初级"
+		},
+		{
+			"segment": 21,
+			"stars": 7,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "星耀中级"
+		},
+		{
+			"segment": 22,
+			"stars": 7,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "星耀高级"
+		},
+		{
+			"segment": 23,
+			"stars": 7,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "星耀特级"
+		},
+		{
+			"segment": 24,
+			"stars": 7,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 0,
+			"title": "星耀大师"
+		},
+		{
+			"segment": 25,
+			"stars": -1,
+			"inherit": 1,
+			"starProtection": 0,
+			"segmentProtection": 1,
+			"title": "传奇大师"
+		}
+	],
+	"segmentRecover": {
+		"share": {
+			"maxCount": 3,
+			"pointIdList": [66660011, 77770011]
+		},
+		"buy": {
+			"itemId": "item:1311",
+			"desc": "分享保段消耗完毕后使用钻石保段",
+			"itemCount": {
+				"1": 3,
+				"2": 3,
+				"3": 4,
+				"4": 7,
+				"5": 10,
+				"others": 10
+			}
+		}
+	},
+	"seasonList": [{
+			"startTime": "2018-05-17 00:00:00",
+			"endTime": "2018-05-31 23:59:59",
+			"issueNum": "20180519",
+			"seasonNum": 1
+		},
+		{
+			"startTime": "2018-06-01 00:00:00",
+			"endTime": "2018-06-30 23:59:59",
+			"issueNum": "20180601",
+			"seasonNum": 2
+		},
+		{
+			"startTime": "2018-07-01 00:00:00",
+			"endTime": "2018-07-31 23:59:59",
+			"issueNum": "20180701",
+			"seasonNum": 3,
+			"mainPicture": {
+				"seasonPic": "${http_download}/ddz/other/config/logo_match_season_with_date_3.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"mainPicture2": {
+				"seasonPic": "${http_download}/ddz/huanle/yunying/logo_match_season_with_date_3.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"seasonTips": ["        本赛季于7月31日晚24时截止并开始结算，奖励于次月1日进\n行发放。红包赛、金币桌、闯关海量红包等你拿！"]
+		},
+        {
+			"startTime": "2018-08-01 00:00:00",
+			"endTime": "2018-08-31 23:59:59",
+			"issueNum": "20180801",
+			"seasonNum": 4,
+			"mainPicture": {
+				"seasonPic": "${http_download}/ddz/other/config/logo_match_season_with_date_4.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"mainPicture2": {
+				"seasonPic": "${http_download}/ddz/huanle/yunying/logo_match_season_with_date_4.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"seasonTips": ["    本赛季于8月31日晚24时截止并开始结算，奖励于次月1日进行发放。红包赛、金币桌海量红包等你拿！"]
+		},
+        {
+			"startTime": "2018-09-01 00:00:00",
+			"endTime": "2018-09-18 23:59:59",
+			"issueNum": "20180901",
+			"seasonNum": 5,
+			"mainPicture": {
+				"seasonPic": "${http_download}/ddz/other/config/logo_match_season5.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"mainPicture2": {
+				"seasonPic": "${http_download}/ddz/huanle/yunying/logo_match_season_with_date_5.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"seasonTips": ["    本赛季于9月18日晚24时截止并开始结算，奖励于次月1日进行发放。红包赛、金币桌海量红包等你拿！"]
+		},
+		{
+			"startTime": "2018-09-19 00:00:00",
+			"endTime": "2018-09-19 23:59:59",
+			"issueNum": "20180919",
+			"seasonNum": 6,
+			"mainPicture": {
+				"seasonPic": "${http_download}/ddz/other/config/logo_match_season5.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"mainPicture2": {
+				"seasonPic": "${http_download}/ddz/huanle/yunying/logo_match_season_with_date_5.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"seasonTips": ["    本赛季于9月19日晚24时截止并开始结算，奖励于次月1日进行发放。红包赛、金币桌海量红包等你拿！"]
+		},
+		{
+			"startTime": "2018-09-20 00:00:00",
+			"endTime": "2018-09-20 23:59:59",
+			"issueNum": "20180920",
+			"seasonNum": 7,
+			"mainPicture": {
+				"seasonPic": "${http_download}/ddz/other/config/logo_match_season5.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"mainPicture2": {
+				"seasonPic": "${http_download}/ddz/huanle/yunying/logo_match_season_with_date_5.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"seasonTips": ["    本赛季于9月20日晚24时截止并开始结算，奖励于次月1日进行发放。红包赛、金币桌海量红包等你拿！"]
+		},
+		{
+			"startTime": "2018-09-21 00:00:00",
+			"endTime": "2018-09-21 23:59:59",
+			"issueNum": "20180921",
+			"seasonNum": 8,
+			"mainPicture": {
+				"seasonPic": "${http_download}/ddz/other/config/logo_match_season5.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"mainPicture2": {
+				"seasonPic": "${http_download}/ddz/huanle/yunying/logo_match_season_with_date_5.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"seasonTips": ["    本赛季于9月21日晚24时截止并开始结算，奖励于次月1日进行发放。红包赛、金币桌海量红包等你拿！"]
+		},
+		{
+			"startTime": "2018-09-22 00:00:00",
+			"endTime": "2018-09-30 23:59:59",
+			"issueNum": "20180922",
+			"seasonNum": 9,
+			"mainPicture": {
+				"seasonPic": "${http_download}/ddz/other/config/logo_match_season5.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"mainPicture2": {
+				"seasonPic": "${http_download}/ddz/huanle/yunying/logo_match_season_with_date_5.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"seasonTips": ["    本赛季于9月31日晚24时截止并开始结算，奖励于次月1日进行发放。红包赛、金币桌海量红包等你拿！"]
+		},
+		{
+			"startTime": "2018-10-01 00:00:00",
+			"endTime": "2018-10-31 23:59:59",
+			"issueNum": "20181001",
+			"seasonNum": 10,
+			"mainPicture": {
+				"seasonPic": "${http_download}/ddz/other/config/logo_match_season6.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"mainPicture2": {
+				"seasonPic": "${http_download}/ddz/huanle/yunying/logo_match_season_with_date_5.png",
+				"poolPic": "${http_download}/ddz/other/config/logo_ads.png"
+			},
+			"seasonTips": ["    本赛季于10月31日晚24时截止并开始结算，奖励于次月1日进行发放。红包赛、金币桌海量红包等你拿！"]
+		}
+	],
+	"tableWinStreakTask": [{
+			"progress": 3,
+			"rewards": [{
+				"itemId": "user:chip",
+				"count": 600,
+				"pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+				"desc": "x600"
+			}],
+			"params": {
+				"isAsync": 1
+			}
+		},
+		{
+			"progress": 5,
+			"rewards": [{
+				"itemId": "user:chip",
+				"count": 1200,
+				"pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+				"desc": "x1200"
+			}],
+			"params": {
+				"isAsync": 1
+			}
+		},
+		{
+			"progress": 7,
+			"rewards": [{
+				"itemId": "user:chip",
+				"count": 2000,
+				"pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+				"desc": "x2000"
+			}],
+			"params": {
+				"isAsync": 1
+			}
+		},
+		{
+			"progress": 9,
+			"rewards": [{
+				"itemId": "user:chip",
+				"count": 2500,
+				"pic": "${http_download}/ddz/other/config/share_goldBox.png",
+				"desc": "九连胜宝箱"
+			}],
+			"params": {
+				"isAsync": 1
+			}
+		}
+	],
+	"addUserStar": {
+		"maxCount": 4,
+		"pointIdList": [66660907, 77770907],
+		"segmentLimit": 7
+	}
+}

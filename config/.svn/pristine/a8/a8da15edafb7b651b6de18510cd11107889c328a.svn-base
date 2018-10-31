@@ -1,0 +1,81 @@
+{
+  "condition": {
+    "list": [
+      {
+        "typeId": "user.cond.registerDays",
+        "startDays": -1,
+        "stopDays": 5
+      }
+    ],
+    "typeId": "user.cond.and"
+  },
+  "signInRewards": [
+    {
+      "rewards": [
+        {
+          "itemId": "item:2003",
+          "count": 1,
+          "pic": "${http_download}/ddz/other/config/newUser_share_cardNote@2x.png",
+          "desc": "记牌器（1天）"
+        }
+      ],
+      "day": 1
+    },
+    {
+      "rewards": [
+        {
+          "itemId": "item:1311",
+          "count": 1,
+          "pic": "${http_download}/ddz/other/config/newUser_share_diamond1@2x.png",
+          "desc": "1钻石"
+        }
+      ],
+      "day": 2
+    },
+    {
+      "rewards": [
+        {
+          "itemId": "item:2003",
+          "count": 1,
+          "pic": "${http_download}/ddz/other/config/newUser_share_cardNote@2x.png",
+          "desc": "记牌器（1天）"
+        }
+      ],
+      "day": 3
+    },
+    {
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 1000,
+          "pic": "${http_download}/ddz/other/config/newUser_share_diamond2@2x.png",
+          "desc": "1000金币+2钻石"
+        },
+        {
+          "itemId": "item:1311",
+          "count": 2,
+          "pic": "${http_download}/ddz/other/config/newUser_share_diamond2@2x.png",
+          "desc": "1000金币+2钻石"
+        }
+      ],
+      "day": 4
+    },
+    {
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 2000,
+          "pic": "${http_download}/ddz/other/config/newUser_share_diamond3@2x.png",
+          "desc": "2000金币+3钻石"
+        },
+        {
+          "itemId": "item:1311",
+          "count": 3,
+          "pic": "${http_download}/ddz/other/config/newUser_share_diamond3@2x.png",
+          "desc": "2000金币+3钻石"
+        }
+      ],
+      "day": 5
+    }
+  ]
+}

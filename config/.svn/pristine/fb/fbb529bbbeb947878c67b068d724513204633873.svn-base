@@ -1,0 +1,174 @@
+{
+  "begin_id": 801001,
+  "achievements": [
+    {
+      "id": 801001,
+      "index": 0,
+      "name": "“白领场”对局一次",
+      "reward": {
+        "type": "chip",
+        "value": 50
+      },
+      "desc": "金三顺的牌神之旅，从白领场第一局牌开始，加油吧",
+      "next": 801002,
+      "todo": {
+        "action": "dz_quick_start",
+        "params": {
+          "roomId": 77001
+        }
+      }
+    },
+    {
+      "id": 801002,
+      "index": 1,
+      "name": "漂亮的跟注",
+      "reward": {
+        "type": "chip",
+        "value": 100
+      },
+      "desc": "在牌局中点击一次“跟注”。当您觉得牌还不错的时候不妨跟注看看",
+      "next": 801003,
+      "todo": {
+        "action": "dz_quick_start",
+        "params": {}
+      }
+    },
+    {
+      "id": 801003,
+      "index": 2,
+      "name": "明智的弃牌",
+      "reward": {
+        "type": "chip",
+        "value": 100
+      },
+      "desc": "在牌局中点击一次“弃牌”。当您觉得牌落后的时候,弃牌等待下一局吧",
+      "next": 801004,
+      "todo": {
+        "action": "dz_quick_start",
+        "params": {}
+      }
+    },
+    {
+      "id": 801004,
+      "index": 3,
+      "name": "该加注时就加注",
+      "reward": {
+        "type": "chip",
+        "value": 200
+      },
+      "desc": "在牌局中点击一次“加注”。当您觉得牌很好，就争取赢得更多筹码吧",
+      "next": 803001,
+      "todo": {
+        "action": "dz_quick_start",
+        "params": {}
+      }
+    },
+    {
+      "id": 803001,
+      "index": 4,
+      "name": "打开一次牌型介绍",
+      "reward": {
+        "type": "chip",
+        "value": 200
+      },
+      "desc": "如果您不清楚牌型大小顺序,可以点击牌桌左下角的“牌型”",
+      "next": 803004,
+      "todo": {
+        "action": "dz_quick_start",
+        "params": {}
+      }
+    },
+    {
+      "id": 803004,
+      "index": 5,
+      "name": "打开宝箱",
+      "reward": {
+        "type": "chip",
+        "value": 200
+      },
+      "desc": "点击右下角宝箱，打开宝箱查看奖励",
+      "next": 801006,
+      "todo": {
+        "action": "dz_quick_start",
+        "params": {}
+      }
+    },
+    {
+      "id": 801006,
+      "index": 6,
+      "name": "“小资场”对局一次",
+      "reward": {
+        "type": "chip",
+        "value": 200
+      },
+      "desc": "当您在某个级别的场里经常获胜的时候，可以尝试升级到更高级别的场里",
+      "next": 803006,
+      "todo": {
+        "action": "dz_quick_start",
+        "params": {
+          "roomId": 77002
+        }
+      }
+    },
+    {
+      "id": 803006,
+      "index": 7,
+      "name": "牌局结束时，亮牌一次",
+      "reward": {
+        "type": "chip",
+        "value": 200
+      },
+      "desc": "牌局结束时，点击右下角亮牌按钮给大家展示自己的手牌",
+      "next": 801009,
+      "todo": {
+        "action": "dz_quick_start",
+        "params": {}
+      }
+    },
+    {
+      "id": 801009,
+      "index": 8,
+      "name": "“土豪场”对局一次",
+      "reward": {
+        "type": "chip",
+        "value": 500
+      },
+      "desc": "您已经开始不再是一个菜鸟了，您会发现越高级别的场里，玩家水平会越高",
+      "next": 804001,
+      "todo": {
+        "action": "dz_quick_start",
+        "params": {
+          "roomId": 77003
+        }
+      }
+    },
+    {
+      "id": 804001,
+      "index": 9,
+      "name": "购买一次金币",
+      "reward": {
+        "type": "chip",
+        "value": 20000
+      },
+      "desc": "到商城购买一次金币，超级实惠哦",
+      "next": 0,
+      "todo": {
+        "action": "shop",
+        "params": {}
+      }
+    }
+  ],
+  "end_fake_data": {
+    "id": 0,
+    "index": 10,
+    "name": "无",
+    "reward": {
+      "type": "chip",
+      "value": 0
+    },
+    "desc": "恭喜您，已完成了所有任务！",
+    "next": 0
+  },
+  "total_reward_des": "任务全部达成将获得总计60000金币奖励，已完成%s/10"
+}
+

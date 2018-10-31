@@ -1,0 +1,91 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捉鸡震撼发布"
+     ],
+     "md5"              : "8a7f69a65a3ec1a010e407f06e1e9d7f",
+     "ver"              : "5.03",
+     "url"              : "${http_download}/hall/plugin/game/guiyang_release_v5.03_19.zip",
+     "size"             : "7.5M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捉鸡震撼发布"
+     ],
+     "md5"              : "5a778c50c8bdc0f0d54691c54b627674",
+     "ver"              : "5.04",
+     "url"              : "${http_download}/hall/plugin/game/guiyang_release_v5.04_4.zip",
+     "size"             : "7M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捉鸡震撼发布"
+     ],
+     "md5"              : "c73818338e43cf21534f55464f5c6f08",
+     "ver"              : "5.05",
+     "url"              : "${http_download}/hall/plugin/game/guiyang_release_v5.05_1.zip",
+     "size"             : "7.5M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捉鸡震撼发布"
+     ],
+     "md5"              : "55bf84d2e39797b93f55dd44b0db6cca",
+     "ver"              : "5.06",
+     "url"              : "${http_download}/hall/plugin/game/guiyang_release_v5.06_1.zip",
+     "size"             : "7.5M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捉鸡震撼发布"
+     ],
+     "md5"              : "f496b4180749b342360f11e4796f9a6f",
+     "ver"              : "5.07",
+     "url"              : "${http_download}/hall/plugin/game/guiyang_release_v5.07_2.zip",
+     "size"             : "7.5M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捉鸡震撼发布"
+     ],
+     "md5"              : "c9859604ffcff037e0a7b9c056971643",
+     "ver"              : "5.08",
+     "url"              : "${http_download}/hall/plugin/game/guiyang_release_v5.08.zip",
+     "size"             : "7.5M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "捉鸡震撼发布"
+     ],
+     "md5"              : "9b13a18b7c329055f8e6b936eb4f6ea1",
+     "ver"              : "5.09",
+     "url"              : "${http_download}/hall/plugin/game/guiyang_release_v5.09_1.zip",
+     "size"             : "7.5M"
+    }
+   ],
+   "description"      : [
+    "贵阳捉鸡麻将"
+   ],
+   "gameId"           : 720,
+   "gameMark"         : "guiyang"
+  }
+ ],
+ "templates"        : [ ]
+}

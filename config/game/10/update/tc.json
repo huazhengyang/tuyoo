@@ -1,0 +1,36 @@
+{
+    "10": {
+    	"3.911":[
+            {
+                "des": "修改斗牛重构时请求消息roomid为null",
+                "updateVersion": "1",
+                "md5": "5904383aea83aaa3903bec84b7768ad2",
+                "path": "${http_download}/hall/update/douniu_3.911_roomidNull_1.zip",
+                "size": "400.8K"
+            }
+        ],
+		"3.912":[
+            {
+                "des": "修改斗牛插件2:1适配",
+                "updateVersion": "1",
+                "md5": "5cac1d733c1482fc9a088f9da8a833c3",
+                "path": "${http_download}/hall/update/douniu_3.912_adaptation_3.zip",
+                "size": "1.3M"
+            },
+            {
+                "des": "拼十奖券升级红包券",
+                "updateVersion": "2",
+                "md5": "66c71215a311d5e901e2ad2d8e099d7a",
+                "path": "${http_download}/hall/update/douniu_3.912_hongbaoquan_1.zip",
+                "size": "960KB"
+            },
+            {
+                "des": "拼十修复插件打开大厅商城有误的问题",
+                "updateVersion": "3",
+                "md5": "c09748b3f474523b6c502cda948346dd",
+                "path": "${http_download}/hall/update/douniu_3.912_shop_3.zip",
+                "size": "374KB"
+            }
+        ]
+    }
+}

@@ -1,0 +1,380 @@
+{
+    "starFishBonus": [
+        {
+            "Id": 1, 
+            "weight": 1, 
+            "clearLucky": 1, 
+            "rewards": [
+                {
+                    "count": 1, 
+                    "rare": 1, 
+                    "name": 4233
+                }
+            ]
+        }, 
+        {
+            "Id": 2, 
+            "weight": 6, 
+            "clearLucky": 0, 
+            "rewards": [
+                {
+                    "count": 1, 
+                    "rare": 0, 
+                    "name": 1194
+                }
+            ]
+        }, 
+        {
+            "Id": 3, 
+            "weight": 15, 
+            "clearLucky": 0, 
+            "rewards": [
+                {
+                    "count": 500, 
+                    "rare": 0, 
+                    "name": 1137
+                }
+            ]
+        }, 
+        {
+            "Id": 4, 
+            "weight": 12, 
+            "clearLucky": 0, 
+            "rewards": [
+                {
+                    "count": 250000, 
+                    "rare": 0, 
+                    "name": 101
+                }
+            ]
+        }, 
+        {
+            "Id": 5, 
+            "weight": 33, 
+            "clearLucky": 0, 
+            "rewards": [
+                {
+                    "count": 1, 
+                    "rare": 0, 
+                    "name": 1306
+                }
+            ]
+        }, 
+        {
+            "Id": 6, 
+            "weight": 10, 
+            "clearLucky": 0, 
+            "rewards": [
+                {
+                    "count": 1000, 
+                    "rare": 0, 
+                    "name": 103
+                }
+            ]
+        }, 
+        {
+            "Id": 7, 
+            "weight": 30, 
+            "clearLucky": 0, 
+            "rewards": [
+                {
+                    "count": 1, 
+                    "rare": 0, 
+                    "name": 1193
+                }
+            ]
+        }, 
+        {
+            "Id": 8, 
+            "weight": 75, 
+            "clearLucky": 0, 
+            "rewards": [
+                {
+                    "count": 100, 
+                    "rare": 0, 
+                    "name": 1137
+                }
+            ]
+        }, 
+        {
+            "Id": 9, 
+            "weight": 338, 
+            "clearLucky": 0, 
+            "rewards": [
+                {
+                    "count": 6666, 
+                    "rare": 0, 
+                    "name": 101
+                }
+            ]
+        }, 
+        {
+            "Id": 10, 
+            "weight": 230, 
+            "clearLucky": 0, 
+            "rewards": [
+                {
+                    "count": 30, 
+                    "rare": 0, 
+                    "name": 103
+                }
+            ]
+        }
+    ], 
+    "gameTimeBonus": [
+        {
+            "weight": 70000, 
+            "minCoin": 100, 
+            "maxCoin": 100, 
+            "luckyBoy": 0
+        }, 
+        {
+            "weight": 24000, 
+            "minCoin": 101, 
+            "maxCoin": 1000, 
+            "luckyBoy": 0
+        }, 
+        {
+            "weight": 4855, 
+            "minCoin": 1001, 
+            "maxCoin": 10000, 
+            "luckyBoy": 0
+        }, 
+        {
+            "weight": 1000, 
+            "minCoin": 10001, 
+            "maxCoin": 100000, 
+            "luckyBoy": 0
+        }, 
+        {
+            "weight": 100, 
+            "minCoin": 100001, 
+            "maxCoin": 1000000, 
+            "luckyBoy": 0
+        }, 
+        {
+            "weight": 20, 
+            "minCoin": 1000001, 
+            "maxCoin": 3000000, 
+            "luckyBoy": 0
+        }, 
+        {
+            "weight": 14, 
+            "minCoin": 3000001, 
+            "maxCoin": 8000000, 
+            "luckyBoy": 0
+        }, 
+        {
+            "weight": 9, 
+            "minCoin": 8000001, 
+            "maxCoin": 20000000, 
+            "luckyBoy": 0
+        }, 
+        {
+            "weight": 1, 
+            "minCoin": 20000000, 
+            "maxCoin": 20000000, 
+            "luckyBoy": 1
+        }
+    ], 
+    "1283": [
+        {
+            "minCoin": 100, 
+            "maxCoin": 100, 
+            "weight": 7200
+        }, 
+        {
+            "minCoin": 101, 
+            "maxCoin": 1000, 
+            "weight": 2300
+        }, 
+        {
+            "minCoin": 1001, 
+            "maxCoin": 5000, 
+            "weight": 310
+        }, 
+        {
+            "minCoin": 5001, 
+            "maxCoin": 10000, 
+            "weight": 100
+        }, 
+        {
+            "minCoin": 10001, 
+            "maxCoin": 15000, 
+            "weight": 60
+        }, 
+        {
+            "minCoin": 15001, 
+            "maxCoin": 20000, 
+            "weight": 25
+        }, 
+        {
+            "minCoin": 20000, 
+            "maxCoin": 20000, 
+            "weight": 5
+        }
+    ], 
+    "1284": [
+        {
+            "minCoin": 1000, 
+            "maxCoin": 1000, 
+            "weight": 7300
+        }, 
+        {
+            "minCoin": 1001, 
+            "maxCoin": 10000, 
+            "weight": 2200
+        }, 
+        {
+            "minCoin": 10001, 
+            "maxCoin": 50000, 
+            "weight": 310
+        }, 
+        {
+            "minCoin": 50001, 
+            "maxCoin": 100000, 
+            "weight": 100
+        }, 
+        {
+            "minCoin": 100001, 
+            "maxCoin": 150000, 
+            "weight": 60
+        }, 
+        {
+            "minCoin": 150001, 
+            "maxCoin": 200000, 
+            "weight": 25
+        }, 
+        {
+            "minCoin": 200000, 
+            "maxCoin": 200000, 
+            "weight": 5
+        }
+    ], 
+    "1285": [
+        {
+            "minCoin": 10000, 
+            "maxCoin": 10000, 
+            "weight": 7300
+        }, 
+        {
+            "minCoin": 10001, 
+            "maxCoin": 100000, 
+            "weight": 2210
+        }, 
+        {
+            "minCoin": 100001, 
+            "maxCoin": 500000, 
+            "weight": 300
+        }, 
+        {
+            "minCoin": 500001, 
+            "maxCoin": 1000000, 
+            "weight": 100
+        }, 
+        {
+            "minCoin": 1000001, 
+            "maxCoin": 1500000, 
+            "weight": 60
+        }, 
+        {
+            "minCoin": 1500001, 
+            "maxCoin": 2000000, 
+            "weight": 25
+        }, 
+        {
+            "minCoin": 2000000, 
+            "maxCoin": 2000000, 
+            "weight": 5
+        }
+    ], 
+    "1286": [
+        {
+            "minCoin": 50000, 
+            "maxCoin": 50000, 
+            "weight": 5000
+        }, 
+        {
+            "minCoin": 50001, 
+            "maxCoin": 200000, 
+            "weight": 3200
+        }, 
+        {
+            "minCoin": 200001, 
+            "maxCoin": 1000000, 
+            "weight": 1200
+        }, 
+        {
+            "minCoin": 1000001, 
+            "maxCoin": 5000000, 
+            "weight": 380
+        }, 
+        {
+            "minCoin": 5000001, 
+            "maxCoin": 10000000, 
+            "weight": 120
+        }, 
+        {
+            "minCoin": 10000001, 
+            "maxCoin": 15000000, 
+            "weight": 70
+        }, 
+        {
+            "minCoin": 15000001, 
+            "maxCoin": 20000000, 
+            "weight": 25
+        }, 
+        {
+            "minCoin": 20000000, 
+            "maxCoin": 20000000, 
+            "weight": 5
+        }
+    ], 
+    "1287": [
+        {
+            "minCoin": 100, 
+            "maxCoin": 100, 
+            "weight": 45000
+        }, 
+        {
+            "minCoin": 101, 
+            "maxCoin": 1000, 
+            "weight": 40000
+        }, 
+        {
+            "minCoin": 1001, 
+            "maxCoin": 10000, 
+            "weight": 9420
+        }, 
+        {
+            "minCoin": 10001, 
+            "maxCoin": 100000, 
+            "weight": 5000
+        }, 
+        {
+            "minCoin": 100001, 
+            "maxCoin": 1000000, 
+            "weight": 500
+        }, 
+        {
+            "minCoin": 1000001, 
+            "maxCoin": 3000000, 
+            "weight": 50
+        }, 
+        {
+            "minCoin": 3000001, 
+            "maxCoin": 8000000, 
+            "weight": 20
+        }, 
+        {
+            "minCoin": 8000001, 
+            "maxCoin": 20000000, 
+            "weight": 9
+        }, 
+        {
+            "minCoin": 20000000, 
+            "maxCoin": 20000000, 
+            "weight": 1
+        }
+    ]
+}

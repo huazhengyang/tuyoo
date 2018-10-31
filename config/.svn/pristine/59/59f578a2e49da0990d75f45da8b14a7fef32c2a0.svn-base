@@ -1,0 +1,32 @@
+{    
+    "lotterypool_config_br":{
+        "160011001": {
+            "rate": 0.2,
+            "basePool": 2000000,
+            "poolAdjust": 0,
+            "odds": {
+                "lottery_5NN": 50,
+                "lottery_WZ": 30,
+                "lottery_ZZNNW": 5,
+                "lottery_WXN": 3,
+                "lottery_ZD": 1,
+                "lottery_NN4": 1,
+                "lottery_NN3": 0.5
+            }
+        },
+        "160021001": {
+            "rate": 0.2,
+            "basePool": 2000000,
+            "poolAdjust": 0,
+            "odds": {
+                "lottery_5NN": 50,
+                "lottery_WZ": 30,
+                "lottery_ZZNNW": 5,
+                "lottery_WXN": 3,
+                "lottery_ZD": 1,
+                "lottery_NN4": 1,
+                "lottery_NN3": 0.5
+            }
+        }
+    }
+}

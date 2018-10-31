@@ -1,0 +1,150 @@
+{
+ "templates"  : [
+ ],
+ "promotions" : [
+  {
+   "promotionId": 150010701,
+   "animate"    : 1,
+   "todotasks"  : [
+    {
+     "typeId"     : "todotask.showInfo",
+     "info"       : "买卡联系:youle1218（微信）\n诚招代理:youle1188（微信）\n举报:2162952363（QQ）"
+    }
+   ],
+   "redPoint"   : [
+    {
+     "typeId"     : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName": "优乐跑得快商城",
+   "url"        : "${http_download}/hall/promote/imgs/texas_store.png",
+   "defaultRes" : ""
+  },
+  {
+   "promotionId": 150010702,
+   "animate"    : 0,
+   "todotasks"  : [
+    {
+     "typeId"     : "todotask.showInfo",
+     "info"       : "优惠买卡:aijiaxin880（微信）\n诚招代理:sqymj001（微信）\n"
+    }
+   ],
+   "redPoint"   : [
+    {
+     "typeId"     : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName": "三缺一跑得快商城",
+   "url"        : "${http_download}/hall/promote/imgs/texas_store.png",
+   "defaultRes" : ""
+  },
+  {
+   "promotionId": 150010703,
+   "animate"    : 1,
+   "todotasks"  : [
+    {
+     "subTextExt" : "好友",
+     "subText"    : "朋友圈",
+     "subCmd"     : {
+      "shareId"    : 15099,
+      "typeId"     : "todotask.sharegift.with.shareId"
+     },
+     "subCmdExt"  : {
+      "shareId"    : 15098,
+      "typeId"     : "todotask.sharegift.with.shareId"
+     },
+     "allowClose" : true,
+     "typeId"     : "todotask.showInfo",
+     "info"       : "正宗湖南跑得快\n快快邀请朋友，看谁跑得快~"
+    }
+   ],
+   "redPoint"   : [
+    {
+     "typeId"     : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName": "优乐跑得快分享推广位",
+   "url"        : "${http_download}/hall/promote/imgs/share_icon_df_fenxiang_wx.png",
+   "defaultRes" : ""
+  },
+  {
+   "promotionId": 150010704,
+   "animate"    : 1,
+   "todotasks"  : [
+    {
+     "subTextExt" : "好友",
+     "subText"    : "朋友圈",
+     "subCmd"     : {
+      "shareId"    : 21097,
+      "typeId"     : "todotask.sharegift.with.shareId"
+     },
+     "subCmdExt"  : {
+      "shareId"    : 21096,
+      "typeId"     : "todotask.sharegift.with.shareId"
+     },
+     "allowClose" : true,
+     "typeId"     : "todotask.showInfo",
+     "info"       : "正宗湖南跑得快\n快叫上朋友，看谁跑得快~"
+    }
+   ],
+   "redPoint"   : [
+    {
+     "typeId"     : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName": "三缺一跑得快分享推广位",
+   "url"        : "${http_download}/hall/promote/imgs/share_icon_df_fenxiang_wx.png",
+   "defaultRes" : ""
+  },
+  {
+   "promotionId": 150010705,
+   "animate"    : 1,
+   "todotasks"  : [
+    {
+     "typeId"     : "todotask.simple.invite"
+    }
+   ],
+   "redPoint"   : [
+    {
+     "typeId"     : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName": "跑得快邀请有礼推广位",
+   "url"        : "${http_download}/hall/promote/imgs/icon_tgw_mffk.png",
+   "defaultRes" : ""
+  },
+  {
+   "promotionId": 150011801,
+   "animate"    : 1,
+   "todotasks"  : [
+    {
+     "typeId"     : "hall.goto.free"
+    }
+   ],
+   "redPoint"   : [
+    {
+     "typeId"     : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName": "跑得快天天福利",
+   "url"        : "${http_download}/hall/promote/imgs/icon_tgw_ttfl.png",
+   "defaultRes" : ""
+  },
+  {
+   "promotionId": 150031001,
+   "animate"    : 1,
+   "todotasks"  : [
+    {
+     "productPic" : "http://df.dl.shediao.com/cdn37/difang/icon/jxmj_fangka.png",
+     "typeId"     : "todotask.buyFangka",
+     "productId"  : "phz_youle001",
+     "info"       : "使用6元购买3张房卡"
+    }
+   ],
+   "redPoint"   : [ ],
+   "displayName": "跑得快内购商城",
+   "url"        : "${http_download}/hall/promote/imgs/texas_store.png",
+   "defaultRes" : ""
+  }
+ ]
+}

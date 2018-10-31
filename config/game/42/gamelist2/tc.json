@@ -1,0 +1,1268 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、升级3.901首度亮相"
+     ],
+     "md5"              : "878871a2cf43bd170ac19aaaa3eb110c",
+     "ver"              : "3.901",
+     "url"              : "${http_download}/hall/plugin/game/tractor_release_v3.901_thirtyseventh.zip",
+     "size"             : "3.70M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、升级3.902全语音"
+     ],
+     "md5"              : "fc41b4137094ef908fd25d3324833884",
+     "ver"              : "3.902",
+     "url"              : "${http_download}/hall/plugin/game/tractor_release_v3.902_seventh.zip",
+     "size"             : "9M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、升级3.903引导&发奖优化"
+     ],
+     "md5"              : "de7374096ca13268243269ac6bc04bd6",
+     "ver"              : "3.903",
+     "url"              : "${http_download}/hall/plugin/game/tractor_release_v3.903_02.zip",
+     "size"             : "10.3"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、升级3.904金币结算优化"
+     ],
+     "md5"              : "134b487101096ff060211cc4cff6dbae",
+     "ver"              : "3.904",
+     "url"              : "${http_download}/hall/plugin/game/tractor_release_v3.904_01.zip",
+     "size"             : "10.1M"
+    }
+   ],
+   "description"      : [
+    "全民扑克游戏---升级--隆重登场"
+   ],
+   "gameId"           : 42,
+   "gameMark"         : "tractor"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "双升3.901",
+   "name"             : "tractor_v3.97_AI_test",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 2
+        },
+        "nameUrl"          : "",
+        "gameId"           : 42,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "打通关",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.902",
+        "defaultRes"       : "TractorTongGuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 38,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "发财扑克",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.801",
+        "defaultRes"       : "HongHeiDefault"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 8,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "德州",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9032",
+        "defaultRes"       : "TexasDefault2"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_classic.png",
+          "vipLevel"         : 0,
+          "gameName"         : "经典场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.816",
+          "defaultRes"       : "Classic"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 2
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_happy.png",
+          "vipLevel"         : 0,
+          "gameName"         : "欢乐场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.816",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 3
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_match.png",
+          "vipLevel"         : 0,
+          "gameName"         : "比赛场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.816",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 4
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_addition.png",
+          "vipLevel"         : 0,
+          "gameName"         : "癞子场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.816",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 5
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_solo.png",
+          "vipLevel"         : 0,
+          "gameName"         : "二人场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.816",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "DdzPack"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "双升3.97提审",
+   "name"             : "tractor_v3.97_AI_tishen",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 2
+        },
+        "nameUrl"          : "",
+        "gameId"           : 42,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "打通关",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.904",
+        "defaultRes"       : "TractorTongGuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "3.97自运营模板",
+   "name"             : "tractor_v3.97_AI_allplugin",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 2
+        },
+        "nameUrl"          : "",
+        "gameId"           : 42,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "打通关",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.904",
+        "defaultRes"       : "TractorTongGuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 8,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "德州",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.982",
+        "defaultRes"       : "TexasDefault2"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_classic.png",
+          "vipLevel"         : 0,
+          "gameName"         : "经典场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : "Classic"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 3
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_match.png",
+          "vipLevel"         : 0,
+          "gameName"         : "比赛场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 5
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_solo.png",
+          "vipLevel"         : 0,
+          "gameName"         : "二人场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 2
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_happy.png",
+          "vipLevel"         : 0,
+          "gameName"         : "欢乐场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 4
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_addition.png",
+          "vipLevel"         : 0,
+          "gameName"         : "癞子场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "DdzPack"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 13,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 31,
+          "iconUrl"          : "${http_download}/hall/plugin/img/texas_3.97_plugin_btn_fruit.png",
+          "vipLevel"         : 0,
+          "gameName"         : "大丰收",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.05",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 27,
+          "iconUrl"          : "${http_download}/hall/plugin/img/texas_3.97_plugin_btn_clown_icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "小丑",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.708",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [
+          {
+           "startLevel"       : 13,
+           "stopLevel"        : 14,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 16,
+          "iconUrl"          : "${http_download}/hall/plugin/img/texas_3.97_plugin_btn_bairenyouxi_icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "百人斗牛",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.714",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 19,
+          "iconUrl"          : "${http_download}/hall/plugin/img/texas_3.97_plugin_btn_dog_icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "跑狗",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.714",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/hall/plugin/img/club_in_tractor_20170118.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 13,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 38,
+        "iconUrl"          : "${http_download}/hall/plugin/img/ddz_honghei20171124.png",
+        "vipLevel"         : 0,
+        "gameName"         : "发财扑克",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.801",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_in_tractor_20170118.png",
+        "vipLevel"         : 0,
+        "gameName"         : "麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.780",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 13,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 23,
+        "iconUrl"          : "${http_download}/hall/plugin/img/ddz_zhongfabai20171124.png",
+        "vipLevel"         : 0,
+        "gameName"         : "天地麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.04",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 17,
+        "iconUrl"          : "${http_download}/hall/plugin/img/hall_plugin_baohuang_icon1.png",
+        "vipLevel"         : 0,
+        "gameName"         : "保皇",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "4.5712",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "较严渠道使用",
+   "name"             : "tractor_v3.97_AI_limited",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 2
+        },
+        "nameUrl"          : "",
+        "gameId"           : 42,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "打通关",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.904",
+        "defaultRes"       : "TractorTongGuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [
+        {
+         "list"             : [
+          {
+           "startTime"        : 1800,
+           "endTime"          : -1,
+           "typeId"           : "user.cond.play.time"
+          },
+          {
+           "startLevel"       : 2,
+           "stopLevel"        : -1,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "typeId"           : "user.cond.or"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 8,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "德州",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.982",
+        "defaultRes"       : "TexasDefault2"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [
+        {
+         "list"             : [
+          {
+           "startTime"        : 1800,
+           "endTime"          : -1,
+           "typeId"           : "user.cond.play.time"
+          },
+          {
+           "startLevel"       : 2,
+           "stopLevel"        : -1,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "typeId"           : "user.cond.or"
+        }
+       ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_classic.png",
+          "vipLevel"         : 0,
+          "gameName"         : "经典场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : "Classic"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 3
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_match.png",
+          "vipLevel"         : 0,
+          "gameName"         : "比赛场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 5
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_solo.png",
+          "vipLevel"         : 0,
+          "gameName"         : "二人场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 2
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_happy.png",
+          "vipLevel"         : 0,
+          "gameName"         : "欢乐场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 4
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_addition.png",
+          "vipLevel"         : 0,
+          "gameName"         : "癞子场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "DdzPack"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 13,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 31,
+          "iconUrl"          : "${http_download}/hall/plugin/img/texas_3.97_plugin_btn_fruit.png",
+          "vipLevel"         : 0,
+          "gameName"         : "大丰收",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.05",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 27,
+          "iconUrl"          : "${http_download}/hall/plugin/img/texas_3.97_plugin_btn_clown_icon.png",
+          "vipLevel"         : 1,
+          "gameName"         : "小丑",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.708",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [
+          {
+           "startLevel"       : 13,
+           "stopLevel"        : 14,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 16,
+          "iconUrl"          : "${http_download}/hall/plugin/img/texas_3.97_plugin_btn_bairenyouxi_icon.png",
+          "vipLevel"         : 1,
+          "gameName"         : "百人斗牛",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.714",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 19,
+          "iconUrl"          : "${http_download}/hall/plugin/img/texas_3.97_plugin_btn_dog_icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "跑狗",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.714",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/hall/plugin/img/club_in_tractor_20170118.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 13,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 38,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "发财扑克",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.801",
+        "defaultRes"       : "HongHeiDefault"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [
+        {
+         "list"             : [
+          {
+           "startTime"        : 1800,
+           "endTime"          : -1,
+           "typeId"           : "user.cond.play.time"
+          },
+          {
+           "startLevel"       : 2,
+           "stopLevel"        : -1,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "typeId"           : "user.cond.or"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_in_tractor_20170118.png",
+        "vipLevel"         : 0,
+        "gameName"         : "麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.780",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 13,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 23,
+        "iconUrl"          : "${http_download}/hall/plugin/img/midsendwhite_in_tractor_20170118.png",
+        "vipLevel"         : 1,
+        "gameName"         : "天地麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.04",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [
+        {
+         "list"             : [
+          {
+           "startTime"        : 1800,
+           "endTime"          : -1,
+           "typeId"           : "user.cond.play.time"
+          },
+          {
+           "startLevel"       : 2,
+           "stopLevel"        : -1,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "typeId"           : "user.cond.or"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 17,
+        "iconUrl"          : "${http_download}/hall/plugin/img/hall_plugin_baohuang_icon1.png",
+        "vipLevel"         : 0,
+        "gameName"         : "保皇",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "4.5712",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "宽松渠道使用",
+   "name"             : "tractor_v3.97_AI_limited_B",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 2
+        },
+        "nameUrl"          : "",
+        "gameId"           : 42,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "打通关",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.904",
+        "defaultRes"       : "TractorTongGuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 8,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "德州",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.982",
+        "defaultRes"       : "TexasDefault2"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_classic.png",
+          "vipLevel"         : 0,
+          "gameName"         : "经典场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : "Classic"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 3
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_match.png",
+          "vipLevel"         : 0,
+          "gameName"         : "比赛场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 5
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_solo.png",
+          "vipLevel"         : 0,
+          "gameName"         : "二人场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 2
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_happy.png",
+          "vipLevel"         : 0,
+          "gameName"         : "欢乐场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 4
+          },
+          "nameUrl"          : "",
+          "gameId"           : 6,
+          "iconUrl"          : "${http_download}/hall/plugin/img/ddzfortractor_20161227_addition.png",
+          "vipLevel"         : 0,
+          "gameName"         : "癞子场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.821",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "DdzPack"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 13,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 31,
+          "iconUrl"          : "${http_download}/hall/plugin/img/texas_3.97_plugin_btn_fruit.png",
+          "vipLevel"         : 0,
+          "gameName"         : "大丰收",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.05",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 27,
+          "iconUrl"          : "${http_download}/hall/plugin/img/texas_3.97_plugin_btn_clown_icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "小丑",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.708",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [
+          {
+           "startLevel"       : 13,
+           "stopLevel"        : 14,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 16,
+          "iconUrl"          : "${http_download}/hall/plugin/img/texas_3.97_plugin_btn_bairenyouxi_icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "百人斗牛",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.714",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 19,
+          "iconUrl"          : "${http_download}/hall/plugin/img/texas_3.97_plugin_btn_dog_icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "跑狗",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.714",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/hall/plugin/img/club_in_tractor_20170118.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 13,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 38,
+        "iconUrl"          : "${http_download}/hall/plugin/img/ddz_honghei20171124.png",
+        "vipLevel"         : 0,
+        "gameName"         : "发财扑克",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.801",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_in_tractor_20170118.png",
+        "vipLevel"         : 0,
+        "gameName"         : "麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.780",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 13,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 23,
+        "iconUrl"          : "${http_download}/hall/plugin/img/ddz_zhongfabai20171124.png",
+        "vipLevel"         : 0,
+        "gameName"         : "天地麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.04",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 17,
+        "iconUrl"          : "${http_download}/hall/plugin/img/hall_plugin_baohuang_icon1.png",
+        "vipLevel"         : 0,
+        "gameName"         : "保皇",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "4.5712",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

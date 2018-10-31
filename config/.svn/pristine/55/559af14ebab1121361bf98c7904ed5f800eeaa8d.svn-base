@@ -1,0 +1,38 @@
+{
+  "switch": 1,
+  "totalCount": 4,
+  "clientIds": [],
+  "treasureChest": {
+    "unLockSeconds": 30,
+    "videoShortenSeconds": 10,
+    "helpShortenSeconds": 10
+  },
+  "winStreak": {
+    "open": 1,
+    "chestList": [
+      {
+        "winStreak": 9,
+        "name": "9连胜黄金宝箱",
+        "level": 3,
+        "rewardDesc": "可获得任意一个心中女神",
+        "pic": "",
+        "rewards": [
+          {
+            "item": {
+              "itemId": "user:coupon",
+              "count": 100
+            },
+            "weight": 50
+          },
+          {
+            "item": {
+              "itemId": "user:chip",
+              "count": 10000
+            },
+            "weight": 50
+          }
+        ]
+      }
+    ]
+  }
+}

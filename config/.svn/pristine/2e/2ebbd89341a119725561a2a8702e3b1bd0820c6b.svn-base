@@ -1,0 +1,21 @@
+{
+	"minCoin": 2500,
+	"minCoinQS": 2500,
+	"maxCoin": -1,
+	"maxCoinQS": -1,
+	"baseBet": 100,
+	"sfee": 360,
+	"changeCardsFee": 8,
+	"bankerRange": [1, 2, 3, 4],
+	"playerScaleRanges": [[5, 7, 10, 15, 20], [5, 10, 15, 20, 25]],
+	"playerScaleC": [25],
+	"daojuScale": 0.1,
+	"name": "初生牛犊",
+	"hasrobot": 0,
+	"tableConf": {
+		"maxSeatN": 5
+	},
+	"playMode": 1,
+	"roomType": 1,
+	"typeName": "normal"
+}

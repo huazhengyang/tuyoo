@@ -1,0 +1,350 @@
+{
+	"double": 
+	{
+		"ratio": 2,
+		"start.date": "2014-12-17",
+		"end.date": "2014-12-25",
+		"start.time": "20:00",
+		"end.time": "23:00"
+	},
+	"desc": "\\${winCount}连胜，获得\\$(prize)",
+	"rooms": 
+	{
+		"700100": 
+		[
+			{
+				"winCount": 1,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 10,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "10金币"
+			},
+			{
+				"winCount": 2,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 50,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "50金币"
+			},
+			{
+				"winCount": 3,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 100,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "100金币"
+			},
+			{
+				"winCount": 4,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 200,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "200金币"
+			},
+			{
+				"winCount": 5,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 400,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "400金币"
+			},
+			{
+				"winCount": 6,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 800,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "800金币"
+			},
+			{
+				"winCount": 7,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 1200,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "1200金币"
+			},
+			{
+				"winCount": 8,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 2000,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "2000金币"
+			},
+			{
+				"winCount": 9,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 5000,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "5000金币"
+			},
+			{
+				"winCount": 10,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 100,
+							"itemId": "user:coupon"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "1.00红包券"
+			},
+			{
+				"winCount": 11,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 10000,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "10000金币"
+			}
+		],
+		"700200": 
+		[
+			{
+				"winCount": 1,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 10,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "10金币"
+			},
+			{
+				"winCount": 2,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 50,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "50金币"
+			},
+			{
+				"winCount": 3,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 100,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "100金币"
+			},
+			{
+				"winCount": 4,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 200,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "200金币"
+			},
+			{
+				"winCount": 5,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 400,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "400金币"
+			},
+			{
+				"winCount": 6,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 800,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "800金币"
+			},
+			{
+				"winCount": 7,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 1200,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "1200金币"
+			},
+			{
+				"winCount": 8,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 2000,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "2000金币"
+			},
+			{
+				"winCount": 9,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 5000,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "5000金币"
+			},
+			{
+				"winCount": 10,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 100,
+							"itemId": "user:coupon"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "1.00红包券"
+			},
+			{
+				"winCount": 11,
+				"rewards": 
+				{
+					"items": 
+					[
+						{
+							"count": 10000,
+							"itemId": "user:chip"
+						}
+					],
+					"typeId": "FixedContent"
+				},
+				"prize": "10000金币"
+			}
+		]
+	}
+}

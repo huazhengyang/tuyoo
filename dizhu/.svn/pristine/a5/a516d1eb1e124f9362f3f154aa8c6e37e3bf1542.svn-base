@@ -1,0 +1,120 @@
+{
+	"cmd":"table_call",
+	"params":{
+		"matchId":61111,
+		"roomId":610,
+		"tableId":6100001,
+		"crc":0,
+		"action":"m_table_start",
+		"mnotes":{
+			"basescore":"底分:%d,低于%d将被淘汰",
+			"type":"定局淘汰/ASS打立出局",
+			"step":"当前第%d阶段,第%d副",
+			"isStartStep":true,
+			"isFinalStep":false,
+			"startTime":"%Y-%m-%d %H:%M"
+		},
+		"seats":[
+			{'userId':10001, 'cardCount':1},
+			{'userId':10002, 'cardCount':1},
+			{'userId':10003, 'cardCount':1},
+		],
+		"mInfos":{
+			# 座位积分
+			"scores":[200, 100, 300],
+			# 座位排序
+			"rank":[2, 3, 1],
+			"all":3,
+			"info":[
+				["淘汰分:", 50],
+				[ "晋级人数:", 1]
+			]
+			"basescore":50
+		},
+		"ranks":[
+			[147, "_me525", 9000],
+			[148, "_oppox909", 9000],
+			[149, "_n7100", 9000]]
+		]
+	}
+}
+
+{
+	"cmd":"table_call",
+	"params":{
+		"matchId":61111,
+		"roomId":610,
+		"tableId":6100001,
+		"action":"m_table_info"
+		"ccrc":0,
+		"mnotes":{
+			"basescore":"底分:%d,低于%d将被淘汰",
+			"type":"定局淘汰/ASS打立出局",
+			"step":"当前第%d阶段,第%d副",
+			"isStartStep":true,
+			"isFinalStep":false,
+			"startTime":"%Y-%m-%d %H:%M",
+			"incrnote":"",
+		},
+		"seats":[
+			{'userId':10001, 'cardCount':1},
+			{'userId':10002, 'cardCount':1},
+			{'userId':10003, 'cardCount':1},
+		],
+		"mInfos":{
+			# 座位积分
+			"scores":[200, 100, 300],
+			# 座位排序
+			"rank":[2, 3, 1],
+			"all":3,
+			"info":[
+				["淘汰分:", 50],
+				[ "晋级人数:", 1]
+			]
+			"basescore":50
+		}
+	}
+}
+
+{
+	"cmd":"table_call",
+	"params":{
+		"gameId":6,
+		"matchId":610,
+		"roomId":610,
+		"tableId":6100001,
+		"ccrc":1,
+		"action":"m_table_clear"
+	}
+}
+
+{
+	"cmd":"table_call",
+	"params":{
+		"gameId":6,
+		"matchId":610,
+		"roomId":610,
+		"tableId":6100001,
+		"userId":10001,
+		"seatId":1,
+		"ccrc":1,
+		"action":"m_user_reconn"
+	}
+}
+
+game=>match
+{
+	"cmd":"m_winlose",
+	"params":{
+		"gameId":6,
+		"matchId":610,
+		"roomId":610,
+		"tableId":6100001,
+		"ccrc":1,
+		"users":[
+			{"seatId":1, "userId":10001, "deltaScore":2000},
+			{"seatId":2, "userId":10002, "deltaScore":-1000},
+			{"seatId":3, "userId":10003, "deltaScore":-1000}
+		]
+	}
+}

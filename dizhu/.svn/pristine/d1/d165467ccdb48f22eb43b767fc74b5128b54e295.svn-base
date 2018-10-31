@@ -1,0 +1,73 @@
+采用HTTP协议
+错误回应
+{
+	"ec":1, # 错误码
+	"info":"错误说明" # 错误说明
+}
+
+1. 请求比赛列表
+url: /dizhu/tupt/match/list
+参数：无
+回应:
+	{
+		"list":[
+			{
+				"name":"卫星赛",
+				"matchId":6998
+			},
+			{
+				"name":"海选赛",
+				"matchId":6997
+			}
+		]
+	}
+
+2. 请求视频列表
+url: /dizhu/tupt/match/video/list
+参数:
+	matchId: 数字类型 比赛ID
+	pageNo: 数字类型 第几页 从1开始
+	pageSize: 数字类型 每页显示几条视频
+
+回应:
+	{
+		"total":100,
+		"list":[
+			{
+				"videoId":"10001_69981", # 视频ID
+				"time":1493965831, # 时间戳
+				"name":"卫星赛",
+				"stage":"48强赛",
+				"desc":"4炸，96倍", # 描述
+				"videoUrl":"http://111.203.187.172:8040/dizhu/tupt/replay/videos/866/983/549/10041_60011001_124.json"
+			},
+			{
+				"videoId":"10002_69981", # 视频ID
+				"time":1493965831, # 时间戳
+				"name":"卫星赛",
+				"stage":"48强赛",
+				"desc":"4炸，96倍", # 描述
+				"videoUrl":"http://111.203.187.172:8040/dizhu/tupt/replay/videos/866/983/549/10041_60011001_124.json"
+			}
+		]
+	}
+
+3. 精彩牌局
+url: /dizhu/tupt/match/video/wonderfullist
+参数: 
+	matchId: 数字类型 比赛ID
+回应:
+	{
+		"list":[
+			{
+				"videoId":"10001_69981",
+		        "name":"卫星赛", # 比赛名称
+		        "stage":"192强赛",
+		        "time":1493965831, # 时间戳
+		        "desc":"4炸，96倍", # 描述
+		        "videoUrl":"http://111.203.187.172:8040/dizhu/tupt/replay/videos/866/983/549/10041_60011001_124.json",
+			}
+		]
+	}
+
+	

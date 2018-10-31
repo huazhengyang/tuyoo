@@ -1,0 +1,65 @@
+{
+    "showCond": {
+        "typeId": "user.cond.registerDays",
+        "startDays": 5,
+        "stopDays": -1
+    },
+    "games": [
+        {
+            "vipExp": [
+                100,
+                1000
+            ],
+            "gameids": [
+                {
+                    "id": 8,
+                    "icon": "${http_download}/dizhu/room/imgs/zhaoCiJi_deZhou.png"
+                },
+                {
+                    "id": 30,
+                    "icon": "${http_download}/dizhu/room/imgs/zhaoCiJi_sanZhang.png"
+                },
+                {
+                    "id": 77,
+                    "icon": "${http_download}/dizhu/room/imgs/zhaoCiJi_jinSShun.png"
+                }
+            ]
+        },
+        {
+            "vipExp": [
+                1001,
+                5000
+            ],
+            "gameids": [
+                {
+                    "id": 23,
+                    "icon": "${http_download}/dizhu/room/imgs/zhaoCiJi_tianDiMJ_2.png"
+                },
+                {
+                    "id": 38,
+                    "icon": "${http_download}/dizhu/room/imgs/zhaoCiJi_faCaiPoker_2.png"
+                }
+            ]
+        },
+        {
+            "vipExp": [
+                5001,
+                -1
+            ],
+            "gameids": [
+                {
+                    "id": 23,
+                    "icon": "${http_download}/dizhu/room/imgs/zhaoCiJi_tianDiMJ_2.png"
+                },
+                {
+                    "id": 16,
+                    "icon": "${http_download}/dizhu/room/imgs/zhaoCiJi_baiRen.png"
+                },
+                {
+                    "id": 38,
+                    "icon": "${http_download}/dizhu/room/imgs/zhaoCiJi_faCaiPoker_2.png"
+                }
+            ]
+        }
+    ]
+}

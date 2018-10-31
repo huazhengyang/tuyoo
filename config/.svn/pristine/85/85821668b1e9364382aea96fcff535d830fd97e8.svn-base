@@ -1,0 +1,36 @@
+{
+  "templates": {
+    "default": [
+      {
+        "typeId": "ddz.act.wx.seasonInfo",
+        "actId": "seasonInfo20180801",
+        "desc": "赛季信息",
+        "pic": "${http_download}/ddz/other/config/logo_match_season4.png"
+      },
+      {
+        "typeId": "ddz.act.wx.seasonInfo",
+        "actId": "seasonInfo20180901",
+        "desc": "赛季信息",
+        "pic": "${http_download}/ddz/other/config/logo_match_season5.png"
+      },
+      {
+        "typeId": "ddz.act.wx.shareCharm",
+        "actId": "shareCharm",
+        "desc": "分享排行榜",
+        "pic": "${http_download}/ddz/other/config/logo_share.png"
+      },
+      {
+        "typeId": "ddz.act.wx.active",
+        "actId": "active",
+        "desc": "活跃任务",
+        "pic": "${http_download}/ddz/other/config/logo_share.png"
+      },
+      {
+        "typeId": "ddz.act.wx.chargeBox",
+        "actId": "chargeBox",
+        "desc": "充值礼包",
+        "pic": "${http_download}/ddz/other/config/logo_share.png"
+      }
+    ]
+  }
+}

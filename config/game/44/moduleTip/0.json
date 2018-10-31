@@ -1,0 +1,64 @@
+{
+    "modules": [
+        {
+            "name": "upskill",
+            "type": 0,
+            "needReport": 0
+        },
+        {
+            "name": "newskill",
+            "type": 0,
+            "needReport": 1
+        },
+        {
+            "name": "task",
+            "type": 0,
+            "needReport": 1
+        },
+        {
+            "name": "store",
+            "type": 0,
+            "needReport": 1
+        },
+        {
+            "name": "notice",
+            "type": 0,
+            "needReport": 1
+        },
+        {
+            "name": "gunskin",
+            "type": 0,
+            "needReport": 1
+        },
+        {
+            "name": "checkin",
+            "type": 0,
+            "needReport": 0
+        },
+        {
+            "name": "activity",
+            "type": 0,
+            "needReport": 0
+        },
+        {
+            "name": "mail",
+            "type": 0,
+            "needReport": 0
+        },
+        {
+            "name": "achievement",
+            "type": 0,
+            "needReport": 0
+        },
+        {
+            "name": "chest",
+            "type": 0,
+            "needReport": 0
+        },
+        {
+            "name": "honor",
+            "type": 0,
+            "needReport": 1
+        }
+    ]
+}

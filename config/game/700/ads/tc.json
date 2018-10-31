@@ -1,0 +1,72 @@
+{
+	"templates": 
+	{
+		"guobiao_v4.55_shangxian": 
+		{
+			"interval": 5,
+			"name": "guobiao_v4.55_shangxian",
+			"ads": 
+			[
+				700111501
+			]
+		},
+		"guobiao_v4.55_AI_tishen_jiankangyouxi": 
+		{
+			"interval": 5,
+			"name": "guobiao_v4.55_AI_tishen_jiankangyouxi",
+			"ads": 
+			[
+				700102701
+			]
+		},
+		"guobiao_v4.55_AI_guoshen": 
+		{
+			"interval": 5,
+			"name": "guobiao_v4.55_AI_guoshen",
+			"ads": 
+			[
+				700102701
+			]
+		}
+	},
+	"ads": 
+	[
+		{
+			"startTime": "2017-10-27 00:00:00",
+			"id": 700102701,
+			"todotasks": 
+			[
+				{
+					"actId": "guobiao_4.55_tishen",
+					"typeId": "hall.goto.activity.byid"
+				}
+			],
+			"clickable": 1,
+			"pic": "${http_download}/hall/ads/imgs/ads_shenhegongg.png",
+			"endTime": "2018-11-03 00:00:00"
+		},
+		{
+			"startTime": "2017-11-15 00:00:00",
+			"id": 700111501,
+			"todotasks": 
+			[
+				{
+					"enter_param": 
+					{
+						"pluginParams": 
+						{
+							"gameType": 1,
+							"playMode": "xueliu"
+						},
+						"type": "roomlist"
+					},
+					"gameId": 700,
+					"typeId": "hall.goto.enter.game"
+				}
+			],
+			"clickable": 1,
+			"pic": "${http_download}/majiang/images/act/ads_mj_sichuanmajiang.png",
+			"endTime": "2017-11-22 00:00:00"
+		}
+	]
+}

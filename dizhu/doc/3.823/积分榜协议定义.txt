@@ -1,0 +1,221 @@
+1、获取积分榜总信息
+#请求
+{
+	"cmd":"dizhu",
+	"params":{
+		"action":"scoreboard",
+		"rankId":0/1  // 大小积分0：大积分 1：小积分
+	}
+}
+#返回
+{
+	"cmd":"dizhu",
+	"result":{
+		"action":"scoreboard",
+		"rankId":0/1 ,
+		"userInfo":{ // 用户自己的排行信息
+			"score":1233,
+			"rank":1,
+			"plays":10
+		},
+		"dibao":{
+			"state": 0/1/2,
+			"score":1500,
+			"plays":10,
+			"desc":"30000chip",
+			"img":"${http_download}/dizhu/room/imgs/qianYuan_dibaoReward.png""
+		}
+		"curTime": 123456789,
+		"curIssn": "20170601", // 当前期号
+		"curRank":[ // 当前期的排行信息
+			{
+				"start":1,
+				"end":1,
+				"userName":"虚位以待",
+				"userScore":0,
+				"desc":"宝箱x2\n+3000万金币",		//奖励对应的描述（取配置）
+				"cash":0/1,						//是否是红包 （取配置）
+				"img":"http://xxx.com/"			//从配置取itemId，根据itemId取到的img
+			},
+			{
+				"start":2,
+				"end":4,
+				"userName":"",
+				"userScore":23,
+				"desc":"宝箱x2\n+3000万金币",
+				"cash":0/1,
+				"img":"http://xxx.com/"
+			}
+		],
+		"hisIssns":{// 历史期的期号
+			"20170601",
+			"20170608",
+			"20170615"
+		},
+		"fameHall":[   // 名人堂
+			{
+				"issn":20170601,  // 期号
+				"name":"",
+				"img":"",
+				"score":888
+			}
+		]
+		"notReceive":[  // 往期未领的周奖
+			{
+				issn:20170601, // 期号
+				"rank":99,
+				"img":"http://xxx.com/",
+				"desc":"宝箱x2\n+3000万金币",		//奖励对应的描述（取配置）
+				"cash":0/1						//是否是红包 （取配置）
+			},
+			{
+				issn:20170601, // 期号
+				"rank":99,
+				"img":"http://xxx.com/",
+				"desc":"宝箱x2\n+3000万金币",		//奖励对应的描述（取配置）
+				"cash":0/1						//是否是红包 （取配置）
+			}
+		],
+		"desc":"计分时间：每日早9点至晚12点（各玩法高级场、大师场、星耀场可获得积分）"
+	}
+}
+
+2、获取某一期的详细排行榜
+#请求
+{
+	"cmd":"dizhu",
+	"params":{
+		"action":"score_get_rank",
+		"rankId":0/1,
+		"issn":"20170601"
+	}
+}
+#返回
+{
+	"cmd":"dizhu",
+	"result":{
+		"action":"score_get_rank",
+		"rankId":0/1,
+		"issn":"20170601",
+		"userInfo":{ // 用户自己的排行信息
+			"score":1233,
+			"rank":1
+		},
+		"rank":[
+			{
+				"me":0/1,
+				"name":"",
+				"img":"",
+				"score":1000,
+				"desc":"现金三千元"
+			}
+		]
+	}
+}
+{
+	"cmd":"dizhu",
+	"result":{
+		"action":"score_get_rank",
+		"rankId":0/1,
+		"issn":20170601,
+		"code":-1,
+		"info":""
+	}
+}
+3、领奖
+#请求
+{
+	"cmd":"dizhu",
+	"params":{
+		"action":"score_get_reward",
+		"rankId":0/1,
+		"issn":20170601, 
+		"isDibao":0/1   // 是否领取低保奖励
+	}
+}
+#返回
+{
+	"cmd":"dizhu",
+	"result":{
+		"action":"score_get_reward",
+		"rankId":0/1,
+		"issn":20170601,
+		"isDibao":0/1,
+		"rewards":[
+			{
+				"name":"金币",
+				"img":"http://xxx.com/",
+				"count":100
+			}
+		]
+	}
+}
+{
+	"cmd":"dizhu",
+	"result":{
+		"action":"score_get_reward",
+		"rankId":0/1,
+		"issn":20170601,
+		"isDibao":0/1,
+		"code":-1,
+		"info":"已领取"
+	}
+}
+
+4、获取排行榜描述
+#请求
+{
+  "cmd":"dizhu",
+  "params":{
+    "action":"score_get_rule",
+    "rankId":0/1,
+  }
+}
+#返回
+{
+  "cmd":"dizhu",
+  "result":{
+    "action":"score_get_rule",
+    "rankId":0/1,
+    "rules":[
+	  [
+		{ "type": 1, "text": "大师赛是途游三张牌的一种定时开赛多桌同时进行的比赛" },
+		{ "type": 1, "text": "玩法。所有参赛玩家在比赛开始后以同样的筹码量开始比" }
+	  ],
+	  [
+		{ "type": 1, "text": "大师赛是途游三张牌的一种定时开赛多桌同时进行的比赛" },
+		{ "type": 1, "text": "玩法。所有参赛玩家在比赛开始后以同样的筹码量开始比" }
+	  ],
+	  [
+		{ "type": 1, "text": "大师赛是途游三张牌的一种定时开赛多桌同时进行的比赛" },
+		{ "type": 1, "text": "玩法。所有参赛玩家在比赛开始后以同样的筹码量开始比" }
+	  ]
+	]
+  }
+}
+
+
+修改game_win
+
+{
+	"cmd":"table_call",
+	"result":{
+		"action":"game_win",
+		"scoreboard":{
+			"opend":1,
+			"rankId":0/1,
+			"delta":-100, 	// 积分变化
+			"rate":[		// 积分加成
+				{
+					"key":"连胜",
+					"value":0.03
+				},
+				{
+					"key":"VIP",
+					"value":0.03
+				}
+			],
+			"info":"每天9:00~23:00，可以获得积分哦！",
+		}
+	}
+}

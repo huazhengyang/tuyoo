@@ -1,0 +1,34 @@
+{
+    "templates": [{
+        "name": "7_default",
+        "applyGames": [{
+                "gameId": 700,
+                "pushToNewUser": 1,
+                "list": [{
+                    "name": "疯狂麻将",
+                    "conditions": [
+
+                    ],
+                    "todotasks": [{
+                        "enter_param": {
+                            "pluginParams": {
+                                "playMode": "guobiao"
+                            },
+                            "type": "quickstart"
+                        },
+                        "gameId": 700,
+                        "typeId": "hall.goto.enter.game"
+                    }]
+                }]
+            },
+            {
+                "gameId": 701,
+                "pushToNewUser": 0
+            },
+            {
+                "gameId": 702,
+                "pushToNewUser": 0
+            }
+        ]
+    }]
+}

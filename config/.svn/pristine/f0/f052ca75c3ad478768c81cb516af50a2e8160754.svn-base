@@ -1,0 +1,108 @@
+{
+  "switch": 1,
+  "totalCount": 4,
+  "clientIds": [23186],
+  "treasureChest": {
+    "unLockSeconds": 2400,
+    "videoShortenSeconds": 600,
+    "helpShortenSeconds": 2400
+  },
+  "winStreak": {
+    "open": 1,
+    "chestList": [
+      {
+        "winStreak": 9,
+        "name": "9连胜宝箱",
+        "level": 3,
+        "rewardDesc": "可获得任意一个心中女神",
+        "pic": "",
+        "rewards": [
+          {
+            "item": {
+              "itemId": "user:coupon",
+              "count": 10
+            },
+            "weight": 16
+          },
+          {
+            "item": {
+              "itemId": "user:coupon",
+              "count": 30
+            },
+            "weight": 21
+          },
+          {
+            "item": {
+              "itemId": "user:coupon",
+              "count": 50
+            },
+            "weight": 2
+          },
+          {
+            "item": {
+              "itemId": "user:coupon",
+              "count": 498
+            },
+            "weight": 1
+          },
+          {
+            "item": {
+              "itemId": "user:chip",
+              "count": 1500
+            },
+            "weight": 16
+          },
+          {
+            "item": {
+              "itemId": "user:chip",
+              "count": 5000
+            },
+            "weight": 21
+          },
+          {
+            "item": {
+              "itemId": "user:chip",
+              "count": 8000
+            },
+            "weight": 2
+          },
+          {
+            "item": {
+              "itemId": "user:chip",
+              "count": 15000
+            },
+            "weight": 1
+          },
+          {
+            "item": {
+              "itemId": "item:2003",
+              "count": 1
+            },
+            "weight": 10
+          },
+          {
+            "item": {
+              "itemId": "item:2003",
+              "count": 2
+            },
+            "weight": 7
+          },
+          {
+            "item": {
+              "itemId": "item:2003",
+              "count": 4
+            },
+            "weight": 2
+          },
+          {
+            "item": {
+              "itemId": "item:2003",
+              "count": 8
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+    "desc": "玩10局送三顺票", 
+    "icon": {
+        "pc": "icon_flag_must.png", 
+        "phone": "room_new.png"
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            2, 
+            1, 
+            -1
+        ], 
+        "chicken": [
+            2, 
+            1, 
+            -1
+        ], 
+        "doubleAce": [
+            2, 
+            1, 
+            1
+        ], 
+        "eggs": [
+            2, 
+            1, 
+            -1
+        ], 
+        "fishing": [
+            2, 
+            1, 
+            -1
+        ], 
+        "ring": [
+            2, 
+            1, 
+            1
+        ], 
+        "rose": [
+            2, 
+            1, 
+            1
+        ], 
+        "thumb": [
+            2, 
+            1, 
+            1
+        ]
+    }, 
+    "matchConf": {
+        "match_id": "0.0", 
+        "operator": 0
+    }, 
+    "maxCoin": 0, 
+    "maxCoinQS": 40000, 
+    "minCoin": 1000, 
+    "minCoinQS": 2000, 
+    "minTableCount": 1, 
+    "minTriggerLen": 2, 
+    "n_recycle": 3, 
+    "name": "新手场", 
+    "playMode": "classic", 
+    "rewardDealerChip": 10, 
+    "roomID": 77007, 
+    "sortId": 1, 
+    "tableConf": {
+        "bb": 50, 
+        "big_pot": 0, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 500, 
+        "buyinConf": "1", 
+        "chat_require_vip_level": 8, 
+        "commission": 0.0, 
+        "fee": 20, 
+        "flip_card_game": {
+            "bet": 0, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "isSitBigBlind": 1.0, 
+        "loading_show": 9, 
+        "lose_exp": 1, 
+        "maxSeatN": 6, 
+        "min_players": 2, 
+        "nameForPc": "新手场", 
+        "optime": 8, 
+        "pay_factor": 10.0, 
+        "pk": 1, 
+        "prebet": 50, 
+        "sb": 25, 
+        "start_card": 2, 
+        "tname": "新手场", 
+        "win_exp": 2
+    }, 
+    "triggerLen": 6, 
+    "typeName": "queue", 
+    "visible": 1
+}

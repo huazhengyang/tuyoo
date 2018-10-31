@@ -1,0 +1,121 @@
+{
+    "outs": {
+        "1": 31,
+        "2": 16,
+        "3": 10,
+        "4": 8,
+        "5": 6,
+        "6": 5,
+        "7": 4,
+        "8": 3.5,
+        "9": 3,
+        "10": 2.5,
+        "11": 2.3,
+        "12": 2,
+        "13": 1.8,
+        "14": 1.6
+    },
+    "roomIdList": [
+        8120,
+        8121,
+        8122,
+        8123,
+        8124,
+        8125,
+        8126,
+		8127
+    ],
+    "desc": [
+    {
+        "text": "Q:保险作用",
+        "type": 0
+    },
+    {
+        "text": "   减少领先玩家全下后被反超造成的损失",
+        "type": 1
+    },
+    {
+        "text": "Q:什么是Outs",
+        "type": 0
+    },
+    {
+        "text": "   所有使玩家被反超的牌叫作Outs",
+        "type": 1
+    },
+    {
+        "text": "Q:什么时候可以买保险",
+        "type": 0
+    },
+    {
+        "text": "   all in亮牌之后，发转牌和河牌之前领先玩家可以选",
+        "type": 1
+    },
+    {
+        "text": "   择购买保险防止发出Outs",
+        "type": 1
+    },
+    {
+        "text": "Q:如果有多个底池如何购买保险",
+        "type": 0
+    },
+    {
+        "text": "   只有最大底池中领先的玩家可以购买保险",
+        "type": 1
+    },
+    {
+        "text": "Q:为什么有的时候没有弹出购买保险的界面",
+        "type": 0
+    },
+    {
+        "text": "   1.Outs牌超过14张时不可以购买保险",
+        "type": 1
+    },
+    {
+        "text": "   2.涉及保险的人数超过3个时不可以购买保险",
+        "type": 1
+    },
+    {
+        "text": "   3.多名玩家领先时不可以购买保险",
+        "type": 1
+    },
+    {
+        "text": "Q:投保费是如何扣除的",
+        "type": 0
+    },
+    {
+        "text": "   投保费从背包扣除，买中保险赔付金也发放到背包",
+        "type": 1
+    },
+    {
+        "text": "Q:如何购买保险？",
+        "type": 0
+    },
+    {
+        "text": "   发转牌或河牌之前触发保险的玩家会弹出购买保险",
+        "type": 1
+    },
+    {
+        "text": "   弹窗，可通过点击不同的按钮购买不同档次的保险",
+        "type": 1
+    },
+    {
+        "text": "   1.减少损失：赔付额=玩家在该底池下注的一半",
+        "type": 1
+    },
+    {
+        "text": "   2.保本：赔付额=玩家在该底池的下注",
+        "type": 1
+    },
+    {
+        "text": "   3.等利：赔付额=该底池",
+        "type": 1
+    }
+],
+    "outsPicUrl": "http://ddz.dl.tuyoo.com/cdn37/texas/images/popwnd/Texas_peilv1.png",
+    "outsPicUrl_less" :"http://ddz.dl.tuyoo.com/cdn37/texas/images/popwnd/Texas_peilv4.png",
+    "outsPicUrl_GE_5" :"http://ddz.dl.tuyoo.com/cdn37/texas/images/popwnd/Texas_peilv3.png",
+    "insuraceTurnDisc": "转牌保费从背包扣除",
+    "insuranceRiverDesc": "河牌保费从背包扣除",
+    "limitVersion": 3.981,
+    "switch":1
+}

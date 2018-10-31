@@ -1,0 +1,36 @@
+/v1/erdayi/player/getVCode
+userId：用户ID
+sign: 签名
+authInfo: 验证信息
+{"result":{"code":0,"info":"ERR_OK","vcode":71392}}
+
+/v1/erdayi/player/bindRealInfo
+userId：用户ID
+sign: 签名
+authInfo: 验证信息
+realname：真实姓名
+idNo：身份证号码
+mobile：手机号
+vcode：验证码
+{"result":{"code":0,"info":"ERR_OK","realInfo":{"idNo":"10012347018923407","mobile":"18612012200","realname":"luwei"}}}
+
+/v1/erdayi/player/bindBankAccount
+userId：用户ID
+sign: 签名
+authInfo: 验证信息
+bankNo：开户行编号
+bankName：开户行名称
+bankAccount：开户行账号
+{"result":{"code":0,"info":"ERR_OK","bank":{"bankNo":"10923471890234","bankName":"\u5efa\u8bbe\u94f6\u884c","bankAccount":"1234092134"}}}
+
+/v1/erdayi/player/withdraw
+userId：用户ID
+sign: 签名
+authInfo: 验证信息
+{"result":{"code":0,"info":"ERR_OK","money":"100"}}
+
+/v1/erdayi/player/getInfo
+userId：用户ID
+sign: 签名
+authInfo: 验证信息
+{"result":{"code":0,"info":"ERR_OK","realInfo":{"idNo":"10","mobile":"0","realname":"op"},"bank":{"bankNo":"1001001","bankName":"10","bankAccount":"0"},"rating":{"ranking":"1","levelName":"\u5927\u5e08","g":"10","s":"1","r":"100"},"wallet":{"money":"10","status":1,"resultList":[{"matchId":"12323","matchName":"12323","ranking":"10","bonus":"100","status":0}]}}}

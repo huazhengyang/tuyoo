@@ -1,0 +1,54 @@
+{
+    "id": "activity_ddz_51bang_0427",
+    "des": "1.劳动勋章榜每天24点结算清零，奖励发放到背包\n2.本排行榜是每日获得劳动勋章数量的排行榜,每天送出万元京东卡、24K黄金扑克！",
+    "moduleId": "dumplings",
+    "typeid": 6003,
+    "name": "劳动勋章榜",
+    "server_config": {
+        "start": "2016-04-29 00:00:00",
+        "end": "2016-05-20 23:59:59"
+    },
+    "config": {
+        "pop_rank_bg_img": "${http_download}/hall/act/complete/general_btn/pop_51bang.png",
+        "activate": {
+            "mail": "恭喜您在劳动勋章榜排行活动中排名\\${ranking_num}，获得\\${assets}",
+            "credit": {
+                "userinfoHigherRewards": "再获得\\${credit_higher_dv}个\\${score_name}就能得到\\${credit_higher_item}呦",
+                "userinfoHave": "您拥有\\${score_num}个\\${score_name}",
+                "rewards": [
+                    {"desc": "英雄帖*20+特惠礼包*1","items": [ { "count": 20, "itemId": "item:1008" }, { "count": 1, "itemId": "item:1012" } ],"score": 50 },
+                    {"desc": "奖券*2000","items": [{"count": 2000,"itemId": "user:coupon"}],"score": 40 },
+                    {"desc": "奖券*1500","items": [{ "count": 1500, "itemId": "user:coupon"}],"score": 30 },
+                    {"desc": "奖券*1000","items": [{"count": 1000,"itemId": "user:coupon"}],"score": 20 },
+                    {"desc": "奖券*500","items": [{"count": 500,"itemId": "user:coupon"}],"score": 10}
+                ],
+                "userinfoNoHigher": "恭喜您达到\\${credit_max_score}\\${score_name}，获得了全部奖励！"
+            },
+            "rankingKey": "ddz_dumlings",
+            "ranking": {
+                "userLed": "\\${newuser_nickname}刚刚在爱心排行榜中超越\\${olduser_nickname}勇夺第\\${newuser_ranknumber}名，\\${ranking_current_item}在向他招手!快去[活动]看看吧",
+                "userinfoHigherRewards": "再上升\\${ranking_higher_dv}名就能得到\\${ranking_higher_item}呦",
+                "userinfoHigherRewards2": "再获得\\${ranking_higher_score_dv}\\${score_name}就能得到\\${ranking_higher_item}",
+                "userinfoRanking": "目前排名\\${ranking_num}",
+                "userinfoHave": "您今天获得了\\${score_num}\\${score_name}",
+                "userinfoRankingNotFound": "暂未进入劳动勋章榜",
+                "userinfoNoHigher": "您是第1名，\\${ranking_current_item}在向您招手！"
+            },
+            "dashifen_ratio": 0,
+            "scoreName": "劳动勋章",
+            "charge_ratio": 1,
+            "rewardsType": "ranking"
+        },
+        "rewardsDesc": [
+            {"index": "第4-10名","reward": "100万金币+周决选赛门票" },
+            {"index": "第11-50名","reward": "50万金币+周决选赛门票" },
+            {"index": "第51-100名","reward": "30万金币+周决选赛门票" },
+            {"index": "第101-200名","reward": "10万金币+周决选赛门票" },
+            {"index": "第201-500名","reward": "5万金币+周决选赛门票"  }
+        ],
+        "pop_rewards_bg_img": "${http_download}/hall/act/complete/dumplings/pop_dashibang1.png",
+        "rank_btn_img": "games/activity/dumplings/img_src/dumplings_btn_checkrank_normal.png",
+        "bg_img": "${http_download}/hall/act/complete/general_btn/act_ddz_51bang_04272.jpg",
+        "reward_btn_img": "games/activity/dumplings/img_src/dumplings_btn_checkreward_normal.png"
+    }
+},

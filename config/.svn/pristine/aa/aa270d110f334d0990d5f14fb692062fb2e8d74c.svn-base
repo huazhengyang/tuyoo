@@ -1,0 +1,162 @@
+{
+  "templates":
+  {
+      "sevenV2":{
+            "sevenStep": {
+                "1": {
+                    "taskId": [
+                        10001
+                    ],
+                    "reward": [
+                        {
+                            "itemId": "user:chip",
+                            "count": 2000,
+                            "picture":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/WP_3.png"
+                        }
+                    ]
+                },
+                "2": {
+                    "taskId": [
+                        10003
+                    ],
+                    "reward": [
+                        {
+                            "itemId": "user:coupon",
+                            "count": 100,
+                            "picture":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/streak_win_reward_coupon.png"
+                        }
+                    ]
+                },
+                "3": {
+                    "taskId": [
+                        10004
+                    ],
+                    "reward": [
+                        {
+                            "itemId": "user:coupon",
+                            "count": 100,
+                            "picture":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/streak_win_reward_coupon.png"
+                        }
+                    ]
+                },
+                "4": {
+                    "taskId": [
+                        10005
+
+                    ],
+                    "reward": [
+                        {
+                            "itemId": "user:coupon",
+                            "count": 100,
+                            "picture":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/streak_win_reward_coupon.png"
+                        }
+                    ]
+                },
+                "5": {
+                    "taskId": [
+                        10006
+                    ],
+                    "reward": [
+                        {
+                            "itemId": "user:coupon",
+                            "count": 100,
+                            "picture":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/streak_win_reward_coupon.png"
+                        }
+                    ]
+                },
+                "6": {
+                    "taskId": [
+                        10007
+
+                    ],
+                    "reward": [
+                        {
+                            "itemId": "user:coupon",
+                            "count": 100,
+                            "picture":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/streak_win_reward_coupon.png"
+                        }
+                    ]
+                },
+                "7": {
+                    "taskId": [
+                        10009
+                    ],
+                    "reward": [
+                        {
+                            "itemId": "user:coupon",
+                            "count": 680,
+                            "picture":"http://ddz.dl.tuyoo.com/cdn37/3dmajiang/streak_win_reward_coupon.png"
+                        }
+                    ]
+                }
+            },
+            "taskPool": {
+                "10001": {
+                    "playRound": 3,
+                    "bigRoomId": [
+                        201101,201102,201103,201104,201105,201109,
+                        201201,201202,201203,201204,201205,201209
+                    ],
+                    "desc": "任意玩法普通场及以上场对局3场"
+                },
+                "10002": {
+                    "share": 1,
+                    "desc": "分享朋友圈"
+                },
+                "10003": {
+                    "playRound": 5,
+                    "bigRoomId": [
+                        201101,201102,201103,201104,201105,201109,
+                        201201,201202,201203,201204,201205,201209
+                    ],
+                    "desc": "任意玩法普通场及以上场对局5场"
+                },
+                "10004": {
+                    "playRound": 3,
+                    "bigRoomId": [
+                        201102,201103,201104,201105,
+                        201202,201203,201204,201205
+                    ],
+                    "desc": "任意玩法精英场及以上场对局3场"
+                },
+                "10005": {
+                    "playRound": 5,
+                    "bigRoomId": [
+                        201102,201103,201104,201105,
+                        201202,201203,201204,201205
+                    ],
+                    "desc": "任意玩法精英场及以上场对局5场"
+                },
+                "10006": {
+                    "playRound": 5,
+                    "bigRoomId": [
+                        201103,201104,201105,
+                        201203,201204,201205
+                    ],
+                    "desc": "任意玩法土豪场及以上场对局5场"
+                },
+                "10007": {
+                    "playRound": 5,
+                    "bigRoomId": [
+                        201103,201104,201105,
+                        201203,201204,201205
+                    ],
+                    "desc": "任意玩法土豪场及以上场对局8场"
+                },
+                "10008": {
+                    "charge": 1,
+                    "desc": "充值任意金额"
+                },
+                "10009":{
+                    "playRound": 8,
+                    "bigRoomId": [
+                        201104,201105,
+                        201204,201205
+                    ],
+                    "desc": "任意玩法土豪场及以上场对局8场"
+                }
+            },
+            "period":15
+        }
+  }
+}

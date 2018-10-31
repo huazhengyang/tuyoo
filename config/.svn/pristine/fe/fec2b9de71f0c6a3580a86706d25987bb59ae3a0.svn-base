@@ -1,0 +1,158 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "满8人开赛 \n报名费用：1000金币",
+    "fees" : [
+      {
+        "count" : 1000,
+        "itemId" : "user:chip",
+        "params" : {
+          "failure" : "金币不够啦，买一个超值礼包吧！",
+          "payOrder" : {
+            "contains" : {
+              "count" : 1000,
+              "itemId" : "user:chip"
+            },
+            "shelves" : [
+              "lessbuychip"
+            ]
+          }
+        }
+      }
+    ],
+    "rank.rewards" : [
+      {
+        "desc" : "3000金币",
+        "message" : "恭喜您，在8人快速赛中获得第%d名，奖励3000金币",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 3000,
+            "itemId" : "user:chip"
+          }         
+        ]
+      },
+      {
+        "desc" : "1500金币",
+        "message" : "恭喜您，在8人快速赛中获得第%d名，奖励1500金币",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 1500,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "800金币",
+        "message" : "恭喜您，在8人快速赛中获得第%d名，奖励800金币",
+        "ranking" : {
+          "end" : 4,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 800,
+            "itemId" : "user:chip"
+          }
+        ]
+      }
+    ],
+    "recordId" : 3020,
+    "stages" : [
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "8强赛",
+        "rise.user.count" : 4,
+        "rise.user.refer" : 4,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 2,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "4强赛",
+        "rise.user.count" : 2,
+        "rise.user.refer" : 2,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 3,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "决赛",
+        "rise.user.count" : 1,
+        "rise.user.refer" : 1,
+        "seat.principles" : 2,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 0,
+      "maxplaytime" : 2200,
+      "type" : 1,
+      "user.size" : 8,
+      "table.times" : 730
+    },
+    "table.seat.count" : 2,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "8人快速赛",
+  "playDesc" : "",
+  "playMode" : "jifen",
+  "robotUserCallUpTime" : 6,
+  "robotUserMaxCount" : 64,
+  "robotUserOpTime" : [
+    1,
+    2,
+    3
+  ],
+  "roomFee" : 0,
+  "roomMutil" : 50,
+  "sendCoupon" : 0,
+  "showCard" : 0,
+  "tableConf" : {
+    "maxSeatN" : 2
+  },
+  "typeName" : "group_match",
+  "winDesc" : ""
+}

@@ -1,0 +1,3346 @@
+{
+ "templates"                    : {
+  "texas_v4.56_AI_by_online"     : {
+   "interval"                     : 3,
+   "name"                         : "texas_v4.56_AI_by_online",
+   "ads"                          : [
+    8120602
+   ]
+  },
+  "texas_v4.56_AI_highdau_fish"  : {
+   "interval"                     : 3,
+   "name"                         : "texas_v4.56_AI_highdau_fish",
+   "ads"                          : [
+    8051501,
+    8011001,
+    8032701
+   ]
+  },
+  "texas_3_72_ios_tishen"        : {
+   "desc"                         : "IOS专用提审ads模板",
+   "interval"                     : 5,
+   "name"                         : "texas_3_72_ios_tishen",
+   "ads"                          : [
+    76
+   ]
+  },
+  "texas_PC_3.70_ads"            : {
+   "interval"                     : 5,
+   "name"                         : "texas_PC_3.70_ads",
+   "ads"                          : [
+    8120103,
+    8120102
+   ]
+  },
+  "texas_v3.97_AI_360_only"      : {
+   "interval"                     : 3,
+   "name"                         : "texas_v3.97_AI_360_only",
+   "ads"                          : [
+    8051501,
+    8011001,
+    8032701
+   ]
+  },
+  "texas_3_72_ios"               : {
+   "interval"                     : 5,
+   "name"                         : "texas_3_72_ios",
+   "ads"                          : [
+    8051501,
+    8011001,
+    8032701
+   ]
+  },
+  "texas_v3.97_AI_test_ads"      : {
+   "interval"                     : 5,
+   "name"                         : "texas_v3.97_AI_test_ads",
+   "ads"                          : [
+    8032701,
+    8031502,
+    8022801,
+    8042001
+   ]
+  },
+  "texas_v3.92_I_groupchange_ads": {
+   "interval"                     : 3,
+   "name"                         : "texas_v3.92_I_groupchange_ads",
+   "ads"                          : [
+    8051501,
+    8011001,
+    8032701
+   ]
+  },
+  "texas_v3.97_A_noqq_ads"       : {
+   "interval"                     : 3,
+   "name"                         : "texas_v3.97_A_noqq_ads",
+   "ads"                          : [
+    8032701,
+    8042001
+   ]
+  },
+  "ads_texas_3_7_Android_tishen" : {
+   "interval"                     : 5,
+   "name"                         : "ads_texas_3_7_Android_tishen",
+   "ads"                          : [
+    802293,
+    803023
+   ]
+  },
+  "texas_3_72_Android"           : {
+   "interval"                     : 3,
+   "name"                         : "texas_3_72_Android",
+   "ads"                          : [
+    8051501,
+    8011001,
+    8032701
+   ]
+  },
+  "default_mac_tishen_texas"     : {
+   "desc"                         : "Mac版德州ads提审模板",
+   "interval"                     : 5,
+   "name"                         : "default_mac_tishen_texas",
+   "ads"                          : [
+    8002
+   ]
+  },
+  "default_pc_texas"             : {
+   "desc"                         : "PC3.6版ads模板",
+   "interval"                     : 5,
+   "name"                         : "default_pc_texas",
+   "ads"                          : [
+    8006,
+    8001,
+    8004,
+    8002,
+    8003,
+    8005
+   ]
+  }
+ },
+ "ads"                          : [
+  {
+   "startTime"                    : "2015-07-16 00:00:00",
+   "id"                           : 8003,
+   "clickable"                    : 0,
+   "pic"                          : "${http_download}/hall/ads/imgs/ad_texas_pc_26.jpg",
+   "endTime"                      : "2015-12-31 23:59:00"
+  },
+  {
+   "startTime"                    : "2016-01-19 00:00:00",
+   "id"                           : 801191,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_3_72_Android_1",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/springmatch118_icon.jpg",
+   "endTime"                      : "2016-01-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-01-19 00:00:00",
+   "id"                           : 801192,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_3_72_Android_3",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/newspring118_icon.jpg",
+   "endTime"                      : "2016-01-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2015-11-21 00:00:00",
+   "id"                           : 64,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : { },
+      "type"                         : "game"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/hall/ads/imgs/ads_chess_banner_20151126001.jpg",
+   "endTime"                      : "2016-08-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2015-07-16 00:00:00",
+   "id"                           : 8004,
+   "clickable"                    : 0,
+   "pic"                          : "${http_download}/hall/ads/imgs/ad_texas_pc_32.jpg",
+   "endTime"                      : "2017-12-31 23:59:59"
+  },
+  {
+   "startTime"                    : "2015-07-16 00:00:00",
+   "id"                           : 8002,
+   "clickable"                    : 0,
+   "pic"                          : "${http_download}/hall/ads/imgs/ad_texas_pc_24.jpg",
+   "endTime"                      : "2015-08-31 23:59:00"
+  },
+  {
+   "startTime"                    : "2016-02-02 00:00:00",
+   "id"                           : 802021,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_jinbisai0201",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/jinbisai0201_icon.jpg",
+   "endTime"                      : "2016-02-09 00:00:00"
+  },
+  {
+   "startTime"                    : "2015-09-20 00:00:00",
+   "id"                           : 69,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_3_72_Android_3",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/newmatch18__icon.jpg",
+   "endTime"                      : "2016-02-21 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-01-20 00:00:00",
+   "id"                           : 801201,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/1ecoin127_icon1.jpg",
+   "endTime"                      : "2016-01-27 00:00:00"
+  },
+  {
+   "startTime"                    : "2015-07-16 00:00:00",
+   "id"                           : 17014,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/hall/ads/imgs/dezhoulaba113_icon.jpg",
+   "endTime"                      : "2016-01-06 23:59:59"
+  },
+  {
+   "startTime"                    : "2015-09-20 00:00:00",
+   "id"                           : 71,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_3_72_Android_5",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/mcard18_icon.jpg",
+   "endTime"                      : "2016-02-21 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-02 00:00:00",
+   "id"                           : 802022,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_daymatch0201",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/daymatch0201_icon.jpg",
+   "endTime"                      : "2016-02-09 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-02 00:00:00",
+   "id"                           : 802023,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_shiwusai0201",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/shiwusai0201_icon.jpg",
+   "endTime"                      : "2016-02-09 00:00:00"
+  },
+  {
+   "startTime"                    : "2015-08-01 00:00:00",
+   "id"                           : 62,
+   "clickable"                    : 0,
+   "pic"                          : "${http_download}/hall/ads/imgs/pc_ad_20151121_01.jpg",
+   "endTime"                      : "2016-04-16 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-01-20 00:00:00",
+   "id"                           : 801202,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_jinshidun_0120",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/jinshidun120_icon.jpg",
+   "endTime"                      : "2016-01-27 00:00:00"
+  },
+  {
+   "startTime"                    : "2015-07-16 00:00:00",
+   "id"                           : 17008,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/freetest17_icon.jpg",
+   "endTime"                      : "2016-01-06 23:59:59"
+  },
+  {
+   "startTime"                    : "2015-10-16 00:00:00",
+   "id"                           : 8005,
+   "clickable"                    : 0,
+   "pic"                          : "${http_download}/hall/ads/imgs/ad_texas_pc_27.jpg",
+   "endTime"                      : "2015-10-23 23:59:00"
+  },
+  {
+   "startTime"                    : "2015-12-10 00:00:00",
+   "id"                           : 78,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_3_72_Android_6",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/cs1230_icon.jpg",
+   "endTime"                      : "2019-01-30 23:59:59"
+  },
+  {
+   "startTime"                    : "2015-09-20 00:00:00",
+   "id"                           : 72,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/laba113_icon.jpg",
+   "endTime"                      : "2016-02-21 00:00:00"
+  },
+  {
+   "startTime"                    : "2015-09-20 00:00:00",
+   "id"                           : 70,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_3_72_Android_2",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/ads_texas_2_20152101.jpg",
+   "endTime"                      : "2016-02-21 00:00:00"
+  },
+  {
+   "startTime"                    : "2015-12-03 00:00:00",
+   "id"                           : 76,
+   "clickable"                    : 0,
+   "pic"                          : "${http_download}/hall/ads/imgs/ads_texas_1.jpg",
+   "endTime"                      : "2018-07-31 23:59:00"
+  },
+  {
+   "startTime"                    : "2015-12-23 00:00:00",
+   "id"                           : 17005,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_general_dezhoupuke_1223",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/hall/ads/imgs/ads_dezhoupuke_1223_2.jpg",
+   "endTime"                      : "2016-01-06 23:59:59"
+  },
+  {
+   "startTime"                    : "2016-01-21 00:00:00",
+   "id"                           : 801211,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_huafeisai_0121",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/huafei121_icon.jpg",
+   "endTime"                      : "2016-01-28 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-01-19 00:00:00",
+   "id"                           : 801193,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_dezhoulaba_0113_2",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/bigpoker118_icon.jpg",
+   "endTime"                      : "2016-01-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2015-08-01 00:00:00",
+   "id"                           : 50,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_fanfanle_1019",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/hall/ads/imgs/ads_fanfanle_1112.jpg",
+   "endTime"                      : "2016-04-16 00:00:00"
+  },
+  {
+   "startTime"                    : "2015-08-01 00:00:00",
+   "id"                           : 8006,
+   "clickable"                    : 0,
+   "pic"                          : "${http_download}/hall/ads/imgs/ad_texas_pc_31.jpg",
+   "endTime"                      : "2017-08-06 00:00:00"
+  },
+  {
+   "startTime"                    : "2015-12-10 00:00:00",
+   "id"                           : 8001,
+   "clickable"                    : 0,
+   "pic"                          : "${http_download}/hall/ads/imgs/ad_texas_pc_25.jpg",
+   "endTime"                      : "2017-01-06 23:59:59"
+  },
+  {
+   "startTime"                    : "2016-02-17 00:00:00",
+   "id"                           : 802171,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_yuanxiaojie_0217",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_yuanxiaojie0222.jpg",
+   "endTime"                      : "2016-02-24 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-24 00:00:00",
+   "id"                           : 802241,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_jqhjb_0224",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/jqhjb0224_icon.jpg",
+   "endTime"                      : "2016-03-02 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-25 00:00:00",
+   "id"                           : 802251,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_4wmatch0225",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/4wmatch0225_icon.jpg",
+   "endTime"                      : "2016-03-03 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-25 00:00:00",
+   "id"                           : 802252,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_matchrise0225",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/matchrise0225_icon.jpg",
+   "endTime"                      : "2017-02-28 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-25 00:00:00",
+   "id"                           : 802253,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/1eguanjun_0226.jpg",
+   "endTime"                      : "2016-03-03 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-25 00:00:00",
+   "id"                           : 802254,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/2eguanjun_02261.jpg",
+   "endTime"                      : "2016-03-03 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-26 00:00:00",
+   "id"                           : 802261,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_coinmatch0226",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/coinmatch0226_icon.jpg",
+   "endTime"                      : "2016-03-04 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-26 00:00:00",
+   "id"                           : 802262,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/shiwu0226_icon.jpg",
+   "endTime"                      : "2016-03-04 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-26 00:00:00",
+   "id"                           : 802263,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/10e0226_icon.jpg",
+   "endTime"                      : "2016-03-04 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-27 00:00:00",
+   "id"                           : 802271,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/10e0227_icon.jpg",
+   "endTime"                      : "2016-03-05 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-27 00:00:00",
+   "id"                           : 802272,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/chaoe0227_icon.jpg",
+   "endTime"                      : "2016-03-05 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-29 00:00:00",
+   "id"                           : 802291,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/iPhone6s0228_ads.jpg",
+   "endTime"                      : "2016-03-07 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-29 00:00:00",
+   "id"                           : 802292,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20e0228_ads.jpg",
+   "endTime"                      : "2016-03-07 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-02-29 00:00:00",
+   "id"                           : 802293,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_hunter0229_image",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 0,
+   "pic"                          : "${http_download}/texas/images/ads/huangpai_beian_20170421_ads.jpg",
+   "endTime"                      : "2018-03-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-01 00:00:00",
+   "id"                           : 803011,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0229_2eGoldmatch.jpg",
+   "endTime"                      : "2016-03-08 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-01 00:00:00",
+   "id"                           : 803012,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0229_higherticketmatch.jpg",
+   "endTime"                      : "2016-03-08 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-02 00:00:00",
+   "id"                           : 803021,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0301_PS4.jpg",
+   "endTime"                      : "2016-03-09 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-02 00:00:00",
+   "id"                           : 803022,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0301_10eMatch.jpg",
+   "endTime"                      : "2016-03-09 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-02 00:00:00",
+   "id"                           : 803023,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_largesetpokerlimited_0302",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0302_largestpoker_ads.jpg",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-03 00:00:00",
+   "id"                           : 803031,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0302_10eMatch_ads.jpg",
+   "endTime"                      : "2016-03-10 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-03 00:00:00",
+   "id"                           : 803032,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0302_higherticketmatch.jpg",
+   "endTime"                      : "2016-03-10 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-04 00:00:00",
+   "id"                           : 803041,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0303_10eMatch_ads.jpg",
+   "endTime"                      : "2016-03-11 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-04 00:00:00",
+   "id"                           : 803042,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0303_smartphoneMatch.jpg",
+   "endTime"                      : "2016-03-11 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-07 00:00:00",
+   "id"                           : 803071,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0306_20eMatch.jpg",
+   "endTime"                      : "2016-03-14 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-07 00:00:00",
+   "id"                           : 803072,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0306_iPhone6Smatch.jpg",
+   "endTime"                      : "2016-03-14 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-08 00:00:00",
+   "id"                           : 803081,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0307_10eMatch_ads.jpg",
+   "endTime"                      : "2016-03-15 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-08 00:00:00",
+   "id"                           : 803082,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0307_higherticketmatch.jpg",
+   "endTime"                      : "2016-03-15 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-09 00:00:00",
+   "id"                           : 803091,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_huntermatch_0309",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0309_huntermatch_ads.jpg",
+   "endTime"                      : "2016-03-16 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-09 00:00:00",
+   "id"                           : 803092,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_specialhuntermatch_0309",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0309_specialhuntermatch2_ads.jpg",
+   "endTime"                      : "2016-03-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-10 00:00:00",
+   "id"                           : 803101,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/10e2016-3-12.jpg",
+   "endTime"                      : "2016-03-17 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-10 00:00:00",
+   "id"                           : 803102,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/chaoe2016-3-12.jpg",
+   "endTime"                      : "2016-03-17 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-16 00:00:00",
+   "id"                           : 803161,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_hero_0316",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/hero0316_icon.jpg",
+   "endTime"                      : "2016-03-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-16 00:00:00",
+   "id"                           : 803162,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_8ge0316_0316",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/8ge0316_icon.jpg",
+   "endTime"                      : "2016-03-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-16 00:00:00",
+   "id"                           : 803163,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_shiwu_0316",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/shiwu0316_icon.jpg",
+   "endTime"                      : "2016-03-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-23 00:00:00",
+   "id"                           : 803231,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_tupt0323",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/tupt0323_icon.jpg",
+   "endTime"                      : "2016-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-29 00:00:00",
+   "id"                           : 803291,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 6
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_pc_test_0329_ads.jpg",
+   "endTime"                      : "2016-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-30 00:00:00",
+   "id"                           : 803301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_yurenjie0330",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/yurenjie0330_icon.jpg",
+   "endTime"                      : "2016-04-02 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-30 00:00:00",
+   "id"                           : 803302,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_chongzhi0330a",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/chongzhi0407_icon.jpg",
+   "endTime"                      : "2016-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-03-30 00:00:00",
+   "id"                           : 803303,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_chongzhi0330i",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/chongzhi0407_icon.jpg",
+   "endTime"                      : "2016-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-05 00:00:00",
+   "id"                           : 804051,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 6
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0405_pc3.77_test_ads.jpg",
+   "endTime"                      : "2016-08-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-06 00:00:00",
+   "id"                           : 804061,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 6
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_pc_test_0406_ads.jpg",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-07 00:00:00",
+   "id"                           : 8040701,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_pokergirl_0407",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/dzmatch0412_icon.jpg",
+   "endTime"                      : "2016-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-13 00:00:00",
+   "id"                           : 8041301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_wanyuanhuafei0413",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/wanyuanhuafei0413_icon.jpg",
+   "endTime"                      : "2016-05-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-13 00:00:00",
+   "id"                           : 8041302,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_smonth0412a",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/smonth0412_icon.jpg",
+   "endTime"                      : "2016-05-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-22 00:00:00",
+   "id"                           : 8042201,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_pknlfirst0422",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/pknlfirst0422.jpg",
+   "endTime"                      : "2016-05-29 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-22 00:00:00",
+   "id"                           : 8042202,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_30ejinbi0420",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/30ejinbi0422.jpg",
+   "endTime"                      : "2016-05-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-22 00:00:00",
+   "id"                           : 8042203,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_TUPTlist0420",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/TUPTlist0422.jpg",
+   "endTime"                      : "2016-05-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-23 00:00:00",
+   "id"                           : 8042301,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 6
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0423_PC_3BillionGold_ads.jpg",
+   "endTime"                      : "2016-11-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-23 00:00:00",
+   "id"                           : 8042302,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 6
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0423_PC_TUPT_ads.jpg",
+   "endTime"                      : "2016-12-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-27 00:00:00",
+   "id"                           : 8042701,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0427_1eMachine_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0427_1eMachine_ads.jpg",
+   "endTime"                      : "2016-05-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-27 00:00:00",
+   "id"                           : 8042702,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0427_FantasyMatch_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0427_FantasyMatch_ads.jpg",
+   "endTime"                      : "2016-05-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-27 00:00:00",
+   "id"                           : 8042703,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0427_RechargeEvent_Android_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0427_RechargeEvent_ads.jpg",
+   "endTime"                      : "2016-05-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-27 00:00:00",
+   "id"                           : 8042704,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0427_RechargeEvent_IOS_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0427_RechargeEvent_ads.jpg",
+   "endTime"                      : "2016-05-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-04-27 00:00:00",
+   "id"                           : 8042705,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0427_TUPTLive_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0427_TUPTLive_ads.jpg",
+   "endTime"                      : "2016-05-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-04 00:00:00",
+   "id"                           : 8050401,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_mothersday0504",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/mothersday0504_icon1.jpg",
+   "endTime"                      : "2016-05-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-06 00:00:00",
+   "id"                           : 8050601,
+   "todotasks"                    : [
+    {
+     "actId"                        : "motherdayweixin0505_bg",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/motherdayweixin0505_icon.jpg",
+   "endTime"                      : "2016-05-13 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-06 00:00:00",
+   "id"                           : 8050602,
+   "todotasks"                    : [
+    {
+     "subStore"                     : "coin",
+     "typeId"                       : "hall.goto.shop"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/chongzhi0505_icon.jpg",
+   "endTime"                      : "2016-05-26 05:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-06 00:00:00",
+   "id"                           : 8050603,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 6
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0506_PC_MotherDay_ads.jpg",
+   "endTime"                      : "2016-05-15 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-11 00:00:00",
+   "id"                           : 8051101,
+   "todotasks"                    : [
+    {
+     "actId"                        : "huafeimatch0511_bg",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/huafeimatch0511_icon.jpg",
+   "endTime"                      : "2016-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-11 00:00:00",
+   "id"                           : 8051102,
+   "todotasks"                    : [
+    {
+     "actId"                        : "lianxudenglumatch0511_bg",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/lianxudenglumatch0511_icon.jpg",
+   "endTime"                      : "2016-05-18 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-11 00:00:00",
+   "id"                           : 8051103,
+   "todotasks"                    : [
+    {
+     "actId"                        : "motherdayhuojiang0511_bg",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/motherdayhuojiang0511_icon.jpg",
+   "endTime"                      : "2016-05-20 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-13 00:00:00",
+   "id"                           : 8051301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "TUPT0513_bg",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/TUPT0513_icon.jpg",
+   "endTime"                      : "2016-05-20 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-18 00:00:00",
+   "id"                           : 8051801,
+   "todotasks"                    : [
+    {
+     "actId"                        : "jingdongka0518_bg",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/jingdongka0519_icon.jpg",
+   "endTime"                      : "2016-12-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-18 00:00:00",
+   "id"                           : 8051802,
+   "todotasks"                    : [
+    {
+     "actId"                        : "meilibang0518_bg",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/meilibang0519_icon.jpg",
+   "endTime"                      : "2016-12-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-18 00:00:00",
+   "id"                           : 8051803,
+   "todotasks"                    : [
+    {
+     "actId"                        : "wanyuanmatch0518_bg",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/wanyuanmatch0518_icon.jpg",
+   "endTime"                      : "2016-05-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-18 00:00:00",
+   "id"                           : 8051804,
+   "todotasks"                    : [
+    {
+     "actId"                        : "zuidapaixing0518_bg",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/zuidapaixing0519_icon.jpg",
+   "endTime"                      : "2016-05-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-19 00:00:00",
+   "id"                           : 8051901,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/zuidapaixing0519_pcicon.jpg",
+   "endTime"                      : "2016-05-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-19 00:00:00",
+   "id"                           : 8051902,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/wanyuanmatch0519_pcicon.jpg",
+   "endTime"                      : "2016-05-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-19 00:00:00",
+   "id"                           : 8051903,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/meilibang0519_pcicon.jpg",
+   "endTime"                      : "2016-05-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-19 00:00:00",
+   "id"                           : 8051904,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0519_520weixin_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0519_520weixin_ads.jpg",
+   "endTime"                      : "2016-05-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-22 00:00:00",
+   "id"                           : 8052501,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0622_PC_huafeiMatch_ads.jpg",
+   "endTime"                      : "2016-07-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-25 00:00:00",
+   "id"                           : 8052502,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0525_PC_LargestPoker_ads.jpg",
+   "endTime"                      : "2016-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-25 00:00:00",
+   "id"                           : 8052503,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0525_PC_2ehunterMatch_ads.jpg",
+   "endTime"                      : "2016-12-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-01 00:00:00",
+   "id"                           : 8052504,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0601_LargestPoker_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/zuidapaixing0607_icon.jpg",
+   "endTime"                      : "2016-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-22 00:00:00",
+   "id"                           : 8052505,
+   "todotasks"                    : [
+    {
+     "actId"                        : "wanyuanmatch0518_bg",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0629_huafeiMatch_ads.jpg",
+   "endTime"                      : "2016-07-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-25 00:00:00",
+   "id"                           : 8052506,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0525_2ehunterMatch_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0525_2ehunterMatch_ads.jpg",
+   "endTime"                      : "2016-12-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-25 00:00:00",
+   "id"                           : 8052507,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0525_huafeiMatch(2)_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0525_huafeiMatch(2)_ads.jpg",
+   "endTime"                      : "2016-06-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-26 00:00:00",
+   "id"                           : 8052601,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0526_DisneyMatch_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0526_DisneyMatch_ads.jpg",
+   "endTime"                      : "2016-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-05-26 00:00:00",
+   "id"                           : 8052602,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0525_PC_DisneyMatch_ads.jpg",
+   "endTime"                      : "2016-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-01 00:00:00",
+   "id"                           : 8060101,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0601_liuyuefuli_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0601_liuyuefuli_ads.jpg",
+   "endTime"                      : "2016-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-01 00:00:00",
+   "id"                           : 8060102,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0601_DiamondMatch_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0601_DiamondMatch_ads.jpg",
+   "endTime"                      : "2016-12-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-01 00:00:00",
+   "id"                           : 8060103,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0601_PC_DiamondMatch_ads.jpg",
+   "endTime"                      : "2016-12-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-01 00:00:00",
+   "id"                           : 8060104,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/activity/zuidapaixing0607_iconpc1.jpg",
+   "endTime"                      : "2016-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-07 00:00:00",
+   "id"                           : 8060701,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0603_duanwujie_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/duanwujie0607_icon.jpg",
+   "endTime"                      : "2016-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-07 00:00:00",
+   "id"                           : 8060702,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0603_ouzhoubei_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/ouzhoubei0607_icon.jpg",
+   "endTime"                      : "2016-07-11 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-07 00:00:00",
+   "id"                           : 8060703,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/activity/duanwujie0607_sbgpc.jpg",
+   "endTime"                      : "2016-06-14 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-07 00:00:00",
+   "id"                           : 8060704,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/activity/ouzhoubei0607_sbgpc.jpg",
+   "endTime"                      : "2017-07-11 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-08 00:00:00",
+   "id"                           : 8060801,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0608_60eMatch_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0608_60eMatch_ads.jpg",
+   "endTime"                      : "2016-12-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-08 00:00:00",
+   "id"                           : 8060802,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0608_weixinduanwu_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0608_weixinduanwu_ads.jpg",
+   "endTime"                      : "2016-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-08 00:00:00",
+   "id"                           : 8060803,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0615_PC_60eMatch_ads.jpg",
+   "endTime"                      : "2016-12-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-15 00:00:00",
+   "id"                           : 8061501,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0615_PC_FatherMatch_ads.jpg",
+   "endTime"                      : "2016-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-15 00:00:00",
+   "id"                           : 8061502,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0615_60eMatchhuojiang_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/60edejiang0718_icon.jpg",
+   "endTime"                      : "2016-12-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-15 00:00:00",
+   "id"                           : 8061503,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0615_FatherMatch_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0615_FatherMatch_ads.jpg",
+   "endTime"                      : "2016-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-22 00:00:00",
+   "id"                           : 8062201,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0622_PC_TUPTgirl_ads.jpg",
+   "endTime"                      : "2016-08-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-22 00:00:00",
+   "id"                           : 8062202,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0622_TUPTgirl_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0622_TUPTgirl_ads.jpg",
+   "endTime"                      : "2016-07-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-22 00:00:00",
+   "id"                           : 8062301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0623_15ehunterMatch_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0623_15ehunterMatch_ads.jpg",
+   "endTime"                      : "2016-12-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-23 00:00:00",
+   "id"                           : 8062302,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0623_PC_15ehunterMatch_ads.jpg",
+   "endTime"                      : "2016-12-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-29 00:00:00",
+   "id"                           : 8062901,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0629_TUPTgirlMatch_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/TUPTnvshen0801_icon.jpg",
+   "endTime"                      : "2016-10-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-06-29 00:00:00",
+   "id"                           : 8062902,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0629_PC_TUPTgirlMatch_ads.jpg",
+   "endTime"                      : "2016-07-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-07-06 00:00:00",
+   "id"                           : 8070601,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0706_MatchChange_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0706_MatchChange1_ads.jpg",
+   "endTime"                      : "2016-12-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-07-06 00:00:00",
+   "id"                           : 8070602,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0706_TUPTgirlMatchPrize_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0712_TUPTgirlMatchPrize_ads.jpg",
+   "endTime"                      : "2016-10-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-07-06 00:00:00",
+   "id"                           : 8070603,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0706_PC_5eMatch_ads.jpg",
+   "endTime"                      : "2016-12-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-07-06 00:00:00",
+   "id"                           : 8070604,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0706_5eMatch_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0706_5eMatch_ads.jpg",
+   "endTime"                      : "2016-12-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-07-06 00:00:00",
+   "id"                           : 8070605,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/TUPTnvshensai0718_icon.jpg",
+   "endTime"                      : "2016-10-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-07-20 00:00:00",
+   "id"                           : 8072001,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_00720_20ezhuanshu_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20ezhuanshu0720_icon.jpg",
+   "endTime"                      : "2016-08-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-07-25 00:00:00",
+   "id"                           : 8072501,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0725_60esongpiao_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/60esongpiao_0722_icon.jpg",
+   "endTime"                      : "2016-08-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-07-28 00:00:00",
+   "id"                           : 8072801,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0728_huafeihongbao_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/huafeihongbao_0728_icon.jpg",
+   "endTime"                      : "2016-08-24 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-03 00:00:00",
+   "id"                           : 8080301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0803_7xi_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/7xi0803_icon.jpg",
+   "endTime"                      : "2016-08-09 23:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-03 00:00:00",
+   "id"                           : 8080302,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0803_aoyun_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/aoyun0803_icon.jpg",
+   "endTime"                      : "2016-08-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-10 00:00:00",
+   "id"                           : 8081001,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0810_redhuizong_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/lADOZofrkc0BfMzS_210_380.jpg",
+   "endTime"                      : "2016-08-21 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-18 00:00:00",
+   "id"                           : 8081801,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_bisaishengji0818_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/bisaishengji0818_icon.jpg",
+   "endTime"                      : "2016-08-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-18 00:00:00",
+   "id"                           : 8081802,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_xingyunjiezhi0818_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/guibinfuli0818_icon.jpg",
+   "endTime"                      : "2016-09-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-18 00:00:00",
+   "id"                           : 8081803,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_bisaishengji0818_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0823_GDtishen_match_ads.jpg",
+   "endTime"                      : "2016-09-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-18 00:00:00",
+   "id"                           : 8081804,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_xingyunjiezhi0818_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/xingyunjiezhi0818_icon1.jpg",
+   "endTime"                      : "2016-09-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-18 00:00:00",
+   "id"                           : 8081805,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_zhuanyejingjisai0818_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/zhuanyejingjisai0818_icon.jpg",
+   "endTime"                      : "2016-09-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-19 00:00:00",
+   "id"                           : 8081901,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_yuekasai0819_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/yuekasai0819_icon.jpg",
+   "endTime"                      : "2016-09-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-23 00:00:00",
+   "id"                           : 8082301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_3_72_Android_3",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/nvshensai0823_icon.jpg",
+   "endTime"                      : "2016-08-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-24 00:00:00",
+   "id"                           : 8082401,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 4
+      },
+      "type"                         : "roomlist"
+     },
+     "gameId"                       : 8,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_champion_0819_ads.jpg",
+   "endTime"                      : "2017-02-23 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-26 00:00:00",
+   "id"                           : 8082601,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_2egunxueqiu0826_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/2egunxueqiu0826_icon.jpg",
+   "endTime"                      : "2016-09-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-26 00:00:00",
+   "id"                           : 8082602,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_5ebisai0826_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/5ebisai0826_icon.jpg",
+   "endTime"                      : "2016-09-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-26 00:00:00",
+   "id"                           : 8082603,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_zhongqiugbt0826_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/zhongqiu_VIPjiabei0912_ads.jpg",
+   "endTime"                      : "2016-09-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-31 00:00:00",
+   "id"                           : 8083101,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_xinhongbao0831_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/xinhongbao0831_icon.jpg",
+   "endTime"                      : "2017-09-29 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-31 00:00:00",
+   "id"                           : 8083102,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_1dx300w0831_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/1dx300w0831_icon.jpg",
+   "endTime"                      : "2016-09-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-08-31 00:00:00",
+   "id"                           : 8083103,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_maiguniangdexiaoguochai_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/TUPTwukong.jpg",
+   "endTime"                      : "2016-09-07 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-09-07 00:00:00",
+   "id"                           : 8090701,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0907_largestpoker_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0907_largestpoker_ads.jpg",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-09-07 00:00:00",
+   "id"                           : 8090702,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0907_midmoon_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0907_midmoon_ads.jpg",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-09-14 00:00:00",
+   "id"                           : 8091401,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_5000wvip0914_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/5000wvip0914_icon.jpg",
+   "endTime"                      : "2016-09-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-09-21 00:00:00",
+   "id"                           : 8092101,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_xinyunding0921_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0922_viproom_ads.jpg",
+   "endTime"                      : "2017-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-09-21 00:00:00",
+   "id"                           : 8092102,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_baoxiangfuli0921_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/baoxiangfuli0921_icon.jpg",
+   "endTime"                      : "2016-10-27 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-09-22 00:00:00",
+   "id"                           : 8092201,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0922_rechargegift_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_0922_gift_ads.jpg",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-09-23 00:00:00",
+   "id"                           : 8092301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "chaojiyueka0923",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/chaojiyueka0923_ad_1.jpg",
+   "endTime"                      : "2016-10-31 05:00:00"
+  },
+  {
+   "startTime"                    : "2016-09-27 00:00:00",
+   "id"                           : 8092701,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_hongbaofuli0927_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/hongbaofuli0927_icon.jpg",
+   "endTime"                      : "2016-10-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-09-29 00:00:00",
+   "id"                           : 8092901,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_guangwangyouli0928_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/guangwangyouli0928_icon.jpg",
+   "endTime"                      : "2017-07-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-09-29 00:00:00",
+   "id"                           : 8092902,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_guoqing0928_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/guoqing0928_icon.jpg",
+   "endTime"                      : "2016-10-06 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-09-30 00:00:00",
+   "id"                           : 8093001,
+   "todotasks"                    : [
+    {
+     "enter_param"                  : {
+      "pluginParams"                 : {
+       "gameType"                     : 1
+      },
+      "type"                         : "game"
+     },
+     "gameId"                       : 38,
+     "typeId"                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/t3card/images/ads/H3card_0929_gameonline_ads.jpg.jpg",
+   "endTime"                      : "2016-10-10 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-10-12 00:00:00",
+   "id"                           : 8101201,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_iPhone7_1013_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/iPhone7hunter1109_ads.jpg",
+   "endTime"                      : "2016-11-30 21:57:26"
+  },
+  {
+   "startTime"                    : "2016-10-20 00:00:00",
+   "id"                           : 8102001,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_1yuanduobao1020_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/1yuanduobao1020_icon.png",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-10-24 00:00:00",
+   "id"                           : 8102401,
+   "todotasks"                    : [
+    {
+     "subStore"                     : "activity",
+     "typeId"                       : "hall.goto.shop"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_1024_reward1_ads.jpg",
+   "endTime"                      : "2017-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-10-24 00:00:00",
+   "id"                           : 8102402,
+   "todotasks"                    : [
+    {
+     "subStore"                     : "activity",
+     "typeId"                       : "hall.goto.shop"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_1024_reward2_ads.jpg",
+   "endTime"                      : "2017-06-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-10-24 00:00:00",
+   "id"                           : 8102403,
+   "todotasks"                    : [
+    {
+     "subStore"                     : "activity",
+     "typeId"                       : "hall.goto.shop"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_1024_reward3_ads.jpg",
+   "endTime"                      : "2017-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-10-25 00:00:00",
+   "id"                           : 8102501,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_monthcard1025_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/monthcard1025_icon.jpg",
+   "endTime"                      : "2016-11-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-10-26 00:00:00",
+   "id"                           : 8102601,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_wanshengmohe1026_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/wanshengmohe1026_icon1.jpg",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-10-26 00:00:00",
+   "id"                           : 8102602,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_charge_rank_1026",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/chongzhipaihang1026_icon.jpg",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-10-26 00:00:00",
+   "id"                           : 8102603,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_proptoprop_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/wanshenghuanlesong1026_bg.jpg",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-02 00:00:00",
+   "id"                           : 8110201,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_maxpoker1102_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/maxpoker1102_icon.jpg",
+   "endTime"                      : "2016-11-09 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-04 00:00:00",
+   "id"                           : 8110401,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_xianliangyueka1104_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/xianliangyueka1104_icon.jpg",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-09 00:00:00",
+   "id"                           : 8110901,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_matchadd1109_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/matchadd1109_ad.jpg",
+   "endTime"                      : "2017-11-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-09 00:00:00",
+   "id"                           : 8110902,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_1109_randomreward_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_1109_randomreward_ads.jpg",
+   "endTime"                      : "2016-12-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-14 00:00:00",
+   "id"                           : 8111401,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_1114_doubleeleven_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_1114_doubleeleven_ads.jpg",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-16 00:00:00",
+   "id"                           : 8111601,
+   "todotasks"                    : [
+    {
+     "actId"                        : "coupon_hunter1117_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/coupon_hunter1117_ads.jpg",
+   "endTime"                      : "2017-11-23 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-16 00:00:00",
+   "id"                           : 8111602,
+   "todotasks"                    : [
+    {
+     "actId"                        : "5000yuan_coupon_hunter1117_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/5000yuan_coupon_hunter1117_ads.jpg",
+   "endTime"                      : "2017-11-23 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-18 00:00:00",
+   "id"                           : 8111801,
+   "todotasks"                    : [
+    {
+     "actId"                        : "vip_rewardadd1118_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/vip_rewardadd1118_ads.jpg",
+   "endTime"                      : "2016-11-25 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-22 00:00:00",
+   "id"                           : 8112201,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_1122_thanksgiving_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_1122_thanksgivingmatch_ads.jpg",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-23 00:00:00",
+   "id"                           : 8112301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_1124_largepoker1_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_1124_highpoker_ads.jpg",
+   "endTime"                      : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-24 00:00:00",
+   "id"                           : 8112401,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_hundredsgame_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/t3card/images/ads/H3card_1123_allVisible_ads.jpg",
+   "endTime"                      : "2016-12-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-30 00:00:00",
+   "id"                           : 8113001,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_shark1130_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/shark1130_ads.jpg",
+   "endTime"                      : "2017-12-07 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-11-30 00:00:00",
+   "id"                           : 8113002,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_supercard1130_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/supercard1130_ads.jpg",
+   "endTime"                      : "2017-12-07 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-01-18 21:43:08",
+   "id"                           : 8113003,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_yuekaup_0119_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_yuekaup_0119_ads.jpg",
+   "endTime"                      : "2017-02-22 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-01 00:00:00",
+   "id"                           : 8120101,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_paomo_1201_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_paomo_1201_ads.jpg",
+   "endTime"                      : "2017-01-08 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-01 00:00:00",
+   "id"                           : 8120102,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_1201_rewardup_ads.jpg",
+   "endTime"                      : "2017-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-01 00:00:00",
+   "id"                           : 8120103,
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_1201_huntermtt_ads.jpg",
+   "endTime"                      : "2016-12-08 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-05 00:00:00",
+   "id"                           : 8120501,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_20161205_livenobutton_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_20161205_maidLive_ads.jpg",
+   "endTime"                      : "2017-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-05 00:00:00",
+   "id"                           : 8120502,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_20161205_live_ios_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_20161205_maidLive_ads.jpg",
+   "endTime"                      : "2017-07-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-05 00:00:00",
+   "id"                           : 8120503,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_20161205_upgraderewards_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_20161205_downloadreward_ads.jpg",
+   "endTime"                      : "2017-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-07 00:00:00",
+   "id"                           : 8120701,
+   "todotasks"                    : [
+    {
+     "actId"                        : "jingying_1207_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/jingying_1207_ads.jpg",
+   "endTime"                      : "2017-12-14 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-07 00:00:00",
+   "id"                           : 8120702,
+   "todotasks"                    : [
+    {
+     "actId"                        : "snow_1207_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/snow_1207_ads.jpg",
+   "endTime"                      : "2016-12-14 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-08 00:00:00",
+   "id"                           : 8120801,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_20161208_newliverdownload_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_20161208_newliver_ads.jpg",
+   "endTime"                      : "2017-03-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-08 00:00:00",
+   "id"                           : 8120802,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_20161208_newliver_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_20161208_newliver_ads.jpg",
+   "endTime"                      : "2017-05-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-12 00:00:00",
+   "id"                           : 8121201,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_20161208_livernodownload_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_20161212_liver_ads.jpg",
+   "endTime"                      : "2017-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-12 00:00:00",
+   "id"                           : 8121202,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_20161212_liver_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_20161212_liver_ads.jpg",
+   "endTime"                      : "2017-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-12 00:00:00",
+   "id"                           : 8121203,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_20161212_hireliver_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_20161212_hireliver_ads.jpg",
+   "endTime"                      : "2017-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-13 00:00:00",
+   "id"                           : 8121301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_20161213_livernodownload2_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_20161213_liver2_ads.jpg",
+   "endTime"                      : "2017-05-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-13 00:00:00",
+   "id"                           : 8121302,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_20161213_liver2_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_20161213_liver2_ads.jpg",
+   "endTime"                      : "2017-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-14 00:00:00",
+   "id"                           : 8121401,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_vip_1215_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_vip_1215_ads.jpg",
+   "endTime"                      : "2016-12-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-14 00:00:00",
+   "id"                           : 8121402,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_sharkreward_up_1215_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_sharkreward_up_1215_ads.jpg",
+   "endTime"                      : "2016-12-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2016-12-14 00:00:00",
+   "id"                           : 8121403,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_cristmas_1215_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/texas_yuandan_1229_ads.jpg",
+   "endTime"                      : "2017-12-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-01-19 00:00:00",
+   "id"                           : 801194,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_zhubo_20170119_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/zhubo_119_ads.jpg",
+   "endTime"                      : "2017-02-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-01-19 00:00:00",
+   "id"                           : 801195,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_xinnianfulisai_119_bg_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/xinnianfulisai_119_ads.jpg",
+   "endTime"                      : "2017-02-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-01-19 00:00:00",
+   "id"                           : 801196,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_yuanxiaoshengyan_119_bg_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/yuanxiaoshengyan_119_ads.jpg",
+   "endTime"                      : "2017-02-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-01-19 00:00:00",
+   "id"                           : 801197,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_xinchunfulisai_119_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/xinchunfulisai_119_ads.jpg",
+   "endTime"                      : "2017-02-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-02-07 00:00:00",
+   "id"                           : 8020701,
+   "todotasks"                    : [
+    {
+     "actId"                        : "yuanxiaosaisongpiao_20170207_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/yuanxiaosaisongpiao_207_ads1.jpg",
+   "endTime"                      : "2017-02-28 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-02-11 00:00:00",
+   "id"                           : 8021101,
+   "todotasks"                    : [
+    {
+     "actId"                        : "qingrenjie_20170211_bg_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/qingrenjie_20170211_ads1.jpg",
+   "endTime"                      : "2017-02-15 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-02-15 00:00:00",
+   "id"                           : 8021501,
+   "todotasks"                    : [
+    {
+     "actId"                        : "matchup_20170215_bg_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/matchup_20170215_ads.jpg",
+   "endTime"                      : "2018-02-06 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-02-22 00:00:00",
+   "id"                           : 8022201,
+   "todotasks"                    : [
+    {
+     "actId"                        : "ticket_20170505_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/2017112_pay_ads.jpg",
+   "endTime"                      : "2017-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-02-22 00:00:00",
+   "id"                           : 8022202,
+   "todotasks"                    : [
+    {
+     "actId"                        : "weixin500yuan_20170223_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/weixin500yuan_20170223_ads.jpg",
+   "endTime"                      : "2017-03-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-02-23 00:00:00",
+   "id"                           : 8022301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "1whuafei_20170223_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/1whuafei_20170223_ads.jpg",
+   "endTime"                      : "2017-05-03 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-02-28 00:00:00",
+   "id"                           : 8022801,
+   "todotasks"                    : [
+    {
+     "actId"                        : "redmatch_20170228_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/redmatch5000_20170313_ads.jpg",
+   "endTime"                      : "2017-07-26 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-03-08 00:00:00",
+   "id"                           : 803083,
+   "todotasks"                    : [
+    {
+     "actId"                        : "VipIphone_20170308_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/VipIphone_20170308_ads.jpg",
+   "endTime"                      : "2017-03-16 20:30:00"
+  },
+  {
+   "startTime"                    : "2017-03-09 00:00:00",
+   "id"                           : 803093,
+   "todotasks"                    : [
+    {
+     "actId"                        : "sendredticketsAnd_20170309_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/sendredtickets_20170311_ads.jpg",
+   "endTime"                      : "2017-03-16 04:00:00"
+  },
+  {
+   "startTime"                    : "2017-03-09 00:00:00",
+   "id"                           : 803094,
+   "todotasks"                    : [
+    {
+     "actId"                        : "sendredticketsIOS_20170309_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/sendredtickets_20170311_ads.jpg",
+   "endTime"                      : "2017-03-16 04:00:00"
+  },
+  {
+   "startTime"                    : "2017-03-16 04:00:00",
+   "id"                           : 8031501,
+   "todotasks"                    : [
+    {
+     "actId"                        : "earnchip_free_20170315_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/earnchip_free_20170315_ads.jpg",
+   "endTime"                      : "2018-03-22 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-03-16 04:00:00",
+   "id"                           : 8031502,
+   "todotasks"                    : [
+    {
+     "actId"                        : "seriesmatch_master_20170315_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/master_new_20170517.jpg",
+   "endTime"                      : "2018-03-22 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-03-21 22:17:57",
+   "id"                           : 8032101,
+   "todotasks"                    : [
+    {
+     "actId"                        : "achievement_online_20170321_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/achievement_online_20170321_ads.jpg",
+   "endTime"                      : "2017-03-30 04:00:00"
+  },
+  {
+   "startTime"                    : "2017-04-06 16:25:52",
+   "id"                           : 8032701,
+   "todotasks"                    : [
+    {
+     "actId"                        : "wanyuan_20170503_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20180307_schedule_ads.jpg",
+   "endTime"                      : "2018-04-30 01:00:00"
+  },
+  {
+   "startTime"                    : "2017-04-20 00:00:00",
+   "id"                           : 8042001,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_texas_realnamereg_170420",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/hall/ads/imgs/ads_RealName_baidu_170316.png",
+   "endTime"                      : "2018-04-27 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-04-25 17:40:56",
+   "id"                           : 8042501,
+   "todotasks"                    : [
+    {
+     "actId"                        : "mouthcard_20170425_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20170621_vip_ticket_ad.jpg",
+   "endTime"                      : "2017-06-21 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-04-26 19:09:50",
+   "id"                           : 8042601,
+   "todotasks"                    : [
+    {
+     "actId"                        : "redmatch_51_20170426_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20170816_hunter_ad.jpg",
+   "endTime"                      : "2017-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-04-26 00:00:00",
+   "id"                           : 8042602,
+   "todotasks"                    : [
+    {
+     "actId"                        : "freeshiwu_51_20170426_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/freeshiwu_51_20170426_ads.jpg",
+   "endTime"                      : "2017-05-03 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-05-03 00:00:00",
+   "id"                           : 8050301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "wanyuan_20170503_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20170517_new_red_ad.jpg",
+   "endTime"                      : "2017-07-05 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-05-05 00:00:00",
+   "id"                           : 8050501,
+   "todotasks"                    : [
+    {
+     "actId"                        : "ticket_20170505_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20170726_pay_ad.jpg",
+   "endTime"                      : "2017-08-03 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-05-11 00:00:00",
+   "id"                           : 8051104,
+   "todotasks"                    : [
+    {
+     "actId"                        : "motherday_20170511",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20171206_newyear_ads.jpg",
+   "endTime"                      : "2018-01-02 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-05-15 00:00:00",
+   "id"                           : 8051501,
+   "todotasks"                    : [
+    {
+     "actId"                        : "mouth_master_20170413_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20180316_spring_ads.jpg",
+   "endTime"                      : "2018-03-22 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-05-19 00:00:00",
+   "id"                           : 8051905,
+   "todotasks"                    : [
+    {
+     "actId"                        : "insurance_20170519",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20170519_insurance.jpg",
+   "endTime"                      : "2017-10-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-05-24 00:00:00",
+   "id"                           : 8052401,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_0603_duanwujie_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20170719_allin_ad.jpg",
+   "endTime"                      : "2017-10-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-05-26 00:00:00",
+   "id"                           : 8052603,
+   "todotasks"                    : [
+    {
+     "actId"                        : "activity_20170601_watch",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20171208_hunter_ads.jpg",
+   "endTime"                      : "2017-12-13 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-06-08 00:00:00",
+   "id"                           : 8060804,
+   "todotasks"                    : [
+    {
+     "actId"                        : "red_20170608_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20170927_iphonex_ads.jpg",
+   "endTime"                      : "2017-10-09 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-08-09 00:00:00",
+   "id"                           : 8080901,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_1yuanduobao1020_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20171101_secretbox_ads.png",
+   "endTime"                      : "2017-11-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-08-12 00:00:00",
+   "id"                           : 8081201,
+   "todotasks"                    : [
+    {
+     "actId"                        : "fanfanle_20170812_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20170812_fanfanle_ad.jpg",
+   "endTime"                      : "2017-08-19 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-08-30 00:00:00",
+   "id"                           : 8083001,
+   "todotasks"                    : [
+    {
+     "actId"                        : "wanyuan_20170503_activity",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20170929_schedule_ads.jpg",
+   "endTime"                      : "2017-10-09 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-09-13 00:00:00",
+   "id"                           : 8091301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "iphone_activity_20170901",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20170914_hunter_ad.jpg",
+   "endTime"                      : "2017-10-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-12-25 00:00:00",
+   "id"                           : 8101701,
+   "todotasks"                    : [
+    {
+     "actId"                        : "mounth_ticket_20171018",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20171226_pay_ads.jpg",
+   "endTime"                      : "2018-01-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-10-19 00:00:00",
+   "id"                           : 8101901,
+   "todotasks"                    : [
+    {
+     "actId"                        : "20171019_happymatch_",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20171213_happymatch_ads.jpg",
+   "endTime"                      : "2018-01-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-11-28 00:00:00",
+   "id"                           : 8112801,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_winner_phone_20171128",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20180230_gold_ads.jpg",
+   "endTime"                      : "2018-04-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-12-06 00:00:00",
+   "id"                           : 8120601,
+   "todotasks"                    : [
+    {
+     "actId"                        : "360_texas_master",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20171206_360_ads.jpg",
+   "endTime"                      : "2018-01-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-12-06 00:00:00",
+   "id"                           : 8120602,
+   "todotasks"                    : [
+    {
+     "actId"                        : "hunterfish_texas",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20171206_fish_ads.png",
+   "endTime"                      : "2018-03-30 00:00:00"
+  },
+  {
+   "startTime"                    : "2017-12-20 00:00:00",
+   "id"                           : 8122001,
+   "todotasks"                    : [
+    {
+     "actId"                        : "texas_merrychrismas",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20171227_newyear_ads.jpg",
+   "endTime"                      : "2018-01-01 00:00:00"
+  },
+  {
+   "startTime"                    : "2018-01-03 00:00:00",
+   "id"                           : 8010301,
+   "todotasks"                    : [
+    {
+     "actId"                        : "20180109_redcoupon",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20180110_redcoupon_ads.jpg",
+   "endTime"                      : "2018-01-31 00:00:00"
+  },
+  {
+   "startTime"                    : "2018-01-10 00:00:00",
+   "id"                           : 8011001,
+   "todotasks"                    : [
+    {
+     "actId"                        : "20180110_goldflush",
+     "typeId"                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                    : 1,
+   "pic"                          : "${http_download}/texas/images/ads/20180324_gold_ads.jpg",
+   "endTime"                      : "2018-04-02 00:00:00"
+  }
+ ]
+}

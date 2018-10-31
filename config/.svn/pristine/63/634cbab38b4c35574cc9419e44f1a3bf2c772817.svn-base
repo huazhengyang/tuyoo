@@ -1,0 +1,68 @@
+{
+  "_comments": [
+    "打通关配置"
+  ],
+  "tips": [
+    "主牌可能与自己等级不一致，但不会影响到自己等级的结算。",
+    "我方牌型大时，可出分牌跑分；对方牌型大时，尽量不出分。",
+    "亮主时一定要眼疾手快，不然会被别人抢先。",
+    "打通关玩法胜利方升级，失败方不降级。",
+    "时间不够不要紧，退出游戏会帮您保留当前的等级和庄闲。",
+    "每次通关都可以获得话费卡奖励。",
+    "一局游戏最多可以连升3级。"
+  ],
+  "reward": {
+    "item:4178": 1
+  },
+  "energyPotionPropId": 1129,
+  "levelNeedEnergy": {
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 1,
+    "T": 1,
+    "J": 1,
+    "Q": 1,
+    "K": 1,
+    "A": 1
+  },
+  "banClientIdList":[
+    "Android_3.97_360.360.0-hall42.360.tu"
+  ],
+  "dayFreeEnergy": 5,
+  "share": {
+    "clientId": "IOS_3.80_share.share.0-hall42.tuyoo.share",
+    "domain": "share.tractor.guludao.com",
+    "downloadPage": "http://ddz.dl.tuyoo.com/cdn37/42/dl/dl.html",
+    "downloadPageShort": "http://t.cn/RMIeOlc",
+    "rewardForSharer": {
+      "item:1129": [1, "请在背包中使用"]
+    },
+    "rewardForNewUser": {
+      "item:4178": [1, "请进入游戏打开背包使用"]
+    },
+    "shareId": 113
+  },
+  "levelChip": {
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "T": 0,
+    "J": 0,
+    "Q": 0,
+    "K": 0,
+    "A": 0
+  },
+  "banClientIds":[
+     "Android_3.97_360.360.0-hall42.360.tu"
+   ]
+}

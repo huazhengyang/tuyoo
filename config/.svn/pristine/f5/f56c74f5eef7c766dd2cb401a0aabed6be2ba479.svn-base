@@ -1,0 +1,115 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 42122003,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 42122002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 42122001,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 42122001,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      },
+      {
+       "promotionId" : 42122004,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "tractor_v3.97_AI_online_promote"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "tractor_v3.97_A_GDtishen_promote"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 42122001,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "双升首充",
+   "url"         : "${http_download}/tractor/images/promote/tractor_20161227_firstrecharge_promote.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 42122002,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.lottery"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "双升幸运抽奖",
+   "url"         : "${http_download}/tractor/images/promote/tractor_20161227_luckywheel_promote.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 42122003,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.free"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "双升天天福利",
+   "url"         : "${http_download}/tractor/images/promote/tractor_20161227_dailyrewards_promote.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 42122004,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subStore"    : "coin",
+     "typeId"      : "hall.goto.shop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "双升商城",
+   "url"         : "${http_download}/tractor/images/promote/tractor_20161227_shop_promote.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

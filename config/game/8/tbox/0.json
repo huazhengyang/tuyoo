@@ -1,0 +1,62 @@
+{
+    "comments": [
+        "重置方式day start cycle repeat",
+        "例1： 'day 20160301 3 1' 表示： 20160301开始显示，3天后(20160304)重置，重置一次后消失",
+        "例2： 'day 20160301 3 0' 表示： 20160301开始显示，任务周期为3天，次数0表示无限循环下去"
+    ],
+    "texas.new.tbox.missions":{
+        "8101.0.0":  ["manual",     "play",     5,     "login",        "tbox_shark.png",      [{"masterScore": 1},      "下载新版更多奖励",  "送鲨鱼分x1", "更多新任务请下载最新版本"]],
+        "8102.0.0":  ["manual",     "play",     5,     "login",        "tbox_shark.png",      [{"masterScore": 1},      "下载新版更多奖励",  "送鲨鱼分x1", "更多新任务请下载最新版本"]],
+        "8103.0.0":  ["manual",     "play",     5,     "login",        "tbox_shark.png",      [{"masterScore": 1},      "下载新版更多奖励",  "送鲨鱼分x1", "更多新任务请下载最新版本"]],
+        "8104.0.0":  ["manual",     "play",     5,     "login",        "tbox_shark.png",      [{"masterScore": 1},     "下载新版更多奖励",  "送鲨鱼分x1", "更多新任务请下载最新版本"]],
+        "8121.0.0":  ["manual",     "play",     5,     "login",        "tbox_shark.png",      [{"masterScore": 1},     "下载新版更多奖励",  "送鲨鱼分x1", "更多新任务请下载最新版本"]],
+        "8122.0.0":  ["manual",     "play",     5,     "login",        "tbox_shark.png",      [{"masterScore": 1},     "下载新版更多奖励",  "送鲨鱼分x1", "更多新任务请下载最新版本"]],
+        "8123.0.0":  ["manual",     "play",     5,      "done",         "tbox_shark.png",      [{"masterScore": 1},    "下载新版更多奖励",  "送鲨鱼分x1", "更多新任务请下载最新版本"],"popbox"],       
+        "8127.0.0":  ["manual",     "play",     5,      "done",         "tbox_shark.png",      [{"masterScore": 1},    "下载新版更多奖励",  "送鲨鱼分x1", "更多新任务请下载最新版本"],"popbox"],
+        "8124.0.0":  ["manual",     "play",     5,      "done",         "tbox_shark.png",      [{"masterScore": 1},    "下载新版更多奖励",  "送鲨鱼分x1", "更多新任务请下载最新版本"],"popbox"],
+        "8125.0.0":  ["manual",     "play",     5,      "done",         "tbox_shark.png",      [{"masterScore": 1},    "下载新版更多奖励",  "送鲨鱼分x1", "更多新任务请下载最新版本"],"popbox"],    
+        "8126.0.0":  ["manual",     "play",     5,      "done",         "tbox_shark.png",      [{"masterScore": 1},    "下载新版更多奖励",  "送鲨鱼分x1", "更多新任务请下载最新版本"],"popbox"],
+        "8127.0.0":  ["manual",     "play",     5,      "done",         "tbox_shark.png",      [{"masterScore": 1},    "下载新版更多奖励",  "送鲨鱼分x1", "更多新任务请下载最新版本"],"popbox"]
+    },
+
+    "texas.tbox_new_active.config": {
+        "2015 09 13 00 00 ~ 2016 06 01 00 00": [
+        {
+            "tseg": "00:00~23:59", "type": "times", "missions": ["8123.0.0"],
+            "time": [{"coupon": 100}, "加赠时间,10倍", "100 coupon", "100 红包券"],
+            "vip": {
+                "0": [{"coupon": 3}, "吉祥每玩满6局", "送红包券:3", "完成6局任务送红包券x3，成为VIP1将获得4张"],
+                "1": [{"coupon": 4}, "吉祥每玩满6局", "VIP1送红包券:3+1", "VIP1完成6局任务送红包券x4"],
+                "2": [{"coupon": 4}, "吉祥每玩满6局", "VIP2送红包券:3+1", "VIP2完成6局任务送红包券x4，成为VIP3将获得5张"],
+                "3": [{"coupon": 5}, "吉祥每玩满6局", "VIP3送红包券:3+2", "VIP3完成6局任务送红包券x5"],
+                "4": [{"coupon": 5}, "吉祥每玩满6局", "VIP4送红包券:3+2", "VIP4完成6局任务送红包券x5，成为VIP5将获得6张"],
+                "5": [{"coupon": 6}, "吉祥每玩满6局", "VIP5送红包券:3+3", "VIP5完成6局任务送红包券x6，成为VIP6将获得7张"],
+                "6": [{"coupon": 7}, "吉祥每玩满6局", "VIP6送红包券:3+4", "VIP6完成6局任务送红包券x7，成为VIP7将获得9张"],
+                "7": [{"coupon": 9}, "吉祥每玩满6局", "VIP7送红包券:3+6", "VIP7完成6局任务送红包券x9"]
+            },
+            "member": [{"coupon": 17}, "会员加赠", "17 红包券", "17红包券"],
+            "times": 3.5
+        },
+        {
+            "tseg": "00:00~23:59", "type": "times", "missions": ["8124.0.0"],
+            "times": 1
+        },
+        {
+            "tseg": "00:00~23:59", "type": "times", "missions": ["8125.0.0"],
+            "times": 1
+        },
+        {
+            "tseg": "00:00~23:59", "type": "times", "missions": ["8126.0.0"],
+            "times": 1
+        },
+        {
+            "tseg": "00:00~23:59", "type": "times", "missions": ["8129.0.0"],
+            "times": 1
+        },
+        {
+            "tseg": "00:00~23:59", "type": "times", "missions": ["8130.0.0"],
+            "times": 1
+        }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+比赛日历
+
+"cmd":"dizhu",
+"result":{
+	"action":"match_calendar",
+	"matchs":[
+		{
+			"id":6058,
+			"name":"奢侈品赛|MCM女包",
+			"time":"15:00~18:00",
+			"img":"http://",
+			"totle":30,
+			"progress":0
+		},
+		{
+			"id":6059,
+			"name":"美食赛|小龙虾",
+			"time":"15:00~18:00",
+			"img":"http://",
+			"totle":30,
+			"progress":0
+		},
+		{
+			"id":6060,
+			"name":"奢侈品赛|MCM女包",
+			"time":"15:00~18:00",
+			"img":"http://",
+			"totle":30,
+			"progress":0
+		}
+	],
+	"dates":[
+		{
+			"date": "今天大奖"
+			"img":"http://"
+		},
+		{
+			"date": "明天大奖"
+			"img":"http://"
+		}
+	}
+	],
+	"money":"10万"
+}

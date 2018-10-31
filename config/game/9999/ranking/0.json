@@ -1,0 +1,5170 @@
+{
+    "list": [
+	  {
+            "rankingId": "100770104",
+            "name": "赛事积分周榜",
+            "desc": "赛事积分周榜是大师赛积分的排行榜，每周日24:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+				77
+            ],
+            "inputType": "mtt",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_guan.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110007002",
+            "name": "雀神榜",
+            "desc": "本周雀神分排行！每周一00:00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                7
+            ],
+            "inputType": "dashifen",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": [
+                {
+                    "start": 1,
+                    "end": 1,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "雀神之翼永久",
+                        "items": [
+                            {
+                                "itemId": "item:4125",
+                                "count": 365
+                            }
+                        ]
+                    }
+                },
+                {
+                    "start": 2,
+                    "end": 2,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "雀神之翼15天",
+                        "items": [
+                            {
+                                "itemId": "item:4125",
+                                "count": 15
+                            }
+                        ]
+                    }
+                },
+                {
+                    "start": 3,
+                    "end": 3,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "888888金币",
+                        "items": [
+                            {
+                                "itemId": "user:chip",
+                                "count": 888888
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "rankingId": "110000001",
+            "name": "财富榜",
+            "desc": "高富帅和白富美的聚集地！",
+            "totalNumber": 0,
+            "gameIds": [
+                0
+            ],
+            "inputType": "chip",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110000003",
+            "name": "魅力榜",
+            "desc": "魅力排行榜，人气之星！每周一00:00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                0
+            ],
+            "inputType": "charm",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/charm_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100008006",
+            "name": "魅力榜",
+            "desc": "魅力排行榜，人气之星！",
+            "totalNumber": 0,
+            "gameIds": [
+                8
+            ],
+            "inputType": "charm_incr",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/charm_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100008004",
+            "name": "总奖金周榜",
+            "desc": "本周赢取总奖金排行，人人都是大赢家！",
+            "totalNumber": 0,
+            "gameIds": [
+                8
+            ],
+            "inputType": "winChip",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": [
+                {
+                    "start": 1,
+                    "end": 1,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "7天牌神之翼+100万金币",
+                        "items": [
+                            {
+                                "itemId": "item:4124",
+                                "count": 7
+                            },
+                            {
+                                "itemId": "user:chip",
+                                "count": 1000000
+                            }
+                        ]
+                    }
+                },
+                {
+                    "start": 2,
+                    "end": 3,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "7天荣耀之翼+50万金币",
+                        "items": [
+                            {
+                                "itemId": "item:4126",
+                                "count": 7
+                            },
+                            {
+                                "itemId": "user:chip",
+                                "count": 500000
+                            }
+                        ]
+                    }
+                },
+                {
+                    "start": 4,
+                    "end": 10,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "20万金币",
+                        "items": [
+                            {
+                                "itemId": "user:chip",
+                                "count": 200000
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "rankingId": "100008005",
+            "name": "PK榜",
+            "desc": "今日PK榜，每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                8
+            ],
+            "inputType": "pk",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/pk.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100008106",
+            "name": "翻牌赢钱榜",
+            "desc": "每日翻牌赢钱榜，每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                8
+            ],
+            "inputType": "dzfcWinChip",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_texas_1.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_texas_2.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_texas_3.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100008107",
+            "name": "赛事积分周榜",
+            "desc": "赛事积分是SNG积分和MTT积分的总和。",
+            "totalNumber": 0,
+            "gameIds": [
+                8
+            ],
+            "inputType": "mttsng",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_guan.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100008108",
+            "name": "SNG积分周榜",
+            "desc": "SNG积分可通过在坐满即玩赛事中取得名次获得。",
+            "totalNumber": 0,
+            "gameIds": [
+                8
+            ],
+            "inputType": "sng",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_guan.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100008109",
+            "name": "MTT积分周榜",
+            "desc": "MTT积分可通过在锦标赛中取得名次获得。",
+            "totalNumber": 0,
+            "gameIds": [
+                8
+            ],
+            "inputType": "mtt",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_guan.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100001002",
+            "name": "金花王",
+            "desc": "今日金花榜，谁的水平高，来比比看吧！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                3
+            ],
+            "inputType": "dashifen",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_3.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100006002",
+            "name": "大师榜",
+            "desc": "今日大师分排行，谁的水平高，来斗斗看吧！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                6
+            ],
+            "inputType": "dashifen",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_6.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100006003",
+            "name": "大师榜",
+            "desc": "每日获取大师分排行，谁的水平高，来斗斗看吧！实时更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                6
+            ],
+            "inputType": "dashifen_incr",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_6.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": [
+                {
+                    "start": 1,
+                    "end": 10,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "7天恶魔角饰+特惠礼包*1",
+                        "items": [
+                            {
+                                "itemId": "item:4106",
+                                "count": 7
+                            },
+                            {
+                                "itemId": "item:1012",
+                                "count": 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "start": 11,
+                    "end": 20,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "7天多彩皇冠+6.66红包券",
+                        "items": [
+                            {
+                                "itemId": "item:4104",
+                                "count": 7
+                            },
+                            {
+                                "itemId": "user:coupon",
+                                "count": 666
+                            }
+                        ]
+                    }
+                },
+                {
+                    "start": 21,
+                    "end": 35,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "3天金属边框+英雄帖*3",
+                        "items": [
+                            {
+                                "itemId": "item:4137",
+                                "count": 3
+                            },
+                            {
+                                "itemId": "item:1008",
+                                "count": 3
+                            }
+                        ]
+                    }
+                },
+                {
+                    "start": 36,
+                    "end": 50,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "3天自然边框+参赛券*10",
+                        "items": [
+                            {
+                                "itemId": "item:4135",
+                                "count": 3
+                            },
+                            {
+                                "itemId": "item:1007",
+                                "count": 10
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "rankingId": "100010002",
+            "name": "牛掰榜",
+            "desc": "1、今日实时榜单，24点发放奖励！\n2、每天参加游戏10局以上，即有机会上榜得奖励！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                10
+            ],
+            "inputType": "dashifen",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/ranking_nothing.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_2.png"
+                },
+                {
+                    "rank": 3,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_3.png"
+                },
+                {
+                    "rank": 4,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_4.png"
+                },
+                {
+                    "rank": 5,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_5.png"
+                },
+                {
+                    "rank": 6,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_6.png"
+                },
+                {
+                    "rank": 7,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_7.png"
+                },
+                {
+                    "rank": 8,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_8.png"
+                },
+                {
+                    "rank": 9,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_9.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 50,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100010004",
+            "name": "经典看牌赢家榜",
+            "desc": "今天赢取总奖金排行，人人都是大赢家！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                10
+            ],
+            "inputType": "winchip_cs",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 10,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100010005",
+            "name": "1/3血战赢家榜",
+            "desc": "今天赢取总奖金排行，人人都是大赢家！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                10
+            ],
+            "inputType": "winchip_xz",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 10,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100010001",
+            "name": "财富榜",
+            "desc": "1、今日实时榜单，24点发放奖励！\n2、每天参加游戏10局以上，即有机会上榜得奖励！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                10
+            ],
+            "inputType": "chip",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_2.png"
+                },
+                {
+                    "rank": 3,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_3.png"
+                },
+                {
+                    "rank": 4,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_4.png"
+                },
+                {
+                    "rank": 5,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_5.png"
+                },
+                {
+                    "rank": 6,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_6.png"
+                },
+                {
+                    "rank": 7,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_7.png"
+                },
+                {
+                    "rank": 8,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_8.png"
+                },
+                {
+                    "rank": 9,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_9.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 50,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            }
+        },
+        {
+            "rankingId": "100010003",
+            "name": "魅力榜",
+            "desc": "1、今日实时榜单，24点发放奖励！\n2、每天参加游戏10局以上，即有机会上榜得奖励！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                10
+            ],
+            "inputType": "charm",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/charm_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_2.png"
+                },
+                {
+                    "rank": 3,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_3.png"
+                },
+                {
+                    "rank": 4,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_4.png"
+                },
+                {
+                    "rank": 5,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_5.png"
+                },
+                {
+                    "rank": 6,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_6.png"
+                },
+                {
+                    "rank": 7,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_7.png"
+                },
+                {
+                    "rank": 8,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_8.png"
+                },
+                {
+                    "rank": 9,
+                    "pic": "${http_download}/hall/rank/imgs/nbf_9.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 50,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            }
+        },
+        {
+            "rankingId": "110018002",
+            "name": "金顺榜",
+            "desc": "今日金顺榜排行，每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                18
+            ],
+            "inputType": "dashifen",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_18.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110008002",
+            "name": "鲨鱼分周榜",
+            "desc": "本周获得鲨鱼分排行，走向牌神之路！",
+            "totalNumber": 0,
+            "gameIds": [
+                8
+            ],
+            "inputType": "dashifen",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_8.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": [
+                {
+                    "start": 1,
+                    "end": 1,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "7天牌神之翼+100万金币",
+                        "items": [
+                            {
+                                "itemId": "item:4124",
+                                "count": 7
+                            },
+                            {
+                                "itemId": "user:chip",
+                                "count": 1000000
+                            }
+                        ]
+                    }
+                },
+                {
+                    "start": 2,
+                    "end": 3,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "7天荣耀之翼+50万金币",
+                        "items": [
+                            {
+                                "itemId": "item:4126",
+                                "count": 7
+                            },
+                            {
+                                "itemId": "user:chip",
+                                "count": 500000
+                            }
+                        ]
+                    }
+                },
+                {
+                    "start": 4,
+                    "end": 10,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "desc": "20万金币",
+                        "items": [
+                            {
+                                "itemId": "user:chip",
+                                "count": 200000
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "rankingId": "100015007",
+            "name": "范特西榜",
+            "desc": "今日范特西次数榜",
+            "totalNumber": 0,
+            "gameIds": [
+                15
+            ],
+            "inputType": "fantasy",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_8.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 10,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110015007",
+            "name": "范特西榜",
+            "desc": "范特西次数周榜",
+            "totalNumber": 0,
+            "gameIds": [
+                15
+            ],
+            "inputType": "fantasy",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_8.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100015008",
+            "name": "最大手牌榜",
+            "desc": "今日最大手牌榜",
+            "totalNumber": 0,
+            "gameIds": [
+                15
+            ],
+            "inputType": "topHandsScore",
+            "scoreType": {
+                "typeId": "max"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_8.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 10,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110015008",
+            "name": "最大手牌榜",
+            "desc": "最大手牌周榜",
+            "totalNumber": 0,
+            "gameIds": [
+                15
+            ],
+            "inputType": "topHandsScore",
+            "scoreType": {
+                "typeId": "max"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_8.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100015009",
+            "name": "赛事积分榜",
+            "desc": "今日赛事积分榜",
+            "totalNumber": 0,
+            "gameIds": [
+                15
+            ],
+            "inputType": "opi",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_8.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 10,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110015009",
+            "name": "赛事积分榜",
+            "desc": "赛事积分周榜",
+            "totalNumber": 0,
+            "gameIds": [
+                15
+            ],
+            "inputType": "opi",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_8.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110003010",
+            "name": "中国象棋积分榜",
+            "desc": "本周中国象棋积分排行！",
+            "totalNumber": 0,
+            "gameIds": [
+                3
+            ],
+            "inputType": "jifen",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110020010",
+            "name": "五子棋积分榜",
+            "desc": "本周五子棋积分排行！",
+            "totalNumber": 0,
+            "gameIds": [
+                20
+            ],
+            "inputType": "jifen",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },        
+        {
+            "rankingId": "110006101",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！每周一0：00更新。",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.00",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006102",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号2",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.01",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006103",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号3",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006104",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号4",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006105",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号5",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006106",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号6",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006107",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号7",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006108",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号8",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006109",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号9",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006110",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号10",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006111",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号11",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006112",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号12",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006113",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号13",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006114",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号14",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006115",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号15",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006116",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号16",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006117",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号17",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006118",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号18",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006119",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号19",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006120",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号20",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006121",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号21",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006122",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号22",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006123",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号23",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006124",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号24",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006125",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号25",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006126",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号26",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006127",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号27",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006128",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号28",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006129",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号29",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006130",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号30",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006131",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号31",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006132",
+            "name": "斗地主赢金榜",
+            "desc": "本周斗地主积赢金排行！地域序号32",
+            "totalNumber": 2,
+            "gameIds": [
+                6
+            ],
+            "inputType": "winChip.02",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 150,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110016001",
+            "name": "总奖金榜",
+            "desc": "今天赢取总奖金排行，人人都是大赢家！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                16
+            ],
+            "inputType": "winchip_bairen",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110016002",
+            "name": "财富榜",
+            "desc": "中发白高富帅和白富美的聚集地！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                16
+            ],
+            "inputType": "chip_bairen",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110016003",
+            "name": "魅力榜",
+            "desc": "魅力排行榜，人气之星！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                16
+            ],
+            "inputType": "charm_bairen",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/charm_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110016004",
+            "name": "排行榜",
+            "desc": "空榜",
+            "totalNumber": 0,
+            "gameIds": [
+                16
+            ],
+            "inputType": "empty_bairen",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/charm_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110016011",
+            "name": "总奖金榜",
+            "desc": "今天赢取总奖金排行，人人都是大赢家！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                16
+            ],
+            "inputType": "winchip_wanren",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110016012",
+            "name": "财富榜",
+            "desc": "中发白高富帅和白富美的聚集地！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                16
+            ],
+            "inputType": "chip_wanren",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110016013",
+            "name": "魅力榜",
+            "desc": "魅力排行榜，人气之星！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                16
+            ],
+            "inputType": "charm_wanren",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/charm_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110023001",
+            "name": "总奖金榜",
+            "desc": "今天赢取总奖金排行，人人都是大赢家！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                23
+            ],
+            "inputType": "winchip_dragon",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110023002",
+            "name": "财富榜",
+            "desc": "中发白高富帅和白富美的聚集地！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                23
+            ],
+            "inputType": "chip_dragon",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110023003",
+            "name": "魅力榜",
+            "desc": "魅力排行榜，人气之星！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                23
+            ],
+            "inputType": "charm_dragon",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/charm_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110023004",
+            "name": "排行榜",
+            "desc": "空榜",
+            "totalNumber": 0,
+            "gameIds": [
+                23
+            ],
+            "inputType": "empty_dragon",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/charm_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110023011",
+            "name": "总奖金榜",
+            "desc": "今天赢取总奖金排行，人人都是大赢家！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                23
+            ],
+            "inputType": "winchip_dragon_wanren",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110023012",
+            "name": "财富榜",
+            "desc": "中发白高富帅和白富美的聚集地！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                23
+            ],
+            "inputType": "chip_dragon_wanren",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110023013",
+            "name": "魅力榜",
+            "desc": "魅力排行榜，人气之星！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                23
+            ],
+            "inputType": "charm_dragon_wanren",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/charm_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110017001",
+            "name": "保皇积分榜",
+            "desc": "排行即时更新，一周未登录游戏的清出排行榜。",
+            "totalNumber": 0,
+            "gameIds": [
+                17
+            ],
+            "inputType": "jifen",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110017002",
+            "name": "保皇话费榜",
+            "desc": "红包券可兑换话费，一周未登录游戏的清出排行榜。",
+            "totalNumber": 0,
+            "gameIds": [
+                17
+            ],
+            "inputType": "coupon_baohuang",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110017003",
+            "name": "保皇冠军榜",
+            "desc": "以夺冠次数排名，数据每30天清空一次，重新排名。",
+            "totalNumber": 0,
+            "gameIds": [
+                17
+            ],
+            "inputType": "champion_baohuang",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "month"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110017004",
+            "name": "保皇邀请榜",
+            "desc": "以邀请人数排名，数据每30天清空一次，重新排名。",
+            "totalNumber": 0,
+            "gameIds": [
+                17
+            ],
+            "inputType": "invite_baohuang",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0_qs.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1_qs.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2_qs.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "month"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110025010",
+            "name": "四国军棋积分榜",
+            "desc": "本周四国军棋积分排行！",
+            "totalNumber": 0,
+            "gameIds": [
+                25
+            ],
+            "inputType": "jifen",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_7.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_junqi_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_junqi_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_junqi_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "keepNumbers": 100,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110006133",
+            "name": "福气饺子榜",
+            "desc": "福气饺子排行榜",
+            "totalNumber": 0,
+            "gameIds": [  6  ],
+            "inputType": "ddz_dumplings",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                { "rank": 0, "pic": "${http_download}/hall/rank/imgs/rank_0.png"  },
+                { "rank": 1, "pic": "${http_download}/hall/rank/imgs/rank_1.png" },
+                { "rank": 2, "pic": "${http_download}/hall/rank/imgs/rank_2.png" }
+            ],
+            "topN": 10,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {  "typeId": "day" },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100007006",
+            "name": "麻将幸运大抽奖排行榜",
+            "desc": "今日抽奖排行榜，每天00:00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                7
+            ],
+            "inputType": "majiang_luky_raffle",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/pk.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100007007",
+            "name": "麻将拜雀神赢话费排行榜",
+            "desc": "今日赢话费排行榜，每天00:00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                7
+            ],
+            "inputType": "majiang_table_raffle",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/pk.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110027001",
+            "name": "财富榜",
+            "desc": "高富帅和白富美的聚集地！每周一00:00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                27
+            ],
+            "inputType": "chip_clown",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 20,
+            "totalN": 50,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110027002",
+            "name": "大赢家榜",
+            "desc": "今天赢取总奖金排行，人人都是大赢家！每天0：00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                27
+            ],
+            "inputType": "winchip_clown",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 20,
+            "totalN": 50,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110027003",
+            "name": "VIP榜",
+            "desc": "VIP榜",
+            "totalNumber": 0,
+            "gameIds": [
+                27
+            ],
+            "inputType": "vip_clown",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 20,
+            "totalN": 50,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110027004",
+            "name": "排行榜",
+            "desc": "空榜",
+            "totalNumber": 0,
+            "gameIds": [
+                27
+            ],
+            "inputType": "empty_clown",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 20,
+            "totalN": 50,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110021001",
+            "name": "财富榜",
+            "desc": "高富帅和白富美的聚集地！每周一00:00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                21
+            ],
+            "inputType": "chip",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110021002",
+            "name": "赢钱榜",
+            "desc": "跑胡子赢钱排行！每周一00:00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                21
+            ],
+            "inputType": "winChip",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110021003",
+            "name": "大师榜",
+            "desc": "跑胡子大师分赢取排行！每周一00:00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                21
+            ],
+            "inputType": "dashifen",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/dashifen_6.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110021004",
+            "name": "魅力榜",
+            "desc": "跑胡子魅力排行！每周一00:00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                21
+            ],
+            "inputType": "charm",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/charm_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110030001",
+            "name": "总奖金榜",
+            "desc": "今天赢取总奖金排行，人人都是大赢家！每天0:00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                30
+            ],
+            "inputType": "winChip",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110030002",
+            "name": "财富榜",
+            "desc": "三张牌高富帅和白富美的聚集地！每天0:00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                30
+            ],
+            "inputType": "chip",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110030003",
+            "name": "大师分榜",
+            "desc": "三张牌大师分排行榜，大师云集！每天0:00更新。",
+            "totalNumber": 0,
+            "gameIds": [
+                30
+            ],
+            "inputType": "mtt",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/charm_39.png"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100030104",
+            "name": "赛事积分周榜",
+            "desc": "赛事积分周榜是大师赛积分的排行榜，每周日24:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                30
+            ],
+            "inputType": "mtt",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_guan.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100030105",
+            "name": "赛事积分月榜",
+            "desc": "赛事积分月榜是大师赛积分的排行榜，每月1号00:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                30
+            ],
+            "inputType": "mtt",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_guan.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "month"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "100030106",
+            "name": "赛事积分总榜",
+            "desc": "赛事积分总榜是大师赛积分的排行榜，本榜单不重置",
+            "totalNumber": 0,
+            "gameIds": [
+                30
+            ],
+            "inputType": "mtt",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_guan.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "life"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110038001",
+            "name": "本周奖池榜",
+            "desc": "本周奖池中奖累计最多的玩家，每周一0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                38
+            ],
+            "inputType": "bairen_lottery",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 10,
+            "totalN": 160,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110038002",
+            "name": "本周盈利榜",
+            "desc": "本周下注盈利累计最多的玩家，每周一0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                38
+            ],
+            "inputType": "winChip",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 160,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110038003",
+            "name": "今日盈利榜",
+            "desc": "每天下注盈利累计最多的玩家，每天0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                38
+            ],
+            "inputType": "winChip",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 160,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110038004",
+            "name": "今日富豪榜",
+            "desc": "每天累计下注最多的玩家，每天0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                38
+            ],
+            "inputType": "betChips",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 160,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110042001",
+            "name": "通关周榜",
+            "desc": "每周通关次数最多的玩家，每周一0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                42
+            ],
+            "inputType": "tractor_tg",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 100,
+            "totalN": 250,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "week"
+            },
+            "rankRewardList": []
+        },
+		{
+            "rankingId": "110006134",
+            "name": "福气饺子榜",
+            "desc": "福气饺子排行榜",
+            "totalNumber": 0,
+            "gameIds": [  6  ],
+            "inputType": "ddz_dumplings",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                { "rank": 0, "pic": "${http_download}/hall/rank/imgs/rank_0.png"  },
+                { "rank": 1, "pic": "${http_download}/hall/rank/imgs/rank_1.png" },
+                { "rank": 2, "pic": "${http_download}/hall/rank/imgs/rank_2.png" }
+            ],
+            "topN": 10,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "life",
+                "startTime":"2017-04-28 00:00:00",
+                "endTime":"2017-05-03 00:00:00"
+			},
+            "rankRewardList": [
+                {
+                    "start": 1, "end": 1,
+                    "rewardContent": {
+                        "typeId": "FixedContent", "desc": "苹果 MacBook Pro 15.4英寸笔记本电脑1台", "items": [{"itemId": "item:2073", "count": 1}]
+                    }
+                },
+                {
+                    "start": 2, "end": 2,
+                    "rewardContent": {
+                        "typeId": "FixedContent", "desc": "苹果 iPhone7 128G手机1部", "items": [{"itemId": "item:2074","count": 1}]
+                    }
+                },
+                {
+                    "start": 3, "end": 3,
+                    "rewardContent": {
+                        "typeId": "FixedContent", "desc": "Au99.99金条10克", "items": [{"itemId": "item:2075","count": 1}]
+                    }
+                },
+                {
+                    "start": 4, "end": 10,
+                    "rewardContent": {
+                        "typeId": "FixedContent", "desc": "科沃斯扫地机器人1台", "items": [{"itemId": "item:2043","count": 1}]
+                    }
+                },
+                {
+                    "start": 11, "end": 20,
+                    "rewardContent": {
+                        "typeId": "FixedContent", "desc": "500元京东卡1张", "items": [{"itemId": "item:4369","count": 1}]
+                    }
+                },
+                {
+                    "start": 21, "end": 30,
+                    "rewardContent": {
+                        "typeId": "FixedContent", "desc": "美的电饭煲1台", "items": [{"itemId": "user:chip","count": 1}]
+                    }
+                },
+                {
+                    "start": 31, "end": 50,
+                    "rewardContent": {
+                        "typeId": "FixedContent", "desc": "80万金币", "items": [{"itemId": "user:chip","count": 800000}]
+                    }
+                },
+				{
+                    "start": 51, "end": 100,
+                    "rewardContent": {
+                        "typeId": "FixedContent", "desc": "50万金币", "items": [{"itemId": "user:chip","count": 500000}]
+                    }
+                },
+				{
+                    "start": 101, "end": 200,
+                    "rewardContent": {
+                        "typeId": "FixedContent", "desc": "30万金币", "items": [{"itemId": "user:chip","count": 300000}]
+                    }
+                },
+				{
+                    "start": 201, "end": 300,
+                    "rewardContent": {
+                        "typeId": "FixedContent", "desc": "12万金币", "items": [{"itemId": "user:chip","count": 120000}]
+                    }
+                },
+				{
+                    "start": 301, "end": 400,
+                    "rewardContent": {
+                        "typeId": "FixedContent", "desc": "8万金币", "items": [{"itemId": "user:chip","count": 80000}]
+                    }
+                },
+                {
+                    "start": 401, "end": 500,
+                    "rewardContent": {
+                        "typeId": "FixedContent", "desc": "4万金币", "items": [{"itemId": "user:chip","count": 40000}]
+                    }
+                }
+            ]
+        },
+        {
+            "rankingId": "110044001",
+            "name": "海星收集榜",
+            "desc": "渔场里得到海星的数量，每天0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                44
+            ],
+            "inputType": "fish_starfish",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 30,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110044002",
+            "name": "招财珠榜",
+            "desc": "持有招财珠的数量，每天0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                44
+            ],
+            "inputType": "fish_bullet",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 30,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110044003",
+            "name": "今日幸运星",
+            "desc": "抽奖金币数，每天0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                44
+            ],
+            "inputType": "fish_eggs_lucky1",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 30,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110044004",
+            "name": "七日幸运达人",
+            "desc": "抽奖金币数，第七天0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                44
+            ],
+            "inputType": "fish_eggs_lucky7",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 30,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "life",
+                "startTime":"2017-12-05 00:00:00",
+                "endTime":"2099-12-07 06:00:00"
+
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110044005",
+            "name": "财富榜",
+            "desc": "招财模式当日消耗排名，每天0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                44
+            ],
+            "inputType": "fish_robbery_day_consume",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 30,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110044006",
+            "name": "今日赢家榜",
+            "desc": "招财模式当日盈利最大值，每天0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                44
+            ],
+            "inputType": "fish_robbery_day_win",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 60,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110044007",
+            "name": "七日赢家榜",
+            "desc": "招财模式七日盈利最大值",
+            "totalNumber": 0,
+            "gameIds": [
+                44
+            ],
+            "inputType": "fish_robbery_7_win",
+            "scoreType": {
+                "typeId": "normal"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 30,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "life",
+                "startTime":"2018-02-07 00:00:00",
+                "endTime":"2099-12-07 06:00:00"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110044008",
+            "name": "今日亏损榜",
+            "desc": "招财模式当日亏损排名，每天0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                44
+            ],
+            "inputType": "fish_robbery_day_loss",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 30,
+            "totalN": 30,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110026001",
+            "name": "大师榜",
+            "desc": "对战得到的大师分，看看谁厉害吧! 实时更新",
+            "totalNumber": 0,
+            "gameIds": [
+                26
+            ],
+            "inputType": "tetris_dashifen_incr",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "尚未入榜"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 10,
+            "totalN": 300,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110065001",
+            "name": "牛魔王榜",
+            "desc": "每天累计下注最多的玩家，每天0:00重置",
+            "totalNumber": 0,
+            "gameIds": [
+                65
+            ],
+            "inputType": "betChips",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                {
+                    "rank": 0,
+                    "pic": "${http_download}/hall/rank/imgs/rank_0.png"
+                },
+                {
+                    "rank": 1,
+                    "pic": "${http_download}/hall/rank/imgs/rank_1.png"
+                },
+                {
+                    "rank": 2,
+                    "pic": "${http_download}/hall/rank/imgs/rank_2.png"
+                }
+            ],
+            "topN": 50,
+            "totalN": 500,
+            "cacheTimes": 0,
+            "cycle": {
+                "typeId": "day"
+            },
+            "rankRewardList": []
+        },
+        {
+            "rankingId": "110067891",
+            "name": "大奖赛闯关排行榜",
+            "desc": "大奖赛闯关排行榜",
+            "totalNumber": 0,
+            "gameIds": [  6  ],
+            "inputType": "hero_match_success_rank",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                { "rank": 0, "pic": "${http_download}/hall/rank/imgs/rank_0.png"  },
+                { "rank": 1, "pic": "${http_download}/hall/rank/imgs/rank_1.png" },
+                { "rank": 2, "pic": "${http_download}/hall/rank/imgs/rank_2.png" }
+            ],
+            "topN": 30,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {  "typeId": "week" },
+            "rankRewardList": []
+        },
+		{
+            "rankingId": "100770001",
+            "name": "胜场榜",
+            "desc": "胜场榜!",
+            "totalNumber": 0,
+            "gameIds": [  77  ],
+            "inputType": "friends_win",
+            "scoreType": {
+                "typeId": "incr"
+            },
+            "type": {
+                "typeName": "name_head_number",
+                "rankValueIcon": "${http_download}/hall/rank/imgs/icon_gold_39.png"
+            },
+            "rankDesc": {
+                "in": "您在\\${rankName}的排名是：\\${rank}",
+                "out": "暂未进入\\${rankName}，加油哦！"
+            },
+            "rankPics": [
+                { "rank": 0, "pic": "${http_download}/hall/rank/imgs/rank_0.png"  },
+                { "rank": 1, "pic": "${http_download}/hall/rank/imgs/rank_1.png" },
+                { "rank": 2, "pic": "${http_download}/hall/rank/imgs/rank_2.png" }
+            ],
+            "topN": 30,
+            "totalN": 100,
+            "cacheTimes": 0,
+            "cycle": {  "typeId": "week" },
+            "rankRewardList": []
+        }
+    ],
+
+    "rankingKeys": {
+        "hall_normal": {
+            "default": [
+                "110000001",
+                "110000003",
+                "100006003"
+            ]
+        },
+        "hall_noraml": {
+            "default": [
+                "110000001",
+                "110000003"
+            ]
+        },
+        "normal_6": {
+            "default": [
+                "100006002",
+                "110000001",
+                "110000003"
+            ]
+        },
+        "normal_7": {
+            "default": [
+                "110007002",
+                "110000001",
+                "110000003"
+            ]
+        },
+        "normal_8": {
+            "default": [
+                "110000001",
+                "100008004",
+                "100008006",
+                "110008002"
+            ]
+        },
+        "texas_flipcard": {
+            "default": [
+                "100008106"
+            ]
+        },
+         "mtt_sngscore":{
+            "default": [
+                "100008107",
+                 "100008108",
+                 "100008109"
+            ]
+        },
+        "normal_1": {
+            "default": [
+                "100001002",
+                "110000001",
+                "110000003"
+            ]
+        },
+        "normal_10": {
+            "default": [
+                "100010002",
+                "100010001",
+                "100010003"
+            ]
+        },
+        "normal_18": {
+            "default": [
+                "110000001",
+                "110000003"
+            ]
+        },
+        "normal_15": {
+            "default": [
+                "100015007",
+                "110015007",
+                "100015008",
+                "110015008"
+            ]
+        },
+        "normal_3": {
+            "default": [
+                "110000001",
+                "110000003",            
+                "110003010"
+            ]
+        },
+        "normal_3_plug": {
+            "default": [          
+                "110003010"
+            ]
+        },
+        "normal_3_pc": {
+            "default": [          
+                "110003010",
+                "110000001",
+                "110000003"
+            ]
+        },
+        "normal_20" :{
+            "default": [  
+                "110000001",
+                "110000003",             
+                "110020010"
+            ]
+        },
+        "normal_20_plug" :{
+            "default": [            
+                "110020010"
+            ]
+        },                         
+        "normal_17": {
+            "default": [
+                "110017001",
+                "110017003"
+            ]
+        },
+        "normal_21": {
+            "default": [
+                "110021001",
+                "110021002",
+                "110021003",
+                "110021004"
+            ]
+        },
+        "normal_16": {
+            "default": [
+                "110016001",
+                "110016004",
+                "110016003"
+            ]
+        },
+        "wanren_16": {
+            "default": [
+                "110016011",
+                "110016004",
+                "110016013"
+            ]
+        },
+        "normal_23": {
+            "default": [
+                "110023001",
+                "110023004",
+                "110023003"
+            ]
+        },
+        "wanren_23": {
+            "default": [
+                "110023011",
+                "110023004",
+                "110023013"
+            ]
+        },
+        "normal_25": {
+            "default": [
+                "110000001",
+                "110000003",            
+                "110025010"
+            ]
+        },
+        "normal_25_plug": {
+            "default": [          
+                "110025010"
+            ]
+        },        
+        "ddz_dumlings": {
+            "default": [
+                "110006133"
+            ]
+        },
+        "majiang_luky_raffle": {
+            "default": [
+                "100007006"
+            ]
+        },
+        "majiang_table_raffle": {
+            "default": [
+                "100007007"
+            ]
+        },
+        "normal_27": {
+            "default": [
+                "110027004",
+                "110027002",
+                "110027003"      
+            ]
+        },
+        "normal_30": {
+            "default": [
+                "110030001",
+                "110030002",
+                "110030003"
+            ]
+        },
+        "match_score_30":{
+            "default": [
+                "100030104",
+                "100030105",
+                "100030106"
+            ]
+        },
+        "baohuang_qingdao": {
+            "default": [
+                "110017001",
+                "110017003"
+            ]
+        },
+        "normal_38": {
+            "default": [
+                "110038001",
+                "110038002",
+                "110038003",
+                "110038004"
+            ]
+        },
+        "dtg_42": {
+            "default": [
+                "110042001"
+            ]
+        },
+		"ddz_51paihang": {
+            "default": [
+                "110006134"
+            ]
+        },
+        "fish_44": {
+            "default": [
+                "110044001",
+                "110044002",
+                "110044003",
+                "110044004",
+                "110044005",
+                "110044006",
+                "110044007",
+                "110044008"
+            ]
+        },
+        "tetris_26": {
+            "default": [
+                "110026001"
+            ]
+        },
+        "hero_match_success_rank": {
+            "default": [
+                "110067891"
+            ]
+        },
+		 "friends_win": {
+            "default": [
+                "100770001"
+            ]
+        }
+    }
+}

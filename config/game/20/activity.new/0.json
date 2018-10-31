@@ -1,0 +1,165 @@
+{
+    "activities": [
+		{
+            "actId": "gomoku_act180213",
+            "typeId": "act_gomoku_scoreboard",
+            "intActId": 20180213,
+            "open": 1,
+            "showLimit": 50,
+            "rewardLimit": 300,
+            "issueNum": 20180223,
+            "delDate": 20180331,
+            "startTime": "2018-02-13 00:00:00",
+            "endTime": "2018-02-22 23:59:59",
+            "dayOpenTime": "9:00",
+            "dayCloseTime": "23:00",
+            "mail": "您在华为棋牌大师赛中获得\\${rewardContent}，快去看看吧",
+            "historyLen": 10,
+            "hallGameIds": [
+                20
+            ],
+            "clientIds": [
+                22372,
+                21785,
+                22171,
+                20573,
+                18007
+            ],
+            "itemAddition": {
+                "rate": 0.1,
+                "itemId": "item:1282",
+                "todoTask": {
+                    "url": "",
+                    "typeId": "hall.thirdsdk.extend",
+                    "params":{
+                        "action": "ysdk",
+                        "func": "bbs"
+                    }
+                },
+                "open": 0
+            },
+            "scoreUpWay": {
+                "roundAndWins": [
+                    {
+                        "maxScore": 50,
+                        "scorePerRound": 2,
+                        "scorePerWin": 1,
+                        "openRoomIds": [
+                            20001,
+                            20002,
+                            20003,
+                            20005,
+                            20006,
+                            20007,
+                            20011,
+                            20015,
+                            20016,
+                            20020,
+                            20101
+                        ]
+                    }
+                ],
+                "charge": {
+                    "maxScore": 999999,
+                    "exchangeRate": 10
+                },
+                "share": {
+                    "shareId": [
+                        100,
+                        200
+                    ],
+                    "maxShareScore": 1,
+                    "score": 1
+                }
+            },
+            "dailyReward": [
+                {
+                    "start": 1,
+                    "end": 30,
+                    "img": "${http_download}/hall/item/imgs/item_4141_1.png",
+                    "desc": "10元话费卡",
+                    "items": [
+                        {
+                            "itemId": "item:4141",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "start": 31,
+                    "end": 50,
+                    "img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+                    "desc": "1万金币",
+                    "items": [
+                        {
+                            "itemId": "user:chip",
+                            "count": 10000
+                        }
+                    ]
+                }
+            ],
+            "totalReward": [
+                {
+                    "start": 1,
+                    "end": 1,
+                    "img": "${http_download}/hall/item/imgs/item_4144_1.png",
+                    "desc": "100元话费卡",
+                    "items": [
+                        {
+                            "itemId": "item:4144",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "start": 2,
+                    "end": 2,
+                    "img": "${http_download}/hall/item/imgs/item_4142_1.png",
+                    "desc": "50元话费卡",
+                    "items": [
+                        {
+                            "itemId": "item:4143",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "start": 3,
+                    "end": 3,
+                    "img": "${http_download}/hall/item/imgs/item_4142_3.png",
+                    "desc": "30元话费卡",
+                    "items": [
+                        {
+                            "itemId": "item:4142",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "start": 4,
+                    "end": 20,
+                    "img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+                    "desc": "20万金币",
+                    "items": [
+                        {
+                            "itemId": "user:chip",
+                            "count": 200000
+                        }
+                    ]
+                },
+                {
+                    "start": 21,
+                    "end": 50,
+                    "img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+                    "desc": "10万金币",
+                    "items": [
+                        {
+                            "itemId": "user:chip",
+                            "count": 100000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

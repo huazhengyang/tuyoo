@@ -1,0 +1,23 @@
+{
+  "room_items" : {
+    "10001": {"id": 10001, "name": "新手场", "basebet": 20, "mincoin": 500, "maxcoin": 10000, "config": 0, "condition": "500金币准入"},
+    "10002": {"id": 10002, "name": "中级场", "basebet": 80, "mincoin": 3000, "maxcoin": 40000, "config": 2, "condition": "3000金币准入"},
+    "10003": {"id": 10003, "name": "高级场", "basebet": 400, "mincoin": 12000, "maxcoin": 200000, "config": 2, "condition": "1.2万金币准入"},
+    "10004": {"id": 10004, "name": "大师场", "basebet": 1600, "mincoin": 60000, "maxcoin": -1, "config": 2, "condition": "6万金币准入"},
+
+    "10101": {"id": 10101, "name": "新手村", "basebet": 80, "mincoin": 400, "maxcoin": 8000, "config": 0, "condition": "400金币准入"},
+    "10102": {"id": 10102, "name": "试炼场", "basebet": 200, "mincoin": 2000, "maxcoin": 30000, "config": 2, "condition": "2000金币准入"},
+    "10103": {"id": 10103, "name": "进阶场", "basebet": 500, "mincoin": 5000, "maxcoin": 100000, "config": 2, "condition": "5000金币准入"},
+    "10104": {"id": 10104, "name": "高手场", "basebet": 1500, "mincoin": 15000, "maxcoin": -1, "config": 2, "condition": "1.5万金币准入"}
+  },
+
+  "session_items" : {
+    "fk": {"session": "疯狂场", "match": 0, "gameType": 2, "rooms": ["10001", "10002", "10003", "10004"]},
+    "kp": {"session": "快拼场", "match": 0, "gameType": 4, "rooms": ["10101", "10102", "10103", "10104"]}
+
+  },
+
+  "templates" : {
+    "default" : ["fk", "kp"]
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"startTime":"2018-01-01 00:00:00",
+	"stopTime":"2018-12-31 23:59:59",
+	"inviteTodotask":{
+    	"typeId":"newShare.pop",
+    	"sharePointId":999901041,
+    	"urlParams":{}
+    },
+	"oldInviteTodotask":{
+    	"typeId":"newShare.pop",
+    	"sharePointId":999901046,
+    	"urlParams":{}
+    },
+    "rewards":[
+    	{
+    		"condition":{
+    			"typeId":"user.cond.newuser"
+    		},
+    		"content":{
+    			"typeId":"FixedContent",
+    			"items":[
+					{"itemId":"user:coupon", "count":6}
+    			]
+    		}
+    	},
+    	{
+    		"content":{
+    			"typeId":"FixedContent",
+    			"items":[
+    				{"itemId":"user:coupon", "count":6}	
+    			]
+    		}
+    	}
+    ]
+}

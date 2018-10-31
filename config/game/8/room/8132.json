@@ -1,0 +1,114 @@
+{
+    "autoQueue": 0.0, 
+    "canObserver": 0, 
+    "couponActCfg": {
+        "add": 0, 
+        "memberAdd": 0, 
+        "timeSegs": [
+            [
+                [
+                    12, 
+                    0
+                ], 
+                [
+                    24, 
+                    0
+                ]
+            ]
+        ]
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            100, 
+            10, 
+            -10
+        ], 
+        "chicken": [
+            100, 
+            10, 
+            -10
+        ], 
+        "doubleAce": [
+            100, 
+            20, 
+            20
+        ], 
+        "eggs": [
+            100, 
+            10, 
+            -10
+        ], 
+        "fishing": [
+            100, 
+            10, 
+            -10
+        ], 
+        "ring": [
+            100, 
+            20, 
+            20
+        ], 
+        "rose": [
+            100, 
+            20, 
+            20
+        ], 
+        "thumb": [
+            100, 
+            20, 
+            20
+        ]
+    }, 
+    "matchConf": {
+        "match_id": "0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 0, 
+    "minCoin": 50000, 
+    "minCoinQS": 99900000000, 
+    "minTableCount": 10, 
+    "minVip": 1.0, 
+    "name": "白银一区", 
+    "playMode": "classic", 
+    "rewardDealerChip": 5000, 
+    "roomID": 8132, 
+    "sortId": 0, 
+    "tableConf": {
+        "autoGrad": 0, 
+        "bb": 10000, 
+        "big_pot": 0, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 50000, 
+        "buyinConf": "5/10/15/20/25/30/35/40", 
+        "call": 1, 
+        "callChip": -1, 
+        "chat_require_vip_level": 8, 
+        "commission": 0.0, 
+        "extname": "白银一区{}(准入:5万)", 
+        "fee": 5000, 
+        "flip_card_game": {
+            "bet": 10000, 
+            "loading_show": 0, 
+            "show": 1
+        }, 
+        "get_insurance_info": 0.0, 
+        "inner_game": 0, 
+        "isSitBigBlind": 0.0, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "min_players": 2, 
+        "nameForPc": "贵宾室-白银1", 
+        "optime": 10, 
+        "pay_factor": 1.0, 
+        "prebet": 0, 
+        "sb": 5000, 
+        "start_card": 2, 
+        "tname": "白银一区", 
+        "win_exp": 2
+    }, 
+    "typeName": "vip", 
+    "visible": 1
+}

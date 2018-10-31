@@ -1,0 +1,96 @@
+{
+  "pointIdList": [
+    66660013,
+    77770013
+  ],
+  "inviteRewardsByIndex": [
+    {
+      "itemId": "user:chip",
+      "count": 100,
+      "desc": "100金币",
+      "pic": "${http_download}/ddz/other/config/invite_chip_low.png"
+    },
+    {
+      "itemId": "user:chip",
+      "count": 200,
+      "desc": "200金币",
+      "pic": "${http_download}/ddz/other/config/invite_chip_low.png"
+    },
+    {
+      "itemId": "user:chip",
+      "count": 600,
+      "desc": "600金币",
+      "pic": "${http_download}/ddz/other/config/invite_chip_middle.png"
+    },
+    {
+      "itemId": "user:chip",
+      "count": 1200,
+      "desc": "1200金币",
+      "pic": "${http_download}/ddz/other/config/invite_chip_middle.png"
+    }
+  ],
+  "bigRewards": [
+    {
+      "item": {
+        "itemId": "user:chip",
+        "count": 8888,
+        "desc": "8888金币",
+        "pic": "${http_download}/ddz/other/config/invite_chip_high.png"
+      },
+      "weight": 5
+    },
+    {
+      "item": {
+        "itemId": "user:chip",
+        "count": 5888,
+        "desc": "5888金币",
+        "pic": "${http_download}/ddz/other/config/invite_chip_high.png"
+      },
+      "weight": 10
+    },
+    {
+      "item": {
+        "itemId": "user:chip",
+        "count": 2888,
+        "desc": "2888金币",
+        "pic": "${http_download}/ddz/other/config/invite_chip_high.png"
+      },
+      "weight": 30
+    },
+    {
+      "item": {
+        "itemId": "user:chip",
+        "count": 1888,
+        "desc": "1888金币",
+        "pic": "${http_download}/ddz/other/config/invite_chip_high.png"
+      },
+      "weight": 45
+    }
+  ],
+  "firstBigRewards":
+    {
+      "itemId": "user:coupon",
+      "count": 0.3,
+      "pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+      "desc": "红包券*0.3元"
+    }
+  ,
+  "interventionBigRewards":
+    {
+      "itemId": "item:1311",
+      "count": 10,
+      "pic": "${http_download}/ddz/other/config/winStreak_icon_chip.png",
+      "desc": "钻石10个"
+    }
+  ,
+  "condition": {
+    "list": [
+      {
+        "typeId": "user.cond.register.time",
+        "startTime": "2018-09-12 00:00:00",
+        "stopTime": "2019-09-12 00:00:00"
+      }
+    ],
+    "typeId": "user.cond.and"
+  }
+}

@@ -1,0 +1,263 @@
+{
+	"tasks": {
+		"100010001": {
+			"tag": "play_x_round",
+			"title": "初生牛犊场玩5局游戏",
+			"targetNum": 5,
+			"cond": {
+				"roomType": 1
+			},
+			"reward": {
+				"type": "chip",
+				"amount": 388
+			}
+		},
+		"100010002": {
+			"tag": "play_x_round",
+			"title": "初生牛犊场赢3次",
+			"targetNum": 3,
+			"cond": {
+				"roomType": 1,
+				"mustWin": true
+			},
+			"reward": {
+				"type": "chip",
+				"amount": 688
+			}
+		},
+		"100010003": {
+			"tag": "play_x_round",
+			"title": "初生牛犊场当庄赢3次",
+			"targetNum": 3,
+			"cond": {
+				"roomType": 1,
+				"mustAsBanker": true,
+				"mustWin": true
+			},
+			"reward": {
+				"type": "chip",
+				"amount": 1088
+			}
+		},
+		"100020001": {
+			"tag": "win_x_chip",
+			"title": "No.1 赢取2000金币",
+			"targetNum": 2000,
+			"cond": {
+			},
+			"reward": {
+				"type": "chip",
+				"amount": 500
+			}
+		},
+		"100020002": {
+			"tag": "play_x_round",
+			"title": "No.1 对局10局",
+			"targetNum": 10,
+			"cond": {
+			},
+			"reward": {
+				"type": "chip",
+				"amount": 500
+			}
+		},
+		"100020003": {
+			"tag": "play_x_round",
+			"title": "No.1 当庄5次",
+			"targetNum": 5,
+			"cond": {
+				"mustAsBanker": true
+			},
+			"reward": {
+				"type": "chip",
+				"amount": 500
+			}
+		},
+		"100020004": {
+			"tag": "play_x_round",
+			"title": "No.2 对局25局",
+			"targetNum": 25,
+			"cond": {
+			},
+			"reward": {
+				"type": "chip",
+				"amount": 1500
+			}
+		},
+		"100020005": {
+			"tag": "win_x_chip",
+			"title": "No.2 赢40000金币",
+			"targetNum": 40000,
+			"cond": {
+			},
+			"reward": {
+				"type": "chip",
+				"amount": 1500
+			}
+		},
+		"100020006": {
+			"tag": "play_x_round",
+			"title": "No.2 打出10次牛九以上",
+			"targetNum": 10,
+			"cond": {
+				"leastCardPoint": 9
+			},
+			"reward": {
+				"type": "chip",
+				"amount": 1500
+			}
+		},
+		"100020007": {
+			"tag": "play_x_round",
+			"title": "No.3 赢25次",
+			"targetNum": 25,
+			"cond": {
+				"mustWin": true
+			},
+			"reward": {
+				"type": "chip",
+				"amount": 4000
+			}
+		},
+		"100020008": {
+			"tag": "play_x_round",
+			"title": "No.3 打出10次牛牛以上",
+			"targetNum": 10,
+			"cond": {
+				"leastCardPoint": 10
+			},
+			"reward": {
+				"type": "chip",
+				"amount": 4000
+			}
+		},
+		"100020009": {
+			"tag": "play_x_round",
+			"title": "No.3 对局50局",
+			"targetNum": 50,
+			"cond": {
+			},
+			"reward": {
+				"type": "chip",
+				"amount": 4000
+			}
+		},
+		"100030001": {
+			"tag": "play_x_round",
+			"title": "作为闲家赢8次",
+			"targetNum": 8,
+			"cond": {
+				"mustAsPlayer": true
+			},
+			"reward": {
+			}
+		},
+		"100030002": {
+			"tag": "play_x_round",
+			"title": "累计赢10局",
+			"targetNum": 10,
+			"cond": {
+				"mustWin": true
+			},
+			"reward": {
+			}
+		},
+		"100030003": {
+			"tag": "play_x_round",
+			"title": "当庄5次",
+			"targetNum": 5,
+			"cond": {
+				"mustAsBanker": true
+			},
+			"reward": {
+			}
+		},
+		"100030004": {
+			"tag": "play_x_round",
+			"title": "获得5次牛牛以上牌型",
+			"targetNum": 5,
+			"cond": {
+				"leastCardPoint": 10
+			},
+			"reward": {
+			}
+		},
+		"100030005": {
+			"tag": "play_x_round",
+			"title": "赢取8次以上1000金币",
+			"targetNum": 8,
+			"cond": {
+				"leastWinChip": 1000
+			},
+			"reward": {
+			}
+		},
+		"100030006": {
+			"tag": "win_x_chip",
+			"title": "累计赢取10000金币",
+			"targetNum": 10000,
+			"cond": {
+			},
+			"reward": {
+			}
+		},
+		"100030007": {
+			"tag": "play_x_round",
+			"title": "单局赢取2000金币",
+			"targetNum": 1,
+			"cond": {
+				"leastWinChip": 2000
+			},
+			"reward": {
+			}
+		}
+	},
+	"newbie": {
+		"title": "新手任务",
+		"taskIDs": ["100010001", "100010002", "100010003"]
+	},
+	"challenge": {
+		"title": "挑战任务",
+		"changeFee": 300,
+		"taskIDs": [
+			["100020001", "100020002", "100020003"],
+			["100020004", "100020005", "100020006"],
+			["100020007", "100020008", "100020009"]
+		]
+	},
+	"keep": {
+		"title": "连续任务",
+		"desc": "连续3日完成任务",
+		"keepDays": 3,
+		"changeFee": 300,
+		"taskIDs": [
+			"100030001", "100030002", "100030003", "100030004",
+			"100030005", "100030006", "100030007"
+		],
+		"reward": {
+			"type": "diamond",
+			"randomAmounts": [
+				{"rate": 0.2, "amount": 15},
+				{"rate": 0.25, "amount": 30},
+				{"rate": 0.15, "amount": 45},
+				{"rate": 0.15, "amount": 60},
+				{"rate": 0.05, "amount": 75},
+				{"rate": 0.05, "amount": 90},
+				{"rate": 0.02, "amount": 105},
+				{"rate": 0.02, "amount": 120},
+				{"rate": 0.02, "amount": 135},
+				{"rate": 0.01, "amount": 150},
+				{"rate": 0.01, "amount": 165},
+				{"rate": 0.01, "amount": 180},
+				{"rate": 0.01, "amount": 195},
+				{"rate": 0.01, "amount": 210},
+				{"rate": 0.01, "amount": 225},
+				{"rate": 0.01, "amount": 240},
+				{"rate": 0.005, "amount": 255},
+				{"rate": 0.005, "amount": 270},
+				{"rate": 0.005, "amount": 285},
+				{"rate": 0.005, "amount": 300}
+			]
+		}
+	}
+}

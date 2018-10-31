@@ -1,0 +1,54 @@
+{
+    "typeName" : "common_table_match",
+    "name" : "冰龙巢穴",
+    "sceneName":"string_binglongchaoxue",
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "dummyUserCount" : 0,
+    "gameServerCount" : 20,
+    "gameTableCount" : 50,
+    "ismatch" : 0,
+    "maxLevel" : 999,
+    "minCoin" : 100000,
+    "minGunLevel":2127,
+    "cmpttTaskLevel": 3,
+    "cmpttTaskInterval": 900,
+    "cmpttTaskIFishNum": 0,
+    "miniGameLevel": 2,
+    "fakeUserEnvelopeRewardRange": [300, 2000],
+    "shelterShadowRoomIds":[],
+    "openShadowRoomIdsDispatch":[
+        {
+            "version": {"start": 0, "end": 3.8},
+            "shadowRoomIds": {"start": 600031002, "end": 600031002}
+        },
+        {
+            "version": {"start": 3.8, "end": 100},
+            "shadowRoomIds": {"start": 600031003, "end": 600031004}
+        }
+    ],
+    "cmtbMatch":{
+        "openCmtbMatch": 1,
+        "led2": 60,
+        "led3": 120,
+        "prepareTimeLong": 240,
+        "sendLed": 0,
+        "roomMultiInLed": [30, 300],
+        "times": {
+            "days": {
+                "interval":"1d",
+                "count": 2
+            },
+            "times_in_day": {
+                "list":["11:26", "11:56", "12:26", "12:56", "13:26", "18:26",
+                    "18:56", "19:26", "19:56", "20:16", "20:36", "20:56",
+                    "21:26", "21:56"]
+            }
+        }
+    },
+    "tableConf" : {
+        "fishGroupsName":"string_binglongchaoxue",
+        "fishTideName":"tideLevel1",
+        "maxSeatN": 4
+    }
+}

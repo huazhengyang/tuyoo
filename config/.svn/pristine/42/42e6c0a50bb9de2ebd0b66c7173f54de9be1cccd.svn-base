@@ -1,0 +1,108 @@
+{
+    "room_items": {
+        "mt6801": {
+            "name" : "途游测试赛",
+            "des" : "每10分钟一场",
+            "level" : "C5", 
+
+            "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+            "avatorDefault": "chip",
+            "signupFee": {
+                "desc": "免费"
+            },
+            "matchCondition": {
+                "type": "datetime"
+            },
+            "countdownTime": 600,
+            "secondAlarmTime": 60,
+            "condition": "每10分钟一场",
+            "config": 4,
+            "entry": "免费",
+            "id": 6801,
+            "least": 0
+        },
+        "mt6802": {
+            "name" : "钻石赛",
+            "des" : "满9人开赛",
+            "level" : "C5", 
+            "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+            "avatorDefault": "chip",
+            "signupFee": {
+                "desc": "5000金币"
+            },
+            "matchCondition": {
+                "type": "datetime"
+            },
+            "countdownTime": 600,
+            "secondAlarmTime": 60,
+            "condition": "满9人开赛",
+            "config": 4,
+            "entry": "免费",
+            "id": 6802,
+            "least": 0
+        },
+        "mt6803": {
+            "name" : "三人赛",
+            "des" : "满3人开赛",
+            "level" : "C4", 
+            "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+            "avatorDefault": "chip",
+            "signupFee": {
+                "desc": "免费"
+            },
+            "matchCondition": {
+                "type": "datetime"
+            },
+            "countdownTime": 600,
+            "secondAlarmTime": 60,
+            "condition": "满3人开赛",
+            "config": 4,
+            "entry": "免费",
+            "id": 6803,
+            "least": 0
+        },
+        "mt6804": {
+            "name" : "途游测试赛",
+            "des" : "每天11场",
+            "level" : "C5", 
+
+            "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+            "avatorDefault": "chip",
+            "signupFee": {
+                "desc": "免费"
+            },
+            "matchCondition": {
+                "type": "datetime"
+            },
+            "countdownTime": 600,
+            "secondAlarmTime": 60,
+            "condition": "每天11场",
+            "config": 4,
+            "entry": "免费",
+            "id": 6804,
+            "least": 0
+        }
+    },
+    "session_items": {
+        "mt": {
+            "description": [
+                "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+                "2、为保证公平，一些比赛隐藏了对手信息。"
+            ],
+            "match": 1,
+            "new": 1,
+            "rooms": [
+                "mt6801",
+                "mt6802",
+                "mt6803",
+                "mt6804"
+            ],
+            "session": "二打一比赛场"
+        }
+    },
+    "templates": {
+        "default": [
+            "mt"
+        ]
+    }
+}

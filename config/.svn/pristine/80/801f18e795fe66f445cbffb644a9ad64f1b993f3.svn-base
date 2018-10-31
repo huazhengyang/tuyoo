@@ -1,0 +1,57 @@
+{
+  "hasrobot" : 0,
+  "maxCoin" : 0,
+  "maxCoinQS" : 9999999999,
+  "minCoin" : 200,
+  "minCoinQS" : 200,
+  "name" : "经典01",
+  "playMode" : "classic",
+  "tableConf" : {
+    "maxSeatN" : 4,
+    "tname" : "经典01"
+  },
+  "typeName" : "normal",
+
+  "interEmoticon": {
+        "bomb": [
+            10,
+            1,
+            -1
+        ],
+        "chicken": [
+            10,
+            1,
+            -1
+        ],
+        "doubleAce": [
+            10,
+            2,
+            2
+        ],
+        "eggs": [
+            10,
+            1,
+            -1
+        ],
+        "fishing": [
+            10,
+            1,
+            -1
+        ],
+        "ring": [
+            10,
+            2,
+            2
+        ],
+        "rose": [
+            10,
+            2,
+            2
+        ],
+        "thumb": [
+            10,
+            2,
+            2
+        ]
+    }
+}

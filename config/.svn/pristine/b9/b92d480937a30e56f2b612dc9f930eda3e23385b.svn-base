@@ -1,0 +1,14 @@
+{
+  "room_items" : {
+    "89001": {"id":88001, "name":"普通厅", "basebet":100, "mincoin":1, "maxcoin":-1, "config":0, "condition":"1万金币准入"},
+    "89002": {"id":88002, "name":"高级厅", "basebet":1000, "mincoin":1, "maxcoin":-1, "config":0, "condition":"1万金币准入"}
+  },
+
+  "session_items" : {
+    "guessing": {"session":"竞猜象棋","roomName":"普通场", "match":0, "gameType":1, "roomCount":2, "onLineCount": 0,"rooms": ["89001", "89002"]}
+  },
+
+  "templates" : {
+    "default" : ["guessing"]
+  }
+}

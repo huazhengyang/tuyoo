@@ -1,0 +1,114 @@
+{
+    "templates": {
+        "dizhu_wx_share": {
+            "gamewin_segment": [
+                {
+                    "pointId": 99991002,
+                    "condition": {
+                        "type": "userRank",
+                        "params": {
+                            "start": 1,
+                            "stop": 500
+                        }
+                    },
+                    "img": {
+                      "url": "https://ddzqn.nalrer.cn/ddz/share/share_segment.jpg",
+                      "type": "normal",
+                      "params": {}
+                    },
+                    "text": "斗地主水平？！我已经进入全国前500名，不服来战？"
+                },
+                {
+                    "pointId": 99991002,
+                    "condition": {
+                        "type": "userSegment",
+                        "params": {
+                            "start": 14,
+                            "stop": -1
+                        }
+                    },
+                    "img": {
+                      "url": "https://ddzqn.nalrer.cn/ddz/share/share_rank_global.jpg",
+                      "type": "normal",
+                      "params": {}
+                    },
+                    "text": "斗地主进入全国前10%水平，我为\\${title}代言！"
+                },
+                {
+                    "pointId": 99991002,
+                    "condition": {
+                        "type": "winstreak",
+                        "params": {
+                            "start": 10,
+                            "stop": -1
+                        }
+                    },
+                    "img": {
+                      "url": "https://ddzqn.nalrer.cn/ddz/share/share_win_streak.jpg",
+                      "type": "normal",
+                      "params": {}
+                    },
+                    "text": "\\${winstreak}连胜！还有比我更厉害的人么？我不信！"
+                },
+                {
+                    "pointId": 99991002,
+                    "condition": {
+                        "type": "userSegmentUp",
+                        "params": {
+                            "start": 1,
+                            "stop": -1
+                        }
+                    },
+                    "img": {
+                      "url": "https://ddzqn.nalrer.cn/ddz/share/share_default.jpg",
+                      "type": "normal",
+                      "params": {}
+                    },
+                    "text": "升级到\\${userSegment}段位了，我的水平又提升了很多！"
+                },
+                {
+                    "pointId": 99991002,
+                    "condition": {
+                        "type": "default"
+                    },
+                    "img": {
+                      "url": "https://ddzqn.nalrer.cn/ddz/share/share_default.jpg",
+                      "type": "normal",
+                      "params": {}
+                    },
+                    "text": "斗地主水平全国考试，快来看看你能考到什么分数！"
+                }
+            ],
+            "gamewin_match": [
+                {
+                    "pointId": 66662001,
+                    "condition": {
+                        "type": "matchRank",
+                        "compare": {
+                            "start": -1,
+                            "stop": 6
+                        }
+                    },
+                    "img": {
+                      "url": "https://ddzqn.nalrer.cn/ddz/share/share_have_a_try2.jpg",
+                      "type": "normal",
+                      "params": {}
+                    },
+                    "text": "斗地主赢红包！我又拿到了\\${money}元红包，快来一起赚！"
+                },
+                {
+                    "pointId": 66662002,
+                    "condition": {
+                        "type": "default"
+                    },
+                    "img": {
+                      "url": "https://ddzqn.nalrer.cn/ddz/share/share_have_a_try.jpg",
+                      "type": "normal",
+                      "params": {}
+                    },
+                    "text": "打斗地主也能赢红包？娱乐赚钱两不误！"
+                }
+            ]
+        }
+    }
+}

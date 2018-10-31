@@ -1,0 +1,51 @@
+oldcmd.json:
+{
+  "m_quicksignin#" : {
+    "act" : "quicksignin",
+    "cmd" : "room",
+    "target" : "GR"
+  }
+}
+
+
+房间配置：
+{
+  "matchConf" : {
+    "fees" : [
+      {
+        "count" : 100,
+        "itemId" : "item:1007",
+        "params" : {
+          "nextTip" : "adfasdfasdfasdfafs",
+          "failure" : "您的报名条件不足，本比赛需要1张参赛券"
+        }
+      },
+      {
+        "count" : 100,
+        "itemId" : "item:1007",
+        "params" : {
+          "nextTip" : "adfasdfasdfasdfafs",
+          "failure" : "您的报名条件不足，本比赛需要10张参赛券"
+        }
+      },
+      {
+        "count" : 500000000,
+        "itemId" : "user:chip",
+        "params" : {
+          "nextTip" : "您的参赛券不足啦~使用5000金币报名入场吧~\n(提示：每日登陆赠送20张参赛券喔！)",
+          "failure" : "您的金币不足，选择其他报名条件或者买个金币礼包吧",
+          "payOrder" : {
+            "contains" : {
+              "count" : 500000000,
+              "itemId" : "user:chip"
+            },
+            "shelves" : [
+              "lessbuychip"
+            ]
+          }
+        }
+      }
+    ],
+  },
+  "typeName" : "dizhu_arena_match"
+}

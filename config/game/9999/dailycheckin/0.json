@@ -1,0 +1,47 @@
+{
+    "rewards":[
+        {
+            "typeId":"FixedContent",
+            "items":[
+                {"itemId":"user:chip", "count":300}
+            ]
+        },
+        {
+            "typeId":"FixedContent",
+            "items":[
+                {"itemId":"user:chip", "count":600}
+            ]
+        },
+        {
+            "typeId":"FixedContent",
+            "items":[
+                {"itemId":"user:chip", "count":1000}
+            ]
+        },
+        {
+            "typeId":"FixedContent",
+            "items":[
+                {"itemId":"user:chip", "count":1000}
+            ]
+        },
+        {
+            "typeId":"FixedContent",
+            "items":[
+                {"itemId":"user:chip", "count":1000}
+            ]
+        },
+        {
+            "typeId":"FixedContent",
+            "items":[
+                {"itemId":"user:chip", "count":1000}
+            ]
+        },
+        {
+            "typeId":"FixedContent",
+            "items":[
+                {"itemId":"user:chip", "count":1000}
+            ]
+        }
+    ],
+    "mail":"您在每日登录奖励中成功领取\\${rewardContent}"
+}

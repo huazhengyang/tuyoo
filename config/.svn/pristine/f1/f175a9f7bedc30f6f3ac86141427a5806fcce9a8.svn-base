@@ -1,0 +1,29 @@
+{
+  "buyinchip" : 30000,
+  "dummyUserCount" : 0,
+  "gameRule" : "classic",
+  "hasrobot" : 0,
+  "ismatch" : 0,
+  "level" : "free",
+  "matchConf" : null,
+  "maxCoin" : 5000,
+  "maxCoinQS" : 1500,
+  "maxLevel" : -1,
+  "minCoin" : 1,
+  "minCoinQS" : 1,
+  "minVersion" : "3.972",
+  "name" : "新手场",
+  "nameUrl" : "http://ddz.dl.tuyoo.com/cdn37/majiang/images/others/mahjong_room_tle_0.png",
+  "playMode" : "sichuan_xlch",
+  "redEnvelopeLevel" : "beginner",
+  "tableConf" : {
+    "base_chip" : 1,
+    "big_degree_fee" : [],
+    "good_tile_chance" : 1.6,
+    "maxSeatN" : 4,
+    "play_timeout" : 12,
+    "room_coefficient" : 1,
+    "service_fee" : 0
+  },
+  "typeName" : "normal"
+}

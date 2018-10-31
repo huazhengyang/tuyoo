@@ -1,0 +1,114 @@
+{
+    "autoQueue": 0.0, 
+    "couponActCfg": {
+        "add": 0, 
+        "memberAdd": 0, 
+        "timeSegs": [
+            [
+                [
+                    12, 
+                    0
+                ], 
+                [
+                    24, 
+                    0
+                ]
+            ]
+        ]
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            400, 
+            40, 
+            -40
+        ], 
+        "chicken": [
+            400, 
+            40, 
+            -40
+        ], 
+        "doubleAce": [
+            400, 
+            80, 
+            80
+        ], 
+        "eggs": [
+            400, 
+            40, 
+            -40
+        ], 
+        "fishing": [
+            400, 
+            40, 
+            -40
+        ], 
+        "ring": [
+            400, 
+            80, 
+            80
+        ], 
+        "rose": [
+            400, 
+            80, 
+            80
+        ], 
+        "thumb": [
+            400, 
+            80, 
+            80
+        ]
+    }, 
+    "matchConf": {
+        "match_id": "0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 800000, 
+    "minCoin": 200000, 
+    "minCoinQS": 400000, 
+    "minTableCount": 5, 
+    "name": "20万场", 
+    "playMode": "classic", 
+    "queueVipLevel": 5.0, 
+    "rewardDealerChip": 10000, 
+    "roomID": 8122, 
+    "sortId": 7, 
+    "tableConf": {
+        "autoGrad": 0, 
+        "bb": 2000, 
+        "big_pot": 0, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 200000, 
+        "buyinConf": "1/2/3/4/5", 
+        "buyinVip": 3.0, 
+        "call": 0, 
+        "callChip": -1, 
+        "chat_require_vip_level": 8, 
+        "commission": 0.0, 
+        "extname": "永利(准入:20万)", 
+        "fee": 500, 
+        "flip_card_game": {
+            "bet": 2500, 
+            "loading_show": 0, 
+            "show": 1
+        }, 
+        "get_insurance_info": 1.0, 
+        "inner_game": 0, 
+        "isSitBigBlind": 1.0, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "min_players": 2, 
+        "nameForPc": "20万场", 
+        "optime": 10, 
+        "pay_factor": 1.0, 
+        "prebet": 0, 
+        "sb": 1000, 
+        "start_card": 2, 
+        "tname": "20万场", 
+        "vipBuyinConf": "1/2/3/4/5/10", 
+        "win_exp": 2
+    }, 
+    "typeName": "vip"
+}

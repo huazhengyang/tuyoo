@@ -1,0 +1,17 @@
+{
+	"prizeDetail":"*红包口令是识别用户身份的唯一标识，红包任务发放以玩家填写红包口令为准\n*成功发送红包任务至小伙伴1次即可获得5天记牌器，发送次数越多，奖励越丰厚\n*小伙伴输入红包口令并将账号与手机绑定后，即为发送成功\n*任务奖励需绑定手机后领取",
+	"prizeImgUrl":"${http_download}/hall/ntg/imgs/prize3.png",
+	"prizeRewardItem":{
+		"itemId":"item:2003",
+		"count":5
+	},
+	"prizeRewardDesc":"每推荐一个人可获得\\${rewardContent}",
+	"prizeNotGotRewardDesc":"还未获得奖励",
+	"prizeGotTotalRewardDesc":"已经获得\\${totalRewardContent}",
+	"prizeAvailableRewardDesc":"可领取奖励\\${availableRewardContent}",
+	"prizeRewardTips":"恭喜您获得\\${rewardContent}",
+	"shareLoc":"neituiguang",
+	"taskDetail":"*在领取奖励前，请将游戏账号与手机号绑定，以便获取红包券、话费类奖品\n*红包券可以在商城兑换话费卡，话费卡可在背包内使用，给绑定的手机号码进行充值\n*个别地区用户暂不支持话费卡兑换，如果您遇到无法兑换的情况，请拨打4008098000联系客服人员进行处理\n*任务有效期为7天，过期后将无法领取奖励，请合理安排游戏时间",
+	"pleaseBindPhone":"为了您的账号安全，请绑定手机号",
+	"defaultShareId":15
+}

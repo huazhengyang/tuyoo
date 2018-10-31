@@ -1,0 +1,207 @@
+{
+    "activities": [
+        {
+            "actId": "chess_act180213",
+            "typeId": "act_chinesechess_scoreboard",
+            "intActId": 3180213,
+            "open": 1,
+			"showLimitDaily": 1,
+            "showLimitTotal": 3,
+            "rewardLimit": 50,
+            "issueNum": 20180408,
+            "delDate": 20180414,
+            "startTime": "2018-03-30 00:00:00",
+            "endTime": "2018-04-07 23:59:59",
+            "dayOpenTime": "0:00",
+            "dayCloseTime": "23:59",
+            "mail": "您在oppo R15新品福利赛中获得\\${rewardContent}，快去看看吧",
+            "historyLen": 10,
+            "hallGameIds": [
+                3
+            ],
+            "clientIds": [
+               21722
+            ],
+            "itemAddition": {
+                "rate": 0.1,
+                "itemId": "item:1282",
+                "todoTask": {
+                    "url": "",
+                    "typeId": "hall.thirdsdk.extend",
+                    "params":{
+                        "action": "ysdk",
+                        "func": "bbs"
+                    }
+                },
+                "open": 0
+            },
+            "scoreUpWay": {
+                "roundAndWins": [
+                    {
+                        "maxScore": 50,
+                        "scorePerRound": 2,
+                        "scorePerWin": 1,
+                        "openRoomIds": [
+                            3001,
+                            3002,
+                            3003,
+                            3004,
+                            3005,
+                            3006,
+                            3007,
+                            3008,
+                            3009,
+                            3010,
+                            3011,
+                            3012,
+                            3013,
+                            3014,
+                            3015,
+                            3020,
+                            3031,
+                            3032,
+                            3033,
+                            3034,
+                            3035,
+                            3036,
+                            3037,
+                            3038,
+                            3039,
+                            3040,
+                            3041,
+                            3042,
+                            3051,
+                            3052,
+                            3053,
+                            3054,
+                            3055,
+                            3056,
+                            3057,
+                            3100,
+                            3101,
+                            3102,
+                            3103,
+                            3104,
+                            3105,
+                            3205,
+                            3206,
+                            3220
+                        ]
+                    }
+                ],
+                "charge": {
+                    "maxScore": 999999,
+                    "exchangeRate": 10
+                },
+                "share": {
+                    "shareId": [
+                        100,
+                        200
+                    ],
+                    "maxShareScore": 1,
+                    "score": 1
+                }
+            },
+            "dailyReward": [
+                {
+                    "start": 1,
+                    "end": 10,
+                    "img": "${http_download}/hall/item/imgs/item_4142_1.png",
+                    "desc": "50元话费卡",
+                    "items": [
+                        {
+                            "itemId": "item:4143",
+                            "count": 1
+                        }
+                    ]
+                },
+				{
+                    "start": 11,
+                    "end": 30,
+                    "img": "${http_download}/hall/item/imgs/item_4141_1.png",
+                    "desc": "10元话费卡",
+                    "items": [
+                        {
+                            "itemId": "item:4141",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "start": 31,
+                    "end": 50,
+                    "img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+                    "desc": "1万金币",
+                    "items": [
+                        {
+                            "itemId": "user:chip",
+                            "count": 10000
+                        }
+                    ]
+                }
+            ],
+            "totalReward": [
+                {
+                    "start": 1,
+                    "end": 1,
+                    "img": "${http_download}/hall/item/item_2264.png",
+                    "desc": "oppo R15梦境手机1部",
+                    "items": [
+                        {
+                            "itemId": "item:2267",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "start": 2,
+                    "end": 2,
+                    "img": "${http_download}/hall/item/imgs/item_4142_1.png",
+                    "desc": "50元话费卡",
+                    "items": [
+                        {
+                            "itemId": "item:4143",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "start": 3,
+                    "end": 3,
+                    "img": "${http_download}/hall/item/imgs/item_4142_3.png",
+                    "desc": "30元话费卡",
+                    "items": [
+                        {
+                            "itemId": "item:4142",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "start": 4,
+                    "end": 20,
+                    "img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+                    "desc": "20万金币",
+                    "items": [
+                        {
+                            "itemId": "user:chip",
+                            "count": 200000
+                        }
+                    ]
+                },
+                {
+                    "start": 21,
+                    "end": 50,
+                    "img": "${http_download}/hall/pdt/imgs/goods_t300k.png",
+                    "desc": "10万金币",
+                    "items": [
+                        {
+                            "itemId": "user:chip",
+                            "count": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

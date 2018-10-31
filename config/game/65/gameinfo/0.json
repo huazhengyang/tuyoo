@@ -1,0 +1,129 @@
+{
+  "relatedGames": [
+		{"type": "game", "typeId": "clown", "gameId": 27, "vipLevel":1, "enter_param": {"gameType": 1}, "isOffline": 0},
+		{"type": "game", "typeId": "dragon", "gameId": 23, "vipLevel":1, "enter_param": {"gameType": 1}, "isOffline": 0},
+		{"type": "game", "typeId": "newfruit", "gameId": 31, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0},
+		{"type": "game", "typeId": "dog", "gameId": 19, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0}
+	],
+  "king": {
+    "rewardRatio": [
+      50,
+      22,
+      8,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "caiJinChouShui": 0.03,
+    "basePool": 20000000,
+    "caiJinGuide": [
+      "1、彩金由所有玩家押注形成;",
+      "2、押注越多累积彩金越高;",
+      "3、当日押注排名前10名,次日获得奖励;",
+      "4、彩金奖励需玩家主动领取;",
+      "5、当日不领取则自动失效,请及时领取."
+    ]
+  },
+  "emoji": [
+		{"id": "egg", "name": "鸡蛋", "price": 1000, "self_meili": 100, "peer_meili": -100},
+		{"id": "bomb", "name": "炸弹", "price": 10000, "self_meili": 1000, "peer_meili": -1000},
+		{"id": "goodjob", "name": "大拇指", "price": 1000, "self_meili": 100, "peer_meili": 100},
+		{"id": "flower", "name": "鲜花", "price": 10000, "self_meili": 2000, "peer_meili": 2000},
+		{"id": "ring", "name": "钻戒", "price": 10000, "self_meili": 2000, "peer_meili": 2000}
+	],
+  "fireworks":[
+      {"id": "firework_lv1", "name": "初级烟花", "price": 100000, "scale":0.5,"broadcast_desc":"富农{name}放了10万大礼花！","reward_desc":"恭喜您获得富农{name}的礼金{chip}金币！"},
+      {"id": "firework_lv2", "name": "中级烟花", "price": 500000, "scale":0.5,"broadcast_desc":"土豪{name}放了10万大礼花！","reward_desc":"恭喜您获得土豪{name}的礼金{chip}金币！"},
+      {"id": "firework_lv3", "name": "高级烟花", "price": 1000000, "scale":0.5,"broadcast_desc":"超级土豪{name}放了10万大礼花！","reward_desc":"恭喜您获得超级土豪{name}的礼金{chip}金币！"}
+  ],
+  "bairen_game_define_caichi_rules":[
+    "1、庄家押注额=所有闲家押注总和\n2、按照玩家押注金额，彩池按照牌型倍数发放彩金",
+    "5家牛牛\n5炸\n至尊牛牛\n5小牛\n炸弹\n4家牛牛\n3家牛牛",
+    "押注额50倍\n押注额30倍\n押注额5倍\n押注额3倍\n押注额1倍\n押注额1倍\n押注额0.5倍"
+  ],
+  "bairen_game_define_help_rules" : [
+    "游戏玩法介绍：\n游戏道具：一副扑克牌54张，可以充当任意牌；\n玩家组成：4个闲家、通过闲家押注；\n牌型介绍及大小比较：\n",
+    "K，Q，J都当成是10点，A当成是1点，其余牌都当其本身的点数。游戏会发给每位玩家5张牌，玩家用手上任意的3张牌组合（且只能用3张牌组成10的倍数），使其点数之和为10的倍数，这样就称之为“牛”。然后将剩余的2张牌点数之和取个位数，如这2张牌之和也为10的倍数，则组成“牛牛”牌型。如这2张牌之和不为10的整数倍，则去掉十位数之后个位数为几，则成为“牛几”牌型。如任意三张牌组合的点数之和都不能成为10的倍数，则称之为“无牛”牌型；\n",
+    "牌型大小：花顺牛>花炸牛＞同花牛>五小牛>炸弹>金牛>银牛>牛牛>有牛>无牛；\n",
+    "庄家和闲家牌型一致时，庄家赢；\n",
+    "输赢倍数：牛七，牛八输赢2倍，牛九以及以上输赢3倍，其他输赢均为1倍。"
+  ],
+  "products": [
+  {
+    "condition":{
+      "typeId":"user.cond.vipLevel",
+      "startLevel":0,
+      "stopLevel":5
+    },
+    "products":[
+      {
+        "shelves":["coin"],
+        "contains":{
+          "itemId":"user:chip",
+          "count":360000,
+          "minCount":36000,
+          "maxCount":1500000
+        }
+      },
+      {
+        "shelves":["coin"],
+        "contains":{
+          "itemId":"user:chip",
+          "count":1400000,
+          "minCount":1400000,
+          "maxCount":5000000
+        }
+      },
+      {
+        "shelves":["coin"],
+        "contains":{
+          "itemId":"user:chip",
+          "count":5000000,
+          "minCount":3000000,
+          "maxCount":5000000
+        }
+      }
+    ]
+  },
+  {
+    "condition":{
+      "typeId":"user.cond.vipLevel",
+      "startLevel":5,
+      "stopLevel":-1
+    },
+    "products":[
+      {
+        "shelves":["coin"],
+        "contains":{
+          "itemId":"user:chip",
+          "count":1500000,
+          "minCount":1500000,
+          "maxCount":5000000
+        }
+      },
+      {
+        "shelves":["coin"],
+        "contains":{
+          "itemId":"user:chip",
+          "count":5000000,
+          "minCount":5000000,
+          "maxCount":20000000
+        }
+      },
+      {
+        "shelves":["coin"],
+        "contains":{
+          "itemId":"user:chip",
+          "count":12000000,
+          "minCount":12000000,
+          "maxCount":20000000
+        }
+      }
+    ]
+  }
+  ]
+}

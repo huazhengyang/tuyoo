@@ -1,0 +1,694 @@
+{
+  "activity" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "trigger_five_star_rate" : {
+    "act" : "trigger_five_star_rate",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "activity_list" : {
+    "act" : "list",
+    "cmd" : "act",
+    "target" : "UT"
+  },
+  "activity_request#buy" : {
+    "act" : "buy",
+    "cmd" : "act",
+    "target" : "UT"
+  },
+  "activity_request#exchange" : {
+    "act" : "exchange",
+    "cmd" : "act",
+    "target" : "UT"
+  },
+  "activity_request#getGifts" : {
+    "act" : "getGifts",
+    "cmd" : "act",
+    "target" : "UT"
+  },
+  "bind_game" : {
+    "act" : "enter",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "bind_user" : {
+    "act" : "bind",
+    "cmd" : "user",
+    "target" : "UT"
+  },
+  "callLater#" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GR"
+  },
+  "complain" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "douniu#dn_vipTableList" : {
+    "act" : "dn_vipTableList",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "douniu#observe" : {
+    "act" : "observe",
+    "cmd" : "game",
+    "target" : "GT"
+  },
+  "fixed_interval_reward" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "friendShip" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "friends" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "fruit_game#consult" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GR"
+  },
+  "game_data" : {
+    "act" : "data",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "gbvip_room_info#" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GR"
+  },
+  "get_activity_item" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "get_head_pics" : {
+    "act" : "get_head_pics",
+    "cmd" : "user",
+    "target" : "UT"
+  },
+  "get_more_games" : {
+    "act" : "more_games",
+    "cmd" : "hall",
+    "target" : "UT"
+  },
+  "get_pop_act" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "get_raffle_item" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "hall_info" : {
+    "act" : "info",
+    "cmd" : "hall",
+    "target" : "UT"
+  },
+  "heart_beat" : {
+    "act" : "heart_beat",
+    "cmd" : "user",
+    "target" : "UT"
+  },
+  "htmls_info" : {
+    "act" : "htmls_info",
+    "cmd" : "hall",
+    "target" : "UT"
+  },
+  "login_reward" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "login_reward_flip_card" : {
+    "act" : "login_reward_flip_card",
+    "cmd" : "game",
+    "memory" : "连续登陆翻牌奖励",
+    "target" : "UT"
+  },
+  "login_reward_t3card" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "m_des#" : {
+    "act" : "des",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+  "m_enter#" : {
+    "act" : "enter",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+  "m_leave#" : {
+    "act" : "leave",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+  "m_signin#" : {
+    "act" : "signin",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+  "m_quicksignin#" : {
+    "act" : "quicksignin",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+  "m_signout#" : {
+    "act" : "signout",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+  "m_signs" : {
+    "act" : "signs",
+    "cmd" : "hall",
+    "target" : "UT"
+  },
+  "m_update#" : {
+    "act" : "update",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+  "room#giveup" : {
+    "act" : "giveup",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+  "m_winlose#" : {
+    "act" : "winlose",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+  "master_score" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "match_event#match_end" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GR"
+  },
+  "match_event#match_expired" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GR"
+  },
+  "match_event#match_start" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GR"
+  },
+  "medal_list" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "medal_reward" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "message#global_update" : {
+    "act" : "global_update",
+    "cmd" : "message",
+    "target" : "UT"
+  },
+  "message#private_update" : {
+    "act" : "list",
+    "cmd" : "message",
+    "target" : "UT"
+  },
+  "module_tip" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "modules_switch" : {
+    "act" : "modules_switch",
+    "cmd" : "hall",
+    "memory" : "新版本废弃",
+    "target" : "UT"
+  },
+  "new_table_chat#" : {
+    "act" : "new_table_chat",
+    "cmd" : "game",
+    "target" : "GT"
+  },
+  "offline_geo" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "online_state_change" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "promote_info" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "promotion_loc" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "props_list" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "quick_start" : {
+    "act" : "quick_start",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "referrer" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "room_enter#" : {
+    "act" : "enter",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+  "room_leave#" : {
+    "act" : "leave",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+  "room_list#" : {
+    "act" : "room_list",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "send_led" : {
+    "act" : "",
+    "cmd" : "send_led",
+    "target" : "UT"
+  },
+  "set_game_user_head" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "set_star_id" : {
+    "act" : "set_star_id",
+    "cmd" : "user",
+    "target" : "UT"
+  },
+  "set_user" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "sit#" : {
+    "act" : "sit",
+    "cmd" : "game",
+    "target" : "GT"
+  },
+  "standup#" : {
+    "act" : "standup",
+    "cmd" : "game",
+    "target" : "GT"
+  },
+  "store_config" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "fish_store_config" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "t3card#LINER_MATCH_START" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GR"
+  },
+  "t3card#SEND_TASK_LED" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GR"
+  },
+  "t3card#enter_game" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GR"
+  },
+  "t3card#m_last_rank" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GR"
+  },
+  "t3card#observe" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GR"
+  },
+  "t3card_vipTableList#" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GR"
+  },
+  "table_call#smilies" : {
+    "act" : "smilies",
+    "cmd" : "table",
+    "target" : "GT"
+  },
+  "table_call#tbox" : {
+    "act" : "tbox",
+    "cmd" : "table",
+    "target" : "GT"
+  },
+  "table_chat#" : {
+    "act" : "chat",
+    "cmd" : "table",
+    "target" : "GT"
+  },
+  "table_enter#" : {
+    "act" : "enter",
+    "cmd" : "table",
+    "target" : "GT"
+  },
+  "table_info#" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "GT"
+  },
+  "table_leave#" : {
+    "act" : "leave",
+    "cmd" : "table",
+    "target" : "GT"
+  },
+  "texas#activityInfo" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "texas#all_ios_products" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "texas#boxList" : {
+    "act" : "boxList",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#boxProgress" : {
+    "act" : "boxProgress",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#enterQueue" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "texas#flip_card_game" : {
+    "act" : "flip_card_game",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#flip_card_game_charge" : {
+    "act" : "flip_card_game_charge",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#getBoxReward" : {
+    "act" : "getBoxReward",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#getRandomNickname" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "texas#get_flip_card_game_cfg" : {
+    "act" : "get_flip_card_game_cfg",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#get_match_buyin" : {
+    "act" : "get_match_buyin",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#get_tutorial_award" : {
+    "act" : "get_tutorial_award",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#giveUpLucky" : {
+    "act" : "give_up_lucky_buy",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#leaveQueue" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "texas#linerMatch" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "texas#linerMatchRank" : {
+    "act" : "rank_list",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#m_rooms" : {
+    "act" : "match_des",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#matchList" : {
+    "act" : "match_list",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#matchRank" : {
+    "act" : "rank_list",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#matchRule" : {
+    "act" : "matchRule",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#match_buyin" : {
+    "act" : "match_buyin",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#onlineNumber" : {
+    "act" : "onlineNumber",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#ranking_get_all" : {
+    "act" : "ranking_get_all",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#roomConfig" : {
+    "act" : "roomConfig",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#roomList" : {
+    "act" : "room_list",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "texas#setUserPhoto" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "texas#vipAutoSit" : {
+    "act" : "",
+    "cmd" : "",
+    "target" : "UT"
+  },
+  "texas#vipTableList" : {
+    "act" : "vip_table_list",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "todo_tasks" : {
+    "act" : "todo_task",
+    "cmd" : "user",
+    "target" : "UT"
+  },
+  "user_heart_beat" : {
+    "act" : "heart_beat",
+    "cmd" : "user",
+    "target" : "UT"
+  },
+  "user_info" : {
+    "act" : "info",
+    "cmd" : "user",
+    "target" : "UT"
+  },
+  "dizhu#scoreboard" : {
+    "act" : "scoreboard",
+    "cmd" : "dizhu",
+    "target" : "UT"
+  },
+  "dizhu#score_get_rank" : {
+    "act" : "score_get_rank",
+    "cmd" : "dizhu",
+    "target" : "UT"
+  },
+  "dizhu#score_get_reward" : {
+    "act" : "score_get_reward",
+    "cmd" : "dizhu",
+    "target" : "UT"
+  },
+  "dizhu#score_get_rule" : {
+    "act" : "score_get_rule",
+    "cmd" : "dizhu",
+    "target" : "UT"
+  },
+  "match_rank_list#" : {
+    "act" : "match_rank_list",
+    "cmd" : "hall",
+    "target" : "UT"
+  },
+  "match_result_list#" : {
+    "act" : "match_result_list",
+    "cmd" : "hall",
+    "target" : "UT"
+  },
+  "match_room_list#" : {
+    "act" : "match_room_list",
+    "cmd" : "hall",
+    "target" : "UT"
+  },
+  "match_state#" : {
+    "act" : "match_state",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+  "award_certificate#" : {
+    "act" : "award_certificate",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "quick_start#watch" : {
+    "act" : "watch",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "watch_table_list" : {
+    "act" : "watch_table_list",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "chess_book_list" : {
+    "act" : "chess_book_list",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "m_watchList#": {
+    "act" : "m_watchList",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "m_getHistory#":{
+    "act" : "m_getHistory",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "room_list#get_info" : {
+    "act" : "room_list",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "m_quicksignin#" : {
+    "act" : "quicksignin",
+    "cmd" : "room",
+    "target" : "GR"
+  },
+"match#signin" : {
+    "act" : "signin",
+    "cmd" : "match",
+    "target" : "GR"
+  },
+  "match#signout" : {
+    "act" : "signout",
+    "cmd" : "match",
+    "target" : "GR"
+  },
+  "match#desc" : {
+    "act" : "desc",
+    "cmd" : "match",
+    "target" : "GR"
+  },
+  "match#rank" : {
+    "act" : "rank",
+    "cmd" : "match",
+    "target" : "GR"
+  },
+  "match#enter" : {
+    "act" : "enter",
+    "cmd" : "match",
+    "target" : "GR"
+  },
+  "match#leave" : {
+    "act" : "leave",
+    "cmd" : "match",
+    "target" : "GR"
+  },
+  "match#update" : {
+    "act" : "update",
+    "cmd" : "match",
+    "target" : "GR"
+  },
+  "match#giveup" : {
+    "act" : "giveup",
+    "cmd" : "match",
+    "target" : "GR"
+  },
+  "game#signs" : {
+    "act" : "signs",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "game#match_room_list" : {
+    "act" : "match_room_list",
+    "cmd" : "game",
+    "target" : "UT"
+  },
+  "m_revival#" : {
+    "act" : "revival",
+    "cmd" : "room",
+    "target" : "GR"
+  }
+}

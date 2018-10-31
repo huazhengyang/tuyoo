@@ -1,0 +1,9 @@
+{
+    "templates": {
+        "default": {
+            "url": "${http_download}/activities/activity.html",
+            "lpic": "${http_download}/images/activities/left_20150903.jpg",
+            "rpic": "${http_download}/images/activities/right.jpg"
+        }
+    }
+}

@@ -1,0 +1,1027 @@
+{
+  "freeItems" : [
+    {
+      "freeItemId" : 1,
+      "iconRes" : "checkin",
+      "states" : [
+        {
+          "btnText" : "签到",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.NotCheckInToday"
+            }
+          ],
+          "desc" : "每日签到就赠送500金币和1次免费抽奖机会!\n(今天您还没有签到)",
+          "enable" : true,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.checkin"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "领取",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.CheckInHasReward"
+            }
+          ],
+          "desc" : "每日签到就赠送500金币和1次免费抽奖机会!\n(您还有连续登陆奖励未领取)",
+          "enable" : true,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.checkin"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "查看详情",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasSupCheckinDay"
+            }
+          ],
+          "desc" : "每日签到就赠送500金币和1次免费抽奖机会!",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.checkin"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "查看",
+          "desc" : "每日签到就赠送500金币和1次免费抽奖机会!\n(本月无漏签，感谢支持)",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.checkin"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 2,
+      "iconRes" : "lottery",
+      "states" : [
+        {
+          "btnText" : "抽奖",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasLuckyCard"
+            }
+          ],
+          "desc" : "来试试您的手气吧!\n(您还有免费抽奖机会)",
+          "enable" : true,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.lottery"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "抽奖",
+          "desc" : "您还可以使用钻石进行抽奖!",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.lottery"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 3,
+      "iconRes" : "task",
+      "states" : [
+        {
+          "btnText" : "查看详情",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.newuser"
+            },
+            {
+              "typeId" : "user.cond.HasTaskReward"
+            }
+          ],
+          "desc" : "新手任务会赠送话费,金币等礼品!\n(请注意该任务有时间限制)",
+          "enable" : true,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.promote"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.newuser"
+            },
+            {
+              "typeId" : "user.cond.TaskAllDone"
+            }
+          ],
+          "desc" : "",
+          "enable" : true,
+          "hasMark" : false,
+          "visible" : false
+        },
+        {
+          "btnText" : "查看详情",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.newuser"
+            }
+          ],
+          "desc" : "新手任务会赠送话费,金币等礼品!\n(请注意该任务有时间限制)",
+          "enable" : true,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.promote"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 4,
+      "iconRes" : "share",
+      "states" : [
+        {
+          "btnText" : "分享领奖",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasDailyShareConfig"
+            },
+            {
+              "typeId" : "user.cond.HasDailyShareReward"
+            }
+          ],
+          "desc" : "每日首次分享赠送1000金币!",
+          "enable" : true,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "todotask.daily.sharegift"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "分享领奖",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasDailyShareConfig"
+            }
+          ],
+          "desc" : "每日首次分享赠送1000金币!\n(今天已领取，期待明天再见)",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "todotask.daily.sharegift"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 5,
+      "iconRes" : "member",
+      "states" : [
+        {
+          "btnText" : "领取",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasMemberReward"
+            }
+          ],
+          "desc" : "尊敬的会员,欢迎回来,10000金币请您笑纳!",
+          "enable" : true,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "todotask.getMemberReward"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.IsMember"
+            }
+          ],
+          "desc" : "会员每日登陆即可领取10000金币!\n(今天已领取，期待明天与您再见)",
+          "enable" : false,
+          "hasMark" : false,
+          "visible" : true
+        },
+        {
+          "btnText" : "查看详情",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasMemberBuyWindow"
+            }
+          ],
+          "desc" : "会员每日登陆即可领取10000金币!\n(今天加入还有更多福利和优惠活动)",
+          "enable" : true,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "templateName" : "memberBuy2"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 6,
+      "iconRes" : "fivestar",
+      "states" : [
+        {
+          "btnText" : "查看详情",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.NotFiveStar"
+            }
+          ],
+          "desc" : "游戏玩的开心吗?期待您的评价!\n(我们还准备了一些小礼物)",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "todotask.fiveStar"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 7,
+      "iconRes" : "bindphone",
+      "states" : [
+        {
+          "btnText" : "认证",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.BindPhone"
+            }
+          ],
+          "desc" : "认证账号来提高账号的安全性吧!\n(首次认证赠送10000金币)",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "todotask.bindPhone"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 8,
+      "iconRes" : "friend",
+      "states" : [
+        {
+          "btnText" : "查看详情",
+          "desc" : "邀请好友一起玩,丰厚礼品感谢您!\n(每邀请一个好友赠送5天记牌器)",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "todotask.repScenePromteDirect"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 9,
+      "iconRes" : "share",
+      "states" : [
+        {
+          "btnText" : "分享领奖",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasDailyShareReward"
+            }
+          ],
+          "desc" : "每日首次分享可以获得1000金币！",
+          "enable" : true,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "shareId" : 100,
+              "typeId" : "todotask.sharegift.with.shareId"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "分享",
+          "conditions" : [],
+          "desc" : "每日首次分享赠送1000金币!\n(今天已领取，期待明天再见)",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "shareId" : 101,
+              "typeId" : "todotask.sharegift.with.shareId"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 11,
+      "iconRes" : "checkin",
+      "states" : [
+        {
+          "btnText" : "每日签到",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.NotCheckInToday"
+            }
+          ],
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.checkin"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "每日签到",
+          "desc" : "",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.checkin"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 12,
+      "iconRes" : "lottery",
+      "states" : [
+        {
+          "btnText" : "幸运转盘",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasLuckyCard"
+            }
+          ],
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.lottery"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "幸运转盘",
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.lottery"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 13,
+      "iconRes" : "share",
+      "states" : [
+        {
+          "btnText" : "每日领金币",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasDailyShareConfig"
+            },
+            {
+              "typeId" : "user.cond.HasDailyShareReward"
+            }
+          ],
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "todotask.daily.sharegift"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "每日领金币",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasDailyShareConfig"
+            }
+          ],
+          "desc" : "",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "todotask.daily.sharegift"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 14,
+      "iconRes" : "member",
+      "states" : [
+        {
+          "btnText" : "会员福利",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasMemberReward"
+            }
+          ],
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "todotask.getMemberReward"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "会员福利",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.IsMember"
+            }
+          ],
+          "desc" : "",
+          "enable" : true,
+          "hasMark" : false,
+          "visible" : true
+        },
+        {
+          "btnText" : "会员福利",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasMemberBuyWindow"
+            }
+          ],
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : false,
+          "visible" : false
+        }
+      ]
+    },
+    {
+      "freeItemId" : 15,
+      "iconRes" : "fivestar",
+      "states" : [
+        {
+          "btnText" : "五星评价",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.NotFiveStar"
+            }
+          ],
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "todotask.fiveStar"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 16,
+      "iconRes" : "bindphone",
+      "states" : [
+        {
+          "btnText" : "账号安全",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.BindPhone"
+            }
+          ],
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "todotask.bindPhone"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 17,
+      "iconRes" : "friend",
+      "states" : [
+        {
+          "btnText" : "邀请好友",
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "todotask.repScenePromteDirect"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 18,
+      "iconRes" : "task_coupon",
+	  "itemName": "视频分享福利",
+      "states" : [
+        {
+          "btnText" : "局对分享",
+          "conditions" : [
+            {
+              "tableShareCount" : 1,
+              "tableShareRecorderActId" : "table_share_recorder1",
+              "typeId" : "user.cond.dizhu.table.share"
+            }
+          ],
+          "desc" : "",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+          		"typeId":"todotask.showInfo",
+          		"info":"（限时活动）每日首次分享我的视频，可得0.3红包券。",
+          		"subText":"确定",
+	            "subCmd":{
+	              "enter_param" : {
+	                "pluginParams" : {
+	                  "action" : "mine_video",
+	                  "gameType" : 10,
+	                  "roomType" : 1
+	                },
+	                "type" : "roomlist"
+	              },
+	              "gameId" : 6,
+	              "typeId" : "hall.goto.enter.game"
+	            }
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "局对分享",
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : true,
+          "todotasks" : [
+          	{
+          		"typeId":"todotask.showInfo",
+          		"info":"（限时活动）每日首次分享我的视频，可得0.3红包券。",
+          		"subText":"确定",
+	            "subCmd":{
+	              "enter_param" : {
+	                "pluginParams" : {
+	                  "action" : "mine_video",
+	                  "gameType" : 10,
+	                  "roomType" : 1
+	                },
+	                "type" : "roomlist"
+	              },
+	              "gameId" : 6,
+	              "typeId" : "hall.goto.enter.game"
+	            }
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 19,
+      "iconRes" : "task_redPackets",
+      "itemName": "朋友场红包",
+      "states" : [
+        {
+          "btnText" : "召唤好友",
+          "conditions" : [
+            {
+              "finishCount" : 1,
+              "actId" : "fttable_finish_recorder1",
+              "typeId" : "user.cond.dizhu.fttable.finish"
+            }
+          ],
+          "desc" : "",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+            	"typeId":"todotask.showInfo",
+          		"info":"（限时活动）朋友场创建好友桌，并打满局数，可得1元微信红包",
+          		"subText":"确定",
+          		"subCmd":{
+	              "enter_param" : {
+	                "pluginParams" : {
+	                  "action" : "create",
+	                  "gameType" : 9
+	                },
+	                "type" : "roomlist"
+	              },
+	              "gameId" : 6,
+	              "typeId" : "hall.goto.enter.game"
+	            }
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "召唤好友",
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+            	"typeId":"todotask.showInfo",
+          		"info":"（限时活动）朋友场创建好友桌，并打满局数，可得1元微信红包",
+          		"subText":"确定",
+          		"subCmd":{
+	              "enter_param" : {
+	                "pluginParams" : {
+	                  "action" : "create",
+	                  "gameType" : 9
+	                },
+	                "type" : "roomlist"
+	              },
+	              "gameId" : 6,
+	              "typeId" : "hall.goto.enter.game"
+            	}
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 20,
+      "iconRes" : "lottery",
+      "states" : [
+        {
+          "btnText" : "幸运转盘",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.HasLuckyCard"
+            },
+            {
+              "startTime": 8000,
+              "endTime": -1,
+              "typeId": "user.cond.play.time"
+            }
+          ],
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.lottery"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "幸运转盘",
+          "conditions" : [
+            {
+              "startTime": 8000,
+              "endTime": -1,
+              "typeId": "user.cond.play.time"
+            }
+          ],
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.lottery"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 21,
+      "iconRes" : "${http_download}/hall/promote/imgs/texas_0601_vipquest.png",
+      "itemName": "德州贵族成就",
+      "states" : [
+        {
+          "btnText" : "查看详情",
+          "desc" : "邀请好友一起玩,丰厚礼品感谢您!\n(每邀请一个好友赠送5天记牌器)",
+          "enable" : false,
+          "hasMark" : false,
+          "todotasks":[
+                {
+                    "enter_param":{
+                        "pluginParams":{
+                            "gameType":17
+                        },
+                        "type":"roomlist"
+                    },
+                    "gameId":8,
+                    "typeId":"hall.goto.enter.game"
+                }
+            ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 22,
+      "iconRes" : "${http_download}/hall/promote/imgs/texas_0601_quest.png",
+      "itemName": "德州新成就",
+      "states" : [
+        {
+          "btnText" : "查看详情",
+          "desc" : "邀请好友一起玩,丰厚礼品感谢您!\n(每邀请一个好友赠送5天记牌器)",
+          "enable" : false,
+          "hasMark" : false,
+          "todotasks":[
+                {
+                    "enter_param":{
+                        "pluginParams":{
+                            "gameType":15
+                        },
+                        "type":"roomlist"
+                    },
+                    "gameId":8,
+                    "typeId":"hall.goto.enter.game"
+                }
+            ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 23,
+      "iconRes" : "${http_download}/hall/promote/imgs/texas_0601_GODquest.png",
+      "itemName": "德州牌神之路",
+      "states" : [
+        {
+          "btnText" : "查看详情",
+          "desc" : "邀请好友一起玩,丰厚礼品感谢您!\n(每邀请一个好友赠送5天记牌器)",
+          "enable" : false,
+          "hasMark" : false,
+          "todotasks":[
+                {
+                    "enter_param":{
+                        "pluginParams":{
+                            "gameType":16
+                        },
+                        "type":"roomlist"
+                    },
+                    "gameId":8,
+                    "typeId":"hall.goto.enter.game"
+                }
+            ],
+          "visible" : true
+        }
+      ]
+    },
+    {
+      "freeItemId" : 101,
+      "iconRes" : "checkinnew",
+      "states" : [
+        {
+          "btnText" : "每日签到",
+          "conditions" : [
+            {
+              "typeId" : "user.cond.NotCheckInToday"
+            }
+          ],
+          "desc" : "",
+          "enable" : false,
+          "hasMark" : true,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.checkin"
+            }
+          ],
+          "visible" : true
+        },
+        {
+          "btnText" : "每日签到",
+          "desc" : "",
+          "enable" : true,
+          "hasMark" : false,
+          "todotasks" : [
+            {
+              "typeId" : "hall.goto.checkin"
+            }
+          ],
+          "visible" : true
+        }
+      ]
+    }
+  ],
+  "templates" : [
+    {
+      "freeItems" : [
+        1,
+        2,
+        5,
+        6
+      ],
+      "name" : "default"
+    },
+    {
+      "freeItems" : [
+        11,
+        13,
+        15,
+        14
+      ],
+      "name" : "pengyouchangtuiguang"
+    },
+    {
+      "freeItems" : [
+        1,
+        2,
+        5,
+        6,
+        9
+      ],
+      "name" : "ddz_v3.77_AI_new_share"
+    },
+    {
+      "freeItems" : [
+        1,
+        2,
+        5,
+        6
+      ],
+      "name" : "template_3.77_test"
+    },
+    {
+      "freeItems" : [
+        11,
+        13,
+        15,
+        12,
+        14
+      ],
+      "name" : "template_3.9_test"
+    },
+    {
+      "freeItems" : [
+        11,
+		13,
+        15,
+        14
+      ],
+      "name" : "template_3.9_default"
+    },
+    {
+      "freeItems" : [
+        11,
+        13,
+        14
+      ],
+      "name" : "template_3.9_no5star"
+    },
+	{
+      "freeItems" : [
+        101,
+		13,
+        15,
+        14
+      ],
+      "name" : "template_4.56_default"
+    },
+	{
+      "freeItems" : [
+        101,
+        15,
+        14
+      ],
+      "name" : "template_4.56_tishen"
+    },
+    {
+      "freeItems" : [
+        11,
+        15,
+        14
+      ],
+      "name" : "template_3.9_noshare"
+    },
+    {
+      "freeItems" : [
+        15,
+        21,
+        22,
+        23
+      ],
+      "name" : "texas_v3.9_share"
+    },
+    {
+      "freeItems" : [
+        11,
+        12,
+        15,
+        16
+      ],
+      "name" : "template_3.9_t3card2016"
+    },
+    {
+      "freeItems" : [
+        11,
+        20
+      ],
+      "name" : "texas_3.9_checkinonly"
+    },
+    {
+      "freeItems" : [
+        11,
+        15,
+        20,
+        14
+      ],
+      "name" : "template_3.9_banhao"
+    },
+    {
+      "freeItems" : [
+        11
+      ],
+      "name" : "template_3.9_checkinonly"
+    },
+    {
+      "freeItems" : [
+        15,
+		    21,
+		    22,
+		    23
+      ],
+      "name" : "texas_4.56_fangshuahao"
+    },	
+    {
+      "freeItems" : [
+        15,
+		    21,
+		    22,
+		    23,
+		    101
+      ],
+      "name" : "texas_4.56_default"
+    }
+  ]
+}

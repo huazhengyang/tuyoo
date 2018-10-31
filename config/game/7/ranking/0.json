@@ -1,0 +1,19 @@
+{
+	"mj.act.ranking_prize": {
+		"desc": "排行榜活动",
+		"keepTopNumber": 300, 
+        "lifeCycle": {
+        	"typeId": "life",
+        	"timeList": [
+				{"start": "2017-05-25 00:00:00", "end": "2017-06-01 23:59:59"}
+        	]
+        },
+	    "prizeSender":{
+	        "bireportEvent": "MJ_ACTIVITY_PRIZE",
+	        "bireportEventParams": 7010,
+	        "mailFormat": "恭喜您获得排行榜奖励:\\${prizeContent}",
+	        "prizeList":[
+	        ]
+	    }
+    }
+}

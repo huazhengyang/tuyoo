@@ -1,0 +1,124 @@
+{
+	"codeNum": 6,
+	"products":
+	[
+		{
+			"id": 1,
+			"type": 2,
+			"cornerTag": 0, 
+			"totalMinBetCount": 5,
+			"totalBetCount": 10000,
+			"userBetLimit": 10,
+			"onceBetLimit": 5,
+			"issueLimit": 10000,
+			"sortId": 10, 
+			"fee": {
+				"desc": "1张红包券",
+				"typeId": "FixedContent",
+				"items": [
+					{
+						"itemId": "user:coupon",
+						"count": 1
+					}
+				]
+			},
+			"rewardContent": {
+				"pic": "https://ddzqn.nalrer.cn/ddz/other/treasure_shop_1.png",
+				"desc": "10元红包",
+				"typeId": "FixedContent",
+				"items": [
+					{
+						"itemId": "user:coupon",
+						"count": 1000
+					}
+				]
+			},
+			"days": {
+				"count": 100,
+				"first": "20180409",
+				"interval": "1d"
+			},
+			"excludeDays": ["20180513"],
+			"timeLength": 3
+		},
+		{
+			"id": 2,
+			"type": 2,
+			"cornerTag": 0, 
+			"totalMinBetCount": 10,
+			"totalBetCount": 10000,
+			"userBetLimit": 10,
+			"onceBetLimit": 5,
+			"issueLimit": 10000,
+			"sortId": 10, 
+			"fee": {
+				"desc": "1张红包券",
+				"typeId": "FixedContent",
+				"items": [
+					{
+						"itemId": "user:coupon",
+						"count": 1
+					}
+				]
+			},
+			"rewardContent": {
+				"pic": "https://ddzqn.nalrer.cn/ddz/other/treasure_shop_1.png",
+				"desc": "10元红包",
+				"typeId": "FixedContent",
+				"items": [
+					{
+						"itemId": "user:coupon",
+						"count": 1000
+					}
+				]
+			},
+			"days": {
+				"count": 100,
+				"first": "20180409",
+				"interval": "1d"
+			},
+			"excludeDays": ["20180513"],
+			"timeLength": 30
+		},
+		{
+			"id": 3,
+			"type": 1,
+			"cornerTag": 0, 
+			"totalMinBetCount": 10,
+			"totalBetCount": 10000,
+			"userBetLimit": 10,
+			"onceBetLimit": 5,
+			"issueLimit": 10000,
+			"sortId": 10, 
+			"fee": {
+				"desc": "1张红包券",
+				"typeId": "FixedContent",
+				"items": [
+					{
+						"itemId": "user:coupon",
+						"count": 1
+					}
+				]
+			},
+			"rewardContent": {
+				"pic": "https://ddzqn.nalrer.cn/ddz/other/treasure_shop_1.png",
+				"desc": "10元红包",
+				"typeId": "FixedContent",
+				"items": [
+					{
+						"itemId": "user:coupon",
+						"count": 1000
+					}
+				]
+			},
+			"days": {
+				"count": 100,
+				"first": "20180409",
+				"interval": "1d"
+			},
+			"excludeDays": ["20180513"],
+			"timeLength": 30
+		}
+	]
+
+}

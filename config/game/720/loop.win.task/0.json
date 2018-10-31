@@ -1,0 +1,26 @@
+{
+    "double": {
+        "ratio": 2,
+        "start.date": "2014-12-17",
+        "end.date": "2014-12-25",
+        "start.time": "20:00",
+        "end.time": "23:00"
+    },
+    "desc": "赢\\${round}局，送\\${prize}",
+    "rooms": {
+        "720102": {
+            "roundCount": 3,
+            "continueSeconds": 600,
+            "reward": {
+                "items": [
+                    {
+                        "count": 20,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "prize": "0.20红包券"  
+        }   
+    }
+}

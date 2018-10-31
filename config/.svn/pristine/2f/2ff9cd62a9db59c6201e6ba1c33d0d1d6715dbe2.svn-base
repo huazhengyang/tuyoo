@@ -1,0 +1,953 @@
+{
+ "templates"                                      : {
+  "baohuang_v3.771_AI_TYBH_act_guoshen"            : {
+   "desc"                                           : "保皇3.771活动图过审配置",
+   "activities"                                     : [
+    "activity_baohuang_ZFtishen"
+   ]
+  },
+  "baohuang_3_71"                                  : {
+   "desc"                                           : "保皇全活动",
+   "activities"                                     : [
+    "activity_joinQQGroup_baohuang",
+    "activity_gotomatch_baohuang"
+   ]
+  },
+  "baohuang_v3.770_AI_TYBH_act_guoshen"            : {
+   "desc"                                           : "途游保皇3.770过审活动配置",
+   "activities"                                     : [
+    "activity_notice_baohuang_3.771_10.11bisai"
+   ]
+  },
+  "baohuang_v3.770_A_TYBH_act_tishen"              : {
+   "desc"                                           : "途游保皇3.770活动提审模板",
+   "activities"                                     : [
+    "activity_joinQQGroup_baohuang"
+   ]
+  },
+  "baohuang_v3.770_I_qingdao_IOS_act_tishen"       : {
+   "desc"                                           : "青岛棋牌IOS提审活动模板",
+   "activities"                                     : [
+    "activity_notice_baohuang_0924"
+   ]
+  },
+  "bh_v3.760_IOS_51huodong"                        : {
+   "desc"                                           : "51充值返利活动专用",
+   "activities"                                     : [
+    "activity_joinQQGroup_baohuang",
+    "activity_gotomatch_baohuang"
+   ]
+  },
+  "baohuang_v4.57_AI_baohuangduihuanma"            : {
+   "desc"                                           : "保皇兑换码模版",
+   "activities"                                     : [
+    "act_chunjiebisai2",
+    "activity_bh_chunjiebisai",
+    "activity_haojieka",
+    "activity_baohuang_haoyoutongwan",
+    "activity_code_duihuanma_0201",
+    "activity_baohuang_lvsepingtaigonggao"
+   ]
+  },
+  "baohuang_v4.571_AI_qudao_smrz"                  : {
+   "desc"                                           : "渠道实名认证模版",
+   "activities"                                     : [
+    "act_chunjiebisai2",
+    "activity_bh_chunjiebisai",
+    "activity_haojieka",
+    "activity_baohuang_haoyoutongwan",
+    "activity_realnamereg_0203",
+    "activity_baohuang_lvsepingtaigonggao"
+   ]
+  },
+  "baohuang_v3.760_AI_ZFtishen"                    : {
+   "desc"                                           : "政府提审ACT",
+   "activities"                                     : [
+    "activity_baohuang_ZFtishen"
+   ]
+  },
+  "baohuang_AI_baohuang_v3.760_AI_ZFtishen_tu"     : {
+   "desc"                                           : "途游保皇广电版号",
+   "activities"                                     : [
+    "baohuang_v3.760_AI_ZFtishen_tu"
+   ]
+  },
+  "baohuang_baohuang_v3.760_AI_ZFtishen_qingdao"   : {
+   "desc"                                           : "",
+   "activities"                                     : [
+    "activity_baohuang_ZFtishen"
+   ]
+  },
+  "baohuang_v4.570_AI_4.57guoshen"                 : {
+   "desc"                                           : "4.57保皇过审活动",
+   "activities"                                     : [
+    "act_chunjiebisai2",
+    "activity_bh_chunjiebisai",
+    "activity_haojieka",
+    "activity_baohuang_haoyoutongwan",
+    "activity_baohuang_lvsepingtaigonggao"
+   ]
+  },
+  "baohuang_AI_baohuang_v3.760_AI_ZFtishen_qingdao": {
+   "desc"                                           : "青岛广电提审用",
+   "activities"                                     : [
+    "baohuang_v3.760_AI_ZFtishen_qingdao"
+   ]
+  },
+  "baohuang_v3.770_AI_qingdao_IOS_act_guoshen"     : {
+   "desc"                                           : "青岛棋牌IOS活动过审配置",
+   "activities"                                     : [
+    "activity_joinQQGroup_baohuang",
+    "activity_gotomatch_baohuang"
+   ]
+  },
+  "baohuang_v4.570_AI_oldversion_upgrade"          : {
+   "desc"                                           : "老包更新活动模板",
+   "activities"                                     : [
+    "act_fahuogonggao",
+    "baohuang_oldversion_upgrade"
+   ]
+  },
+  "baohuang_v3.760_AI_360push"                     : {
+   "desc"                                           : "360PUSH专用",
+   "activities"                                     : [
+    "activity_code_duihuanma_0201",
+    "activity_joinQQGroup_baohuang",
+    "activity_gotomatch_baohuang"
+   ]
+  }
+ },
+ "activities"                                     : {
+  "act_fahuogonggao"                               : {
+   "id"                                             : "act_fahuogonggao",
+   "des"                                            : "春节期间实物发放公告。",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "春节发货公告",
+   "server_config"                                  : {
+    "start"                                          : "2018-02-09 00:00:00",
+    "end"                                            : "2018-02-21 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/general_btn/FHGG.png"
+   },
+   "url"                                            : ""
+  },
+  "activity_gotomatch_baohuang"                    : {
+   "id"                                             : "activity_gotomatch_baohuang",
+   "des"                                            : "费比赛增至每日13场，原有11点、14点、21点比赛不变，新增10场比赛，从10：00至22：00每小时一场不间断，话费赢到手软",
+   "moduleId"                                       : "general_btn",
+   "typeid"                                         : 4,
+   "name"                                           : "比赛赢话费",
+   "server_config"                                  : {
+    "start"                                          : "2015-12-09 00:00:00",
+    "end"                                            : "2017-04-19 00:00:00"
+   },
+   "config"                                         : {
+    "button"                                         : {
+     "visible"                                        : "true",
+     "todoTask"                                       : {
+      "enter_param"                                    : {
+       "pluginParams"                                   : {
+        "gameType"                                       : "match"
+       },
+       "type"                                           : "roomlist"
+      },
+      "gameId"                                         : 17,
+      "typeId"                                         : "hall.goto.enter.game"
+     },
+     "URL"                                            : "${http_download}/hall/act/complete/general_btn/act_baohuang_btn_1224.png"
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/act_BH_match_20160321.jpg"
+   }
+  },
+  "activity_notice_baohuang"                       : {
+   "id"                                             : "activity_notice_baohuang",
+   "des"                                            : "保皇公告",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "保皇公告",
+   "server_config"                                  : {
+    "start"                                          : "2016-04-18 00:00:00",
+    "end"                                            : "2019-04-12 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/act_baohuang_3.770notice_20160722.jpg"
+   },
+   "url"                                            : ""
+  },
+  "activity_bh_chunjiebisai"                       : {
+   "id"                                             : "activity_bh_chunjiebisai",
+   "des"                                            : "春节比赛",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "春节比赛",
+   "server_config"                                  : {
+    "start"                                          : "2017-02-21 00:00:00",
+    "end"                                            : "2019-02-21 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/baohuang/activity/chunjiebisai_act.jpg"
+   },
+   "url"                                            : ""
+  },
+  "baohuang_oldversion_upgrade"                    : {
+   "id"                                             : "baohuang_oldversion_upgrade",
+   "des"                                            : "新版升级公告",
+   "moduleId"                                       : "general_btn",
+   "typeid"                                         : 4,
+   "name"                                           : "新版升级公告",
+   "server_config"                                  : {
+    "start"                                          : "2017-11-17 00:00:00",
+    "end"                                            : "2018-11-24 00:00:00"
+   },
+   "config"                                         : {
+    "button"                                         : {
+     "visible"                                        : true,
+     "todoTask"                                       : {
+      "typeId"                                         : "hall.download",
+      "url"                                            : "http://ddz.dl.tuyoo.com/cdn37/baohuang/apk/tuyoo.apk"
+     },
+     "URL"                                            : "${http_download}/baohuang/icon/xinbanlaixin_btn.png"
+    },
+    "bgURL"                                          : "${http_download}/baohuang/activity/xinbanlaixi_act.jpg"
+   }
+  },
+  "activity_notice_haoyouchang"                    : {
+   "id"                                             : "activity_notice_haoyouchang",
+   "des"                                            : "菜鸟太多？猪队友？不懂配合？统统走开，约战好友场，不爽一扫而光！",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "约战好友场",
+   "server_config"                                  : {
+    "start"                                          : "2016-07-21 00:00:00",
+    "end"                                            : "2019-07-26 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/act_baohuang_haoyouchang_20160721.jpg"
+   },
+   "url"                                            : ""
+  },
+  "activity_notice_baohuang_3.771_10.11bisai"      : {
+   "id"                                             : "activity_notice_baohuang_3.771_10.11bisai",
+   "des"                                            : "即时微信红包，直接到账。",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "微信红包赛",
+   "server_config"                                  : {
+    "start"                                          : "2016-10-11 00:00:00",
+    "end"                                            : "2018-03-01 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/act_baohuang_3.770notice_20161011.jpg"
+   },
+   "url"                                            : ""
+  },
+  "activity_haojieka"                              : {
+   "id"                                             : "activity_haojieka",
+   "des"                                            : "豪杰卡活动公告",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "豪杰卡",
+   "server_config"                                  : {
+    "start"                                          : "2018-02-01 00:00:00",
+    "end"                                            : "2018-04-27 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/paohuzi/act/haojieka_act.jpg"
+   },
+   "url"                                            : ""
+  },
+  "activity_baohuang_JD_20160425"                  : {
+   "id"                                             : "activity_baohuang_JD_20160425",
+   "des"                                            : "第一届京东卡抢夺赛，4月30日、5月1日、5月2日每日21点准时开始京东卡抢夺赛，还有高额话费等你拿，比赛报名需1张英雄帖。",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "京东卡比赛",
+   "server_config"                                  : {
+    "start"                                          : "2016-04-25 00:00:00",
+    "end"                                            : "2016-05-03 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/act_baohuang_JD_20160425.jpg"
+   },
+   "url"                                            : ""
+  },
+  "activity_baohuang_51baoxiang_android"           : {
+   "id"                                             : "activity_baohuang_51baoxiang_android",
+   "des"                                            : "4月28日至5月5日期间，购买商城指定商品可获得宝箱，背包中使用宝箱，可获得金币及门票奖励。",
+   "moduleId"                                       : "general_btn",
+   "typeid"                                         : 1,
+   "name"                                           : "五一充值送宝箱",
+   "server_config"                                  : {
+    "start"                                          : "2016-04-28 00:00:00",
+    "end"                                            : "2016-05-05 05:00:00"
+   },
+   "config"                                         : {
+    "button"                                         : {
+     "visible"                                        : "true",
+     "todoTask"                                       : {
+      "subStore"                                       : "coin",
+      "typeId"                                         : "hall.goto.shop"
+     },
+     "URL"                                            : ""
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/act_baohuang_51baoxiang_android_20160427.jpg"
+   }
+  },
+  "activity_redPacket_baohuang"                    : {
+   "id"                                             : "activity_redPacket_baohuang",
+   "des"                                            : "每天可打开一次，可以打开7次，打开可获得随机数量奖券，全部开完至少获得500奖券（5元话费）",
+   "moduleId"                                       : "redPacket",
+   "typeid"                                         : 1,
+   "name"                                           : "7日话费红包",
+   "server_config"                                  : {
+    "start"                                          : "2015-07-31 00:00:00",
+    "end"                                            : "2016-01-06 00:00:00"
+   },
+   "config"                                         : {
+    "button"                                         : {
+     "visible"                                        : true,
+     "URL"                                            : "${http_download}/hall/act/complete/redPacket/redPacket_button.png"
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/redPacket/redPacket_bg.jpg"
+   }
+  },
+  "activity_notice_baohuang_0924"                  : {
+   "id"                                             : "activity_notice_baohuang_0924",
+   "des"                                            : "途游保皇隆重上线啦，最好玩的扑克游戏，更多精彩活动陆续上线，欢迎关注哦！",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "隆重上线",
+   "server_config"                                  : {
+    "start"                                          : "2015-07-31 00:00:00",
+    "end"                                            : "2016-02-01 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "pop_tip",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "pop_tip",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/boahuang_09-24.png"
+   }
+  },
+  "activity_baohuang_51baoxiang_IOS"               : {
+   "id"                                             : "activity_baohuang_51baoxiang_IOS",
+   "des"                                            : "4月28日至5月5日期间，购买商城指定商品可获得宝箱，背包中使用宝箱，可获得金币及门票奖励。",
+   "moduleId"                                       : "general_btn",
+   "typeid"                                         : 1,
+   "name"                                           : "五一充值送宝箱",
+   "server_config"                                  : {
+    "start"                                          : "2016-04-27 00:00:00",
+    "end"                                            : "2016-05-05 05:00:05"
+   },
+   "config"                                         : {
+    "button"                                         : {
+     "visible"                                        : "true",
+     "todoTask"                                       : {
+      "subStore"                                       : "coin",
+      "typeId"                                         : "hall.goto.shop"
+     },
+     "URL"                                            : ""
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/act_baohuang_51baoxiang_IOS_20160427.jpg"
+   }
+  },
+  "activity_baohuang_zizhizhengming"               : {
+   "id"                                             : "activity_baohuang_zizhizhengming",
+   "des"                                            : "资质证明活动",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "健康游戏公告",
+   "server_config"                                  : {
+    "start"                                          : "2017-08-08 00:00:00",
+    "end"                                            : "2020-08-26 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/LBJHD.png"
+   },
+   "url"                                            : ""
+  },
+  "act_chunjiebisai2"                              : {
+   "id"                                             : "act_chunjiebisai2",
+   "des"                                            : "春节比赛第二波",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "春节比赛2",
+   "server_config"                                  : {
+    "start"                                          : "2018-02-21 00:00:00",
+    "end"                                            : "2018-03-03 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/baohuang/activity/chunjiebisai2_act.jpg"
+   },
+   "url"                                            : ""
+  },
+  "activity_baohuang_haoyoutongwan"                : {
+   "id"                                             : "activity_baohuang_haoyoutongwan",
+   "des"                                            : "保皇好友同玩",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "保皇好友同玩",
+   "server_config"                                  : {
+    "start"                                          : "2017-11-01 00:00:00",
+    "end"                                            : "2019-11-15 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/baohuang/activity/haoyoutongwanact.jpg"
+   },
+   "url"                                            : ""
+  },
+  "baohuang_v3.760_AI_ZFtishen_qingdao"            : {
+   "id"                                             : "baohuang_v3.760_AI_ZFtishen_qingdao",
+   "des"                                            : "保皇公告",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "保皇公告",
+   "server_config"                                  : {
+    "start"                                          : "2016-12-30 00:00:00",
+    "end"                                            : "2017-01-31 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/qingdaoBH.jpg"
+   },
+   "url"                                            : ""
+  },
+  "activity_notice_baohuang_yaoqing"               : {
+   "id"                                             : "activity_notice_baohuang_yaoqing",
+   "des"                                            : "成功邀请好友即可获得2万金币奖励，好友受邀前来1局游戏即可领取话费，还有更多任务更多话费可以领取，注意绑定手机号哦！",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "邀请有礼",
+   "server_config"                                  : {
+    "start"                                          : "2016-07-21 00:00:00",
+    "end"                                            : "2020-10-15 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/act_baohuang_yaoqing_20160721.jpg"
+   },
+   "url"                                            : ""
+  },
+  "activity_baohuang_lvsepingtaigonggao"           : {
+   "id"                                             : "activity_baohuang_lvsepingtaigonggao",
+   "des"                                            : "绿色游戏平台公告",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "重要公告",
+   "server_config"                                  : {
+    "start"                                          : "2017-11-30 00:00:00",
+    "end"                                            : "2020-12-31 23:59:59"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/general_btn/ZYGG2018.jpg"
+   },
+   "url"                                            : ""
+  },
+  "activity_notice_baohuang_3.771"                 : {
+   "id"                                             : "activity_notice_baohuang_3.771",
+   "des"                                            : "最新版本上线啦！",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "新版本公告",
+   "server_config"                                  : {
+    "start"                                          : "2016-07-23 00:00:00",
+    "end"                                            : "2016-07-30 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/act_baohuang_3.770notice_20160721.jpg"
+   },
+   "url"                                            : ""
+  },
+  "activity_baohuang_shuangbei_0129"               : {
+   "id"                                             : "activity_baohuang_shuangbei_0129",
+   "des"                                            : "4月30日、5月1日、5月2日，每日10：00-12：00，19：00-21：00，赢取积分双倍。",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "双倍积分",
+   "server_config"                                  : {
+    "start"                                          : "2016-01-01 00:00:00",
+    "end"                                            : "2016-05-03 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/act_baohuang_jifen_20160425.jpg"
+   },
+   "url"                                            : ""
+  },
+  "activity_baohuang_ZFtishen"                     : {
+   "id"                                             : "activity_baohuang_ZFtishen",
+   "des"                                            : "健康公告",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "健康公告",
+   "server_config"                                  : {
+    "start"                                          : "2016-05-10 00:00:00",
+    "end"                                            : "2022-05-06 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/shenhegonggao.png"
+   },
+   "url"                                            : ""
+  },
+  "activity_joinQQGroup_baohuang"                  : {
+   "id"                                             : "activity_joinQQGroup_baohuang",
+   "des"                                            : "加入牌友群，一起玩保皇，QQ群号：214469740。",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "加入牌友群",
+   "server_config"                                  : {
+    "start"                                          : "2015-09-24 00:00:00",
+    "end"                                            : "2019-10-19 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "pop_tip",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "pop_tip",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/act_baohuang_QQgroup.jpg"
+   },
+   "url"                                            : ""
+  },
+  "baohuang_v3.760_AI_ZFtishen_tu"                 : {
+   "id"                                             : "baohuang_v3.760_AI_ZFtishen_tu",
+   "des"                                            : "保皇公告",
+   "moduleId"                                       : "notice_img",
+   "typeid"                                         : 1,
+   "name"                                           : "保皇公告",
+   "server_config"                                  : {
+    "start"                                          : "2016-12-30 00:00:00",
+    "end"                                            : "2017-01-31 00:00:00"
+   },
+   "config"                                         : {
+    "firstButton"                                    : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "secondButton"                                   : {
+     "visible"                                        : 0,
+     "action"                                         : "",
+     "params"                                         : {
+      "duration"                                       : 2,
+      "text"                                           : "确定"
+     }
+    },
+    "bgURL"                                          : "${http_download}/hall/act/complete/notice_img/tuyouBH.jpg"
+   },
+   "url"                                            : ""
+  },
+  "activity_score_baohuang"                        : {
+   "id"                                             : "activity_score_baohuang",
+   "des"                                            : "1.保皇各场次新手/中级/高级/大师场每玩1局得1/2/5/10积分；\n2.积分可用于兑换金币及奖券，奖券可在商城兑换话费\n3.活动将于3月2日24时结束，结束后积分清零。",
+   "moduleId"                                       : "newExchange",
+   "typeid"                                         : 2,
+   "name"                                           : "积分活动",
+   "server_config"                                  : {
+    "accumulateField"                                : "roundNum",
+    "conditions"                                     : [
+     "roundNum"
+    ],
+    "accumulateIdentifer"                            : "roomId",
+    "rewardNeedNum"                                  : 1,
+    "presentConfig"                                  : {
+     "17301"                                          : 1,
+     "17302"                                          : 2,
+     "17001"                                          : 1,
+     "17002"                                          : 2,
+     "17003"                                          : 5,
+     "17004"                                          : 10,
+     "17101"                                          : 1,
+     "17102"                                          : 2,
+     "17103"                                          : 5,
+     "17104"                                          : 10,
+     "17201"                                          : 1,
+     "17202"                                          : 2,
+     "17203"                                          : 5,
+     "17204"                                          : 10,
+     "17304"                                          : 10,
+     "17303"                                          : 5
+    },
+    "accumulateMustContinuous"                       : 1,
+    "start"                                          : "2016-02-19 00:00:00",
+    "dayTimeLimit"                                   : [
+     [
+      0,
+      24
+     ]
+    ],
+    "accumulateMaxInterval"                          : 0,
+    "accumulateType"                                 : 0,
+    "presentBased"                                   : "roomId",
+    "end"                                            : "2016-03-02 23:59:59"
+   },
+   "config"                                         : {
+    "gift"                                           : {
+     "unit"                                           : "",
+     "name"                                           : "积分"
+    },
+    "bgURL"                                          : "http://ddz.dl.tuyoo.com/cdn37/hall/act/complete/general_btn/activity_baohuang_zhengyue_bg_0218.jpg",
+    "exchange"                                       : [
+     {
+      "id"                                             : 1,
+      "consumeCount"                                   : 10,
+      "items"                                          : [
+       {
+        "unit"                                           : "个",
+        "count"                                          : 5000,
+        "name"                                           : "金币x",
+        "productId"                                      : "user:chip"
+       },
+       {
+        "unit"                                           : "个",
+        "count"                                          : 10,
+        "name"                                           : "参赛券x",
+        "productId"                                      : "item:1007"
+       }
+      ],
+      "limitTimes"                                     : 1
+     },
+     {
+      "id"                                             : 2,
+      "consumeCount"                                   : 50,
+      "items"                                          : [
+       {
+        "unit"                                           : "张",
+        "count"                                          : 10,
+        "name"                                           : "奖券x",
+        "productId"                                      : "user:coupon"
+       },
+       {
+        "unit"                                           : "个",
+        "count"                                          : 20,
+        "name"                                           : "参赛劵x",
+        "productId"                                      : "item:1007"
+       }
+      ],
+      "limitTimes"                                     : 1
+     },
+     {
+      "id"                                             : 3,
+      "consumeCount"                                   : 500,
+      "items"                                          : [
+       {
+        "unit"                                           : "张",
+        "count"                                          : 20,
+        "name"                                           : "奖券x",
+        "productId"                                      : "user:coupon"
+       },
+       {
+        "unit"                                           : "个",
+        "count"                                          : 30,
+        "name"                                           : "参赛劵x",
+        "productId"                                      : "item:1007"
+       }
+      ],
+      "limitTimes"                                     : 1
+     },
+     {
+      "id"                                             : 4,
+      "consumeCount"                                   : 1000,
+      "items"                                          : [
+       {
+        "unit"                                           : "张",
+        "count"                                          : 50,
+        "name"                                           : "奖券x",
+        "productId"                                      : "user:coupon"
+       },
+       {
+        "unit"                                           : "个",
+        "count"                                          : 50,
+        "name"                                           : "参赛劵x",
+        "productId"                                      : "item:1007"
+       }
+      ],
+      "limitTimes"                                     : 1
+     }
+    ]
+   }
+  }
+ },
+ "modules"                                        : { }
+}

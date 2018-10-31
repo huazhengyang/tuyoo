@@ -1,0 +1,816 @@
+{
+    "room_items": {
+        "free_1": {
+            "id": 20001,
+            "name": "自由初级场",
+            "roomPicSign": 0,
+            "roomId": 20001,
+            "roomIdList": [
+                20001
+            ],
+            "title": "自由初级场",
+            "condition": "不限积分",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 600,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 3,
+            "noExpInRoundN": 1,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "free_2": {
+            "id": 20002,
+            "name": "自由中级场",
+            "roomPicSign": 1,
+            "roomId": 20002,
+            "roomIdList": [
+                20002
+            ],
+            "title": "自由中级场",
+            "condition": "积分1500以上",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 3,
+            "noExpInRoundN": 1,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 1500,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "free_3": {
+            "id": 20003,
+            "name": "自由高级场",
+            "roomPicSign": 2,
+            "roomId": 20003,
+            "roomIdList": [
+                20003
+            ],
+            "title": "自由高级场",
+            "condition": "积分1800以上",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 3,
+            "noExpInRoundN": 1,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 1800,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "jinshou_1": {
+            "id": 20005,
+            "name": "禁手初级场",
+            "roomPicSign": 0,
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/gomoku/gomoku_jinshou_room_2.png",
+            "roomId": 20005,
+            "roomIdList": [
+                20005
+            ],
+            "title": "禁手初级场",
+            "condition": "不限积分",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 600,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 3,
+            "noExpInRoundN": 1,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "jinshou_2": {
+            "id": 20006,
+            "name": "禁手中级场",
+            "roomPicSign": 1,
+            "roomId": 20006,
+            "roomIdList": [
+                20006
+            ],
+            "title": "禁手中级场",
+            "condition": "积分1500以上",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 3,
+            "noExpInRoundN": 1,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 1500,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "jinshou_3": {
+            "id": 20007,
+            "name": "禁手高级场",
+            "roomPicSign": 2,
+            "roomId": 20007,
+            "roomIdList": [
+                20007
+            ],
+            "title": "禁手高级场",
+            "condition": "积分1800以上",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 3,
+            "noExpInRoundN": 1,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 1800,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "relaxation_match": {
+            "id": 20015,
+            "name": "休闲赛",
+            "roomPicSign": 3,
+            "roomId": 20015,
+            "roomIdList": [
+                20015
+            ],
+            "title": "休闲赛",
+            "dateDes": "每日10:00~23:00",
+            "rewardsDes": "红包券",
+            "ruleDes": "无禁手、打满10局",
+            "condition": "免费参赛",
+            "des": "",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/gomoku/relaxtion_match_help_3.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxed_match_title.png",
+            "gomoku_relaxation_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxation_match_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 600,
+            "stepTime": 60,
+            "addTime": 3,
+            "allowUndoNum": 0,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "relaxation_match_huawei": {
+            "id": 20101,
+            "name": "华为棋牌大师赛",
+            "roomPicSign": 3,
+            "roomId": 20101,
+            "roomIdList": [
+                20101
+            ],
+            "title": "华为棋牌大师赛",
+            "dateDes": "每日10:00~23:00",
+            "rewardsDes": "话费、金币",
+            "ruleDes": "无禁手、打满15局",
+            "condition": "免费参赛",
+            "des": "",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/gomoku/huawei_gomoku_relaxtion_match_help_common.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/huawei_relaxtion_match_title_20170420.png",
+            "gomoku_relaxation_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/huawei_relaxtion_match_ads_20170420.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 600,
+            "stepTime": 60,
+            "addTime": 3,
+            "allowUndoNum": 0,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "relaxation_match_double": {
+            "id": 20016,
+            "name": "休闲赛",
+            "roomPicSign": 3,
+            "roomId": 20016,
+            "roomIdList": [
+                20016
+            ],
+            "title": "休闲赛",
+            "dateDes": "每日10:00~23:00",
+            "rewardsDes": "红包券",
+            "ruleDes": "无禁手、打满10局",
+            "condition": "免费参赛",
+            "des": "",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/gomoku/relaxtion_match_help_3.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxed_match_title.png",
+            "gomoku_relaxation_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxation_match_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 600,
+            "stepTime": 60,
+            "addTime": 3,
+            "allowUndoNum": 0,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "everyday_match_1": {
+            "id": 20011,
+            "name": "每日红包赛",
+            "roomPicSign": 3,
+            "roomId": 20011,
+            "roomIdList": [
+                20011
+            ],
+            "title": "每日红包赛",
+            "dateDes": "每半小时开赛",
+            "rewardsDes": "红包券",
+            "ruleDes": "淘汰制",
+            "condition": "1000金币",
+            "des": "",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_match_relaxation3.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/everyday_match2.png",
+            "gomoku_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/chess_match_20160707001.jpg",
+                    "gotoUrl": "",
+                    "des": "每日红包赛"
+                }
+            ],
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                10,
+                10,
+                5,
+                5
+            ],
+            "receiverCharm": [
+                -10,
+                10,
+                -5,
+                5
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "renman_match": {
+            "id": 20020,
+            "name": "8人快速赛",
+            "roomPicSign": 3,
+            "roomId": 20020,
+            "roomIdList": [
+                20020
+            ],
+            "title": "8人快速赛",
+            "dateDes": "满8人开赛",
+            "rewardsDes": "金币",
+            "ruleDes": "淘汰制",
+            "condition": "1000金币",
+            "des": "",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_match_8ren4.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/match_8_ren_title.png",
+            "gomoku_renman_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/renman_match_8ren.jpg",
+                    "gotoUrl": "",
+                    "des": "8人快速赛"
+                }
+            ],
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                10,
+                10,
+                5,
+                5
+            ],
+            "receiverCharm": [
+                -10,
+                10,
+                -5,
+                5
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "selfCreateTable": {
+            "id": 20010,
+            "name": "自建桌",
+            "roomPicSign": 0,
+            "roomId": 20010,
+            "roomIdList": [
+                20010
+            ],
+            "tableParams": {
+                "tableTime": {
+                    "data_list": [
+                        [
+                            "5分钟",
+                            300
+                        ],
+                        [
+                            "10分钟",
+                            600
+                        ],
+                        [
+                            "20分钟",
+                            1200
+                        ],
+                        [
+                            "30分钟",
+                            1800
+                        ]                       
+                    ],
+                    "defaultIndex": 1
+                },
+                "addSecond": {
+                    "data_list": [
+                        [
+                            "无",
+                            0
+                        ],
+                        [
+                            "3秒",
+                            3
+                        ],
+                        [
+                            "5秒",
+                            5
+                        ],
+                        [
+                            "10秒",
+                            10
+                        ]
+                    ],
+                    "defaultIndex": 0
+                },
+                "stepTime": {
+                    "data_list": [
+                        [
+                            "无限制",
+                            0
+                        ],
+                        [
+                            "1分钟",
+                            60
+                        ],
+                        [
+                            "2分钟",
+                            120
+                        ],
+                        [
+                            "5分钟",
+                            300
+                        ]
+                    ],
+                    "defaultIndex": 2
+                },
+                "unEatLimit": {
+                    "data_list": [
+                        [
+                            "40回合",
+                            40
+                        ],
+                        [
+                            "50回合",
+                            50
+                        ]
+                    ],
+                    "defaultIndex": 0
+                },
+                "isJinShou": {
+                    "data_list": [
+                        [
+                            "无",
+                            0
+                        ],
+                        [
+                            "有",
+                            1
+                        ]
+                    ],
+                    "defaultIndex": 0
+                }
+            },
+            "title": "自建桌",
+            "condition": "不限积分",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 600,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 3,
+            "noExpInRoundN": 1,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                10,
+                10,
+                5,
+                5
+            ],
+            "receiverCharm": [
+                -10,
+                10,
+                -5,
+                5
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        }
+    },
+    "html_items": {},
+    "session_items": {
+        "free": {
+            "session": "自由场",
+            "match": 0,
+            "new": 0,
+            "rooms": [
+                "free_1",
+                "free_2",
+                "free_3"
+            ],
+            "description": [
+                "五子棋禁手场"
+            ]
+        },
+        "jinshou": {
+            "session": "禁手场",
+            "match": 0,
+            "new": 0,
+            "rooms": [
+                "jinshou_1",
+                "jinshou_2",
+                "jinshou_3"
+            ],
+            "description": [
+                "五子棋禁手场"
+            ]
+        },
+        "duiyi": {
+            "session": "对弈场",
+            "match": 0,
+            "new": 0,
+            "rooms": [
+                "free_1",
+                "free_2",
+                "free_3",
+                "jinshou_1"
+            ],
+            "description": [
+                "五子棋禁手场"
+            ]
+        },
+        "match": {
+            "session": "比赛场",
+            "match": 1,
+            "new": 0,
+            "rooms": [
+                "relaxation_match"
+            ],
+            "description": [
+                "五子棋比赛场"
+            ]
+        },
+        "match_huawei": {
+            "session": "比赛场",
+            "match": 1,
+            "new": 0,
+            "rooms": [
+                "relaxation_match"
+            ],
+            "description": [
+                "五子棋比赛场"
+            ]
+        },
+        "creatTable": {
+            "session": "自建桌",
+            "match": 0,
+            "new": 0,
+            "isSelfCreateTable": 1,
+            "rooms": [
+                "selfCreateTable"
+            ],
+            "description": [
+                "五子棋自建桌"
+            ]
+        }
+    },
+    "templates": {
+        "default": [
+            "free",
+            "jinshou",
+            "duiyi",
+            "match",
+            "creatTable"
+        ],
+        "default4.56": [
+            "duiyi",
+            "match",
+            "creatTable"
+        ],
+        "huawei": [
+            "duiyi",
+            "match_huawei",
+            "creatTable"
+        ]
+    }
+}

@@ -1,0 +1,655 @@
+{
+  "score" : [0, 5, 15, 35, 75, 155, 235, 315, 395, 475, 575, 705, 865, 1055,
+      1275, 1525, 1825, 2175, 2575, 3025, 3525, 4125, 4825, 5625, 6525, 7525,
+      8725, 10125, 11725, 13525, 15525, 18025, 21025, 24525, 28525, 33525,
+      39525, 46525, 54525, 63525, 73525, 85525, 99525, 115525, 133525, 153525,
+      178525, 208525, 243525, 283525,333525, 388525, 448525, 513525, 583525, 658525,
+      738525, 823525, 913525, 1008525, 1108525, 1213525, 1323525, 1438525, 1558525, 
+      1683525, 1813525, 1948525, 2088525, 2233525, 2433525, 2653525, 2903525, 3203525, 3703525],
+  "game_name" : "斗地主",
+  "title_pic" : "${http_download}/dizhu/skillscore/imgs/ddz_skill_score_title.png",
+  "des" : "斗地主房间中每次胜利都可获得大师分，高倍数、高级房间、会员获得的更快！",
+  "level_pic" : [
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_001.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_002.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_003.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_004.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_005.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_006.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_007.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_008.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_009.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_010.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_011.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_012.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_013.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_014.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_015.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_016.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_017.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_018.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_019.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_020.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_021.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_022.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_023.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_024.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_025.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_026.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_027.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_028.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_029.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_030.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_031.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_032.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_033.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_034.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_035.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_036.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_037.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_038.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_039.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_040.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_041.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_042.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_043.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_044.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_045.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_046.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_047.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_048.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_049.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_050.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_051.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_052.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_053.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_054.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_055.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_056.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_057.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_058.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_059.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_060.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_061.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_062.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_063.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_064.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_065.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_066.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_067.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_068.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_069.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_070.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_071.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_072.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_073.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_074.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_075.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_076.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_077.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_078.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_079.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_080.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_081.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_082.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_083.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_084.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_085.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_086.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_087.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_088.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_089.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_090.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_091.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_092.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_093.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_094.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_095.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_096.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_097.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_098.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_099.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenew_100.png"
+    ],
+  "big_level_pic" : [
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_001.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_002.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_003.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_004.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_005.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_006.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_007.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_008.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_009.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_010.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_011.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_012.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_013.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_014.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_015.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_016.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_017.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_018.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_019.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_020.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_021.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_022.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_023.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_024.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_025.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_026.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_027.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_028.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_029.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_030.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_031.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_032.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_033.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_034.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_035.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_036.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_037.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_038.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_039.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_040.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_041.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_042.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_043.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_044.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_045.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_046.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_047.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_048.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_049.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_050.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_051.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_052.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_053.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_054.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_055.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_056.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_057.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_058.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_059.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_060.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_061.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_062.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_063.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_064.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_065.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_066.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_067.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_068.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_069.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_070.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_071.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_072.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_073.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_074.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_075.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_076.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_077.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_078.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_079.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_080.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_081.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_082.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_083.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_084.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_085.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_086.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_087.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_088.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_089.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_090.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_091.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_092.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_093.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_094.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_095.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_096.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_097.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_098.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_099.png",
+      "${http_download}/dizhu/skillscore/imgs/skillscorenewbig_100.png"
+    ],
+
+  "reward" : {
+    "2" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 200,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "4" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 500,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "5" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 600,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "6" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 1000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "7" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 1200,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "8" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 1500,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "9" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 1600,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "10" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 1600,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "11" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 2000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "12" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 2000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "13" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 2000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "14" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 2000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "15" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 1,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 2000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "16" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 3000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "17" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 3000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "18" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 3000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "19" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 3000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "20" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 3000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "21" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 4000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "22" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 4000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "23" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 4000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "24" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 4000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "25" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 4000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "26" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 5000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "27" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 5000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "28" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 5000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "29" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 5000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    },
+    "30" : {
+      "rewards" : {
+        "items" : [{
+              "count" : 2,
+              "itemId" : "item:2003"
+            }, {
+              "count" : 5,
+              "itemId" : "item:1007"
+            }, {
+              "count" : 5000,
+              "itemId" : "user:chip"
+            }],
+        "typeId" : "FixedContent"
+      }
+    }
+  },
+  "ratio_room" : [{
+        "roomlist" : [6001, 6011, 6021, 6031],
+        "ratio" : 1
+      }, {
+        "roomlist" : [6002, 6012, 6022, 6032],
+        "ratio" : 2
+      }, {
+        "roomlist" : [6003, 6013, 6023, 6033],
+        "ratio" : 4
+      }, {
+        "roomlist" : [6004, 6014, 6024, 6034],
+        "ratio" : 6
+      }, {
+        "roomlist" : [6015],
+        "ratio" : 20
+      }]
+}

@@ -1,0 +1,25 @@
+{
+  "_comment": [
+    "说明：这是充值榜的配置文件",
+    "奖励类型，支持chip(金币)，coupon(红包券), 'nnnn'(道具)",
+    "活动时间配置：只需配置日期，然后在后面脑补 00:00:00"
+  ],
+  "actTime": {
+    "begin": "2016 10 25",
+    "end": "2016 11 3"
+  },
+  "reward": [
+    { "range":  [1,   1],   "rewards":  {  "chip": 200000000  }},
+    {  "range":  [2,   2],   "rewards":  {  "chip":  80000000   }},
+    {  "range":  [3,   3],   "rewards":  {  "chip":  40000000   }},
+    {  "range":  [4,   4],   "rewards":  {  "chip":  20000000   }},
+    {  "range":  [5,   5],   "rewards":  {  "chip":  15000000   }},
+    {  "range":  [6,   6],   "rewards":  {  "chip":  12000000   }},
+    {  "range":  [7,   7],   "rewards":  {  "chip":  10000000   }},
+    {  "range":  [8,   8],   "rewards":  {  "chip":  8000000    }},
+    {  "range":  [9,   9],   "rewards":  {  "chip":  6000000    }},
+    {  "range":  [10,  10],  "rewards":  {  "chip":  4000000    }},
+    {  "range":  [11,  20],  "rewards":  {  "chip":  2000000    }},
+    {  "range":  [21,  50],  "rewards":  {  "chip":  1000000    }}
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "wx_share_base_point" : 1,
+  
+  "dispatch-robot-threshold" : 16,
+  
+  "robot-interval" : 2,
+  
+  "start-robot-run-mode":[3, 4],
+  
+  "match_countdown_minutes1": 5,
+  
+  "match_countdown_minutes2": 1,
+  
+  "match_countdown_minutes3": 2,
+  
+  "match_countdown_seconds": 30,
+  
+  "match_level1_led_minutes1": 5,
+  "match_level1_led_minutes2": 3,
+  "match_level1_led_minutes3": 1,
+  "match_level2_led_minutes1": 5,
+  "match_level2_led_minutes2": 3,
+  "match_level2_led_minutes3": 1,
+  "match_level3_led_minutes1": 30,
+  "match_level3_led_minutes2": 10,
+  "match_level3_led_hour": 1,
+  "match_led_interval": 3600,
+  
+  "master_point":{
+    "degree_int": 10,
+    "win_sequence_int": 7,
+    "friend_addition": 0.1,
+    "member_addition": 1,
+    "point_int": 1
+    },
+    
+    "wing":{
+        "max": 50,
+        "spans": [
+            [1, 2, 0, "雀神之翼"]
+        ]
+    },
+    
+    "lucky": [
+        ["android", {
+            "ProductId": "C8_LUCKY",
+            "ProductName": "8元转运礼包",
+            "ProductPrice": 8,
+            "ProductValue": "15万"
+        }],
+        ["^ios_.+.queen$", {
+            "ProductId": "IOS_QUEEN_C6_LUCKY",
+            "ProductName": "6元转运礼包",
+            "ProductPrice": 6,
+            "ProductValue": "8万"
+        }],
+        ["^ios_.+.cherry$", {
+            "ProductId": "IOS_C6_LUCKY",
+            "ProductName": "6元转运礼包",
+            "ProductPrice": 6,
+            "ProductValue": "8万"
+        }],
+        ["^ios_.+.danji$", {
+            "ProductId": "IOS_C6_LUCKY",
+            "ProductName": "6元转运礼包",
+            "ProductPrice": 6,
+            "ProductValue": "8万"
+        }]
+    ],
+    
+    "led_notify_win_chip_base": 600000,
+
+    "coupon.show.switch.config": {
+        "android": [
+        ],
+        "plugin_android": [ 
+        ],
+        "ios": [
+                "IOS_3.503_tuyoo.appStore.0-hall7.appStore.kuaile"
+        ],
+        "plugin_ios": [
+        ],
+        "winpc": [
+        ]
+    },
+    "bigmatch_new_award_clientid":[
+		"IOS_3.733_tyGuest,tyAccount.weixin,appStore.0-hall7.appStore.huanle",
+		"IOS_3.733_tyGuest,tyAccount,weixin.appStore.0-hall7.appStore.kuaile",
+		"IOS_3.711_tyGuest.appStore.0-hall7.test.kuaile",
+		"Android_3.731_360,tyGuest.360,yisdkpay4.0-hall7.360.dj",
+		"IOS_3.733_tyGuest.appStore.0-hall7.test.kuaile",
+		"Android_3.731_360.360,yisdkpay.0-hall7.360.haerbin",
+		"Android_3.731_360.360,yisdkpay4.0-hall7.360.sc",
+		"Android_3.731_360.360,yisdkpay.0-hall7.360.win",
+		"Android_3.731_360.360,yisdkpay.0-hall7.360.people",
+		"Android_3.731_360.360,yisdkpay.0-hall7.360.rich",
+		"Android_3.731_360.360,yisdkpay.0-hall7.360.day",
+		"Android_3.731_meizu.meizu.0-hall7.meizu.dj",
+		"IOS_3.732_tyGuest,tyAccount.weixin,appStore.0-hall7.appStore.cherry",
+		"IOS_3.732_tyGuest,tyAccount.weixin,appStore.0-hall7.appStore.huanle",
+		"IOS_3.732_tyGuest,tyAccount,weixin.appStore.0-hall7.appStore.kuaile",
+		"Android_3.733_360.360,yisdkpay4.0-hall7.360.fk",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.sanxing.dj",
+		"Android_3.733_tyGuest.ucdanji.0-hall7.uc.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.wifikey.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.Midas,yisdkpay4.0-hall7.qqvideo.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.Midas,yisdkpay4.0-hall7.qqtmsgc.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.Midas,yisdkpay4.0-hall7.qqtmsas.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.Midas,yisdkpay4.0-hall7.qqic02.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.Midas,yisdkpay4.0-hall7.qqgc.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.Midas,yisdkpay4.0-hall7.qqexplorer.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.Midas,yisdkpay4.0-hall7.qqcustomizedgc.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.Midas,yisdkpay4.0-hall7.qqcustomizedas.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.Midas,yisdkpay4.0-hall7.qqas.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.Midas,yisdkpay4.0-hall7.qq.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.jinli.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.googleplay.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.ali.dj",
+		"Android_3.733_360,tyGuest.360,yisdkpay4.0-hall7.360.dj",
+		"Android_3.733_huawei.huawei,yisdkpay4.0-hall7.huawei.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.ydjd.fk",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.yisdkpay4,iappay.0-hall7.lenovo.dj",
+		"Android_3.733_mi.mi.0-hall7.mi.sc",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.woStore.0-hall7.ltwo.dj",
+		"Android_3.733_nearme.nearme,yisdkpay4.0-hall7.oppo.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.mi.sc",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.oppo.sc",
+		"Android_3.733_wannew.wannew,yisdkpay4.0-hall7.wdj.dj",
+		"Android_3.733_tyOneKey,tyAccount,tyGuest.woStore.0-hall7.ltwo.sc",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqcustomizedas.sc",
+		"Android_3.732_tyOneKey,tyAccount,tyGuest.duoku.0-hall7.91new.tu",
+		"Android_3.732_tyOneKey,tyAccount,tyGuest.duoku.0-hall7.duokunew.tu",
+		"Android_3.732_tyOneKey,tyAccount,tyGuest.duoku.0-hall7.bdtiebanew.tu",
+		"Android_3.732_tyOneKey,tyAccount,tyGuest.duoku.0-hall7.baidunew.tu",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.wifikey.dj",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqvideo.sc",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqtmsgc.sc",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqic02.sc",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqexplorer.sc",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqtmsas.sc",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqgc.sc",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqcustomizedgc.sc",
+		"Android_3.712_tyGuest.ucdanji.0-hall7.uc.dj",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqas.sc",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qq.sc",
+		"IOS_3.731_xy.xy.0-hall7.xy.kuaile",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqtmsgc.happy",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqtmsas.happy",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqic02.happy",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqgc.happy",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqexplorer.happy",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqcustomizedgc.happy",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqcustomizedas.happy",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqas.happy",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qq.happy",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqvideo.happy",
+		"Android_3.731_tyGuest.ucdanji.0-hall7.uc.dj",
+		"IOS_3.733_tyGuest,tyAccount,weixin.appStore.0-hall7.appStore.kuaile",
+		"IOS_3.732_tyGuest,tyAccount,weixin.appStore.0-hall7.appStore.kuaile",
+		"IOS_3.731_tyGuest,tyAccount,weixin.appStore.0-hall7.appStore.kuaile"
+    ],
+    "matchlist_priority_show":{
+        "start": "2015-06-19 00:00:00",
+        "end": "2015-06-22 22:30:00",
+        "show_list":[731]
+    },
+
+    "master_point_level":[
+        [1, 0, 5],
+        [2, 5, 20],
+        [3, 20, 50],
+        [4, 50, 100],
+        [5, 100, 200],
+        [6, 200, 300],
+        [7, 300, 400],
+        [8, 400, 500],
+        [9, 500, 600],
+        [10, 600, 700],
+        [11, 700, 800],
+        [12, 800, 900],
+        [13, 900, 1000],
+        [14, 1000, 1100],
+        [15, 1100, 1300],
+        [16, 1300, 1500],
+        [17, 1500, 1700],
+        [18, 1700, 1900],
+        [19, 1900, 2100],
+        [20, 2100, 2400],
+        [21, 2400, 2700],
+        [22, 2700, 3200],
+        [23, 3200, 3800],
+        [24, 3800, 4500],
+        [25, 4500, 5500],
+        [26, 5500, 6500],
+        [27, 6500, 7500],
+        [28, 7500, 8500],
+        [29, 8500, 10000],
+        [30, 10000, 12000],
+        [31, 12000, 15000],
+        [32, 15000, 18000],
+        [33, 18000, 22000],
+        [34, 22000, 26000],
+        [35, 26000, 30000],
+        [36, 30000, 35000],
+        [37, 35000, 40000],
+        [38, 40000, 60000],
+        [39, 60000, 80000],
+        [40, 80000, 100000],
+        [41, 100000, 200000],
+        [42, 200000, 300000],
+        [43, 300000, 400000],
+        [44, 400000, 500000],
+        [45, 500000, 600000],
+        [46, 600000, 700000],
+        [47, 700000, 800000],
+        [48, 800000, 900000],
+        [49, 900000, 1000000],
+        [50, 1000000, -1]
+    ],
+    "win_sequence_effect":[
+        [1, 4, 0],
+        [5, 14, 1],
+        [15, 29, 2],
+        [30, 9999, 3]
+    ],
+    "popup.rename":{
+        "minMasterLevel": 3
+    },
+    "show_mastrgift_delay" : 4,
+    "show_lunckybuy_delay" : 4,
+    "work_version" : 3.971
+    
+}

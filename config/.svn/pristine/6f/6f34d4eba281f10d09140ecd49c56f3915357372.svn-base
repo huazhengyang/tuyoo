@@ -1,0 +1,21 @@
+{
+	"desc":		"这里是关于麻将高手礼包的配置",
+	"version": 3.732,
+	"pic" : "http://ddz.dl.tuyoo.com/cdn37/majiang/images/others/majing_master_gitf_bag_2.png",
+	"default_product": null,
+	"min_degree": {
+		"guobiao2ren": 48,
+		"guobiao": 48
+	},
+	"winstreak_list": {
+		"guobiao2ren": [5, 10],
+		"guobiao": [5, 10],
+		"sichuan": [5, 10],
+		"sichuan_dq": [5, 10],
+		"harbin": [5, 10],
+		"sichuan_xlch": [5, 10]
+	},
+	"forbiden.clientIds": 		[],
+	"forbiden.userIds": [],
+	"forbiden.roomIds":[]
+}

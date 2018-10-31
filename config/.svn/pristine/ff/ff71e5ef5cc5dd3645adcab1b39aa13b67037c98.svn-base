@@ -1,0 +1,69 @@
+{
+	"local":["0", "1"],
+	"list":[
+		{
+			"id":"1001",
+			"name":"girl",
+			"display":"初恋", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/girl/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/girl/preview.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count":30,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【初恋】永久皮肤，售价30钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/girl/girl_v3_u1.zip",
+			"md5":"0e61739d607b43346cec6b07cec98d86"
+		},
+		{
+			"id":"1002",
+			"name":"green",
+			"display":"绿色", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/green/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/green/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":0,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【绿色】永久皮肤，售价1000金币，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/green/green_v3_u1.zip",
+			"md5":"19eeaacf7e49ba15042cf1a1dc026b64"
+		},
+		{
+			"id":"1003",
+			"name":"grid",
+			"display":"格子", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/grid/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/grid/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":30000,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【格子】永久皮肤，售价30000金币，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/grid/grid_v3_u1.zip",
+			"md5":"02ec845ec6f89248963776387a0bde7f"
+		},
+		{
+			"id":"1004",
+			"name":"newyear",
+			"display":"春节", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/newyear/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/newyear/preview_2.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count":10,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【春节】永久皮肤，售价10钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/newyear/newyear_v3_u1.zip",
+			"md5":"d2efa1b584d204eb36738249852ecce7"
+		}
+	]
+}

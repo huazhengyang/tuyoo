@@ -1,0 +1,12 @@
+{
+  "virtual" : [
+      ["Android_3.762_[a-zA-Z0-9,.]*0-hall6[a-zA-Z0-9,.]*_channel_tishen",
+          "plugin_v3.762_tishen"],
+      ["IOS_3.762_[a-zA-Z0-9,.]*0-hall6.*", "plugin_v3.762_ios"]
+  ],
+  "actual" : {
+    "Android_3.762_tyOneKey,tyAccount,tyGuest.duoku,yisdkpay4.0-hall6.bdtiebanew.dj" : "plugin_v3.762_ios_tishen",
+    "IOS_3.761_tyGuest,tyAccount,weixin.ipaynow.0-hall6.appStore.single" : "plugin_v3.762_ios_tishen"
+  },
+  "default" : "default"
+}

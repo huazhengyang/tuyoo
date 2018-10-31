@@ -1,0 +1,287 @@
+{
+	"typeName":"brdz_normal",
+	"closeTableRatio":0.7,
+	"openTableRatio":0.8,
+	"lotteryPool":{
+		"basePool":5000000,
+		"ratioX":[
+			0.048,
+			0.048,
+			0.024,
+			0.024,
+			0.024,
+			0.024,
+			0.016,
+			0.016,
+			0.016
+		],
+		"ratioY":[
+			{
+				"periods":[
+					["01:00","02:00"],
+					["10:00","11:00"]
+				],
+				"value":0.9
+			},
+			{
+				"periods":[
+					["02:00","03:00"],
+					["9:00","10:00"]
+				],
+				"value":0.6
+			},
+			{
+				"periods":[
+					["08:00","09:00"]
+				],
+				"value":0.5
+			},
+			{
+				"periods":[
+					["03:00","04:00"],
+					["07:00","08:00"]
+				],
+				"value":0.2
+			},
+			{
+				"periods":[
+					["04:00","05:00"],
+					["05:00","06:00"],
+					["06:00","07:00"]
+				],
+				"value":0.1
+			}
+		],
+		"ratioZ":[
+			{
+				"userRange":[0, 40],
+				"value":0,
+				"roomState":0
+			},
+			{
+				"userRange":[0, 40],
+				"value":0.1
+			},
+			{
+				"userRange":[40, 60],
+				"value":0.5
+			},
+			{
+				"userRange":[60, 80],
+				"value":0.8
+			},
+			{
+				"userRange":[81, -1],
+				"value":1
+			}
+		],
+		"whiteBonus":{
+			"constX":20,
+			"ratios":[
+				15,8
+			]
+		}
+	},
+	"tableConf":{
+		"maxSeatN":150,
+		"tName":"天字号",
+		"betTime":15,
+		"kickRound":10,
+		"userBetDownLimit":10000,
+		"userBetUpLimit":5000000,
+		"winChouShuiSections":[
+			{"upperLimit": 1000,"commission": 0}, 
+			{"upperLimit": 2000,"commission": 120}, 
+			{"upperLimit": 5000,"commission": 300}, 
+			{"upperLimit": 8000,"commission": 480}, 
+			{"upperLimit": 10000,"commission": 600},
+			{"upperLimit": 20000, "commission": 1200}, 
+			{"upperLimit": 30000, "commission": 1800}, 
+			{"upperLimit": 40000, "commission": 2400}, 
+			{"upperLimit": 50000, "commission": 3000}, 
+			{"upperLimit": 60000, "commission": 3600}, 
+			{"upperLimit": 70000, "commission": 4200}, 
+			{"upperLimit": 80000, "commission": 4800}, 
+			{"upperLimit": 90000, "commission": 5400}, 
+			{"upperLimit": 100000, "commission": 6000}, 
+			{"upperLimit": 150000, "commission": 9000}, 
+			{"upperLimit": 200000, "commission": 12000}, 
+			{"upperLimit": 300000, "commission": 18000}, 
+			{"upperLimit": 400000, "commission": 24000}, 
+			{"upperLimit": 500000, "commission": 30000}, 
+			{"upperLimit": 600000, "commission": 36000}, 
+			{"upperLimit": 700000, "commission": 42000}, 
+			{"upperLimit": 800000, "commission": 48000}, 
+			{"upperLimit": 900000, "commission": 54000}, 
+			{"upperLimit": 1000000, "commission": 60000}, 
+			{"upperLimit": 1500000, "commission": 90000},
+			{"upperLimit": 2000000, "commission": 120000}, 
+			{"upperLimit": 2500000, "commission": 150000}, 
+			{"upperLimit": 3000000, "commission": 180000}, 
+			{"upperLimit": 3500000, "commission": 210000}, 
+			{"upperLimit": 4000000, "commission": 240000},
+			{"upperLimit": 4500000, "commission": 270000}, 
+			{"upperLimit": 5000000, "commission": 300000}, 
+			{"upperLimit": 5500000, "commission": 330000}, 
+			{"upperLimit": 6000000, "commission": 360000}, 
+			{"upperLimit": 6500000, "commission": 390000}, 
+			{"upperLimit": 7000000, "commission": 420000}, 
+			{"upperLimit": 7500000, "commission": 450000}, 
+			{"upperLimit": 8000000, "commission": 480000}, 
+			{"upperLimit": 8500000, "commission": 510000}, 
+			{"upperLimit": 9000000, "commission": 540000}, 
+			{"upperLimit": 9500000, "commission": 570000}, 
+			{"upperLimit": 10000000, "commission": 600000}, 
+			{"upperLimit": 11000000, "commission": 650000}, 
+			{"upperLimit": 12000000, "commission": 700000}, 
+			{"upperLimit": 13000000, "commission": 760000}, 
+			{"upperLimit": 14000000, "commission": 820000}, 
+			{"upperLimit": 15000000, "commission": 900000}, 
+			{"upperLimit": 16000000, "commission": 950000}, 
+			{"upperLimit": 17000000, "commission": 1000000}, 
+			{"upperLimit": 18000000, "commission": 1050000}, 
+			{"upperLimit": 19000000, "commission": 1100000}, 
+			{"upperLimit": 20000000, "commission": 1180000}, 
+			{"upperLimit": 30000000, "commission": 1800000}, 
+			{"upperLimit": 40000000, "commission": 2100000}, 
+			{"upperLimit": 50000000, "commission": 2700000}, 
+			{"upperLimit": 60000000, "commission": 3600000}, 
+			{"upperLimit": 70000000, "commission": 4000000}, 
+			{"upperLimit": 80000000, "commission": 4500000}, 
+			{"upperLimit": 90000000, "commission": 5200000}, 
+			{"upperLimit": 100000000, "commission": 6000000}, 
+			{"upperLimit": 120000000, "commission": 6800000}, 
+			{"upperLimit": 140000000, "commission": 8100000}, 
+			{"upperLimit": 160000000, "commission": 9000000}, 
+			{"upperLimit": 180000000, "commission": 10500000}, 
+			{"upperLimit": 200000000, "commission": 12000000}, 
+			{"upperLimit": 220000000, "commission": 12600000}, 
+			{"upperLimit": 240000000, "commission": 14000000} 
+		],
+		"animation":{
+			"startCartoon":1,
+			"openHand":14.03,
+			"alarmClock":4,
+			"turnover":6,
+			"openPot":15,
+			"sweepTakeAll":2,
+			"flyGold":1,
+			"bigWinner":3,
+			"await":8
+			},
+		"cardTypeInfos":{
+			"0":{
+				"multi":1,
+				"point":0,
+				"name":"没牛"
+			},
+			"1":{
+				"multi":1,
+				"point":1,
+				"name":"牛一"
+			},
+			"2":{
+				"multi":1,
+				"point":2,
+				"name":"牛二"
+			},
+			"3":{
+				"multi":1,
+				"point":3,
+				"name":"牛三"
+			},
+			"4":{
+				"multi":1,
+				"point":4,
+				"name":"牛四"
+			},
+			"5":{
+				"multi":1,
+				"point":5,
+				"name":"牛五"
+			},
+			"6":{
+				"multi":1,
+				"point":6,
+				"name":"牛六"
+			},
+			"7":{
+				"multi":2,
+				"point":7,
+				"name":"牛七"
+			},
+			"8":{
+				"multi":2,
+				"point":8,
+				"name":"牛八"
+			},
+			"9":{
+				"multi":3,
+				"point":9,
+				"name":"牛九"
+			},
+			"10":{
+				"multi":3,
+				"point":10,
+				"name":"牛牛"
+			},
+			"11":{
+				"multi":3,
+				"point":11,
+				"name":"银牛"
+			},
+			"12":{
+				"multi":3,
+				"point":12,
+				"name":"金牛"
+			},
+			"13":{
+				"multi":3,
+				"point":13,
+				"name":"炸弹牛"
+			},
+			"14":{
+				"multi":3,
+				"point":14,
+				"name":"5小牛"
+			},
+			"15":{
+				"multi":3,
+				"point":15,
+				"name":"同花牛"
+			},
+			"16":{
+				"multi":3,
+				"point":16,
+				"name":"花炸牛"
+			},
+			"17":{
+				"multi":3,
+				"point":17,
+				"name":"花顺牛"
+			}
+		},
+		"betRegion":[
+			{
+				"upLimit":100000,
+				"range":[100, 1000, 5000]
+			},
+			{
+				"upLimit":500000,
+				"range":[1000, 5000, 10000]
+			},
+			{
+				"upLimit":5000000,
+				"range":[5000, 10000, 100000]
+			},
+			{
+				"upLimit":30000000,
+				"range":[10000, 500000, 1000000]
+			},
+			{
+				"upLimit":-1,
+				"range":[10000, 500000, 1000000]
+			}
+		]
+	}
+}

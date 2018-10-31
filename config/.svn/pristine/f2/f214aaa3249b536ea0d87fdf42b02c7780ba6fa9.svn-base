@@ -1,0 +1,1319 @@
+{
+ "templates"                                  : {
+  "t3card2016_v3.778_A_360push_activity"       : {
+   "desc"                                       : "新版三张牌360渠道推送活动模板",
+   "activities"                                 : [
+    "H3card_1122_allVisible_activity",
+    "t3card2016_1122_texasthanksgiving_activity",
+    "t3card2016_1114_monthCard_activity",
+    "t3card2016_0830_goldmatch_activity",
+    "activity_t3card2016_exchange_new_0726",
+    "t3card_1130_notice_activity"
+   ]
+  },
+  "t3card2016_v3.78_AI_online_activity"        : {
+   "desc"                                       : "新版三张牌3.7以上版本线上activity模板",
+   "activities"                                 : [
+    "t3card_0608_VIProom_activity",
+    "t3card_0220_paddajiangsai_activity",
+    "t3card_0412_supper6000_activity",
+    "t3card_0406_redlucky_activity",
+    "t3card2016_1114_monthCard_activity",
+    "activity_t3card_shimingrenzheng_170515",
+    "activity_code_duihuanma_0201",
+    "t3card_1130_notice_activity"
+   ]
+  },
+  "t3card2016_v3.97_online_activity"           : {
+   "desc"                                       : "新版三张牌3.97版本线上activity模板",
+   "activities"                                 : [
+    "t3card_0120_download_activity",
+    "H3card_1122_allVisible_activity",
+    "t3card2016_1114_monthCard_activity",
+    "activity_t3card2016_exchange_new_0726"
+   ]
+  },
+  "t3cardNew_v3.77_Android_test_activity"      : {
+   "desc"                                       : "新版三张牌3.77活动测试",
+   "activities"                                 : [
+    "t3cardnew_0517_activity02",
+    "activity_t3card_exchange"
+   ]
+  },
+  "t3card2016_v3.778_AI_GDtishen_activity"     : {
+   "desc"                                       : "新版三张牌广电提审活动模板",
+   "activities"                                 : [
+    "activity_ddz_jiankangyouxi_0201",
+    "t3card_1130_notice_activity"
+   ]
+  }
+ },
+ "activities"                                 : {
+  "H3card_1122_allVisible_activity"            : {
+   "id"                                         : "H3card_1122_allVisible_activity",
+   "des"                                        : "红黑大战新版本上线，途游全平台奖池奖励最高，任性土豪最多的聚集地！想赚钱的都来这了，你还在等啥？！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "新红黑大战",
+   "server_config"                              : {
+    "start"                                      : "2016-09-14 00:00:00",
+    "end"                                        : "2018-12-20 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 1
+       },
+       "type"                                       : "game"
+      },
+      "gameId"                                     : 38,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/H3card_0929_gameonline_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/H3card_1123_allVisible_activity.jpg"
+   }
+  },
+  "t3card_0608_VIProom_activity"               : {
+   "id"                                         : "t3card_0608_VIProom_activity",
+   "des"                                        : "吉祥、银河、葡京、永利，每日玩够游戏局数即免费全天激活彩池\n所有房间的彩池金额将提高百分之25哦！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "贵宾彩池福利",
+   "server_config"                              : {
+    "start"                                      : "2017-03-24 00:00:00",
+    "end"                                        : "2018-08-09 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 3
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/20170324_yongliplus_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170608_VIProom_activity_1.jpg"
+   }
+  },
+  "H3card_0929_gameonline_activity"            : {
+   "id"                                         : "H3card_0929_gameonline_activity",
+   "des"                                        : "红黑大战新版本上线，你，就是排行榜冠军！敢不敢来秀一把？！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "新红黑大战",
+   "server_config"                              : {
+    "start"                                      : "2016-09-14 00:00:00",
+    "end"                                        : "2016-12-31 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 1
+       },
+       "type"                                       : "game"
+      },
+      "gameId"                                     : 38,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/H3card_0929_gameonline_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/H3card_0929_gameonline_activity.jpg"
+   }
+  },
+  "t3card_1130_monthCard_activity"             : {
+   "id"                                         : "t3card_1130_monthCard_activity",
+   "des"                                        : "活动期间通过“商城-特价专区”购买任意月卡，均可获得相对应月卡的3天试用礼包，该礼包还可以转赠给其他好友哦！如此特惠，还不快抢~",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "月卡限时加赠",
+   "server_config"                              : {
+    "start"                                      : "2016-08-30 00:00:00",
+    "end"                                        : "2016-12-05 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "subStore"                                   : "activity",
+      "typeId"                                     : "hall.goto.shop"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/t3card_1130_store_monthCard5_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_1130_monthCard_activity.jpg"
+   }
+  },
+  "t3card_0120_download_activity"              : {
+   "id"                                         : "t3card_0120_download_activity",
+   "des"                                        : "最新豪华新春版三张牌上线，下载即每天登录免费送5000元礼物赛门票一张，点击下载按钮或登录www.tuyoo.com官网都可下载最新版本！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "新版天天送奖",
+   "server_config"                              : {
+    "start"                                      : "2017-01-22 00:00:00",
+    "end"                                        : "2017-02-06 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "typeId"                                     : "hall.download",
+      "url"                                        : "http://ddz.dl.tuyoo.com/cdn37/t3card/download/dl.html"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/t3card_0120_download_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_0120_download_activity.jpg"
+   }
+  },
+  "t3card_0303_funvjie_activity"               : {
+   "id"                                         : "t3card_0303_funvjie_activity",
+   "des"                                        : "3月8日19点免费开启！\n价值2000元大奖等你来拿！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "妇女节大奖赛",
+   "server_config"                              : {
+    "start"                                      : "2017-02-22 00:00:00",
+    "end"                                        : "2017-03-09 23:59:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/pad_0216_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170303_funvjie.jpg"
+   }
+  },
+  "t3card_0221_yonglizailin_activity"          : {
+   "id"                                         : "t3card_0221_yonglizailin_activity",
+   "des"                                        : "永利贵宾场再次强势来袭，每日22点-24点限时开放\n每玩36局送1800奖券和45枚幸运戒指",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "永利·再临",
+   "server_config"                              : {
+    "start"                                      : "2017-02-22 00:00:00",
+    "end"                                        : "2017-04-30 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 3
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/yellow_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170221_yongli_huodong.jpg"
+   }
+  },
+  "t3card_1227_free_yuandan_activity"          : {
+   "id"                                         : "t3card_1227_free_yuandan_activity",
+   "des"                                        : "12月29日至1月4日，每天一场免费元旦礼物赛，比赛奖励包含5000元礼物赛门票，拿到门票即可参加元旦5000元礼物赛",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "元旦礼物赛",
+   "server_config"                              : {
+    "start"                                      : "2016-12-27 00:00:00",
+    "end"                                        : "2017-01-05 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/texas_1122_join_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_1227_free3_yuandan_activity.jpg"
+   }
+  },
+  "t3card_0328_yurenjie_activity"              : {
+   "id"                                         : "t3card_0328_yurenjie_activity",
+   "des"                                        : "愚人节，不忽悠！\n4月1日19：00。免费2500元微信红包赛等你来战",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "愚人节红包赛",
+   "server_config"                              : {
+    "start"                                      : "2017-03-28 00:00:00",
+    "end"                                        : "2017-04-01 23:59:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/pad_0216_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170328_yurenjie.jpg"
+   }
+  },
+  "t3card_1227_10000_yuandan_activity"         : {
+   "id"                                         : "t3card_1227_10000_yuandan_activity",
+   "des"                                        : "12月31日、1月1日万元大奖赛，前1000名均可以获得奖励，1月1日五万元大奖赛，奖励高达5万元！咱们不见不散",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "元旦大奖赛",
+   "server_config"                              : {
+    "start"                                      : "2016-12-27 00:00:00",
+    "end"                                        : "2017-01-02 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/texas_1122_join_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_1227_10000_yuandan_activity.jpg"
+   }
+  },
+  "t3card_1130_notice_activity"                : {
+   "id"                                         : "t3card_1130_notice_activity",
+   "des"                                        : "重要游戏公告，请仔细阅读和遵守！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 1,
+   "name"                                       : "重要公告",
+   "server_config"                              : {
+    "start"                                      : "2017-11-30 00:00:00",
+    "end"                                        : "2020-12-31 23:59:59"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : "",
+     "URL"                                        : ""
+    },
+    "bgURL"                                      : "${http_download}/hall/act/complete/general_btn/ZYGG2018.jpg"
+   }
+  },
+  "t3card2016_0629_5000Wmatch_activity"        : {
+   "id"                                         : "t3card2016_0629_5000Wmatch_activity",
+   "des"                                        : "新版三张牌比赛奖池全面升级，周一至周五免费5000万金币赛等您参与，周六、周日免费一亿金币赛，每日19点不容错过！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "免费赛奖池升级",
+   "server_config"                              : {
+    "start"                                      : "2016-06-29 00:00:00",
+    "end"                                        : "2016-07-31 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/springmatch118_btn.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_0628_mtt_5000w.jpg"
+   }
+  },
+  "t3card_0301_hongheishengji_activity"        : {
+   "id"                                         : "t3card_0301_hongheishengji_activity",
+   "des"                                        : "燃放礼花减免赢家服务费！\n天降红包，惊喜不断，好运连连！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "红黑超进化",
+   "server_config"                              : {
+    "start"                                      : "2017-03-01 00:00:00",
+    "end"                                        : "2017-05-01 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 1
+       },
+       "type"                                       : "game"
+      },
+      "gameId"                                     : 38,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/yellow_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170301_honghei.jpg"
+   }
+  },
+  "t3card_1221_huafei_2w_shengdan_activity"    : {
+   "id"                                         : "t3card_1221_huafei_2w_shengdan_activity",
+   "des"                                        : "12月22日至12月31日，每天一场免费圣诞礼物赛，比赛奖励包含5000元礼物赛门票，拿门票，打比赛，就是这个节奏！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "免费圣诞礼物赛",
+   "server_config"                              : {
+    "start"                                      : "2016-12-21 00:00:00",
+    "end"                                        : "2017-01-01 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/texas_1122_join_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_1221_huafei_2w_shengdan_activity.jpg.jpg"
+   }
+  },
+  "t3card2016_0803_lADOZDO4vs0Bxc0Ckw_activity": {
+   "id"                                         : "t3card2016_0803_lADOZDO4vs0Bxc0Ckw_activity",
+   "des"                                        : "充值免费领取大额比赛门票，今夏酷热难当，三张牌给你清爽的理由，快来赢钱吧",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "充值送门票",
+   "server_config"                              : {
+    "start"                                      : "2016-07-27 00:00:00",
+    "end"                                        : "2017-06-01 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/springmatch118_btn.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card2016_0918_recharge_activity.jpg"
+   }
+  },
+  "t3card_0324_guibin_activity"                : {
+   "id"                                         : "t3card_0324_guibin_activity",
+   "des"                                        : "葡京、银河，每玩5局即可激活10局彩池\n永利全天开放，玩15局就可当天免费激活彩池",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "贵宾彩池大狂欢",
+   "server_config"                              : {
+    "start"                                      : "2017-03-24 00:00:00",
+    "end"                                        : "2017-07-01 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 3
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/20170324_yongliplus_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170324_yongliplus.jpg"
+   }
+  },
+  "t3card_0324_weixinhongbao_activity"         : {
+   "id"                                         : "t3card_0324_weixinhongbao_activity",
+   "des"                                        : "即日起，免费10元微信赛、春季系列赛、2000元月卡赛、3000元红包超级赛、5万元巅峰之战进行奖励升级，参与比赛就有机会获得微信红包大奖！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "春季微信红包赛",
+   "server_config"                              : {
+    "start"                                      : "2017-03-21 00:00:00",
+    "end"                                        : "2017-05-01 23:59:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/pad_0216_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170324_weixinhongbao.jpg"
+   }
+  },
+  "t3card_0524_duanwujie_activity"             : {
+   "id"                                         : "t3card_0524_duanwujie_activity",
+   "des"                                        : "又是一年端午时，端午节免费大奖赛！\n5月30日19:00，免费开启。",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "端午节大奖赛",
+   "server_config"                              : {
+    "start"                                      : "2017-05-24 00:00:00",
+    "end"                                        : "2017-05-31 23:59:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/t3card_20170524_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_20170524_duanwujie.jpg"
+   }
+  },
+  "activity_t3card_shimingrenzheng_170515"     : {
+   "id"                                         : "activity_t3card_shimingrenzheng_170515",
+   "des"                                        : "实名认证",
+   "moduleId"                                   : "realName_certification",
+   "typeid"                                     : 1,
+   "name"                                       : "实名认证",
+   "server_config"                              : {
+    "start"                                      : "2015-02-28 00:00:00",
+    "end"                                        : "2017-11-17 00:00:00"
+   },
+   "config"                                     : {
+    "firstButton"                                : {
+     "visible"                                    : 0,
+     "action"                                     : "pop_tip",
+     "params"                                     : {
+      "duration"                                   : 2,
+      "text"                                       : "确定"
+     }
+    },
+    "secondButton"                               : {
+     "visible"                                    : 0,
+     "action"                                     : "pop_tip",
+     "params"                                     : {
+      "duration"                                   : 2,
+      "text"                                       : "确定"
+     }
+    }
+   }
+  },
+  "t3card2016_0727_360match_activity"          : {
+   "id"                                         : "t3card2016_0727_360match_activity",
+   "des"                                        : "360渠道专属系列比赛开放，现已加入大师赛列表，随时等您来参与；点击立刻参加，选择想加入的比赛报名吧！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "360专属比赛",
+   "server_config"                              : {
+    "start"                                      : "2016-07-27 00:00:00",
+    "end"                                        : "2017-06-01 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/springmatch118_btn.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card2016_360match_0727_activity.jpg"
+   }
+  },
+  "t3card2016_0929_nationalDay_activity"       : {
+   "id"                                         : "t3card2016_0929_nationalDay_activity",
+   "des"                                        : "国庆期间三张牌全天免费赛事再升级，每日19点，免费5000万国庆夺金赛连送7天，假日期间累计免费赛事金币奖励达10.1亿！就等你来抢~",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "国庆夺金赛",
+   "server_config"                              : {
+    "start"                                      : "2016-09-14 00:00:00",
+    "end"                                        : "2016-12-31 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/t3card2016_0929_nationalDay_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card2016_0929_nationalDay_activity.jpg"
+   }
+  },
+  "t3card2016_1122_texasthanksgiving_activity" : {
+   "id"                                         : "t3card2016_1122_texasthanksgiving_activity",
+   "des"                                        : "德州扑克11月24日晚20:00比赛将开启一场VIP免费实物赛，冠军可得iPad-mini4，VIP玩家（无论等级）皆可免费报名参赛，请关注德州扑克比赛信息，及时参与！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "德州感恩赛",
+   "server_config"                              : {
+    "start"                                      : "2016-11-22 00:00:00",
+    "end"                                        : "2016-11-29 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 1
+       },
+       "type"                                       : "game"
+      },
+      "gameId"                                     : 8,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/texas_1122_join_button.png"
+    },
+    "bgURL"                                      : "${http_download}/texas/images/activity/texas_1122_thanksgivingmatch_activity.jpg"
+   }
+  },
+  "t3card2016_0629_Mastermatch_activity"       : {
+   "id"                                         : "t3card2016_0629_Mastermatch_activity",
+   "des"                                        : "新版三张牌大师赛正式出炉，京东卡、实物、奖券送不停，快来争夺冠军赢大奖！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "三张牌大师赛",
+   "server_config"                              : {
+    "start"                                      : "2016-06-29 00:00:00",
+    "end"                                        : "2016-07-31 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/springmatch118_btn.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_0628_mtt.jpg"
+   }
+  },
+  "t3card_0406_redlucky_activity"              : {
+   "id"                                         : "t3card_0406_redlucky_activity",
+   "des"                                        : "每晚20:30，幸运红包赛全新来临。无重购，无增购，公平竞技！\n报名费：1张幸运红包赛门票或10万金币。\n玩《幸运3+1》得幸运红包赛门票！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "幸运红包赛",
+   "server_config"                              : {
+    "start"                                      : "2017-04-05 00:00:00",
+    "end"                                        : "2017-07-01 23:59:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/20170406_lucky_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170406_lucky.jpg"
+   }
+  },
+  "activity_t3card2016_exchange_0725"          : {
+   "id"                                         : "activity_t3card2016_exchange_0725",
+   "des"                                        : "如有问题，请咨询客服QQ：4008098000\\\n或拨打客服电话：4008098000",
+   "moduleId"                                   : "input",
+   "typeid"                                     : 3,
+   "name"                                       : "兑换码活动",
+   "server_config"                              : {
+    "start"                                      : "2016-07-25 00:00:00",
+    "end"                                        : "2017-12-31 00:00:00"
+   },
+   "config"                                     : {
+    "titleURL"                                   : "",
+    "bgURL"                                      : "${http_download}/hall/act/complete/inputNew/act_hall_texas_exchangecode_black.jpg"
+   },
+   "url"                                        : ""
+  },
+  "t3card2016_1114_monthCard_activity"         : {
+   "id"                                         : "t3card2016_1114_monthCard_activity",
+   "des"                                        : "三张超值月卡上线，买到就是赚到，超值反馈，天天加赠，大家都在抢，你还在等什么？！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "超值月卡上线",
+   "server_config"                              : {
+    "start"                                      : "2016-08-30 00:00:00",
+    "end"                                        : "2018-10-16 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "subStore"                                   : "activity",
+      "typeId"                                     : "hall.goto.shop"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/t3card_1114_store_monthCard_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170302_yuekahuodong.jpg"
+   }
+  },
+  "t3card_1221_jinbi_10000w_shengdan_activity" : {
+   "id"                                         : "t3card_1221_jinbi_10000w_shengdan_activity",
+   "des"                                        : "平安夜、圣诞夜每天1场，免费万元礼物赛，奖励圈为前500名，总奖池高达1万元，如此机会，不可错过",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "免费圣诞万元赛",
+   "server_config"                              : {
+    "start"                                      : "2016-12-21 00:00:00",
+    "end"                                        : "2016-12-26 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/texas_1122_join_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_1221_jinbi_10000w_shengdan_2_activity.jpg"
+   }
+  },
+  "t3card_1221_jinbi_50000w_shengdan_activity" : {
+   "id"                                         : "t3card_1221_jinbi_50000w_shengdan_activity",
+   "des"                                        : "圣诞夜的超级大奖赛，总奖池高达5万元，面对如此高的奖池，你难道不心动吗？",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "5万元王者对决",
+   "server_config"                              : {
+    "start"                                      : "2016-12-21 00:00:00",
+    "end"                                        : "2016-12-26 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/texas_1122_join_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_1221_jinbi_50000w_shengdan_2_activity.jpg"
+   }
+  },
+  "t3card2016_0830_goldmatch_activity"         : {
+   "id"                                         : "t3card2016_0830_goldmatch_activity",
+   "des"                                        : "三张牌金币喷血大放送，每天8点至次日1点，每时每刻享受精彩赛事，工作日赛事总奖励价值8亿金币，周末赛事奖励高达13亿金币，最爽最壕最开心的体验，都在这里！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "超量金币赛",
+   "server_config"                              : {
+    "start"                                      : "2016-08-30 00:00:00",
+    "end"                                        : "2017-10-01 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/t3card2016_0831_goldmatch_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card2016_0918_match_activity.jpg"
+   }
+  },
+  "t3card_0426_guibin_activity"                : {
+   "id"                                         : "t3card_0426_guibin_activity",
+   "des"                                        : "4月28日18:00—5月2日10:00！\n银河玩30局，葡京玩20局，永利玩10局就可以享受当天彩池免费激活！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "贵宾彩池大回馈",
+   "server_config"                              : {
+    "start"                                      : "2017-04-25 00:00:00",
+    "end"                                        : "2017-05-03 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 3
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/20170426_lguibin_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170426_lguibin.jpg"
+   }
+  },
+  "t3card2016_0914_midautumn_activity"         : {
+   "id"                                         : "t3card2016_0914_midautumn_activity",
+   "des"                                        : "只发8-A的三张闷牌赛，9月15、16、17日每天晚上19:30，免费报名参赛，赢取815万金币奖池",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "中秋闷牌赛",
+   "server_config"                              : {
+    "start"                                      : "2016-09-14 00:00:00",
+    "end"                                        : "2016-12-31 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/t3card2016_participatein.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card2016_0913_midautumn_activity.jpg"
+   }
+  },
+  "t3card_0412_supper6000_activity"            : {
+   "id"                                         : "t3card_0412_supper6000_activity",
+   "des"                                        : "微信红包超级赛大升级！每天14：30，6000元大奖等你拿！\n报名费：6枚幸运戒指或30万金币",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "超级赛大升级",
+   "server_config"                              : {
+    "start"                                      : "2017-04-11 00:00:00",
+    "end"                                        : "2018-07-05 23:59:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/20170412_supper6000_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170412_supper6000.jpg"
+   }
+  },
+  "t3card_0216_ipaddajiangsai_activity"        : {
+   "id"                                         : "t3card_0216_ipaddajiangsai_activity",
+   "des"                                        : "2月18日21：00，iPad mini4等你来拿！！\n报名条件：20枚幸运戒指或80万金币",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "iPad大奖赛",
+   "server_config"                              : {
+    "start"                                      : "2017-02-14 00:00:00",
+    "end"                                        : "2017-02-22 23:59:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/pad_0216_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/pad_0216_bg.jpg"
+   }
+  },
+  "t3card_0213_qingrenjie_activity"            : {
+   "id"                                         : "t3card_0213_qingrenjie_activity",
+   "des"                                        : "2.14日情人节当天，在三张牌任意牌桌参与游戏，均可免费向她人发送“鲜花”和“钻戒”的魔法表情哦，快去表白吧~",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "情人节大作战",
+   "server_config"                              : {
+    "start"                                      : "2017-02-13 15:20:13",
+    "end"                                        : "2017-03-16 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 3
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/H3card_0929_gameonline_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_0213_qingrenjie_activity.jpg"
+   }
+  },
+  "t3card_0324_chengjiu_activity"              : {
+   "id"                                         : "t3card_0324_chengjiu_activity",
+   "des"                                        : "成就系统上线！3.21至3.30日，充值和完成游戏内相应要求，即可额外获赠高达百分之五十奖励！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "成就系统上线",
+   "server_config"                              : {
+    "start"                                      : "2017-03-24 00:00:00",
+    "end"                                        : "2017-03-31 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 15
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/yellow_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170324_chengjiu.jpg"
+   }
+  },
+  "activity_t3card2016_exchange_new_0726"      : {
+   "id"                                         : "activity_t3card2016_exchange_new_0726",
+   "des"                                        : "如有问题，请咨询客服QQ：4008098000\n或拨打客服电话：4008098000。",
+   "moduleId"                                   : "input_3761",
+   "typeid"                                     : 3,
+   "name"                                       : "兑换码活动",
+   "server_config"                              : {
+    "start"                                      : "2015-02-28 00:00:00",
+    "end"                                        : "2017-12-30 00:00:00"
+   },
+   "config"                                     : {
+    "titleURL"                                   : "",
+    "bgURL"                                      : "${http_download}/hall/act/imgs/texas_1010_exchange.jpg"
+   }
+  },
+  "t3card_0508_muqinjie_activity"              : {
+   "id"                                         : "t3card_0508_muqinjie_activity",
+   "des"                                        : "祝福妈妈最美好的节日！送份健康给妈妈！\n5月14日19:00，免费开启。",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "母亲节礼物赛",
+   "server_config"                              : {
+    "start"                                      : "2017-05-08 00:00:00",
+    "end"                                        : "2017-05-14 23:59:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/20170508_muqinjie_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170508_muqinjie.jpg"
+   }
+  },
+  "t3card_0328_qingmingjie_activity"           : {
+   "id"                                         : "t3card_0328_qingmingjie_activity",
+   "des"                                        : "清明时节雨纷纷，微信红包等你拿！\n4月4日19：00。免费2500元微信红包赛等你来战",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "踏青红包赛",
+   "server_config"                              : {
+    "start"                                      : "2017-03-28 00:00:00",
+    "end"                                        : "2017-04-04 23:59:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/pad_0216_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170328_qingmingjie.jpg"
+   }
+  },
+  "t3card2016_0629_VIPdouble_activity"         : {
+   "id"                                         : "t3card2016_0629_VIPdouble_activity",
+   "des"                                        : "贵宾奖励翻倍------即日起，在新版三张牌贵宾室游戏的玩家可以获得双倍的金币及奖券奖励",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "VIP双倍返奖",
+   "server_config"                              : {
+    "start"                                      : "2016-06-29 00:00:00",
+    "end"                                        : "2016-07-31 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 3
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/springmatch118_btn.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card2016_VIP_coupongolddouble_activity.jpg"
+   }
+  },
+  "t3card2016_0914_returnreward_activity"      : {
+   "id"                                         : "t3card2016_0914_returnreward_activity",
+   "des"                                        : "三张牌牌桌每天爆奖彩池扩容，中彩后可赢取大量金币，时间有限，速来参与！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "牌桌奖池翻倍",
+   "server_config"                              : {
+    "start"                                      : "2016-09-14 00:00:00",
+    "end"                                        : "2017-03-01 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 3
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/t3card2016_getreward.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card2016_0918_return_activity.jpg"
+   }
+  },
+  "t3cardnew_0517_activity02"                  : {
+   "id"                                         : "t3cardnew_0517_activity02",
+   "des"                                        : "活动期间，三张牌贵宾室奖券翻倍",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "双倍奖券活动",
+   "server_config"                              : {
+    "start"                                      : "2016-05-17 00:00:00",
+    "end"                                        : "2016-08-31 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 3
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/springmatch118_btn.png"
+    },
+    "bgURL"                                      : "${http_download}/hall/act/imgs/t3card_0401_aprilfishevent2_activity.jpg"
+   }
+  },
+  "t3card_0425_shuangjie_activity"             : {
+   "id"                                         : "t3card_0425_shuangjie_activity",
+   "des"                                        : "迎五一，庆五四！缤纷豪礼等你来拿！\n5月1日及5月4日19:00，与你不见不散！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "假日大奖赛",
+   "server_config"                              : {
+    "start"                                      : "2017-04-25 00:00:00",
+    "end"                                        : "2017-05-05 23:59:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/20170425_shuangjie_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170425_shuangjie.jpg"
+   }
+  },
+  "t3card_0220_paddajiangsai_activity"         : {
+   "id"                                         : "t3card_0220_paddajiangsai_activity",
+   "des"                                        : "每周六21：00，iPad mini4等你来拿！！\n报名条件：20枚幸运戒指或80万金币",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "iPad大奖赛",
+   "server_config"                              : {
+    "start"                                      : "2017-02-22 00:00:00",
+    "end"                                        : "2018-07-12 23:59:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/pad_0216_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20180103_pad.jpg"
+   }
+  },
+  "t3card_0722_1ematch_activity"               : {
+   "id"                                         : "t3card_0722_1ematch_activity",
+   "des"                                        : "新版三张牌比赛再度升级，免费金币比赛奖池突破一亿，周末每晚18点准时开赛，夏日抢金币活动正式开始，等您参与",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "免费1亿赛",
+   "server_config"                              : {
+    "start"                                      : "2016-07-22 00:00:00",
+    "end"                                        : "2016-11-30 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/springmatch118_btn.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/1ematch_3cards_0722_bg.jpg"
+   }
+  },
+  "t3card_0301_yongliplus_activity"            : {
+   "id"                                         : "t3card_0301_yongliplus_activity",
+   "des"                                        : "每日永利累计游戏20局\n享当日彩池免费激活！",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "永利大放送",
+   "server_config"                              : {
+    "start"                                      : "2017-03-01 00:00:00",
+    "end"                                        : "2017-04-30 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 3
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/t3card/images/activity/yellow_butten.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/20170301_longli.jpg"
+   }
+  },
+  "t3card_1221_jinbi_6000w_shengdan_activity"  : {
+   "id"                                         : "t3card_1221_jinbi_6000w_shengdan_activity",
+   "des"                                        : "圣诞5000元礼物赛大放送，可以通过金币、5000元礼物赛门票来进行报名~累计奖励高达5000元！还不快来参加~",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "圣诞5千元赛",
+   "server_config"                              : {
+    "start"                                      : "2016-12-21 00:00:00",
+    "end"                                        : "2016-12-26 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : true,
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/activity/texas_1122_join_button.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_1221_jinbi_6000w_shengdan_2_activity.jpg"
+   }
+  },
+  "Copy_t3card_1130_monthCard_activity"        : {
+   "id"                                         : "Copy_t3card_1130_monthCard_activity",
+   "des"                                        : "活动期间只要是月卡用户，即可免费参加每天的5000万金币月卡赛，超值大奖等你来拿，心动不如行动，你还在等什么。",
+   "moduleId"                                   : "general_btn",
+   "typeid"                                     : 4,
+   "name"                                       : "月卡赛首登场",
+   "server_config"                              : {
+    "start"                                      : "2016-11-27 00:00:00",
+    "end"                                        : "2016-12-05 00:00:00"
+   },
+   "config"                                     : {
+    "button"                                     : {
+     "visible"                                    : "true",
+     "todoTask"                                   : {
+      "enter_param"                                : {
+       "pluginParams"                               : {
+        "gameType"                                   : 4
+       },
+       "type"                                       : "roomlist"
+      },
+      "gameId"                                     : 30,
+      "typeId"                                     : "hall.goto.enter.game"
+     },
+     "URL"                                        : "${http_download}/texas/images/ads/iphone7dashisai1013_btn.png"
+    },
+    "bgURL"                                      : "${http_download}/t3card/images/activity/t3card_1130_firstmonthcard_activity.jpg"
+   }
+  }
+ },
+ "modules"                                    : { }
+}

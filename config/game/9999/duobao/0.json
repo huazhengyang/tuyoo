@@ -1,0 +1,109 @@
+{
+	"duobaos": [
+		{
+			"duobaoId": "1136",
+			"typeId": 1,
+			"betTime": 30,
+			"openTime": 0,
+			"lessBetCount": 20,
+			"moreBetCount": 0,
+			"totalIssueNum": 100000,
+			"displayName": "30天贵族月卡",
+			"reward": "item:1316",
+			"desc": "每花费1.5红包券可参与1人次，在每30分钟倒计时结束时至少达到20人次即可开奖。",
+			"pic": "${http_download}/hall/promote/imgs/item_1196_80.png",
+			"tagMark": 1,
+			"mail": "恭喜您夺宝成功",
+			"position": 3,
+			"cost": {
+				"count": 150,
+				"name": "红包券",
+				"itemId": "user:coupon"
+			}
+		},
+		{
+			"duobaoId": "1140",
+			"typeId": 2,
+			"betTime": 0,
+			"openTime": 0,
+			"lessBetCount": 0,
+			"moreBetCount": 30,
+			"totalIssueNum": 100000,
+			"displayName": "100万金币",
+			"reward": "item:1314",
+			"desc": "每花费2红包券可参与1人次，集齐30次可进行100万金币开奖。",
+			"pic": "${http_download}/hall/item/imgs/item_1314.png",
+			"tagMark": 0,
+			"mail": "恭喜您夺宝成功",
+			"position": 2,
+			"cost": {
+				"count": 200,
+				"name": "红包券",
+				"itemId": "user:coupon"
+			}
+		},
+		{
+			"duobaoId": "1127",
+			"typeId": 1,
+			"betTime": 60,
+			"openTime": 0,
+			"lessBetCount": 30,
+			"moreBetCount": 0,
+			"totalIssueNum": 100000,
+			"displayName": "金龙鱼大米5KG",
+			"reward": "item:2091",
+			"desc": "每花费2红包券可参与1人次，在每60分钟倒计时结束时至少达到30人次即可开奖。",
+			"pic": "${http_download}/hall/promote/imgs/duobao_mi.png",
+			"tagMark": 1,
+			"mail": "恭喜您夺宝成功",
+			"position": 4,
+			"cost": {
+				"count": 199,
+				"name": "红包券",
+				"itemId": "user:coupon"
+			}
+		},
+		{
+			"duobaoId": "1137",
+			"typeId": 1,
+			"betTime": 60,
+			"openTime": 0,
+			"lessBetCount": 30,
+			"moreBetCount": 0,
+			"totalIssueNum": 100000,
+			"displayName": "丹麦曲奇饼干163g",
+			"reward": "item:2266",
+			"desc": "每花费1.5红包券可参与1人次，在每60分钟倒计时结束时至少达到30人次即可开奖。",
+			"pic": "${http_download}/hall/promote/imgs/duoduo_quqi.png",
+			"tagMark": 1,
+			"mail": "恭喜您夺宝成功",
+			"position": 5,
+			"cost": {
+				"count": 99,
+				"name": "红包券",
+				"itemId": "user:coupon"
+			}
+		},
+		{
+			"duobaoId": "1139",
+			"typeId": 2,
+			"betTime": 0,
+			"openTime": 0,
+			"lessBetCount": 0,
+			"moreBetCount": 15,
+			"totalIssueNum": 100000,
+			"displayName": "7天记牌器",
+			"reward": "item:1315",
+			"desc": "每花费1红包券可参与1次，集齐15次可进行7天记牌器开奖。",
+			"pic": "${http_download}/hall/checkin/item_2003.png",
+			"tagMark": 0,
+			"mail": "恭喜您夺宝成功",
+			"position": 1,
+			"cost": {
+				"count": 100,
+				"name": "红包券",
+				"itemId": "user:coupon"
+			}
+		}
+	]
+}

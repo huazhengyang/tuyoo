@@ -1,0 +1,36 @@
+{
+  "dummyUserCount" : 0,
+  "gameRule" : "classic",
+  "hasrobot" : 0,
+  "ismatch" : 0,
+  "level" : "vip",
+  "matchConf" : null,
+  "maxCoin" : -1,
+  "maxCoinQS" : 20000,
+  "maxLevel" : -1,
+  "minCoin" : 20000,
+  "minCoinQS" : 20000,
+  "name" : "财运亨通",
+  "playMode" : "sichuan_xlch",
+  "redEnvelopeLevel" : "vip",
+  "roomNameUrl" : "${http_download}/majiang/images/vip_table_name/guibinzhuo_deskname_cyht.png",
+  "tableConf" : {
+    "base_chip" : 2000,
+    "big_degree_fee" : [
+      30,
+      0.1,
+      200
+    ],
+    "countdown_readynum" : 3,
+    "good_tile_chance" : 1.6,
+    "maxSeatN" : 4,
+    "play_timeout" : 12,
+    "ready_timeout" : 30,
+    "return_timeout" : 30,
+    "room_coefficient" : 1,
+    "service_fee" : 4000
+  },
+  "tableType" : "vip",
+  "tagUrl" : "",
+  "typeName" : "normal"
+}

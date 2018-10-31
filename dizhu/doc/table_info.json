@@ -1,0 +1,294 @@
+{
+  "cmd" : "table_info",
+  "result" : {
+    "info" : {
+      "name" : "",
+      "creator" : 0,
+      "pwd" : "",
+      "tableId" : 6030000,
+      "roomId" : 603
+    },
+    "playMode" : "normal",
+    "config" : {
+      "tbbox" : 1,
+      "rangpaiMultiType" : 2,
+      "coin2chip" : 1,
+      "chat" : 0,
+      "optimedis" : "您的上家网络不好，等他一会儿吧",
+      "basemulti" : 1,
+      "maxseat" : 3,
+      "isMingPai" : 1,
+      "optime" : 20,
+      "maxcoin" : 80000,
+      "lucky" : 60,
+      "base" : 1,
+      "roommulti" : 250,
+      "matchInfo" : "",
+      "mincoin" : 2500,
+      "untiCheat" : 0,
+      "sfee" : 150,
+      "couponrule" : "",
+      "passtime" : 5,
+      "gslam" : 128,
+      "grab" : 1,
+      "autoChange" : 1
+    },
+    "tbinfo" : "连续玩6局,开启宝箱送1个奖券",
+    "stat" : {
+      "nowop" : 0,
+      "callstr" : "",
+      "ccrc" : 0,
+      "bomb" : 0,
+      "show" : 1,
+      "firstshow" : 0,
+      "basecard" : [],
+      "bcmulti" : 1,
+      "topseat" : 0,
+      "state" : 10,
+      "call" : -1,
+      "dizhu" : 0,
+      "topcard" : [],
+      "super" : 1,
+      "chuntian" : 1
+    },
+    "isrobot" : 0,
+    "treasure" : [[120, 300], [300, 500], [600, 700], [1200, 1000],
+        [3600, 2000]],
+    "obsr" : [[26, "伟龙手机"]],
+    "smiliesConf" : {
+      "bomb" : {
+        "price" : 150
+      },
+      "diamond" : {
+        "price" : 150
+      },
+      "egg" : {
+        "price" : 40
+      },
+      "flower" : {
+        "price" : 40
+      }
+    },
+    "products" : [{
+          "name" : "地主体验礼包",
+          "price" : "6",
+          "price_diamond" : "60",
+          "picurl" : "http://211.152.97.151:3302/6/momo_goods_t20k.png",
+          "buy_type" : "direct",
+          "id" : "TY9999D0006050",
+          "desc" : "1天记牌器使用权，赠50000金币"
+        }],
+    "seat1" : {
+      "uid" : 10002,
+      "gold" : 19,
+      "show" : 0,
+      "chip" : 3920,
+      "buyinChip" : 3920,
+      "sex" : 0,
+      "outcnt" : 0,
+      "vipInfo" : {
+        "expCurrent" : 0,
+        "expNext" : 60,
+        "name" : "VIP0",
+        "exp" : 0,
+        "level" : 0
+      },
+      "skillScoreInfo" : {
+        "curmaxscore" : 75,
+        "des" : "斗地主房间中每次胜利都可获得大师分，高倍数、高级房间、会员获得的更快！",
+        "premaxscore" : 35,
+        "level" : 4,
+        "pic" : "http://211.152.97.151:3302/dizhumomo/cdn/xiaomai4.png",
+        "score" : 64,
+        "title" : "http://211.152.97.151:3302/dizhumomo/cdn/ddz_skill_score_title.png"
+      },
+      "plays" : 9,
+      "call2" : -1,
+      "state" : 10,
+      "call" : -1,
+      "card" : [],
+      "couponcard" : [0, 0, 0],
+      "medals" : [{
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_continue_win_3.png",
+            "id" : 10018,
+            "getmedaltime" : "2015-04-23 17:54:02",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.rcom/6/medal_continue_win_5.png",
+            "id" : 10019,
+            "getmedaltime" : "2015-04-23 16:55:08",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_play_5.png",
+            "id" : 10001,
+            "getmedaltime" : "2015-04-23 16:54:31",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_win_5.png",
+            "id" : 10004,
+            "getmedaltime" : "2015-04-23 16:55:08",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_yuan_10000.png",
+            "id" : 10011,
+            "getmedaltime" : "2015-04-22 17:15:16",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_spring.png",
+            "id" : 10014,
+            "getmedaltime" : "2015-04-23 16:55:08",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_boom.png",
+            "id" : 10015,
+            "getmedaltime" : "2015-04-23 18:01:55",
+            "iswear" : false
+          }],
+      "purl" : "http://img.immomo.com/album/2E/07/2E0729C6-BD6A-6DC1-705E-FDABC758BE68_S.jpg",
+      "buyinTip" : "",
+      "timeoutcnt" : 0,
+      "nextexp" : 349,
+      "tbt" : 0,
+      "isBeauty" : false,
+      "charm" : 40,
+      "address" : "",
+      "starid" : 1,
+      "tbc" : 6,
+      "coin" : 0,
+      "headUrl" : "",
+      "name" : "辉",
+      "buyinMark" : 0,
+      "vipzuan" : [],
+      "wins" : 8,
+      "level" : 3,
+      "robot" : 0,
+      "exp" : 316,
+      "title" : "赤贫",
+      "winchips" : 64819
+    },
+    "seat2" : {
+      "uid" : 25,
+      "gold" : 208,
+      "show" : 0,
+      "chip" : 17143,
+      "buyinChip" : 17143,
+      "sex" : 1,
+      "outcnt" : 0,
+      "vipInfo" : {
+        "expCurrent" : 0,
+        "expNext" : 60,
+        "name" : "VIP0",
+        "exp" : 0,
+        "level" : 0
+      },
+      "skillScoreInfo" : {
+        "curmaxscore" : 155,
+        "des" : "斗地主房间中每次胜利都可获得大师分，高倍数、高级房间、会员获得的更快！",
+        "premaxscore" : 75,
+        "level" : 5,
+        "pic" : "http://211.152.97.151:3302/dizhumomo/cdn/xiaomai5.png",
+        "score" : 90,
+        "title" : "http://211.152.97.151:3302/dizhumomo/cdn/ddz_skill_score_title.png"
+      },
+      "plays" : 41,
+      "call2" : -1,
+      "state" : 10,
+      "call" : -1,
+      "card" : [],
+      "couponcard" : [0, 0, 0],
+      "medals" : [{
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_continue_win_3.png",
+            "id" : 10018,
+            "getmedaltime" : "2015-06-04 11:19:01",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_play_5.png",
+            "id" : 10001,
+            "getmedaltime" : "2015-05-05 18:04:58",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_play_20.png",
+            "id" : 10002,
+            "getmedaltime" : "2015-05-15 18:07:44",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_win_5.png",
+            "id" : 10004,
+            "getmedaltime" : "2015-05-07 19:25:07",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_yuan_10000.png",
+            "id" : 10011,
+            "getmedaltime" : "2015-04-21 23:30:46",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_xiaokang.png",
+            "id" : 10012,
+            "getmedaltime" : "2015-05-05 18:06:02",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_spring.png",
+            "id" : 10014,
+            "getmedaltime" : "2015-05-28 18:47:29",
+            "iswear" : false
+          }, {
+            "pic" : "http://ddz.dl.tuyoo.com/6/medal_boom.png",
+            "id" : 10015,
+            "getmedaltime" : "2015-06-03 11:00:08",
+            "iswear" : false
+          }],
+      "purl" : "",
+      "buyinTip" : "",
+      "timeoutcnt" : 0,
+      "nextexp" : 1609,
+      "tbt" : 0,
+      "isBeauty" : false,
+      "charm" : 0,
+      "address" : "",
+      "starid" : 0,
+      "tbc" : 6,
+      "coin" : 0,
+      "headUrl" : "",
+      "name" : "慧慧180",
+      "buyinMark" : 0,
+      "vipzuan" : [],
+      "wins" : 19,
+      "level" : 8,
+      "robot" : 0,
+      "exp" : 1288,
+      "title" : "长工",
+      "winchips" : 417776
+    },
+    "seat3" : {
+      "timeoutcnt" : 0,
+      "uid" : 0,
+      "call2" : -1,
+      "show" : 0,
+      "robot" : 0,
+      "state" : 10,
+      "outcnt" : 0,
+      "call" : -1,
+      "couponcard" : [0, 0, 0],
+      "card" : []
+    },
+    "winstreak":  {
+      "cur": 0 ,
+      "rewards":  [
+         {
+          "count": 10 ,
+          "itemId": "user:chip"
+        },
+         {
+          "count": 2 ,
+          "itemId": "user:coupon"
+        },
+         {
+          "count": 30 ,
+          "itemId": "user:chip"
+        }
+      ]
+    }
+  }
+}
+
+

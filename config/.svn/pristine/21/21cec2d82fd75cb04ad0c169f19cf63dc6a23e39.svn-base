@@ -1,0 +1,93 @@
+{	
+	"open": 0,
+	"matchs":[
+		{
+			"matchId":6702,
+			"name":"TUPT丨全国九人卫星赛",
+			"startStageIndex":0,
+			"startRank":1
+		},
+		{
+			"matchId":6703,
+			"name":"TUPT丨全国总决赛海选赛",
+			"startStageIndex":3,
+			"startRank":1
+		},
+		{
+			"matchId":6704,
+			"name":"TUPT丨全国总决赛周赛",
+			"startStageIndex":2,
+			"startRank":1
+		},
+		{
+			"matchId":6705,
+			"name":"TUPT丨全国总决赛大师赛",
+			"startStageIndex":1,
+			"startRank":1
+		},
+		{
+			"matchId":6715,
+			"name":"TUPT丨全国总决赛晋级赛",
+			"startStageIndex":2,
+			"startRank":1
+		},
+		{
+			"matchId":6998,
+			"name":"家电赛丨神秘手机",
+			"startStageIndex":9,
+			"startRank":1
+		},
+		{
+			"matchId": 6015, 
+			"name": "精彩牌局丨春天", 
+			"startStageIndex": 2, 
+			"startRank": 1, 
+			"condiction": {
+				"chuntian": 1,
+				"totalMulti": 48
+			}, 
+			"historyLen": 11, 
+			"stageName": "经典玩法"
+		}, 
+		{
+			"matchId": 6016, 
+			"name": "精彩牌局丨满贯", 
+			"startStageIndex": 2, 
+			"startRank": 1, 
+			"condiction": {
+				"slam": 1
+			}, 
+			"historyLen": 11, 
+			"stageName": "经典玩法"
+		}, 
+		{
+			"matchId": 6026, 
+			"name": "精彩牌局丨超高倍", 
+			"startStageIndex": 2, 
+			"startRank": 1, 
+			"condiction": {
+				"totalMulti": 256
+			}, 
+			"historyLen": 11, 
+			"stageName": "癞子玩法"
+		},
+		{
+			"matchId": 6032, 
+			"name": "精彩牌局丨春天", 
+			"startStageIndex": 2, 
+			"startRank": 1, 
+			"condiction": {
+				"chuntian": 1,
+				"totalMulti": 24
+			},
+			"historyLen": 11, 
+			"stageName": "二人玩法"
+		}
+	],
+	"uploadUrls": [
+		"http://httpproxy.ywdier.com/api/httpproxy5/uploadcdn"
+	],
+	"bucketName": "tablerecord",
+	"downloadUrl": "http://tbr.tuyoo.com",
+	"uploadToken":"87c953283acaba7e75340fccad71c97b047569c2:OTMzYzYxNmRlNTFiNjZhY2Q3Mjg3MjgyNzBkZDk0YzhkNjZmNTU1NA==:eyJzY29wZSI6InR5aGFsbCIsImRlYWRsaW5lIjoiMTYwMjI1OTIwMDAwMCIsIm92ZXJ3cml0ZSI6MCwiZnNpemVMaW1pdCI6MCwiaW5zdGFudCI6MCwic2VwYXJhdGUiOjB9"
+}

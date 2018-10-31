@@ -1,0 +1,25 @@
+{
+  "limitCities": [
+    "中国\t北京\t北京\t",
+    "中国\t上海\t上海\t",
+    "中国\t广东\t广州\t",
+    "中国\t广东\t深圳\t",
+    "中国\t四川\t成都\t",
+    "中国\t浙江\t杭州\t"
+  ],
+  "newUserCondition": {
+    "typeId": "user.cond.registerDays",
+    "startDays": -1,
+    "stopDays": -1
+  },
+  "burialIdList": [
+    {
+      "burialId": "shareLogin",
+      "shareOrVideo": "both"
+    },
+    {
+      "burialId": "treasureChestHelp",
+      "shareOrVideo": "video"
+    }
+  ]
+}

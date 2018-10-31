@@ -1,0 +1,49 @@
+{
+    "comments": [
+        "重置方式day start cycle repeat",
+        "例1： 'day 20160301 3 1' 表示： 20160301开始显示，3天后(20160304)重置，重置一次后消失",
+        "例2： 'day 20160301 3 0' 表示： 20160301开始显示，任务周期为3天，次数0表示无限循环下去"
+    ],
+    "t3flush.new.tbox.missions":{
+        "39001.0.0":  ["manual",       "play",     5,       "done",         "tbox_reward.png",      [{"chip": 50},      "新手村玩满{need}局",  "送50金币红包", "完成新手村5局任务 得到金币x50"]],
+
+		"39002.0.0":  ["manual",       "play",     5,       "done",         "tbox_reward.png",      [{"chip": 50},      "试炼场玩满{need}局",  "送50金币红包", "完成试炼场5局任务 得到金币x50"]],
+		
+		"39003.0.0":  ["manual",       "play",     5,       "done",         "tbox_reward.png",      [{"chip": 50},      "进阶场玩满{need}局",  "送50金币红包", "完成进阶场5局任务 得到金币x50"]],
+		
+		"39004.0.0":  ["manual",       "play",     5,       "done",         "tbox_reward.png",      [{"chip": 50},      "高手场玩满{need}局",  "送50金币红包", "完成高手场5局任务 得到金币x50"]],
+		
+		"39005.0.0":  ["manual",       "play",     5,       "done",         "tbox_reward.png",      [{"chip": 50},      "高手场玩满{need}局",  "送50金币红包", "完成高手场5局任务 得到金币x50"]],
+		
+		"39006.0.0":  ["manual",       "play",     5,       "done",         "tbox_reward.png",      [{"chip": 50},      "高手场玩满{need}局",  "送50金币红包", "完成高手场5局任务 得到金币x50"]]
+	},
+
+    "t3flush.tbox_new_active.config": {
+        "2015 09 13 00 00 ~ 2018 05 31 00 00": [
+        {
+            "tseg": "00:00~23:59", "type": "times", "missions": ["39001.0.0"],
+            "times": 1
+        },
+		{
+            "tseg": "00:00~23:59", "type": "times", "missions": ["39002.0.0"],
+            "times": 1
+        },
+        {
+            "tseg": "00:00~23:59", "type": "times", "missions": ["39003.0.0"],
+            "times": 1
+        },
+        {
+            "tseg": "00:00~23:59", "type": "times", "missions": ["39004.0.0"],
+            "times": 1
+        },
+		{
+            "tseg": "00:00~23:59", "type": "times", "missions": ["39005.0.0"],
+            "times": 1
+        },
+		{
+            "tseg": "00:00~23:59", "type": "times", "missions": ["39006.0.0"],
+            "times": 1
+        }
+        ]
+    }
+}

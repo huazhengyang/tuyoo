@@ -1,0 +1,33 @@
+"tasks": [
+    {
+        "kindId": 101,
+        "typeId": "els.task.day",
+        "star": 0,
+        "count": 1,  // 与task的progress对应，progress累加到count的时候就说明任务已经完成
+        "name": "通过第5关",
+        "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+        "pic": "task_1.png",
+        "content": {
+            "level": 5
+        },
+        "totalLimit": 1,
+        "inspector": { // 先判断conditions，如果都满足，则执行inspector检查
+            "typeId": "els.day.collect",
+            "conditions": []
+        },
+        "rewardContent": {
+            "typeId": "FixedContent",
+            "items": [
+                {
+                    "itemId": "item:6018",
+                    "count": 1
+                },
+                {
+                    "itemId": "item:6015",
+                    "count": 1
+                }
+            ]
+        },
+        "desc": "1-20关收集40颗星星"
+    }
+]

@@ -1,0 +1,108 @@
+{
+    "rewards": {
+        "comment": "每个房间对应的配置",
+        "10001": {
+            "egg": {"cost": 10, "from_inc_charm": 1, "to_inc_charm": -1, "name": "臭鸡蛋"},
+            "rose":{"cost": 10, "from_inc_charm": 2, "to_inc_charm": 2, "name": "玫瑰花"},
+            "bomb": {"cost": 50, "from_inc_charm": 5, "to_inc_charm": -5, "name": "炸弹"},
+            "ring": {"cost": 50, "from_inc_charm": 10, "to_inc_charm": 10, "name": "钻戒"}
+        },
+        "10002": {
+            "egg": {"cost": 50, "from_inc_charm": 5, "to_inc_charm": -5, "name": "臭鸡蛋"},
+            "rose":{"cost": 50, "from_inc_charm": 10, "to_inc_charm": 10, "name": "玫瑰花"},
+            "bomb": {"cost": 200, "from_inc_charm": 20, "to_inc_charm": -20, "name": "炸弹"},
+            "ring": {"cost": 200, "from_inc_charm": 40, "to_inc_charm": 40, "name": "钻戒"}
+        },
+        "10003": {
+            "egg": {"cost": 300, "from_inc_charm": 30, "to_inc_charm": -30, "name": "臭鸡蛋"},
+            "rose":{"cost": 300, "from_inc_charm": 60, "to_inc_charm": 60, "name": "玫瑰花"},
+            "bomb": {"cost": 1000, "from_inc_charm": 100, "to_inc_charm": -100, "name": "炸弹"},
+            "ring": {"cost": 1000, "from_inc_charm": 200, "to_inc_charm": 200, "name": "钻戒"}
+        },
+        "10004": {
+            "egg": {"cost": 2000, "from_inc_charm": 200, "to_inc_charm": -200, "name": "臭鸡蛋"},
+            "rose":{"cost": 2000, "from_inc_charm": 400, "to_inc_charm": 400, "name": "玫瑰花"},
+            "bomb": {"cost": 5000, "from_inc_charm": 500, "to_inc_charm": -500, "name": "炸弹"},
+            "ring": {"cost": 5000, "from_inc_charm": 1000, "to_inc_charm": 1000, "name": "钻戒"}
+        },
+
+        "10051": {
+            "egg": {"cost": 5000, "from_inc_charm": 500, "to_inc_charm": -500, "name": "臭鸡蛋"},
+            "rose":{"cost": 5000, "from_inc_charm": 1000, "to_inc_charm": 1000, "name": "玫瑰花"},
+            "bomb": {"cost": 10000, "from_inc_charm": 1000, "to_inc_charm": -1000, "name": "炸弹"},
+            "ring": {"cost": 10000, "from_inc_charm": 2000, "to_inc_charm": 2000, "name": "钻戒"}
+        },
+        "10052": {
+            "egg": {"cost": 5000, "from_inc_charm": 500, "to_inc_charm": -500, "name": "臭鸡蛋"},
+            "rose":{"cost": 5000, "from_inc_charm": 1000, "to_inc_charm": 1000, "name": "玫瑰花"},
+            "bomb": {"cost": 10000, "from_inc_charm": 1000, "to_inc_charm": -1000, "name": "炸弹"},
+            "ring": {"cost": 10000, "from_inc_charm": 2000, "to_inc_charm": 2000, "name": "钻戒"}
+        },
+        "10053": {
+            "egg": {"cost": 5000, "from_inc_charm": 500, "to_inc_charm": -500, "name": "臭鸡蛋"},
+            "rose":{"cost": 5000, "from_inc_charm": 1000, "to_inc_charm": 1000, "name": "玫瑰花"},
+            "bomb": {"cost": 10000, "from_inc_charm": 1000, "to_inc_charm": -1000, "name": "炸弹"},
+            "ring": {"cost": 10000, "from_inc_charm": 2000, "to_inc_charm": 2000, "name": "钻戒"}
+        },
+        
+        
+        "10101": {
+            "egg": {"cost": 10, "from_inc_charm": 1, "to_inc_charm": -1, "name": "臭鸡蛋"},
+            "rose":{"cost": 10, "from_inc_charm": 2, "to_inc_charm": 2, "name": "玫瑰花"},
+            "bomb": {"cost": 50, "from_inc_charm": 5, "to_inc_charm": -5, "name": "炸弹"},
+            "ring": {"cost": 50, "from_inc_charm": 10, "to_inc_charm": 10, "name": "钻戒"}
+        },
+        "10102": {
+            "egg": {"cost": 50, "from_inc_charm": 5, "to_inc_charm": -5, "name": "臭鸡蛋"},
+            "rose":{"cost": 50, "from_inc_charm": 10, "to_inc_charm": 10, "name": "玫瑰花"},
+            "bomb": {"cost": 200, "from_inc_charm": 20, "to_inc_charm": -20, "name": "炸弹"},
+            "ring": {"cost": 200, "from_inc_charm": 40, "to_inc_charm": 40, "name": "钻戒"}
+        },
+        "10103": {
+            "egg": {"cost": 300, "from_inc_charm": 30, "to_inc_charm": -30, "name": "臭鸡蛋"},
+            "rose":{"cost": 300, "from_inc_charm": 60, "to_inc_charm": 60, "name": "玫瑰花"},
+            "bomb": {"cost": 1000, "from_inc_charm": 100, "to_inc_charm": -100, "name": "炸弹"},
+            "ring": {"cost": 1000, "from_inc_charm": 200, "to_inc_charm": 200, "name": "钻戒"}
+        },
+        "10104": {
+            "egg": {"cost": 2000, "from_inc_charm": 200, "to_inc_charm": -200, "name": "臭鸡蛋"},
+            "rose":{"cost": 2000, "from_inc_charm": 400, "to_inc_charm": 400, "name": "玫瑰花"},
+            "bomb": {"cost": 5000, "from_inc_charm": 500, "to_inc_charm": -500, "name": "炸弹"},
+            "ring": {"cost": 5000, "from_inc_charm": 1000, "to_inc_charm": 1000, "name": "钻戒"}
+        },
+
+
+        
+        "10151": {
+            "egg": {"cost": 5000, "from_inc_charm": 500, "to_inc_charm": -500, "name": "臭鸡蛋"},
+            "rose":{"cost": 5000, "from_inc_charm": 1000, "to_inc_charm": 1000, "name": "玫瑰花"},
+            "bomb": {"cost": 10000, "from_inc_charm": 1000, "to_inc_charm": -1000, "name": "炸弹"},
+            "ring": {"cost": 10000, "from_inc_charm": 2000, "to_inc_charm": 2000, "name": "钻戒"}
+        },
+        "10152": {
+            "egg": {"cost": 5000, "from_inc_charm": 500, "to_inc_charm": -500, "name": "臭鸡蛋"},
+            "rose":{"cost": 5000, "from_inc_charm": 1000, "to_inc_charm": 1000, "name": "玫瑰花"},
+            "bomb": {"cost": 10000, "from_inc_charm": 1000, "to_inc_charm": -1000, "name": "炸弹"},
+            "ring": {"cost": 10000, "from_inc_charm": 2000, "to_inc_charm": 2000, "name": "钻戒"}
+        },
+        "10153": {
+            "egg": {"cost": 5000, "from_inc_charm": 500, "to_inc_charm": -500, "name": "臭鸡蛋"},
+            "rose":{"cost": 5000, "from_inc_charm": 1000, "to_inc_charm": 1000, "name": "玫瑰花"},
+            "bomb": {"cost": 10000, "from_inc_charm": 1000, "to_inc_charm": -1000, "name": "炸弹"},
+            "ring": {"cost": 10000, "from_inc_charm": 2000, "to_inc_charm": 2000, "name": "钻戒"}
+        }
+    },
+
+    "activity": {
+        "comment": "活动时间",
+         "start_time": "2015-06-17 00:00:00.0",
+         "end_time": "2015-08-26 23:59:59.0",
+         "multi_rooms": {
+            "comment": "每个房间对应的倍数",
+            "10001": 1, "10002": 1, "10003": 1, "10004": 1,
+            "10051": 1, "10052": 1, "10053": 1,
+            "10101": 1, "10102": 1, "10103": 1, "10104": 1,
+            "10151": 1, "10152": 1, "10153": 1
+        }
+    }
+}

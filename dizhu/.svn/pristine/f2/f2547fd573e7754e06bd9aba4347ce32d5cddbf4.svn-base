@@ -1,0 +1,100 @@
+一、比赛列表(hall_info协议修改)
+sessions中 ,比赛房间rooms,添加快速开始字段 ‘quickSignin’:0/1
+数据结构：sessions[i].rooms[i].quickSignin : 0/1
+
+二、快速开始报名流程
+
+1、添加参赛券不够，报名失败协议 todo_task
+{
+    "cmd": "todo_tasks",
+    "result": {
+        "gameId": 6,
+        "userId": 104031771,
+        "tasks": [
+            {
+                "action": "ddz_pop_quicksignin_tip",
+                "params": {
+					"sub_action":{
+						"action":"ddz_quicksignin", 
+						"params":{
+							"roomId":10001,
+							"isTip":0
+						}
+					}, 
+					"title":'报名失败',
+					"messages":'您的参赛券不足啦~使用50金币报名入场吧~\n(提示：每日登陆赠送20张参赛券喔！)',
+                }
+            }
+        ]
+    }
+}
+2、报名协议修改 旧的
+{
+    'cmd': 'm_signin',
+    'params': {
+        'userId': userId,
+        'gameId': gameId,
+        'clientId': hall.AccountInfo.clientId,
+        'roomId': roomId,
+        'ddzver': ddz.DdzVersionConfig.getConfig()['version'],
+        'feeIndex': feeIndex || 0,   					# fee:[{参赛券}{金币}]
+    }
+};
+
+3、 新的快速报名
+{
+    'cmd': 'm_quicksignin',
+    'params': {
+        'userId': userId,
+        'gameId': gameId,
+        'clientId': hall.AccountInfo.clientId,
+        'roomId': roomId,
+        'ddzver': ddz.DdzVersionConfig.getConfig()['version'],
+        'isTip': 0/1
+    }
+};
+
+
+十二、限时免费 折扣 火爆标签
+sessions中 ,比赛房间rooms,添加以下字段
+{
+	"countdownTime": 600,
+    "quickSignin": 0,				// 快开
+	"leftTag" : "hot",				// 火爆标签
+	"signupFee": {
+		"desc": "6000金币",
+		"saledesc" : "12000金币",	// 折扣前的费用
+		"sale": 0					// 几折 0：限时免费 1-9：折扣数 其他
+	},
+	"secondAlarmTime": 60,
+	"avatorDefault": "",
+	"least": 0,
+	"nameurl": "http://ddz.dl.tuyoo.com/cdn37/dizhu/room/imgs/room_name_hlxsc.png",
+	"matchCondition": {
+		"type": "datetime",
+		"bottom": "14:24",
+		"top": "03月25日"
+	},
+	"entry": "报名费:6000金币",
+	"avator": "http://ddz.dl.tuyoo.com/cdn37/dizhu/room/imgs/matchlist_200yuanliwu_new3.png",
+	"config": 4,
+	"id": 6997,
+	"condition": "14:24",
+	"name": "200元礼物赛",
+	"signupState": null,
+	"matchType": "TIMING",
+	"peopleNumber": "0",
+	"matchStamp": 1490423040,
+	"nowStamp": 1490422857
+},
+
+十一、踢出逻辑
+{
+	"cmd":"game_call",
+	"result":{
+		chipState:{
+			code:0/-1/-2, // 0:牌桌内金币充足   -1:牌桌内金币不够  + 牌局外金币足够   -2:牌桌内金币不够 + 牌桌外金币也不够
+			tip:"点击继续，将自动将您桌面金币补充至8000。继续努力吧！"
+		}
+	}
+}

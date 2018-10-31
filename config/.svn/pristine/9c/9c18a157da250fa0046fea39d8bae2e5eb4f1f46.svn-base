@@ -1,0 +1,68 @@
+{
+    "__desc1__": "backwash_interval-单位秒,回流用户判断,超过这个时间算回流", 
+    "__desc2__": "jump_to_ai_room_chip-低于该值跳转到ai场; jump_to_normal_room_chip-低于该值以 jump_to_normal_room_rate 概率跳转到普通场",
+    "backwash_interval":108000,
+    "xuezhan_room_free":
+    {
+        "normal_room_id": [201100],
+        "ai_room_id": [201108],
+        "jump_to_ai_room_chip": 1000,
+        "jump_to_normal_room_chip": 8000,
+        "jump_to_normal_room_rate": 70
+    },
+    "xuezhan_room_junior":
+    {
+        "normal_room_id": [201101],
+        "ai_room_id": [201109],
+        "jump_to_ai_room_chip": 1000,
+        "jump_to_normal_room_chip": 8000,
+        "jump_to_normal_room_rate": 70
+    },
+    "xueliu_room_free":
+    {
+        "normal_room_id": [201200],
+        "ai_room_id": [201208],
+        "jump_to_ai_room_chip": 1000,
+        "jump_to_normal_room_chip": 8000,
+        "jump_to_normal_room_rate": 70
+    },
+    "xueliu_room_junior":
+    {
+        "normal_room_id": [201201],
+        "ai_room_id": [201209],
+        "jump_to_ai_room_chip": 1000,
+        "jump_to_normal_room_chip": 8000,
+        "jump_to_normal_room_rate": 70
+    },
+    "ai_room_data":
+    {
+        "201108":
+        {
+          "room_id" : 201108,
+          "chip_value" : 1000,
+          "chip_random" : 2500,
+          "random_value" : 30
+        },
+        "201208":
+        {
+          "room_id" : 201208,
+          "chip_value" : 1000,
+          "chip_random" : 2500,
+          "random_value" : 30
+        },
+        "201109":
+        {
+          "room_id" : 201109,
+          "chip_value" : 2500,
+          "chip_random" : 8000,
+          "random_value" : 30
+        },
+        "201209":
+        {
+          "room_id" : 201209,
+          "chip_value" : 2500,
+          "chip_random" : 8000,
+          "random_value" : 30
+        }
+    }
+}

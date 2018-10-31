@@ -1,0 +1,24 @@
+{
+    "templates": {
+        "default": {
+            "firstRechargeReceive": {
+                "desc": "",
+                "payOrder": {
+                    "shelves": [
+                        "lessbuychip"
+                    ],
+                    "priceDiamond": {
+                        "count": 300,
+                        "minCount": 300,
+                        "maxCount": -1
+                    }
+                },
+                "pic": "${http_download}/hall/popwnd/imgs/popwnd_pic_newFirstRecharge_20160809.png",
+                "titlePic": "${http_download}/hall/popwnd/imgs/popwnd_titlepic_newFirstRecharge_20160809.png",
+                "cbmpDesc": "firstRechargeReceive",
+                "subActionText": "领取礼包",
+                "typeId": "todotask.template.recommendBuy"
+            }
+        }
+    }
+}

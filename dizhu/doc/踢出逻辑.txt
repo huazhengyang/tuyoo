@@ -1,0 +1,26 @@
+房间配置踢出值：
+{
+    "kickOutCoin": 730
+}
+
+game_win 座位信息增加:
+isKickOutCoin 0表示不踢出， 1表示踢出
+
+game_win 中返回：
+kickOutCoinTip 点击继续的提醒
+
+1、新需求
+添加一个协议，用于手动弹出转运礼包
+
+前端 -> 后端：
+{
+	'cmd':'dizhu',
+	'params':{
+		action:'lucky_packs',
+		roomId:''
+	}
+}
+
+后端->前端：
+
+转运礼包的todo_tasks

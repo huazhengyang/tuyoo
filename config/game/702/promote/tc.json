@@ -1,0 +1,36 @@
+{
+ "templates"  : [
+  {
+   "positions"  : [
+    {
+     "promotes"   : [
+      {
+       "promotionId": 702031501,
+       "conditions" : [ ]
+      }
+     ],
+     "pos"        : 1
+    }
+   ],
+   "name"       : "guangdong_v3.901_juyouqianjiang"
+  }
+ ],
+ "promotions" : [
+  {
+   "promotionId": 702031501,
+   "animate"    : 1,
+   "todotasks"  : [
+    {
+     "productPic" : "http://df.dl.shediao.com/cdn37/yunnan/icon/ztmj_fangka_0311.png",
+     "typeId"     : "todotask.buyFangka",
+     "productId"  : "qianjiang_huanghuang_002",
+     "info"       : "6元购买3张房卡"
+    }
+   ],
+   "redPoint"   : [ ],
+   "displayName": "晃晃IOS提审弹窗",
+   "url"        : "${http_download}/yunnan/icon/ztmj_shangcheng_0313.png",
+   "defaultRes" : ""
+  }
+ ]
+}

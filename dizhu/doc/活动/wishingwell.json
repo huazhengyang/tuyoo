@@ -1,0 +1,119 @@
+"activity_ddz_wishingwell_0519":{
+    "id"                                       : "activity_ddz_wishingwell_0519",
+    "des"                                      : "许愿池",
+    "moduleId"                                 : "wishingwell",
+    "typeid"                                   : 6011,
+    "name"                                     : "许愿池",
+    "server_config"                            : {
+       "start"                                 : "2016-05-19 00:00:00",
+       "end"                                   : "2016-05-26 23:59:59"
+    },
+    "config"                                   : {
+        "putButtonLife":{ // 投入按钮的有效期
+            "start": "2016-05-19 00:00:00",
+            "end": "2016-05-25 23:59:59"
+        },
+        "led": "\\${nickname}玩家在许愿池中被幸运女神砸中，获得了5倍金币奖励", // LED发送的格式
+
+        "puttingAnimationUrl":"", // 投入动画图片
+        "gettingAnimationUrl":"", // 领取动画图片
+
+        "putButtonDisabledUrl": "", // 投入按钮disabled状态图片
+        "getButtonDisabledUrl": "",
+
+        "backgroundUrl":"",
+        "putButtonUrl":"",
+        "getButtonUrl":"", 
+        "crossbandUrl":"", // 提示语的背景横条图片
+
+        "puttingSuccess":"愿望马上就要实现啦，记得来领哟~", // Tips：投入成功提示语
+        "gettingSuccess":"恭喜您愿望达成，获得\\${assets_reward_desc}", // Tips：领取成功提示语
+        "nothingPoolItemError":"您已经完成活动", // Tips：已经领取完了pool中的所有项，没有下一项
+        "countingDownError":"着急愿望就不灵啦，一会儿再来吧~",// Tips：正在计时提示语
+        "expensesNotEnoughError":"您的金币不足，买点金币再来许愿吧~",// Tips：花费的资源不足提示语
+        "wishingOverError":"许愿池关闭啦，下次早点来哦！",// Tips：活动已过期
+
+        "mail": "恭喜您许愿池获得收益\\${assets_reward_desc}",
+        "promptFontSize":22, // Label：提示语字号
+        "promptTextPutting": [ // Label：投入阶段的提示语
+            [ {"text":"投入"},
+              {"text":"\\${assets_expenses_desc}", "color":16711680}, // color为十六进制转换 0xff0000
+              {"text":"进行祈福，"},
+              {"text":"\\${duration_desc}秒", "color":16711680},
+              {"text":"后可领取"},
+              {"text":"\\${promptdesc}", "color":16711680}
+            ]
+        ],
+        "promptTextCountingDown": [ // Label：计时阶段的提示语
+            [ {"text":"您向许愿池投入了"},
+              {"text":"\\${assets_expenses_desc}", "color":16711680},
+              {"text":"，"},
+              {"text":"00:00:00", "color":16711680},
+              {"text":"后可领取"},
+              {"text":"\\${promptdesc}", "color":16711680}
+            ]
+        ],
+        "promptTextGetting": [ // Label：领取阶段的提示语
+            [ {"text":"您向许愿池投入了"},
+              {"text":"\\${assets_expenses_desc}", "color":16711680 }, 
+              {"text":"，"},
+              {"text":"可以领取"},
+              {"text":"\\${promptdesc}", "color":16711680},
+              {"text":"啦"}
+            ]
+        ],
+
+        "pool": [
+           {"expenses":{ "itemId":"user:chip", "count":100, "desc":"100金币" }, // 投入的花费
+             // 领取奖励：固定奖励数量
+             // promptdesc是提示语的数量范围描述
+             // desc是提示语的获得数量描述
+             "reward":{"type":"fixed", "itemId":"user:chip", "count":200, "desc":"200金币", "promptdesc":"100~500金币"}, 
+             // LED的触发数量最小值
+             "ledTrigger":450, 
+             // 领取需要等待的时间
+             "duration":0,
+             // 时间描述
+             "durationDesc":"5分钟"},
+
+
+           {"expenses":{ "itemId":"user:chip", "count":100, "desc":"100金币" },
+             // 领取奖励：范围随机奖励数量
+             // promptdesc需要配置为提示语中显示的随机奖励数量范围，若不配置则使用bottom和top替换到desc中
+             // desc是获得的奖励数量描述
+             // bottom 随机下限
+             // top 随机上限
+             // avg 随机分水岭
+             // lteprob:在 bottom<->avg直接的范围随机的概率
+             "reward":{"type":"random", "itemId":"user:chip", "desc":"\\${count}金币", "bottom":100, "avg":200, "top":500, "lteprob":0.75}, 
+             "ledTrigger":450, "duration":0, "durationDesc":"5分钟"},
+
+           {"expenses":{ "itemId":"user:chip", "count":500, "desc":"500金币" },
+             "reward":{"type":"random", "itemId":"user:chip", "desc":"\\${count}金币", "promptdesc":"500~2500金币", "bottom":500, "avg":700, "top":2500, "lteprob":0.9}, 
+             "ledTrigger":2200, "duration":5},
+
+           {"expenses":{ "itemId":"user:chip", "count":1000, "desc":"1000金币" },
+             "reward":{"type":"random", "itemId":"user:chip", "desc":"\\${count}金币", "bottom":1000, "avg":1300, "top":5000, "lteprob":0.925}, "ledTrigger":4500, "duration":30},
+
+           {"expenses":{ "itemId":"user:chip", "count":2000, "desc":"2000金币" },
+             "reward":{"type":"random", "itemId":"user:chip", "desc":"\\${count}金币", "promptdesc":"2000~10000金币", "bottom":2000, "avg":2400, "top":10000, "lteprob":0.95}, 
+             "ledTrigger":9000, "duration":600, 
+             // 时间描述，可以自动生成
+             "durationDesc":"5分钟"},
+
+           {"expenses":{ "itemId":"user:chip", "count":3000, "desc":"3000金币" },
+             "reward":{"type":"random", "itemId":"user:chip", "desc":"\\${count}金币", "bottom":3000, "avg":3600, "top":15000, "lteprob":0.95}, "ledTrigger":14000, "duration":3600},
+
+           {"expenses":{ "itemId":"user:chip", "count":5000, "desc":"5000金币" },
+             "reward":{"type":"random", "itemId":"user:chip", "desc":"\\${count}金币", "promptdesc":"5000~25000金币", "bottom":5000, "avg":6000, "top":25000, "lteprob":0.95}, 
+             "ledTrigger":20000, "duration":18000},
+
+           {"expenses":{ "itemId":"user:chip", "count":10000, "desc":"10000金币" },
+             "reward":{"type":"random", "itemId":"user:chip", "desc":"\\${count}金币", "bottom":10000, "avg":11000, "top":50000, "lteprob":0.975}, "ledTrigger":45000, "duration":43200},
+
+           {"expenses":{ "itemId":"user:chip", "count":20000, "desc":"20000金币" },
+             "reward":{"type":"random", "itemId":"user:chip", "desc":"\\${count}金币", "promptdesc":"20000~100000金币", "bottom":20000, "avg":22000, "top":100000, "lteprob":0.975}, 
+             "ledTrigger":90000, "duration":86400}
+        ]
+    }
+  }

@@ -1,0 +1,50 @@
+{
+    "handlers": [
+        {
+            "name": "lead_to_pay_v1",
+            "module": "gamble.plugins.lead_to_pay_v1",
+            "class": "LeadToPay",
+            "handle": "event_handle"
+        },
+        {
+            "name": "GameBiEventReporter",
+            "module": "tractor.plugins.game_bi_event_reporter",
+            "object": "GameBiEventReporter",
+            "handle": "event_handle"
+        },
+        {
+            "name": "notify",
+            "module": "gamble.plugins.notify",
+            "class": "Notify",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_pay",
+            "module": "gamble.plugins.table_pay",
+            "class": "TablePay",
+            "handle": "event_handle"
+        },
+        {
+            "name": "misc",
+            "module": "tractor.plugins.misc",
+            "class": "Misc",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_chat",
+            "module": "tractor.plugins.table_chat",
+            "class": "TableChat",
+            "handle": "event_handle"
+        },
+        {
+            "name": "dtg",
+            "module": "tractor.plugins.dtg.dtg",
+            "object": "Dtg",
+            "handle": "event_handle"
+        }
+    ],
+    "event_seq": {
+        "EV_PLAYER_DTG_BALANCE": ["...", "GameBiEventReporter"],
+        "game dtg_get_free_energy": ["...", "GameBiEventReporter"]
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "templates":{
+        "tuyoo_default":{
+			"default": {
+				"erweima": "${http_download}/dizhu/share/share_erweima_tuYooOfficial.png",
+				"shareIds": {
+					"weixin": 6100,
+					"timeline": 6100
+				}
+			}
+    	},
+		"tuyoo_zyydefault":{
+			"default": {
+				"erweima": "${http_download}/hall/ads/web_zyy_share_erweima.png",
+				"shareIds": {
+					"weixin": 6100,
+					"timeline": 6100
+				}
+			}
+    	},
+		"huawei_default":{
+			"default":{
+				"erweima":"${http_download}/dizhu/share/sharehuawei.png",
+				"shareIds":{
+					"weixin":6100,
+					"timeline":6100
+				}
+			},
+            "winstreak": {
+                "erweima": "${http_download}/dizhu/share/sharehuawei.png",
+                "shareIds": {
+                    "weixin": 6102,
+                    "timeline": 6102
+                },
+                "rewardInfo": {
+                    "itemId": "item:2003",
+                    "desc": "每日首次炫耀，免费送您记1天牌器"
+                }
+            },
+            "gamewin": {
+                "erweima": "${http_download}/dizhu/share/sharehuawei.png",
+                "shareIds": {
+                    "weixin": 6103,
+                    "timeline": 6103
+                },
+                "rewardInfo": {
+                    "itemId": "item:2003",
+                    "desc": "每日首次炫耀，免费送您1天记牌器"
+                }
+            },
+            "arena": {
+                "erweima": "${http_download}/dizhu/share/sharehuawei.png",
+                "shareIds": {
+                    "weixin": 6104,
+                    "timeline": 6104
+                },
+                "rewardInfo": {
+                    "itemId": "item:3129",
+                    "desc": "每日首次炫耀，免费送您3元话费赛门票（1张）"
+                }
+            },
+            "group": {
+                "erweima": "${http_download}/dizhu/share/sharehuawei.png",
+                "shareIds": {
+                    "weixin": 6105,
+                    "timeline": 6105
+                },
+                "rewardInfo": {
+                    "itemId": "item:1008",
+                    "desc": "每日首次炫耀，免费送您英雄帖（1张）"
+                }
+            }
+    	},
+		"qq_default":{
+			"default":{
+				"erweima":"${http_download}/dizhu/share/shareqq.png",
+				"shareIds":{
+					"weixin":6100,
+					"timeline":6100
+				}
+            },
+            "winstreak": {
+                "erweima": "${http_download}/dizhu/share/shareqq.png",
+                "shareIds": {
+                    "weixin": 6102,
+                    "timeline": 6102
+                },
+                "rewardInfo": {
+                    "itemId": "item:2003",
+                    "desc": "每日首次炫耀，免费送您1天记牌器"
+                }
+            },
+            "gamewin": {
+                "erweima": "${http_download}/dizhu/share/shareqq.png",
+                "shareIds": {
+                    "weixin": 6103,
+                    "timeline": 6103
+                },
+                "rewardInfo": {
+                    "itemId": "item:2003",
+                    "desc": "每日首次炫耀，免费送您1天记牌器"
+                }
+            },
+            "arena": {
+                "erweima": "${http_download}/dizhu/share/shareqq.png",
+                "shareIds": {
+                    "weixin": 6104,
+                    "timeline": 6104
+                },
+                "rewardInfo": {
+                    "itemId": "item:3129",
+                    "desc": "每日首次炫耀，免费送您3元话费赛门票（1张）"
+                }
+            },
+            "group": {
+                "erweima": "${http_download}/dizhu/share/shareqq.png",
+                "shareIds": {
+                    "weixin": 6105,
+                    "timeline": 6105
+                },
+                "rewardInfo": {
+                    "itemId": "item:1008",
+                    "desc": "每日首次炫耀，免费送您英雄帖（1张）"
+                }
+            }
+    	},
+		"oppo_default":{
+			"default":{
+				"erweima":"${http_download}/dizhu/share/shareoppo.png",
+				"shareIds":{
+					"weixin":6100,
+					"timeline":6100
+				}
+			}
+    	},
+		"vivo_default":{
+			"default":{
+				"erweima":"${http_download}/dizhu/share/sharevivo.png",
+				"shareIds":{
+					"weixin":6100,
+					"timeline":6100
+				}
+			}
+    	},
+		"toyoo_new": {
+            "default": {
+                "erweima": "${http_download}/dizhu/share/share_erweima_tuYooOfficial.png",
+                "shareIds": {
+                    "weixin": 6100,
+                    "timeline": 6100
+                }
+            },
+            "winstreak": {
+                "erweima": "${http_download}/dizhu/share/share_erweima_tuYooOfficial.png",
+                "shareIds": {
+                    "weixin": 6102,
+                    "timeline": 6102
+                },
+                "rewardInfo": {
+                    "itemId": "item:2003",
+                    "desc": "每日首次炫耀，免费送您1天记牌器"
+                }
+            },
+            "gamewin": {
+                "erweima": "${http_download}/dizhu/share/share_erweima_tuYooOfficial.png",
+                "shareIds": {
+                    "weixin": 6103,
+                    "timeline": 6103
+                },
+                "rewardInfo": {
+                    "itemId": "item:2003",
+                    "desc": "每日首次炫耀，免费送您1天记牌器"
+                }
+            },
+            "arena": {
+                "erweima": "${http_download}/dizhu/share/share_erweima_tuYooOfficial.png",
+                "shareIds": {
+                    "weixin": 6104,
+                    "timeline": 6104
+                },
+                "rewardInfo": {
+                    "itemId": "item:3129",
+                    "desc": "每日首次炫耀，免费送您3元话费赛门票（1张）"
+                }
+            },
+            "group": {
+                "erweima": "${http_download}/dizhu/share/share_erweima_tuYooOfficial.png",
+                "shareIds": {
+                    "weixin": 6105,
+                    "timeline": 6105
+                },
+                "rewardInfo": {
+                    "itemId": "item:1008",
+                    "desc": "每日首次炫耀，免费送您英雄帖（1张）"
+                }
+            }
+        }
+    }
+}

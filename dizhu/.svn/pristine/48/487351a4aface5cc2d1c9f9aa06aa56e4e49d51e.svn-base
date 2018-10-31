@@ -1,0 +1,94 @@
+# -*- coding:utf-8 -*-
+import json
+
+import poker.util.timestamp as pktimestamp
+from dizhu.entity import dizhu_util
+from poker.entity.biz.content import TYContentItem
+from poker.entity.configure import configure
+from poker.entity.dao import gamedata
+from dizhu.entity.dizhuconf import DIZHU_GAMEID
+
+DAYSECONDS = 86400
+
+class SignInDeskData():
+
+    def __init__(self, userId):
+        self.userId = userId
+        self.signInList = None
+
+    def decodeFromDict(self, d):
+        self.signInList = d.get('signInList', [])
+        return self
+
+    def toDict(self):
+        return {
+            'signInList': self.signInList
+        }
+
+    def loadData(self):
+        hasReceive = False
+        jStr = gamedata.getGameAttr(self.userId, DIZHU_GAMEID, 'signInDesk')
+        if not jStr:
+            return self.decodeFromDict({}), hasReceive
+        signInData = self.decodeFromDict(json.loads(jStr))
+        signInList = signInData.signInList
+        lastSignIn = signInList[-1]
+        now = pktimestamp.formatTimeMs()
+        timeInterval = pktimestamp.getTimeStrDiff(lastSignIn, now) / DAYSECONDS
+        receiveDays = len(signInList)
+        if timeInterval == 0:
+            hasReceive = True
+        elif timeInterval == 1:
+            if receiveDays >= 7:
+                signInData = self.decodeFromDict({})
+        else:
+            signInData = self.decodeFromDict({})
+        return signInData, hasReceive
+
+    def updateSignInList(self):
+        now = pktimestamp.formatTimeMs()
+        self.signInList.append(now)
+        self.saveData()
+
+    def saveData(self):
+        gamedata.setGameAttr(self.userId, DIZHU_GAMEID, 'signInDesk', json.dumps(self.toDict()))
+
+
+def _signInList(userId):
+    state = 0
+    signInDay = 0
+    signInData, hasReceive = SignInDeskData(userId).loadData()
+    if not hasReceive:
+        state = 1
+        signInList = signInData.signInList
+        signInDay = len(signInList) + 1
+
+    conf = configure.getGameJson(DIZHU_GAMEID, 'signin', {})
+    rewardList = conf.get('rewardList', {})
+    return {
+        'state': state,
+        'signInDay': signInDay,
+        'rewardList': rewardList
+    }
+
+
+def _sendRewards(userId, day, typeId):
+    signInData, hasReceive = SignInDeskData(userId).loadData()
+    if hasReceive:
+        return 0
+    conf = configure.getGameJson(DIZHU_GAMEID, 'signin', {})
+    rewardList = conf.get('rewardList', {})
+    rewards = []
+    for reward in rewardList:
+        if reward.get('day') == day:
+            rewards = reward.get('rewards')
+    if rewards:
+        if typeId:
+            for reward in rewards:
+                reward['count'] *= 2
+        contentItems = TYContentItem.decodeList(rewards)
+        dizhu_util.sendRewardItems(userId, contentItems, None, 'SIGN_IN_DESK_REWARD', 0)
+        signInData.updateSignInList()
+        return 1
+    return 0
+

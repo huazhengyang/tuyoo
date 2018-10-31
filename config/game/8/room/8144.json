@@ -1,0 +1,115 @@
+{
+    "autoQueue": 0.0, 
+    "couponActCfg": {
+        "add": 70, 
+        "memberAdd": 0, 
+        "timeSegs": [
+            [
+                [
+                    0, 
+                    0
+                ], 
+                [
+                    24, 
+                    0
+                ]
+            ]
+        ]
+    }, 
+    "glory_winner": 0, 
+    "icon": {
+        "pc": "icon_flag_must.png", 
+        "phone": "room_new.png"
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            200000, 
+            20000, 
+            -20000
+        ], 
+        "chicken": [
+            200000, 
+            20000, 
+            -20000
+        ], 
+        "doubleAce": [
+            200000, 
+            40000, 
+            40000
+        ], 
+        "eggs": [
+            200000, 
+            20000, 
+            -20000
+        ], 
+        "fishing": [
+            200000, 
+            20000, 
+            -20000
+        ], 
+        "ring": [
+            200000, 
+            40000, 
+            40000
+        ], 
+        "rose": [
+            200000, 
+            40000, 
+            40000
+        ], 
+        "thumb": [
+            200000, 
+            40000, 
+            40000
+        ]
+    }, 
+    "isMasterRoom": 1.0, 
+    "matchConf": {}, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 99900000000, 
+    "minCoin": 100000000, 
+    "minCoinQS": 99900000000, 
+    "minTableCount": 4, 
+    "name": "迪拜", 
+    "playMode": "classic", 
+    "queueVipLevel": 6.0, 
+    "rewardDealerChip": 200000, 
+    "roomID": 8144, 
+    "sortId": 21, 
+    "tableConf": {
+        "autoGrad": 0, 
+        "bb": 1000000, 
+        "big_pot": 10000000, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 100000000, 
+        "buyinConf": "1/2/3/4/5/6/7/8/9/10", 
+        "call": 1, 
+        "callChip": -1, 
+        "chat_require_vip_level": 8, 
+        "commission": 0.03, 
+        "fee": 0, 
+        "flip_card_game": {
+            "bet": 10000, 
+            "loading_show": 0, 
+            "show": 1
+        }, 
+        "get_insurance_info": 0.0, 
+        "inner_game": 0, 
+        "isSitBigBlind": 0.0, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "max_bigpot_fee": 10000000, 
+        "min_players": 2, 
+        "nameForPc": "迪拜", 
+        "optime": 11, 
+        "pay_factor": 1.0, 
+        "sb": 500000, 
+        "start_card": 2, 
+        "tname": "迪拜", 
+        "win_exp": 2
+    }, 
+    "typeName": "vip", 
+    "visible": 0
+}

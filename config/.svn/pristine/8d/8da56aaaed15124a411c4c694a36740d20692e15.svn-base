@@ -1,0 +1,45 @@
+{
+	"templates":{
+		"tishen":{
+			"version.tishen.switch":5.19,
+			"share.switch": 1,
+			"force.guide.switch": 1,
+			"chip.room.switch": 1,
+			"game.club.switch": 0,
+			"daily.invite.switch" :1,
+			"ios.recharge.switch": 1,
+			"upload.friendRank.switch": 1,
+			"endgame.room.switch": 1,
+			"majiang.icon.switch": 1,
+			"buyu.icon.switch": 1,
+			"friend.icon.switch": 1,
+			"moreGame.icon.switch": 1
+		},
+        "shuban":{
+			"share.switch": 1,
+			"force.guide.switch": 1,
+			"chip.room.switch": 1,
+			"game.club.switch": 0,
+			"daily.invite.switch" :1,
+			"ios.recharge.switch": 0,
+			"upload.friendRank.switch": 0,
+			"endgame.room.switch": 0
+		},
+		"default" : {
+			"version.tishen.switch":5.20,
+			"share.switch":1,
+			"force.guide.switch":1,
+			"chip.room.switch": 1,
+			"game.club.switch": 0,
+			"daily.invite.switch" :1,
+			"ios.recharge.switch": 1,
+			"upload.friendRank.switch": 0,
+			"endgame.room.switch": 1,
+			"hall.endgame.switch": 0,
+			"majiang.icon.switch": 1,
+			"buyu.icon.switch": 1,
+			"friend.icon.switch": 1,
+			"moreGame.icon.switch": 1
+	    }
+	}
+}

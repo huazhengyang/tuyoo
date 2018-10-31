@@ -1,0 +1,119 @@
+{
+    "actionId":{
+        "1":{
+            "orders":1,
+            "displayTime":1510243200,
+            "beginTime":1511971200,
+            "endTime":1514563200,
+            "dailyRefresh":0,
+            "actionName":"全民雀神争霸赛",
+            "tipIcon":"热门",
+            "actionCenter":{
+                "switch":1,
+                "actionDate":"2017-11-07 ~ 2017-11-13",
+                "actionIntroduce":"每日与游戏好友、基友、师徒、情侣组队（不含战友、SNS好友）一起参与对局任完成任务即可获得好礼！",
+                "taskId":{
+                    "101":{
+                        "taskDesc":"血流成河对局$次",
+                        "taskCount":1,
+                        "jumpUrlOrId":"some url or id",
+                        "autoReward": 0,
+						"taskFinishEvent":1001,
+                        "reward":[
+                            {
+                                "itemId":"item:10001",
+                                "count":2
+                            },
+                            {
+                                "itemId":"item:10002",
+                                "count":2
+                            }
+                        ]
+                    },
+                    "102":{
+                        "taskDesc":"血流成河对局$次",
+                        "taskCount":2,
+                        "jumpUrlOrId":"some url or id",
+                        "autoReward": 0,
+						"taskFinishEvent":1001,
+                        "reward":[
+                            {
+                                "itemId":"item:10003",
+                                "count":2
+                            },
+                            {
+                                "itemId":"item:10004",
+                                "count":2
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "2":{
+            "orders":2,
+            "displayTime":1510243200,
+            "beginTime":1511971200,
+            "endTime":1514563200,
+            "dailyRefresh":0,
+            "actionName":"全民雀神争霸赛",
+            "tipIcon":"热门",
+            "actionCenter":{
+                "switch":1,
+                "actionDate":"2017-11-07 ~ 2017-11-13",
+                "actionIntroduce":"每日与游戏好友、基友、师徒、情侣组队（不含战友、SNS好友）一起参与对局任完成任务即可获得好礼！",
+                "taskId":{
+                    "201":{
+                        "taskDesc":"血流成河胜局$次",
+                        "taskCount":1,
+                        "jumpUrlOrId":"some url or id",
+                        "autoReward": 0,
+						"taskFinishEvent":1002,
+                        "reward":[
+                            {
+                                "itemId":"item:10001",
+                                "count":2
+                            },
+                            {
+                                "itemId":"item:10002",
+                                "count":2
+                            }
+                        ]
+                    },
+                    "202":{
+                        "taskDesc":"血流成河胜局$次",
+                        "taskCount":2,
+                        "jumpUrlOrId":"some url or id",
+                        "autoReward": 0,
+						"taskFinishEvent":1002,
+                        "reward":[
+                            {
+                                "itemId":"item:10001",
+                                "count":2
+                            },
+                            {
+                                "itemId":"item:10002",
+                                "count":2
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "3":{
+            "orders":3,
+            "displayTime":1511928000,
+            "beginTime":1514626200,
+            "endTime":1514627200,
+            "dailyRefresh":0,
+            "actionName":"全民雀神争霸赛",
+            "tipIcon":"热门",
+            "actionCenter":{
+                "switch":1,
+                "picUrl":"",
+                "jumpUrlOrId":""
+            }
+        }
+
+    }
+}

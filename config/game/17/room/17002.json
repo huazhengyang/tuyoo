@@ -1,0 +1,37 @@
+{
+  "buyinchip" : 0,
+  "dashifenLevel" : 0,
+  "dummyUserCount" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 0,
+  "maxCoin" : -1,
+  "maxCoinQS" : 20000,
+  "minCoin" : 4000,
+  "minCoinQS" : 4000,
+  "name" : "威海高手场",
+  "openAutoChat" : 0,
+  "openIpLimit" : 0,
+  "playMode" : "weihai",
+  "robotUserCallUpTime" : 2,
+  "robotUserMaxCount" : -1,
+  "robotUserOpTime" : [
+    2,
+    3
+  ],
+  "roomFee" : 800,
+  "tableConf" : {
+    "autoOutCard" : 0,
+    "baoHuangScore" : 2,
+    "baseChip" : 1000,
+    "dengJiTimeout" : 10,
+    "guardShowTimeout" : 5,
+    "kickTimeout" : 5,
+    "maxSeatN" : 5,
+    "niuTimeout" : 5,
+    "playTimeout" : 10,
+    "qiangDuTimeout" : 5,
+    "zaoFanTimeout" : 5
+  },
+  "tableType" : "normal",
+  "typeName" : "normal"
+}

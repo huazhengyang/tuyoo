@@ -1,0 +1,21 @@
+{
+	"minCoin": 60000,
+	"minCoinQS": 60000,
+	"maxCoin": -1,
+	"maxCoinQS": -1,
+	"baseBet": 2500,
+	"sfee": 5000,
+	"changeCardsFee": 150,
+	"bankerRange": [1, 2, 3, 4],
+	"playerScaleRanges": [[5, 7, 10, 15, 20], [5, 10, 15, 20, 25], [5, 10, 20, 25, 30], [5, 10, 20, 30, 40], [5, 15, 30, 40, 50]],
+	"playerScaleC": [25, 30, 40, 50],
+	"daojuScale": 20,
+	"name": "冲天牛气",
+	"hasrobot": 0,
+	"tableConf": {
+		"maxSeatN": 5
+	},
+	"playMode": 1,
+	"roomType": 3,
+	"typeName": "normal"
+}

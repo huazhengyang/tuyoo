@@ -1,0 +1,102 @@
+{
+    "_comments": [
+        "牌桌活动配置",
+        "type: 活动类型, 目前支持: bigest_card",
+        "reward: 奖励配置, 支持 prop: [id, count]; chip, coupon",
+        "time: 时间段配置, 格式: [开始时间,时长(分钟)]. show: 显示时间, act: 活动时间",
+        "      注意! 时间配置不能跨天. 否则会引起各种奇怪的问题. ",
+        ""
+    ],
+    "conf": [
+        {
+            "type": "big_card",
+            "roomIds": [
+                8121
+            ],
+            "time": [
+            ],
+            "desc": "1、葫芦以上牌型有效\n2、活动整点结算 \n3、同样牌型按照时间排序，先获得者优先获奖",
+            "reward": {
+                "coupon": 0,
+                "chip": 1000000,
+                "props": [
+                ]
+            }
+        },
+        {
+            "type": "big_card",
+            "roomIds": [
+                8122
+            ],
+            "time": [
+            ],
+            "desc": "1、葫芦以上牌型有效\n2、活动整点结算 \n3、同样牌型按照时间排序，先获得者优先获奖",
+            "reward": {
+                "coupon": 0,
+                "chip": 3000000,
+                "props": [
+                ]
+            }
+        },
+        {
+            "type": "big_card",
+            "roomIds": [
+                8123
+            ],
+            "time": [
+            ],
+            "desc": "1、葫芦以上牌型有效\n2、活动整点结算 \n3、同样牌型按照时间排序，先获得者优先获奖",
+            "reward": {
+                "coupon": 0,
+                "chip": 5000000,
+                "props": [
+                ]
+            }
+        },
+        {
+            "type": "big_card",
+            "roomIds": [
+                8124
+            ],
+            "time": [
+            ],
+            "desc": "1、葫芦以上牌型有效\n2、活动整点结算 \n3、同样牌型按照时间排序，先获得者优先获奖",
+            "reward": {
+                "coupon": 0,
+                "chip": 7000000,
+                "props": [
+                ]
+            }
+        },
+        {
+            "type": "big_card",
+            "roomIds": [
+                8125
+            ],
+            "time": [
+            ],
+            "desc": "1、葫芦以上牌型有效\n2、活动整点结算 \n3、同样牌型按照时间排序，先获得者优先获奖",
+            "reward": {
+                "coupon": 0,
+                "chip": 10000000,
+                "props": [
+                ]
+            }
+        },
+        {
+            "type": "big_card",
+            "roomIds": [
+                8126
+            ],
+            "time": [
+            ],
+            "desc": "1、葫芦以上牌型有效\n2、活动整点结算 \n3、同样牌型按照时间排序，先获得者优先获奖",
+            "reward": {
+                "coupon": 0,
+                "chip": 20000000,
+                "props": [
+                ]
+            }
+        }
+    ]
+}

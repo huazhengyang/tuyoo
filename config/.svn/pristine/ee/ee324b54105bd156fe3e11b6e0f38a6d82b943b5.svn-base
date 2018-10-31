@@ -1,0 +1,119 @@
+{
+    "autoQueue": 0, 
+    "dealerCare": {
+        "bOpen": 0, 
+        "rules": []
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            1000, 
+            100, 
+            -100
+        ], 
+        "chicken": [
+            1000, 
+            100, 
+            -100
+        ], 
+        "doubleAce": [
+            1000, 
+            200, 
+            200
+        ], 
+        "eggs": [
+            1000, 
+            100, 
+            -100
+        ], 
+        "fishing": [
+            1000, 
+            100, 
+            -100
+        ], 
+        "ring": [
+            1000, 
+            200, 
+            200
+        ], 
+        "rose": [
+            1000, 
+            200, 
+            200
+        ], 
+        "thumb": [
+            1000, 
+            200, 
+            200
+        ]
+    }, 
+    "jackPotConf": {
+        "activateVipLevel": 0, 
+        "enable": 0, 
+        "lowerLimit": {}, 
+        "playLed": 0
+    }, 
+    "matchConf": {
+        "match_id": "0.0"
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 0, 
+    "minCoin": 50000, 
+    "minCoinQS": 99999999999, 
+    "minTableCount": 1, 
+    "minTriggerLen": 2, 
+    "name": "如 意", 
+    "playMode": "classic", 
+    "roomID": 30025, 
+    "sortId": 1, 
+    "tableConf": {
+        "bb": 2000, 
+        "big_pot": 0, 
+        "bigpot_fee_floor": 300000, 
+        "buyin": 50000, 
+        "buyinConf": "10/20/40/60/80/100/120/140/160/180/200/400/600/800/1000/1200/1400/1600/1800/2000", 
+        "callChip": -1, 
+        "chat_require_vip_level": 0, 
+        "commission": 0.05, 
+        "exchange_cards_bet": 6000, 
+        "exchange_cards_prices": [
+            [
+                2000, 
+                4000, 
+                6000, 
+                -1
+            ]
+        ], 
+        "exchange_cards_prices_type": 1, 
+        "exchange_cards_reset": 0, 
+        "fee": 0, 
+        "flip_card_game": {
+            "bet": 1000, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "is_deceiver": 1, 
+        "maxHandCount": 15, 
+        "maxSeatN": 6, 
+        "max_bigpot_fee": -1, 
+        "min_players": 2, 
+        "optime": 13, 
+        "pay_factor": 1.0, 
+        "pkHandCount": 4, 
+        "prebet": 2000, 
+        "raise_times": [
+            2, 
+            4, 
+            8
+        ], 
+        "sb": 2000, 
+        "seeCardHandCount": 0, 
+        "start_card": 2, 
+        "tag": 2, 
+        "tag_label": "${http_download}/t3card/images/vip_room/tag_label_deceiver.png", 
+        "tname": "如 意"
+    }, 
+    "triggerLen": 6, 
+    "typeName": "vip", 
+    "visible": 1
+}

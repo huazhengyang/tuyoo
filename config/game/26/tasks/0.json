@@ -1,0 +1,919 @@
+{
+    "taskUnits": [
+        {
+            "taskUnitId": "els.task.level",
+            "pools": [
+                {
+                    "tasks": [
+                        {
+                            "count": 1,
+                            "typeId": "els.task.level",
+                            "star": 0,
+                            "name": "1-20关收集40颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "content": {
+                                "startLevel": "1",
+                                "stars": 40,
+                                "endLevel": "20"
+                            },
+                            "kindId": 101,
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.collect",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6018",
+                                        "count": 1
+                                    },
+                                    {
+                                        "itemId": "item:6015",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "1-20关收集40颗星星"
+                        },
+                        {
+                            "count": 1,
+                            "typeId": "els.task.level",
+                            "star": 0,
+                            "name": "21-40关收集40颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "content": {
+                                "startLevel": "21",
+                                "stars": 40,
+                                "endLevel": "40"
+                            },
+                            "kindId": 102,
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.collect",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6014",
+                                        "count": 1
+                                    },
+                                    {
+                                        "itemId": "item:6015",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "21-40关收集40颗星星"
+                        },
+                        {
+                            "count": 1,
+                            "typeId": "els.task.level",
+                            "star": 0,
+                            "name": "41-60关收集45颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "content": {
+                                "startLevel": "41",
+                                "stars": 45,
+                                "endLevel": "60"
+                            },
+                            "kindId": 103,
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.collect",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6013",
+                                        "count": 2
+                                    },
+                                    {
+                                        "itemId": "item:6015",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "41-60关收集45颗星星"
+                        },
+                        {
+                            "count": 1,
+                            "typeId": "els.task.level",
+                            "star": 0,
+                            "name": "61-80关收集45颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "content": {
+                                "startLevel": "61",
+                                "stars": 45,
+                                "endLevel": "80"
+                            },
+                            "kindId": 104,
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.collect",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6016",
+                                        "count": 2
+                                    },
+                                    {
+                                        "itemId": "item:6015",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "61-80关收集45颗星星"
+                        },
+                        {
+                            "count": 1,
+                            "typeId": "els.task.level",
+                            "star": 0,
+                            "name": "81-100关收集50颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "content": {
+                                "startLevel": "81",
+                                "stars": 50,
+                                "endLevel": "100"
+                            },
+                            "kindId": 105,
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.collect",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6003",
+                                        "count": 1
+                                    },
+                                    {
+                                        "itemId": "item:6004",
+                                        "count": 1
+                                    },
+                                    {
+                                        "itemId": "item:6015",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "81-100关收集50颗星星"
+                        },
+                        {
+                            "count": 1,
+                            "typeId": "els.task.level",
+                            "star": 0,
+                            "name": "101-120关收集50颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "content": {
+                                "startLevel": "101",
+                                "stars": 50,
+                                "endLevel": "120"
+                            },
+                            "kindId": 106,
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.collect",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6005",
+                                        "count": 2
+                                    },
+                                    {
+                                        "itemId": "item:6006",
+                                        "count": 2
+                                    }
+                                ]
+                            },
+                            "desc": "101-120关收集50颗星星"
+                        },
+                        {
+                            "count": 1,
+                            "typeId": "els.task.level",
+                            "star": 0,
+                            "name": "121-140关收集55颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "content": {
+                                "startLevel": "121",
+                                "stars": 55,
+                                "endLevel": "140"
+                            },
+                            "kindId": 107,
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.collect",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6007",
+                                        "count": 2
+                                    },
+                                    {
+                                        "itemId": "item:6006",
+                                        "count": 2
+                                    }
+                                ]
+                            },
+                            "desc": "121-140关收集55颗星星"
+                        },
+                        {
+                            "count": 1,
+                            "typeId": "els.task.level",
+                            "star": 0,
+                            "name": "141-160关收集60颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "content": {
+                                "startLevel": "141",
+                                "stars": 60,
+                                "endLevel": "160"
+                            },
+                            "kindId": 108,
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.collect",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6007",
+                                        "count": 3
+                                    },
+                                    {
+                                        "itemId": "item:6004",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "141-160关收集60颗星星"
+                        },
+                        {
+                            "count": 1,
+                            "typeId": "els.task.level",
+                            "star": 0,
+                            "name": "161-180关收集60颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "content": {
+                                "startLevel": "161",
+                                "stars": 60,
+                                "endLevel": "180"
+                            },
+                            "kindId": 109,
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.collect",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6007",
+                                        "count": 3
+                                    },
+                                    {
+                                        "itemId": "item:6004",
+                                        "count": 3
+                                    }
+                                ]
+                            },
+                            "desc": "161-180关收集60颗星星"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "taskUnitId": "els.task.day",
+            "progress_rewards": [
+                {
+                    "id": 1,
+                    "finish_count": 5,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "items": [
+                            {
+                                "itemId": "item:6017",
+                                "count": 1000
+                            },
+                            {
+                                "itemId": "item:6024",
+                                "count": 2
+                            },
+                            {
+                                "itemId": "item:6024",
+                                "count": 2
+                            }
+                        ]
+                    },
+                    "rewardMail": "完成每日任务\\${count}个，获得奖励：\\${rewardContent}"
+                },
+                {
+                    "id": 2,
+                    "finish_count": 12,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "items": [
+                            {
+                                "itemId": "item:6010",
+                                "count": 1
+                            },
+                            {
+                                "itemId": "item:6024",
+                                "count": 4
+                            },
+                            {
+                                "itemId": "item:6017",
+                                "count": 3000
+                            }
+                        ]
+                    },
+                    "rewardMail": "完成每日任务\\${count}个，获得奖励：\\${rewardContent}"
+                },
+                {
+                    "id": 3,
+                    "finish_count": 18,
+                    "rewardContent": {
+                        "typeId": "FixedContent",
+                        "items": [
+                            {
+                                "itemId": "item:6020",
+                                "count": 10
+                            },
+                            {
+                                "itemId": "item:6025",
+                                "count": 1
+                            },
+                            {
+                                "itemId": "item:6017",
+                                "count": 10000
+                            }
+                        ]
+                    },
+                    "rewardMail": "完成每日任务\\${count}个，获得奖励：\\${rewardContent}"
+                }
+            ],
+            "pools": [
+                {
+                    "tasks": [
+                        {
+                            "kindId": 201,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 5,
+                            "name": "通关第5关",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.pass",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6024",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "通关第5关奖励"
+                        },
+                        {
+                            "kindId": 202,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 10,
+                            "name": "获得10颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.day.star",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6024",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "获得10颗星星"
+                        },
+                        {
+                            "kindId": 203,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 10,
+                            "name": "通关第10关",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.pass",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6017",
+                                        "count": 500
+                                    }
+                                ]
+                            },
+                            "desc": "通关第10关"
+                        }
+                    ]
+                },
+                {
+                    "tasks": [
+                        {
+                            "kindId": 211,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 15,
+                            "name": "通关第15关",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.pass",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6017",
+                                        "count": 500
+                                    }
+                                ]
+                            },
+                            "desc": "通关第15关"
+                        },
+                        {
+                            "kindId": 212,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 60,
+                            "name": "获得60颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.day.star",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6024",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "获得60颗星星"
+                        },
+                        {
+                            "kindId": 213,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 1,
+                            "name": "进行一局对战",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.play",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6017",
+                                        "count": 1000
+                                    }
+                                ]
+                            },
+                            "desc": "进行一局对战"
+                        }
+                    ]
+                },
+                {
+                    "tasks": [
+                        {
+                            "kindId": 221,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 25,
+                            "name": "通关第25关",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.pass",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6024",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "通关第25关"
+                        },
+                        {
+                            "kindId": 222,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 80,
+                            "name": "获得80颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.day.star",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6024",
+                                        "count": 2
+                                    }
+                                ]
+                            },
+                            "desc": "获得80颗星星"
+                        },
+                        {
+                            "kindId": 223,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 1,
+                            "name": "分享1次",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.share",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6024",
+                                        "count": 2
+                                    }
+                                ]
+                            },
+                            "desc": "分享1次"
+                        }
+                    ]
+                },
+                {
+                    "tasks": [
+                        {
+                            "kindId": 231,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 110,
+                            "name": "获得110颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.day.star",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6010",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "获得110颗星星"
+                        },
+                        {
+                            "kindId": 232,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 1,
+                            "name": "分享1次",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.share",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6024",
+                                        "count": 2
+                                    }
+                                ]
+                            },
+                            "desc": "分享1次"
+                        },
+                        {
+                            "kindId": 233,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 3,
+                            "name": "进行3局对战",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.play",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6017",
+                                        "count": 1000
+                                    }
+                                ]
+                            },
+                            "desc": "进行3局对战"
+                        }
+                    ]
+                },
+                {
+                    "tasks": [
+                        {
+                            "kindId": 241,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 45,
+                            "name": "通关第45关",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.pass",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6020",
+                                        "count": 3
+                                    }
+                                ]
+                            },
+                            "desc": "通关第45关"
+                        },
+                        {
+                            "kindId": 242,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 5,
+                            "name": "进行5场对战",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.play",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6017",
+                                        "count": 2000
+                                    }
+                                ]
+                            },
+                            "desc": "进行5场对战"
+                        },
+                        {
+                            "kindId": 243,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 30,
+                            "name": "生成道具30个",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.item.clear",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6010",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "生成道具30个"
+                        }
+                    ]
+                },
+                {
+                    "tasks": [
+                        {
+                            "kindId": 251,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 150,
+                            "name": "获得150颗星星",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.day.star",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6024",
+                                        "count": 3
+                                    }
+                                ]
+                            },
+                            "desc": "获得150颗星星"
+                        },
+                        {
+                            "kindId": 252,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 10,
+                            "name": "进行10场对战",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.play",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6020",
+                                        "count": 3
+                                    }
+                                ]
+                            },
+                            "desc": "进行10场对战"
+                        },
+                        {
+                            "kindId": 253,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 3,
+                            "name": "分享3次",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.share",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6024",
+                                        "count": 4
+                                    }
+                                ]
+                            },
+                            "desc": "进行一局对战奖励1000金币"
+                        }
+                    ]
+                },
+                {
+                    "tasks": [
+                        {
+                            "kindId": 261,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 70,
+                            "name": "通关第70关",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.level.pass",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6025",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "通关第70关"
+                        },
+                        {
+                            "kindId": 262,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 5,
+                            "name": "分享5次",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.share",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6031",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "分享5次"
+                        },
+                        {
+                            "kindId": 263,
+                            "typeId": "els.task.day",
+                            "star": 0,
+                            "count": 100,
+                            "name": "生成道具100个",
+                            "rewardMail": "完成任务，获得奖励：\\${rewardContent}",
+                            "pic": "task_1.png",
+                            "totalLimit": 1,
+                            "inspector": {
+                                "typeId": "els.item.clear",
+                                "conditions": []
+                            },
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "items": [
+                                    {
+                                        "itemId": "item:6010",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "desc": "生成道具100个"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "autoQueue": 0.0, 
+    "couponActCfg": {
+        "add": 50, 
+        "memberAdd": 50, 
+        "timeSegs": [
+            [
+                [
+                    12, 
+                    0
+                ], 
+                [
+                    24, 
+                    0
+                ]
+            ]
+        ]
+    }, 
+    "glory_winner": 1, 
+    "icon": {
+        "pc": "icon_flag_must.png", 
+        "phone": "room_must.png"
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            100000, 
+            10000, 
+            -10000
+        ], 
+        "chicken": [
+            100000, 
+            10000, 
+            -10000
+        ], 
+        "doubleAce": [
+            100000, 
+            20000, 
+            20000
+        ], 
+        "eggs": [
+            100000, 
+            10000, 
+            -10000
+        ], 
+        "fishing": [
+            100000, 
+            10000, 
+            -10000
+        ], 
+        "ring": [
+            100000, 
+            20000, 
+            20000
+        ], 
+        "rose": [
+            100000, 
+            20000, 
+            20000
+        ], 
+        "thumb": [
+            100000, 
+            20000, 
+            20000
+        ]
+    }, 
+    "matchConf": {
+        "match_id": "0", 
+        "visible": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 0, 
+    "minCoin": 10000000, 
+    "minCoinQS": 99900000000, 
+    "minTableCount": 4, 
+    "name": "永利", 
+    "playMode": "classic", 
+    "queueVipLevel": 7.0, 
+    "rewardDealerChip": 100000, 
+    "roomID": 8128, 
+    "sortId": 13, 
+    "tableConf": {
+        "bb": 400000, 
+        "big_pot": 8000000, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 10000000, 
+        "buyinConf": "1/2/3/4/5/6/7/8/9/10", 
+        "call": 1, 
+        "callChip": -1, 
+        "chat_require_vip_level": 7, 
+        "commission": 0.04, 
+        "fee": 100000, 
+        "flip_card_game": {
+            "bet": 10000, 
+            "loading_show": 0, 
+            "show": 1
+        }, 
+        "inner_game": 1, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "max_bigpot_fee": 4000000, 
+        "min_players": 2, 
+        "nameForPc": "贵宾室-永利", 
+        "optime": 11, 
+        "pay_factor": 1.0, 
+        "prebet": 400000, 
+        "sb": 200000, 
+        "start_card": 2, 
+        "tname": "永利", 
+        "win_exp": 2
+    }, 
+    "typeName": "vip", 
+    "visible": 0
+}

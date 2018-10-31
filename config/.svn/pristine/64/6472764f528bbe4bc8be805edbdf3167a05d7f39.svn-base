@@ -1,0 +1,102 @@
+{
+    "autoQueue": 0.0, 
+    "couponActCfg": {
+        "add": 0, 
+        "memberAdd": 0, 
+        "timeSegs": [
+            [
+                [
+                    12, 
+                    0
+                ], 
+                [
+                    24, 
+                    0
+                ]
+            ]
+        ]
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            1000, 
+            100, 
+            -100
+        ], 
+        "chicken": [
+            1000, 
+            100, 
+            -100
+        ], 
+        "doubleAce": [
+            1000, 
+            200, 
+            200
+        ], 
+        "eggs": [
+            1000, 
+            100, 
+            -100
+        ], 
+        "fishing": [
+            1000, 
+            100, 
+            -100
+        ], 
+        "ring": [
+            1000, 
+            200, 
+            200
+        ], 
+        "rose": [
+            1000, 
+            200, 
+            200
+        ], 
+        "thumb": [
+            1000, 
+            200, 
+            200
+        ]
+    }, 
+    "isLiveShowRoom": 1.0, 
+    "matchConf": {
+        "match_id": "0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 99900000000, 
+    "minCoin": 200000, 
+    "minCoinQS": 99900000000, 
+    "minTableCount": 0, 
+    "name": "直播间6", 
+    "playMode": "classic", 
+    "queueVipLevel": 5.0, 
+    "rewardDealerChip": 1000, 
+    "roomID": 8006, 
+    "sortId": 6, 
+    "tableConf": {
+        "bb": 2000, 
+        "big_pot": 0, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 200000, 
+        "buyinConf": "1/2/3/4/5/6/7/8/9/10", 
+        "call": 1, 
+        "callChip": -1, 
+        "commission": 0.0, 
+        "fee": 500, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "min_players": 2, 
+        "nameForPc": "直播间6", 
+        "optime": 11, 
+        "pay_factor": 1.0, 
+        "prebet": 0, 
+        "sb": 1000, 
+        "start_card": 2, 
+        "tname": "直播间6", 
+        "win_exp": 2
+    }, 
+    "typeName": "vip"
+}

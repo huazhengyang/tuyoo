@@ -1,0 +1,13 @@
+{
+  "room_items" : {
+    "88001": {"id":88001, "name":"普通厅", "basebet":100, "mincoin":1, "maxcoin":-1, "config":0, "condition":"1万金币准入"}
+  },
+
+  "session_items" : {
+    "shuihu": {"session":"水浒传","roomName":"普通场", "match":0, "gameType":1, "roomCount":1, "onLineCount": 0,"rooms": ["88001"]}
+  },
+
+  "templates" : {
+    "default" : ["shuihu"]
+  }
+}

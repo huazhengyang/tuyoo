@@ -1,0 +1,299 @@
+{
+    "CT": {},
+    "RB" : {
+        "robot":{
+            "desc": "机器人"
+        }
+    },
+    "GR": {
+        "betpool_tableid": {
+            "desc": "地主彩池"
+        }, 
+        "fanfanle_tableid": {
+            "desc": "翻翻乐小游戏"
+        }, 
+        "room": {
+            "desc": "房间命令入口"
+        }
+    }, 
+    "GROUP_MATCH": [
+        "m_enter#", 
+        "room#enter", 
+        "m_leave#", 
+        "room#leave", 
+        "m_signin#", 
+        "room#signin", 
+        "m_signout#", 
+        "room#signout", 
+        "m_update#", 
+        "room#update", 
+        "room#giveup"
+    ], 
+    "GT": {
+        "betpool": {
+            "desc": "彩池"
+        }, 
+        "fanfanle": {
+            "desc": "翻翻乐小游戏"
+        }, 
+        "table": {
+            "desc": "桌面命令(出牌除外)"
+        }, 
+        "table_call": {
+            "desc": "桌面出牌命令"
+        },
+        "fish_table_call": {
+            "desc": "捕鱼桌面出牌命令"
+        },
+        "table_call2" : {
+            "desc" : "捕鱼桌面消息，不锁桌子"
+        }
+    }, 
+    "NOT_USED": {
+        "fivestar_rating": {
+            "desc": "废弃命令"
+        }, 
+        "get_ad_info": {
+            "desc": "废弃命令"
+        }, 
+        "get_rank_list": {
+            "desc": "废弃命令"
+        }, 
+        "item_list": {
+            "desc": "废弃命令"
+        }, 
+        "medal_reward": {
+            "desc": "废弃命令"
+        }
+    }, 
+    "UT": {
+        "act": {
+            "desc": "活动"
+        }, 
+        "activity_fish": {
+            "desc": "捕鱼活动"
+        }, 
+        "activity_pc": {
+            "desc": "pc活动"
+        }, 
+        "ads": {
+            "desc": "广告"
+        }, 
+        "assistance": {
+            "desc": "江湖救急"
+        }, 
+        "bag": {
+            "desc": "3.7之前的道具协议"
+        }, 
+        "buy_prod": {
+            "desc": "老版本商品购买"
+        }, 
+        "change_name": {
+            "desc": "改名"
+        }, 
+        "complain": {
+            "desc": "投诉"
+        }, 
+        "custom_rank": {
+            "desc": "排行榜"
+        }, 
+        "daily_quest": {
+            "desc": "捕鱼每日任务"
+        }, 
+        "decoration": {
+            "desc": "装饰道具"
+        }, 
+        "dizhu": {
+            "desc": "地主公用"
+        }, 
+        "every_task": {
+            "desc": "任务"
+        }, 
+        "exchange": {
+            "desc": "兑换"
+        }, 
+        "fish_benefits": {
+            "desc": "捕鱼救济金"
+        }, 
+        "fish_evlp": {
+            "desc": "捕鱼红包"
+        }, 
+        "five_star_rating": {
+            "desc": "五星评论"
+        }, 
+        "flip_card_luck": {
+            "desc": "幸运翻牌"
+        }, 
+        "friend_call": {
+            "desc": "好友命令"
+        }, 
+        "friend_notify": {
+            "desc": "好友通知客户端"
+        }, 
+        "gain_nslogin_reward": {
+            "desc": "每日登录奖励领奖"
+        }, 
+        "game": {
+            "desc": "游戏主入口"
+        }, 
+        "get_first_recharge": {
+            "desc": "首充领奖"
+        }, 
+        "hall": {
+            "desc": "大厅入口"
+        }, 
+        "hall_game_list": {
+            "desc": "游戏按钮列表"
+        }, 
+        "item": {
+            "desc": "道具"
+        }, 
+        "item_fish": {
+            "desc": "捕鱼道具"
+        },
+        "fish_store_config": {
+            "desc": "捕鱼插件商城"
+        },
+        "lottery": {
+            "desc": "抽奖"
+        }, 
+        "master": {
+            "desc": "大师分"
+        }, 
+        "medal": {
+            "desc": "勋章"
+        }, 
+        "medal_info": {
+            "desc": "勋章"
+        }, 
+        "menu_list": {
+            "desc": "主场景功能菜单"
+        }, 
+        "message": {
+            "desc": "站内消息"
+        }, 
+        "module_tip": {
+            "desc": "小红点"
+        }, 
+        "month_checkin": {
+            "desc": "新版30日签到"
+        }, 
+        "month_checkin_fish": {
+            "desc": "捕鱼签到"
+        }, 
+        "sevendays_checkin": {
+            "desc": "深圳麻将-7日签到"
+        },
+        "daily_free_give": {
+            "desc": "深圳麻将-每日低保赠送"
+        },
+        "new_user_reward": {
+            "desc": "新手奖励"
+        }, 
+        "newvip": {
+            "desc": "VIP"
+        }, 
+        "prod_delivery": {
+            "desc": "原服务: entity, 处理: 用户购买投递, 使用: 全体"
+        }, 
+        "product": {
+            "desc": "商品"
+        }, 
+        "promote": {
+            "desc": "内推广"
+        }, 
+        "promotion_loc": {
+            "desc": "推广位"
+        }, 
+        "quickbuy": {
+            "desc": "商城"
+        }, 
+        "rank": {
+            "desc": "排行榜"
+        }, 
+        "room_online": {
+            "desc": "房间人数统计"
+        }, 
+        "send_led": {
+            "desc": "发布led"
+        }, 
+        "share_hall": {
+            "desc": "分享"
+        }, 
+        "share_url": {
+            "desc": "分享领奖"
+        }, 
+        "store": {
+            "desc": "商城"
+        }, 
+        "store_config_fish": {
+            "desc": "捕鱼商城列表"
+        }, 
+        "store_config_tetris": {
+            "desc": "方块商城列表"
+        },
+        "item_tetris": {
+            "desc": "方块道具"
+        },
+        "store_fish": {
+            "desc": "捕鱼商城"
+        }, 
+        "table_task": {
+            "desc": "桌面任务"
+        }, 
+        "task": {
+            "desc": "任务"
+        }, 
+        "task_daily": {
+            "desc": "中发白每日任务"
+        }, 
+        "tbox": {
+            "desc": "地主宝箱"
+        }, 
+        "user": {
+            "desc": "用户相关的命令处理"
+        }, 
+        "vip": {
+            "desc": "VIP入口"
+        },
+        "hall_local_notification": {
+            "desc": "本地召回提醒"
+        },
+        "get_share_info":{
+            "desc":"捕鱼微信分享相关"
+        },
+        "store_exchange":{
+            "desc":"兑换商城"
+        },
+        "hall_share2":{
+            "desc":"新分享"
+        },
+        "hall_red_packet_rain":{
+            "desc":"红包雨"
+        },
+        "hall_invite":{
+        	"desc":"红包邀请"
+        },
+        "hall_rp_task":{
+        	"desc":"红包任务"
+        },
+        "hall_rp_exchange":{
+        	"desc":"红包兑换"
+        },
+        "hall_rp_main":{
+        	"desc":"红包主入口"
+        },
+        "hall_duobao":{
+            "desc":"夺宝"
+        },
+        "game_sport":{
+            "desc":"体育竞猜"
+        },
+        "cash":{
+        	"desc":"微信提现"
+        },
+        "hall_share3":{
+            "desc":"分享版本3"
+        }
+    }
+}

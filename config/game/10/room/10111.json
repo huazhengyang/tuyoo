@@ -1,0 +1,26 @@
+{
+	"minCoin": 5000,
+	"minCoinQS": 5000,
+	"maxCoin": -1,
+	"maxCoinQS": -1,
+	"baseBet": 200,
+	"sfee": 600,
+	"changeCardsFee": 15,
+	"bankerRange": [1, 2, 3, 4],
+	"playerScaleRanges": [[5, 7, 10, 15, 20], [5, 10, 15, 20, 25], [5, 10, 20, 25, 30], [5, 10, 20, 30, 40]],
+	"playerScaleC": [25, 30, 40],
+	"daojuScale": 2,
+	"name": "小试牛刀",
+	"hasrobot": 1,
+	"robotChipRange": [100000, 500000],
+	"tableConf": {
+		"maxSeatN": 5
+	},
+	"playMode": 1,
+	"roomType": 2,
+	"picIndex": 2,
+	"picUrl": "",
+	"baseBetsDesc":"底分:200",
+	"minCoinDesc":"进房下限:5000",
+	"typeName": "normal"
+}

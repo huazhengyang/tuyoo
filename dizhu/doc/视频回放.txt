@@ -1,0 +1,333 @@
+
+视频回放前后端交互协议：
+
+错误回应
+{
+	"cmd":"dizhu",
+	"error":{
+		"code":1,
+		"info":"xxxx"
+	}
+}
+长连接协议
+1-------- 获取精彩视频
+请求
+{
+	"cmd":"dizhu",
+	"params":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_wonderful_list"
+	}
+}
+回应
+{
+	"cmd":"dizhu",
+	"result":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_wonderful_list",
+		"videos":[
+			{
+				id : "123456789",
+				name : '比赛场名称',
+				mark : 'hot',--------【标签】【目前有三种情况：hot/jing/无】
+				desc : '农民5炸翻盘',
+				share : "超级爽，我玩斗地主打出xxxx倍，厉不厉害？",
+				views : '1.1万次观看',
+				time : 1472196637, // 时间戳
+				dizhu: 0, // 地主座位
+				dizhuwin : 1,  // 是否地主赢了
+				owner: 10022,
+				url: "http://xxx",
+				seats : [
+					{uid:10022, name:'name', img:url},
+					{uid:10054, name:'name', img:url},
+					{uid:10038, name:'name', img:url}
+				]
+			}
+		]
+	}
+}
+
+2-------- 我的视频
+请求
+{
+	"cmd":"dizhu",
+	"params":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_mine_list"
+	}
+}
+回应
+{
+	"cmd":"dizhu",
+	"result":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_mine_list",
+		"videos":[
+			{
+				id : "123456789",
+				name : '比赛场名称',
+				time : '2016.7.8 12:00',
+				url : "http://xxx",
+				new  : 1,
+				share : "超级爽，我玩斗地主打出xxxx倍，厉不厉害？"
+			}
+		],
+		"shareMsg" : "分享奖励提示文案",
+		"code":0,
+		"info" : "失败原因"
+	}
+}
+
+3--------删除我的视频
+请求
+{
+	"cmd":"dizhu",
+	"params":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_mine_rem",
+		"videoId":"12345678"
+	}
+}
+回应
+{
+	"cmd":"dizhu",
+	"result":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_mine_rem",
+		"videoId":"12345678",
+		"code":0,
+		"info" : "失败原因"
+	}
+}
+
+4--------- 观看视频
+请求
+{
+	"cmd":"dizhu",
+	"params":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_view",
+		"videoId":"12345678"
+	}
+}
+回应
+{
+	"cmd":"dizhu",
+	"result":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_view",
+		"videoId":"12345678"
+		
+		"video":{
+			"views"1,
+			"likes":100,
+			"url":""
+		},
+		
+		"videoUrl":"",
+		
+		"videoData" :{
+			"uid":10001,
+			"mode":"erdou",
+			"match":0,
+			"name":"牌桌名称",
+			"base":100, // 底分
+		    "grab": 1, // 叫牌方式
+			"seats":[ // 玩家信息
+				{
+					"uid":123,
+					"name":"",
+					"sex":0,
+					"vip":2,
+					"chip":1000,
+					"score":1000,
+					"img":"http://xxx.png"
+				},
+			],
+			"ops":[
+				{
+		            "act": "game_ready",
+		            "cards": [[],[],[]]
+		        },
+		        {
+		            "act": "call",
+		            "call": 3,
+		            "rangpai":1, // 二斗让牌数
+		            "seat": 2,
+		            "mul":3,
+		        },
+		        {
+		            "act": "game_start",
+		            "bc": [  // 底牌
+		                30,
+		                27,
+		                44
+		            ],
+		            "bcmulti":1,
+		            "mul":4,
+		            "dizhu": 2    // 地主桌位号
+		        },
+		        {
+		            "act": "wild_card",
+		            "cards":[[], [], []],
+		            "bc": [  // 底牌
+		                30,
+		                27,
+		                44
+		            ],
+		            "wcard":1
+		        },
+		        {
+		            "act": "next",
+		            "seat": 2
+		        },
+		        {
+		            "act": "show", // 明牌
+		            "mul": 6,  		// 倍数
+		            "seat": 2
+		        },
+		        {
+		            "act": "card",
+		            "out": [ 30, 43 ],
+		            "mul": 6,  		// 倍数
+		            "seat": 2
+		        },
+		        {
+		            "act": "rb",     // 托管
+		            "seat": 2,
+		            "rb" : 1     // 托管和取消托管
+		        },
+		        {
+		            "act": "chat",     // 聊天 以及 表情
+		            "seat": 2,
+		            "msg": ""/index,    // 文本或者表情索引
+		            "face":0,			// 是否表情
+		            "voice":index       // 文本对应 
+		        },
+				{
+		            'act':'smilies',	// 互动表情
+		            'seat':op.seatIndex,
+		            'toSeat':op.toSeatIndex,
+		            'smilie':op.smilie,
+		            'count':op.count,
+		            'deltaChip':op.deltaChip,
+		            'finalChip':op.finalChip
+		        },
+		        {
+		            "act": "game_win",
+		            "save": 1, // 是否可以保存牌局
+		            "nowin":0, // 流局
+		            "win":1, // 地主是否赢了
+		            "ct": 1, //春天
+		            "slam": 1, // 是否大满贯
+		            "dmg":120,	//大满贯倍数
+		            "seats":[
+		            	{
+		            		"skill":{
+			            		"score": 1077, // 当前大师分
+			                    "level": 14,	// 当前等级
+			                    "premax": 1055, // 上一等级最高分
+			                    "curmax": 1275, // 当前等级的最高分
+		                    	"add": 0, // 本局增加的大师分
+		            		}
+		                    "delta":-24000 // 
+		                    "final":1751000
+		                    "mul":12 // 总倍数
+		            		"winS":8, // 连胜次数
+		            	},
+		            	{
+		            	
+		            	},
+		            	{
+		            	
+		            	}
+		            ]
+		        }
+			]
+		} 
+	}
+}
+
+5--------- 点赞视频
+请求
+{
+	"cmd":"dizhu",
+	"params":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_like",
+		"videoId":"12345678"
+	}
+}
+回应
+{
+	"cmd":"dizhu",
+	"result":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_like",
+		"videoId":"12345678",
+		"video":{
+			"like":1,
+		},
+		"code":0,
+		"info" : "失败原因"
+	}
+}
+
+6---------- 保存当前牌局
+请求
+{
+	"cmd":"table",
+	"params":{
+		"gameId":6,
+		"roundId": '123456',
+		"roomId": '',
+		"tableId":'',
+		"userId":10001,
+		"action":"replay_save",
+	}
+}
+回应
+{
+	"cmd":"table",
+	"result":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_save",
+		"code":0,
+		"info" : "失败原因"
+	}
+}
+7------------ 清空小红点
+请求
+{
+	"cmd":"dizhu",
+	"params":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_mine_cleanup_tip",
+	}
+}
+
+8---------分享
+请求
+{
+	"cmd":"dizhu",
+	"params":{
+		"gameId":6,
+		"userId":10001,
+		"action":"replay_share",
+		"videoId":"xxxx",
+		"shareType":"weixin" // "timeline"
+	}
+}

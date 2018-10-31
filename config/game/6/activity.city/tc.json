@@ -1,0 +1,34 @@
+{
+  "templates" : {
+    "default" : {
+      "desc" : "同城测试",
+      "datas" : ["#ref://allcity/beijing#", "#ref://allcity/shanghai#", "#ref://city9999/beijing999#"]
+    }
+  },
+  "allcity" : {
+    "beijing" : {
+      "city" : "北京",
+      "title" : "啊北京",
+      "date" : "2016-03-08",
+      "url" : "http://www.baidu.com",
+      "share" : {
+        "url" : "北京分享url",
+        "icon" : "北京分享icon",
+        "title" : "北京分享title",
+        "desc" : "北京分享desc"
+      }
+    },
+    "shanghai" : {
+      "city" : "上海",
+      "title" : "啊上海",
+      "date" : "2016-03-08",
+      "url" : "http://www.sina.com",
+      "share" : {
+        "url" : "上海分享url",
+        "icon" : "上海分享icon",
+        "title" : "上海分享title",
+        "desc" : "上海分享desc"
+      }
+    }
+  }
+}

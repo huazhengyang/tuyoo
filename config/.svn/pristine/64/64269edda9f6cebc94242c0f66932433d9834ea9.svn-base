@@ -1,0 +1,41 @@
+{
+  "activities": [
+    {
+      "typeId": "ddz.act.wx.seasonInfo",
+      "actId": "seasonInfo",
+      "intActId": 20180820
+    },
+    {
+      "typeId": "ddz.act.wx.shareCharm",
+      "actId": "shareCharm",
+      "intActId": 20180820,
+      "maxRankNum": 500,
+      "rankRewards": [
+        {
+          "startRank": 1,
+          "endRank": 1,
+          "rewardDesc": "第一名奖励",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:coupon",
+              "count": 8000
+            }
+          ]
+        },
+        {
+          "startRank": 2,
+          "endRank": 50,
+          "rewardDesc": "第一名奖励",
+          "rewardPic": "",
+          "rewards": [
+            {
+              "itemId": "user:coupon",
+              "count": 800
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

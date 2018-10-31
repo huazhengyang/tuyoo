@@ -1,0 +1,143 @@
+{
+            "id": "activity_new_year_fund",
+            "des": "1.激活该基金需消耗300钻石;\n2.该基金的激活截止时间为1月6日24:00，任务截止时间为1月13日24:00;\n3.限经典/欢乐/癞子/二人场对局计入局数累计 ",
+            "moduleId": "fund",
+            "typeid": 20,
+            "name": "新年基金",
+            "server_config": {
+                "start": "2015-09-24 00:00:00",
+                "end": "2016-01-13 23:59:59"
+            },
+            "config": {
+                "activate": {
+                    "outdateTip": "基金激活时间已过，下次早点来哟~", // 过期提示
+                    "reward": [ // 奖励列表
+                        {
+                            "desc": "2万金币",     // 奖励描述
+                            "count": 20000,     // 奖励数量
+                            "condition": {      // 奖励条件
+                                "desc": "玩5局", // 条件描述
+                                "params": {     // 条件限定参数
+                                    "minCount": 5, // 最小值
+                                    "maxCount": -1, // 最大值限制，为-1代表不生效
+                                    "key": ""   // typeId和key空同组合取值，可为空
+                                },
+                                "typeId": "TOTAL_TABLE" // 条件类型，预设(在ddzfund.py的getCount函数中查看)
+                            },
+                            "itemId": "user:chip"   // 奖励道具ItemId
+                        },
+                        {
+                            "desc": "5万金币",
+                            "count": 50000,
+                            "condition": {
+                                "desc": "玩30局",
+                                "params": {
+                                    "minCount": 30,
+                                    "key": ""
+                                },
+                                "typeId": "TOTAL_TABLE"
+                            },
+                            "itemId": "user:chip"
+                        },
+                        {
+                            "desc": "8万金币",
+                            "count": 80000,
+                            "condition": {
+                                "desc": "玩80局",
+                                "params": {
+                                    "minCount": 80,
+                                    "key": ""
+                                },
+                                "typeId": "TOTAL_TABLE"
+                            },
+                            "itemId": "user:chip"
+                        },
+                        {
+                            "desc": "10万金币",
+                            "count": 100000,
+                            "condition": {
+                                "desc": "玩150局",
+                                "params": {
+                                    "minCount": 150,
+                                    "key": ""
+                                },
+                                "typeId": "TOTAL_TABLE"
+                            },
+                            "itemId": "user:chip"
+                        },
+                        {
+                            "desc": "20万金币",
+                            "count": 200000,
+                            "condition": {
+                                "desc": "玩250局",
+                                "params": {
+                                    "minCount": 250,
+                                    "key": ""
+                                },
+                                "typeId": "TOTAL_TABLE"
+                            },
+                            "itemId": "user:chip"
+                        },
+                        {
+                            "desc": "25万金币",
+                            "count": 250000,
+                            "condition": {
+                                "desc": "玩500局",
+                                "params": {
+                                    "minCount": 500,
+                                    "key": ""
+                                },
+                                "typeId": "TOTAL_TABLE"
+                            },
+                            "itemId": "user:chip"
+                        }
+                    ],
+                    "activateTime": { // 可激活时间限制
+                        "start": "2015-12-22 00:00:00",
+                        "end": "2016-01-06 23:59:59"
+                    }
+                },
+                "mail": "恭喜您获得基金活动奖励\\${assets}",
+                "rewardButton": {
+                    "normalURL": "",
+                    "grayURL": "",
+                    "visible": true,
+                    "grayTip": "您还未达到下一级领取条件，继续加油哟~",
+                    "completionTip": "太厉害了！你已领取全部奖励啦~",
+                    "normalTip": "恭喜您领取\\${assets}"
+                },
+                "otherImg": {
+                    "progressBarURL": "",
+                    "undoneTagURL": "",
+                    "progressFillURL": "",
+                    "doneTagURL": ""
+                },
+                "activateButton": {
+                    "normalURL": "",
+                    "grayURL": "",
+                    "visible": true,
+                    "grayTip": "您已激活基金，赶紧去完成任务领取更多奖励吧!",
+                    "todoTask": {
+                        "payOrder": {
+                            "shelves": [
+                                "newyear"
+                            ],
+                            "priceDiamond": {
+                                "count": 300,
+                                "minCount": 0,
+                                "maxCount": -1
+                            },
+                            "buyTypes": [
+                                "consume",
+                                "direct"
+                            ]
+                        },
+                        "typeId": "todotask.payOrder"
+                    },
+                    "normalTip": ""
+                },
+                "bgURL": "",
+                "notActiveHint": "↑ 点击按钮，激活新年基金 ↑",
+                "activeYetHint": "您已累计游戏\\${finishcount}局"
+            }
+        }

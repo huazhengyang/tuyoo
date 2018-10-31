@@ -1,0 +1,420 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 29,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "baohuang_AI_qingdao_3.770"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 29,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 28,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "baohuang_v3.770_AI_TYBH_promote_guoshen"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "baohuang_v3.770_A_TYBH_promote_tishen"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "baohuang_v4.560_AI_new_baohuang"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 17112003,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "baohuang_v4.570_AI_4.57guoshen"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999092001,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 17112002,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 17112001,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 17112003,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 17112002,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 17112001,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999092006,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6112201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "baohuang_v4.570_AI_test"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 17112003,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 17112002,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 17112001,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "baohuang_v4.57_AI_main"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 17112002,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 17112001,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "baohuang_v4.57_AI_OV"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 17112003,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 17112002,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 17112001,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 17120101,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    }
+   ],
+   "name"        : "baohuang_v4.57_AI_shimingrenzheng"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 17,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "memberBuy2"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "会员",
+   "url"         : "${http_download}/hall/promote/imgs/member_baohuang.png"
+  },
+  {
+   "promotionId" : 18,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包",
+   "url"         : "${http_download}/hall/promote/imgs/promote_button_FirstRecharge_20160810.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 19,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeReceive"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包奖励",
+   "url"         : "${http_download}/hall/promote/imgs/promote_button_FirstRecharge_20160810.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 20,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.vip"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "VIP",
+   "url"         : "${http_download}/hall/promote/imgs/icon_vip_baohuang.png"
+  },
+  {
+   "promotionId" : 17062201,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 12
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 17,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "邀请有礼",
+   "url"         : "${http_download}/hall/promote/imgs/bh_qingdao_invite.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 17112001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeReceive"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包",
+   "url"         : "${http_download}/baohuang/icon/lingqulibao.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 17112002,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包",
+   "url"         : "${http_download}/baohuang/icon/chaozhilibao.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 17112003,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 70300,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "每日首次分享赠送1000免费金币，快叫上朋友一起玩吧！"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "分享有礼",
+   "url"         : "${http_download}/baohuang/icon/fenxiangyouli.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 17120101,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "identity_auth"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "实名认证",
+   "url"         : "${http_download}/baohuang/icon/shimingrenzheng.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

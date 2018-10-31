@@ -1,0 +1,55 @@
+{
+  "buyinchip": 800,
+  "dummyUserCount": 0,
+  "gameRule": "classic",
+  "hasrobot": 1,
+  "iscreate": 0,
+  "create_item": 6013,
+  "ismatch": 0,
+  "level": "junior",
+  "matchConf": null,
+  "maxCoin": 50000,
+  "maxCoinQS": 25000,
+  "maxLevel": -1,
+  "minCoin": 30,
+  "minCoinQS": 35,
+  "name": "初级场",
+  "playMode": "zunyi",
+  "playModeName": "遵义",
+  "tableType": "normal",
+  "tableConf": {
+    "robotLevel": 1,
+    "autoLevel": 0,
+    "base_chip": 1,
+    "big_degree_fee": [],
+    "create_user_score": 0,
+    "good_tile_chance": 0.15,
+    "leave_vote_num": {
+      "4": 4
+    },
+    "refuse_leave_vote_num": {
+      "4": 1
+    },
+    "maxSeatN": 4,
+    "play_timeout": 8,
+    "room_coefficient": 1,
+    "service_fee": 1,
+    "trustee_timeout": 0,
+    "ready_max_timeout": 3600,
+    "ready_after_sit": 1,
+    "dissolve_vote_time_out": 60,
+    "gang_base": 1,
+    "win_base": 1,
+    "score_base": 0,
+    "chat_chip": 2,
+    "chat_time": 5,
+    "tiandihuFan": 1,
+    "nameDesc": "小康",
+    "taskDesc": ""
+  },
+  "winTasksDesc": {
+    "desc": "",
+    "winTasks": []
+  },
+  "typeName": "normal"
+}

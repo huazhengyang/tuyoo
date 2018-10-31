@@ -1,0 +1,174 @@
+{
+    "dealerCare": {
+        "bOpen": 1, 
+        "rules": [
+            {
+                "bOpen": 1, 
+                "badCardFrs": 23, 
+                "badScore": 4000000, 
+                "ctPrs": [
+                    0.3, 
+                    0.3, 
+                    0.2, 
+                    0.2
+                ], 
+                "name": "牌特别差", 
+                "prl": 4, 
+                "rt": 3
+            }, 
+            {
+                "bOpen": 1, 
+                "mltBuyIn": 3, 
+                "name": "输的过多", 
+                "pr": 0.8, 
+                "prl": 3, 
+                "roomPlayers": 4, 
+                "rt": 4, 
+                "triggerFrs": 10
+            }, 
+            {
+                "bOpen": 1, 
+                "name": "每日登陆", 
+                "pr": 0.8, 
+                "prl": 2, 
+                "rt": 2, 
+                "triggerFrs": 10
+            }, 
+            {
+                "bOpen": 1, 
+                "name": "新手保护", 
+                "pr": 0.8, 
+                "rt": 1, 
+                "triggerFrs": 100
+            }
+        ]
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            100, 
+            10, 
+            -10
+        ], 
+        "chicken": [
+            100, 
+            10, 
+            -10
+        ], 
+        "doubleAce": [
+            100, 
+            20, 
+            20
+        ], 
+        "eggs": [
+            100, 
+            10, 
+            -10
+        ], 
+        "fishing": [
+            100, 
+            10, 
+            -10
+        ], 
+        "ring": [
+            100, 
+            20, 
+            20
+        ], 
+        "rose": [
+            100, 
+            20, 
+            20
+        ], 
+        "thumb": [
+            100, 
+            20, 
+            20
+        ]
+    }, 
+    "jackPotConf": {
+        "activateFee": 80, 
+        "activateVipLevel": 0, 
+        "enable": 1, 
+        "frameCfg": [
+            10, 
+            10, 
+            10
+        ], 
+        "lowerLimit": {
+            "activity": 320000, 
+            "activity_time": [
+                10, 
+                20, 
+                22
+            ], 
+            "base": 30000
+        }, 
+        "playLed": 0, 
+        "rewardCardType": {
+            "6000000": [
+                0.01, 
+                "顺金"
+            ], 
+            "7000000": [
+                0.02, 
+                "A以下豹子"
+            ], 
+            "7140000": [
+                0.05, 
+                "豹子AAA"
+            ]
+        }, 
+        "roomFeePercent": 0.2
+    }, 
+    "matchConf": {
+        "match_id": "0.0"
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 5000000, 
+    "maxCoinQS": 120000, 
+    "minCoin": 20000, 
+    "minCoinQS": 40000, 
+    "minTriggerLen": 2, 
+    "n_recycle": 4, 
+    "name": "黄金级", 
+    "playMode": "classic", 
+    "roomID": 30013, 
+    "tableConf": {
+        "bb": 200, 
+        "better_card": 1, 
+        "big_pot": 0, 
+        "bigpot_fee_floor": 40000, 
+        "buyin": 20000, 
+        "buyinConf": "1/2", 
+        "chat_require_vip_level": 0, 
+        "commission": 0.05, 
+        "fee": 150, 
+        "flip_card_game": {
+            "bet": 0, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "maxHandCount": 15, 
+        "maxSeatN": 6, 
+        "max_bigpot_fee": -1, 
+        "min_players": 2, 
+        "optime": 13, 
+        "pay_factor": 1.0, 
+        "pkHandCount": 4, 
+        "prebet": 500, 
+        "raise_times": [
+            2, 
+            4, 
+            8
+        ], 
+        "sb": 200, 
+        "scheduleFloor": 3, 
+        "seeCardHandCount": 0, 
+        "start_card": 2, 
+        "timeup": 10, 
+        "tname": "黄金级"
+    }, 
+    "triggerLen": 6, 
+    "typeName": "queue", 
+    "xijin": 0
+}

@@ -1,0 +1,544 @@
+{
+    "26001":{
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 500,
+
+        "hasrobot" : 0,
+        "minGold":1,
+        "maxGold":400,
+        "name" : "欢乐新手场",
+        "playMode" : "happy",
+        "typeName" : "normal",
+        "buy_in"  : 0,
+        "sfee_win_rate" : 0.06,
+        "base_bet" : 20,
+        "tableConf": {
+            "maxSeatN":  2
+        }
+    },
+    "26002":{
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 500,
+
+        "hasrobot" : 0,
+        "minGold":400,
+        "maxGold":6000,
+        "name" : "中级",
+        "playMode" : "happy",
+        "typeName" : "normal",
+        "buy_in"  : 0,
+        "sfee_win_rate" : 0.06,
+        "base_bet" : 100,
+        "tableConf": {
+            "maxSeatN":  2
+        }
+    },
+    "26003":{
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 500,
+
+        "hasrobot" : 0,
+        "minGold":6000,
+        "maxGold":-1,
+        "name" : "高级",
+        "playMode" : "happy",
+        "typeName" : "normal",
+        "buy_in"  : 0,
+        "sfee_win_rate" : 0.06,
+        "base_bet" : 2000,
+        "tableConf": {
+            "maxSeatN":  2
+        }
+    },
+    "26004":{
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 500,
+
+        "hasrobot" : 0,
+        "minGold":1,
+        "maxGold":400,
+        "name" : "欢乐新手场",
+        "playMode" : "happy",
+        "typeName" : "normal",
+        "buy_in"  : 0,
+        "sfee_win_rate" : 0.06,
+        "base_bet" : 20,
+        "tableConf": {
+            "maxSeatN":  2
+        }
+    },
+    "26005":{
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 500,
+
+        "hasrobot" : 0,
+        "minGold":400,
+        "maxGold":6000,
+        "name" : "中级",
+        "playMode" : "happy",
+        "typeName" : "normal",
+        "buy_in"  : 0,
+        "sfee_win_rate" : 0.06,
+        "base_bet" : 100,
+        "tableConf": {
+            "maxSeatN":  2
+        }
+    },
+    "26006":{
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 500,
+
+        "hasrobot" : 0,
+        "minGold":6000,
+        "maxGold":-1,
+        "name" : "高级",
+        "playMode" : "happy",
+        "typeName" : "normal",
+        "buy_in"  : 0,
+        "sfee_win_rate" : 0.06,
+        "base_bet" : 2000,
+        "tableConf": {
+            "maxSeatN":  2
+        }
+    },
+    "26020":{
+        "buyinchip" : 0,
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "dummyUserCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 100,
+        "hasrobot" : 0,
+        "name": "8人赛",
+        "ismatch" : 1,
+        "matchConf":{
+            "desc":"8人赛",
+            "fees": [
+                {
+                    "count" : 20,
+                    "itemId" : "item:6011"
+                }
+            ],
+            "rank.rewards" : [
+                {
+                    "desc" : "7000金币+15个奖券",
+                    "ranking" : {
+                        "end" : 1,
+                        "start" : 1
+                    },
+                    "rewards" : [
+                        {
+                            "count" : 100,
+                            "itemId" : "item:6011"
+                        }
+                    ]
+                }
+            ],
+            "start" : {
+                "fee.type" : 1,
+                "maxplaytime" : 3600,
+                "type" : 1,
+                "user.size" :8
+            },
+            "stages" : [
+                {
+                    "animation.type" : -1,
+                    "card.count" : 1,
+                    "chip.base" : 100,
+                    "chip.grow" : 0.5,
+                    "chip.times" : 3600,
+                    "chip.user" : 2,
+                    "chip.user.2.rate" : 0.2,
+                    "name" : "8人赛",
+                    "rise.user.count" : 2,
+                     "seat.principles" : 1,
+                    "type":2
+                },
+                {
+                    "animation.type" : -1,
+                    "card.count" : 1,
+                    "chip.base" : 100,
+                    "chip.grow" : 0.5,
+                    "chip.times" : 3600,
+                    "chip.user" : 2,
+                    "chip.user.2.rate" : 0.2,
+                    "name" : "4人",
+                    "rise.user.count" : 1,
+                     "seat.principles" : 1,
+                    "type":2
+                }
+            ],
+            "table.seat.count": 2
+        },
+        "tableConf":{
+            "maxSeatN":  2
+        },
+        "typeName" : "big_match",
+        "winDesc" : ""
+    },
+    "26021":{
+        "buyinchip" : 0,
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "dummyUserCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 100,
+        "hasrobot" : 0,
+        "name": "8人赛",
+        "ismatch" : 1,
+        "matchConf":{
+            "desc":"8人赛",
+            "fees": [
+                {
+                    "count" : 20,
+                    "itemId" : "item:6011"
+                }
+            ],
+            "rank.rewards" : [
+
+            ],
+            "start" : {
+                "fee.type" : 1,
+                "maxplaytime" : 3600,
+                "type" : 1,
+                "user.size" :4
+            },
+            "stages" : [
+                {
+                    "animation.type" : -1,
+                    "card.count" : 1,
+                    "chip.base" : 100,
+                    "chip.grow" : 0.5,
+                    "chip.times" : 3600,
+                    "chip.user" : 2,
+                    "chip.user.2.rate" : 0.2,
+                    "name" : "8人赛",
+                    "rise.user.count" : 2,
+                    "seat.principles" : 1,
+                    "type":2
+                },
+                {
+                    "animation.type" : -1,
+                    "card.count" : 1,
+                    "chip.base" : 100,
+                    "chip.grow" : 0.5,
+                    "chip.times" : 3600,
+                    "chip.user" : 2,
+                    "chip.user.2.rate" : 0.2,
+                    "name" : "4人",
+                    "rise.user.count" : 1,
+                    "seat.principles" : 1,
+                    "type":2
+                }
+            ],
+            "table.seat.count": 2
+        },
+        "tableConf":{
+            "maxSeatN":  2
+        },
+        "typeName" : "big_match",
+        "winDesc" : ""
+    },
+    "26022":{
+        "buyinchip" : 0,
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "dummyUserCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 100,
+        "hasrobot" : 0,
+        "name": "8人赛",
+        "ismatch" : 1,
+        "matchConf":{
+            "desc":"8人赛",
+            "fees": [
+                {
+                    "count" : 20,
+                    "itemId" : "item:6011"
+                }
+            ],
+            "rank.rewards" : [
+
+            ],
+            "start" : {
+                "fee.type" : 1,
+                "maxplaytime" : 3600,
+                "type" : 1,
+                "user.size" :4
+            },
+            "stages" : [
+                {
+                    "animation.type" : -1,
+                    "card.count" : 1,
+                    "chip.base" : 100,
+                    "chip.grow" : 0.5,
+                    "chip.times" : 3600,
+                    "chip.user" : 2,
+                    "chip.user.2.rate" : 0.2,
+                    "name" : "8人赛",
+                    "rise.user.count" : 2,
+                    "seat.principles" : 1,
+                    "type":2
+                },
+                {
+                    "animation.type" : -1,
+                    "card.count" : 1,
+                    "chip.base" : 100,
+                    "chip.grow" : 0.5,
+                    "chip.times" : 3600,
+                    "chip.user" : 2,
+                    "chip.user.2.rate" : 0.2,
+                    "name" : "4人",
+                    "rise.user.count" : 1,
+                    "seat.principles" : 1,
+                    "type":2
+                }
+            ],
+            "table.seat.count": 2
+        },
+        "tableConf":{
+            "maxSeatN":  2
+        },
+        "typeName" : "big_match",
+        "winDesc" : ""
+    },
+    "26023":{
+        "buyinchip" : 0,
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "dummyUserCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 100,
+        "hasrobot" : 0,
+        "name": "8人赛",
+        "ismatch" : 1,
+        "matchConf":{
+            "desc":"8人赛",
+            "fees": [
+                {
+                    "count" : 20,
+                    "itemId" : "item:6011"
+                }
+            ],
+            "rank.rewards" : [
+
+            ],
+            "start" : {
+                "fee.type" : 1,
+                "maxplaytime" : 3600,
+                "type" : 1,
+                "user.size" :4
+            },
+            "stages" : [
+                {
+                    "animation.type" : -1,
+                    "card.count" : 1,
+                    "chip.base" : 100,
+                    "chip.grow" : 0.5,
+                    "chip.times" : 3600,
+                    "chip.user" : 2,
+                    "chip.user.2.rate" : 0.2,
+                    "name" : "8人赛",
+                    "rise.user.count" : 2,
+                    "seat.principles" : 1,
+                    "type":2
+                },
+                {
+                    "animation.type" : -1,
+                    "card.count" : 1,
+                    "chip.base" : 100,
+                    "chip.grow" : 0.5,
+                    "chip.times" : 3600,
+                    "chip.user" : 2,
+                    "chip.user.2.rate" : 0.2,
+                    "name" : "4人",
+                    "rise.user.count" : 1,
+                    "seat.principles" : 1,
+                    "type":2
+                }
+            ],
+            "table.seat.count": 2
+        },
+        "tableConf":{
+            "maxSeatN":  2
+        },
+        "typeName" : "big_match",
+        "winDesc" : ""
+    },
+    "26024":{
+        "buyinchip" : 0,
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "dummyUserCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 100,
+        "hasrobot" : 0,
+        "name": "8人赛",
+        "ismatch" : 1,
+        "matchConf":{
+            "desc":"8人赛",
+            "fees": [
+                {
+                    "count" : 20,
+                    "itemId" : "item:6011"
+                }
+            ],
+            "rank.rewards" : [
+
+            ],
+            "start" : {
+                "fee.type" : 1,
+                "maxplaytime" : 3600,
+                "type" : 1,
+                "user.size" :4
+            },
+            "stages" : [
+                {
+                    "animation.type" : -1,
+                    "card.count" : 1,
+                    "chip.base" : 100,
+                    "chip.grow" : 0.5,
+                    "chip.times" : 3600,
+                    "chip.user" : 2,
+                    "chip.user.2.rate" : 0.2,
+                    "name" : "8人赛",
+                    "rise.user.count" : 2,
+                    "seat.principles" : 1,
+                    "type":2
+                },
+                {
+                    "animation.type" : -1,
+                    "card.count" : 1,
+                    "chip.base" : 100,
+                    "chip.grow" : 0.5,
+                    "chip.times" : 3600,
+                    "chip.user" : 2,
+                    "chip.user.2.rate" : 0.2,
+                    "name" : "4人",
+                    "rise.user.count" : 1,
+                    "seat.principles" : 1,
+                    "type":2
+                }
+            ],
+            "table.seat.count": 2
+        },
+        "tableConf":{
+            "maxSeatN":  2
+        },
+        "typeName" : "big_match",
+        "winDesc" : ""
+    },
+    "26025":{
+        "buyinchip" : 0,
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "dummyUserCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 100,
+        "hasrobot" : 0,
+        "name": "8人赛",
+        "ismatch" : 1,
+        "matchConf":{
+            "desc":"8人赛",
+            "fees": [
+                {
+                    "count" : 20,
+                    "itemId" : "item:6011"
+                }
+            ],
+            "rank.rewards" : [
+
+            ],
+            "start" : {
+                "fee.type" : 1,
+                "maxplaytime" : 3600,
+                "type" : 1,
+                "user.size" :4
+            },
+            "stages" : [
+                {
+                    "animation.type" : -1,
+                    "card.count" : 1,
+                    "chip.base" : 100,
+                    "chip.grow" : 0.5,
+                    "chip.times" : 3600,
+                    "chip.user" : 2,
+                    "chip.user.2.rate" : 0.2,
+                    "name" : "8人赛",
+                    "rise.user.count" : 2,
+                    "seat.principles" : 1,
+                    "type":2
+                },
+                {
+                    "animation.type" : -1,
+                    "card.count" : 1,
+                    "chip.base" : 100,
+                    "chip.grow" : 0.5,
+                    "chip.times" : 3600,
+                    "chip.user" : 2,
+                    "chip.user.2.rate" : 0.2,
+                    "name" : "4人",
+                    "rise.user.count" : 1,
+                    "seat.principles" : 1,
+                    "type":2
+                }
+            ],
+            "table.seat.count": 2
+        },
+        "tableConf":{
+            "maxSeatN":  2
+        },
+        "typeName" : "big_match",
+        "winDesc" : ""
+    },
+    "26050":{
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 500,
+
+        "hasrobot" : 0,
+        "minGold":400,
+        "maxGold":6000,
+        "name" : "快速大比赛",
+        "playMode" : "happy",
+        "typeName" : "normal",
+        "buy_in"  : 0,
+        "sfee_win_rate" : 0.06,
+        "base_bet" : 100,
+        "tableConf": {
+            "maxSeatN":  2
+        }
+    },
+    "26051":{
+        "controlServerCount" : 1,
+        "controlTableCount" : 0,
+        "gameServerCount" : 1,
+        "gameTableCount" : 500,
+
+        "hasrobot" : 0,
+        "minGold":400,
+        "maxGold":6000,
+        "name" : "经典大比赛",
+        "playMode" : "happy",
+        "typeName" : "normal",
+        "buy_in"  : 0,
+        "sfee_win_rate" : 0.06,
+        "base_bet" : 100,
+        "tableConf": {
+            "maxSeatN":  2
+        }
+    }
+}

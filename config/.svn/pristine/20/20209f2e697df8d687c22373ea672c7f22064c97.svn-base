@@ -1,0 +1,75 @@
+{
+    "startGiftRewards": {
+        "mail": "您已成功领取新手礼包，获得\\${rewardContent}",
+        "rewardContent": {
+            "typeId": "FixedContent",
+            "items": [
+                {
+                    "itemId": "item:6025",
+                    "count": 1
+                },
+                {
+                    "itemId": "item:6015",
+                    "count": 3
+                },
+
+                {
+                    "itemId": "item:6010",
+                    "count": 3
+                },
+                {
+                    "itemId": "item:6017",
+                    "count": 3000
+                },
+                        {
+                    "itemId": "item:6021",
+                    "count": 20
+                },
+                {
+                    "itemId": "item:6003",
+                    "count": 2
+                },
+                {
+                    "itemId": "item:6004",
+                    "count": 2
+                },
+                {
+                    "itemId": "item:6005",
+                    "count": 2
+                },
+                {
+                    "itemId": "item:6006",
+                    "count": 2
+                },
+                {
+                    "itemId": "item:6007",
+                    "count": 2
+                },
+                {
+                    "itemId": "item:6008",
+                    "count": 2
+                },
+                {
+                    "itemId": "item:6013",
+                    "count": 2
+                },
+                {
+                    "itemId": "item:6014",
+                    "count": 2
+                },
+                {
+                    "itemId": "item:6015",
+                    "count": 2
+                },
+                {
+                    "itemId": "item:6016",
+                    "count": 2
+                },
+                {
+                    "itemId": "item:6018",
+                    "count": 2
+                }
+            ]
+        }
+    }
+}

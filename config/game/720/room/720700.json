@@ -1,0 +1,1218 @@
+{
+    "buyinchip": 0,
+    "dummyUserCount": 557,
+    "winLoseWaitTime": 8,
+    "matchConf": [
+        {
+            "matchId": 720701,
+            "maxCoin": -1,
+            "maxCoinQS": -1,
+            "minCoin": -1,
+            "minCoinQS": -1,
+            "dummyRatio": 9,
+            "name": "0.5红包券免费赛",
+            "desc": "5轮比赛每轮1局，当桌前两名晋级\n平分时，排名优先级为北>西>南>东",
+            "taskDesc": "捉鸡64人赛",
+            "timeRange": "15分钟",
+            "matchIntroduce": "本比赛采用快速赛赛制",
+            "fees": [
+            ],
+            "rank.rewards": [
+                {
+                    "desc": "0.5红包券",
+                    "ranking": {
+                        "end": 1,
+                        "start": 1
+                    },
+                    "rewards": [
+                        {
+                            "count": 50,
+                            "itemId": "user:coupon"
+                        }
+                    ]
+                },
+                {
+                    "desc": "3000金币",
+                    "ranking": {
+                        "end": 2,
+                        "start": 2
+                    },
+                    "rewards": [
+                        {
+                            "count": 3000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "1000金币",
+                    "ranking": {
+                        "end": 3,
+                        "start": 3
+                    },
+                    "rewards": [
+                        {
+                            "count": 1000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "500金币",
+                    "ranking": {
+                        "end": 4,
+                        "start": 4
+                    },
+                    "rewards": [
+                        {
+                            "count": 500,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "200金币",
+                    "ranking": {
+                        "end": 8,
+                        "start": 5
+                    },
+                    "rewards": [
+                        {
+                            "count": 200,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "100金币",
+                    "ranking": {
+                        "end": 16,
+                        "start": 9
+                    },
+                    "rewards": [
+                        {
+                            "count": 100,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "50金币",
+                    "ranking": {
+                        "end": 32,
+                        "start": 17
+                    },
+                    "rewards": [
+                        {
+                            "count": 50,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                }
+            ],
+            "stages": [
+                {
+                    "index": 1,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "64进32",
+                    "riseUserCount": 32,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 1,
+                    "totalUserCount": 64
+                },
+                {
+                    "index": 2,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "32进16",
+                    "riseUserCount": 16,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.8,
+                    "totalUserCount": 32
+                },
+                {
+                    "index": 3,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "16进8",
+                    "riseUserCount": 8,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.6,
+                    "totalUserCount": 16
+                },
+                {
+                    "index": 4,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "8进4",
+                    "riseUserCount": 4,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 8
+                },
+                {
+                    "index": 5,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "决赛",
+                    "riseUserCount": 1,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 4
+                }
+            ],
+            "startTime": "08:00",
+            "stopTime": "02:00",
+            "tips": {
+                "infos": [
+                    "每桌前两名晋级",
+                    "每轮结束后会刷新您的排名。"
+                ],
+                "interval": 10
+            },
+            "tipsForNotSignin": "8:00~02:00开赛喔，先去金币桌练练手吧",
+            "tipsForWillStopInfo": "本比赛限时开放，5分钟后暂时关闭，会按实时名次结算奖励，敬请谅解。"
+        },
+        {
+            "matchId": 720702,
+            "maxCoin": -1,
+            "maxCoinQS": -1,
+            "minCoin": -1,
+            "minCoinQS": -1,
+            "dummyRatio": 5,
+            "name": "5红包券免费赛",
+            "desc": "9轮比赛每轮1局，当桌前两名晋级\n平分时排名顺序为北>西>南>东",
+            "taskDesc": "捉鸡1024人赛",
+            "timeRange": "20分钟",
+            "matchIntroduce": "本比赛采用快速赛制",
+            "fees": [
+                {
+                    "desc":"1张参赛券",
+                    "count" : 1,
+                    "itemId" : "item:1007",
+                    "params" : {
+                        "failure" : "您的费用不足，本比赛报名费需1张参赛券"
+                    }
+               },
+               {
+                    "desc":"100金币",
+                    "count" : 100,
+                    "itemId" : "user:chip",
+                    "params" : {
+                        "nextTip" : "您的参赛券不足啦~使用100金币报名入场吧~\n(提示：每日登陆赠送20张参赛券喔！)",
+                        "failure" : "您的金币不足，选择其他报名条件或者买个金币礼包吧",
+                        "payOrder" : {
+                            "contains" : {
+                                "count" : 100,
+                                "itemId" : "user:chip"
+                            },
+                            "shelves" : [
+                                "lessbuychip"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "rank.rewards": [
+                {
+                    "desc": "5.00红包券",
+                    "ranking": {
+                        "end": 1,
+                        "start": 1
+                    },
+                    "rewards": [
+                        {
+                            "count": 500,
+                            "itemId": "user:coupon"
+                        }
+                    ]
+                },
+                {
+                    "desc": "2万金币",
+                    "ranking": {
+                        "end": 2,
+                        "start": 2
+                    },
+                    "rewards": [
+                        {
+                            "count": 20000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "1万金币",
+                    "ranking": {
+                        "end": 3,
+                        "start": 3
+                    },
+                    "rewards": [
+                        {
+                            "count": 10000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "5000金币",
+                    "ranking": {
+                        "end": 4,
+                        "start": 4
+                    },
+                    "rewards": [
+                        {
+                            "count": 5000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "2000金币",
+                    "ranking": {
+                        "end": 8,
+                        "start": 5
+                    },
+                    "rewards": [
+                        {
+                            "count": 2000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "1000金币",
+                    "ranking": {
+                        "end": 16,
+                        "start": 9
+                    },
+                    "rewards": [
+                        {
+                            "count": 1000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "600金币",
+                    "ranking": {
+                        "end": 32,
+                        "start": 17
+                    },
+                    "rewards": [
+                        {
+                            "count": 600,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "400金币",
+                    "ranking": {
+                        "end": 64,
+                        "start": 33
+                    },
+                    "rewards": [
+                        {
+                            "count": 400,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "200金币",
+                    "ranking": {
+                        "end": 128,
+                        "start": 65
+                    },
+                    "rewards": [
+                        {
+                            "count": 200,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "100金币",
+                    "ranking": {
+                        "end": 256,
+                        "start": 129
+                    },
+                    "rewards": [
+                        {
+                            "count": 100,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "50金币",
+                    "ranking": {
+                        "end": 512,
+                        "start": 257
+                    },
+                    "rewards": [
+                        {
+                            "count": 50,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                }
+            ],
+            "stages": [
+                {
+                    "index": 1,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "1024进512",
+                    "riseUserCount": 512,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 1,
+                    "totalUserCount": 1024
+                },
+                {
+                    "index": 2,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "512进256",
+                    "riseUserCount": 256,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.8,
+                    "totalUserCount": 512
+                },
+                {
+                    "index": 3,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "256进128",
+                    "riseUserCount": 128,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.7,
+                    "totalUserCount": 256
+                },
+                {
+                    "index": 4,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "128进64",
+                    "riseUserCount": 64,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.6,
+                    "totalUserCount": 128
+                },
+                {
+                    "index": 5,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "64进32",
+                    "riseUserCount": 32,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.6,
+                    "totalUserCount": 64
+                },
+                {
+                    "index": 6,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "32进16",
+                    "riseUserCount": 16,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 32
+                },
+                {
+                    "index": 7,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "16进8",
+                    "riseUserCount": 8,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 16
+                },
+                {
+                    "index": 8,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "8进4",
+                    "riseUserCount": 4,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 8
+                },
+                {
+                    "index": 9,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "决赛",
+                    "riseUserCount": 1,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 4
+                }
+            ],
+            "startTime": "08:00",
+            "stopTime": "02:00",
+            "tips": {
+                "infos": [
+                    "每桌前两名晋级",
+                    "每轮结束后会刷新您的排名。"
+                ],
+                "interval": 5
+            },
+            "tipsForNotSignin": "8:00~02:00开赛喔，先去金币桌练练手吧",
+            "tipsForWillStopInfo": "本比赛限时开放，5分钟后暂时关闭，会按实时名次结算奖励，敬请谅解。"
+        },
+        {
+            "matchId": 720703,
+            "maxCoin": -1,
+            "maxCoinQS": -1,
+            "minCoin": -1,
+            "minCoinQS": -1,
+            "dummyRatio": 7,
+            "name": "5红包券新手赛(2000PK)",
+            "desc": "7轮比赛每轮1局，当桌前两名晋级\n平分时排名顺序为北>西>南>东",
+            "taskDesc": "捉鸡256人赛",
+            "timeRange": "20分钟",
+            "matchIntroduce": "本比赛采用快速赛制",
+            "fees": [
+                {
+                    "desc":"2000金币",
+                    "count" : 2000,
+                    "itemId" : "user:chip",
+                    "params" : {
+                        "failure" : "您的金币不足，选择其他报名条件或者买个金币礼包吧",
+                        "payOrder" : {
+                            "contains" : {
+                                "count" : 2000,
+                                "itemId" : "user:chip"
+                            },
+                            "shelves" : [
+                                "lessbuychip"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "rank.rewards": [
+                {
+                    "desc": "5.00红包券",
+                    "ranking": {
+                        "end": 1,
+                        "start": 1
+                    },
+                    "rewards": [
+                        {
+                            "count": 500,
+                            "itemId": "user:coupon"
+                        }
+                    ]
+                },
+                {
+                    "desc": "3万金币",
+                    "ranking": {
+                        "end": 2,
+                        "start": 2
+                    },
+                    "rewards": [
+                        {
+                            "count": 30000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "2万金币",
+                    "ranking": {
+                        "end": 3,
+                        "start": 3
+                    },
+                    "rewards": [
+                        {
+                            "count": 20000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "1万金币",
+                    "ranking": {
+                        "end": 4,
+                        "start": 4
+                    },
+                    "rewards": [
+                        {
+                            "count": 10000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "6000金币",
+                    "ranking": {
+                        "end": 8,
+                        "start": 5
+                    },
+                    "rewards": [
+                        {
+                            "count": 6000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "5000金币",
+                    "ranking": {
+                        "end": 16,
+                        "start": 9
+                    },
+                    "rewards": [
+                        {
+                            "count": 5000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "4000金币",
+                    "ranking": {
+                        "end": 32,
+                        "start": 17
+                    },
+                    "rewards": [
+                        {
+                            "count": 4000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "3000金币",
+                    "ranking": {
+                        "end": 64,
+                        "start": 33
+                    },
+                    "rewards": [
+                        {
+                            "count": 3000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "2000金币",
+                    "ranking": {
+                        "end": 128,
+                        "start": 65
+                    },
+                    "rewards": [
+                        {
+                            "count": 2000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                }
+            ],
+            "stages": [
+                {
+                    "index": 1,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "256进128",
+                    "riseUserCount": 128,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 1,
+                    "totalUserCount": 256
+                },
+                {
+                    "index": 2,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "128进64",
+                    "riseUserCount": 64,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.8,
+                    "totalUserCount": 128
+                },
+                {
+                    "index": 3,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "64进32",
+                    "riseUserCount": 32,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.8,
+                    "totalUserCount": 64
+                },
+                {
+                    "index": 4,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "32进16",
+                    "riseUserCount": 16,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.6,
+                    "totalUserCount": 32
+                },
+                {
+                    "index": 5,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "16进8",
+                    "riseUserCount": 8,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.6,
+                    "totalUserCount": 16
+                },
+                {
+                    "index": 6,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "8进4",
+                    "riseUserCount": 4,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 8
+                },
+                {
+                    "index": 7,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "决赛",
+                    "riseUserCount": 1,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 4
+                }
+            ],
+            "startTime": "08:00",
+            "stopTime": "02:00",
+            "tips": {
+                "infos": [
+                    "每桌前两名晋级",
+                    "每轮结束后会刷新您的排名。"
+                ],
+                "interval": 5
+            },
+            "tipsForNotSignin": "8:00~02:00开赛喔，先去金币桌练练手吧",
+            "tipsForWillStopInfo": "本比赛限时开放，5分钟后暂时关闭，会按实时名次结算奖励，敬请谅解。"
+        },
+        {
+            "matchId": 720704,
+            "maxCoin": -1,
+            "maxCoinQS": -1,
+            "minCoin": -1,
+            "minCoinQS": -1,
+            "dummyRatio": 3,
+            "name": "10红包券高手赛(2钻石PK)",
+            "desc": "7轮比赛每轮1局，当桌前两名晋级\n平分时排名顺序为北>西>南>东",
+            "taskDesc": "捉鸡256人赛",
+            "timeRange": "20分钟",
+            "matchIntroduce": "本比赛采用快速赛制",
+            "fees": [
+                {
+                    "desc":"2钻石",
+                    "count" : 2,
+                    "itemId" : "user:diamond",
+                    "params" : {
+                        "failure" : "您的钻石不足，请充值后继续比赛",
+                        "payOrder" : {
+                            "priceDiamond" : {
+                                "count" : 2,
+                                "minCount" : 2,
+                                "maxCount" : -1
+                            },
+                            "buyTypes":["charge"]
+                        }
+                    }
+                }
+            ],
+            "rank.rewards": [
+                {
+                    "desc": "10.00红包券",
+                    "ranking": {
+                        "end": 1,
+                        "start": 1
+                    },
+                    "rewards": [
+                        {
+                            "count": 1000,
+                            "itemId": "user:coupon"
+                        }
+                    ]
+                },
+                {
+                    "desc": "5万金币",
+                    "ranking": {
+                        "end": 2,
+                        "start": 2
+                    },
+                    "rewards": [
+                        {
+                            "count": 50000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "3万金币",
+                    "ranking": {
+                        "end": 3,
+                        "start": 3
+                    },
+                    "rewards": [
+                        {
+                            "count": 30000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "2万金币",
+                    "ranking": {
+                        "end": 4,
+                        "start": 4
+                    },
+                    "rewards": [
+                        {
+                            "count": 20000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "1万金币",
+                    "ranking": {
+                        "end": 8,
+                        "start": 5
+                    },
+                    "rewards": [
+                        {
+                            "count": 10000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "8000金币",
+                    "ranking": {
+                        "end": 16,
+                        "start": 9
+                    },
+                    "rewards": [
+                        {
+                            "count": 8000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "6000金币",
+                    "ranking": {
+                        "end": 32,
+                        "start": 17
+                    },
+                    "rewards": [
+                        {
+                            "count": 6000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "4000金币",
+                    "ranking": {
+                        "end": 64,
+                        "start": 33
+                    },
+                    "rewards": [
+                        {
+                            "count": 4000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "2000金币",
+                    "ranking": {
+                        "end": 128,
+                        "start": 65
+                    },
+                    "rewards": [
+                        {
+                            "count": 2000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                }
+            ],
+            "stages": [
+                {
+                    "index": 1,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "256进128",
+                    "riseUserCount": 128,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 1,
+                    "totalUserCount": 256
+                },
+                {
+                    "index": 2,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "128进64",
+                    "riseUserCount": 64,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.8,
+                    "totalUserCount": 128
+                },
+                {
+                    "index": 3,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "64进32",
+                    "riseUserCount": 32,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.6,
+                    "totalUserCount": 64
+                },
+                {
+                    "index": 4,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "32进16",
+                    "riseUserCount": 16,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.6,
+                    "totalUserCount": 32
+                },
+                {
+                    "index": 5,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "16进8",
+                    "riseUserCount": 8,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 16
+                },
+                {
+                    "index": 6,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "8进4",
+                    "riseUserCount": 4,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 8
+                },
+                {
+                    "index": 7,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "决赛",
+                    "riseUserCount": 1,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 4
+                }
+            ],
+            "startTime": "08:00",
+            "stopTime": "02:00",
+            "tips": {
+                "infos": [
+                    "每桌前两名晋级",
+                    "每轮结束后会刷新您的排名。"
+                ],
+                "interval": 5
+            },
+            "tipsForNotSignin": "8:00~02:00开赛喔，先去金币桌练练手吧",
+            "tipsForWillStopInfo": "本比赛限时开放，5分钟后暂时关闭，会按实时名次结算奖励，敬请谅解。"
+        },
+        {
+            "matchId": 720705,
+            "maxCoin": -1,
+            "maxCoinQS": -1,
+            "minCoin": -1,
+            "minCoinQS": -1,
+            "dummyRatio": 6,
+            "name": "100红包券雀神赛(20钻石PK)",
+            "desc": "6轮比赛每轮1局，当桌前两名晋级\n平分时排名顺序为北>西>南>东",
+            "taskDesc": "捉鸡128人超快赛",
+            "timeRange": "20分钟",
+            "matchIntroduce": "本比赛采用快速赛制",
+            "fees": [
+                {
+                    "desc":"20钻石",
+                    "count" : 20,
+                    "itemId" : "user:diamond",
+                    "params" : {
+                        "failure" : "您的钻石不足，请充值后继续比赛",
+                        "payOrder" : {
+                            "priceDiamond" : {
+                                "count" : 20,
+                                "minCount" : 20,
+                                "maxCount" : -1
+                            },
+                            "buyTypes":["charge"]
+                        }
+                    }
+                }
+            ],
+            "rank.rewards": [
+                {
+                    "desc": "100.00红包券",
+                    "ranking": {
+                        "end": 1,
+                        "start": 1
+                    },
+                    "rewards": [
+                        {
+                            "count": 10000,
+                            "itemId": "user:coupon"
+                        }
+                    ]
+                },
+                {
+                    "desc": "10万金币",
+                    "ranking": {
+                        "end": 2,
+                        "start": 2
+                    },
+                    "rewards": [
+                        {
+                            "count": 100000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "7万金币",
+                    "ranking": {
+                        "end": 3,
+                        "start": 3
+                    },
+                    "rewards": [
+                        {
+                            "count": 70000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "5万金币",
+                    "ranking": {
+                        "end": 4,
+                        "start": 4
+                    },
+                    "rewards": [
+                        {
+                            "count": 50000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "4万金币",
+                    "ranking": {
+                        "end": 8,
+                        "start": 5
+                    },
+                    "rewards": [
+                        {
+                            "count": 40000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "3万金币",
+                    "ranking": {
+                        "end": 16,
+                        "start": 9
+                    },
+                    "rewards": [
+                        {
+                            "count": 30000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "2万金币",
+                    "ranking": {
+                        "end": 32,
+                        "start": 17
+                    },
+                    "rewards": [
+                        {
+                            "count": 20000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                },
+                {
+                    "desc": "5000金币",
+                    "ranking": {
+                        "end": 64,
+                        "start": 33
+                    },
+                    "rewards": [
+                        {
+                            "count": 5000,
+                            "itemId": "user:chip"
+                        }
+                    ]
+                }   
+            ],
+            "stages": [
+                {
+                    "index": 1,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "128进64",
+                    "riseUserCount": 64,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 1,
+                    "totalUserCount": 128
+                },
+                {
+                    "index": 2,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "64进32",
+                    "riseUserCount": 32,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.8,
+                    "totalUserCount": 64
+                },
+                {
+                    "index": 3,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "32进16",
+                    "riseUserCount": 16,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.6,
+                    "totalUserCount": 32
+                },
+                {
+                    "index": 4,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "16进8",
+                    "riseUserCount": 8,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.6,
+                    "totalUserCount": 16
+                },
+                {
+                    "index": 5,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "8进4",
+                    "riseUserCount": 4,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 8
+                },
+                {
+                    "index": 6,
+                    "base_chip": 10,
+                    "cardCount": 1,
+                    "name": "4进1",
+                    "riseUserCount": 1,
+                    "scoreInit": 0,
+                    "scoreIntoRate": 0.5,
+                    "totalUserCount": 4
+                }  
+            ],
+            "startTime": "08:00",
+            "stopTime": "02:00",
+            "tips": {
+                "infos": [
+                    "每桌前两名晋级",
+                    "每轮结束后会刷新您的排名。"
+                ],
+                "interval": 5
+            },
+            "tipsForNotSignin": "8:00~02:00开赛喔，先去金币桌练练手吧",
+            "tipsForWillStopInfo": "本比赛限时开放，5分钟后暂时关闭，会按实时名次结算奖励，敬请谅解。"
+        }
+    ],
+    "playMode": "zhuoji",
+    "playModeName": "贵阳捉鸡",
+    "tableType": "match",
+    "queueConfigs": [
+        {
+            "waitTime": 10,
+            "busNumber": 16
+        },
+        {
+            "waitTime": 10,
+            "busNumber": 16                    
+        }
+    ],
+    "tableConf": {
+        "robotLevel": 2,
+        "autoLevel": 0,
+        "big_degree_fee": [],
+        "create_user_score": 0,
+        "good_tile_chance": 0.8,
+        "leave_vote_num": {
+            "4": 4
+        },
+        "refuse_leave_vote_num": {
+            "4": 1
+        },
+        "maxSeatN": 4,
+        "play_timeout": 12,
+        "room_coefficient": 1,
+        "trustee_timeout": 1,
+        "ready_max_timeout": 3600,
+        "ready_after_sit": 1,
+        "dissolve_vote_time_out": 60,
+        "tiles_no_pao": 0,
+        "hand_tiles_count": 13,
+        "gang_base": 1,
+        "win_base": 1,
+        "score_base": 10,
+        "fan_list": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            128,
+            256
+        ],
+        "bian_multi": 0,
+        "change_baopai": 0,
+        "min_multi": 0,
+        "bigang": 0,
+        "win_by_zimo": 0,
+        "max_fan": 0,
+        "pengpenghu_fan": 0,
+        "gangshanghua_fan": 0,
+        "roof_real": 300,
+        "kou_model": 1,
+        "resume_item_after_begin": 0,
+        "threeTiles": 0,
+        "callTransfer": 0,
+        "quanyaojiuFan": 1,
+        "haidilaoyueFan": 1,
+        "tiandihuFan": 1,
+        "jiangduiFan": 0,
+        "qiangganghu": 1,
+        "kehuqidui": 1,
+        "genzhuang": 1,
+        "fanggangkaichengbao": 1,
+        "qianggangchengbao": 1,
+        "chat_chip": 50,
+        "chat_time": 5
+    },
+    "typeName": "quick_upgrade_match"
+}

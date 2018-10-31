@@ -1,0 +1,206 @@
+{
+  "hasrobot" : 0,
+  "isMatch" : 1,
+  "name" : "王者争霸",
+  "sceneName": "string_wzzb",
+  "fishPool": 9,
+  "multiple": 1,
+  "showLevel": 1,
+  "minLevel": 1,
+  "maxLevel": 999,
+  "minCoin": 0,
+  "maxCoin": -1,
+  "minGunLevel": 2101,
+  "maxGunLevel": 2130,
+  "maxSkillLevel": 20,
+  "typeName" : "fish_time_match",
+  "matchConf" : {
+    "desc" : "每周六、日\n21:30",
+    "fees" : [
+    	{
+        	"count" : 2500,
+        	"itemId" : "item:3106",
+        	"params" : {
+          		"failure" : "您的报名条件不足，本比赛需要2500海星"
+        	}
+      }
+    ],
+    "fishPool": 9,
+    "playingTime": 300,
+    "bullet": 12500,
+    "rank.rewards" : [
+      {
+        "desc" : "500元京东卡x4",
+        "ranking" : {
+          "start" : 1,
+          "end" : 1
+        },
+        "rewards" : [
+        	{
+        		"itemId":"item:4369",
+        		"count":4
+        	}
+        ],
+        "message":"恭喜您在捕鱼\\${matchName}回馈赛中取得第\\${rank}名，获得\\${rewardContent}"
+      },
+      {
+        "desc" : "黄金招财珠x50",
+        "ranking" : {
+          "start" : 2,
+          "end" : 2
+        },
+        "rewards" : [
+        	{
+        		"itemId":"item:1194",
+        		"count":50
+        	}
+        ],
+        "message":"恭喜您在捕鱼\\${matchName}回馈赛中取得第\\${rank}名，获得\\${rewardContent}"
+      },
+      {
+        "desc" : "黄金招财珠x25",
+        "ranking" : {
+          "start" : 3,
+          "end" : 3
+        },
+        "rewards" : [
+        	{
+        		"itemId":"item:1194",
+        		"count":25
+        	}
+        ],
+        "message":"恭喜您在捕鱼\\${matchName}回馈赛中取得第\\${rank}名，获得\\${rewardContent}"
+      },
+      {
+        "desc" : "黄金招财珠x15",
+        "ranking" : {
+          "start" : 4,
+          "end" : 6
+        },
+        "rewards" : [
+        	{
+        		"itemId":"item:1194",
+        		"count":15
+        	}
+        ],
+        "message":"恭喜您在捕鱼\\${matchName}回馈赛中取得第\\${rank}名，获得\\${rewardContent}"
+      },
+      {
+        "desc" : "黄金招财珠x10",
+        "ranking" : {
+          "start" : 7,
+          "end" : 10
+        },
+        "rewards" : [
+          {
+            "itemId":"item:1194",
+            "count":10
+          }
+        ],
+        "message":"恭喜您在捕鱼\\${matchName}回馈赛中取得第\\${rank}名，获得\\${rewardContent}"
+      },
+      {
+        "desc" : "黄金招财珠x5",
+        "ranking" : {
+          "start" : 11,
+          "end" : 15
+        },
+        "rewards" : [
+          {
+            "itemId":"item:1194",
+            "count":5
+          }
+        ],
+        "message":"恭喜您在捕鱼\\${matchName}回馈赛中取得第\\${rank}名，获得\\${rewardContent}"
+      },
+      {
+        "desc" : "黄金招财珠x2",
+        "ranking" : {
+          "start" : 16,
+          "end" : 20
+        },
+        "rewards" : [
+          {
+            "itemId":"item:1194",
+            "count":2
+          }
+        ],
+        "message":"恭喜您在捕鱼\\${matchName}回馈赛中取得第\\${rank}名，获得\\${rewardContent}"
+      },
+      {
+        "desc" : "黄金招财珠x1",
+        "ranking" : {
+          "start" : 21,
+          "end" : 30
+        },
+        "rewards" : [
+          {
+            "itemId":"item:1194",
+            "count":1
+          }
+        ],
+        "message":"恭喜您在捕鱼\\${matchName}回馈赛中取得第\\${rank}名，获得\\${rewardContent}"
+      },
+      {
+        "desc" : "白银招财珠x2",
+        "ranking" : {
+          "start" : 31,
+          "end" : 999
+        },
+        "rewards" : [
+          {
+            "itemId":"item:1193",
+            "count":2
+          }
+        ],
+        "message":"恭喜您在捕鱼\\${matchName}回馈赛中取得第\\${rank}名，获得\\${rewardContent}"
+      }
+    ],
+    "stages" : [
+      {
+        "name" : "决赛",
+        "rise.user.count" : 10000,
+        "seat.principles" : 1,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 1,
+      "maxplaytime" : 600,
+      "prepare.times" : 3,
+      "signin.times" : 1800,
+      "start.speed" : 5,
+      "table.times" : 600,
+      "times" : {
+        "days" : {
+          "count" : 100,
+          "first" : [
+            "20180224",
+            "20180225"
+          ],
+          "interval" : "1w"
+        },
+        "times_in_day" : {
+          "list": [
+            "21:30"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.maxsize" : 999,
+      "user.minsize" : 1,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 2,
+    "tips" : {
+      "infos" : [
+        "赛前30分钟开放报名，最后3分钟可进场准备"
+      ],
+      "interval" : 5
+    }
+  },
+  "tableConf" : {
+    "maxSeatN" : 4,
+    "fishGroupsName": "string_wzzb"
+  }
+}

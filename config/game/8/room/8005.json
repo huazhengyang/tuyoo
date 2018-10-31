@@ -1,0 +1,102 @@
+{
+    "autoQueue": 0.0, 
+    "couponActCfg": {
+        "add": 0, 
+        "memberAdd": 0, 
+        "timeSegs": [
+            [
+                [
+                    12, 
+                    0
+                ], 
+                [
+                    24, 
+                    0
+                ]
+            ]
+        ]
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            400, 
+            40, 
+            -40
+        ], 
+        "chicken": [
+            400, 
+            40, 
+            -40
+        ], 
+        "doubleAce": [
+            400, 
+            80, 
+            80
+        ], 
+        "eggs": [
+            400, 
+            40, 
+            -40
+        ], 
+        "fishing": [
+            400, 
+            40, 
+            -40
+        ], 
+        "ring": [
+            400, 
+            80, 
+            80
+        ], 
+        "rose": [
+            400, 
+            80, 
+            80
+        ], 
+        "thumb": [
+            400, 
+            80, 
+            80
+        ]
+    }, 
+    "isLiveShowRoom": 1.0, 
+    "matchConf": {
+        "match_id": "0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 99900000000, 
+    "minCoin": 20000, 
+    "minCoinQS": 99900000000, 
+    "minTableCount": 0, 
+    "name": "直播间5", 
+    "playMode": "classic", 
+    "queueVipLevel": 5.0, 
+    "rewardDealerChip": 400, 
+    "roomID": 8005, 
+    "sortId": 5, 
+    "tableConf": {
+        "bb": 200, 
+        "big_pot": 0, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 20000, 
+        "buyinConf": "1/2/3/4/5/6/7/8/9/10", 
+        "call": 1, 
+        "callChip": -1, 
+        "commission": 0.0, 
+        "fee": 50, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "min_players": 2, 
+        "nameForPc": "直播间5", 
+        "optime": 11, 
+        "pay_factor": 1.0, 
+        "prebet": 0, 
+        "sb": 100, 
+        "start_card": 2, 
+        "tname": "直播间5", 
+        "win_exp": 2
+    }, 
+    "typeName": "vip"
+}

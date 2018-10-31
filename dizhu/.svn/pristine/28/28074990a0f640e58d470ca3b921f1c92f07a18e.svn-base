@@ -1,0 +1,98 @@
+      "activity_lucky_money0109": {
+            "id": "activity_lucky_money0109",
+            "des": "1、1月21日-27日每天12:00准时发放红包，抢完即止。\n2、电影票由格瓦拉赞助提供，使用方法见道具详情。\n3、本活动解释权归途游斗地主运营团队所有。",
+            "moduleId": "luckyMoneyNew",
+            "typeid": 6015,
+            "name": "抢红包",
+            "server_config": {
+                "start": "2017-01-11 13:00:00",
+                "end": "2017-01-16 23:59:59"
+            },
+            "config": {
+                "server": {
+                    "activityGameId": 6, // 发奖金流GameId
+
+                    "finalTip": "本次活动全部红包已发完~", // 每一期红包都已经结束的提示
+                    "outdateTip": "活动已过期", // 活动过期提示
+
+                    "beforeGainTip": "抢红包时间未到~", // 未到开放抢红包时间提示
+                    "alreadyGainedTip": "您已抢过本次红包", // 已经领取过红包提示
+                    "mail":"恭喜您抢得红包奖励\\${prizeContent}", // 抢红包mail
+
+                    "prizeInfo.grabbed_null": "抢光啦", // 小红包按钮文字，红包被抢光
+                    "shareId": 6003, // 分享ID，分享按钮使用此配置构建todotask
+                    "ledsMap": { 
+                        // min：代表最小值，当抢得的红包资产数量大于等于min时才会播放led
+                        // text: led播放的内容
+                        "ledmin50": { "minCount": 50, "text": "恭喜\\${nickname}获得\\${prizeContent}" },
+                        "ledmin1": { "minCount": 1, "text": "恭喜\\${nickname}获得\\${prizeContent}" }
+                    },
+                    "prizes": [
+                        // type: 红包类型分两种：random.split代表每个红包中资产数量随机, random.fixed代表每个红包资产数量固定
+                        // total：代表资产总数，所有的此类红包资产总数值
+                        // min: 每个红包的资产最小值，用于random.split类型的红包产生随机红包
+                        // num: 红包的个数
+                        // desc: 资产描述
+                        // itemId: 资产ID
+                        // ledKey: 配置的led配置key，具体配置在ledSetting中，可以为空
+                        // count：每个红包的资产数，只random.fixed中有
+                        { "type": "random.split", "total": 20000, "min": 1, "num": 2000, "desc": "奖券", "ledKey": "ledmin50", "itemId": "user:coupon" },
+                        { "type": "random.split", "total": 7500000, "min": 100, "num": 5000, "desc": "金币", "itemId": "user:chip"},
+                        { "type": "random.split", "total": 1000, "min": 1, "num": 300, "desc": "参赛券", "itemId": "item:1007" },
+                        { "type": "random.split", "total": 1000, "min": 1, "num": 500, "desc": "英雄帖", "itemId": "item:1008" },
+                        { "type": "random.fixed", "num": 500, "desc": "记牌器", "count": 1, "itemId": "item:2003" },
+                        { "type": "random.fixed", "num": 1000, "desc": "格瓦拉优惠券", "count": 1, "itemId": "item:4184" }
+                    ],
+                    "times": [
+                        {"start": "09:30:00", "end": "11:00:00"},
+                        {"start": "10:30:00", "end": "11:00:00"},
+                        {"start": "11:30:00", "end": "12:00:00"},
+                        {"start": "12:30:00", "end": "13:00:00"},
+                        {"start": "13:30:00", "end": "14:00:00"},
+                        {"start": "14:08:00", "end": "15:00:00"},
+                        {"start": "15:30:00", "end": "16:00:00"},
+                        {"start": "16:30:00", "end": "17:00:00"},
+                        {"start": "17:30:00", "end": "18:00:00"},
+                        {"start": "18:05:00", "end": "19:00:00"},
+                        {"start": "19:30:00", "end": "20:00:00"},
+                        {"start": "20:30:00", "end": "21:00:00"}
+                    ],
+                    "sharePrize": {"itemId":"item:2003", "count":12}, // 分享奖励
+                    "shareMail": "恭喜您获得红包活动分享奖励\\${prizeContent}" // 分享mail
+                },
+                "client": {
+                  "backgroundUrl": "", // 背景图
+                  "descriptionBackgroundUrl": "", // 活动描述窗的背景图
+                  "envelopeBackgroundUrl": "",// 弹窗红包的背景图
+                  "desc": "1月21日-27日每天12:00准时发放红包，抢完即止", // 活动描述
+                  "countdownTip": "发红包倒计时中，记得来抢哦！", // 倒计时时点击抢红包按钮的提示
+
+                  "shareEnabled": true, // 是否允许分享
+
+                  "labelTip.gained": "恭喜您抢到红包，获得了", // 弹窗小红包中，抢到红包情况下的提示
+                  "labelTip.grabbed_null": "红包被抢光了，分享给微信好友可获得一个途游新春红包", // 弹窗小红包中，未抢到红包提示
+                  "labelTip.shared": "恭喜您获得分享奖励", // 弹窗小红包中，分享后的提示
+                  "labelTip": "王宝强给你发了一个红包", // 弹窗小红包中，默认提示
+
+                  "buttonMain": {
+                    "title.unstart": "未开始",
+                    "title.grab": "抢红包",
+                    "title.grabbed": "查看奖励",
+                    "title.final": "已结束",
+
+                    "titleColor": [229,67,32], // 主界面大按钮的颜色
+                    "url":""
+                  },
+                  "buttonEnvelopeMain": {
+                    "titleColor": [229,67,32], // 弹窗界面按钮的颜色
+                    "url":""
+                  },
+                  "buttonShare": { // 弹窗界面分享按钮的颜色
+                    "url": ""
+                  },
+                  "buttonConfirm": { // 弹窗界面确认按钮的颜色
+                    "url": ""
+                  }   
+                }
+            }
+        },

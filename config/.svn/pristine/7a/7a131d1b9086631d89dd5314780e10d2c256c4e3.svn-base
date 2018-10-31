@@ -1,0 +1,402 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "开赛时间：每日12:30 \n报名费用：参赛券1张",
+    "fees" : [
+      {
+        "count" : 1,
+        "itemId" : "item:1007",
+        "params" : {
+          "failure" : "您的报名条件不足，本比赛需要1张参赛券"
+        }
+      }
+    ],
+    "rank.rewards" : [
+      {
+        "desc" : "5.00红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励5.00红包券",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 500,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "2.00红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励2.00红包券",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 200,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "1.00红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励1.00红包券",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 100,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "0.80红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励0.80红包券",
+        "ranking" : {
+          "end" : 4,
+          "start" : 4
+        },
+        "rewards" : [
+          {
+            "count" : 80,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },      
+      {
+        "desc" : "0.60红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励0.60红包券",
+        "ranking" : {
+          "end" : 8,
+          "start" : 5
+        },
+        "rewards" : [
+          {
+            "count" : 60,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "0.50红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励0.50红包券",
+        "ranking" : {
+          "end" : 16,
+          "start" : 9
+        },
+        "rewards" : [
+          {
+            "count" : 50,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "0.30红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励0.30红包券",
+        "ranking" : {
+          "end" : 32,
+          "start" : 17
+        },
+        "rewards" : [
+          {
+            "count" : 30,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "0.20红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励0.20红包券",
+        "ranking" : {
+          "end" : 64,
+          "start" : 33
+        },
+        "rewards" : [
+          {
+            "count" : 20,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "0.10红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励0.10红包券",
+        "ranking" : {
+          "end" : 128,
+          "start" : 65
+        },
+        "rewards" : [
+          {
+            "count" : 10,
+            "itemId" : "user:coupon"
+          }
+        ]
+      }
+    ],
+    "recordId" : 3008,
+    "stages" : [
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "排位赛(不淘汰)",
+        "rise.user.count" : 1024,
+        "rise.user.refer" : 1024,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "晋级赛",
+        "rise.user.count" : 128,
+        "rise.user.refer" : 128,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 2,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "128强赛",
+        "rise.user.count" : 64,
+        "rise.user.refer" : 64,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 3,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "64强赛",
+        "rise.user.count" : 32,
+        "rise.user.refer" : 32,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 4,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "32强赛",
+        "rise.user.count" : 16,
+        "rise.user.refer" : 16,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 4,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "16强赛",
+        "rise.user.count" : 8,
+        "rise.user.refer" : 8,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : -1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "决赛",
+        "rise.user.count" : 8,
+        "rise.user.refer" : 8,
+        "seat.principles" : 1,
+        "type" : 1
+      }
+    ],
+    "start" : {
+      "fee.type" : 0,
+      "maxplaytime" : 5400,
+      "prepare.times" : 10,
+      "signin.times" : 7200,
+      "start.speed" : 8,
+      "table.times" : 730,
+      "times" : {
+        "days" : {
+          "list" : [
+            "20170331",
+            "20170401",
+            "20170402",
+            "20170403",
+            "20170404",
+            "20170405",
+            "20170406",
+            "20170407",
+            "20170408",
+            "20170409",
+            "20170410",
+            "20170411",
+            "20170412",
+            "20170413",
+            "20170414",
+            "20170415",
+            "20170416",
+            "20170417",
+            "20170418",
+            "20170419",
+            "20170420",
+            "20170421",
+            "20170422",
+            "20170423",
+            "20170424",
+            "20170425",
+            "20170426",
+            "20170427",
+            "20170428",
+            "20170429",
+            "20170430",
+            "20170501",
+            "20170502",
+            "20170503",
+            "20170504",
+            "20170505",
+            "20170506",
+            "20170507",
+            "20170508",
+            "20170509",
+            "20170510",
+            "20170511",
+            "20170512",
+            "20170513",
+            "20170514",
+            "20170515",
+            "20170516",
+            "20170517",
+            "20170518",
+            "20170519",
+            "20170520",
+            "20170521",
+            "20170522",
+            "20170523",
+            "20170524",
+            "20170525",
+            "20170526",
+            "20170527",
+            "20170528",
+            "20170529",
+            "20170530",
+            "20170531",
+            "20170601",
+            "20170602",
+            "20170603",
+            "20170604",
+            "20170605",
+            "20170606",
+            "20170607",
+            "20170608",
+            "20170609",
+            "20170610",
+            "20170611",
+            "20170612",
+            "20170613",
+            "20170614",
+            "20170615",
+            "20170616",
+            "20170617",
+            "20170618",
+            "20170619",
+            "20170620",
+            "20170621",
+            "20170622",
+            "20170623",
+            "20170624",
+            "20170625",
+            "20170626",
+            "20170627",
+            "20170628",
+            "20170629",
+            "20170630"
+          ]
+        },
+        "times_in_day" : {
+          "list" : [
+            "12:30"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 1024,
+      "user.maxsize" : 1024,
+      "user.minsize" : 32,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 2,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "每日红包赛",
+  "playDesc" : "",
+  "playMode" : "jifen",
+  "robotUserCallUpTime" : 6,
+  "robotUserMaxCount" : 64,
+  "robotUserOpTime" : [
+    1,
+    2,
+    3
+  ],
+  "roomFee" : 0,
+  "roomMutil" : 50,
+  "sendCoupon" : 0,
+  "showCard" : 0,
+  "tableConf" : {
+    "maxSeatN" : 2
+  },
+  "typeName" : "group_match",
+  "winDesc" : ""
+}

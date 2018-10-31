@@ -1,0 +1,23 @@
+{
+  "hasrobot": 0,
+  "robotLevel": [2, 6],
+  "minGold": 36000,
+  "maxGold": 130000,
+  "minCoinQS": 35000,
+  "maxCoinQS": 72000,
+  "name": "中级场",
+  "playMode": "1",
+  "gameType": 0,
+  "typeName": "normal",
+  "buy_in": 0,
+  "sfee_win_rate": 0.06,
+  "table_fee": 32,
+  "min_bet": 800,
+  "max_bet": 2800,
+  "base_bet": 30,
+  "tableConf": {
+      "maxSeatN": 2,
+      "sys_attack_timer": 120,
+    "sys_attack_speed": 5
+  }
+}

@@ -1,0 +1,73 @@
+{
+    "center_server_logic": {
+        "CT001": [
+            "hall.entity.hallled", 
+            "hall.entity.halllottery", 
+            "hall.entity.hallranking"
+        ]
+    }, 
+    "config_redis": "conf_game.tyredis.me:6337:0", 
+    "conn_logout_error_msg_1": "请重新登录", 
+    "conn_logout_error_msg_2": "请重新登录", 
+    "conn_logout_error_msg_3": "请重新登录", 
+    "conn_logout_error_msg_4": "请重新登录", 
+    "conn_logout_error_msg_5": "请重新登录", 
+    "conn_logout_error_msg_6": "请重新登录", 
+    "conn_logout_error_msg_7": "请重新登录", 
+    "corporation": "tuyoo", 
+    "enable_test_html": 0, 
+    "game_packages": [
+        "hall", 
+        "dizhu"
+    ], 
+    "http_avatar": "http://ddz.image.tuyoo.com/avatar", 
+    "http_download": "https://ddzqn.nalrer.cn",
+    "http_game": "http://10.3.0.18", 
+    "http_gdss": "http://gdss.touch4.me", 
+    "http_sdk": "http://open.touch4.me", 
+    "http_sdk_inner": "http://innerportal.vmtuyoo.me", 
+    "id": 9999, 
+    "integrate": {
+        "chatlog": {
+            "address": [
+                "tcp4://innercenter.vmtuyoo.me:3000"
+            ], 
+            "retryCount": 3, 
+            "serverTypes": [
+                "GT"
+            ], 
+            "timeout": 5
+        }, 
+        "logcenter": {
+            "address": [
+                "tcp4://innercenter.vmtuyoo.me:3100"
+            ], 
+            "retryCount": 3, 
+            "serverTypes": [
+                "*"
+            ], 
+            "timeout": 5
+        }, 
+        "pushserver": {
+            "address": [
+                "udpj://10.3.13.16:8888"
+            ], 
+            "retryCount": 3, 
+            "serverTypes": [
+                "UT"
+            ], 
+            "timeout": 5
+        }
+    }, 
+    "local_config_redis": "127.0.0.1:6337:0", 
+    "local_internet": "", 
+    "local_intranet": "", 
+    "mode": 1, 
+    "name": "tyhall", 
+    "output_path": "${poker_path}/../../run", 
+    "port_http": 8010, 
+    "port_redis": 0, 
+    "projects_path": "${poker_path}/../", 
+    "simulation": 0,
+    "cloud_id" : 1
+}

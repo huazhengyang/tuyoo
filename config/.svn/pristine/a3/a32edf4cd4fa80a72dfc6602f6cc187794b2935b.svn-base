@@ -1,0 +1,343 @@
+{
+    "room_items": {
+        "26001": {
+            "id": 26001,
+            "name": "新手场",
+            "blocktype": 1,
+            "color": "green",
+            "basebet": 10,
+            "mingold": 0,
+            "maxgold": 37999,
+            "condition": "最少有0大师分",
+            "pkinfo": "经典新手场,战斗倍数x10大师分",
+            "roominfo": "底注10大师分(经典块)"
+        },
+        "26002": {
+            "id": 26002,
+            "name": "中级场",
+            "blocktype": 1,
+            "color": "green",
+            "basebet": 30,
+            "mingold": 36000,
+            "maxgold": 100000,
+            "condition": "最少有36000大师分",
+            "pkinfo": "经典中级场,战斗倍数x30大师分",
+            "roominfo": "底注30大师分(经典块)"
+        },
+        "26003": {
+            "id": 26003,
+            "name": "高级场",
+            "blocktype": 1,
+            "color": "green",
+            "basebet": 100,
+            "mingold": 50000,
+            "maxgold": 300000,
+            "condition": "最少有50000大师分",
+            "pkinfo": "经典高级场,战斗倍数x100大师分",
+            "roominfo": "底注100大师分(经典块)"
+        },
+        "26004": {
+            "id": 26004,
+            "name": "大师场",
+            "blocktype": 1,
+            "color": "purple",
+            "basebet": 1800,
+            "mingold": 80000,
+            "maxgold": 999999,
+            "condition": "最少有80000大师分",
+            "pkinfo": "经典大师场,战斗倍数x1800大师分",
+            "roominfo": "底注1800大师分(经典块)"
+        },
+        "26005": {
+            "id": 26005,
+            "name": "宗师场",
+            "blocktype": 1,
+            "color": "purple",
+            "basebet": 5000,
+            "mingold": 500000,
+            "maxgold": -1,
+            "condition": "最少有500000大师分",
+            "pkinfo": "经典宗师场,战斗倍数x5000大师分",
+            "roominfo": "底注5000大师分(经典块)"
+        },
+
+        "26101": {
+            "id": 26101,
+            "name": "新手场",
+            "blocktype": 0,
+            "color": "green",
+            "basebet": 10,
+            "mingold": 0,
+            "maxgold": 37999,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "condition": "最少有0大师分",
+            "pkinfo": "极速新手场,战斗倍数x10大师分",
+            "roominfo": "底注10大师分(极速块)"
+        },
+        "26102": {
+            "id": 26102,
+            "name": "中级场",
+            "blocktype": 0,
+            "color": "green",
+            "basebet": 30,
+            "mingold": 36000,
+            "maxgold": 100000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "condition": "最少有36000大师分",
+            "pkinfo": "极速中级场,战斗倍数x30大师分",
+            "roominfo": "底注30大师分(极速块)"
+        },
+        "26103": {
+            "id": 26103,
+            "name": "高级场",
+            "blocktype": 0,
+            "color": "green",
+            "basebet": 100,
+            "mingold": 50000,
+            "maxgold": 300000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "condition": "最少有50000大师分",
+            "pkinfo": "极速高级场,战斗倍数x100大师分 ",
+            "roominfo": "底注100大师分(极速块)"
+        },
+        "26104": {
+            "id": 26104,
+            "name": "大师场",
+            "blocktype": 0,
+            "color": "purple",
+            "basebet": 1800,
+            "mingold": 80000,
+            "maxgold": 999999,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "condition": "最少有80000大师分",
+            "pkinfo": "极速大师场,战斗倍数x1800大师分 ",
+            "roominfo": "底注1800大师分(极速块)"
+        },
+        "26105": {
+            "id": 26105,
+            "name": "宗师场",
+            "blocktype": 0,
+            "color": "purple",
+            "basebet": 5000,
+            "mingold": 500000,
+            "maxgold": -1,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "condition": "最少有500000大师分",
+            "pkinfo": "极速宗师场,战斗倍数x5000大师分 ",
+            "roominfo": "底注5000大师分(极速块)"
+        },
+
+        "26201": {
+            "id": 26201,
+            "name": "青铜赛",
+            "blocktype": 1,
+            "color": "purple2",
+            "award": 6000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "roominfo": "八人晋级赛(经典块)",
+            "condition": "报名费1000大师分"
+        },
+        "26202": {
+            "id": 26202,
+            "name": "白银赛",
+            "blocktype": 1,
+            "color": "purple2",
+            "award": 18000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "roominfo": "八人晋级赛(经典块)",
+            "condition": "报名费3000大师分"
+        },
+        "26203": {
+            "id": 26203,
+            "name": "黄金赛",
+            "blocktype": 1,
+            "color": "purple2",
+            "award": 60000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "roominfo": "八人晋级赛(经典块)",
+            "condition": "报名费10000大师分"
+        },
+        "26204": {
+            "id": 26204,
+            "name": "钻石赛",
+            "blocktype": 1,
+            "color": "purple2",
+            "award": 120000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "roominfo": "八人晋级赛(经典块)",
+            "condition": "报名费20000大师分"
+        },
+        "26205": {
+            "id": 26205,
+            "name": "皇冠赛",
+            "blocktype": 1,
+            "color": "purple2",
+            "award": 300000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "roominfo": "八人晋级赛(经典块)",
+            "condition": "报名费50000大师分"
+        },
+        "26206": {
+            "id": 26206,
+            "name": "传奇赛",
+            "blocktype": 1,
+            "color": "purple2",
+            "award": 600000,
+            "roominfo": "八人晋级赛(经典块)",
+            "condition": "报名费100000大师分"
+        },
+
+        "26301": {
+            "id": 26301,
+            "name": "青铜赛",
+            "blocktype": 0,
+            "color": "purple2",
+            "award": 6000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "roominfo": "八人晋级赛(极速块)",
+            "condition": "报名费1000大师分"
+        },
+        "26302": {
+            "id": 26302,
+            "name": "白银赛",
+            "blocktype": 0,
+            "color": "purple2",
+            "award": 18000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "roominfo": "八人晋级赛(极速块)",
+            "condition": "报名费3000大师分"
+        },
+        "26303": {
+            "id": 26303,
+            "name": "黄金赛",
+            "blocktype": 0,
+            "color": "purple2",
+            "award": 60000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "roominfo": "八人晋级赛(极速块)",
+            "condition": "报名费10000大师分"
+        },
+        "26304": {
+            "id": 26304,
+            "name": "钻石赛",
+            "blocktype": 0,
+            "color": "purple2",
+            "award": 120000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "roominfo": "八人晋级赛(极速块)",
+            "condition": "报名费20000大师分"
+        },
+        "26305": {
+            "id": 26305,
+            "name": "皇冠赛",
+            "blocktype": 0,
+            "color": "purple2",
+            "award": 300000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "roominfo": "八人晋级赛(极速块)",
+            "condition": "报名费50000大师分"
+        },
+        "26306": {
+            "id": 26306,
+            "name": "传奇赛",
+            "blocktype": 0,
+            "color": "purple2",
+            "award": 600000,
+            "roominfo": "八人晋级赛(极速块)",
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "condition": "报名费100000大师分"
+        },
+
+        "26450": {
+            "id": 26450,
+            "name": "大师分大奖赛",
+            "blocktype": 0,
+            "color": "yellow2",
+            "fee": 0,
+            "roominfo": "前十名大师分奖励(极速块)",
+            "time": "2016-04-08 18:00:00",
+            "condition": "报名免费",
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "pkinfo": "前10名有奖"
+        },
+        "26500": {
+            "id": 26500,
+            "name": "经典pk",
+            "blocktype": 1,
+            "color": "yellow2",
+            "fee": 0,
+            "min_base_bet" : 100,
+            "max_base_bet" : 10000,
+            "sys_attack_timer": 120,
+            "sys_attack_speed": 5,
+            "rounds": [1,3,5,7],
+            "room_cards": [1,2,3,4],
+            "roominfo": "pk(经典块)"
+        },
+        "26501": {
+            "id": 26501,
+            "name": "极速pk",
+            "blocktype": 0,
+            "color": "yellow2",
+            "fee": 0,
+            "min_base_bet" : 100,
+            "max_base_bet" : 10000,
+            "sys_attack_speed": 5,
+            "sys_attack_timer": 120,
+            "rounds": [1,3,5,7],
+            "room_cards": [1,2,3,4],
+            "roominfo": "pk(极速块)"
+        }
+    },
+    "session_items": {
+        "jd": {
+            "session": "1v1对战",
+            "match": 1,
+            "room_type": 1,
+            "gameType": 0,
+            "rooms": ["26001", "26101", "26002", "26102", "26003", "26103", "26004", "26104", "26005", "26105"]
+        },
+        "8j": {
+            "session": "8人锦标赛",
+            "match": 1,
+            "room_type": 3,
+            "gameType": 1,
+            "rooms": ["26201", "26301", "26202", "26302", "26203", "26303", "26204", "26304", "26205", "26305", "26206", "26306"]
+        },
+        "bj": {
+            "session": "大奖赛",
+            "match": 1,
+            "room_type": 5,
+            "gameType": 2,
+            "rooms": ["26450"]
+        },
+        "pk": {
+            "session": "好友pk",
+            "match": 1,
+            "room_type": 6,
+            "gameType": 3,
+            "rooms": ["26501", "26500"]
+        }
+    },
+
+    "templates": {
+        "default": ["jd", "8j", "bj", "pk"]
+    }
+}

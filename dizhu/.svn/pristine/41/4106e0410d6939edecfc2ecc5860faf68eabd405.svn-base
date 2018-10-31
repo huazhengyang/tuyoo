@@ -1,0 +1,571 @@
+# -*- coding:utf-8 -*-
+'''
+Created on 2018年8月10日
+
+@author: wangyonghui
+'''
+from sre_compile import isstring
+
+import datetime
+
+from dizhu.entity import dizhu_util
+from dizhu.entity.dizhuconf import DIZHU_GAMEID
+from dizhu.entity.treasure_chest.dao.treasure_chest_dao import loadUserTreasureChest, saveUserTreasureChest
+from dizhu.entity.treasure_chest.events import TreasureChestEvent
+from hall.entity.hallconf import HALL_GAMEID
+from hall.entity.usercoupon import user_coupon_details
+from hall.entity.usercoupon.events import UserCouponReceiveEvent
+from poker.entity.biz.content import TYContentItem
+from poker.entity.biz.exceptions import TYBizConfException
+from poker.entity.configure import configure
+from poker.entity.dao import daobase, sessiondata, userdata
+from poker.entity.events.tyevent import EventConfigure
+from poker.util import strutil
+import poker.util.timestamp as pktimestamp
+import freetime.util.log as ftlog
+import poker.entity.events.tyeventbus as pkeventbus
+
+
+TREASURE_CHEST_TYPE_AS_WINSTREAK = 'winStreak'  # 连胜奖励宝箱
+
+TREASURE_CHEST_TYPE_DESC_DICT = {
+    TREASURE_CHEST_TYPE_AS_WINSTREAK: '连胜宝箱'
+}
+
+
+class WinStreakConf(object):
+    def __init__(self):
+        self.winStreak = None
+        self.name = None
+        self.level = None
+        self.pic = None
+        self.rewardDesc = None
+        self.rewards = None
+
+    def fromDict(self, d):
+        self.winStreak = d.get('winStreak')
+        if not isinstance(self.winStreak, int):
+            raise TYBizConfException(d, 'WinStreakConf.winStreak must be int')
+
+        self.name = d.get('name')
+        if not isstring(self.name):
+            raise TYBizConfException(d, 'WinStreakConf.name must be str')
+
+        self.level = d.get('level')
+        if not isinstance(self.level, int):
+            raise TYBizConfException(d, 'WinStreakConf.level must be int')
+
+        self.pic = d.get('pic')
+        if not isstring(self.pic):
+            raise TYBizConfException(d, 'WinStreakConf.pic must be str')
+
+        self.rewardDesc = d.get('rewardDesc')
+        if not isstring(self.rewardDesc):
+            raise TYBizConfException(d, 'WinStreakConf.rewardDesc must be str')
+
+        self.rewards = d.get('rewards')
+        if not isinstance(self.rewards, list):
+            raise TYBizConfException(d, 'WinStreakConf.rewards must be int')
+        return self
+
+    def toDict(self):
+        return {
+            'winStreak': self.winStreak,
+            'name': self.name,
+            'level': self.level,
+            'pic': self.pic,
+            'rewardDesc': self.rewardDesc,
+            'rewards': self.rewards
+        }
+
+
+class WinStreakChestConf(object):
+    ''' 连胜配置 '''
+    def __init__(self):
+        self.open = None
+        self.chestList = None
+
+    def fromDict(self, d):
+        self.open = d.get('open')
+        if not isinstance(self.open, int):
+            raise TYBizConfException(d, 'WinStreakChestConf.open must be int')
+
+        chestList = d.get('chestList')
+        if not isinstance(chestList, list):
+            raise TYBizConfException(d, 'WinStreakChestConf.chestList must be list')
+        retList = []
+        for d in chestList:
+            retList.append(WinStreakConf().fromDict(d))
+        self.chestList = retList
+        return self
+
+
+class TreasureChestConf(object):
+    ''' 宝箱配置 '''
+    def __init__(self):
+        self.unLockSeconds = None
+        self.videoShortenSeconds = None  # 看视频
+        self.helpShortenSeconds = None  # 好友助力
+
+    def fromDict(self, d):
+        self.unLockSeconds = d.get('unLockSeconds')
+        if not isinstance(self.unLockSeconds, int):
+            raise TYBizConfException(d, 'TreasureChestConf.unLockSeconds must be int')
+
+        self.videoShortenSeconds = d.get('videoShortenSeconds')
+        if not isinstance(self.unLockSeconds, int):
+            raise TYBizConfException(d, 'TreasureChestConf.videoShortenSeconds must be int')
+
+        self.helpShortenSeconds = d.get('helpShortenSeconds')
+        if not isinstance(self.helpShortenSeconds, int):
+            raise TYBizConfException(d, 'TreasureChestConf.helpShortenSeconds must be int')
+        return self
+
+
+class TreasureChestTotalConf(object):
+    ''' 配置解析类 '''
+    def __init__(self):
+        self.switch = None
+        self.totalCount = None
+        self.clientIds = None
+        self.treasureChest = None
+        self.winStreakChest = None
+
+    def fromDict(self, d):
+        self.switch = d.get('switch')
+        if not isinstance(self.switch, int):
+            raise TYBizConfException(d, 'TreasureChestTotalConf.switch must be int')
+
+        self.totalCount = d.get('totalCount')
+        if not isinstance(self.totalCount, int):
+            raise TYBizConfException(d, 'TreasureChestTotalConf.totalCount must be int')
+
+        self.clientIds = d.get('clientIds')
+        if not isinstance(self.clientIds, list):
+            raise TYBizConfException(d, 'TreasureChestTotalConf.clientIds must be list')
+
+        treasureChest = d.get('treasureChest')
+        if not isinstance(treasureChest, dict):
+            raise TYBizConfException(d, 'TreasureChestTotalConf.treasureChest must be dict')
+        self.treasureChest = TreasureChestConf().fromDict(treasureChest)
+
+        if d.get('winStreak'):
+            winStreak = d.get('winStreak')
+            if not isinstance(winStreak, dict):
+                raise TYBizConfException(d, 'TreasureChestTotalConf.winStreak must be int')
+            self.winStreakChest = WinStreakChestConf().fromDict(winStreak)
+        return self
+
+    def getWinStreakConf(self, winStreak):
+        if self.switch != 1 or self.winStreakChest is None:
+            return None
+        if self.winStreakChest.open != 1:
+            return None
+        for ws in self.winStreakChest.chestList:
+            if ws.winStreak == winStreak:
+                return ws
+        return None
+
+
+class RewardIdGenRedis(object):
+    ''' 奖励ID生成器 '''
+    @classmethod
+    def genRewardId(cls, nowTimestamp):
+        cls.updateRewardIdInfo(nowTimestamp)
+        return daobase.executeRePlayCmd('HINCRBY', 'treasureChest.id.number', 'number', 1)
+
+    @classmethod
+    def updateRewardIdInfo(cls, nowTimestamp):
+        ''' ID 从 1000001 开始 '''
+        timstamp = int(daobase.executeRePlayCmd('HGET', 'treasureChest.id.number', 'timestamp') or 0)
+        if not pktimestamp.is_same_day(nowTimestamp, timstamp):
+            daobase.executeRePlayCmd('HSET', 'treasureChest.id.number', 'number', 1000000)
+            daobase.executeRePlayCmd('HSET', 'treasureChest.id.number', 'timestamp', nowTimestamp)
+
+
+class TreasureChest(object):
+    ''' 宝箱类 '''
+    TREASURE_CHEST_STATE_UNLOCK = 0
+    TREASURE_CHEST_STATE_COUNTDOWN = 1
+    TREASURE_CHEST_STATE_WAIT_OPEN = 2
+
+    def __init__(self):
+        self.type = None  # 宝箱来源类型
+        self.rewardId = None  # 奖励唯一识别码
+        self.rewards = None  # 奖励
+        self.createTimestamp = None  # 获得宝箱时间
+        self.state = self.TREASURE_CHEST_STATE_UNLOCK  # 宝箱状态
+        self.openTimestamp = None  # 允许开宝箱的时间
+        self.videoCount = 0  # 看视频次数
+        self.helpUserIds = 0  # 好友助力
+        self.params = {}  # 针对不同 type 会有不同参数
+
+    def fromDict(self, d):
+        self.type = d.get('type')
+        self.rewardId = d.get('rewardId')
+        self.rewards = d.get('rewards')
+        self.createTimestamp = d.get('createTimestamp')
+        self.openTimestamp = d.get('openTimestamp')
+        self.videoCount = d.get('videoCount', 0)
+        self.helpUserIds = d.get('helpUserIds', [])
+        self.state = d.get('state')
+        self.params = d.get('params', {})
+        return self
+
+    def toDict(self):
+        return {
+            'type': self.type,
+            'rewardId': self.rewardId,
+            'rewards': self.rewards,
+            'createTimestamp': self.createTimestamp,
+            'openTimestamp': self.openTimestamp,
+            'videoCount': self.videoCount,
+            'helpUserIds': self.helpUserIds,
+            'state': self.state,
+            'params': self.params
+        }
+
+
+class UserTreasureChest(object):
+    ''' 用户宝箱 '''
+    def __init__(self, userId):
+        self.userId = userId
+        self.treasureChestList = []
+
+    def loadTreasureChest(self):
+        ''' 加载用户宝箱 '''
+        data = loadUserTreasureChest(self.userId, DIZHU_GAMEID)
+        treasureChestList = []
+        if data:
+            data = strutil.loads(data)
+            for d in data:
+                treasureChestList.append(TreasureChest().fromDict(d))
+        if ftlog.is_debug():
+            ftlog.debug('UserTreasureChest.loadTreasureChest userId=', self.userId,
+                        'data=', data)
+        self.treasureChestList = treasureChestList
+        return self
+
+    def saveTreasureChest(self):
+        ''' 持久化用户宝箱数据 '''
+        value = [t.toDict() for t in self.treasureChestList]
+        if ftlog.is_debug():
+            ftlog.debug('UserTreasureChest.saveTreasureChest userId=', self.userId,
+                        'value=', value)
+        saveUserTreasureChest(self.userId, DIZHU_GAMEID, strutil.dumps(value))
+
+    def decreaseOpenTime(self, rewardId, seconds):
+        ''' 缩减开宝箱时间 '''
+        for t in self.treasureChestList:
+            if t.rewardId == rewardId:
+                if ftlog.is_debug():
+                    ftlog.debug('UserTreasureChest.decreaseOpenTime userId=', self.userId,
+                                'rewardId=', rewardId,
+                                'seconds=', seconds,
+                                'openTimestamp=', t.openTimestamp,
+                                'finalOpenTimestamp=', t.openTimestamp - seconds)
+                t.openTimestamp -= seconds
+                return max(0, t.openTimestamp - t.createTimestamp)
+        return None
+
+    def checkOpenState(self, rewardId):
+        ''' 开宝箱条件检测 '''
+        for t in self.treasureChestList:
+            if t.rewardId == rewardId:
+                if (t.openTimestamp and t.state == TreasureChest.TREASURE_CHEST_STATE_COUNTDOWN and pktimestamp.getCurrentTimestamp() >= t.openTimestamp) or \
+                        t.state == TreasureChest.TREASURE_CHEST_STATE_WAIT_OPEN:
+                    if ftlog.is_debug():
+                        ftlog.debug('UserTreasureChest.checkOpenState userId=', self.userId,
+                                    'rewardId=', rewardId,
+                                    'canOpen=', True)
+                    return True
+        if ftlog.is_debug():
+            ftlog.debug('UserTreasureChest.checkOpenState userId=', self.userId,
+                        'rewardId=', rewardId,
+                        'canOpen=', False)
+        return False
+
+    def getTreasureChestByRewardId(self, rewardId):
+        ''' 通过 rewardId 获取宝箱 '''
+        for t in self.treasureChestList:
+            if t.rewardId == rewardId:
+                if ftlog.is_debug():
+                    ftlog.debug('UserTreasureChest.getTreasureChestByRewardId userId=', self.userId,
+                                'rewardId=', rewardId,
+                                'treasureChest=', t)
+                return t
+        if ftlog.is_debug():
+            ftlog.debug('UserTreasureChest.getTreasureChestByRewardId userId=', self.userId,
+                        'rewardId=', rewardId,
+                        'treasureChest=', None)
+        return None
+
+    def delTreasureChestByRewardId(self, rewardId):
+        ''' 通过 rewardId 删除宝箱 '''
+        for index, t in enumerate(self.treasureChestList):
+            if t.rewardId == rewardId:
+                if ftlog.is_debug():
+                    ftlog.debug('UserTreasureChest.delTreasureChestByRewardId userId=', self.userId,
+                                'rewardId=', rewardId,
+                                'treasureChest=', t.toDict())
+                del self.treasureChestList[index]
+                return True
+        if ftlog.is_debug():
+            ftlog.debug('UserTreasureChest.delTreasureChestByRewardId userId=', self.userId,
+                        'rewardId=', rewardId,
+                        'treasureChest=', None)
+        return False
+
+
+class TreasureChestHelper(object):
+    ''' 宝箱对外接口类 '''
+    @classmethod
+    def genRewardId(cls):
+        ''' 生成奖励唯一ID '''
+        nowTimeStamp = pktimestamp.getCurrentTimestamp()
+        intId = RewardIdGenRedis.genRewardId(nowTimeStamp)
+        ret = datetime.datetime.fromtimestamp(nowTimeStamp).strftime('%Y%m%d') + str(intId)
+        return ret
+
+    @classmethod
+    def getWinStreakConf(cls, winStreak):
+        ''' 获取连胜配置，有的话会发送宝箱 '''
+        conf = _treasureChestTotalConf.getWinStreakConf(winStreak)
+        if conf:
+            return conf.toDict()
+        return None
+
+    @classmethod
+    def isValidUser(cls, userId):
+        ''' 对外接口是不是执行宝箱逻辑的用户 '''
+        if _treasureChestTotalConf.switch == 0:
+            return False
+        _, intClientId = sessiondata.getClientIdNum(userId)
+        if intClientId in _treasureChestTotalConf.clientIds:
+            return True
+        return False
+
+    @classmethod
+    def addTreasureChestToUser(cls, userId, rewardInfo):
+        ''' 用户添加宝箱 '''
+        userTreasureChest = UserTreasureChest(userId).loadTreasureChest()
+        if len(userTreasureChest.treasureChestList) >= _treasureChestTotalConf.totalCount:
+            ftlog.warn('TreasureChestHelper.addTreasureChestToUser upToMaxCount userId=', userId,
+                       'totalCount=', _treasureChestTotalConf.totalCount)
+            return
+        userTreasureChest.treasureChestList.append(TreasureChest().fromDict(rewardInfo))
+        userTreasureChest.saveTreasureChest()
+        ftlog.info('TreasureChestHelper.addTreasureChestToUser userId=', userId,
+                   'rewardInfo=', rewardInfo)
+
+    @classmethod
+    def openTreasureChest(cls, userId, rewardId):
+        ''' 开宝箱 '''
+        userTreasureChest = UserTreasureChest(userId).loadTreasureChest()
+        if userTreasureChest.checkOpenState(rewardId):
+            ret = userTreasureChest.getTreasureChestByRewardId(rewardId)
+            rewards = ret.rewards
+            rewardType = ret.type
+            # 给用户发奖
+            if rewardType == TREASURE_CHEST_TYPE_AS_WINSTREAK:
+                winSreak = ret.params.get('winStreak')
+                winSreakConf = TreasureChestHelper.getWinStreakConf(winSreak)
+                if winSreakConf:
+                    rewards = [dizhu_util.getItemByWeight(winSreakConf['rewards'])]
+                    contentItems = TYContentItem.decodeList(rewards)
+                    dizhu_util.sendRewardItems(userId, contentItems, None, 'DIZHU_SEGMENT_MATCH_WINSTREAK', 0)
+                    ftlog.info('TreasureChestHelper.openTreasureChest sendReward userId=', userId,
+                               'rewardId=', rewardId,
+                               'rewards=', rewards)
+                    # 如果是奖券则广播奖券事件
+                    for reward in rewards:
+                        if reward['itemId'] == 'user:coupon':
+                            if rewardType == TREASURE_CHEST_TYPE_AS_WINSTREAK:
+                                from hall.game import TGHall
+                                TGHall.getEventBus().publishEvent(
+                                    UserCouponReceiveEvent(HALL_GAMEID, userId, reward['count'], user_coupon_details.USER_COUPON_SOURCE_SEGMENT_WINSTREAK_TASK))
+
+            # 打开后删除宝箱
+            ret = userTreasureChest.delTreasureChestByRewardId(rewardId)
+            if ret:
+                userTreasureChest.saveTreasureChest()
+                ftlog.info('TreasureChestHelper.openTreasureChest deleteTreasureChest userId=', userId,
+                           'rewardId=', rewardId,
+                           'rewards=', rewards)
+            return True, rewards
+        return False, None
+
+    @classmethod
+    def getTreasureChestList(cls, userId):
+        ''' 获取用户宝箱列表 '''
+        userTreasureChest = UserTreasureChest(userId).loadTreasureChest()
+        # 每次请求需要更新所有宝箱的状态
+        saved = False
+        for chest in userTreasureChest.treasureChestList:
+            if chest.state == TreasureChest.TREASURE_CHEST_STATE_UNLOCK:
+                continue
+            if chest.openTimestamp - pktimestamp.getCurrentTimestamp() <= 0:
+                chest.state = TreasureChest.TREASURE_CHEST_STATE_WAIT_OPEN
+                saved = True
+        if saved:
+            userTreasureChest.saveTreasureChest()
+
+        ret = []
+        for t in userTreasureChest.treasureChestList:
+            retD = {
+                'name': TREASURE_CHEST_TYPE_DESC_DICT[t.type],
+                'level': '',
+                'rewardDesc': '',
+                'pic': '',
+                'rewards': t.rewards,
+                'rewardId': t.rewardId,
+                'createTimestamp': t.createTimestamp,
+                'leftSeconds': max(0, t.openTimestamp - pktimestamp.getCurrentTimestamp()) if t.openTimestamp else _treasureChestTotalConf.treasureChest.unLockSeconds,
+                'state': t.state
+            }
+            if t.type == TREASURE_CHEST_TYPE_AS_WINSTREAK:
+                winSreak = t.params.get('winStreak')
+                winSreakConf = TreasureChestHelper.getWinStreakConf(winSreak)
+                if winSreakConf:
+                    retD.update(winSreakConf)
+                    retD['rewards'] = [d['item'] for d in retD['rewards']]
+                    del retD['winStreak']
+                ret.append(retD)
+        if ftlog.is_debug():
+            ftlog.debug('TreasureChestHelper.getTreasureChestList userId=', userId,
+                        'ret=', ret)
+        return ret
+
+    @classmethod
+    def unlockTreasureChest(cls, userId, rewardId):
+        ''' 解锁宝箱 '''
+        userTreasureChest = UserTreasureChest(userId).loadTreasureChest()
+        for chest in userTreasureChest.treasureChestList:
+            if chest.rewardId == rewardId and chest.state == TreasureChest.TREASURE_CHEST_STATE_UNLOCK:
+                chest.state = TreasureChest.TREASURE_CHEST_STATE_COUNTDOWN
+                chest.openTimestamp = pktimestamp.getCurrentTimestamp() + _treasureChestTotalConf.treasureChest.unLockSeconds
+                if ftlog.is_debug():
+                    ftlog.debug('TreasureChestHelper.unlockTreasureChest userId=', userId,
+                                'rewardId=', rewardId,
+                                'openTimestamp=', chest.openTimestamp,
+                                'ret=', True)
+                userTreasureChest.saveTreasureChest()
+                return True
+        return False
+
+    @classmethod
+    def videoShortenTreasureChest(cls, userId, rewardId):
+        ''' 看视频缩短时间 '''
+        # 返回剩余秒数及其状态
+        userTreasureChest = UserTreasureChest(userId).loadTreasureChest()
+        for chest in userTreasureChest.treasureChestList:
+            if chest.rewardId == rewardId:
+                chest.openTimestamp -= _treasureChestTotalConf.treasureChest.videoShortenSeconds
+                if chest.openTimestamp - pktimestamp.getCurrentTimestamp() <= 0:
+                    chest.state = TreasureChest.TREASURE_CHEST_STATE_WAIT_OPEN
+                userTreasureChest.saveTreasureChest()
+                return True, chest.state, max(0, chest.openTimestamp - pktimestamp.getCurrentTimestamp())
+
+        ftlog.warn('TreasureChestHelper.videoShortenTreasureChest NOT EXISTS userId=', userId,
+                   'rewardId=', rewardId)
+        return False, None, None
+
+    @classmethod
+    def helpShortenTreasureChest(cls, userId, rewardId, helpUserId):
+        ''' 好友助力缩短时间 '''
+        # 返回剩余秒数及其状态
+        userTreasureChest = UserTreasureChest(helpUserId).loadTreasureChest()
+        for chest in userTreasureChest.treasureChestList:
+            if chest.rewardId == rewardId:
+                if helpUserId in chest.helpUserIds or helpUserId == userId:
+                    ftlog.warn('TreasureChestHelper.helpShortenTreasureChest HAS_HELP userId=', userId,
+                               'rewardId=', rewardId,
+                               'helpUserId=', helpUserId,
+                               'helpCount=', len(chest.helpUserIds))
+                    return False, None, None
+
+                chest.openTimestamp -= _treasureChestTotalConf.treasureChest.helpShortenSeconds
+                chest.helpUserIds.append(userId)
+                if chest.openTimestamp - pktimestamp.getCurrentTimestamp() <= 0:
+                    chest.state = TreasureChest.TREASURE_CHEST_STATE_WAIT_OPEN
+                userTreasureChest.saveTreasureChest()
+                return True, chest.state, max(0, chest.openTimestamp - pktimestamp.getCurrentTimestamp())
+
+        ftlog.warn('TreasureChestHelper.helpShortenTreasureChest NOT EXISTS helpUserId=', helpUserId,
+                   'rewardId=', rewardId)
+        return False, None, None
+
+    @classmethod
+    def getHelpMsg(cls, helpUserId):
+        ''' 助力信息 '''
+        seconds = _treasureChestTotalConf.treasureChest.helpShortenSeconds
+        userdata.checkUserData(helpUserId)
+        name, _ = userdata.getAttrs(helpUserId, ['name', 'purl'])
+        if seconds < 60:
+            helpMsg = '感谢您帮助【%s】减少%s秒的开宝箱时间~' % (name, seconds)
+        else:
+            minutes = seconds / 60
+            leftSecond = seconds % 60
+            if leftSecond == 0:
+                helpMsg = '感谢您帮助【%s】减少%s分钟的开宝箱时间~' % (name, minutes)
+            else:
+                helpMsg = '感谢您帮助【%s】减少%s分钟%s秒的开宝箱时间~' % (name, minutes, leftSecond)
+        return helpMsg
+
+    @classmethod
+    def getShortSeconds(cls):
+        return _treasureChestTotalConf.treasureChest.videoShortenSeconds, _treasureChestTotalConf.treasureChest.helpShortenSeconds
+
+
+def _processTreasureChestEvent(evt):
+    ''' 处理宝箱事件函数 '''
+    rewardId = TreasureChestHelper.genRewardId()
+    rewardInfo = {
+        'type': evt.rewardType,
+        'rewards': evt.rewards,
+        'rewardId': rewardId,
+        'createTimestamp': pktimestamp.getCurrentTimestamp(),
+        'state': TreasureChest.TREASURE_CHEST_STATE_UNLOCK,
+        'openTimestamp': None,
+        'params': evt.params
+    }
+    if ftlog.is_debug():
+        ftlog.debug('treasure_chest._processTreasureChestEvent userId=', evt.userId,
+                    'rewardInfo=', rewardInfo)
+    TreasureChestHelper.addTreasureChestToUser(evt.userId, rewardInfo)
+
+
+def subscribeTreasureChestEvent():
+    from dizhu.game import TGDizhu
+    TGDizhu.getEventBus().subscribe(TreasureChestEvent, _processTreasureChestEvent)
+
+
+_inited = False
+_treasureChestTotalConf = None
+
+
+def _reloadConf():
+    global _treasureChestTotalConf
+    d = configure.getGameJson(DIZHU_GAMEID, 'treasure.chest', {}, 0)
+    conf = TreasureChestTotalConf().fromDict(d)
+    _treasureChestTotalConf = conf
+
+    ftlog.info('treasure_chest._reloadConf succeed',
+               '_treasureChestTotalConf=', _treasureChestTotalConf)
+
+
+def _onConfChanged(event):
+    if _inited and event.isChanged('game:6:treasure.chest:0'):
+        ftlog.debug('treasure_chest._onConfChanged')
+        _reloadConf()
+
+
+def _initialize():
+    ftlog.debug('treasure_chest._initialize begin')
+    global _inited
+    if not _inited:
+        _inited = True
+        _reloadConf()
+        subscribeTreasureChestEvent()
+        pkeventbus.globalEventBus.subscribe(EventConfigure, _onConfChanged)
+    ftlog.debug('treasure_chest._initialize end')

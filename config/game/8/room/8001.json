@@ -1,0 +1,103 @@
+{
+    "autoQueue": 0.0, 
+    "couponActCfg": {
+        "add": 0, 
+        "memberAdd": 0, 
+        "timeSegs": [
+            [
+                [
+                    12, 
+                    0
+                ], 
+                [
+                    24, 
+                    0
+                ]
+            ]
+        ]
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            2000, 
+            200, 
+            -200
+        ], 
+        "chicken": [
+            2000, 
+            200, 
+            -200
+        ], 
+        "doubleAce": [
+            2000, 
+            400, 
+            400
+        ], 
+        "eggs": [
+            2000, 
+            200, 
+            -200
+        ], 
+        "fishing": [
+            2000, 
+            200, 
+            -200
+        ], 
+        "ring": [
+            2000, 
+            400, 
+            400
+        ], 
+        "rose": [
+            2000, 
+            400, 
+            400
+        ], 
+        "thumb": [
+            2000, 
+            400, 
+            400
+        ]
+    }, 
+    "isLiveShowRoom": 1.0, 
+    "matchConf": {
+        "match_id": "0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 99900000000, 
+    "minCoin": 100000, 
+    "minCoinQS": 99900000000, 
+    "minTableCount": 0, 
+    "name": "直播间1", 
+    "playMode": "classic", 
+    "queueVipLevel": 5.0, 
+    "rewardDealerChip": 2000, 
+    "roomID": 8001, 
+    "sortId": 1, 
+    "tableConf": {
+        "bb": 5000, 
+        "big_pot": 100000, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 100000, 
+        "buyinConf": "1/2/3/4/5/6/7/8/9/10", 
+        "call": 1, 
+        "callChip": -1, 
+        "commission": 0.03, 
+        "fee": 2000, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "max_bigpot_fee": 50000, 
+        "min_players": 2, 
+        "nameForPc": "直播间1", 
+        "optime": 11, 
+        "pay_factor": 1.0, 
+        "prebet": 2000, 
+        "sb": 2500, 
+        "start_card": 2, 
+        "tname": "直播间1", 
+        "win_exp": 2
+    }, 
+    "typeName": "vip"
+}

@@ -1,0 +1,68 @@
+
+{
+    "task": {
+        "401": {
+            "taskId": 401,
+            "gameId": 207,
+            "taskName": "特殊牌型",
+            "taskDesc": "***玩法吃N次",
+            "taskCount": 2,
+            "roomList": -1,
+            "urlOrLink": "someThing",
+            "autoAccept": 1,
+            "autoReward": 0,
+            "taskFinishEvent": 4001,
+            "reward": {
+                "items": [
+                    {
+                       "count": 2,
+                        "itemId": "item:10007"
+                    }
+                ],
+                "typeId": "FixedContent"
+            }
+        },
+        "402": {
+            "taskId": 402,
+            "gameId": 207,
+            "taskName": "特殊牌型",
+            "taskDesc": "***玩法碰N次",
+            "taskCount": 2,
+            "roomList": -1,
+            "urlOrLink": "someThing",
+            "autoAccept": 1,
+            "autoReward": 1,
+            "taskFinishEvent": 4002,
+            "reward": {
+                "items": [
+                    {
+                        "count": 2,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            }
+        },
+        "403": {
+            "taskId": 403,
+            "gameId": 207,
+            "taskName": "特殊牌型",
+            "taskDesc": "***玩法杠N次",
+            "taskCount": 2,
+            "roomList": -1,
+            "urlOrLink": "someThing",
+            "autoAccept": 1,
+            "autoReward": 1,
+            "taskFinishEvent": 9,
+            "reward": {
+                "items": [
+                    {
+                        "count": 2,
+                        "itemId": "user:coupon"
+                    }
+                ],
+                "typeId": "FixedContent"
+            }
+        }
+    }
+}

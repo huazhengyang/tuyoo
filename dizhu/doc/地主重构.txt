@@ -1,0 +1,74 @@
+1. 重构原因
+2. 目标
+	a) 分离核心牌桌业务逻辑、外围业务逻辑、协议
+	b) 理清各个角色的职能和依存关系，比如房间，玩法、桌子、座位、Player，User，结算，比赛
+	c) 支持地主内随时离开桌子
+
+3. 角色定义
+	User
+		途游大厅用户，全服唯一UserId
+	Player
+		游戏玩家，每个房间唯一，Player记录报名费，带入金币，房间ID，桌子ID，所在座位等信息，需要写入到redis，用于断线重连后续操作
+	CtrlRoom
+		控制房间，控制玩家组桌，比赛报名
+	TableRoom
+		桌子房间，只是桌子的容器
+	Table
+		牌桌，用于控制牌局
+	Seat
+		座位，玩家的座位
+	PlayMode
+		玩法，用于创建桌子，状态机等
+	
+3. 实施细节
+	第一阶段：地主牌桌重构
+	
+	牌桌输入 TableCommand 产出 TableEvent，内部运转不对外暴露，牌桌外围系统监听牌桌产出的TableEvent进行处理
+	
+	a) 地主牌型重构：
+	b) 牌桌状态机：
+		每个状态可能会有子状态, 桌面业务通过命令驱动状态机进而驱动桌子/牌局运行
+		每个状态包含能执行的哪些操作，包括进入状态、退出状态要执行的操作
+		普通桌
+			StateMachine:
+				addState(IDLE)
+					addAction(坐下准备)
+					addAction(用户准备超时)
+				addState(CALLING)
+					addEntryAction(发牌)
+					addEntryAction(选择首叫玩家)
+					addAction(用户叫/抢地主)
+				addState(PLAYING)
+					addAction(用户出牌)
+				addState(FINAL)
+					addEntryAction(结算)
+		自建桌
+			IDLE
+			CALLING
+			PLAYING
+				NM_JIABEI
+					addAction...
+				DZ_JIABEI
+					addAction...
+				EXCHANGE_CARD
+					addAction...
+			FINAL
+			
+		二打一
+			IDLE
+			CALLING
+				MN_JIABEI
+				DZ_JIABEI
+			PLAYING
+			FINAL
+	
+	c) 协议分离：
+		增加监听桌子各种事件，并进行协议组装，发送到客户端
+		
+	d) 金币代入问题：
+		目前是在桌子带入，改为进房间（CtrlRoom）带入，出房间（CtrlRoom）带出
+		
+	e) 结算：
+		牌局输出每个人赢了多少倍，多少炸弹，是否春天等，结算员根据牌局结果进行结算
+		
+		

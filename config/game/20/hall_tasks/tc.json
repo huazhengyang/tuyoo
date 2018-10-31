@@ -1,0 +1,149 @@
+{
+    "taskUnits": [
+        {
+            "taskUnitId": "hall.task.wzq",
+            "typeId": "hall.task.newuser",
+            "pools": [
+                {
+                    "acceptedCond": {
+                        "typeId": "user.cond.registerDays",
+                        "startDays": -1,
+                        "stopDays": 0
+                    },
+                    "nextType": "nextByOrder",
+                    "taskOrder": [
+                        200001,
+                        200002,
+                        200003,
+                        200004
+                    ],
+                    "visibleCond": {
+                        "typeId": "user.cond.registerDays",
+                        "startDays": -1,
+                        "stopDays": 15
+                    },
+                    "tasks": [
+                        {
+                            "kindId": 200001,
+                            "typeId": "hall.task.simple",
+                            "name": "1元微信红包",
+                            "desc": "金币达到5000金币，奖励1元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 5000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.chip",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "1元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:1092",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 200002,
+                            "typeId": "hall.task.simple",
+                            "name": "1元微信红包",
+                            "desc": "金币达到10000金币，奖励1元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 10000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.chip",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "1元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:1093",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 200003,
+                            "typeId": "hall.task.simple",
+                            "name": "1元微信红包",
+                            "desc": "金币达到15000金币，奖励1元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 15000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.chip",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "1元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:1094",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "freshTip": true
+                        },
+                        {
+                            "kindId": 200004,
+                            "typeId": "hall.task.simple",
+                            "name": "2元微信红包",
+                            "desc": "金币达到20000金币，奖励2元微信红包",
+                            "pic": "task_redPackets",
+                            "count": 20000,
+                            "star": 0,
+                            "totalLimit": 1,
+                            "inspectors": [
+                                {
+                                    "typeId": "ddz.chip",
+                                    "conditions": []
+                                }
+                            ],
+                            "rewardContent": {
+                                "typeId": "FixedContent",
+                                "desc": "2元微信红包",
+                                "items": [
+                                    {
+                                        "itemId": "item:1095",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            "rewardMail": "",
+                            "freshTip": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "templates": {
+        "default": {},
+        "wechat_redpackets2": {
+            "hall.task.newuser": "hall.task.wzq"
+        }
+    }
+}

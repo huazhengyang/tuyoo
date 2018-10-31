@@ -1,0 +1,475 @@
+{
+	"brk_cooldown": 1800,
+	"brkegg_prize_mail": "您砸金蛋获得奖励\\${gotContent}",
+		"pool": [
+		{
+			"weight": 1600,
+			"talkPlayer": {
+				"speak":"哇！好多银币！发财来！",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": null,
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "user:chip", "count": 5000, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1350,
+			"talkPlayer": {
+				"speak":"决然是爆稀有的宠物碎片！！真是赚到啦！",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.petUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "petitem:17", "count": 1, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1200,
+			"talkPlayer": {
+				"speak":"决然是爆稀有的宠物碎片！！真是赚到啦！",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.petUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "petitem:14", "count":2, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 960,
+			"talkPlayer": {
+				"speak":"决然是爆稀有的宠物碎片！！真是赚到啦！",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.petUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "petitem:16", "count":3, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 480,
+			"talkPlayer": {
+				"speak":"决然是爆稀有的宠物碎片！！真是赚到啦！",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.petUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "petitem:15", "count":4, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1150,
+			"talkPlayer": {
+				"speak":"哦！是味美的食物！真是想什么来什么！饿了，嘿嘿….",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.petUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "petitem:11", "count":1, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1270,
+			"talkPlayer": {
+				"speak":"哦！是味美的食物！真是想什么来什么！饿了，嘿嘿….",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.petUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "petitem:8", "count":1, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1070,
+			"talkPlayer": {
+				"speak":"哦！是味美的食物！真是想什么来什么！饿了，嘿嘿….",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.petUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "petitem:7", "count":1, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1070,
+			"talkPlayer": {
+				"speak":"哦！是味美的食物！真是想什么来什么！饿了，嘿嘿….",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.petUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "petitem:6", "count":1, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 700,
+			"talkPlayer": {
+				"speak":"哦！是味美的食物！真是想什么来什么！饿了，嘿嘿….",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.petUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "petitem:5", "count":1, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 500,
+			"talkPlayer": {
+				"speak":"哦！是味美的食物！真是想什么来什么！饿了，嘿嘿….",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.petUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "petitem:4", "count":1, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1350,
+			"talkPlayer": {
+				"speak":"不是吧，金色相片？？超稀有！超赞的说，哈哈…",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.photoUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "photoitem:31", "count":1, "weight":1},
+					{"itemId": "photoitem:40", "count":1, "weight":1},
+					{"itemId": "photoitem:45", "count":1, "weight":1},
+					{"itemId": "photoitem:53", "count":1, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 960,
+			"talkPlayer": {
+				"speak":"不是吧，银色相片？？超稀有！超赞的说，哈哈…",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.photoUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "photoitem:9", "count":1, "weight":1},
+					{"itemId": "photoitem:12", "count":1, "weight":1},
+					{"itemId": "photoitem:20", "count":1, "weight":1},
+					{"itemId": "photoitem:35", "count":1, "weight":1},
+					{"itemId": "photoitem:38", "count":1, "weight":1},
+					{"itemId": "photoitem:54", "count":1, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 510,
+			"talkPlayer": {
+				"speak":"哈哈哈，银色相片！赚啦！赚啦…",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": {
+				"typeId": "brkegg.unlockInspector.photoUnlock"
+			},
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "photoitem:3", "count":1, "weight":1},
+					{"itemId": "photoitem:8", "count":1, "weight":1},
+					{"itemId": "photoitem:10", "count":1, "weight":1},
+					{"itemId": "photoitem:15", "count":1, "weight":1},
+					{"itemId": "photoitem:26", "count":1, "weight":1},
+					{"itemId": "photoitem:27", "count":1, "weight":1},
+					{"itemId": "photoitem:34", "count":1, "weight":1},
+					{"itemId": "photoitem:42", "count":1, "weight":1},
+					{"itemId": "photoitem:46", "count":1, "weight":1},
+					{"itemId": "photoitem:50", "count":1, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1200,
+			"talkPlayer": {
+				"speak":"呵呵，稀有道具，这下闯关更容易啦，哈哈！",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": null,
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "item:100000", "count":10, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1200,
+			"talkPlayer": {
+				"speak":"呵呵，稀有道具，这下闯关更容易啦，哈哈！",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": null,
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "item:100001", "count":10, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1200,
+			"talkPlayer": {
+				"speak":"呵呵，稀有道具，这下闯关更容易啦，哈哈！",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": null,
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "item:100002", "count":10, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1200,
+			"talkPlayer": {
+				"speak":"呵呵，稀有道具，这下闯关更容易啦，哈哈！",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": null,
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "item:100004", "count":10, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1200,
+			"talkPlayer": {
+				"speak":"呵呵，稀有道具，这下闯关更容易啦，哈哈！",
+				"button": "确定",
+				"todotask": null
+			},
+			"unlockInspector": null,
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": false,
+				"prizes": [
+					{"itemId": "item:100005", "count":10, "weight":1}
+				]
+			}
+		}
+		
+		
+		,
+		{
+			"weight": 2850,
+			"talkPlayer": {
+				"speak":"1天的记牌器？真是赚到了！耶！～",
+				"button": "去玩牌",
+				"todotask": {
+			      "enter_param"                       : {
+			       "pluginParams"                      : {
+			        "gameType"                          : 1
+			       },
+			       "type"                              : "roomlist"
+			      },
+			      "gameId"                            : 6,
+			      "typeId"                            : "hall.goto.enter.game"
+			     }
+			},
+			"unlockInspector": null,
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": true,
+				"prizes": [
+					{"itemId": "item:2003", "count":1, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1500,
+			"talkPlayer": {
+				"speak":"这布伶布伶黄灿灿的是什么？金币？我去，发财啦！",
+				"button": "去玩牌",
+				"todotask": {
+			      "enter_param"                       : {
+			       "pluginParams"                      : {
+			        "gameType"                          : 1
+			       },
+			       "type"                              : "roomlist"
+			      },
+			      "gameId"                            : 6,
+			      "typeId"                            : "hall.goto.enter.game"
+			     }
+			},
+			"unlockInspector": null,
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": true,
+				"prizes": [
+					{"itemId": "user:chip", "count":500, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1950,
+			"talkPlayer": {
+				"speak":"这布伶布伶黄灿灿的是什么？金币？我去，发财啦！",
+				"button": "去玩牌",
+				"todotask": {
+			      "enter_param"                       : {
+			       "pluginParams"                      : {
+			        "gameType"                          : 1
+			       },
+			       "type"                              : "roomlist"
+			      },
+			      "gameId"                            : 6,
+			      "typeId"                            : "hall.goto.enter.game"
+			     }
+			},
+			"unlockInspector": null,
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": true,
+				"prizes": [
+					{"itemId": "user:chip", "count":300, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 3300,
+			"talkPlayer": {
+				"speak":"哇哦！居然是门票！！快去比赛场看看吧！",
+				"button": "去比赛",
+				"todotask": {
+			      "enter_param"                       : {
+			       "pluginParams"                      : {
+			        "gameType"                          : 3
+			       },
+			       "type"                              : "roomlist"
+			      },
+			      "gameId"                            : 6,
+			      "typeId"                            : "hall.goto.enter.game"
+			   }
+			},
+			"unlockInspector": null,
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": true,
+				"prizes": [
+					{"itemId": "item:1007", "count":1, "weight":1}
+				]
+			}
+		},
+		{
+			"weight": 1950,
+			"talkPlayer": {
+				"speak":"补签卡哟，去补签喽，嘿嘿!～",
+				"button": "去签到",
+				"todotask": {
+			      "typeId"   : "hall.goto.checkin"
+			     }
+			},
+			"unlockInspector": null,
+			"prizeSelector": {
+				"typeId": "brkegg.prizeSelector.weightRandom",
+				"onlinePrizeMode": true,
+				"prizes": [
+					{"itemId": "item:4168", "count":1, "weight":1}
+				]
+			}
+		}
+	]
+
+}

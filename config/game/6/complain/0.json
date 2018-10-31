@@ -1,0 +1,38 @@
+{
+  "complains" : {
+    "default" : {
+      "fee" :5000,
+      "time" : "^([0-2])([0-9]):([0-5])([0-9])$",
+      "compensation" : 5000
+    },
+	"xingyaodashi" : {
+      "fee" :500000,
+      "time" : "^([0-2])([0-9]):([0-5])([0-9])$",
+      "compensation" : 500000
+    },
+	"xingyao" : {
+      "fee" :30000,
+      "time" : "^([0-2])([0-9]):([0-5])([0-9])$",
+      "compensation" : 30000
+    }
+  },
+  "rooms" : {
+	"6005": "default",
+  "6015": "default",
+  "6016": "xingyao",
+  "6006": "xingyao",
+  "6025": "default",
+	"6035": "default",
+	"6026": "xingyao",
+	"6036": "xingyao",
+	"6009": "xingyao",
+	"6019": "xingyao",
+	"6029": "xingyao",
+	"6039": "xingyao"
+  },
+  "tips" : {
+  	"error":"您的金币不足，请拨打客服电话4008098000",
+    "succ":"投诉已提交，3个工作日发送游戏内短消息通知处理结果"
+  },
+  "clientIdLimit": 3.72
+}

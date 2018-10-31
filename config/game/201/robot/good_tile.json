@@ -1,0 +1,506 @@
+{
+    "returnBackCfg":
+    {
+        "worthyPlayer":
+        {
+            "freeBase": 8000,
+            "freeMax" : 30000,
+            "freeRange":[0.5, 1.2],
+            "rechargeMax":200000,
+            "rechargeRange":[1.2,1.8]
+        },
+        "killRate": 70,
+        "maxContinueKillGameCount":3,
+        "relaxGameCount":2,
+        
+        "feedGoodTile":
+        {
+            "freshPlayer":[1,3],
+            "rechargePlayer":[1,3],
+            "aiPlayer":[2,3]
+        },
+        "huanGoodTile":
+        {
+            "ziMo":2
+        },
+        "feedGoodTileRate":30
+    },
+    "201201": 
+    [
+        {
+            "chipRatio":22,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":30,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":40,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":50,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":60,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":60,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":80,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":70,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        }     
+    ],
+    "201202": 
+    [
+        {
+            "chipRatio":30,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":20,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":50,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":30,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":70,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":40,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":100,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":50,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":200,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":60,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":300,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":70,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        }       
+    ],
+    "201203": 
+    [
+        {
+            "chipRatio":30,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":20,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":50,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":30,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":70,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":40,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":100,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":50,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":200,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":60,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":300,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":70,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        }         
+    ],
+    "201206": 
+    [
+        {
+            "chipRatio":30,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":20,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":50,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":30,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":70,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":40,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":100,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":50,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":200,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":60,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":300,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":70,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        }       
+    ],
+    "201207": 
+    [
+        {
+            "chipRatio":30,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":20,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":50,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":30,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":70,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":40,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":100,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":50,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":200,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":60,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":300,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":70,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        }       
+    ],
+    "201101": 
+    [
+        {
+            "chipRatio":16,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":30,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":30,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":50,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":50,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":60,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":70,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":70,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        } 
+    ],
+    "201102": 
+    [
+        {
+            "chipRatio":25,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":20,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":40,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":30,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":60,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":40,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":80,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":50,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":150,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":60,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":200,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":70,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        }       
+    ],
+    "201103": 
+    [
+        {
+            "chipRatio":30,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":20,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":50,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":30,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":70,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":40,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":100,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":50,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":200,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":60,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":300,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":70,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        }       
+    ],
+    "201106": 
+    [
+        {
+            "chipRatio":30,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":20,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":50,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":30,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":70,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":40,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":100,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":50,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":200,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":60,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":300,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":70,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        }      
+    ],
+    "201107": 
+    [
+        {
+            "chipRatio":30,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":20,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":50,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":30,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":70,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":40,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":100,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":50,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":200,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":60,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        },
+        {
+            "chipRatio":300,
+            "gameCount": 5,
+            "gameCountAfterPay": 5,
+            "goodTilePoint":70,
+            "robotCount":[1,2],
+            "maxContinueCount": 3
+        }
+    ]
+}

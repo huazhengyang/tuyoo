@@ -1,0 +1,38 @@
+{
+  "user.avatar.default" : "http://ddz.image.tuyoo.com/avatar/0.png",
+  "client.heart.beat.times" : 6,
+  "client.connect.timeouts" : 35,
+  "newuser.ip.count.limit" : 0,
+  "newuser.ip.count.limit" : 50,
+  "user_forbidden_tips" : "请联系客服4008-098-000",
+  "user_forbidden_info" : "尊敬的用户，您的帐号{userId}已被禁止登录。请联系客服4008-098-000",
+  "winpc_360qt_verify_proxy" : "http://qtverify.qipai.360.cn:8000/api.php?head_size=100_100&Q=%s&T=%s",
+  "check_clientid_num_before_login" : 0,
+  "newsnsid.reward.callback" : {
+    "7" : "http://innerportal.vmtuyoo.me/v1/game/newsnsid"
+  },
+  "bindsnsid.reward.callback" : {
+    "7" : "http://innerportal.vmtuyoo.me/v1/game/newsnsid"
+  },
+  "forbidden.reward.callback" : {
+    "7" : "http://innerportal.vmtuyoo.me/v1/game/newsnsid"
+  },
+  "bindphone.reward.callback" : {
+    "7" : "http://innerportal.vmtuyoo.me/v1/game/newsnsid"
+  },
+  "beauty.certify.margin" : {
+    "6" : {
+      "collect" : "http://innerportal.vmtuyoo.me/v1/dizhu/beautycert/deduct",
+      "back" : "http://innerportal.vmtuyoo.me/v1/dizhu/beautycert/return",
+      "reward" : "http://innerportal.vmtuyoo.me/v1/dizhu/beautycert/reward"
+    },
+    "8" : {
+      "collect" : "http://innerportal.vmtuyoo.me/v1/texaspoker/beautycert/deduct",
+      "back" : "http://innerportal.vmtuyoo.me/v1/texaspoker/beautycert/return",
+      "reward" : "http://innerportal.vmtuyoo.me/v1/texaspoker/beautycert/reward"
+    }
+  },
+  "push.server" : "http://10.3.13.16:8888",
+  "user.avatar.default" : ["http://ddz.image.tuyoo.com/avatar/head_china.png",
+      "http://ddz.image.tuyoo.com/avatar/head_coffee.png"]
+}

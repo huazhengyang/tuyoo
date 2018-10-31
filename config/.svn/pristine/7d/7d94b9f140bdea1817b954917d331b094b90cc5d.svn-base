@@ -1,0 +1,741 @@
+{
+ "templates"   : [ ],
+ "promotions"  : [
+  {
+   "promotionId" : 1,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subStore"    : "coin",
+     "typeId"      : "hall.goto.shop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "商城",
+   "url"         : "${http_download}/hall/promote/imgs/store.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 2,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.activity",
+     "url"         : "http://TODO.html"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "活动页面",
+   "url"         : "http://icon.nipic.com/BannerPic/20150126/indexmedia/20150126161003.jpg"
+  },
+  {
+   "promotionId" : 3,
+   "animate"     : 1,
+   "todotasks"   : [ ],
+   "redPoint"    : [ ],
+   "displayName" : "插件游戏跳转",
+   "url"         : "http://icon.nipic.com/BannerPic/20150126/indexmedia/20150126161003.jpg"
+  },
+  {
+   "promotionId" : 4,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "title"       : "单次充值6元以上，可额外领取",
+     "payOrder"    : {
+      "productId"   : "TY9999D0006001"
+     },
+     "confirmDesc" : "对不起，您不满足领取礼包的条件\n现在就购买\\${product.displayName}(\\${product.price}元)即可领取豪华大礼包！",
+     "confirm"     : 1,
+     "typeId"      : "todotask.firstRecharge",
+     "url"         : "${http_download}/hall/promote/imgs/first_recharge_content.png"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_new_firstrecharge_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 5,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.vip"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "VIP",
+   "url"         : "${http_download}/hall/promote/imgs/vip.png"
+  },
+  {
+   "promotionId" : 6,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 100,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "每推荐一个好友注册，您可得1元微信红包（每日首次分享赠500金币）"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "推荐分享",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_dailyshare_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeReceive"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包奖励",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_new_firstrecharge_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "title"       : "单次充值6元以上，可额外领取",
+     "payOrder"    : {
+      "productId"   : "TY9999D0006003"
+     },
+     "confirmDesc" : "对不起，您不满足领取礼包的条件\n现在就购买\\${product.displayName}(\\${product.price}元)即可领取豪华大礼包！",
+     "confirm"     : 1,
+     "typeId"      : "todotask.firstRecharge",
+     "url"         : "${http_download}/hall/promote/imgs/first_recharge_content.png"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_new_firstrecharge_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.wifikey.promote"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "wifikey更多游戏",
+   "url"         : "${http_download}/hall/promote/imgs/wifikey.png"
+  },
+  {
+   "promotionId" : 10,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "title"       : "单次充值6元以上，可额外领取",
+     "payOrder"    : {
+      "productId"   : "TY9999D0006007"
+     },
+     "confirmDesc" : "对不起，您不满足领取礼包的条件\n现在就购买\\${product.displayName}(\\${product.price}元)即可领取豪华大礼包！",
+     "confirm"     : 1,
+     "typeId"      : "todotask.firstRecharge",
+     "url"         : "${http_download}/hall/promote/imgs/first_recharge_content.png"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_new_firstrecharge_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 11,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_new_firstrecharge_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 13,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "memberBuy2"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "会员",
+   "url"         : "${http_download}/hall/promote/imgs/member.png"
+  },
+  {
+   "promotionId" : 14,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.migu.music"
+    }
+   ],
+   "redPoint"    : [ ],
+   "url"         : "${http_download}/hall/promote/imgs/icon_music.png"
+  },
+  {
+   "promotionId" : 15,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.download",
+     "url"         : "http://m.10086.cn/wireless/html5/index.html"
+    }
+   ],
+   "redPoint"    : [ ],
+   "url"         : "${http_download}/hall/promote/imgs/icon_download.png"
+  },
+  {
+   "promotionId" : 16,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "memberBuy2"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "会员",
+   "url"         : "${http_download}/hall/promote/imgs/member.png"
+  },
+  {
+   "promotionId" : 28,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.lottery"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "抽奖",
+   "url"         : "${http_download}/hall/promote/imgs/zhuanpan_170713.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 29,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.checkin"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "30日签到",
+   "url"         : "${http_download}/hall/promote/imgs/share.png",
+   "defaultRes"  : "PromoteSignIn"
+  },
+  {
+   "promotionId" : 30,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_new_firstrecharge_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 36,
+   "todotasks"   : [
+    {
+     "shareId"     : 101,
+     "typeId"      : "todotask.sharegift.with.shareId"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "多次分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999072001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "shareId"     : 102,
+     "typeId"      : "todotask.sharegift.with.shareId"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "mj推荐分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999072002,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "shareId"     : 103,
+     "typeId"      : "todotask.sharegift.with.shareId"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "mj多次分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999081701,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 200,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "每推荐一个好友，您可得1元微信红包（您的朋友得20元微信红包，现在分享赠参赛券）"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首次分享",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_firstshare_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999090601,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 250,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "每日首次分享可得1000金币+1张房卡（房卡可用于朋友场创建房间，赢取微信红包）"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "推荐分享",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_dailyshare_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999110301,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeReceive"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "3.9首充礼包奖励",
+   "url"         : "${http_download}/hall/promote/imgs/first_charge30gp.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999110302,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "3.9首充礼包",
+   "url"         : "${http_download}/hall/promote/imgs/ddz_first_charge30.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999110303,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 100,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "快邀请好友来玩吧，完成新手任务即送【10元微信红包】！\n(每日邀请赠1000金币)"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasDailyShareReward"
+    }
+   ],
+   "displayName" : "3.9分享",
+   "url"         : "${http_download}/hall/promote/imgs/zhuanhongbao_458.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999110304,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 200,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "首次分享赠参赛券，和好友一起来领吧！"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首次分享",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_dailysharechip_171110.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999110305,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.free"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "3.9天天福利",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_dailybonus_0820_458.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999110901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "double11buy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "大厅双十一特惠",
+   "url"         : "${http_download}/hall/promote/imgs/ddz_1111tehui_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999111501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "monthlyBuy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "超级月卡",
+   "url"         : "${http_download}/hall/promote/imgs/super_monthcard_4.57.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999111801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": { },
+      "type"        : "game"
+     },
+     "gameId"      : 38,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "startTime"   : 2000,
+     "endTime"     : -1,
+     "typeId"      : "user.cond.play.time"
+    }
+   ],
+   "displayName" : "红黑大战推广",
+   "url"         : "${http_download}/hall/promote/imgs/hongheiicon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999111802,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": { },
+      "type"        : "game"
+     },
+     "gameId"      : 16,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "startTime"   : 2000,
+     "endTime"     : -1,
+     "typeId"      : "user.cond.play.time"
+    }
+   ],
+   "displayName" : "百人牛牛推广",
+   "url"         : "${http_download}/hall/promote/imgs/bairenicon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999011701,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "bainiandalibao"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新春特惠",
+   "url"         : "${http_download}/hall/promote/imgs/xinchuntehui.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999012001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 1002,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "推荐好友注册，您的朋友可得20元微信红包！！！（每日首次分享赠送500金币）"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "推荐分享",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_dailyshare_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999030901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "typeId"      : "todotask.bindPhone"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "由于账号系统升级，您的账号将无法再后续版本中登陆！建议您进行手机绑定，绑定手机后将会获得额外礼包一份！同时，绑定后账号并不会改变您原账号上的所有信息，后续版本你将使用手机号直接登陆游戏。"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "绑定手机",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_dailyshare_0120.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999072401,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "monthlyBuy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "贵族月卡",
+   "url"         : "${http_download}/hall/promote/imgs/super_monthcard_4.57.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999092001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "4.57首充礼包",
+   "url"         : "${http_download}/hall/promote/imgs/first_charge30_4.57.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999092002,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeReceive"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "4.57首充奖励领取",
+   "url"         : "${http_download}/hall/promote/imgs/first_charge30_4.57.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999092003,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "monthlyBuy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "4.57贵族月卡",
+   "url"         : "${http_download}/hall/promote/imgs/super_monthcard_4.57.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999092004,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subStore"    : "qixizhuanxiang",
+     "typeId"      : "hall.goto.exshop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "4.57兑换商城",
+   "url"         : "${http_download}/hall/promote/imgs/exmall_4.57.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999092005,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3,
+       "roomId"      : 6998
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "4.57手机赛",
+   "url"         : "${http_download}/hall/promote/imgs/shenmishouji_4.57.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999092006,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.lottery"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "4.57大转盘",
+   "url"         : "${http_download}/hall/promote/imgs/zhuanpan_4.57.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999092007,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.free"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "4.57天天福利",
+   "url"         : "${http_download}/hall/promote/imgs/free_4.57.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999112401,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 100,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "快邀请好友来玩吧，完成新手任务即送【10元微信红包】！\n(每日邀请赠1000金币)"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasDailyShareReward"
+    }
+   ],
+   "displayName" : "4.57分享",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_dailyshare_171113_458.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 9999010301,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.sportlottery"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "体育竞猜",
+   "url"         : "${http_download}/hall/promote/imgs/pro_jingcai_458_2.png",
+   "defaultRes"  : "体育竞猜"
+  },
+  {
+   "promotionId" : 9999010302,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.downloadGuide"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "积分墙",
+   "url"         : "${http_download}/hall/promote/imgs/recommend_458.png",
+   "defaultRes"  : "积分墙"
+  },
+  {
+   "promotionId" : 9999010303,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.duobao"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "幸运夺宝",
+   "url"         : "${http_download}/hall/promote/imgs/duobao_458_2.png",
+   "defaultRes"  : "幸运夺宝"
+  },
+  {
+   "promotionId" : 9999010304,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.notify"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "大厅通知",
+   "url"         : "${http_download}/hall/promote/imgs/notify_458_3.png",
+   "defaultRes"  : "大厅通知"
+  },
+  {
+   "promotionId" : 9999020501,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "sharePointId": 99991001,
+     "typeId"      : "newShare.pop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "V4.57分享测试",
+   "url"         : "${http_download}/hall/promote/imgs/zhuanhongbao_458.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

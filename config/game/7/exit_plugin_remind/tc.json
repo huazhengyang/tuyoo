@@ -1,0 +1,71 @@
+{
+    "templates": [{
+        "name": "7_default",
+        "remindGames": [
+            {
+                "name": "疯狂麻将",
+                "gameId": 700,
+                "enter_param": {
+                    "pluginParams": {
+                        "playMode": "guobiao"
+                    },
+                    "type": "game"
+                },
+                "tips": {
+                    "most": "去您最喜欢的疯狂麻将玩一玩儿吧！",
+                    "last": "有新欢也不能忘旧爱,去疯狂麻将玩玩！",
+                    "never": "去新游戏-疯狂麻将里玩几局！",
+                    "least": " 骑最快的马,撸最肥的串,喝最烈的酒,玩最疯狂的麻将！"
+                }
+            },
+            {
+                "name": "血流成河",
+                "gameId": 701,
+                "enter_param": {
+                    "pluginParams": {
+                        "playMode": "xueliu"
+                    },
+                    "type": "game"
+                },
+                "tips": {
+                    "most": "喜欢就要放肆，去血流麻将放肆玩一玩！",
+                    "last": "英雄请留步！去血流成河麻将玩一玩，杠上开他个桃花朵朵开!",
+                    "never": "尝试一个新游戏——血流麻将！",
+                    "least": "人生需要勇气，麻将需要手气！去血流麻将里试一试自己的运气！"
+                }
+            },
+            {
+                "name": "捕鱼游戏",
+                "gameId": 44,
+                "enter_param": {
+                    "pluginParams": {
+                 
+                    },
+                    "type": "game"
+                },
+                "tips": {
+                    "most": "去您最喜欢的捕鱼达人玩一玩儿吧!",
+                    "last": "去您最近玩儿的捕鱼达人玩一会儿吧!",
+                    "never": "换换脑子,玩个新游戏——捕鱼达人!",
+                    "least": "喜欢就买,不行就分,去玩捕鱼,走上巅峰！"
+                }
+            },
+            {
+                "name": "大众麻将",
+                "gameId": 702,
+                "enter_param": {
+                    "pluginParams": {
+                        "playMode": "dazhong"
+                    },
+                    "type": "game"
+                },
+                "tips": {
+                    "most": "熟悉的配方，熟悉的玩法，还是要玩熟悉的大众麻将！",
+                    "last": "就这么走了?去大众麻将玩一玩吧！",
+                    "never": "换个口味，尝试下新游戏——大众麻将！",
+                    "least": "人生如戏，全靠牌技！去玩玩大众麻将！"
+                }
+            }
+        ]
+    }]
+}

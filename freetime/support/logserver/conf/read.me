@@ -1,0 +1,12 @@
+                   ==FreeTime配置系统==
+
+* 发送日志的基本接口是:ftlog.sendHttpLog(group, type, body)
+  group是user01,user02等分群的名字,每个group对应一个log redis进程
+  type是日志类型，如chipupdate等
+
+* 日志服务器前端是个nginx，配置N个upstream到N个平等的LogIndexer
+  每个LogIndexer可以处理来自各个group和type的日志
+
+* 日志文件存储路径如下：
+  <log_root>/<log_type>/<log_group>/<log_data_file>
+

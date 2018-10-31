@@ -1,0 +1,103 @@
+{
+ "templates"                            : {
+  "sichuan_v4.55_shangxian"              : {
+   "interval"                             : 5,
+   "name"                                 : "sichuan_v4.55_shangxian",
+   "ads"                                  : [
+    701111501,
+    701011001
+   ]
+  },
+  "sichuan_v4.55_AI_xianshang"           : {
+   "interval"                             : 5,
+   "name"                                 : "sichuan_v4.55_AI_xianshang",
+   "ads"                                  : [
+    701011001
+   ]
+  },
+  "sichuan_v4.55_AI_tishen_jiankangyouxi": {
+   "interval"                             : 5,
+   "name"                                 : "sichuan_v4.55_AI_tishen_jiankangyouxi",
+   "ads"                                  : [
+    7013003
+   ]
+  },
+  "sichuan_v4.55_AI_guoshen"             : {
+   "interval"                             : 5,
+   "name"                                 : "sichuan_v4.55_AI_guoshen",
+   "ads"                                  : [
+    7013003,
+    701021301,
+    701011001
+   ]
+  }
+ },
+ "ads"                                  : [
+  {
+   "startTime"                            : "2017-10-27 00:00:00",
+   "id"                                   : 701102701,
+   "todotasks"                            : [
+    {
+     "actId"                                : "sichuan_4.55_tishen",
+     "typeId"                               : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                            : 1,
+   "pic"                                  : "${http_download}/hall/ads/imgs/ads_shenhegongg.png",
+   "endTime"                              : "2018-02-03 00:00:00"
+  },
+  {
+   "startTime"                            : "2017-11-15 00:00:00",
+   "id"                                   : 701111501,
+   "todotasks"                            : [
+    {
+     "actId"                                : "Copy_activity_mj_hongbaoquan",
+     "typeId"                               : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                            : 1,
+   "pic"                                  : "${http_download}/majiang/images/ads/xinhonbaoquan1.jpg",
+   "endTime"                              : "2018-02-28 00:00:00"
+  },
+  {
+   "startTime"                            : "2017-12-01 00:00:00",
+   "id"                                   : 701120101,
+   "clickable"                            : 1,
+   "pic"                                  : "${http_download}/majiang/images/ads/activity_qqqunads_1201.jpg",
+   "endTime"                              : "2018-02-28 00:00:00"
+  },
+  {
+   "startTime"                            : "2018-01-10 00:00:00",
+   "id"                                   : 701011001,
+   "todotasks"                            : [
+    {
+     "enter_param"                          : {
+      "pluginParams"                         : {
+       "gameType"                             : 5,
+       "playMode"                             : "xueliu"
+      },
+      "type"                                 : "roomlist"
+     },
+     "gameId"                               : 701,
+     "typeId"                               : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                            : 1,
+   "pic"                                  : "${http_download}/majiang/images/ads/20180116_100honbaoque_chuanads.jpg",
+   "endTime"                              : "2018-08-29 00:00:00"
+  },
+  {
+   "startTime"                            : "2018-02-13 00:00:00",
+   "id"                                   : 701021301,
+   "todotasks"                            : [
+    {
+     "actId"                                : "Copy_activity",
+     "typeId"                               : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                            : 1,
+   "pic"                                  : "${http_download}/texas/images/ads/20180211_dog_newyear_ads.png",
+   "endTime"                              : "2018-02-19 00:00:00"
+  }
+ ]
+}

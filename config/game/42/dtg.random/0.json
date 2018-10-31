@@ -1,0 +1,95 @@
+{
+
+    "group_1": [
+        "Android_3.97_tyGuest.ucdanji.0-hall42.uc.tu",
+		"Android_3.97_tyGuest.ucdanji.0-hall42.wdj.tu",
+		"Android_3.97_tyGuest,tyAccount.vivo.0-hall42.vivo.tu",
+		"Android_3.97_sanxing.sanxing.0-hall42.sanxing.tu",
+		"Android_3.97_tyGuest.alipay.0-hall42.qq.tu",
+		"Android_3.97_tyGuest.meizudj.0-hall42.meizu.tu",
+		"Android_3.97_tyGuest,tyAccount.alipay.0-hall42.jinli.tu",
+		"IOS_3.97_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall42.appStore.tractor",
+		"IOS_3.97_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall42.appStore.shengji2017",
+		"Android_3.97_tyGuest,tyOneKey,tyAccount.alipay.0-hall42.tuyoo.tu",
+		"Android_3.97_360.360.0-hall42.360.tu",
+		"Android_3.97_360.360,weixinWap.0-hall42.360.tu",
+		"IOS_3.98_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall42.appStore.tractor",
+		"IOS_3.98_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall42.appStore.shengji2017"
+    ],
+    "select": [
+        {
+            "biType": "bi1",
+            "type": "chipless",
+            "itemId": 0,
+            "number": 200,
+            "weight": 50,
+            "desc": "金币x200",
+            "purl": ""
+        },
+        {
+            "biType": "bi2",
+            "type": "chipmore",
+            "itemId": 0,
+            "number": 500,
+            "weight": 40,
+            "desc": "金币x500",
+            "purl": ""
+        },
+        {
+            "biType": "bi3",
+            "type": "item",
+            "itemId": 4178,
+            "number": 1,
+            "weight": 10,
+            "desc": "1元话费卡",
+            "purl": ""
+        },
+        {
+            "biType": "bi4",
+            "type": "item",
+            "itemId": 4180,
+            "number": 1,
+            "weight": 0,
+            "desc": "5元话费卡",
+            "purl": ""
+        }
+    ],
+    "default": [
+        {
+            "biType": "bi1",
+            "type": "chipless",
+            "itemId": 0,
+            "number": 200,
+            "weight": 60,
+            "desc": "金币x200",
+            "purl": ""
+        },
+        {
+            "biType": "bi2",
+            "type": "chipmore",
+            "itemId": 0,
+            "number": 500,
+            "weight": 40,
+            "desc": "金币x500",
+            "purl": ""
+        },
+        {
+            "biType": "bi3",
+            "type": "item",
+            "itemId": 4178,
+            "number": 1,
+            "weight": 0,
+            "desc": "1元话费卡",
+            "purl": ""
+        },
+        {
+            "biType": "bi4",
+            "type": "item",
+            "itemId": 4180,
+            "number": 1,
+            "weight": 0,
+            "desc": "5元话费卡",
+            "purl": ""
+        }
+    ]
+}

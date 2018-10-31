@@ -1,0 +1,446 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "最近一场开赛时间 \n报名费用：1张参赛券",
+    "fees" : [
+      {
+        "count" : 1,
+        "itemId" : "item:1007",
+        "params" : {
+          "failure" : "您的报名条件不足，本比赛需要1张参赛券"
+        }
+      }
+    ],
+    "rank.rewards" : [
+      {
+        "desc" : "10元微信红包+2张英雄帖",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:1082"
+          },
+          {
+            "count" : 2,
+            "itemId" : "item:1008"
+          }
+        ],
+        "todotask" : {
+          "action" : "rep_sence_pack",
+          "params" : {}
+        }
+      },
+      {
+        "desc" : "5万金币+1张英雄帖",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 50000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:1008"
+          }
+        ]
+      },
+      {
+        "desc" : "2万金币+1张英雄帖",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 20000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:1008"
+          }
+        ]
+      },
+      {
+        "desc" : "6000金币+1张英雄帖",
+        "ranking" : {
+          "end" : 5,
+          "start" : 4
+        },
+        "rewards" : [
+          {
+            "count" : 6000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:1008"
+          }
+        ]
+      },
+      {
+        "desc" : "3000金币+1张英雄帖",
+        "ranking" : {
+          "end" : 10,
+          "start" : 6
+        },
+        "rewards" : [
+          {
+            "count" : 3000,
+            "itemId" : "user:chip"
+          },
+          {
+            "count" : 1,
+            "itemId" : "item:1008"
+          }
+        ]
+      },
+      {
+        "desc" : "1200金币",
+        "ranking" : {
+          "end" : 20,
+          "start" : 11
+        },
+        "rewards" : [
+          {
+            "count" : 1200,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "800金币",
+        "ranking" : {
+          "end" : 40,
+          "start" : 21
+        },
+        "rewards" : [
+          {
+            "count" : 800,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "400金币",
+        "ranking" : {
+          "end" : 80,
+          "start" : 41
+        },
+        "rewards" : [
+          {
+            "count" : 400,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "200金币",
+        "ranking" : {
+          "end" : 160,
+          "start" : 81
+        },
+        "rewards" : [
+          {
+            "count" : 200,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "100金币",
+        "ranking" : {
+          "end" : 256,
+          "start" : 161
+        },
+        "rewards" : [
+          {
+            "count" : 100,
+            "itemId" : "user:chip"
+          }
+        ]
+      }
+    ],
+    "stages" : [
+      {
+        "animation.type" : 0,
+        "card.count" : 10,
+        "chip.base" : 1000,
+        "chip.grow" : 0.3,
+        "chip.grow.base" : 300,
+        "chip.grow.incr" : 100,
+        "chip.times" : 60,
+        "chip.user" : 15000,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 0,
+        "lose.user.chip" : 0.5,
+        "name" : "海选赛",
+        "rise.user.count" : 48,
+        "rise.user.refer" : 56,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 3,
+        "chip.user.3.base" : 300,
+        "name" : "48强赛",
+        "rise.user.count" : 24,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "24强赛",
+        "rise.user.count" : 12,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "12强赛",
+        "rise.user.count" : 6,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "6强赛",
+        "rise.user.count" : 3,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 2,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "决赛",
+        "rise.user.count" : 1,
+        "seat.principles" : 2,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 0,
+      "maxplaytime" : 7200,
+      "prepare.times" : 10,
+      "signin.times" : 600,
+      "start.speed" : 6,
+      "times" : {
+        "days" : {
+          "count" : 100,
+          "first" : "",
+          "interval" : "1d"
+        },
+        "times_in_day" : {
+          "list" : [
+            "00:00",
+            "00:10",
+            "00:20",
+            "00:30",
+            "00:40",
+            "00:50",
+            "01:00",
+            "01:10",
+            "01:20",
+            "01:30",
+            "01:40",
+            "01:50",
+            "02:00",
+            "02:10",
+            "02:20",
+            "02:30",
+            "02:40",
+            "02:50",
+            "08:10",
+            "08:20",
+            "08:30",
+            "08:40",
+            "08:50",
+            "09:00",
+            "09:10",
+            "09:20",
+            "09:30",
+            "09:40",
+            "09:50",
+            "10:00",
+            "10:10",
+            "10:20",
+            "10:30",
+            "10:40",
+            "10:50",
+            "11:00",
+            "11:10",
+            "11:20",
+            "11:30",
+            "11:40",
+            "11:50",
+            "12:00",
+            "12:10",
+            "12:20",
+            "12:30",
+            "12:40",
+            "12:50",
+            "13:00",
+            "13:10",
+            "13:20",
+            "13:30",
+            "13:40",
+            "13:50",
+            "14:00",
+            "14:10",
+            "14:20",
+            "14:30",
+            "14:40",
+            "14:50",
+            "15:00",
+            "15:10",
+            "15:20",
+            "15:30",
+            "15:40",
+            "15:50",
+            "16:00",
+            "16:10",
+            "16:20",
+            "16:30",
+            "16:40",
+            "16:50",
+            "17:00",
+            "17:10",
+            "17:20",
+            "17:30",
+            "17:40",
+            "17:50",
+            "18:00",
+            "18:10",
+            "18:20",
+            "18:30",
+            "18:40",
+            "18:50",
+            "19:00",
+            "19:10",
+            "19:20",
+            "19:30",
+            "19:40",
+            "19:50",
+            "20:00",
+            "20:10",
+            "20:20",
+            "20:30",
+            "20:40",
+            "20:50",
+            "21:00",
+            "21:10",
+            "21:20",
+            "21:30",
+            "21:40",
+            "21:50",
+            "22:00",
+            "22:10",
+            "22:20",
+            "22:30",
+            "22:40",
+            "22:50",
+            "23:00",
+            "23:10",
+            "23:20",
+            "23:30",
+            "23:40",
+            "23:50"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 10000,
+      "user.maxsize" : 2500,
+      "user.minsize" : 48,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 3,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。",
+        "积分低于淘汰分数线会被淘汰，称打立出局。",
+        "打立赛制有局数上限，打满局数会等待他人。",
+        "打立阶段，轮空时会记1局游戏。",
+        "定局赛制，指打固定局数后按积分排名。",
+        "每局会按照开局时的底分结算。",
+        "比赛流局时，可能会有积分惩罚。"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "欢乐10元红包赛",
+  "playDesc" : "",
+  "playMode" : "happy",
+  "robotUserCallUpTime" : 5,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    2,
+    3
+  ],
+  "roomFee" : 45,
+  "roomMutil" : 50,
+  "showCard" : 0,
+  "tableConf" : {
+    "autochange" : 1,
+    "basebet" : 1,
+    "basemulti" : 1,
+    "canchat" : 0,
+    "cardNoteChip" : 500,
+    "coin2chip" : 1,
+    "grab" : 1,
+    "gslam" : 128,
+    "lucky" : 0,
+    "maxSeatN" : 3,
+    "optime" : 15,
+    "passtime" : 5,
+    "rangpaiMultiType" : 1,
+    "robottimes" : 1,
+    "tbbox" : 0,
+    "unticheat" : 0
+  },
+  "typeName" : "group_match",
+  "winDesc" : ""
+}

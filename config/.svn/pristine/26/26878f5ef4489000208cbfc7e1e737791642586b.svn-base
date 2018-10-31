@@ -1,0 +1,21 @@
+{
+	"minCoin": 20000,
+	"minCoinQS": 20000,
+	"maxCoin": -1,
+	"maxCoinQS": -1,
+	"baseBet": 750,
+	"sfee": 1800,
+	"changeCardsFee": 40,
+	"bankerRange": [1, 2, 3, 4],
+	"playerScaleRanges": [[5, 7, 10, 15, 20], [5, 10, 15, 20, 25], [5, 10, 20, 25, 30], [5, 10, 20, 30, 40]],
+	"playerScaleC": [25, 30, 40],
+	"daojuScale": 8,
+	"name": "小试牛刀",
+	"hasrobot": 0,
+	"tableConf": {
+		"maxSeatN": 5
+	},
+	"playMode": 1,
+	"roomType": 2,
+	"typeName": "normal"
+}

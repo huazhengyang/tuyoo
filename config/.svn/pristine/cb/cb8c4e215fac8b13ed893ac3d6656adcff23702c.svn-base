@@ -1,0 +1,82 @@
+{
+	"pointIdList": [66660013, 77770013],
+	"inviteRewardsByIndex": [
+		{
+			"itemId": "user:chip",
+			"count": 100,
+			"desc": "100金币",
+			"pic":"${http_download}/ddz/other/config/invite_chip_low.png"
+		},
+		{
+			"itemId": "user:chip",
+			"count": 200,
+			"desc": "200金币",
+			"pic":"${http_download}/ddz/other/config/invite_chip_low.png"
+		},
+		{
+			"itemId": "user:chip",
+			"count": 300,
+			"desc": "300金币",
+			"pic":"${http_download}/ddz/other/config/invite_chip_middle.png"
+		},
+		{
+			"itemId": "user:chip",
+			"count": 400,
+			"desc": "400金币",
+			"pic":"${http_download}/ddz/other/config/invite_chip_middle.png"
+		},
+		{
+			"itemId": "user:chip",
+			"count": 1000,
+			"desc": "1000金币",
+			"pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+		}
+	],
+	"bigRewards": [
+		{
+			"item": {
+				"itemId": "user:chip",
+				"count": 8888,
+				"desc": "8888金币",
+				"pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+			},
+			"weight": 10
+		},
+		{
+			"item": {
+				"itemId": "user:chip",
+				"count": 6888,
+				"desc": "6888金币",
+				"pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+			},
+			"weight": 10
+		},
+		{
+			"item": {
+				"itemId": "user:chip",
+				"count": 5888,
+				"desc": "5888金币",
+				"pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+			},
+			"weight": 20
+		},
+		{
+			"item": {
+				"itemId": "user:chip",
+				"count": 2888,
+				"desc": "2888金币",
+				"pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+			},
+			"weight": 30
+		},
+		{
+			"item": {
+				"itemId": "user:chip",
+				"count": 888,
+				"desc": "888金币",
+				"pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+			},
+			"weight": 30
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+    "hasrobot": 0,
+    "isMatch": 0,
+    "name": "梦幻海底(80倍场)",
+    "sceneName": "string_mhhd",
+    "fishPool": 3,
+    "bullets": [
+        500,
+        1000,
+        5000,
+        10000
+    ],
+    "multiple": 80,
+    "lack": 50,
+    "showLevel": 1,
+    "minLevel": 10,
+    "maxLevel": 999,
+    "expLimitLevel": 999,
+    "minCoin": 40000,
+    "maxCoin": -1,
+    "minGunLevel": 2105,
+    "maxGunLevel": 2125,
+    "maxSkillLevel": 12,
+    "taskLoopInterval": 1800,
+    "ncmptt1TaskInterval": 176,
+    "cmpttTaskInterval": 709,
+    "ncmptt2TaskInterval": 1076,
+    "bonusTaskInterval": 1609,
+    "minBonus": 2500,
+    "systemBonus": 0,
+    "typeName": "fish_normal",
+    "tableConf": {
+        "fishGroupsName": "string_mhhd",
+        "maxSeatN": 4
+    }
+}

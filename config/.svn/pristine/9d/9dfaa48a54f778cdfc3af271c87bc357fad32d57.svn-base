@@ -1,0 +1,68 @@
+{
+ "templates"                       : {
+  "tractor_v3.97_AI_examination_ads": {
+   "interval"                        : 5,
+   "name"                            : "tractor_v3.97_AI_examination_ads",
+   "ads"                             : [
+    42041701
+   ]
+  },
+  "tractor_v3.97_AI_healthy_ads"    : {
+   "interval"                        : 5,
+   "name"                            : "tractor_v3.97_AI_healthy_ads",
+   "ads"                             : [
+    42041801
+   ]
+  },
+  "tractor_v3.97_AI_online_ads"     : {
+   "interval"                        : 5,
+   "name"                            : "tractor_v3.97_AI_online_ads",
+   "ads"                             : [
+    42010901
+   ]
+  }
+ },
+ "ads"                             : [
+  {
+   "startTime"                       : "2016-12-20 00:00:00",
+   "id"                              : 42122001,
+   "clickable"                       : 0,
+   "pic"                             : "${http_download}/hall/ads/imgs/ads_texas_1.jpg",
+   "endTime"                         : "2020-06-30 00:00:00"
+  },
+  {
+   "startTime"                       : "2017-01-09 00:00:00",
+   "id"                              : 42010901,
+   "todotasks"                       : [
+    {
+     "actId"                           : "tractor_20170109_stagesclear_activity",
+     "typeId"                          : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                       : 1,
+   "pic"                             : "${http_download}/tractor/images/ads/tractor_20170109_stageclear_ads.jpg",
+   "endTime"                         : "2018-01-31 00:00:00"
+  },
+  {
+   "startTime"                       : "2017-02-07 00:00:00",
+   "id"                              : 42020701,
+   "clickable"                       : 0,
+   "pic"                             : "${http_download}/hall/ads/imgs/mobile_ad_t3card_0.png",
+   "endTime"                         : "2018-09-30 00:00:00"
+  },
+  {
+   "startTime"                       : "2017-04-17 00:00:00",
+   "id"                              : 42041701,
+   "clickable"                       : 0,
+   "pic"                             : "${http_download}/42/ads/ads_jiankangyouxi.jpg",
+   "endTime"                         : "2019-04-24 00:00:00"
+  },
+  {
+   "startTime"                       : "2017-04-18 00:00:00",
+   "id"                              : 42041801,
+   "clickable"                       : 0,
+   "pic"                             : "${http_download}/42/ads/ads_jiankangyouxinotuyoo.jpg",
+   "endTime"                         : "2019-04-25 00:00:00"
+  }
+ ]
+}

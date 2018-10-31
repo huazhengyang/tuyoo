@@ -1,0 +1,374 @@
+前后端交互协议：
+接口采用标准HTTP请求 + json响应
+
+数据类型:
+
+牌手信息
+	{
+		"realInfo": 认证信息,
+		"bank": 开户行信息,
+		"rating": 大师分信息,
+		"wallet": 钱包信息,
+		"authRewardDesc": 认证奖励信息
+		"bindedMobile": 原先绑定的手机号，若存在
+	}
+	
+// 牌手认证信息
+	{
+		"idNo":"", // 身份证号码
+		"mobile":"", // 手机号码
+		"realname":""
+	}
+	
+// 银行卡绑定信息
+		{
+			"bankNo":"", // 开户行编号
+			"bankName":"", // 开户行名称
+			"bankAccount":"" // 开户行账号
+		}
+		
+// 大师分信息
+		{
+			"ranking":"", // 排名
+			"levelName":"", // 等级称号
+			"g":"", // 金分
+			"s":"", // 银分
+			"r":"" // 红分
+		}
+		
+// 钱包信息
+	{
+			"money":"", // 钱包余额
+			"status":0/1, // 钱包状态 0锁定;1正常
+			"resultList":[
+				"matchId":"", // 比赛ID
+				"matchName":"", // 比赛名称
+				"ranking":"", // 名次
+				"bonus":"", // 名次对应的奖金
+				"status":0/1 // 奖金发放状态发放状态(0未提现[奖金已发放],1提现中[奖金正在提现，银行处理中],2已提现[奖金已取出],3提现失败,4退还厂商[用户长时间未报名且未提取奖金])
+			]
+		}
+		
+固定参数
+	userId：用户ID
+	?sign: 签名？
+	?authInfo: 验证信息
+	
+错误返回：
+		{
+			"result"：{
+				"code"：-1, //错误码, 0表示成功，非0表示失败
+				"info"："" //错误信息
+			}
+		}
+1. 获取验证码
+	/dizhu/v1/erdayi/player/getVCode
+	method：GET
+	params：
+		mobile：
+			类型：string
+			说明：手机号
+
+	返回：
+		{
+			"result"：{
+				"code"：0, //错误码, 0表示成功
+				"vcode"："123456" //验证码
+			}
+		}
+		
+2. 认证接口（绑定身份信息）
+	/dizhu/v1/erdayi/player/bindRealInfo
+	method：GET
+	params：
+		realname：
+			类型：string
+			说明：真实姓名
+		idNo：
+			类型：string
+			说明：身份证号码
+		mobile：
+			类型：string
+			说明：手机号
+		vcode：
+			类型：string
+			说明：验证码
+	返回：
+		{
+			"result"：{
+				"code"：0, //错误码, 0表示成功
+				牌手认证信息
+			}
+		}
+			
+3. 绑定银行卡
+	/dizhu/v1/erdayi/player/bindBankAccount
+	method：GET
+	params：
+		bankNo：
+			类型：string
+			说明：开户行编号
+		bankName：
+			类型：string
+			说明：开户行名称
+		bankAccount：
+			类型：string
+			说明：开户行账号
+	返回：
+	{
+		"result"：{
+			"code"：0, //错误码, 0表示成功
+			银行卡绑定信息
+		}
+	}
+4. 提现
+	/dizhu/v1/erdayi/player/withdraw
+	method:GET
+	params:
+		无
+	
+	返回:
+	{
+		"result"：{
+			"code"：0, //错误码, 0表示成功
+			// 此处返回待定
+			"money":"" // 到账金额
+		}
+	}
+	
+5. 牌手信息
+	/dizhu/v1/erdayi/player/getInfo
+	method:GET
+	params:
+		无
+	
+	返回：
+	{
+		"result":{
+			牌手信息
+		}
+	}
+
+// 后端实现第三方接口
+认证接口
+player/identity_number/bind
+
+认证流程
+1. 客户端请求/dizhu/v1/erdayi/player/bindRealInfo到HTTP服务器
+2. HTTP服请求player/identity_number/bind到第三方
+3. 第三方回应OK后，HTTP服务器保存认证信息到redis
+4. 返回客户端回应
+
+绑定银行卡				
+player/bank_acc/bind
+1. 客户端请求/dizhu/v1/erdayi/player/bindBankAccount到HTTP服务器
+2. HTTP服请求player/bank_acc/bind到第三方
+3. 第三方回应OK后，HTTP服务器保存银行卡信息到redis
+4. 返回客户端回应
+
+提现接口
+player/bonous/withdraw
+1. 客户端请求/dizhu/v1/erdayi/player/withdraw到HTTP服务器
+2. HTTP服请求player/bonous/withdraw到第三方
+3. 第三方回应OK后, 返回客户端回应
+
+钱包信息				
+wallet/balance
+1. 客户端请求/dizhu/v1/erdayi/player/withdraw到HTTP服务器
+2. HTTP服请求wallet/balance到第三方
+3. 第三方回应OK后, 返回客户端回应
+
+redis key
+
+实名信息
+hget erdayi:6:{userId} realInfo  realInfo
+
+绑定的银行卡信息
+hget erdayi:6:{userId} bankInfo  bankInfo
+
+验证码:
+hset erdayi:6:{userId} bindVCode xxx
+
+# 玩法
+PLAYMODE_ERDAYI = 'erdayi'
+
+长连接协议
+请求我的战绩
+{
+	"cmd":"room",
+	"params":{
+		"gameId":6,
+		"userId":10001,
+		"roomId":6992,
+		"action":"myCardRecords"
+	}
+}
+回应
+{
+	"cmd":"room",
+	"result":{
+		"gameId":6,
+		"userId":10001,
+		"roomId":6992,
+		"action":"myCardRecords",
+		"records":[
+			{
+				"cardNo":"1",
+				"score":"2048",
+				"rate":"99.99%",
+				"mscore":"1666.66"
+			}
+		]
+	}
+}
+
+请求同副牌排名
+{
+	"cmd":"room",
+	"params":{
+		"gameId":6,
+		"userId":10001,
+		"roomId":6992,
+		"cardNo":"1",
+		"action":"cardRank"
+	}
+}
+回应
+{
+	"cmd":"room",
+	"result":{
+		"gameId":6,
+		"userId":10001,
+		"roomId":6992,
+		"cardNo":"1",
+		"action":"cardRank",
+		"ranks":[
+			{
+				"score":"2048",
+				"mscore":"1666.66",
+				"pcount":"10"
+			}
+		]
+	}
+}
+
+# 等待农民加倍
+{
+	"cmd":"table_call",
+	"result":{
+		"gameId":6,
+		"roomId":6992,
+		"tableId":69920001000,
+		"action":"wait_nm_jiabei",
+		"optime":2
+	}
+}
+
+# 等待地主加倍
+{
+	"cmd":"table_call",
+	"result":{
+		"gameId":6,
+		"roomId":6992,
+		"tableId":69920001000,
+		"action":"wait_dz_jiabei",
+		"optime":5
+	}
+}
+
+
+# 加倍请求
+{
+	"cmd":"table_call",
+	"params":{
+		"gameId":6,
+		"userId":10001,
+		"roomId":6992,
+		"tableId":69920001000,
+		"seatId":1,
+		"jiabei":0/1, 0 不加倍，1加倍
+		"action":"jiabei"
+	}
+}
+
+# 加倍回应
+{
+	"cmd":"table_call",
+	"result":{
+		"gameId":6,
+		"userId":10001,
+		"roomId":6992,
+		"tableId":69920001000,
+		"seatId":1,
+		"jiabei":0/1, 0 不加倍，1加倍
+		"action":"jiabei"
+	}
+}
+
+// 服务端配置？？？
+1. 银行信息列表
+2. 静态帮助信息
+
+所有任务：
+	界面相关
+		1/2主界面
+		1牌手信息界面 海平 0.5
+		1牌手认证界面 海平 0.5
+		0奖金记录界面 海平 0.5
+		1/2银行卡绑定界面 海平 0.5
+		0帮助界面 海平 1
+		
+		1等待页
+			排行榜 当前积分排名  杨威 0.5
+			
+		1赛况信息 杨威 1
+			我的成绩 
+			同副牌排名
+		
+	1界面相关协议 路伟 1.5
+		牌手信息协议 
+		牌手认证协议
+		奖金记录协议
+		银行卡绑定协议
+		
+	牌桌流程相关
+		0增加一种牌桌 杨威 1
+		前端 
+			取消不叫按钮
+		加倍
+			地主等待农民加倍
+			地主加倍按钮流程
+		
+		0后端牌桌机器人 路伟 1
+			不是真正的机器人，选择几个固定的userId进行处理，发送消息需要特殊处理,机器人不发任何消息
+		0AI
+			暂时忽略
+			
+	赛制相关
+		二打一赛制（配置、发牌、结算、分桌、排行榜） 2-3
+		二打一牌桌，主要是机器人相关处理，不是真正的机器人 路伟 1
+		二打一牌桌协议（分桌，结算，动画，排行榜）1
+		
+	0第三方接口 路伟 主要是调试 1
+		实名认证：player/identity_number/bind
+		银行卡绑定：player/bank_acc/bind
+		提现：player/bonous/withdraw
+		钱包：wallet/balance
+		
+	结果上传
+		1 天
+			
+	周5给资源
+	8.3号 出一个版本 可测试
+	9.7单机出一个包测试
+	
+2016.08.03 出包
+2016.08.03 剩余工作
+1. 人满开赛测试
+2. 报名上报接口
+3. 赛程上报接口调用
+4. 主界面广告
+5. AI
+6. 认证完给奖励
+
+	

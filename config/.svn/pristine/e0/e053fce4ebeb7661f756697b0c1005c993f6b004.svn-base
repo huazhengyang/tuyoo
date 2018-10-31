@@ -1,0 +1,47 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "3.90玩法上线"
+     ],
+     "md5"              : "85ac4bbe5a9e95901f45d609173d7fc9",
+     "ver"              : "3.90",
+     "url"              : "${http_download}/hall/plugin/game/lottery_release_v3.90_seventh.zip",
+     "size"             : "123.80K"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "3.91玩法上线"
+     ],
+     "md5"              : "97e9f6669808586a823b608e784d3212",
+     "ver"              : "3.91",
+     "url"              : "${http_download}/hall/plugin/game/lottery_release_v3.91_fifth.zip",
+     "size"             : "147.3K"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "3.92玩法上线"
+     ],
+     "md5"              : "33d2d0d06870fe89d5b3782f087e5134",
+     "ver"              : "3.92",
+     "url"              : "${http_download}/hall/plugin/game/lottery_release_v3.92_second.zip",
+     "size"             : "178.6K"
+    }
+   ],
+   "description"      : [
+    "全新幸运3+1玩法，耳目一新"
+   ],
+   "gameId"           : 45,
+   "gameMark"         : "lottery"
+  }
+ ],
+ "templates"        : [ ]
+}

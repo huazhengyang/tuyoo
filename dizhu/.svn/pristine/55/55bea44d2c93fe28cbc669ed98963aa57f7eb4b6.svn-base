@@ -1,0 +1,44 @@
+{
+	cmd:table_call,
+	params:{
+		action:'auto_play',
+		tableId:
+		userId:
+		seatId:
+		isauto:0
+	}
+}
+
+{
+	cmd:table_call,
+	result:{
+		action:'auto_play',
+		tableId:
+		userId:
+		seatId:
+		isauto:1
+	}
+}
+
+{
+	cmd:table_info,
+	result:{
+		stat:{
+			isauto:0/1/-1,
+		},
+		"config": {
+			"autoPlay":0/1
+		}
+	}
+}
+
+{
+	cmd:table_call,
+	result:{
+		action:next,
+
+		stat:{
+			isauto:0/1/-1,
+		}
+	}
+}

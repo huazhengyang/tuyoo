@@ -1,0 +1,38 @@
+{
+	"flipPolicies":[
+		{
+        	"registerDays":{"start":0, "stop":0},
+	        "randoms":[
+	            {"weight":1, "item":{"itemId":"item:1007", "start":1, "stop":1}}
+	        ]
+	    },
+	    {
+	        "registerDays":{"start":1, "stop":2},
+	        "randoms":[
+	            {"weight":1, "item":{"itemId":"user:chip", "start":50, "stop":100}}
+	        ]
+	    },
+	    {
+	        "registerDays":{"start":3, "stop":-1},
+	        "randoms":[
+	        	{"weight":1, "item":{"itemId":"user:chip", "start":50, "stop":100}}
+	        ]
+		}	
+	],
+	"paddings":{
+		"randoms":[
+			{"weight":10, "item":{"itemId":"item:1007", "start":1, "stop":10}},
+		    {"weight":5, "item":{"itemId":"item:3002", "start":2, "stop":5}},
+		    {"weight":20, "item":{"itemId":"user:coupon", "start":1, "stop":400}},
+		    {"weight":10, "item":{"itemId":"item:2003", "start":1, "stop":1}},
+		    {"weight":10, "item":{"itemId":"item:2003", "start":2, "stop":5}},
+		    {"weight":5, "item":{"itemId":"user:chip", "start":500, "stop":1000}},
+		    {"weight":15, "item":{"itemId":"user:coupon", "start":1, "stop":5}},
+		    {"weight":3, "item":{"itemId":"item:3001", "start":1, "stop":1}},
+		    {"weight":10, "item":{"itemId":"user:chip", "start":1000, "stop":1500}},
+		    {"weight":10, "item":{"itemId":"user:chip", "start":300, "stop":1200}}
+	    ]
+	},
+	"rewardMail":"幸运翻翻看：获得\\${rewardContent}"
+}
+

@@ -1,0 +1,165 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "开赛时间：满15人开赛\n赛制：定局淘汰\n报名费用：1000金币",
+    "fees" : [
+      {
+        "count" : 1000,
+        "itemId" : "user:chip",
+        "params" : {
+          "failure" : "您的报名条件不足，本比赛需要1000金币"
+        }
+      }
+    ],
+    "rank.rewards" : [
+      {
+        "desc" : "1元话费卡",
+        "message":"您在【保皇\\${matchName}】中获得第\\${rank}名。\n赢得奖励：\\${rewardContent}",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4178"
+          }
+        ]
+      },
+      {
+        "desc" : "3000金币",
+        "message":"您在【保皇\\${matchName}】中获得第\\${rank}名。\n赢得奖励：\\${rewardContent}",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 3000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "2000金币",
+        "message":"您在【保皇\\${matchName}】中获得第\\${rank}名。\n赢得奖励：\\${rewardContent}",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 2000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "1000金币",
+        "message":"您在【保皇\\${matchName}】中获得第\\${rank}名。\n赢得奖励：\\${rewardContent}",
+        "ranking" : {
+          "end" : 5,
+          "start" : 4
+        },
+        "rewards" : [
+          {
+            "count" : 1000,
+            "itemId" : "user:chip"
+          }
+        ]
+      }
+    ],
+    "stages" : [
+      {
+        "animation.type" : 1,
+        "card.count" : 2,
+        "chip.base" : 300,
+        "chip.grow" : 0.25,
+        "chip.times" : 160,
+        "chip.user" : 3000,
+        "chip.user.3.base" : 0,
+        "name" : "15强赛",
+        "rise.user.count" : 10,
+        "seat.principles" : 1,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "10强赛",
+        "rise.user.count" : 5,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 3,
+        "card.count" : 2,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "决赛",
+        "rise.user.count" : 1,
+        "seat.principles" : 2,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 1,
+      "maxplaytime" : 3600,
+      "table.avg.times" : 1200,
+      "table.times" : 1200,
+      "type" : 1,
+      "user.size" : 15
+    },
+    "table.seat.count" : 5,
+    "tips" : {
+      "infos" : [
+        "当积分相同时，按报名先后顺序确定名次。",
+        "除海选赛阶段，只有力争第一才可以晋级！",
+        "忽如一夜春风来，千人万人牌桌开！",
+        "海选阶段要稳打，低于基础分会被淘汰哟！"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "minCoin" : 0,
+  "minCoinQS" : 0,
+  "name" : "1元话费赛",
+  "openAutoChat" : 0,
+  "openIpLimit" : 0,
+  "playMode" : "weihai",
+  "robotUserCallUpTime" : 2,
+  "robotUserMaxCount" : -1,
+  "robotUserOpTime" : [
+    2,
+    3
+  ],
+  "roomFee" : 50,
+  "tableConf" : {
+    "autoOutCard" : 1,
+    "baoHuangScore" : 1,
+    "baseChip" : 200,
+    "dengJiTimeout" : 10,
+    "guardShowTimeout" : 5,
+    "kickTimeout" : 5,
+    "maxSeatN" : 5,
+    "niuTimeout" : 5,
+    "playTimeout" : 10,
+    "qiangDuTimeout" : 5,
+    "zaoFanTimeout" : 5
+  },
+  "tableType" : "normal",
+  "typeName" : "big_match"
+}

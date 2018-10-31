@@ -1,0 +1,824 @@
+{
+    "templates":{
+        "default":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=tuyoo"
+                        }
+                    }
+                }
+            ]
+        },
+		"tishen":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                }
+            ]
+        },
+        "default_noShare":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                }
+            ]
+        },
+		"default_ios":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=tuyoo"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_oppo":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=oppo"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_vivo":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=vivo"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_sanxing":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=sanxing"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_sanxing_identity":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId": "identity_activity",
+                    "enable": 1,
+                    "titlePic": "${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl": "${http_download}/hall/popwnd/imgs/ddz_realname_popwnd.png",
+                    "buttonText": "确定",
+                    "sub_action": {
+                        "action": "pop_active_wnd",
+                        "params": {
+                            "actId": "activity_realnamereg_0203",
+                            "typeId": "hall.goto.activity.byid"
+                        }
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=sanxing"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_huawei":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=huawei"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_qq":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=qq"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_qq_identity":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId": "identity_activity",
+                    "enable": 1,
+                    "titlePic": "${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl": "${http_download}/hall/popwnd/imgs/ddz_realname_popwnd.png",
+                    "buttonText": "确定",
+                    "sub_action": {
+                        "action": "pop_active_wnd",
+                        "params": {
+                            "actId": "activity_realnamereg_0203",
+                            "typeId": "hall.goto.activity.byid"
+                        }
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=qq"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_meizu":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=meizu"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_360.baiwang":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=360.baiwang"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_360":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=360"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_mi":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=mi"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_uc":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=uc"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_wdj":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=wdj"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_91new":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=91new"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_bdduoku":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=bdduoku"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_bdtbnew":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=bdtbnew"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_baidunew":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=baidunew"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_jinli":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=jinli"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_jinligame":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=jinligame"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_ali":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/haojiekafenxiang1.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70303,
+                            "des": "【途游跑胡子】最正宗的跑胡子手游，海量金币免费送，微信红包赢不停！",
+				            "subType": "0",
+				            "tips":"跑胡子每日分享",
+						    "title":"我正在【途游跑胡子】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/guwen3_fx.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/paohuzi/paohuzi1123/LUHUZI.html?mc=ali"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

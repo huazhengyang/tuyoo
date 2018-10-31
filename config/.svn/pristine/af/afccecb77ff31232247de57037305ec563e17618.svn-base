@@ -1,0 +1,36 @@
+{
+  "dummyUserCount" : 0,
+  "gameRule" : "classic",
+  "hasrobot" : 0,
+  "ismatch" : 0,
+  "level" : "vip",
+  "matchConf" : null,
+  "maxCoin" : -1,
+  "maxCoinQS" : 100000,
+  "maxLevel" : -1,
+  "minCoin" : 100000,
+  "minCoinQS" : 100000,
+  "name" : "翡翠鸿图",
+  "playMode" : "guobiao2ren",
+  "redEnvelopeLevel" : "vip",
+  "roomNameUrl" : "${http_download}/majiang/images/vip_table_name/guibinzhuo_deskname_fcht.png",
+  "tableConf" : {
+    "base_chip" : 6000,
+    "big_degree_fee" : [
+      30,
+      0.1,
+      200
+    ],
+    "countdown_readynum" : 1,
+    "good_tile_chance" : 1.4,
+    "maxSeatN" : 2,
+    "play_timeout" : 12,
+    "ready_timeout" : 30,
+    "return_timeout" : 30,
+    "room_coefficient" : 1,
+    "service_fee" : 6000
+  },
+  "tableType" : "vip",
+  "tagUrl" : "",
+  "typeName" : "normal"
+}

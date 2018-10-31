@@ -1,0 +1,26 @@
+{
+	"27001": "dragon_default_level",
+
+  	"products": {
+        "androidVipTableBuyLeastChip": [
+            {
+                "vip_required": 0,
+                "products": [360000, 1500000, 5000000]
+            },
+            {
+                "vip_required": 6,
+                "products": [1500000, 5000000, 20000000]
+            }
+        ],
+        "iosVipTableBuyLeastChip": [
+            {
+                "vip_required": 0,
+                "products": [360000, 1400000, 3000000]
+            },
+            {
+                "vip_required": 6,
+                "products": [3000000, 5500000, 12000000]
+            }
+        ]
+	}
+}

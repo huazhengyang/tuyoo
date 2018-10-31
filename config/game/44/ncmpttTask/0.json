@@ -1,0 +1,1292 @@
+{
+    "61101": {
+        "taskId": 61101, 
+        "fishPool": 1, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11001, 
+            "number1": 30, 
+            "target2": 11020, 
+            "number2": 1
+        }
+    }, 
+    "61102": {
+        "taskId": 61102, 
+        "fishPool": 1, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11003, 
+            "number1": 20, 
+            "target2": 11018, 
+            "number2": 1
+        }
+    }, 
+    "61103": {
+        "taskId": 61103, 
+        "fishPool": 1, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11005, 
+            "number1": 12, 
+            "target2": 11019, 
+            "number2": 1
+        }
+    }, 
+    "61104": {
+        "taskId": 61104, 
+        "fishPool": 1, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11007, 
+            "number1": 6, 
+            "target2": 11014, 
+            "number2": 2
+        }
+    }, 
+    "61105": {
+        "taskId": 61105, 
+        "fishPool": 1, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11002, 
+            "number1": 25, 
+            "target2": 11017, 
+            "number2": 1
+        }
+    }, 
+    "61106": {
+        "taskId": 61106, 
+        "fishPool": 1, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11008, 
+            "number1": 7
+        }
+    }, 
+    "61107": {
+        "taskId": 61107, 
+        "fishPool": 1, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11009, 
+            "number1": 6
+        }
+    }, 
+    "61108": {
+        "taskId": 61108, 
+        "fishPool": 1, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11010, 
+            "number1": 5
+        }
+    }, 
+    "61109": {
+        "taskId": 61109, 
+        "fishPool": 1, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11011, 
+            "number1": 4
+        }
+    }, 
+    "61110": {
+        "taskId": 61110, 
+        "fishPool": 1, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11006, 
+            "number1": 15
+        }
+    }, 
+    "61111": {
+        "taskId": 61111, 
+        "fishPool": 1, 
+        "taskType": 2, 
+        "timeLong": 120, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 1000
+        }
+    }, 
+    "61112": {
+        "taskId": 61112, 
+        "fishPool": 1, 
+        "taskType": 2, 
+        "timeLong": 150, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 1200
+        }
+    }, 
+    "61113": {
+        "taskId": 61113, 
+        "fishPool": 1, 
+        "taskType": 3, 
+        "timeLong": 120, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 300, 
+            "number1": 1
+        }
+    }, 
+    "61114": {
+        "taskId": 61114, 
+        "fishPool": 1, 
+        "taskType": 3, 
+        "timeLong": 90, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 250, 
+            "number1": 1
+        }
+    }, 
+    "61115": {
+        "taskId": 61115, 
+        "fishPool": 1, 
+        "taskType": 4, 
+        "timeLong": 150, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 100
+        }
+    }, 
+    "61116": {
+        "taskId": 61116, 
+        "fishPool": 1, 
+        "taskType": 5, 
+        "timeLong": 90, 
+        "chestReward": 41101, 
+        "coinReward": 42001, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 10, 
+            "number1": 1
+        }
+    }, 
+    "61201": {
+        "taskId": 61201, 
+        "fishPool": 2, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11004, 
+            "number1": 15, 
+            "target2": 11022, 
+            "number2": 1
+        }
+    }, 
+    "61202": {
+        "taskId": 61202, 
+        "fishPool": 2, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11002, 
+            "number1": 12, 
+            "target2": 11020, 
+            "number2": 1
+        }
+    }, 
+    "61203": {
+        "taskId": 61203, 
+        "fishPool": 2, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11003, 
+            "number1": 20, 
+            "target2": 11018, 
+            "number2": 1
+        }
+    }, 
+    "61204": {
+        "taskId": 61204, 
+        "fishPool": 2, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11005, 
+            "number1": 12, 
+            "target2": 11019, 
+            "number2": 1
+        }
+    }, 
+    "61205": {
+        "taskId": 61205, 
+        "fishPool": 2, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11007, 
+            "number1": 6, 
+            "target2": 11014, 
+            "number2": 2
+        }
+    }, 
+    "61206": {
+        "taskId": 61206, 
+        "fishPool": 2, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11006, 
+            "number1": 15
+        }
+    }, 
+    "61207": {
+        "taskId": 61207, 
+        "fishPool": 2, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11008, 
+            "number1": 7
+        }
+    }, 
+    "61208": {
+        "taskId": 61208, 
+        "fishPool": 2, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11009, 
+            "number1": 6
+        }
+    }, 
+    "61209": {
+        "taskId": 61209, 
+        "fishPool": 2, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11010, 
+            "number1": 5
+        }
+    }, 
+    "61210": {
+        "taskId": 61210, 
+        "fishPool": 2, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11011, 
+            "number1": 4
+        }
+    }, 
+    "61211": {
+        "taskId": 61211, 
+        "fishPool": 2, 
+        "taskType": 2, 
+        "timeLong": 120, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 1800
+        }
+    }, 
+    "61212": {
+        "taskId": 61212, 
+        "fishPool": 2, 
+        "taskType": 2, 
+        "timeLong": 150, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 2000
+        }
+    }, 
+    "61213": {
+        "taskId": 61213, 
+        "fishPool": 2, 
+        "taskType": 3, 
+        "timeLong": 120, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 350, 
+            "number1": 1
+        }
+    }, 
+    "61214": {
+        "taskId": 61214, 
+        "fishPool": 2, 
+        "taskType": 3, 
+        "timeLong": 90, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 300, 
+            "number1": 1
+        }
+    }, 
+    "61215": {
+        "taskId": 61215, 
+        "fishPool": 2, 
+        "taskType": 4, 
+        "timeLong": 150, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 90
+        }
+    }, 
+    "61216": {
+        "taskId": 61216, 
+        "fishPool": 2, 
+        "taskType": 5, 
+        "timeLong": 90, 
+        "chestReward": 41102, 
+        "coinReward": 42002, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 9, 
+            "number1": 1
+        }
+    }, 
+    "61301": {
+        "taskId": 61301, 
+        "fishPool": 3, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11004, 
+            "number1": 15, 
+            "target2": 11024, 
+            "number2": 1
+        }
+    }, 
+    "61302": {
+        "taskId": 61302, 
+        "fishPool": 3, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11006, 
+            "number1": 12, 
+            "target2": 11023, 
+            "number2": 1
+        }
+    }, 
+    "61303": {
+        "taskId": 61303, 
+        "fishPool": 3, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11005, 
+            "number1": 12, 
+            "target2": 11019, 
+            "number2": 1
+        }
+    }, 
+    "61304": {
+        "taskId": 61304, 
+        "fishPool": 3, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11007, 
+            "number1": 6, 
+            "target2": 11014, 
+            "number2": 2
+        }
+    }, 
+    "61305": {
+        "taskId": 61305, 
+        "fishPool": 3, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11002, 
+            "number1": 10, 
+            "target2": 11017, 
+            "number2": 2
+        }
+    }, 
+    "61306": {
+        "taskId": 61306, 
+        "fishPool": 3, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11008, 
+            "number1": 7
+        }
+    }, 
+    "61307": {
+        "taskId": 61307, 
+        "fishPool": 3, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11009, 
+            "number1": 6
+        }
+    }, 
+    "61308": {
+        "taskId": 61308, 
+        "fishPool": 3, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11010, 
+            "number1": 5
+        }
+    }, 
+    "61309": {
+        "taskId": 61309, 
+        "fishPool": 3, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11012, 
+            "number1": 4
+        }
+    }, 
+    "61310": {
+        "taskId": 61310, 
+        "fishPool": 3, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11003, 
+            "number1": 15
+        }
+    }, 
+    "61311": {
+        "taskId": 61311, 
+        "fishPool": 3, 
+        "taskType": 2, 
+        "timeLong": 120, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 2500
+        }
+    }, 
+    "61312": {
+        "taskId": 61312, 
+        "fishPool": 3, 
+        "taskType": 2, 
+        "timeLong": 150, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 3000
+        }
+    }, 
+    "61313": {
+        "taskId": 61313, 
+        "fishPool": 3, 
+        "taskType": 3, 
+        "timeLong": 120, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 400, 
+            "number1": 1
+        }
+    }, 
+    "61314": {
+        "taskId": 61314, 
+        "fishPool": 3, 
+        "taskType": 3, 
+        "timeLong": 90, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 350, 
+            "number1": 1
+        }
+    }, 
+    "61315": {
+        "taskId": 61315, 
+        "fishPool": 3, 
+        "taskType": 4, 
+        "timeLong": 150, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 80
+        }
+    }, 
+    "61316": {
+        "taskId": 61316, 
+        "fishPool": 3, 
+        "taskType": 5, 
+        "timeLong": 90, 
+        "chestReward": 41201, 
+        "coinReward": 42003, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 8, 
+            "number1": 1
+        }
+    }, 
+    "61401": {
+        "taskId": 61401, 
+        "fishPool": 4, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11001, 
+            "number1": 10, 
+            "target2": 11020, 
+            "number2": 1
+        }
+    }, 
+    "61402": {
+        "taskId": 61402, 
+        "fishPool": 4, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11003, 
+            "number1": 10, 
+            "target2": 11018, 
+            "number2": 1
+        }
+    }, 
+    "61403": {
+        "taskId": 61403, 
+        "fishPool": 4, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11004, 
+            "number1": 10, 
+            "target2": 11014, 
+            "number2": 2
+        }
+    }, 
+    "61404": {
+        "taskId": 61404, 
+        "fishPool": 4, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11008, 
+            "number1": 12, 
+            "target2": 11016, 
+            "number2": 2
+        }
+    }, 
+    "61405": {
+        "taskId": 61405, 
+        "fishPool": 4, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11002, 
+            "number1": 10, 
+            "target2": 11017, 
+            "number2": 2
+        }
+    }, 
+    "61406": {
+        "taskId": 61406, 
+        "fishPool": 4, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11005, 
+            "number1": 20
+        }
+    }, 
+    "61407": {
+        "taskId": 61407, 
+        "fishPool": 4, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11007, 
+            "number1": 10
+        }
+    }, 
+    "61408": {
+        "taskId": 61408, 
+        "fishPool": 4, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11010, 
+            "number1": 8
+        }
+    }, 
+    "61409": {
+        "taskId": 61409, 
+        "fishPool": 4, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11011, 
+            "number1": 5
+        }
+    }, 
+    "61410": {
+        "taskId": 61410, 
+        "fishPool": 4, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11012, 
+            "number1": 6
+        }
+    }, 
+    "61411": {
+        "taskId": 61411, 
+        "fishPool": 4, 
+        "taskType": 2, 
+        "timeLong": 120, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 3000
+        }
+    }, 
+    "61412": {
+        "taskId": 61412, 
+        "fishPool": 4, 
+        "taskType": 2, 
+        "timeLong": 150, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 3600
+        }
+    }, 
+    "61413": {
+        "taskId": 61413, 
+        "fishPool": 4, 
+        "taskType": 3, 
+        "timeLong": 120, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 500, 
+            "number1": 1
+        }
+    }, 
+    "61414": {
+        "taskId": 61414, 
+        "fishPool": 4, 
+        "taskType": 3, 
+        "timeLong": 90, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 400, 
+            "number1": 1
+        }
+    }, 
+    "61415": {
+        "taskId": 61415, 
+        "fishPool": 4, 
+        "taskType": 4, 
+        "timeLong": 150, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 70
+        }
+    }, 
+    "61416": {
+        "taskId": 61416, 
+        "fishPool": 4, 
+        "taskType": 5, 
+        "timeLong": 90, 
+        "chestReward": 41202, 
+        "coinReward": 42004, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 7, 
+            "number1": 1
+        }
+    }, 
+    "61501": {
+        "taskId": 61501, 
+        "fishPool": 5, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11001, 
+            "number1": 8, 
+            "target2": 11021, 
+            "number2": 2
+        }
+    }, 
+    "61502": {
+        "taskId": 61502, 
+        "fishPool": 5, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11003, 
+            "number1": 9, 
+            "target2": 11022, 
+            "number2": 2
+        }
+    }, 
+    "61503": {
+        "taskId": 61503, 
+        "fishPool": 5, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11004, 
+            "number1": 10, 
+            "target2": 11018, 
+            "number2": 3
+        }
+    }, 
+    "61504": {
+        "taskId": 61504, 
+        "fishPool": 5, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11008, 
+            "number1": 12, 
+            "target2": 11016, 
+            "number2": 3
+        }
+    }, 
+    "61505": {
+        "taskId": 61505, 
+        "fishPool": 5, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11002, 
+            "number1": 12, 
+            "target2": 11017, 
+            "number2": 3
+        }
+    }, 
+    "61506": {
+        "taskId": 61506, 
+        "fishPool": 5, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11024, 
+            "number1": 4
+        }
+    }, 
+    "61507": {
+        "taskId": 61507, 
+        "fishPool": 5, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11010, 
+            "number1": 8
+        }
+    }, 
+    "61508": {
+        "taskId": 61508, 
+        "fishPool": 5, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11023, 
+            "number1": 3
+        }
+    }, 
+    "61509": {
+        "taskId": 61509, 
+        "fishPool": 5, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11011, 
+            "number1": 5
+        }
+    }, 
+    "61510": {
+        "taskId": 61510, 
+        "fishPool": 5, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11012, 
+            "number1": 6
+        }
+    }, 
+    "61511": {
+        "taskId": 61511, 
+        "fishPool": 5, 
+        "taskType": 2, 
+        "timeLong": 120, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 4000
+        }
+    }, 
+    "61512": {
+        "taskId": 61512, 
+        "fishPool": 5, 
+        "taskType": 2, 
+        "timeLong": 150, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 4800
+        }
+    }, 
+    "61513": {
+        "taskId": 61513, 
+        "fishPool": 5, 
+        "taskType": 3, 
+        "timeLong": 120, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 600, 
+            "number1": 1
+        }
+    }, 
+    "61514": {
+        "taskId": 61514, 
+        "fishPool": 5, 
+        "taskType": 3, 
+        "timeLong": 90, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 500, 
+            "number1": 1
+        }
+    }, 
+    "61515": {
+        "taskId": 61515, 
+        "fishPool": 5, 
+        "taskType": 4, 
+        "timeLong": 150, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 60
+        }
+    }, 
+    "61516": {
+        "taskId": 61516, 
+        "fishPool": 5, 
+        "taskType": 5, 
+        "timeLong": 90, 
+        "chestReward": 41301, 
+        "coinReward": 42005, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 7, 
+            "number1": 1
+        }
+    }, 
+    "61601": {
+        "taskId": 61601, 
+        "fishPool": 6, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11001, 
+            "number1": 8, 
+            "target2": 11021, 
+            "number2": 3
+        }
+    }, 
+    "61602": {
+        "taskId": 61602, 
+        "fishPool": 6, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11003, 
+            "number1": 8, 
+            "target2": 11022, 
+            "number2": 3
+        }
+    }, 
+    "61603": {
+        "taskId": 61603, 
+        "fishPool": 6, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11004, 
+            "number1": 10, 
+            "target2": 11018, 
+            "number2": 3
+        }
+    }, 
+    "61604": {
+        "taskId": 61604, 
+        "fishPool": 6, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11008, 
+            "number1": 12, 
+            "target2": 11019, 
+            "number2": 3
+        }
+    }, 
+    "61605": {
+        "taskId": 61605, 
+        "fishPool": 6, 
+        "taskType": 1, 
+        "timeLong": 150, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11002, 
+            "number1": 8, 
+            "target2": 11020, 
+            "number2": 3
+        }
+    }, 
+    "61606": {
+        "taskId": 61606, 
+        "fishPool": 6, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11026, 
+            "number1": 4
+        }
+    }, 
+    "61607": {
+        "taskId": 61607, 
+        "fishPool": 6, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11010, 
+            "number1": 8
+        }
+    }, 
+    "61608": {
+        "taskId": 61608, 
+        "fishPool": 6, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11025, 
+            "number1": 3
+        }
+    }, 
+    "61609": {
+        "taskId": 61609, 
+        "fishPool": 6, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11011, 
+            "number1": 6
+        }
+    }, 
+    "61610": {
+        "taskId": 61610, 
+        "fishPool": 6, 
+        "taskType": 1, 
+        "timeLong": 120, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 11012, 
+            "number1": 8
+        }
+    }, 
+    "61611": {
+        "taskId": 61611, 
+        "fishPool": 6, 
+        "taskType": 2, 
+        "timeLong": 120, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 5000
+        }
+    }, 
+    "61612": {
+        "taskId": 61612, 
+        "fishPool": 6, 
+        "taskType": 2, 
+        "timeLong": 150, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 6000
+        }
+    }, 
+    "61613": {
+        "taskId": 61613, 
+        "fishPool": 6, 
+        "taskType": 3, 
+        "timeLong": 120, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 700, 
+            "number1": 1
+        }
+    }, 
+    "61614": {
+        "taskId": 61614, 
+        "fishPool": 6, 
+        "taskType": 3, 
+        "timeLong": 90, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 600, 
+            "number1": 1
+        }
+    }, 
+    "61615": {
+        "taskId": 61615, 
+        "fishPool": 6, 
+        "taskType": 4, 
+        "timeLong": 150, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "number1": 50
+        }
+    }, 
+    "61616": {
+        "taskId": 61616, 
+        "fishPool": 6, 
+        "taskType": 5, 
+        "timeLong": 90, 
+        "chestReward": 41302, 
+        "coinReward": 42006, 
+        "readySeconds": 3, 
+        "targets": {
+            "target1": 7, 
+            "number1": 1
+        }
+    }
+}

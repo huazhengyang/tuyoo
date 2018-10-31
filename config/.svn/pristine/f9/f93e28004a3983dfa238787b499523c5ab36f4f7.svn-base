@@ -1,0 +1,20 @@
+{
+	"templates":{
+		"default":{
+			"clientVersion":"3.77",
+			"skins":[
+				{
+					"name":"skins_wu",
+					"icon_url":"${http_download}/hall/customize_skins/skins_wu.jpg",
+					"skin_url":"${http_download}/hall/customize_skins/skins_wu.zip",
+					"dirName":"games/",
+					"fileType":"zip",
+					"skin_md5":"9f13034e54e741448d305f13ef082862",
+					"skins_Desc":"恭喜发财，大吉大利！",
+					"isDownload":true,
+					"skins_name":"节日快乐"
+				}
+			]
+		}
+	}
+}

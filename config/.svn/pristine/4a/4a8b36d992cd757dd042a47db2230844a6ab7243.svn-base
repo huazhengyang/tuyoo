@@ -1,0 +1,30 @@
+{
+ "templates": [
+        {
+            "name": "youlepdk",
+            "inviteRewardItem": {
+                "itemId": "item:6002",
+                "count": 6
+            },
+            "gotoTitle": "体验游戏送房卡啦", 
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "https://m1-youle.youlegame888.com/landing/h_paodekuai.html", 
+            "inviteTitle": "可以和亲友一起游戏的跑得快", 
+            "inviteDesc": "玩自建桌跑得快，报我ID(\\${rewardContent})就领取6张房卡",
+            "inviteUrl": "https://m1-youle.youlegame888.com/landing/h_paodekuai.html"
+        },
+        {
+            "name": "sqypdk",
+            "inviteRewardItem": {
+                "itemId": "item:6009",
+                "count": 6
+            },
+            "gotoTitle": "体验游戏送房卡啦", 
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧!",
+            "gotoUrl": "https://m1-sqy.youlegame888.com/landing/s_paodekuai.html", 
+            "inviteTitle": "可以和亲友一起游戏的跑得快", 
+            "inviteDesc": "玩自建桌跑得快，报我ID(\\${rewardContent})就领取6张房卡",
+            "inviteUrl": "https://m1-sqy.youlegame888.com/landing/s_paodekuai.html"
+        }
+    ]
+}

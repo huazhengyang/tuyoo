@@ -1,0 +1,174 @@
+{
+    "1194": {
+        "kindId": 1194,
+        "order": 1,
+        "actions": [
+            {
+                "action": "sale",
+                "params": [
+                    {
+                        "name": 101,
+                        "count": 500000
+                    }
+                ]
+            },
+            {
+                "action": "convert",
+                "params": {
+                    "convertKindId": 1193,
+                    "rate": 5,
+                    "unit": 1
+                }
+            }
+        ]
+    },
+    "1193": {
+        "kindId": 1193,
+        "order": 2,
+        "actions": [
+            {
+                "action": "sale",
+                "params": [
+                    {
+                        "name": 101,
+                        "count": 100000
+                    }
+                ]
+            },
+            {
+                "action": "convert",
+                "params": {
+                    "convertKindId": 1301,
+                    "rate": 10,
+                    "unit": 1
+                }
+            },
+            {
+                "action": "convert",
+                "params": {
+                    "convertKindId": 1194,
+                    "rate": 0.2,
+                    "unit": 5
+                }
+            }
+        ]
+    },
+    "1301": {
+        "kindId": 1301,
+        "order": 3,
+        "actions": [
+            {
+                "action": "sale",
+                "params": [
+                    {
+                        "name": 101,
+                        "count": 10000
+                    }
+                ]
+            },
+            {
+                "action": "convert",
+                "params": {
+                    "convertKindId": 1193,
+                    "rate": 0.1,
+                    "unit": 10
+                }
+            }
+        ]
+    },
+    "1137": {
+        "kindId": 1137,
+        "order": 4,
+        "actions": [
+            {
+                "action": "sale",
+                "params": [
+                    {
+                        "name": 101,
+                        "count": 50
+                    }
+                ]
+            }
+        ]
+    },
+    "3106": {
+        "kindId": 3106,
+        "order": 5,
+        "actions": [
+            {
+                "action": "sale",
+                "params": [
+                    {
+                        "name": 101,
+                        "count": 20
+                    }
+                ]
+            }
+        ]
+    },
+    "1283": {
+        "kindId": 1283,
+        "order": 6,
+        "actions": [
+            {
+                "action": "open"
+            }
+        ]
+    },
+    "1284": {
+        "kindId": 1284,
+        "order": 7,
+        "actions": [
+            {
+                "action": "open"
+            }
+        ]
+    },
+    "1285": {
+        "kindId": 1285,
+        "order": 8,
+        "actions": [
+            {
+                "action": "open"
+            }
+        ]
+    },
+    "1286": {
+        "kindId": 1286,
+        "order": 9,
+        "actions": [
+            {
+                "action": "open"
+            }
+        ]
+    },
+    "1287": {
+        "kindId": 1287,
+        "order": 10,
+        "actions": [
+            {
+                "action": "open"
+            }
+        ]
+    },
+    "1228": {
+        "kindId": 1228,
+        "order": 11,
+        "actions": [
+            {
+                "action": "sale",
+                "params": [
+                    {
+                        "name": 101,
+                        "count": 50
+                    }
+                ]
+            }
+        ]
+    },
+    "1306": {
+        "kindId": 1306,
+        "order": 12,
+        "actions": []
+    }
+}

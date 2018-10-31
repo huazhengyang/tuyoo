@@ -1,0 +1,47 @@
+
+{
+    "task": {
+        "301": {
+            "taskId": 301,
+            "gameId": 207,
+            "taskName": "连胜",
+            "taskDesc": "连胜2局,奖励8张奖券",
+            "taskCount": 2,
+            "roomList": -1,
+            "urlOrLink": "someThing",
+            "autoAccept": 0,
+            "autoReward": 0,
+            "taskFinishEvent": 3001,
+            "reward": {
+                "items": [
+                    {
+                        "count": 8,
+                        "itemId": "item:10005"
+                    }
+                ],
+                "typeId": "FixedContent"
+            }
+        },
+        "302": {
+            "taskId": 302,
+            "gameId": 207,
+            "taskName": "连胜",
+            "taskDesc": "连胜4局,奖励16张奖券",
+            "taskCount": 4,
+            "roomList": -1,
+            "urlOrLink": "someThing",
+            "autoAccept": 1,
+            "autoReward": 1,
+            "taskFinishEvent": 3002,
+            "reward": {
+                "items": [
+                    {
+                        "count": 8,
+                        "itemId": "item:10006"
+                    }
+                ],
+                "typeId": "FixedContent"
+            }
+        }
+    }
+}

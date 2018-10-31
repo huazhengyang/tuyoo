@@ -1,0 +1,74 @@
+1. 协议
+
+参见`新手任务协议修改.txt`
+
+2. 数据存储
+
+gamedata:6:userId: {
+    "newbie.task.status": {"curTaskKindId": 40003, "completedList": [40001, 40002]}
+}
+
+3. 修改table_info协议，添加newertask字段
+
+newertask:{
+	cur:{
+		index:1,
+		total:9,
+		finish:3
+	},
+	details:[
+		{
+			name:"玩3局经典场",
+			reward:[
+				{
+					name:"金币",
+					img:"http://",
+					count:8
+				},
+				{
+					name:"大师分",
+					img:"http://",
+					count:10
+				}
+			]
+		},
+		{
+			name:"玩9局经典场",
+			reward:[
+				{
+					name:"金币",
+					img:"http://",
+					count:80
+				},
+				{
+					name:"大师分",
+					img:"http://",
+					count:100
+				}
+			]
+		}
+	],
+	final:[
+		{
+			name:"金币",
+			img:"http://",
+			count:8
+		},
+		{
+			name:"大师分",
+			img:"http://",
+			count:10
+		}
+	],
+	deadline:140xxxx
+}
+
+4. 修改game_win协议，添加newertask字段
+newertask:{
+	cur:{
+		index:3,
+		total:9,
+		finish:9
+	},
+	final:0/1
+}

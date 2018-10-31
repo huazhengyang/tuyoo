@@ -1,0 +1,385 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注新水果",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "f2b440eb3c98983d401973934e1f432a",
+     "ver"              : "3.801",
+     "url"              : "${http_download}/hall/plugin/game/newfruit_release_v3.8011.zip",
+     "size"             : "3.5"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注新水果",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "6518fff98e5451369cc2c04d6a09978a",
+     "ver"              : "3.803",
+     "url"              : "${http_download}/hall/plugin/game/newfruit_release_v3.803.zip",
+     "size"             : "3.50"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注新水果",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "bb21b9c371e36e6e1b6205e12986563b",
+     "ver"              : "3.804",
+     "url"              : "${http_download}/hall/plugin/game/newfruit_release_v3.8041.zip",
+     "size"             : "3.6"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注新水果",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "14b03859dacf13c5efa54ed4fec544ee",
+     "ver"              : "3.805",
+     "url"              : "${http_download}/hall/plugin/game/newfruit_release_v3.8051.zip",
+     "size"             : "4.0"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注新水果",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "ab81c57372cbdb6777ef46230144c738",
+     "ver"              : "3.807",
+     "url"              : "${http_download}/hall/plugin/game/fruit_release_v3.807.zip_3.zip",
+     "size"             : "4.6"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注新水果",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "e9a4090e7e3dad875112485028b93d2c",
+     "ver"              : "3.808",
+     "url"              : "${http_download}/hall/plugin/game/fruit_release_v3.808_4.zip",
+     "size"             : "2.3"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注新水果",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "d0d0a7ea9dce8c1ccaa273076d837113",
+     "ver"              : "3.809",
+     "url"              : "${http_download}/hall/plugin/game/fruit_release_v3.809_5.zip",
+     "size"             : "2.7"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注新水果",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "8c951b451ac292069efd76b0d945de6e",
+     "ver"              : "3.810",
+     "url"              : "${http_download}/hall/plugin/game/fruit_release_v3.810_2.zip",
+     "size"             : "3.5"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注新水果",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "4fce586cc05912ed99d7de0f487c46ab",
+     "ver"              : "5.05",
+     "url"              : "${http_download}/hall/plugin/game/newfruit_release_v5.05_1.zip",
+     "size"             : "3.5"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注新水果",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "024e1d661d41afc1612f9132232954e1",
+     "ver"              : "5.06",
+     "url"              : "${http_download}/hall/plugin/game/newfruit_release_v5.06_2.zip",
+     "size"             : "3.5"
+    }
+   ],
+   "description"      : [
+    "1、轻松押注新水果",
+    "2、开开心心赢大奖"
+   ],
+   "gameId"           : 31,
+   "gameMark"         : "newfruit"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "博弈单包测试",
+   "name"             : "newfruit_v3.808_AI_test",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 31,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "大丰收",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.808",
+          "defaultRes"       : "FruitDefault"
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [
+          {
+           "startLevel"       : 13,
+           "stopLevel"        : 14,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 16,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "百人游戏",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.714",
+          "defaultRes"       : "BaiRenDefault"
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 27,
+          "iconUrl"          : "${http_download}/hall/plugin/img/clown_icon2.png",
+          "vipLevel"         : 0,
+          "gameName"         : "小丑",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.708",
+          "defaultRes"       : "ClownDefault"
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 19,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "跑狗",
+          "quitAlertName"    : "",
+          "version"          : "3.714",
+          "defaultRes"       : "DogDefault"
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 23,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "天地麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.713",
+          "defaultRes"       : "DragonDefault"
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [
+          {
+           "list"             : [
+            {
+             "startTime"        : 900,
+             "endTime"          : -1,
+             "typeId"           : "user.cond.play.time"
+            },
+            {
+             "startLevel"       : 1,
+             "stopLevel"        : -1,
+             "typeId"           : "user.cond.vipLevel"
+            }
+           ],
+           "typeId"           : "user.cond.or"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 38,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "发财扑克",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.801",
+          "defaultRes"       : "RedBlackDefault"
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "GameSetDefault"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 38,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "发财扑克",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.801",
+        "defaultRes"       : "RedBlackDefault"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 23,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "天地麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.713",
+        "defaultRes"       : "DragonDefault"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 31,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "新大丰收",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.808",
+        "defaultRes"       : "FruitDefault"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 19,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "跑狗",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.714",
+        "defaultRes"       : "DogDefault"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 27,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "小丑",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.708",
+        "defaultRes"       : "ClownDefault"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 13,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 16,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "百人斗牛",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.714",
+        "defaultRes"       : "BaiRenDefault"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+    "typeName": "time_frame_match",
+    "name": "大奖赛",
+    "sceneName": "string_dajiangsai",
+    "controlServerCount": 1,
+    "controlTableCount": 0,
+    "dummyUserCount": 0,
+    "gameServerCount": 1,
+    "gameTableCount": 50,
+    "maxLevel": 999,
+    "minCoin": 100000,
+    "minGunLevel": 2123	,
+    "miniGameLevel": 1,
+    "ismatch": 1,
+    "shelterShadowRoomIds":[600041001],
+    "tableConf": {
+        "fishGroupsName": "string_dajiangsai",
+        "fishTideName": "tideLevel1",
+        "maxSeatN": 4
+    },
+    "matchConf": {
+        "type": "bigPrize",
+        "bulletNum": 2000,
+        "conditon":{
+            "maxLevel": 999,
+            "minCoin": 100000,
+            "minGunLevel": 2123
+        },
+        "fees": [
+
+        ],
+        "rank.rewards": [
+            {
+                "ranking": {
+                    "end": 0,
+                    "start": 0
+                },
+                "rewards": [
+                    {
+                        "count": 1,
+                        "name": "item:2175"
+                    }
+                ]
+            },
+            {
+                "ranking": {
+                    "end": 1,
+                    "start": 1
+                },
+                "rewards": [
+                    {
+                        "count": 10,
+                        "name": "item:1205"
+                    }
+                ]
+            },
+            {
+                "ranking": {
+                    "end": 2,
+                    "start": 2
+                },
+                "rewards": [
+                    {
+                        "count": 5,
+                        "name": "item:1205"
+                    }
+                ]
+            },
+            {
+                "ranking": {
+                    "end": 3,
+                    "start": 3
+                },
+                "rewards": [
+                    {
+                        "count": 3,
+                        "name": "item:1205"
+                    }
+                ]
+            },
+            {
+                "ranking": {
+                    "end": 10,
+                    "start": 4
+                },
+                "rewards": [
+                    {
+                        "count": 2,
+                        "name": "item:1204"
+                    }
+                ]
+            },
+            {
+                "ranking": {
+                    "end": 50,
+                    "start": 11
+                },
+                "rewards": [
+                    {
+                        "count": 2,
+                        "name": "item:1203"
+                    }
+                ]
+            },
+            {
+                "ranking": {
+                    "end": 100,
+                    "start": 51
+                },
+                "rewards": [
+                    {
+                        "count": 1,
+                        "name": "item:1206"
+                    }
+                ]
+            }
+        ],
+        "timeLong": 900,
+        "storeScoreInterval": 3,
+        "instIdPostfix": "0900",
+        "cutOff": 30,
+        "resultShow": 2,
+        "rankListRefresh": 1,
+        "tlmtTaskBulletLeft": [1800, 1180, 550],
+        "tlmtTaskLevel": {"1800": 1, "1180": 2, "550": 3},
+        "times": {
+            "days": {
+                "interval":"1d",
+                "count": 100
+            },
+            "times_in_day": {
+                "first":"9:00",
+                "interval": 900,
+                "count":1
+            }
+        }
+
+    }
+}

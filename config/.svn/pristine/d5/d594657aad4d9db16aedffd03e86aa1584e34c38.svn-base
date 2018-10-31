@@ -1,0 +1,167 @@
+{	
+	"useRoomCount": 5,
+    "occupySwitch": 1,
+	"occupyIntervalSeconds": 3,
+    "occupyMax": 0.75,
+	"buyinchip" : 10000,
+	"canQuit": 0,
+	"continueFillUp" : 1,
+	"chipControlLine": 500,
+	"kickOutCoin": 0,
+	"dummyUserCount" : 0,
+	"goodCard" : 1,
+	"hasrobot" : 1,
+	"ismatch" : 0,
+	"matchConf" : null,
+	"minQuickStartChip" : 0,
+	"maxCoin" : 10000,
+	"maxCoinQS" : -1,
+	"maxLevel" : -1,
+	"minCoin" : 0,
+	"minCoinQS" : 0,
+	"name" : "新手训练场",
+	"quickIndex" : 6,
+	"luckyBox": 1,
+	"playDesc" : "",
+	"playMode" : "happy",
+	"firstCallPolicyType": "luck",
+	"robotUserCallUpTime" : 3,
+	"robotUserMaxCount" : 0,
+	"robotUserOpTime" : [
+		1,
+		2
+	],
+	"roomFee" : 10,
+	"fixedRoomFee" : 5,
+	"winnerTaxMulti": 0,
+	"newTypeOfGift" : 1,
+	"roomLevel" : 1,
+	"roomMutil" : 2,
+	"showCard" : 0,
+	"tableConf" : {
+		"huanpaiCardCount" : 3,
+		"optimeHuanpai" : 20,
+		"autochange" : 1,
+		"autoPlay" : 0,
+		"basebet" : 1,
+		"basemulti" : 1,
+		"canchat" : 1,
+		"cardNoteDiamond" : 12,
+		"coin2chip" : 1,
+		"grab" : 1,
+		"gslam" : 128,
+		"lucky" : 60,
+		"maxSeatN" : 3,
+		"optime" : 15,
+		"passtime" : 5,
+		"rangpaiMultiType" : 1,
+		"robottimes" : 1,
+		"tbbox" : 0,
+		"unticheat" : 0,
+		"mixShowChip": 1,
+		"abortRestartSwitch" : 1,    
+		"abortRestartMinVer" : 3.818
+	},
+	"freeFeeSwitch" : 1,
+	"typeName" : "dizhu_normal",
+	"winDesc" : "",
+	"winStreakAssignTable":{
+		"timeout": 3,		
+		"sections":[
+			[0, 1],
+			[2, 4],
+			[5, 10]
+		]
+	},
+	"winStreakTask":{
+		"imgs":[
+			"${http_download}/dizhu/room/imgs/ddz_liansheng_chip_size_1.png",
+			"${http_download}/dizhu/room/imgs/ddz_liansheng_chip_size_2.png",
+			"${http_download}/dizhu/room/imgs/ddz_liansheng_chip_size_3.png",
+			"${http_download}/dizhu/room/imgs/ddz_liansheng_chip_size_4.png",
+			"${http_download}/dizhu/room/imgs/ddz_liansheng_redEnvelopQuan_1.png",
+			"${http_download}/dizhu/room/imgs/icon_credit1.png",
+			"${http_download}/dizhu/room/imgs/icon_gold1.png"
+		],
+		"tasks":[
+			{
+				"iconIndex":6,
+				"imgIndex":0,
+				"count":10,
+				"itemId":"user:chip"
+			},
+			{
+				"iconIndex":6,
+				"imgIndex":0,
+				"count":30,
+				"itemId":"user:chip"
+			},
+			{
+				"iconIndex":6,
+				"imgIndex":1,
+				"count":100,
+				"itemId":"user:chip"
+			},
+			{
+				"iconIndex":5,
+				"imgIndex":4,
+				"count":2,
+				"itemId":"user:coupon"
+			},
+			{
+				"iconIndex":6,
+				"imgIndex":1,
+				"count":500,
+				"itemId":"user:chip"
+			},
+			{  "iconIndex":6,
+				"imgIndex":2,
+				"count":1000,
+				"itemId":"user:chip"
+			},
+			{
+				"iconIndex":6,
+				"imgIndex":2,
+				"count":2000,
+				"itemId":"user:chip"
+			},
+			{
+				"iconIndex":6,
+				"imgIndex":3,
+				"count":5000,
+				"itemId":"user:chip"
+			},
+			{
+				"iconIndex":6,
+				"imgIndex":3,
+				"count":8000,
+				"itemId":"user:chip"
+			},
+			{
+				"iconIndex":5,
+				"imgIndex":4,
+				"count":80,
+				"itemId":"user:coupon"
+			}
+		]
+	},
+	"dailyPlayTimesWinTask": {
+		"tasks":[
+			{
+				"count":{"dizhu": 0, "nongmin": 0},
+				"itemId":"user:chip",
+				"times": [1, 10]
+			},
+			{
+				"count":{"dizhu": 0, "nongmin": 0},
+				"itemId":"user:chip",
+				"times": [11, -1]
+			}
+		]
+	},
+	"displayCond": {
+		"typeId":"user.cond.dizhu.clientVer",
+		"minVersion":3.825
+	},
+	"dailyPlayTimesWinTaskFlag": 1
+}

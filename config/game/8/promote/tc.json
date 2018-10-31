@@ -1,0 +1,1226 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8032506,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startTime"   : 10000,
+           "endTime"     : -1,
+           "typeId"      : "user.cond.play.time"
+          },
+          {
+           "startLevel"  : 5,
+           "stopLevel"   : 12,
+           "typeId"      : "user.cond.vipLevel"
+          }
+         ],
+         "typeId"      : "user.cond.or"
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8032505,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startTime"   : 10000,
+           "endTime"     : -1,
+           "typeId"      : "user.cond.play.time"
+          },
+          {
+           "startLevel"  : 5,
+           "stopLevel"   : 12,
+           "typeId"      : "user.cond.vipLevel"
+          }
+         ],
+         "typeId"      : "user.cond.or"
+        }
+       ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8032504,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "template_name_7_20160224192925"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 24,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 27,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "texas_3.73_75_huawei_only"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 24,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 32,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 27,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "texas_3.75_only_for_IOS"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062304,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8092201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8082801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "texas_3_711_android"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062304,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "texas_3_711_Ios"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "texas_3_711_Ios_tishen"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 24,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 31,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 27,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "texas_3_73_android"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 24,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 31,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 27,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "texas_v3.772_A_GDtishen_promote"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 24,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 27,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "texas_v3.77_A_nomonthcard_promote"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 24,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 27,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 31,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "texas_v3.77_Common_online_promote"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062304,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "texas_v3.781_A_GDtishen_promote"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8092201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062304,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "texas_v3.90_AI_online_promote"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8092201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062304,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "texas_v3.91_AI_noredreward"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8092201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062304,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8092103,
+       "conditions"  : [
+        {
+         "type"        : "all",
+         "typeId"      : "user.cond.unsend.tuyoo.redenvelope"
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "texas_v3.93_AI_government_review_promote"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8092201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062304,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8032701,
+       "conditions"  : [
+        {
+         "startDays"   : 3,
+         "typeId"      : "user.cond.login.days",
+         "endDays"     : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 6
+    }
+   ],
+   "name"        : "texas_v3.97_AI_achievement_online_promote"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8032506,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8032505,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8032504,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "texas_v4.01_AI_nolimit_online_promote"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8032504,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "texas_v4.03_AI_promote_tishen"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8092201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8082801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    }
+   ],
+   "name"        : "texas_v4.56_AI_by_online"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8062302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8092201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8082801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 8112801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "texas_v4.56_AI_shimingrenzheng"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "texas_v4.58_promote_tishen"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 22,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包",
+   "url"         : "${http_download}/hall/promote/imgs/texas_unFirstRecharged.png"
+  },
+  {
+   "promotionId" : 23,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "desc"        : "恭喜您获得首充奖励大礼包！",
+     "typeId"      : "todotask.firstRechargeReward",
+     "url"         : "${http_download}/hall/promote/imgs/texas_1st_charged.png"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包奖励",
+   "url"         : "${http_download}/hall/promote/imgs/texas_unFirstRecharged.png"
+  },
+  {
+   "promotionId" : 24,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subStore"    : "coin",
+     "typeId"      : "hall.goto.shop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "商城",
+   "url"         : "${http_download}/hall/promote/imgs/texas_store.png"
+  },
+  {
+   "promotionId" : 25,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "memberBuy2"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "会员",
+   "url"         : "${http_download}/hall/promote/imgs/texas_member.png"
+  },
+  {
+   "promotionId" : 26,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "memberBuy2"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "月卡",
+   "url"         : "${http_download}/hall/promote/imgs/texas_month.png"
+  },
+  {
+   "promotionId" : 27,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "action"      : "tutorial"
+      },
+      "type"        : "quickstart"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新手教学",
+   "url"         : "${http_download}/hall/promote/imgs/texas_tutorial.png"
+  },
+  {
+   "promotionId" : 31,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "monthlyBuy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "月卡",
+   "url"         : "${http_download}/hall/promote/imgs/texas_month.png"
+  },
+  {
+   "promotionId" : 32,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "monthlyBuy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "月卡",
+   "url"         : "${http_download}/hall/promote/imgs/texas_month.png"
+  },
+  {
+   "promotionId" : 33,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_texas_3_72_Android_1",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新春比赛",
+   "url"         : "${http_download}/hall/promote/imgs/texas_newyear_match.png"
+  },
+  {
+   "promotionId" : 8031501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 12
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "荣誉堂",
+   "url"         : "${http_download}/hall/promote/imgs/texas_honor_hall.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 804101,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 11
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "今日比赛",
+   "url"         : "${http_download}/hall/promote/imgs/texas_match_for_today.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8062301,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州新首充",
+   "url"         : "${http_download}/hall/promote/imgs/texas_firstrecharge_0623.png",
+   "defaultRes"  : "PromoteFirstly"
+  },
+  {
+   "promotionId" : 8062302,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subStore"    : "coin",
+     "typeId"      : "hall.goto.shop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州新商城",
+   "url"         : "${http_download}/hall/promote/imgs/texas_shop_0623.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8062303,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "monthlyBuy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州新月卡",
+   "url"         : "${http_download}/hall/promote/imgs/texas_monthcard_0623.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8062304,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "action"      : "tutorial"
+      },
+      "type"        : "quickstart"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州新手教学",
+   "url"         : "${http_download}/hall/promote/imgs/texas_0927_newbeeguide.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8062305,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 11
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州新今日比赛",
+   "url"         : "${http_download}/hall/promote/imgs/texas_todaymatch_0623.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8062306,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 12
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州新荣誉堂",
+   "url"         : "${http_download}/hall/promote/imgs/texas_honorhall_0623.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8062501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.vip"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州新VIP",
+   "url"         : "${http_download}/hall/promote/imgs/texas_VIP_0624.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8080201,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.send.tuyoo.red.envelope"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州红包分享",
+   "url"         : "${http_download}/hall/promote/imgs/texas_envelope_share_0802.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8092101,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "type"        : "register",
+     "typeId"      : "hall.send.tuyoo.red.envelope"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州新手红包",
+   "url"         : "${http_download}/hall/promote/imgs/texas_register_promote.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8092102,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "type"        : "login",
+     "typeId"      : "hall.send.tuyoo.red.envelope"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州登录红包",
+   "url"         : "${http_download}/hall/promote/imgs/texas_login_promote.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8092103,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "type"        : "all",
+     "typeId"      : "hall.send.tuyoo.red.envelope"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州通用红包",
+   "url"         : "${http_download}/hall/promote/imgs/texas_envelope_share_0802.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8092201,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.free"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "德州天天福利",
+   "url"         : "${http_download}/hall/promote/imgs/texas_dailyreward_new.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8092701,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.lottery"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "幸运抽奖",
+   "url"         : "${http_download}/hall/promote/imgs/texas_0928_luckywheel.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8110901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "double11buy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州双十一特惠",
+   "url"         : "${http_download}/hall/promote/imgs/ddz_1111tehui_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8031401,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 15
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州成就系统",
+   "url"         : "${http_download}/hall/promote/imgs/t3card2016_quest_1104.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8031402,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 16
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州版牌神之路",
+   "url"         : "${http_download}/hall/promote/imgs/t3card2016_guide1_1103.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8031403,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 17
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州贵族成就",
+   "url"         : "${http_download}/hall/promote/imgs/t3card2016_guide2_1103.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8032501,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 15
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新成就系统",
+   "url"         : "${http_download}/hall/promote/imgs/texas_0325_achievement.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8032502,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 17
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新贵族成就",
+   "url"         : "${http_download}/hall/promote/imgs/texas_0325_vipachievement.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8032503,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 16
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新牌神之路",
+   "url"         : "${http_download}/hall/promote/imgs/texas_0325_pathofshark.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8032504,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.free"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "新天天福利",
+   "url"         : "${http_download}/hall/promote/imgs/texas_0617_welfare.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8032505,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": { },
+      "type"        : "game"
+     },
+     "gameId"      : 38,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "list"        : [
+      {
+       "startTime"   : 10000,
+       "endTime"     : -1,
+       "typeId"      : "user.cond.play.time"
+      },
+      {
+       "startLevel"  : 5,
+       "stopLevel"   : 12,
+       "typeId"      : "user.cond.vipLevel"
+      }
+     ],
+     "typeId"      : "user.cond.or"
+    }
+   ],
+   "displayName" : "新红黑大战",
+   "url"         : "${http_download}/hall/promote/imgs/texas_0617_Redandblackwar.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8032506,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "index"       : 0,
+     "typeId"      : "hall.show.plugin.package"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "list"        : [
+      {
+       "startTime"   : 10000,
+       "endTime"     : -1,
+       "typeId"      : "user.cond.play.time"
+      },
+      {
+       "startLevel"  : 5,
+       "stopLevel"   : 12,
+       "typeId"      : "user.cond.vipLevel"
+      }
+     ],
+     "typeId"      : "user.cond.or"
+    }
+   ],
+   "displayName" : "新娱乐厅",
+   "url"         : "${http_download}/hall/promote/imgs/texas_0617_Entertainmenthall.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 8082801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subStore"    : "qixizhuanxiang",
+     "typeId"      : "hall.goto.exshop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "兑换商城",
+   "url"         : "${http_download}/hall/promote/imgs/texas_exchangestore_1.png",
+   "defaultRes"  : "兑换商城"
+  },
+  {
+   "promotionId" : 8112801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "identity_auth"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "实名认证",
+   "url"         : "${http_download}/hall/promote/imgs/shimingrenzheng_texas.png",
+   "defaultRes"  : "实名认证"
+  },
+  {
+   "promotionId" : 8032701,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.duobao"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "德州夺宝",
+   "url"         : "${http_download}/hall/promote/imgs/duobao_458_2.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+免费场game_win协议重构
+
+
+{
+	"cmd":"table_call",
+	"result":{
+		"action":"game_win",
+		"userId":10001,
+		"gameId":6,
+		"save":0/1				# 是否可以保存
+		"win":0/1				# 失败或者胜利
+		"wins":3,				# 连胜次数
+		"reward":{
+			"count":10,
+			"itemId":"user:chip"
+		}
+	}
+}

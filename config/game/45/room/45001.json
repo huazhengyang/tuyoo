@@ -1,0 +1,27 @@
+{
+  "openTableRatio": 0.95,
+  "closeTableRatio": 0.85,
+  "maxCoin" : 0,
+  "maxCoinQS" : 0,
+  "minCoin" : 0,
+  "minCoinQS" : 0,
+  "minVip" : 0,
+  "vipLimitClientIds" : [],
+  "minTableCount" : 0,
+  "name" : "1号房",
+  "playMode" : "classic",
+  "sortId" : 1,
+  "titlePicUrl" : "${http_download}/t3card/images/activity/titlePicUrl_1226.png",
+  "adsPicUrl" : "${http_download}/t3card/images/activity/adsPicUrl_1228.png",
+  "helpPicUrl" : "${http_download}/t3card/images/activity/helpPicUrl_1226.png",
+  "tableConf" : {
+    "commission" : 0.06,
+    "maxSeatN" : 200,
+    "min_players" : 1,
+    "optime" : 15,
+    "betTotalLimit" : 20000000,
+    "tname" : "1号房",
+	"betMinTableChips" : 10000
+  },
+  "typeName" : "normal"
+}

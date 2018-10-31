@@ -1,0 +1,58 @@
+    牌局重放排行榜的奖品发放配置在game/6/replay/0.json中
+    
+    
+    "activity_table_replay_ranking": {
+        "id": "activity_table_replay_ranking",
+        "des": "分享个人牌局视频，每一次观看，即送一张奖券。当日观看次数前10名，还有100元红包、金币等超级大奖。",
+        "moduleId": "table_replay_ranking",
+        "typeid": 6013,
+        "name": "牌局重放排行榜",
+        "server_config": {
+            "start": "2016-10-24 00:00:00",
+            "end": "2016-11-25 23:59:59"
+        },
+        "config": {
+            "client":{
+              "backgroundUrl":"", // 背景图片的地址
+              "prizeDesc":"第1~3名 100元微信红包\n第4~10名 30万金币\n第11~50名 10万金币", // 排行榜界面左侧显示的内容
+              "rankingNote":"奖励次日凌晨自动发放", // 排行榜下方显示的提示内容(右侧)
+              "rankingNote1":"每人只能上榜两次", // 排行榜奖励说明下方的提示内容(左侧)
+
+              "buttonShare":{
+                "buttonUrl":"", // 分享按钮图片地址
+                "visible":true, // 分享按钮是否显示
+
+                "todotask": { // 分享按钮的todotask
+                  "enter_param" : {
+                    "pluginParams" : {
+                      "gameType" : 10,
+                      "action": "classic_video",
+                      "roomType": 1
+                    },
+                    "type" : "roomlist"
+                  },
+                  "gameId" : 6,
+                  "typeId" : "hall.goto.enter.game"
+                }  
+              },
+
+              "buttonRanking":{
+                "buttonUrl":"", // 排行榜按钮地址
+                "visible":true // 排行榜按钮是否显示
+              }
+            },
+            "server":{
+                "rankingMax":50, // 需要加载前几名，尽量配置小的数字，这样服务器压力更小
+                "rankingDisplayRankNumberList":[1,2,3,10,50], // 要在前端显示的名次配置，顺序无关
+
+                "myRankNumberFormat":"您的排名：\\${rankNumber}", // 显示我的排名信息的文案格式
+                "myRankNumberNotOnRanking":"未上榜", // 未上榜时显示的文案
+
+                "mail":"恭喜您获得牌局重放奖励\\${prizeContent}", // 当分享的视频被重放时发放奖励时的系统邮件
+                "replayPrizeDayUpperLimit": 50, // 每日重放奖励上限
+                "replayPrizeList": [ // 重放发放的奖励
+                  { "itemId":"user:coupon", "count":1 }
+                ]
+            }
+        }
+    },

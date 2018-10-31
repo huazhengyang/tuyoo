@@ -1,0 +1,20 @@
+# -*- coding:utf-8 -*-
+'''
+Created on 2018年7月11日
+
+@author: wangyonghui
+'''
+import poker.util.timestamp as pktimestamp
+from hall.entity import hallitem
+from hall.entity.hallconf import HALL_GAMEID
+import freetime.util.log as ftlog
+
+
+def getUserDiamond():
+    userId = 30676923
+    userAssets = hallitem.itemSystem.loadUserAssets(userId)
+    balance = userAssets.balance(HALL_GAMEID, 'item:1311', pktimestamp.getCurrentTimestamp())
+    ftlog.info('hotfix get user diamond userId=', userId, 'count=', balance)
+
+
+getUserDiamond()

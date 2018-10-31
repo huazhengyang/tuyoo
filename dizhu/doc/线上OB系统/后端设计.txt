@@ -1,0 +1,30 @@
+1. 比赛配置
+	增加直播配置
+	game/6/tupt.ob/0.json
+	{
+		"matchs":[
+			{
+				"matchId":6998,
+				"name":"卫星赛",
+				"startStageIndex":1, # 开始记录阶段从0开始
+				"startRank":1, # 开始记录的名次，从1开始 <= startRank的名次记录
+			}
+		],
+		"wonderful":6998
+	}
+
+2. 牌局存储
+	replay数据库
+	1. 比赛索引
+		hset tupt.match.info:6:6998 {"histoies":["69981001.1.1"], "cur":"69981001.1.2"}
+		lpush tupt.match.expiresList:6:6998 69981001.1.1
+	2. 视频列表
+		lpush tupt.replayList:6:69981001.1.1 videoId
+	3. 视频索引信息
+		hmset tupt.replayInfo:6 10041_60011001_124 userId 10001 roomId 60011001
+	4. 精彩牌局
+		hset tupt.match.wonderVideoList:6:69981001.1.1 {"list":["10041_60011001_124"]}
+	
+	
+		
+	

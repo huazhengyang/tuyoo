@@ -1,0 +1,209 @@
+{
+    "items": {
+        "lottery_1": {
+            "lotteryId": "lottery_1",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_1.png",
+            "typeId": "items",
+            "itemId": "item:1007",
+            "count": 5
+        },
+        "lottery_2": {
+            "lotteryId": "lottery_2",
+            "picUrl": "${http_download}/hall/lottery/lottery_item_1008.png",
+            "typeId": "items",
+            "itemId": "item:1008",
+            "count": 1
+        },
+        "lottery_3": {
+            "lotteryId": "lottery_3",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_3.png",
+            "typeId": "items",
+            "itemId": "item:2003",
+            "count": 1
+        },
+        "lottery_4": {
+            "lotteryId": "lottery_4",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_4.png",
+            "typeId": "items",
+            "itemId": "item:3002",
+            "count": 1
+        },
+        "lottery_5": {
+            "lotteryId": "lottery_5",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_5.png",
+            "typeId": "items",
+            "itemId": "item:4168",
+            "count": 1
+        },
+        "lottery_6": {
+            "lotteryId": "lottery_6",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_6.png",
+            "typeId": "assert",
+            "itemId": "user:chip",
+            "count": 200
+        },
+        "lottery_7": {
+            "lotteryId": "lottery_7",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_7.png",
+            "typeId": "assert",
+            "itemId": "user:chip",
+            "count": 388
+        },
+        "lottery_8": {
+            "lotteryId": "lottery_8",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_8.png",
+            "typeId": "assert",
+            "itemId": "user:chip",
+            "count": 666
+        },
+        "lottery_9": {
+            "lotteryId": "lottery_9",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_9.png",
+            "typeId": "assert",
+            "itemId": "user:chip",
+            "count": 8888
+        },
+        "lottery_10": {
+            "lotteryId": "lottery_10",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_10.png",
+            "typeId": "items",
+            "itemId": "item:4167",
+            "count": 2
+        },
+        "lottery_11": {
+            "lotteryId": "lottery_11",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_11.png",
+            "typeId": "items",
+            "itemId": "item:4141",
+            "count": 1
+        },
+        "lottery_12": {
+            "lotteryId": "lottery_12",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_12.png",
+            "typeId": "items",
+            "itemId": "item:4118",
+            "count": 2
+        },
+        "lottery_13": {
+            "lotteryId": "lottery_13",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_13.png",
+            "typeId": "items",
+            "itemId": "item:4135",
+            "count": 2
+        },
+        "lottery_14": {
+            "lotteryId": "lottery_14",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_14_1229.png",
+            "typeId": "assert",
+            "itemId": "user:coupon",
+            "count": 10
+        },
+        "lottery_15": {
+            "lotteryId": "lottery_15",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_17.png",
+            "typeId": "assert",
+            "itemId": "user:chip",
+            "count": 888
+        },
+        "lottery_16": {
+            "lotteryId": "lottery_16",
+            "picUrl": "${http_download}/hall/lottery/lottery_new_16.png",
+            "typeId": "assert",
+            "itemId": "user:chip",
+            "count": 1888
+        },
+        "lottery_17": {
+            "lotteryId": "lottery_17",
+            "picUrl": "${http_download}/hall/lottery/lottery_magic.png",
+            "typeId": "assert",
+            "itemId": "item:4116",
+            "count": 1
+        },
+        "lottery_18": {
+            "lotteryId": "lottery_18",
+            "picUrl": "${http_download}/hall/lottery/lottery_metal.png",
+            "typeId": "assert",
+            "itemId": "item:4137",
+            "count": 1
+        }
+    },
+    "templates": {
+        "default": {
+            "desc": "默认使用模板",
+            "items": [{
+                "desc": "8888金币",
+                "lotteryId": "lottery_9",
+                "weight": 1
+            }, {
+                "desc": "记牌器",
+                "lotteryId": "lottery_3",
+                "weight": 5
+            }, {
+                "desc": "英雄帖",
+                "lotteryId": "lottery_2",
+                "weight": 8
+            }, {
+                "desc": "金属边框1天",
+                "lotteryId": "lottery_18",
+                "weight": 9
+            }, {
+                "desc": "888金币",
+                "lotteryId": "lottery_15",
+                "weight": 15
+            }, {
+                "desc": "0.10红包券",
+                "lotteryId": "lottery_14",
+                "weight": 0
+            }, {
+                "desc": "月光宝盒",
+                "lotteryId": "lottery_4",
+                "weight": 10
+            }, {
+                "desc": "666金币",
+                "lotteryId": "lottery_8",
+                "weight": 15
+            }, {
+                "desc": "参赛劵",
+                "lotteryId": "lottery_1",
+                "weight": 10
+            }, {
+                "desc": "幸运卡2",
+                "lotteryId": "lottery_10",
+                "weight": 3
+            }, {
+                "desc": "魔法棒1天",
+                "lotteryId": "lottery_17",
+                "weight": 9
+            }, {
+                "desc": "1888金币",
+                "lotteryId": "lottery_16",
+                "weight": 10
+            }, {
+                "desc": "10元话费",
+                "lotteryId": "lottery_11",
+                "weight": 0
+            }, {
+                "desc": "补签卡",
+                "lotteryId": "lottery_5",
+                "weight": 5
+            }],
+            "specailState": [{
+                "stateId": "state1",
+                "rate": 0.8,
+                "conditions": {
+                    "lotteryId": "lottery_1",
+                    "min": 0,
+                    "max": 2
+                }
+            }, {
+                "stateId": "state2",
+                "rate": 0.5,
+                "conditions": {
+                    "lotteryId": "lottery_2",
+                    "min": 0,
+                    "max": 2
+                }
+            }]
+        }
+    }
+}

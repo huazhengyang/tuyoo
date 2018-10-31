@@ -1,0 +1,170 @@
+{
+  "rooms" : {
+    "17001" : "conf0",
+    "17002" : "conf1",
+    "17003" : "conf2",
+    "17004" : "conf0",
+    "17101" : "conf0",
+    "17102" : "conf1",
+    "17103" : "conf2",
+    "17104" : "conf0",
+    "17201" : "conf0",
+    "17202" : "conf1",
+    "17203" : "conf2",
+    "17204" : "conf3",
+    "17301" : "conf0",
+    "17302" : "conf1",
+    "17303" : "conf2",
+    "17304" : "conf0",
+    "17601" : "conf0",
+    "17602" : "conf0",
+    "17603" : "conf0",
+    "17604" : "conf3",
+    "17701" : "conf0",
+    "17702" : "conf0",
+    "17703" : "conf0",
+    "17704" : "conf3"
+  },
+  "vip_special" : [{
+        "level" : 4,
+        "rate" : 0.5,
+        "desc" : "互动表情魅力值增加50%"
+      }],
+  "templates" : {
+    "conf0" : {
+      "0" : {
+        "chip_limit": 1000,
+        "ta_charm" : -4,
+        "cost" : 100,
+        "charm" : 4
+      },
+      "1" : {
+        "chip_limit": 1000,
+        "ta_charm" : 8,
+        "cost" : 100,
+        "charm" : 8
+      },
+      "2" : {
+        "chip_limit": 1000,
+        "ta_charm" : -1,
+        "cost" : 50,
+        "charm" : 1
+      },
+      "3" : {
+        "chip_limit": 1000,
+        "ta_charm" : 2,
+        "cost" : 50,
+        "charm" : 2
+      },
+      "4" : {
+        "chip_limit": 1000,
+        "ta_charm" : 2,
+        "cost" : 50,
+        "charm" : 2
+      }
+    },
+    "conf1" : {
+      "0" : {
+        "chip_limit": 6000,
+        "ta_charm" : -15,
+        "cost" : 150,
+        "charm" : 15
+      },
+      "1" : {
+        "chip_limit": 6000,
+        "ta_charm" : 30,
+        "cost" : 150,
+        "charm" : 30
+      },
+      "2" : {
+        "chip_limit": 6000,
+        "ta_charm" : -4,
+        "cost" : 100,
+        "charm" : 4
+      },
+      "3" : {
+        "chip_limit": 6000,
+        "ta_charm" : 8,
+        "cost" : 100,
+        "charm" : 8
+      },
+      "4" : {
+        "chip_limit": 6000,
+        "ta_charm" : 8,
+        "cost" : 100,
+        "charm" : 8
+      }
+    },
+    "conf2" : {
+      "0" : {
+        "chip_limit": 50000,
+        "ta_charm" : -60,
+        "cost" : 600,
+        "charm" : 60
+      },
+      "1" : {
+        "chip_limit": 50000,
+        "ta_charm" : 120,
+        "cost" : 600,
+        "charm" : 120
+      },
+      "2" : {
+        "chip_limit": 50000,
+        "ta_charm" : -20,
+        "cost" : 200,
+        "charm" : 20
+      },
+      "3" : {
+        "chip_limit": 50000,
+        "ta_charm" : 40,
+        "cost" : 200,
+        "charm" : 40
+      },
+      "4" : {
+        "chip_limit": 50000,
+        "ta_charm" : 40,
+        "cost" : 200,
+        "charm" : 40
+      }
+    },
+    "conf3" : {
+      "0" : {
+        "chip_limit": 120000,
+        "ta_charm" : -250,
+        "cost" : 2500,
+        "charm" : 250
+      },
+      "1" : {
+        "chip_limit": 120000,
+        "ta_charm" : 500,
+        "cost" : 2500,
+        "charm" : 500
+      },
+      "2" : {
+        "chip_limit": 120000,
+        "ta_charm" : -100,
+        "cost" : 1000,
+        "charm" : 100
+      },
+      "3" : {
+        "chip_limit": 120000,
+        "ta_charm" : 200,
+        "cost" : 1000,
+        "charm" : 200
+      },
+      "4" : {
+        "chip_limit": 120000,
+        "ta_charm" : 200,
+        "cost" : 1000,
+        "charm" : 200
+      }
+    }
+  },
+  "double" : {
+    "value" : 2,
+    "start.date" : "2016-02-01",
+    "end.date" : "2016-02-29",
+    "start.time" : "16:00",
+    "end.time" : "18:00"
+  }
+}

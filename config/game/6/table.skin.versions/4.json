@@ -1,0 +1,69 @@
+{
+	"local":["0", "1"],
+	"list":[
+		{
+			"id":"1001",
+			"name":"girl",
+			"display":"初恋", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/girl/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/girl/preview.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count":30,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【初恋】永久皮肤，售价30钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/girl/girl_v4_u1.zip",
+			"md5":"9491a8faeb25154368ce079ce0737d43"
+		},
+		{
+			"id":"1002",
+			"name":"green",
+			"display":"绿色", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/green/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/green/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":0,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【绿色】永久皮肤，售价1000金币，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/green/green_v4_u1.zip",
+			"md5":"87331cc042b31075881f3052d6633588"
+		},
+		{
+			"id":"1003",
+			"name":"grid",
+			"display":"格子", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/grid/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/grid/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":30000,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【格子】永久皮肤，售价30000金币，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/grid/grid_v4_u1.zip",
+			"md5":"b243d9b90c2ecc7b002fea2d8d975667"
+		},
+		{
+			"id":"1004",
+			"name":"newyear",
+			"display":"春节", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/newyear/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/newyear/preview_2.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count":10,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【春节】永久皮肤，售价10钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/newyear/newyear_v4_u1.zip",
+			"md5":"9a5dd1611bd10319990e84062be6537a"
+		}
+	]
+}

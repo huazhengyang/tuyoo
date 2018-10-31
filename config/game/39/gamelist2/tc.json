@@ -1,0 +1,47 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、新版金三顺3.771插件发布"
+     ],
+     "md5"              : "018ca13ca75d7e87ff6d6748b4331a85",
+     "ver"              : "3.771",
+     "url"              : "${http_download}/hall/plugin/game/t3flus16_release_v3.771_third.zip",
+     "size"             : "8.90M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、新版金三顺3.773插件发布"
+     ],
+     "md5"              : "fef132af21d138553c0426cebee4c7be",
+     "ver"              : "3.773",
+     "url"              : "${http_download}/hall/plugin/game/t3flus16_release_v3.773_second.zip",
+     "size"             : "7.3M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、新版金三顺3.775插件发布"
+     ],
+     "md5"              : "1134b6f121930aec1df8ef72eeee5386",
+     "ver"              : "3.775",
+     "url"              : "${http_download}/hall/plugin/game/t3flus16_release_v3.775_second.zip",
+     "size"             : "4.5M"
+    }
+   ],
+   "description"      : [
+    "1、新版金三顺"
+   ],
+   "gameId"           : 39,
+   "gameMark"         : "t3flus16"
+  }
+ ],
+ "templates"        : [ ]
+}

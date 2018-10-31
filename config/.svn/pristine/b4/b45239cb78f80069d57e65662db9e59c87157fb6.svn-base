@@ -1,0 +1,80 @@
+{
+    "templates": {
+        "default": {
+            "list": [
+                {
+                    "name": "途游斗地主",
+                    "gameId": 6,
+                    "des": "途游斗地主，邀你领红包",
+                    "purl": "${http_download}/hall/promote/imgs/128.png",
+                    "size": "45MB",
+                    "todotask": {
+                        "action": "download_open_third_app",
+                        "params": {
+                            "packageName": "com.tuyoo.doudizhu.maintu",
+                            "scheme": "tuyooddz",
+                            "downloadUrl": "http://a.app.qq.com/o/simple.jsp?pkgname=com.tuyoo.doudizhu.maintu",
+                            "downloadType": "browser",
+                            "appCode": 1,
+                            "MD5": "f1ad595a41eca71755551954c953c62c"
+                        }
+                    }
+                },
+                {
+                    "name": "捕鱼大作战",
+                    "gameId": 28,
+                    "des": "捕鱼大作战，射爆美人鱼",
+                    "purl": "${http_download}/hall/promote/imgs/buyu_82.png",
+                    "size": "45MB",
+                    "todotask": {
+                        "action": "download_open_third_app",
+                        "params": {
+                            "packageName": "com.tencent.tmgp.tuyoo.fish",
+                            "scheme": "bydzz",
+                            "downloadUrl": "http://a.app.qq.com/o/simple.jsp?pkgname=com.tencent.tmgp.tuyoo.fish",
+                            "downloadType": "browser",
+                            "appCode": 1,
+                            "MD5": "3b4ee785a27a96990bafc782895547cb"
+                        }
+                    }
+                },
+                {
+                    "name": "途游中国象棋",
+                    "gameId": 3,
+                    "des": "途游中国象棋",
+                    "purl": "${http_download}/hall/promote/imgs/xiangqi_82.png",
+                    "size": "45MB",
+                    "todotask": {
+                        "action": "download_open_third_app",
+                        "params": {
+                            "packageName": "com.tencent.tmgp.tuyoo.fish",
+                            "scheme": "bydzz",
+                            "downloadUrl": "http://sj.qq.com/myapp/detail.htm?apkName=com.example.chinesechess",
+                            "downloadType": "browser",
+                            "appCode": 1,
+                            "MD5": "3b4ee785a27a96990bafc782895547cb"
+                        }
+                    }
+                },
+                {
+                    "name": "途游四国军棋",
+                    "gameId": 20,
+                    "des": "途游四国军棋",
+                    "purl": "${http_download}/hall/promote/imgs/junqi_82.png",
+                    "size": "45MB",
+                    "todotask": {
+                        "action": "download_open_third_app",
+                        "params": {
+                            "packageName": "com.tencent.tmgp.tuyoo.fish",
+                            "scheme": "bydzz",
+                            "downloadUrl": "http://sj.qq.com/myapp/detail.htm?apkName=com.tencent.tmgp.tysgjq",
+                            "downloadType": "browser",
+                            "appCode": 1,
+                            "MD5": "3b4ee785a27a96990bafc782895547cb"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

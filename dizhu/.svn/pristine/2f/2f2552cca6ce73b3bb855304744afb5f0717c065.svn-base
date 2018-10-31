@@ -1,0 +1,134 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2018年7月13日
+
+@author: wangyonghui
+'''
+
+from dizhu.games.endgame.engine.move_player import get_resp_moves
+from dizhu.games.endgame.engine.utils import get_rest_cards, format_input_cards
+import freetime.util.log as ftlog
+
+MAX_SCORE = 100
+MIN_SCORE = 0
+
+nodes_num = 0
+
+def process_search(index, result_dict,
+                   lorder_cards, farmer_cards, current_move, next_player, max_depth):
+    score = minmax_search(result_dict, lorder_cards, farmer_cards, current_move, next_player, max_depth=max_depth)
+    result_dict[index] = {'move': current_move, 'score': score}
+    return score
+
+
+def minmax_search(result_dict, lorder_cards, farmer_cards, current_move, next_player, current_depth=0, max_depth=4):
+    current_depth += 1
+    if next_player == 'farmer':
+        if current_depth == max_depth:
+            # get heuristic of each node
+            return MIN_SCORE
+        if len(lorder_cards) == 0:
+            return MIN_SCORE  # lorder win, return MIN_SCORE
+
+    elif next_player == 'lorder':
+        if current_depth == max_depth:
+            # get heuristic of each node
+            return MAX_SCORE - max_depth
+        if len(farmer_cards) == 0:
+            return MAX_SCORE  # farmer win, return MAX_SCORE
+
+    if next_player == 'farmer':  # the parameter next_player is current player
+        score = MIN_SCORE  # For farmer, the default score is MIN_SCORE
+        all_moves = get_resp_moves(farmer_cards, current_move)
+        # a kind of optimization
+        all_moves = sorted(all_moves, key=lambda x: len(x), reverse=True)
+        for farmer_move in all_moves:
+            fc = get_rest_cards(farmer_cards, farmer_move)
+            score = minmax_search(result_dict,
+                                  lorder_cards,
+                                  fc,
+                                  farmer_move,
+                                  'lorder', current_depth, max_depth)
+            # Current player is farmer, so once finds MIN_SCORE, he must choose it.
+            # Cut Branches! Ignore the rest farmer moves.
+            if score == MAX_SCORE:
+                break
+        return score
+
+    else:  # next_player is 'lorder', the parameter next_player is current player
+        score = MAX_SCORE  # For 'lorder', the default value is MAX_SCORE
+        all_moves = get_resp_moves(lorder_cards, current_move)
+        # a kind of optimization
+        all_moves = sorted(all_moves, key=lambda x: len(x), reverse=True)
+        for lorder_move in all_moves:
+            lc = get_rest_cards(lorder_cards, lorder_move)
+            score = minmax_search(result_dict,
+                                  lc,
+                                  farmer_cards,
+                                  lorder_move,
+                                  'farmer', current_depth, max_depth)
+            # Current player is lorder. So, once MIN_SCORE, choose it!
+            # Cut Branches! Ignore the rest lorder moves.
+            if score == MIN_SCORE:
+                break
+        return score
+
+
+def start_engine(lorder_cards=list(), farmer_cards=list(), lorder_move=list(), max_depth=4):
+    """
+    根据地主出的牌， 机器人寻找最佳出牌
+    """
+    result_dict = {}
+
+    lorder_cards = format_input_cards(lorder_cards)
+    farmer_cards = format_input_cards(farmer_cards)
+    lorder_move = format_input_cards(lorder_move)
+
+    all_farmer_moves = get_resp_moves(format_input_cards(farmer_cards), lorder_move)
+
+    all_farmer_moves = sorted(all_farmer_moves, key=lambda x: len(x), reverse=True)
+
+    if ftlog.is_debug():
+        ftlog.debug('start_engine lorder_move=', lorder_move, 'all_farmer_moves=', all_farmer_moves)
+
+    if len(all_farmer_moves) == 1:  # Pass
+        return all_farmer_moves[0], result_dict
+
+    for index, move in enumerate(all_farmer_moves):
+        fc = get_rest_cards(farmer_cards, move)
+        score = process_search(index, result_dict, lorder_cards, fc, move, 'lorder', max_depth)
+        if score == MAX_SCORE:
+            break
+
+    for _, item in result_dict.items():
+        if item['score'] == MAX_SCORE:
+            return item['move'], result_dict
+
+    if ftlog.is_debug():
+        ftlog.debug('start_engine lorder_move=', lorder_move, 'all_farmer_moves=', all_farmer_moves, 'result_dict=', result_dict)
+
+    allMoves = [it['move'] for it in result_dict.values()]
+    allMoves.sort(key=lambda x: (-len(x), sum(x)))
+    if len(lorder_cards) == 0:
+        # 地主不出
+        allMoves.sort(key=lambda x: -len(set(x)))
+
+    farmerCards = farmer_cards[:]
+    if len(lorder_move) == 1:
+        # 地主出的是单牌
+        allMoves.sort(key=lambda x: -isSingleCard(x, farmerCards))
+    if ftlog.is_debug():
+        ftlog.debug('start_engine allMoves=', allMoves)
+    return allMoves[0], result_dict
+
+
+def isSingleCard(card, farmerCards):
+    if len(card) == 0:
+        return -99
+    if len(card) != 1:
+        return -1
+    count = 0
+    for move in farmerCards:
+        if card[0] == move:
+            count += 1
+    return 1 if count == 1 else 0

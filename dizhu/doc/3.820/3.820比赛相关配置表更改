@@ -1,0 +1,108 @@
+3.820 配置表更改
+
+1、hall.info/0.json
+	room:{
+		minQuickStartChip:5000, 	// 用于引导用户点击最合适的房间
+		tipPriority: 10, 			// 比赛提示优先级
+		showInfo:{
+			"tag":"限时"				// 左上角显示标签
+		}
+	}
+
+2、public/0.json
+	matchClassify[i]:{
+		"tupt":{ // 新添字段，用于显示TUPT专区
+			"frames":[ // tupt专区的三张广告框。必须配置三个，有两种type：img/win，格式如下例：
+				{
+					"type":"img",
+					"icon":"${http_download}/dizhu/tupt/tupt_xiaotu_fz.png",
+					"title":"武汉站",
+					"img":"${http_download}/dizhu/tupt/tupt_datu_fz.jpg"
+				},
+				{
+					"type":"win",
+					"icon":"${http_download}/dizhu/tupt/tupt_xiaotu_hz.png",
+					"title":"",
+					"list":[
+						{
+							"title":"赛事介绍",
+							"imgs":[
+								"${http_download}/dizhu/tupt/tupt_ssjs.jpg"
+							]
+						},
+						{
+							"title":"赛制介绍",
+							"imgs":[
+								"${http_download}/dizhu/tupt/tupt_bsjs_fzs.jpg",
+								"${http_download}/dizhu/tupt/tupt_bsjs_zjs.jpg"
+							]
+						},
+						{
+							"title":"比赛奖励",
+							"imgs":[
+								"${http_download}/dizhu/tupt/tupt_bsjl_fzs.jpg",
+								"${http_download}/dizhu/tupt/tupt_bsjl_zjs.jpg"
+							]
+						},
+						{
+							"title":"比赛流程",
+							"imgs":[
+								"${http_download}/dizhu/tupt/tupt_bslc.jpg"
+							]
+						}
+					]
+				},
+				{
+					"type":"img",
+					"icon":"${http_download}/dizhu/tupt/tupt_xiaotu_sw.png",
+					"title":"商务合作",
+					"img":"${http_download}/dizhu/tupt/tupt_datu_sw.jpg"
+				}
+			],
+			"button_1":{	// tupt专区的头顶上的两个按钮 1
+				"type":"img",
+				"title":"赛事资讯",
+				"img":"${http_download}/dizhu/tupt/tupt_datu_sszx.jpg"
+			},
+			"button_2":{	// tupt专区的头顶上的两个按钮 2
+				"type":"img",
+				"title":"选手风采",
+				"img":"${http_download}/dizhu/tupt/tupt_datu_hz.jpg"
+			}
+		}
+	}
+
+3、添加房间提示时间 和 提示优先级
+sessions中 ,比赛房间rooms,添加以下字段
+	{
+		"countdownTime": 600,
+		"tipTime": 150, 		// 到比赛开始150秒之内进入比赛列表有提示
+		"tipPriority": 0,		// 多个比赛需要提示按照优先级参数来控制 大者优先
+	    "quickSignin": 0,				
+		"leftTag" : "hot",				
+		"signupFee": {
+			"desc": "6000金币",
+			"saledesc" : "12000金币",	
+			"sale": 0					
+		},
+		"secondAlarmTime": 60,
+		"avatorDefault": "",
+		"least": 0,
+		"nameurl": "http://ddz.dl.tuyoo.com/cdn37/dizhu/room/imgs/room_name_hlxsc.png",
+		"matchCondition": {
+			"type": "datetime",
+			"bottom": "14:24",
+			"top": "03月25日"
+		},
+		"entry": "报名费:6000金币",
+		"avator": "http://ddz.dl.tuyoo.com/cdn37/dizhu/room/imgs/matchlist_200yuanliwu_new3.png",
+		"config": 4,
+		"id": 6997,
+		"condition": "14:24",
+		"name": "200元礼物赛",
+		"signupState": null,
+		"matchType": "TIMING",
+		"peopleNumber": "0",
+		"matchStamp": 1490423040,
+		"nowStamp": 1490422857
+	},

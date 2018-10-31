@@ -1,0 +1,258 @@
+{
+  "room_items" : {
+    "wh1" : {
+      "id" : 17001,
+      "name" : "威海新手场",
+      "least" : 200,
+      "entry" : "底注200金币",
+      "condition" : "大于400金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "wh2" : {
+      "id" : 17002,
+      "name" : "威海中级场",
+      "least" : 500,
+      "entry" : "底注500金币",
+      "condition" : "大于5000金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "wh3" : {
+      "id" : 17003,
+      "name" : "威海高级场",
+      "least" : 1000,
+      "entry" : "底注1000金币",
+      "condition" : "大于3万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "wh4" : {
+      "id" : 17004,
+      "name" : "威海大师场",
+      "least" : 10000,
+      "entry" : "底注10000金币",
+      "condition" : "大于10万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+
+    "qd1" : {
+      "id" : 17101,
+      "name" : "青岛新手场",
+      "least" : 200,
+      "entry" : "底注200金币",
+      "condition" : "大于400金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "qd2" : {
+      "id" : 17102,
+      "name" : "青岛中级场",
+      "least" : 500,
+      "entry" : "底注500金币",
+      "condition" : "大于5000金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlzjc.png"
+    },
+    "qd3" : {
+      "id" : 17103,
+      "name" : "青岛高级场",
+      "least" : 1000,
+      "entry" : "底注1000金币",
+      "condition" : "大于3万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlgjc.png"
+    },
+    "qd4" : {
+      "id" : 17104,
+      "name" : "青岛大师场",
+      "least" : 10000,
+      "entry" : "底注10000金币",
+      "condition" : "大于10万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hldsc.png"
+    },
+
+    "qdb1" : {
+      "id" : 17201,
+      "name" : "青岛新手场",
+      "least" : 200,
+      "entry" : "底注200金币",
+      "condition" : "大于400金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzxsc.png"
+    },
+    "qdb2" : {
+      "id" : 17202,
+      "name" : "青岛中级场",
+      "least" : 500,
+      "entry" : "底注500金币",
+      "condition" : "大于5000金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzzjc.png"
+    },
+    "qdb3" : {
+      "id" : 17203,
+      "name" : "青岛高级场",
+      "least" : 1000,
+      "entry" : "底注1000金币",
+      "condition" : "大于3万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzgjc.png"
+    },
+    "qdb4" : {
+      "id" : 17204,
+      "name" : "青岛大师场",
+      "least" : 10000,
+      "entry" : "底注10000金币",
+      "config" : 2,
+      "condition" : "大于10万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzdsc.png"
+    },
+
+    "wf1" : {
+      "id" : 17301,
+      "name" : "潍坊新手场",
+      "least" : 200,
+      "entry" : "底注200金币",
+      "condition" : "大于400金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "wf2" : {
+      "id" : 17302,
+      "name" : "潍坊中级场",
+      "least" : 500,
+      "entry" : "底注500金币",
+      "condition" : "大于5000金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "wf3" : {
+      "id" : 17303,
+      "name" : "潍坊高级场",
+      "least" : 1000,
+      "entry" : "底注1000金币",
+      "condition" : "大于3万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "wf4" : {
+      "id" : 17304,
+      "name" : "潍坊大师场",
+      "least" : 10000,
+      "entry" : "底注10000金币",
+      "condition" : "大于10万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "qdq1" : {
+      "id" : 17501,
+      "name" : "青岛新手场",
+      "least" : 200,
+      "entry" : "底注200金币",
+      "condition" : "大于400金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzxsc.png"
+    },
+    "qdq2" : {
+      "id" : 17502,
+      "name" : "青岛中级场",
+      "least" : 500,
+      "entry" : "底注500金币",
+      "condition" : "大于5000金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzzjc.png"
+    },
+    "qdq3" : {
+      "id" : 17503,
+      "name" : "青岛高级场",
+      "least" : 1000,
+      "entry" : "底注1000金币",
+      "condition" : "大于3万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzgjc.png"
+    },
+    "qdq4" : {
+      "id" : 17504,
+      "name" : "青岛大师场",
+      "least" : 10000,
+      "entry" : "底注10000金币",
+      "config" : 2,
+      "condition" : "大于10万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzdsc.png"
+    },
+    "mtwh3" : {
+      "id" : 17403,
+      "name" : "5元话费赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "condition" : "10:00",
+      "nameurl" : "${http_download}/baohuang/icon/huafei_5.png"
+    },
+    "mtwh4" : {
+      "id" : 17404,
+      "name" : "10元话费赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "condition" : "10:00",
+      "nameurl" : "${http_download}/baohuang/icon/huafei_10.png"
+    },
+    "mtwh6" : {
+      "id" : 17406,
+      "name" : "50元京东卡赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "condition" : "19:30",
+      "nameurl" : "${http_download}/baohuang/icon/jingdong_50.png"
+    },
+    "mtwh8" : {
+      "id" : 17408,
+      "name" : "300元话费赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "condition" : "20:30",
+      "nameurl" : "${http_download}/baohuang/icon/huafei_300.png"
+    }
+  },
+  "session_items" : {
+    "wh" : {
+      "session" : "威海场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["wh1", "wh2", "wh3", "wh4"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；",
+          "2、发牌后按顺序叫分，叫3分者直接成为地主，输赢乘以所叫分的倍数。"]
+    },
+    "qd" : {
+      "session" : "青岛场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["qd1", "qd2", "qd3", "qd4"],
+      "description" : ["1、炸弹、明牌、抢地主、特殊底牌全翻倍；", "2、每人可抢一次地主，最后抢地主的人当地主。"]
+    },
+    "qdb" : {
+      "session" : "青岛憋三场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["qdb1", "qdb2", "qdb3", "qdb4"],
+      "description" : ["1、比赛需交报名费（有些为免费），结束后按名次发奖励。", "2、为保证公平，一些比赛隐藏了对手信息。"]
+    },
+    "wf" : {
+      "session" : "潍坊场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["wf1", "wf2", "wf3", "wf4"],
+      "description" : ["1、癞子牌可替代非王的任何牌，单出不能替牌；", "2、叫地主后抽一张牌，相同数字的牌都是癞子牌；",
+          "3、火箭>全癞子炸弹>无癞子炸弹>带癞子炸弹。"]
+    },
+    "qdq" : {
+      "session" : "青岛快速场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["qdq1", "qdq2", "qdq3", "qdq4"],
+      "description" : ["1、比赛需交报名费（有些为免费），结束后按名次发奖励。", "2、为保证公平，一些比赛隐藏了对手信息。"]
+    },
+    "mt" : {
+      "session" : "比赛场",
+      "match" : 1,
+      "new" : 1,
+      "rooms" : ["mtwh3", "mtwh4", "mtwh6", "mtwh8"],
+      "description" : ["1、比赛需交报名费（有些为免费），结束后按名次发奖励。", "2、为保证公平，一些比赛隐藏了对手信息。"]
+    },
+    "mt_ios_tishen" : {
+      "session" : "比赛场",
+      "match" : 1,
+      "new" : 1,
+      "rooms" : ["mtwh3", "mtwh4", "mtwh6", "mtwh8"],
+      "description" : ["1、比赛需交报名费（有些为免费），结束后按名次发奖励。", "2、为保证公平，一些比赛隐藏了对手信息。"]
+    }
+  },
+  "templates" : {
+    "default" : ["mt"],
+    "ios_tishen" : ["wh", "qd", "qdb", "wf", "mt_ios_tishen"]
+  }
+}

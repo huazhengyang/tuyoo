@@ -1,0 +1,7663 @@
+{
+    "301001001": {
+        "id": "301001001",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "0",
+        "nextId": "301001002",
+        "name": "鲨鱼分1段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至1级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001001.png",
+        "titleTagType": "3",
+        "target": 1,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 50,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "50金币"
+            }
+        ]
+    },
+    "301001002": {
+        "id": "301001002",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001001",
+        "nextId": "301001003",
+        "name": "鲨鱼分2段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至2级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001002.png",
+        "titleTagType": "3",
+        "target": 2,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 50,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "50金币"
+            }
+        ]
+    },
+    "301001003": {
+        "id": "301001003",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001002",
+        "nextId": "301001004",
+        "name": "鲨鱼分3段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至3级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001003.png",
+        "titleTagType": "3",
+        "target": 3,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 50,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "50金币"
+            }
+        ]
+    },
+    "301001004": {
+        "id": "301001004",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001003",
+        "nextId": "301001005",
+        "name": "鲨鱼分4段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至4级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001004.png",
+        "titleTagType": "3",
+        "target": 4,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 80,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "80金币"
+            }
+        ]
+    },
+    "301001005": {
+        "id": "301001005",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001004",
+        "nextId": "301001006",
+        "name": "鲨鱼分5段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至5级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001005.png",
+        "titleTagType": "3",
+        "target": 5,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 80,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "80金币"
+            }
+        ]
+    },
+    "301001006": {
+        "id": "301001006",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001005",
+        "nextId": "301001007",
+        "name": "鲨鱼分6段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至6级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001006.png",
+        "titleTagType": "3",
+        "target": 6,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 80,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "80金币"
+            }
+        ]
+    },
+    "301001007": {
+        "id": "301001007",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001006",
+        "nextId": "301001008",
+        "name": "鲨鱼分7段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至7级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001007.png",
+        "titleTagType": "3",
+        "target": 7,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 100,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "100金币"
+            }
+        ]
+    },
+    "301001008": {
+        "id": "301001008",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001007",
+        "nextId": "301001009",
+        "name": "鲨鱼分8段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至8级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001008.png",
+        "titleTagType": "3",
+        "target": 8,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 100,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "100金币"
+            }
+        ]
+    },
+    "301001009": {
+        "id": "301001009",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001008",
+        "nextId": "301001010",
+        "name": "鲨鱼分9段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至9级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001009.png",
+        "titleTagType": "3",
+        "target": 9,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 200,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "200金币"
+            }
+        ]
+    },
+    "301001010": {
+        "id": "301001010",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001009",
+        "nextId": "301001011",
+        "name": "鲨鱼分10段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至10级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001010.png",
+        "titleTagType": "3",
+        "target": 10,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 200,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "200金币"
+            }
+        ]
+    },
+    "301001011": {
+        "id": "301001011",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001010",
+        "nextId": "301001012",
+        "name": "鲨鱼分11段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至11级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001011.png",
+        "titleTagType": "3",
+        "target": 11,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 200,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "200金币"
+            }
+        ]
+    },
+    "301001012": {
+        "id": "301001012",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001011",
+        "nextId": "301001013",
+        "name": "鲨鱼分12段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至12级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001012.png",
+        "titleTagType": "3",
+        "target": 12,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1000金币"
+            }
+        ]
+    },
+    "301001013": {
+        "id": "301001013",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001012",
+        "nextId": "301001014",
+        "name": "鲨鱼分13段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至13级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001013.png",
+        "titleTagType": "3",
+        "target": 13,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1000金币"
+            }
+        ]
+    },
+    "301001014": {
+        "id": "301001014",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001013",
+        "nextId": "301001015",
+        "name": "鲨鱼分14段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至14级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001014.png",
+        "titleTagType": "3",
+        "target": 14,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1000金币"
+            }
+        ]
+    },
+    "301001015": {
+        "id": "301001015",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001014",
+        "nextId": "301001016",
+        "name": "鲨鱼分15段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至15级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001015.png",
+        "titleTagType": "3",
+        "target": 15,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 4000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "4000金币"
+            }
+        ]
+    },
+    "301001016": {
+        "id": "301001016",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001015",
+        "nextId": "301001017",
+        "name": "鲨鱼分16段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至16级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001016.png",
+        "titleTagType": "3",
+        "target": 16,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 4000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "4000金币"
+            }
+        ]
+    },
+    "301001017": {
+        "id": "301001017",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001016",
+        "nextId": "301001018",
+        "name": "鲨鱼分17段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至17级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001017.png",
+        "titleTagType": "3",
+        "target": 17,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 4000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "4000金币"
+            }
+        ]
+    },
+    "301001018": {
+        "id": "301001018",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001017",
+        "nextId": "301001019",
+        "name": "鲨鱼分18段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至18级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001018.png",
+        "titleTagType": "3",
+        "target": 18,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 10000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1万金币"
+            }
+        ]
+    },
+    "301001019": {
+        "id": "301001019",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001018",
+        "nextId": "301001020",
+        "name": "鲨鱼分19段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至19级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001019.png",
+        "titleTagType": "3",
+        "target": 19,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 10000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1万金币"
+            }
+        ]
+    },
+    "301001020": {
+        "id": "301001020",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001019",
+        "nextId": "301001021",
+        "name": "鲨鱼分20段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至20级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001020.png",
+        "titleTagType": "3",
+        "target": 20,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 10000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1万金币"
+            }
+        ]
+    },
+    "301001021": {
+        "id": "301001021",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001020",
+        "nextId": "301001022",
+        "name": "鲨鱼分21段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至21级，（需先完成“累计充值6元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001021.png",
+        "titleTagType": "3",
+        "target": 21,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002001"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 10000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 1,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*1"
+            }
+        ]
+    },
+    "301001022": {
+        "id": "301001022",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001021",
+        "nextId": "301001023",
+        "name": "鲨鱼分22段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至22级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001022.png",
+        "titleTagType": "3",
+        "target": 22,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 80000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "8万金币"
+            }
+        ]
+    },
+    "301001023": {
+        "id": "301001023",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001022",
+        "nextId": "301001024",
+        "name": "鲨鱼分23段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至23级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001023.png",
+        "titleTagType": "3",
+        "target": 23,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 80000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "8万金币"
+            }
+        ]
+    },
+    "301001024": {
+        "id": "301001024",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001023",
+        "nextId": "301001025",
+        "name": "鲨鱼分24段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至24级，（需先完成“累计充值30元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001024.png",
+        "titleTagType": "3",
+        "target": 24,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002003"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 80000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "8万金币"
+            }
+        ]
+    },
+    "301001025": {
+        "id": "301001025",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001024",
+        "nextId": "301001026",
+        "name": "鲨鱼分25段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至25级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001025.png",
+        "titleTagType": "3",
+        "target": 25,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 100000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "10万金币"
+            }
+        ]
+    },
+    "301001026": {
+        "id": "301001026",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001025",
+        "nextId": "301001027",
+        "name": "鲨鱼分26段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至26级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001026.png",
+        "titleTagType": "3",
+        "target": 26,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 50000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "5万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 5,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*5"
+            }
+        ]
+    },
+    "301001027": {
+        "id": "301001027",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001026",
+        "nextId": "301001028",
+        "name": "鲨鱼分27段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至27级，（需先完成“累计充值150元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001027.png",
+        "titleTagType": "3",
+        "target": 27,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002005"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 200000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "20万金币"
+            }
+        ]
+    },
+    "301001028": {
+        "id": "301001028",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001027",
+        "nextId": "301001029",
+        "name": "鲨鱼分28段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至28级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001028.png",
+        "titleTagType": "3",
+        "target": 28,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 240000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "24万金币"
+            }
+        ]
+    },
+    "301001029": {
+        "id": "301001029",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001028",
+        "nextId": "301001030",
+        "name": "鲨鱼分29段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至29级，（需先完成“累计充值150元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001029.png",
+        "titleTagType": "3",
+        "target": 29,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002005"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 240000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "24万金币"
+            }
+        ]
+    },
+    "301001030": {
+        "id": "301001030",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001029",
+        "nextId": "301001031",
+        "name": "鲨鱼分30段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至30级，（需先完成“累计充值150元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001030.png",
+        "titleTagType": "3",
+        "target": 30,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002005"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 180000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "18万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 10,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*10"
+            }
+        ]
+    },
+    "301001031": {
+        "id": "301001031",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001030",
+        "nextId": "301001032",
+        "name": "鲨鱼分31段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至31级，（需先完成“累计充值150元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001031.png",
+        "titleTagType": "3",
+        "target": 31,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002005"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 480000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "48万金币"
+            }
+        ]
+    },
+    "301001032": {
+        "id": "301001032",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001031",
+        "nextId": "301001033",
+        "name": "鲨鱼分32段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至32级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001032.png",
+        "titleTagType": "3",
+        "target": 32,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 600000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "60万金币"
+            }
+        ]
+    },
+    "301001033": {
+        "id": "301001033",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001032",
+        "nextId": "301001034",
+        "name": "鲨鱼分33段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至33级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001033.png",
+        "titleTagType": "3",
+        "target": 33,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 600000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "60万金币"
+            }
+        ]
+    },
+    "301001034": {
+        "id": "301001034",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001033",
+        "nextId": "301001035",
+        "name": "鲨鱼分34段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至34级，（需先完成“累计充值300元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001034.png",
+        "titleTagType": "3",
+        "target": 34,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002006"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 600000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "60万金币"
+            }
+        ]
+    },
+    "301001035": {
+        "id": "301001035",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001034",
+        "nextId": "301001036",
+        "name": "鲨鱼分35段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至35级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001035.png",
+        "titleTagType": "3",
+        "target": 35,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 800000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "80万金币"
+            }
+        ]
+    },
+    "301001036": {
+        "id": "301001036",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001035",
+        "nextId": "301001037",
+        "name": "鲨鱼分36段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至36级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001036.png",
+        "titleTagType": "3",
+        "target": 36,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 800000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "80万金币"
+            }
+        ]
+    },
+    "301001037": {
+        "id": "301001037",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001036",
+        "nextId": "301001038",
+        "name": "鲨鱼分37段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至37级，（需先完成“累计充值500元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001037.png",
+        "titleTagType": "3",
+        "target": 37,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002007"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 800000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "80万金币"
+            }
+        ]
+    },
+    "301001038": {
+        "id": "301001038",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001037",
+        "nextId": "301001039",
+        "name": "鲨鱼分38段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至38级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001038.png",
+        "titleTagType": "3",
+        "target": 38,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1600000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "160万金币"
+            }
+        ]
+    },
+    "301001039": {
+        "id": "301001039",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001038",
+        "nextId": "301001040",
+        "name": "鲨鱼分39段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至39级，（需先完成“累计充值1000元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001039.png",
+        "titleTagType": "3",
+        "target": 39,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002008"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1600000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "160万金币"
+            }
+        ]
+    },
+    "301001040": {
+        "id": "301001040",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001039",
+        "nextId": "301001041",
+        "name": "鲨鱼分40段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至40级，（需先完成“累计充值500元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001040.png",
+        "titleTagType": "3",
+        "target": 40,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002007"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1400000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "140万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 20,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*20"
+            }
+        ]
+    },
+    "301001041": {
+        "id": "301001041",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001040",
+        "nextId": "301001042",
+        "name": "鲨鱼分41段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至41级，（需先完成“累计充值1000元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001041.png",
+        "titleTagType": "3",
+        "target": 41,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002008"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 2400000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "240万金币"
+            }
+        ]
+    },
+    "301001042": {
+        "id": "301001042",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001041",
+        "nextId": "301001043",
+        "name": "鲨鱼分42段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至42级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001042.png",
+        "titleTagType": "3",
+        "target": 42,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 2500000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "250万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 50,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*50"
+            }
+        ]
+    },
+    "301001043": {
+        "id": "301001043",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001042",
+        "nextId": "301001044",
+        "name": "鲨鱼分43段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至43级，（需先完成“累计充值2000元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001043.png",
+        "titleTagType": "3",
+        "target": 43,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002010"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 4000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "400万金币"
+            }
+        ]
+    },
+    "301001044": {
+        "id": "301001044",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001043",
+        "nextId": "301001045",
+        "name": "鲨鱼分44段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至44级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001044.png",
+        "titleTagType": "3",
+        "target": 44,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 5000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "500万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 100,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*100"
+            }
+        ]
+    },
+    "301001045": {
+        "id": "301001045",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001044",
+        "nextId": "301001046",
+        "name": "鲨鱼分45段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至45级，（需先完成“累计充值5000元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001045.png",
+        "titleTagType": "3",
+        "target": 45,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002011"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 8000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "800万金币"
+            }
+        ]
+    },
+    "301001046": {
+        "id": "301001046",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001045",
+        "nextId": "301001047",
+        "name": "鲨鱼分46段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至46级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001046.png",
+        "titleTagType": "3",
+        "target": 46,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 5000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "500万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 100,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*100"
+            }
+        ]
+    },
+    "301001047": {
+        "id": "301001047",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001046",
+        "nextId": "301001048",
+        "name": "鲨鱼分47段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至47级，（需先完成“累计充值5000元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001047.png",
+        "titleTagType": "3",
+        "target": 47,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002011"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 8000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "800万金币"
+            }
+        ]
+    },
+    "301001048": {
+        "id": "301001048",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001047",
+        "nextId": "301001049",
+        "name": "鲨鱼分48段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至48级，（需先完成“累计充值10000元”成就）",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001048.png",
+        "titleTagType": "3",
+        "target": 48,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002012"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 5000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "500万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 500,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*500"
+            }
+        ]
+    },
+    "301001049": {
+        "id": "301001049",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001048",
+        "nextId": "301001050",
+        "name": "鲨鱼分49段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至49级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001049.png",
+        "titleTagType": "3",
+        "target": 49,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 20000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "2000万金币"
+            }
+        ]
+    },
+    "301001050": {
+        "id": "301001050",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001049",
+        "nextId": "301001051",
+        "name": "鲨鱼分50段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至50级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001050.png",
+        "titleTagType": "3",
+        "target": 50,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 40000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "4000万金币"
+            }
+        ]
+    },
+    "301001051": {
+        "id": "301001051",
+        "typeId": "1",
+        "groupId": "10",
+        "prevId": "301001050",
+        "nextId": "0",
+        "name": "鲨鱼分50段",
+        "conditionDesc": "在德州扑克，提升鲨鱼分至50级",
+        "share_des": "鲨鱼分段位达到",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_301001050.png",
+        "titleTagType": "3",
+        "target": 50,
+        "type": "qetReachSharkLevel",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 0,
+                "purl": "${http_download}/t3card/images/tbox_reward/icon_final_2.png",
+                "desc": ""
+            }
+        ]
+    },
+    "301002001": {
+        "id": "301002001",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "0",
+        "nextId": "301002002",
+        "name": "游戏50局",
+        "conditionDesc": "在德州扑克达到50局",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002001.png",
+        "titleTagType": "3",
+        "target": 50,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 50,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "50金币"
+            }
+        ]
+    },
+    "301002002": {
+        "id": "301002002",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "301002001",
+        "nextId": "301002003",
+        "name": "游戏100局",
+        "conditionDesc": "在德州扑克达到100局",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002002.png",
+        "titleTagType": "3",
+        "target": 100,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 100,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "100金币"
+            }
+        ]
+    },
+    "301002003": {
+        "id": "301002003",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "301002002",
+        "nextId": "301002004",
+        "name": "游戏500局",
+        "conditionDesc": "在德州扑克达到500局",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002003.png",
+        "titleTagType": "3",
+        "target": 500,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 100,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "100金币"
+            }
+        ]
+    },
+    "301002004": {
+        "id": "301002004",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "301002003",
+        "nextId": "301002005",
+        "name": "游戏1000局",
+        "conditionDesc": "在德州扑克达到1000局，（需先完成“累计充值6元”成就）",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002004.png",
+        "titleTagType": "3",
+        "target": 1000,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002001"],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 4000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "4000金币"
+            }
+        ]
+    },
+    "301002005": {
+        "id": "301002005",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "301002004",
+        "nextId": "301002006",
+        "name": "游戏5000局",
+        "conditionDesc": "在德州扑克贵宾厅牌桌游戏达到5000局，（需先完成“累计充值30元”成就）",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002005.png",
+        "titleTagType": "3",
+        "target": 5000,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002003"],
+        "roomId": [
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 10000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 1,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*1"
+            }
+        ]
+    },
+    "301002006": {
+        "id": "301002006",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "301002005",
+        "nextId": "301002007",
+        "name": "游戏1万局",
+        "conditionDesc": "在德州扑克贵宾厅牌桌游戏达到1万局，（需先完成“累计充值150元”成就）",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002006.png",
+        "titleTagType": "3",
+        "target": 10000,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002005"],
+        "roomId": [
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 50000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "5万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 5,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*5"
+            }
+        ]
+    },
+    "301002007": {
+        "id": "301002007",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "301002006",
+        "nextId": "301002008",
+        "name": "游戏2万局",
+        "conditionDesc": "在德州扑克贵宾厅牌桌游戏达到2万局，（需先完成“累计充值500元”成就）",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002007.png",
+        "titleTagType": "3",
+        "target": 20000,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002007"],
+        "roomId": [
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 100000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "10万金币"
+            }
+        ]
+    },
+    "301002008": {
+        "id": "301002008",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "301002007",
+        "nextId": "301002009",
+        "name": "游戏3万局",
+        "conditionDesc": "在德州扑克贵宾厅牌桌游戏达到3万局，（需先完成“累计充值1000元”成就）",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002008.png",
+        "titleTagType": "3",
+        "target": 30000,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002008"],
+        "roomId": [
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 200000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "20万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 10,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*10"
+            }
+        ]
+    },
+    "301002009": {
+        "id": "301002009",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "301002008",
+        "nextId": "301002010",
+        "name": "游戏4万局",
+        "conditionDesc": "在德州扑克贵宾厅牌桌游戏达到4万局，（需先完成“累计充值2000元”成就）",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002009.png",
+        "titleTagType": "3",
+        "target": 40000,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002010"],
+        "roomId": [
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1600000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "160万金币"
+            }
+        ]
+    },
+    "301002010": {
+        "id": "301002010",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "301002009",
+        "nextId": "301002011",
+        "name": "游戏5万局",
+        "conditionDesc": "在德州扑克贵宾厅牌桌游戏达到5万局，（需先完成“累计充值5000元”成就）",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002010.png",
+        "titleTagType": "3",
+        "target": 50000,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002011"],
+        "roomId": [
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 2400000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "240万金币"
+            }
+        ]
+    },
+    "301002011": {
+        "id": "301002011",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "301002010",
+        "nextId": "301002012",
+        "name": "游戏10万局",
+        "conditionDesc": "在德州扑克贵宾厅牌桌游戏达到10万局，（需先完成“累计充值10000元”成就）",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002011.png",
+        "titleTagType": "3",
+        "target": 100000,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002012"],
+        "roomId": [
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 2500000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "250万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 50,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*50"
+            }
+        ]
+    },
+    "301002012": {
+        "id": "301002012",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "301002011",
+        "nextId": "301002013",
+        "name": "游戏15万局",
+        "conditionDesc": "在德州扑克贵宾厅牌桌游戏达到15万局，（需先完成“累计充值10000元”成就）",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002012.png",
+        "titleTagType": "3",
+        "target": 150000,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002012"],
+        "roomId": [
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 3500000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "350万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 50,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*50"
+            }
+        ]
+    },
+    "301002013": {
+        "id": "301002013",
+        "typeId": "1",
+        "groupId": "20",
+        "prevId": "301002012",
+        "nextId": "0",
+        "name": "游戏15万局",
+        "conditionDesc": "在德州扑克贵宾厅牌桌游戏达到15万局",
+        "share_des": "累计牌桌游戏",
+        "share_unit": "局",
+        "donepic": "${http_download}/texas/arcpics/pic_301002012.png",
+        "titleTagType": "3",
+        "target": 150000,
+        "type": "qetPlayInTable",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127,
+            8132
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 0,
+                "purl": "${http_download}/t3card/images/tbox_reward/icon_final_2.png",
+                "desc": ""
+            }
+        ]
+    },
+    "301003001": {
+        "id": "301003001",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "0",
+        "nextId": "301003011",
+        "name": "赢取1000金币",
+        "conditionDesc": "在德州扑克，累计赢取1000金币",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003001.png",
+        "titleTagType": "3",
+        "target": 1000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 50,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "50金币"
+            }
+        ]
+    },
+    "301003002": {
+        "id": "301003002",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "301003011",
+        "nextId": "301003003",
+        "name": "赢取1万",
+        "conditionDesc": "在德州扑克，累计赢取1万金币",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003002.png",
+        "titleTagType": "3",
+        "target": 10000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 100,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "100金币"
+            }
+        ]
+    },
+    "301003003": {
+        "id": "301003003",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "301003002",
+        "nextId": "301003004",
+        "name": "赢取5万",
+        "conditionDesc": "在德州扑克，累计赢取5万金币",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003003.png",
+        "titleTagType": "3",
+        "target": 50000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 200,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "200金币"
+            }
+        ]
+    },
+    "301003004": {
+        "id": "301003004",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "301003003",
+        "nextId": "301003005",
+        "name": "赢取10万",
+        "conditionDesc": "在德州扑克，累计赢取10万金币，（需先完成“累计充值6元”成就）",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003004.png",
+        "titleTagType": "3",
+        "target": 100000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002001"],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1000金币"
+            }
+        ]
+    },
+    "301003005": {
+        "id": "301003005",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "301003004",
+        "nextId": "301003006",
+        "name": "赢取50万",
+        "conditionDesc": "在德州扑克，累计赢取50万金币，（需先完成“累计充值15元”成就）",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003005.png",
+        "titleTagType": "3",
+        "target": 500000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002002"],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 5000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "5千金币"
+            }
+        ]
+    },
+    "301003006": {
+        "id": "301003006",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "301003005",
+        "nextId": "301003007",
+        "name": "赢取100万",
+        "conditionDesc": "在德州扑克，累计赢取100万金币，（需先完成“累计充值15元”成就）",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003006.png",
+        "titleTagType": "3",
+        "target": 1000000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002002"],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 10000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1万金币"
+            }
+        ]
+    },
+    "301003007": {
+        "id": "301003007",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "301003006",
+        "nextId": "301003008",
+        "name": "赢取500万",
+        "conditionDesc": "在德州扑克，累计赢取500万金币，（需先完成“累计充值150元”成就）",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003007.png",
+        "titleTagType": "3",
+        "target": 5000000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002005"],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 60000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "6万金币"
+            }
+        ]
+    },
+    "301003008": {
+        "id": "301003008",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "301003007",
+        "nextId": "301003009",
+        "name": "赢取1000万",
+        "conditionDesc": "在德州扑克，累计赢取1000万金币，（需先完成“累计充值150元”成就）",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003008.png",
+        "titleTagType": "3",
+        "target": 10000000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002005"],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 100000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "10万金币"
+            }
+        ]
+    },
+    "301003009": {
+        "id": "301003009",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "301003008",
+        "nextId": "301003010",
+        "name": "赢取5000万",
+        "conditionDesc": "在德州扑克，累计赢取5000万金币，（需先完成“累计充值500元”成就）",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003009.png",
+        "titleTagType": "3",
+        "target": 50000000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002007"],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 400000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "40万金币"
+            }
+        ]
+    },
+    "301003010": {
+        "id": "301003010",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "301003009",
+        "nextId": "301003012",
+        "name": "赢取1亿金币",
+        "conditionDesc": "在德州扑克，累计赢取1亿金币，（需先完成“累计充值1000元”成就）",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003010.png",
+        "titleTagType": "3",
+        "target": 100000000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002008"],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 600000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "60万金币"
+            }
+        ]
+    },
+    "301003011": {
+        "id": "301003011",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "301003001",
+        "nextId": "301003002",
+        "name": "赢取5000金币",
+        "conditionDesc": "在德州扑克，累计赢取5000金币",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003011.png",
+        "titleTagType": "3",
+        "target": 5000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 100,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "100金币"
+            }
+        ]
+    },
+    "301003012": {
+        "id": "301003012",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "301003010",
+        "nextId": "301003013",
+        "name": "赢取10亿金币",
+        "conditionDesc": "在德州扑克，累计赢取10亿金币，（需先完成“累计充值5000元”成就）",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003013.png",
+        "titleTagType": "3",
+        "target": 1000000000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002011"],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 800000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "80万金币"
+            }
+        ]
+    },
+    "301003013": {
+        "id": "301003013",
+        "typeId": "1",
+        "groupId": "30",
+        "prevId": "301003012",
+        "nextId": "0",
+        "name": "赢取10亿金币",
+        "conditionDesc": "在德州扑克，累计赢取10亿金币",
+        "share_des": "累计牌桌赢取",
+        "share_unit": "金币",
+        "donepic": "${http_download}/texas/arcpics/pic_301003013.png",
+        "titleTagType": "3",
+        "target": 1000000000,
+        "type": "qetWinChip",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [
+            8101,
+            8102,
+            8103,
+            8104,
+            8120,
+            8121,
+            8122,
+            8123,
+            8124,
+            8125,
+            8126,
+            8127
+        ],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 0,
+                "purl": "${http_download}/t3card/images/tbox_reward/icon_final_2.png",
+                "desc": ""
+            }
+        ]
+    },
+    "301004001": {
+        "id": "301004001",
+        "typeId": "1",
+        "groupId": "40",
+        "prevId": "0",
+        "nextId": "301004002",
+        "name": "清空5人",
+        "conditionDesc": "把别人牌桌金币清空的次数达到5次",
+        "share_des": "累计清空玩家",
+        "share_unit": "人",
+        "donepic": "${http_download}/texas/arcpics/pic_301004001_1.png",
+        "titleTagType": "3",
+        "target": 5,
+        "type": "qetHunter",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 80,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "80金币"
+            }
+        ]
+    },
+    "301004002": {
+        "id": "301004002",
+        "typeId": "1",
+        "groupId": "40",
+        "prevId": "301004001",
+        "nextId": "301004003",
+        "name": "清空10人",
+        "conditionDesc": "把别人牌桌金币清空的次数达到10次",
+        "share_des": "累计清空玩家",
+        "share_unit": "人",
+        "donepic": "${http_download}/texas/arcpics/pic_301004002_1.png",
+        "titleTagType": "3",
+        "target": 10,
+        "type": "qetHunter",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 100,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "100金币"
+            }
+        ]
+    },
+    "301004003": {
+        "id": "301004003",
+        "typeId": "1",
+        "groupId": "40",
+        "prevId": "301004002",
+        "nextId": "301004004",
+        "name": "清空20人",
+        "conditionDesc": "把别人牌桌金币清空的次数达到20次",
+        "share_des": "累计清空玩家",
+        "share_unit": "人",
+        "donepic": "${http_download}/texas/arcpics/pic_301004003_1.png",
+        "titleTagType": "3",
+        "target": 20,
+        "type": "qetHunter",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 200,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "200金币"
+            }
+        ]
+    },
+    "301004004": {
+        "id": "301004004",
+        "typeId": "1",
+        "groupId": "40",
+        "prevId": "301004003",
+        "nextId": "301004005",
+        "name": "清空50人",
+        "conditionDesc": "把别人牌桌金币清空的次数达到50次",
+        "share_des": "累计清空玩家",
+        "share_unit": "人",
+        "donepic": "${http_download}/texas/arcpics/pic_301004004_1.png",
+        "titleTagType": "3",
+        "target": 50,
+        "type": "qetHunter",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1000金币"
+            }
+        ]
+    },
+    "301004005": {
+        "id": "301004005",
+        "typeId": "1",
+        "groupId": "40",
+        "prevId": "301004004",
+        "nextId": "301004006",
+        "name": "清空100人",
+        "conditionDesc": "把别人牌桌金币清空的次数达到100次，（需先完成“累计充值6元”成就）",
+        "share_des": "累计清空玩家",
+        "share_unit": "人",
+        "donepic": "${http_download}/texas/arcpics/pic_301004005_1.png",
+        "titleTagType": "3",
+        "target": 100,
+        "type": "qetHunter",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002001"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 2000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "2000金币"
+            }
+        ]
+    },
+    "301004006": {
+        "id": "301004006",
+        "typeId": "1",
+        "groupId": "40",
+        "prevId": "301004005",
+        "nextId": "301004007",
+        "name": "清空200人",
+        "conditionDesc": "把别人牌桌金币清空的次数达到200次，（需先完成“累计充值15元”成就）",
+        "share_des": "累计清空玩家",
+        "share_unit": "人",
+        "donepic": "${http_download}/texas/arcpics/pic_301004006_1.png",
+        "titleTagType": "3",
+        "target": 200,
+        "type": "qetHunter",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002002"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 10000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1万金币"
+            }
+        ]
+    },
+    "301004007": {
+        "id": "301004007",
+        "typeId": "1",
+        "groupId": "40",
+        "prevId": "301004006",
+        "nextId": "301004008",
+        "name": "清空500人",
+        "conditionDesc": "把别人牌桌金币清空的次数达到500次，（需先完成“累计充值30元”成就）",
+        "share_des": "累计清空玩家",
+        "share_unit": "人",
+        "donepic": "${http_download}/texas/arcpics/pic_301004007_1.png",
+        "titleTagType": "3",
+        "target": 500,
+        "type": "qetHunter",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002003"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 20000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "2万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 1,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*1"
+            }
+        ]
+    },
+    "301004008": {
+        "id": "301004008",
+        "typeId": "1",
+        "groupId": "40",
+        "prevId": "301004007",
+        "nextId": "301004009",
+        "name": "清空1000人",
+        "conditionDesc": "把别人牌桌金币清空的次数达到1000次，（需先完成“累计充值150元”成就）",
+        "share_des": "累计清空玩家",
+        "share_unit": "人",
+        "donepic": "${http_download}/texas/arcpics/pic_301004008_1.png",
+        "titleTagType": "3",
+        "target": 1000,
+        "type": "qetHunter",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002005"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 150000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "15万金币"
+            }
+        ]
+    },
+    "301004009": {
+        "id": "301004009",
+        "typeId": "1",
+        "groupId": "40",
+        "prevId": "301004008",
+        "nextId": "301004010",
+        "name": "清空2000人",
+        "conditionDesc": "把别人牌桌金币清空的次数达到2000次，（需先完成“累计充值500元”成就）",
+        "share_des": "累计清空玩家",
+        "share_unit": "人",
+        "donepic": "${http_download}/texas/arcpics/pic_301004009_1.png",
+        "titleTagType": "3",
+        "target": 2000,
+        "type": "qetHunter",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002007"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002007"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 600000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "60万金币"
+            }
+        ]
+    },
+    "301004010": {
+        "id": "301004010",
+        "typeId": "1",
+        "groupId": "40",
+        "prevId": "301004009",
+        "nextId": "0",
+        "name": "清空2000人",
+        "conditionDesc": "把别人牌桌金币清空的次数达到2000次",
+        "share_des": "累计清空玩家",
+        "share_unit": "人",
+        "donepic": "${http_download}/texas/arcpics/pic_301004009_1.png",
+        "titleTagType": "3",
+        "target": 2000,
+        "type": "qetHunter",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 0,
+                "purl": "${http_download}/t3card/images/tbox_reward/icon_final_2.png",
+                "desc": ""
+            }
+        ]
+    },
+    "301005001": {
+        "id": "301005001",
+        "typeId": "1",
+        "groupId": "50",
+        "prevId": "0",
+        "nextId": "301005002",
+        "name": "参赛1场",
+        "conditionDesc": "参与1场德州扑克比赛",
+        "share_des": "参加德州比赛",
+        "share_unit": "场",
+        "donepic": "${http_download}/texas/arcpics/pic_301005001.png",
+        "titleTagType": "3",
+        "target": 1,
+        "type": "qetMatch",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 200,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "200金币"
+            }
+        ]
+    },
+    "301005002": {
+        "id": "301005002",
+        "typeId": "1",
+        "groupId": "50",
+        "prevId": "301005001",
+        "nextId": "301005003",
+        "name": "参赛10场",
+        "conditionDesc": "参与10场德州扑克比赛，（需先完成“累计充值6元”成就）",
+        "share_des": "参加德州比赛",
+        "share_unit": "场",
+        "donepic": "${http_download}/texas/arcpics/pic_301005002.png",
+        "titleTagType": "3",
+        "target": 10,
+        "type": "qetMatch",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002001"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 2000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "2000金币"
+            }
+        ]
+    },
+    "301005003": {
+        "id": "301005003",
+        "typeId": "1",
+        "groupId": "50",
+        "prevId": "301005002",
+        "nextId": "301005004",
+        "name": "参赛20场",
+        "conditionDesc": "参与20场德州扑克比赛，（需先完成“累计充值30元”成就）",
+        "share_des": "参加德州比赛",
+        "share_unit": "场",
+        "donepic": "${http_download}/texas/arcpics/pic_301005003.png",
+        "titleTagType": "3",
+        "target": 20,
+        "type": "qetMatch",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002003"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 4000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "4000金币"
+            }
+        ]
+    },
+    "301005004": {
+        "id": "301005004",
+        "typeId": "1",
+        "groupId": "50",
+        "prevId": "301005003",
+        "nextId": "301005005",
+        "name": "参赛50场",
+        "conditionDesc": "参与50场德州扑克比赛，（需先完成“累计充值150元”成就）",
+        "share_des": "参加德州比赛",
+        "share_unit": "场",
+        "donepic": "${http_download}/texas/arcpics/pic_301005004.png",
+        "titleTagType": "3",
+        "target": 50,
+        "type": "qetMatch",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002005"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 20000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "2万金币"
+            }
+        ]
+    },
+    "301005005": {
+        "id": "301005005",
+        "typeId": "1",
+        "groupId": "50",
+        "prevId": "301005004",
+        "nextId": "301005006",
+        "name": "参赛100场",
+        "conditionDesc": "参与100场德州扑克比赛，（需先完成“累计充值300元”成就）",
+        "share_des": "参加德州比赛",
+        "share_unit": "场",
+        "donepic": "${http_download}/texas/arcpics/pic_301005005.png",
+        "titleTagType": "3",
+        "target": 100,
+        "type": "qetMatch",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002006"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 150000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "15万金币"
+            }
+        ]
+    },
+    "301005006": {
+        "id": "301005006",
+        "typeId": "1",
+        "groupId": "50",
+        "prevId": "301005005",
+        "nextId": "301005007",
+        "name": "参赛200场",
+        "conditionDesc": "参与200场德州扑克比赛，（需先完成“累计充值500元”成就）",
+        "share_des": "参加德州比赛",
+        "share_unit": "场",
+        "donepic": "${http_download}/texas/arcpics/pic_301005006.png",
+        "titleTagType": "3",
+        "target": 200,
+        "type": "qetMatch",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002007"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 200000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "20万金币"
+            }
+        ]
+    },
+    "301005007": {
+        "id": "301005007",
+        "typeId": "1",
+        "groupId": "50",
+        "prevId": "301005006",
+        "nextId": "301005008",
+        "name": "参赛500场",
+        "conditionDesc": "参与500场德州扑克比赛，（需先完成“累计充值1000元”成就）",
+        "share_des": "参加德州比赛",
+        "share_unit": "场",
+        "donepic": "${http_download}/texas/arcpics/pic_301005007.png",
+        "titleTagType": "3",
+        "target": 500,
+        "type": "qetMatch",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002008"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 300000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "30万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 10,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*10"
+            }
+        ]
+    },
+    "301005008": {
+        "id": "301005008",
+        "typeId": "1",
+        "groupId": "50",
+        "prevId": "301005007",
+        "nextId": "301005009",
+        "name": "参赛1000场",
+        "conditionDesc": "参与1000场德州扑克比赛，（需先完成“累计充值2000元”成就）",
+        "share_des": "参加德州比赛",
+        "share_unit": "场",
+        "donepic": "${http_download}/texas/arcpics/pic_301005008.png",
+        "titleTagType": "3",
+        "target": 1000,
+        "type": "qetMatch",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002010"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1500000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "150万金币"
+            }
+        ]
+    },
+    "301005009": {
+        "id": "301005009",
+        "typeId": "1",
+        "groupId": "50",
+        "prevId": "301005008",
+        "nextId": "0",
+        "name": "参赛1000场",
+        "conditionDesc": "参与1000场德州扑克比赛",
+        "share_des": "参加德州比赛",
+        "share_unit": "场",
+        "donepic": "${http_download}/texas/arcpics/pic_301005008.png",
+        "titleTagType": "3",
+        "target": 1000,
+        "type": "qetMatch",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 0,
+                "purl": "${http_download}/t3card/images/tbox_reward/icon_final_2.png",
+                "desc": ""
+            }
+        ]
+    },
+    "301006001": {
+        "id": "301006001",
+        "typeId": "1",
+        "groupId": "60",
+        "prevId": "0",
+        "nextId": "301006002",
+        "name": "夺冠1次",
+        "conditionDesc": "夺取1场德州扑克比赛冠军",
+        "share_des": "德州比赛夺冠",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/icon_301006001.png",
+        "titleTagType": "3",
+        "target": 1,
+        "type": "qetChampion",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 10000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 1,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*1"
+            }
+        ]
+    },
+    "301006002": {
+        "id": "301006002",
+        "typeId": "1",
+        "groupId": "60",
+        "prevId": "301006001",
+        "nextId": "301006003",
+        "name": "夺冠3次",
+        "conditionDesc": "夺取3场德州扑克比赛冠军",
+        "share_des": "德州比赛夺冠",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/icon_301006002.png",
+        "titleTagType": "3",
+        "target": 3,
+        "type": "qetChampion",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 150000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "15万金币"
+            }
+        ]
+    },
+    "301006003": {
+        "id": "301006003",
+        "typeId": "1",
+        "groupId": "60",
+        "prevId": "301006002",
+        "nextId": "301006004",
+        "name": "夺冠5次",
+        "conditionDesc": "夺取5场德州扑克比赛冠军，（需先完成“累计充值30元”成就）",
+        "share_des": "德州比赛夺冠",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/icon_301006003.png",
+        "titleTagType": "3",
+        "target": 5,
+        "type": "qetChampion",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002003"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 400000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "40万金币"
+            }
+        ]
+    },
+    "301006004": {
+        "id": "301006004",
+        "typeId": "1",
+        "groupId": "60",
+        "prevId": "301006003",
+        "nextId": "301006005",
+        "name": "夺冠10次",
+        "conditionDesc": "夺取10场德州扑克比赛冠军，（需先完成“累计充值50元”成就）",
+        "share_des": "德州比赛夺冠",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/icon_301006004.png",
+        "titleTagType": "3",
+        "target": 10,
+        "type": "qetChampion",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002004"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1500000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "150万金币"
+            }
+        ]
+    },
+    "301006005": {
+        "id": "301006005",
+        "typeId": "1",
+        "groupId": "60",
+        "prevId": "301006004",
+        "nextId": "301006006",
+        "name": "夺冠20次",
+        "conditionDesc": "夺取20场德州扑克比赛冠军，（需先完成“累计充值150元”成就）",
+        "share_des": "德州比赛夺冠",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/icon_301006005.png",
+        "titleTagType": "3",
+        "target": 20,
+        "type": "qetChampion",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002005"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1500000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "150万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 30,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*30"
+            }
+        ]
+    },
+    "301006006": {
+        "id": "301006006",
+        "typeId": "1",
+        "groupId": "60",
+        "prevId": "301006005",
+        "nextId": "301006007",
+        "name": "夺冠30次",
+        "conditionDesc": "夺取30场德州扑克比赛冠军，（需先完成“累计充值500元”成就）",
+        "share_des": "德州比赛夺冠",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/icon_301006006.png",
+        "titleTagType": "3",
+        "target": 30,
+        "type": "qetChampion",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002007"],
+        "update_type": "accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 5000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "500万金币"
+            }
+        ]
+    },
+    "301006007": {
+        "id": "301006007",
+        "typeId": "1",
+        "groupId": "60",
+        "prevId": "301006006",
+        "nextId": "0",
+        "name": "夺冠30次",
+        "conditionDesc": "夺取30场德州扑克比赛冠军",
+        "share_des": "德州比赛夺冠",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/icon_301006006.png",
+        "titleTagType": "3",
+        "target": 30,
+        "type": "qetChampion",
+        "goTo": "goto_mtt",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 0,
+                "purl": "${http_download}/t3card/images/tbox_reward/icon_final_2.png",
+                "desc": ""
+            }
+        ]
+    },
+    "309001001": {
+        "id": "309001001",
+        "typeId": "9",
+        "groupId": "10",
+        "prevId": "0",
+        "nextId": "309001002",
+        "name": "VIP1级",
+        "conditionDesc": "通过充值使自己VIP等级达到1级（需先完成“累计充值6元”成就）",
+        "share_des": "VIP等级提升至",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_309001001.png",
+        "titleTagType": "3",
+        "target": 1,
+        "type": "qetVipLevel",
+        "auditClientId":[
+            "hall3",
+            "hall6",
+            "hall7",
+            "hall10",
+            "hall17",
+            "hall20",
+            "hall25",
+            "hall42"
+        ],
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002001"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 4000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "4千金币"
+            }
+        ]
+    },
+    "309001002": {
+        "id": "309001002",
+        "typeId": "9",
+        "groupId": "10",
+        "prevId": "309001001",
+        "nextId": "309001003",
+        "name": "VIP2级",
+        "conditionDesc": "通过充值使自己VIP等级达到2级（需先完成“累计充值30元”成就）",
+        "share_des": "VIP等级提升至",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_309001002.png",
+        "titleTagType": "3",
+        "target": 2,
+        "type": "qetVipLevel",
+        "auditClientId":[
+            "hall3",
+            "hall6",
+            "hall7",
+            "hall10",
+            "hall17",
+            "hall20",
+            "hall25",
+            "hall42"
+        ],
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002003"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 12000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1.2万金币"
+            }
+        ]
+    },
+    "309001003": {
+        "id": "309001003",
+        "typeId": "9",
+        "groupId": "10",
+        "prevId": "309001002",
+        "nextId": "309001004",
+        "name": "VIP3级",
+        "conditionDesc": "通过充值使自己VIP等级达到3级（需先完成“累计充值150元”成就）",
+        "share_des": "VIP等级提升至",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_309001003.png",
+        "titleTagType": "3",
+        "target": 3,
+        "type": "qetVipLevel",
+        "auditClientId":[
+            "hall3",
+            "hall6",
+            "hall7",
+            "hall10",
+            "hall17",
+            "hall20",
+            "hall25",
+            "hall42"
+        ],
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002005"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 20000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "2万金币"
+            }
+        ]
+    },
+    "309001004": {
+        "id": "309001004",
+        "typeId": "9",
+        "groupId": "10",
+        "prevId": "309001003",
+        "nextId": "309001005",
+        "name": "VIP4级",
+        "conditionDesc": "通过充值使自己VIP等级达到4级（需先完成“累计充值300元”成就）",
+        "share_des": "VIP等级提升至",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_309001004.png",
+        "titleTagType": "3",
+        "target": 4,
+        "type": "qetVipLevel",
+        "auditClientId":[
+            "hall3",
+            "hall6",
+            "hall7",
+            "hall10",
+            "hall17",
+            "hall20",
+            "hall25",
+            "hall42"
+        ],
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002006"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 60000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "6万金币"
+            }
+        ]
+    },
+    "309001005": {
+        "id": "309001005",
+        "typeId": "9",
+        "groupId": "10",
+        "prevId": "309001004",
+        "nextId": "309001006",
+        "name": "VIP5级",
+        "conditionDesc": "通过充值使自己VIP等级达到5级（需先完成“累计充值1500元”成就）",
+        "share_des": "VIP等级提升至",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_309001005.png",
+        "titleTagType": "3",
+        "target": 5,
+        "type": "qetVipLevel",
+        "auditClientId":[
+            "hall3",
+            "hall6",
+            "hall7",
+            "hall10",
+            "hall17",
+            "hall20",
+            "hall25",
+            "hall42"
+        ],
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002009"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 240000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "24万金币"
+            }
+        ]
+    },
+    "309001006": {
+        "id": "309001006",
+        "typeId": "9",
+        "groupId": "10",
+        "prevId": "309001005",
+        "nextId": "309001007",
+        "name": "VIP6级",
+        "conditionDesc": "通过充值使自己VIP等级达到6级（需先完成“累计充值5000元”成就）",
+        "share_des": "VIP等级提升至",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_309001006.png",
+        "titleTagType": "3",
+        "target": 6,
+        "type": "qetVipLevel",
+        "auditClientId":[
+            "hall3",
+            "hall6",
+            "hall7",
+            "hall10",
+            "hall17",
+            "hall20",
+            "hall25",
+            "hall42"
+        ],
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002011"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 720000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "72万金币"
+            }
+        ]
+    },
+    "309001007": {
+        "id": "309001007",
+        "typeId": "9",
+        "groupId": "10",
+        "prevId": "309001006",
+        "nextId": "309001008",
+        "name": "VIP7级",
+        "conditionDesc": "通过充值使自己VIP等级达到7级（需先完成“累计充值20000元”成就）",
+        "share_des": "VIP等级提升至",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_309001007.png",
+        "titleTagType": "3",
+        "target": 7,
+        "type": "qetVipLevel",
+        "auditClientId":[
+            "hall3",
+            "hall6",
+            "hall7",
+            "hall10",
+            "hall17",
+            "hall20",
+            "hall25",
+            "hall42"
+        ],
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002013"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1440000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "144万金币"
+            }
+        ]
+    },
+    "309001008": {
+        "id": "309001008",
+        "typeId": "9",
+        "groupId": "10",
+        "prevId": "309001007",
+        "nextId": "309001009",
+        "name": "VIP8级",
+        "conditionDesc": "通过充值使自己VIP等级达到8级（需先完成“累计充值20000元”成就）",
+        "share_des": "VIP等级提升至",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_309001008.png",
+        "titleTagType": "3",
+        "target": 8,
+        "type": "qetVipLevel",
+        "auditClientId":[
+            "hall3",
+            "hall6",
+            "hall7",
+            "hall10",
+            "hall17",
+            "hall20",
+            "hall25",
+            "hall42"
+        ],
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002013"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 2400000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "240万金币"
+            }
+        ]
+    },
+    "309001009": {
+        "id": "309001009",
+        "typeId": "9",
+        "groupId": "10",
+        "prevId": "309001008",
+        "nextId": "309001010",
+        "name": "VIP9级",
+        "conditionDesc": "通过充值使自己VIP等级达到9级（需先完成“累计充值20000元”成就）",
+        "share_des": "VIP等级提升至",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_309001009.png",
+        "titleTagType": "3",
+        "target": 9,
+        "type": "qetVipLevel",
+        "auditClientId":[
+            "hall3",
+            "hall6",
+            "hall7",
+            "hall10",
+            "hall17",
+            "hall20",
+            "hall25",
+            "hall42"
+        ],
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002013"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 60000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "6千万金币"
+            }
+        ]
+    },
+    "309001010": {
+        "id": "309001010",
+        "typeId": "9",
+        "groupId": "10",
+        "prevId": "309001009",
+        "nextId": "309001011",
+        "name": "VIP10级",
+        "conditionDesc": "通过充值使自己VIP等级达到10级（需先完成“累计充值20000元”成就）",
+        "share_des": "VIP等级提升至",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_309001010.png",
+        "titleTagType": "3",
+        "target": 10,
+        "type": "qetVipLevel",
+        "auditClientId":[
+            "hall3",
+            "hall6",
+            "hall7",
+            "hall10",
+            "hall17",
+            "hall20",
+            "hall25",
+            "hall42"
+        ],
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002013"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 120000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1.2亿金币"
+            }
+        ]
+    },
+    "309001011": {
+        "id": "309001011",
+        "typeId": "9",
+        "groupId": "10",
+        "prevId": "309001010",
+        "nextId": "0",
+        "name": "VIP10级",
+        "conditionDesc": "通过充值使自己VIP等级达到10级",
+        "share_des": "VIP等级提升至",
+        "share_unit": "级",
+        "donepic": "${http_download}/texas/arcpics/icon_309001010.png",
+        "titleTagType": "3",
+        "target": 10,
+        "type": "qetVipLevel",
+        "auditClientId":[
+            "hall3",
+            "hall6",
+            "hall7",
+            "hall10",
+            "hall17",
+            "hall20",
+            "hall25",
+            "hall42"
+        ],
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 0,
+                "purl": "${http_download}/t3card/images/tbox_reward/icon_final_2.png",
+                "desc": ""
+            }
+        ]
+    },
+    "309002001": {
+        "id": "309002001",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "0",
+        "nextId": "309002002",
+        "name": "累计充值6元",
+        "conditionDesc": "在德州扑克累计充值6元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002001.png",
+        "titleTagType": "3",
+        "target": 6,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 20000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "2万金币"
+            }
+        ]
+    },
+    "309002002": {
+        "id": "309002002",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002001",
+        "nextId": "309002003",
+        "name": "累计充值15元",
+        "conditionDesc": "在德州扑克累计充值15元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002002.png",
+        "titleTagType": "3",
+        "target": 15,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 30000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "3万金币"
+            }
+        ]
+    },
+    "309002003": {
+        "id": "309002003",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002002",
+        "nextId": "309002004",
+        "name": "累计充值30元",
+        "conditionDesc": "在德州扑克累计充值30元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002003.png",
+        "titleTagType": "3",
+        "target": 30,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 50000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "5万金币"
+            }
+        ]
+    },
+    "309002004": {
+        "id": "309002004",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002003",
+        "nextId": "309002005",
+        "name": "累计充值50元",
+        "conditionDesc": "在德州扑克累计充值50元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002004.png",
+        "titleTagType": "3",
+        "target": 50,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 100000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "10万金币"
+            }
+        ]
+    },
+    "309002005": {
+        "id": "309002005",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002004",
+        "nextId": "309002006",
+        "name": "累计充值150元",
+        "conditionDesc": "在德州扑克累计充值150元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002005_new.png",
+        "titleTagType": "3",
+        "target": 150,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 200000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "20万金币"
+            }
+        ]
+    },
+    "309002006": {
+        "id": "309002006",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002005",
+        "nextId": "309002007",
+        "name": "累计充值300元",
+        "conditionDesc": "在德州扑克累计充值300元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002006_new.png",
+        "titleTagType": "3",
+        "target": 300,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 250000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "25万金币"
+            }
+        ]
+    },
+    "309002007": {
+        "id": "309002007",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002006",
+        "nextId": "309002008",
+        "name": "累计充值500元",
+        "conditionDesc": "在德州扑克累计充值500元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002007.png",
+        "titleTagType": "3",
+        "target": 500,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 300000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "30万金币"
+            }
+        ]
+    },
+    "309002008": {
+        "id": "309002008",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002007",
+        "nextId": "309002009",
+        "name": "累计充值1000元",
+        "conditionDesc": "在德州扑克累计充值1000元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002008.png",
+        "titleTagType": "3",
+        "target": 1000,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1500000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "150万金币"
+            }
+        ]
+    },
+    "309002009": {
+        "id": "309002009",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002008",
+        "nextId": "309002010",
+        "name": "累计充值1500元",
+        "conditionDesc": "在德州扑克累计充值1500元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002009.png",
+        "titleTagType": "3",
+        "target": 1500,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 2400000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "240万金币"
+            }
+        ]
+    },
+    "309002010": {
+        "id": "309002010",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002009",
+        "nextId": "309002011",
+        "name": "累计充值2000元",
+        "conditionDesc": "在德州扑克累计充值2000元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002010.png",
+        "titleTagType": "3",
+        "target": 2000,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 3600000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "360万金币"
+            }
+        ]
+    },
+    "309002011": {
+        "id": "309002011",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002010",
+        "nextId": "309002012",
+        "name": "累计充值5000元",
+        "conditionDesc": "在德州扑克累计充值5000元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002011.png",
+        "titleTagType": "3",
+        "target": 5000,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 4800000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "480万金币"
+            }
+        ]
+    },
+    "309002012": {
+        "id": "309002012",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002011",
+        "nextId": "309002013",
+        "name": "累计充值1万元",
+        "conditionDesc": "在德州扑克累计充值10000元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002012.png",
+        "titleTagType": "3",
+        "target": 10000,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 7200000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "720万金币"
+            }
+        ]
+    },
+    "309002013": {
+        "id": "309002013",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002012",
+        "nextId": "309002014",
+        "name": "累计充值2万元",
+        "conditionDesc": "在德州扑克累计充值20000元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002013.png",
+        "titleTagType": "3",
+        "target": 20000,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 9000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "900万金币"
+            }
+        ]
+    },
+    "309002014": {
+        "id": "309002014",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002013",
+        "nextId": "309002015",
+        "name": "累计充值5万元",
+        "conditionDesc": "在德州扑克累计充值50000元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002014.png",
+        "titleTagType": "3",
+        "target": 50000,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 12000000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1200万金币"
+            }
+        ]
+    },
+    "309002015": {
+        "id": "309002015",
+        "typeId": "9",
+        "groupId": "20",
+        "prevId": "309002014",
+        "nextId": "0",
+        "name": "累计充值5万元",
+        "conditionDesc": "在德州扑克累计充值50000元",
+        "share_des": "累计充值金额达到",
+        "share_unit": "元",
+        "donepic": "${http_download}/texas/arcpics/pic_309002014.png",
+        "titleTagType": "3",
+        "target": 50000,
+        "type": "qetCharge",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 0,
+                "purl": "${http_download}/t3card/images/tbox_reward/icon_final_2.png",
+                "desc": ""
+            }
+        ]
+    },
+    "309003001": {
+        "id": "309003001",
+        "typeId": "9",
+        "groupId": "30",
+        "prevId": "0",
+        "nextId": "309003002",
+        "name": "买月卡1次",
+        "conditionDesc": "在德州扑克商城累计购买月卡1次",
+        "share_des": "累计购买超值月卡",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/pic_309003001.png",
+        "titleTagType": "3",
+        "target": 1,
+        "type": "qetMonthCard",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 20000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "2万金币"
+            }
+        ]
+    },
+    "309003002": {
+        "id": "309003002",
+        "typeId": "9",
+        "groupId": "30",
+        "prevId": "309003001",
+        "nextId": "309003003",
+        "name": "买月卡2次",
+        "conditionDesc": "在德州扑克商城累计购买月卡2次",
+        "share_des": "累计购买超值月卡",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/pic_309003002.png",
+        "titleTagType": "3",
+        "target": 2,
+        "type": "qetMonthCard",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 50000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "5万金币"
+            }
+        ]
+    },
+    "309003003": {
+        "id": "309003003",
+        "typeId": "9",
+        "groupId": "30",
+        "prevId": "309003002",
+        "nextId": "309003004",
+        "name": "买月卡3次",
+        "conditionDesc": "在德州扑克商城累计购买月卡3次",
+        "share_des": "累计购买超值月卡",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/pic_309003003.png",
+        "titleTagType": "3",
+        "target": 3,
+        "type": "qetMonthCard",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 120000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "12万金币"
+            }
+        ]
+    },
+    "309003004": {
+        "id": "309003004",
+        "typeId": "9",
+        "groupId": "30",
+        "prevId": "309003003",
+        "nextId": "309003005",
+        "name": "买月卡5次",
+        "conditionDesc": "在德州扑克商城累计购买月卡5次",
+        "share_des": "累计购买超值月卡",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/pic_309003004.png",
+        "titleTagType": "3",
+        "target": 5,
+        "type": "qetMonthCard",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 300000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "30万金币"
+            }
+        ]
+    },
+    "309003005": {
+        "id": "309003005",
+        "typeId": "9",
+        "groupId": "30",
+        "prevId": "309003004",
+        "nextId": "309003006",
+        "name": "买月卡10次",
+        "conditionDesc": "在德州扑克商城累计购买月卡10次",
+        "share_des": "累计购买超值月卡",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/pic_309003005.png",
+        "titleTagType": "3",
+        "target": 10,
+        "type": "qetMonthCard",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 3600000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "360万金币"
+            }
+        ]
+    },
+    "309003006": {
+        "id": "309003006",
+        "typeId": "9",
+        "groupId": "30",
+        "prevId": "309003005",
+        "nextId": "309003007",
+        "name": "买月卡20次",
+        "conditionDesc": "在德州扑克商城累计购买月卡20次",
+        "share_des": "累计购买超值月卡",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/pic_309003006.png",
+        "titleTagType": "3",
+        "target": 20,
+        "type": "qetMonthCard",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 7200000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "720万金币"
+            }
+        ]
+    },
+    "309003007": {
+        "id": "309003007",
+        "typeId": "9",
+        "groupId": "30",
+        "prevId": "309003006",
+        "nextId": "0",
+        "name": "买月卡20次",
+        "conditionDesc": "在德州扑克商城累计购买月卡20次",
+        "share_des": "累计购买超值月卡",
+        "share_unit": "次",
+        "donepic": "${http_download}/texas/arcpics/pic_309003006.png",
+        "titleTagType": "3",
+        "target": 20,
+        "type": "qetMonthCard",
+        "goTo": "",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 0,
+                "purl": "${http_download}/t3card/images/tbox_reward/icon_final_2.png",
+                "desc": ""
+            }
+        ]
+    },
+    "309005001": {
+        "id": "309005001",
+        "typeId": "9",
+        "groupId": "50",
+        "prevId": "0",
+        "nextId": "309005002",
+        "name": "游戏2天",
+        "conditionDesc": "累计登录并进行德州扑克游戏达到2天",
+        "share_des": "累计游戏达到",
+        "share_unit": "天",
+        "donepic": "${http_download}/texas/arcpics/pic_309005001.png",
+        "titleTagType": "3",
+        "target": 2,
+        "type": "qetGameDays",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 20,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "20金币"
+            }
+        ]
+    },
+    "309005002": {
+        "id": "309005002",
+        "typeId": "9",
+        "groupId": "50",
+        "prevId": "309005001",
+        "nextId": "309005003",
+        "name": "游戏3天",
+        "conditionDesc": "累计登录并进行德州扑克游戏达到3天",
+        "share_des": "累计游戏达到",
+        "share_unit": "天",
+        "donepic": "${http_download}/texas/arcpics/pic_309005002.png",
+        "titleTagType": "3",
+        "target": 3,
+        "type": "qetGameDays",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 20,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "20金币"
+            }
+        ]
+    },
+    "309005003": {
+        "id": "309005003",
+        "typeId": "9",
+        "groupId": "50",
+        "prevId": "309005002",
+        "nextId": "309005004",
+        "name": "游戏5天",
+        "conditionDesc": "累计登录并进行德州扑克游戏达到5天",
+        "share_des": "累计游戏达到",
+        "share_unit": "天",
+        "donepic": "${http_download}/texas/arcpics/pic_309005003.png",
+        "titleTagType": "3",
+        "target": 5,
+        "type": "qetGameDays",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 20,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "20金币"
+            }
+        ]
+    },
+    "309005004": {
+        "id": "309005004",
+        "typeId": "9",
+        "groupId": "50",
+        "prevId": "309005003",
+        "nextId": "309005005",
+        "name": "游戏10天",
+        "conditionDesc": "累计登录并进行德州扑克游戏达到10天",
+        "share_des": "累计游戏达到",
+        "share_unit": "天",
+        "donepic": "${http_download}/texas/arcpics/pic_309005004.png",
+        "titleTagType": "3",
+        "target": 10,
+        "type": "qetGameDays",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 200,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "200金币"
+            }
+        ]
+    },
+    "309005005": {
+        "id": "309005005",
+        "typeId": "9",
+        "groupId": "50",
+        "prevId": "309005004",
+        "nextId": "309005006",
+        "name": "游戏15天",
+        "conditionDesc": "累计登录并进行德州扑克游戏达到15天，（需先完成“累计充值6元”成就）",
+        "share_des": "累计游戏达到",
+        "share_unit": "天",
+        "donepic": "${http_download}/texas/arcpics/pic_309005005.png",
+        "titleTagType": "3",
+        "target": 15,
+        "type": "qetGameDays",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002001"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 1000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1000金币"
+            }
+        ]
+    },
+    "309005006": {
+        "id": "309005006",
+        "typeId": "9",
+        "groupId": "50",
+        "prevId": "309005005",
+        "nextId": "309005007",
+        "name": "游戏30天",
+        "conditionDesc": "累计登录并进行德州扑克游戏达到30天，（需先完成“累计充值15元”成就）",
+        "share_des": "累计游戏达到",
+        "share_unit": "天",
+        "donepic": "${http_download}/texas/arcpics/pic_309005006.png",
+        "titleTagType": "3",
+        "target": 30,
+        "type": "qetGameDays",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002002"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 3000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "3千金币"
+            }
+        ]
+    },
+    "309005007": {
+        "id": "309005007",
+        "typeId": "9",
+        "groupId": "50",
+        "prevId": "309005006",
+        "nextId": "309005008",
+        "name": "游戏60天",
+        "conditionDesc": "累计登录并进行德州扑克游戏达到60天，（需先完成“累计充值15元”成就）",
+        "share_des": "累计游戏达到",
+        "share_unit": "天",
+        "donepic": "${http_download}/texas/arcpics/pic_309005007.png",
+        "titleTagType": "3",
+        "target": 60,
+        "type": "qetGameDays",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002002"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 10000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "1万金币"
+            }
+        ]
+    },
+    "309005008": {
+        "id": "309005008",
+        "typeId": "9",
+        "groupId": "50",
+        "prevId": "309005007",
+        "nextId": "309005009",
+        "name": "游戏90天",
+        "conditionDesc": "累计登录并进行德州扑克游戏达到90天，（需先完成“累计充值150元”成就）",
+        "share_des": "累计游戏达到",
+        "share_unit": "天",
+        "donepic": "${http_download}/texas/arcpics/pic_309005008.png",
+        "titleTagType": "3",
+        "target": 90,
+        "type": "qetGameDays",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002005"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 60000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "6万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 3,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*3"
+            }
+        ]
+    },
+    "309005009": {
+        "id": "309005009",
+        "typeId": "9",
+        "groupId": "50",
+        "prevId": "309005008",
+        "nextId": "309005010",
+        "name": "游戏180天",
+        "conditionDesc": "累计登录并进行德州扑克游戏达到180天，（需先完成“累计充值500元”成就）",
+        "share_des": "累计游戏达到",
+        "share_unit": "天",
+        "donepic": "${http_download}/texas/arcpics/pic_309005009.png",
+        "titleTagType": "3",
+        "target": 180,
+        "type": "qetGameDays",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002007"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 200000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "20万金币"
+            }
+        ]
+    },
+    "309005010": {
+        "id": "309005010",
+        "typeId": "9",
+        "groupId": "50",
+        "prevId": "309005009",
+        "nextId": "309005011",
+        "name": "游戏365天",
+        "conditionDesc": "累计登录并进行德州扑克游戏达到365天，（需先完成“累计充值1000元”成就）",
+        "share_des": "累计游戏达到",
+        "share_unit": "天",
+        "donepic": "${http_download}/texas/arcpics/pic_309005010.png",
+        "titleTagType": "3",
+        "target": 365,
+        "type": "qetGameDays",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": ["309002008"],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 300000,
+                "purl": "${http_download}/t3card/images/tbox_reward/tbox_reward.png",
+                "desc": "30万金币"
+            },
+            {
+                "type": "item",
+                "propId": 1020,
+                "num": 10,
+                "purl": "${http_download}/t3card/images/tbox_reward/ring_lucky.png",
+                "desc": "幸运戒指*10"
+            }
+        ]
+    },
+    "309005011": {
+        "id": "309005011",
+        "typeId": "9",
+        "groupId": "50",
+        "prevId": "309005010",
+        "nextId": "0",
+        "name": "游戏365天",
+        "conditionDesc": "累计登录并进行德州扑克游戏达到365天",
+        "share_des": "累计游戏达到",
+        "share_unit": "天",
+        "donepic": "${http_download}/texas/arcpics/pic_309005010.png",
+        "titleTagType": "3",
+        "target": 365,
+        "type": "qetGameDays",
+        "goTo": "goto_table",
+        "update_type":"accumulate",
+        "specialVisibleKey":[
+
+        ],
+        "specialUrl":"",
+        "auditClientId":[
+
+        ],
+        "vipLevel":8,
+        "totalTime":3600,
+        "auditKey":[
+            "0-hall8"
+        ],
+        "allowedCliendKey":[
+
+        ],
+        "preQuest": [],
+        "roomId": [],
+        "roomType": "",
+        "reward": [
+            {
+                "type": "chip",
+                "propId": 0,
+                "num": 0,
+                "purl": "${http_download}/t3card/images/tbox_reward/icon_final_2.png",
+                "desc": ""
+            }
+        ]
+    }
+}

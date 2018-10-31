@@ -1,0 +1,58 @@
+{
+  "conditions":[
+  					{
+					"typeId":"user.cond.isMyGameid",
+					"myGameId":21
+					},
+					{
+					"typeId":"user.cond.notin.clientIds",
+					"clientIds":[]
+					}
+				],
+ "inviteShareId":70304,
+ "playMode":{
+ 			"jd":"常德跑胡子"
+ 			},
+ "matchQRCode":{
+		"Android_4.57_tyGuest,360dj.360dj.0-hall21.360.baiwang"        		:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/baiwang.png",
+		"Android_4.57_tyGuest,360dj.360dj.0-hall21.360.tu"             		:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/360.png",
+		"Android_4.57_tyGuest,weixinPay,tyAccount.alipay.0-hall21.ali.tu"	:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/ali.png",
+		"Android_4.57_tyGuest,tyAccount.duoku.0-hall21.91new.tu"			:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/91new.png",
+		"Android_4.57_tyGuest,tyAccount.duoku.0-hall21.duokunew.tu"			:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/duokunew.png",
+		"Android_4.57_tyGuest,tyAccount.duoku.0-hall21.bdtiebanew.tu"		:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/bdtiebanew.png",
+		"Android_4.57_tyGuest,tyAccount.duoku.0-hall21.baidunew.tu"			:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/baidunew.png",
+		"Android_4.57_tyGuest,huaweidj.huaweidj.0-hall21.huawei.tu"			:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/huawei.png",
+		"Android_4.57_tyGuest,weixinPay,tyAccount.alipay.0-hall21.jinli.tu" :"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/jinli.png",
+		"Android_4.57_tyGuest,mi.mi.0-hall21.mi.tu"							:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/mi.png",
+		"Android_4.57_tyGuest,ysdk.ysdk.0-hall21.qq.tu"						:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/QQ.png",
+		"Android_4.57_tyGuest,tyAccount.meizudj.0-hall21.meizu.tu"			:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/meizu.png",
+		"Android_4.57_tyGuest.ucdanji.0-hall21.uc.tu"						:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/UC.png",
+		"Android_4.57_tyGuest.ucdanji.0-hall21.wdj.tu"						:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/wdj.png",
+		"Android_4.57_tyGuest,weixinPay,tyAccount.alipay.0-hall21.tuyoo.tu"	:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/tuyoo1.png",
+		"Android_4.570_weixinPay,tyGuest,tyAccount.alipay.0-hall21.tuyoo.tu":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/tuyoo1.png",
+		
+		"Android_4.571_tyGuest,360dj.360dj.0-hall21.360.baiwang"        	:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/baiwang.png",
+		"Android_4.571_tyGuest,360dj.360dj.0-hall21.360.tu"             	:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/360.png",
+		"Android_4.571_tyGuest,weixinPay,tyAccount.alipay.0-hall21.ali.tu"	:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/ali.png",
+		"Android_4.571_tyGuest,tyAccount.duoku.0-hall21.91new.tu"			:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/91new.png",
+		"Android_4.571_tyGuest,tyAccount.duoku.0-hall21.duokunew.tu"		:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/duokunew.png",
+		"Android_4.571_tyGuest,tyAccount.duoku.0-hall21.bdtiebanew.tu"		:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/bdtiebanew.png",
+		"Android_4.571_tyGuest,tyAccount.duoku.0-hall21.baidunew.tu"		:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/baidunew.png",
+		"Android_4.571_tyGuest,huaweidj.huaweidj.0-hall21.huawei.tu"		:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/huawei.png",
+		"Android_4.571_tyGuest,huawei.huawei.0-hall21.huawei.tu"			:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/huawei.png",
+		"Android_4.571_tyGuest,weixinPay,tyAccount.alipay.0-hall21.jinli.tu":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/jinli.png",
+		"Android_4.571_tyGuest,mi.mi.0-hall21.mi.tu"						:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/mi.png",
+		"Android_4.571_tyGuest,ysdk.ysdk.0-hall21.qq.tu"					:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/QQ.png",
+		"Android_4.571_tyGuest,tyAccount.meizudj.0-hall21.meizu.tu"			:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/meizu.png",
+		"Android_4.571_tyGuest.ucdanji.0-hall21.uc.tu"						:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/UC.png",
+		"Android_4.571_tyGuest.ucdanji.0-hall21.wdj.tu"						:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/wdj.png",
+		"Android_4.571_tyGuest,weixinPay,tyAccount.alipay.0-hall21.tuyoo.tu":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/tuyoo1.png",
+		"Android_4.571_weixinPay,tyGuest,tyAccount.alipay.0-hall21.tuyoo.tu":"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/tuyoo1.png",
+		"Android_4.571_tyGuest,weixinPay,tyAccount.jinli.0-hall21.jinligame.tu"	:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/jinligame.png",
+		"Android_4.571_tyGuest,sanxing.sanxing.0-hall21.sanxing.tu"			:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/sanxing.png",
+		"Android_4.571_nearme.nearme.0-hall21.oppo.tu"						:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/oppo.png",
+		"Android_4.571_tyGuest.vivo.0-hall21.vivo.tu"						:"http://ddz.dl.tuyoo.com/cdn37/paohuzi/act/vivo.png",
+		
+		"default":""
+	}
+}

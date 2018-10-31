@@ -1,0 +1,38 @@
+{
+    "hasrobot": 0,
+    "isMatch": 0,
+    "name": "阳光浅海(10倍场)",
+    "sceneName": "string_ygqh",
+    "fishPool": 2,
+    "bullets": [
+        500,
+        1000,
+        5000,
+        10000
+    ],
+    "multiple": 10,
+    "lack": 50,
+    "showLevel": 1,
+    "minLevel": 5,
+    "maxLevel": 999,
+    "expLimitLevel": 25,
+    "minCoin": 5000,
+    "maxCoin": -1,
+    "minGunLevel": 2103,
+    "maxGunLevel": 2115,
+    "maxSkillLevel": 9,
+    "taskLoopInterval": 1800,
+    "ncmptt1TaskInterval": 116,
+    "ncmpttATaskInterval": 356,
+    "cmpttTaskInterval": 709,
+    "ncmptt2TaskInterval": 1016,
+    "ncmpttBTaskInterval": 1256,
+    "bonusTaskInterval": 1609,
+    "minBonus": 1500,
+    "systemBonus": 0,
+    "typeName": "fish_normal",
+    "tableConf": {
+        "fishGroupsName": "string_ygqh",
+        "maxSeatN": 4
+    }
+}

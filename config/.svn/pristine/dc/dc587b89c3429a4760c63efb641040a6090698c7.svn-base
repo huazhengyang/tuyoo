@@ -1,0 +1,69 @@
+{
+	"local":["0", "1"],
+	"list":[
+		{
+			"id":"1001",
+			"name":"girl",
+			"display":"初恋", 
+			"update":2,
+			"icon":"${http_download}/dizhu/table.skin/girl/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/girl/preview.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count":30,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【初恋】永久皮肤，售价30钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/girl/girl_2_2.zip",
+			"md5":"bdcbf97caf22969471e8f361681cd442"
+		},
+		{
+			"id":"1002",
+			"name":"green",
+			"display":"绿色", 
+			"update":2,
+			"icon":"${http_download}/dizhu/table.skin/green/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/green/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":0,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【绿色】永久皮肤，售价1000金币，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/green/green_2_2.zip",
+			"md5":"fd8ca038d241a6c765b03f8fba77ecbe"
+		},
+		{
+			"id":"1003",
+			"name":"grid",
+			"display":"格子", 
+			"update":2,
+			"icon":"${http_download}/dizhu/table.skin/grid/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/grid/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":30000,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【格子】永久皮肤，售价30000金币，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/grid/grid_2_2.zip",
+			"md5":"6dc052dfe5e58622d8f68ecae322a735"
+		},
+		{
+			"id":"1004",
+			"name":"newyear",
+			"display":"春节", 
+			"update":4,
+			"icon":"${http_download}/dizhu/table.skin/newyear/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/newyear/preview_2.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count":10,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【春节】永久皮肤，售价10钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/newyear/newyear_4_2.zip",
+			"md5":"ba19a69716089a945646e23086145fd1"
+		}
+	]
+}

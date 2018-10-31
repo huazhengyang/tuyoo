@@ -1,0 +1,69 @@
+{
+    "name": "tuyoo_default",
+    "inviteShareId": 250,
+    "cardAssetKindId": "item:4346",
+    "cardProduct": "TY9999Q0000501",
+    "cardPrice": 5,
+    "tableExpires" : 7200,
+    "bigWinnerRewardContent": {
+        "items": [
+            {
+                "itemId": "item:1131",
+                "count": 1
+            }
+        ],
+        "typeId": "FixedContent"
+    },
+    "goodCard": 1,
+    "rounds": [
+        {
+            "nRound": 6,
+            "fee": 0
+        },
+        {
+            "nRound": 15,
+            "fee": 0
+        },
+        {
+            "nRound": 24,
+            "fee": 0
+        }
+    ],
+    "playModes": [
+        {
+            "name": "经典玩法",
+            "mode": [
+                {
+                    "name": "经典",
+                    "type": "123"
+                }
+            ]
+        },
+        {
+            "name": "欢乐玩法",
+            "mode": [
+                {
+                    "name": "经典",
+                    "type": "happy"
+                },
+                {
+                    "name": "换三张",
+                    "type": "change3"
+                }
+            ]
+        },
+        {
+            "name": "癞子玩法",
+            "mode": [
+                {
+                    "name": "经典",
+                    "type": "wild"
+                },
+                {
+                    "name": "极速癞子",
+                    "type": "quick_laizi"
+                }
+            ]
+        }
+    ]
+}

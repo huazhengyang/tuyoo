@@ -1,0 +1,143 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "isDebug" : 0,
+  "matchConf" : {
+    "chip.base" : 50,
+    "desc" : "比赛时间：每日10:00~23:00 \n报名费用：免费",
+    "fees" : [],
+    "rank.rewards" : [
+      {
+        "desc" : "500元京东卡",
+        "message" : "恭喜您，在华为棋牌大师赛中获得第%d名，奖励500元京东卡",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4369"
+          }
+        ]
+      },
+      {
+        "desc" : "200元话费",
+        "message" : "恭喜您，在华为棋牌大师赛中获得第%d名，奖励200元话费卡",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 2,
+            "itemId" : "item:4144"
+          }
+        ]
+      },
+      {
+        "desc" : "100元话费",
+        "message" : "恭喜您，在华为棋牌大师赛中获得第%d名，奖励100元话费卡",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4144"
+          }
+        ]
+      },
+      {
+        "desc" : "50元话费",
+        "message" : "恭喜您，在华为棋牌大师赛中获得第%d名，奖励50元话费卡",
+        "ranking" : {
+          "end" : 8,
+          "start" : 4
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4143"
+          }
+        ]
+      },
+      {
+        "desc" : "30元话费",
+        "message" : "恭喜您，在华为棋牌大师赛中获得第%d名，奖励30元话费卡",
+        "ranking" : {
+          "end" : 16,
+          "start" : 9
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4142"
+          }
+        ]
+      },
+      {
+        "desc" : "10元话费",
+        "message" : "恭喜您，在华为棋牌大师赛中获得第%d名，奖励10元话费卡",
+        "ranking" : {
+          "end" : 32,
+          "start" : 17
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4141"
+          }
+        ]
+      },
+      {
+        "desc" : "10000金币",
+        "message" : "恭喜您，在华为棋牌大师赛中获得第%d名，奖励10000金币",
+        "ranking" : {
+          "end" : 128,
+          "start" : 33
+        },
+        "rewards" : [
+          {
+            "count" : 10000,
+            "itemId" : "user:chip"
+          }
+        ]
+      }
+    ],
+    "recordId" : 20101,
+    "start" : {
+      "maxPlayCount" : 15,
+      "minPlayCount" : 15,
+      "startDate" : "2018-02-13",
+      "endDate" : "2018-02-22",
+      "startTime" : "10:00",
+      "closeTime" : "23:00",
+      "endTime" : "23:30",
+      "scoreGapLimit" : 50,
+      "waitTimeLimit" : 10
+    },
+    "table.seat.count" : 2
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "minCoin" : 0,
+  "minCoinQS" : 0,
+  "name" : "华为棋牌大师赛",
+  "playMode" : "free",
+  "robotUserCallUpTime" : 6,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    1,
+    2,
+    3
+  ],
+  "roomFee" : 0,
+  "tableConf" : {
+    "maxSeatN" : 2
+  },
+  "typeName" : "relaxation_match"
+}

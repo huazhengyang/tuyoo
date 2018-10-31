@@ -1,0 +1,132 @@
+{
+	"desc":		"这里是关于麻将特惠充值的配置",
+
+	"forbiden.clientIds": 		[],
+	"forbiden.userIds": 		[],
+	"forbiden.roomIds":			[],
+
+	"reset_item_index":			4,
+	"items":	[
+		{
+			"product":			{
+				"shelves":		["lessbuychip"],
+				"priceDiamond":	{"count": 50, "minCount": 0, "maxCount": -1}
+			},
+			"pic":				"${http_download}/majiang/images/others/everyday_ui.png",
+			"rewards":  		[["chip",200000],["coupon",200]],
+			"origin_price":		200,
+			"current_price":	160
+		},
+		{
+			"product":			{
+				"shelves":		["lessbuychip"],
+				"priceDiamond":	{"count": 50, "minCount": 0, "maxCount": -1}
+			},
+			"pic":				"${http_download}/majiang/images/others/everyday_ui.png",
+			"rewards":  		[["chip",200000],["coupon",200]],
+			"origin_price":		200,
+			"current_price":	160
+		},
+		{
+			"product":			{
+				"shelves":		["lessbuychip"],
+				"priceDiamond":	{"count": 50, "minCount": 0, "maxCount": -1}
+			},
+			"pic":				"${http_download}/majiang/images/others/everyday_ui.png",
+			"rewards":  		[["chip",200000],["coupon",200]],
+			"origin_price":		200,
+			"current_price":	160
+		},
+		{
+			"product":			{
+				"shelves":		["lessbuychip"],
+				"priceDiamond":	{"count": 50, "minCount": 0, "maxCount": -1}
+			},
+			"pic":				"${http_download}/majiang/images/others/everyday_ui.png",
+			"rewards":  		[["chip",200000],["coupon",200]],
+			"origin_price":		200,
+			"current_price":	160
+		},
+		{
+			"product":			{
+				"shelves":		["lessbuychip"],
+				"priceDiamond":	{"count": 50, "minCount": 0, "maxCount": -1}
+			},
+			"pic":				"${http_download}/majiang/images/others/everyday_ui.png",
+			"rewards":  		[["chip",200000],["coupon",200]],
+			"origin_price":		200,
+			"current_price":	160
+		},
+		{
+			"product":			{
+				"shelves":		["lessbuychip"],
+				"priceDiamond":	{"count": 50, "minCount": 0, "maxCount": -1}
+			},
+			"pic":				"${http_download}/majiang/images/others/everyday_ui.png",
+			"rewards":  		[["chip",200000],["coupon",200]],
+			"origin_price":		200,
+			"current_price":	160
+		},
+		{
+			"product":			{
+				"shelves":		["lessbuychip"],
+				"priceDiamond":	{"count": 50, "minCount": 0, "maxCount": -1}
+			},
+			"pic":				"${http_download}/majiang/images/others/everyday_ui.png",
+			"rewards":  		[["chip",200000],["coupon",200]],
+			"origin_price":		200,
+			"current_price":	160
+		},
+		{
+			"product":			{
+				"shelves":		["lessbuychip"],
+				"priceDiamond":	{"count": 50, "minCount": 0, "maxCount": -1}
+			},
+			"pic":				"${http_download}/majiang/images/others/everyday_ui.png",
+			"rewards":  		[["chip",200000],["coupon",200]],
+			"origin_price":		200,
+			"current_price":	160
+		},
+		{
+			"product":			{
+				"shelves":		["lessbuychip"],
+				"priceDiamond":	{"count": 50, "minCount": 0, "maxCount": -1}
+			},
+			"pic":				"${http_download}/majiang/images/others/everyday_ui.png",
+			"rewards":  		[["chip",200000],["coupon",200]],
+			"origin_price":		200,
+			"current_price":	160
+		},
+		{
+			"product":			{
+				"shelves":		["lessbuychip"],
+				"priceDiamond":	{"count": 50, "minCount": 0, "maxCount": -1}
+			},
+			"pic":				"${http_download}/majiang/images/others/everyday_ui.png",
+			"rewards":  		[["chip",200000],["coupon",200]],
+			"origin_price":		200,
+			"current_price":	160
+		},
+		{
+			"product":			{
+				"shelves":		["lessbuychip"],
+				"priceDiamond":	{"count": 50, "minCount": 0, "maxCount": -1}
+			},
+			"pic":				"${http_download}/majiang/images/others/everyday_ui.png",
+			"rewards":  		[["chip",200000],["coupon",200]],
+			"origin_price":		200,
+			"current_price":	160
+		},
+		{
+			"product":			{
+				"shelves":		["lessbuychip"],
+				"priceDiamond":	{"count": 50, "minCount": 0, "maxCount": -1}
+			},
+			"pic":				"${http_download}/majiang/images/others/everyday_ui.png",
+			"rewards":  		[["chip",200000],["coupon",200]],
+			"origin_price":		200,
+			"current_price":	160
+		}
+	]
+
+}

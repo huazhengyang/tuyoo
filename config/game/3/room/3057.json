@@ -1,0 +1,254 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "开赛时间：每日12:30 \n报名条件：途游锦标赛入围赛门票",
+    "fees" : [
+      {
+        "count" : 1,
+        "itemId" : "item:2064",
+        "params" : {
+          "failure" : "您的报名条件不足，本比赛需要途游锦标赛入围赛门票"
+        }
+      }
+    ],
+    "rank.rewards" : [
+      {
+        "desc" : "途游锦标赛现场赛门票",
+        "message" : "恭喜您，在途游锦标赛入围赛中获得第%d名，奖励途游锦标赛现场赛门票",
+        "ranking" : {
+          "end" : 32,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:2064"
+          }
+        ]
+      },
+      {
+        "desc" : "5.00红包券",
+        "message" : "恭喜您，在途游锦标赛入围赛中获得第%d名，奖励5.00红包券",
+        "ranking" : {
+          "end" : 64,
+          "start" : 33
+        },
+        "rewards" : [
+          {
+            "count" : 500,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "4.00红包券",
+        "message" : "恭喜您，在途游锦标赛入围赛中获得第%d名，奖励4.00红包券",
+        "ranking" : {
+          "end" : 128,
+          "start" : 65
+        },
+        "rewards" : [
+          {
+            "count" : 400,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "3.00红包券",
+        "message" : "恭喜您，在途游锦标赛入围赛中获得第%d名，奖励3.00红包券",
+        "ranking" : {
+          "end" : 256,
+          "start" : 129
+        },
+        "rewards" : [
+          {
+            "count" : 300,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "2.00红包券",
+        "message" : "恭喜您，在途游锦标赛入围赛中获得第%d名，奖励2.00红包券",
+        "ranking" : {
+          "end" : 512,
+          "start" : 257
+        },
+        "rewards" : [
+          {
+            "count" : 200,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "1.00红包券",
+        "message" : "恭喜您，在途游锦标赛入围赛中获得第%d名，奖励1.00红包券",
+        "ranking" : {
+          "end" : 900,
+          "start" : 513
+        },
+        "rewards" : [
+          {
+            "count" : 100,
+            "itemId" : "user:coupon"
+          }
+        ]
+      }
+    ],
+    "recordId" : 3057,
+    "stages" : [
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "排位赛(不淘汰)",
+        "rise.user.count" : 1024,
+        "rise.user.refer" : 1024,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "晋级赛",
+        "rise.user.count" : 512,
+        "rise.user.refer" : 512,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "512强赛",
+        "rise.user.count" : 256,
+        "rise.user.refer" : 256,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "256强赛",
+        "rise.user.count" : 128,
+        "rise.user.refer" : 128,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 2,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "128强赛",
+        "rise.user.count" : 64,
+        "rise.user.refer" : 64,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 3,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "64强赛",
+        "rise.user.count" : 32,
+        "rise.user.refer" : 32,
+        "seat.principles" : 1,
+        "type" : 1
+      }
+    ],
+    "start" : {
+      "fee.type" : 0,
+      "maxplaytime" : 7200,
+      "prepare.times" : 10,
+      "signin.times" : 7200,
+      "start.speed" : 8,
+      "table.times" : 730,
+      "times" : {
+        "days" : {
+          "list" : [
+            "20171029"
+          ]
+        },
+        "times_in_day" : {
+          "list" : [
+            "20:00"
+          ]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 1024,
+      "user.maxsize" : 1024,
+      "user.minsize" : 64,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 2,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "途游锦标赛入围赛",
+  "playDesc" : "",
+  "playMode" : "jifen",
+  "robotUserCallUpTime" : 6,
+  "robotUserMaxCount" : 64,
+  "robotUserOpTime" : [
+    1,
+    2,
+    3
+  ],
+  "roomFee" : 0,
+  "roomMutil" : 50,
+  "sendCoupon" : 0,
+  "showCard" : 0,
+  "tableConf" : {
+    "maxSeatN" : 2
+  },
+  "typeName" : "group_match",
+  "winDesc" : ""
+}

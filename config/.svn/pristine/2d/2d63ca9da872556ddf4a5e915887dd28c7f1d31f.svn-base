@@ -1,0 +1,63 @@
+{
+	"configDesc":"麻将自建桌房卡活动配置",
+	"timeInterval":{
+		"start": "2016-09-01 00:00:00",
+		"end":   "2016-09-30 00:00:00"
+	},
+	"timeIntervalDesc":"9月1日 —— 9月30日",
+	"activitys":{
+		"daily_award":{
+			"type_id": 0,
+			"desc": "每日来每日送",
+			"description": "",
+			"play_count": 8,
+			"award_conf": {
+							"1": {"count": 1, "desc": "第1天"},
+							"2": {"count": 1, "desc": "第2天"},
+							"3": {"count": 1, "desc": "第3天"},
+							"4": {"count": 1, "desc": "第4天"},
+							"5": {"count": 1, "desc": "第5天"},
+							"6": {"count": 1, "desc": "第6天"},
+							"7": {"count": 1, "desc": "第7天"},
+							"ns7": {"count": 10, "desc": "连续7天"}
+						  }
+		},
+		"consume_award":{
+			"type_id": 1,
+			"desc": "你开房我返卡",
+			"description": "每消耗2张房卡,返1张房卡",
+			"times":[
+					{"start": "12:00", "end":"14:00"},
+					{"start": "19:00", "end":"23:00"}
+			],
+			"times_desc":["每日午间12:00——14:00","每日晚间19:00——23:00"]
+		},
+		"daily_rank_award":{
+			"type_id": 2,
+			"desc": "冲排行返房卡",
+			"description": "9月1日 - 9月30日游戏消耗房卡排名前20按比例返还房卡,排名越高,返还越多",
+			"times":[
+				{"start": "12:00", "end":"14:00"},
+				{"start": "19:00", "end":"23:00"}
+			],
+			"times_desc":["每日午间12:00——14:00","每日晚间19:00——23:00"],
+			"reward":[
+				{"start": 1, "end": 1, "percent": 0.5, "percent100": 50},
+				{"start": 2, "end": 3, "percent": 0.4, "percent100": 40},
+				{"start": 4, "end": 10, "percent": 0.3, "percent100": 30},
+				{"start": 11, "end": 20, "percent": 0.2, "percent100": 20}
+			]
+		},
+		"total_rank_award":{
+			"type_id": 3,
+			"desc": "你玩游戏我送iPhone",
+			"description": "",
+			"desc_conf": {
+				"activity_time": "9月1日 - 9月30日",
+				"reward_desc": "10月1日开奖,咨询或领奖联系微信: mjhuodongkf",
+				"rules":["按开房数和游戏局数分别进行排名","第1名: iPhone 6S","第2-10名: 1000元现金"] 
+			}
+		}
+	}
+}
+

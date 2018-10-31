@@ -1,0 +1,19 @@
+{
+  "conditions":[
+  					{
+					"typeId":"user.cond.isMyGameid",
+					"myGameId":17
+					}
+				],
+  "costItem": "user:diamond",
+  "costCount":12,
+  "info":"今日记牌器使用费：\n     12钻石",
+  "btn":"${http_download}/baohuang/icon/jpq_btn_queren.png",
+  "icon":"${http_download}/baohuang/icon/bh_cardnote.png",
+  "cardShow":{
+  				"weihai":[17,16,15,14,13,12,11,10,9,8,7,6],
+	 			"qingdao_b3":[18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3],
+	 			"qingdao":[18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3],
+	 			"weifang":[18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3]
+  			}
+}

@@ -1,0 +1,283 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "isJieQi" : 1,
+  "matchConf" : {
+    "desc" : "开赛时间：每日20:30 \n报名费用：1000金币",
+    "fees" : [
+      {
+        "count" : 1000,
+        "itemId" : "user:chip",
+        "params" : {
+          "failure" : "您的报名条件不足，本比赛需要1000金币"
+        }
+      }
+    ],
+    "rank.rewards" : [
+      {
+        "desc" : "20.00红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励20.00红包券",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 2000,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "12.00红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励12.00红包券",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 1200,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "6.00红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励6.00红包券",
+        "ranking" : {
+          "end" : 4,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 600,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "4.00红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励4.00红包券",
+        "ranking" : {
+          "end" : 8,
+          "start" : 5
+        },
+        "rewards" : [
+          {
+            "count" : 400,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },      
+      {
+        "desc" : "2.00红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励2.00红包券",
+        "ranking" : {
+          "end" : 16,
+          "start" : 9
+        },
+        "rewards" : [
+          {
+            "count" : 200,
+            "itemId" : "user:coupon"
+          }
+        ]
+      },
+      {
+        "desc" : "1.00红包券",
+        "message" : "恭喜您，在每日红包赛中获得第%d名，奖励1.00红包券",
+        "ranking" : {
+          "end" : 32,
+          "start" : 17
+        },
+        "rewards" : [
+          {
+            "count" : 100,
+            "itemId" : "user:coupon"
+          }
+        ]
+      }
+    ],
+    "recordId" : 3053,
+    "stages" : [
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "晋级赛",
+        "rise.user.count" : 128,
+        "rise.user.refer" : 128,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "128强赛",
+        "rise.user.count" : 64,
+        "rise.user.refer" : 64,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "64强赛",
+        "rise.user.count" : 32,
+        "rise.user.refer" : 32,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "32强赛",
+        "rise.user.count" : 16,
+        "rise.user.refer" : 16,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "16强赛",
+        "rise.user.count" : 8,
+        "rise.user.refer" : 8,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "8强赛",
+        "rise.user.count" : 4,
+        "rise.user.refer" : 4,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : 2,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "半决赛",
+        "rise.user.count" : 2,
+        "rise.user.refer" : 2,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+      {
+        "animation.type" : -1,
+        "card.count" : 1,
+        "chip.base" : 1,
+        "chip.grow" : 1,
+        "chip.times" : 60,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 1.0,
+        "lose.user.chip" : 0,
+        "name" : "决赛",
+        "rise.user.count" : 1,
+        "rise.user.refer" : 1,
+        "seat.principles" : 1,
+        "type" : 1
+      }
+    ],
+    "start" : {
+      "fee.type" : 0,
+      "maxplaytime" : 5700,
+      "prepare.times" : 10,
+      "signin.times" : 7200,
+      "start.speed" : 8,
+      "table.times" : 730,
+      "times" : {
+        "days" : {
+          "first":"20171010",
+          "interval":"1d",
+          "count":2000         
+        },
+        "times_in_day" : {
+          "list":["20:30"]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 1024,
+      "user.maxsize" : 1024,
+      "user.minsize" : 64,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 2,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "每日红包赛",
+  "playDesc" : "",
+  "playMode" : "jieqi",
+  "robotUserCallUpTime" : 6,
+  "robotUserMaxCount" : 64,
+  "robotUserOpTime" : [
+    1,
+    2,
+    3
+  ],
+  "roomFee" : 0,
+  "roomMutil" : 50,
+  "sendCoupon" : 0,
+  "showCard" : 0,
+  "tableConf" : {
+    "maxSeatN" : 2
+  },
+  "typeName" : "group_match",
+  "winDesc" : ""
+}

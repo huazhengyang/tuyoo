@@ -1,0 +1,745 @@
+{
+ "templates"                         : {
+  "chess_v4.55_AI_tebie"              : {
+   "interval"                          : 5,
+   "name"                              : "chess_v4.55_AI_tebie",
+   "ads"                               : [
+    3020501,
+    3092802
+   ]
+  },
+  "chess_v4.56_AI_oppo"               : {
+   "interval"                          : 5,
+   "name"                              : "chess_v4.56_AI_oppo",
+   "ads"                               : [
+    3032601
+   ]
+  },
+  "chess_v3.60_WM_pc"                 : {
+   "interval"                          : 5,
+   "name"                              : "chess_v3.60_WM_pc",
+   "ads"                               : [
+    3052601
+   ]
+  },
+  "default_mobile_chinesechess"       : {
+   "interval"                          : 5,
+   "name"                              : "default_mobile_chinesechess",
+   "ads"                               : [
+    3020501,
+    3092802
+   ]
+  },
+  "chess_v3.82_AI_3.82xinzhuanpan"    : {
+   "interval"                          : 5,
+   "name"                              : "chess_v3.82_AI_3.82xinzhuanpan",
+   "ads"                               : [
+    3020501,
+    3032101
+   ]
+  },
+  "chess_v3.77_3.77tishen"            : {
+   "interval"                          : 5,
+   "name"                              : "chess_v3.77_3.77tishen",
+   "ads"                               : [
+    3051201
+   ]
+  },
+  "chess_v3.771_AI_xq"                : {
+   "interval"                          : 5,
+   "name"                              : "chess_v3.771_AI_xq",
+   "ads"                               : [
+    3020501,
+    3032101
+   ]
+  },
+  "chess_teshu"                       : {
+   "interval"                          : 5,
+   "name"                              : "chess_teshu",
+   "ads"                               : [
+    3020501,
+    3092802
+   ]
+  },
+  "chess_v4.56_qq"                    : {
+   "interval"                          : 5,
+   "name"                              : "chess_v4.56_qq",
+   "ads"                               : [
+    3020501,
+    3092802
+   ]
+  },
+  "default_mobile_chinesechess_tishen": {
+   "interval"                          : 5,
+   "name"                              : "default_mobile",
+   "ads"                               : [
+    3051201
+   ]
+  },
+  "chess_AI_nochajian"                : {
+   "interval"                          : 5,
+   "name"                              : "chess_AI_nochajian",
+   "ads"                               : [
+    3020501,
+    3032101
+   ]
+  }
+ },
+ "ads"                               : [
+  {
+   "startTime"                         : "2015-08-01 00:00:00",
+   "id"                                : 21,
+   "todotasks"                         : [
+    {
+     "typeId"                            : "hall.download",
+     "url"                               : "https://itunes.apple.com/cn/app/tu-you-zhong-guo-xiang-qi/id1113501281?mt=8"
+    }
+   ],
+   "clickable"                         : 0,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_chess_banner_20151016.png",
+   "endTime"                           : "2018-09-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-04-18 00:00:00",
+   "id"                                : 3041801,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_general_btn_chinese_chess_20160418",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_20160423.jpg",
+   "endTime"                           : "2017-04-24 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-05-12 00:00:00",
+   "id"                                : 3051201,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_general_btn_chinese_chess_20160512",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_weekend20160512.jpg",
+   "endTime"                           : "2018-05-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-05-26 00:00:00",
+   "id"                                : 3052601,
+   "clickable"                         : 0,
+   "pic"                               : "${http_download}/chinesechess/ads_20160526_pc.jpg",
+   "endTime"                           : "2017-08-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-06-08 00:00:00",
+   "id"                                : 3060801,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_general_btn_chinese_chess_20160608",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_20160608.jpg",
+   "endTime"                           : "2017-06-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-06-20 00:00:00",
+   "id"                                : 3062001,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : "chess_match"
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 3,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_match.jpg",
+   "endTime"                           : "2017-06-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-06-21 00:00:00",
+   "id"                                : 3062101,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : "chess_match"
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 3,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_newmatch20160621.jpg",
+   "endTime"                           : "2017-06-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-06-30 00:00:00",
+   "id"                                : 3063001,
+   "todotasks"                         : [
+    {
+     "typeId"                            : "hall.download",
+     "url"                               : "https://itunes.apple.com/cn/app/tu-you-zhong-guo-xiang-qi/id1113501281?mt=8"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_ios20160629.jpg",
+   "endTime"                           : "2017-07-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-07-20 00:00:00",
+   "id"                                : 3072001,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_general_btn_chinese_chess_20160720",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_friend20160719.jpg",
+   "endTime"                           : "2017-07-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-07-20 00:00:00",
+   "id"                                : 3072002,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : "chess_match"
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 3,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_freematch20160720.jpg",
+   "endTime"                           : "2017-07-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-08-09 00:00:00",
+   "id"                                : 3080901,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_xq_aoyunhongbao_0810",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_xq_aoyunhongbao_0810.jpg",
+   "endTime"                           : "2016-08-23 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-08-09 00:00:00",
+   "id"                                : 3080902,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_xq_aoyunjingcai_0818",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_ddz_aoyunjingcai_0813.jpg",
+   "endTime"                           : "2016-08-24 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-08-17 00:00:00",
+   "id"                                : 3081701,
+   "todotasks"                         : [
+    {
+     "typeId"                            : "hall.goto.lottery"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_ddz_xinzhuanpan_0818.jpg",
+   "endTime"                           : "2016-08-26 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-08-17 00:00:00",
+   "id"                                : 3081702,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_xq_xinzhuanpan_0818",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_ddz_xinzhuanpan_0818.jpg",
+   "endTime"                           : "2016-08-26 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-08-20 00:00:00",
+   "id"                                : 3082001,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : 1
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 31,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_ddz_dafengshou_0819.png",
+   "endTime"                           : "2016-08-27 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-08-25 00:00:00",
+   "id"                                : 3082501,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_general_btn_chinese_chess_20160825",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_leitai20160825.jpg",
+   "endTime"                           : "2017-09-02 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-09-13 00:00:00",
+   "id"                                : 3091301,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_general_btn_chinese_chess_20160621",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_new20160913.jpg",
+   "endTime"                           : "2017-09-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-09-22 00:00:00",
+   "id"                                : 3092201,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_xq_jinqiulibao_0921",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_ddz_jinqiubang_09212.jpg",
+   "endTime"                           : "2016-10-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-09-28 00:00:00",
+   "id"                                : 3092801,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_general_btn_chinese_chess_20161001",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_20161001.jpg",
+   "endTime"                           : "2016-10-08 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-10-11 00:00:00",
+   "id"                                : 3101101,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : 1
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 23,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/gomoku/ads_xinzhongfabai_1011.jpg",
+   "endTime"                           : "2016-10-21 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-10-11 00:00:00",
+   "id"                                : 3101102,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_all_jinqiujifen_1009",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_jinqiujifen_10122.jpg",
+   "endTime"                           : "2016-10-21 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-10-19 00:00:00",
+   "id"                                : 3101801,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_xq_xinshuiguo_1018",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_ddz_dafengshou_0907.jpg",
+   "endTime"                           : "2016-11-05 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-10-26 00:00:00",
+   "id"                                : 3102601,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_texas_charge_rank_1026",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/chongzhipaihang_1026.jpg",
+   "endTime"                           : "2016-11-03 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-11-09 00:00:00",
+   "id"                                : 3110901,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_xq_zuanshi_1109",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_zuanshizhuanpan_1109.jpg",
+   "endTime"                           : "2016-11-19 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-11-10 00:00:00",
+   "id"                                : 3111001,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : "chess_match"
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 3,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_xq_jingcaisaishi_1110.jpg",
+   "endTime"                           : "2017-11-24 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-11-10 00:00:00",
+   "id"                                : 3111002,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_xq_leitai1229",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_xq_shuang11_11102.jpg",
+   "endTime"                           : "2016-11-11 23:00:00"
+  },
+  {
+   "startTime"                         : "2016-11-16 00:00:00",
+   "id"                                : 3111601,
+   "todotasks"                         : [
+    {
+     "actId"                             : "xq_invite_new_friend_20161028",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_xinpengyou_1116.jpg",
+   "endTime"                           : "2017-11-23 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-12-20 00:00:00",
+   "id"                                : 3122001,
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_shenhegongg.png",
+   "endTime"                           : "2017-12-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2016-12-26 00:00:00",
+   "id"                                : 3122601,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_xq_leitai1229",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_20161229.jpg",
+   "endTime"                           : "2017-01-05 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-03-21 00:00:00",
+   "id"                                : 3032101,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : "chess_match_jieqi"
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 3,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_jq20171025.jpg",
+   "endTime"                           : "2018-06-30 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-04-24 00:00:00",
+   "id"                                : 3042401,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : "chess_match"
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 3,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_xq20170501.jpg",
+   "endTime"                           : "2017-05-07 00:00:00"
+  },
+  {
+   "startTime"                         : "2018-02-12 00:00:00",
+   "id"                                : 3052201,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : "chess_match_jieqi"
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 3,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_xqhuawei20180203.jpg",
+   "endTime"                           : "2018-02-23 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-06-07 00:00:00",
+   "id"                                : 3060701,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : "chess_match"
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 3,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_qiwang20170911.jpg",
+   "endTime"                           : "2017-09-29 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-06-09 00:00:00",
+   "id"                                : 3060901,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : 0
+      },
+      "type"                              : "game"
+     },
+     "gameId"                            : 44,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/newfish/ads_newfish_bg_matchopen_20170704.jpg",
+   "endTime"                           : "2018-06-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-08-17 00:00:00",
+   "id"                                : 3081703,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : "chess_match_jieqi"
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 3,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_xqmeizu.jpg",
+   "endTime"                           : "2017-08-21 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-09-11 00:00:00",
+   "id"                                : 3091101,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : "chess_match"
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 3,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_xq20170914.jpg",
+   "endTime"                           : "2017-10-30 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-09-28 00:00:00",
+   "id"                                : 3092802,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : 0
+      },
+      "type"                              : "game"
+     },
+     "gameId"                            : 44,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/newfish/ads_newfish_bg_zhaocai_20180207.jpg",
+   "endTime"                           : "2018-03-31 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-11-24 00:00:00",
+   "id"                                : 3112401,
+   "todotasks"                         : [
+    {
+     "actId"                             : "activity_ddz_general_nobtn",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_ddz_tupt_171123.png",
+   "endTime"                           : "2017-11-27 00:00:00"
+  },
+  {
+   "startTime"                         : "2018-01-08 00:00:00",
+   "id"                                : 3120601,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : "chess_match_jieqi"
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 3,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_xq36020180108.png",
+   "endTime"                           : "2018-01-15 00:00:00"
+  },
+  {
+   "startTime"                         : "2018-01-09 00:00:00",
+   "id"                                : 3010901,
+   "todotasks"                         : [
+    {
+     "actId"                             : "xq_hongbao20180109",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/imgs/ads_ddz_hongbaoquan.jpg",
+   "endTime"                           : "2018-05-01 00:00:00"
+  },
+  {
+   "startTime"                         : "2018-02-12 00:00:00",
+   "id"                                : 3020501,
+   "todotasks"                         : [
+    {
+     "enter_param"                       : {
+      "pluginParams"                      : {
+       "gameType"                          : "chess_match_jieqi"
+      },
+      "type"                              : "roomlist"
+     },
+     "gameId"                            : 3,
+     "typeId"                            : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_xq20180228.jpg",
+   "endTime"                           : "2018-03-04 00:00:00"
+  },
+  {
+   "startTime"                         : "2018-02-13 00:00:00",
+   "id"                                : 3021101,
+   "todotasks"                         : [
+    {
+     "actId"                             : "xq_cuxiao180211",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_fuli20180211.jpg",
+   "endTime"                           : "2018-02-22 00:00:00"
+  },
+  {
+   "startTime"                         : "2018-02-12 00:00:00",
+   "id"                                : 3021102,
+   "todotasks"                         : [
+    {
+     "typeId"                            : "hall.download",
+     "url"                               : "http://a.app.qq.com/o/simple.jsp?pkgname=com.tuyoo.doudizhu.maintu"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/chinesechess/ads_qq20180211.jpg",
+   "endTime"                           : "2018-02-24 00:00:00"
+  },
+  {
+   "startTime"                         : "2018-03-27 00:00:00",
+   "id"                                : 3032601,
+   "todotasks"                         : [
+    {
+     "actId"                             : "chess_oppo_scoreboard_171218",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/hall/ads/ads_ddz_oppodashisai_20180327.jpg",
+   "endTime"                           : "2018-04-09 00:00:00"
+  }
+ ]
+}

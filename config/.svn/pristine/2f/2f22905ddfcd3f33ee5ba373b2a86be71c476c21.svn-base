@@ -1,0 +1,10 @@
+保皇——微信分享功能配置
+
+{
+  "conditions":[				可以分享的条件
+					{
+					"typeId":"user.cond.notin.clientIds",
+					"clientIds":[21543]
+					}
+				]
+}

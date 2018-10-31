@@ -1,0 +1,24 @@
+{
+  "hasrobot": 0,
+  "robotLevel": [2, 6],
+  "minGold": 50000,
+  "maxGold": 330000,
+  "minCoinQS": 72000,
+  "maxCoinQS": 22000000,
+  "name": "高级场",
+  "playMode": "0",
+
+  "gameType": 0,
+  "typeName": "normal",
+  "buy_in": 0,
+  "sfee_win_rate": 0.06,
+  "table_fee": 120,
+  "min_bet": 2000,
+  "max_bet": 7000,
+  "base_bet": 100,
+  "tableConf": {
+      "maxSeatN": 2,
+      "sys_attack_timer": 120,
+      "sys_attack_speed": 5
+  }
+}

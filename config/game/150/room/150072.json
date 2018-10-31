@@ -1,0 +1,234 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 1,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+	"baseScore" : 100,
+	"lifeSafeCount":7,
+	"safeAddScore":200,
+	"desc" : "满3人开赛\n报名费：无",
+	"fees" : [
+	  {
+        "count" : 1,
+        "itemId" : "item:1007",
+        "params" : {
+          "failure" : "您的费用不足，本比赛报名费需1张参赛券"
+        }
+	  },
+	  {
+        "count" : 50,
+        "itemId" : "user:chip",
+        "params" : {
+		  "nextTip" : "您的参赛券不足啦~使用50金币报名入场吧~\n(提示：每日登陆赠送20张参赛券喔！)",
+          "failure" : "您的金币不足，选择其他报名条件或者买个金币礼包吧",
+		  "payOrder" : {
+            "contains" : {
+              "count" : 50,
+              "itemId" : "user:chip"
+            },
+            "shelves" : [
+              "lessbuychip"
+            ]
+          }
+        }
+      }
+    ],
+	"feeRewardList":[
+		{
+			"mixId":"150072",
+			"roomName":"跑得快金币赛",
+			"mixUserRate":0.8,
+			"dummyUserCount":600,
+			"championLed" : "冠军led显示",
+			"rewardShow" : "1万金币",
+			"minQuickStartChip": 80000,
+			"fees" : [
+				{
+					"count" : 0,
+					"itemId" : "user:diamond",
+					"params" : {
+						"failure" : "您的报名条件不足，请前往钻石商城购买钻石再来抢夺大奖",
+						"payOrder" : {
+							"priceDiamond" : {
+								"count" : 10,
+								"minCount" : 10,
+								"maxCount" : -1
+							},
+							"buyTypes":["charge"]
+						}
+					}
+				}
+			],
+			"rank.rewards" : [
+				{
+					"desc" : "1元红包",
+					"ranking" : {
+						"end" : 1,
+						"start" : 1
+					},
+					"rewards" : [
+						{
+							"count" : 100,
+							"itemId" : "user:coupon"
+						}
+					]
+				},
+				{
+					"desc" : "0.5元红包",
+					"ranking" : {
+						"end" : 2,
+						"start" : 2
+					},
+					"rewards" : [
+						{
+							"count" : 50,
+							"itemId" : "user:coupon"
+						}
+					]
+				},
+				{
+					"desc" : "0.2红包",
+					"ranking" : {
+						"end" : 3,
+						"start" : 3
+					},
+					"rewards" : [
+						{
+							"count" : 20,
+							"itemId" : "user:coupon"
+						}
+					]
+				},
+				{
+					"desc" : "0.05红包",
+					"ranking" : {
+						"end" : 6,
+						"start" : 4
+					},
+					"rewards" : [
+						{
+							"count" : 5,
+							"itemId" : "user:coupon"
+						}
+					]
+				}
+			]
+		}
+	],
+	"matchId" : 150072,
+	"topindex" : 97,
+	"maxPlayerCount" : 30,
+	"maxSigninCount" : 30,
+	"minSigninCount" : 3,
+	"prepareStopSeconds" : 300,
+	"processSigninCountPerTime" : 500,
+	"processSigninIntervalSeconds" : 5,
+	"stages" : [
+		{
+			"animationType" : -1,
+			"cardCount" : 1,
+			"name" : "6强赛",
+			"rankLine" : [
+				[
+					1000,
+					1
+				],
+				[
+					999,
+					2
+				],
+				[
+					-100,
+					3
+				],
+				[
+					-1000,
+					4
+				]
+			],
+			"riseUserCount" : 3,
+			"scoreInit" : 1000,
+			"scoreIntoRate" : 1,
+			"totalUserCount" : 6
+		},
+		{
+			"animationType" : 2,
+			"cardCount" : 1,
+			"name" : "决赛",
+			"rankLine" : [
+				[
+					2,
+					1
+				],
+				[
+					0,
+					2
+				],
+				[
+					-10,
+					3
+				]
+			],
+			"riseUserCount" : 1,
+			"scoreInit" : 0,
+			"scoreIntoRate" : 0.5,
+			"totalUserCount" : 3
+		}
+	],
+	"startTime" : "00:00",
+	"stopTime" : "00:00",
+	"tableMaxTimes" : 480,
+	"tableSeatCount" : 3,
+	"tips" : {
+		"infos" : [
+			"积分相同时，按报名先后顺序确定名次。",
+			"每轮结束后会刷新您的排名。",
+			"新的一轮开始时，带入积分可能会衰减。"
+		],
+		"interval" : 5
+	},
+	"tipsForNotSignin" : "报名还未开始",
+	"tipsForWillStopInfo" : "本比赛为限时开放，5分钟后暂时关闭，会按实时名次结算奖励，敬请谅解。"
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : 10,
+  "minCoinQS" : 10,
+  "name" : "跑得快比赛场",
+  "playDesc" : "",
+  "playMode" : "123",
+  "robotUserCallUpTime" : 3,
+  "robotUserMaxCount" : 3,
+  "robotUserOpTime" : [
+    1,
+    2
+  ],
+  "roomFee" : 10,
+  "roomLevel" : 1,
+  "roomMutil" : 1,
+  "bombMulti" : 5,
+  "sendCoupon" : 0,
+  "showCard" : 1,
+  "tableConf" : {
+    "autochange" : 1,
+    "basebet" : 1,
+    "basemulti" : 1,
+    "canchat" : 1,
+    "cardNoteChip" : 100,
+    "coin2chip" : 1,
+    "gslam" : 128,
+    "lucky" : 60,
+    "maxSeatN" : 3,
+    "optime" : 15,
+    "passtime" : 5,
+    "robottimes" : 1,
+    "tbbox" : 0,
+    "unticheat" : 0,
+    "votetime": 60
+  },
+  "typeName" : "pdk_arena_match",
+  "winDesc" : ""
+}

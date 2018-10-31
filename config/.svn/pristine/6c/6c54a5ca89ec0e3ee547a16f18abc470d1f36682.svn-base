@@ -1,0 +1,158 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "isJieQi" : 1,
+  "isDebug" : 0,
+  "matchConf" : {
+    "chip.base" : 50,
+    "desc" : "比赛时间：每日10:00~23:00 \n报名费用：免费",
+    "fees" : [],
+    "rank.rewards" : [
+      {
+        "desc" : "50元话费卡",
+        "message" : "恭喜您，在360棋牌大赛中获得第%d名，奖励50元话费卡，请及时兑换。",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4143"
+          }
+        ]
+      },
+      {
+        "desc" : "20元话费卡",
+        "message" : "恭喜您，在360棋牌大赛中获得第%d名，奖励20元话费卡，请及时兑换。",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 2,
+            "itemId" : "item:4141"
+          }
+        ]
+      },
+      {
+        "desc" : "10元话费卡",
+        "message" : "恭喜您，在360棋牌大赛中获得第%d名，奖励10元话费卡，请及时兑换。",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4141"
+          }
+        ]
+      },
+      {
+        "desc" : "5元话费卡",
+        "message" : "恭喜您，在360棋牌大赛中获得第%d名，奖励5元话费卡，请及时兑换。",
+        "ranking" : {
+          "end" : 10,
+          "start" : 4
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4180"
+          }
+        ]
+      },
+      {
+        "desc" : "3万金币",
+        "message" : "恭喜您，在360棋牌大赛中获得第%d名，奖励3万金币",
+        "ranking" : {
+          "end" : 20,
+          "start" : 11
+        },
+        "rewards" : [
+          {
+            "count" : 30000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "2万金币",
+        "message" : "恭喜您，在360棋牌大赛中获得第%d名，奖励2万金币",
+        "ranking" : {
+          "end" : 100,
+          "start" : 21
+        },
+        "rewards" : [
+          {
+            "count" : 20000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "1万金币",
+        "message" : "恭喜您，在360棋牌大赛中获得第%d名，奖励1万金币",
+        "ranking" : {
+          "end" : 200,
+          "start" : 101
+        },
+        "rewards" : [
+          {
+            "count" : 10000,
+            "itemId" : "user:chip"
+          }
+        ]
+      },
+      {
+        "desc" : "5000金币",
+        "message" : "恭喜您，在360棋牌大赛中获得第%d名，奖励5000金币",
+        "ranking" : {
+          "end" : 500,
+          "start" : 201
+        },
+        "rewards" : [
+          {
+            "count" : 5000,
+            "itemId" : "user:chip"
+          }
+        ]
+      }
+    ],
+    "recordId" : 3042,
+    "start" : {
+      "maxPlayCount" : 10,
+      "minPlayCount" : 10,
+      "startDate" : "2018-01-08",
+      "endDate" : "2018-01-14",
+      "startTime" : "10:00",
+      "closeTime" : "23:00",
+      "endTime" : "23:30",
+      "scoreGapLimit" : 40,
+      "waitTimeLimit" : 10
+    },
+    "table.seat.count" : 2
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "minCoin" : 0,
+  "minCoinQS" : 0,
+  "name" : "360棋牌大赛",
+  "playMode" : "jieqi",
+  "robotUserCallUpTime" : 6,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    1,
+    2,
+    3
+  ],
+  "roomFee" : 0,
+  "tableConf" : {
+    "maxSeatN" : 2
+  },
+  "typeName" : "relaxation_match"
+}

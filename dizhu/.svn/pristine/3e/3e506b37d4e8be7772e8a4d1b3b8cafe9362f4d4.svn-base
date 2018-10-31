@@ -1,0 +1,176 @@
+# -*- coding:utf-8 -*-
+'''
+Created on 2018-09-04
+
+@author: wangyonghui
+'''
+from sre_compile import isstring
+
+import datetime
+
+from dizhu.activities_wx.activity_wx import ActivityWx, ActivityWxRegister
+from hall.entity import hallstore
+from hall.entity.hallconf import HALL_GAMEID
+from hall.entity.hallusercond import UserConditionRegister
+from poker.entity.biz.content import TYContentItem
+from poker.entity.biz.exceptions import TYBizConfException
+import poker.util.timestamp as pktimestamp
+import freetime.util.log as ftlog
+
+
+class ChargeProductConf(object):
+    ''' 活动商品配置类，用于额外数据 '''
+    def __init__(self):
+        self.product = None
+        self.rewards = None
+        self.pic = None
+        self.timeList = None
+
+    def decodeFromDict(self, d):
+        productId = d.get('productId')
+        if not isstring(productId):
+            raise TYBizConfException(d, 'ChargeProductConf.productId must be str')
+        product = hallstore.findProduct(None, None, productId)
+        if not product:
+            raise TYBizConfException(d, 'ChargeProductConf.productId %s doesNot exists' % productId)
+        self.product = product
+
+        rewards = d.get('rewards', [])
+        if not isinstance(rewards, list):
+            raise TYBizConfException(d, 'ChargeProductConf.rewards must be list')
+        if rewards:
+            try:
+                TYContentItem.decodeList(rewards)
+            except Exception, e:
+                raise TYBizConfException(d, 'ChargeProductConf.rewards err=%s' % e.message)
+        self.rewards = rewards
+
+        self.pic = d.get('pic', '')
+        if not isstring(self.pic):
+            raise TYBizConfException(d, 'ChargeProductConf.pic must be str')
+
+        timeList = d.get('timeList', [])
+        retTimeList = []
+        try:
+            for t in timeList:
+                startTime = datetime.datetime.strptime(t[0], '%H:%M').time()
+                endTime = datetime.datetime.strptime(t[1], '%H:%M').time()
+                retTimeList.append([startTime, endTime])
+        except Exception, e:
+            raise TYBizConfException(d, 'ChargeProductConf.timeList err=%s' % e.message)
+        self.timeList = retTimeList
+        return self
+
+    def toDict(self):
+        return {
+            'productId': self.product.productId,
+            'displayName': self.product.displayName,
+            'extDesc': self.product.extDesc,
+            'desc': self.product.desc,
+            'pic': self.pic or self.product.pic,
+            'price': self.product.price,
+            'clientParams': self.product.clientParams,
+            'rewards': self.rewards,
+            'buyType': self.product.buyType,
+            'timeList':[[start.strftime('%H:%M'), end.strftime('%H:%M')] for start, end in self.timeList],
+            'leftSeconds': self.getLeftSeconds()
+        }
+
+    def getLeftSeconds(self):
+        nowTime = datetime.datetime.now().time()
+        for t in self.timeList:
+            if t[0] <= nowTime <= t[1]:
+                return (t[1].hour - nowTime.hour) * 3600 + (t[1].minute - nowTime.minute) * 60 + (t[1].second - nowTime.second)
+        return None
+
+
+class ChargeBoxConf(object):
+    ''' 总配置类 '''
+    def __init__(self):
+        self.desc = None
+        self.type = None
+        self.conditions = None
+        self.products = None
+
+    def decodeFromDict(self, d):
+        self.desc = d.get('desc')
+        if not isstring(self.desc):
+            raise TYBizConfException(d, 'ChargeBoxConf.desc must be str')
+
+        self.type = d.get('type')
+        if not isstring(self.type):
+            raise TYBizConfException(d, 'ChargeBoxConf.type must be str')
+
+        conditions = d.get('conditions', [])
+        if not isinstance(conditions, list):
+            raise TYBizConfException(d, 'ChargeBoxConf.conditions must be list')
+        try:
+            self.conditions = UserConditionRegister.decodeList(conditions)
+        except Exception, e:
+            raise TYBizConfException(d, 'ChargeBoxConf.conditions err= %s' % e.message)
+
+        products = d.get('products')
+        if not isinstance(products, list):
+            raise TYBizConfException(d, 'ChargeBoxConf.products must be list')
+        retProducts = []
+
+        for p in products:
+            retProducts.append(ChargeProductConf().decodeFromDict(p))
+        self.products = retProducts
+        return self
+
+    def toDict(self):
+        return {
+            'desc': self.desc,
+            'type': self.type,
+            'products': [p.toDict() for p in self.products]
+        }
+
+
+
+class ActivityWxChargeBox(ActivityWx):
+    TYPE_ID = 'ddz.act.wx.chargeBox'
+    ACTION_CHARGE_LIST = 'chargeBox_list'
+
+    def __init__(self):
+        super(ActivityWxChargeBox, self).__init__()
+        self.chargeBoxes = None
+
+
+    def handleRequest(self, userId, clientId, action, msg):
+        if action == self.ACTION_CHARGE_LIST:
+            return self.getChargeBoxList(userId, clientId)
+        return None
+
+    def _decodeFromDictImpl(self, d):
+        chargeBoxes = d.get('chargeBoxes')
+        if not isinstance(chargeBoxes, list):
+            raise TYBizConfException(d, 'ActivityWxChargeBox.chargeBoxes must be list')
+        retChargeBoxes = []
+        for chargeBox in chargeBoxes:
+            retChargeBoxes.append(ChargeBoxConf().decodeFromDict(chargeBox))
+        self.chargeBoxes = retChargeBoxes
+        return self
+
+    def getChargeBoxList(self, userId, clientId):
+        ''' 获取列表 '''
+        retList = []
+        for chargeBox in self.chargeBoxes:
+            if chargeBox.conditions:
+                for cond in chargeBox.conditions:
+                    if not cond.check(HALL_GAMEID, userId, clientId, pktimestamp.getCurrentTimestamp()):
+                        continue
+            retList.append(chargeBox.toDict())
+        if ftlog.is_debug():
+            ftlog.debug('ActivityWxChargeBox.getChargeBoxList userId=', userId,
+                        'clientId=', clientId,
+                        'retList=', retList)
+        return retList
+
+    def hasReward(self, userId):
+        return False
+
+
+def _registerClass():
+    ActivityWxRegister.registerClass(ActivityWxChargeBox.TYPE_ID, ActivityWxChargeBox)
+

@@ -1,0 +1,357 @@
+{
+    "begin_id": 1,
+    "achievements": [
+	    {
+	        "id": 1,
+	        "index": 1,
+	        "next": 2,
+	        "event": "room_queue_1_play",
+	        "desc": "途游三张牌的牌神之旅，从青铜级第一局牌开始，加油吧",
+	        "name": "“青铜级”对局一次",
+	        "reward": {
+	            "type": "chip",
+	            "value": 100
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 2,
+	        "index": 2,
+	        "next": 3,
+	        "event": "see_card",
+	        "desc": "在牌局中进行一次“看牌”。当您需要了解自己的底牌的时候就果断看牌吧",
+	        "name": "果断的看牌",
+	        "reward": {
+	            "type": "chip",
+	            "value": 100
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 3,
+	        "index": 3,
+	        "next": 4,
+	        "event": "call",
+	        "desc": "在牌局中进行一次“跟注”。当您觉得牌还不错的时候不妨跟注看看",
+	        "name": "漂亮的跟注",
+	        "reward": {
+	            "type": "chip",
+	            "value": 100
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 4,
+	        "index": 4,
+	        "next": 5,
+	        "event": "fold",
+	        "desc": "在牌局中进行一次“弃牌”。当您觉得牌落后的时候，弃牌等待下一局吧",
+	        "name": "明智的弃牌",
+	        "reward": {
+	            "type": "chip",
+	            "value": 100
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 5,
+	        "index": 5,
+	        "next": 6,
+	        "event": "raise",
+	        "desc": "在牌局中进行一次“加注”。当您觉得牌很好，就争取赢得更多筹码吧",
+	        "name": "该加注时就加注",
+	        "reward": {
+	            "type": "chip",
+	            "value": 100
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 6,
+	        "index": 6,
+	        "next": 7,
+	        "event": "view_card_type_desc",
+	        "desc": "如果您不清楚牌型大小顺序，可以点击牌桌左下角的“牌型”",
+	        "name": "打开一次牌型介绍",
+	        "reward": {
+	            "type": "chip",
+	            "value": 100
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 7,
+	        "index": 7,
+	        "next": 8,
+	        "event": "banker_play",
+	        "desc": "当您的头像旁边有一个“庄”的标志时，说明您处于牌局中的“庄家”位，您会在发牌后最后一个下注",
+	        "name": "庄家位置玩牌一次",
+	        "reward": {
+	            "type": "chip",
+	            "value": 100
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 8,
+	        "index": 8,
+	        "next": 9,
+	        "event": "change_table",
+	        "desc": "想快点开始下一局？弃牌后点击“换桌”可以快速换桌开始新的牌局",
+	        "name": "换一次牌桌",
+	        "reward": {
+	            "type": "chip",
+	            "value": 100
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 9,
+	        "index": 9,
+	        "next": 10,
+	        "event": "text_chat",
+	        "desc": "点击左下角的聊天按钮，发出一段聊天内容",
+	        "name": "愉快的聊天",
+	        "reward": {
+	            "type": "chip",
+	            "value": 100
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 10,
+	        "index": 10,
+	        "next": 11,
+	        "event": "emotion",
+	        "desc": "点击左下角的聊天按钮，发出一个表情",
+	        "name": "欢快的表情",
+	        "reward": {
+	            "type": "chip",
+	            "value": 100
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 11,
+	        "index": 11,
+	        "next": 12,
+	        "event": "inter_emoticon",
+	        "desc": "点击其他玩家头像，发送一个互动表情",
+	        "name": "精彩的互动表情",
+	        "reward": {
+	            "type": "chip",
+	            "value": 100
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 12,
+	        "index": 12,
+	        "next": 13,
+	        "event": "open_tbox",
+	        "desc": "点击右下角宝箱，打开宝箱查看奖励",
+	        "name": "打开宝箱",
+	        "reward": {
+	            "type": "chip",
+	            "value": 500
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 13,
+	        "index": 13,
+	        "next": 14,
+	        "event": "room_queue_2_play",
+	        "desc": "当您在某个级别的场里经常获胜的时候，可以尝试升级到更高级别的场里",
+	        "name": "“白银级”对局一次",
+	        "reward": {
+	            "type": "chip",
+	            "value": 500
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 14,
+	        "index": 14,
+	        "next": 15,
+	        "event": "pk_card",
+	        "desc": "在一手牌局里进行比牌",
+	        "name": "勇敢地比牌",
+	        "reward": {
+	            "type": "chip",
+	            "value": 500
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 15,
+            "index": 15,
+            "next": 16,
+	        "event": "add_friend",
+	        "desc": "点击其他玩家的头像，选择“加好友”",
+	        "name": "添加一名好友",
+	        "reward": {
+	            "type": "chip",
+	            "value": 200
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 16,
+            "index": 16,
+            "next": 17,
+	        "event": "show_card",
+	        "desc": "牌局结束时，点击右下角亮牌按钮给大家展示自己的手牌",
+	        "name": "牌局结束时，亮牌一次",
+	        "reward": {
+	            "type": "chip",
+	            "value": 200
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 17,
+            "index": 17,
+            "next": 18,
+	        "event": "room_queue_3_play",
+	        "desc": "您已经开始不再是一个菜鸟了，您会发现越高级别的场里，玩家水平会越高",
+	        "name": "“黄金级”对局一次",
+	        "reward": {
+	            "type": "chip",
+	            "value": 1000
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 18,
+            "index": 18,
+            "next": 19,
+	        "event": "room_queue_4_play",
+	        "desc": "升级到“白金级”这是普通场的最后一个级别，后面还有更加广阔的天地等待您的探索，欢乐不止于此",
+	        "name": "“白金级”对局一次",
+	        "reward": {
+	            "type": "chip",
+	            "value": 1000
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 19,
+            "index": 19,
+            "next": 20,
+	        "event": "room_vip_play",
+	        "desc": "进入贵宾室游戏，贵宾室里高手众多，要打起精神玩牌哦",
+	        "name": "“贵宾室”对局一次",
+	        "reward": {
+	            "type": "chip",
+	            "value": 1000
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    },
+	    {
+	        "id": 20,
+            "index": 20,
+            "next": 0,
+	        "event": "charge",
+	        "desc": "到商城购买一次金币，超级实惠哦",
+	        "name": "购买一次金币",
+	        "reward": {
+	            "type": "chip",
+	            "value": 50000
+	        },
+	        "todo": {
+	            "action": "quick_start",
+	            "params": {
+	            }
+	        }
+	    }
+	],
+  "end_fake_data":{
+    "id":0,
+    "index":21,
+    "name":"无",
+    "reward":{
+      "type":"chip",
+      "value":0
+    },
+    "desc":"恭喜您，已完成了所有任务！",
+    "next":0
+  },
+  "total_reward_des": "任务全部达成将获得总计60000金币奖励，已完成%s/20"
+}

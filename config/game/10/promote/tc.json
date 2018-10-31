@@ -1,0 +1,402 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 29,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "douniu_v3.770_AI_nofirstRechargeTry"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "douniu_v3.780_AI_zftishen"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 10121301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 10121401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 29,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 10121303,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "douniu_v3.901_A_ceshi"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 10012002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 10012001,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 10121301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 10121304,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "douniu_v3.90_AI_IOStishen"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 10121301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 10121304,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 10012001,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 10012002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "douniu_v3.90_AI_normal"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 29,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "douniu_v3.90_AI_zftishen"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "promote_douniu_3.711"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 16,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "template.3_711_douniu"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 10121301,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新手特惠",
+   "url"         : "${http_download}/hall/promote/imgs/promote_douniuxinshou_12.13.png",
+   "defaultRes"  : "PromoteFirstly"
+  },
+  {
+   "promotionId" : 10121302,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 100,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "每推荐一个好友注册，可得1元微信红包（每日首次分享赠500金币）"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "每日分享",
+   "url"         : "${http_download}/hall/promote/imgs/promote_douniufenxiang_12.13.png",
+   "defaultRes"  : "PromoteRecommend"
+  },
+  {
+   "promotionId" : 10121303,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.lottery"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "转盘",
+   "url"         : "${http_download}/hall/promote/imgs/promote_douniuzhuanpan_12.13.png",
+   "defaultRes"  : "PromoteLucky"
+  },
+  {
+   "promotionId" : 10121304,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "desc"        : "恭喜您获得首充奖励大礼包！",
+     "typeId"      : "todotask.firstRechargeReward",
+     "url"         : "${http_download}/hall/promote/imgs/t3cardnew_1st_recharged.png"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新手特惠奖励",
+   "url"         : "${http_download}/hall/promote/imgs/promote_douniuxinshou_12.13.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 10121401,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subStore"    : "coin",
+     "typeId"      : "hall.goto.shop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "商城",
+   "url"         : "${http_download}/hall/promote/imgs/promote_douniushangcheng_12.14.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 10012001,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.free"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "斗牛天天福利",
+   "url"         : "${http_download}/hall/promote/imgs/texas_0120_dailyreward.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 10012002,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 1002,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "每日首次分享，立即获得500金币"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "推荐分享",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_dailyshare_0120.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 10051901,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 13
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 10,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "牌神之路",
+   "url"         : "${http_download}/hall/promote/imgs/t3card2016_guide1_1103.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 10051902,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 14
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 10,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "贵族成就",
+   "url"         : "${http_download}/hall/promote/imgs/t3card2016_guide2_1103.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 10051903,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 15
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 10,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "成就",
+   "url"         : "${http_download}/hall/promote/imgs/t3card2016_quest_1104.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

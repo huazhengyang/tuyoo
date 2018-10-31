@@ -1,0 +1,103 @@
+{
+	"pointIdList": [66660013, 77770013],
+	"inviteRewardsByIndex": [
+		{
+			"itemId": "user:chip",
+			"count": 300,
+			"desc": "300金币",
+			"pic":"${http_download}/ddz/other/config/invite_chip_low.png"
+		},
+		{
+			"itemId": "user:chip",
+			"count": 600,
+			"desc": "600金币",
+			"pic":"${http_download}/ddz/other/config/invite_chip_low.png"
+		},
+		{
+			"itemId": "user:chip",
+			"count": 1200,
+			"desc": "1200金币",
+			"pic":"${http_download}/ddz/other/config/invite_chip_middle.png"
+		},
+		{
+			"itemId": "user:chip",
+			"count": 2500,
+			"desc": "2500金币",
+			"pic":"${http_download}/ddz/other/config/invite_chip_middle.png"
+		}
+	],
+	"bigRewards": [
+		{
+			"item": {
+				"itemId": "user:chip",
+				"count": 8888,
+				"desc": "惊喜礼包",
+				"pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+			},
+			"weight": 10
+		},
+		{
+			"item": {
+				"itemId": "user:chip",
+				"count": 6888,
+				"desc": "惊喜礼包",
+				"pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+			},
+			"weight": 10
+		},
+		{
+			"item": {
+				"itemId": "user:chip",
+				"count": 5888,
+				"desc": "惊喜礼包",
+				"pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+			},
+			"weight": 20
+		},
+		{
+			"item": {
+				"itemId": "user:chip",
+				"count": 4888,
+				"desc": "惊喜礼包",
+				"pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+			},
+			"weight": 30
+		},
+		{
+			"item": {
+				"itemId": "user:chip",
+				"count": 3888,
+				"desc": "惊喜礼包",
+				"pic":"${http_download}/ddz/other/config/invite_chip_high.png"
+			},
+			"weight": 30
+		}
+  ],
+  "firstBigRewards":
+    {
+      "itemId": "user:coupon",
+      "count": 30,
+      "pic": "${http_download}/ddz/other/config/wx_red_envelope.png",
+      "desc": "红包券x0.3元"
+    }
+  ,
+  "interventionBigRewards":
+    {
+      "itemId": "item:1311",
+      "count": 10,
+      "pic": "${http_download}/ddz/other/config/sign_in_dimand_2.png",
+      "desc": "钻石10个"
+    }
+  ,
+  "condition": {
+    "list": [
+      {
+        "typeId": "user.cond.register.time",
+        "startTime": "2018-09-20 00:00:00",
+        "stopTime": "2019-09-20 00:00:00"
+      }
+    ],
+    "typeId": "user.cond.and"
+  },
+  "switch": 1
+}

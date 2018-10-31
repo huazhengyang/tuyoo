@@ -1,0 +1,16 @@
+{
+  "templates": {
+    "default": [
+      {
+        "typeId": "ddz.act.wx.seasonInfo",
+        "actId": "seasonInfo",
+        "desc": "赛季信息"
+      },
+      {
+        "typeId": "ddz.act.wx.shareCharm",
+        "actId": "shareCharm",
+        "desc": "分享排行榜"
+      }
+    ]
+  }
+}

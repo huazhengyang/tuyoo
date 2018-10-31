@@ -1,0 +1,5474 @@
+{
+    "__gang_timeOut_desc__" : "list-[start,end]杠牌操作机器人触发表情，延时发送的时间范围",
+    "__msg_desc__" : "msg为表情编码: -1, 表示无表情; 0~11 icon表情; 16~21 文字",
+    "__rate_desc__" : "各表情发生的概率",
+    "__selfTilePlayAction_desc__" : "机器人自己出牌触发表情动作",
+    "chat_cool_down" : 10,
+    "selfTilePlayAction":{
+		"hurry": [{
+			"rate": 125,
+			"msg": 16
+		}],
+		"hurry_timeOut": [1, 2],
+		"hello": [{
+			"rate": 125,
+			"msg": 33
+		},
+		{
+			"rate": 125,
+			"msg": 35
+		},
+		{
+			"rate": 125,
+			"msg": 1
+		}],
+		"hello_timeOut": [3, 4],
+		"win": [{
+			"rate": 125,
+			"msg": 9
+		},
+		{
+			"rate": 125,
+			"msg": 21
+		},
+		{
+			"rate": 125,
+			"msg": 33
+		},
+		{
+			"rate": 125,
+			"msg": 35
+		}],
+		"zimo": [{
+			"rate": 125,
+			"msg": 9
+		},
+		{
+			"rate": 125,
+			"msg": 21
+		},
+		{
+			"rate": 125,
+			"msg": 33
+		},
+		{
+			"rate": 125,
+			"msg": 35
+		}],
+		"gang_timeOut": [3,
+		4,
+		5],
+		"gang": [{
+			"rate": 125,
+			"msg": 9
+		},
+		{
+			"rate": 125,
+			"msg": 21
+		},
+		{
+			"rate": 125,
+			"msg": 33
+		},
+		{
+			"rate": 125,
+			"msg": 35
+		}],
+		"id": 1,
+		"zimo_timeOut": [3,
+		4,
+		5],
+		"win_timeOut": [3,
+		4,
+		5],
+		"grabGangHu_timeOut": [3,
+		4,
+		5],
+		"peng_timeOut": [],
+		"grabGangHu": [{
+			"rate": 125,
+			"msg": 9
+		},
+		{
+			"rate": 125,
+			"msg": 21
+		},
+		{
+			"rate": 125,
+			"msg": 33
+		},
+		{
+			"rate": 125,
+			"msg": 35
+		}],
+		"peng": []
+	},
+    "__otherTilePlayAction_desc__" : "其他玩家对机器人出牌，机器人触发表情动作",
+    "otherTilePlayAction": {
+		"reply": [{
+			"rate": 125,
+			"msg": 9
+		},
+		{
+			"rate": 125,
+			"msg": 21
+		},
+		{
+			"rate": 125,
+			"msg": 33
+		},
+		{
+			"rate": 125,
+			"msg": 35
+		}],
+		"win": [{
+			"rate": 42,
+			"msg": 0
+		},
+		{
+			"rate": 42,
+			"msg": 2
+		},
+		{
+			"rate": 42,
+			"msg": 3
+		},
+		{
+			"rate": 42,
+			"msg": 8
+		},
+		{
+			"rate": 42,
+			"msg": 10
+		},
+		{
+			"rate": 42,
+			"msg": 11
+		},
+		{
+			"rate": 42,
+			"msg": 17
+		},
+		{
+			"rate": 42,
+			"msg": 20
+		},
+		{
+			"rate": 42,
+			"msg": 21
+		},
+		{
+			"rate": 20,
+			"msg": 34
+		},
+		{
+			"rate": 20,
+			"msg": 36
+		}],
+		"zimo": [],
+		"gang_timeOut": [3,
+		4,
+		5],
+		"gang": [{
+			"rate": 42,
+			"msg": 0
+		},
+		{
+			"rate": 42,
+			"msg": 2
+		},
+		{
+			"rate": 42,
+			"msg": 3
+		},
+		{
+			"rate": 42,
+			"msg": 8
+		},
+		{
+			"rate": 42,
+			"msg": 10
+		},
+		{
+			"rate": 42,
+			"msg": 11
+		},
+		{
+			"rate": 42,
+			"msg": 17
+		},
+		{
+			"rate": 42,
+			"msg": 20
+		},
+		{
+			"rate": 42,
+			"msg": 21
+		},
+		{
+			"rate": 20,
+			"msg": 34
+		},
+		{
+			"rate": 20,
+			"msg": 36
+		}],
+		"id": 2,
+		"zimo_timeOut": [],
+		"win_timeOut": [3,
+		4,
+		5],
+		"grabGangHu_timeOut": [],
+		"peng_timeOut": [],
+		"grabGangHu": [],
+		"peng": []
+	},
+    "robots": [
+        {
+            "coin": 1603999, 
+            "name": "醉臥沙場", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_0.png", 
+            "sex": 0, 
+            "userId":8500
+        }, 
+        {
+            "coin": 2770266, 
+            "name": "悲魂曲(★)", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_1.png", 
+            "sex": 0, 
+            "userId":8501
+        }, 
+        {
+            "coin": 1719045, 
+            "name": "╰泠漠の眼眸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_2.png", 
+            "sex": 0, 
+            "userId":8502
+        }, 
+        {
+            "coin": 2478100, 
+            "name": "未若柳絮", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_3.png", 
+            "sex": 0, 
+            "userId":8503
+        }, 
+        {
+            "coin": 2301680, 
+            "name": "完美勇士", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_4.png", 
+            "sex": 0, 
+            "userId":8504
+        }, 
+        {
+            "coin": 2890726, 
+            "name": "禁止丶聊天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_5.png", 
+            "sex": 0, 
+            "userId":8505
+        }, 
+        {
+            "coin": 1603309, 
+            "name": "昕夕靡爽", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_6.png", 
+            "sex": 0, 
+            "userId":8506
+        }, 
+        {
+            "coin": 1869649, 
+            "name": "狂月哮天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_7.png", 
+            "sex": 0, 
+            "userId":8507
+        }, 
+        {
+            "coin": 1609356, 
+            "name": "清川带长薄", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_8.png", 
+            "sex": 0, 
+            "userId":8508
+        }, 
+        {
+            "coin": 2067438, 
+            "name": "醉丶离殇ゞ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_9.png", 
+            "sex": 0, 
+            "userId":8509
+        }, 
+        {
+            "coin": 2355588, 
+            "name": "骑行碎片", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_10.png", 
+            "sex": 0, 
+            "userId":8510
+        }, 
+        {
+            "coin": 1599419, 
+            "name": "狼族霸者", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_11.png", 
+            "sex": 0, 
+            "userId":8511
+        }, 
+        {
+            "coin": 2848174, 
+            "name": "陌上ぃ清烟", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_12.png", 
+            "sex": 0, 
+            "userId":8512
+        }, 
+        {
+            "coin": 2296035, 
+            "name": "挥笔朝夕", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_13.png", 
+            "sex": 0, 
+            "userId":8513
+        }, 
+        {
+            "coin": 2068449, 
+            "name": "秋空明月", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_14.png", 
+            "sex": 0, 
+            "userId":8514
+        }, 
+        {
+            "coin": 2672512, 
+            "name": "吕小布", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_15.png", 
+            "sex": 0, 
+            "userId":8515
+        }, 
+        {
+            "coin": 2159644, 
+            "name": "漫步de蜗牛", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_16.png", 
+            "sex": 0, 
+            "userId":8516
+        }, 
+        {
+            "coin": 2675922, 
+            "name": "素颜繁华梦", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_17.png", 
+            "sex": 0, 
+            "userId":8517
+        }, 
+        {
+            "coin": 1979229, 
+            "name": "禁止丶聊天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_18.png", 
+            "sex": 0, 
+            "userId":8518
+        }, 
+        {
+            "coin": 1670964, 
+            "name": "危亡未來い", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_19.png", 
+            "sex": 0, 
+            "userId":8519
+        }, 
+        {
+            "coin": 2735407, 
+            "name": "冥界圣魔", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_20.png", 
+            "sex": 0, 
+            "userId":8520
+        }, 
+        {
+            "coin": 2089604, 
+            "name": "似水丶浮流年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_21.png", 
+            "sex": 0, 
+            "userId":8521
+        }, 
+        {
+            "coin": 2559950, 
+            "name": "花独、蝶双飞", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_22.png", 
+            "sex": 0, 
+            "userId":8522
+        }, 
+        {
+            "coin": 2182307, 
+            "name": "缺氧的雨滴", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_23.png", 
+            "sex": 0, 
+            "userId":8523
+        }, 
+        {
+            "coin": 1954976, 
+            "name": "撩妹狂魔", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_24.png", 
+            "sex": 0, 
+            "userId":8524
+        }, 
+        {
+            "coin": 2070229, 
+            "name": "冷心为帝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_25.png", 
+            "sex": 0, 
+            "userId":8525
+        }, 
+        {
+            "coin": 2275981, 
+            "name": "屎了都要爱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_26.png", 
+            "sex": 0, 
+            "userId":8526
+        }, 
+        {
+            "coin": 1234500, 
+            "name": "騎著母豬", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_27.png", 
+            "sex": 0, 
+            "userId":8527
+        }, 
+        {
+            "coin": 1912161, 
+            "name": "发粪涂墙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_28.png", 
+            "sex": 0, 
+            "userId":8528
+        }, 
+        {
+            "coin": 1991461, 
+            "name": "浅浅的酒窝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_29.png", 
+            "sex": 0, 
+            "userId":8529
+        }, 
+        {
+            "coin": 2277935, 
+            "name": "菊攻大王", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_30.png", 
+            "sex": 0, 
+            "userId":8530
+        }, 
+        {
+            "coin": 1525051, 
+            "name": "势贯の云霄", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_31.png", 
+            "sex": 0, 
+            "userId":8531
+        }, 
+        {
+            "coin": 2074722, 
+            "name": "傲立人间", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_32.png", 
+            "sex": 0, 
+            "userId":8532
+        }, 
+        {
+            "coin": 2435473, 
+            "name": "耳钉梦", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_33.png", 
+            "sex": 0, 
+            "userId":8533
+        }, 
+        {
+            "coin": 2979034, 
+            "name": "蟑螂★恶霸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_34.png", 
+            "sex": 0, 
+            "userId":8534
+        }, 
+        {
+            "coin": 2693898, 
+            "name": "醉意紫貂", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_35.png", 
+            "sex": 0, 
+            "userId":8535
+        }, 
+        {
+            "coin": 1362592, 
+            "name": "瑾夏年华", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_36.png", 
+            "sex": 0, 
+            "userId":8536
+        }, 
+        {
+            "coin": 2873420, 
+            "name": "风木槿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_37.png", 
+            "sex": 0, 
+            "userId":8537
+        }, 
+        {
+            "coin": 2514625, 
+            "name": "梦雨果", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_38.png", 
+            "sex": 0, 
+            "userId":8538
+        }, 
+        {
+            "coin": 2582353, 
+            "name": "逆海的鱼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_39.png", 
+            "sex": 0, 
+            "userId":8539
+        }, 
+        {
+            "coin": 2916168, 
+            "name": "隔壁老王又来了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_40.png", 
+            "sex": 0, 
+            "userId":8540
+        }, 
+        {
+            "coin": 2680911, 
+            "name": "ぴ懒癌晚期〆", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_41.png", 
+            "sex": 0, 
+            "userId":8541
+        }, 
+        {
+            "coin": 2544804, 
+            "name": "夏至飄零╮", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_42.png", 
+            "sex": 0, 
+            "userId":8542
+        }, 
+        {
+            "coin": 1282899, 
+            "name": "☆ヾ枫少", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_43.png", 
+            "sex": 0, 
+            "userId":8543
+        }, 
+        {
+            "coin": 2291917, 
+            "name": "睫长眸澈", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_44.png", 
+            "sex": 0, 
+            "userId":8544
+        }, 
+        {
+            "coin": 1436015, 
+            "name": "吃海的鲨鱼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_45.png", 
+            "sex": 0, 
+            "userId":8545
+        }, 
+        {
+            "coin": 2899010, 
+            "name": "陌离殇♂", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_46.png", 
+            "sex": 0, 
+            "userId":8546
+        }, 
+        {
+            "coin": 2806292, 
+            "name": "温馨耳语", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_47.png", 
+            "sex": 0, 
+            "userId":8547
+        }, 
+        {
+            "coin": 2156602, 
+            "name": "浮瑶仙芝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_48.png", 
+            "sex": 0, 
+            "userId":8548
+        }, 
+        {
+            "coin": 1822714, 
+            "name": "低调灬の蕏少", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_49.png", 
+            "sex": 0, 
+            "userId":8549
+        }, 
+        {
+            "coin": 1305158, 
+            "name": "亡魂溺海", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_50.png", 
+            "sex": 0, 
+            "userId":8550
+        }, 
+        {
+            "coin": 2152883, 
+            "name": "摆摊卖青春", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_51.png", 
+            "sex": 0, 
+            "userId":8551
+        }, 
+        {
+            "coin": 2547301, 
+            "name": "酷到被通缉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_0.png", 
+            "sex": 0, 
+            "userId":8552
+        }, 
+        {
+            "coin": 2648509, 
+            "name": "爱卿平身", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_1.png", 
+            "sex": 0, 
+            "userId":8553
+        }, 
+        {
+            "coin": 1609649, 
+            "name": "骑猪撞火星", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_2.png", 
+            "sex": 0, 
+            "userId":8554
+        }, 
+        {
+            "coin": 1830066, 
+            "name": "牵手、夕阳", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_3.png", 
+            "sex": 0, 
+            "userId":8555
+        }, 
+        {
+            "coin": 1805839, 
+            "name": "月♂夜♀神", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_4.png", 
+            "sex": 0, 
+            "userId":8556
+        }, 
+        {
+            "coin": 1055541, 
+            "name": "闷骚斯基", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_5.png", 
+            "sex": 0, 
+            "userId":8557
+        }, 
+        {
+            "coin": 2606548, 
+            "name": "演一世↘荒芜", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_6.png", 
+            "sex": 0, 
+            "userId":8558
+        }, 
+        {
+            "coin": 2151269, 
+            "name": "凉城戏墨", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_7.png", 
+            "sex": 0, 
+            "userId":8559
+        }, 
+        {
+            "coin": 1999869, 
+            "name": "酒貧斷腸氺", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_8.png", 
+            "sex": 0, 
+            "userId":8560
+        }, 
+        {
+            "coin": 1315332, 
+            "name": "外灘上的背影", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_9.png", 
+            "sex": 0, 
+            "userId":8561
+        }, 
+        {
+            "coin": 1157439, 
+            "name": "半夏陌殇", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_10.png", 
+            "sex": 0, 
+            "userId":8562
+        }, 
+        {
+            "coin": 1345955, 
+            "name": "跪下、叫帅哥", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_11.png", 
+            "sex": 0, 
+            "userId":8563
+        }, 
+        {
+            "coin": 1281022, 
+            "name": "白衣俊郎", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_12.png", 
+            "sex": 0, 
+            "userId":8564
+        }, 
+        {
+            "coin": 2305904, 
+            "name": "帥的、沒亽愛", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_13.png", 
+            "sex": 0, 
+            "userId":8565
+        }, 
+        {
+            "coin": 2839846, 
+            "name": "短发浓眉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_14.png", 
+            "sex": 0, 
+            "userId":8566
+        }, 
+        {
+            "coin": 1922689, 
+            "name": "长得帅会喊麦v", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_15.png", 
+            "sex": 0, 
+            "userId":8567
+        }, 
+        {
+            "coin": 2981409, 
+            "name": "︶帅到失眠", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_16.png", 
+            "sex": 0, 
+            "userId":8568
+        }, 
+        {
+            "coin": 1023012, 
+            "name": "帅你一脸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_17.png", 
+            "sex": 0, 
+            "userId":8569
+        }, 
+        {
+            "coin": 1337079, 
+            "name": "帅到灵魂深处", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_18.png", 
+            "sex": 0, 
+            "userId":8570
+        }, 
+        {
+            "coin": 2697736, 
+            "name": "帅飞一条街", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_19.png", 
+            "sex": 0, 
+            "userId":8571
+        }, 
+        {
+            "coin": 2597372, 
+            "name": "帅炸了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_20.png", 
+            "sex": 0, 
+            "userId":8572
+        }, 
+        {
+            "coin": 1917825, 
+            "name": "拉风小伙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_21.png", 
+            "sex": 0, 
+            "userId":8573
+        }, 
+        {
+            "coin": 1796876, 
+            "name": "帅的被人追杀", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_22.png", 
+            "sex": 0, 
+            "userId":8574
+        }, 
+        {
+            "coin": 1152118, 
+            "name": "国际呆萌男神", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_23.png", 
+            "sex": 0, 
+            "userId":8575
+        }, 
+        {
+            "coin": 1179846, 
+            "name": "淡淡的忧愁", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_24.png", 
+            "sex": 0, 
+            "userId":8576
+        }, 
+        {
+            "coin": 1670104, 
+            "name": "傲世俊颜", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_25.png", 
+            "sex": 0, 
+            "userId":8577
+        }, 
+        {
+            "coin": 1831112, 
+            "name": "泪颜葬相思", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_26.png", 
+            "sex": 0, 
+            "userId":8578
+        }, 
+        {
+            "coin": 1043006, 
+            "name": "迷倒万千少女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_27.png", 
+            "sex": 0, 
+            "userId":8579
+        }, 
+        {
+            "coin": 2880142, 
+            "name": "风不懂寂寞", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_28.png", 
+            "sex": 0, 
+            "userId":8580
+        }, 
+        {
+            "coin": 2140787, 
+            "name": "人帅是非多", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_29.png", 
+            "sex": 0, 
+            "userId":8581
+        }, 
+        {
+            "coin": 2831892, 
+            "name": "国产原装美少年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_30.png", 
+            "sex": 0, 
+            "userId":8582
+        }, 
+        {
+            "coin": 2670273, 
+            "name": "南方吴彦祖", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_31.png", 
+            "sex": 0, 
+            "userId":8583
+        }, 
+        {
+            "coin": 2519417, 
+            "name": "烦恼的帥气风", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_32.png", 
+            "sex": 0, 
+            "userId":8584
+        }, 
+        {
+            "coin": 1777560, 
+            "name": "纤纤公子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_33.png", 
+            "sex": 0, 
+            "userId":8585
+        }, 
+        {
+            "coin": 2645721, 
+            "name": "帅比柠七", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_34.png", 
+            "sex": 0, 
+            "userId":8586
+        }, 
+        {
+            "coin": 1115539, 
+            "name": "颜值区总司令", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_35.png", 
+            "sex": 0, 
+            "userId":8587
+        }, 
+        {
+            "coin": 1906749, 
+            "name": "年少梦未了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_36.png", 
+            "sex": 0, 
+            "userId":8588
+        }, 
+        {
+            "coin": 2874516, 
+            "name": "颜值界杠把子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_37.png", 
+            "sex": 0, 
+            "userId":8589
+        }, 
+        {
+            "coin": 2516680, 
+            "name": "煮熟的鸭子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_38.png", 
+            "sex": 0, 
+            "userId":8590
+        }, 
+        {
+            "coin": 1312595, 
+            "name": "从小就拉风", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_39.png", 
+            "sex": 0, 
+            "userId":8591
+        }, 
+        {
+            "coin": 1837674, 
+            "name": "颜值课代表", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_40.png", 
+            "sex": 0, 
+            "userId":8592
+        }, 
+        {
+            "coin": 2934541, 
+            "name": "帅瞎你眼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_41.png", 
+            "sex": 0, 
+            "userId":8593
+        }, 
+        {
+            "coin": 1659572, 
+            "name": "国民帅比", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_42.png", 
+            "sex": 0, 
+            "userId":8594
+        }, 
+        {
+            "coin": 1827996, 
+            "name": "哥゛天生自然帅。", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_43.png", 
+            "sex": 0, 
+            "userId":8595
+        }, 
+        {
+            "coin": 1417881, 
+            "name": "帅裂天际", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_44.png", 
+            "sex": 0, 
+            "userId":8596
+        }, 
+        {
+            "coin": 1615792, 
+            "name": "酷并且帅", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_45.png", 
+            "sex": 0, 
+            "userId":8597
+        }, 
+        {
+            "coin": 1805170, 
+            "name": "男人不拽要俊逸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_46.png", 
+            "sex": 0, 
+            "userId":8598
+        }, 
+        {
+            "coin": 2906081, 
+            "name": "很酷又爱笑", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_47.png", 
+            "sex": 0, 
+            "userId":8599
+        }, 
+        {
+            "coin": 1834629, 
+            "name": "帅高少年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_48.png", 
+            "sex": 0, 
+            "userId":8600
+        }, 
+        {
+            "coin": 1509940, 
+            "name": "少年如同画中仙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_49.png", 
+            "sex": 0, 
+            "userId":8601
+        }, 
+        {
+            "coin": 1520171, 
+            "name": "病娇美男", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_50.png", 
+            "sex": 0, 
+            "userId":8602
+        }, 
+        {
+            "coin": 1446413, 
+            "name": "醉臥沙場", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_51.png", 
+            "sex": 0, 
+            "userId":8603
+        }, 
+        {
+            "coin": 1781351, 
+            "name": "悲魂曲(★)", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_0.png", 
+            "sex": 0, 
+            "userId":8604
+        }, 
+        {
+            "coin": 1722798, 
+            "name": "╰泠漠の眼眸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_1.png", 
+            "sex": 0, 
+            "userId":8605
+        }, 
+        {
+            "coin": 2724090, 
+            "name": "未若柳絮", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_2.png", 
+            "sex": 0, 
+            "userId":8606
+        }, 
+        {
+            "coin": 1046777, 
+            "name": "完美勇士", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_3.png", 
+            "sex": 0, 
+            "userId":8607
+        }, 
+        {
+            "coin": 2565302, 
+            "name": "禁止丶聊天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_4.png", 
+            "sex": 0, 
+            "userId":8608
+        }, 
+        {
+            "coin": 1818776, 
+            "name": "昕夕靡爽", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_5.png", 
+            "sex": 0, 
+            "userId":8609
+        }, 
+        {
+            "coin": 2038436, 
+            "name": "狂月哮天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_6.png", 
+            "sex": 0, 
+            "userId":8610
+        }, 
+        {
+            "coin": 1247567, 
+            "name": "清川带长薄", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_7.png", 
+            "sex": 0, 
+            "userId":8611
+        }, 
+        {
+            "coin": 1658953, 
+            "name": "醉丶离殇ゞ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_8.png", 
+            "sex": 0, 
+            "userId":8612
+        }, 
+        {
+            "coin": 2029248, 
+            "name": "骑行碎片", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_9.png", 
+            "sex": 0, 
+            "userId":8613
+        }, 
+        {
+            "coin": 2236913, 
+            "name": "狼族霸者", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_10.png", 
+            "sex": 0, 
+            "userId":8614
+        }, 
+        {
+            "coin": 1119055, 
+            "name": "陌上ぃ清烟", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_11.png", 
+            "sex": 0, 
+            "userId":8615
+        }, 
+        {
+            "coin": 1982854, 
+            "name": "挥笔朝夕", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_12.png", 
+            "sex": 0, 
+            "userId":8616
+        }, 
+        {
+            "coin": 2747447, 
+            "name": "秋空明月", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_13.png", 
+            "sex": 0, 
+            "userId":8617
+        }, 
+        {
+            "coin": 1920550, 
+            "name": "吕小布", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_14.png", 
+            "sex": 0, 
+            "userId":8618
+        }, 
+        {
+            "coin": 2433733, 
+            "name": "漫步de蜗牛", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_15.png", 
+            "sex": 0, 
+            "userId":8619
+        }, 
+        {
+            "coin": 2910880, 
+            "name": "素颜繁华梦", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_16.png", 
+            "sex": 0, 
+            "userId":8620
+        }, 
+        {
+            "coin": 2598391, 
+            "name": "禁止丶聊天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_17.png", 
+            "sex": 0, 
+            "userId":8621
+        }, 
+        {
+            "coin": 1189716, 
+            "name": "危亡未來い", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_18.png", 
+            "sex": 0, 
+            "userId":8622
+        }, 
+        {
+            "coin": 2073041, 
+            "name": "冥界圣魔", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_19.png", 
+            "sex": 0, 
+            "userId":8623
+        }, 
+        {
+            "coin": 1010644, 
+            "name": "似水丶浮流年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_20.png", 
+            "sex": 0, 
+            "userId":8624
+        }, 
+        {
+            "coin": 2673146, 
+            "name": "花独、蝶双飞", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_21.png", 
+            "sex": 0, 
+            "userId":8625
+        }, 
+        {
+            "coin": 2336936, 
+            "name": "缺氧的雨滴", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_22.png", 
+            "sex": 0, 
+            "userId":8626
+        }, 
+        {
+            "coin": 2608541, 
+            "name": "撩妹狂魔", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_23.png", 
+            "sex": 0, 
+            "userId":8627
+        }, 
+        {
+            "coin": 1763681, 
+            "name": "冷心为帝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_24.png", 
+            "sex": 0, 
+            "userId":8628
+        }, 
+        {
+            "coin": 1011864, 
+            "name": "屎了都要爱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_25.png", 
+            "sex": 0, 
+            "userId":8629
+        }, 
+        {
+            "coin": 2026361, 
+            "name": "騎著母豬", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_26.png", 
+            "sex": 0, 
+            "userId":8630
+        }, 
+        {
+            "coin": 2988942, 
+            "name": "发粪涂墙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_27.png", 
+            "sex": 0, 
+            "userId":8631
+        }, 
+        {
+            "coin": 2963799, 
+            "name": "浅浅的酒窝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_28.png", 
+            "sex": 0, 
+            "userId":8632
+        }, 
+        {
+            "coin": 2279784, 
+            "name": "菊攻大王", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_29.png", 
+            "sex": 0, 
+            "userId":8633
+        }, 
+        {
+            "coin": 2235432, 
+            "name": "势贯の云霄", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_30.png", 
+            "sex": 0, 
+            "userId":8634
+        }, 
+        {
+            "coin": 1718266, 
+            "name": "傲立人间", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_31.png", 
+            "sex": 0, 
+            "userId":8635
+        }, 
+        {
+            "coin": 2788097, 
+            "name": "耳钉梦", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_32.png", 
+            "sex": 0, 
+            "userId":8636
+        }, 
+        {
+            "coin": 1419157, 
+            "name": "蟑螂★恶霸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_33.png", 
+            "sex": 0, 
+            "userId":8637
+        }, 
+        {
+            "coin": 2492543, 
+            "name": "醉意紫貂", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_34.png", 
+            "sex": 0, 
+            "userId":8638
+        }, 
+        {
+            "coin": 1690952, 
+            "name": "瑾夏年华", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_35.png", 
+            "sex": 0, 
+            "userId":8639
+        }, 
+        {
+            "coin": 2094539, 
+            "name": "风木槿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_36.png", 
+            "sex": 0, 
+            "userId":8640
+        }, 
+        {
+            "coin": 1061600, 
+            "name": "梦雨果", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_37.png", 
+            "sex": 0, 
+            "userId":8641
+        }, 
+        {
+            "coin": 2045510, 
+            "name": "逆海的鱼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_38.png", 
+            "sex": 0, 
+            "userId":8642
+        }, 
+        {
+            "coin": 1788980, 
+            "name": "隔壁老王又来了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_39.png", 
+            "sex": 0, 
+            "userId":8643
+        }, 
+        {
+            "coin": 2371142, 
+            "name": "ぴ懒癌晚期〆", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_40.png", 
+            "sex": 0, 
+            "userId":8644
+        }, 
+        {
+            "coin": 2903391, 
+            "name": "夏至飄零╮", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_41.png", 
+            "sex": 0, 
+            "userId":8645
+        }, 
+        {
+            "coin": 1425670, 
+            "name": "☆ヾ枫少", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_42.png", 
+            "sex": 0, 
+            "userId":8646
+        }, 
+        {
+            "coin": 2341101, 
+            "name": "睫长眸澈", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_43.png", 
+            "sex": 0, 
+            "userId":8647
+        }, 
+        {
+            "coin": 1223940, 
+            "name": "吃海的鲨鱼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_44.png", 
+            "sex": 0, 
+            "userId":8648
+        }, 
+        {
+            "coin": 2062039, 
+            "name": "陌离殇♂", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_45.png", 
+            "sex": 0, 
+            "userId":8649
+        }, 
+        {
+            "coin": 1318629, 
+            "name": "温馨耳语", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_46.png", 
+            "sex": 0, 
+            "userId":8650
+        }, 
+        {
+            "coin": 1616826, 
+            "name": "浮瑶仙芝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_47.png", 
+            "sex": 0, 
+            "userId":8651
+        }, 
+        {
+            "coin": 2534985, 
+            "name": "低调灬の蕏少", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_48.png", 
+            "sex": 0, 
+            "userId":8652
+        }, 
+        {
+            "coin": 1063199, 
+            "name": "亡魂溺海", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_49.png", 
+            "sex": 0, 
+            "userId":8653
+        }, 
+        {
+            "coin": 2523972, 
+            "name": "摆摊卖青春", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_50.png", 
+            "sex": 0, 
+            "userId":8654
+        }, 
+        {
+            "coin": 1255555, 
+            "name": "酷到被通缉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_51.png", 
+            "sex": 0, 
+            "userId":8655
+        }, 
+        {
+            "coin": 1704457, 
+            "name": "爱卿平身", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_0.png", 
+            "sex": 0, 
+            "userId":8656
+        }, 
+        {
+            "coin": 2082476, 
+            "name": "骑猪撞火星", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_1.png", 
+            "sex": 0, 
+            "userId":8657
+        }, 
+        {
+            "coin": 1717306, 
+            "name": "牵手、夕阳", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_2.png", 
+            "sex": 0, 
+            "userId":8658
+        }, 
+        {
+            "coin": 2862234, 
+            "name": "月♂夜♀神", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_3.png", 
+            "sex": 0, 
+            "userId":8659
+        }, 
+        {
+            "coin": 1480835, 
+            "name": "闷骚斯基", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_4.png", 
+            "sex": 0, 
+            "userId":8660
+        }, 
+        {
+            "coin": 1014193, 
+            "name": "演一世↘荒芜", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_5.png", 
+            "sex": 0, 
+            "userId":8661
+        }, 
+        {
+            "coin": 2163197, 
+            "name": "凉城戏墨", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_6.png", 
+            "sex": 0, 
+            "userId":8662
+        }, 
+        {
+            "coin": 1673092, 
+            "name": "酒貧斷腸氺", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_7.png", 
+            "sex": 0, 
+            "userId":8663
+        }, 
+        {
+            "coin": 2540198, 
+            "name": "外灘上的背影", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_8.png", 
+            "sex": 0, 
+            "userId":8664
+        }, 
+        {
+            "coin": 2593958, 
+            "name": "半夏陌殇", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_9.png", 
+            "sex": 0, 
+            "userId":8665
+        }, 
+        {
+            "coin": 1691587, 
+            "name": "跪下、叫帅哥", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_10.png", 
+            "sex": 0, 
+            "userId":8666
+        }, 
+        {
+            "coin": 1572039, 
+            "name": "白衣俊郎", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_11.png", 
+            "sex": 0, 
+            "userId":8667
+        }, 
+        {
+            "coin": 2148316, 
+            "name": "帥的、沒亽愛", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_12.png", 
+            "sex": 0, 
+            "userId":8668
+        }, 
+        {
+            "coin": 2067769, 
+            "name": "短发浓眉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_13.png", 
+            "sex": 0, 
+            "userId":8669
+        }, 
+        {
+            "coin": 1133691, 
+            "name": "长得帅会喊麦v", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_14.png", 
+            "sex": 0, 
+            "userId":8670
+        }, 
+        {
+            "coin": 2469277, 
+            "name": "︶帅到失眠", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_15.png", 
+            "sex": 0, 
+            "userId":8671
+        }, 
+        {
+            "coin": 2301167, 
+            "name": "帅你一脸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_16.png", 
+            "sex": 0, 
+            "userId":8672
+        }, 
+        {
+            "coin": 1925768, 
+            "name": "帅到灵魂深处", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_17.png", 
+            "sex": 0, 
+            "userId":8673
+        }, 
+        {
+            "coin": 1198598, 
+            "name": "帅飞一条街", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_18.png", 
+            "sex": 0, 
+            "userId":8674
+        }, 
+        {
+            "coin": 2529116, 
+            "name": "帅炸了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_19.png", 
+            "sex": 0, 
+            "userId":8675
+        }, 
+        {
+            "coin": 2212836, 
+            "name": "拉风小伙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_20.png", 
+            "sex": 0, 
+            "userId":8676
+        }, 
+        {
+            "coin": 1717155, 
+            "name": "帅的被人追杀", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_21.png", 
+            "sex": 0, 
+            "userId":8677
+        }, 
+        {
+            "coin": 1964162, 
+            "name": "国际呆萌男神", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_22.png", 
+            "sex": 0, 
+            "userId":8678
+        }, 
+        {
+            "coin": 1343283, 
+            "name": "淡淡的忧愁", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_23.png", 
+            "sex": 0, 
+            "userId":8679
+        }, 
+        {
+            "coin": 2569320, 
+            "name": "傲世俊颜", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_24.png", 
+            "sex": 0, 
+            "userId":8680
+        }, 
+        {
+            "coin": 1115726, 
+            "name": "泪颜葬相思", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_25.png", 
+            "sex": 0, 
+            "userId":8681
+        }, 
+        {
+            "coin": 1108026, 
+            "name": "迷倒万千少女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_26.png", 
+            "sex": 0, 
+            "userId":8682
+        }, 
+        {
+            "coin": 2265641, 
+            "name": "风不懂寂寞", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_27.png", 
+            "sex": 0, 
+            "userId":8683
+        }, 
+        {
+            "coin": 1909150, 
+            "name": "人帅是非多", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_28.png", 
+            "sex": 0, 
+            "userId":8684
+        }, 
+        {
+            "coin": 1926738, 
+            "name": "国产原装美少年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_29.png", 
+            "sex": 0, 
+            "userId":8685
+        }, 
+        {
+            "coin": 2304578, 
+            "name": "南方吴彦祖", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_30.png", 
+            "sex": 0, 
+            "userId":8686
+        }, 
+        {
+            "coin": 2568041, 
+            "name": "烦恼的帥气风", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_31.png", 
+            "sex": 0, 
+            "userId":8687
+        }, 
+        {
+            "coin": 2777768, 
+            "name": "纤纤公子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_32.png", 
+            "sex": 0, 
+            "userId":8688
+        }, 
+        {
+            "coin": 2213910, 
+            "name": "帅比柠七", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_33.png", 
+            "sex": 0, 
+            "userId":8689
+        }, 
+        {
+            "coin": 1145544, 
+            "name": "颜值区总司令", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_34.png", 
+            "sex": 0, 
+            "userId":8690
+        }, 
+        {
+            "coin": 1415379, 
+            "name": "年少梦未了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_35.png", 
+            "sex": 0, 
+            "userId":8691
+        }, 
+        {
+            "coin": 1034195, 
+            "name": "颜值界杠把子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_36.png", 
+            "sex": 0, 
+            "userId":8692
+        }, 
+        {
+            "coin": 1904665, 
+            "name": "煮熟的鸭子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_37.png", 
+            "sex": 0, 
+            "userId":8693
+        }, 
+        {
+            "coin": 1753538, 
+            "name": "从小就拉风", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_38.png", 
+            "sex": 0, 
+            "userId":8694
+        }, 
+        {
+            "coin": 2129062, 
+            "name": "颜值课代表", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_39.png", 
+            "sex": 0, 
+            "userId":8695
+        }, 
+        {
+            "coin": 1958324, 
+            "name": "帅瞎你眼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_40.png", 
+            "sex": 0, 
+            "userId":8696
+        }, 
+        {
+            "coin": 1737809, 
+            "name": "国民帅比", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_41.png", 
+            "sex": 0, 
+            "userId":8697
+        }, 
+        {
+            "coin": 2754901, 
+            "name": "哥゛天生自然帅。", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_42.png", 
+            "sex": 0, 
+            "userId":8698
+        }, 
+        {
+            "coin": 1719468, 
+            "name": "帅裂天际", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_43.png", 
+            "sex": 0, 
+            "userId":8699
+        }, 
+        {
+            "coin": 2798810, 
+            "name": "酷并且帅", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_44.png", 
+            "sex": 0, 
+            "userId":8700
+        }, 
+        {
+            "coin": 2888142, 
+            "name": "男人不拽要俊逸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_45.png", 
+            "sex": 0, 
+            "userId":8701
+        }, 
+        {
+            "coin": 2188694, 
+            "name": "很酷又爱笑", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_46.png", 
+            "sex": 0, 
+            "userId":8702
+        }, 
+        {
+            "coin": 2269833, 
+            "name": "帅高少年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_47.png", 
+            "sex": 0, 
+            "userId":8703
+        }, 
+        {
+            "coin": 1639380, 
+            "name": "少年如同画中仙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_48.png", 
+            "sex": 0, 
+            "userId":8704
+        }, 
+        {
+            "coin": 1976667, 
+            "name": "病娇美男", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_49.png", 
+            "sex": 0, 
+            "userId":8705
+        }, 
+        {
+            "coin": 1731628, 
+            "name": "醉臥沙場", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_50.png", 
+            "sex": 0, 
+            "userId":8706
+        }, 
+        {
+            "coin": 1092661, 
+            "name": "悲魂曲(★)", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_51.png", 
+            "sex": 0, 
+            "userId":8707
+        }, 
+        {
+            "coin": 1054281, 
+            "name": "╰泠漠の眼眸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_0.png", 
+            "sex": 0, 
+            "userId":8708
+        }, 
+        {
+            "coin": 1831107, 
+            "name": "未若柳絮", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_1.png", 
+            "sex": 0, 
+            "userId":8709
+        }, 
+        {
+            "coin": 1979793, 
+            "name": "完美勇士", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_2.png", 
+            "sex": 0, 
+            "userId":8710
+        }, 
+        {
+            "coin": 2550390, 
+            "name": "禁止丶聊天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_3.png", 
+            "sex": 0, 
+            "userId":8711
+        }, 
+        {
+            "coin": 2337479, 
+            "name": "昕夕靡爽", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_4.png", 
+            "sex": 0, 
+            "userId":8712
+        }, 
+        {
+            "coin": 2897377, 
+            "name": "狂月哮天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_5.png", 
+            "sex": 0, 
+            "userId":8713
+        }, 
+        {
+            "coin": 2989769, 
+            "name": "清川带长薄", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_6.png", 
+            "sex": 0, 
+            "userId":8714
+        }, 
+        {
+            "coin": 1121925, 
+            "name": "醉丶离殇ゞ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_7.png", 
+            "sex": 0, 
+            "userId":8715
+        }, 
+        {
+            "coin": 2373289, 
+            "name": "骑行碎片", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_8.png", 
+            "sex": 0, 
+            "userId":8716
+        }, 
+        {
+            "coin": 2097430, 
+            "name": "狼族霸者", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_9.png", 
+            "sex": 0, 
+            "userId":8717
+        }, 
+        {
+            "coin": 2355889, 
+            "name": "陌上ぃ清烟", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_10.png", 
+            "sex": 0, 
+            "userId":8718
+        }, 
+        {
+            "coin": 1365995, 
+            "name": "挥笔朝夕", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_11.png", 
+            "sex": 0, 
+            "userId":8719
+        }, 
+        {
+            "coin": 2533723, 
+            "name": "秋空明月", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_12.png", 
+            "sex": 0, 
+            "userId":8720
+        }, 
+        {
+            "coin": 2399478, 
+            "name": "吕小布", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_13.png", 
+            "sex": 0, 
+            "userId":8721
+        }, 
+        {
+            "coin": 2750506, 
+            "name": "漫步de蜗牛", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_14.png", 
+            "sex": 0, 
+            "userId":8722
+        }, 
+        {
+            "coin": 1461560, 
+            "name": "素颜繁华梦", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_15.png", 
+            "sex": 0, 
+            "userId":8723
+        }, 
+        {
+            "coin": 1492049, 
+            "name": "禁止丶聊天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_16.png", 
+            "sex": 0, 
+            "userId":8724
+        }, 
+        {
+            "coin": 2799304, 
+            "name": "危亡未來い", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_17.png", 
+            "sex": 0, 
+            "userId":8725
+        }, 
+        {
+            "coin": 1636987, 
+            "name": "冥界圣魔", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_18.png", 
+            "sex": 0, 
+            "userId":8726
+        }, 
+        {
+            "coin": 1307085, 
+            "name": "似水丶浮流年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_19.png", 
+            "sex": 0, 
+            "userId":8727
+        }, 
+        {
+            "coin": 2363518, 
+            "name": "花独、蝶双飞", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_20.png", 
+            "sex": 0, 
+            "userId":8728
+        }, 
+        {
+            "coin": 2479552, 
+            "name": "缺氧的雨滴", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_21.png", 
+            "sex": 0, 
+            "userId":8729
+        }, 
+        {
+            "coin": 2432312, 
+            "name": "撩妹狂魔", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_22.png", 
+            "sex": 0, 
+            "userId":8730
+        }, 
+        {
+            "coin": 1146766, 
+            "name": "冷心为帝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_23.png", 
+            "sex": 0, 
+            "userId":8731
+        }, 
+        {
+            "coin": 1674278, 
+            "name": "屎了都要爱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_24.png", 
+            "sex": 0, 
+            "userId":8732
+        }, 
+        {
+            "coin": 1238214, 
+            "name": "騎著母豬", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_25.png", 
+            "sex": 0, 
+            "userId":8733
+        }, 
+        {
+            "coin": 1747502, 
+            "name": "发粪涂墙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_26.png", 
+            "sex": 0, 
+            "userId":8734
+        }, 
+        {
+            "coin": 2643999, 
+            "name": "浅浅的酒窝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_27.png", 
+            "sex": 0, 
+            "userId":8735
+        }, 
+        {
+            "coin": 1507829, 
+            "name": "菊攻大王", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_28.png", 
+            "sex": 0, 
+            "userId":8736
+        }, 
+        {
+            "coin": 1450473, 
+            "name": "势贯の云霄", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_29.png", 
+            "sex": 0, 
+            "userId":8737
+        }, 
+        {
+            "coin": 2945251, 
+            "name": "傲立人间", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_30.png", 
+            "sex": 0, 
+            "userId":8738
+        }, 
+        {
+            "coin": 1719925, 
+            "name": "耳钉梦", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_31.png", 
+            "sex": 0, 
+            "userId":8739
+        }, 
+        {
+            "coin": 1879391, 
+            "name": "蟑螂★恶霸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_32.png", 
+            "sex": 0, 
+            "userId":8740
+        }, 
+        {
+            "coin": 2970930, 
+            "name": "醉意紫貂", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_33.png", 
+            "sex": 0, 
+            "userId":8741
+        }, 
+        {
+            "coin": 2427105, 
+            "name": "瑾夏年华", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_34.png", 
+            "sex": 0, 
+            "userId":8742
+        }, 
+        {
+            "coin": 1040302, 
+            "name": "风木槿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_35.png", 
+            "sex": 0, 
+            "userId":8743
+        }, 
+        {
+            "coin": 2675534, 
+            "name": "梦雨果", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_36.png", 
+            "sex": 0, 
+            "userId":8744
+        }, 
+        {
+            "coin": 1855007, 
+            "name": "逆海的鱼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_37.png", 
+            "sex": 0, 
+            "userId":8745
+        }, 
+        {
+            "coin": 1761268, 
+            "name": "隔壁老王又来了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_38.png", 
+            "sex": 0, 
+            "userId":8746
+        }, 
+        {
+            "coin": 2090175, 
+            "name": "ぴ懒癌晚期〆", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_39.png", 
+            "sex": 0, 
+            "userId":8747
+        }, 
+        {
+            "coin": 1174578, 
+            "name": "夏至飄零╮", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_40.png", 
+            "sex": 0, 
+            "userId":8748
+        }, 
+        {
+            "coin": 1363776, 
+            "name": "☆ヾ枫少", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_41.png", 
+            "sex": 0, 
+            "userId":8749
+        }, 
+        {
+            "coin": 2482353, 
+            "name": "睫长眸澈", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_42.png", 
+            "sex": 0, 
+            "userId":8750
+        }, 
+        {
+            "coin": 2358619, 
+            "name": "吃海的鲨鱼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_43.png", 
+            "sex": 0, 
+            "userId":8751
+        }, 
+        {
+            "coin": 2398388, 
+            "name": "陌离殇♂", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_44.png", 
+            "sex": 0, 
+            "userId":8752
+        }, 
+        {
+            "coin": 1727184, 
+            "name": "温馨耳语", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_45.png", 
+            "sex": 0, 
+            "userId":8753
+        }, 
+        {
+            "coin": 2453860, 
+            "name": "浮瑶仙芝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_46.png", 
+            "sex": 0, 
+            "userId":8754
+        }, 
+        {
+            "coin": 2913690, 
+            "name": "低调灬の蕏少", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_47.png", 
+            "sex": 0, 
+            "userId":8755
+        }, 
+        {
+            "coin": 1981221, 
+            "name": "亡魂溺海", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_48.png", 
+            "sex": 0, 
+            "userId":8756
+        }, 
+        {
+            "coin": 1945923, 
+            "name": "摆摊卖青春", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_49.png", 
+            "sex": 0, 
+            "userId":8757
+        }, 
+        {
+            "coin": 1237735, 
+            "name": "酷到被通缉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_50.png", 
+            "sex": 0, 
+            "userId":8758
+        }, 
+        {
+            "coin": 1966110, 
+            "name": "爱卿平身", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_51.png", 
+            "sex": 0, 
+            "userId":8759
+        }, 
+        {
+            "coin": 2570382, 
+            "name": "骑猪撞火星", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_0.png", 
+            "sex": 0, 
+            "userId":8760
+        }, 
+        {
+            "coin": 2760443, 
+            "name": "牵手、夕阳", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_1.png", 
+            "sex": 0, 
+            "userId":8761
+        }, 
+        {
+            "coin": 2379100, 
+            "name": "月♂夜♀神", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_2.png", 
+            "sex": 0, 
+            "userId":8762
+        }, 
+        {
+            "coin": 2648784, 
+            "name": "闷骚斯基", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_3.png", 
+            "sex": 0, 
+            "userId":8763
+        }, 
+        {
+            "coin": 2005597, 
+            "name": "演一世↘荒芜", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_4.png", 
+            "sex": 0, 
+            "userId":8764
+        }, 
+        {
+            "coin": 2700514, 
+            "name": "凉城戏墨", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_5.png", 
+            "sex": 0, 
+            "userId":8765
+        }, 
+        {
+            "coin": 1108505, 
+            "name": "酒貧斷腸氺", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_6.png", 
+            "sex": 0, 
+            "userId":8766
+        }, 
+        {
+            "coin": 2960882, 
+            "name": "外灘上的背影", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_7.png", 
+            "sex": 0, 
+            "userId":8767
+        }, 
+        {
+            "coin": 2059784, 
+            "name": "半夏陌殇", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_8.png", 
+            "sex": 0, 
+            "userId":8768
+        }, 
+        {
+            "coin": 2040388, 
+            "name": "跪下、叫帅哥", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_9.png", 
+            "sex": 0, 
+            "userId":8769
+        }, 
+        {
+            "coin": 1638043, 
+            "name": "白衣俊郎", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_10.png", 
+            "sex": 0, 
+            "userId":8770
+        }, 
+        {
+            "coin": 2922664, 
+            "name": "帥的、沒亽愛", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_11.png", 
+            "sex": 0, 
+            "userId":8771
+        }, 
+        {
+            "coin": 2757535, 
+            "name": "短发浓眉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_12.png", 
+            "sex": 0, 
+            "userId":8772
+        }, 
+        {
+            "coin": 2718597, 
+            "name": "长得帅会喊麦v", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_13.png", 
+            "sex": 0, 
+            "userId":8773
+        }, 
+        {
+            "coin": 2773747, 
+            "name": "︶帅到失眠", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_14.png", 
+            "sex": 0, 
+            "userId":8774
+        }, 
+        {
+            "coin": 1552848, 
+            "name": "帅你一脸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_15.png", 
+            "sex": 0, 
+            "userId":8775
+        }, 
+        {
+            "coin": 2447093, 
+            "name": "帅到灵魂深处", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_16.png", 
+            "sex": 0, 
+            "userId":8776
+        }, 
+        {
+            "coin": 2988041, 
+            "name": "帅飞一条街", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_17.png", 
+            "sex": 0, 
+            "userId":8777
+        }, 
+        {
+            "coin": 2822835, 
+            "name": "帅炸了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_18.png", 
+            "sex": 0, 
+            "userId":8778
+        }, 
+        {
+            "coin": 1556866, 
+            "name": "拉风小伙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_19.png", 
+            "sex": 0, 
+            "userId":8779
+        }, 
+        {
+            "coin": 2969961, 
+            "name": "帅的被人追杀", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_20.png", 
+            "sex": 0, 
+            "userId":8780
+        }, 
+        {
+            "coin": 2719855, 
+            "name": "国际呆萌男神", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_21.png", 
+            "sex": 0, 
+            "userId":8781
+        }, 
+        {
+            "coin": 2194900, 
+            "name": "淡淡的忧愁", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_22.png", 
+            "sex": 0, 
+            "userId":8782
+        }, 
+        {
+            "coin": 1353012, 
+            "name": "傲世俊颜", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_23.png", 
+            "sex": 0, 
+            "userId":8783
+        }, 
+        {
+            "coin": 2123906, 
+            "name": "泪颜葬相思", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_24.png", 
+            "sex": 0, 
+            "userId":8784
+        }, 
+        {
+            "coin": 1487350, 
+            "name": "迷倒万千少女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_25.png", 
+            "sex": 0, 
+            "userId":8785
+        }, 
+        {
+            "coin": 1881273, 
+            "name": "风不懂寂寞", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_26.png", 
+            "sex": 0, 
+            "userId":8786
+        }, 
+        {
+            "coin": 2382565, 
+            "name": "人帅是非多", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_27.png", 
+            "sex": 0, 
+            "userId":8787
+        }, 
+        {
+            "coin": 2207316, 
+            "name": "国产原装美少年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_28.png", 
+            "sex": 0, 
+            "userId":8788
+        }, 
+        {
+            "coin": 1019439, 
+            "name": "南方吴彦祖", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_29.png", 
+            "sex": 0, 
+            "userId":8789
+        }, 
+        {
+            "coin": 1059225, 
+            "name": "烦恼的帥气风", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_30.png", 
+            "sex": 0, 
+            "userId":8790
+        }, 
+        {
+            "coin": 1880568, 
+            "name": "纤纤公子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_31.png", 
+            "sex": 0, 
+            "userId":8791
+        }, 
+        {
+            "coin": 2413081, 
+            "name": "帅比柠七", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_32.png", 
+            "sex": 0, 
+            "userId":8792
+        }, 
+        {
+            "coin": 2318453, 
+            "name": "颜值区总司令", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_33.png", 
+            "sex": 0, 
+            "userId":8793
+        }, 
+        {
+            "coin": 1615253, 
+            "name": "年少梦未了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_34.png", 
+            "sex": 0, 
+            "userId":8794
+        }, 
+        {
+            "coin": 2019209, 
+            "name": "颜值界杠把子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_35.png", 
+            "sex": 0, 
+            "userId":8795
+        }, 
+        {
+            "coin": 1216397, 
+            "name": "煮熟的鸭子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_36.png", 
+            "sex": 0, 
+            "userId":8796
+        }, 
+        {
+            "coin": 1074934, 
+            "name": "从小就拉风", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_37.png", 
+            "sex": 0, 
+            "userId":8797
+        }, 
+        {
+            "coin": 1759361, 
+            "name": "颜值课代表", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_38.png", 
+            "sex": 0, 
+            "userId":8798
+        }, 
+        {
+            "coin": 2927090, 
+            "name": "帅瞎你眼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_39.png", 
+            "sex": 0, 
+            "userId":8799
+        }, 
+        {
+            "coin": 2207430, 
+            "name": "国民帅比", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_40.png", 
+            "sex": 0, 
+            "userId":8800
+        }, 
+        {
+            "coin": 1000169, 
+            "name": "哥゛天生自然帅。", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_41.png", 
+            "sex": 0, 
+            "userId":8801
+        }, 
+        {
+            "coin": 1855116, 
+            "name": "帅裂天际", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_42.png", 
+            "sex": 0, 
+            "userId":8802
+        }, 
+        {
+            "coin": 1079334, 
+            "name": "酷并且帅", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_43.png", 
+            "sex": 0, 
+            "userId":8803
+        }, 
+        {
+            "coin": 1315892, 
+            "name": "男人不拽要俊逸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_44.png", 
+            "sex": 0, 
+            "userId":8804
+        }, 
+        {
+            "coin": 1776155, 
+            "name": "很酷又爱笑", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_45.png", 
+            "sex": 0, 
+            "userId":8805
+        }, 
+        {
+            "coin": 2980717, 
+            "name": "帅高少年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_46.png", 
+            "sex": 0, 
+            "userId":8806
+        }, 
+        {
+            "coin": 2269876, 
+            "name": "少年如同画中仙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_47.png", 
+            "sex": 0, 
+            "userId":8807
+        }, 
+        {
+            "coin": 1303356, 
+            "name": "病娇美男", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_48.png", 
+            "sex": 0, 
+            "userId":8808
+        }, 
+        {
+            "coin": 2964472, 
+            "name": "醉臥沙場", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_49.png", 
+            "sex": 0, 
+            "userId":8809
+        }, 
+        {
+            "coin": 2096306, 
+            "name": "悲魂曲(★)", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_50.png", 
+            "sex": 0, 
+            "userId":8810
+        }, 
+        {
+            "coin": 1247315, 
+            "name": "╰泠漠の眼眸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_51.png", 
+            "sex": 0, 
+            "userId":8811
+        }, 
+        {
+            "coin": 1551960, 
+            "name": "未若柳絮", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_0.png", 
+            "sex": 0, 
+            "userId":8812
+        }, 
+        {
+            "coin": 1261129, 
+            "name": "完美勇士", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_1.png", 
+            "sex": 0, 
+            "userId":8813
+        }, 
+        {
+            "coin": 1943104, 
+            "name": "禁止丶聊天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_2.png", 
+            "sex": 0, 
+            "userId":8814
+        }, 
+        {
+            "coin": 2287086, 
+            "name": "昕夕靡爽", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_3.png", 
+            "sex": 0, 
+            "userId":8815
+        }, 
+        {
+            "coin": 2349923, 
+            "name": "狂月哮天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_4.png", 
+            "sex": 0, 
+            "userId":8816
+        }, 
+        {
+            "coin": 1519362, 
+            "name": "清川带长薄", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_5.png", 
+            "sex": 0, 
+            "userId":8817
+        }, 
+        {
+            "coin": 1857838, 
+            "name": "醉丶离殇ゞ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_6.png", 
+            "sex": 0, 
+            "userId":8818
+        }, 
+        {
+            "coin": 2144965, 
+            "name": "骑行碎片", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_7.png", 
+            "sex": 0, 
+            "userId":8819
+        }, 
+        {
+            "coin": 2065877, 
+            "name": "狼族霸者", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_8.png", 
+            "sex": 0, 
+            "userId":8820
+        }, 
+        {
+            "coin": 1864082, 
+            "name": "陌上ぃ清烟", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_9.png", 
+            "sex": 0, 
+            "userId":8821
+        }, 
+        {
+            "coin": 1345418, 
+            "name": "挥笔朝夕", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_10.png", 
+            "sex": 0, 
+            "userId":8822
+        }, 
+        {
+            "coin": 1573997, 
+            "name": "秋空明月", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_11.png", 
+            "sex": 0, 
+            "userId":8823
+        }, 
+        {
+            "coin": 2352335, 
+            "name": "吕小布", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_12.png", 
+            "sex": 0, 
+            "userId":8824
+        }, 
+        {
+            "coin": 1051105, 
+            "name": "漫步de蜗牛", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_13.png", 
+            "sex": 0, 
+            "userId":8825
+        }, 
+        {
+            "coin": 1911388, 
+            "name": "素颜繁华梦", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_14.png", 
+            "sex": 0, 
+            "userId":8826
+        }, 
+        {
+            "coin": 2699036, 
+            "name": "禁止丶聊天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_15.png", 
+            "sex": 0, 
+            "userId":8827
+        }, 
+        {
+            "coin": 1943139, 
+            "name": "危亡未來い", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_16.png", 
+            "sex": 0, 
+            "userId":8828
+        }, 
+        {
+            "coin": 1082530, 
+            "name": "冥界圣魔", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_17.png", 
+            "sex": 0, 
+            "userId":8829
+        }, 
+        {
+            "coin": 1806680, 
+            "name": "似水丶浮流年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_18.png", 
+            "sex": 0, 
+            "userId":8830
+        }, 
+        {
+            "coin": 2855791, 
+            "name": "花独、蝶双飞", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_19.png", 
+            "sex": 0, 
+            "userId":8831
+        }, 
+        {
+            "coin": 2245758, 
+            "name": "缺氧的雨滴", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_20.png", 
+            "sex": 0, 
+            "userId":8832
+        }, 
+        {
+            "coin": 1831945, 
+            "name": "撩妹狂魔", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_21.png", 
+            "sex": 0, 
+            "userId":8833
+        }, 
+        {
+            "coin": 2739185, 
+            "name": "冷心为帝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_22.png", 
+            "sex": 0, 
+            "userId":8834
+        }, 
+        {
+            "coin": 2614903, 
+            "name": "屎了都要爱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_23.png", 
+            "sex": 0, 
+            "userId":8835
+        }, 
+        {
+            "coin": 1377171, 
+            "name": "騎著母豬", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_24.png", 
+            "sex": 0, 
+            "userId":8836
+        }, 
+        {
+            "coin": 1523846, 
+            "name": "发粪涂墙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_25.png", 
+            "sex": 0, 
+            "userId":8837
+        }, 
+        {
+            "coin": 2557280, 
+            "name": "浅浅的酒窝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_26.png", 
+            "sex": 0, 
+            "userId":8838
+        }, 
+        {
+            "coin": 1627144, 
+            "name": "菊攻大王", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_27.png", 
+            "sex": 0, 
+            "userId":8839
+        }, 
+        {
+            "coin": 2154894, 
+            "name": "势贯の云霄", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_28.png", 
+            "sex": 0, 
+            "userId":8840
+        }, 
+        {
+            "coin": 1353182, 
+            "name": "傲立人间", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_29.png", 
+            "sex": 0, 
+            "userId":8841
+        }, 
+        {
+            "coin": 2577124, 
+            "name": "耳钉梦", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_30.png", 
+            "sex": 0, 
+            "userId":8842
+        }, 
+        {
+            "coin": 2461684, 
+            "name": "蟑螂★恶霸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_31.png", 
+            "sex": 0, 
+            "userId":8843
+        }, 
+        {
+            "coin": 2857451, 
+            "name": "醉意紫貂", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_32.png", 
+            "sex": 0, 
+            "userId":8844
+        }, 
+        {
+            "coin": 2803154, 
+            "name": "瑾夏年华", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_33.png", 
+            "sex": 0, 
+            "userId":8845
+        }, 
+        {
+            "coin": 1490748, 
+            "name": "风木槿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_34.png", 
+            "sex": 0, 
+            "userId":8846
+        }, 
+        {
+            "coin": 1071717, 
+            "name": "梦雨果", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_35.png", 
+            "sex": 0, 
+            "userId":8847
+        }, 
+        {
+            "coin": 2432735, 
+            "name": "逆海的鱼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_36.png", 
+            "sex": 0, 
+            "userId":8848
+        }, 
+        {
+            "coin": 1411156, 
+            "name": "隔壁老王又来了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_37.png", 
+            "sex": 0, 
+            "userId":8849
+        }, 
+        {
+            "coin": 1426307, 
+            "name": "ぴ懒癌晚期〆", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_38.png", 
+            "sex": 0, 
+            "userId":8850
+        }, 
+        {
+            "coin": 1281386, 
+            "name": "夏至飄零╮", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_39.png", 
+            "sex": 0, 
+            "userId":8851
+        }, 
+        {
+            "coin": 2009475, 
+            "name": "☆ヾ枫少", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_40.png", 
+            "sex": 0, 
+            "userId":8852
+        }, 
+        {
+            "coin": 1122997, 
+            "name": "睫长眸澈", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_41.png", 
+            "sex": 0, 
+            "userId":8853
+        }, 
+        {
+            "coin": 2906235, 
+            "name": "吃海的鲨鱼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_42.png", 
+            "sex": 0, 
+            "userId":8854
+        }, 
+        {
+            "coin": 1347635, 
+            "name": "陌离殇♂", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_43.png", 
+            "sex": 0, 
+            "userId":8855
+        }, 
+        {
+            "coin": 2655318, 
+            "name": "温馨耳语", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_44.png", 
+            "sex": 0, 
+            "userId":8856
+        }, 
+        {
+            "coin": 2132269, 
+            "name": "浮瑶仙芝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_45.png", 
+            "sex": 0, 
+            "userId":8857
+        }, 
+        {
+            "coin": 1543175, 
+            "name": "低调灬の蕏少", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_46.png", 
+            "sex": 0, 
+            "userId":8858
+        }, 
+        {
+            "coin": 1713544, 
+            "name": "亡魂溺海", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_47.png", 
+            "sex": 0, 
+            "userId":8859
+        }, 
+        {
+            "coin": 1823830, 
+            "name": "摆摊卖青春", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_48.png", 
+            "sex": 0, 
+            "userId":8860
+        }, 
+        {
+            "coin": 2125410, 
+            "name": "酷到被通缉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_49.png", 
+            "sex": 0, 
+            "userId":8861
+        }, 
+        {
+            "coin": 1257462, 
+            "name": "爱卿平身", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_50.png", 
+            "sex": 0, 
+            "userId":8862
+        }, 
+        {
+            "coin": 2473861, 
+            "name": "骑猪撞火星", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_51.png", 
+            "sex": 0, 
+            "userId":8863
+        }, 
+        {
+            "coin": 2613525, 
+            "name": "牵手、夕阳", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_0.png", 
+            "sex": 0, 
+            "userId":8864
+        }, 
+        {
+            "coin": 2337111, 
+            "name": "月♂夜♀神", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_1.png", 
+            "sex": 0, 
+            "userId":8865
+        }, 
+        {
+            "coin": 1331814, 
+            "name": "闷骚斯基", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_2.png", 
+            "sex": 0, 
+            "userId":8866
+        }, 
+        {
+            "coin": 1434914, 
+            "name": "演一世↘荒芜", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_3.png", 
+            "sex": 0, 
+            "userId":8867
+        }, 
+        {
+            "coin": 2613665, 
+            "name": "凉城戏墨", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_4.png", 
+            "sex": 0, 
+            "userId":8868
+        }, 
+        {
+            "coin": 2717645, 
+            "name": "酒貧斷腸氺", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_5.png", 
+            "sex": 0, 
+            "userId":8869
+        }, 
+        {
+            "coin": 1181569, 
+            "name": "外灘上的背影", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_6.png", 
+            "sex": 0, 
+            "userId":8870
+        }, 
+        {
+            "coin": 1797610, 
+            "name": "半夏陌殇", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_7.png", 
+            "sex": 0, 
+            "userId":8871
+        }, 
+        {
+            "coin": 2826998, 
+            "name": "跪下、叫帅哥", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_8.png", 
+            "sex": 0, 
+            "userId":8872
+        }, 
+        {
+            "coin": 2111979, 
+            "name": "白衣俊郎", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_9.png", 
+            "sex": 0, 
+            "userId":8873
+        }, 
+        {
+            "coin": 1407711, 
+            "name": "帥的、沒亽愛", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_10.png", 
+            "sex": 0, 
+            "userId":8874
+        }, 
+        {
+            "coin": 1851343, 
+            "name": "短发浓眉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_11.png", 
+            "sex": 0, 
+            "userId":8875
+        }, 
+        {
+            "coin": 2591083, 
+            "name": "长得帅会喊麦v", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_12.png", 
+            "sex": 0, 
+            "userId":8876
+        }, 
+        {
+            "coin": 2080521, 
+            "name": "︶帅到失眠", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_13.png", 
+            "sex": 0, 
+            "userId":8877
+        }, 
+        {
+            "coin": 2806197, 
+            "name": "帅你一脸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_14.png", 
+            "sex": 0, 
+            "userId":8878
+        }, 
+        {
+            "coin": 1579719, 
+            "name": "帅到灵魂深处", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_15.png", 
+            "sex": 0, 
+            "userId":8879
+        }, 
+        {
+            "coin": 1155568, 
+            "name": "帅飞一条街", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_16.png", 
+            "sex": 0, 
+            "userId":8880
+        }, 
+        {
+            "coin": 2727182, 
+            "name": "帅炸了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_17.png", 
+            "sex": 0, 
+            "userId":8881
+        }, 
+        {
+            "coin": 1580485, 
+            "name": "拉风小伙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_18.png", 
+            "sex": 0, 
+            "userId":8882
+        }, 
+        {
+            "coin": 1931296, 
+            "name": "帅的被人追杀", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_19.png", 
+            "sex": 0, 
+            "userId":8883
+        }, 
+        {
+            "coin": 2821480, 
+            "name": "国际呆萌男神", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_20.png", 
+            "sex": 0, 
+            "userId":8884
+        }, 
+        {
+            "coin": 2510659, 
+            "name": "淡淡的忧愁", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_21.png", 
+            "sex": 0, 
+            "userId":8885
+        }, 
+        {
+            "coin": 2639506, 
+            "name": "傲世俊颜", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_22.png", 
+            "sex": 0, 
+            "userId":8886
+        }, 
+        {
+            "coin": 1238367, 
+            "name": "泪颜葬相思", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_23.png", 
+            "sex": 0, 
+            "userId":8887
+        }, 
+        {
+            "coin": 2720763, 
+            "name": "迷倒万千少女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_24.png", 
+            "sex": 0, 
+            "userId":8888
+        }, 
+        {
+            "coin": 1741122, 
+            "name": "风不懂寂寞", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_25.png", 
+            "sex": 0, 
+            "userId":8889
+        }, 
+        {
+            "coin": 2150070, 
+            "name": "人帅是非多", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_26.png", 
+            "sex": 0, 
+            "userId":8890
+        }, 
+        {
+            "coin": 2844597, 
+            "name": "国产原装美少年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_27.png", 
+            "sex": 0, 
+            "userId":8891
+        }, 
+        {
+            "coin": 2950989, 
+            "name": "南方吴彦祖", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_28.png", 
+            "sex": 0, 
+            "userId":8892
+        }, 
+        {
+            "coin": 2480644, 
+            "name": "烦恼的帥气风", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_29.png", 
+            "sex": 0, 
+            "userId":8893
+        }, 
+        {
+            "coin": 1110683, 
+            "name": "纤纤公子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_30.png", 
+            "sex": 0, 
+            "userId":8894
+        }, 
+        {
+            "coin": 1531456, 
+            "name": "帅比柠七", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_31.png", 
+            "sex": 0, 
+            "userId":8895
+        }, 
+        {
+            "coin": 2561849, 
+            "name": "颜值区总司令", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_32.png", 
+            "sex": 0, 
+            "userId":8896
+        }, 
+        {
+            "coin": 1305707, 
+            "name": "年少梦未了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_33.png", 
+            "sex": 0, 
+            "userId":8897
+        }, 
+        {
+            "coin": 2447339, 
+            "name": "颜值界杠把子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_34.png", 
+            "sex": 0, 
+            "userId":8898
+        }, 
+        {
+            "coin": 2475925, 
+            "name": "煮熟的鸭子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_35.png", 
+            "sex": 0, 
+            "userId":8899
+        }, 
+        {
+            "coin": 1175670, 
+            "name": "从小就拉风", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_36.png", 
+            "sex": 0, 
+            "userId":8900
+        }, 
+        {
+            "coin": 1055065, 
+            "name": "颜值课代表", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_37.png", 
+            "sex": 0, 
+            "userId":8901
+        }, 
+        {
+            "coin": 1092357, 
+            "name": "帅瞎你眼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_38.png", 
+            "sex": 0, 
+            "userId":8902
+        }, 
+        {
+            "coin": 1398532, 
+            "name": "国民帅比", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_39.png", 
+            "sex": 0, 
+            "userId":8903
+        }, 
+        {
+            "coin": 2128082, 
+            "name": "哥゛天生自然帅。", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_40.png", 
+            "sex": 0, 
+            "userId":8904
+        }, 
+        {
+            "coin": 1941396, 
+            "name": "帅裂天际", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_41.png", 
+            "sex": 0, 
+            "userId":8905
+        }, 
+        {
+            "coin": 1813138, 
+            "name": "酷并且帅", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_42.png", 
+            "sex": 0, 
+            "userId":8906
+        }, 
+        {
+            "coin": 2211410, 
+            "name": "男人不拽要俊逸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_43.png", 
+            "sex": 0, 
+            "userId":8907
+        }, 
+        {
+            "coin": 1172375, 
+            "name": "很酷又爱笑", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_44.png", 
+            "sex": 0, 
+            "userId":8908
+        }, 
+        {
+            "coin": 1534696, 
+            "name": "帅高少年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_45.png", 
+            "sex": 0, 
+            "userId":8909
+        }, 
+        {
+            "coin": 1222537, 
+            "name": "少年如同画中仙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_46.png", 
+            "sex": 0, 
+            "userId":8910
+        }, 
+        {
+            "coin": 1837359, 
+            "name": "病娇美男", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_47.png", 
+            "sex": 0, 
+            "userId":8911
+        }, 
+        {
+            "coin": 1467509, 
+            "name": "醉臥沙場", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_48.png", 
+            "sex": 0, 
+            "userId":8912
+        }, 
+        {
+            "coin": 2907303, 
+            "name": "悲魂曲(★)", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_49.png", 
+            "sex": 0, 
+            "userId":8913
+        }, 
+        {
+            "coin": 2521230, 
+            "name": "╰泠漠の眼眸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_50.png", 
+            "sex": 0, 
+            "userId":8914
+        }, 
+        {
+            "coin": 1103484, 
+            "name": "未若柳絮", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_51.png", 
+            "sex": 0, 
+            "userId":8915
+        }, 
+        {
+            "coin": 2529689, 
+            "name": "完美勇士", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_0.png", 
+            "sex": 0, 
+            "userId":8916
+        }, 
+        {
+            "coin": 2295465, 
+            "name": "禁止丶聊天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_1.png", 
+            "sex": 0, 
+            "userId":8917
+        }, 
+        {
+            "coin": 1263093, 
+            "name": "昕夕靡爽", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_2.png", 
+            "sex": 0, 
+            "userId":8918
+        }, 
+        {
+            "coin": 2688251, 
+            "name": "狂月哮天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_3.png", 
+            "sex": 0, 
+            "userId":8919
+        }, 
+        {
+            "coin": 1900373, 
+            "name": "清川带长薄", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_4.png", 
+            "sex": 0, 
+            "userId":8920
+        }, 
+        {
+            "coin": 2047891, 
+            "name": "醉丶离殇ゞ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_5.png", 
+            "sex": 0, 
+            "userId":8921
+        }, 
+        {
+            "coin": 1447369, 
+            "name": "骑行碎片", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_6.png", 
+            "sex": 0, 
+            "userId":8922
+        }, 
+        {
+            "coin": 1762054, 
+            "name": "狼族霸者", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_7.png", 
+            "sex": 0, 
+            "userId":8923
+        }, 
+        {
+            "coin": 1270006, 
+            "name": "陌上ぃ清烟", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_8.png", 
+            "sex": 0, 
+            "userId":8924
+        }, 
+        {
+            "coin": 1207817, 
+            "name": "挥笔朝夕", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_9.png", 
+            "sex": 0, 
+            "userId":8925
+        }, 
+        {
+            "coin": 2887934, 
+            "name": "秋空明月", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_10.png", 
+            "sex": 0, 
+            "userId":8926
+        }, 
+        {
+            "coin": 2631197, 
+            "name": "吕小布", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_11.png", 
+            "sex": 0, 
+            "userId":8927
+        }, 
+        {
+            "coin": 1556632, 
+            "name": "漫步de蜗牛", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_12.png", 
+            "sex": 0, 
+            "userId":8928
+        }, 
+        {
+            "coin": 1407292, 
+            "name": "素颜繁华梦", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_13.png", 
+            "sex": 0, 
+            "userId":8929
+        }, 
+        {
+            "coin": 1008564, 
+            "name": "禁止丶聊天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_14.png", 
+            "sex": 0, 
+            "userId":8930
+        }, 
+        {
+            "coin": 2802406, 
+            "name": "危亡未來い", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_15.png", 
+            "sex": 0, 
+            "userId":8931
+        }, 
+        {
+            "coin": 1599738, 
+            "name": "冥界圣魔", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_16.png", 
+            "sex": 0, 
+            "userId":8932
+        }, 
+        {
+            "coin": 1526911, 
+            "name": "似水丶浮流年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_17.png", 
+            "sex": 0, 
+            "userId":8933
+        }, 
+        {
+            "coin": 2941461, 
+            "name": "花独、蝶双飞", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_18.png", 
+            "sex": 0, 
+            "userId":8934
+        }, 
+        {
+            "coin": 2842507, 
+            "name": "缺氧的雨滴", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_19.png", 
+            "sex": 0, 
+            "userId":8935
+        }, 
+        {
+            "coin": 1381457, 
+            "name": "撩妹狂魔", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_20.png", 
+            "sex": 0, 
+            "userId":8936
+        }, 
+        {
+            "coin": 1110333, 
+            "name": "冷心为帝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_21.png", 
+            "sex": 0, 
+            "userId":8937
+        }, 
+        {
+            "coin": 1476754, 
+            "name": "屎了都要爱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_22.png", 
+            "sex": 0, 
+            "userId":8938
+        }, 
+        {
+            "coin": 2371084, 
+            "name": "騎著母豬", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_23.png", 
+            "sex": 0, 
+            "userId":8939
+        }, 
+        {
+            "coin": 1400819, 
+            "name": "发粪涂墙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_24.png", 
+            "sex": 0, 
+            "userId":8940
+        }, 
+        {
+            "coin": 2561570, 
+            "name": "浅浅的酒窝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_25.png", 
+            "sex": 0, 
+            "userId":8941
+        }, 
+        {
+            "coin": 1763512, 
+            "name": "菊攻大王", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_26.png", 
+            "sex": 0, 
+            "userId":8942
+        }, 
+        {
+            "coin": 1053538, 
+            "name": "势贯の云霄", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_27.png", 
+            "sex": 0, 
+            "userId":8943
+        }, 
+        {
+            "coin": 1427686, 
+            "name": "傲立人间", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_28.png", 
+            "sex": 0, 
+            "userId":8944
+        }, 
+        {
+            "coin": 1723916, 
+            "name": "耳钉梦", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_29.png", 
+            "sex": 0, 
+            "userId":8945
+        }, 
+        {
+            "coin": 2628027, 
+            "name": "蟑螂★恶霸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_30.png", 
+            "sex": 0, 
+            "userId":8946
+        }, 
+        {
+            "coin": 2786137, 
+            "name": "醉意紫貂", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_31.png", 
+            "sex": 0, 
+            "userId":8947
+        }, 
+        {
+            "coin": 2405518, 
+            "name": "瑾夏年华", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_32.png", 
+            "sex": 0, 
+            "userId":8948
+        }, 
+        {
+            "coin": 1030069, 
+            "name": "风木槿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_33.png", 
+            "sex": 0, 
+            "userId":8949
+        }, 
+        {
+            "coin": 1699147, 
+            "name": "梦雨果", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_34.png", 
+            "sex": 0, 
+            "userId":8950
+        }, 
+        {
+            "coin": 1491582, 
+            "name": "逆海的鱼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_35.png", 
+            "sex": 0, 
+            "userId":8951
+        }, 
+        {
+            "coin": 1527044, 
+            "name": "隔壁老王又来了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_36.png", 
+            "sex": 0, 
+            "userId":8952
+        }, 
+        {
+            "coin": 1673322, 
+            "name": "ぴ懒癌晚期〆", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_37.png", 
+            "sex": 0, 
+            "userId":8953
+        }, 
+        {
+            "coin": 2053373, 
+            "name": "夏至飄零╮", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_38.png", 
+            "sex": 0, 
+            "userId":8954
+        }, 
+        {
+            "coin": 2454032, 
+            "name": "☆ヾ枫少", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_39.png", 
+            "sex": 0, 
+            "userId":8955
+        }, 
+        {
+            "coin": 2335694, 
+            "name": "睫长眸澈", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_40.png", 
+            "sex": 0, 
+            "userId":8956
+        }, 
+        {
+            "coin": 2240253, 
+            "name": "吃海的鲨鱼", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_41.png", 
+            "sex": 0, 
+            "userId":8957
+        }, 
+        {
+            "coin": 2365979, 
+            "name": "陌离殇♂", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_42.png", 
+            "sex": 0, 
+            "userId":8958
+        }, 
+        {
+            "coin": 1558445, 
+            "name": "温馨耳语", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_43.png", 
+            "sex": 0, 
+            "userId":8959
+        }, 
+        {
+            "coin": 1904667, 
+            "name": "浮瑶仙芝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_44.png", 
+            "sex": 0, 
+            "userId":8960
+        }, 
+        {
+            "coin": 1906600, 
+            "name": "低调灬の蕏少", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_45.png", 
+            "sex": 0, 
+            "userId":8961
+        }, 
+        {
+            "coin": 2205105, 
+            "name": "亡魂溺海", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_46.png", 
+            "sex": 0, 
+            "userId":8962
+        }, 
+        {
+            "coin": 1370175, 
+            "name": "摆摊卖青春", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_47.png", 
+            "sex": 0, 
+            "userId":8963
+        }, 
+        {
+            "coin": 1845428, 
+            "name": "酷到被通缉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_48.png", 
+            "sex": 0, 
+            "userId":8964
+        }, 
+        {
+            "coin": 1877158, 
+            "name": "爱卿平身", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_49.png", 
+            "sex": 0, 
+            "userId":8965
+        }, 
+        {
+            "coin": 2016307, 
+            "name": "骑猪撞火星", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_50.png", 
+            "sex": 0, 
+            "userId":8966
+        }, 
+        {
+            "coin": 1392077, 
+            "name": "牵手、夕阳", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_51.png", 
+            "sex": 0, 
+            "userId":8967
+        }, 
+        {
+            "coin": 2554096, 
+            "name": "月♂夜♀神", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_0.png", 
+            "sex": 0, 
+            "userId":8968
+        }, 
+        {
+            "coin": 2562408, 
+            "name": "闷骚斯基", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_1.png", 
+            "sex": 0, 
+            "userId":8969
+        }, 
+        {
+            "coin": 2799272, 
+            "name": "演一世↘荒芜", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_2.png", 
+            "sex": 0, 
+            "userId":8970
+        }, 
+        {
+            "coin": 1904979, 
+            "name": "凉城戏墨", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_3.png", 
+            "sex": 0, 
+            "userId":8971
+        }, 
+        {
+            "coin": 1381933, 
+            "name": "酒貧斷腸氺", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_4.png", 
+            "sex": 0, 
+            "userId":8972
+        }, 
+        {
+            "coin": 2913238, 
+            "name": "外灘上的背影", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_5.png", 
+            "sex": 0, 
+            "userId":8973
+        }, 
+        {
+            "coin": 1599853, 
+            "name": "半夏陌殇", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_6.png", 
+            "sex": 0, 
+            "userId":8974
+        }, 
+        {
+            "coin": 2049553, 
+            "name": "跪下、叫帅哥", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_7.png", 
+            "sex": 0, 
+            "userId":8975
+        }, 
+        {
+            "coin": 2594105, 
+            "name": "白衣俊郎", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_8.png", 
+            "sex": 0, 
+            "userId":8976
+        }, 
+        {
+            "coin": 1944967, 
+            "name": "帥的、沒亽愛", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_9.png", 
+            "sex": 0, 
+            "userId":8977
+        }, 
+        {
+            "coin": 1006768, 
+            "name": "短发浓眉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_10.png", 
+            "sex": 0, 
+            "userId":8978
+        }, 
+        {
+            "coin": 2695009, 
+            "name": "长得帅会喊麦v", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_11.png", 
+            "sex": 0, 
+            "userId":8979
+        }, 
+        {
+            "coin": 1069868, 
+            "name": "︶帅到失眠", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_12.png", 
+            "sex": 0, 
+            "userId":8980
+        }, 
+        {
+            "coin": 1600725, 
+            "name": "帅你一脸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_13.png", 
+            "sex": 0, 
+            "userId":8981
+        }, 
+        {
+            "coin": 1648602, 
+            "name": "帅到灵魂深处", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_14.png", 
+            "sex": 0, 
+            "userId":8982
+        }, 
+        {
+            "coin": 2544501, 
+            "name": "帅飞一条街", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_15.png", 
+            "sex": 0, 
+            "userId":8983
+        }, 
+        {
+            "coin": 2534124, 
+            "name": "帅炸了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_16.png", 
+            "sex": 0, 
+            "userId":8984
+        }, 
+        {
+            "coin": 1819667, 
+            "name": "拉风小伙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_17.png", 
+            "sex": 0, 
+            "userId":8985
+        }, 
+        {
+            "coin": 1691217, 
+            "name": "帅的被人追杀", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_18.png", 
+            "sex": 0, 
+            "userId":8986
+        }, 
+        {
+            "coin": 2175851, 
+            "name": "国际呆萌男神", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_19.png", 
+            "sex": 0, 
+            "userId":8987
+        }, 
+        {
+            "coin": 2522604, 
+            "name": "淡淡的忧愁", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_20.png", 
+            "sex": 0, 
+            "userId":8988
+        }, 
+        {
+            "coin": 2889766, 
+            "name": "傲世俊颜", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_21.png", 
+            "sex": 0, 
+            "userId":8989
+        }, 
+        {
+            "coin": 1382446, 
+            "name": "泪颜葬相思", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_22.png", 
+            "sex": 0, 
+            "userId":8990
+        }, 
+        {
+            "coin": 2019025, 
+            "name": "迷倒万千少女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_23.png", 
+            "sex": 0, 
+            "userId":8991
+        }, 
+        {
+            "coin": 2762458, 
+            "name": "风不懂寂寞", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_24.png", 
+            "sex": 0, 
+            "userId":8992
+        }, 
+        {
+            "coin": 1762985, 
+            "name": "人帅是非多", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_25.png", 
+            "sex": 0, 
+            "userId":8993
+        }, 
+        {
+            "coin": 2187664, 
+            "name": "国产原装美少年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_26.png", 
+            "sex": 0, 
+            "userId":8994
+        }, 
+        {
+            "coin": 2825393, 
+            "name": "南方吴彦祖", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_27.png", 
+            "sex": 0, 
+            "userId":8995
+        }, 
+        {
+            "coin": 1622096, 
+            "name": "烦恼的帥气风", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_28.png", 
+            "sex": 0, 
+            "userId":8996
+        }, 
+        {
+            "coin": 1501768, 
+            "name": "纤纤公子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_29.png", 
+            "sex": 0, 
+            "userId":8997
+        }, 
+        {
+            "coin": 2473655, 
+            "name": "帅比柠七", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_30.png", 
+            "sex": 0, 
+            "userId":8998
+        }, 
+        {
+            "coin": 1824393, 
+            "name": "长得帅会喊麦v", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_1_31.png", 
+            "sex": 0, 
+            "userId":8999
+        }, 
+        {
+            "coin": 2222957, 
+            "name": "草莓萌妹酱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_56.png", 
+            "sex": 1, 
+            "userId":9000
+        }, 
+        {
+            "coin": 2862588, 
+            "name": "软萌猫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_57.png", 
+            "sex": 1, 
+            "userId":9001
+        }, 
+        {
+            "coin": 1174193, 
+            "name": "幼懵少女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_58.png", 
+            "sex": 1, 
+            "userId":9002
+        }, 
+        {
+            "coin": 2130894, 
+            "name": "平乳萌妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_59.png", 
+            "sex": 1, 
+            "userId":9003
+        }, 
+        {
+            "coin": 1314707, 
+            "name": "幼稚园妹妹>c<", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_60.png", 
+            "sex": 1, 
+            "userId":9004
+        }, 
+        {
+            "coin": 2780790, 
+            "name": "四分萌气^*", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_61.png", 
+            "sex": 1, 
+            "userId":9005
+        }, 
+        {
+            "coin": 1967591, 
+            "name": "布嘤布嘤", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_62.png", 
+            "sex": 1, 
+            "userId":9006
+        }, 
+        {
+            "coin": 1371149, 
+            "name": "兔叽妹妹的胡萝卜", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_63.png", 
+            "sex": 1, 
+            "userId":9007
+        }, 
+        {
+            "coin": 2532843, 
+            "name": "夏萌娘", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_64.png", 
+            "sex": 1, 
+            "userId":9008
+        }, 
+        {
+            "coin": 1631693, 
+            "name": "大眼萌嘟宝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_65.png", 
+            "sex": 1, 
+            "userId":9009
+        }, 
+        {
+            "coin": 2529464, 
+            "name": "＾你和喵", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_66.png", 
+            "sex": 1, 
+            "userId":9010
+        }, 
+        {
+            "coin": 1914882, 
+            "name": "软妹咿呀哟", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_67.png", 
+            "sex": 1, 
+            "userId":9011
+        }, 
+        {
+            "coin": 1733638, 
+            "name": "╰激萌美少女╯", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_68.png", 
+            "sex": 1, 
+            "userId":9012
+        }, 
+        {
+            "coin": 2888392, 
+            "name": "BOOM_软酱酱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_69.png", 
+            "sex": 1, 
+            "userId":9013
+        }, 
+        {
+            "coin": 2013927, 
+            "name": "甜心猫宠女の", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_70.png", 
+            "sex": 1, 
+            "userId":9014
+        }, 
+        {
+            "coin": 2614833, 
+            "name": "小脸红扑扑", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_71.png", 
+            "sex": 1, 
+            "userId":9015
+
+        }, 
+        {
+
+            "coin": 1585153, 
+
+            "name": "喵吉欧尼酱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_72.png", 
+            "sex": 1, 
+            "userId":9016
+        }, 
+        {
+            "coin": 2250038, 
+            "name": "の酱酱酱>=<", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_73.png", 
+            "sex": 1, 
+            "userId":9017
+        }, 
+        {
+            "coin": 1884988, 
+            "name": "小可爱的梦", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_74.png", 
+            "sex": 1, 
+            "userId":9018
+        }, 
+        {
+            "coin": 2299736, 
+            "name": "暖心萌菇凉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_75.png", 
+            "sex": 1, 
+            "userId":9019
+        }, 
+        {
+            "coin": 2348660, 
+            "name": "卖萌嘟嘴萌妹纸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_76.png", 
+            "sex": 1, 
+            "userId":9020
+        }, 
+        {
+            "coin": 1550872, 
+            "name": "糖ル", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_77.png", 
+            "sex": 1, 
+            "userId":9021
+        }, 
+        {
+            "coin": 1541533, 
+            "name": "ゞ糖宝宝シ°", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_78.png", 
+            "sex": 1, 
+            "userId":9022
+        }, 
+        {
+            "coin": 2846667, 
+            "name": "╰暴走的兔子╯", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_79.png", 
+            "sex": 1, 
+            "userId":9023
+        }, 
+        {
+            "coin": 1326243, 
+            "name": "木有牙的兔纸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_80.png", 
+            "sex": 1, 
+            "userId":9024
+        }, 
+        {
+            "coin": 1846236, 
+            "name": "抿嘴软妹O^＠^O", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_81.png", 
+            "sex": 1, 
+            "userId":9025
+        }, 
+        {
+            "coin": 1166617, 
+            "name": "暖心萌i", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_82.png", 
+            "sex": 1, 
+            "userId":9026
+        }, 
+        {
+            "coin": 2126885, 
+            "name": "捧猫小可爱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_83.png", 
+            "sex": 1, 
+            "userId":9027
+        }, 
+        {
+            "coin": 1975999, 
+            "name": "阿桃狸子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_84.png", 
+            "sex": 1, 
+            "userId":9028
+        }, 
+        {
+            "coin": 1804268, 
+            "name": "乖僻猫性", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_85.png", 
+            "sex": 1, 
+            "userId":9029
+        }, 
+        {
+            "coin": 2596932, 
+            "name": "揉脸萌态ノ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_86.png", 
+            "sex": 1, 
+            "userId":9030
+        }, 
+        {
+            "coin": 1669836, 
+            "name": "稚气未脱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_0.png", 
+            "sex": 1, 
+            "userId":9031
+        }, 
+        {
+            "coin": 2650114, 
+            "name": "＊生性太萌", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_1.png", 
+            "sex": 1, 
+            "userId":9032
+        }, 
+        {
+            "coin": 2748690, 
+            "name": "软酱奶糖", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_2.png", 
+            "sex": 1, 
+            "userId":9033
+        }, 
+        {
+            "coin": 2667652, 
+            "name": "病娇萌友○", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_3.png", 
+            "sex": 1, 
+            "userId":9034
+        }, 
+        {
+            "coin": 1372533, 
+            "name": "爆宠萝莉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_4.png", 
+            "sex": 1, 
+            "userId":9035
+        }, 
+        {
+            "coin": 1984649, 
+            "name": "O甜音幼稚妹>c<", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_5.png", 
+            "sex": 1, 
+            "userId":9036
+        }, 
+        {
+            "coin": 2142939, 
+            "name": "童趣萌妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_6.png", 
+            "sex": 1, 
+            "userId":9037
+        }, 
+        {
+            "coin": 1913430, 
+            "name": "ˇ●萌萌小仙女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_7.png", 
+            "sex": 1, 
+            "userId":9038
+        }, 
+        {
+            "coin": 2635612, 
+            "name": "天朝妹子最美腻", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_8.png", 
+            "sex": 1, 
+            "userId":9039
+        }, 
+        {
+            "coin": 2152947, 
+            "name": "蔸蔸猪", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_9.png", 
+            "sex": 1, 
+            "userId":9040
+        }, 
+        {
+            "coin": 2770304, 
+            "name": "奶哟小仙女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_10.png", 
+            "sex": 1, 
+            "userId":9041
+        }, 
+        {
+            "coin": 2221671, 
+            "name": "优雅的小猪", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_11.png", 
+            "sex": 1, 
+            "userId":9042
+        }, 
+        {
+            "coin": 2999820, 
+            "name": "飞翔的企鹅", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_12.png", 
+            "sex": 1, 
+            "userId":9043
+        }, 
+        {
+            "coin": 1149005, 
+            "name": "小猪快跑", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_13.png", 
+            "sex": 1, 
+            "userId":9044
+        }, 
+        {
+            "coin": 1360603, 
+            "name": "萌妹子不装萌", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_14.png", 
+            "sex": 1, 
+            "userId":9045
+        }, 
+        {
+            "coin": 2999121, 
+            "name": "流氓没有兔", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_15.png", 
+            "sex": 1, 
+            "userId":9046
+        }, 
+        {
+            "coin": 2220642, 
+            "name": "多多萌爆了", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_16.png", 
+            "sex": 1, 
+            "userId":9047
+        }, 
+        {
+            "coin": 2148504, 
+            "name": "西瓜凉了半个夏", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_17.png", 
+            "sex": 1, 
+            "userId":9048
+        }, 
+        {
+            "coin": 1193341, 
+            "name": "街角的那只喵", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_18.png", 
+            "sex": 1, 
+            "userId":9049
+        }, 
+        {
+            "coin": 1154507, 
+            "name": "哦薄荷仙女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_19.png", 
+            "sex": 1, 
+            "userId":9050
+        }, 
+        {
+            "coin": 2464059, 
+            "name": "萌面女超人", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_20.png", 
+            "sex": 1, 
+            "userId":9051
+        }, 
+        {
+            "coin": 2863772, 
+            "name": "鹿死玫瑰海", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_21.png", 
+            "sex": 1, 
+            "userId":9052
+        }, 
+        {
+            "coin": 1075038, 
+            "name": "兜里ё块糖", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_22.png", 
+            "sex": 1, 
+            "userId":9053
+        }, 
+        {
+            "coin": 2496789, 
+            "name": "芋头仔", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_23.png", 
+            "sex": 1, 
+            "userId":9054
+        }, 
+        {
+            "coin": 1739730, 
+            "name": "奇葩小超银", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_24.png", 
+            "sex": 1, 
+            "userId":9055
+        }, 
+        {
+            "coin": 1560557, 
+            "name": "萌杀软妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_25.png", 
+            "sex": 1, 
+            "userId":9056
+        }, 
+        {
+            "coin": 1042158, 
+            "name": "喵不可言", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_26.png", 
+            "sex": 1, 
+            "userId":9057
+        }, 
+        {
+            "coin": 2628795, 
+            "name": "番茄超人", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_27.png", 
+            "sex": 1, 
+            "userId":9058
+        }, 
+        {
+            "coin": 1962209, 
+            "name": "甜心柠檬kiss", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_28.png", 
+            "sex": 1, 
+            "userId":9059
+        }, 
+        {
+            "coin": 2342716, 
+            "name": "草莓味的吻", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_29.png", 
+            "sex": 1, 
+            "userId":9060
+        }, 
+        {
+            "coin": 1993710, 
+            "name": "薯条少女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_30.png", 
+            "sex": 1, 
+            "userId":9061
+        }, 
+        {
+            "coin": 1359240, 
+            "name": "素素猫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_31.png", 
+            "sex": 1, 
+            "userId":9062
+        }, 
+        {
+            "coin": 2030985, 
+            "name": "葡萄不淘", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_32.png", 
+            "sex": 1, 
+            "userId":9063
+        }, 
+        {
+            "coin": 1415097, 
+            "name": "笨死的小猪", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_33.png", 
+            "sex": 1, 
+            "userId":9064
+        }, 
+        {
+            "coin": 1081091, 
+            "name": "马尾少女闪着光", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_34.png", 
+            "sex": 1, 
+            "userId":9065
+        }, 
+        {
+            "coin": 2319077, 
+            "name": "激萌^PInK", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_35.png", 
+            "sex": 1, 
+            "userId":9066
+        }, 
+        {
+            "coin": 1091430, 
+            "name": "萌比小欧巴", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_36.png", 
+            "sex": 1, 
+            "userId":9067
+        }, 
+        {
+            "coin": 1106590, 
+            "name": "可爱界的扛把子", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_37.png", 
+            "sex": 1, 
+            "userId":9068
+        }, 
+        {
+            "coin": 1123157, 
+            "name": "小猫佳佳", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_38.png", 
+            "sex": 1, 
+            "userId":9069
+        }, 
+        {
+            "coin": 2852961, 
+            "name": "喵咕酱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_39.png", 
+            "sex": 1, 
+            "userId":9070
+        }, 
+        {
+            "coin": 1914087, 
+            "name": "卖萌失败", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_40.png", 
+            "sex": 1, 
+            "userId":9071
+        }, 
+        {
+            "coin": 2899973, 
+            "name": "蘑菇滴滴", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_41.png", 
+            "sex": 1, 
+            "userId":9072
+        }, 
+        {
+            "coin": 1815184, 
+            "name": "萝莉有杀气", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_42.png", 
+            "sex": 1, 
+            "userId":9073
+        }, 
+        {
+            "coin": 2201308, 
+            "name": "平扎小仙女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_43.png", 
+            "sex": 1, 
+            "userId":9074
+        }, 
+        {
+            "coin": 2966475, 
+            "name": "第一届美少女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_44.png", 
+            "sex": 1, 
+            "userId":9075
+        }, 
+        {
+            "coin": 1837675, 
+            "name": "厥厥嘴", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_45.png", 
+            "sex": 1, 
+            "userId":9076
+        }, 
+        {
+            "coin": 2883066, 
+            "name": "柠萌汁", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_46.png", 
+            "sex": 1, 
+            "userId":9077
+        }, 
+        {
+            "coin": 2032076, 
+            "name": "萌哒哒的傲气", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_47.png", 
+            "sex": 1, 
+            "userId":9078
+        }, 
+        {
+            "coin": 1049385, 
+            "name": "氧气柠檬", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_48.png", 
+            "sex": 1, 
+            "userId":9079
+        }, 
+        {
+            "coin": 1617600, 
+            "name": "北岛离人", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_49.png", 
+            "sex": 1, 
+            "userId":9080
+        }, 
+        {
+            "coin": 1821572, 
+            "name": "萌面怪兽", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_50.png", 
+            "sex": 1, 
+            "userId":9081
+        }, 
+        {
+            "coin": 1176136, 
+            "name": "酒窝上的奶油", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_51.png", 
+            "sex": 1, 
+            "userId":9082
+        }, 
+        {
+            "coin": 1935050, 
+            "name": "软醉萌女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_52.png", 
+            "sex": 1, 
+            "userId":9083
+        }, 
+        {
+            "coin": 1609882, 
+            "name": "瞄小懒", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_53.png", 
+            "sex": 1, 
+            "userId":9084
+        }, 
+        {
+            "coin": 2916864, 
+            "name": "萌量不足", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_54.png", 
+            "sex": 1, 
+            "userId":9085
+        }, 
+        {
+            "coin": 2433402, 
+            "name": "笨小妞", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_55.png", 
+            "sex": 1, 
+            "userId":9086
+        }, 
+        {
+            "coin": 1219025, 
+            "name": "呆萌ω小甜心", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_56.png", 
+            "sex": 1, 
+            "userId":9087
+        }, 
+        {
+            "coin": 1517712, 
+            "name": "不撒娇的折耳猫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_57.png", 
+            "sex": 1, 
+            "userId":9088
+        }, 
+        {
+            "coin": 2964423, 
+            "name": "嘴含ツ樱挑", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_58.png", 
+            "sex": 1, 
+            "userId":9089
+        }, 
+        {
+            "coin": 1120199, 
+            "name": "嗲声萌妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_59.png", 
+            "sex": 1, 
+            "userId":9090
+        }, 
+        {
+            "coin": 1990334, 
+            "name": "萌面鹿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_60.png", 
+            "sex": 1, 
+            "userId":9091
+        }, 
+        {
+            "coin": 2387178, 
+            "name": "奶油小可爱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_61.png", 
+            "sex": 1, 
+            "userId":9092
+        }, 
+        {
+            "coin": 1102850, 
+            "name": "馋猫儿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_62.png", 
+            "sex": 1, 
+            "userId":9093
+        }, 
+        {
+            "coin": 1264586, 
+            "name": "软妹蘑菇酱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_63.png", 
+            "sex": 1, 
+            "userId":9094
+        }, 
+        {
+            "coin": 1917690, 
+            "name": "鱼缸前的猫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_64.png", 
+            "sex": 1, 
+            "userId":9095
+        }, 
+        {
+            "coin": 2574550, 
+            "name": "萝莉病", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_65.png", 
+            "sex": 1, 
+            "userId":9096
+        }, 
+        {
+            "coin": 1091508, 
+            "name": "木冇鱼丸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_66.png", 
+            "sex": 1, 
+            "userId":9097
+        }, 
+        {
+            "coin": 1072147, 
+            "name": "激萌﹀甜心", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_67.png", 
+            "sex": 1, 
+            "userId":9098
+        }, 
+        {
+            "coin": 2931004, 
+            "name": "牛奶煮软妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_68.png", 
+            "sex": 1, 
+            "userId":9099
+        }, 
+        {
+            "coin": 2181433, 
+            "name": "樱花酱萌妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_69.png", 
+            "sex": 1, 
+            "userId":9100
+        }, 
+        {
+            "coin": 1551377, 
+            "name": "调皮古怪还爱闹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_70.png", 
+            "sex": 1, 
+            "userId":9101
+        }, 
+        {
+            "coin": 2014201, 
+            "name": "萌耳尐女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_71.png", 
+            "sex": 1, 
+            "userId":9102
+        }, 
+        {
+            "coin": 1145844, 
+            "name": "笨笨猪", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_72.png", 
+            "sex": 1, 
+            "userId":9103
+        }, 
+        {
+            "coin": 1741212, 
+            "name": "猫忘了鱼尾纱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_73.png", 
+            "sex": 1, 
+            "userId":9104
+        }, 
+        {
+            "coin": 1752823, 
+            "name": "天杀的可爱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_74.png", 
+            "sex": 1, 
+            "userId":9105
+        }, 
+        {
+            "coin": 2475141, 
+            "name": "爱做梦的小孩", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_75.png", 
+            "sex": 1, 
+            "userId":9106
+        }, 
+        {
+            "coin": 2089782, 
+            "name": "不要太可爱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_76.png", 
+            "sex": 1, 
+            "userId":9107
+        }, 
+        {
+            "coin": 1284870, 
+            "name": "小跑追幸福", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_77.png", 
+            "sex": 1, 
+            "userId":9108
+        }, 
+        {
+            "coin": 1234091, 
+            "name": "番茄你个白薯", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_78.png", 
+            "sex": 1, 
+            "userId":9109
+        }, 
+        {
+            "coin": 1940437, 
+            "name": "神经大条妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_79.png", 
+            "sex": 1, 
+            "userId":9110
+        }, 
+        {
+            "coin": 1925935, 
+            "name": "我是小猪猪i", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_80.png", 
+            "sex": 1, 
+            "userId":9111
+        }, 
+        {
+            "coin": 1608827, 
+            "name": "萌女·允儿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_81.png", 
+            "sex": 1, 
+            "userId":9112
+        }, 
+        {
+            "coin": 2193885, 
+            "name": "゛_厼猫咪", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_82.png", 
+            "sex": 1, 
+            "userId":9113
+        }, 
+        {
+            "coin": 2235801, 
+            "name": "古怪软萌妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_83.png", 
+            "sex": 1, 
+            "userId":9114
+        }, 
+        {
+            "coin": 2427692, 
+            "name": "自幼可爱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_84.png", 
+            "sex": 1, 
+            "userId":9115
+        }, 
+        {
+            "coin": 1577462, 
+            "name": "暴力野萝莉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_85.png", 
+            "sex": 1, 
+            "userId":9116
+        }, 
+        {
+            "coin": 2218125, 
+            "name": "可爱一如往常", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_86.png", 
+            "sex": 1, 
+            "userId":9117
+        }, 
+        {
+            "coin": 1505807, 
+            "name": "打小我就淘i", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_0.png", 
+            "sex": 1, 
+            "userId":9118
+        }, 
+        {
+            "coin": 1476032, 
+            "name": "甛甛dē餹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_1.png", 
+            "sex": 1, 
+            "userId":9119
+        }, 
+        {
+            "coin": 2887068, 
+            "name": "污萌少女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_2.png", 
+            "sex": 1, 
+            "userId":9120
+        }, 
+        {
+            "coin": 1098448, 
+            "name": "萌眯", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_3.png", 
+            "sex": 1, 
+            "userId":9121
+        }, 
+        {
+            "coin": 2755798, 
+            "name": "牛奶煮萝莉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_4.png", 
+            "sex": 1, 
+            "userId":9122
+        }, 
+        {
+            "coin": 2040788, 
+            "name": "空大萌妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_5.png", 
+            "sex": 1, 
+            "userId":9123
+        }, 
+        {
+            "coin": 2111895, 
+            "name": "软萌猫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_6.png", 
+            "sex": 1, 
+            "userId":9124
+        }, 
+        {
+            "coin": 1322200, 
+            "name": "玛丽莲萌鹿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_7.png", 
+            "sex": 1, 
+            "userId":9125
+        }, 
+        {
+            "coin": 1270938, 
+            "name": "氺粿餹ぎ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_8.png", 
+            "sex": 1, 
+            "userId":9126
+        }, 
+        {
+            "coin": 1371044, 
+            "name": "软Q糖", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_9.png", 
+            "sex": 1, 
+            "userId":9127
+        }, 
+        {
+            "coin": 1715005, 
+            "name": "坏坏的丫头", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_10.png", 
+            "sex": 1, 
+            "userId":9128
+        }, 
+        {
+            "coin": 2924582, 
+            "name": "软妹咿呀哟", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_11.png", 
+            "sex": 1, 
+            "userId":9129
+        }, 
+        {
+            "coin": 2236968, 
+            "name": "野区小公主╬Ψ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_12.png", 
+            "sex": 1, 
+            "userId":9130
+        }, 
+        {
+            "coin": 1130585, 
+            "name": "呆呆宝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_13.png", 
+            "sex": 1, 
+            "userId":9131
+        }, 
+        {
+            "coin": 1561550, 
+            "name": "雨妞", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_14.png", 
+            "sex": 1, 
+            "userId":9132
+        }, 
+        {
+            "coin": 2299336, 
+            "name": "□小猫汪汪汪ε", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_15.png", 
+            "sex": 1, 
+            "userId":9133
+        }, 
+        {
+            "coin": 2087278, 
+            "name": "じ☆ve萌爱灬", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_16.png", 
+            "sex": 1, 
+            "userId":9134
+        }, 
+        {
+            "coin": 2780423, 
+            "name": "可爱多又多", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_17.png", 
+            "sex": 1, 
+            "userId":9135
+        }, 
+        {
+            "coin": 2477915, 
+            "name": "丑萌的人", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_18.png", 
+            "sex": 1, 
+            "userId":9136
+        }, 
+        {
+            "coin": 1113637, 
+            "name": "仙女味TuT", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_19.png", 
+            "sex": 1, 
+            "userId":9137
+        }, 
+        {
+            "coin": 2910000, 
+            "name": "软哞哞的稚女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_20.png", 
+            "sex": 1, 
+            "userId":9138
+        }, 
+        {
+            "coin": 2404236, 
+            "name": "叫我大姐姐！", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_21.png", 
+            "sex": 1, 
+            "userId":9139
+        }, 
+        {
+            "coin": 2364827, 
+            "name": "萌翻了3亿个人", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_22.png", 
+            "sex": 1, 
+            "userId":9140
+        }, 
+        {
+            "coin": 2801898, 
+            "name": "软粉少女心", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_23.png", 
+            "sex": 1, 
+            "userId":9141
+        }, 
+        {
+            "coin": 2098179, 
+            "name": "五项小萝莉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_24.png", 
+            "sex": 1, 
+            "userId":9142
+        }, 
+        {
+            "coin": 2592215, 
+            "name": "别扭的可爱ˇ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_25.png", 
+            "sex": 1, 
+            "userId":9143
+        }, 
+        {
+            "coin": 1566521, 
+            "name": "萌态尤物", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_26.png", 
+            "sex": 1, 
+            "userId":9144
+        }, 
+        {
+            "coin": 2299941, 
+            "name": "猫耳朵胡同巷", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_27.png", 
+            "sex": 1, 
+            "userId":9145
+        }, 
+        {
+            "coin": 2917153, 
+            "name": "可爱小女人", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_28.png", 
+            "sex": 1, 
+            "userId":9146
+        }, 
+        {
+            "coin": 2130297, 
+            "name": "芒果布丁ゝ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_29.png", 
+            "sex": 1, 
+            "userId":9147
+        }, 
+        {
+            "coin": 2583258, 
+            "name": "骑鱼的猫>ω<", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_30.png", 
+            "sex": 1, 
+            "userId":9148
+        }, 
+        {
+            "coin": 1634657, 
+            "name": "萌到你眼炸", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_31.png", 
+            "sex": 1, 
+            "userId":9149
+        }, 
+        {
+            "coin": 1233533, 
+            "name": "软甜kiss", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_32.png", 
+            "sex": 1, 
+            "userId":9150
+        }, 
+        {
+            "coin": 1325877, 
+            "name": "吖头脾气拽i", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_33.png", 
+            "sex": 1, 
+            "userId":9151
+        }, 
+        {
+            "coin": 1146209, 
+            "name": "σェ手捧软猫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_34.png", 
+            "sex": 1, 
+            "userId":9152
+        }, 
+        {
+            "coin": 2456238, 
+            "name": "扑啦猫~wёл", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_35.png", 
+            "sex": 1, 
+            "userId":9153
+        }, 
+        {
+            "coin": 1385990, 
+            "name": "小任性﹌", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_36.png", 
+            "sex": 1, 
+            "userId":9154
+        }, 
+        {
+            "coin": 1828340, 
+            "name": "梧桐林的猫女巫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_37.png", 
+            "sex": 1, 
+            "userId":9155
+        }, 
+        {
+            "coin": 1814474, 
+            "name": "BOOM_软酱酱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_38.png", 
+            "sex": 1, 
+            "userId":9156
+        }, 
+        {
+            "coin": 2017972, 
+            "name": "傲娇妹妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_39.png", 
+            "sex": 1, 
+            "userId":9157
+        }, 
+        {
+            "coin": 2054217, 
+            "name": "软妹的小情书", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_40.png", 
+            "sex": 1, 
+            "userId":9158
+        }, 
+        {
+            "coin": 2769330, 
+            "name": "大萌女i", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_41.png", 
+            "sex": 1, 
+            "userId":9159
+        }, 
+        {
+            "coin": 1716518, 
+            "name": "萌奶", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_42.png", 
+            "sex": 1, 
+            "userId":9160
+        }, 
+        {
+            "coin": 2804678, 
+            "name": "薄荷牛奶萌", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_43.png", 
+            "sex": 1, 
+            "userId":9161
+        }, 
+        {
+            "coin": 1744824, 
+            "name": "萌萌的夏天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_44.png", 
+            "sex": 1, 
+            "userId":9162
+        }, 
+        {
+            "coin": 2571643, 
+            "name": "花糖纸※", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_45.png", 
+            "sex": 1, 
+            "userId":9163
+        }, 
+        {
+            "coin": 1741693, 
+            "name": "权欲萌妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_46.png", 
+            "sex": 1, 
+            "userId":9164
+        }, 
+        {
+            "coin": 1269989, 
+            "name": "眩晕の智障仙女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_47.png", 
+            "sex": 1, 
+            "userId":9165
+        }, 
+        {
+            "coin": 2301552, 
+            "name": "橙子*kiss", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_48.png", 
+            "sex": 1, 
+            "userId":9166
+        }, 
+        {
+            "coin": 2275058, 
+            "name": "绷带长颈鹿︿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_49.png", 
+            "sex": 1, 
+            "userId":9167
+        }, 
+        {
+            "coin": 1659431, 
+            "name": "吃货|有萌点っ^ω^っ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_50.png", 
+            "sex": 1, 
+            "userId":9168
+        }, 
+        {
+            "coin": 2567916, 
+            "name": "超污小萌神", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_51.png", 
+            "sex": 1, 
+            "userId":9169
+        }, 
+        {
+            "coin": 1044308, 
+            "name": "︿奶瘾花猫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_52.png", 
+            "sex": 1, 
+            "userId":9170
+        }, 
+        {
+            "coin": 1001167, 
+            "name": "薄荷喵", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_53.png", 
+            "sex": 1, 
+            "userId":9171
+        }, 
+        {
+            "coin": 2318485, 
+            "name": "采蘑菇的萌宝o宀", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_54.png", 
+            "sex": 1, 
+            "userId":9172
+        }, 
+        {
+            "coin": 2347159, 
+            "name": "全球少女萌主", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_55.png", 
+            "sex": 1, 
+            "userId":9173
+        }, 
+        {
+            "coin": 2863752, 
+            "name": "o喵咕酱>c<", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_56.png", 
+            "sex": 1, 
+            "userId":9174
+        }, 
+        {
+            "coin": 1401518, 
+            "name": "Look°有灰机", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_57.png", 
+            "sex": 1, 
+            "userId":9175
+        }, 
+        {
+            "coin": 1709733, 
+            "name": "初识你名", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_58.png", 
+            "sex": 1, 
+            "userId":9176
+        }, 
+        {
+            "coin": 1153603, 
+            "name": "萌够就回家", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_59.png", 
+            "sex": 1, 
+            "userId":9177
+        }, 
+        {
+            "coin": 1848379, 
+            "name": "柠萌啵啵`ō", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_60.png", 
+            "sex": 1, 
+            "userId":9178
+        }, 
+        {
+            "coin": 1925448, 
+            "name": "Happy的楠姐", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_61.png", 
+            "sex": 1, 
+            "userId":9179
+        }, 
+        {
+            "coin": 2557463, 
+            "name": "萌小姐i", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_62.png", 
+            "sex": 1, 
+            "userId":9180
+        }, 
+        {
+            "coin": 2223884, 
+            "name": "~鬼马萌妹--", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_63.png", 
+            "sex": 1, 
+            "userId":9181
+        }, 
+        {
+            "coin": 2920332, 
+            "name": "抠脚小仙女儿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_64.png", 
+            "sex": 1, 
+            "userId":9182
+        }, 
+        {
+            "coin": 1906658, 
+            "name": "れ蓝愺莓き", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_65.png", 
+            "sex": 1, 
+            "userId":9183
+        }, 
+        {
+            "coin": 1281851, 
+            "name": "浅若夏沫゛", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_66.png", 
+            "sex": 1, 
+            "userId":9184
+        }, 
+        {
+            "coin": 1883568, 
+            "name": "（_猪ぷ猪め", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_67.png", 
+            "sex": 1, 
+            "userId":9185
+        }, 
+        {
+            "coin": 2596239, 
+            "name": "眨眼的舒马赫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_68.png", 
+            "sex": 1, 
+            "userId":9186
+        }, 
+        {
+            "coin": 1081023, 
+            "name": "猫咪先生︶", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_69.png", 
+            "sex": 1, 
+            "userId":9187
+        }, 
+        {
+            "coin": 1725811, 
+            "name": "小短腿要早睡～", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_70.png", 
+            "sex": 1, 
+            "userId":9188
+        }, 
+        {
+            "coin": 1229388, 
+            "name": "·°甜腻的女孩", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_71.png", 
+            "sex": 1, 
+            "userId":9189
+        }, 
+        {
+            "coin": 1168795, 
+            "name": "哼哼哈嘿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_72.png", 
+            "sex": 1, 
+            "userId":9190
+        }, 
+        {
+            "coin": 1107529, 
+            "name": "爱吃草莓的小可爱○", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_73.png", 
+            "sex": 1, 
+            "userId":9191
+        }, 
+        {
+            "coin": 1404167, 
+            "name": "じ絯孑氣‖", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_74.png", 
+            "sex": 1, 
+            "userId":9192
+        }, 
+        {
+            "coin": 1202240, 
+            "name": "奶包迷了鹿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_75.png", 
+            "sex": 1, 
+            "userId":9193
+        }, 
+        {
+            "coin": 2289525, 
+            "name": "SeHun灬丶小萌货", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_76.png", 
+            "sex": 1, 
+            "userId":9194
+        }, 
+        {
+            "coin": 2044225, 
+            "name": "喵骚年", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_77.png", 
+            "sex": 1, 
+            "userId":9195
+        }, 
+        {
+            "coin": 1774351, 
+            "name": "蜜糖ペ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_78.png", 
+            "sex": 1, 
+            "userId":9196
+        }, 
+        {
+            "coin": 2517008, 
+            "name": "小暧昧", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_79.png", 
+            "sex": 1, 
+            "userId":9197
+        }, 
+        {
+            "coin": 1256843, 
+            "name": "兔牙少女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_80.png", 
+            "sex": 1, 
+            "userId":9198
+        }, 
+        {
+            "coin": 1195819, 
+            "name": "深爱不腻", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_81.png", 
+            "sex": 1, 
+            "userId":9199
+        }, 
+        {
+            "coin": 1271326, 
+            "name": "软甜啾", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_82.png", 
+            "sex": 1, 
+            "userId":9200
+        }, 
+        {
+            "coin": 1600578, 
+            "name": "有它我暧", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_83.png", 
+            "sex": 1, 
+            "userId":9201
+        }, 
+        {
+            "coin": 1507305, 
+            "name": "超级甜的loli", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_84.png", 
+            "sex": 1, 
+            "userId":9202
+        }, 
+        {
+            "coin": 1316825, 
+            "name": "萝莉味软妹酥", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_85.png", 
+            "sex": 1, 
+            "userId":9203
+        }, 
+        {
+            "coin": 1226554, 
+            "name": "香芋萝莉", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_86.png", 
+            "sex": 1, 
+            "userId":9204
+        }, 
+        {
+            "coin": 1980901, 
+            "name": "大眼萌嘟宝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_0.png", 
+            "sex": 1, 
+            "userId":9205
+        }, 
+        {
+            "coin": 1931478, 
+            "name": "卖萌天才*′▽`*", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_1.png", 
+            "sex": 1, 
+            "userId":9206
+        }, 
+        {
+            "coin": 2039326, 
+            "name": "萌界大人物", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_2.png", 
+            "sex": 1, 
+            "userId":9207
+        }, 
+        {
+            "coin": 2196733, 
+            "name": "我太乖", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_3.png", 
+            "sex": 1, 
+            "userId":9208
+        }, 
+        {
+            "coin": 1189130, 
+            "name": "楼下万能小黑君ㄟ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_4.png", 
+            "sex": 1, 
+            "userId":9209
+        }, 
+        {
+            "coin": 1845490, 
+            "name": "草莓味中二女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_5.png", 
+            "sex": 1, 
+            "userId":9210
+        }, 
+        {
+            "coin": 2987319, 
+            "name": "￡紫色★棉花糖彡", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_6.png", 
+            "sex": 1, 
+            "userId":9211
+        }, 
+        {
+            "coin": 2069923, 
+            "name": "ε（ｏ揉脸萌态ノ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_7.png", 
+            "sex": 1, 
+            "userId":9212
+        }, 
+        {
+            "coin": 2912711, 
+            "name": "软妹界大佬", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_8.png", 
+            "sex": 1, 
+            "userId":9213
+        }, 
+        {
+            "coin": 2320561, 
+            "name": "空大萌妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_9.png", 
+            "sex": 1, 
+            "userId":9214
+        }, 
+        {
+            "coin": 1726758, 
+            "name": "爱猫的软妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_10.png", 
+            "sex": 1, 
+            "userId":9215
+        }, 
+        {
+            "coin": 2852518, 
+            "name": "猫耳萌娘", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_11.png", 
+            "sex": 1, 
+            "userId":9216
+        }, 
+        {
+            "coin": 2027197, 
+            "name": "软妹蘑菇酱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_12.png", 
+            "sex": 1, 
+            "userId":9217
+        }, 
+        {
+            "coin": 1427835, 
+            "name": "软兔酒ˇの", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_13.png", 
+            "sex": 1, 
+            "userId":9218
+        }, 
+        {
+            "coin": 1960301, 
+            "name": "嘟嘴小妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_14.png", 
+            "sex": 1, 
+            "userId":9219
+        }, 
+        {
+            "coin": 2230504, 
+            "name": "乖乖公主", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_15.png", 
+            "sex": 1, 
+            "userId":9220
+        }, 
+        {
+            "coin": 1424590, 
+            "name": "★丶牵手手ゝ", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_16.png", 
+            "sex": 1, 
+            "userId":9221
+        }, 
+        {
+            "coin": 2186299, 
+            "name": "奶猫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_17.png", 
+            "sex": 1, 
+            "userId":9222
+        }, 
+        {
+            "coin": 1659395, 
+            "name": "萌音小软妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_18.png", 
+            "sex": 1, 
+            "userId":9223
+        }, 
+        {
+            "coin": 2669699, 
+            "name": "萌态尤物", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_19.png", 
+            "sex": 1, 
+            "userId":9224
+        }, 
+        {
+            "coin": 1126640, 
+            "name": "萌酱の小可爱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_20.png", 
+            "sex": 1, 
+            "userId":9225
+        }, 
+        {
+            "coin": 1177452, 
+            "name": "萌阿边", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_21.png", 
+            "sex": 1, 
+            "userId":9226
+        }, 
+        {
+            "coin": 2666189, 
+            "name": "梦幻の蝴蝶", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_22.png", 
+            "sex": 1, 
+            "userId":9227
+        }, 
+        {
+            "coin": 2634104, 
+            "name": "浪萌妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_23.png", 
+            "sex": 1, 
+            "userId":9228
+        }, 
+        {
+            "coin": 1334439, 
+            "name": "咿呀咿呀哄", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_24.png", 
+            "sex": 1, 
+            "userId":9229
+        }, 
+        {
+            "coin": 1369035, 
+            "name": "挺萌的⊙", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_25.png", 
+            "sex": 1, 
+            "userId":9230
+        }, 
+        {
+            "coin": 2272624, 
+            "name": "长耳朵兔/）", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_26.png", 
+            "sex": 1, 
+            "userId":9231
+        }, 
+        {
+            "coin": 2499002, 
+            "name": "蝶ル飛", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_27.png", 
+            "sex": 1, 
+            "userId":9232
+        }, 
+        {
+            "coin": 2830651, 
+            "name": "×傲娇小野猫﹀", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_28.png", 
+            "sex": 1, 
+            "userId":9233
+        }, 
+        {
+            "coin": 2811775, 
+            "name": "西瓜の夏天", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_29.png", 
+            "sex": 1, 
+            "userId":9234
+        }, 
+        {
+            "coin": 1261563, 
+            "name": "柠檬酱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_30.png", 
+            "sex": 1, 
+            "userId":9235
+        }, 
+        {
+            "coin": 2723839, 
+            "name": "σェ手捧软猫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_31.png", 
+            "sex": 1, 
+            "userId":9236
+        }, 
+        {
+            "coin": 2005528, 
+            "name": "粉萌心愿", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_32.png", 
+            "sex": 1, 
+            "userId":9237
+        }, 
+        {
+            "coin": 1201074, 
+            "name": "呆呆宝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_33.png", 
+            "sex": 1, 
+            "userId":9238
+        }, 
+        {
+            "coin": 1591835, 
+            "name": "糖小沫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_34.png", 
+            "sex": 1, 
+            "userId":9239
+        }, 
+        {
+            "coin": 2973757, 
+            "name": "嘟嘟宝", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_35.png", 
+            "sex": 1, 
+            "userId":9240
+        }, 
+        {
+            "coin": 1369915, 
+            "name": "外星小萌怪i", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_36.png", 
+            "sex": 1, 
+            "userId":9241
+        }, 
+        {
+            "coin": 1092830, 
+            "name": "瞳__尛俏", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_37.png", 
+            "sex": 1, 
+            "userId":9242
+        }, 
+        {
+            "coin": 2942241, 
+            "name": "草莓萌妹酱", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_38.png", 
+            "sex": 1, 
+            "userId":9243
+        }, 
+        {
+            "coin": 1932184, 
+            "name": "软萌猫", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_39.png", 
+            "sex": 1, 
+            "userId":9244
+        }, 
+        {
+            "coin": 1164076, 
+            "name": "幼懵少女", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_40.png", 
+            "sex": 1, 
+            "userId":9245
+        }, 
+        {
+            "coin": 1446557, 
+            "name": "平乳萌妹", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_41.png", 
+            "sex": 1, 
+            "userId":9246
+        }, 
+        {
+            "coin": 2965425, 
+            "name": "幼稚园妹妹>c<", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_42.png", 
+            "sex": 1, 
+            "userId":9247
+        }, 
+        {
+            "coin": 1687559, 
+            "name": "四分萌气^*", 
+            "purl": "http://ddz.dl.tuyoo.com/cdn37/3dmajiang/sz_0_43.png", 
+            "sex": 1, 
+            "userId":9248
+        }
+    ]
+}

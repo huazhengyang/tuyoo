@@ -1,0 +1,69 @@
+{
+	"local":["0", "1"],
+	"list":[
+		{
+			"id":"1001",
+			"name":"girl",
+			"display":"初恋", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/girl/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/girl/preview.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count":30,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【初恋】永久皮肤，售价30钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/girl/girl_v2_u1.zip",
+			"md5":"7b58ae8cd879a8921e606d52f67a2c9a"
+		},
+		{
+			"id":"1002",
+			"name":"green",
+			"display":"绿色", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/green/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/green/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":0,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【绿色】永久皮肤，售价1000金币，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/green/green_v2_u1.zip",
+			"md5":"d03bf5a76b8497a269105ce939aa9a2a"
+		},
+		{
+			"id":"1003",
+			"name":"grid",
+			"display":"格子", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/grid/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/grid/preview.png",
+			"fee":{
+				"itemId" : "user:chip",
+				"count":30000,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/chip.png",
+				"desc":"【格子】永久皮肤，售价30000金币，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/grid/grid_v2_u1.zip",
+			"md5":"4ecef29b609c2326a89cdf723e8a5a91"
+		},
+		{
+			"id":"1004",
+			"name":"newyear",
+			"display":"春节", 
+			"update":1,
+			"icon":"${http_download}/dizhu/table.skin/newyear/icon.png",
+			"preview":"${http_download}/dizhu/table.skin/newyear/preview_2.png",
+			"fee":{
+				"itemId" : "user:diamond",
+				"count":10,
+				"pic":"${http_download}/dizhu/table.skin/fee.img/diamond.png",
+				"desc":"【春节】永久皮肤，售价10钻石，确定购买？"
+			},
+			"url":"${http_download}/dizhu/table.skin/newyear/newyear_v2_u1.zip",
+			"md5":"14d2b7aa0972f972141ad6cd8f9c4f80"
+		}
+	]
+}

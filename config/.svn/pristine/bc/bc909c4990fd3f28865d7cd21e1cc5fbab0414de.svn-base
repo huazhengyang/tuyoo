@@ -1,0 +1,35 @@
+{
+    "typeName" : "normal",
+    "name" : "梦幻珊瑚",
+    "sceneName":"string_menghuanshanhu",
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "dummyUserCount" : 0,
+    "gameServerCount" : 20,
+    "gameTableCount" : 50,
+    "ismatch" : 0,
+    "maxLevel" : 13,
+    "minCoin" : 0,
+    "minGunLevel":2101,
+    "cmpttTaskLevel": 1,
+    "cmpttTaskInterval": 900,
+    "cmpttTaskIFishNum": 0,
+    "miniGameLevel": 1,
+    "fakeUserEnvelopeRewardRange": [300, 500],
+    "shelterShadowRoomIds":[600011001],
+    "openShadowRoomIdsDispatch":[
+        {
+            "version": {"start": 0, "end": 3.8},
+            "shadowRoomIds": {"start": 600011002, "end": 600011002}
+        },
+        {
+            "version": {"start": 3.8, "end": 100},
+            "shadowRoomIds": {"start": 600011003, "end": 600011004}
+        }
+    ],
+    "tableConf" : {
+        "fishGroupsName":"string_menghuanshanhu",
+        "fishTideName":"tideLevel1",
+        "maxSeatN": 4
+    }
+}

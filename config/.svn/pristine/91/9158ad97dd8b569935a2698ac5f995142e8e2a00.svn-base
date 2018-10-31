@@ -1,0 +1,208 @@
+{
+	"templates": 
+	{
+		"guobiao_v4.55_guoshen": 
+		{
+			"desc": "四川麻将过审模板",
+			"activities": 
+			[
+				"guobiao_activity_ddz_realnamereg_170420",
+				"guobiao_activity_code_duihuanma_0201",
+				"guobiao_activity_notice_51match_2015-05-28"
+			]
+		},
+		"guobiao_v4.55_shangxian": 
+		{
+			"desc": "麻将无双单包上线模板",
+			"activities": 
+			[
+				"guobiao_activity_notice_51match_2015-05-28",
+				"guobiao_activity_ddz_realnamereg_170420",
+				"guobiao_activity_code_duihuanma_0201"
+			]
+		},
+		"guobiao_v4.55_AI_tishen": 
+		{
+			"desc": "四川麻将提审专用",
+			"activities": 
+			[
+				"guobiao_4.55_tishen"
+			]
+		}
+	},
+	"activities": 
+	{
+		"guobiao_4.55_tishen": 
+		{
+			"id": "guobiao_4.55_tishen",
+			"des": "如果您对我们的游戏有什么问题或者建议，欢迎联系我们的客服，客服电话：4008098000",
+			"moduleId": "notice_img",
+			"typeid": 1,
+			"name": "健康游戏",
+			"server_config": 
+			{
+				"start": "2016-01-30 00:00:00",
+				"end": "2018-07-25 00:00:00"
+			},
+			"config": 
+			{
+				"firstButton": 
+				{
+					"visible": 0,
+					"action": "",
+					"params": 
+					{
+						"duration": 2,
+						"text": "确定"
+					}
+				},
+				"secondButton": 
+				{
+					"visible": 0,
+					"action": "",
+					"params": 
+					{
+						"duration": 2,
+						"text": "确定"
+					}
+				},
+				"bgURL": "${http_download}/majiang/images/act/mj_tishen_659x453.png"
+			},
+			"url": ""
+		},
+		"guobiao_activity_code_duihuanma_0201": 
+		{
+			"id": "guobiao_activity_code_duihuanma_0201",
+			"des": "如有问题，请拨打客服电话：4008098000。",
+			"moduleId": "input_3761",
+			"typeid": 3,
+			"name": "兑换码活动",
+			"server_config": 
+			{
+				"start": "2015-02-28 00:00:00",
+				"end": "2020-12-30 00:00:00"
+			},
+			"config": 
+			{
+				"titleURL": "",
+				"bgURL": "${http_download}/hall/act/complete/input/act_exchange_0110.jpg"
+			}
+		},
+		"guobiao_activity_notice_51match_2015-05-28": 
+		{
+			"id": "guobiao_activity_notice_51match_2015-05-28",
+			"des": "公告信息，敬请各位关注。",
+			"moduleId": "notice_img",
+			"typeid": 1,
+			"name": "公告板",
+			"server_config": 
+			{
+				"start": "2015-02-28 00:00:00",
+				"end": "2017-11-17 00:00:00"
+			},
+			"config": 
+			{
+				"firstButton": 
+				{
+					"visible": 0,
+					"action": "pop_tip",
+					"params": 
+					{
+						"duration": 2,
+						"text": "确定"
+					}
+				},
+				"secondButton": 
+				{
+					"visible": 0,
+					"action": "pop_tip",
+					"params": 
+					{
+						"duration": 2,
+						"text": "确定"
+					}
+				},
+				"bgURL": "${http_download}/hall/act/complete/notice_img/act_notice_1125.jpg"
+			},
+			"url": "http://ddz.dl.tuyoo.com/activity/complete/notice_img/notice_img.js"
+		},
+		"guobiao_activity_mj_hongbaosai_gongzhonghao": 
+		{
+			"id": "guobiao_activity_mj_hongbaosai_gongzhonghao",
+			"des": "领取微信红包需按照以上教程绑定微信账号。",
+			"moduleId": "notice_img",
+			"typeid": 1,
+			"name": "微信绑定流程",
+			"server_config": 
+			{
+				"start": "2016-07-20 00:00:00",
+				"end": "2018-07-27 00:00:00"
+			},
+			"config": 
+			{
+				"firstButton": 
+				{
+					"visible": 0,
+					"action": "",
+					"params": 
+					{
+						"duration": 2,
+						"text": "确定"
+					}
+				},
+				"secondButton": 
+				{
+					"visible": 0,
+					"action": "",
+					"params": 
+					{
+						"duration": 2,
+						"text": "确定"
+					}
+				},
+				"bgURL": "${http_download}/hall/act/complete/general_btn/act_weixinbangding_08312.jpg"
+			},
+			"url": ""
+		},
+		"guobiao_activity_ddz_realnamereg_170420": 
+		{
+			"id": "guobiao_activity_ddz_realnamereg_170420",
+			"des": "实名认证",
+			"moduleId": "realName_certification",
+			"typeid": 1,
+			"name": "实名认证",
+			"server_config": 
+			{
+				"start": "2017-04-20 00:00:00",
+				"end": "2018-11-17 00:00:00"
+			},
+			"config": 
+			{
+				"firstButton": 
+				{
+					"visible": 0,
+					"action": "pop_tip",
+					"params": 
+					{
+						"duration": 2,
+						"text": "确定"
+					}
+				},
+				"secondButton": 
+				{
+					"visible": 0,
+					"action": "pop_tip",
+					"params": 
+					{
+						"duration": 2,
+						"text": "确定"
+					}
+				}
+			}
+		}
+	},
+	"modules": 
+	{
+		
+	}
+}

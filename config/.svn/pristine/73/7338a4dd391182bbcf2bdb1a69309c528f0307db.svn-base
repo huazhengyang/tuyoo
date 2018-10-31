@@ -1,0 +1,133 @@
+{
+  "_comments": [
+    "一个按钮的配置示例:",
+    {
+      "ui": {
+        "//": "下面二项互斥",
+        "ccbi": "ccbi_name",
+        "pic": "http path to pic"
+      },
+      "act": {
+        "//": "下面二项互斥",
+        "todotask": {},
+        "event": {
+          "name": "ev_name",
+          "//": "param可以没有",
+          "param": {}
+        }
+      }
+    }
+  ],
+  "buttons": {
+    "": {},
+    "match_preview": {
+      "name": "今日赛事",
+      "ui": {
+        "pic": "${http_download}/texas/images/subHallBtnBar/match_preview.png"
+      },
+      "act": {
+        "event": {
+          "name": "DZ_CMD_SHOW_MATCH_PREVIEW",
+          "params": {"ctor":{"index":0},"params":{}}
+        }
+      }
+    },
+    "glory_champion": {
+      "name": "荣誉堂",
+      "ui": {
+        "pic": "${http_download}/texas/images/subHallBtnBar/glory_champion.png"
+      },
+      "act": {
+        "event": {
+          "name": "DZ_CMD_SHOW_HONOURHALL_PREVIEW",
+          "params": {"ctor":{"index":0},"params":{}}
+        }
+      }
+    },
+    "login_reward": {
+      "name": "登录奖励",
+      "ui": {
+        "pic": "${http_download}/texas/images/subHallBtnBar/login_reward.png"
+      },
+      "act": {
+        "todotask": {
+          "action": "dz_everydaylogin",
+          "params": {}
+        }
+      }
+    },
+    "red_envelope": {
+      "type":"red_envelope",
+      "name": "发红包",
+      "ui": {
+        "pic": "${http_download}/texas/images/subHallBtnBar/red_envelope.png"
+      },
+      "act": {
+        "todotask": {
+        }
+      }
+    },
+    "achievement": {
+      "name": "成就",
+      "ui": {
+        "pic": "${http_download}/hall/promote/imgs/t3card2016_quest_1104.png"
+      },
+      "act": {
+        "event": {
+          "name": "CMD_SHOW_ACHIEVEMENT_PREVIEW",
+          "params": {"ctor":{"index":0},"bFromHall":false},"params":{}
+        }
+      }
+    },
+    "vip_achievement": {
+      "name": "贵族成就",
+      "ui": {
+        "pic": "${http_download}/hall/promote/imgs/t3card2016_guide2_1103.png"
+      },
+      "act": {
+        "event": {
+          "name": "DZ_CMD_CMD_SHOW_ACHIEVEMENT_PROMOTION_WINDOW",
+          "params": {"type":17,"bFromHall":false}}
+        }
+      },
+    "pokergod_road": {
+      "name": "牌神之路",
+      "ui": {
+        "pic": "${http_download}/hall/promote/imgs/t3card2016_guide1_1103.png"
+      },
+      "act": {
+        "event": {
+          "name": "DZ_CMD_CMD_SHOW_ACHIEVEMENT_PROMOTION_WINDOW",
+          "params": {"type":16,"bFromHall":false}}
+        }     
+    },
+    "show_guide": {
+      "name": "新手引导",
+      "ui": {
+        "pic": "${http_download}/texas/images/subHallBtnBar/show_guide.png"
+      },
+      "act": {
+        "event": {
+          "name": "dz_show_guide_scene",
+          "params": "no_pop_window"
+        }
+      }
+    }
+  },
+  "tc": {
+    "default": {
+      "top": ["", "", "", "", ""],
+      "btm": ["", "", "", "show_guide"]
+    },
+    "test": {
+      "top": ["", "", "", "", ""],
+      "btm": ["achievement", "pokergod_road", "vip_achievement", "show_guide"]
+    }
+  },
+  "vc": {
+    "default": "default",
+    "17620": "test",
+    "17940": "test",
+    "18631": "test"
+  }
+}

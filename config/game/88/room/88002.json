@@ -1,0 +1,21 @@
+{
+    "minCoin": 1,
+    "maxCoin": 0,
+    "minLevel": 0,
+    "minVip": 0,
+    "playDesc": "",
+    "playMode": "shz",
+    "tableConf": {
+        "deafultGameTimes": 999,
+        "limitChip": 0,
+        "maxSeatN": 300,
+        "chipRanges": [180000, 450000, 900000, 1800000, 4500000, 9000000],
+        "betDefault": [100, 200, 500, 1000, 2000, 5000, 10000],
+        "playGameChip": 50000,
+        "playGameVip": 0,
+        "srollTime1": 2,
+        "srollTime2": 10
+    },
+    "typeName": "normal",
+    "winDesc": ""
+}

@@ -1,0 +1,120 @@
+{
+    "autoQueue": 0.0, 
+    "couponActCfg": {
+        "add": 70, 
+        "memberAdd": 0, 
+        "timeSegs": [
+            [
+                [
+                    0, 
+                    0
+                ], 
+                [
+                    24, 
+                    0
+                ]
+            ]
+        ]
+    }, 
+    "glory_winner": 0, 
+    "icon": {
+        "pc": "icon_flag_must.png", 
+        "phone": "room_must.png"
+    }, 
+    "interEmoticon": {
+        "bomb": [
+            1000, 
+            100, 
+            -100
+        ], 
+        "chicken": [
+            1000, 
+            100, 
+            -100
+        ], 
+        "doubleAce": [
+            1000, 
+            200, 
+            200
+        ], 
+        "eggs": [
+            1000, 
+            100, 
+            -100
+        ], 
+        "fishing": [
+            1000, 
+            100, 
+            -100
+        ], 
+        "ring": [
+            1000, 
+            200, 
+            200
+        ], 
+        "rose": [
+            1000, 
+            200, 
+            200
+        ], 
+        "thumb": [
+            1000, 
+            200, 
+            200
+        ]
+    }, 
+    "matchConf": {
+        "match_id": "0.0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 99900000000, 
+    "minCoin": 500000, 
+    "minCoinQS": 99900000000, 
+    "minTableCount": 2, 
+    "name": "5万必下场", 
+    "playMode": "classic", 
+    "queueVipLevel": 7.0, 
+    "rewardDealerChip": 10000, 
+    "roomID": 8130, 
+    "sortId": 9, 
+    "tableConf": {
+        "autoGrad": 1, 
+        "autoGradDesc": "已开启自动下分功能", 
+        "bb": 10000, 
+        "big_pot": 2000000, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 500000, 
+        "buyinConf": "1/2", 
+        "call": 1, 
+        "callChip": -1, 
+        "chat_require_vip_level": 8, 
+        "commission": 0.01, 
+        "extname": "5万必下场{}(准入:50万)", 
+        "fee": 5000, 
+        "flip_card_game": {
+            "bet": 10000, 
+            "loading_show": 0, 
+            "show": 1
+        }, 
+        "get_insurance_info": 0.0, 
+        "inner_game": 0, 
+        "isSitBigBlind": 0.0, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "max_bigpot_fee": 1000000, 
+        "min_players": 2, 
+        "nameForPc": "贵宾室-5万必下", 
+        "optime": 10, 
+        "pay_factor": 1.0, 
+        "prebet": 50000, 
+        "sb": 5000, 
+        "start_card": 2, 
+        "tname": "5万必下场", 
+        "win_exp": 2
+    }, 
+    "typeName": "vip", 
+    "visible": 0
+}

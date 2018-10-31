@@ -1,0 +1,194 @@
+{
+    "buyinchip": 2100000,
+    "dummyUserCount": 23,
+    "hasrobot": 0,
+    "level": "star",
+    "maxCoin": -1,
+    "maxCoinQS": -1,
+    "minCoin": -1,
+    "minCoinQS": -1,
+    "name": "混房场",
+    "playMode": "xuezhan",
+    "playModeName": "血战到底",
+    "tableType": "queue",
+    "mixedRooms" : [
+        {
+            "mixedRoomId": 701107,
+            "maxCoin": 250000,
+            "maxCoinQS": 149999,
+            "minCoin": 4000,
+            "minCoinQS": 5000,
+            "buyinchip": 30000,
+            "maxTableCoin": 100000,
+            "dummyRatio": 11,
+            "name": "初级场",
+            "taskDesc": "3局送0.01红包券",
+            "service_fee_sit_down": 200,
+            "service_fee_win": 0,
+            "service_fee_lose": 0,
+            "service_fee_dahu_rate": 0.09,
+            "service_fee_dahu_on": 0.5,
+            "service_fee_dahu_fan": 16,
+            "base_chip": 400,
+            "chat_chip": 100,
+            "chat_time": 5,
+            "nameDesc": "小康",
+            "queueConfig": {
+                "waitTime": 12,
+                "busNumber": 16
+            },
+            "openConfig": {
+                "startTime": "06:00",
+                "endTime": "09:59"
+            },
+            "mixedConfig": {
+                "mixedWithRooms": [],
+                "beMixedMaxUsers": 2
+            }
+        },
+        {
+            "mixedRoomId": 701108,
+            "maxCoin": 1200000,
+            "maxCoinQS": 599999,
+            "minCoin": 100000,
+            "minCoinQS": 150000,  
+            "buyinchip": 150000,
+            "maxTableCoin": -1,
+            "dummyRatio": 7,
+            "name": "中级场",
+            "taskDesc": "3局送0.05红包券",
+            "service_fee_sit_down": 1250,
+            "service_fee_win": 0,
+            "service_fee_lose": 0,
+            "service_fee_dahu_rate": 0.09,
+            "service_fee_dahu_on": 0.5,
+            "service_fee_dahu_fan": 16,
+            "base_chip": 2500,
+            "chat_chip": 500,
+            "chat_time": 5,
+            "nameDesc": "小富豪",
+            "queueConfig": {
+                "waitTime": 12,
+                "busNumber": 16
+            },
+            "openConfig": {
+                "startTime": "09:00",
+                "endTime": "23:59"
+            },
+            "mixedConfig": {
+                "mixedWithRooms": [701107],
+                "beMixedMaxUsers": 2
+            }
+        },
+        {
+            "mixedRoomId": 701109,
+            "maxCoin": -1,
+            "maxCoinQS": -1,
+            "minCoin": 500000,
+            "minCoinQS": 600000,
+            "buyinchip": 500000,
+            "maxTableCoin": -1,
+            "dummyRatio": 3,
+            "name": "高级场",
+            "taskDesc": "3局送0.15红包券",
+            "service_fee_sit_down": 5000,
+            "service_fee_win": 0,
+            "service_fee_lose": 0,
+            "service_fee_dahu_rate": 0.09,
+            "service_fee_dahu_on": 0.5,
+            "service_fee_dahu_fan": 16,
+            "base_chip": 10000,
+            "chat_chip": 2000,
+            "chat_time": 5,
+            "nameDesc": "富豪",
+            "queueConfig": {
+                "waitTime": 24,
+                "busNumber": 8
+            },
+            "openConfig": {
+                "startTime": "09:00",
+                "endTime": "23:59"
+            },
+            "mixedConfig": {
+                "mixedWithRooms": [701108],
+                "beMixedMaxUsers": 4
+            }
+        },
+        {
+            "mixedRoomId": 701110,
+            "maxCoin": -1,
+            "maxCoinQS": -1,
+            "minCoin": 1500000,
+            "minCoinQS": 1800000,
+            "buyinchip": 1500000,
+            "maxTableCoin": -1,
+            "dummyRatio": 1,
+            "name": "专家场",
+            "taskDesc": "6局送1红包券",
+            "service_fee_sit_down": 18000,
+            "service_fee_win": 0,
+            "service_fee_lose": 0,
+            "service_fee_dahu_rate": 0.09,
+            "service_fee_dahu_on": 0.5,
+            "service_fee_dahu_fan": 16,
+            "base_chip": 30000,
+            "chat_chip": 6000,
+            "chat_time": 5,
+            "nameDesc": "大富豪",
+            "queueConfig": {
+                "waitTime": 24,
+                "busNumber": 4
+            },
+            "openConfig": {
+                "startTime": "09:00",
+                "endTime": "23:59"
+            },
+            "mixedConfig": {
+                "mixedWithRooms": [701109, 701108],
+                "beMixedMaxUsers": 4
+            }
+        }
+    ],
+    "tableConf": {
+        "robotLevel": 2,
+        "autoLevel": 0,
+        "decide_absence_timeout": 8,
+        "leave_vote_num": {
+            "4": 4
+        },
+        "refuse_leave_vote_num": {
+            "4": 2
+        },
+        "maxSeatN": 4,
+        "play_timeout": 12,
+        "room_coefficient": 1,
+        "trustee_timeout": 1,
+        "ready_max_timeout": 3600,
+        "ready_after_sit": 1,
+        "dissolve_vote_time_out": 60,
+        "tiles_no_pao": 0,
+        "hand_tiles_count": 13,
+        "gang_base": 1,
+        "win_base": 1,
+        "score_base": 0,
+        "fan_list": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            128,
+            256
+        ],
+        "max_fan": 64,
+        "threeTiles": 1,
+        "callTransfer": 1,
+        "quanyaojiuFan": 1,
+        "haidilaoyueFan": 1,
+        "tiandihuFan": 1,
+        "jiangduiFan": 0
+    },
+    "typeName": "queue_mixed_room"
+}

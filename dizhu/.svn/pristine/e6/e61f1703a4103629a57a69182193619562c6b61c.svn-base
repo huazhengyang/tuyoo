@@ -1,0 +1,173 @@
+1. 任务系统具体任务相关继承现有大厅的任务体系
+2. 趣味任务系统根据文档
+
+1. 首次用户任务下发机制
+	条件=>任务列表
+	默认随机
+2. 任务自动重置机制
+	随机选择
+3. 任务手动重置机制
+	收费=>重置
+
+配置
+{
+    "actId":"act1",
+    "typeId":"ddz.act.quweitask",
+    "intActId":6018,
+    "taskCount":4,
+    "refreshFee":{
+        "itemId":"user:chip",
+        "count":100
+    },
+    "gameId":6,
+    "initPools":[
+        {
+        	"condition":{
+        		"typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 0
+        	},
+            "kindIds":[5001, 5002, 5003, 5004]
+        }
+    ],
+    "tasks":[
+        {
+            "kindId":5001,
+            "typeId":"ddz.qwtask.simple",
+            "name":"春天",
+            "desc":"春天或反春取胜",
+            "count":1,
+            "totalLimit":1,
+            "pic":"",
+            "inspector":{
+                "typeId":"ddz.win",
+                "conditions":[
+                    {"typeId":"ddz.cond.chuntian"}
+                ]
+            },
+            "rewardContent":{
+                "typeId":"FixedContent",
+                "items":[
+                    {"itemId":"item:1001", "count":5}
+                ]
+            },
+            "rewardMail":"趣味任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId":5002,
+            "typeId":"ddz.qwtask.simple",
+            "name":"3连胜",
+            "desc":"3连胜",
+            "count":1,
+            "totalLimit":1,
+            "pic":"",
+            "inspector":{
+                "typeId":"ddz.winStreak",
+                "conditions":[
+                ]
+            },
+            "rewardContent":{
+                "typeId":"FixedContent",
+                "items":[
+                    {"itemId":"item:1001", "count":5}
+                ]
+            },
+            "rewardMail":"趣味任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId":5003,
+            "typeId":"ddz.qwtask.simple",
+            "name":"32倍胜利3局",
+            "desc":"32倍胜利3局",
+            "count":1,
+            "totalLimit":1,
+            "pic":"",
+            "inspector":{
+                "typeId":"ddz.win",
+                "conditions":[
+                    {
+                        "typeId": "ddz.cond.windoubles",
+                        "stop": -1,
+                        "start": 32
+                    }
+                ]
+            },
+            "rewardContent":{
+                "typeId":"FixedContent",
+                "items":[
+                    {"itemId":"item:1001", "count":5}
+                ]
+            },
+            "rewardMail":"趣味任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId":5004,
+            "typeId":"ddz.qwtask.simple",
+            "name":"中级场玩3局",
+            "desc":"中级场玩3局",
+            "count":1,
+            "totalLimit":1,
+            "pic":"",
+            "inspector":{
+                "typeId": "ddz.play",
+                "conditions": [
+                    {
+                        "typeId": "ddz.cond.roomId",
+                        "roomIds": [
+                            6001
+                        ]
+                    }
+                ]
+            },
+            "rewardContent":{
+                "typeId":"FixedContent",
+                "items":[
+                    {"itemId":"item:1001", "count":5}
+                ]
+            },
+            "rewardMail":"趣味任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId":5005,
+            "typeId":"ddz.qwtask.simple",
+            "name":"累计充值30",
+            "desc":"累计充值30",
+            "count":30,
+            "totalLimit":1,
+            "pic":"",
+            "inspector":{
+                "typeId":"hall.charge.cumulation",
+                "conditions":[
+                ]
+            },
+            "rewardContent":{
+                "typeId":"FixedContent",
+                "items":[
+                    {"itemId":"item:1001", "count":5}
+                ]
+            },
+            "rewardMail":"趣味任务奖励：\\${rewardContent}"
+        },
+        {
+            "kindId":5006,
+            "typeId":"ddz.qwtask.simple",
+            "name":"单笔充值50",
+            "desc":"单笔充值50",
+            "count":50,
+            "totalLimit":1,
+            "pic":"",
+            "inspector":{
+                "typeId":"hall.charge.single",
+                "conditions":[
+                ]
+            },
+            "rewardContent":{
+                "typeId":"FixedContent",
+                "items":[
+                    {"itemId":"item:1001", "count":5}
+                ]
+            },
+            "rewardMail":"趣味任务奖励：\\${rewardContent}"
+        }
+    ]
+}

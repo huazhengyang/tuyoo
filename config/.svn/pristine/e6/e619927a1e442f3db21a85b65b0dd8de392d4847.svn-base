@@ -1,0 +1,140 @@
+{
+  "wait_text_tip" : {
+    "1": "正在等待抢独...",
+    "2": "无人抢独，随机发放皇帝牌。",
+    "3": "正在等待皇帝登基...",
+    "4": "正在等待保子选择...",
+    "5": "保子已经亮明身份。",
+    "6": "保子已经潜入茫茫人海，请小心应对。",
+    "7": "正在等待平民选择",
+    "8": "正在等待玩家选择...",
+    "9": "踢成功！",
+    "10": "不符合登基条件，将自动让位。",
+    "11": "正在确定保子",
+    "12": "您的金币不足，不能抢独",
+    "13": "扭成功！"
+  },
+  "auto_chat_text" : {
+    "1": "来来来，快点来，别耽误工夫。",
+    "2": "赶紧出牌黄花都凉了",
+    "3": "怪了？怎么这么把臭牌！",
+    "4": "不当不知道，皇帝真奇妙",
+    "5": "在家靠父母，保皇靠腿子",
+    "6": "保子先走了啊，皇上断后。",
+    "7": "皇上保重，我先走啦。",
+    "8": "这是苦肉计啊",
+    "9": "一般一般，全国第三",
+    "10": "牌好又顺不走都没办法",
+    "11": "你到底有几个腿子？不就一个。",
+    "12": "小保子露出来了啊。",
+    "13": "你到底是好的还是坏的？",
+    "14": "同志们现在注意啦，小保子有动静啦！",
+    "15": "狐狸尾巴快露出来喽！",
+    "16": "再不打，你都把我当成是保子啦。",
+    "17": "坏了，砸错人了。",
+    "18": "一人保皇全家光荣",
+    "19": "势把皇上拉下马"
+  },
+  "baohuang_score_multi" : {
+    "qiang_du": 3,
+    "ming_du_bao": 3,
+    "an_du_bao": 2,
+    "zao_fan_success": 2,
+    "kick_success": 2,
+    "ming_bao": 2,
+    "an_bao": 1,
+    "friend_addition": 1,
+    "member_addition": 1
+  },
+  "plugin2SingleBagLead" : {
+    "start_date": "2015-01-01",
+    "end_date" : "2016-02-01",
+    "count": 1,
+    "context": "喜欢途游保皇吗？快到应用市场下载最新版本吧。"
+  },
+  "enableLogChatMsg" : 0,
+  "noShowTableBuyClientId":[
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.aigame.0-hall17.aigame.tu",
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.weakChinaMobile.0-hall17.ydmm.tu",
+  "Android_3.71_YDJD.YDJD.0-hall17.ydjd.tu",
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall17.ydjd.tu",
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall17.baidu.tu",
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall17.qq.tu",
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall17.huawei.tu",
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall17.oppo.tu",
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall17.jinli.tu",
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall17.mi.tu",
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall17.ali.tu",
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall17.coolpad.tu",
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall17.lenovo.tu",
+  "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall17.uc.tu"
+  ],
+  "noShowCouponClientId":[
+  ],
+  "showFanfanle":[
+  ],
+  "player_end_text_tip" : {
+    "1": "同盟取得头科，拿下二科，我们将提前取胜。",
+    "2": "敌方取得头科，拿下二、三、四科，争取平局",
+    "3": "敌方取得头科，拿到二、三科，我们将反败为胜。",
+    "4": "同盟取得头科，拿下二科，我们将提前取胜。",
+    "5": "敌方取得二科，拿到三科或二落会取得胜利。",
+    "6": "同盟取得二科，拿下三科及二落，争取平局。",
+    "7": "同盟取得二科，拿到三科会取得胜利。",
+    "8": "敌方取得二科，拿下三科及二落，将反败为胜。",
+    "9": "敌方取得二科，争取好名次，减少损失。",
+    "10": "同盟取得二科，我们已立于不败之地。",
+    "11": "敌方取得头科，拿下二科，争取平局。"
+  },
+  "about_info" : {
+    "qqGroup" : "214469740",
+    "kfQQ" : "4008098000",
+    "kfPhone" : "400-8098-000",
+    "kfEMail" :"team_kf@tuyoogame.com"
+  },
+  "gold_multi":{
+    "value": 2,
+    "start.date" : "2016-02-01",
+    "end.date" : "2016-02-29",
+    "start.time" : ["10:00"],
+    "end.time" : ["12:00"]
+  },
+  "score_multi":{
+    "value": 2,
+    "start.date" : "2016-04-30",
+    "end.date" : "2016-05-02",
+    "start.time" : ["10:00","19:00"],
+    "end.time" : ["12:00", "21:00"]
+  },
+  "coupon_multi":{
+    "value": 2,
+    "start.date" : "2016-02-20",
+    "end.date" : "2016-02-29",
+    "start.time" : ["20:00"],
+    "end.time" : ["22:00"]
+  },
+  "max_complain_times": 3,
+  "complain_sucess_times":2,
+  "match_start_notify":[10],
+  "enter_notify_times": 1,
+  "start_notify_time":10,
+  "good_card_count":2,
+  "good_card_coin":5000,
+  "showInviteBtnList":[
+  "Android_3.770_tyOneKey,tyGuest,tyAccount.alipay.0-hall17.tuyoo.tuxxx"
+  ],
+  "invite_update_score":575,
+  "addWeiHaiNiuPhase":0,
+  "nextmatchtime" : {
+      "coinRoomShowDayInfo":0,
+      "today":"今天\n",
+      "dayInfoCnt":1,
+      "dayInfo1":"明天\n",
+      "dayInfo2":"后天\n",
+      "other":"\\${month}月\\${day}日\n"
+    },
+  "invite_start_date" : "2016-12-02 00:00:00",
+  "destroy_table_time" : 1800,
+  "showInviteRankingList":[
+  ]
+}

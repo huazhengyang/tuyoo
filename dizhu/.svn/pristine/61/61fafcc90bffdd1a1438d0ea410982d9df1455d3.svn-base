@@ -1,0 +1,19 @@
+
+结算协议
+	{
+		"cmd":"table_call",
+		"result":{
+			"action":"game_win",
+			seats[
+				{
+					punished : 1 // 是否托管包赔 惩罚
+				},
+				{
+					punished : 0
+				},
+				{
+					punished : 0
+				}
+			]
+		}
+	}

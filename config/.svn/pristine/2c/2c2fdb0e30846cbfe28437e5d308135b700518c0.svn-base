@@ -1,0 +1,4832 @@
+{
+	"taskUnits":[
+		{
+			"taskUnitId":"ddz.task.medal",
+			"pools":[
+				{
+					"tasks":[
+						{
+							"kindId":10001,
+							"typeId":"ddz.task.medal",
+							"name":"游戏5局",
+							"desc":"游戏5局",
+							"pic":"${http_download}/dizhu/medal/img/play_5.png",
+							"count":5,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.play",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"user:chip", "count":50}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10002,
+							"typeId":"ddz.task.medal",
+							"name":"游戏20局",
+							"desc":"游戏20局",
+							"pic":"${http_download}/dizhu/medal/img/play_20.png",
+							"count":20,
+							"star":0,
+							"totalLimit":0,
+							"inspector":{
+								"typeId":"ddz.play",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"user:chip", "count":200}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10003,
+							"typeId":"ddz.task.medal",
+							"name":"游戏100局",
+							"desc":"游戏100局",
+							"pic":"${http_download}/dizhu/medal/img/play_100.png",
+							"count":100,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.play",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"user:coupon", "count":50}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10004,
+							"typeId":"ddz.task.medal",
+							"name":"五胜",
+							"desc":"赢取5局",
+							"pic":"${http_download}/dizhu/medal/img/win_5.png",
+							"count":5,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.win",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"user:chip", "count":100}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10005,
+							"typeId":"ddz.task.medal",
+							"name":"二十胜",
+							"desc":"赢取20局",
+							"pic":"${http_download}/dizhu/medal/img/win_20.png",
+							"count":20,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.win",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"user:chip", "count":400}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10006,
+							"typeId":"ddz.task.medal",
+							"name":"百人斩",
+							"desc":"赢取100局",
+							"pic":"${http_download}/dizhu/medal/img/win_100.png",
+							"count":100,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.win",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"user:coupon", "count":100}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10010,
+							"typeId":"ddz.task.medal",
+							"name":"小红手",
+							"desc":"进行过宝箱抽奖",
+							"pic":"${http_download}/dizhu/medal/img/red_hand.png",
+							"count":1,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.tboxLottery",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"item:2003", "count":1}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10011,
+							"typeId":"ddz.task.medal",
+							"name":"万元户",
+							"desc":"金币到达10000",
+							"pic":"${http_download}/dizhu/medal/img/yuan_10000.png",
+							"count":10000,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.chip",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"item:2003", "count":3}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10012,
+							"typeId":"ddz.task.medal",
+							"name":"小康证",
+							"desc":"金币到达100000",
+							"pic":"${http_download}/dizhu/medal/img/xiaokang.png",
+							"count":100000,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.chip",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"item:2003", "count":5}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10013,
+							"typeId":"ddz.task.medal",
+							"name":"土豪证",
+							"desc":"金币到达1000000",
+							"pic":"${http_download}/dizhu/medal/img/tuhao.png",
+							"count":1000000,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.chip",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"item:2003", "count":5}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10014,
+							"typeId":"ddz.task.medal",
+							"name":"春天",
+							"desc":"春天或反春取胜",
+							"pic":"${http_download}/dizhu/medal/img/spring.png",
+							"count":1,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.win",
+								"conditions":[
+									{"typeId":"ddz.cond.chuntian"}
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"item:2003", "count":5}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10015,
+							"typeId":"ddz.task.medal",
+							"name":"炸弹人",
+							"desc":"赢取2炸以上的牌局",
+							"pic":"${http_download}/dizhu/medal/img/boom.png",
+							"count":1,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.win",
+								"conditions":[
+									{"typeId":"ddz.cond.zhadan", "nbomb":2}
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"item:3002", "count":1}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10018,
+							"typeId":"ddz.task.medal",
+							"name":"3连胜",
+							"desc":"3连胜",
+							"pic":"${http_download}/dizhu/medal/img/continue_win_3.png",
+							"count":3,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.winStreak",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"item:3002", "count":1}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10019,
+							"typeId":"ddz.task.medal",
+							"name":"5连胜",
+							"desc":"5连胜",
+							"pic":"${http_download}/dizhu/medal/img/continue_win_5.png",
+							"count":5,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.winStreak",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"item:3002", "count":1}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						},
+						{
+							"kindId":10020,
+							"typeId":"ddz.task.medal",
+							"name":"10连胜",
+							"desc":"10连胜",
+							"pic":"${http_download}/dizhu/medal/img/continue_win_10.png",
+							"count":10,
+							"star":0,
+							"totalLimit":1,
+							"inspector":{
+								"typeId":"ddz.winStreak",
+								"conditions":[
+								]
+							},
+							"rewardContent":{
+								"typeId":"FixedContent",
+								"items":[
+									{"itemId":"item:3002", "count":1}
+								]
+							},
+							"rewardMail":"勋章奖励：\\${rewardContent}"
+						}
+					]
+}
+]
+},
+{
+	"taskUnitId":"ddz.task.daily",
+	"pools":[
+		{
+			"tasks":[
+				{
+					"kindId":1,
+					"typeId":"hall.task.simple",
+					"name":"今日赢取5局",
+					"desc":"今日赢取5局",
+					"pic":"",
+					"count":5,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.win",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{"itemId":"user:chip", "count":100}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":2,
+					"typeId":"hall.task.simple",
+					"name":"今日游戏10局",
+					"desc":"今日游戏10局",
+					"pic":"",
+					"count":10,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.play",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{"itemId":"user:chip", "count":100}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":3,
+					"typeId":"hall.task.simple",
+					"name":"今日获得1次春天",
+					"desc":"今日获得1次春天",
+					"pic":"",
+					"count":1,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.win",
+						"conditions":[
+							{
+								"typeId":"ddz.cond.chuntian"
+							}
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{"itemId":"user:chip", "count":100}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":4,
+					"typeId":"hall.task.simple",
+					"name":"今日赢2炸以上牌局",
+					"desc":"今日赢2炸以上牌局",
+					"pic":"",
+					"count":1,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.win",
+						"conditions":[
+							{
+								"typeId":"ddz.cond.zhadan",
+								"nbomb":2
+							}
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{"itemId":"user:chip", "count":100}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":5,
+					"typeId":"hall.task.simple",
+					"name":"今日赢一次3连胜",
+					"desc":"今日赢一次3连胜",
+					"pic":"",
+					"count":3,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.winStreak",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{"itemId":"user:chip", "count":100}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":6,
+					"typeId":"hall.task.simple",
+					"name":"今日赢得3000金币",
+					"desc":"今日赢得3000金币",
+					"pic":"",
+					"count":3000,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.winChip",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{"itemId":"user:chip", "count":100}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":7,
+					"typeId":"hall.task.simple",
+					"name":"经典场赢取10局",
+					"desc":"经典场赢取10局",
+					"pic":"",
+					"count":10,
+					"star":2,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.win",
+						"conditions":[
+							{
+								"typeId":"ddz.cond.playMode",
+								"playModes":["123"]
+							}
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{"itemId":"user:chip", "count":300}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":8,
+					"typeId":"hall.task.simple",
+					"name":"欢乐场赢取10局",
+					"desc":"欢乐场赢取10局",
+					"pic":"",
+					"count":10,
+					"star":2,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.win",
+						"conditions":[
+							{
+								"typeId":"ddz.cond.playMode",
+								"playModes":["happy"]
+							}
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{"itemId":"user:chip", "count":300}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":9,
+					"typeId":"hall.task.simple",
+					"name":"癞子场赢取10局",
+					"desc":"癞子场赢取10局",
+					"pic":"",
+					"count":10,
+					"star":2,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.win",
+						"conditions":[
+							{
+								"typeId":"ddz.cond.playMode",
+								"playModes":["wild"]
+							}
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{"itemId":"user:chip", "count":300}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":16,
+					"typeId":"hall.task.simple",
+					"name":"今日升1级",
+					"desc":"今日升1级",
+					"pic":"",
+					"count":1,
+					"star":4,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.levelGrow",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{"itemId":"item:2003", "count":1}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":17,
+					"typeId":"hall.task.simple",
+					"name":"今日开一个月光宝盒",
+					"desc":"今日开一个月光宝盒",
+					"pic":"",
+					"count":1,
+					"star":4,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"hall.item.open",
+						"conditions":[
+							{
+								"typeId":"hall.item.open.kindId",
+								"kindIds":[3002]
+							}
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{"itemId":"item:2003", "count":1}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":18,
+					"typeId":"hall.task.simple",
+					"name":"今日赢一次10连胜",
+					"desc":"今日赢一次10连胜",
+					"pic":"",
+					"count":10,
+					"star":4,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.winStreak",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{"itemId":"item:2003", "count":1}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":21,
+					"typeId":"hall.task.simple",
+					"name":"获得一次10连胜",
+					"desc":"获得一次10连胜",
+					"pic":"",
+					"count":10,
+					"star":5,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.winStreak",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"desc":"2000金币",
+						"items":[
+							{"itemId":"user:chip", "count":2000}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				}
+			]
+}
+]
+},
+{
+
+	"taskUnitId": "ddz.task.table",
+	"pools": [
+		{
+			"nextType": "next",
+			"tasks": [
+				{
+					"count": 1,
+					"typeId": "ddz.task.simple",
+					"star": 0,
+					"name": "玩1局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20000,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "3奖券",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 3
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/coupon.png",
+					"desc": "玩1局"
+				},
+				{
+					"count": 3,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩3局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 0,
+					"kindId": 20001,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "5奖券",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 5
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/coupon.png",
+					"desc": "玩3局"
+				},
+				{
+					"count": 8,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩8局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 0,
+					"kindId": 20002,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "10奖券",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 10
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/coupon.png",
+					"desc": "玩8局"
+				},
+				{
+					"count": 15,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩15局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20003,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "500金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 500
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "玩15局"
+				},
+				{
+					"count": 30,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩30局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20004,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "20奖券",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 20
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/coupon.png",
+					"desc": "玩30局"
+				},
+				{
+					"count": 60,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩60局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 0,
+					"kindId": 20005,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "800金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count":800
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "玩60局"
+				},
+				{
+					"count": 100,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩100局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20006,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "1000金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 1000
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "玩100局"
+				},
+				{
+					"count": 150,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩150局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 0,
+					"kindId": 20007,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "30奖券",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 30
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/coupon.png",
+					"desc": "玩150局"
+				},
+				{
+					"count": 200,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩200局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20008,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "1200金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 1200
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "玩200局"
+				},
+				{
+					"count": 300,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩300局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20009,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "1500金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 1500
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "玩300局"
+				},
+				{
+					"count": 400,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩400局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20010,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "2000金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 2000
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "玩400局"
+				},
+				{
+					"count": 520,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩520局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20011,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "3000金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 3000
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "玩520局"
+				},
+				{
+					"count": 666,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩666局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20012,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "50奖券",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 50
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/coupon.png",
+					"desc": "玩666局"
+				},
+				{
+					"count": 888,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩888局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20013,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "88奖券",
+						"items": [
+							{
+								"itemId": "user:coupon",
+								"count": 88
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/coupon.png",
+					"desc": "玩888局"
+				},
+				{
+					"count": 1000,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "玩1000局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20014,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": []
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "5000金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 5000
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "玩1000局"
+				},
+				{
+					"count": 1,
+					"typeId": "ddz.task.simple",
+					"star": 0,
+					"name": "中级场玩1局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20015,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "20大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 20
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "中级场玩1局"
+				},
+				{
+					"count": 3,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩3局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 0,
+					"kindId": 20016,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "1000金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 1000
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "中级场玩3局"
+				},
+				{
+					"count": 8,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩8局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 0,
+					"kindId": 20017,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "25大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 25
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "中级场玩8局"
+				},
+				{
+					"count": 15,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩15局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20018,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "1500金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 1500
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "中级场玩15局"
+				},
+				{
+					"count": 30,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩30局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20019,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "30大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 30
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "中级场玩30局"
+				},
+				{
+					"count": 60,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩60局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 0,
+					"kindId": 20020,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "2000金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 2000
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "中级场玩60局"
+				},
+				{
+					"count": 100,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩100局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20021,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "35大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 35
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "中级场玩100局"
+				},
+				{
+					"count": 150,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩150局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 0,
+					"kindId": 20022,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "2500金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 2500
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "中级场玩150局"
+				},
+				{
+					"count": 200,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩200局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20023,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "40大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 40
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "中级场玩200局"
+				},
+				{
+					"count": 300,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩300局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20024,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "3000金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 3000
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "中级场玩300局"
+				},
+				{
+					"count": 400,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩400局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20025,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "45大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 45
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "中级场玩400局"
+				},
+				{
+					"count": 520,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩520局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20026,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "3500金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 3500
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "中级场玩520局"
+				},
+				{
+					"count": 666,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩666局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20027,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "50大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 50
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "中级场玩666局"
+				},
+				{
+					"count": 888,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩888局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20028,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "8800金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 8800
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "中级场玩888局"
+				},
+				{
+					"count": 1000,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "中级场玩1000局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20029,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6003,
+									6013,
+									6023,
+									6033,
+									6004,
+									6014,
+									6024,
+									6036,
+									6034
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "100大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 100
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "中级场玩1000局"
+				},
+				{
+					"count": 1,
+					"typeId": "ddz.task.simple",
+					"star": 0,
+					"name": "高级场玩1局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20030,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "30大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 30
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "高级场玩1局"
+				},
+				{
+					"count": 3,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩3局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 0,
+					"kindId": 20031,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "1天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 1
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "高级场玩3局"
+				},
+				{
+					"count": 8,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩8局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 0,
+					"kindId": 20032,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "40大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 40
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "高级场玩8局"
+				},
+				{
+					"count": 15,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩15局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20033,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "2天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 2
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "高级场玩15局"
+				},
+				{
+					"count": 30,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩30局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20034,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "50大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 50
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "高级场玩30局"
+				},
+				{
+					"count": 60,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩60局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 0,
+					"kindId": 20035,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "3天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 3
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "高级场玩60局"
+				},
+				{
+					"count": 100,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩100局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20036,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "60大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 60
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "高级场玩100局"
+				},
+				{
+					"count": 150,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩150局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 0,
+					"kindId": 20037,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "4天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 4
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "高级场玩150局"
+				},
+				{
+					"count": 200,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩200局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20038,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "70大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 70
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "高级场玩200局"
+				},
+				{
+					"count": 300,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩300局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20039,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "5天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 5
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "高级场玩300局"
+				},
+				{
+					"count": 400,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩400局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20040,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "80大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 80
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "高级场玩400局"
+				},
+				{
+					"count": 520,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩520局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20041,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "6天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 6
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "高级场玩520局"
+				},
+				{
+					"count": 666,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩666局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20042,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "90大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 90
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "高级场玩666局"
+				},
+				{
+					"count": 888,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩888局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20043,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "20000金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 20000
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "高级场玩888局"
+				},
+				{
+					"count": 1000,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "高级场玩1000局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20044,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6004,
+									6014,
+									6024,
+									6034,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "100大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 100
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "高级场玩1000局"
+				},
+				{
+					"count": 1,
+					"typeId": "ddz.task.simple",
+					"star": 0,
+					"name": "大师场玩1局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20045,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "80大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 80
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "大师场玩1局"
+				},
+				{
+					"count": 3,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩3局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20046,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "1天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 1
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "大师场玩3局"
+				},
+				{
+					"count": 8,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩8局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20047,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "100大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 100
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "大师场玩8局"
+				},
+				{
+					"count": 15,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩15局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20048,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "2天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 2
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "大师场玩15局"
+				},
+				{
+					"count": 30,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩30局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20049,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "120大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 120
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "大师场玩30局"
+				},
+				{
+					"count": 60,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩60局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20050,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "3天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 3
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "大师场玩60局"
+				},
+				{
+					"count": 100,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩100局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20051,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "140大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 140
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "大师场玩100局"
+				},
+				{
+					"count": 150,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩150局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20052,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "4天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 4
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "大师场玩150局"
+				},
+				{
+					"count": 200,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩200局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20053,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "160大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 160
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "大师场玩200局"
+				},
+				{
+					"count": 300,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩300局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20054,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "5天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 5
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "大师场玩300局"
+				},
+				{
+					"count": 400,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩400局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20055,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "180大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 180
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "大师场玩400局"
+				},
+				{
+					"count": 520,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩520局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20056,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "6天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 6
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "大师场玩520局"
+				},
+				{
+					"count": 666,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩666局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20057,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "200大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 200
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "大师场玩666局"
+				},
+				{
+					"count": 888,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩888局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20058,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "88800金币",
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 88800
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+					"desc": "大师场玩888局"
+				},
+				{
+					"count": 1000,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "大师场玩1000局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20059,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6015,
+									6016,
+									6005,
+									6006,
+									6025,
+									6026,
+									6035,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "220大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 220
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "大师场玩1000局"
+				},
+				{
+					"count": 1,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩1局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20060,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "100大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 100
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "星耀场玩1局"
+				},
+				{
+					"count": 5,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩5局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20061,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "1天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 1
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "星耀场玩5局"
+				},
+				{
+					"count": 10,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩10局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20062,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "150大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 150
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "星耀场玩10局"
+				},
+				{
+					"count": 20,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩20局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20063,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "2天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 2
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "星耀场玩20局"
+				},
+				{
+					"count": 40,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩40局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20064,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "200大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 200
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "星耀场玩40局"
+				},
+				{
+					"count": 65,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩65局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20065,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "3天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 3
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "星耀场玩65局"
+				},
+				{
+					"count": 100,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩100局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20066,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "240大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 240
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "星耀场玩100局"
+				},
+				{
+					"count": 150,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩150局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20067,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "4天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 4
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "星耀场玩150局"
+				},
+				{
+					"count": 200,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩200局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20068,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "300大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 300
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "星耀场玩200局"
+				},
+				{
+					"count": 300,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩300局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20069,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "5天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 5
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "星耀场玩300局"
+				},
+				{
+					"count": 400,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩400局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20070,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "350大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 350
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "星耀场玩400局"
+				},
+				{
+					"count": 500,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩500局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20071,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "6天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 6
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "星耀场玩500局"
+				},
+				{
+					"count": 600,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩600局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20072,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "400大师分",
+						"items": [
+							{
+								"itemId": "ddz:master.score",
+								"count": 400
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+					"desc": "星耀场玩600局"
+				},
+				{
+					"count": 700,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩700局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20073,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "7天记牌器",
+						"items": [
+							{
+								"itemId": "item:2003",
+								"count": 7
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+					"desc": "星耀场玩700局"
+				},
+				{
+					"count": 888,
+					"typeId": "ddz.task.simple",
+					"inheritPrevTaskProgress": 1,
+					"star": 0,
+					"name": "星耀场玩888局",
+					"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+					"pic": "",
+					"shareUrl": 1,
+					"kindId": 20074,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": [
+									6016,
+									6026,
+									6036,
+									6009,
+									6019,
+									6029,
+									6039
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"desc": "7天天使之翼",
+						"items": [
+							{
+								"itemId": "item:4121",
+								"count": 7
+							}
+						]
+					},
+					"rewardPic": "${http_download}/hall/item/imgs/item_4121.png",
+					"desc": "星耀场玩888局"
+				}
+			],
+"taskLabel": "牌局任务"
+},
+{
+	"nextType": "random",
+	"tasks": [
+		{
+			"count": 2,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "赢2次春天",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 1,
+			"kindId": 30000,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.win",
+				"conditions": [
+					{
+						"typeId": "ddz.cond.chuntian"
+					}
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "2大师分",
+				"items": [
+					{
+						"itemId": "ddz:master.score",
+						"count": 2
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+			"desc": "赢2次春天"
+		},
+		{
+			"count": 2,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "做2次地主",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30001,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.play",
+				"conditions": [
+					{
+						"typeId": "ddz.cond.dizhu"
+					}
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "2大师分",
+				"items": [
+					{
+						"itemId": "ddz:master.score",
+						"count": 2
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+			"desc": "做2次地主"
+		},
+		{
+			"count": 5,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "做5次地主",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30002,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.play",
+				"conditions": [
+					{
+						"typeId": "ddz.cond.dizhu"
+					}
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "5大师分",
+				"items": [
+					{
+						"itemId": "ddz:master.score",
+						"count": 5
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+			"desc": "做5次地主"
+		},
+		{
+			"count": 5,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "抢5次地主",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30003,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.call",
+				"conditions": [
+					{
+						"typeId": "ddz.cond.grabDizhu"
+					}
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "10大师分",
+				"items": [
+					{
+						"itemId": "ddz:master.score",
+						"count": 10
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/dashifen_2.png",
+			"desc": "抢5次地主"
+		},
+		{
+			"count": 3,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "玩3局经典玩法",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30004,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.play",
+				"conditions": [
+					{
+						"typeId": "ddz.cond.playMode",
+						"playModes": [
+							"123"
+						]
+					}
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "记牌器*1",
+				"items": [
+					{
+						"itemId": "item:2003",
+						"count": 1
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+			"desc": "玩3局经典玩法"
+		},
+		{
+			"count": 3,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "玩3局欢乐玩法",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30005,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.play",
+				"conditions": [
+					{
+						"typeId": "ddz.cond.playMode",
+						"playModes": [
+							"happy"
+						]
+					}
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "记牌器*1",
+				"items": [
+					{
+						"itemId": "item:2003",
+						"count": 1
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+			"desc": "玩3局欢乐玩法"
+		},
+		{
+			"count": 3,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "玩3局癞子玩法",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30006,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.play",
+				"conditions": [
+					{
+						"typeId": "ddz.cond.playMode",
+						"playModes": [
+							"wild"
+						]
+					}
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "记牌器*1",
+				"items": [
+					{
+						"itemId": "item:2003",
+						"count": 1
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+			"desc": "玩3局癞子玩法"
+		},
+		{
+			"count": 3,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "玩3局二人玩法",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30007,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.play",
+				"conditions": [
+					{
+						"typeId": "ddz.cond.playMode",
+						"playModes": [
+							"erdou"
+						]
+					}
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "记牌器*1",
+				"items": [
+					{
+						"itemId": "item:2003",
+						"count": 1
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/item_2003.png",
+			"desc": "玩3局二人玩法"
+		},
+		{
+			"count": 5,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "使用炸弹表情5次",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30008,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.emoticonUse",
+				"conditions": [],
+				"emotions": [
+					"bomb"
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "月光宝盒*1",
+				"items": [
+					{
+						"itemId": "item:3002",
+						"count": 1
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/item_3002.png",
+			"desc": "使用炸弹表情5次"
+		},
+		{
+			"count": 5,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "使用钻石表情5次",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30009,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.emoticonUse",
+				"conditions": [],
+				"emotions": [
+					"diamond"
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "月光宝盒*1",
+				"items": [
+					{
+						"itemId": "item:3002",
+						"count": 1
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/item_3002.png",
+			"desc": "使用钻石表情5次"
+		},
+		{
+			"count": 5,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "使用鲜花表情5次",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30010,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.emoticonUse",
+				"conditions": [],
+				"emotions": [
+					"flower"
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "月光宝盒*1",
+				"items": [
+					{
+						"itemId": "item:3002",
+						"count": 1
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/item_3002.png",
+			"desc": "使用鲜花表情5次"
+		},
+		{
+			"count": 5,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "使用鸡蛋表情5次",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30011,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.emoticonUse",
+				"conditions": [],
+				"emotions": [
+					"egg"
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "月光宝盒*1",
+				"items": [
+					{
+						"itemId": "item:3002",
+						"count": 1
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/item_3002.png",
+			"desc": "使用鸡蛋表情5次"
+		},
+		{
+			"count": 3,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "32倍胜利3局",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30015,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.win",
+				"conditions": [
+					{
+						"typeId": "ddz.cond.windoubles",
+						"stop": -1,
+						"start": 32
+					}
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "幸运卡*1",
+				"items": [
+					{
+						"itemId": "item:4167",
+						"count": 1
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/lotteryCard_39.png",
+			"desc": "32倍胜利3局"
+		},
+		{
+			"count": 2,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "64倍胜利2局",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30016,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.win",
+				"conditions": [
+					{
+						"typeId": "ddz.cond.windoubles",
+						"stop": -1,
+						"start": 64
+					}
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "幸运卡*1",
+				"items": [
+					{
+						"itemId": "item:4167",
+						"count": 1
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/lotteryCard_39.png",
+			"desc": "64倍胜利2局"
+		},
+		{
+			"count": 1,
+			"typeId": "ddz.task.simple",
+			"star": 0,
+			"name": "大满贯胜利1局",
+			"rewardMail": "完成\\${taskName}，获得\\${rewardContent}",
+			"pic": "",
+			"shareUrl": 0,
+			"kindId": 30017,
+			"totalLimit": 1,
+			"inspector": {
+				"typeId": "ddz.win",
+				"conditions": [
+					{
+						"typeId": "ddz.cond.slam"
+					}
+				]
+			},
+			"rewardContent": {
+				"typeId": "FixedContent",
+				"desc": "幸运卡*1",
+				"items": [
+					{
+						"itemId": "item:4167",
+						"count": 1
+					}
+				]
+			},
+			"rewardPic": "${http_download}/hall/item/imgs/lotteryCard_39.png",
+			"desc": "大满贯胜利1局"
+		}
+	],
+"taskLabel": "趣味任务"
+}
+]
+},
+{
+	"taskUnitId": "ddz.task.newbie",
+	"pools": [
+		{
+			"nextType": "next",
+			"tasks": [
+				{
+					"kindId":40001,
+					"typeId":"hall.task.simple",
+					"name":"胜利2局",
+					"desc":"胜利\\${progress}局",
+					"pic":"",
+					"count":2,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.win",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{
+								"itemId":"user:chip", 
+								"count":100
+							},
+							{
+								"itemId": "ddz:master.score",
+								"count":2
+							}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId": 40004,
+					"typeId":"hall.task.simple",
+					"name":"3连胜",
+					"desc":"获得\\${progress}连胜",
+					"pic":"",
+					"count":3,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.winStreak",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{
+								"itemId":"user:chip", 
+								"count":300
+							},
+							{
+								"itemId": "ddz:master.score",
+								"count":5
+							}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":40005,
+					"count": 1,
+					"typeId": "ddz.task.simple",
+					"star": 0,
+					"name": "48倍胜利1局",
+					"desc": "打出48倍并获\\${progress}次胜利",
+					"pic": "",
+					"shareUrl": 0,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.win",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.windoubles",
+								"stop": -1,
+								"start": 48
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId":"user:chip", 
+								"count":600
+							},
+							{
+								"itemId": "ddz:master.score",
+								"count":5
+							}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":40006,
+					"count": 6,
+					"typeId": "hall.task.simple",
+					"star": 1,
+					"name": "任意初级场6局",
+					"desc": "任意初级场\\${progress}局",
+					"pic": "",
+					"shareUrl": 1,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": 
+								[
+									6002,6012,
+									6022,6032
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId":"user:chip", 
+								"count":1500
+							},
+							{
+								"itemId": "ddz:master.score",
+								"count":10
+							}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":40007,
+					"typeId":"hall.task.simple",
+					"name":"赢取1.5万金币",
+					"desc":"累计赢取\\${progress}金币",
+					"pic":"",
+					"count":15000,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.winChip",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{
+								"itemId": "user:coupon",
+								"count": 20
+							},
+							{
+								"itemId": "ddz:master.score",
+								"count":5
+							}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":40009,
+					"typeId":"hall.task.simple",
+					"name":"4连胜",
+					"desc":"获得\\${progress}连胜",
+					"pic":"",
+					"count":4,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.winStreak",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{
+								"itemId":"user:chip", 
+								"count":2000
+							},
+							{
+								"itemId": "ddz:master.score",
+								"count":5
+							}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":40011,
+					"count":6,
+					"typeId":"hall.task.simple",		                   
+					"star":1,
+					"name":"任意中级场6局",
+					"desc":"任意中级场\\${progress}局",
+					"pic":"",
+					"shareUrl": 1,
+					"totalLimit": 1,
+					"inspector": {
+						"typeId": "ddz.play",
+						"conditions": [
+							{
+								"typeId": "ddz.cond.roomId",
+								"roomIds": 
+								[
+									6003,6013,
+									6023,6033
+								]
+							}
+						]
+					},
+					"rewardContent": {
+						"typeId": "FixedContent",
+						"items": [
+							{
+								"itemId":"user:chip", 
+								"count":5000
+							},
+							{
+								"itemId": "ddz:master.score",
+								"count":10
+							}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":40012, 
+					"typeId":"hall.task.simple",
+					"name":"赢取6万金币",
+					"desc":"累计赢取\\${progress}金币",
+					"pic":"",
+					"count":60000,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.winChip",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{
+								"itemId": "user:coupon",
+								"count": 50
+							},
+							{
+								"itemId": "ddz:master.score",
+								"count":5
+							}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":40013,
+					"typeId":"hall.task.simple",
+					"name":"5连胜",
+					"desc":"获得\\${progress}连胜",
+					"pic":"",
+					"count":5,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.winStreak",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{
+								"itemId":"user:chip", 
+								"count":4000
+							},
+							{
+								"itemId": "ddz:master.score",
+								"count":10
+							}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				},
+				{
+					"kindId":40014,
+					"typeId":"hall.task.simple",
+					"name":"赢取10万金币",
+					"desc":"累计赢取\\${progress}金币",
+					"pic":"",
+					"count":100000,
+					"star":1,
+					"totalLimit":1,
+					"inspector":{
+						"typeId":"ddz.winChip",
+						"conditions":[
+						]
+					},
+					"rewardContent":{
+						"typeId":"FixedContent",
+						"items":[
+							{
+								"itemId": "user:coupon",
+								"count": 80
+							},
+							{
+								"itemId": "ddz:master.score",
+								"count":15
+							}
+						]
+					},
+					"rewardMail":"任务奖励：\\${rewardContent}"
+				}
+			],
+"taskLabel": "新手任务"
+}
+]
+}
+],
+	"newbie.task.conf": {
+		"open": 0,
+		"showIcon": "${http_download}/dizhu/room/imgs/ddz_newertask_btn_1.png",
+		"showTipsPt": [6],
+		"deadline": 7,
+		"rewardContent": {
+			"typeId":"FixedContent",
+			"img":"${http_download}/dizhu/room/imgs/ddz_c_finish_reward_4.png",
+			"items":[
+				{"itemId":"item:1197", "count":1}
+			]
+		},
+		"rewardMail":"完成新手任务奖励：\\${rewardContent}",
+		"closes":[
+		"Android_4.57_tyGuest,360dj.360dj,yisdkpay.0-hall6.360.star",
+		"Android_4.57_4399.yisdkpay.0-hall6.4399.happy",
+		"Android_4.57_tyGuest,ysdk.ysdk.0-hall6.qq.happy",
+		"Android_4.57_tyGuest,ysdk.ysdk.0-hall6.qqexplorer.happy",
+		"Android_4.57_tyGuest,ysdk.ysdk.0-hall6.qqgj.happy",
+		"Android_4.57_tyGuest,ysdk.ysdk.0-hall6.qq.hlzr",
+		"Android_4.57_letv.letv,yisdkpay.0-hall6.leshiphone.hlzr",
+		"Android_4.57_uc.uc.0-hall6.wdj.hlzr",
+		"Android_4.57_letv.letv,yisdkpay.0-hall6.leshiphone.zd",
+		"Android_4.57_tyGuest,tyAccount.lenovodj,yisdkpay.0-hall6.lenovo.tu",
+		"Android_4.57_4399.yisdkpay.0-hall6.4399.tu",
+		"Android_4.57_tyGuest,tyAccount.weakChinaMobile.0-hall6.yixun.tu",
+		"Android_4.57_tyGuest,tyAccount.zhuoyi,yisdkpay.0-hall6.zhuoyi.tu",
+		"Android_4.57_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.ali.tu",
+		"Android_4.57_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.alicpa.tu",
+		"Android_4.57_tyGuest,tyAccount,ysdk.ysdk,yisdkpay.0-hall6.qqcpa.tu",
+        "Android_4.57_tyGuest.ucdanji.0-hall6.wdj.dj",
+        "Android_4.57_nearme.nearme.0-hall6.oppo.dj",
+        "Android_4.57_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.ali.dj",
+        "Android_4.57_4399.yisdkpay.0-hall6.4399.dj",
+        "Android_4.57_tyGuest,360sy.360sy,yisdkpay.0-hall6.360.laizi",
+        "Android_4.57_tyGuest,360sy.360sy,yisdkpay.0-hall6.360.people",
+        "Android_4.57_tyGuest,360sy.360sy,yisdkpay.0-hall6.360.happy",
+        "Android_4.57_tyGuest,ysdk841.ysdk841.0-hall6.qq.hlzr",
+        "Android_4.57_tyGuest,tyAccount.yisdkpay.0-hall6.wnl.youle1",
+        "Android_4.57_tyGuest,tyAccount.yisdkpay.0-hall6.wnl.youle2",
+        "Android_4.57_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.tangguo.tu",
+        "Android_4.57_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.4399.tu",
+        "Android_4.57_douyu.douyu.0-hall6.douyu.tu",
+        "Android_4.57_tyGuest,tyAccount.weakChinaMobile.0-hall6.yixun.dj",
+        "Android_4.57_tyGuest,tyAccount.aigame.0-hall6.aigame.tu",
+        "Android_4.57_tyGuest,nearme.nearme,alipayweb.0-hall6.oppo.tu",
+        "Android_4.575_tyGuest,tyAccount.lenovodj,yisdkpay.0-hall6.lenovo.tu",
+        "Android_4.575_letv.letv,yisdkpay.0-hall6.leshiphone.tu",
+        "Android_4.575_4399.yisdkpay.0-hall6.4399.tu",
+        "Android_4.575_tyGuest,tyAccount.weakChinaMobile.0-hall6.yixun.tu",
+        "Android_4.575_tyGuest,tyAccount.zhuoyi,yisdkpay.0-hall6.zhuoyi.tu",
+        "Android_4.575_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.ali.tu",
+        "Android_4.575_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.alicpa.tu",
+        "Android_4.575_tyGuest,tyAccount,ysdk.ysdk,yisdkpay.0-hall6.qqcpa.tu",
+        "Android_4.575_nearme.nearme.0-hall6.oppo.dj",
+        "Android_4.575_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.ali.dj",
+        "Android_4.575_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.jinli.dj",
+        "Android_4.575_tyGuest,weixinPay,tyAccount.jinli,yisdkpay.0-hall6.jinligame.dj",
+        "Android_4.575_letv.letv,yisdkpay.0-hall6.leshiphone.dj",
+        "Android_4.575_tyGuest,tyAccount,duoku.duoku.0-hall6.91new.dj",
+        "Android_4.575_tyGuest,tyAccount,duoku.duoku.0-hall6.baidunew.dj",
+        "Android_4.575_tyGuest,tyAccount,duoku.duoku.0-hall6.bdtiebanew.dj",
+        "Android_4.575_tyGuest,tyAccount,duoku.duoku.0-hall6.duokunew.dj",
+        "Android_4.575_4399.alipay.0-hall6.4399.dj",
+        "Android_4.575_tyGuest.alipay.0-hall6.uc.rich",
+        "Android_4.575_sogou.sogou,yisdkpay.0-hall6.sougou.tu",
+        "Android_4.575_360.yisdkpay,360.0-hall6.360hmy.tu",
+        "Android_4.575_360.360,yisdkpay.0-hall6.360hmy.happy",
+        "Android_4.575_360.yisdkpay,360.0-hall6.360hmy.dj",
+        "Android_4.575_tyGuest.yisdkpay.0-hall6.gaofeitest.tu",
+        "Android_4.575_tyGuest.yisdkpay.0-hall6.cps.tu1",
+        "Android_4.575_tyGuest.yisdkpay.0-hall6.cps.tu2",
+        "Android_4.575_tyGuest.yisdkpay.0-hall6.cps.tu3",
+        "Android_4.575_tyGuest.yisdkpay.0-hall6.cps.tu4",
+        "Android_4.575_tyGuest.yisdkpay.0-hall6.cps.tu5",
+        "Android_4.575_tyGuest.yisdkpay.0-hall6.cps.tu6",
+        "Android_4.575_tyGuest.yisdkpay.0-hall6.cps.tu7",
+        "Android_4.575_tyGuest.yisdkpay.0-hall6.cps.tu8",
+        "Android_4.575_tyGuest.yisdkpay.0-hall6.cps.tu9",
+        "Android_4.575_tyGuest.yisdkpay.0-hall6.cps.tu10",
+        "Android_4.575_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.woniu.tu",
+        "Android_4.575_tyGuest,huawei.huawei.0-hall6.huawei.tu",
+        "Android_4.575_tyGuest,huawei.huawei.0-hall6.huawei.dj",
+        "Android_4.58_letv.letv,yisdkpay.0-hall6.leshiphone.tu",
+        "Android_4.58_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.ali.tu",
+        "Android_4.58_nearme.nearme.0-hall6.oppo.dj",
+        "Android_4.58_tyGuest,tyAccount.yisdkpay.0-hall6.leshiphone.tu",
+        "Android_4.58_tyGuest,ysdk.ysdk.0-hall6.qq.happy",
+        "Android_4.58_tyGuest,ysdk.ysdk.0-hall6.qqexplorer.happy",
+        "Android_4.58_tyGuest,ysdk.ysdk.0-hall6.qqgj.happy",
+        "Android_4.58_4399.yisdkpay.0-hall6.4399.tu",
+        "Android_4.58_4399.yisdkpay.0-hall6.4399.dj",
+        "Android_4.58_tyGuest,tyAccount.yisdkpay.0-hall6.zhangxing.tu",
+        "Android_4.58_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.ali.dj",
+        "Android_4.58_letv.letv,yisdkpay.0-hall6.leshiphone.dj",
+        "Android_4.58_tyGuest.alipay.0-hall6.banhao.tu",
+        "Android_4.58_tyGuest,jinritoutiao.jinritoutiao,yisdkpay.0-hall6.jinritoutiao.tu2",
+        "Android_4.58_tyGuest,jinritoutiao.jinritoutiao,yisdkpay.0-hall6.jinritoutiao.tu3",
+        "Android_4.58_tyGuest,jinritoutiao.jinritoutiao,yisdkpay.0-hall6.jinritoutiao.tu4",
+        "Android_4.58_tyGuest,jinritoutiao.jinritoutiao,yisdkpay.0-hall6.jinritoutiao.tu5",
+        "Android_4.58_tyGuest,jinritoutiao.jinritoutiao,yisdkpay.0-hall6.jinritoutiao.tu6",
+        "Android_4.58_tyGuest,jinritoutiao.jinritoutiao,yisdkpay.0-hall6.jinritoutiao.tu7",
+        "Android_4.58_tyGuest,jinritoutiao.jinritoutiao,yisdkpay.0-hall6.jinritoutiao.tu8",
+        "Android_4.58_tyGuest,jinritoutiao.jinritoutiao,yisdkpay.0-hall6.jinritoutiao.tu9",
+        "Android_4.58_tyGuest,jinritoutiao.jinritoutiao,yisdkpay.0-hall6.jinritoutiao.tu10",
+        "Android_4.58_tyGuest,tyAccount.duoku.0-hall6.91new.laiwan",
+        "Android_4.58_tyGuest,tyAccount.duoku.0-hall6.baidunew.laiwan",
+        "Android_4.58_tyGuest,tyAccount.duoku.0-hall6.bdtiebanew.laiwan",
+        "Android_4.58_tyGuest,tyAccount.duoku.0-hall6.duokunew.laiwan",
+        "Android_4.58_tyGuest.meizudj,yisdkpay.0-hall6.meizu.hlzr",
+        "Android_4.58_tyGuest.ucdanji.0-hall6.uc.happy",
+        "Android_4.58_uc.uc.0-hall6.uc.hlzr",
+        "Android_4.58_tyGuest.ucdanji.0-hall6.wdj.happy",
+        "Android_4.58_uc.uc.0-hall6.wdj.hlzr",
+        "Android_4.58_tyGuest,360dj.360dj,yisdkpay.0-hall6.360.fk",
+        "Android_4.58_tyGuest,360dj.yisdkpay,360dj.0-hall6.360.people",
+        "Android_4.58_mi.mi.0-hall6.mi.rich",
+        "Android_4.58_tyGuest.alipay.0-hall6.tuyoo.jingpin",
+        "Android_4.58_anzhi.anzhi,yisdkpay.0-hall6.anzhi.happy",
+        "Android_4.58_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.pconline.tu",
+        "Android_4.58_tyGuest,weixinPay,tyAccount.yisdkpay.0-hall6.qingmeng.tu",
+        "Android_4.58_ysdk841.ysdk841.0-hall6.qq.hlzr",
+        "Android_4.58_nubia.nubia.0-hall6.nubia.tu",
+        "Android_4.58_ysdk841.ysdk841.0-hall6.qq.fh",
+        "Android_4.58_ysdk841.ysdk841.0-hall6.qq.hpdj"
+		]
+	}
+}

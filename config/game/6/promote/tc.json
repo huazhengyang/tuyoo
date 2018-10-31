@@ -1,0 +1,6410 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_AI_360"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6041901,
+       "conditions"  : [
+        {
+         "clientIds"   : [
+          17866
+         ],
+         "typeId"      : "user.cond.in.clientIds"
+        }
+       ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [
+        {
+         "maxVersion"  : 4.571,
+         "minVersion"  : 3.76,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999112401,
+       "conditions"  : [
+        {
+         "maxVersion"  : 9.999,
+         "minVersion"  : 4.575,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_AI_appstore"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6050501,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071101,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_AI_huawei"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6050904,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_AI_jinli"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6082203,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6091801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_AI_leshi"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6050906,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6082203,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6091801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_AI_meizu"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6081802,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6091801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_AI_nonewgoods"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "ddz_AI_nonewgoods_share"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071001,
+       "conditions"  : [
+        {
+         "startLevel"  : 4,
+         "stopLevel"   : -1,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071101,
+       "conditions"  : [
+        {
+         "startLevel"  : 4,
+         "stopLevel"   : -1,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6050903,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "ddz_AI_OPPO"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6050907,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6082203,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6091801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_AI_sanxing"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6050902,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_AI_VIVO"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_AI_wandoujia"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6050905,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_AI_xiaomi"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6011901,
+       "conditions"  : [
+        {
+         "stopExp"     : 60,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 60,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6041901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_buytest"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6041901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "ddz_ios_old"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6031701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6102501,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_tem171025"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6081801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "ddz_test"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 28,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 29,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6053101,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6060701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "ddz_v3.7621_WM_MAC"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 28,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 29,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6101202,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6101203,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    }
+   ],
+   "name"        : "ddz_v3.762_AI_ceshi"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 28,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 29,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6060701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_v3.76_AI_new_share"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 11,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 7,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 28,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 29,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6053101,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 16,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_v3.771_AI_aigame_tishen"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6062702,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 15,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "ddz_v3.80_AI_migu_tishen"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6060701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 28,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_v3.812_AI_roulette"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 28,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_v3.812_AI_roulette_without_weixin_share"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 2016032401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6090502,
+       "conditions"  : [
+        {
+         "startTime"   : 2000,
+         "endTime"     : -1,
+         "typeId"      : "user.cond.play.time"
+        },
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999111802,
+       "conditions"  : [
+        {
+         "startTime"   : 2000,
+         "endTime"     : -1,
+         "typeId"      : "user.cond.play.time"
+        },
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 28,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999111801,
+       "conditions"  : [
+        {
+         "startTime"   : 2000,
+         "endTime"     : -1,
+         "typeId"      : "user.cond.play.time"
+        },
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "ddz_v3.821_ddz_v3.82_AI_ddz_lianyun_promote_slots2"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "ddz_v3.82_AI_qq_mianfei_tishen"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6041901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_v3.90_AI_online"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_v3.90_A_online_noshare"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6101801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v3.91_AI_2v1"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6030101,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "ddz_v3.97_AI_aligame"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "ddz_v3.97_AI_ddz_v3.90_B_online_noshare"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "ddz_v3.97_AI_fangshua"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110304,
+       "conditions"  : [
+        {
+         "start"       : -1,
+         "typeId"      : "user.cond.share.count",
+         "end"         : 1
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [
+        {
+         "start"       : 1,
+         "typeId"      : "user.cond.share.count",
+         "end"         : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6022201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6041801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999111501,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "ddz_v3.97_AI_test"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6082203,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6091801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_v3.97_noshare"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110304,
+       "conditions"  : [
+        {
+         "start"       : -1,
+         "typeId"      : "user.cond.share.count",
+         "end"         : 1
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [
+        {
+         "start"       : 1,
+         "typeId"      : "user.cond.share.count",
+         "end"         : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6041801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999111501,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "ddz_v4.01_test"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110304,
+       "conditions"  : [
+        {
+         "start"       : -1,
+         "typeId"      : "user.cond.share.count",
+         "end"         : 1
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [
+        {
+         "start"       : 1,
+         "typeId"      : "user.cond.share.count",
+         "end"         : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6091801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    }
+   ],
+   "name"        : "ddz_v4.51_AI_A_main"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6082203,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6091801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    }
+   ],
+   "name"        : "ddz_v4.51_AI_noShare"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "ddz_v4.51_AI_tishen"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [
+        {
+         "maxVersion"  : 4.57,
+         "minVersion"  : 3.76,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999112401,
+       "conditions"  : [
+        {
+         "maxVersion"  : 9.99,
+         "minVersion"  : 4.575,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_v4.51_AI_wxShare"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "ddz_v4.54_AI_single_test"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999072401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_online"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [
+        {
+         "maxVersion"  : 4.571,
+         "minVersion"  : 3.76,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999112401,
+       "conditions"  : [
+        {
+         "maxVersion"  : 9.999,
+         "minVersion"  : 4.575,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "stopExp"     : 1,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "stopExp"     : 80,
+         "startExp"    : 10,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_pro_360"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6011901,
+       "conditions"  : [
+        {
+         "stopExp"     : 60,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 60,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [
+        {
+         "maxVersion"  : 4.571,
+         "minVersion"  : 3.76,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999112401,
+       "conditions"  : [
+        {
+         "maxVersion"  : 9.999,
+         "minVersion"  : 4.575,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_pro_appstore"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999072401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [
+        {
+         "maxVersion"  : 4.571,
+         "minVersion"  : 3.76,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999112401,
+       "conditions"  : [
+        {
+         "maxVersion"  : 9.999,
+         "minVersion"  : 4.575,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_pro_baidu"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "stopExp"     : 1,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "stopExp"     : 80,
+         "startExp"    : 10,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_pro_huawei"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "stopExp"     : 80,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999072401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6050904,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [
+        {
+         "maxVersion"  : 4.58,
+         "minVersion"  : 3.76,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999112401,
+       "conditions"  : [
+        {
+         "maxVersion"  : 9.999,
+         "minVersion"  : 4.58,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_pro_jinli"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_pro_meizu"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "stopExp"     : 1,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "stopExp"     : 80,
+         "startExp"    : 10,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_pro_OPPO"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "stopExp"     : 1,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "stopExp"     : 80,
+         "startExp"    : 10,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6031901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_pro_qq"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_pro_sanxing"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "stopExp"     : 1,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "stopExp"     : 80,
+         "startExp"    : 10,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_pro_tuyoo"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "stopExp"     : 1,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "stopExp"     : 80,
+         "startExp"    : 10,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6122502,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_pro_VIVO"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v4.56_AI_pro_xiaomi"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "startLevel"  : 0,
+         "stopLevel"   : 0,
+         "typeId"      : "user.cond.vipLevel"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999072401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_v4.56_pro_others"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999092001,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999092002,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999092003,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999092004,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999092006,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999092007,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999112401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    }
+   ],
+   "name"        : "ddz_v4.57_AI_beta"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010401,
+       "conditions"  : [
+        {
+         "maxVersion"  : 9.99,
+         "minVersion"  : 4.58,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [
+        {
+         "maxVersion"  : 4.58,
+         "minVersion"  : 3.9,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "stopExp"     : 80,
+         "startExp"    : 0,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6112201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [
+        {
+         "maxVersion"  : 9.99,
+         "minVersion"  : 4.58,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010301,
+       "conditions"  : [
+        {
+         "maxVersion"  : 9.99,
+         "minVersion"  : 4.58,
+         "typeId"      : "user.cond.clientVersion"
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "ddz_v4.57_AI_pro_tuyoo_shiming"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : 30,
+           "startDays"   : 0,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 80,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : -1,
+           "startDays"   : 30,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 10,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [
+        {
+         "startDays"   : 3,
+         "typeId"      : "user.cond.login.days",
+         "endDays"     : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v4.58_AI_Pro_360"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [
+        {
+         "startDays"   : 3,
+         "typeId"      : "user.cond.login.days",
+         "endDays"     : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : 30,
+           "startDays"   : 0,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 80,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : -1,
+           "startDays"   : 30,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 10,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010401,
+       "conditions"  : [
+        {
+         "clientIds"   : [
+          22416,
+          22489,
+          22595,
+          22817,
+          22767,
+          22818
+         ],
+         "typeId"      : "user.cond.notin.clientIds"
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v4.58_AI_Pro_Android_noshanre"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [
+        {
+         "startDays"   : 3,
+         "typeId"      : "user.cond.login.days",
+         "endDays"     : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6011901,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : 30,
+           "startDays"   : 0,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 60,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 60,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010401,
+       "conditions"  : [
+        {
+         "clientIds"   : [
+          22619,
+          22618
+         ],
+         "typeId"      : "user.cond.notin.clientIds"
+        }
+       ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v4.58_AI_Pro_appstore"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [
+        {
+         "startDays"   : 3,
+         "typeId"      : "user.cond.login.days",
+         "endDays"     : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : 30,
+           "startDays"   : 0,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 80,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : -1,
+           "startDays"   : 30,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 10,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v4.58_AI_Pro_huawei"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [
+        {
+         "startDays"   : 3,
+         "typeId"      : "user.cond.login.days",
+         "endDays"     : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : 30,
+           "startDays"   : 0,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 80,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : -1,
+           "startDays"   : 30,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 10,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v4.58_AI_Pro_oppo"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [
+        {
+         "startDays"   : 3,
+         "typeId"      : "user.cond.login.days",
+         "endDays"     : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : 30,
+           "startDays"   : 0,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 80,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : -1,
+           "startDays"   : 30,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 10,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010302,
+       "conditions"  : [
+        {
+         "clientIds"   : [
+          22481
+         ],
+         "typeId"      : "user.cond.in.clientIds"
+        }
+       ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v4.58_AI_Pro_qq"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [
+        {
+         "startDays"   : 3,
+         "typeId"      : "user.cond.login.days",
+         "endDays"     : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : 30,
+           "startDays"   : 0,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 80,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : -1,
+           "startDays"   : 30,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 10,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v4.58_AI_Pro_sanxing"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [
+        {
+         "startDays"   : 3,
+         "typeId"      : "user.cond.login.days",
+         "endDays"     : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : 30,
+           "startDays"   : 0,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 80,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : -1,
+           "startDays"   : 30,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 10,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v4.58_AI_Pro_uc"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : 30,
+           "startDays"   : 0,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 80,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : -1,
+           "startDays"   : 30,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 10,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [
+        {
+         "startDays"   : 3,
+         "typeId"      : "user.cond.login.days",
+         "endDays"     : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v4.58_AI_Pro_xiaomimi"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110303,
+       "conditions"  : [ ]
+      },
+      {
+       "promotionId" : 9999010304,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "ddz_v4.58_AI_test"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [
+        {
+         "startDays"   : 3,
+         "typeId"      : "user.cond.login.days",
+         "endDays"     : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : 30,
+           "startDays"   : 0,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 80,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : -1,
+           "startDays"   : 30,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 10,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v4.58_Pro_Android"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010402,
+       "conditions"  : [
+        {
+         "startDays"   : 3,
+         "typeId"      : "user.cond.login.days",
+         "endDays"     : -1
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6052301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : 30,
+           "startDays"   : 0,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 80,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121302,
+       "conditions"  : [
+        {
+         "stopExp"     : -1,
+         "startExp"    : 80,
+         "typeId"      : "user.cond.vipExp"
+        }
+       ]
+      },
+      {
+       "promotionId" : 6121301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "stopDays"    : -1,
+           "startDays"   : 30,
+           "typeId"      : "user.cond.registerDays"
+          },
+          {
+           "stopExp"     : 10,
+           "startExp"    : 0,
+           "typeId"      : "user.cond.vipExp"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6010401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999010301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "ddz_v4.58_Pro_vivo"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unFirstRecharged"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "list"        : [
+          {
+           "startLevel"  : 1,
+           "stopLevel"   : 13,
+           "typeId"      : "user.cond.vipLevel"
+          },
+          {
+           "typeId"      : "user.cond.unGotFirstRechargeReward"
+          }
+         ],
+         "typeId"      : "user.cond.and"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110305,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999072401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6071301,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    }
+   ],
+   "name"        : "ddz_v4.5_AI_pro_uc"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 1,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 16,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 11,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 7,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "template.1"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 11,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 7,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      },
+      {
+       "promotionId" : 1,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "template.3_5_02"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 4,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 7,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      },
+      {
+       "promotionId" : 1,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "template.3_5_02_wifikey"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "template.3_61_Winpc"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999110302,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId" : 9999110301,
+       "conditions"  : [
+        {
+         "typeId"      : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 6051002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "template.3_76_mi"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 5,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 14,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 15,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 3
+    }
+   ],
+   "name"        : "template.3_7_migu"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "template.no.promotion"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 2016030801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "iOS青春版首充礼包",
+   "url"         : "${http_download}/hall/promote/imgs/hall_promoteloc_icon_firstly.qingchunban.png"
+  },
+  {
+   "promotionId" : 2016030802,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.promote"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "iOS青春版推荐有礼",
+   "url"         : "${http_download}/hall/promote/imgs/hall_promoteloc_icon_red_packet_2.qingchunban.png",
+   "defaultRes"  : "PromoteShare"
+  },
+  {
+   "promotionId" : 2016030803,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.checkin"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "iOS青春版30日签到",
+   "url"         : "${http_download}/hall/promote/imgs/hall_promoteloc_icon_sign_in.qingchunban.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 2016030804,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.lottery"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "iOS青春版抽奖",
+   "url"         : "${http_download}/hall/promote/imgs/hall_promoteloc_icon_lucky.qingchunban.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 2016030805,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "desc"        : "恭喜您获得首充奖励大礼包！",
+     "typeId"      : "todotask.firstRechargeReward",
+     "url"         : "${http_download}/hall/promote/imgs/first_recharge_content.png"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "iOS青春版首冲奖励",
+   "url"         : "${http_download}/hall/promote/imgs/hall_promoteloc_icon_firstly.qingchunban.png"
+  },
+  {
+   "promotionId" : 2016032401,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.free"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "免费福利",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_dailybonus_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6033101,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "action"      : "pop_info_wnd",
+     "params"      : {
+      "des"         : "下载全球最火策略卡牌游戏【皇室战争】（89M）"
+     },
+     "typeId"      : "todotask.general",
+     "actions"     : [
+      {
+       "name"        : "sub_action",
+       "action"      : {
+        "typeId"      : "todotask.sendMsg",
+        "msg"         : {
+         "cmd"         : "act",
+         "params"      : {
+          "activityId"  : "activity_hall_reward_hszz",
+          "action"      : "activityHSZZ"
+         }
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "皇室战争",
+   "url"         : "${http_download}/hall/promote/imgs/firstrecharge.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6053101,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_dachuntian_0214",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "活动",
+   "url"         : "${http_download}/hall/promote/imgs/dachuntian_0214.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6061601,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_ouzhoubei_0628",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "微信分享",
+   "url"         : "${http_download}/hall/promote/imgs/activity_button_20160629.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6062701,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.download",
+     "url"         : "http://m.10086.cn/wireless/html5/index.html"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "下载",
+   "url"         : "${http_download}/hall/promote/imgs/icon_download.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6062702,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "action"      : "migu",
+     "typeId"      : "hall.thirdsdk.extend"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "咪咕音乐",
+   "url"         : "${http_download}/hall/promote/imgs/icon_music.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6070501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "recommendBuy_Summer_preference"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "暑期特惠",
+   "url"         : "${http_download}/hall/promote/imgs/promote_button_20160720.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6070801,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.promote"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "去3.77版本的红包自推广场景",
+   "url"         : "${http_download}/hall/promote/imgs/share.png",
+   "defaultRes"  : "PromoteShare"
+  },
+  {
+   "promotionId" : 6082001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 1
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 27,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "startTime"   : 7201,
+     "endTime"     : -1,
+     "typeId"      : "user.cond.play.time"
+    }
+   ],
+   "displayName" : "欢乐小丑",
+   "url"         : "${http_download}/hall/promote/imgs/xiaochouicon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6082201,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": { },
+      "type"        : "game"
+     },
+     "gameId"      : 23,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "startTime"   : 7201,
+     "endTime"     : -1,
+     "typeId"      : "user.cond.play.time"
+    }
+   ],
+   "displayName" : "中发白",
+   "url"         : "${http_download}/hall/promote/imgs/zhongfabaiicon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6082202,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": { },
+      "type"        : "game"
+     },
+     "gameId"      : 8,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "startTime"   : 10801,
+     "endTime"     : -1,
+     "typeId"      : "user.cond.play.time"
+    }
+   ],
+   "displayName" : "德州扑克",
+   "url"         : "${http_download}/hall/promote/imgs/dezhouicon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6082301,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "reward"      : "",
+     "typeId"      : "todotask.bindPhone",
+     "info"        : "为了您的账号安全,请先绑定手机号"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "官方正版",
+   "url"         : "${http_download}/hall/promote/imgs/iOSdaoliu.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6082302,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.download",
+     "url"         : "http://itunes.apple.com/cn/app/tu-you-dou-zhu-guan-fang-ban/id1112940449?mt=8&ign-mpt=uo%3D4"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "官方正版",
+   "url"         : "${http_download}/hall/promote/imgs/iOSdaoliu.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6090201,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.checkin"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "3.9签到",
+   "url"         : "${http_download}/hall/promote/imgs/hall_promoteloc_icon_sign_in.qingchunban.png",
+   "defaultRes"  : "PromoteSignIn"
+  },
+  {
+   "promotionId" : 6090202,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.free"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "3.9福利",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_dailybonus_0820.png",
+   "defaultRes"  : "Promotefree"
+  },
+  {
+   "promotionId" : 6090203,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_ouzhoubei_0628",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "3.9微信分享",
+   "url"         : "${http_download}/hall/promote/imgs/activity_button_20160629.png",
+   "defaultRes"  : "PromoteRecommend"
+  },
+  {
+   "promotionId" : 6090501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_majiangtuiguang_0904",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "朋友场",
+   "url"         : "${http_download}/hall/promote/imgs/promote_button_pengyouchang_0905.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6090502,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": { },
+      "type"        : "game"
+     },
+     "gameId"      : 31,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "startTime"   : 2000,
+     "endTime"     : -1,
+     "typeId"      : "user.cond.play.time"
+    }
+   ],
+   "displayName" : "新大丰收",
+   "url"         : "${http_download}/hall/promote/imgs/dafengshounewicon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6101201,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "payOrder"    : {
+      "shelves"     : [
+       "coin"
+      ],
+      "priceDiamond": {
+       "count"       : 20,
+       "minCount"    : 0,
+       "maxCount"    : -1
+      },
+      "buyTypes"    : [
+       "direct",
+       "consume"
+      ]
+     },
+     "typeId"      : "todotask.payOrder"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "超值金币",
+   "url"         : "${http_download}/hall/promote/imgs/ddz_ali_chaozhicoin_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6101202,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "payOrder"    : {
+      "shelves"     : [
+       "raffle"
+      ],
+      "priceDiamond": {
+       "count"       : 80,
+       "minCount"    : 0,
+       "maxCount"    : -1
+      },
+      "buyTypes"    : [
+       "direct",
+       "consume"
+      ]
+     },
+     "typeId"      : "todotask.payOrder"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "阿里特惠",
+   "url"         : "${http_download}/hall/promote/imgs/ddz_ali_tehui_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6101203,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "payOrder"    : {
+      "shelves"     : [
+       "coin"
+      ],
+      "priceDiamond": {
+       "count"       : 300,
+       "minCount"    : 0,
+       "maxCount"    : -1
+      },
+      "buyTypes"    : [
+       "direct",
+       "consume"
+      ]
+     },
+     "typeId"      : "todotask.payOrder"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "VIP专享",
+   "url"         : "${http_download}/hall/promote/imgs/ddz_ali_vip_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6101801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 8,
+       "popWnd"      : "twoVsOneHelp"
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "帮助",
+   "url"         : "${http_download}/hall/menulist/tuiguangwei_bangzhu.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6102701,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "Copy_invite_new_friend_20161022",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "新朋友活动",
+   "url"         : "${http_download}/hall/promote/imgs/xinpengyouhongbao2.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6110301,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeReceive"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "3.9首充礼包奖励",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_new_firstrecharge_0820.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6110901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "shuang11buy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "双十一特惠",
+   "url"         : "${http_download}/hall/promote/imgs/ddz_1111tehui_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6022201,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新比赛",
+   "url"         : "${http_download}/hall/promote/imgs/hongbaosaishengji.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6030101,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_alzhuanshutequan_0228.",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "阿里特权",
+   "url"         : "${http_download}/hall/promote/imgs/aligame.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6031401,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.enter.friendTable"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "加朋友桌",
+   "url"         : "${http_download}/hall/promote/imgs/friend_table_170316.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6031701,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_wandoujiabangding_170317",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "绑定手机",
+   "url"         : "${http_download}/hall/promote/imgs/bangding_90_90_170317.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6032901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "goldenEggAnd"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "金蛋礼包（安卓）",
+   "url"         : "${http_download}/hall/promote/imgs/goldenEgg170330.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6032902,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "goldenEggIos"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "金蛋礼包（IOS）",
+   "url"         : "${http_download}/hall/promote/imgs/goldenEgg170330.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6041101,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_renwu_170413",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "致富秘籍",
+   "url"         : "${http_download}/hall/promote/imgs/zhifumiji_170413.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6041801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 170914,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "10月4日21:30比赛赢iPhone X 现在分享得比赛门票哦(限时)"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "iPhoneX",
+   "url"         : "${http_download}/hall/promote/imgs/iPhoneX0915.png",
+   "defaultRes"  : "iPhoneX"
+  },
+  {
+   "promotionId" : 6041901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.download",
+     "url"         : "https://itunes.apple.com/cn/app/id1321828245?mt=8"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新版本更新",
+   "url"         : "${http_download}/hall/promote/imgs/iOSshengji_rp.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6042501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "action"      : "rep_sence_pack",
+     "params"      : { },
+     "typeId"      : "todotask.general"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "五一礼包",
+   "url"         : "${http_download}/hall/promote/imgs/51libao100_170427.png",
+   "defaultRes"  : "五一礼包"
+  },
+  {
+   "promotionId" : 6042601,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_general_btn1",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "双节福利赛",
+   "url"         : "${http_download}/hall/promote/imgs/shuangjie_2000_171221.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6042602,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "action"      : "rep_sence_pack",
+     "params"      : { },
+     "typeId"      : "todotask.general"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "五一礼包（华为）",
+   "url"         : "${http_download}/hall/promote/imgs/51libao100_huawei_170427.png",
+   "defaultRes"  : "五一礼包（华为）"
+  },
+  {
+   "promotionId" : 6042603,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "action"      : "rep_sence_pack",
+     "params"      : { },
+     "typeId"      : "todotask.general"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "五一礼包（腾讯）",
+   "url"         : "${http_download}/hall/promote/imgs/51libao100_tencent_170427.png",
+   "defaultRes"  : "五一礼包（腾讯）"
+  },
+  {
+   "promotionId" : 6042604,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "action"      : "rep_sence_pack",
+     "params"      : { },
+     "typeId"      : "todotask.general"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "五一礼包（小米）",
+   "url"         : "${http_download}/hall/promote/imgs/51libao100_xiaomi_170427.png",
+   "defaultRes"  : "五一礼包（小米）"
+  },
+  {
+   "promotionId" : 6042605,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "action"      : "rep_sence_pack",
+     "params"      : { },
+     "typeId"      : "todotask.general"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "五一礼包（三星）",
+   "url"         : "${http_download}/hall/promote/imgs/51libao100_sanxing_170427.png",
+   "defaultRes"  : "五一礼包（三星）"
+  },
+  {
+   "promotionId" : 6050501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_huaweipt_170511",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "华为专属赛",
+   "url"         : "${http_download}/hall/promote/pro_ddz_sjbs_huawei.png",
+   "defaultRes"  : "华为专属赛"
+  },
+  {
+   "promotionId" : 6050901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3,
+       "roomId"      : 6992
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "母亲节免费礼物赛",
+   "url"         : "${http_download}/hall/promote/imgs/huawei_170505.png",
+   "defaultRes"  : "母亲节免费礼物赛"
+  },
+  {
+   "promotionId" : 6050902,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_vivopt_170511",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "VIVO专属赛",
+   "url"         : "${http_download}/hall/promote/imgs/pro_ddz_sjbs_vivo.png",
+   "defaultRes"  : "VIVO专属赛"
+  },
+  {
+   "promotionId" : 6050903,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3,
+       "roomId"      : 6998
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "OPPO专属赛",
+   "url"         : "${http_download}/hall/promote/imgs/pro_ddz_sjbs_oppo.png",
+   "defaultRes"  : "OPPO专属赛"
+  },
+  {
+   "promotionId" : 6050904,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3,
+       "roomId"      : 6998
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "金立专属赛",
+   "url"         : "${http_download}/hall/promote/imgs/pro_jinli_s10.png",
+   "defaultRes"  : "金立专属赛"
+  },
+  {
+   "promotionId" : 6050905,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3,
+       "roomId"      : 6998
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "小米专属赛",
+   "url"         : "${http_download}/hall/promote/imgs/pro-ddz-sjbs-mi.png",
+   "defaultRes"  : "小米专属赛"
+  },
+  {
+   "promotionId" : 6050906,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3,
+       "roomId"      : 6998
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "魅族专属赛",
+   "url"         : "${http_download}/hall/promote/imgs/meizuPro70818.png",
+   "defaultRes"  : "魅族专属赛"
+  },
+  {
+   "promotionId" : 6050907,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3,
+       "roomId"      : 6998
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三星专属赛",
+   "url"         : "${http_download}/hall/promote/imgs/pro-ddz-sjbs-sanxing.png",
+   "defaultRes"  : "三星专属赛"
+  },
+  {
+   "promotionId" : 6050908,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3,
+       "roomId"      : 6998
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "乐视专属赛",
+   "url"         : "${http_download}/hall/promote/imgs/letv_90_90.png",
+   "defaultRes"  : "乐视专属赛"
+  },
+  {
+   "promotionId" : 6051001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3,
+       "roomId"      : 6992
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "节日赛（母亲节）",
+   "url"         : "${http_download}/hall/promote/imgs/muqinjie_170514.png",
+   "defaultRes"  : "节日赛（母亲节）"
+  },
+  {
+   "promotionId" : 6051002,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3,
+       "roomId"      : 6998
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "神秘手机比赛",
+   "url"         : "${http_download}/hall/promote/imgs/shenmishouji_170608.png",
+   "defaultRes"  : "神秘手机比赛"
+  },
+  {
+   "promotionId" : 6051701,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3,
+       "roomId"      : 6998
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "360专属赛",
+   "url"         : "${http_download}/hall/promote/360N5_mianfeiying.png",
+   "defaultRes"  : "360专属赛"
+  },
+  {
+   "promotionId" : 6052301,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "newYearBuy8"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "左上角首充8元",
+   "url"         : "${http_download}/hall/promote/imgs/linghuafei8_458_180327.png",
+   "defaultRes"  : "左上角首充8元"
+  },
+  {
+   "promotionId" : 6052302,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_360dasai_1",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "比赛（360棋牌大赛）",
+   "url"         : "${http_download}/hall/promote/imgs/360dashi_458.png",
+   "defaultRes"  : "比赛（360棋牌大赛）"
+  },
+  {
+   "promotionId" : 6052303,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "sharePointId": 999999999,
+     "typeId"      : "newShare.pop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "美好生活",
+   "url"         : "${http_download}/dizhu/room/imgs/goodlifepromote.png",
+   "defaultRes"  : "美好生活"
+  },
+  {
+   "promotionId" : 6060701,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_renwu_170608",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "去赚钱（暑期）",
+   "url"         : "${http_download}/hall/promote/imgs/quzhuanqian_170608.png",
+   "defaultRes"  : "去赚钱（暑期）"
+  },
+  {
+   "promotionId" : 6071001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 0
+      },
+      "type"        : "game"
+     },
+     "gameId"      : 19,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "去往跑狗",
+   "url"         : "${http_download}/hall/promote/imgs/xiaogou0710.png",
+   "defaultRes"  : "去往跑狗"
+  },
+  {
+   "promotionId" : 6071101,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 1
+      },
+      "type"        : "game"
+     },
+     "gameId"      : 38,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "去往红黑",
+   "url"         : "${http_download}/hall/promote/imgs/hongheiicon.png",
+   "defaultRes"  : "去往红黑"
+  },
+  {
+   "promotionId" : 6071301,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.lottery"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "转家电",
+   "url"         : "${http_download}/hall/promote/imgs/zhuanpan_170713.png",
+   "defaultRes"  : "转家电"
+  },
+  {
+   "promotionId" : 6071302,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_xinshou3_170713",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新手3日礼",
+   "url"         : "${http_download}/hall/promote/imgs/xinshou3_170713.png",
+   "defaultRes"  : "新手3日礼"
+  },
+  {
+   "promotionId" : 6071701,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 3,
+       "mixId"       : "6053",
+       "roomId"      : 6072
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 6,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "500元红包赛",
+   "url"         : "${http_download}/hall/promote/imgs/500hongbaosai.png",
+   "defaultRes"  : "500元红包赛"
+  },
+  {
+   "promotionId" : 6071801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": { },
+      "type"        : "game"
+     },
+     "gameId"      : 16,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "去往百人斗牛",
+   "url"         : "${http_download}/hall/promote/imgs/bairenicon.png",
+   "defaultRes"  : "去往百人斗牛"
+  },
+  {
+   "promotionId" : 6071901,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subStore"    : "hot",
+     "typeId"      : "hall.goto.exshop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新兑换商城",
+   "url"         : "${http_download}/hall/promote/imgs/exchange_mall_new_0724_1.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6081001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_scoreboard_huawei_170811",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "华为大师赛",
+   "url"         : "${http_download}/hall/promote/imgs/pro-ddz-dashisai-huawei.png",
+   "defaultRes"  : "华为大师赛"
+  },
+  {
+   "promotionId" : 6081401,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.download",
+     "url"         : "https://sojump.com/jq/15924835.aspx"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "有奖问卷",
+   "url"         : "${http_download}/hall/promote/imgs/pro_ddz_diaochawenjuan.png",
+   "defaultRes"  : "有奖问卷"
+  },
+  {
+   "promotionId" : 6081801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "action"      : "download_apk",
+     "params"      : {
+      "action"      : "ysdk",
+      "func"        : "bbs"
+     },
+     "typeId"      : "todotask.general"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "七夕福利",
+   "url"         : "${http_download}/hall/promote/imgs/pro-ddz-360qixi0824i.png",
+   "defaultRes"  : "七夕福利"
+  },
+  {
+   "promotionId" : 6081802,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subStore"    : "tools",
+     "typeId"      : "hall.goto.exshop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "兑换商城",
+   "url"         : "${http_download}/hall/promote/imgs/ddz_duihuanshangcheng_90_90.png",
+   "defaultRes"  : "兑换商城"
+  },
+  {
+   "promotionId" : 6082203,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subStore"    : "coupon1",
+     "typeId"      : "hall.goto.shop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "兑换商城",
+   "url"         : "${http_download}/hall/promote/imgs/ddz_duihuanshangcheng_90_90.png",
+   "defaultRes"  : "兑换商城"
+  },
+  {
+   "promotionId" : 6082401,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_meizui_0825",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "七夕福利",
+   "url"         : "${http_download}/hall/promote/imgs/pro-ddz-360qixi0824i.png",
+   "defaultRes"  : "七夕福利"
+  },
+  {
+   "promotionId" : 6090601,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.download",
+     "url"         : "https://h5.m.youku.com/ju/jslm2.html?from=3"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优酷军师2",
+   "url"         : "${http_download}/hall/promote/imgs/uc_junshi_171221.png",
+   "defaultRes"  : "优酷军师2"
+  },
+  {
+   "promotionId" : 6091201,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_scoreboard_vivo_0905",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "大师赛",
+   "url"         : "${http_download}/hall/promote/imgs/ddz_kaixueji0913_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 6091801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_qiuji_0915",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "金秋九月",
+   "url"         : "${http_download}/hall/promote/imgs/JINQIU_09_18.png",
+   "defaultRes"  : "金秋九月"
+  },
+  {
+   "promotionId" : 6102501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.download",
+     "url"         : "https://apk.dl.tuyoo.com/down/ddz/tuyoo_android_ddz.apk"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新版本（安卓官网）",
+   "url"         : "${http_download}/hall/promote/imgs/iOSdaoliu.png",
+   "defaultRes"  : "新版本（安卓官网）"
+  },
+  {
+   "promotionId" : 6112101,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_youkuleague_171124",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优酷争霸赛",
+   "url"         : "${http_download}/hall/promote/imgs/youku_171121.png",
+   "defaultRes"  : "优酷争霸赛"
+  },
+  {
+   "promotionId" : 6112201,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "identity_auth"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "实名认证",
+   "url"         : "${http_download}/hall/promote/imgs/shimingrenzheng.png",
+   "defaultRes"  : "实名认证"
+  },
+  {
+   "promotionId" : 6121301,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstBuy"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "左上角1元首充（21天未付费）",
+   "url"         : "${http_download}/hall/promote/imgs/first_charge68_458.png",
+   "defaultRes"  : "左上角1元首充（21天未付费）"
+  },
+  {
+   "promotionId" : 6121302,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subStore"    : "coin",
+     "typeId"      : "hall.goto.shop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "左上角商城",
+   "url"         : "${http_download}/hall/promote/imgs/mall_458.png",
+   "defaultRes"  : "左上角商城"
+  },
+  {
+   "promotionId" : 6121901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "sharePointId": 999991048,
+     "typeId"      : "newShare.pop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "38妇女节",
+   "url"         : "${http_download}/hall/promote/imgs/pro_3.8funvjie.png",
+   "defaultRes"  : "38妇女节"
+  },
+  {
+   "promotionId" : 6122101,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.download",
+     "url"         : "http://ddz.dl.tuyoo.com/cdn37/apk/Game-dizhu-4.575-tyGuest,tyAccount,ysdk.ysdk.0-hall6.qq.tu.70.apk"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "应用宝引导下载4.575",
+   "url"         : "${http_download}/hall/promote/imgs/shengdan_171221.png",
+   "defaultRes"  : "应用宝引导下载4.575"
+  },
+  {
+   "promotionId" : 6122501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_scoreboard_360",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "360棋牌大师赛",
+   "url"         : "${http_download}/hall/promote/imgs/360dashi_458.png",
+   "defaultRes"  : "360棋牌大师赛"
+  },
+  {
+   "promotionId" : 6122502,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_scoreboard_vivo",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "vivo棋牌大师赛",
+   "url"         : "${http_download}/hall/promote/imgs/vivodashisai_458.png",
+   "defaultRes"  : "vivo棋牌大师赛"
+  },
+  {
+   "promotionId" : 6010401,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "action"      : "open_redbag_view",
+     "typeId"      : "todotask.general"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "拜年红包",
+   "url"         : "${http_download}/hall/promote/imgs/year_458.png",
+   "defaultRes"  : "拜年红包"
+  },
+  {
+   "promotionId" : 6010402,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.duobao"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "夺宝2018",
+   "url"         : "${http_download}/hall/promote/imgs/duobao_458_2.png",
+   "defaultRes"  : "夺宝2018"
+  },
+  {
+   "promotionId" : 6011301,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "sharePointId": 999901044,
+     "typeId"      : "newShare.pop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "test红包雨",
+   "url"         : "${http_download}/hall/promote/imgs/shenmishouji_4.57.png",
+   "defaultRes"  : "test红包雨"
+  },
+  {
+   "promotionId" : 6011601,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "sharePointId": 999901044,
+     "typeId"      : "newShare.pop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "红包雨分享test",
+   "url"         : "${http_download}/hall/promote/imgs/share.png",
+   "defaultRes"  : "红包雨分享test"
+  },
+  {
+   "promotionId" : 6011901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "newYearBuy6"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "左上角首充6元",
+   "url"         : "${http_download}/hall/promote/imgs/linghuafei6_458_180327.png",
+   "defaultRes"  : "左上角首充6元"
+  },
+  {
+   "promotionId" : 6020501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "actId"       : "activity_ddz_bangding_170323",
+     "typeId"      : "hall.goto.activity.byid"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "startChip"   : 0,
+     "stopChip"    : 100000000,
+     "typeId"      : "user.cond.chip"
+    }
+   ],
+   "displayName" : "IOS老版本更新",
+   "url"         : "${http_download}/hall/promote/imgs/year_458.png",
+   "defaultRes"  : "IOS老版本更新"
+  },
+  {
+   "promotionId" : 6020801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "sharePointId": 999999999,
+     "typeId"      : "newShare.pop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "春节回家",
+   "url"         : "${http_download}/hall/promote/imgs/zhanji_180213.png",
+   "defaultRes"  : "春节回家"
+  },
+  {
+   "promotionId" : 6021101,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "newYearBuy100"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "左上角100元弹窗",
+   "url"         : "${http_download}/hall/promote/imgs/suijifan_458.png",
+   "defaultRes"  : "左上角100元弹窗"
+  },
+  {
+   "promotionId" : 6021102,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "newYearBuy128"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "左上角128元弹窗",
+   "url"         : "${http_download}/hall/promote/imgs/suijifan_458.png",
+   "defaultRes"  : "左上角128元弹窗"
+  },
+  {
+   "promotionId" : 6021103,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "newYearBuy300"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "左上角300元弹窗",
+   "url"         : "${http_download}/hall/promote/imgs/suijifan_458.png",
+   "defaultRes"  : "左上角300元弹窗"
+  },
+  {
+   "promotionId" : 6021104,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "newYearBuy328"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "左上角328元弹窗",
+   "url"         : "${http_download}/hall/promote/imgs/suijifan_458.png",
+   "defaultRes"  : "左上角328元弹窗"
+  },
+  {
+   "promotionId" : 6031901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.download",
+     "url"         : "http://imtt.dd.qq.com/16891/9E3A1624729884C062BC8C4047DBDEA1.apk?fsname=com.tuyoo.doudizhu.maintu_4.58_4580.apk&csr=1bbd"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "应用宝版本升级",
+   "url"         : "${http_download}/hall/promote/imgs/iOSshengji.png",
+   "defaultRes"  : "应用宝版本升级"
+  }
+ ]
+}

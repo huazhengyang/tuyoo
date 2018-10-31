@@ -1,0 +1,650 @@
+{
+    "pearlStore": {
+        "1137_50": {
+            "itemId": 1137,
+            "count": 50,
+            "order": 0,
+            "price": [
+                22000,
+                19000,
+                18000,
+                0
+            ],
+            "tag": 2,
+            "addition": [
+                "剩余:3",
+                "剩余:2",
+                "剩余:1",
+                "每日0:00重置"
+            ],
+            "pic": "${http_download}/hall/item/imgs/newFish_Pearl1.png",
+            "buyType": "coin"
+        },
+        "1137_150": {
+            "itemId": 1137,
+            "count": 150,
+            "order": 1,
+            "price": [
+                57
+            ],
+            "tag": 1,
+            "addition": [
+                ""
+            ],
+            "pic": "${http_download}/hall/item/imgs/newFish_Pearl1.png",
+            "buyType": "diamond"
+        },
+        "1137_1500": {
+            "itemId": 1137,
+            "count": 1500,
+            "order": 2,
+            "price": [
+                500
+            ],
+            "tag": 1,
+            "addition": [
+                "已加送250个"
+            ],
+            "pic": "${http_download}/hall/item/imgs/newFish_Pearl2.png",
+            "buyType": "diamond"
+        },
+        "1137_15000": {
+            "itemId": 1137,
+            "count": 15000,
+            "order": 3,
+            "price": [
+                4600
+            ],
+            "tag": 0,
+            "addition": [
+                "已加送3500个"
+            ],
+            "pic": "${http_download}/hall/item/imgs/newFish_Pearl3.png",
+            "buyType": "diamond"
+        }
+    },
+    "chestStore": {
+        "items": {
+            "32003": {
+                "name": "财富宝箱",
+                "order": 0,
+                "price": 38,
+                "discountPrice": [
+                    15,
+                    30,
+                    45,
+                    60,
+                    80,
+                    100,
+                    120,
+                    150,
+                    200,
+                    300
+                ],
+                "tag": [
+                    0
+                ],
+                "desc": "每日0:00重置",
+                "addition": [
+                    "4折，限购1次",
+                    "8折，限购1次",
+                    ""
+                ],
+                "buyType": "pearl"
+            },
+            "35003": {
+                "name": "神秘大银箱",
+                "order": 1,
+                "price": 260000,
+                "discountPrice": [
+                    260000,
+                    200000,
+                    200000,
+                    260000
+                ],
+                "tag": [
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                "desc": "",
+                "addition": [
+                    "购买后激活7.6折",
+                    "7.6折，限购2次",
+                    "7.6折，限购1次",
+                    ""
+                ],
+                "buyType": "coin"
+            },
+            "36001": {
+                "name": "神秘贵族箱",
+                "order": 2,
+                "price": 2000000,
+                "discountPrice": [
+                    1400000,
+                    1400000,
+                    2000000
+                ],
+                "tag": [
+                    3,
+                    3,
+                    0
+                ],
+                "desc": "",
+                "addition": [
+                    "7折，限购2次",
+                    "7折，限购1次",
+                    ""
+                ],
+                "buyType": "coin"
+            },
+            "37002": {
+                "name": "超级宝藏箱",
+                "order": 3,
+                "price": 2980000,
+                "discountPrice": [
+                    2380000,
+                    2980000
+                ],
+                "tag": [
+                    3,
+                    0
+                ],
+                "desc": "",
+                "addition": [
+                    "8折，限购1次",
+                    ""
+                ],
+                "buyType": "coin"
+            }
+        },
+        "ads": [
+            "${http_download}/hall/ads/imgs/ads_newFish_shop1.jpg"
+        ]
+    },
+    "couponStore": {
+        "36001_1": {
+            "name": "神秘贵族箱",
+            "itemId": 36001,
+            "count": 1,
+            "order": 1,
+            "itemType": 1,
+            "desc": "价值200万金币",
+            "price": [
+                8000
+            ],
+            "tag": 0,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "limitGuide": 1,
+            "buyType": "coupon"
+        },
+        "1165_3": {
+            "name": "霜冻x3天",
+            "itemId": 1165,
+            "count": 3,
+            "order": 2,
+            "itemType": 0,
+            "desc": "价值12万金币",
+            "price": [
+                480
+            ],
+            "tag": 0,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "limitGuide": 1,
+            "buyType": "coupon"
+        },
+        "1166_7": {
+            "name": "炎龙x7天",
+            "itemId": 1166,
+            "count": 7,
+            "order": 3,
+            "itemType": 0,
+            "desc": "价值175万金币",
+            "price": [
+                7200
+            ],
+            "tag": 0,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "limitGuide": 1,
+            "buyType": "coupon"
+        },
+        "1301_12": {
+            "name": "青铜招财珠x12",
+            "itemId": 1301,
+            "count": 12,
+            "order": 4,
+            "itemType": 0,
+            "desc": "加送50%",
+            "price": [
+                800
+            ],
+            "tag": 0,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "limitGuide": 1,
+            "buyType": "coupon"
+        },
+        "1193_9": {
+            "name": "白银招财珠x9",
+            "itemId": 1193,
+            "count": 9,
+            "order": 5,
+            "itemType": 0,
+            "desc": "加送80%",
+            "price": [
+                5000
+            ],
+            "tag": 0,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "limitGuide": 1,
+            "buyType": "coupon"
+        },
+        "1194_4": {
+            "name": "黄金招财珠x4",
+            "itemId": 1194,
+            "count": 4,
+            "order": 6,
+            "itemType": 0,
+            "desc": "加送100%",
+            "price": [
+                10000
+            ],
+            "tag": 0,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "limitGuide": 1,
+            "buyType": "coupon"
+        }
+    },
+    "gunSkinStore": {
+        "1288_3": {
+            "name": "飓风",
+            "itemId": 1288,
+            "count": 3,
+            "order": 0,
+            "vip": 0,
+            "desc": "",
+            "price": 60000,
+            "discountPrice": [
+                60000
+            ],
+            "tag": 0,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "buyType": "coin"
+        },
+        "1288_30": {
+            "name": "飓风",
+            "itemId": 1288,
+            "count": 30,
+            "order": 1,
+            "vip": 0,
+            "desc": "",
+            "price": 600000,
+            "discountPrice": [
+                480000
+            ],
+            "tag": 1,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "buyType": "coin"
+        },
+        "1165_3": {
+            "name": "霜冻",
+            "itemId": 1165,
+            "count": 3,
+            "order": 2,
+            "vip": 1,
+            "desc": "",
+            "price": 120000,
+            "discountPrice": [
+                120000
+            ],
+            "tag": 0,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "buyType": "coin"
+        },
+        "1165_30": {
+            "name": "霜冻",
+            "itemId": 1165,
+            "count": 30,
+            "order": 3,
+            "vip": 1,
+            "desc": "",
+            "price": 1200000,
+            "discountPrice": [
+                960000
+            ],
+            "tag": 1,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "buyType": "coin"
+        },
+        "1166_3": {
+            "name": "炎龙",
+            "itemId": 1166,
+            "count": 3,
+            "order": 4,
+            "vip": 2,
+            "desc": "",
+            "price": 750000,
+            "discountPrice": [
+                750000
+            ],
+            "tag": 0,
+            "addition": [
+                ""
+            ],
+            "pic": "${http_download}/hall/item/imgs/fish_item_1166.png",
+            "buyType": "coin"
+        },
+        "1166_30": {
+            "name": "炎龙",
+            "itemId": 1166,
+            "count": 30,
+            "order": 5,
+            "vip": 2,
+            "desc": "",
+            "price": 7500000,
+            "discountPrice": [
+                6000000
+            ],
+            "tag": 1,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "buyType": "coin"
+        },
+        "1167_3": {
+            "name": "魅影",
+            "itemId": 1167,
+            "count": 3,
+            "order": 6,
+            "vip": 3,
+            "desc": "",
+            "price": 1500000,
+            "discountPrice": [
+                1500000
+            ],
+            "tag": 0,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "buyType": "coin"
+        },
+        "1167_30": {
+            "name": "魅影",
+            "itemId": 1167,
+            "count": 30,
+            "order": 7,
+            "vip": 3,
+            "desc": "",
+            "price": 15000000,
+            "discountPrice": [
+                12000000
+            ],
+            "tag": 1,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "buyType": "coin"
+        },
+        "1289_3": {
+            "name": "光辉",
+            "itemId": 1289,
+            "count": 3,
+            "order": 8,
+            "vip": 4,
+            "desc": "",
+            "price": 2000000,
+            "discountPrice": [
+                2000000
+            ],
+            "tag": 0,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "buyType": "coin"
+        },
+        "1289_30": {
+            "name": "光辉",
+            "itemId": 1289,
+            "count": 30,
+            "order": 9,
+            "vip": 4,
+            "desc": "",
+            "price": 20000000,
+            "discountPrice": [
+                16000000
+            ],
+            "tag": 1,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "buyType": "coin"
+        },
+        "1290_3": {
+            "name": "暮刃",
+            "itemId": 1290,
+            "count": 3,
+            "order": 10,
+            "vip": 0,
+            "desc": "",
+            "price": 2000000,
+            "discountPrice": [
+                2000000
+            ],
+            "tag": 0,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "buyType": "coin"
+        },
+        "1290_30": {
+            "name": "暮刃",
+            "itemId": 1290,
+            "count": 30,
+            "order": 11,
+            "vip": 0,
+            "desc": "",
+            "price": 20000000,
+            "discountPrice": [
+                16000000
+            ],
+            "tag": 1,
+            "addition": [
+                ""
+            ],
+            "pic": "",
+            "buyType": "coin"
+        }
+    },
+    "bulletStore": {
+        "hall37": {
+            "1301_10": {
+                "name": "青铜招财珠",
+                "itemId": 1301,
+                "count": 10,
+                "order": 1,
+                "price": [
+                    100
+                ],
+                "tag": 0,
+                "addition": [
+                    ""
+                ],
+                "pic": "",
+                "buyType": "diamond"
+            },
+            "1301_36": {
+                "name": "青铜招财珠",
+                "itemId": 1301,
+                "count": 36,
+                "order": 4,
+                "price": [
+                    300
+                ],
+                "tag": 0,
+                "addition": [
+                    "已加送20%"
+                ],
+                "pic": "",
+                "buyType": "diamond"
+            },
+            "1301_150": {
+                "name": "青铜招财珠",
+                "itemId": 1301,
+                "count": 150,
+                "order": 7,
+                "price": [
+                    1000
+                ],
+                "tag": 0,
+                "addition": [
+                    "已加送50%"
+                ],
+                "pic": "",
+                "buyType": "diamond"
+            },
+            "1193_50": {
+                "name": "白银招财珠",
+                "itemId": 1193,
+                "count": 50,
+                "order": 8,
+                "price": [
+                    3000
+                ],
+                "tag": 0,
+                "addition": [
+                    "已加送66%"
+                ],
+                "pic": "",
+                "buyType": "diamond"
+            },
+            "1194_40": {
+                "name": "黄金招财珠",
+                "itemId": 1194,
+                "count": 40,
+                "order": 9,
+                "price": [
+                    10000
+                ],
+                "tag": 0,
+                "addition": [
+                    "已加送100%"
+                ],
+                "pic": "",
+                "buyType": "diamond"
+            }
+        },
+        "hall51": {
+            "1301_20": {
+                "name": "青铜招财珠",
+                "itemId": 1301,
+                "count": 20,
+                "order": 1,
+                "price": [
+                    100
+                ],
+                "tag": 0,
+                "addition": [
+                    ""
+                ],
+                "pic": "",
+                "buyType": "diamond"
+            },
+            "1301_60": {
+                "name": "青铜招财珠",
+                "itemId": 1301,
+                "count": 60,
+                "order": 4,
+                "price": [
+                    300
+                ],
+                "tag": 0,
+                "addition": [
+                    ""
+                ],
+                "pic": "",
+                "buyType": "diamond"
+            },
+            "1301_200": {
+                "name": "青铜招财珠",
+                "itemId": 1301,
+                "count": 200,
+                "order": 7,
+                "price": [
+                    1000
+                ],
+                "tag": 0,
+                "addition": [
+                    ""
+                ],
+                "pic": "",
+                "buyType": "diamond"
+            },
+            "1193_60": {
+                "name": "白银招财珠",
+                "itemId": 1193,
+                "count": 60,
+                "order": 8,
+                "price": [
+                    3000
+                ],
+                "tag": 0,
+                "addition": [
+                    ""
+                ],
+                "pic": "",
+                "buyType": "diamond"
+            },
+            "1194_40": {
+                "name": "黄金招财珠",
+                "itemId": 1194,
+                "count": 40,
+                "order": 9,
+                "price": [
+                    10000
+                ],
+                "tag": 0,
+                "addition": [
+                    ""
+                ],
+                "pic": "",
+                "buyType": "diamond"
+            }
+        }
+    }
+}

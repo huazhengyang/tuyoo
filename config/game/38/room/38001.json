@@ -1,0 +1,397 @@
+{
+  "interEmoticon" : {
+    "bomb" : [
+      10000,
+      1000,
+      -1000
+    ],
+	"eggs" : [
+      10000,
+      1000,
+      -1000
+    ],
+	"thumb" : [
+      10000,
+      2000,
+      2000
+    ],
+	"rose" : [
+      10000,
+      2000,
+      2000
+    ],
+	"fishing" : [
+      10000,
+      1000,
+      -1000
+    ],
+    "doubleAce" : [
+      10000,
+      2000,
+      2000
+    ],
+    "chicken" : [
+      10000,
+      1000,
+      -1000
+    ],
+    "ring" : [
+      10000,
+      2000,
+      2000
+    ]
+  },
+  "jackPotConf" : {
+    "commissionPercent" : 0.18,
+    "drawJackPot" : {
+      "cardScore" : 5140000,
+      "desc" : "豹子、顺金、金花A、235时",
+      "special" : [
+        1000000
+      ]
+    },
+    "enable" : 1,
+    "timeIndex" : [
+      {
+        "ratio": 0.9,
+        "times": [1, 10]
+      },
+	  {
+        "ratio": 0.6,
+        "times": [2, 9]
+      },
+	  {
+        "ratio": 0.5,
+        "times": [8]
+      },
+	  {
+        "ratio": 0.2,
+        "times": [3, 7]
+      },
+      {
+        "ratio": 0.1,
+        "times": [4, 5, 6]
+      }
+    ],
+    "luckyAndRich" : {
+      "desc" : "4%-12%",
+      "ratio" : [
+        0.048,
+        0.048,
+        0.024,
+        0.024,
+        0.024,
+        0.016,
+        0.016,
+        0.016
+      ],
+      "weight" : [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "playLed" : 0,
+    "rewardWeight" : [
+      10,
+      8
+    ]
+  },
+  "openTableRatio": 0.75,
+  "closeTableRatio": 0.65,
+  "maxCoin" : 0,
+  "maxCoinQS" : 0,
+  "minCoin" : 0,
+  "minCoinQS" : 0,
+  "minVip" : 0,
+  "vipLimitClientIds" : [],
+  "minTableCount" : 1,
+  "name" : "1号房",
+  "playMode" : "classic",
+  "sortId" : 1,
+  "tableConf" : {
+    "commission" : 0.06,
+    "maxSeatN" : 300,
+    "min_players" : 1,
+    "optime" : 15,
+    "betTotalLimit" : 5000000,
+    "tname" : "1号房",
+        "betMinTableChips":10000,
+        "commissionRegion":[
+            {
+                "upLimit":1000,
+                "commission":0
+            },
+            {
+                "upLimit":2000,
+                "commission":0
+            },
+            {
+                "upLimit":5000,
+                "commission":200
+            },
+            {
+                "upLimit":8000,
+                "commission":450
+            },
+            {
+                "upLimit":10000,
+                "commission":500
+            },
+            {
+                "upLimit":20000,
+                "commission":1000
+            },
+            {
+                "upLimit":30000,
+                "commission":1600
+            },
+            {
+                "upLimit":40000,
+                "commission":2200
+            },
+            {
+                "upLimit":50000,
+                "commission":2800
+            },
+            {
+                "upLimit":60000,
+                "commission":3500
+            },
+            {
+                "upLimit":70000,
+                "commission":4000
+            },
+            {
+                "upLimit":80000,
+                "commission":4500
+            },
+            {
+                "upLimit":90000,
+                "commission":5000
+            },
+            {
+                "upLimit":100000,
+                "commission":5800
+            },
+            {
+                "upLimit":150000,
+                "commission":8000
+            },
+            {
+                "upLimit":200000,
+                "commission":10000
+            },
+            {
+                "upLimit":300000,
+                "commission":16000
+            },
+            {
+                "upLimit":400000,
+                "commission":20000
+            },
+            {
+                "upLimit":500000,
+                "commission":28000
+            },
+            {
+                "upLimit":600000,
+                "commission":35000
+            },
+            {
+                "upLimit":700000,
+                "commission":40000
+            },
+            {
+                "upLimit":800000,
+                "commission":45000
+            },
+            {
+                "upLimit":900000,
+                "commission":50000
+            },
+            {
+                "upLimit":1000000,
+                "commission":55000
+            },
+            {
+                "upLimit":1500000,
+                "commission":80000
+            },
+            {
+                "upLimit":2000000,
+                "commission":110000
+            },
+            {
+                "upLimit":2500000,
+                "commission":130000
+            },
+            {
+                "upLimit":3000000,
+                "commission":160000
+            },
+            {
+                "upLimit":3500000,
+                "commission":200000
+            },
+            {
+                "upLimit":4000000,
+                "commission":220000
+            },
+            {
+                "upLimit":4500000,
+                "commission":250000
+            },
+            {
+                "upLimit":5000000,
+                "commission":280000
+            },
+            {
+                "upLimit":5500000,
+                "commission":300000
+            },
+            {
+                "upLimit":6000000,
+                "commission":340000
+            },
+            {
+                "upLimit":6500000,
+                "commission":380000
+            },
+            {
+                "upLimit":7000000,
+                "commission":400000
+            },
+            {
+                "upLimit":7500000,
+                "commission":430000
+            },
+            {
+                "upLimit":8000000,
+                "commission":460000
+            },
+            {
+                "upLimit":8500000,
+                "commission":500000
+            },
+            {
+                "upLimit":9000000,
+                "commission":520000
+            },
+            {
+                "upLimit":9500000,
+                "commission":550000
+            },
+            {
+                "upLimit":10000000,
+                "commission":580000
+            },
+            {
+                "upLimit":11000000,
+                "commission":650000
+            },
+            {
+                "upLimit":12000000,
+                "commission":700000
+            },
+            {
+                "upLimit":13000000,
+                "commission":760000
+            },
+            {
+                "upLimit":14000000,
+                "commission":820000
+            },
+            {
+                "upLimit":15000000,
+                "commission":900000
+            },
+            {
+                "upLimit":16000000,
+                "commission":950000
+            },
+            {
+                "upLimit":17000000,
+                "commission":1000000
+            },
+            {
+                "upLimit":18000000,
+                "commission":1050000
+            },
+            {
+                "upLimit":19000000,
+                "commission":1100000
+            },
+            {
+                "upLimit":20000000,
+                "commission":1180000
+            },
+            {
+                "upLimit":30000000,
+                "commission":1800000
+            },
+            {
+                "upLimit":40000000,
+                "commission":2100000
+            },
+            {
+                "upLimit":50000000,
+                "commission":2700000
+            },
+            {
+                "upLimit":60000000,
+                "commission":3600000
+            },
+            {
+                "upLimit":70000000,
+                "commission":4000000
+            },
+            {
+                "upLimit":80000000,
+                "commission":4500000
+            },
+            {
+                "upLimit":90000000,
+                "commission":5200000
+            },
+            {
+                "upLimit":100000000,
+                "commission":6000000
+            },
+            {
+                "upLimit":120000000,
+                "commission":6800000
+            },
+            {
+                "upLimit":140000000,
+                "commission":8100000
+            },
+            {
+                "upLimit":160000000,
+                "commission":9000000
+            },
+            {
+                "upLimit":180000000,
+                "commission":10500000
+            },
+            {
+                "upLimit":200000000,
+                "commission":12000000
+            },
+            {
+                "upLimit":220000000,
+                "commission":12600000
+            },
+            {
+                "upLimit":240000000,
+                "commission":14000000
+            }
+        ]
+    },
+  "typeName" : "hundreds"
+}

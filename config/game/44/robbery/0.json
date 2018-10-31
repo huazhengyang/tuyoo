@@ -1,0 +1,82 @@
+{
+    "lotteryPoolRate": 10000,
+    "lotteryPoolMinimum": 10000000,
+    "lotteryPoolMaximum": 999990000,
+    "systemGainPoolRadix": 20000000,
+    "luckyPoolRadix": 3000000,
+    "wealthPoolProportion": 0.20,
+    "luckyPoolProportion": 0,
+    "compensatePoolProportion": 0.20,
+    "wealthAwardTodayProportion": 0.85,
+    "wealthAwardYesterdayProportion": 0.15,
+    "compensateRadix": 2000,
+    "compensateGrades": [-5000, -15000, -60000],
+    "compensateNumbers": [1000, 3000, 10000],
+    "defaultLuckyProbability": 200,
+    "lotteryLuckyProbability": 0,
+    "luckyRankProbability":[
+        {
+            "ranking":{
+                "start":1,
+                "end":1
+            },
+            "probability":2500
+        },
+        {
+            "ranking":{
+                "start":2,
+                "end":2
+            },
+            "probability":2000
+        },
+        {
+            "ranking":{
+                "start":3,
+                "end":3
+            },
+            "probability":1800
+        },
+        {
+            "ranking":{
+                "start":4,
+                "end":6
+            },
+            "probability":1600
+        },
+        {
+            "ranking":{
+                "start":7,
+                "end":10
+            },
+            "probability":1400
+        },
+        {
+            "ranking":{
+                "start":11,
+                "end":15
+            },
+            "probability":1200
+        },
+        {
+            "ranking":{
+                "start":16,
+                "end":20
+            },
+            "probability":1000
+        },
+        {
+            "ranking":{
+                "start":21,
+                "end":25
+            },
+            "probability":800
+        },
+        {
+            "ranking":{
+                "start":26,
+                "end":30
+            },
+            "probability":600
+        }
+    ]
+}

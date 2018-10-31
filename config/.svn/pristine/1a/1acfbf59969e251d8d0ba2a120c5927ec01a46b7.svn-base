@@ -1,0 +1,368 @@
+{
+    "0": {
+        "honorId": 0, 
+        "honorName": "渔场萌新", 
+        "honorType": 0, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 0, 
+        "aniType": 0, 
+        "bufferType": 0, 
+        "bufferInfo": {}, 
+        "desc1": "默认称号", 
+        "desc2": "渔场的馈赠", 
+        "desc3": "", 
+        "desc4": 0
+    }, 
+    "8001": {
+        "honorId": 8001, 
+        "honorName": "迅捷如风", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 2001, 
+        "aniType": 0, 
+        "bufferType": 0, 
+        "bufferInfo": {}, 
+        "desc1": "荣耀任务中“技巧”任务的奖励", 
+        "desc2": "连击技巧的奖励", 
+        "desc3": "", 
+        "desc4": 0
+    }, 
+    "8002": {
+        "honorId": 8002, 
+        "honorName": "火力全开", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 2002, 
+        "aniType": 0, 
+        "bufferType": 1, 
+        "bufferInfo": {}, 
+        "desc1": "荣耀任务中“技巧”后续任务的奖励，默认炮的开火频率提高5%（装备后激活）。", 
+        "desc2": "默认炮的开火频率提高5%", 
+        "desc3": "装备后激活属性", 
+        "desc4": 1
+    }, 
+    "8003": {
+        "honorId": 8003, 
+        "honorName": "一发入魂", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 2003, 
+        "aniType": 1, 
+        "bufferType": 0, 
+        "bufferInfo": {}, 
+        "desc1": "荣耀任务中“技巧”后续任务的奖励，装备后获得入场展示效果。", 
+        "desc2": "精准瞄准的奖励", 
+        "desc3": "", 
+        "desc4": 0
+    }, 
+    "8004": {
+        "honorId": 8004, 
+        "honorName": "爆破专家", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 2004, 
+        "aniType": 2, 
+        "bufferType": 2, 
+        "bufferInfo": {
+            "powerAddition": 0.05, 
+            "weaponType": 5
+        }, 
+        "desc1": "荣耀任务中“技巧”后续任务的奖励，略微提高炸弹鱼的爆炸伤害，装备后获得入场展示效果。", 
+        "desc2": "略微提高炸弹鱼的爆炸伤害", 
+        "desc3": "获得后激活属性", 
+        "desc4": 1
+    }, 
+    "8005": {
+        "honorId": 8005, 
+        "honorName": "新星猎手", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 1001, 
+        "aniType": 0, 
+        "bufferType": 0, 
+        "bufferInfo": {}, 
+        "desc1": "荣耀任务中“渔场”任务的奖励。", 
+        "desc2": "渔场征战的见证", 
+        "desc3": "", 
+        "desc4": 0
+    }, 
+    "8006": {
+        "honorId": 8006, 
+        "honorName": "精英巨鲨", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 1002, 
+        "aniType": 0, 
+        "bufferType": 0, 
+        "bufferInfo": {}, 
+        "desc1": "荣耀任务中“渔场”后续任务的奖励。", 
+        "desc2": "渔场征战的见证", 
+        "desc3": "", 
+        "desc4": 0
+    }, 
+    "8007": {
+        "honorId": 8007, 
+        "honorName": "深海狂鲨", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 1003, 
+        "aniType": 1, 
+        "bufferType": 0, 
+        "bufferInfo": {}, 
+        "desc1": "荣耀任务中“渔场”后续任务的奖励，装备后获得入场展示效果。", 
+        "desc2": "渔场征战的见证", 
+        "desc3": "", 
+        "desc4": 0
+    }, 
+    "8008": {
+        "honorId": 8008, 
+        "honorName": "渔场至尊", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 1004, 
+        "aniType": 2, 
+        "bufferType": 0, 
+        "bufferInfo": {}, 
+        "desc1": "荣耀任务中“渔场”后续任务的奖励，装备后获得入场展示效果。", 
+        "desc2": "渔场征战的见证", 
+        "desc3": "", 
+        "desc4": 0
+    }, 
+    "8009": {
+        "honorId": 8009, 
+        "honorName": "竞技新星", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 5001, 
+        "aniType": 0, 
+        "bufferType": 3, 
+        "bufferInfo": {
+            "message": "亲爱的玩家您好，您已达成\"竞技新星\"称号奖励的要求，奖励见附件，请查收。", 
+            "reward": [
+                {
+                    "count": 300, 
+                    "name": 101
+                }
+            ], 
+            "roomId": [
+                44101
+            ], 
+            "rank": [
+                101, 
+                9999
+            ]
+        }, 
+        "desc1": "荣耀任务中“竞技”任务的奖励，水上乐园最低奖励翻倍。", 
+        "desc2": "水上乐园最低奖励翻倍", 
+        "desc3": "获得后激活属性", 
+        "desc4": 1
+    }, 
+    "8010": {
+        "honorId": 8010, 
+        "honorName": "赛场高手", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 5002, 
+        "aniType": 0, 
+        "bufferType": 3, 
+        "bufferInfo": {
+            "message": "亲爱的玩家您好，您已达成\"赛场高手\"称号奖励的要求，奖励见附件，请查收。", 
+            "reward": [
+                {
+                    "count": 2000, 
+                    "name": 101
+                }
+            ], 
+            "roomId": [
+                44102
+            ], 
+            "rank": [
+                51, 
+                9999
+            ]
+        }, 
+        "desc1": "荣耀任务中“竞技”后续任务的奖励，欢乐竞技最低奖励翻倍", 
+        "desc2": "欢乐竞技最低奖励翻倍", 
+        "desc3": "获得后激活属性", 
+        "desc4": 1
+    }, 
+    "8011": {
+        "honorId": 8011, 
+        "honorName": "战术大师", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 5003, 
+        "aniType": 1, 
+        "bufferType": 3, 
+        "bufferInfo": {
+            "message": "亲爱的玩家您好，您已达成\"战术大师\"称号奖励的要求，奖励见附件，请查收。", 
+            "reward": [
+                {
+                    "count": 1, 
+                    "name": 1193
+                }
+            ], 
+            "roomId": [
+                44103
+            ], 
+            "rank": [
+                1, 
+                9999
+            ]
+        }, 
+        "desc1": "荣耀任务中“竞技”后续任务的奖励，王者争霸额外奖励白银招财珠x1，装备后获得入场展示效果。", 
+        "desc2": "王者争霸额外奖励白银招财珠x1", 
+        "desc3": "获得后激活属性", 
+        "desc4": 1
+    }, 
+    "8012": {
+        "honorId": 8012, 
+        "honorName": "回馈王者", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 5004, 
+        "aniType": 2, 
+        "bufferType": 3, 
+        "bufferInfo": {
+            "message": "亲爱的玩家您好，您已达成\"回馈王者\"称号奖励的要求，奖励见附件，请查收。", 
+            "reward": [
+                {
+                    "count": 2, 
+                    "name": 1194
+                }
+            ], 
+            "roomId": [
+                44103
+            ], 
+            "rank": [
+                1, 
+                1
+            ]
+        }, 
+        "desc1": "荣耀任务中“竞技”后续任务的奖励，王者争霸冠军额外奖励黄金招财珠x2，装备后获得入场展示效果。", 
+        "desc2": "王者争霸冠军额外奖励黄金招财珠x2", 
+        "desc3": "获得后激活属性", 
+        "desc4": 1
+    }, 
+    "8013": {
+        "honorId": 8013, 
+        "honorName": "技高一筹", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 3001, 
+        "aniType": 0, 
+        "bufferType": 0, 
+        "bufferInfo": {}, 
+        "desc1": "荣耀任务中“技能”任务的奖励。", 
+        "desc2": "技能开拓者的荣耀", 
+        "desc3": "", 
+        "desc4": 0
+    }, 
+    "8014": {
+        "honorId": 8014, 
+        "honorName": "储备精良", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 3002, 
+        "aniType": 0, 
+        "bufferType": 0, 
+        "bufferInfo": {}, 
+        "desc1": "荣耀任务中“技能”后续任务的奖励。", 
+        "desc2": "高级技能的荣耀", 
+        "desc3": "", 
+        "desc4": 0
+    }, 
+    "8015": {
+        "honorId": 8015, 
+        "honorName": "武器大师", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 3003, 
+        "aniType": 1, 
+        "bufferType": 0, 
+        "bufferInfo": {}, 
+        "desc1": "荣耀任务中“技能”后续任务的奖励，装备后获得入场展示效果。", 
+        "desc2": "高阶技能的荣耀", 
+        "desc3": "", 
+        "desc4": 0
+    }, 
+    "8016": {
+        "honorId": 8016, 
+        "honorName": "终极武装", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 3004, 
+        "aniType": 2, 
+        "bufferType": 0, 
+        "bufferInfo": {}, 
+        "desc1": "荣耀任务中“技能”后续任务的奖励，装备后获得入场展示效果。", 
+        "desc2": "全能捕鱼者的荣耀", 
+        "desc3": "", 
+        "desc4": 0
+    }, 
+    "8017": {
+        "honorId": 8017, 
+        "honorName": "途游炮王", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 4001, 
+        "aniType": 2, 
+        "bufferType": 4, 
+        "bufferInfo": {
+            "skinId": 1290
+        }, 
+        "desc1": "荣耀任务中“榜单”后续任务的奖励，装备后获得入场展示效果。", 
+        "desc2": "解锁皮肤：暮刃", 
+        "desc3": "", 
+        "desc4": 1
+    }, 
+    "8018": {
+        "honorId": 8018, 
+        "honorName": "回馈霸主", 
+        "honorType": 1, 
+        "condition": 0, 
+        "value": 0, 
+        "rare": 6001, 
+        "aniType": 2, 
+        "bufferType": 3, 
+        "bufferInfo": {
+            "message": "亲爱的玩家您好，您已达成\"回馈霸主\"称号奖励的要求，奖励见附件，请查收。", 
+            "reward": [
+                {
+                    "count": 1, 
+                    "name": 1194
+                }
+            ], 
+            "roomId": [
+                44102, 
+                44103
+            ], 
+            "rank": [
+                1, 
+                1
+            ]
+        }, 
+        "desc1": "荣耀任务中“竞技”后续任务的奖励，欢乐竞技和王者争霸冠军额外奖励黄金招财珠x1，装备后获得入场展示效果。", 
+        "desc2": "欢乐竞技和王者争霸冠军额外奖励黄金招财珠x1", 
+        "desc3": "获得后激活属性", 
+        "desc4": 1
+    }
+}

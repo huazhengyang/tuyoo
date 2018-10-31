@@ -1,0 +1,172 @@
+{
+	"assistanceChip":3000,
+	"assistanceChipUpperLimit":1000,
+    "levelUpDesc":"恭喜您，成为VIP\\${curLevel}级用户，又有好礼可以拿啦！",
+    "levelUpErrorGameIds":[17],
+    "gotGiftDesc":"恭喜您，获得了\\${rewardContent}！",
+    "gotAssistanceDesc":"恭喜您，领取了\\${rewardContent}的江湖保险金！",
+    "levelUpPayOrder":{
+   		"shelves":["lessbuychip"],
+   		"buyTypes":["direct"]
+   	},
+    "levels": [
+        {
+            "level": 0,
+            "name": "VIP0",
+            "exp": 0,
+            "pic": "${http_download}/hall/vip/vip0.png",
+            "desc": [],
+            "nextLevel": 1,
+            "expDesc": "仅需充值\\${deltaRmb}元就能成为VIP1"
+        },
+        {
+            "level": 1,
+            "name": "VIP1",
+            "exp": 60,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_1.png",
+            "desc": [
+                "VIP专享地主农民造型",
+                "千元擂台赛积分+5%"
+            ],
+            "nextLevel": 2,
+            "expDesc": "您再充\\${deltaRmb}元就能达到\\${nextVipLevelName}"
+        },
+        {
+            "level": 2,
+            "name": "VIP2",
+            "exp": 350,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_2.png",
+            "desc": [
+                "千元擂台赛积分+10%"
+            ],
+            "nextLevel": 3,
+            "expDesc": "您再充\\${deltaRmb}元就能达到\\${nextVipLevelName}"
+        },
+        {
+            "level": 3,
+            "name": "VIP3",
+            "exp": 2000,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_3.png",
+            "desc": [
+                "解锁全部付费牌桌场景",
+                "千元擂台赛积分+20%",
+                "万元争霸赛积分+5%"
+            ],
+            "nextLevel": 4,
+            "expDesc": "您再充\\${deltaRmb}元就能达到\\${nextVipLevelName}"
+        },
+        {
+            "level": 4,
+            "name": "VIP4",
+            "exp": 5000,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_4.png",
+            "desc": [
+                "开启VIP特惠兑换",
+                "千元擂台赛积分+30%",
+                "万元争霸赛积分+10%"
+            ],
+            "nextLevel": 5,
+            "expDesc": ""
+        },
+        {
+            "level": 5,
+            "name": "VIP5",
+            "exp": 20000,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_5.png",
+            "desc": [
+                "金币每日登录补足10万",
+                "万元争霸赛积分+20%"
+            ],
+            "nextLevel": 6,
+            "expDesc": ""
+        },
+        {
+            "level": 6,
+            "name": "VIP6",
+            "exp": 100000,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_6.png",
+            "desc": [
+                "金币每日登录补足50万",
+                "万元争霸赛积分+30%"
+            ],
+            "nextLevel": 7,
+            "expDesc": ""
+        },
+        {
+            "level": 7,
+            "name": "VIP7",
+            "exp": 500000,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_7.png",
+            "desc": [
+                "金币每日登录补足100万"
+            ],
+            "nextLevel": 8,
+            "expDesc": ""
+        },
+        {
+            "level": 8,
+            "name": "VIP8",
+            "exp": 2000000,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_8.png",
+            "desc": [
+                "金币每日登录补足200万"
+            ],
+            "nextLevel": 9,
+            "expDesc": ""
+        },
+        {
+            "level": 9,
+            "name": "VIP9",
+            "exp": 5000000,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_9.png",
+            "desc": [
+                "金币每日登录补足500万"
+            ],
+            "nextLevel": 10,
+            "expDesc": ""
+        },
+        {
+            "level": 10,
+            "name": "VIP10",
+            "exp": 10000000,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_10.png",
+            "desc": [
+                "金币每日登录补足500万"
+            ],
+            "nextLevel": 11,
+            "expDesc": ""
+        },
+        {
+            "level": 11,
+            "name": "VIP11",
+            "exp": 20000000,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_11.png",
+            "desc": [
+                "金币每日登录补足500万"
+            ],
+            "nextLevel": 12,
+            "expDesc": ""
+        },
+        {
+            "level": 12,
+            "name": "VIP12",
+            "exp": 50000000,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_12.png",
+            "desc": [
+                "金币每日登录补足500万"
+            ],
+            "nextLevel": 13,
+            "expDesc": ""
+        },
+        {
+            "level": 13,
+            "name": "VIP13",
+            "exp": 100000000,
+            "pic": "${http_download}/hall/vip/hall_decoration_tip_vip_13.png",
+            "desc": [
+                "金币每日登录补足500万"
+            ],
+            "expDesc": ""
+        }
+    ]
+}

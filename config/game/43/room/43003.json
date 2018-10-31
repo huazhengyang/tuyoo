@@ -1,0 +1,24 @@
+{
+  "hasRobot": 0,
+  "isMatch": 0,
+  "name" : "冰寒禁域",
+  "sceneName":"string_binglongchaoxue",
+  "fishPool": 3,
+  "dummyUserCount" : 0,
+  "maxLevel" : 999,
+  "minCoin" : 100000,
+  "minGunLevel":2127,
+  "maxGunLevel":2136,
+  "taskLoopInterval": 1200,
+  "cmpttTaskInterval": 300,
+  "ncmpttTaskInterval": 600,
+  "bonusTaskInterval": 900,
+  "minBonus": 20000,
+  "miniGameLevel": 2,
+  "typeName" : "normal",
+  "tableConf" : {
+    "fishGroupsName":"string_binglongchaoxue",
+    "fishTideName":"tideLevel1",        
+    "maxSeatN": 4   
+  }
+}

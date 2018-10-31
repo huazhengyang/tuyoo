@@ -1,0 +1,70 @@
+{
+  "name"            : "bycj_shop_conf",
+  "shelves"         : [
+    {
+      "displayName"     : "VIP商城",
+      "iconType"        : "diamond",
+      "name"            : "vip",
+      "products"        : [
+        "TY9999D0030006",
+        "TY9999D0100018",
+        "TY9999D0300014",
+        "TY9999D1000008"
+      ],
+      "sort"            : 16,
+      "visible"         : 0
+    },
+    {
+      "displayName"     : "捕鱼宝石",
+      "iconType"        : "diamond",
+      "name"            : "bycj_ruby",
+      "products"        : [
+        "TY9999D0002011",
+        "TY9999D0008054",
+        "TY9999D0030054",
+        "TY9999D0100099",
+        "TY9999D0300099",
+        "TY9999D1000054",
+        "TY9999D5000005"
+      ],
+      "sort"            : 3,
+      "visible"         : 0
+    },
+    {
+      "displayName"     : "捕鱼金币",
+      "iconType"        : "diamond",
+      "name"            : "coin",
+      "products"        : [
+        "TY9999D0008027",
+        "TY9999D0002001",
+        "TY9999D0100001",
+        "TY9999D0030001",
+        "TY9999D0300001",
+
+        "TY9999D0006037",
+        "TY9999D0006038",
+        "TY9999D0006039",
+        "TY9999D0006040",
+        "TY9999D0006041",
+        "TY9999D0006043"
+      ],
+      "sort"            : 2,
+      "visible"         : 0
+    },
+    {
+      "displayName"     : "捕鱼兑换",
+      "iconType"        : "diamond",
+      "name"            : "bycj_medal",
+      "products"        : [
+        "TY9999Q0015020",
+        "TY9999Q0015015",
+        "TY9999Q0015016",
+        "TY9999Q0015017",
+        "TY9999Q0015018",
+        "TY9999Q0015019"
+      ],
+      "sort"            : 1,
+      "visible"         : 0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+	"myListLimit":100,
+	"shares":[
+		{
+			"type":"weixin",
+			"shareId":6001
+		},
+		{
+			"type":"timeline",
+			"shareId":6002
+		}
+	],
+	"shareDesc":"每日首次分享视频，赠1000金币",
+	"uploadUrls": [
+		"http://httpproxy.ywdier.com/api/httpproxy5/uploadcdn"
+	],
+	"bucketName": "tablerecord",
+	"downloadUrl": "http://tbr.tuyoo.com",
+	"uploadToken":"87c953283acaba7e75340fccad71c97b047569c2:OTMzYzYxNmRlNTFiNjZhY2Q3Mjg3MjgyNzBkZDk0YzhkNjZmNTU1NA==:eyJzY29wZSI6InR5aGFsbCIsImRlYWRsaW5lIjoiMTYwMjI1OTIwMDAwMCIsIm92ZXJ3cml0ZSI6MCwiZnNpemVMaW1pdCI6MCwiaW5zdGFudCI6MCwic2VwYXJhdGUiOjB9",
+
+	"rankingPrizeDatetime":{
+		"datetime_start": "2017-01-10 00:00:00",
+		"datetime_end": "2017-01-18 23:59:59"	
+	},
+	"rankingPrizeMail":"恭喜您分享的视频在牌局重放排行榜中排名第\\${rankNumber}，获得奖励\\${prizeContent}。",
+	"rankingPrizeList":[
+        {
+            "start": 1, "end": 3,
+            "rewardContent": {
+                "typeId": "FixedContent", "desc": "100元微信红包", "items": [{"itemId": "item:1091","count": 1}]
+            }
+        },
+        {
+            "start": 4, "end": 10,
+            "rewardContent": {
+                "typeId": "FixedContent", "desc": "30万金币", "items": [{"itemId": "user:chip","count": 300000}]
+            }
+        },
+        {
+            "start": 11, "end": 50,
+            "rewardContent": {
+                "typeId": "FixedContent", "desc": "10万金币", "items": [{"itemId": "user:chip","count": 100000}]
+            }
+        }
+    ]
+}

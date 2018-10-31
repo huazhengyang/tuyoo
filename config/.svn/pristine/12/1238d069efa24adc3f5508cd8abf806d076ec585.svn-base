@@ -1,0 +1,796 @@
+{
+	"messageNumber": 20,
+	"tip":"注意噢！神秘大鱼100倍返奖喔~",
+	"coinPic": "",
+	"couponPic": "",
+	"baits": [
+		{
+			"id": 1001,
+			"name": "鱼饵1",
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_baits1.png",
+			"chip": 100,
+			"couponFishRewards": [
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 0
+					},
+					"weight": 99925
+				},
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 100
+					},
+					"weight": 75
+				}
+			],
+			"fish": [
+				{
+					"item": 0,
+					"weight": 24
+				},
+				{
+					"item": 10001,
+					"weight": 40
+				},
+				{
+					"item": 10002,
+					"weight": 30
+				},
+				{
+					"item": 10003,
+					"weight": 6
+				}
+			]
+		},
+		{
+			"id": 1002,
+			"name": "鱼饵2",
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_baits2.png",
+			"chip": 300,
+			"couponFishRewards": [
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 0
+					},
+					"weight": 99775
+				},
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 100
+					},
+					"weight": 225
+				}
+			],
+			"superFishRewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 0
+					},
+					"weight": 998
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 30000
+					},
+					"weight": 2
+				}
+			],
+			"fish": [
+				{
+					"item": 0,
+					"weight": 8
+				},
+				{
+					"item": 10001,
+					"weight": 12
+				},
+				{
+					"item": 10002,
+					"weight": 59
+				},
+				{
+					"item": 10003,
+					"weight": 21
+				}
+			]
+		},
+		{
+			"id": 1003,
+			"name": "鱼饵3",
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_baits3.png",
+			"chip": 1000,
+			"couponFishRewards": [
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 0
+					},
+					"weight": 9925
+				},
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 100
+					},
+					"weight": 75
+				}
+			],
+			"fish": [
+				{
+					"item": 0,
+					"weight": 24
+				},
+				{
+					"item": 10011,
+					"weight": 40
+				},
+				{
+					"item": 10012,
+					"weight": 30
+				},
+				{
+					"item": 10013,
+					"weight": 6
+				}
+			]
+		},
+		{
+			"id": 1004,
+			"name": "鱼饵4",
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_baits4.png",
+			"chip": 3000,
+			"couponFishRewards": [
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 0
+					},
+					"weight": 9775
+				},
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 100
+					},
+					"weight": 225
+				}
+			],
+			"superFishRewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 0
+					},
+					"weight": 998
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 300000
+					},
+					"weight": 2
+				}
+			],
+			"fish": [
+				{
+					"item": 0,
+					"weight": 8
+				},
+				{
+					"item": 10011,
+					"weight": 12
+				},
+				{
+					"item": 10012,
+					"weight": 59
+				},
+				{
+					"item": 10013,
+					"weight": 21
+				}
+			]
+		},
+		{
+			"id": 1005,
+			"name": "鱼饵5",
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_baits5.png",
+			"chip": 10000,
+			"couponFishRewards": [
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 0
+					},
+					"weight": 925
+				},
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 100
+					},
+					"weight": 75
+				}
+			],
+			"fish": [
+				{
+					"item": 0,
+					"weight": 24
+				},
+				{
+					"item": 10021,
+					"weight": 40
+				},
+				{
+					"item": 10022,
+					"weight": 30
+				},
+				{
+					"item": 10023,
+					"weight": 6
+				}
+			]
+		},
+		{
+			"id": 1006,
+			"name": "鱼饵6",
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_baits6.png",
+			"chip": 30000,
+			"superFish": 1,
+			"couponFishRewards": [
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 0
+					},
+					"weight": 775
+				},
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 100
+					},
+					"weight": 225
+				}
+			],
+			"superFishRewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 0
+					},
+					"weight": 998
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 3000000
+					},
+					"weight": 2
+				}
+			],
+			"fish": [
+				{
+					"item": 0,
+					"weight": 8
+				},
+				{
+					"item": 10021,
+					"weight": 12
+				},
+				{
+					"item": 10022,
+					"weight": 59
+				},
+				{
+					"item": 10023,
+					"weight": 21
+				}
+			]
+		}
+	],
+	"fish": [
+		{
+			"id": 0,
+			"name": "没有鱼",
+			"type": "zero",
+			"rewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 0
+					},
+					"weight": 1
+				}
+			],
+			"pic": ""
+		},
+		{
+			"id": 10001,
+			"name": "小黄鱼",
+			"type": "chip",
+			"rewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 6
+					},
+					"weight": 50
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 10
+					},
+					"weight": 40
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 30
+					},
+					"weight": 10
+				}
+			],
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_fish1.png",
+			"smallPic": "${http_download}/dizhu/room/imgs/waiting_fishGame_smallFish1.png"
+		},
+		{
+			"id": 10002,
+			"name": "绿麟鱼",
+			"type": "chip",
+			"rewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 60
+					},
+					"weight": 50
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 100
+					},
+					"weight": 40
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 300
+					},
+					"weight": 10
+				}
+			],
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_fish2.png",
+			"smallPic": "${http_download}/dizhu/room/imgs/waiting_fishGame_smallFish2.png"
+		},
+		{
+			"id": 10003,
+			"name": "鹦鹉鱼",
+			"type": "chip",
+			"rewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 600
+					},
+					"weight": 50
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 1000
+					},
+					"weight": 40
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 3000
+					},
+					"weight": 10
+				}
+			],
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_fish3.png",
+			"smallPic": "${http_download}/dizhu/room/imgs/waiting_fishGame_smallFish3.png"
+		},
+		{
+			"id": 10011,
+			"name": "月光鱼",
+			"type": "chip",
+			"rewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 60
+					},
+					"weight": 50
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 100
+					},
+					"weight": 40
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 300
+					},
+					"weight": 10
+				}
+			],
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_fish4.png",
+			"smallPic": "${http_download}/dizhu/room/imgs/waiting_fishGame_smallFish4.png"
+		},
+		{
+			"id": 10012,
+			"name": "海绵鱼",
+			"type": "chip",
+			"rewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 600
+					},
+					"weight": 50
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 1000
+					},
+					"weight": 40
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 3000
+					},
+					"weight": 10
+				}
+			],
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_fish6.png",
+			"smallPic": "${http_download}/dizhu/room/imgs/waiting_fishGame_smallFish5.png"
+		},
+		{
+			"id": 10013,
+			"name": "蓝藻鱼",
+			"type": "chip",
+			"rewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 6000
+					},
+					"weight": 50
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 10000
+					},
+					"weight": 40
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 30000
+					},
+					"weight": 10
+				}
+			],
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_fish5.png",
+			"smallPic": "${http_download}/dizhu/room/imgs/waiting_fishGame_smallFish6.png"
+		},
+		{
+			"id": 10021,
+			"name": "狮子鱼",
+			"type": "chip",
+			"rewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 600
+					},
+					"weight": 50
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 1000
+					},
+					"weight": 40
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 3000
+					},
+					"weight": 10
+				}
+			],
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_fish7.png",
+			"smallPic": "${http_download}/dizhu/room/imgs/waiting_fishGame_smallFish7.png"
+		},
+		{
+			"id": 10022,
+			"name": "孔雀鱼",
+			"type": "chip",
+			"rewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 6000
+					},
+					"weight": 50
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 10000
+					},
+					"weight": 40
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 30000
+					},
+					"weight": 10
+				}
+			],
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_fish8.png",
+			"smallPic": "${http_download}/dizhu/room/imgs/waiting_fishGame_smallFish8.png"
+		},
+		{
+			"id": 10023,
+			"name": "灏瀛鱼",
+			"type": "chip",
+			"rewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 60000
+					},
+					"weight": 50
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 100000
+					},
+					"weight": 40
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 300000
+					},
+					"weight": 10
+				}
+			],
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_fish10.png",
+			"smallPic": "${http_download}/dizhu/room/imgs/waiting_fishGame_smallFish10.png"
+		},
+		{
+			"id": 10055,
+			"name": "金龟",
+			"rewards": [
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 0
+					},
+					"weight": 98
+				},
+				{
+					"item": {
+						"itemId": "user:chip",
+						"count": 3000000
+					},
+					"weight": 2
+				}
+			],
+			"type": "superChip",
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_fish9.png",
+			"smallPic": "${http_download}/dizhu/room/imgs/waiting_fishGame_smallFish9.png"
+		},
+		{
+			"id": 10066,
+			"name": "珍珠",
+			"type": "coupon",
+			"pic": "${http_download}/dizhu/room/imgs/waiting_fishGame_pearl2.png",
+			"smallPic": "${http_download}/dizhu/room/imgs/waiting_fishGame_smallPearl2.png",
+			"needNum": 5,
+			"rewards": [
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 0
+					},
+					"weight": 0
+				},
+				{
+					"item": {
+						"itemId": "user:coupon",
+						"count": 100
+					},
+					"weight": 0
+				}
+			]
+		}
+	],
+"userBaits": [
+	{
+		"start": 0,
+		"end": 100000,
+		"baits": [1001, 1002]
+	},
+	{
+		"start": 100001,
+		"end": 1000000,
+		"baits": [1003, 1004]
+	},
+	{
+		"start": 1000001,
+		"end": -1,
+		"baits": [1005, 1006]
+	}
+],
+"mail": {
+	"fish": {
+		"me": [
+			{"text": "恭喜您钓到一条", "color": "78DCFF"},
+			{"text": "\\${random_message}", "color": "FFFFFF"},
+			{"text": "\\${fish_name}", "color": "FFFFFF"},
+			{"text": "换得", "color": "78DCFF","colorSides": "000000"},
+			{"text": "\\${chip_count}", "color": "FFD200"},
+			{"text": "金币!", "color": "FFD200"}
+		],
+		"others": [
+			{"text": "恭喜", "color": "78DCFF","colorSides": "FFFFFF"},
+			{"text": "\\${user_name}", "color": "FFFFFF","colorSides": "6E3200"},
+			{"text": "钓到一条", "color": "78DCFF","colorSides": "FFFFFF"},
+			{"text": "\\${random_message}", "color": "FFFFFF","colorSides": "FFFFFF"},
+			{"text": "\\${fish_name}", "color": "FFFFFF","colorSides": "FFFFFF"},
+			{"text": "换得", "color": "78DCFF","colorSides": "FFFFFF"},
+			{"text": "\\${chip_count}", "color": "FFD200","colorSides": "FF6400"},
+			{"text": "金币!", "color": "FFD200","colorSides": "FF6400"}
+		]
+	},
+	"superFish": {
+		"me": [
+			{"text": "人品爆发啦！您钓到一条", "color": "78DCFF"},
+			{"text": "\\${random_message}", "color": "FFFFFF"},
+			{"text": "\\${fish_name}", "color": "FFFFFF"},
+			{"text": "换得", "color": "78DCFF"},
+			{"text": "\\${chip_count}", "color": "FFD200"},
+			{"text": "金币!", "color": "FFD200"}
+		],
+		"others": [
+			{"text": "人品爆发", "color": "78DCFF","colorSides": "FFFFFF"},
+			{"text": "\\${user_name}", "color": "FFFFFF","colorSides": "6E3200"},
+			{"text": "钓到一条", "color": "78DCFF","colorSides": "FFFFFF"},
+			{"text": "\\${random_message}", "color": "FFFFFF","colorSides": "FFFFFF"},
+			{"text": "\\${fish_name}", "color": "FFFFFF","colorSides": "FFFFFF"},
+			{"text": "换得", "color": "78DCFF","colorSides": "FFFFFF"},
+			{"text": "\\${chip_count}", "color": "FFD200","colorSides": "FF6400"},
+			{"text": "金币!", "color": "FFD200","colorSides": "FF6400"}
+		]
+	},
+	"couponFish": {
+		"me": [
+			{"text": "恭喜您发现", "color": "78DCFF"},
+			{"text": "1", "color": "FFFFFF"},
+			{"text": "颗珍珠！", "color": "FFFFFF"}
+		],
+		"others": [
+			{"text": "恭喜", "color": "78DCFF","colorSides": "FFFFFF"},
+			{"text": "\\${user_name}", "color": "FFFFFF","colorSides": "6E3200"},
+			{"text": "发现", "color": "78DCFF","colorSides": "FFFFFF"},
+			{"text": "1", "color": "FFFFFF","colorSides": "FF6400"},
+			{"text": "颗珍珠！", "color": "FFFFFF","colorSides": "FF6400"}
+		]
+	},
+	"coupon": {
+		"me": [
+			{"text": "恭喜您用", "color": "78DCFF"},
+			{"text": "\\${zhenzhu_count}", "color": "FFFFFF"},
+			{"text": "颗珍珠", "color": "FFFFFF"},
+			{"text": "兑换了", "color": "78DCFF"},
+			{"text": "\\${coupon_count}", "color": "FFD200"},
+			{"text": "红包券！", "color": "FFFFFF"}
+		],
+		"others": [
+			{"text": "恭喜", "color": "78DCFF","colorSides": "FFFFFF"},
+			{"text": "\\${user_name}", "color": "FFFFFF","colorSides": "6E3200"},
+			{"text": "用\\${zhenzhu_count}", "color": "78DCFF","colorSides": "FFFFFF"},
+			{"text": "颗珍珠", "color": "FFFFFF","colorSides": "FFFFFF"},
+			{"text": "兑换了", "color": "78DCFF","colorSides": "FFFFFF"},
+			{"text": "\\${coupon_count}", "color": "FFD200","colorSides": "FF6400"},
+			{"text": "红包券！", "color": "FFFFFF","colorSides": "FF6400"}
+		]
+	},
+	"combination": [
+		{"text": "恭喜您发现", "color": "78DCFF"},
+		{"text": "1", "color": "FFD200"},
+		{"text": "颗珍珠！", "color": "FFFFFF"},
+		{"text": "并且钓到一条", "color": "78DCFF"},
+		{"text": "\\${random_message}", "color": "FFFFFF"},
+		{"text": "\\${fish_name}", "color": "FFFFFF"},
+		{"text": "换得", "color": "78DCFF"},
+		{"text": "\\${chip_count}", "color": "FFD200"},
+		{"text": "金币!", "color": "FFD200"}
+	],
+	"failure": [
+		{"text": "真遗憾，您什么都没钓到。祝您下次好运~", "color": "78DCFF"}
+	]
+},
+"messages": [
+	{
+		"matchId": [
+			10001,
+			10002,
+			10003
+		],
+		"matchDesc":
+		[
+			"瘦小的",
+			"奄奄一息的",
+			"无活力的",
+			"无光泽的",
+			"不起眼的",
+			"虚弱的"
+		]
+	},
+	{
+		"matchId": [
+			10011,
+			10012,
+			10013
+		],
+		"matchDesc":
+		[
+			"健康的",
+			"普通的",
+			"大小适中的",
+			"平凡的",
+			"随处可见的"
+		]
+	},
+	{
+		"matchId": [
+			10021,
+			10022,
+			10023
+		],
+		"matchDesc":
+		[
+			"五彩斑斓的",
+			"活蹦乱跳的",
+			"肥美的",
+			"光彩夺目的",
+			"硕大的"
+		]
+	},
+	{
+		"matchId": [
+			10055
+		],
+		"matchDesc":
+		[
+			"举世罕见的",
+			"流光溢彩的",
+			"完美无瑕的"
+		]
+	}
+]
+}

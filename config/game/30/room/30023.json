@@ -1,0 +1,174 @@
+{
+    "autoQueue": 0, 
+    "dealerCare": {
+        "bOpen": 1, 
+        "rules": [
+            {
+                "bOpen": 1, 
+                "badCardFrs": 23, 
+                "badScore": 4000000, 
+                "ctPrs": [
+                    0.3, 
+                    0.3, 
+                    0.2, 
+                    0.2
+                ], 
+                "name": "牌特别差", 
+                "prl": 4, 
+                "rt": 3
+            }, 
+            {
+                "bOpen": 1, 
+                "mltBuyIn": 3, 
+                "name": "输的过多", 
+                "pr": 0.8, 
+                "prl": 3, 
+                "roomPlayers": 4, 
+                "rt": 4, 
+                "triggerFrs": 10
+            }, 
+            {
+                "bOpen": 1, 
+                "name": "每日登陆", 
+                "pr": 0.8, 
+                "prl": 2, 
+                "rt": 2, 
+                "triggerFrs": 10
+            }
+        ]
+    }, 
+    "glory_winner": 1, 
+    "glory_winner_limit": 4000000, 
+    "interEmoticon": {
+        "bomb": [
+            20000, 
+            2000, 
+            -2000
+        ], 
+        "chicken": [
+            20000, 
+            2000, 
+            -2000
+        ], 
+        "doubleAce": [
+            20000, 
+            4000, 
+            4000
+        ], 
+        "eggs": [
+            20000, 
+            2000, 
+            -2000
+        ], 
+        "fishing": [
+            20000, 
+            2000, 
+            -2000
+        ], 
+        "ring": [
+            20000, 
+            4000, 
+            4000
+        ], 
+        "rose": [
+            20000, 
+            4000, 
+            4000
+        ], 
+        "thumb": [
+            20000, 
+            4000, 
+            4000
+        ]
+    }, 
+    "jackPotConf": {
+        "activateFee": 16000, 
+        "activateVipLevel": 0, 
+        "enable": 1, 
+        "frameCfg": [
+            15, 
+            1, 
+            0
+        ], 
+        "lowerLimit": {
+            "activity": 50000000, 
+            "activity_time": [
+                9, 
+                12, 
+                18, 
+                22
+            ], 
+            "base": 6000000
+        }, 
+        "playLed": 1, 
+        "rewardCardType": {
+            "6000000": [
+                0.02, 
+                "顺金"
+            ], 
+            "7000000": [
+                0.04, 
+                "A以下豹子"
+            ], 
+            "7140000": [
+                0.1, 
+                "豹子AAA"
+            ]
+        }, 
+        "roomFeePercent": 0.2
+    }, 
+    "matchConf": {
+        "match_id": "0.0"
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 12000000, 
+    "minCoin": 2000000, 
+    "minCoinQS": 5000000, 
+    "minTableCount": 1, 
+    "minTriggerLen": 2, 
+    "name": "葡 京", 
+    "playMode": "classic", 
+    "roomID": 30023, 
+    "sortId": 3, 
+    "tableConf": {
+        "bb": 40000, 
+        "better_card": 1, 
+        "big_pot": 0, 
+        "bigpot_fee_floor": 6000000, 
+        "buyin": 4000000, 
+        "buyinConf": "1/2/3/4", 
+        "call": 1, 
+        "callChip": -1, 
+        "chat_require_vip_level": 0, 
+        "commission": 0.05, 
+        "fee": 40000, 
+        "flip_card_game": {
+            "bet": 5000, 
+            "loading_show": 0, 
+            "show": 0
+        }, 
+        "maxHandCount": 20, 
+        "maxSeatN": 6, 
+        "max_bigpot_fee": -1, 
+        "min_players": 2, 
+        "optime": 13, 
+        "pay_factor": 1.0, 
+        "pkHandCount": 5, 
+        "prebet": 200000, 
+        "raise_times": [
+            2, 
+            4, 
+            8
+        ], 
+        "sb": 40000, 
+        "seeCardHandCount": 0, 
+        "start_card": 2, 
+        "tag": 4, 
+        "tag_label": "${http_download}/t3card/images/vip_room/tag_label_highPrebet.png", 
+        "tname": "葡 京"
+    }, 
+    "triggerLen": 6, 
+    "typeName": "vip", 
+    "xijin": 0
+}

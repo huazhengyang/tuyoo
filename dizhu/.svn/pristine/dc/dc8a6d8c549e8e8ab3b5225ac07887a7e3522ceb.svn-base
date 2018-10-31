@@ -1,0 +1,69 @@
+import json
+
+import freetime.util.log as ftlog
+from dizhu.entity.dizhuconf import DIZHU_GAMEID
+from hall.entity.hallevent import HallShare3Event
+from hall.game import TGHall
+from poker.entity.dao import gamedata
+import poker.util.timestamp as pktimestamp
+
+
+class DayShareData():
+
+    def __init__(self):
+        self.count = None
+        self.timestamp = None
+
+    def decodeFromDict(self, d):
+        self.count = d.get('count', 0)
+        self.timestamp = d.get('timestamp', pktimestamp.getCurrentTimestamp())
+        return self
+
+    def toDict(self):
+        return {
+            'count': self.count,
+            'timestamp': self.timestamp
+        }
+
+
+def getTotalShareTimes(userId):
+    return gamedata.getGameAttrInt(userId, DIZHU_GAMEID, 'totalShare')
+
+
+def addTotalShareTimes(userId):
+    totalShareTimes = getTotalShareTimes(userId)
+    totalShareTimes += 1
+    gamedata.setGameAttr(userId, DIZHU_GAMEID, 'totalShare', totalShareTimes)
+
+
+def getDayShareTimes(userId):
+    dayShareData = gamedata.getGameAttr(userId, DIZHU_GAMEID, 'dayShare')
+    if not dayShareData:
+        dayShare = DayShareData().decodeFromDict({})
+    else:
+        dayShareData = json.loads(dayShareData)
+        now = pktimestamp.getCurrentTimestamp()
+        if not pktimestamp.is_same_day(dayShareData.get('timestamp', 0), now):
+            dayShare = DayShareData().decodeFromDict({})
+        else:
+            dayShare = DayShareData().decodeFromDict(dayShareData)
+    return dayShare
+
+
+def addDayShareTimes(userId):
+    dayShare = getDayShareTimes(userId)
+    dayShare.count += 1
+    gamedata.setGameAttr(userId, DIZHU_GAMEID, 'dayShare', dayShare.toDict())
+
+
+def _initialize():
+    ftlog.debug('dizhu_share_count._initialize begin')
+    TGHall.getEventBus().subscribe(HallShare3Event, _processHallShare3Event)
+    ftlog.debug('dizhu_share_count._initialize end')
+
+
+def _processHallShare3Event(userId):
+    if ftlog.is_debug():
+        ftlog.debug('dizhu_share_count._processHallShare3Event userId=', userId)
+    addDayShareTimes(userId)
+    addTotalShareTimes(userId)

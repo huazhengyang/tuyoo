@@ -1,0 +1,1079 @@
+{
+    "group": {
+        "9": {
+            "desc": "游戏%d局", 
+            "processer": "global_play", 
+            "show": [
+                "global"
+            ], 
+            "sub": [
+                "9", 
+                "10", 
+                "11", 
+                "12", 
+                "15"
+            ], 
+            "type": "daily", 
+            "update": [
+                "global"
+            ], 
+            "var_name": "day_play_game_count", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }, 
+        "300": {
+            "desc": "每日第%d次分享", 
+            "processer": "global_share", 
+            "show": [
+                "global"
+            ], 
+            "sub": [
+                "300"
+            ], 
+            "type": "daily", 
+            "update": [
+                "global"
+            ], 
+            "var_name": "day_share_total", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }, 
+        "703": {
+            "desc": "四川高手每%d局", 
+            "processer": "play_cycle", 
+            "show": [
+                "hall", 
+                703
+            ], 
+            "sub": [
+                "703"
+            ], 
+            "type": "cycle", 
+            "update": [
+                703
+            ], 
+            "var_name": "day_play_game_count.cycle.703", 
+            "version": [
+                3.0, 
+                100
+            ]
+        }, 
+        "704": {
+            "desc": "四川大师每%d局", 
+            "processer": "play_cycle", 
+            "show": [
+                "hall", 
+                704
+            ], 
+            "sub": [
+                "704"
+            ], 
+            "type": "cycle", 
+            "update": [
+                704
+            ], 
+            "var_name": "day_play_game_count.cycle.704", 
+            "version": [
+                3.0, 
+                100
+            ]
+        }, 
+        "713": {
+            "desc": "疯狂高手每%d局", 
+            "processer": "play_cycle", 
+            "show": [
+                "hall", 
+                713
+            ], 
+            "sub": [
+                "713"
+            ], 
+            "type": "cycle", 
+            "update": [
+                713
+            ], 
+            "var_name": "day_play_game_count.cycle.713", 
+            "version": [
+                3.0, 
+                100
+            ]
+        }, 
+        "714": {
+            "desc": "疯狂大师每%d局", 
+            "processer": "play_cycle", 
+            "show": [
+                "hall", 
+                714
+            ], 
+            "sub": [
+                "714"
+            ], 
+            "type": "cycle", 
+            "update": [
+                714
+            ], 
+            "var_name": "day_play_game_count.cycle.714", 
+            "version": [
+                3.0, 
+                100
+            ]
+        }, 
+        "743": {
+            "desc": "血战高手每%d局", 
+            "processer": "play_cycle", 
+            "show": [
+                "hall", 
+                743
+            ], 
+            "sub": [
+                "743"
+            ], 
+            "type": "cycle", 
+            "update": [
+                743
+            ], 
+            "var_name": "day_play_game_count.cycle.743", 
+            "version": [
+                3.0, 
+                100
+            ]
+        }, 
+        "744": {
+            "desc": "血战大师每%d局", 
+            "processer": "play_cycle", 
+            "show": [
+                "hall", 
+                744
+            ], 
+            "sub": [
+                "744"
+            ], 
+            "type": "cycle", 
+            "update": [
+                744
+            ], 
+            "var_name": "day_play_game_count.cycle.744", 
+            "version": [
+                3.0, 
+                100
+            ]
+        }, 
+        "753": {
+            "desc": "哈尔滨高手每%d局", 
+            "processer": "play_cycle", 
+            "show": [
+                "hall", 
+                753
+            ], 
+            "sub": [
+                "753"
+            ], 
+            "type": "cycle", 
+            "update": [
+                753
+            ], 
+            "var_name": "day_play_game_count.cycle.753", 
+            "version": [
+                3.0, 
+                100
+            ]
+        }, 
+        "754": {
+            "desc": "哈尔滨大师每%d局", 
+            "processer": "play_cycle", 
+            "show": [
+                "hall", 
+                754
+            ], 
+            "sub": [
+                "754"
+            ], 
+            "type": "cycle", 
+            "update": [
+                754
+            ], 
+            "var_name": "day_play_game_count.cycle.754", 
+            "version": [
+                3.0, 
+                100
+            ]
+        }, 
+        "763": {
+            "desc": "二人高手每%d局", 
+            "processer": "play_cycle", 
+            "show": [
+                "hall", 
+                763
+            ], 
+            "sub": [
+                "763"
+            ], 
+            "type": "cycle", 
+            "update": [
+                763
+            ], 
+            "var_name": "day_play_game_count.cycle.763", 
+            "version": [
+                3.0, 
+                100
+            ]
+        }, 
+        "764": {
+            "desc": "二人大师每%d局", 
+            "processer": "play_cycle", 
+            "show": [
+                "hall", 
+                764
+            ], 
+            "sub": [
+                "764"
+            ], 
+            "type": "cycle", 
+            "update": [
+                764
+            ], 
+            "var_name": "day_play_game_count.cycle.764", 
+            "version": [
+                3.0, 
+                100
+            ]
+        }, 
+        "70100": {
+            "desc": "四川初级游戏%d局", 
+            "processer": "play", 
+            "show": [
+                "hall", 
+                701
+            ], 
+            "sub": [
+                "70101", 
+                "70102", 
+                "70103"
+            ], 
+            "time": [
+                {
+                    "end": "2016-09-02 23:59:59", 
+                    "start": "2015-09-01 00:00:00"
+                }
+            ], 
+            "type": "daily", 
+            "update": [
+                701
+            ], 
+            "var_name": "day_play_game_count.701", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }, 
+        "70200": {
+            "desc": "四川中级游戏%d局", 
+            "processer": "play", 
+            "show": [
+                "hall", 
+                702
+            ], 
+            "sub": [
+                "70201", 
+                "70202", 
+                "70203"
+            ], 
+            "time": [
+                {
+                    "end": "2016-09-02 23:59:59", 
+                    "start": "2015-09-01 00:00:00"
+                }
+            ], 
+            "type": "daily", 
+            "update": [
+                702
+            ], 
+            "var_name": "day_play_game_count.702", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }, 
+        "71100": {
+            "desc": "疯狂初级游戏%d局", 
+            "processer": "play", 
+            "show": [
+                "hall", 
+                711
+            ], 
+            "sub": [
+                "71101", 
+                "71102", 
+                "71103"
+            ], 
+            "time": [
+                {
+                    "end": "2016-09-02 23:59:59", 
+                    "start": "2015-09-01 00:00:00"
+                }
+            ], 
+            "type": "daily", 
+            "update": [
+                711
+            ], 
+            "var_name": "day_play_game_count.711", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }, 
+        "71200": {
+            "desc": "疯狂中级游戏%d局", 
+            "processer": "play", 
+            "show": [
+                "hall", 
+                712
+            ], 
+            "sub": [
+                "71201", 
+                "71202", 
+                "71203"
+            ], 
+            "time": [
+                {
+                    "end": "2016-09-02 23:59:59", 
+                    "start": "2015-09-01 00:00:00"
+                }
+            ], 
+            "type": "daily", 
+            "update": [
+                712
+            ], 
+            "var_name": "day_play_game_count.712", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }, 
+        "73100": {
+            "desc": "雀神赛%d局", 
+            "processer": "play", 
+            "show": [
+                "hall", 
+                731, 
+                732, 
+                733, 
+                734, 
+                735, 
+                736, 
+                737, 
+                738, 
+                739, 
+                7310, 
+                7311, 
+                7312
+            ], 
+            "sub": [
+                "73104", 
+                "73101", 
+                "73102", 
+                "73103"
+            ], 
+            "time": [
+                {
+                    "end": "2015-09-16 23:59:59", 
+                    "start": "2015-09-09 00:00:00"
+                }
+            ], 
+            "type": "daily", 
+            "update": [
+                731, 
+                732, 
+                733, 
+                734, 
+                735, 
+                736, 
+                737, 
+                738, 
+                739, 
+                7310, 
+                7311, 
+                7312
+            ], 
+            "var_name": "day_play_game_count.73x", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }, 
+        "74100": {
+            "desc": "血战初级游戏%d局", 
+            "processer": "play", 
+            "show": [
+                "hall", 
+                741
+            ], 
+            "sub": [
+                "74104", 
+                "74101", 
+                "74102", 
+                "74103"
+            ], 
+            "time": [
+                {
+                    "end": "2016-09-02 23:59:59", 
+                    "start": "2015-09-01 00:00:00"
+                }
+            ], 
+            "type": "daily", 
+            "update": [
+                741
+            ], 
+            "var_name": "day_play_game_count.741", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }, 
+        "74200": {
+            "desc": "血战中级游戏%d局", 
+            "processer": "play", 
+            "show": [
+                "hall", 
+                742
+            ], 
+            "sub": [
+                "74201", 
+                "74202", 
+                "74203", 
+                "74204"
+            ], 
+            "time": [
+                {
+                    "end": "2016-09-02 23:59:59", 
+                    "start": "2015-09-01 00:00:00"
+                }
+            ], 
+            "type": "daily", 
+            "update": [
+                742
+            ], 
+            "var_name": "day_play_game_count.742", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }, 
+        "75100": {
+            "desc": "哈尔滨初级游戏%d局", 
+            "processer": "play", 
+            "show": [
+                "hall", 
+                751
+            ], 
+            "sub": [
+                "75104", 
+                "75101", 
+                "75102", 
+                "75103"
+            ], 
+            "time": [
+                {
+                    "end": "2016-09-02 23:59:59", 
+                    "start": "2015-09-01 00:00:00"
+                }
+            ], 
+            "type": "daily", 
+            "update": [
+                751
+            ], 
+            "var_name": "day_play_game_count.751", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }, 
+        "75200": {
+            "desc": "哈尔滨中级游戏%d局", 
+            "processer": "play", 
+            "show": [
+                "hall", 
+                752
+            ], 
+            "sub": [
+                "75201", 
+                "75202", 
+                "75203", 
+                "75204"
+            ], 
+            "time": [
+                {
+                    "end": "2016-09-02 23:59:59", 
+                    "start": "2015-09-01 00:00:00"
+                }
+            ], 
+            "type": "daily", 
+            "update": [
+                752
+            ], 
+            "var_name": "day_play_game_count.752", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }, 
+        "76100": {
+            "desc": "二人初级游戏%d局", 
+            "processer": "play", 
+            "show": [
+                "hall", 
+                761
+            ], 
+            "sub": [
+                "76101", 
+                "76102", 
+                "76103"
+            ], 
+            "time": [
+                {
+                    "end": "2016-09-02 23:59:59", 
+                    "start": "2015-09-01 00:00:00"
+                }
+            ], 
+            "type": "daily", 
+            "update": [
+                761
+            ], 
+            "var_name": "day_play_game_count.761", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }, 
+        "76200": {
+            "desc": "二人中级游戏%d局", 
+            "processer": "play", 
+            "show": [
+                "hall", 
+                762
+            ], 
+            "sub": [
+                "76201", 
+                "76202", 
+                "76203", 
+                "76204"
+            ], 
+            "time": [
+                {
+                    "end": "2016-09-02 23:59:59", 
+                    "start": "2015-09-01 00:00:00"
+                }
+            ], 
+            "type": "daily", 
+            "update": [
+                762
+            ], 
+            "var_name": "day_play_game_count.762", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }
+    }, 
+    "task": {
+        "9": {
+            "desc": "游戏5局", 
+            "group": "9", 
+            "reward": {
+                "coin": 100
+            }, 
+            "star": 1, 
+            "var": 5
+        }, 
+        "10": {
+            "desc": "游戏20局", 
+            "group": "9", 
+            "reward": {
+                "coin": 500
+            }, 
+            "star": 2, 
+            "var": 20
+        }, 
+        "11": {
+            "desc": "游戏50局", 
+            "group": "9", 
+            "reward": {
+                "coin": 1000
+            }, 
+            "star": 3, 
+            "var": 50
+        }, 
+        "12": {
+            "desc": "游戏100局", 
+            "group": "9", 
+            "reward": {
+                "coin": 2500
+            }, 
+            "star": 4, 
+            "var": 100
+        }, 
+        "15": {
+            "desc": "游戏1000局", 
+            "group": "9", 
+            "reward": {
+                "coin": 25000
+            }, 
+            "star": 5, 
+            "var": 1000
+        }, 
+        "300": {
+            "desc": "每日第1次分享", 
+            "group": "300", 
+            "reward": {
+                "coin": 500
+            }, 
+            "star": 1, 
+            "var": 1
+        }, 
+        "703": {
+            "desc": "四川高手每5局", 
+            "group": "703", 
+            "reward": {
+                "coupon": 4
+            }, 
+            "star": 3, 
+            "var": 5
+        }, 
+        "704": {
+            "desc": "四川大师每5局", 
+            "group": "704", 
+            "reward": {
+                "coupon": 10
+            }, 
+            "star": 5, 
+            "var": 5
+        }, 
+        "713": {
+            "desc": "疯狂高手每5局", 
+            "group": "713", 
+            "reward": {
+                "coupon": 4
+            }, 
+            "star": 3, 
+            "var": 5
+        }, 
+        "714": {
+            "desc": "疯狂大师每5局", 
+            "group": "714", 
+            "reward": {
+                "coupon": 10
+            }, 
+            "star": 5, 
+            "var": 5
+        }, 
+        "743": {
+            "desc": "血战高手每5局", 
+            "group": "743", 
+            "reward": {
+                "coupon": 4
+            }, 
+            "star": 3, 
+            "var": 5
+        }, 
+        "744": {
+            "desc": "血战大师每5局", 
+            "group": "744", 
+            "reward": {
+                "coupon": 10
+            }, 
+            "star": 5, 
+            "var": 5
+        }, 
+        "753": {
+            "desc": "哈尔滨高手每5局", 
+            "group": "753", 
+            "reward": {
+                "coupon": 4
+            }, 
+            "star": 3, 
+            "var": 5
+        }, 
+        "754": {
+            "desc": "哈尔滨大师每5局", 
+            "group": "754", 
+            "reward": {
+                "coupon": 10
+            }, 
+            "star": 5, 
+            "var": 5
+        }, 
+        "763": {
+            "desc": "二人高手每5局", 
+            "group": "763", 
+            "reward": {
+                "coupon": 4
+            }, 
+            "star": 3, 
+            "var": 5
+        }, 
+        "764": {
+            "desc": "二人大师每5局", 
+            "group": "764", 
+            "reward": {
+                "coupon": 10
+            }, 
+            "star": 5, 
+            "var": 5
+        }, 
+        "70101": {
+            "desc": "四川初级游戏5局", 
+            "group": "70100", 
+            "reward": {
+                "coin": 100
+            }, 
+            "star": 2, 
+            "var": 5
+        }, 
+        "70102": {
+            "desc": "四川初级游戏18局", 
+            "group": "70100", 
+            "reward": {
+                "coin": 150
+            }, 
+            "star": 3, 
+            "var": 18
+        }, 
+        "70103": {
+            "desc": "四川初级游戏50局", 
+            "group": "70100", 
+            "reward": {
+                "coin": 450
+            }, 
+            "star": 4, 
+            "var": 50
+        }, 
+        "70201": {
+            "desc": "四川中级游戏5局", 
+            "group": "70200", 
+            "reward": {
+                "coin": 400
+            }, 
+            "star": 2, 
+            "var": 5
+        }, 
+        "70202": {
+            "desc": "四川中级游戏18局", 
+            "group": "70200", 
+            "reward": {
+                "coin": 600
+            }, 
+            "star": 3, 
+            "var": 18
+        }, 
+        "70203": {
+            "desc": "四川中级游戏50局", 
+            "group": "70200", 
+            "reward": {
+                "coin": 1500
+            }, 
+            "star": 4, 
+            "var": 50
+        }, 
+        "71101": {
+            "desc": "疯狂初级游戏5局", 
+            "group": "71100", 
+            "reward": {
+                "coin": 50
+            }, 
+            "star": 2, 
+            "var": 5
+        }, 
+        "71102": {
+            "desc": "疯狂初级游戏18局", 
+            "group": "71100", 
+            "reward": {
+                "coin": 70
+            }, 
+            "star": 3, 
+            "var": 18
+        }, 
+        "71103": {
+            "desc": "疯狂初级游戏50局", 
+            "group": "71100", 
+            "reward": {
+                "coin": 200
+            }, 
+            "star": 4, 
+            "var": 50
+        }, 
+        "71201": {
+            "desc": "疯狂中级游戏5局", 
+            "group": "71200", 
+            "reward": {
+                "coin": 250
+            }, 
+            "star": 2, 
+            "var": 5
+        }, 
+        "71202": {
+            "desc": "疯狂中级游戏18局", 
+            "group": "71200", 
+            "reward": {
+                "coin": 350
+            }, 
+            "star": 3, 
+            "var": 18
+        }, 
+        "71203": {
+            "desc": "疯狂中级游戏50局", 
+            "group": "71200", 
+            "reward": {
+                "coin": 1000
+            }, 
+            "star": 4, 
+            "var": 50
+        }, 
+        "73101": {
+            "desc": "雀神赛1局", 
+            "group": "73100", 
+            "reward": {
+                "coin": 1000
+            }, 
+            "star": 1, 
+            "var": 1
+        }, 
+        "73102": {
+            "desc": "雀神赛5局", 
+            "group": "73100", 
+            "reward": {
+                "coin": 5000
+            }, 
+            "star": 2, 
+            "var": 5
+        }, 
+        "73103": {
+            "desc": "雀神赛10局", 
+            "group": "73100", 
+            "reward": {
+                "coin": 10000
+            }, 
+            "star": 5, 
+            "var": 10
+        }, 
+        "73104": {
+            "desc": "雀神赛100局", 
+            "group": "73100", 
+            "reward": {
+                "coin": 200000
+            }, 
+            "star": 5, 
+            "var": 100
+        }, 
+        "74101": {
+            "desc": "血战初级游戏5局", 
+            "group": "74100", 
+            "reward": {
+                "coin": 5
+            }, 
+            "star": 2, 
+            "var": 5
+        }, 
+        "74102": {
+            "desc": "血战初级游戏18局", 
+            "group": "74100", 
+            "reward": {
+                "coin": 10
+            }, 
+            "star": 3, 
+            "var": 18
+        }, 
+        "74103": {
+            "desc": "血战初级游戏50局", 
+            "group": "74100", 
+            "reward": {
+                "coin": 25
+            }, 
+            "star": 4, 
+            "var": 50
+        }, 
+        "74104": {
+            "desc": "血战初级游戏1000局", 
+            "group": "74100", 
+            "reward": {
+                "coin": 500
+            }, 
+            "star": 5, 
+            "var": 1000
+        }, 
+        "74201": {
+            "desc": "血战中级游戏5局", 
+            "group": "74200", 
+            "reward": {
+                "coin": 50
+            }, 
+            "star": 2, 
+            "var": 5
+        }, 
+        "74202": {
+            "desc": "血战中级游戏18局", 
+            "group": "74200", 
+            "reward": {
+                "coin": 100
+            }, 
+            "star": 3, 
+            "var": 18
+        }, 
+        "74203": {
+            "desc": "血战中级游戏50局", 
+            "group": "74200", 
+            "reward": {
+                "coin": 250
+            }, 
+            "star": 4, 
+            "var": 50
+        }, 
+        "74204": {
+            "desc": "血战中级游戏1000局", 
+            "group": "74200", 
+            "reward": {
+                "coin": 5000
+            }, 
+            "star": 5, 
+            "var": 1000
+        }, 
+        "75101": {
+            "desc": "哈尔滨初级游戏5局", 
+            "group": "75100", 
+            "reward": {
+                "coin": 5
+            }, 
+            "star": 2, 
+            "var": 5
+        }, 
+        "75102": {
+            "desc": "哈尔滨初级游戏18局", 
+            "group": "75100", 
+            "reward": {
+                "coin": 10
+            }, 
+            "star": 3, 
+            "var": 18
+        }, 
+        "75103": {
+            "desc": "哈尔滨初级游戏50局", 
+            "group": "75100", 
+            "reward": {
+                "coin": 25
+            }, 
+            "star": 4, 
+            "var": 50
+        }, 
+        "75104": {
+            "desc": "哈尔滨初级游戏1000局", 
+            "group": "75100", 
+            "reward": {
+                "coin": 500
+            }, 
+            "star": 5, 
+            "var": 1000
+        }, 
+        "75201": {
+            "desc": "哈尔滨中级游戏5局", 
+            "group": "75200", 
+            "reward": {
+                "coin": 50
+            }, 
+            "star": 2, 
+            "var": 5
+        }, 
+        "75202": {
+            "desc": "哈尔滨中级游戏18局", 
+            "group": "75200", 
+            "reward": {
+                "coin": 100
+            }, 
+            "star": 3, 
+            "var": 18
+        }, 
+        "75203": {
+            "desc": "哈尔滨中级游戏50局", 
+            "group": "75200", 
+            "reward": {
+                "coin": 250
+            }, 
+            "star": 4, 
+            "var": 50
+        }, 
+        "75204": {
+            "desc": "哈尔滨中级游戏1000局", 
+            "group": "75200", 
+            "reward": {
+                "coin": 5000
+            }, 
+            "star": 5, 
+            "var": 1000
+        }, 
+        "76101": {
+            "desc": "二人初级游戏5局", 
+            "group": "76100", 
+            "reward": {
+                "coin": 50
+            }, 
+            "star": 2, 
+            "var": 5
+        }, 
+        "76102": {
+            "desc": "二人初级游戏18局", 
+            "group": "76100", 
+            "reward": {
+                "coin": 70
+            }, 
+            "star": 3, 
+            "var": 18
+        }, 
+        "76103": {
+            "desc": "二人初级游戏50局", 
+            "group": "76100", 
+            "reward": {
+                "coin": 200
+            }, 
+            "star": 4, 
+            "var": 50
+        }, 
+        "76201": {
+            "desc": "二人中级游戏5局", 
+            "group": "76200", 
+            "reward": {
+                "coin": 300
+            }, 
+            "star": 2, 
+            "var": 5
+        }, 
+        "76202": {
+            "desc": "二人中级游戏18局", 
+            "group": "76200", 
+            "reward": {
+                "coin": 400
+            }, 
+            "star": 3, 
+            "var": 18
+        }, 
+        "76203": {
+            "desc": "二人中级游戏50局", 
+            "group": "76200", 
+            "reward": {
+                "coin": 1200
+            }, 
+            "star": 4, 
+            "var": 50
+        }, 
+        "76204": {
+            "desc": "二人中级游戏1000局", 
+            "group": "76200", 
+            "reward": {
+                "coin": 25000
+            }, 
+            "star": 5, 
+            "var": 1000
+        }
+    }
+}

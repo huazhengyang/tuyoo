@@ -1,0 +1,137 @@
+{
+	"coupon.show.switch.config": {
+		"desc":	"这些客户度会被隐藏掉游戏中的奖券",
+		"android": [
+		],
+		"plugin_android": [
+		],
+		"ios": [
+		],
+		"plugin_ios": [
+		],
+		"winpc": [
+		],
+		"plugin_winpc": [
+		]
+	},
+
+	"table.pay.hide.clientIds": {
+		"desc": "这些客户端，会被屏蔽掉桌面快充按钮",
+		"android": [
+                "Android_3.5021_meizu.meizu,weakChinaMobile,woStore,aigame,YDJD.0-hall7.meizu.dj",
+                "Android_3.502_tuyoo.lenovo,weakChinaMobile,woStore,aigame,YDJD.0-hall7.lenovo.dj",
+                "Android_3.502_tuyoo.YDJD.0-hall7.ppzhushou.dj",
+                "Android_3.502_midanji.midanji,weakChinaMobile,woStore,aigame,YDJD.0-hall7.mi.kkhlmj",
+                "Android_3.502_tuyoo.weakChinaMobile.0-hall7.ydmm.people",
+                "Android_3.502_tuyoo.weakChinaMobile.0-hall7.ydmm.haerbin",
+
+                "Android_3.502_tuyoo.weakChinaMobile.0-hall7.ydmm.kkhlmj",
+
+                "Android_3.502_tuyoo.YDJD.0-hall7.360.happy",
+                
+                "Android_3.502_tuyoo.YDJD.0-hall7.leshi.dj",
+                "Android_3.502_tuyoo.YDJD.0-hall7.maopao.dj",
+                "Android_3.502_tuyoo.YDJD.0-hall7.huancheng.dj",
+
+                "Android_3.502_tuyoo.weakChinaMobile,woStore,aigame,YDJD.0-hall7.huashuo.dj",                
+
+                "Android_3.502_tuyoo.weakChinaMobile.0-hall7.ydmm.jinri",
+                "Android_3.502_tuyoo.woStore.0-hall7.ltwo.jinri",
+                "Android_3.502_tuyoo.YDJD.0-hall7.jinri.jinri",
+                
+                "Android_3.37_tuyoo.weakChinaMobile.0-hall7.ydmm.danjiyouxi",
+                "Android_3.37_tuyoo.weakChinaMobile.0-hall7.ydmm.quanmin",
+                "Android_3.37_tuyoo.weakChinaMobile.0-hall7.ydmm.mjxinchun",
+                "Android_3.37_tuyoo.weakChinaMobile.0-hall7.ydmm.dj",
+                "Android_3.372_YDJD.YDJD.0-hall7.ydjd.sc",
+                "Android_3.372_YDJD.YDJD.0-hall7.ydjd.happy",
+                "Android_3.372_tuyoo.weakChinaMobile.0-hall7.qq.dj",
+                "Android_3.502_360.360,weakChinaMobile.0-hall7.360.fk",
+                "Android_3.3721_360.360,weakChinaMobile,woStore,aigame,YDJD.0-hall7.360.dj",
+                "Android_3.3721_360.360,weakChinaMobile.0-hall7.360.people",
+                "Android_3.3721_360.360,weakChinaMobile.0-hall7.360.win",
+                "Android_3.3721_huawei.huawei,weakChinaMobile,woStore,aigame.0-hall7.huawei.dj",
+                "Android_3.3721_oppo.oppo,weakChinaMobile,woStore.0-hall7.oppo.dj",
+                "Android_3.3721_tuyoo.weakChinaMobile,woStore,aigame.0-hall7.wandou.dj",
+                "Android_3.3721_tuyoo.weakChinaMobile.0-hall7.ali.dj",
+                "Android_3.3721_tuyoo.weakChinaMobile.0-hall7.qq.dj",
+                "Android_3.502_YDJD.YDJD.0-hall7.ydjd.tu",
+                "Android_3.502_YDJD.YDJD.0-hall7.ydjd.fk",
+                "Android_3.502_tuyoo.weakChinaMobile.0-hall7.ydmm.fk",
+                "Android_3.502_tuyoo.weakChinaMobile.0-hall7.ydmm.dj",
+                "Android_3.502_tuyoo.weakChinaMobile.0-hall7.ydmm.sc",
+                "Android_3.502_tuyoo.weakChinaMobile.0-hall7.ydmm.happy",
+                "Android_3.502_tuyoo.weakChinaMobile.0-hall7.ydmm.kkhlm",
+                "Android_3.372_tuyoo.weakChinaMobile.0-hall7.ydmm.tu",
+                "Android_3.502_tuyoo.YDJD.0-hall7.oppo.dj",
+                "Android_3.502_tuyoo.YDJD.0-hall7.wifikey.happy",
+                "Android_3.502_tuyoo.YDJD.0-hall7.ydjd.happy",
+                "Android_3.502_tuyoo.YDJD.0-hall7.ydjd.sc",
+                "Android_3.502_tuyoo.YDJDDanji.0-hall7.mi.dj",
+                "Android_3.502_tuyoo.YDJDDanji.0-hall7.apphui.dj",
+                "Android_3.502_tuyoo.YDJDDanji.0-hall7.huawei.dj",
+                "Android_3.502_tuyoo.YDJDDanji.0-hall7.lenovo.dj",
+                "Android_3.502_tuyoo.YDJDDanji.0-hall7.oppo.dj",
+                "Android_3.502_tuyoo.YDJDMain.0-hall7.wifikey.happy",
+                "Android_3.502_tuyoo.YDJDMain.0-hall7.ydjd.happy",
+                "Android_3.502_tuyoo.YDJDMain.0-hall7.ydjd.sc",
+                "Android_3.502_tuyoo.YDJD.0-hall7.mi.dj",
+                "Android_3.502_tuyoo.YDJD.0-hall7.apphui.dj",
+                "Android_3.502_tuyoo.YDJD.0-hall7.huawei.dj",
+                "Android_3.502_tuyoo.YDJD.0-hall7.lenovo.dj",
+                "Android_3.502_tuyoo.YDJD.0-hall7.mi.kkhlmj",
+                "Android_3.5021_tuyoo.YDJD.0-hall7.baidu.dj",
+                "Android_3.5021_tuyoo.YDJD.0-hall7.baidu.sc",
+                "Android_3.5021_tuyoo.YDJD.0-hall7.baidu.happy",
+
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJDDanji.0-hall7.ydjd.dj",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJDDanji.0-hall7.leshiydjd.dj",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJDDanji.0-hall7.maopaoydjd.dj",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJDDanji.0-hall7.huaweiydjd.dj",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJDDanji.0-hall7.lenovoydjd.dj",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJDDanji.0-hall7.oppoydjd.dj",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJDDanji.0-hall7.miydjd.dj",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJDDanji.0-hall7.baiduydjd.dj",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.weakChinaMobile.0-hall7.ydmm.fk",
+                "Android_3.71_YDJDMain.YDJDMain.0-hall7.ydjd.fk",
+
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.ydjd.fk",
+
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.weakChinaMobile.0-hall7.ydmm.sc",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.weakChinaMobile.0-hall7.ydmm.dj",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.weakChinaMobile.0-hall7.ydmm.happy",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.ydjd.happy",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.baidu.happy",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.ydjd.sc",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.baidu.sc",
+                "Android_3.71_YDJDMain.YDJDMain.0-hall7.ydjd.tu",
+                "Android_3.71_tyOneKey,tyAccount,tyGuest.weakChinaMobile.0-hall7.ydmm.tu",
+
+                "Android_3.712_360.360,yisdkpay4.0-hall7.360.happy",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qq.happy",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqgc.happy",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqas.happy",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqcustomizedgc.happy",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqcustomizedas.happy",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqtmsgc.happy",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqtmsas.happy",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqexplorer.happy",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqic02.happy",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.qqvideo.happy",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.wandou.happy",
+                "Android_3.712_360,tyGuest.360,yisdkpay4.0-hall7.360.dj",
+                "Android_3.712_meizu.meizu,yisdkpay4.0-hall7.meizu.dj",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.meizu.dj",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.wifikey.dj",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.googleplay.dj",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.coolpad.dj",
+                "Android_3.712_tyOneKey,tyAccount,tyGuest.yisdkpay4.0-hall7.ali.dj",
+                "Android_3.712_huawei.huawei,yisdkpay4.0-hall7.huawei.dj"
+                ],
+        "plugin_android": [],
+        "ios": [],
+        "plugin_ios": [],
+        "winpc": [],
+        "plugin_winpc": []
+    }
+}

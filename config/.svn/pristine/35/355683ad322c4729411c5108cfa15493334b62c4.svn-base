@@ -1,0 +1,69 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "竞猜象棋，最刺激的象棋玩法"
+     ],
+     "md5"              : "dc042e23b66015cb8e06f5f3c7bcfe8f",
+     "ver"              : "5.01",
+     "url"              : "${http_download}/hall/plugin/game/jcxq_release_v5.01_10.zip",
+     "size"             : "3M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "竞猜象棋，最刺激的象棋玩法"
+     ],
+     "md5"              : "498f1270927ce5f254eb20247759a3f0",
+     "ver"              : "5.02",
+     "url"              : "${http_download}/hall/plugin/game/jcxq_release_v5.02_2.zip",
+     "size"             : "3M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "竞猜象棋，最刺激的象棋玩法"
+     ],
+     "md5"              : "a6b0091671d51efa263eff83bf241f9e",
+     "ver"              : "5.03",
+     "url"              : "${http_download}/hall/plugin/game/jcxq_release_v5.03_3.zip",
+     "size"             : "3M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "竞猜麻将，最刺激的麻将玩法"
+     ],
+     "md5"              : "ac74a3f3880518636083b6d4a257a7bb",
+     "ver"              : "5.04",
+     "url"              : "${http_download}/hall/plugin/game/jcxq_release_v5.04_5.zip",
+     "size"             : "2.5M"
+    },
+    {
+     "hall_min_required": 4,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "竞猜象棋，最刺激的象棋玩法"
+     ],
+     "md5"              : "b44418b7c46a64f0240af073180a13fb",
+     "ver"              : "5.05",
+     "url"              : "${http_download}/hall/plugin/game/jcxq_release_v5.05.zip",
+     "size"             : "2.5M"
+    }
+   ],
+   "description"      : [
+    "竞猜游戏"
+   ],
+   "gameId"           : 89,
+   "gameMark"         : "jcxq"
+  }
+ ],
+ "templates"        : [ ]
+}

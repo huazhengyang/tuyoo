@@ -1,0 +1,472 @@
+{
+	"forbiden.clientIds": [
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.baidu.sc",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.ydjd.sc",
+		"Android_3.731_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.ydjd.dj",
+		"Android_3.736_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.zhengfutishen.sc",
+		"Android_3.736_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.zhengfutishen.happy",
+		"Android_3.736_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.zhengfutishen.rich",
+		"Android_3.736_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.zhengfutishen.win",
+		"Android_3.736_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.zhengfutishen.fk",
+		"Android_3.736_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.zhengfutishen.erren",
+		"Android_3.736_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.zhengfutishen.tu",
+		"Android_3.736_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.zhengfutishen.people",
+		"Android_3.736_tyOneKey,tyAccount,tyGuest.YDJD.0-hall7.zhengfutishen.haerbin"
+	],
+	
+	"red_envelope": {
+		"prepareTime": 180,
+		"ledSendTimes": 3,
+		"grabTimeLong": 9,
+		"grabInterval": 1,
+		"maxGrabTimes": 5,
+		"envelopeNum": 9000,
+		"saveValuableNum": 4,
+		"red_envelope_trigger_value": 10000000,
+		"start": "2016-01-22 00:00:00",
+		"end": "2026-10-01 00:00:00",
+		"forbidenClientIds": [
+			],		
+		"forbidenRoomIds":[7901, 7902, 7903, 7904, 7905, 7906],
+		"reward":{
+			"beginner":{
+				"prop": [5000, 10000, 5, 100, 5, 95, 95],
+				"items":[
+					{"name":"金币", "itemId":"user:chip", "count":[1,5], "isValuable": 0},
+					{"name":"金币", "itemId":"user:chip", "count":[5,50], "isValuable": 0},
+					{"name":"金币", "itemId":"user:chip", "count":5000, "isValuable": 1},
+					{"name":"红包券", "itemId":"user:coupon", "count":[1,20], "isValuable": 0},
+					{"name":"红包券", "itemId":"user:coupon", "count":100, "isValuable": 1},
+					{"name":"忍者头像1天", "itemId":"item:4139", "count":1, "isValuable": 0},
+					{"name":"神秘礼帽1天", "itemId":"item:4101", "count":1, "isValuable": 0}						
+				]
+				
+			},	
+			"middle":{
+				"prop": [5000, 10000, 5, 150, 5, 5, 95, 95],
+				"items":[
+					{"name":"金币", "itemId":"user:chip", "count":[5,10], "isValuable": 0},
+					{"name":"金币", "itemId":"user:chip", "count":[100,150], "isValuable": 0},
+					{"name":"金币", "itemId":"user:chip", "count":10000, "isValuable": 1},
+					{"name":"红包券", "itemId":"user:coupon", "count":[1,20], "isValuable": 0},
+					{"name":"红包券", "itemId":"user:coupon", "count":100, "isValuable": 1},
+					{"name":"1天会员", "itemId":"item:88", "count":1, "isValuable": 0},
+					{"name":"绅士礼帽1天", "itemId":"item:4102", "count":1, "isValuable": 0},
+					{"name":"牛仔之帽1天", "itemId":"item:4103", "count":1, "isValuable": 0}						
+				]
+				
+			},	
+			"adwanced":{
+				"prop": [5000, 10000, 100, 150, 5, 5, 95, 95, 95],
+				"items":[
+					{"name":"金币", "itemId":"user:chip", "count":[10,50], "isValuable": 0},
+					{"name":"金币", "itemId":"user:chip", "count":[600,800], "isValuable": 0},
+					{"name":"金币", "itemId":"user:chip", "count":30000, "isValuable": 1},
+					{"name":"红包券", "itemId":"user:coupon", "count":[20,50], "isValuable": 0},
+					{"name":"红包券", "itemId":"user:coupon", "count":200, "isValuable": 1},
+					{"name":"1天会员", "itemId":"item:88", "count":1, "isValuable": 0},
+					{"name":"小芳头像1天", "itemId":"item:4140", "count":1, "isValuable": 0},
+					{"name":"精灵花冠1天", "itemId":"item:4105", "count":1, "isValuable": 0},
+					{"name":"多彩皇冠1天", "itemId":"item:4104", "count":1, "isValuable": 0}				
+				]				
+			},	
+			"master":{
+				"prop": [5000, 10000, 5, 150, 5, 5, 95, 95, 95],
+				"items":[
+					{"name":"金币", "itemId":"user:chip", "count":[50,100], "isValuable": 0},
+					{"name":"金币", "itemId":"user:chip", "count":[3000,5000], "isValuable": 0},
+					{"name":"金币", "itemId":"user:chip", "count":50000, "isValuable": 1},
+					{"name":"红包券", "itemId":"user:coupon", "count":[20,50], "isValuable": 0},
+					{"name":"红包券", "itemId":"user:coupon", "count":200, "isValuable": 1},
+					{"name":"1天会员", "itemId":"item:88", "count":1, "isValuable": 0},
+					{"name":"小芳头像1天", "itemId":"item:4140", "count":1, "isValuable": 0},
+					{"name":"精灵花冠1天", "itemId":"item:4105", "count":1, "isValuable": 0},
+					{"name":"多彩皇冠1天", "itemId":"item:4104", "count":1, "isValuable": 0}				
+				]				
+				
+			},
+			"vip":{
+				"prop": [5000, 10000, 5, 150, 5, 5, 95, 95, 95],
+				"items":[
+					{"name":"金币", "itemId":"user:chip", "count":[250,500], "isValuable": 0},
+					{"name":"金币", "itemId":"user:chip", "count":[15000,25000], "isValuable": 0},
+					{"name":"金币", "itemId":"user:chip", "count":250000, "isValuable": 1},
+					{"name":"红包券", "itemId":"user:coupon", "count":[100,250], "isValuable": 0},
+					{"name":"红包券", "itemId":"user:coupon", "count":1000, "isValuable": 1},
+					{"name":"1天会员", "itemId":"item:88", "count":1, "isValuable": 0},
+					{"name":"小芳头像1天", "itemId":"item:4140", "count":1, "isValuable": 0},
+					{"name":"精灵花冠1天", "itemId":"item:4105", "count":1, "isValuable": 0},
+					{"name":"多彩皇冠1天", "itemId":"item:4104", "count":1, "isValuable": 0}				
+				]				
+				
+			}										
+		}
+	},
+
+	"table_raffle": {
+		"desc":		"麻将桌面抽奖配置",
+
+		"left_pic":			"${http_download}/majiang/images/raffle/bqs_interface_role_cs.png",
+		"simple_tip":		"提示：集满金币后可拜雀神抽奖，红包券可在主界面【兑换】为话费。",
+		"raffles":	[
+			{
+				"tab_name":			"欢乐",
+				"tab_id":			"1",
+				"rooms":			[7001, 7002, 7005, 7101, 7102, 7105, 7401, 7402, 7405, 7501, 7502, 7505, 7601, 7602, 7605, 7701, 7702, 7705],
+				"need_chip":		5000,
+				"must_hit":			"4",
+				"items":			[
+					{
+						"item_id":	"1",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	766,
+						"reward":	["chip", 1000]
+					},
+					{
+						"item_id":	"2",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_huafei.png",
+						"weight":	666,
+						"reward":	["coupon", 100]
+					},
+					{
+						"item_id":	"3",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	665,
+						"reward":	["chip", 15000]
+					},
+					{
+						"item_id":	"4",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_huafei.png",
+						"weight":	660,
+						"reward":	["coupon", 20]
+					},
+					{
+						"item_id":	"5",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	510,
+						"reward":	["chip", 5000]
+					},
+					{
+						"item_id":	"6",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_huafei.png",
+						"weight":	360,
+						"reward":	["coupon", 40]
+					},
+					{
+						"item_id":	"7",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	350,
+						"reward":	["chip", 8000]
+					},
+					{
+						"item_id":	"8",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_huafei.png",
+						"weight":	150,
+						"reward":	["coupon", 10]
+					}
+				]
+			},
+			{
+				"tab_name":			"疯狂",
+				"tab_id":			"2",
+				"rooms":			[7003, 7103, 7403, 7503, 7603, 7703],
+				"need_chip":		50000,
+				"must_hit":			"4",
+				"items":			[
+					{
+						"item_id":	"1",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	794,
+						"reward":	["chip", 30000]
+					},
+					{
+						"item_id":	"2",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_huafei.png",
+						"weight":	694,
+						"reward":	["coupon", 1000]
+					},
+					{
+						"item_id":	"3",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	693,
+						"reward":	["chip", 150000]
+					},
+					{
+						"item_id":	"4",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_huafei.png",
+						"weight":	688,
+						"reward":	["coupon", 200]
+					},
+					{
+						"item_id":	"5",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	538,
+						"reward":	["chip", 50000]
+					},
+					{
+						"item_id":	"6",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_huafei.png",
+						"weight":	338,
+						"reward":	["coupon", 400]
+					},
+					{
+						"item_id":	"7",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	330,
+						"reward":	["chip", 80000]
+					},
+					{
+						"item_id":	"8",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_huafei.png",
+						"weight":	150,
+						"reward":	["coupon", 40]
+					}
+				]
+			},
+			{
+				"tab_name":			"至尊",
+				"tab_id":			"3",
+				"rooms":			[7004, 7104, 7404, 7504, 7604, 7704, 7901, 7902, 7903, 7904, 7905, 7906],
+				"need_chip":		500000,
+				"must_hit":			"4",
+				"items":			[
+					{
+						"item_id":	"1",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	796,
+						"reward":	["chip", 300000]
+					},
+					{
+						"item_id":	"2",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_huafei.png",
+						"weight":	696,
+						"reward":	["coupon", 10000]
+					},
+					{
+						"item_id":	"3",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	695,
+						"reward":	["chip", 1500000]
+					},
+					{
+						"item_id":	"4",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_huafei.png",
+						"weight":	690,
+						"reward":	["coupon", 2000]
+					},
+					{
+						"item_id":	"5",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	540,
+						"reward":	["chip", 500000]
+					},
+					{
+						"item_id":	"6",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_huafei.png",
+						"weight":	340,
+						"reward":	["coupon", 4000]
+					},
+					{
+						"item_id":	"7",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	330,
+						"reward":	["chip", 800000]
+					},
+					{
+						"item_id":	"8",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_huafei.png",
+						"weight":	150,
+						"reward":	["coupon", 100]
+					}
+				]
+			}
+		],
+		"tips":				[
+			{"content": "集满金币后可拜雀神抽奖，红包券可在主界面【兑换】为话费！", "duration": 3},
+			{"content": "胜利在望，马上集满了，继续加油啊！", "duration": 3},
+			{"content": "缺金币了快到主界面【领金币】，每小时免费领！钻石抽奖更实惠！", "duration": 3},
+			{"content": "点击【更多记录】，查看自己的抽奖历史记录和幸运大奖名单哦！", "duration": 3},
+			{"content": "玩途游麻将拜雀神，话费金币抽不停！", "duration": 3},
+			{"content": "雀神大人心情好，今天给你送大奖！", "duration": 3}
+		]
+	},
+
+	"lucky_raffle" :{
+		"desc":		"麻将幸运大抽奖配置",
+
+		"free_interval_time":	3600,
+		"left_pic":				"${http_download}/majiang/images/raffle/bqs_interface_role_cs.png",
+		"botton_tips":			"1、下边的tips提示；\n2、貌似支持提行显示",
+		"raffles":	[
+			{
+				"diamond":			0,
+				"tab_id":			"0",
+				"items":			[
+					{
+						"item_id":	"3",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	989,
+						"reward":	["chip", 500]
+					},
+					{
+						"item_id":	"4",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	689,
+						"reward":	["chip", 200]
+					},
+					{
+						"item_id":	"1",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	1000,
+						"reward":	["chip", 10000]
+					},
+					{
+						"item_id":	"5",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	300,
+						"reward":	["chip", 100]
+					},
+					{
+						"item_id":	"2",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	999,
+						"reward":	["chip", 2000]
+					}
+				]
+			},
+			{
+				"diamond":			5,
+				"tab_id":			"1",
+				"must_hit":			"2",
+				"items":			[
+					{
+						"item_id":	"3",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	950,
+						"reward":	["chip", 10000]
+					},
+					{
+						"item_id":	"4",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	750,
+						"reward":	["chip", 6000]
+					},
+					{
+						"item_id":	"1",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	1000,
+						"reward":	["chip", 40000]
+					},					
+					{
+						"item_id":	"5",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	250,
+						"reward":	["chip", 3000]
+					},
+					{
+						"item_id":	"2",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	990,
+						"reward":	["chip", 20000]
+					}
+				],
+				"buy_diamond":		{
+					"shelves":		["diamond"],
+					"buyTypes":		["charge"],
+					"priceDiamond":	{"count":80, "minCount":80, "maxCount":-1}
+			   }
+			},
+			{
+				"diamond":			50,
+				"tab_id":			"2",
+				"must_hit":			"2",
+				"items":			[
+					{
+						"item_id":	"3",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	950,
+						"reward":	["chip", 100000]
+					},
+					{
+						"item_id":	"4",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	750,
+						"reward":	["chip", 60000]
+					},
+					{
+						"item_id":	"1",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	1000,
+						"reward":	["chip", 400000]
+					},
+					{
+						"item_id":	"5",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	250,
+						"reward":	["chip", 30000]
+					},
+					{
+						"item_id":	"2",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	990,
+						"reward":	["chip", 200000]
+					}
+				],
+				"buy_diamond":		{
+					"shelves":		["diamond"],
+					"buyTypes":		["charge"],
+					"priceDiamond":	{"count":80, "minCount":80, "maxCount":-1}
+			   }
+			},
+			{
+				"diamond":			500,
+				"tab_id":			"3",
+				"must_hit":			"3",
+				"items":			[
+					{
+						"item_id":	"3",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	950,
+						"reward":	["chip", 1000000]
+					},
+					{
+						"item_id":	"4",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	750,
+						"reward":	["chip", 600000]
+					},
+					{
+						"item_id":	"1",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	1000,
+						"reward":	["chip", 4000000]
+					},
+					{
+						"item_id":	"5",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	250,
+						"reward":	["chip", 300000]
+					},
+					{
+						"item_id":	"2",
+						"pic":		"${http_download}/majiang/images/raffle/bqs_interface_icon_jinbi.png",
+						"weight":	990,
+						"reward":	["chip", 2000000]
+					}
+				],
+				"buy_diamond":		{
+					"shelves":		["diamond"],
+					"buyTypes":		["charge"],
+					"priceDiamond":	{"count":128, "minCount":0, "maxCount":-1}
+			   }
+			}
+		],
+		"tips":					[
+			{"content": "每日0时起，前1日中奖金币数前3的玩家可获得免费拜雀神赢话费次数!", "duration": 5},
+			{"content": "点击【更多记录】，领取自己昨日的免费拜雀神赢话费次数吧，过期不候哦!", "duration": 5},
+			{"content": "点击【更多记录】，查看自己的抽奖历史记录和昨日中奖排名哦!", "duration": 5},
+			{"content": "玩途游麻将大抽奖，超高翻奖乐不停!", "duration": 5},
+			{"content": "小莲妹妹心情好，今天让你中大奖!", "duration": 5}
+		]
+	}
+}

@@ -1,0 +1,45 @@
+{
+  "rooms" : {
+    "150001" : "conf0",
+    "150002" : "conf0"
+  },
+  "vip_special" : [{
+        "level" : 4,
+        "rate" : 0.5,
+        "desc" : "互动表情魅力值增加50%"
+      }],
+  "templates" : {
+    "conf0" : {
+      "bomb" : {
+        "cd": 4,
+        "other_charm" : 0,
+        "price" : 0,
+        "self_charm" : 0
+      },
+      "diamond" : {
+        "cd": 6,
+        "other_charm" : 0,
+        "price" : 0,
+        "self_charm" : 0
+      },
+      "egg" : {
+        "cd": 5,
+        "other_charm" : 0,
+        "price" : 0,
+        "self_charm" : 0
+      },
+      "flower" : {
+        "cd": 4,
+        "other_charm" : 0,
+        "price" : 0,
+        "self_charm" : 0
+      },
+      "brick" : {
+        "cd": 5,
+        "other_charm" : 0,
+        "price" : 0,
+        "self_charm" : 0
+      }
+    }
+  }
+}

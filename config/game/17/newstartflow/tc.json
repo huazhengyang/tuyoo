@@ -1,0 +1,873 @@
+{
+    "templates":{
+        "default":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=tuyoo"
+                        }
+                    }
+                }
+            ]
+        },
+        "default_noShare":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                }
+            ]
+        },
+		"tishen":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                }
+            ]
+        },
+		"default_ios":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=tuyoo"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_oppo":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=oppo"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_vivo":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=vivo"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_sanxing":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=sanxing"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_sanxing_identity":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+		          "npwId": "identity_activity",
+		          "enable": 1,
+		          "titlePic": "${http_download}/hall/popwnd/imgs/top_notice.png",
+		          "picUrl": "${http_download}/hall/popwnd/imgs/ddz_realname_popwnd.png",
+		          "buttonText": "确定",        
+		          "sub_action":{
+		                "action":"pop_active_wnd",
+		                "params":{
+		                    "actId":"activity_realnamereg_0203", 
+		                    "typeId":"hall.goto.activity.byid"
+		                }
+		            }
+		        },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=sanxing"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_jinligame":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=jinligame"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_huawei":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=huawei"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_qq":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=qq"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_qq_identity":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+		          "npwId": "identity_activity",
+		          "enable": 1,
+		          "titlePic": "${http_download}/hall/popwnd/imgs/top_notice.png",
+		          "picUrl": "${http_download}/hall/popwnd/imgs/ddz_realname_popwnd.png",
+		          "buttonText": "确定",        
+		          "sub_action":{
+		                "action":"pop_active_wnd",
+		                "params":{
+		                    "actId":"activity_realnamereg_0203", 
+		                    "typeId":"hall.goto.activity.byid"
+		                }
+		            }
+		        },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=qq"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_qqexplorer":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=qqexplorer"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_qqgj":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=qqgj"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_360":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=360"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_mi":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=mi"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_uc":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=uc"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_wdj":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=wdj"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_91new":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=91new"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_duokunew":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?duokunew"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_bdtiebanew":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=bdtiebanew"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_baidunew":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=baidunew"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_baidunew_identity":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+		          "npwId": "identity_activity",
+		          "enable": 1,
+		          "titlePic": "${http_download}/hall/popwnd/imgs/top_notice.png",
+		          "picUrl": "${http_download}/hall/popwnd/imgs/ddz_realname_popwnd.png",
+		          "buttonText": "确定",        
+		          "sub_action":{
+		                "action":"pop_active_wnd",
+		                "params":{
+		                    "actId":"activity_realnamereg_0203", 
+		                    "typeId":"hall.goto.activity.byid"
+		                }
+		            }
+		        },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=baidunew"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_jinli":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=jinli"
+                        }
+                    }
+                }
+            ]
+        },
+        "mc_leshiphone":{
+            "list":[
+                {
+                    "npwId":"newcheckin",
+                    "enable":1,
+                    "buttonClick":{
+
+                    }
+                },
+                {
+                    "npwId":"notice_dailyShare",
+                    "enable":1,
+                    "titlePic":"${http_download}/hall/popwnd/imgs/top_notice.png",
+                    "picUrl":"${http_download}/baohuang/icon/mrfx_1218b.png",
+                    "buttonText":"分享",
+                    "sub_action":{
+                        "action":"share_url",
+                        "params":{
+                            "id": 70300,
+                            "des": "【途游保皇】最正宗的山东保皇手游，免费创建好友桌，比赛红包赢不停！",
+				            "subType": "0",
+				            "tips":"保皇每日分享",
+						    "title":"我正在【途游保皇】赢红包，快来加入我吧！",
+				            "type": "weixin",
+				            "typeId": "hall.share.url",
+				            "url":"",
+				            "shareIcon":"",
+				            "contentType": "pic",
+				            "picurl": "http://ddz.dl.tuyoo.com/cdn37/baohuang/activity/nuanchun_fx3_bh.jpg",
+				            "qrcodeUrl":"https://3g.tuyoo.com/html/baohuang/baohuang.html?mc=leshiphone"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

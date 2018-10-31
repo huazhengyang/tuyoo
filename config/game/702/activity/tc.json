@@ -1,0 +1,32 @@
+{
+ "templates"                               : {
+  "guangdong_v3.901_AI_guangdonghuodong"  : {
+   "desc"                                    : "广东麻将活动",
+   "activities"                              : [
+    "juyou_guangdong_bugzjgg"
+   ]
+  }
+ },
+ "activities"                              : {
+  "juyou_guangdong_bugzjgg"                        : {
+   "id"                                      : "juyou_guangdong_bugzjgg",
+   "des"                                     : "建议征集活动公告",
+   "moduleId"                                : "general_btn",
+   "typeid"                                  : 1,
+   "name"                                    : "游戏建议征集",
+   "server_config"                           : {
+    "start"                                   : "2017-04-11 00:00:00",
+    "end"                                     : "2018-04-05 00:00:00"
+   },
+   "config"                                  : {
+    "button"                                  : {
+     "visible"                                 : "true",
+     "todoTask"                                : "",
+     "URL"                                     : ""
+    },
+    "bgURL"                                   : "${http_download}/hubei/ads/guangaoduan1.jpg"
+   }
+  }
+ },
+ "modules"                                 : { }
+}

@@ -1,0 +1,60 @@
+# -*- coding:utf-8 -*-
+'''
+Created on 2018年9月13日
+
+@author: wangyonghui
+'''
+from dizhu.entity.dizhuconf import DIZHU_GAMEID
+from freetime.entity.msg import MsgPack
+from hall.entity.hallusercond import UserConditionRegister
+from hall.servers.common.base_checker import BaseMsgPackChecker
+from poker.entity.configure import configure
+from poker.entity.dao import userdata, sessiondata
+from poker.protocol import router
+from poker.protocol.decorator import markCmdActionHandler, markCmdActionMethod
+import freetime.util.log as ftlog
+import poker.util.timestamp as pktimestamp
+
+
+@markCmdActionHandler
+class WxShareControlHandler(BaseMsgPackChecker):
+    @markCmdActionMethod(cmd='dizhu', action='share_control_info', clientIdVer=0, scope='game')
+    def doGetShareControlInfo(self, userId):
+        self._doGetShareControlInfo(userId)
+
+    def _doGetShareControlInfo(self, userId):
+        conf = configure.getGameJson(DIZHU_GAMEID, 'wx.share.control', {})
+        cityLimit = False
+        isNewUser = False
+        province = None
+        limitCities = conf.get('limitCities', [])
+        if limitCities:
+            province = userdata.getAttr(userId, 'province')
+            try:
+                province = province.encode('utf8') if isinstance(province, unicode) else province
+                if province in limitCities:
+                    cityLimit = True
+            except:
+                pass
+
+        condition = conf.get('newUserCondition')
+        clientId = sessiondata.getClientId(userId)
+        if condition and UserConditionRegister.decodeFromDict(condition).check(DIZHU_GAMEID, userId, clientId, pktimestamp.getCurrentTimestamp()):
+            isNewUser = True
+
+        if ftlog.is_debug():
+            ftlog.debug('WxShareControlHandler._doGetShareControlInfo userId=', userId,
+                        'province=', province,
+                        'provinceType=', type(province),
+                        'cityLimit=', cityLimit,
+                        'isNewUser=', isNewUser,
+                        'burialIdList=', conf.get('burialIdList', []))
+
+        mo = MsgPack()
+        mo.setCmd('dizhu')
+        mo.setResult('action', 'share_control_info')
+        mo.setResult('userId', userId)
+        mo.setResult('cityLimit', cityLimit)
+        mo.setResult('isNewUser', isNewUser)
+        mo.setResult('burialIdList', conf.get('burialIdList', []))
+        router.sendToUser(mo, userId)

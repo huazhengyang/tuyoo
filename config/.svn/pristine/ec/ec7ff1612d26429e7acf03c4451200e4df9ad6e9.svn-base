@@ -1,0 +1,1210 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "血战到底震撼发布"
+     ],
+     "md5"              : "0733e1d43186c2a2b840a45682ec2b1e",
+     "ver"              : "5.01",
+     "url"              : "${http_download}/hall/plugin/game/mj_sichuan_release_20171110.zip",
+     "size"             : "10.1M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "血流血战版本优化 "
+     ],
+     "md5"              : "db8aaeb82d086e699a6898a4f6d28edb",
+     "ver"              : "5.02",
+     "url"              : "${http_download}/hall/plugin/game/mj_sichuan_5.02_13.zip",
+     "size"             : "10.8M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "血流血战增加混房队列及快速赛"
+     ],
+     "md5"              : "dfbe5519c169d9e6f195ec14a7e5a239",
+     "ver"              : "5.03",
+     "url"              : "${http_download}/hall/plugin/game/mj_sichuan_5.03_18.zip",
+     "size"             : "10.4M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "血流血战增加定时赛"
+     ],
+     "md5"              : "883834231e6afb1deaed12435b580bdc",
+     "ver"              : "5.06",
+     "url"              : "${http_download}/hall/plugin/game/mj_sichuan_5.06_07.zip",
+     "size"             : "10.1M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "血战血流3D版本发布"
+     ],
+     "md5"              : "f32cbc0ce2574bd5c020594302928c1f",
+     "ver"              : "5.07",
+     "url"              : "${http_download}/hall/plugin/game/mj_sichuan_5.07.zip",
+     "size"             : "11.3M"
+    }
+   ],
+   "description"      : [
+    "四川麻将血战到底"
+   ],
+   "gameId"           : 701,
+   "gameMark"         : "sichuan"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "宽松联运模板",
+   "name"             : "sichuan_A_limitedB",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 1,
+         "playMode"         : "guobiao"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 700,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_fengkuang_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "新疯狂国标",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.06",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 1,
+         "playMode"         : "erren_guobiao"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 700,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_erren_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "国标二人场",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.06",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1,
+           "playMode"         : "guobiao"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 700,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_fengkuang_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "新疯狂国标",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.06",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1,
+           "playMode"         : "xueliu"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 701,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_xueliu_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "新血流成河",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.06",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1,
+           "playMode"         : "dazhong"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 702,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_dazhong_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "广东大众麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.06",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1,
+           "playMode"         : "erren_guobiao"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 700,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_erren_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "国标二人场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.06",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1,
+           "playMode"         : "xuezhan"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 701,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_xuezhan_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "血战到底",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.06",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1,
+           "playMode"         : "jipinghu"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 702,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_guangdong_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "广东麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.06",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 8
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "isOffline"        : 1,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_danji_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "单机场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.973",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_majiang_new_4.55.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 1,
+         "playMode"         : "dazhong"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 702,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_dazhong_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "大众麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.06",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 44,
+        "iconUrl"          : "${http_download}/hall/ads/imgs/4.57buyu0308.png",
+        "vipLevel"         : 0,
+        "gameName"         : "欢乐捕鱼",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "4.511",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 8,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_dezhou_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "德州扑克",
+        "quitAlertName"    : "",
+        "version"          : "3.983",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 1,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 38,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_facai_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "发财扑克",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.801",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 1,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 23,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_tiandii_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "天地麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.04",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 89,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_jingcai_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "竞猜象棋",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.04",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [
+        {
+         "startLevel"       : 1,
+         "stopLevel"        : 14,
+         "typeId"           : "user.cond.vipLevel"
+        }
+       ],
+       "nodes"            : [
+        {
+         "conditions"       : [
+          {
+           "startLevel"       : 1,
+           "stopLevel"        : 14,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 23,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_tiandii_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "天地麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.04",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [
+          {
+           "startLevel"       : 1,
+           "stopLevel"        : 14,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 38,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_facai_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "发财扑克",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.801",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [
+          {
+           "startLevel"       : 13,
+           "stopLevel"        : 14,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 16,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_icon_bairen_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "百人游戏",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.714",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 19,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_dog_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "跑狗",
+          "quitAlertName"    : "",
+          "version"          : "3.715",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 31,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_dafengshou_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "大丰收",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.05",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 27,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_xiaochou_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "小丑",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.709",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 88,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_shuihu_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "水浒传",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.02",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 89,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_jingcai_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "竞猜象棋",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.04",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_yulenew_4.55.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 77,
+        "iconUrl"          : "${http_download}/hall/plugin/img/jinshundezhou_4.57_0312.png",
+        "vipLevel"         : 0,
+        "gameName"         : "新金三顺",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.04",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "华为专用模板",
+   "name"             : "sichuan_v4.55_AI_huawei",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 1,
+         "playMode"         : "guobiao"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 700,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_fengkuang_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "新疯狂国标",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.06",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 1,
+         "playMode"         : "erren_guobiao"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 700,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_erren_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "国标二人场",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.06",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 1,
+         "playMode"         : "xueliu"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 701,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_xueliu_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "新血流成河",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.06",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 1,
+         "playMode"         : "xuezhan"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 701,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_xuezhan_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "新血战场",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.06",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 8,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_dezhou_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "德州扑克",
+        "quitAlertName"    : "",
+        "version"          : "3.983",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 44,
+        "iconUrl"          : "${http_download}/hall/ads/imgs/4.57buyu0308.png",
+        "vipLevel"         : 0,
+        "gameName"         : "欢乐捕鱼",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "4.511",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 1,
+         "playMode"         : "dazhong"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 702,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_dazhong_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "大众麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.06",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1,
+           "playMode"         : "guobiao"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 700,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_fengkuang_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "新疯狂国标",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.06",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1,
+           "playMode"         : "xueliu"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 701,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_xueliu_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "新血流成河",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.06",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1,
+           "playMode"         : "dazhong"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 702,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_dazhong_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "广东大众麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.06",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1,
+           "playMode"         : "erren_guobiao"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 700,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_erren_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "国标二人场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.06",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1,
+           "playMode"         : "xuezhan"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 701,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_xuezhan_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "血战到底",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.06",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1,
+           "playMode"         : "jipinghu"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 702,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_guangdong_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "广东麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.06",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 8
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "isOffline"        : 1,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_danji_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "单机场",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.973",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_majiang_new_4.55.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [
+        {
+         "list"             : [
+          {
+           "startTime"        : 1800,
+           "endTime"          : -1,
+           "typeId"           : "user.cond.play.time"
+          },
+          {
+           "startLevel"       : 2,
+           "stopLevel"        : -1,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "typeId"           : "user.cond.or"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 38,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_facai_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "发财扑克",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.801",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [
+        {
+         "list"             : [
+          {
+           "startTime"        : 1800,
+           "endTime"          : -1,
+           "typeId"           : "user.cond.play.time"
+          },
+          {
+           "startLevel"       : 2,
+           "stopLevel"        : -1,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "typeId"           : "user.cond.or"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 23,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_tiandii_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "天地麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.04",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 89,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_jingcai_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "竞猜象棋",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.04",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [
+        {
+         "list"             : [
+          {
+           "startTime"        : 900,
+           "endTime"          : -1,
+           "typeId"           : "user.cond.play.time"
+          },
+          {
+           "startLevel"       : 1,
+           "stopLevel"        : -1,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "typeId"           : "user.cond.or"
+        }
+       ],
+       "nodes"            : [
+        {
+         "conditions"       : [
+          {
+           "list"             : [
+            {
+             "startTime"        : 1800,
+             "endTime"          : -1,
+             "typeId"           : "user.cond.play.time"
+            },
+            {
+             "startLevel"       : 2,
+             "stopLevel"        : -1,
+             "typeId"           : "user.cond.vipLevel"
+            }
+           ],
+           "typeId"           : "user.cond.or"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 23,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_tiandii_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "天地麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.04",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [
+          {
+           "list"             : [
+            {
+             "startTime"        : 1800,
+             "endTime"          : -1,
+             "typeId"           : "user.cond.play.time"
+            },
+            {
+             "startLevel"       : 2,
+             "stopLevel"        : -1,
+             "typeId"           : "user.cond.vipLevel"
+            }
+           ],
+           "typeId"           : "user.cond.or"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 38,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_facai_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "发财扑克",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.801",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [
+          {
+           "startLevel"       : 13,
+           "stopLevel"        : 14,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 16,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_icon_bairen_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "百人游戏",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.714",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 19,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_dog_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "跑狗",
+          "quitAlertName"    : "",
+          "version"          : "3.715",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 31,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_dafengshou_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "大丰收",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.05",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 27,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_xiaochou_4.55.png",
+          "vipLevel"         : 1,
+          "gameName"         : "小丑",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.709",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 88,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_shuihu_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "水浒传",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.02",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : { },
+          "nameUrl"          : "",
+          "gameId"           : 89,
+          "iconUrl"          : "${http_download}/hall/plugin/img/majiang_jingcai_4.55.png",
+          "vipLevel"         : 0,
+          "gameName"         : "竞猜象棋",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "5.04",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_yulenew_4.55.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [
+        {
+         "list"             : [
+          {
+           "startTime"        : 7200,
+           "endTime"          : -1,
+           "typeId"           : "user.cond.play.time"
+          },
+          {
+           "startLevel"       : 5,
+           "stopLevel"        : -1,
+           "typeId"           : "user.cond.vipLevel"
+          }
+         ],
+         "typeId"           : "user.cond.and"
+        }
+       ],
+       "params"           : {
+        "pluginParams"     : { },
+        "nameUrl"          : "",
+        "gameId"           : 77,
+        "iconUrl"          : "${http_download}/hall/plugin/img/jinshundezhou_4.57_0312.png",
+        "vipLevel"         : 0,
+        "gameName"         : "新金三顺",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.04",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "四川麻将提审模板",
+   "name"             : "sichuan_v4.55_AI_tishen",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 1,
+         "playMode"         : "xueliu"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 701,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_xueliu_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "新血流成河",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.03",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 1,
+         "playMode"         : "xuezhan"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 701,
+        "iconUrl"          : "${http_download}/hall/plugin/img/majiang_xuezhan_4.55.png",
+        "vipLevel"         : 0,
+        "gameName"         : "新血战场",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "5.03",
+        "defaultRes"       : ""
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

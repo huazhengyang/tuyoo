@@ -1,0 +1,74 @@
+{
+  "switch": 1,
+  "totalCount": 4,
+  "clientIds": [],
+  "treasureChest": {
+    "unLockSeconds": 300,
+    "videoShortenSeconds": 50,
+    "helpShortenSeconds": 50
+  },
+  "winStreak": {
+    "open": 1,
+    "chestList": [
+      {
+        "winStreak": 9,
+        "name": "9连胜黄金宝箱",
+        "level": 3,
+        "rewardDesc": "可获得任意一个心中女神",
+        "pic": "",
+        "rewards": [
+          {
+            "item": {
+              "itemId": "user:coupon",
+              "count": 10
+            },
+            "weight": 50
+          },
+          {
+            "item": {
+              "itemId": "user:coupon",
+              "count": 50
+            },
+            "weight": 50
+          },
+          {
+            "item": {
+              "itemId": "user:coupon",
+              "count": 100
+            },
+            "weight": 50
+          },
+          {
+            "item": {
+              "itemId": "user:chip",
+              "count": 100
+            },
+            "weight": 50
+          },
+          {
+            "item": {
+              "itemId": "user:chip",
+              "count": 1000
+            },
+            "weight": 50
+          },
+          {
+            "item": {
+              "itemId": "user:chip",
+              "count": 10000
+            },
+            "weight": 50
+          },
+          {
+            "item": {
+              "itemId": "item:2003",
+              "count": 1
+            },
+            "weight": 50
+          }
+
+        ]
+      }
+    ]
+  }
+}

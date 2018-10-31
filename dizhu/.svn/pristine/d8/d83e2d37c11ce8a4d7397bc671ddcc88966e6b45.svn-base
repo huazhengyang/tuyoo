@@ -1,0 +1,75 @@
+3.820 配置表更改
+
+1、hall.info/0.json
+	room:{
+		"minQuickStartChip":5000, 	// 用于引导用户点击最合适的房间
+		"tipTime": 150, 			// 到比赛开始150秒之内进入比赛列表有提示
+		"tipPriority": 10, 			// 比赛提示优先级
+		"showInfo":{
+			"tag":"限时"				// 左上角显示标签
+		}
+	}
+
+2、public/0.json
+	matchClassify[i]:{
+		"index":0,			// 序号标签，用于区分背景颜色
+		"tupt":{ 			// 新添字段，用于显示TUPT专区
+			"frames":[ 		// tupt专区的三张广告框。必须配置三个，有两种type：img/win，格式如下例：
+				{
+					"type":"img",
+					"icon":"${http_download}/dizhu/tupt/tupt_xiaotu_fz.png",
+					"title":"武汉站",
+					"img":"${http_download}/dizhu/tupt/tupt_datu_fz.jpg"
+				},
+				{
+					"type":"win",
+					"icon":"${http_download}/dizhu/tupt/tupt_xiaotu_hz.png",
+					"title":"",
+					"list":[
+						{
+							"title":"赛事介绍",
+							"imgs":[
+								"${http_download}/dizhu/tupt/tupt_ssjs.jpg"
+							]
+						},
+						{
+							"title":"赛制介绍",
+							"imgs":[
+								"${http_download}/dizhu/tupt/tupt_bsjs_fzs.jpg",
+								"${http_download}/dizhu/tupt/tupt_bsjs_zjs.jpg"
+							]
+						},
+						{
+							"title":"比赛奖励",
+							"imgs":[
+								"${http_download}/dizhu/tupt/tupt_bsjl_fzs.jpg",
+								"${http_download}/dizhu/tupt/tupt_bsjl_zjs.jpg"
+							]
+						},
+						{
+							"title":"比赛流程",
+							"imgs":[
+								"${http_download}/dizhu/tupt/tupt_bslc.jpg"
+							]
+						}
+					]
+				},
+				{
+					"type":"img",
+					"icon":"${http_download}/dizhu/tupt/tupt_xiaotu_sw.png",
+					"title":"商务合作",
+					"img":"${http_download}/dizhu/tupt/tupt_datu_sw.jpg"
+				}
+			],
+			"button_1":{	// tupt专区的头顶上的两个按钮 1
+				"type":"img",
+				"title":"赛事资讯",
+				"img":"${http_download}/dizhu/tupt/tupt_datu_sszx.jpg"
+			},
+			"button_2":{	// tupt专区的头顶上的两个按钮 2
+				"type":"img",
+				"title":"选手风采",
+				"img":"${http_download}/dizhu/tupt/tupt_datu_hz.jpg"
+			}
+		}
+	}

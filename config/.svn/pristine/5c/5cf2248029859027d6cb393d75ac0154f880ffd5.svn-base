@@ -1,0 +1,636 @@
+{
+  "winStreakRewardSwitch": 1,
+  "matchRewardSwitch": 1,
+  "shareFakeSwitch": 1,
+  "burialIdList": [
+    {
+      "burialId": "invite",
+      "shareOrVideo": [
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t",
+                  "局域网\t局域网\t\t"
+                ]
+              },
+              {
+                "typeId": "user.cond.dayShare",
+                "start": 1,
+                "end": 2
+              },
+              {
+                "typeId": "user.cond.totalShare",
+                "start": 2,
+                "end": 3
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 5
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 30
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.alwaysTrue"
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        }
+      ]
+    },
+    {
+      "burialId": "tbbox",
+      "shareOrVideo": [
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t"
+                ]
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 5
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 30
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.alwaysTrue"
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        }
+      ]
+    },
+    {
+      "burialId": "newerRedEnvelope",
+      "shareOrVideo": [
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t"
+                ]
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 5
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 30
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.alwaysTrue"
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        }
+      ]
+    },
+    {
+      "burialId": "rewardAsync",
+      "shareOrVideo": [
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t"
+                ]
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 5
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 30
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.alwaysTrue"
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        }
+      ]
+    },
+    {
+      "burialId": "firstLose",
+      "shareOrVideo": [
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t"
+                ]
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 5
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 30
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.alwaysTrue"
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        }
+      ]
+    },
+    {
+      "burialId": "matchResult",
+      "shareOrVideo": [
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t"
+                ]
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "video"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 5
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 30
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.alwaysTrue"
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        }
+      ]
+    },
+    {
+      "burialId": "signInShareDoubleReward",
+      "shareOrVideo": [
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t"
+                ]
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "video"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 5
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 30
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "video"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.alwaysTrue"
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        }
+      ]
+    },
+    {
+      "burialId": "segmentAddStar",
+      "shareOrVideo": [
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t"
+                ]
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "video"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 5
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 30
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.alwaysTrue"
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        }
+      ]
+    },
+    {
+      "burialId": "segementRecover",
+      "shareOrVideo": [
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t"
+                ]
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "video"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 5
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 30
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.alwaysTrue"
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        }
+      ]
+    },
+    {
+      "burialId": "coinRoomBankruptcy1",
+      "shareOrVideo": [
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.limitProvince",
+                "limitProvinces": [
+                  "中国\t北京\t北京\t",
+                  "中国\t上海\t上海\t",
+                  "中国\t广东\t广州\t",
+                  "中国\t广东\t深圳\t",
+                  "中国\t四川\t成都\t",
+                  "中国\t浙江\t杭州\t",
+                  "中国\t天津\t天津\t",
+                  "中国\t湖南\t长沙\t"
+                ]
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 5
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "share"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.registerDays",
+                "startDays": -1,
+                "stopDays": 30
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        },
+        {
+          "condition": {
+            "list": [
+              {
+                "typeId": "user.cond.alwaysTrue"
+              }
+            ],
+            "typeId": "user.cond.and"
+          },
+          "type": "both"
+        }
+      ]
+    }
+  ]
+}

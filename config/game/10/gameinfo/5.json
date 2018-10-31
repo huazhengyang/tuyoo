@@ -1,0 +1,30 @@
+{
+	"cows": [
+		{"point": 0, "name": "无牛", "times": 1},
+		{"point": 1, "name": "牛丁", "times": 1},
+		{"point": 2, "name": "牛二", "times": 1},
+		{"point": 3, "name": "牛三", "times": 1},
+		{"point": 4, "name": "牛四", "times": 1},
+		{"point": 5, "name": "牛五", "times": 1},
+		{"point": 6, "name": "牛六", "times": 1},
+		{"point": 7, "name": "牛七", "times": 2},
+		{"point": 8, "name": "牛八", "times": 2},
+		{"point": 9, "name": "牛九", "times": 2},
+		{"point": 10, "name": "牛牛", "times": 3},
+		{"point": 11, "name": "银牛", "times": 3},
+		{"point": 12, "name": "金牛", "times": 3},
+		{"point": 13, "name": "炸弹", "times": 3},
+		{"point": 14, "name": "五小牛", "times": 3},
+		{"point": 15, "name": "同花牛", "times": 3},
+		{"point": 16, "name": "花炸牛", "times": 3},
+		{"point": 17, "name": "花顺牛", "times": 3}
+	],
+	"idle_max_round": 2,
+	"pinniu": {
+		"maxpoint": 12
+	},
+	"fixBetChip": {
+		"baseBet": 1000,
+		"betChip": 1000
+	}
+}

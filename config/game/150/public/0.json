@@ -1,0 +1,332 @@
+{
+    "referrer_switch": 1,
+    "optimedis": "您的上家网络不好，等他一会儿吧",
+    "http_download_html": "${http_game}/dizhu/",
+    "http_download_pic": "${http_download}/6/",
+    "http_download_default": "${http_game}/6/",
+    "buyin": {
+        "start_version": 3.502,
+        "tip": "客官，此房间最多允许带入{BUYIN_CHIP}金币哦!",
+        "tip_auto": "系统自动为您补充了金币",
+        "tip_auto_all": "您的金币已经全部带入啦!",
+        "tip_auto_all_next": "客官，您的金币已经全部带入啦!"
+    },
+    "vip_special_right": {
+        "dashifen": [
+            {
+                "level": 2,
+                "rate": 0.2,
+                "desc": "大师分获取增加20%"
+            }
+        ]
+    },
+    "roomfee_conf": {
+        "basic": 1,
+        "winner_chip": 0.05,
+        "high_multi": 32,
+        "fee_multi": 2
+    },
+    "change_nickname_level": 3,
+    "ad_notify_play_count": 2,
+    "use_momo_ranking": 0,
+    "use_tuyou_ranking": 1,
+    "enableLogChatMsg": 1,
+    "quick_start_errinfo": {
+        "1": "您正在玩另一个途游游戏,请稍后再试",
+        "2": "服务器内部错误,请稍后再试",
+        "3": "当前房间已满,请选择其他房间进行游戏",
+        "4": "您的金币不足无法进入此房间，赶紧充值吧！",
+        "5": "亲~您太富有了，该去更高级的房间战斗啦！",
+        "6": "亲~您太富有了，没有房间可以玩啦！",
+        "7": "当前房间已满,请稍后再试",
+        "8": "亲~比赛时间未到哦",
+        "9": "亲~您没有资格进入此房间哦",
+        "10": "服务器内部错误,请退出客户端,重新登录",
+        "11": "亲~您的VIP等级不够哦",
+        "12": "亲～您的大师分级别不够哦",
+        "13": "该房间本时段未开放。"
+    },
+    "enable_test_robot": 0,
+    "max_table_robot_count": 3,
+    "card_note_open": {
+        "desc": "本局记牌器使用费: \\${consumeChip}金币",
+        "desc.chip_not_enough": "本局记牌器使用费: \\${consumeChip}金币"
+    },
+    "matchRankConfig": [
+    	{
+    		"periods":[
+    			{
+	                "start": "2016-05-12 23:00:00",
+	                "end": "2016-05-13 18:00:00"
+	            },
+	            {
+	                "start": "2016-05-13 23:00:00",
+	                "end": "2016-05-14 18:00:00"
+	            },
+	            {
+	                "start": "2016-05-14 23:00:00",
+	                "end": "2016-05-15 18:00:00"
+	            },
+	            {
+	                "start": "2016-05-15 23:00:00",
+	                "end": "2016-05-16 18:00:00"
+	            },
+	            {
+	                "start": "2016-05-16 23:00:00",
+	                "end": "2016-05-17 18:00:00"
+	            },
+	            {
+	                "start": "2016-5-17 23:00:00",
+	                "end": "2016-05-18 18:00:00"
+	            },
+	            {
+	                "start": "2016-05-18 15:00:00",
+	                "end": "2016-05-19 18:00:00"
+	            },
+	            {
+	                "start": "2016-05-20 15:00:00",
+	                "end": "2016-06-20 18:00:00"
+	            }
+    		],
+    		"ranks":[
+    		]
+    	}
+    ],
+    "matchRankTimeConfig": [
+        [
+            {
+                "start": "2016-05-12 23:00:00",
+                "end": "2016-05-13 18:00:00"
+            },
+            {
+                "start": "2016-05-13 23:00:00",
+                "end": "2016-05-14 18:00:00"
+            },
+            {
+                "start": "2016-05-14 23:00:00",
+                "end": "2016-05-15 18:00:00"
+            },
+            {
+                "start": "2016-05-15 23:00:00",
+                "end": "2016-05-16 18:00:00"
+            },
+            {
+                "start": "2016-05-16 23:00:00",
+                "end": "2016-05-17 18:00:00"
+            },
+            {
+                "start": "2016-5-17 23:00:00",
+                "end": "2016-05-18 18:00:00"
+            },
+            {
+                "start": "2016-05-18 15:00:00",
+                "end": "2016-05-19 18:00:00"
+            },
+            {
+                "start": "2016-05-20 15:00:00",
+                "end": "2016-06-20 18:00:00"
+            }
+        ],
+        [
+            {
+                "start": "2016-05-12 18:00:00",
+                "end": "2016-05-12 23:00:00"
+            },
+            {
+                "start": "2016-05-13 18:00:00",
+                "end": "2016-05-13 23:00:00"
+            },
+            {
+                "start": "2016-05-14 18:00:00",
+                "end": "2016-05-14 23:00:00"
+            },
+            {
+                "start": "2016-05-15 18:00:00",
+                "end": "2016-05-15 23:00:00"
+            },
+            {
+                "start": "2016-05-16 18:00:00",
+                "end": "2016-05-16 23:00:00"
+            },
+            {
+                "start": "2016-05-17 18:00:00",
+                "end": "2016-05-17 23:00:00"
+            },
+            {
+                "start": "2016-05-18 18:00:00",
+                "end": "2016-05-18 23:00:00"
+            }
+
+        ]
+    ],
+    "five_star_win_desc": "赠人玫瑰！手有余香\n挥手好评，牌运更佳\n好评之后赠大礼！",
+    "nextmatchtime": {
+        "coinRoomShowDayInfo": 0,
+        "today": "",
+        "dayInfoCnt": 1,
+        "dayInfo0": "",
+        "dayInfo1": "明天",
+        "dayInfo2": "后天",
+        "other": "\\${month}月\\${day}日\n"
+    },
+    "bombNextDelay": 2,
+    "match_v3_77": {
+        "peopleNumber_online": "\\${people_number}",
+        "peopleNumber_signup": "\\${people_number}",
+        "datetime_topdate": "\\${month}月\\${day}日",
+        "daily_topdate": "今日"
+    },
+    "matchClassify" : [
+      {
+          "name" : "微信红包赛",
+          "desc": "微信红包赛",
+          "roomIds" : [150072],
+          "bgUrl": "red",
+          "tipMsg" : "新年途游红包赛",
+          "tipMsgFontSize" : 22,
+          "tipMsgColor": "116,41,176",
+          "tipMsgAnimation" : {
+              "displayTime" : 5,
+              "nextShowInter" : 3
+          },
+          "rewardIconUrl" : "${http_download}/dizhu/room/imgs/match_classfiy_reward_0_3.png",
+          "rewardIconMaskUrl" : "${http_download}/dizhu/room/imgs/match_classfiy_reward_mask_0_2.png",
+          "nameUrl" : "${http_download}/dizhu/room/imgs/match_classfiy_item_title_0_3.png",
+          "matchListNameUrl": "${http_download}/dizhu/room/imgs/ml_title_hf.png",
+          "bottomMsg" : "全天开赛 随到随打",
+          "bottomMsgFontSize" : 24,
+          "bottomMsgColor" : "255,161,243",
+          "bottomHeadUrl" : "",
+          "entry": {
+            "normal": "http://ddz.dl.tuyoo.com/cdn37/dizhu/room/imgs/new_match_red_normal.png",
+            "select": "http://ddz.dl.tuyoo.com/cdn37/dizhu/room/imgs/new_match_red_select.png"
+          },
+          "index": 0
+      }
+  ],
+    "warmupSystem": {
+      "cooldown":10,
+      "defaultMessageNumber": 10,
+      "mail": "您在\\${match_name}前的热身活动中，幸运的获得\\${assets_desc}",
+      "expensesAssets":{
+        "itemId":"user:chip",
+        "count":100
+      },
+       "rewardPool": [
+          {"itemId":"user:chip", "count":56, "weight":2, "desc":"56金币", "message": "与好友一起喝茶聊天斗地主，获得\\${assets_desc}"},
+          {"weight":4, "message": "私藏大王被发现，被裁判枪毙1分钟"}
+      ]
+    },
+    "matchAnimationDelay" : {
+      "startStep": 6,
+      "type0" : 3,
+      "type1" : 3,
+      "type2" : 3,
+      "type3" : 3,
+      "waitToNextMatch" : 5
+    },
+    "ddzRoomListAdornTag" : [
+      "${http_download}/dizhu/room/imgs/ddz_room_drink_tag_1.png",
+      "${http_download}/dizhu/room/imgs/ddz_room_drink_tag_2.png",
+      "${http_download}/dizhu/room/imgs/ddz_room_drink_tag_3.png",
+      "${http_download}/dizhu/room/imgs/ddz_room_drink_tag_4.png",
+      "${http_download}/dizhu/room/imgs/ddz_room_drink_tag_5.png",
+      "${http_download}/dizhu/room/imgs/ddz_room_drink_tag_6.png"
+    ],
+    "match_history": {
+      "record_number": 10,
+      "history_group_word":"分组",
+      "reward_format":"\\${history_group}第\\${history_rank}名,获得\\${history_reward}",
+      "no_reaward_format":"\\${history_group}第\\${history_rank}名"
+    },
+    "tips.playing":"您正在其它房间对局，是否回去？",
+    "decoration_info": {
+      "hasDecoration" : 1,
+      "decorationImgs" : {
+        "img_001": "${http_download}/dizhu/room/imgs/ddz_decoration_top_ooooo.png",
+        "img_002": "${http_download}/dizhu/room/imgs/ddz_decoration_bottom.png",
+        "img_003": "${http_download}/dizhu/room/imgs/ddz_decoration_left_top_ooooo.png",
+        "img_004": "${http_download}/dizhu/room/imgs/ddz_decoration_right_top_ooooo.png"
+      }
+    },
+    "VipBenefits":{
+      "VipMap": {
+        "1":{"sendCount": 1, "chip":2000, "minRoomLevel":2},
+        "2":{"sendCount": 1, "chip":3000, "minRoomLevel":3},
+        "3":{"sendCount": 1, "chip":6000, "minRoomLevel":3},
+        "4":{"sendCount": 1, "chip":20000, "minRoomLevel":4},
+        "5":{"sendCount": 1, "chip":40000, "minRoomLevel":4},
+        "6":{"sendCount": 1, "chip":100000, "minRoomLevel":4},
+        "7":{"sendCount": 1, "chip":500000, "minRoomLevel":4}
+      }
+    },
+    "erdayi.misc":{
+      "3rdapi.host":"https://sandbox-api-cc.cmsa.cn:60001",
+      "3rdapi.token":"8SINK2DB67DPLXI5K9EA3HO7OBKEYBUR",
+      "3rdapi.cpid":"11001",
+
+      "withdraw_money_toofew_errinfo": "提现失败，余额大于等于2元时才可提现",
+      "withdraw_need_realinfo_errinfo": "需认证过才能提现",
+      "withdraw_need_bankinfo_errinfo": "需绑定银行卡才能提现",
+      "withdraw_wait_errinfo": "您的提现申请已发送，请您耐心等待。",
+      "withdraw_accept_tip":"你提现申请已成功受理，请查收！",
+      "withdraw_failed_tip":"提现失败，提取奖金已返还到奖金账户",
+      "bind_bank_success_tip":"绑定银行卡成功",
+
+      "withdraw_money_lowat": 2,
+      "vcode_expiryminute": 10,
+      "vcode_content":"正在手机验证，验证码\\${vcode}，请在\\${vcode_expiryminute}分钟内输入。工作人员不会向您索取，请勿泄露验证码信息。",
+      "withdraw_wait": 86400,
+      "auth_reward": {"itemId":"user:chip", "count":2000, "desc":"2000金币"},
+      "auth_reward_desc":"认证后可获得2000金币",
+      "auth_reward_mail":"恭喜您获得认证奖励\\${reward_desc}"
+    },
+    "custom_table_errinfo":{
+        "1": "房卡不足",
+        "2": "不支持当前局数设定，请更新到最新游戏!",
+        "3": "房间号不正确，请重新输入",
+        "4": "房间已满, 请确认房间号！"
+    },
+    "weixinShare":{
+        "weixinurl":"https://m-hunan.youlegame888.com/youle/gamelist-new.html",
+        "weixintitle":"跑得快",
+        "weixindesc":"速度加入［跑得快］"
+    },
+    "customRoomNoGameID": [2, 3],
+    "customRoomConf":{
+      "maxSeatN": [2, 3],
+      "roomCardValue":{
+          "6":0,
+          "10":0,
+          "15":0,
+          "20":0
+      },
+      "roomCardFreeTime": {
+          "date": ["2018-01-01", "2018-12-01"],
+          "time": ["00:00:00", "23:59:59"]
+      },
+      "cardNum": [45, 48],
+      "firstOutCard": [0, 1, 2],
+      "alarm": [0, 1],
+      "showLeftCardNum": [0, 1],
+      "splitZhaDan": [0, 1],
+      "can4Dai3": [0, 1],
+      "extraPoint": [0, 1]
+    },
+    "customRoomDefaultConf":{
+        "maxSeatN": 3,
+        "totalPlayNum": 10,
+        "cardNum": 48,
+        "firstOutCard": 0,
+        "alarm": 0,
+        "extraPoint": 0,
+        "showLeftCardNum": 0,
+        "splitZhaDan": 1,
+        "playMode": "pdk",
+        "can4Dai3": 0
+    },
+    "customRoomConfVer": 3,
+    "cloudUploadPath": "cdn37/pdk/", 
+    "cloudUploadToken": "87c953283acaba7e75340fccad71c97b047569c2:MjEwN2QyMzI2NzAwNDNjYTMzYmQyYjFiYzJiMWRmODg5NDU0YmEyNQ==:eyJzY29wZSI6InR5aGFsbCIsImRlYWRsaW5lIjoiMTQ4NTUyMjU3MDAwMCIsIm92ZXJ3cml0ZSI6MCwiZnNpemVMaW1pdCI6MCwiaW5zdGFudCI6MCwic2VwYXJhdGUiOjB9", 
+    "cloudUploadUrl": "http://zxty.up0.v1.wcsapi.com/file/upload/"
+}

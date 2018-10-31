@@ -1,0 +1,23 @@
+{
+  "hasrobot": 0,
+  "robotLevel": [5, 6],
+  "minGold": 500000,
+  "maxGold": -1,
+  "minCoinQS": 100000000,
+  "maxCoinQS": -1,
+  "name": "宗师场",
+  "playMode": "0",
+  "gameType": 0,
+  "typeName": "normal",
+  "buy_in": 0,
+  "sfee_win_rate": 0.06,
+  "table_fee": 5000,
+  "min_bet": 20000,
+  "max_bet": 70000,
+  "base_bet": 5000,
+  "tableConf": {
+      "maxSeatN": 2,
+      "sys_attack_timer": 120,
+      "sys_attack_speed": 5
+  }
+}

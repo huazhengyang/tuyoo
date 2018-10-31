@@ -1,0 +1,758 @@
+{
+  "configDesc": "麻将房间其他相关配置,例如:比赛的标签配置,自建桌",
+  "create_table_config": {
+    "xuezhan": {
+      "playModeDesc": "血战到底",
+      "paramType": {
+        "winModel": {
+          "name": "模式",
+          "type": "mc",
+          "spLine": true
+        },
+        "wanFa": {
+          "name": "玩法",
+          "type": "sc"
+        },
+        "wanFa1": {
+          "name": "",
+          "type": "sc"
+        },
+        "fanXing": {
+          "name": "番型",
+          "type": "mc",
+          "spLine": true
+        },
+        "maxFan": {
+          "name": "封顶",
+          "type": "sc"
+        },
+        "cardCount4": {
+          "name": "局数",
+          "type": "sc"
+        },
+        "cardCount3": {
+          "name": "局数",
+          "type": "sc"
+        },
+        "cardCount2": {
+          "name": "局数",
+          "type": "sc"
+        }
+      },
+      "winModel": [
+        {
+          "id": "threeTiles",
+          "desc": "换三张",
+          "default": 1
+        },
+        {
+          "id": "callTransfer",
+          "desc": "呼叫转移",
+          "default": 1
+        }
+      ],
+      "wanFa": [
+        {
+          "id": 1,
+          "desc": "自摸不加倍",
+          "default": 1,
+          "value": 1
+        },
+        {
+          "id": 2,
+          "desc": "自摸加底",
+          "default": 0,
+          "value": 2
+        },
+        {
+          "id": 3,
+          "desc": "自摸加倍",
+          "default": 0,
+          "value": 3
+        }
+      ],
+      "wanFa1": [
+        {
+          "id": 1,
+          "desc": "点杠花当自摸",
+          "default": 1,
+          "value": 1
+        },
+        {
+          "id": 2,
+          "desc": "点杠花当点炮",
+          "default": 0,
+          "value": 2
+        }
+      ],
+      "fanXing": [
+        {
+          "id": "quanyaojiuFan",
+          "desc": "全幺九x4",
+          "default": 1
+        },
+        {
+          "id": "duanyaojiuFan",
+          "desc": "断幺九x2",
+          "default": 0
+        },
+        {
+          "id": "jiangduiFan",
+          "desc": "将对x8",
+          "default": 0
+        },
+        {
+          "id": "clearDouble",
+          "desc": "门清x2",
+          "default": 1
+        },
+        {
+          "id": "tiandihuFan",
+          "desc": "天地胡x32",
+          "default": 1
+        },
+        {
+          "id": "haidilaoyueFan",
+          "desc": "海底捞月x2",
+          "default": 1
+        }
+      ],
+      "maxFan": [
+        {
+          "id": 1,
+          "desc": "16倍封顶",
+          "default": 1,
+          "max_fan": 16
+        },
+        {
+          "id": 2,
+          "desc": "32倍封顶",
+          "default": 0,
+          "max_fan": 32
+        },
+        {
+          "id": 3,
+          "desc": "64倍封顶",
+          "default": 0,
+          "max_fan": 64
+        }
+      ],
+      "cardCount4": [
+        {
+          "id": 1,
+          "value": 4,
+          "playercount": 4,
+          "desc": "4局(限时免费)",
+          "default": 1,
+          "fangka_count": 0,
+          "type": "round",
+          "hasRobot": {
+            "id": 1,
+            "value": 4,
+            "desc": "4局(练习)",
+            "default": 0,
+            "fangka_count": 0,
+            "type": "round"
+          }
+        },
+        {
+          "id": 2,
+          "value": 8,
+          "playercount": 4,
+          "desc": "8局(限时免费)",
+          "default": 0,
+          "fangka_count": 0,
+          "type": "round",
+          "hasRobot": {
+            "id": 2,
+            "value": 8,
+            "desc": "8局(练习)",
+            "default": 0,
+            "fangka_count": 0,
+            "type": "round"
+          }
+        }
+      ],
+      "cardCount3": [
+        {
+          "id": 1,
+          "value": 4,
+          "playercount": 3,
+          "desc": "4局(限时免费)",
+          "default": 1,
+          "fangka_count": 0,
+          "type": "round",
+          "hasRobot": {
+            "id": 1,
+            "value": 4,
+            "desc": "4局(练习)",
+            "default": 0,
+            "fangka_count": 0,
+            "type": "round"
+          }
+        },
+        {
+          "id": 2,
+          "value": 8,
+          "playercount": 3,
+          "desc": "8局(限时免费)",
+          "default": 0,
+          "fangka_count": 0,
+          "type": "round",
+          "hasRobot": {
+            "id": 2,
+            "value": 8,
+            "desc": "8局(练习)",
+            "default": 0,
+            "fangka_count": 0,
+            "type": "round"
+          }
+        }
+      ],
+      "cardCount2": [
+        {
+          "id": 1,
+          "value": 4,
+          "playercount": 2,
+          "desc": "4局(限时免费)",
+          "default": 1,
+          "fangka_count": 0,
+          "type": "round",
+          "hasRobot": {
+            "id": 1,
+            "value": 4,
+            "desc": "4局(练习)",
+            "default": 0,
+            "fangka_count": 0,
+            "type": "round"
+          }
+        },
+        {
+          "id": 2,
+          "value": 8,
+          "playercount": 2,
+          "desc": "8局(限时免费)",
+          "default": 0,
+          "fangka_count": 0,
+          "type": "round",
+          "hasRobot": {
+            "id": 2,
+            "value": 8,
+            "desc": "8局(练习)",
+            "default": 0,
+            "fangka_count": 0,
+            "type": "round"
+          }
+        }
+      ],
+      "playerType": [
+        {
+          "id": 1,
+          "desc": "4人",
+          "default": 1,
+          "count": 4,
+          "cardCount": "cardCount4"
+        }
+      ],
+      "threeTiles": [
+        {
+          "id": 0,
+          "desc": "换三张(关)",
+          "default": 0,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "换三张",
+          "default": 0,
+          "value": 1
+        }
+      ],
+      "callTransfer": [
+        {
+          "id": 0,
+          "desc": "呼叫转移(关)",
+          "default": 1,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "呼叫转移",
+          "default": 1,
+          "value": 1
+        }
+      ],
+      "quanyaojiuFan": [
+        {
+          "id": 0,
+          "desc": "全幺九(关)",
+          "default": 0,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "全幺九x4",
+          "default": 1,
+          "value": 1
+        }
+      ],
+      "clearDouble": [
+        {
+          "id": 0,
+          "desc": "门清(关)",
+          "default": 0,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "门清x2",
+          "default": 1,
+          "value": 1
+        }
+      ],
+      "haidilaoyueFan": [
+        {
+          "id": 0,
+          "desc": "海底捞月(关)",
+          "default": 0,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "海底捞月x2",
+          "default": 1,
+          "value": 1
+        }
+      ],
+      "tiandihuFan": [
+        {
+          "id": 0,
+          "desc": "天地胡(关)",
+          "default": 0,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "天地胡x32",
+          "default": 1,
+          "value": 1
+        }
+      ],
+      "duanyaojiuFan": [
+        {
+          "id": 0,
+          "desc": "断幺九(关)",
+          "default": 1,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "断幺九x2",
+          "default": 0,
+          "value": 1
+        }
+      ],
+      "jiangduiFan": [
+        {
+          "id": 0,
+          "desc": "将对(关)",
+          "default": 0,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "将对x8",
+          "default": 1,
+          "value": 1
+        }
+      ]
+    },
+    "xueliu": {
+      "playModeDesc": "血流成河",
+      "paramType": {
+        "winModel": {
+          "name": "模式",
+          "type": "mc",
+          "spLine": true
+        },
+        "wanFa": {
+          "name": "玩法",
+          "type": "sc"
+        },
+        "wanFa1": {
+          "name": "",
+          "type": "sc"
+        },
+        "fanXing": {
+          "name": "番型",
+          "type": "mc",
+          "spLine": true
+        },
+        "maxFan": {
+          "name": "封顶",
+          "type": "sc"
+        },
+        "cardCount4": {
+          "name": "局数",
+          "type": "sc"
+        },
+        "cardCount3": {
+          "name": "局数",
+          "type": "sc"
+        },
+        "cardCount2": {
+          "name": "局数",
+          "type": "sc"
+        }
+      },
+      "winModel": [
+        {
+          "id": "threeTiles",
+          "desc": "换三张",
+          "default": 1
+        },
+        {
+          "id": "callTransfer",
+          "desc": "呼叫转移",
+          "default": 1
+        }
+      ],
+      "wanFa": [
+        {
+          "id": 1,
+          "desc": "自摸不加倍",
+          "default": 1,
+          "value": 1
+        },
+        {
+          "id": 2,
+          "desc": "自摸加底",
+          "default": 0,
+          "value": 2
+        },
+        {
+          "id": 3,
+          "desc": "自摸加倍",
+          "default": 0,
+          "value": 3
+        }
+      ],
+      "wanFa1": [
+        {
+          "id": 1,
+          "desc": "点杠花当自摸",
+          "default": 1,
+          "value": 1
+        },
+        {
+          "id": 2,
+          "desc": "点杠花当点炮",
+          "default": 0,
+          "value": 2
+        }
+      ],
+      "fanXing": [
+        {
+          "id": "quanyaojiuFan",
+          "desc": "全幺九x4",
+          "default": 1
+        },
+        {
+          "id": "duanyaojiuFan",
+          "desc": "断幺九x2",
+          "default": 0
+        },
+        {
+          "id": "jiangduiFan",
+          "desc": "将对x8",
+          "default": 0
+        },
+        {
+          "id": "clearDouble",
+          "desc": "门清x2",
+          "default": 1
+        },
+        {
+          "id": "tiandihuFan",
+          "desc": "天地胡x32",
+          "default": 1
+        },
+        {
+          "id": "haidilaoyueFan",
+          "desc": "海底捞月x2",
+          "default": 1
+        }
+      ],
+      "maxFan": [
+        {
+          "id": 1,
+          "desc": "16倍封顶",
+          "default": 1,
+          "max_fan": 16
+        },
+        {
+          "id": 2,
+          "desc": "32倍封顶",
+          "default": 0,
+          "max_fan": 32
+        },
+        {
+          "id": 3,
+          "desc": "64倍封顶",
+          "default": 0,
+          "max_fan": 64
+        }
+      ],
+      "cardCount4": [
+        {
+          "id": 1,
+          "value": 4,
+          "playercount": 4,
+          "desc": "4局(限时免费)",
+          "default": 1,
+          "fangka_count": 0,
+          "type": "round",
+          "hasRobot": {
+            "id": 1,
+            "value": 4,
+            "desc": "4局(练习)",
+            "default": 0,
+            "fangka_count": 0,
+            "type": "round"
+          }
+        },
+        {
+          "id": 2,
+          "value": 8,
+          "playercount": 4,
+          "desc": "8局(限时免费)",
+          "default": 0,
+          "fangka_count": 0,
+          "type": "round",
+          "hasRobot": {
+            "id": 2,
+            "value": 8,
+            "desc": "8局(练习)",
+            "default": 0,
+            "fangka_count": 0,
+            "type": "round"
+          }
+        }
+      ],
+      "cardCount3": [
+        {
+          "id": 1,
+          "value": 4,
+          "playercount": 3,
+          "desc": "4局(限时免费)",
+          "default": 1,
+          "fangka_count": 0,
+          "type": "round",
+          "hasRobot": {
+            "id": 1,
+            "value": 4,
+            "desc": "4局(练习)",
+            "default": 0,
+            "fangka_count": 0,
+            "type": "round"
+          }
+        },
+        {
+          "id": 2,
+          "value": 8,
+          "playercount": 3,
+          "desc": "8局(限时免费)",
+          "default": 0,
+          "fangka_count": 0,
+          "type": "round",
+          "hasRobot": {
+            "id": 2,
+            "value": 8,
+            "desc": "8局(练习)",
+            "default": 0,
+            "fangka_count": 0,
+            "type": "round"
+          }
+        }
+      ],
+      "cardCount2": [
+        {
+          "id": 1,
+          "value": 4,
+          "playercount": 2,
+          "desc": "4局(限时免费)",
+          "default": 1,
+          "fangka_count": 0,
+          "type": "round",
+          "hasRobot": {
+            "id": 1,
+            "value": 4,
+            "desc": "4局(练习)",
+            "default": 0,
+            "fangka_count": 0,
+            "type": "round"
+          }
+        },
+        {
+          "id": 2,
+          "value": 8,
+          "playercount": 2,
+          "desc": "8局(限时免费)",
+          "default": 0,
+          "fangka_count": 0,
+          "type": "round",
+          "hasRobot": {
+            "id": 2,
+            "value": 8,
+            "desc": "8局(练习)",
+            "default": 0,
+            "fangka_count": 0,
+            "type": "round"
+          }
+        }
+      ],
+      "playerType": [
+        {
+          "id": 1,
+          "desc": "4人",
+          "default": 1,
+          "count": 4,
+          "cardCount": "cardCount4"
+        }
+      ],
+      "threeTiles": [
+        {
+          "id": 0,
+          "desc": "换三张(关)",
+          "default": 0,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "换三张",
+          "default": 0,
+          "value": 1
+        }
+      ],
+      "callTransfer": [
+        {
+          "id": 0,
+          "desc": "呼叫转移(关)",
+          "default": 1,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "呼叫转移",
+          "default": 1,
+          "value": 1
+        }
+      ],
+      "quanyaojiuFan": [
+        {
+          "id": 0,
+          "desc": "全幺九(关)",
+          "default": 0,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "全幺九x4",
+          "default": 1,
+          "value": 1
+        }
+      ],
+      "clearDouble": [
+        {
+          "id": 0,
+          "desc": "门清(关)",
+          "default": 0,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "门清x2",
+          "default": 1,
+          "value": 1
+        }
+      ],
+      "haidilaoyueFan": [
+        {
+          "id": 0,
+          "desc": "海底捞月(关)",
+          "default": 0,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "海底捞月x2",
+          "default": 1,
+          "value": 1
+        }
+      ],
+      "tiandihuFan": [
+        {
+          "id": 0,
+          "desc": "天地胡(关)",
+          "default": 0,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "天地胡x32",
+          "default": 1,
+          "value": 1
+        }
+      ],
+      "duanyaojiuFan": [
+        {
+          "id": 0,
+          "desc": "断幺九(关)",
+          "default": 1,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "断幺九x2",
+          "default": 0,
+          "value": 1
+        }
+      ],
+      "jiangduiFan": [
+        {
+          "id": 0,
+          "desc": "将对(关)",
+          "default": 0,
+          "value": 0
+        },
+        {
+          "id": 1,
+          "desc": "将对x8",
+          "default": 1,
+          "value": 1
+        }
+      ]
+    }
+  },
+  "create_table_weixin_invite_info": {
+    "title": "三缺一，麻将找脚啦",
+    "des": "房间号：$##table_no##,$##play_mode##,$##card_count##局",
+    "url": "http://www.shediao.com/youle/gamelist.html",
+    "type": "1"
+  },
+  "create_table_weixin_inivite_desc_key": [
+    "cardCount4",
+    "cardCount3",
+    "cardCount2"
+  ],
+  "leave_countdown": 2,
+  "create_table_leave_success": "解散牌桌成功",
+  "create_table_leave_failure": "解散牌桌失败，继续游戏",
+  "create_table_init_fangka": 12,
+  "create_table_countdown": 60,
+  "playmode_forbid_return_fanka": [],
+  "playmode_desc_map": {
+    "xuezhan": "血战到底",
+    "xueliu":"血流成河"
+  }
+}

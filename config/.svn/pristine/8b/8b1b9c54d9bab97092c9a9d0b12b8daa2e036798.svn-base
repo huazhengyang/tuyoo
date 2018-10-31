@@ -1,0 +1,28 @@
+{
+  "buyinchip" : 30000,
+  "dummyUserCount" : 0,
+  "gameRule" : "classic",
+  "hasrobot" : 0,
+  "ismatch" : 0,
+  "level" : "junior",
+  "matchConf" : null,
+  "maxCoin" : 30000,
+  "maxCoinQS" : 25000,
+  "maxLevel" : -1,
+  "minCoin" : 1000,
+  "minCoinQS" : 1500,
+  "name" : "初级场",
+  "nameUrl" : "http://ddz.dl.tuyoo.com/cdn37/majiang/images/others/mahjong_room_tle_1.png",
+  "playMode" : "guobiao2ren",
+  "redEnvelopeLevel" : "beginner",
+  "tableConf" : {
+    "base_chip" : 50,
+    "big_degree_fee" : [],
+    "good_tile_chance" : 1.2,
+    "maxSeatN" : 2,
+    "play_timeout" : 10,
+    "room_coefficient" : 1,
+    "service_fee" : 50
+  },
+  "typeName" : "normal"
+}

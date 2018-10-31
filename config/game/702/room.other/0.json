@@ -1,0 +1,591 @@
+
+{
+    "configDesc": "麻将房间其他相关配置,例如:比赛的标签配置,自建桌",
+    "create_table_config": {
+        "jipinghu": {
+            "playModeDesc": "广东麻将",
+            "paramType": {
+                "wanFa": {"name":"模式","type":"mc"},
+                "jiabei": {"name":"加倍","type":"mc"},
+                "chengbao": {"name":"承包","type":"mc"},
+                "maima": {"name":"买马","type":"sc"},
+                "macount": {"name":"马数","type":"sc"},
+                "cardCount4": {"name":"圈数","type":"sc"}
+            },
+            "wanFa": [
+                {
+                    "id": "no_feng_arrow_tiles",
+                    "desc": "无字牌",
+                    "default": 0
+                },
+                {
+                    "id": "laizi",
+                    "desc": "鬼牌",
+                    "default": 0
+                },
+                {
+                    "id": "qiangganghu",
+                    "desc": "可抢杠胡",
+                    "default": 1
+                },
+                {
+                    "id": "win_by_pao",
+                    "desc": "可点炮胡",
+                    "default": 1    
+                },
+                {
+                    "id": "kehuqidui",
+                    "desc": "可胡七对",
+                    "default": 1
+                },
+                {
+                    "id": "qiduijiabei",
+                    "desc": "七对x2倍",
+                    "default": 1
+                },
+                {
+                    "id": "haohuaqiduisibei",
+                    "desc": "豪华七对x4倍",
+                    "default": 1
+                }
+            ],
+            "jiabei": [
+                {
+                    "id": "genzhuangjiabei",
+                    "desc": "跟庄x2",
+                    "default": 1
+                },
+                {
+                    "id": "gangkaijiabei",
+                    "desc": "杠开x2",
+                    "default": 0    
+                },
+                {
+                    "id": "qiangganghujiabei",
+                    "desc": "抢杠胡x2",
+                    "default": 0
+                }
+            ],
+            "chengbao": [
+                {
+                    "id": "fanggangkaichengbao",
+                    "desc": "放杠杠开承包",
+                    "default": 1
+                },
+                {
+                    "id": "qianggangchengbao",
+                    "desc": "抢杠承包",
+                    "default": 1    
+                }
+            ],
+            "maima": [
+                {
+                    "id": 1,
+                    "desc": "四人买马",
+                    "default": 1,
+                    "value": 1
+                },
+                {
+                    "id": 2,
+                    "desc": "自摸买马",
+                    "default": 0,
+                    "value": 2
+                }
+            ],
+            "macount": [
+                {
+                    "id": 1,
+                    "desc": "买1马",
+                    "default": 1,
+                    "value": 1
+                },
+                {
+                    "id": 2,
+                    "desc": "买2马",
+                    "default": 0,
+                    "value": 2
+                },
+                {
+                    "id": 3,
+                    "desc": "买3马",
+                    "default": 0,
+                    "value": 3
+                },
+                {
+                    "id": 4,
+                    "desc": "买4马",
+                    "default": 0,
+                    "value": 4
+                }
+            ],
+            "cardCount4": [
+                {
+                    "id": 1,
+                    "value": 2,
+                    "playercount": 4,
+                    "desc": "2圈(限时免费)",
+                    "default": 1,
+                    "fangka_count": 0,
+                    "type": "circle",
+                    "hasRobot": {
+                        "id": 1,
+                        "value": 2,
+                        "desc": "2圈(练习)",
+                        "default": 1,
+                        "fangka_count": 0,
+                        "type": "circle"                        
+                    }
+                },
+                {
+                    "id": 2,
+                    "value": 4,
+                    "playercount": 4,
+                    "desc": "4圈(限时免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "circle",
+                    "hasRobot": {
+                        "id": 2,
+                        "value": 4,
+                        "desc": "4圈(练习)",
+                        "default": 0,
+                        "fangka_count": 0,
+                        "type": "circle"                        
+                    }
+                }
+            ],
+            "playerType": [
+                {
+                    "id": 1,
+                    "desc": "4人",
+                    "default": 1,
+                    "count": 4,
+                    "cardCount" : "cardCount4"
+                }
+            ],
+            "no_feng_arrow_tiles": [
+                {
+                    "id": 0,
+                    "desc": "带字牌",
+                    "value": 0,
+                    "default": 1
+                },
+                {
+                    "id": 1,
+                    "desc": "无字牌",
+                    "value": 1,
+                    "default": 0
+                }
+            ],
+            "laizi": [
+                {
+                    "id": 0,
+                    "desc": "无赖子",
+                    "value": 0,
+                    "default": 1
+                },
+                {
+                    "id": 1,
+                    "desc": "有赖子",
+                    "value": 1,
+                    "default": 0
+                }
+            ],
+            "qiangganghu": [
+                {
+                    "id": 0,
+                    "desc": "无抢杠胡",
+                    "value": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "可抢杠胡",
+                    "value": 1,
+                    "default": 1
+                }
+            ],
+            "kehuqidui": [
+                {
+                    "id": 0,
+                    "desc": "无胡七对",
+                    "value": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "可胡七对",
+                    "value": 1,
+                    "default": 1
+                }
+            ],
+            "qiduijiabei": [
+                {
+                    "id": 0,
+                    "desc": "七对X1倍",
+                    "value": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "七对X2倍",
+                    "value": 1,
+                    "default": 1
+                }
+            ],
+            "genzhuangjiabei": [
+                {
+                    "id": 0,
+                    "desc": "跟庄X1倍",
+                    "value": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "跟庄X2倍",
+                    "value": 1,
+                    "default": 1
+                }
+            ],
+            "qiangganghujiabei": [
+                {
+                    "id": 0,
+                    "desc": "抢杠胡X1倍",
+                    "value": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "抢杠胡X2倍",
+                    "value": 1,
+                    "default": 1
+                }
+            ],
+            "fanggangkaichengbao": [
+                {
+                    "id": 0,
+                    "desc": "放杠杠开不承包",
+                    "value": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "放杠杠开承包",
+                    "value": 1,
+                    "default": 1
+                }
+            ],
+            "qianggangchengbao": [
+                {
+                    "id": 0,
+                    "desc": "抢杠不承包",
+                    "value": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "抢杠承包",
+                    "value": 1,
+                    "default": 1
+                }
+            ],
+            "win_by_pao": [
+                {
+                    "id": 0,
+                    "desc": "自摸胡",
+                    "value": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "可点炮胡",
+                    "value": 1,
+                    "default": 1
+                }
+            ]
+        },
+        "dazhong": {
+            "playModeDesc": "大众麻将",
+            "paramType": {
+                "chipengsetting": { "name": "规则", "type": "sc" },
+                "jiabei":         { "name": "加倍", "type": "mc" },
+                "hupai":          { "name": "胡牌", "type": "mc" },
+                "zuozhuang":      { "name": "坐庄", "type": "mc" },
+                "cardCount4":     { "name": "圈数", "type": "sc" }
+            },
+            "chipengsetting": [
+                {
+                    "id":      2,
+                    "desc":    "随便吃碰",
+                    "default": 1,
+                    "value":   2
+                },
+                {
+                    "id":      1,
+                    "desc":    "不许吃碰",
+                    "default": 0,
+                    "value":   1
+                },
+                {
+                    "id":      3,
+                    "desc":    "吃碰一手",
+                    "default": 0,
+                    "value":   3
+                }
+            ],
+            "jiabei": [
+                {
+                    "id":      "qiangganghujiabei",
+                    "desc":    "抢杠胡x4",
+                    "default": 1
+                },
+                {
+                    "id":      "gangkaijiabei",
+                    "desc":    "杠上开花x4",
+                    "default": 1    
+                },
+                {
+                    "id":      "haidilaoyueFan",
+                    "desc":    "海底捞月x4",
+                    "default": 0
+                }
+            ],
+            "hupai": [
+                {
+                    "id":      "bumenqingzimo",
+                    "desc":    "不门清需自摸",
+                    "default": 1
+                },
+                {
+                    "id":      "sanhunzimo",
+                    "desc":    "三混需自摸",
+                    "default": 1
+                },
+                {
+                    "id":      "dianpaodabao",
+                    "desc":    "点炮大包",
+                    "default": 1    
+                }
+            ],
+            "zuozhuang": [
+                {
+                    "id":      "genzhuangjiabei",
+                    "desc":    "跟庄",
+                    "default": 1
+                },
+                {
+                    "id":      "sanlianzhuangjiabei",
+                    "desc":    "连庄3把上楼",
+                    "default": 1
+                },
+                {
+                    "id":      "sanlianzhuangnext",
+                    "desc":    "连庄3把下庄",
+                    "default": 0
+                }
+            ],
+            "cardCount4": [
+                {
+                    "id":           1,
+                    "value":        2,
+                    "playercount":  4,
+                    "desc":         "2圈(限时免费)",
+                    "default":      1,
+                    "fangka_count": 0,
+                    "type":         "circle",
+                    "hasRobot": {
+                        "id":           1,
+                        "value":        2,
+                        "desc":         "2圈(练习)",
+                        "default":      1,
+                        "fangka_count": 0,
+                        "type":         "circle"                        
+                    }
+                },
+                {
+                    "id":           2,
+                    "value":        4,
+                    "playercount":  4,
+                    "desc":         "4圈(限时免费)",
+                    "default":      0,
+                    "fangka_count": 0,
+                    "type":         "circle",
+                    "hasRobot": {
+                        "id":           2,
+                        "value":        4,
+                        "desc":         "4圈(练习)",
+                        "default":      0,
+                        "fangka_count": 0,
+                        "type":         "circle"                        
+                    }
+                }
+            ],
+            "qiangganghujiabei": [
+                {
+                    "id":      0,
+                    "desc":    "抢杠胡X1",
+                    "value":   0,
+                    "default": 0
+                },
+                {
+                    "id":      1,
+                    "desc":    "抢杠胡X4",
+                    "value":   1,
+                    "default": 1
+                }
+            ],
+            "gangkaijiabei": [
+                {
+                    "id":      0,
+                    "desc":    "杠上开花x1",
+                    "value":   0,
+                    "default": 0
+                },
+                {
+                    "id":      1,
+                    "desc":    "杠上开花x4",
+                    "value":   1,
+                    "default": 1
+                }
+            ],
+
+            "haidilaoyueFan": [
+                {
+                    "id":      0,
+                    "desc":    "海底捞月x1",
+                    "value":   0,
+                    "default": 0
+                },
+                {
+                    "id":      1,
+                    "desc":    "海底捞月x4",
+                    "value":   1,
+                    "default": 1
+                }
+            ],
+            "bumenqingzimo": [
+                {
+                    "id":      0,
+                    "desc":    "允许接炮",
+                    "value":   0,
+                    "default": 0
+                },
+                {
+                    "id":      1,
+                    "desc":    "不门清需自摸",
+                    "value":   1,
+                    "default": 1
+                }
+            ],
+            "sanhunzimo": [
+                {
+                    "id":      0,
+                    "desc":    "允许接炮",
+                    "value":   0,
+                    "default": 0
+                },
+                {
+                    "id":      1,
+                    "desc":    "三混需自摸",
+                    "value":   1,
+                    "default": 1
+                }
+            ],
+            "dianpaodabao": [
+                {
+                    "id":      0,
+                    "desc":    "普通点炮",
+                    "value":   0,
+                    "default": 0
+                },
+                {
+                    "id":      1,
+                    "desc":    "点炮大包",
+                    "value":   1,
+                    "default": 1
+                }
+            ],
+            "genzhuangjiabei": [
+                {
+                    "id":      0,
+                    "desc":    "普通跟庄",
+                    "value":   0,
+                    "default": 0
+                },
+                {
+                    "id":      1,
+                    "desc":    "跟庄加倍",
+                    "value":   1,
+                    "default": 1
+                }
+            ],
+            "sanlianzhuangjiabei": [
+                {
+                    "id":      0,
+                    "desc":    "普通连庄3",
+                    "value":   0,
+                    "default": 0
+                },
+                {
+                    "id":      1,
+                    "desc":    "连庄3把上楼",
+                    "value":   1,
+                    "default": 1
+                }
+            ],
+            "sanlianzhuangnext": [
+                {
+                    "id":      0,
+                    "desc":    "普通连庄3",
+                    "value":   0,
+                    "default": 0
+                },
+                {
+                    "id":      1,
+                    "desc":    "连庄3把下庄",
+                    "value":   1,
+                    "default": 1
+                }
+            ],
+            "playerType": [
+                {
+                    "id":        1,
+                    "desc":      "4人",
+                    "default":   1,
+                    "count":     4,
+                    "cardCount": "cardCount4"
+                }
+            ]
+        }
+    },
+    "create_table_weixin_invite_info": {
+        "title": "三缺一，麻将找脚啦",
+        "des": "房间号：$##table_no##,$##play_mode##,$##card_count##局",
+        "url": "http://www.shediao.com/youle/gamelist.html",
+        "type": "1"
+    },
+    "create_table_weixin_inivite_desc_key": [
+        "cardCount4",
+        "no_feng_arrow_tiles",
+        "qiangganghu",
+        "kehuqidui",
+        "qiduijiabei",
+        "genzhuangjiabei",
+        "qiangganghujiabei",
+        "fanggangkaichengbao",
+        "qianggangchengbao",
+        "maima",
+        "macount",
+        "win_by_pao"
+    ],
+    "leave_countdown": 2,
+    "create_table_leave_success": "解散牌桌成功",
+    "create_table_leave_failure": "解散牌桌失败，继续游戏",
+    "create_table_init_fangka": 12,
+    "create_table_countdown": 60,
+    "playmode_forbid_return_fanka": [],
+    "playmode_desc_map": {
+        "jipinghu": "广东麻将",
+        "dazhong":  "大众麻将"
+    }
+}

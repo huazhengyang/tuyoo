@@ -1,0 +1,6636 @@
+{
+	"templates": {
+		"default": {
+			"0": {
+				"20180129": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180205": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180212": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180219": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180226": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180305": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180312": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180319": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180326": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180402": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180409": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180416": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180423": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180430": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180507": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180514": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180521": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				],
+				"20180528": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "3000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_championReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "2000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_secondReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "1000元京东卡",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_thirdReward4.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:2230",
+								"count": 1
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "500元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_4_5_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4369",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "200元京东卡\n+金宝箱x3",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_6_10_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 2
+							},
+							{
+								"itemId":"item:1191",
+								"count": 3
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "100元京东卡\n+金宝箱x2",
+						"img":"${http_download}/dizhu/room/imgs/wanYuan_11_20_Reward5.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:4233",
+								"count": 1
+							},
+							{
+								"itemId":"item:1191",
+								"count": 2
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					}
+				]
+			},
+			
+			"1": {
+				"20180129": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180205": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180212": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180219": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180226": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180305": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180312": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180319": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180326": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180402": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180409": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180416": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180423": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180430": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180507": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180514": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180521": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				],
+				"20180528": [
+					{
+						"begin": 1,
+						"end": 1,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x3\n+300万金币",
+						"img":"${http_download}/dizhu/room/imgs/qianYuan_championReward3.png",
+						"cash": 1,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 3000000
+							}
+						]
+					},
+					{
+						"begin": 2,
+						"end": 2,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x2\n+200万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 2000000
+							}
+						]
+					},
+					{
+						"begin": 3,
+						"end": 3,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "金宝箱x1\n+150万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_goldBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1191",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1500000
+							}
+						]
+					},
+					{
+						"begin": 4,
+						"end": 5,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x8\n+100万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 8
+							},
+							{
+								"itemId": "user:chip",
+								"count": 1000000
+							}
+						]
+					},
+					{
+						"begin": 6,
+						"end": 10,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x5\n+80万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 5
+							},
+							{
+								"itemId": "user:chip",
+								"count": 800000
+							}
+						]
+					},
+					{
+						"begin": 11,
+						"end": 20,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x4\n+60万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 4
+							},
+							{
+								"itemId": "user:chip",
+								"count": 600000
+							}
+						]
+					},
+					{
+						"begin": 21,
+						"end": 50,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x3\n+40万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 3
+							},
+							{
+								"itemId": "user:chip",
+								"count": 400000
+							}
+						]
+					},
+					{
+						"begin": 51,
+						"end": 100,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x2\n+20万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 2
+							},
+							{
+								"itemId": "user:chip",
+								"count": 200000
+							}
+						]
+					},
+					{
+						"begin": 101,
+						"end": 200,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "银宝箱x1\n+10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_silverBox2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId":"item:1192",
+								"count": 1
+							},
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					},
+					{
+						"begin": 201,
+						"end": 500,
+						"typeId": "FixedContent",
+						"rewardMail": "取得积分排行榜名次，获得\\${rewardContent}",
+						"desc": "10万金币",
+						"img":"${http_download}/dizhu/room/imgs/ranklist_chip2.png",
+						"cash": 0,
+						"items": [
+							{
+								"itemId": "user:chip",
+								"count": 100000
+							}
+						]
+					}
+				]
+				
+			}
+		}
+	}
+}

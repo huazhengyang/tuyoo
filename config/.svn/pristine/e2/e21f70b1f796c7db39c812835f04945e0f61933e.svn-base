@@ -1,0 +1,14 @@
+{
+ "templates"                          : {
+  "newfish_newfish_4.511_Android_main" : {
+   "lessBuyChip"                        : {
+    "iconPic"                            : "${http_download}/hall/popwnd/imgs/coin_icon.png",
+    "desc"                               : "[[{\"text\": \"您的金币不足\", \"style\": \"labelStyle_pop_order_normal\", \"type\": \"ttf\"}, {\"text\": \"\\${room.minChip}\", \"font\": \"hall_button_text_special_red\", \"type\": \"bmf\"}, {\"text\": \"无法购买子弹\", \"style\": \"labelStyle_pop_order_normal\", \"type\": \"ttf\"}], [{\"text\": \"推荐您购买\\${product.displayName}\", \"type\": \"ttf\"}]]",
+    "cbmpDesc"                           : "金币不足弹窗",
+    "typeId"                             : "todotask.template.lessBuyChip",
+    "note"                               : "[[{\"text\": \"需要花费\\${product.price}元。客服电话4008-098-000\", \"font\": \"labelStyle_pop_order_tip\", \"type\": \"ttf\"}]]"
+   }
+  },
+  "newfish_v4.55_AI_examination_popwnd": { }
+ }
+}

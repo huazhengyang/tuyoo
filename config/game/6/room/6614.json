@@ -1,0 +1,310 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "goodCard" : 0,
+  "hasrobot" : 0,
+  "ismatch" : 1,
+  "matchConf" : {
+    "desc" : "开赛时间：每日两场 \n报名费：200钻石或20红包券报名",
+    "fees" : [
+      {
+        "count" : 200,
+        "itemId" : "user:diamond",
+        "params" : {
+          "failure" : "您的报名条件不足，请前往钻石商城购买钻石再来抢夺大奖",
+          "payOrder" : {
+            "priceDiamond" : {
+              "count" : 200,
+              "minCount" : 200,
+              "maxCount" : -1
+            },
+            "buyTypes":["charge"]
+          }
+        }
+      },
+	  {
+        "count" : 2000,
+        "itemId" : "user:coupon",
+        "params" : {
+          "failure" : "您的红包券不足，请选择其他报名条件"
+        }
+      }
+    ],
+    "rank.rewards" : [
+      {
+        "desc" : "100元京东卡x3",
+        "ranking" : {
+          "end" : 1,
+          "start" : 1
+        },
+        "rewards" : [
+          {
+            "count" : 3,
+            "itemId" : "item:4233"
+          }
+        ]
+      },
+      {
+        "desc" : "100元京东卡1张+50元京东卡1张",
+        "ranking" : {
+          "end" : 2,
+          "start" : 2
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4233"
+          },
+		  {
+            "count" : 1,
+            "itemId" : "item:4232"
+          }
+        ]
+      },
+      {
+        "desc" : "100元京东卡1张",
+        "ranking" : {
+          "end" : 3,
+          "start" : 3
+        },
+        "rewards" : [
+          {
+            "count" : 1,
+            "itemId" : "item:4233"
+          }
+        ]
+      },
+      {
+        "desc" : "70红包券",
+        "ranking" : {
+          "end" : 6,
+          "start" :4
+        },
+        "rewards" : [
+          {
+            "count" : 7000,
+            "itemId" : "user:coupon"
+          }
+        ],
+		"todotask" : {
+          "action" : "rep_sence_shop",
+          "params" : {
+            "subStore" : "coupon"
+          }
+        }
+      },
+      {
+        "desc" : "50红包券",
+        "ranking" : {
+          "end" : 12,
+          "start" :7
+        },
+        "rewards" : [
+          {
+            "count" : 5000,
+            "itemId" : "user:coupon"
+          }
+        ],
+		"todotask" : {
+          "action" : "rep_sence_shop",
+          "params" : {
+            "subStore" : "coupon"
+          }
+        }
+      },
+      {
+        "desc" : "30红包券",
+        "ranking" : {
+          "end" : 18,
+          "start" :13
+        },
+        "rewards" : [
+          {
+            "count" : 3000,
+            "itemId" : "user:coupon"
+          }
+        ],
+		"todotask" : {
+          "action" : "rep_sence_shop",
+          "params" : {
+            "subStore" : "coupon"
+          }
+        }
+      },
+      {
+        "desc" : "20红包券",
+        "ranking" : {
+          "end" : 24,
+          "start" :19
+        },
+        "rewards" : [
+          {
+            "count" : 2000,
+            "itemId" : "user:coupon"
+          }
+        ],
+		"todotask" : {
+          "action" : "rep_sence_shop",
+          "params" : {
+            "subStore" : "coupon"
+          }
+        }
+      }
+    ],
+    "stages" : [
+      {
+        "animation.type" : 0,
+        "card.count" : 10,
+        "chip.base" : 1000,
+        "chip.grow" : 0.2,
+        "chip.grow.base" : 200,
+        "chip.grow.incr" : 100,
+        "chip.times" : 60,
+        "chip.user" : 20000,
+        "chip.user.2.rate" : 0,
+        "chip.user.3.base" : 0,
+        "lose.user.chip" : 0,
+        "name" : "海选赛",
+        "rise.user.count" : 24,
+        "rise.user.refer" : 25,
+        "seat.principles" : 1,
+        "type" : 1
+      },
+	  {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 3,
+        "chip.user.3.base" : 300,
+        "name" : "24强赛",
+        "call.type": "inturn",
+        "rise.user.count" : 12,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 1,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "12强赛",
+        "call.type": "inturn",
+        "rise.user.count" : 6,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 3,
+        "card.count" : 3,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "6强赛",
+        "call.type": "inturn",
+        "rise.user.count" : 3,
+        "seat.principles" : 2,
+        "type" : 2
+      },
+      {
+        "animation.type" : 2,
+        "card.count" : 6,
+        "chip.base" : 100,
+        "chip.grow" : 0.5,
+        "chip.times" : 3600,
+        "chip.user" : 2,
+        "chip.user.2.rate" : 0.3,
+        "name" : "决赛",
+        "call.type": "inturn",
+        "rise.user.count" : 1,
+        "seat.principles" : 2,
+        "type" : 2
+      }
+    ],
+    "start" : {
+      "fee.type" : 1,
+      "maxplaytime" : 10800,
+      "selectFirstStage" : 1,
+	  "prepare.times" : 10,
+      "signin.times" : 86400,
+      "start.speed" : 8,
+      "table.times" : 480,
+      "times" : {
+        "days" : {
+          "count" : 365,
+          "first" : "",
+          "interval" : "1d"
+        },
+        "times_in_day" : {
+          "list" : [
+			"20:30",	
+			"21:30"			
+          ]
+        }
+      },
+      "type" : 2,
+      "user.groupsize" : 1500,
+      "user.maxsize" : 1500,
+      "user.minsize" : 30,
+      "user.next.group" : 0
+    },
+    "table.seat.count" : 3,
+    "tips" : {
+      "infos" : [
+        "积分相同时，按报名先后顺序确定名次。",
+        "积分低于淘汰分数线会被淘汰，称打立出局。",
+        "打立赛制有局数上限，打满局数会等待他人。",
+        "打立阶段，轮空时会记1局游戏。",
+        "定局赛制，指打固定局数后按积分排名。",
+        "每局会按照开局时的底分结算。",
+        "比赛流局时，可能会有积分惩罚。"
+      ],
+      "interval" : 5
+    }
+  },
+  "maxCoin" : -1,
+  "maxCoinQS" : -1,
+  "maxLevel" : -1,
+  "minCoin" : -1,
+  "minCoinQS" : -1,
+  "name" : "福利赛丨京东卡群英萃",
+  "championLed" : "冠军led显示",
+  "rewardShow" : "300元京东卡",
+  "playDesc" : "",
+  "playMode" : "123",
+  "robotUserCallUpTime" : 5,
+  "robotUserMaxCount" : 0,
+  "robotUserOpTime" : [
+    2,
+    3
+  ],
+  "roomFee" : 45,
+  "roomMutil" : 50,
+  "showCard" : 0,
+  "tableConf" : {
+    "autochange" : 1,
+    "basebet" : 1,
+    "basemulti" : 1,
+    "canchat" : 0,
+    "cardNoteDiamond" : 12,
+    "coin2chip" : 1,
+    "grab" : 0,
+    "gslam" : 128,
+    "lucky" : 0,
+    "maxSeatN" : 3,
+    "optime" : 15,
+    "passtime" : 5,
+    "rangpaiMultiType" : 1,
+    "robottimes" : 2,
+    "tbbox" : 0,
+    "unticheat" : 0
+  },
+  "typeName" : "dizhu_group_match",
+  "winDesc" : ""
+}

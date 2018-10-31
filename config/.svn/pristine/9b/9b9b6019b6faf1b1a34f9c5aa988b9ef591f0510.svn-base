@@ -1,0 +1,117 @@
+{
+    "autoQueue": 0.0, 
+    "canObserver": 1, 
+    "consumeSwitch": 1, 
+    "couponActCfg": {
+        "add": 50, 
+        "memberAdd": 50, 
+        "timeSegs": [
+            [
+                [
+                    12, 
+                    0
+                ], 
+                [
+                    24, 
+                    0
+                ]
+            ]
+        ]
+    }, 
+    "glory_winner": 1, 
+    "interEmoticon": {
+        "bomb": [
+            20000, 
+            2000, 
+            -2000
+        ], 
+        "chicken": [
+            20000, 
+            2000, 
+            -2000
+        ], 
+        "doubleAce": [
+            20000, 
+            4000, 
+            4000
+        ], 
+        "eggs": [
+            20000, 
+            2000, 
+            -2000
+        ], 
+        "fishing": [
+            20000, 
+            2000, 
+            -2000
+        ], 
+        "ring": [
+            20000, 
+            4000, 
+            4000
+        ], 
+        "rose": [
+            20000, 
+            4000, 
+            4000
+        ], 
+        "thumb": [
+            20000, 
+            4000, 
+            4000
+        ]
+    }, 
+    "matchConf": {
+        "match_id": "0", 
+        "operator": 0
+    }, 
+    "maxCardReward": 0, 
+    "maxCoin": 0, 
+    "maxCoinQS": 30000000, 
+    "minCoin": 4000000, 
+    "minCoinQS": 20000000, 
+    "minTableCount": 2, 
+    "name": "银河", 
+    "openLimit": {}, 
+    "playMode": "classic", 
+    "queueVipLevel": 6.0, 
+    "rewardDealerChip": 100000, 
+    "roomID": 8126, 
+    "sortId": 12, 
+    "tableConf": {
+        "autoGrad": 0, 
+        "bb": 100000, 
+        "big_pot": 0, 
+        "box_frame_count": 6, 
+        "box_send_count": 0, 
+        "buyin": 4000000, 
+        "buyinConf": "1/2/3/4/5", 
+        "call": 1, 
+        "callChip": -1, 
+        "chat_require_vip_level": 8, 
+        "commission": 0.0, 
+        "extname": "银河{}(准入:400万)", 
+        "fee": 50000, 
+        "flip_card_game": {
+            "bet": 40000, 
+            "loading_show": 0, 
+            "show": 1
+        }, 
+        "get_insurance_info": 1.0, 
+        "inner_game": 0, 
+        "isSitBigBlind": 0.0, 
+        "lose_exp": 1, 
+        "maxSeatN": 9, 
+        "max_bigpot_fee": 0, 
+        "min_players": 2, 
+        "nameForPc": "贵宾室-银河", 
+        "optime": 10, 
+        "pay_factor": 1.0, 
+        "prebet": 50000, 
+        "sb": 50000, 
+        "start_card": 2, 
+        "tname": "银河", 
+        "win_exp": 2
+    }, 
+    "typeName": "vip"
+}

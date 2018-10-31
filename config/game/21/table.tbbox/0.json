@@ -1,0 +1,86 @@
+{
+  "double" : {
+    "doubleItems" : {
+      "user:chip" : 0
+    },
+    "act.start.date" : "2014-12-17",
+    "act.end.date" : "2014-12-25",
+    "double.start.time" : "20:00",
+    "double.end.time" : "23:00"
+  },
+  "rooms" : {
+    "21011" : {
+      "playCount" : 1,
+      "continueSeconds" : 300,
+      "reward" : {},
+      "desc" : "连续玩6局,开启宝箱送300金币"
+    },
+    "21012" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "reward" : {},
+      "desc" : "连续玩6局,开启宝箱送500金币"
+    },
+    "21013" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送1000金币",
+      "reward" : {}
+    },
+    "21014" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送2000金币",
+      "reward" : {}
+    },
+    "21021" : {
+      "playCount" : 1,
+      "continueSeconds" : 300,
+      "reward" : {},
+      "desc" : "连续玩6局,开启宝箱送300金币"
+    },
+    "21022" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "reward" : {},
+      "desc" : "连续玩6局,开启宝箱送500金币"
+    },
+    "21023" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送1000金币",
+      "reward" : {}
+    },
+    "21024" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送2000金币",
+      "reward" : {}
+    },
+    "21031" : {
+      "playCount" : 1,
+      "continueSeconds" : 300,
+      "reward" : {},
+      "desc" : "连续玩6局,开启宝箱送300金币"
+    },
+    "21032" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "reward" : {},
+      "desc" : "连续玩6局,开启宝箱送500金币"
+    },
+    "21033" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送1000金币",
+      "reward" : {}
+    },
+    "21034" : {
+      "playCount" : 6,
+      "continueSeconds" : 300,
+      "desc" : "连续玩6局,开启宝箱送2000金币",
+      "reward" : {}
+    }
+  }
+
+}

@@ -1,0 +1,22 @@
+{
+  "templates" : {
+    "inc1" : {
+      "force" : "0",
+      "des" : "1、减少耗电量\n2、加快游戏启动速度\n3、解决部分玩家不能比赛的问题\n\n更新文件大小: 162K",
+      "path" : "${http_download}/update/update_package_v3.zip",
+      "md5" : "ZZZZZZZZZZZZZZZZZZZZZZZZZZ",
+      "id" : 1,
+      "size" : "169KB",
+      "autoDownloadCondition" : 7
+    },
+    "inc2" : {
+      "force" : "0",
+      "des" : "1、减少耗电量\n2、加快游戏启动速度\n3、解决部分玩家不能比赛的问题\n\n更新文件大小: 162K",
+      "path" : "${http_download}/update/update_package_v3.zip",
+      "md5" : "ZZZZZZZZZZZZZZZZZZZZZZZZZZ",
+      "id" : 1,
+      "size" : "169KB",
+      "autoDownloadCondition" : 7
+    }
+  }
+}

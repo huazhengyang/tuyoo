@@ -1,0 +1,18 @@
+比赛结束协议修改
+
+1、
+{
+	'cmd':'m_over',
+	'result':{
+		"reward": [
+	 		{
+	 			"count": 1000,
+	 			"name": "CHIP",
+	 			"url":"http://ddz.dl.tuyoo.com/cdn37/hall/promote/imgs/share_icon_hongbao1_new.png"     // 新添加
+	 		}
+	 	],
+	 	'shareInfo':{
+	 		'erweima':"http://ddz.dl.tuyoo.com/cdn37/hall/promote/imgs/share_icon_hongbao1_new.png"		// 新添加
+	 	}
+	}
+}

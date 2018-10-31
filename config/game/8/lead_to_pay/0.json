@@ -1,0 +1,50 @@
+{
+    "disableLucky":0,
+    "five_star_rating_cfg":{
+        "enable": 0,
+        "has_version": 1.95,
+        "reward": 10000,
+        "url": {
+            "IOS_1.95_tuyoo.tuyou.0.ios.1": "itms-apps://itunes.apple.com/app/id831378089",
+            "IOS_1.96_tuyoo.tuyou.0.ios.1": "itms-apps://itunes.apple.com/app/id831378089",
+            "IOS_2.1_appstore.appstore.0.appstore.fk": "https://itunes.apple.com/cn/app/tu-you-de-zhou-pu-ke/id831378089?mt=8",
+            "IOS_3.37_tuyoo.appStore.0-hall8.appStore.fk": "https://itunes.apple.com/cn/app/id831378089?l=zh&ls=1&mt=8",
+            "IOS_3.373_tuyoo.appStore.0-hall8.appStore.fk": "https://itunes.apple.com/cn/app/id831378089?l=zh&ls=1&mt=8",
+            "IOS_3.375_tuyoo.appStore.0-hall8.appStore.fk": "https://itunes.apple.com/cn/app/id831378089?l=zh&ls=1&mt=8",
+            "IOS_3.376_tuyoo.appStore.0-hall8.appStore.fk": "https://itunes.apple.com/cn/app/id831378089?l=zh&ls=1&mt=8"
+            },
+        "decs": "请给我们5星好评吧,\n可以获得10000筹码奖励哟~"
+    },
+
+    "luck_pay": {
+        "Android": {
+            "8101": 8,
+            "8102": 8,
+            "8103": 8,
+            "8104": 8,
+
+            "8121": 30,
+            "8122": 50,
+            "8123": 100,
+            "8124": 300,
+            "8125": 300,
+            "8126": 1000,
+            "8127": 1000
+        },
+        "IOS": {
+            "8101": 6,
+            "8102": 8,
+            "8103": 8,
+            "8104": 8,
+
+            "8121": 30,
+            "8122": 30,
+            "8123": 98,
+            "8124": 198,
+            "8125": 328,
+            "8126": 648,
+            "8127": 648
+        }
+    }
+
+}

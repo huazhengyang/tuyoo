@@ -1,0 +1,75 @@
+{
+ "templates"  : [
+  {
+   "positions"  : [ ],
+   "name"       : "sichuan_tishen_701"
+  },
+  {
+   "positions"  : [
+    {
+     "promotes"   : [
+      {
+       "promotionId": 2016032401,
+       "conditions" : [ ]
+      }
+     ],
+     "pos"        : 4
+    }
+   ],
+   "name"       : "sichuan_v4.55_AI_guoshen_sichuan"
+  },
+  {
+   "positions"  : [
+    {
+     "promotes"   : [
+      {
+       "promotionId": 9999110302,
+       "conditions" : [
+        {
+         "typeId"     : "user.cond.unFirstRecharged"
+        }
+       ]
+      },
+      {
+       "promotionId": 9999110301,
+       "conditions" : [
+        {
+         "typeId"     : "user.cond.unGotFirstRechargeReward"
+        }
+       ]
+      },
+      {
+       "promotionId": 70004,
+       "conditions" : [
+        {
+         "typeId"     : "user.cond.gotFirstRechargeReward"
+        }
+       ]
+      }
+     ],
+     "pos"        : 1
+    },
+    {
+     "promotes"   : [
+      {
+       "promotionId": 70007,
+       "conditions" : [ ]
+      }
+     ],
+     "pos"        : 2
+    },
+    {
+     "promotes"   : [
+      {
+       "promotionId": 2016032401,
+       "conditions" : [ ]
+      }
+     ],
+     "pos"        : 4
+    }
+   ],
+   "name"       : "sichuan_v4.55_shangxian"
+  }
+ ],
+ "promotions" : [ ]
+}

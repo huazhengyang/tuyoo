@@ -1,0 +1,24 @@
+{
+  "hasrobot": 0,
+  "robotLevel": [0, 6],
+  "minGold": -1,
+  "maxGold": 37999,
+  "minCoinQS": 400,
+  "maxCoinQS": 38000,
+  "name": "新手场",
+  "playMode": "0",
+  "gameType": 0,
+  "typeName": "normal",
+  "buy_in": 0,
+
+  "sfee_win_rate": 0.06,
+  "table_fee": 12,
+  "min_bet": 400,
+  "max_bet": 1500,
+  "base_bet": 10,
+  "tableConf": {
+      "maxSeatN": 2,
+      "sys_attack_timer": 120,
+      "sys_attack_speed": 5
+  }
+}

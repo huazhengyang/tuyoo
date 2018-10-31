@@ -1,0 +1,55 @@
+{
+    "comments": [
+        "重置方式day start cycle repeat",
+        "例1： 'day 20160301 3 1' 表示： 20160301开始显示，3天后(20160304)重置，重置一次后消失",
+        "例2： 'day 20160301 3 0' 表示： 20160301开始显示，任务周期为3天，次数0表示无限循环下去"
+    ],
+    "t3card.new.tbox.missions":{
+        "30011.0.0":  ["manual",       "play",     10,       "done",         "tbox_reward.png",      [{"chip": 50},      "青铜级玩满{need}局",  "送50金币红包", "完成青铜级10局任务 得到金币x50"]],
+
+        "30012.0.0":  ["manual",       "play",     20,       "done",         "tbox_reward.png",      [{"chip": 200},      "白银级玩满{need}局",  "送200金币红包", "完成白银级20局任务 得到金币x200"]],
+		"30012.1.0":  ["manual",       "play",     50,      "done",         "tickets_1007.png",      [{"prop_1007": 1},     "白银每玩满{need}局",  "送1张参赛券", "玩满50局，获得参赛券x1"]],
+
+        "30013.0.0":  ["manual",       "play",     20,      "done",         "tbox_reward.png",      [{"chip": 800},      "黄金级玩满{need}局",  "送400金币红包", "完成黄金级20局任务 得到金币x400"]],
+		"30013.1.0":  ["manual",       "play",     50,      "done",         "tickets_1007.png",      [{"prop_1007": 4},     "黄金每玩满{need}局",  "送4张参赛券", "玩满50局，获得参赛券x4"]],
+
+        "30014.0.0":  ["manual",       "play",     20,      "done",         "tbox_reward.png",      [{"chip": 2000},     "白金级玩满{need}局",  "送1000金币红包", "完成白金级20局任务 得到金币x1000"]],
+		"30014.1.0":  ["manual",       "play",     50,      "done",         "tickets_1008.png",      [{"prop_1008": 1},     "白金每玩满{need}局",  "送1张英雄帖", "玩满50局，获得英雄帖x1"]],
+		
+		"30015.0.0":  ["manual",       "play",     20,      "done",         "tbox_reward.png",      [{"chip": 200},     "千王场玩满{need}局",  "送80金币红包", "完成千王场20局任务 得到金币x80"]],
+		"30015.1.0":  ["manual",       "play",     40,      "done",         "tickets_1007.png",      [{"prop_1007": 1},     "千王场每玩满{need}局",  "送1张参赛券", "玩满40局，获得参赛券x1"]],
+        
+        "30021.0.0":  ["auto",       "play",     20,      "done",         "coupon_new.png",      [{"coupon": 20},     "吉祥每玩满{need}局",  "送红包券x0.20", "玩满20局，获得红包券x0.20"],"popbox"],
+		"30021.3.0":  ["manual",       "play",     40,      "done",         "ring_lucky.png",      [{"prop_1020": 1},     "吉祥每玩满{need}局",  "送幸运戒指1枚", "玩满40局，获得幸运戒指x1"]],
+
+        "30022.0.0":  ["auto",       "play",     20,      "done",         "coupon_new.png",      [{"coupon": 100},     "银河每玩满{need}局",  "送红包券x1.00", "玩满20局，获得红包券x1.00"],"popbox"],
+		"30022.3.0":  ["manual",       "play",     40,      "done",         "ring_lucky.png",      [{"prop_1020": 5},     "银河每玩满{need}局",  "送幸运戒指5枚", "玩满40局，获得幸运戒指x5"]],
+
+        "30023.0.0":  ["auto",       "play",     20,      "done",         "coupon_new.png",      [{"coupon": 400},     "葡京每玩满{need}局",  "送红包券x4.00", "玩满20局，获得红包券x4.00"],"popbox"],
+    	"30023.3.0":  ["manual",       "play",     40,      "done",         "ring_lucky.png",      [{"prop_1020": 20},     "葡京每玩满{need}局",  "送幸运戒指20枚", "玩满40局，获得幸运戒指x20"]],
+		
+		"30024.0.0":  ["auto",       "play",     12,      "done",         "coupon_new.png",      [{"coupon": 1300},     "永利每玩满{need}局",  "送红包券x13.00", "玩满12局，获得红包券x13.00"],"popbox"],
+      	"30024.3.0":  ["manual",       "play",     36,      "done",         "ring_lucky.png",      [{"prop_1020": 25},     "永利每玩满{need}局",  "送幸运戒指25枚", "玩满36局，获得幸运戒指x25"]]
+	},
+
+    "t3card.tbox_new_active.config": {
+        "2015 09 13 00 00 ~ 2016 05 31 00 00": [
+        {
+            "tseg": "00:00~23:59", "type": "times", "missions": ["30021.0.0"],
+            "times": 1
+        },
+		{
+            "tseg": "00:00~23:59", "type": "times", "missions": ["30025.0.0"],
+            "times": 1
+        },
+        {
+            "tseg": "00:00~23:59", "type": "times", "missions": ["30022.0.0"],
+            "times": 1
+        },
+        {
+            "tseg": "00:00~23:59", "type": "times", "missions": ["30023.0.0"],
+            "times": 1
+        }
+        ]
+    }
+}

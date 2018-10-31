@@ -1,0 +1,138 @@
+{
+    "custom_menus": {
+        "tixian": {
+            "picUrl": "${http_download}/hall/menulist/hall_bottom_icon_money_point.png",
+            "defaultRes": "",
+            "todotasks": [
+                {
+                    "enter_param": {
+                        "pluginParams": {
+                            "gameType": 8,
+                            "popWnd": "twoVsOneAccount"
+                        },
+                        "type": "roomlist"
+                    },
+                    "gameId": 6,
+                    "typeId": "hall.goto.enter.game"
+                }
+            ]
+        }
+    },
+    "templates": {
+        "no_activity": [
+            "shop",
+            "bag",
+            "message",
+            "help",
+            "settings"
+        ],
+        "ddz_3_76": [
+            "shop",
+            "activity",
+            "bag",
+            "message",
+            "help",
+            "vip",
+            "settings"
+        ],
+        "ddz_3_76iOS_xianshangban": [
+            "shop",
+            "activity",
+            "bag",
+            "message",
+            "help",
+            "settings"
+        ],
+        "no_activity_no_bag": [
+            "shop",
+            "help",
+            "message",
+            "settings",
+            "bag"
+        ],
+        "ddz_3.91_AI_2v1heji": [
+            "shop",
+            "tixian",
+            "activity",
+            "bag",
+            "message",
+            "help",
+            "settings"
+        ],
+        "ddz_3.91_AI_2v1heji_UC": [
+            "shop",
+            "tixian",
+            "activity",
+            "bag",
+            "message",
+            "help"
+        ],
+        "ddz_v3.91_AI_2v1": [
+            "shop",
+            "tixian",
+            "activity",
+            "message",
+            "bag",
+            "settings"
+        ],
+        "copy_ddz_3_76_uc_tishen": [
+            "shop",
+            "bag",
+            "help",
+            "message"
+        ],
+        "no_friends": [
+            "shop",
+            "activity",
+            "bag",
+            "help",
+            "message",
+            "settings"
+        ],
+        "ddz_AI_3.77linshiban": [
+            "shop",
+            "bag",
+            "help",
+            "message",
+            "settings"
+        ],
+        "ddz_3_76_uc_tishen": [
+            "shop",
+            "bag",
+            "message",
+            "settings"
+        ],
+        "ddz_v3.82_qq_mianfei_tishen": [
+            "account",
+            "help",
+            "settings"
+        ],
+        "ddz_v4.51_AI_tongyong": [
+            "shop",
+            "activity",
+            "bag",
+            "message",
+            "help",
+            "vip",
+            "settings"
+        ],
+        "ddz_v4.51_AI_tongyong2": [
+            "shop",
+            "activity",
+            "bag",
+            "message",
+            "vip"
+        ],
+        "ddz_v4.51_AI_tishen2": [
+            "shop",
+            "bag",
+            "message"
+        ],
+        "ddz_v4.51_AI_tishen": [
+            "shop",
+            "bag",
+            "message",
+            "settings"
+        ]
+    }
+}

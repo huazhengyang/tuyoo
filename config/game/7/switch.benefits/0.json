@@ -1,0 +1,6 @@
+{
+	"des" : "是否送救济金的开关，小于workVersion的一定送。配置在giveBenefitsMjVersion中的麻将版本送（此时不判断giveBenefitsClientId）；麻将版本大于等于workVersion，没有配置在giveBenefitsMjVersion中时，如果包clientId配置在giveBenefitsClientId中送，没配置在giveBenefitsClientId则不送",
+	"workMinVersion" : 3.971,
+	"giveBenefitsMjVersion" : [3.971, 3.972],
+	"giveBenefitsClientId" : []
+}

@@ -1,0 +1,13 @@
+{
+  "room_items" : {
+    "31001": {"id":31001, "name":"普通厅", "config":0, "condition":"1万金币准入"}
+  },
+
+  "session_items" : {
+    "fruit": {"session":"水果大亨","roomName":"普通场", "match":0, "fruit":2, "rooms": ["31001"]}
+  },
+
+  "templates" : {
+    "default" : ["fruit"]
+  }
+}

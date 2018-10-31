@@ -1,0 +1,1156 @@
+{
+ "templates"                                : {
+  "phz_v4.571_AI_qudao_smrz"                 : {
+   "desc"                                     : "渠道实名认证活动模版",
+   "activities"                               : [
+    "act_phz_zhaomuguwen",
+    "phz_0jinbichangwangonggao",
+    "act_phz_fx_nuanchun",
+    "activity_phz_fx_chunjiehuodong",
+    "activity_haojiekalaile",
+    "activity-phz-tuijianyouli",
+    "activity_realnamereg_0203",
+    "activity_phz_lvsepingtaigonggao",
+    "activity_code_duihuanma_0201"
+   ]
+  },
+  "phz_v4.571_AI_chunjie_wufenxiang"         : {
+   "desc"                                     : "春节活动无分享模版",
+   "activities"                               : [
+    "act_phz_zhaomuguwen",
+    "phz_0jinbichangwangonggao",
+    "act_haojieka2",
+    "act_phz_rw_nuanchun",
+    "activity_phz_rw_chunjiehuodong",
+    "activity-phz-tuijianyouli",
+    "activity_phz_lvsepingtaigonggao",
+    "activity_code_duihuanma_0201"
+   ]
+  },
+  "phz_v3.783_AI_difang_tishen"              : {
+   "desc"                                     : "",
+   "activities"                               : [
+    "paohuzi_daili",
+    "activity_phz_zjz_jiankang"
+   ]
+  },
+  "paohuzi_3_71"                             : {
+   "desc"                                     : "",
+   "activities"                               : [
+    "paohuzi_daili",
+    "activity_gotomatch10_paohuzi",
+    "activity_gotomatch_paohuzi",
+    "activity_joinQQGroup_paohuzi",
+    "activity_code_duihuanma_0201",
+    "activity_notice_51match_2015-05-28"
+   ]
+  },
+  "phz_v3.783_AI_zijianzhuo"                 : {
+   "desc"                                     : "跑胡子自建桌活动模板",
+   "activities"                               : [
+    "paohuzi_daili",
+    "activity_phz_zjz_jubao",
+    "activity_phz_zjz_jiankang"
+   ]
+  },
+  "phz_v4.57_AI_guoshen"                     : {
+   "desc"                                     : "跑胡子过审模板",
+   "activities"                               : [
+    "activity_paohuzi_JKYXGG"
+   ]
+  },
+  "phz_v4.570_AI_gfruqunyouli"               : {
+   "desc"                                     : "4.57官方包模版",
+   "activities"                               : [
+    "activity_phz_lvsepingtaigonggao",
+    "activity_code_duihuanma_0201",
+    "phz_0jinbichangwangonggao"
+   ]
+  },
+  "phz_v4.57_AI_tishen"                      : {
+   "desc"                                     : "健康游戏公告",
+   "activities"                               : [
+    "activity_phz_lvsepingtaigonggao",
+    "activity_paohuzi_JKYXGG"
+   ]
+  },
+  "phz_v4.57_AI_laobaoshengji"               : {
+   "desc"                                     : "老包更新活动模板",
+   "activities"                               : [
+    "act_phz_zhaomuguwen",
+    "phz_0jinbichangwangonggao",
+    "act_haojieka2",
+    "act_phz_6yuanhongbao",
+    "act_phz_rw_nuanchun",
+    "activity_phz_rw_chunjiehuodong",
+    "phz_oldversion_upgrade",
+    "activity_code_duihuanma_0201",
+    "activity_phz_lvsepingtaigonggao"
+   ]
+  },
+  "phz_AI_migration"                         : {
+   "desc"                                     : "老用户迁移",
+   "activities"                               : [
+    "activity_migration_paohuzi",
+    "activity_gotomatch_paohuzi",
+    "activity_code_duihuanma_0201",
+    "activity_notice_51match_2015-05-28"
+   ]
+  },
+  "phz_v3.751_AI_ZFtishen"                   : {
+   "desc"                                     : "政府提审",
+   "activities"                               : [
+    "activity_ddz_jiankangyouxi_0201"
+   ]
+  },
+  "phz_v4.571_AI_qudaotongyong"              : {
+   "desc"                                     : "4.571渠道通用模版",
+   "activities"                               : [
+    "act_phz_zhaomuguwen",
+    "phz_0jinbichangwangonggao",
+    "act_phz_fx_nuanchun",
+    "activity_phz_fx_chunjiehuodong",
+    "activity_haojiekalaile",
+    "activity-phz-tuijianyouli",
+    "activity_code_duihuanma_0201",
+    "activity_phz_lvsepingtaigonggao"
+   ]
+  },
+  "phz_v4.57_AI_duihuanma"                   : {
+   "desc"                                     : "ＩＯＳ兑换码模版",
+   "activities"                               : [
+    "act_phz_zhaomuguwen",
+    "phz_0jinbichangwangonggao",
+    "act_haojieka2",
+    "act_phz_6yuanhongbao",
+    "act_phz_rw_nuanchun",
+    "activity_phz_rw_chunjiehuodong",
+    "activity_phz_lvsepingtaigonggao",
+    "activity_code_duihuanma_0201"
+   ]
+  }
+ },
+ "activities"                               : {
+  "activity_phz_zjz_yaoqing"                 : {
+   "id"                                       : "activity_phz_zjz_yaoqing",
+   "des"                                      : "邀请好友加入游戏，会有丰厚奖励哦。",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "邀请有礼",
+   "server_config"                            : {
+    "start"                                    : "2016-07-19 00:00:00",
+    "end"                                      : "2019-07-01 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/complete/notice_img/phzzjz_yqd.jpg"
+   },
+   "url"                                      : ""
+  },
+  "activity_joinQQGroup_paohuzi"             : {
+   "id"                                       : "activity_joinQQGroup_paohuzi",
+   "des"                                      : "亲们，大家一起来参与跑胡子的成长吧！加入跑胡子玩家QQ群：240979557，来吐槽、分享和约牌吧。",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "进QQ群吧",
+   "server_config"                            : {
+    "start"                                    : "2016-01-12 00:00:00",
+    "end"                                      : "2017-04-30 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/complete/notice_img/act_paohuzi_joinQQGroup.jpg"
+   },
+   "url"                                      : ""
+  },
+  "act_haojieka2"                            : {
+   "id"                                       : "act_haojieka2",
+   "des"                                      : "豪杰卡——无分享模版使用",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "豪杰卡",
+   "server_config"                            : {
+    "start"                                    : "2018-02-14 00:00:00",
+    "end"                                      : "2020-03-26 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/images/haojieka2_act.jpg"
+   },
+   "url"                                      : ""
+  },
+  "activity_gotomatch10_paohuzi"             : {
+   "id"                                       : "activity_gotomatch10_paohuzi",
+   "des"                                      : "免费参赛，百场十元话费赛，每日等你来战！",
+   "moduleId"                                 : "general_btn",
+   "typeid"                                   : 4,
+   "name"                                     : "百场话费赛",
+   "server_config"                            : {
+    "start"                                    : "2016-01-08 00:00:00",
+    "end"                                      : "2017-04-30 00:00:00"
+   },
+   "config"                                   : {
+    "button"                                   : {
+     "visible"                                  : "true",
+     "todoTask"                                 : {
+      "enter_param"                              : {
+       "pluginParams"                             : {
+        "gameType"                                 : "mt"
+       },
+       "type"                                     : "roomlist"
+      },
+      "gameId"                                   : 21,
+      "typeId"                                   : "hall.goto.enter.game"
+     },
+     "URL"                                      : "${http_download}/hall/act/complete/general_btn/act_paohuzi_baiyuan.png"
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/complete/general_btn/act_10_100.jpg"
+   }
+  },
+  "act_phz_rw_nuanchun"                      : {
+   "id"                                       : "act_phz_rw_nuanchun",
+   "des"                                      : "暖春福利——通过任务获得豪杰卡",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "暖春福利",
+   "server_config"                            : {
+    "start"                                    : "2018-02-28 00:00:00",
+    "end"                                      : "2021-03-25 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/rw_nuanchun2_act.jpg"
+   },
+   "url"                                      : ""
+  },
+  "activity_jdkashangxian_paohuzi"           : {
+   "id"                                       : "activity_jdkashangxian_paohuzi",
+   "des"                                      : "奖券可以在商城兑换京东卡啦！",
+   "moduleId"                                 : "general_btn",
+   "typeid"                                   : 1,
+   "name"                                     : "京东卡任你兑",
+   "server_config"                            : {
+    "start"                                    : "2016-05-27 00:00:00",
+    "end"                                      : "2016-08-31 00:00:00"
+   },
+   "config"                                   : {
+    "button"                                   : {
+     "visible"                                  : "true",
+     "todoTask"                                 : {
+      "subStore"                                 : "diamond",
+      "typeId"                                   : "hall.goto.shop"
+     },
+     "URL"                                      : ""
+    },
+    "bgURL"                                    : ""
+   }
+  },
+  "activity_gotomatch_paohuzi"               : {
+   "id"                                       : "activity_gotomatch_paohuzi",
+   "des"                                      : "免费参赛，赢百元话费，每日等你来战！（记得要升级到v3.73噢）",
+   "moduleId"                                 : "general_btn",
+   "typeid"                                   : 4,
+   "name"                                     : "赢百元话费",
+   "server_config"                            : {
+    "start"                                    : "2016-01-08 00:00:00",
+    "end"                                      : "2017-04-30 00:00:00"
+   },
+   "config"                                   : {
+    "button"                                   : {
+     "visible"                                  : "true",
+     "todoTask"                                 : {
+      "enter_param"                              : {
+       "pluginParams"                             : {
+        "gameType"                                 : "mt"
+       },
+       "type"                                     : "roomlist"
+      },
+      "gameId"                                   : 21,
+      "typeId"                                   : "hall.goto.enter.game"
+     },
+     "URL"                                      : "${http_download}/hall/act/complete/general_btn/act_paohuzi_baiyuan.png"
+    },
+    "bgURL"                                    : "${http_download}/hall/act/complete/general_btn/paohuzi_act_baiyuan.jpg"
+   }
+  },
+  "phz_0jinbichangwangonggao"                : {
+   "id"                                       : "phz_0jinbichangwangonggao",
+   "des"                                      : "0金币畅玩公告",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "全民福利",
+   "server_config"                            : {
+    "start"                                    : "2018-01-08 00:00:00",
+    "end"                                      : "2020-01-30 20:44:17"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/complete/quanminfuli.jpg"
+   },
+   "url"                                      : ""
+  },
+  "act_phz_zhaomuguwen"                      : {
+   "id"                                       : "act_phz_zhaomuguwen",
+   "des"                                      : "跑胡子顾问召集令",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "招募顾问",
+   "server_config"                            : {
+    "start"                                    : "2018-03-09 00:00:00",
+    "end"                                      : "2018-04-01 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/guwen3_act.jpg"
+   },
+   "url"                                      : ""
+  },
+  "activity_phz_lvsepingtaigonggao"          : {
+   "id"                                       : "activity_phz_lvsepingtaigonggao",
+   "des"                                      : "绿色游戏平台公告",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "重要公告",
+   "server_config"                            : {
+    "start"                                    : "2017-11-30 00:00:00",
+    "end"                                      : "2020-12-31 23:59:59"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/hall/act/complete/general_btn/ZYGG2018.jpg"
+   },
+   "url"                                      : ""
+  },
+  "tuijianyouligonggao"                      : {
+   "id"                                       : "tuijianyouligonggao",
+   "des"                                      : "推荐有礼活动公告",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "推荐有礼活动",
+   "server_config"                            : {
+    "start"                                    : "2018-01-23 00:00:00",
+    "end"                                      : "2022-01-27 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/tuijianyouliact.jpg"
+   },
+   "url"                                      : ""
+  },
+  "phz_oldversion_upgrade"                   : {
+   "id"                                       : "phz_oldversion_upgrade",
+   "des"                                      : "新版升级公告",
+   "moduleId"                                 : "general_btn",
+   "typeid"                                   : 4,
+   "name"                                     : "新版升级公告",
+   "server_config"                            : {
+    "start"                                    : "2017-11-28 00:00:00",
+    "end"                                      : "2020-12-09 00:00:00"
+   },
+   "config"                                   : {
+    "button"                                   : {
+     "visible"                                  : true,
+     "todoTask"                                 : {
+      "typeId"                                   : "hall.download",
+      "url"                                      : "http://ddz.dl.tuyoo.com/cdn37/paohuzi/apk/phz4.571.tuyoo.apk"
+     },
+     "URL"                                      : "${http_download}/paohuzi/act/btn_mianfei.png"
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/xinbanact.jpg"
+   }
+  },
+  "act_phz_fx_nuanchun"                      : {
+   "id"                                       : "act_phz_fx_nuanchun",
+   "des"                                      : "暖春福利通过分享获得豪杰卡",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "暖春福利",
+   "server_config"                            : {
+    "start"                                    : "2018-01-30 00:00:00",
+    "end"                                      : "2019-05-17 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/fx_nuanchun2_act.jpg"
+   },
+   "url"                                      : ""
+  },
+  "activity_winQiku_paohuzi"                 : {
+   "id"                                       : "activity_winQiku_paohuzi",
+   "des"                                      : "2月7日到2月22日（除夕到十五），每天比赛赢手机。（记得要升级到v3.73噢）",
+   "moduleId"                                 : "general_btn",
+   "typeid"                                   : 4,
+   "name"                                     : "免费赢手机",
+   "server_config"                            : {
+    "start"                                    : "2016-01-25 00:00:00",
+    "end"                                      : "2016-02-22 22:00:00"
+   },
+   "config"                                   : {
+    "button"                                   : {
+     "visible"                                  : true,
+     "todoTask"                                 : {
+      "enter_param"                              : {
+       "pluginParams"                             : {
+        "gameType"                                 : "mt"
+       },
+       "type"                                     : "roomlist"
+      },
+      "gameId"                                   : 21,
+      "typeId"                                   : "hall.goto.enter.game"
+     },
+     "URL"                                      : "${http_download}/paohuzi/act/complete/general_btn/btn_enter_match.png"
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/complete/general_btn/act_qiku_match.jpg"
+   }
+  },
+  "activity_phz_zjz_jiankang"                : {
+   "id"                                       : "activity_phz_zjz_jiankang",
+   "des"                                      : "合理休闲娱乐，远离非法赌博",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "健康游戏提示",
+   "server_config"                            : {
+    "start"                                    : "2016-07-19 00:00:00",
+    "end"                                      : "2019-07-01 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/complete/notice_img/phzzjz_jkd.jpg"
+   },
+   "url"                                      : ""
+  },
+  "activity_notice_paohuzi_1026"             : {
+   "id"                                       : "activity_notice_paohuzi_1026",
+   "des"                                      : "途游跑胡子横空出世啦，最好玩的纸牌游戏，更多精彩活动陆续上线，欢迎关注哦！",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "隆重上线",
+   "server_config"                            : {
+    "start"                                    : "2015-07-31 00:00:00",
+    "end"                                      : "2016-02-01 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "pop_tip",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "pop_tip",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/hall/act/complete/notice_img/paohuzi_act_10-26.png"
+   }
+  },
+  "activity_phz_zjz_jubao"                   : {
+   "id"                                       : "activity_phz_zjz_jubao",
+   "des"                                      : "让我们一起维护健康的游戏环境！",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "举报有奖",
+   "server_config"                            : {
+    "start"                                    : "2016-07-19 00:00:00",
+    "end"                                      : "2019-07-01 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/complete/notice_img/phzzjz_jbd.jpg"
+   },
+   "url"                                      : ""
+  },
+  "fahuogonggao"                             : {
+   "id"                                       : "fahuogonggao",
+   "des"                                      : "春节期间奖励兑换公告",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "春节发货公告",
+   "server_config"                            : {
+    "start"                                    : "2018-02-08 00:00:00",
+    "end"                                      : "2018-02-21 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/hall/act/complete/general_btn/FHGG.png"
+   },
+   "url"                                      : ""
+  },
+  "activity_paohuzi_ZFtishen"                : {
+   "id"                                       : "activity_paohuzi_ZFtishen",
+   "des"                                      : "政府提审健康公告",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "政府提审健康公告",
+   "server_config"                            : {
+    "start"                                    : "2016-05-11 00:00:00",
+    "end"                                      : "2016-05-18 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/hall/act/complete/notice_img/shenhegonggao.png"
+   },
+   "url"                                      : ""
+  },
+  "phz_laobaoshengji"                        : {
+   "id"                                       : "phz_laobaoshengji",
+   "des"                                      : "新版升级公告",
+   "moduleId"                                 : "general_btn",
+   "typeid"                                   : 4,
+   "name"                                     : "新版升级公告",
+   "server_config"                            : {
+    "start"                                    : "2017-11-20 00:00:00",
+    "end"                                      : "2017-11-27 00:00:00"
+   },
+   "config"                                   : {
+    "button"                                   : {
+     "visible"                                  : true,
+     "todoTask"                                 : {
+      "typeId"                                   : "hall.download",
+      "url"                                      : "http://ddz.dl.tuyoo.com/cdn37/paohuzi/apk/tuyoo1.apk"
+     },
+     "URL"                                      : "${http_download}/baohuang/icon/xinbanlaixin_btn.png"
+    },
+    "bgURL"                                    : "${http_download}/baohuang/activity/xinbanlaixi_act.jpg"
+   }
+  },
+  "activity_phz_zjz_daili"                   : {
+   "id"                                       : "activity_phz_zjz_daili",
+   "des"                                      : "诚招代理，零风险，零门槛，收益稳定，有意者联系微信：huazai778800",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "诚招代理",
+   "server_config"                            : {
+    "start"                                    : "2016-07-19 00:00:00",
+    "end"                                      : "2019-07-01 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/complete/notice_img/phzzjz_dld.jpg"
+   },
+   "url"                                      : ""
+  },
+  "activity_phz_df_daili"                    : {
+   "id"                                       : "activity_phz_df_daili",
+   "des"                                      : "诚招代理，零风险，零门槛，收益稳定，有意者联系微信：huazai778800",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "诚招代理",
+   "server_config"                            : {
+    "start"                                    : "2016-07-16 00:00:00",
+    "end"                                      : "2019-07-25 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/majiang/images/ads/mjdf_dld.jpg"
+   },
+   "url"                                      : ""
+  },
+  "activity_haojiekalaile"                   : {
+   "id"                                       : "activity_haojiekalaile",
+   "des"                                      : "豪杰卡介绍公告",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "豪杰卡",
+   "server_config"                            : {
+    "start"                                    : "2017-02-22 00:00:00",
+    "end"                                      : "2021-02-18 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/haojieka_act.jpg"
+   },
+   "url"                                      : ""
+  },
+  "act_phz_guwen3"                           : {
+   "id"                                       : "act_phz_guwen3",
+   "des"                                      : "招募顾问",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "招募顾问",
+   "server_config"                            : {
+    "start"                                    : "2018-03-26 00:00:00",
+    "end"                                      : "2022-04-29 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/guwen3_act.jpg"
+   },
+   "url"                                      : ""
+  },
+  "act_qhz_qyhb"                             : {
+   "id"                                       : "act_qhz_qyhb",
+   "des"                                      : "红包赛升级公告",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "红包赛升级",
+   "server_config"                            : {
+    "start"                                    : "2018-02-22 00:00:00",
+    "end"                                      : "2018-03-03 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/qyhb2_act.jpg"
+   },
+   "url"                                      : ""
+  },
+  "paohuzi_daili"                            : {
+   "id"                                       : "paohuzi_daili",
+   "des"                                      : "和好友玩跑胡子，建群游戏做代理。\n每月轻松多挣1万，微信：yoole0088",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "轻松挣钱",
+   "server_config"                            : {
+    "start"                                    : "2016-11-03 00:00:00",
+    "end"                                      : "2016-12-01 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/1103phzzqhd.jpg"
+   },
+   "url"                                      : ""
+  },
+  "activity-phz-tuijianyouli"                : {
+   "id"                                       : "activity-phz-tuijianyouli",
+   "des"                                      : "推荐有礼",
+   "moduleId"                                 : "general_btn",
+   "typeid"                                   : 4,
+   "name"                                     : "推荐有礼",
+   "server_config"                            : {
+    "start"                                    : "2018-01-02 00:00:00",
+    "end"                                      : "2020-01-23 00:00:00"
+   },
+   "config"                                   : {
+    "button"                                   : {
+     "visible"                                  : true,
+     "todoTask"                                 : {
+      "enter_param"                              : {
+       "pluginParams"                             : {
+        "gameType"                                 : "phz_pop_wnd",
+        "action"                                   : "bind_friend"
+       },
+       "isOffline"                                : 0,
+       "iconUrl"                                  : "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/tuijianyouli.png",
+       "type"                                     : "roomlist",
+       "supportIncUpdate"                         : 0,
+       "defaultRes"                               : ""
+      },
+      "gameId"                                   : 21,
+      "typeId"                                   : "hall.goto.enter.game"
+     },
+     "URL"                                      : "${http_download}/paohuzi/images/bangding-btn.png"
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/tuijianyouliact.jpg"
+   }
+  },
+  "activity_phz_zjz_youhui"                  : {
+   "id"                                       : "activity_phz_zjz_youhui",
+   "des"                                      : "更多优惠信息，请联系微信：huazai778800",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "优惠购卡",
+   "server_config"                            : {
+    "start"                                    : "2016-07-19 00:00:00",
+    "end"                                      : "2019-07-01 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/complete/notice_img/phzzjz_yhd.jpg"
+   },
+   "url"                                      : ""
+  },
+  "act_phz_qiandao"                          : {
+   "id"                                       : "act_phz_qiandao",
+   "des"                                      : "签到额外奖励",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "签到惊喜",
+   "server_config"                            : {
+    "start"                                    : "2018-03-20 00:00:00",
+    "end"                                      : "2018-04-13 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/qiandao2_act.jpg"
+   },
+   "url"                                      : ""
+  },
+  "activity_phz_rw_chunjiehuodong"           : {
+   "id"                                       : "activity_phz_rw_chunjiehuodong",
+   "des"                                      : "春节比赛-通过完成任务获得豪杰卡",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "春节比赛",
+   "server_config"                            : {
+    "start"                                    : "2018-02-06 00:00:00",
+    "end"                                      : "2020-03-12 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/rw3_chunjie_act.jpg"
+   },
+   "url"                                      : ""
+  },
+  "activity_phz_fx_chunjiehuodong"           : {
+   "id"                                       : "activity_phz_fx_chunjiehuodong",
+   "des"                                      : "春节比赛通过分享拿豪杰卡",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "春节比赛",
+   "server_config"                            : {
+    "start"                                    : "2018-02-05 00:00:00",
+    "end"                                      : "2020-03-19 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/fx3_chunjie_act.jpg"
+   },
+   "url"                                      : ""
+  },
+  "act_phz_6yuanhongbao"                     : {
+   "id"                                       : "act_phz_6yuanhongbao",
+   "des"                                      : "全天红包赛升级",
+   "moduleId"                                 : "general_btn",
+   "typeid"                                   : 4,
+   "name"                                     : "红包赛升级",
+   "server_config"                            : {
+    "start"                                    : "2018-03-06 00:00:00",
+    "end"                                      : "2021-03-23 00:00:00"
+   },
+   "config"                                   : {
+    "button"                                   : {
+     "visible"                                  : true,
+     "todoTask"                                 : {
+      "enter_param"                              : {
+       "pluginParams"                             : {
+        "gameType"                                 : "mt"
+       },
+       "isOffline"                                : 0,
+       "${http_download}/paohuzi/images/bisai.png": "http://ddz.dl.tuyoo.com/cdn37/paohuzi/images/tuijianyouli.png",
+       "type"                                     : "roomlist",
+       "supportIncUpdate"                         : 0,
+       "defaultRes"                               : ""
+      },
+      "gameId"                                   : 21,
+      "typeId"                                   : "hall.goto.enter.game"
+     },
+     "URL"                                      : "${http_download}/paohuzi/images/qubisai-btn.png"
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/6yuanhbs_act.jpg"
+   }
+  },
+  "activity_paohuzi_JKYXGG"                  : {
+   "id"                                       : "activity_paohuzi_JKYXGG",
+   "des"                                      : "健康游戏公告",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "健康游戏公告",
+   "server_config"                            : {
+    "start"                                    : "2017-11-02 00:00:00",
+    "end"                                      : "2021-11-12 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/hall/act/complete/notice_img/shenhegonggao.png"
+   },
+   "url"                                      : ""
+  },
+  "activity_migration_paohuzi"               : {
+   "id"                                       : "activity_migration_paohuzi",
+   "des"                                      : "尊敬的用户，近期百旺跑胡子后台将会重大升级，请记下百旺ID和金币数量，加QQ群240979557，找管理员迁移账号金币。",
+   "moduleId"                                 : "notice_img",
+   "typeid"                                   : 1,
+   "name"                                     : "旧账户迁移",
+   "server_config"                            : {
+    "start"                                    : "2016-05-26 00:00:00",
+    "end"                                      : "2016-06-01 00:00:00"
+   },
+   "config"                                   : {
+    "firstButton"                              : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "secondButton"                             : {
+     "visible"                                  : 0,
+     "action"                                   : "",
+     "params"                                   : {
+      "duration"                                 : 2,
+      "text"                                     : "确定"
+     }
+    },
+    "bgURL"                                    : "${http_download}/paohuzi/act/complete/notice_img/act_paohuzi_migration.jpg"
+   },
+   "url"                                      : ""
+  }
+ },
+ "modules"                                  : { }
+}

@@ -1,0 +1,36 @@
+{
+    "hasrobot": 0,
+    "isMatch": 0,
+    "name": "海盗港湾(100倍场)",
+    "sceneName": "string_hdgw",
+    "fishPool": 4,
+    "bullets": [
+        1000,
+        2000,
+        5000,
+        10000
+    ],
+    "multiple": 100,
+    "lack": 100,
+    "showLevel": 10,
+    "minLevel": 15,
+    "maxLevel": 999,
+    "expLimitLevel": 999,
+    "minCoin": 200000,
+    "maxCoin": -1,
+    "minGunLevel": 2110,
+    "maxGunLevel": 2130,
+    "maxSkillLevel": 16,
+    "taskLoopInterval": 1800,
+    "ncmptt1TaskInterval": 176,
+    "cmpttTaskInterval": 709,
+    "ncmptt2TaskInterval": 1076,
+    "bonusTaskInterval": 1609,
+    "minBonus": 5000,
+    "systemBonus": 0,
+    "typeName": "fish_normal",
+    "tableConf": {
+        "fishGroupsName": "string_hdgw",
+        "maxSeatN": 4
+    }
+}

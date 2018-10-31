@@ -1,0 +1,2264 @@
+{
+    "room_items": {
+        "kuaiqi_10": {
+            "id": 3001,
+            "name": "10分钟快速场",
+            "roomPicSign": 0,
+            "roomId": 3001,
+            "roomIdList": [
+                3001,
+                30010001,
+                30010002
+            ],
+            "title": "10分钟快速场",
+            "condition": "快速闪电战",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 600,
+            "stepTime": 90,
+            "addTime": 0,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "jifenbigroom": {
+            "id": 0,
+            "name": "积分场",
+            "roomPicSign": 5,
+            "roomId": 0,
+            "roomIdList": [
+                3002,
+                30020001,
+                30020002,
+                30020003,
+                30020004
+            ],
+            "title": "积分场",
+            "condition": "积分自动匹配",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 900,
+            "stepTime": 90,
+            "addTime": 0,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": 1500,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "leitaibigroom": {
+            "id": 0,
+            "name": "擂台场",
+            "roomPicSign": 6,
+            "roomId": 0,
+            "roomIdList": [
+                3002,
+                30020001,
+                30020002,
+                30020003,
+                30020004
+            ],
+            "title": "擂台场",
+            "condition": "全新闯关模式",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_leitai1.html",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 900,
+            "stepTime": 90,
+            "addTime": 0,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": 1500,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "chuji": {
+            "id": 3002,
+            "name": "初级场",
+            "roomPicSign": 2,
+            "roomId": 3002,
+            "roomIdList": [
+                3002,
+                30020001,
+                30020002,
+                30020003,
+                30020004
+            ],
+            "title": "初级场",
+            "condition": "积分1500以下",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 900,
+            "stepTime": 90,
+            "isHide": 1,
+            "addTime": 3,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": 1500,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "zhongji": {
+            "id": 3003,
+            "name": "中级场",
+            "roomPicSign": 3,
+            "roomId": 3003,
+            "roomIdList": [
+                3003,
+                30030001,
+                30030002
+            ],
+            "title": "中级场",
+            "condition": "积分1800以下",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 900,
+            "stepTime": 90,
+            "addTime": 3,
+            "isHide": 1,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 1500,
+                "reqMaxExp": 1800,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "gaoji": {
+            "id": 3004,
+            "name": "高级场",
+            "roomPicSign": 4,
+            "roomId": 3004,
+            "roomIdList": [
+                3004
+            ],
+            "title": "高级场",
+            "condition": "积分1800以上",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 1200,
+            "stepTime": 90,
+            "isHide": 1,
+            "addTime": 3,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 1800,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "LeitaiNo1": {
+            "id": 3031,
+            "name": "第一关",
+            "roomPicSign": 4,
+            "roomId": 3031,
+            "roomIdList": [
+                3031,
+                30310001,
+                30310002
+            ],
+            "title": "第一关",
+            "condition": "",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_leitai1.html",
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "isHide": 1,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "LeitaiNo2": {
+            "id": 3032,
+            "name": "第二关",
+            "roomPicSign": 4,
+            "roomId": 3032,
+            "roomIdList": [
+                3032,
+                30320001,
+                30320002
+            ],
+            "title": "第二关",
+            "condition": "",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_leitai1.html",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "isHide": 1,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "LeitaiNo3": {
+            "id": 3033,
+            "name": "第三关",
+            "roomPicSign": 4,
+            "roomId": 3033,
+            "roomIdList": [
+                3033,
+                30330001,
+                30330002
+            ],
+            "title": "第三关",
+            "condition": "",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_leitai1.html",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "isHide": 1,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "LeitaiNo4": {
+            "id": 3034,
+            "name": "第四关",
+            "roomPicSign": 4,
+            "roomId": 3034,
+            "roomIdList": [
+                3034,
+                30340001
+            ],
+            "title": "第四关",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_leitai1.html",
+            "condition": "",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "isHide": 1,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "LeitaiNo5": {
+            "id": 3035,
+            "name": "第五关",
+            "roomPicSign": 4,
+            "roomId": 3035,
+            "roomIdList": [
+                3035,
+                30350001
+            ],
+            "title": "第五关",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_leitai1.html",
+            "condition": "",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "isHide": 1,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "LeitaiNo6": {
+            "id": 3036,
+            "name": "第六关",
+            "roomPicSign": 4,
+            "roomId": 3036,
+            "roomIdList": [
+                3036,
+                30360001
+            ],
+            "title": "第六关",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_leitai1.html",
+            "condition": "",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "isHide": 1,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "LeitaiNo7": {
+            "id": 3037,
+            "name": "第七关",
+            "roomPicSign": 4,
+            "roomId": 3037,
+            "roomIdList": [
+                3037,
+                30370001
+            ],
+            "title": "第七关",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_leitai1.html",
+            "condition": "",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "isHide": 1,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "LeitaiNo8": {
+            "id": 3038,
+            "name": "第八关",
+            "roomPicSign": 4,
+            "roomId": 3038,
+            "roomIdList": [
+                3038
+            ],
+            "title": "第八关",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_leitai1.html",
+            "condition": "",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "isHide": 1,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "LeitaiNo9": {
+            "id": 3039,
+            "name": "第九关",
+            "roomPicSign": 4,
+            "roomId": 3039,
+            "roomIdList": [
+                3039
+            ],
+            "title": "第九关",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_leitai1.html",
+            "condition": "",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "isHide": 1,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "LeitaiNo10": {
+            "id": 3040,
+            "name": "第十关",
+            "roomPicSign": 4,
+            "roomId": 3040,
+            "roomIdList": [
+                3040
+            ],
+            "title": "",
+            "condition": "",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_leitai1.html",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 3,
+            "unEatRoundNum": 50,
+            "isHide": 1,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "relaxation_match": {
+            "id": 3005,
+            "name": "休闲赛",
+            "dateDes": "每日10:00~23:00",
+            "rewardsDes": "红包券",
+            "ruleDes": "打满7局",
+            "condition": "免费参赛",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_match_relaxation4.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxed_match_title.png",
+            "noteDes": "超过比赛时间，会强制结束",
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3005
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "relaxation_match_huawei": {
+            "id": 3041,
+            "name": "华为棋牌大师赛",
+            "dateDes": "每日10:00~23:00",
+            "rewardsDes": "实物奖励/金币",
+            "ruleDes": "打满10局",
+            "condition": "免费参赛",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/huawei_relaxtion_match_help_common.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/huawei_relaxtion_match_title_20170420.png",
+            "chess_relaxation_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/huawei_relaxtion_match_ads_20170420.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "noteDes": "超过比赛时间，会强制结束",
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3041
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "relaxation_match_special": {
+            "id": 3042,
+            "name": "360棋牌大赛",
+            "dateDes": "每日10:00~23:00",
+            "rewardsDes": "话费卡/金币",
+            "ruleDes": "打满10局",
+            "condition": "免费参赛",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/360_relaxtion_match_help_20180105.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/360_match_title.png",
+            "chess_relaxation_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/360_match_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "noteDes": "超过比赛时间，会强制结束",
+            "time": 600,
+            "stepTime": 90,
+            "addTime": 5,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3042
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "relaxation_match_jieqi": {
+            "id": 3205,
+            "name": "揭棋休闲赛",
+            "dateDes": "每日10:00~23:00",
+            "rewardsDes": "红包券",
+            "ruleDes": "打满10局",
+            "condition": "免费参赛",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_match_relaxation4.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxed_match_title.png",
+            "noteDes": "超过比赛时间，会强制结束",
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3205
+            ],
+            "chess_relaxation_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxation_match_jieqi_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "relaxation_match_double": {
+            "id": 3051,
+            "name": "休闲赛",
+            "dateDes": "每日10:00~23:00",
+            "rewardsDes": "红包券",
+            "ruleDes": "打满7局",
+            "condition": "免费参赛",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_match_relaxation4.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxed_match_title.png",
+            "noteDes": "超过比赛时间，会强制结束",
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3051
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "relaxation_match_jieqi_double": {
+            "id": 3052,
+            "name": "揭棋休闲赛",
+            "dateDes": "每日10:00~23:00",
+            "rewardsDes": "红包券",
+            "ruleDes": "打满10局",
+            "condition": "免费参赛",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_match_relaxation4.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxed_match_title.png",
+            "noteDes": "每轮淘汰",
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3052
+            ],
+            "chess_relaxation_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxation_match_jieqi_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "gold_chess_match": {
+            "id": 3054,
+            "name": "金棋子大赛",
+            "dateDes": "3月2日/3日21:00",
+            "rewardsDes": "金银满堂、红包券",
+            "ruleDes": "淘汰制",
+            "condition": "1000金币",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_goldchess_match_20180227.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/gold_chess_match_title.png",
+            "noteDes": "每轮淘汰",
+            "time": 360,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3054
+            ],
+            "chess_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/relaxation_match_goldchess_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "每日红包赛"
+                }
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "everyday_match_jieqi_double": {
+            "id": 3053,
+            "name": "每日红包赛",
+            "dateDes": "每日20:30开赛",
+            "rewardsDes": "红包券",
+            "ruleDes": "淘汰制",
+            "condition": "1000金币",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_group_match_2.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/everyday_match3.png",
+            "noteDes": "每轮淘汰",
+            "time": 360,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3053
+            ],
+            "chess_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/chess_everyday_match_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "每日红包赛"
+                }
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "king_match_5": {
+            "id": 3055,
+            "name": "棋王争霸赛入围赛",
+            "dateDes": "9月28日20:00",
+            "rewardsDes": "棋王争霸赛现场赛门票",
+            "ruleDes": "淘汰制",
+            "condition": "棋王争霸赛入围赛门票",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_match_king.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/king_match_title_2.png",
+            "noteDes": "每轮淘汰",
+            "time": 360,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3055
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "tupt_match_1": {
+            "id": 3056,
+            "name": "途游锦标赛海选赛",
+            "dateDes": "每日10:00~23:00",
+            "rewardsDes": "途游锦标赛入围赛门票",
+            "ruleDes": "打满7局",
+            "condition": "免费参赛",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/tupt_match_help_0170912.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/tupt_match_title_3_20170912.png",
+            "noteDes": "超过比赛时间，会强制结束",
+            "time": 720,
+            "stepTime": 90,
+            "addTime": 3,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3056
+            ],
+            "chess_relaxation_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/tupt_match_ads_0170912.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "tupt_match_2": {
+            "id": 3057,
+            "name": "途游锦标赛入围赛",
+            "dateDes": "10月29日20:00",
+            "rewardsDes": "途游锦标赛现场赛门票",
+            "ruleDes": "淘汰制",
+            "condition": "途游锦标赛入围赛门票",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/tupt_match_help_0170912.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/tupt_match_title_4_20170912.png",
+            "noteDes": "每轮淘汰",
+            "time": 600,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3057
+            ],
+            "chess_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/tupt_match_ads_0170912.jpg",
+                    "gotoUrl": "",
+                    "des": "休闲赛"
+                }
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "everyday_match_1": {
+            "id": 3006,
+            "name": "每日红包赛",
+            "dateDes": "每日12:30开赛",
+            "rewardsDes": "红包券",
+            "ruleDes": "淘汰制",
+            "condition": "参赛券1张",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_group_match_2.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/everyday_match2.png",
+            "noteDes": "每轮淘汰",
+            "time": 360,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3006
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "everyday_match_3": {
+            "id": 3008,
+            "name": "每日红包赛",
+            "dateDes": "每日20:00开赛",
+            "rewardsDes": "红包券",
+            "ruleDes": "淘汰制",
+            "condition": "参赛券1张",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_group_match_2.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/everyday_match3.png",
+            "noteDes": "每轮淘汰",
+            "time": 360,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3008
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "everyday_match_4": {
+            "id": 3009,
+            "name": "每日红包赛",
+            "dateDes": "每日21:30开赛",
+            "rewardsDes": "红包券",
+            "ruleDes": "淘汰制",
+            "condition": "参赛券1张",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_group_match_2.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/everyday_match3.png",
+            "noteDes": "每轮淘汰",
+            "time": 360,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3009
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "hejiaoyu_match": {
+            "id": 3010,
+            "name": "和教育大奖赛",
+            "dateDes": "12.17-12.18 16:00开赛",
+            "rewardsDes": "和教育积分或金币",
+            "ruleDes": "淘汰制",
+            "condition": "免费报名",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_match_hejiaoyu6.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/hejiaoyu_math_title.png",
+            "noteDes": "每轮淘汰",
+            "time": 360,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3010
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "renman_match": {
+            "id": 3020,
+            "name": "8人快速赛",
+            "dateDes": "满8人开赛",
+            "rewardsDes": "6100金币",
+            "ruleDes": "淘汰制",
+            "condition": "1000金币",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_match_8ren4.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/match_8_ren_title.png",
+            "noteDes": "每轮淘汰",
+            "time": 360,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3020
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "renman_match_jieqi": {
+            "id": 3220,
+            "name": "揭棋8人快速赛",
+            "dateDes": "满8人开赛",
+            "rewardsDes": "6100金币",
+            "ruleDes": "淘汰制",
+            "condition": "1000金币",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_chchess_match_8ren2.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/match_8_ren_title.png",
+            "noteDes": "每轮淘汰",
+            "time": 360,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3220
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "selfCreateTable": {
+            "id": 3030,
+            "name": "自建桌",
+            "roomId": 3030,
+            "roomIdList": [
+                3030
+            ],
+            "tableParams": {
+                "tableTime": {
+                    "data_list": [
+                        [
+                            "5分钟",
+                            300
+                        ],
+                        [
+                            "10分钟",
+                            600
+                        ],
+                        [
+                            "20分钟",
+                            1200
+                        ],
+                        [
+                            "30分钟",
+                            1800
+                        ]
+                    ],
+                    "defaultIndex": 1
+                },
+                "addSecond": {
+                    "data_list": [
+                        [
+                            "无",
+                            0
+                        ],
+                        [
+                            "3秒",
+                            3
+                        ],
+                        [
+                            "5秒",
+                            5
+                        ],
+                        [
+                            "10秒",
+                            10
+                        ]
+                    ],
+                    "defaultIndex": 0
+                },
+                "stepTime": {
+                    "data_list": [
+                        [
+                            "无限制",
+                            0
+                        ],
+                        [
+                            "1分钟",
+                            60
+                        ],
+                        [
+                            "2分钟",
+                            120
+                        ],
+                        [
+                            "5分钟",
+                            300
+                        ]
+                    ],
+                    "defaultIndex": 2
+                },
+                "unEatLimit": {
+                    "data_list": [
+                        [
+                            "40回合",
+                            40
+                        ],
+                        [
+                            "50回合",
+                            50
+                        ]
+                    ],
+                    "defaultIndex": 0
+                },
+                "playMode": {
+                    "data_list": [
+                        [
+                            "普通",
+                            0
+                        ],
+                        [
+                            "揭棋",
+                            1
+                        ]
+                    ],
+                    "defaultIndex": 0
+                }
+            },
+            "time": 900,
+            "stepTime": 120,
+            "addTime": 0,
+            "allowUndoNum": -1,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        },
+        "jieqi_1": {
+            "id": 3101,
+            "name": "揭棋新手场",
+            "roomPicSign": 7,
+            "roomId": 3101,
+            "roomIdList": [
+                3101
+            ],
+            "title": "揭棋新手场",
+            "condition": "无底注",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 0,
+            "roomBet": 0,
+            "isHide": 0,
+            "time": 600,
+            "stepTime": 90,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 50,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 0,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 0,
+                "reqMaxGold": 0
+            }
+        },
+        "jieqi_2": {
+            "id": 3102,
+            "name": "揭棋初级场",
+            "roomPicSign": 2,
+            "roomId": 3102,
+            "roomIdList": [
+                3102
+            ],
+            "title": "揭棋初级场",
+            "condition": "底注500\n(2000准入)",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 25,
+            "roomBet": 500,
+            "isHide": 0,
+            "time": 600,
+            "stepTime": 90,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 50,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 0,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 2000,
+                "reqMaxGold": 0
+            }
+        },
+        "jieqi_3": {
+            "id": 3103,
+            "name": "揭棋中级场",
+            "roomPicSign": 3,
+            "roomId": 3103,
+            "roomIdList": [
+                3103
+            ],
+            "title": "揭棋中级场",
+            "condition": "底注2000\n(6000准入)",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 100,
+            "roomBet": 2000,
+            "isHide": 0,
+            "time": 600,
+            "stepTime": 90,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 50,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 0,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 6000,
+                "reqMaxGold": 0
+            }
+        },
+        "jieqi_4": {
+            "id": 3104,
+            "name": "揭棋高级场",
+            "roomPicSign": 4,
+            "roomId": 3104,
+            "roomIdList": [
+                3104
+            ],
+            "title": "揭棋高级场",
+            "condition": "底注5000\n(20000准入)",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 400,
+            "roomBet": 5000,
+            "isHide": 0,
+            "time": 600,
+            "stepTime": 90,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 50,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 0,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 20000,
+                "reqMaxGold": 0
+            }
+        },
+        "jieqi_5": {
+            "id": 3105,
+            "name": "揭棋大师场",
+            "roomPicSign": 8,
+            "roomId": 3105,
+            "roomIdList": [
+                3105
+            ],
+            "title": "揭棋大师场",
+            "condition": "底注12000\n(36000准入)",
+            "des": "",
+            "minBet": 0,
+            "roomFee": 6000,
+            "roomBet": 120000,
+            "isHide": 0,
+            "time": 600,
+            "stepTime": 90,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 50,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 0,
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ],
+            "roomLimit": {
+                "openTime": "20:00-22:00",
+                "openDate": "2015-10-01|2015-10-07",
+                "reqMinExp": 0,
+                "reqMaxExp": -1,
+                "reqWinrate": 0,
+                "reqPlayTime": 0,
+                "reqMinGold": 360000,
+                "reqMaxGold": 0
+            }
+        },
+        "everyday_match_jieqi_1": {
+            "id": 3206,
+            "name": "每日红包赛",
+            "dateDes": "每日20:30开赛",
+            "rewardsDes": "红包券",
+            "ruleDes": "淘汰制",
+            "condition": "1000金币",
+            "helpUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/help_group_match_2.html",
+            "titleUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/everyday_match3.png",
+            "noteDes": "每轮淘汰",
+            "time": 360,
+            "stepTime": 60,
+            "addTime": 0,
+            "allowUndoNum": 0,
+            "unEatRoundNum": 40,
+            "sPerpeTualCheckNum": 3,
+            "dPerpeTualCheckNum": 8,
+            "noExpInRoundN": 3,
+            "roomIdList": [
+                3206
+            ],
+            "chess_match_ads": [
+                {
+                    "imgUrl": "http://ddz.dl.tuyoo.com/cdn37/chinesechess/chess_everyday_match_ads.jpg",
+                    "gotoUrl": "",
+                    "des": "每日红包赛"
+                }
+            ],
+            "smiliesPrice": [
+                300,
+                300,
+                150,
+                150
+            ],
+            "senderCharm": [
+                30,
+                60,
+                15,
+                30
+            ],
+            "receiverCharm": [
+                -30,
+                60,
+                -15,
+                30
+            ]
+        }
+    },
+    "html_items": {},
+    "session_items": {
+        "jf_bigroom": {
+            "session": "积分场",
+            "match": 0,
+            "new": 0,
+            "rooms": [
+                "kuaiqi_10",
+                "jifenbigroom",
+                "chuji",
+                "zhongji",
+                "gaoji"
+            ],
+            "description": [
+                "象棋积分场"
+            ]
+        },
+        "jf": {
+            "session": "积分场",
+            "match": 0,
+            "new": 0,
+            "rooms": [
+                "kuaiqi_10",
+                "chuji",
+                "zhongji",
+                "gaoji"
+            ],
+            "description": [
+                "象棋积分场"
+            ]
+        },
+        "leitai": {
+            "session": "擂台场",
+            "match": 0,
+            "new": 0,
+            "isArena": 1,
+            "rooms": [
+                "leitaibigroom",
+                "LeitaiNo1",
+                "LeitaiNo2",
+                "LeitaiNo3",
+                "LeitaiNo4",
+                "LeitaiNo5",
+                "LeitaiNo6",
+                "LeitaiNo7",
+                "LeitaiNo8",
+                "LeitaiNo9",
+                "LeitaiNo10"
+            ],
+            "description": [
+                "象棋擂台场"
+            ]
+        },
+        "match": {
+            "session": "比赛场",
+            "match": 1,
+            "new": 0,
+            "rooms": [
+                "relaxation_match",
+                "everyday_match_1",
+                "everyday_match_3",
+                "everyday_match_4"
+            ],
+            "description": [
+                "象棋比赛场"
+            ]
+        },
+        "match_jieqi": {
+            "session": "比赛场",
+            "match": 1,
+            "isJieQi": 1,
+            "new": 0,
+            "rooms": [
+                "relaxation_match_jieqi",
+                "everyday_match_jieqi_1",
+                "renman_match_jieqi"
+            ],
+            "description": [
+                "揭棋比赛场"
+            ]
+        },
+        "match_new": {
+            "session": "比赛场",
+            "match": 1,
+            "new": 0,
+            "rooms": [
+                "relaxation_match",
+                "renman_match"
+            ],
+            "description": [
+                "象棋比赛场"
+            ]
+        },
+        "match_jieqi_double": {
+            "session": "比赛场",
+            "match": 1,
+            "isJieQi": 1,
+            "new": 0,
+            "rooms": [
+                "relaxation_match_jieqi_double",
+                "everyday_match_jieqi_double",
+                "renman_match_jieqi"
+            ],
+            "description": [
+                "揭棋比赛场"
+            ]
+        },
+        "match_new_double": {
+            "session": "比赛场",
+            "match": 1,
+            "new": 0,
+            "rooms": [
+                "relaxation_match_double",
+                "renman_match"
+            ],
+            "description": [
+                "象棋比赛场"
+            ]
+        },
+        "match_huawei": {
+            "session": "比赛场",
+            "match": 1,
+            "isJieQi": 1,
+            "new": 0,
+            "rooms": [
+                "relaxation_match_jieqi",
+                "everyday_match_jieqi_1",
+                "renman_match_jieqi"
+            ],
+            "description": [
+                "象棋比赛场"
+            ]
+        },
+        "match_special": {
+            "session": "比赛场",
+            "match": 1,
+            "isJieQi": 1,
+            "new": 0,
+            "rooms": [
+                "relaxation_match_special",
+                "relaxation_match_jieqi",
+                "everyday_match_jieqi_1",
+                "renman_match_jieqi"
+            ],
+            "description": [
+                "象棋比赛场"
+            ]
+        },
+        "match_hejiaoyu": {
+            "session": "比赛场",
+            "match": 1,
+            "new": 0,
+            "rooms": [
+                "relaxation_match",
+                "hejiaoyu_match"
+            ],
+            "description": [
+                "象棋比赛场"
+            ]
+        },
+        "creatTable": {
+            "session": "自建桌",
+            "match": 0,
+            "new": 0,
+            "isSelfCreateTable": 1,
+            "rooms": [
+                "selfCreateTable"
+            ],
+            "description": [
+                "象棋自建桌"
+            ]
+        },
+        "jieqi": {
+            "session": "揭棋模式",
+            "match": 0,
+            "new": 0,
+            "isSelfCreateTable": 0,
+            "isJieQi": 1,
+            "rooms": [
+                "jieqi_1",
+                "jieqi_2",
+                "jieqi_3",
+                "jieqi_4"
+            ],
+            "description": [
+                "揭棋模式"
+            ]
+        }
+    },
+    "templates": {
+        "default": [
+            "jf_bigroom",
+            "leitai",
+            "match_new",
+            "creatTable",
+            "match_jieqi",
+            "jieqi"
+        ],
+        "leitaitemple": [
+            "jf_bigroom",
+            "leitai",
+            "match_new",
+            "creatTable"
+        ],
+        "v3_7": [
+            "jf"
+        ],
+        "v3_772": [
+            "jf",
+            "match"
+        ],
+        "huawei": [
+            "jf_bigroom",
+            "leitai",
+            "match_new",
+            "match_huawei",
+            "creatTable",
+            "jieqi"
+        ],
+        "meizu": [
+            "jf_bigroom",
+            "leitai",
+            "match_new",
+            "match_jieqi",
+            "creatTable",
+            "jieqi"
+        ],
+        "360": [
+            "jf_bigroom",
+            "leitai",
+            "match_new",
+            "match_jieqi",
+            "creatTable",
+            "jieqi"
+        ],
+        "hejiaoyu": [
+            "jf_bigroom",
+            "leitai",
+            "match_hejiaoyu",
+            "creatTable"
+        ]
+    }
+}

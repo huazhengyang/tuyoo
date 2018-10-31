@@ -1,0 +1,88 @@
+{
+  "rewardList": [
+    {
+      "day": 1,
+      "rewardDesc": "800金币",
+      "rewardPic": "${http_download}/ddz/other/config/sign_in_chip_1.png",
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 800,
+          "pic": "${http_download}/ddz/other/config/sign_in_chip_1.png"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "rewardDesc": "1钻石",
+      "rewardPic": "${http_download}/ddz/other/config/sign_in_dimand_1.png",
+      "rewards": [
+        {
+          "itemId": "item:1311",
+          "count": 1,
+          "pic": "${http_download}/ddz/other/config/sign_in_dimand_1.png"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "rewardDesc": "1500金币",
+      "rewardPic": "${http_download}/ddz/other/config/sign_in_chip_1.png",
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 1500,
+          "pic": "${http_download}/ddz/other/config/sign_in_chip_1.png"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "rewardDesc": "2000金币",
+      "rewardPic": "${http_download}/ddz/other/config/sign_in_chip_1.png",
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 2000,
+          "pic": "${http_download}/ddz/other/config/sign_in_chip_1.png"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "rewardDesc": "2500金币",
+      "rewardPic": "${http_download}/ddz/other/config/sign_in_chip_2.png",
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 2500,
+          "pic": "${http_download}/ddz/other/config/sign_in_chip_2.png"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "rewardDesc": "4000金币",
+      "rewardPic": "${http_download}/ddz/other/config/sign_in_chip_2.png",
+      "rewards": [
+        {
+          "itemId": "user:chip",
+          "count": 4000,
+          "pic": "${http_download}/ddz/other/config/sign_in_chip_2.png"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "rewardDesc": "5钻石",
+      "rewardPic": "${http_download}/ddz/other/config/sign_in_dimand_2.png",
+      "rewards": [
+        {
+          "itemId": "item:1311",
+          "count": 5,
+          "pic": "${http_download}/ddz/other/config/sign_in_dimand_2.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    "loginRewardConf":[
+        {
+            "_comment": "3075 5000元礼物赛门票  官网包每日登陆赠送一张",
+            "type": "day_login_with_client",
+            "clientIds":[
+                "IOS_3.98_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall30.appStore.huanle",
+				"IOS_4.55_weixin,tuyoo.appStore,weixinPay,alipaywap.0-hall30.appStore.tysanzhang",
+				"Android_3.97_tyGuest,tyAccount.alipay.0-hall30.tuyoo.tu"
+             ],
+            "beginTime":"2015-12-7 00:00:01",
+            "endTime":"2018-12-21 23:59:59",
+            "dataKey":"t3card_day_reward_ticket_guanwang",
+            "prop":[
+                [ 3075, 1 ]
+            ],
+            "msg":"5000元京东卡红包赛门票*1 已经放入您的背包，快去报名比赛赢取超高奖励吧！"
+        },
+        {
+            "_comment": "首次升级成功  送1033 千元奖品赛门票",
+            "type": "first_login_with_client",
+            "clientIds":[
+                ""
+             ],
+            "beginTime":"2015-12-7 00:00:01",
+            "endTime":"2017-12-21 23:59:59",
+            "dataKey":"upgrade3.97_reward",
+            "prop":[
+                [ 2027, 1 ]
+            ],
+            "msg":"欢迎您升级到官方最新版本，送您一张1000元奖品赛门票，请在背包中查看，略表心意，请您笑纳~"
+        }
+    ]
+}

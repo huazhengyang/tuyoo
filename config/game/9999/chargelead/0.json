@@ -1,0 +1,906 @@
+{
+	"templates": {
+		"dizhu_low_level": {
+			"lessbuychip": {
+				"shelves":["lessbuychip"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":60, "minCount":0}
+            },
+            "winlead": {
+            	"shelves":["winlead"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":80, "minCount":0}
+            },
+            "zhuanyun": {
+            	"shelves":["zhuanyun"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":60, "minCount":0}
+            },
+            "tablebuy": {
+            	"shelves":["tablebuy"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":20, "minCount":0, "maxCount":100}
+            },
+            "memberTry":{
+            	"shelves":["member"],
+            	"priceDiamond":{"count":10, "minCount":10, "maxCount":10}
+            }
+        },
+        "dizhu_middle_level": {
+        	"lessbuychip": {
+				"shelves":["lessbuychip"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":60, "minCount":0}
+            },
+            "winlead": {
+            	"shelves":["winlead"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":80, "minCount":0}
+            },
+            "zhuanyun": {
+            	"shelves":["zhuanyun"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":60, "minCount":0}
+            },
+            "tablebuy": {
+            	"shelves":["tablebuy"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":80, "minCount":0, "maxCount":100}
+            }
+        },
+        "dizhu_high_level": {
+        	"lessbuychip": {
+				"shelves":["lessbuychip"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":180, "minCount":0}
+            },
+            "winlead": {
+            	"shelves":["winlead"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":300, "minCount":0}
+            },
+            "zhuanyun": {
+            	"shelves":["zhuanyun"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":180, "minCount":0}
+            },
+            "tablebuy": {
+            	"shelves":["tablebuy"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":500, "minCount":0}
+            }
+        },
+        "dizhu_master_level": {
+        	"lessbuychip": {
+				"shelves":["lessbuychip"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":300, "minCount":0}
+            },
+            "winlead": {
+            	"shelves":["winlead"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":980, "minCount":0}
+            },
+            "zhuanyun": {
+            	"shelves":["zhuanyun"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":500, "minCount":0}
+            },
+            "tablebuy": {
+            	"shelves":["tablebuy"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":1000, "minCount":0}
+            }
+        },
+        "dizhu_xingyao_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1000, "minCount":0}
+            },
+            "winlead": {
+            	"shelves":["winlead"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":980, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":980, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1000, "minCount":0}
+            }
+        },
+        "dizhu_xingyaodashi_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":3000, "minCount":0}
+            },
+            "winlead": {
+            	"shelves":["winlead"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":3000, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":3000, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":3000, "minCount":0}
+            }
+        },
+        "baohuang_low_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "memberTry":{
+                "shelves":["member"],
+                "priceDiamond":{"count":10, "minCount":10, "maxCount":10}
+            }
+        },
+        "baohuang_middle_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            }
+        },
+        "baohuang_high_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":0}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1000, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":500, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":500, "minCount":0}
+            }
+        },
+        "baohuang_master_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1000, "minCount":0}
+            },
+            "winlead": {},
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1000, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1000, "minCount":0}
+            }
+        },
+        "paohuzi_low_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "memberTry":{
+                "shelves":["member"],
+                "priceDiamond":{"count":10, "minCount":10, "maxCount":10}
+            }
+        },
+        "paohuzi_middle_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            }
+        },
+        "paohuzi_high_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":0}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1000, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":500, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":500, "minCount":0}
+            }
+        },
+        "paohuzi_master_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":0}
+            },
+            "winlead": {},
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1000, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1000, "minCount":0}
+            }
+        },
+        "majiang_free_level": {
+            "lessbuychip": {
+                "shelves":["coin"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":20,"maxCount":20}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":60}
+            },
+            "zhuanyun": {
+                "shelves":["coin"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":20,"maxCount":20}
+            },
+            "tablebuy": {
+                "shelves":["coin"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":20,"maxCount":20}
+            },
+            "memberTry":{
+                "shelves":["member"],
+                "priceDiamond":{"count":10, "minCount":10, "maxCount":10}
+            }
+        },
+        "majiang_low_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":60}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":60}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":60}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":60, "maxCount":100}
+            },
+            "memberTry":{
+                "shelves":["member"],
+                "priceDiamond":{"count":10, "minCount":10, "maxCount":10}
+            }
+        },
+        "majiang_middle_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":80}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0, "maxCount":1000}
+            }
+        },
+        "majiang_high_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":300}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":300}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":300}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":300}
+            }
+        },
+        "majiang_master_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":980, "minCount":300}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":980, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":980, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":980, "minCount":0}
+            }
+        },
+       "majiang_match_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":100, "minCount":100}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            }
+        },
+        "sichuan_low_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":60}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":0, "maxCount":100}
+            },
+            "memberTry":{
+                "shelves":["member"],
+                "priceDiamond":{"count":10, "minCount":10, "maxCount":10}
+            }
+        },
+        "sichuan_middle_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":60}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0, "maxCount":500}
+            }
+        },
+        "sichuan_high_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":500, "minCount":500}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":500, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":500, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":500, "minCount":0}
+            }
+        },
+        "sichuan_master_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1980, "minCount":1980}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":980, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":980, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":980, "minCount":0}
+            }
+        },
+        "sichuan_star_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1980, "minCount":1980}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            }
+        },
+        "dragon_default_level": {
+			"lessbuychip": {
+				"shelves":["lessbuychip"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":100, "minCount":0}
+            },
+            "winlead": {
+            },
+            "zhuanyun": {
+            },
+            "tablebuy": {
+            	"shelves":["tablebuy"],
+				"buyTypes":["consume", "direct"],
+				"priceDiamond":{"count":100, "minCount":0}
+            },
+            "memberTry":{
+            }
+        },
+
+        "texas_queue_rooms": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0, "maxCount":100}
+            },
+            "memberTry":{
+                "shelves":["member"],
+                "priceDiamond":{"count":10, "minCount":10, "maxCount":10}
+            }
+        },
+        "texas_vip_rooms_level_1": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":500, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0, "maxCount":100}
+            },
+            "memberTry":{
+                "shelves":["member"],
+                "priceDiamond":{"count":10, "minCount":10, "maxCount":10}
+            }
+        },
+        "texas_vip_rooms_level_2": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1300, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":0, "maxCount":100}
+            },
+            "memberTry":{
+                "shelves":["member"],
+                "priceDiamond":{"count":10, "minCount":10, "maxCount":10}
+            }
+        },
+        "newfish_level_2": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":10, "minCount":0}
+            },
+            "winlead": {},
+            "zhuanyun": {},
+            "tablebuy": {},
+            "memberTry":{}
+        },
+        "newfish_level_3": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "winlead": {},
+            "zhuanyun": {},
+            "tablebuy": {},
+            "memberTry":{}
+        },
+        "newfish_level_4": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":200, "minCount":0}
+            },
+            "winlead": {},
+            "zhuanyun": {},
+            "tablebuy": {},
+            "memberTry":{}
+        },
+        "newfish_level_5": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":500, "minCount":0}
+            },
+            "winlead": {},
+            "zhuanyun": {},
+            "tablebuy": {},
+            "memberTry":{}
+        },
+        "newfish_level_6": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1000, "minCount":0}
+            },
+            "winlead": {},
+            "zhuanyun": {},
+            "tablebuy": {},
+            "memberTry":{}
+        },
+        "sz_ty_sichuan_low_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":20}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0, "maxCount":100}
+            },
+            "memberTry":{
+                "shelves":["member"],
+                "priceDiamond":{"count":10, "minCount":10, "maxCount":10}
+            }
+        },
+        "sz_ty_sichuan_middle_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":60}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0, "maxCount":100}
+            }
+        },
+        "sz_ty_sichuan_high_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":300}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            }
+        },
+        "sz_ty_sichuan_master_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1000, "minCount":1000}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            }
+        },
+        "sz_ty_sichuan_star_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":1980, "minCount":1980}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":0}
+            }
+        },
+        "zhuoji_low_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":20, "minCount":20}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0, "maxCount":100}
+            },
+            "memberTry":{
+                "shelves":["member"],
+                "priceDiamond":{"count":10, "minCount":10, "maxCount":10}
+            }
+        },
+        "zhuoji_middle_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":60, "minCount":60}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0, "maxCount":100}
+            }
+        },
+        "zhuoji_high_level": {
+            "lessbuychip": {
+                "shelves":["lessbuychip"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":300, "minCount":300}
+            },
+            "winlead": {
+                "shelves":["winlead"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "zhuanyun": {
+                "shelves":["zhuanyun"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            },
+            "tablebuy": {
+                "shelves":["tablebuy"],
+                "buyTypes":["consume", "direct"],
+                "priceDiamond":{"count":80, "minCount":0}
+            }
+        }
+	}
+}

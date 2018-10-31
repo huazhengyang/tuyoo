@@ -1,0 +1,46 @@
+# -*- coding:utf-8 -*-
+'''
+Created on 2016年9月5日
+
+@author: zhaojiangang
+'''
+from dizhucomm.core.cardrule import CardFinder
+
+
+@classmethod
+def findNSamePointCards(cls, rule, n, point, handReducedCards, useWild=False, usePureWild=False, excludeGroups=None, excludeWildCardNum=0):
+    '''
+    查找n个同点牌
+    @param n: 个数
+    @param point: 最小点数（不包含）
+    @param handReducedCards: 整理好的牌
+    @param useWild: 是否使用癞子
+    @param userPureWild: 是否使用纯癞子
+    @param excludePoint: 排除的牌的点集合
+    @param excludeWildCardNum: 排除的癞子个数
+    '''
+    # 没癞子情况
+    retGroups = cls.findNSamePointCardsByGTPoint(n, point, handReducedCards, excludeGroups)
+    # 可用癞子个数
+    if excludeWildCardNum < 0:
+        excludeWildCardNum = 0
+    canUsedWildCardsNum = handReducedCards.wildCardCount - excludeWildCardNum
+    if useWild and n > 1 and canUsedWildCardsNum > 0:
+        for scg in handReducedCards.sameCountGroups[::-1]:
+            if scg.count < n - canUsedWildCardsNum or scg.count >= n:
+                continue
+            for g in scg.groups:
+                if g.point > point and g.point <= 12 and (not excludeGroups or g not in excludeGroups):
+                    chWildCards = [rule.changeWildCardToPointCard(card, g.point) for card in handReducedCards.wildCards[0:n-g.cardCount]]
+                    retGroups.append((g.cards + chWildCards, set([g])))
+    if usePureWild and canUsedWildCardsNum >= n:
+        for g in handReducedCards.wildGroups:
+            if g.point > point and (not excludeGroups or g not in excludeGroups):
+                if g.cardCount >= n:
+                    retGroups.append((g.cards[0:n], set([g])))
+                else:
+                    chWildCards = [rule.changeWildCardToPointCard(card, g.point) for card in handReducedCards.wildCards if card not in g.cards][0:n-g.cardCount]
+                    retGroups.append((g.cards + chWildCards, set([g])))
+    return retGroups
+
+CardFinder.findNSamePointCards = findNSamePointCards

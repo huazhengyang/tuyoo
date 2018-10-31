@@ -1,0 +1,231 @@
+# -*- coding:utf-8 -*-
+'''
+Created on 2018年4月13日
+
+@author: wangyonghui
+'''
+from dizhu.ai_player.ai import DizhuAIPlayer
+from dizhu.games.normalbase.tableroom import DizhuPlayerNormalBase, DizhuTableRoomNormalBase
+from dizhu.games.segmentmatch_ai import dealer
+from dizhu.games.segmentmatch_ai.table import DizhuTableCtrlSegmentMatchAI
+from dizhu.servers.util.rpc import new_table_remote
+from dizhucomm.core.const import StandupReason
+from dizhucomm.core.exceptions import NoIdleSeatException
+from freetime.core.tasklet import FTTasklet
+from poker.entity.game.rooms.room import TYRoom
+import freetime.util.log as ftlog
+
+
+class DizhuPlayerSegmentMatchAI(DizhuPlayerNormalBase):
+    def __init__(self, room, userId):
+        super(DizhuPlayerSegmentMatchAI, self).__init__(room, userId)
+        self.segment = 0
+        self.currentStar = 0
+        self.isAI = False
+
+    def updateDatas(self, datas):
+
+        self._datas = datas
+        self.clientId = datas.get('clientId', '')
+        self.name = datas.get('name', '')
+        self.chip = datas.get('chip', 0)
+        self.gameClientVer = datas.get('gameClientVer', 0)
+
+        segment, currentStar = new_table_remote.doGetUserSegment(self.userId)
+        self.segment = segment
+        self.currentStar = currentStar
+        self.updateSegmentDatas()
+
+    def updateSegmentDatas(self):
+        self._datas.update({'segment': self.segment, 'currentStar': self.currentStar})
+
+    def isFirstWin(self, isWin):
+        if not isWin:
+            return False
+        import poker.util.timestamp as pktimestamp
+        today = pktimestamp.formatTimeDayInt()
+        isFirstWin = self._datas.get('firstWin', {}).get(str(today), 0)
+        if not isFirstWin:
+            return True
+        return False
+
+
+class DizhuTableRoomSegmentMatchAI(DizhuTableRoomNormalBase):
+    def __init__(self, roomDefine):
+        super(DizhuTableRoomSegmentMatchAI, self).__init__(roomDefine)
+        self._dealer = dealer.DIZHU_DEALER_DICT[self.roomConf['playMode']]
+
+    def newTable(self, tableId):
+        tableCtrl = self._makeTableCtrl(tableId, self._dealer)
+        tableCtrl.setupTable()
+        self._addTable(tableCtrl.table)
+        return tableCtrl
+
+    def _enterRoomCheck(self, player, continueBuyin):
+        pass
+
+    def _makeTableCtrl(self, tableId, myDealer):
+        return DizhuTableCtrlSegmentMatchAI(self, tableId, myDealer)
+
+    def _makePlayer(self, userId):
+        return DizhuPlayerSegmentMatchAI(self, userId)
+
+    def enterRoom(self, userId, continueBuyin):
+        '''
+        用户进入房间，带入，取用户信息等
+        '''
+        with self._keyLock.lock(userId):
+
+            exists = self.findPlayer(userId)
+            if exists:
+                ftlog.info('DizhuPlayerSegmentMatch.enterRoom',
+                           'userId=', userId,
+                           'clientId=', exists.clientId,
+                           'dizhuVersion=', exists.gameClientVer,
+                           'idlePlayerCount=', len(self._idlePlayerMap),
+                           'playerCount=', len(self._playerMap),
+                           'tableCount=', len(self._tableList),
+                           'continueBuyin=', True,
+                           'roomId=', self.roomId)
+                return exists
+
+            player = self._makePlayer(userId)
+            player.initPlayer()
+
+            # 检查准入
+            self._enterRoomCheck(player, continueBuyin)
+
+            self.ensureNotInSeat(userId)
+
+            self._addPlayer(player)
+            ftlog.info('DizhuPlayerSegmentMatch.enterRoom',
+                       'userId=', userId,
+                       'clientId=', player.clientId,
+                       'dizhuVersion=', player.gameClientVer,
+                       'idlePlayerCount=', len(self._idlePlayerMap),
+                       'playerCount=', len(self._playerMap),
+                       'tableCount=', len(self._tableList),
+                       'continueBuyin=', continueBuyin,
+                       'segment=', player.segment,
+                       'roomId=', self.roomId)
+            return player
+
+    def leaveRoom(self, userId, reason):
+        '''
+        玩家离开房间
+        '''
+        with self._keyLock.lock(userId):
+            player = self.findPlayer(userId)
+
+            if ftlog.is_debug():
+                ftlog.debug('DizhuPlayerSegmentMatch.leaveRoom',
+                            'roomId=', self.roomId,
+                            'userId=', userId,
+                            'player=', player,
+                            'reason=', reason,
+                            'tableId=', player.tableId if player else None,
+                            'seatId=', player.seatId if player else None,
+                            'tableState=', (player.table.state.name if player.table else None) if player else None)
+
+            ret = True
+            if player:
+                # 断线不离开房间（防止用户网不好导致连胜中断）
+                if reason == TYRoom.LEAVE_ROOM_REASON_LOST_CONNECTION:
+                    if not player.table:
+                        player.online = False
+                        return False
+                    if player.table.gameRound:
+                        player.table.offline(player.seat)
+                        return False
+                    else:
+                        return player.table.standup(player.seat, StandupReason.TCP_CLOSED)
+
+                if player.seat:
+                    ret = player.table.standup(player.seat)
+                if not player.seat:
+                    self._leaveRoom(player, reason)
+            return ret
+
+    def _getTable(self, player):
+        '''
+        查找一张合适的桌子
+        '''
+        found = None
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableRoomSegmentMatchAI._getTable Enter',
+                        'roomId=', self.roomId,
+                        'userId=', player.userId,
+                        'tableCount=', len(self._tableList))
+
+        for table in self._tableList:
+            if table.processing:
+                continue
+
+            if table.state.name != 'idle':
+                ftlog.warn('DizhuTableRoomSegmentMatchAI._getTable BadTableState',
+                           'roomId=', self.roomId,
+                           'userId=', player.userId,
+                           'tableId=', table.tableId,
+                           'tableState=', table.state.name)
+                continue
+
+            idleSeatCount = table.idleSeatCount
+            if idleSeatCount == table.seatCount:
+                found = table
+                break
+
+            if 1 <= idleSeatCount <= table.seatCount - 1:
+                ftlog.warn('DizhuTableRoomSegmentMatchAI._getTable UserHasInTable',
+                           'roomId=', self.roomId,
+                           'userId=', player.userId,
+                           'tableId=', table.tableId,
+                           'tableState=', table.state.name,
+                           'idleSeatCount=', idleSeatCount)
+                continue
+
+        if not found:
+            ftlog.warn('DizhuTableRoomSegmentMatchAI._getTable notFound',
+                       'roomId=', self.roomId,
+                       'userId=', player.userId,
+                       'table=', None)
+
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableRoomSegmentMatchAI._getTable finally',
+                        'roomId=', self.roomId,
+                        'userId=', player.userId,
+                        'tableCount=', len(self._tableList),
+                        'found=', found)
+        return found
+
+    def _trySitdown(self, player, continueBuyin):
+        for _ in xrange(3):
+            table = self._getTable(player)
+            if table:
+                table.processing = True
+                try:
+                    if table.sitdown(player, continueBuyin):
+                        # 机器人立即坐下
+                        DizhuAIPlayer.addRobot(table)
+                        return True
+                except NoIdleSeatException:
+                    pass
+                finally:
+                    table.processing = False
+            FTTasklet.getCurrentFTTasklet().sleepNb(0.5)
+        return False
+
+    def getRoomOnlineInfo(self):
+        ucount, pcount, ocount = 0, 0, 0
+        for t in self.maptable.values():
+            players = t.table.getPlayers()
+            if players:
+                pcount += 1
+                ucount += 1
+            if ftlog.is_debug():
+                ftlog.debug('DizhuTableRoomSegmentMatchAI.getRoomOnlineInfo Single',
+                            'roomId=', self.roomId, 'tableId=', t.tableId, 'players=', [p.userId for p in players])
+        if ftlog.is_debug():
+            ftlog.debug('DizhuTableRoomSegmentMatchAI.getRoomOnlineInfo Final',
+                        'roomId=', self.roomId,
+                        'ucount=', ucount, 'pcount=', pcount, 'ocount=', ocount, 'allTables=', len(self.maptable.values()))
+        return ucount, pcount, ocount

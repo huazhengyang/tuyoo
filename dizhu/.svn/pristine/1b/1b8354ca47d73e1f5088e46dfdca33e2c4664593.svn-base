@@ -1,0 +1,586 @@
+# -*- coding:utf-8 -*-
+'''
+Created on 2018年7月4日
+
+@author: wangyonghui
+'''
+import datetime
+
+from dizhu.entity import dizhuconf
+from dizhu.entity.dizhuconf import DIZHU_GAMEID
+from dizhu.entity.dizhuversion import SessionDizhuVersion
+from dizhu.servers.util.rpc import user_assets
+from freetime.entity.msg import MsgPack
+from freetime.util import log as ftlog
+from hall.entity import hallconf, hallitem
+from hall.entity.hall_share3 import getShareLeftCountByBurialId, getSharePointByBurialId
+from hall.entity.hallusercond import UserConditionRegister
+from hall.entity.todotask import TodoTaskLessBuyOrder, TodoTaskHelper, TodoTaskShowInfo
+from poker.entity.biz.exceptions import TYBizException
+from poker.entity.configure import pokerconf, gdata
+from poker.entity.dao import onlinedata, sessiondata, userchip, gamedata
+from poker.entity.game import game
+from poker.entity.game.rooms import TYRoomMixin
+from poker.protocol import router
+from poker.util import strutil
+import poker.util.timestamp as pktimestamp
+
+
+class EnterRoomException(TYBizException):
+    def __init__(self, errcode, message):
+        super(EnterRoomException, self).__init__(errcode, message)
+
+
+class EnterRoomGameShutDownException(EnterRoomException):
+    def __init__(self, errcode=1, message='亲~系统即将维护升级哦'):
+        super(EnterRoomGameShutDownException, self).__init__(errcode, message)
+
+
+class EnterRoomMatchLessMinDiamondException(EnterRoomException):
+    def __init__(self, errcode=2, message='亲~您的钻石不足，赶紧充值吧！'):
+        super(EnterRoomMatchLessMinDiamondException, self).__init__(errcode, message)
+
+
+class EnterRoomLessMinQuickStartCoinException(EnterRoomException):
+    def __init__(self, errcode=3, message='亲~您的金币不足无法进入此房间，赶紧充值吧！'):
+        super(EnterRoomLessMinQuickStartCoinException, self).__init__(errcode, message)
+
+
+class EnterRoomLessMinKickOutCoinException(EnterRoomException):
+    def __init__(self, errcode=4, message='亲~您的金币不足无法进入此房间，赶紧充值吧！'):
+        super(EnterRoomLessMinKickOutCoinException, self).__init__(errcode, message)
+
+
+class EnterRoomGreaterThanMaxCoinException(EnterRoomException):
+    def __init__(self, errcode=5, message='亲~您太富有了，该去更高级的房间战斗啦！'):
+        super(EnterRoomGreaterThanMaxCoinException, self).__init__(errcode, message)
+
+
+class EnterRoomOpenTimeException(EnterRoomException):
+    def __init__(self, errcode=6, message='亲~该房间本时段未开放哦~'):
+        super(EnterRoomOpenTimeException, self).__init__(errcode, message)
+
+
+class EnterRoomConditionException(EnterRoomException):
+    def __init__(self, errcode=7, message='亲~您的条件不足进入该房间哦~'):
+        super(EnterRoomConditionException, self).__init__(errcode, message)
+
+
+class EnterRoomLessMinCoinException(EnterRoomException):
+    def __init__(self, errcode=8, message='亲~您的金币不足无法进入此房间，赶紧充值吧! '):
+        super(EnterRoomLessMinCoinException, self).__init__(errcode, message)
+
+
+def makeTodoTaskluckBuyOrLessBuyChip(gameId, userId, clientId, bigRoomId, **kwargs):
+    ''' 获取转运礼包，此时是 todotask 对象， 发送给客户端时需要转换为字典，即 todotask.toDict() '''
+    from hall.entity.hallpopwnd import makeTodoTaskLuckBuy, makeTodoTaskLessbuyChip
+    priority = kwargs.get('priority', 'luckBuy')
+    todoTask = None
+    if priority == 'luckBuy':
+        luckBuyOrLessBuyChip = makeTodoTaskLuckBuy(gameId, userId, clientId, bigRoomId)
+        if not luckBuyOrLessBuyChip:
+            luckBuyOrLessBuyChip = makeTodoTaskLessbuyChip(gameId, userId, clientId, bigRoomId, **kwargs)
+        if luckBuyOrLessBuyChip:
+            todoTask = luckBuyOrLessBuyChip
+    else:
+        luckBuyOrLessBuyChip = makeTodoTaskLessbuyChip(gameId, userId, clientId, bigRoomId, **kwargs)
+        if not luckBuyOrLessBuyChip:
+            luckBuyOrLessBuyChip = makeTodoTaskLuckBuy(gameId, userId, clientId, bigRoomId)
+        if luckBuyOrLessBuyChip:
+            todoTask = luckBuyOrLessBuyChip
+    return todoTask
+
+
+class DizhuQuickStartWx(object):
+    '''
+    微信快速开始
+    '''
+    @classmethod
+    def onCmdQuickStart(cls, msg, userId, gameId, roomId, tableId, playMode, clientId, segment):
+        ''' 快开入口函数 '''
+        try:
+            # 断线重连判断
+            seatId = 0
+            loc = cls._checkUserLoc(userId, clientId, gameId)
+            if loc[0] > 0:
+                roomId = loc[0]
+                tableId = loc[1]
+                seatId = loc[2]
+                msg.setParam('isReConnected', True)
+
+            # 停服准备判断
+            if cls._checkGameShutdown(loc):
+                raise EnterRoomGameShutDownException()
+
+            # 快开进入闯关赛配置
+            quickStartConf = dizhuconf.getQuickStart()
+            robConf = quickStartConf.get('robotConf', {})
+            userChip = userchip.getChip(userId)
+            # 机器人逻辑, AB 测试
+            if not roomId:
+                if quickStartConf.get('abSwitch') and cls.getUserTotalPlayCount(userId) <= quickStartConf.get('abPlayCount'):
+                    if userId % 2 == 0:
+                        playMode = robConf.get('robPlayMode')
+                        roomId = robConf.get('robRoomIdForNormal') if robConf.get('robPlayCount') and cls.getUserTotalPlayCount(userId) <= robConf.get('robPlayCount') and userChip < robConf.get('robLimitChip') else 0
+                    else:
+                        playMode = robConf.get('robPlayMode')
+                        roomId = robConf.get('robRoomIdForSegment') if robConf.get('robPlayCount') and cls.getUserTotalPlayCount(userId) <= robConf.get('robPlayCount') else quickStartConf.get('segmentRoomId')
+                else:
+                    if robConf.get('robPlayCount') and cls.getUserTotalPlayCount(userId) <= robConf.get('robPlayCount') and userChip < robConf.get('robLimitChip'):
+                        playMode = robConf.get('robPlayMode')
+                        roomId = robConf.get('robRoomIdForNormal')
+            else:
+                if roomId and roomId == quickStartConf.get('segmentRoomId') and robConf.get('robPlayCount') and cls.getUserTotalPlayCount(userId) <= robConf.get('robPlayCount'):
+                    roomId = robConf.get('robRoomIdForSegment')
+
+                if roomId and roomId == quickStartConf.get('normalRoomId') and robConf.get('robPlayCount') and cls.getUserTotalPlayCount(userId) <= robConf.get('robPlayCount') and userChip < robConf.get('robLimitChip'):
+                    roomId = robConf.get('robRoomIdForNormal')
+
+            if not roomId:
+                if playMode == dizhuconf.PLAYMODE_EMPTY:
+                    hallStartChip = quickStartConf.get('hallStartChip', 0)
+                    if hallStartChip and userChip < hallStartChip:
+                        # 闯关升级
+                        queryRoomId = cls._getQueryRoomId(userId, 6661)
+                        TYRoomMixin.queryRoomQuickStartReq(msg, queryRoomId, 0)  # 请求转给GR
+                        return None
+                    else:
+                        # playMode 转换为经典玩法
+                        playMode = quickStartConf.get('hallStartPlayMode') or dizhuconf.PLAYMODE_123
+
+                # playMode 下的房间列表
+                sessionRoomInfoList = cls._getQuickStartRoomList(userId, playMode)
+
+                # 系统为玩家选择一个 playMode 房间
+                ret, roomInfo, ex = cls._choiceRoom(userId, sessionRoomInfoList, playMode, userSegment=segment)
+                if ret:
+                    if playMode == 'match':
+                        # 直接报名接口
+                        cls._queryMatchSignin(userId, roomInfo['bigRoomId'], roomInfo.get('mixId'), clientId)
+                    else:
+                        queryRoomId = cls._getQueryRoomId(userId, roomInfo['bigRoomId'])
+                        msg.setParam('mixId', roomInfo.get('mixId'))
+                        TYRoomMixin.queryRoomQuickStartReq(msg, queryRoomId, 0)  # 请求转给GR
+                    return None
+                else:
+                    # 最小房间都进不去，弹出逻辑
+                    roomId = roomInfo.get('bigRoomId')
+                    if playMode == 'match':
+                        if ex:
+                            raise ex
+                        raise EnterRoomMatchLessMinDiamondException()
+                    raise EnterRoomLessMinQuickStartCoinException()
+
+            else:
+                # 带roomId 的快开，分 bigRoomId 与 shadowRoomId
+                bigRoomId = gdata.getBigRoomId(roomId)
+                if not bigRoomId:
+                    # 无效的 roomId 后端静默处理
+                    return None
+
+                if tableId == 0:  # 玩家只选择了房间     ### 点具体房间和继续
+                    if roomId != bigRoomId:  # 点继续
+                        ctrlRoomId = gdata.roomIdDefineMap()[roomId].parentId or roomId
+                        queryRoomId = roomId
+                    else:
+                        queryRoomId = cls._getQueryRoomId(userId, bigRoomId)
+
+                    innerTable = msg.getParam("innerTable", 0)  # innerTable 区分不同版本弹窗
+
+                    mixId = msg.getParam('mixId', '')
+                    roomConfig = {'roomConfig': cls._getRoomConfigure(queryRoomId, mixId),
+                                  'ctrlRoomId': queryRoomId}
+                    ret = cls._canEnterRoom(userId, roomConfig,  playMode, innerTable, roomIdChoice=roomId)
+                    if ret:
+                        TYRoomMixin.queryRoomQuickStartReq(msg, queryRoomId, 0)  # 请求转给GR
+                    return None
+
+                if tableId == roomId * 10000:  # 玩家在队列里断线重连
+                    TYRoomMixin.queryRoomQuickStartReq(msg, roomId, tableId)  # 请求转给GR
+                    return None
+                if seatId:
+                    # 牌桌里坐着的玩家断线重连，请求转给GT
+                    TYRoomMixin.sendSitReq(userId, roomId, tableId, clientId)
+                else:  # 玩家选择了桌子,
+                    shadowRoomId = tableId / 10000
+                    ctrRoomId = gdata.roomIdDefineMap()[shadowRoomId].parentId
+                    TYRoomMixin.queryRoomQuickStartReq(msg, ctrRoomId, tableId, shadowRoomId=shadowRoomId)  # 请求转给GR
+                return None
+        except EnterRoomException, e:
+            cls._handleEnterRoomException(e, userId, gameId, roomId, mixId=msg.getParam('mixId', None))
+
+    @classmethod
+    def _queryMatchSignin(cls, userId, bigRoomId, mixId, clientId):
+        ''' 报名比赛 '''
+        mo = MsgPack()
+        mo.setCmd('m_signin')
+        mo.setParam('gameId', DIZHU_GAMEID)
+        mo.setParam('roomId', bigRoomId)
+        mo.setParam('userId', userId)
+        mo.setParam('clientId', clientId)
+        dizhuVersion = SessionDizhuVersion.getVersionNumber(userId)
+        mo.setParam('version', dizhuVersion)
+        mo.setParam('feeIndex', 0)
+        if mixId:
+            mo.setParam('signinParams', {'mixId': mixId})
+        router.queryRoomServer(mo, bigRoomId)  # ut向gr，相当于用户点报名传给gr
+
+
+    @classmethod
+    def _getQueryRoomId(cls, userId, bigRoomId):
+        ''' 获取 queryroomid '''
+        ctrRoomIds = gdata.bigRoomidsMap()[bigRoomId]  # gr
+        return ctrRoomIds[userId % len(ctrRoomIds)]
+
+    @classmethod
+    def _checkUserLoc(cls, userId, clientId, gameId):
+        ''' 检查用户位置信息，返回所在房间roomId以及tableId '''
+        if not pokerconf.isOpenMoreTable(clientId):
+            loc = onlinedata.checkUserLoc(userId, clientId, gameId)
+            if isinstance(loc, basestring):
+                locGameId, locRoomId, locTableId, locSeatId = loc.split('.')
+                locGameId, locRoomId, locTableId, locSeatId = strutil.parseInts(locGameId, locRoomId, locTableId, locSeatId)
+                if locGameId == gameId and locRoomId > 0:
+                    if ftlog.is_debug():
+                        ftlog.debug('DizhuQuickStartWx.checkUserLoc'
+                                    'userId=', userId,
+                                    'clientId=', clientId,
+                                    'locRoomId=', locRoomId,
+                                    'locTableId=', locTableId,
+                                    'locSeatId=', locSeatId)
+                    return locRoomId, locTableId, locSeatId
+        return 0, 0, 0
+
+    @classmethod
+    def _checkGameShutdown(cls, location):
+        ''' 检查服务器是否是停服准备 '''
+        locTableId = location[1]
+        if not locTableId and game.isShutDown():
+            return True
+        return False
+
+    @classmethod
+    def _getQuickStartRoomList(cls, userId, playMode):
+        ''' 获取快开房间列表 '''
+        clientId = sessiondata.getClientId(userId)
+        sessions = hallconf.getHallSessionInfo(DIZHU_GAMEID, clientId)
+        sessionRoomInfoList = []
+        for session in sessions:
+            if session.get('playMode') == playMode:
+                for room in session.get('rooms', []):
+                    bigRoomId = room.get('id')
+                    segment = room.get('segment')
+                    ctrlRoomId = bigRoomId * 10000 + 1000
+                    mixId = room.get('mixId')
+                    roomConfig = cls._getRoomConfigure(ctrlRoomId, mixId)
+                    sessionRoomInfoList.append({
+                        'bigRoomId': bigRoomId,
+                        'ctrlRoomId': ctrlRoomId,
+                        'mixId': mixId,
+                        'roomConfig': roomConfig,
+                        'segment': segment})
+                break
+
+        # 房间过滤排序
+        if playMode == 'match':
+            sessionRoomInfoList.sort(key=lambda x: x['roomConfig'].get('minQuickStartDiamond'))
+        else:
+            sessionRoomInfoList.sort(key=lambda x: x['roomConfig'].get('minQuickStartChip'))
+
+        if ftlog.is_debug():
+            ftlog.debug('DizhuQuickStartWx._getQuickStartRoomList',
+                        'userId=', userId,
+                        'playMode=', playMode,
+                        'sessionRoomInfoList=', sessionRoomInfoList)
+        return sessionRoomInfoList
+
+    @classmethod
+    def _choiceRoom(cls, userId, sessionRoomInfoList, playMode, innerTable=0, userSegment=0):
+        ''' 从备选房间列表选一个房间 '''
+        sessionRoomInfo = sessionRoomInfoList[0]  # 默认返回最小房间ID
+        result = 0
+        ex = None
+        for r in reversed(sessionRoomInfoList):
+            # 判断能否进入房间
+            try:
+                ret = cls._canEnterRoom(userId, r, playMode, innerTable, userSegment, None)
+            except EnterRoomException as e:
+                ex = e
+                continue
+            if ret:
+                sessionRoomInfo = r
+                result = 1
+                break
+        if ftlog.is_debug():
+            ftlog.debug('DizhuQuickStartWx._choiceRoom',
+                        'userId=', userId,
+                        'playMode=', playMode,
+                        'ret=', result,
+                        'ex=', ex,
+                        'sessionRoomInfo=', sessionRoomInfo)
+        return result, sessionRoomInfo, ex
+
+    @classmethod
+    def _canEnterRoom(cls, userId, sessionRoomInfo,  playMode, innerTable=0, userSegment=0, roomIdChoice=None):
+        ''' 判断能否进入房间 innerTable 以 kickOutCoin or minCoin 判断 '''
+        if ftlog.is_debug():
+            ftlog.debug('DizhuQuickStartWx._canEnterRoom Enter userId=', userId,
+                        'sessionRoomInfo=', sessionRoomInfo,
+                        'playMode=', playMode,
+                        'innerTable=', innerTable,
+                        'userSegment=', userSegment,
+                        'roomIdChoice=', roomIdChoice)
+
+        # 判断准入需要区分playMode
+        if not playMode:
+            # 因为比赛场只有房间列表的快开，所以可以直接从房间获取
+            playMode = sessionRoomInfo['roomConfig'].get('playMode')
+
+        if playMode == 'match':
+            roomSegment = sessionRoomInfo.get('segment', 0)
+            if userSegment < roomSegment:
+                raise EnterRoomConditionException(message='您的段位尚不足解锁此房间, 赶快去升级吧～')
+
+            userDiamond = user_assets.getUserAssetBalance(userId, 'item:1311')
+            if userDiamond < sessionRoomInfo['roomConfig'].get('minQuickStartDiamond', 0):
+                if ftlog.is_debug():
+                    ftlog.debug('DizhuQuickStartWx._canEnterRoom NotAllow minQuickStartDiamond',
+                                'userId=', userId,
+                                'ctrlRoomId=', sessionRoomInfo['ctrlRoomId'],
+                                'mixRoomId=', sessionRoomInfo['roomConfig'].get('roomId'),
+                                'roomIdChoice=', roomIdChoice,
+                                'mixId=', sessionRoomInfo['roomConfig'].get('mixId'),
+                                'playMode=', playMode,
+                                'userDiamond=', userDiamond,
+                                'minQuickStartDiamond=', sessionRoomInfo['roomConfig'].get('minQuickStartDiamond', 0))
+                raise EnterRoomMatchLessMinDiamondException()
+        else:
+            userChip = userchip.getChip(userId)
+            if not roomIdChoice and userChip < sessionRoomInfo['roomConfig'].get('minQuickStartChip', 0):
+                if ftlog.is_debug():
+                    ftlog.debug('DizhuQuickStartWx._canEnterRoom NotAllow minQuickStartChip',
+                                'userId=', userId,
+                                'ctrlRoomId=', sessionRoomInfo['ctrlRoomId'],
+                                'mixRoomId=', sessionRoomInfo['roomConfig'].get('roomId'),
+                                'roomIdChoice=', roomIdChoice,
+                                'mixId=', sessionRoomInfo['roomConfig'].get('mixId'),
+                                'playMode=', playMode,
+                                'userChip=', userChip,
+                                'minQuickStartChip=', sessionRoomInfo['roomConfig'].get('minQuickStartChip', 0))
+                raise EnterRoomLessMinQuickStartCoinException()
+
+            if innerTable == 1 and sessionRoomInfo['roomConfig'].get('kickOutCoin', 0) > 0 and userChip < sessionRoomInfo['roomConfig'].get('kickOutCoin'):
+                if ftlog.is_debug():
+                    ftlog.debug('DizhuQuickStartWx._canEnterRoom NotAllow kickOutCoin',
+                                'userId=', userId,
+                                'ctrlRoomId=', sessionRoomInfo['ctrlRoomId'],
+                                'mixRoomId=', sessionRoomInfo['roomConfig'].get('roomId'),
+                                'roomIdChoice=', roomIdChoice,
+                                'mixId=', sessionRoomInfo['roomConfig'].get('mixId'),
+                                'playMode=', playMode,
+                                'userChip=', userChip,
+                                'kickOutCoin=', sessionRoomInfo['roomConfig'].get('kickOutCoin', 0))
+                raise EnterRoomLessMinKickOutCoinException()
+
+            if innerTable == 0 and sessionRoomInfo['roomConfig'].get('minCoin', 0) > 0 and userChip < sessionRoomInfo['roomConfig'].get('minCoin'):
+                if ftlog.is_debug():
+                    ftlog.debug('DizhuQuickStartWx._canEnterRoom NotAllow minCoin',
+                                'userId=', userId,
+                                'ctrlRoomId=', sessionRoomInfo['ctrlRoomId'],
+                                'mixRoomId=', sessionRoomInfo['roomConfig'].get('roomId'),
+                                'roomIdChoice=', roomIdChoice,
+                                'mixId=', sessionRoomInfo['roomConfig'].get('mixId'),
+                                'playMode=', playMode,
+                                'userChip=', userChip,
+                                'minCoin=', sessionRoomInfo['roomConfig'].get('minCoin', 0))
+                raise EnterRoomLessMinCoinException()
+
+            # 检测 maxCoin
+            if sessionRoomInfo['roomConfig'].get('maxCoin') and userChip > sessionRoomInfo['roomConfig'].get('maxCoin') > 0:
+                if ftlog.is_debug():
+                    ftlog.debug('DizhuQuickStartWx._canEnterRoom NotAllow maxCoin',
+                                'userId=', userId,
+                                'ctrlRoomId=', sessionRoomInfo['ctrlRoomId'],
+                                'mixRoomId=', sessionRoomInfo['roomConfig'].get('roomId'),
+                                'roomIdChoice=', roomIdChoice,
+                                'mixId=', sessionRoomInfo['roomConfig'].get('mixId'),
+                                'playMode=', playMode,
+                                'userChip=', userChip,
+                                'kickOutCoin=', sessionRoomInfo['roomConfig'].get('maxCoin', 0))
+                raise EnterRoomGreaterThanMaxCoinException()
+
+
+        # 通用判断: 房间开放时段
+        if not cls._checkOpenTime(sessionRoomInfo['roomConfig'], datetime.datetime.now().time()):
+            if ftlog.is_debug():
+                ftlog.debug('DizhuQuickStartWx._canEnterRoom NotAllow OpenTime',
+                            'userId=', userId,
+                            'ctrlRoomId=', sessionRoomInfo['ctrlRoomId'],
+                            'mixRoomId=', sessionRoomInfo['roomConfig'].get('roomId'),
+                            'roomIdChoice=', roomIdChoice,
+                            'mixId=', sessionRoomInfo['roomConfig'].get('mixId'),
+                            'playMode=', playMode,
+                            'kickOutCoin=', sessionRoomInfo['roomConfig'].get('maxCoin', 0))
+            raise EnterRoomOpenTimeException()
+
+        # 房间条件检测
+        ret, message = cls._checkRoomConditions(userId, sessionRoomInfo['roomConfig'])
+        if not ret:
+            if ftlog.is_debug():
+                ftlog.debug('DizhuQuickStartWx._canEnterRoom NotAllow Condition',
+                            'userId=', userId,
+                            'roomId=', sessionRoomInfo['roomConfig'].get('roomId'),
+                            'mixId=', sessionRoomInfo['roomConfig'].get('mixId'),
+                            'roomIdChoice=', roomIdChoice,
+                            'playMode=', playMode,
+                            'message=', message)
+            raise EnterRoomConditionException(message=message)
+        return True
+
+    @classmethod
+    def _checkOpenTime(cls, roomConfig, nowTime):
+        ''' 检测房间开放时间 '''
+        openTimeList = roomConfig.get('openTimeList')
+        if not openTimeList:
+            return True
+        timeZeroStr = '00:00:00'
+        for timeRange in openTimeList:
+            try:
+                beginTime = datetime.datetime.strptime(timeRange.get('begin', timeZeroStr), '%H:%M:%S').time()
+                endTime = datetime.datetime.strptime(timeRange.get('end', timeZeroStr), '%H:%M:%S').time()
+                if beginTime == endTime:
+                    return True
+                elif beginTime < endTime:
+                    if beginTime <= nowTime < endTime:
+                        return True
+                else:
+                    if nowTime >= beginTime or nowTime < endTime:
+                        return True
+            except Exception, e:
+                ftlog.error('DizhuQuickStartWx._checkOpenTime',
+                            'openTimeList=', openTimeList,
+                            'timeRange=', timeRange,
+                            'err=', e.message)
+        return False
+
+    @classmethod
+    def _checkRoomConditions(cls, userId, roomConfig):
+        enterRoomCondList = roomConfig.get('enterRoomCond')
+        clientId = sessiondata.getClientId(userId)
+        if enterRoomCondList:
+            try:
+                for enterCond in enterRoomCondList:
+                    cond = enterCond['cond']
+                    msg = enterCond['msg']
+
+                    result = UserConditionRegister.decodeFromDict(cond).check(DIZHU_GAMEID, userId, clientId, pktimestamp.getCurrentTimestamp())
+                    if not result:
+                        if ftlog.is_debug():
+                            ftlog.debug('DizhuQuickStartWx._validEnterRoomConditions',
+                                        'gameId=', DIZHU_GAMEID,
+                                        'userId=', userId,
+                                        'clientId=', clientId,
+                                        'roomConfig=', roomConfig,
+                                        'enterRoomCond=', enterRoomCondList,
+                                        'ret=', msg)
+                        return result, msg
+                return True, 'ok'
+            except Exception, e:
+                ftlog.error('DizhuQuickStartWx._validEnterRoomConditions',
+                            'gameId=', DIZHU_GAMEID,
+                            'userId=', userId,
+                            'clientId=', clientId,
+                            'roomConfig=', roomConfig,
+                            'enterRoomCond=', enterRoomCondList,
+                            'err=', e.message)
+                return False, e.message
+        return True, 0
+
+
+    @classmethod
+    def _getRoomConfigure(cls, roomId, mixId=None):
+        ''' 获取房间配置 '''
+        roomConfigure = gdata.roomIdDefineMap()[roomId].configure
+        if roomConfigure.get('typeName') == 'dizhu_arena_match':
+            feeRewardList = roomConfigure.get('matchConf', {}).get('feeRewardList', [])
+            if feeRewardList:
+                for mixConf in feeRewardList:
+                    if mixConf.get('mixId') == mixId:
+                        return mixConf
+                return feeRewardList[0] if feeRewardList else {}
+        elif roomConfigure.get('typeName') == 'dizhu_mix':
+            mixConfList = roomConfigure.get('mixConf', [])
+            for mixConf in mixConfList:
+                if mixConf.get('mixId') == mixId:
+                    return mixConf
+            return mixConfList[0] if mixConfList else {}
+        return roomConfigure
+
+    @classmethod
+    def _handleEnterRoomException(cls, e, userId, gameId, roomId, mixId=None):
+        ''' 进入房间失败处理函数 '''
+        if isinstance(e, (EnterRoomLessMinKickOutCoinException, EnterRoomLessMinCoinException, EnterRoomLessMinQuickStartCoinException)):
+            #@TODO 要删掉
+            dizhuVersion = SessionDizhuVersion.getVersionNumber(userId)
+            if not dizhuVersion or dizhuVersion < 5.08:
+                desc = '金币不足'
+                note = '金币不足'
+                todotask = TodoTaskLessBuyOrder(desc, None, note, None)
+                TodoTaskHelper.sendTodoTask(gameId, userId, todotask)
+
+            bigRoomId = gdata.getBigRoomId(roomId)
+            clientId = sessiondata.getClientId(userId)
+            if roomId != bigRoomId:  # 点继续
+                ctrlRoomId = gdata.roomIdDefineMap()[roomId].parentId or roomId
+                queryRoomId = ctrlRoomId
+            else:
+                queryRoomId = cls._getQueryRoomId(userId, bigRoomId)
+            roomConfig = cls._getRoomConfigure(queryRoomId, mixId)
+            if roomConfig.get('kickOutBurialId'):
+                shareLeftCount = getShareLeftCountByBurialId(gameId, userId, clientId, roomConfig.get('kickOutBurialId'))
+                sharePoint = getSharePointByBurialId(gameId, userId, clientId, roomConfig.get('kickOutBurialId'))
+                if shareLeftCount:
+                    items = sharePoint.reward.content.getItems() if sharePoint.reward else []
+                    cls._sendToUserQuickStartRes(userId, gameId, roomId, e.errorCode, e.message,
+                                                 burialId=roomConfig.get('kickOutBurialId'), reward=hallitem.buildItemInfoList(items))
+                    return
+            if isinstance(e, EnterRoomLessMinKickOutCoinException):
+                todoTask = makeTodoTaskluckBuyOrLessBuyChip(gameId, userId, clientId, roomConfig.get('roomId') or bigRoomId, minCoin=roomConfig.get('minCoin'))
+            else:
+                todoTask = makeTodoTaskluckBuyOrLessBuyChip(gameId, userId, clientId, roomConfig.get('roomId') or bigRoomId, minCoin=roomConfig.get('minCoin'), priority='lessbuychip')
+            if todoTask:
+                cls._sendToUserQuickStartRes(userId, gameId, roomId, e.errorCode, e.message, todoTask=todoTask.toDict())
+                return
+
+        # @TODO 要删掉
+        dizhuVersion = SessionDizhuVersion.getVersionNumber(userId)
+        if not dizhuVersion or dizhuVersion < 5.08:
+            todotask = TodoTaskShowInfo(e.message)
+            TodoTaskHelper.sendTodoTask(gameId, userId, todotask)
+        cls._sendToUserQuickStartRes(userId, gameId, roomId, e.errorCode, e.message)
+
+    @classmethod
+    def _sendToUserQuickStartRes(cls, userId, gameId, roomId, errorCode, errorMsg, **kwargs):
+        mo = MsgPack()
+        mo.setCmd('quick_start_res')
+        mo.setResult('userId', userId)
+        mo.setResult('gameId', gameId)
+        mo.setResult('roomId', roomId)
+        mo.setResult('resCode', errorCode)
+        mo.setResult('resMsg', errorMsg)
+        mo.setResult('params', kwargs)
+        router.sendToUser(mo, userId)
+        if ftlog.is_debug():
+            ftlog.debug('DizhuQuickStartWx._sendToUserQuickStartRes',
+                        'userId=', userId,
+                        'gameId=', gameId,
+                        'roomId=', roomId,
+                        'resCode=', errorCode,
+                        'resMsg=', errorMsg,
+                        'params=', kwargs)
+
+    @classmethod
+    def getUserTotalPlayCount(cls, userId):
+        winrate2 = gamedata.getGameAttrs(userId, DIZHU_GAMEID, ['winrate2'], False)[0]
+        winrate2 = strutil.loads(winrate2, ignoreException=True, execptionValue={'pt': 0, 'wt': 0})
+        return winrate2['pt']

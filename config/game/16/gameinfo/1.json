@@ -1,0 +1,235 @@
+{
+	"relatedGames": [
+		{"type": "game", "typeId": "clown", "gameId": 27, "vipLevel":1, "enter_param": {"gameType": 1}, "isOffline": 0},
+		{"type": "game", "typeId": "dragon", "gameId": 23, "vipLevel":1, "enter_param": {"gameType": 1}, "isOffline": 0},
+		{"type": "game", "typeId": "newfruit", "gameId": 31, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0},
+		{"type": "game", "typeId": "dog", "gameId": 19, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0}
+	],
+	"cows": [
+		{"point": 0, "name": "无牛", "times": 1},
+		{"point": 1, "name": "牛丁", "times": 1},
+		{"point": 2, "name": "牛二", "times": 1},
+		{"point": 3, "name": "牛三", "times": 1},
+		{"point": 4, "name": "牛四", "times": 1},
+		{"point": 5, "name": "牛五", "times": 1},
+		{"point": 6, "name": "牛六", "times": 1},
+		{"point": 7, "name": "牛七", "times": 1},
+		{"point": 8, "name": "牛八", "times": 2},
+		{"point": 9, "name": "牛九", "times": 2},
+		{"point": 10, "name": "牛牛", "times": 2},
+		{"point": 11, "name": "银牛", "times": 2},
+		{"point": 12, "name": "金牛", "times": 2},
+		{"point": 13, "name": "炸弹", "times": 2},
+		{"point": 14, "name": "五小牛", "times": 2},
+		{"point": 15, "name": "同花牛", "times": 2},
+		{"point": 16, "name": "花炸牛", "times": 2},
+		{"point": 17, "name": "花顺牛", "times": 2}
+	],
+	"public": {
+		"ledBaseChip": 4000000,
+		"ledKingAtMinute": 20,
+		"ledKingBaseChip": 5000000,
+		"ledPoolPrizeBaseChip": 1000000,
+		"kick_after_rounds": 30,
+		"kick_vip_lessthan": 5,
+		"day_lose_uplimit": 500000000,
+		"sys_chip_up": 2000000000,
+		"sys_chip_down": 0,
+		"sys_control_rate": 0.75
+	},
+	"bet": {
+		"bet_limit": 20000000,
+		"vip_required_for_bet": 1,
+		"limit_chip": 10000,
+		"base_bet_range": [100, 1000, 10000, 100000, 500000, 1000000],
+		"time_interval": {
+			"game_ready": 4,
+			"game_start": 2.5,
+			"bet_start": 15,
+			"game_seal": 0,
+			"game_cards": 15,
+			"pool": 7
+		},
+		"bet_range": [
+			{"chip": [0, 500000], "baseBet": [100, 1000, 10000]},
+			{"chip": [500000, 5000000], "baseBet": [1000, 10000, 100000]},
+			{"chip": [5000000, 30000000], "baseBet": [10000, 100000, 500000]},
+			{"chip": [30000000, -1], "baseBet": [10000, 500000, 1000000]}
+		],
+		"default_bet_index": 1,
+		"win_tops": 3,
+		"banker_choushui": 5,
+		"player_choushui": 6,
+		"loseUplimit": 2000000000
+	},
+	"history": {
+		"num": 10
+	},
+	"banker": {
+		"banker_claim": {
+			"minchip": 5000000,
+			"maxchip": 50000000,
+			"pluschip": 5000000
+		},
+		"union_join": {
+			"minchip": 1000000,
+			"pluschip": 1000000,
+			"maxusers": 2
+		},
+		"banking": {
+			"max_round": 4,
+			"minchip": 1000000,
+			"huazi": {
+				"lirun_rate": 10,
+				"countdown_round": 5
+			}
+		}
+	},
+	"pool": {
+		"choushui_rate": [
+			{"minChip": 1000000000, "maxChip": -1, "rate": 10},
+			{"minChip": 0, "maxChip": 1000000000, "rate": 25}
+		],
+		"init_chip": 20000000,
+		"base_chip": 0,
+		"trigger": [
+			{
+				"points": [17],
+				"times": 50
+			},
+			{
+				"points": [15, 16],
+				"times": 3
+			},
+			{
+				"points": [12, 13, 14],
+				"times": 2
+			},
+			{
+				"points": [11],
+				"times": 1
+			}
+		],
+		"pool_list_len": 20,
+		"guide": [
+			"所有玩家的获利将有小部分进入彩池。\n玩家押中银牛及以上牌型时100%爆彩。\n特殊牌型：花顺牛、花炸牛、同花牛、五小牛、炸弹、金牛、银牛。\n彩池奖励：闲牌中彩，由所有在中奖牌型下押注的玩家按押注金额比例分彩池奖励；主牌中彩，则由全场玩家按押注比例分彩池奖励。\n特殊牌型中彩倍数：\n   花顺牛———————50倍\n   花炸牛、同花牛————3倍\n   五小牛、炸弹、金牛—2倍\n   银牛————————1倍"
+		]
+	},
+	"parter": {
+		"help": [
+			"合伙上庄可与其他玩家一起凑钱上庄，盈利后按照加入比例分成。\n发起合伙上庄后，不能再次申请上庄，也不能加入其它合伙。\n加入合伙后，不能再次加入其它合伙，也不能发起合伙。\n开通最多支持3位玩家合伙上庄。\n发起者若掉线则自动退出排队。"
+		]
+	},
+	"king": {
+		"count": 10,
+		"reward_ratio": [50, 22, 8, 2, 2, 2, 1, 1, 1, 1],
+		"caijin_choushui": 0.3,
+		"reward": 20000000,
+		"caijin_guide": [
+			"1、彩金由所有玩家押注形成(包括庄闲);",
+			"2、押注越多累积彩金越高;",
+			"3、当日押注排名前10名,次日获得奖励;",
+			"4、彩金奖励需玩家主动领取;",
+			"5、当日不领取则自动失效,请及时领取."
+		]
+	},
+	"fire": {
+		"timeout": 10,
+		"user": {
+			"price": 100000,
+			"count": [1, 5, 10],
+			"basefee": [21888, 155200, 328200],
+			"rewards": [
+				{
+					"small": {"chip": 688, "number": 99}
+				},
+				{
+					"small": {"chip": 2888, "number": 99}
+				},
+				{
+					"small": {"chip": 5888, "number": 99}
+				}
+			],
+			"broadcast_sys_msgs": [
+				"富农{name}放了10万大礼花！",
+				"土豪{name}放了50万大礼花！",
+				"惊呆了，超级土豪{name}放了一百万大礼花，赶紧膜拜吧！"
+			],
+			"reward_msgs": [
+				"恭喜您获得富农{name}的礼金{chip}金币！",
+				"恭喜您获得土豪{name}的礼金{chip}金币！",
+				"恭喜您获得超级土豪{name}的礼金{chip}金币！"
+			],
+			"msg_lable_types": [0, 0, 2]
+		},
+		"system": {
+			"begin": "2016-07-22 12:00:00",
+			"end": "2017-07-22 12:00:00",
+			"times_per_hour": 1,
+			"least_interval": 10,
+			"guixie_name": "系统",
+			"fire_index": 0,
+			"basefee": 31888,
+			"reward": {
+				"small": {"chip": 688, "number": 99}
+			},
+			"broadcast_sys_msg": "系统发放了1个大礼花！",
+			"reward_msg": "恭喜您获得系统发放的礼金{chip}金币！"
+		}
+	},
+	"products": {
+        "androidVipTableBuyLeastChip": [
+            {
+                "vip_required": 0,
+                "products": [360000, 1500000, 5000000]
+            },
+            {
+                "vip_required": 6,
+                "products": [1500000, 5000000, 20000000]
+            }
+        ],
+        "iosVipTableBuyLeastChip": [
+            {
+                "vip_required": 0,
+                "products": [360000, 1400000, 3000000]
+            },
+            {
+                "vip_required": 6,
+                "products": [3000000, 5500000, 12000000]
+            }
+        ]
+	},
+	"chat": {
+		"vip_required": 5,
+		"interval_chat": 10,
+		"period_after_guixie": 60,
+		"welcome_vip_limit": 6,
+		"welcome_vip_msg_fmt": "欢迎土豪{name}VIP{VIPLevel}进入房间!",
+		"welcome_time_limit": 30,
+		"define_chat": [
+			"土豪发礼花，运气好到家～",
+			"大黑牛在手，冰冰跟我走！",
+			"上庄就带满，赢到手发软～",
+			"放个大礼花，运气顶呱呱！",
+			"牛在手，跟我走，一把就买下途游！",
+			"手里有牛牛，金币不用愁。",
+			"听说魅力越高运气越好，真的吗？",
+			"跪谢土豪"
+		],
+		"period_sysmsg": 600,
+		"game_define_sysmsg": [
+		]
+	},
+	"seats": {
+		"offsite_onepage_players": 15,
+		"siteseat_vip": 3,
+		"kick_no_activity": 100
+	},
+	"daoju": [
+		{"id": 1, "name": "鸡蛋", "price": 1000, "self_meili": 100, "peer_meili": -100},
+		{"id": 2, "name": "炸弹", "price": 2000, "self_meili": 200, "peer_meili": -200},
+		{"id": 3, "name": "大拇指", "price": 1000, "self_meili": 100, "peer_meili": 100},
+		{"id": 4, "name": "鲜花", "price": 5000, "self_meili": 500, "peer_meili": 500},
+		{"id": 5, "name": "钻戒", "price": 10000, "self_meili": 10000, "peer_meili": 10000}
+	]
+}

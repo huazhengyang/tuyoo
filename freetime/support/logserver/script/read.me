@@ -1,0 +1,17 @@
+简单测试步骤：
+./debug.sh
+
+
+demo测试数据流：
+debug_cli.sh        CO01            AG02            AG04            GA01 
+      |               |               |               |               |
+      |       -udp->  |  -tcp.query-> |     --tcp-->  |      --tcp--> |
+      |               |               |               |               |
+      |               |  <--tcp--     |    <--tcp--   | <-tcp.response|
+      |               |               |               |               |
+
+
+查看CO01.log AG02.log AG04.log GA01.log查看这个数据流程记录。
+
+
+
